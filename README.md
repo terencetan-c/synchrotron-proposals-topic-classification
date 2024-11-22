@@ -2,7 +2,7 @@
 ## Background
 This work develops a data pipeline to assign topics to Photon and Neutron (PaN) experimental proposals.
 
-To use the facilities provided by PaN institutes, potential users have to submit a proposal which will be reviewed. Once approved, the users can then carry out their experiments and possibly publish the results of the experiments.
+To use the facilities provided by PaN institutes, potential users have to submit a proposal which will be reviewed. Once approved, the users can then carry out their experiments and possibly publish the results of the experiments. Note that a single proposal could lead to multiple experiment sessions.
 
 Currently, there exist only high-level topic classifications for these proposals. This work aims to provide topics with a greater level of granularity.
 
@@ -11,7 +11,13 @@ The OpenAlex team [1] developed a model and topics vocabulary to classify public
 ## Methodology
 The model developed by the OpenAlex team uses the **Title**, **Abstract**, **Referenced works** (the works that the publication cites), and **Journal name** of the publications to make the topic predictions. 
 
-Simiarly, experimental proposals also have **Title** and **Abstract**. For **Referenced works**, the proposal is mapped to all the publications that the former is associated with, using metadata stored by the PaN facilities. The **Journal name** is left as a blank string.
+Simiarly, experimental proposals also have **Title** and **Abstract**, which are currently not openly available. However, they are reused in the experiment session metadata, athough certain experiment sessions may have a manually created **Title** and **Abstract**. Hence, we gather all the **Title** and **Abstract** metadata from the experiment sessions, remove any duplicates, and concatenate the rest into one big **Title** and one big **Abstract**. 
+
+For **Referenced works**, the proposal is mapped to all the publications that the former is associated with, using metadata stored by the PaN facilities. 
+
+The **Journal name** is not relevant for experiment proposals. However, we use the **Subject** metadata of the experiment sessions as a substitute.
+
+![alt text](image.png)
 
 In order to get the mappings for **Referenced works**, the publications and proposals of the PaN facilities have been gathered and stored in the Datasets folder. The code for the mdoel has also been copied from the OpenAlex GitHub repository (https://github.com/ourresearch/openalex-topic-classification).
 
