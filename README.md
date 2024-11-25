@@ -19,10 +19,12 @@ The **Journal name** is not relevant for experiment proposals. However, we use t
 
 ![alt text](image.png)
 
-In order to get the mappings for **Referenced works**, the publications and proposals of the PaN facilities have been gathered and stored in the Datasets folder. The code for the mdoel has also been copied from the OpenAlex GitHub repository (https://github.com/ourresearch/openalex-topic-classification).
+In order to get the mappings for **Referenced works**, the publications and proposals of the PaN facilities have been gathered and stored in the Datasets folder. The code for the model has also been copied from the OpenAlex GitHub repository (https://github.com/ourresearch/openalex-topic-classification).
 
 ## How to use
-Download the model artifacts from the Zenodo page [2]. All the other necessary data files are in the Datasets folder. There are two Jupyter Notebooks, **Data Processing.ipynb** for importing and processing data, and **Topic classification.ipynb** is for the actual implementation of the model.
+Download the model artifacts from the Zenodo page [2]. All the other necessary data files are in the Datasets folder. 
+
+There are two Jupyter Notebooks, **Data Processing.ipynb** for importing and processing data, and **Topic classification.ipynb** is for the actual implementation of the model. In order to run these two Notebooks, it is recommended to create a virtual enviroment and install packages using the requirements.txt (which is the one provided on the OpenAlex GitHub repository with some additional packages added to it).
 
 The full dataset of proposals with the corresponding topic predictions can be found in the Datasets folder. For example, the one for ESRF is called **Proposals_ESRF_Predictions**.
 
