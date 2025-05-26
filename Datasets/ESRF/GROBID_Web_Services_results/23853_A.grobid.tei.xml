@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">X-ray Microdiffraction of Patterned GaN Epilayers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2003-02-23">23 February 2003</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">O</forename><surname>Plantevin</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">T</forename><forename type="middle">H</forename><surname>Metzger</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yuval</forename><surname>Golan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Shandalov</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shai</forename><surname>Zamir</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Electrical Engineering</orgName>
+								<orgName type="institution">The Technion</orgName>
+								<address>
+									<settlement>Haifa</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Dept. of Materials Engineering</orgName>
+								<orgName type="institution" key="instit2">Ben-Gurion University</orgName>
+								<address>
+									<settlement>Beer-Sheva</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">X-ray Microdiffraction of Patterned GaN Epilayers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2003-02-23">23 February 2003</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">77293A5BC2FE7478648FE3514BA89E6F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T15:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Motivation</head><p>The use of small-area or focused X-ray beam for diffraction was used for the study of micropatterned GaN films deposited using MOCVD. Our photoluminescence (PL) and transmission electron microscopy (TEM) studies showed that as the patterned substrate area on which GaN is grown gets smaller in size, the normalized PL intensity gets stronger. This phenomenon was explained and then confirmed by TEM studies, which showed that around the grown area edge the threading dislocation density (TDD) is about one order of magnitude smaller then at the area center. Moreover it is assumed that as the TDD gets higher, the radiative efficiency of the film gets smaller, and therefore its PL intensity is lower. According to this explanation, when the square pattern area becomes smaller, the ratio between the area in close vicinity of the edge and the center area gets larger, and the PL intensity is stronger.</p><p>In order to directly confirm and establish this explanation it was suggested to measure the X-ray diffraction of the patterned GaN with high spatial resolution, which will enable to evaluate the material quality. The Xray beam should be of several microns in diameter, in order to resolve the surface patterns, and to be highly intense, so results can be recorded out of the small diffracting volume. Therefore synchrotron radiation is perfectly suited for this measurement due to its high brightness and the ability to control the beam optics.</p><p>The experiment methodology was to measure an a-symmetric reflection of (1 0. l) planes, along a line which crosses GaN patterns and trenches between the patterns, and to record the FWHM and peak intensity at each position. The choice of the a-symmetric reflection, such as (1 0. 1) was due to its sensitivity to both edgeand screw-type dislocations.</p><p>To achieve a high accuracy of the measurement, it is desired to have exact knowledge of where the X-ray beam excites the sample, and fully control the sample movement under the beam. The exact sample location control is achieved using a multi-axis goniometer with high resolution translation motors. The knowledge of the exact beam location is much less trivial. It demands the use of a high resolution camera and of a method to identify the exact area excited by the invisible X-ray beam.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Achieving a small diameter X-ray beam</head><p>The small diameter beam can be achieved in two ways: (1) focusing, and (2) blocking of part of the beam. The focusing is favourable, since it should keep the beam intensity high, and be less sensitive to slight misalignment of the beam optics. This was the first experiment which was performed. A zone-plate focusing lens was placed in the beam path. This lens was made of a gold plated Si, in which a ~3 mm circle was deep etched and close to the circle center a ~0.7 mm zone-plate was defined by lithography. The intensity profile of the beam which passed through the zone-plate wafer was mapped by a mesh scan, in order to find the exact location of the focused part of the beam. However, the wafer on which the zone-plate was made was damaged, and may have lost the focusing ability. The mesh scan is seen in Figure <ref type="figure">1</ref>.</p><p>Since the location of the focused beam was not found, the other solution was used, and the beam diameter was restricted by slits, down to a size of ~5x5 m 2 which should still be in the desired measurement demands. The loss of intensity due to the use of the slits was not significant to this work, and the intensity of the rocking curve peaks measured was well in the 10 3 counts region.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scans 98-147 of sample 00Si081, on 30 m pattern size</head><p>Sample 00Si081 is a GaN film grown on top of Si(111) substrate which was patterned prior to growth to form square mesas of size 15, 20, 25 and 30 m, separated by trenches of ~4 m. The growth method is termed LCE -lateral confined epitaxy. It is originally meant to prevent cracking which happens during cooling of the sample from growth temperature down to room temperature. It was expected that the FWHM of the rocking curve will be lowest at the edges of mesa-material (highest quality) and lowest at mesa center. Similarly it was expected that the intensity should oppositely be highest at the edges and lower at the centers.</p><p>A careful line scan was done using a macro which translated the sample horizontally for ~200 m with 4 m steps, and recorded a rocking curve at each step for a 30 micron patterned sample. The results are seen in Figure <ref type="figure">2</ref>. These results reveal no systematic behaviour with the expected ~30 m period. Since there was no means of observing the exact location of the beam at each step these results are inconclusive.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Emission from etched Si area Emission from broken area</head><p>Figure <ref type="figure">1</ref>. Mesh scan of X-ray intensity which passes through the area in which the zone-plate lens is located on the Si wafer. The focused beam which should have been seen close to its center, as a sharp, high peak, is not observed.</p><p>Similar scans were performed several times more, on this sample and some other samples, and the results are shown below. (a) The sample is a selectively grown GaN on Si(111), with 200 nm thermal SiO 2 masking layer, used to define square windows of size 5, 10, 50 and 100 m. It was expected that in this sample, since the GaN which is grown on top of the oxide mask is of low quality, compared to the material grown in the trenches of LCE samples, the contrast between the single crystalline material and the trench material should increase, and the periodicity should appear vividly. The scan results are shown in Figure <ref type="figure" target="#fig_1">4</ref>.</p><p>The period does not correspond to the pattern. Similar measurement was taken on 10 m patterns, and the results are shown below. (101) Rocking curve FWHM as a function of position on 50 m patterns 1.5 1.6 1.7 1.8 1.9 2 2.1 2.2 2.3 2.4 0 10 20 30 40 50 60 70 80 90 100 110 120 Position of motor [ m] FWHM [deg] (101) Rocking curve Intensity as a function of position on 50 m patterns 1600 2100 2600 3100 3600 4100 4600 5100 0 10 20 30 40 50 60 70 80 90 100 110 120 Position of motor [ m] Intensity [A.U.] i ii i = an intensity drop due to a remote alignment of the beam in the macro. ii = an intensity increase due to injection. (b) Here, again, the period does not correspond to the pattern. Therefore it was decided to try this scan type on stripes instead of squares.</p><p>(101) Scan of sample 00Si092, on 12 m stripe width / 12 m stripe distance</p><p>Due to lack of success with the square patterns we moved to a sample of stripe patterns, which should give a more prominent difference in results, between the single crystalline GaN stripes which grew in the Si windows and the polycrystalline GaN which grew on top of the amorphous oxide. However, this could not be achieved since it seems that even with a narrow beam of ~5x5 m 2 (and even ~3x3 m 2 ) which comes at a low angle with surface, the sampled volume includes the high and the low quality material together. The rotation of phi to the Bragg peak limits the ability to align the stripes in a direction completely parallel with the beam. (101) Rocking curve FWHM as a function of position on 10 m patterns 1.7 1.75 1.8 1.85 1.9 1.95 2 2.05 2.1 2.15 0 10 20 30 40 50 60 Position of motor [ m] FWHM [deg] (101) Rocking curve Intensity as a function of position on 10 m patterns 1600 1800 2000 2200 2400 2600 2800 3000 3200 3400 3600 0 10 20 30 40 50 60 Position of motor [ m] Intensity [A.U.] (a) (b)</p><p>(002) Scan of sample 00Si092</p><p>Due to lack of success with a-symmetric reflection (101) we also examined the (002) symmetric reflection, and tried to scan the sample in a direction perpendicular to stripe direction and read the intensity of Bragg peak, in order to resolve the stripes from the trenches. It was done by scanning lines with phi rotation corrections in small steps. In order to find the best periodicity of the line scan, this was done both in a 12/12 area (12 m stripe width / 12 m stripe spacing) and in the 24/24 area. There was no success.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>It is believed that the main factor which prevented the observation of periodicity in the samples was that the effective beam size was greater than 5x5 m 2 , either due to the low angle of incidence between the beam and the sample face (this would not explain failure to resolve the patterns using the 002 scan intensities). This may be confirmed using a combined technique which includes both imaging of the beam on the sample and highly focused x-ray beam.</p><p>The Bragg-Fresnel beam must be studied in order to understand the problems which caused its poor performance. This can be done using imaging in the SEM. If the lens appears to be defective, it is essential to micro-fabricate a new Bragg-Fresnel lens for this purpose.</p><p>Imaging can be done by one of the following methods:</p><p>(1) Using a fluorescent/phosphorescent thin film deposited on top of a patterned sample before the measurement, in order to emit visible light from the excited area. For this application, a high resolution camera should be used, at a close vicinity to the wafer. This camera should be of light weight and should move together with the goniometer such that it can image the wafer face at any angle of diffraction, from the same distance. This camera should also include an in-line light source, such as white LED, to prevent shadowing. We are currently searching for a suitable film.</p><p>(2) Using an X-ray camera in line with the detector, for X-ray imaging of the sample by the diffracted beam, like the work of M. <ref type="bibr">Drakopoulos et al. [J. Phys. D: Appl. Phys. 32(1999)</ref>, A160-A165, "Quantitative X-ray Bragg diffraction topography of periodically domain-inverted LiNbO 3 "].</p><p>The last two shifts were dedicated to measurements of other samples:</p><p>1. PbSe films on GaAs(100). The use of the intense beam in ID-01 allowed us to obtain well-defined Bragg peaks from films of 10 to several hundreds of nm thick. This provided valuable information on the orientation and crystal quality of these films which could not be obtained in-house due to poor signal-to-noise ratios. 2. GaN/AlN Bragg reflectors. Scans were carried out in order to search for superlattice satellite peaks in these samples. No superlattice satellite peaks were observed.</p><p>This document was created with Win2PDF available at <ref type="url" target="http://www.daneprairie.com">http://www.daneprairie.com</ref>. The unregistered version of Win2PDF is for evaluation or non-commercial use only.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .Figure 3 .</head><label>23</label><figDesc>Figure 2. FWHM (a) and intensity (b) of a (101) rocking curve recorded at each point along ~200 m scan, on 30 m sized patterns of sample 00Si081.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. FWHM (a) and intensity (b) of a (101) rocking curve recorded at each point along ~200 m scan, on 50 m sized patterns of sample 00Si097.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. FWHM (a) and intensity (b) of a (101) rocking curve recorded at each point along ~200 m scan, on 30 m sized patterns of sample 00Si081.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,116.84,187.23,342.33,256.75" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

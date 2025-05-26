@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">In situ nanotomography of free and constrained sintering of ceramic powders</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-01-03">03/01/2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Julie</forename><surname>Villanova</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire SIMAP</orgName>
+								<orgName type="laboratory" key="lab2">Laboratoire SIMAP</orgName>
+								<orgName type="institution" key="instit1">Aatreya Venkatesh*</orgName>
+								<orgName type="institution" key="instit2">Grenoble Pierre Lhuissier*</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Didier</forename><surname>Bouvard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire SIMAP</orgName>
+								<orgName type="laboratory" key="lab2">Laboratoire SIMAP</orgName>
+								<orgName type="institution" key="instit1">Aatreya Venkatesh*</orgName>
+								<orgName type="institution" key="instit2">Grenoble Pierre Lhuissier*</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Laboratoire</forename><surname>Simap</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire SIMAP</orgName>
+								<orgName type="laboratory" key="lab2">Laboratoire SIMAP</orgName>
+								<orgName type="institution" key="instit1">Aatreya Venkatesh*</orgName>
+								<orgName type="institution" key="instit2">Grenoble Pierre Lhuissier*</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">In situ nanotomography of free and constrained sintering of ceramic powders</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-01-03">03/01/2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E47BE922A7F000EF04719C16AB5CA7DF</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The selected materials are alumina powders produced by an aluminium alkoxide hydrolysis process. These powders have an almost-spherical polyhedral shape and look fairly non-agglomerated as well. They come in a wide range of sizes, but we have chosen the ones which would fit the investigation criteria at the synchrotron, with mean particle sizes of around 0.7 and 1.5 µm respectively. The powders were pressed in a die at room temperature. The resulting compacts were either broken into tiny fragments of about 100 µm diameter for further in situ experiments or sintered during different times and further broken for post-mortem observations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>At the ID16B beamline, we used a phase sensitive nano holo-tomography approach. It generates image contrast stemming from the X-ray phase shift induced by the sample and provides more sensitivity than absorption imaging, as in the case of conventional X-ray CT. The beamline is equipped with a Kirkpatrick-Baez mirror system which focuses the incoming parallel X-ray beam to a small size at the focal plane. The consequent conic beam geometry then provides a large geometrical magnification. Data acquisition is performed at four different sample-to-focus distances, by moving the sample relative to the focal plane. At each distance, the sample is rotated to obtain a complete tomographic scan of over 2000 projections. These collected tomographic projection datasets are used as an input for the phase retrieval to reconstruct the phase shifts and to create 2D phase maps in all angular projections. The retrieved phase maps are then made to undergo a 3D reconstruction procedure using a filtered back projection algorithm implemented in the ESRF PyHST2 software package. Subsequently, the reconstructed image stack is post-processed to remove defects like ring artefacts. Detailed morphological features are revealed, thanks to the extremely brilliant resolution and a large field of view ((64x64x54 µm3) resulting from the multiple distance phase retrieval. The acquired images had a voxel size of 25 nm.</p><p>Post-mortem analyses have first been achieved with several alumina samples at different stages of sintering using the above-mentioned technique. At a global level, many sintering phenomena that are stated in the traditional sintering theories are clearly observed (Fig. <ref type="figure">1</ref>). Fig. <ref type="figure">1</ref> (a) shows a cropped section of one of the slices of 1.5 µm alumina powder heated to 1500°C with a relative density of around 60%. Over holding time at 1500°C (Fig. <ref type="figure">1</ref> (b) (c) (d)), we see developments such as the growth of interparticle neck, centre to centre shrinkage with regard to grains and a considerable densification, with the density reaching 80% after 10 hours. Fig. <ref type="figure">2</ref> shows the sintering of 0.7 µm alumina powder. Sintering advances much faster here with grains increasing in size, decreasing in number and the interconnected pores becoming isolated towards the end, with the density reaching 94% after 10h. A set of samples with different volume fractions of bigger alumina inclusions have also been analysed at various stages of sintering time as a part of research on constrained sintering. (a) (b) (c) (d) (e) Figure 2: Cropped section of one of the slices of the 3D reconstructed 0.7 µm alumina samples heated to 1500°C (a) and observed after (b) 10 min, (c) 30 min, (d) 1 hour and (e) 10 hours</p><p>In the following shifts, in-situ tests used a furnace designed at SIMAP for this purpose. Three tests have been performed with pieces of compacts containing 0.7 µm powder, 1.5 µm powder, 1.5 µm powder mixed with 20% of large alumina particles, respectively. The procedure was as follows. The furnace was installed in the hutch on a vertical translation above the turntable. The sample to be studied was mounted on the measuring stand (alumina rod placed on the turntable) and the furnace was lowered around the sample. Then the temperature inside the furnace was increased to 1500°C. After a predefined heating time, the sample was moved vertically to a less hot area so as to freeze its microstructure and it is imaged using the same 4-distance holo-tomography technique. It was then reintroduced into the hot zone of the furnace and the process was repeated for several hours. During each test, 6 sets of image scans have been acquired after sintering times between 0 and 5h.</p><p>Post mortem and in-situ images are being quantitatively analysed to draw meaningful information from them. It includes parameters such as particle size, particle shape, pore size, pore shape, pore connectivity, coordination number, surface curvature, etc., whose variations can be followed in the course of sintering (cf. Fig. <ref type="figure" target="#fig_1">3</ref>). Also insitu images are being used to observe the local changes of small groups of particles throughout sintering. This experiment has thus been very successful, as it provided unique 3D images whose analysis will be very fruitful. The obtained results will be compiled in the report of Aatreya Venkatesh's PhD thesis, which will be defended in autumn 2022. They have already been presented at the Euromat 2021 conference and will be presented at other conferences in 2022 (Ceramics in Europe, ICTMS, ...). Two papers are also being prepared for submission to specialist journals.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :Figure 2 :</head><label>12</label><figDesc>Figure 1: Cropped section of one of the slices of the 3D reconstructed 1.5 µm alumina samples heated to 1500°C (a) and observed after (b) 1 hour, (c) 5 hours and (d) 10 hours</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Variation of grain size distribution in 0.7 µm (left) and 1.5 µm (right) alumina samples during sintering</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

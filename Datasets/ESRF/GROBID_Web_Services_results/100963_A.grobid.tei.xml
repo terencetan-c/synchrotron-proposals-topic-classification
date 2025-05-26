@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experiment title: Rationalization of CO2 and H2 Adsorptions on Ni Alloyed Nanocrystals Using In Situ Bragg Coherent Diffraction Imaging Experiment number: HC4959</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-06-11">11/06/2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ewen</forename><surname>Bellec</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Corentin Chatelier*</orgName>
+								<orgName type="institution" key="instit2">CEA Grenoble</orgName>
+								<orgName type="institution" key="instit3">IRIG</orgName>
+								<address>
+									<region>MEM</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">NRX Clément Atlan*</orgName>
+								<orgName type="institution" key="instit2">CEA Grenoble</orgName>
+								<orgName type="institution" key="instit3">IRIG</orgName>
+								<address>
+									<region>MEM</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">NRX Michael Grimmes*</orgName>
+								<orgName type="institution" key="instit2">CEA Grenoble</orgName>
+								<orgName type="institution" key="instit3">IRIG</orgName>
+								<address>
+									<region>MEM</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">NRX Kyle Olson*</orgName>
+								<orgName type="institution" key="instit2">CEA Grenoble</orgName>
+								<orgName type="institution" key="instit3">IRIG</orgName>
+								<address>
+									<region>MEM</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">NRX Joël Eymery</orgName>
+								<orgName type="institution" key="instit2">CEA Grenoble</orgName>
+								<orgName type="institution" key="instit3">IRIG</orgName>
+								<address>
+									<addrLine>MEM, NRX Marie-Ingrid Richard</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution" key="instit1">CEA Grenoble</orgName>
+								<orgName type="institution" key="instit2">IRIG</orgName>
+								<address>
+									<region>MEM NRX</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Experiment title: Rationalization of CO2 and H2 Adsorptions on Ni Alloyed Nanocrystals Using In Situ Bragg Coherent Diffraction Imaging Experiment number: HC4959</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-06-11">11/06/2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0FB1F096DE1729E272106FBCABFBDE53</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The goal of this experiment is to study the CO2 and H2 adsorption/desorption at the surface of single alloyed Ni crystals using Bragg Coherent X-ray Diffraction Imaging (BCDI) under various in situ (temperature, T and pressure, p) conditions. The 3D intensity distribution in reciprocal space in the vicinity of a selected Bragg reflection contains information about the shape and strain states of the nanostructure, thus revealing insight into the nature of nanoscale deformation following chemical stimuli, such as adsorption of gases or changes in adsorbate structure. Here, we aim at imaging the strain evolution of pure Ni and alloyed NiFe particles as a function of CO2/H2 gas pressure (from 100 mbar to 800 mbar) and temperature (from 300 K to 773 K). Ni-Fe particles have been demonstrated as the best candidates for an "all-inclusive" material of choice for the carbon dioxide hydrogenation reaction.</p><p>A total of 4 nanoparticles (Ni) were probed for 8 different gas conditions (ptot = 500 mbar : He, H2 20%, CO2 5%, 10%, 20%, 30%, 40%, 50%) at 3 different temperatures (350℃, 400℃ and 450℃). For each condition and particle, three rocking curves were measured to ensure data reproducibility. This results in the measurement of more than 600 relevant datasets. A few examples are shown in Figure <ref type="figure" target="#fig_0">1</ref>. Thanks to the newly developed cdiutils package (work of Clément Atlan), the on-the-fly data treatment and preliminary analysis has become much more efficient (Figure <ref type="figure" target="#fig_1">2</ref>). This allows to quickly obtain the amplitude, phase, displacement, strain and d-spacing fields all at once in a few minutes (for good datasets). On the technical side, we encountered some issues related to the sample environment. The PID regulation that ensures the thermal stability (+/-0.1C) affects the measurement (as shown in Figure <ref type="figure" target="#fig_2">3</ref>). The temporary solution was to switch off the thermal regulation during a relevant scan (as shown in Figure <ref type="figure">4</ref>). This is not ideal as the regulation is necessary to maintain a stable temperature, fluctuations can occur if it is off. Figure 4 : transverse scan of the particle (left) with and (right) without the PID regulation</p><p>The full set of data is still under treatment as the full analysis of each measurement takes a long time and the amount of collected data is huge (600+ relevant scans).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1 : experimental data of four different particles (under He and 450C)</figDesc><graphic coords="1,302.04,698.40,253.20,81.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2 : particle reconstruction showing the amplitude, phase, displacement, strain and d-spacing fields</figDesc><graphic coords="2,99.48,92.04,401.04,233.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3 : oscillations in the rocking curve observed during the use of the PID regulation of the sample heater</figDesc><graphic coords="2,303.00,572.16,187.68,147.36" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

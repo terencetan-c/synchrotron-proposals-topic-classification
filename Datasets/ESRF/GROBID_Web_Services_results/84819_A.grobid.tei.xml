@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report on MX-1923: SAXS measurements of Statherin at BM29</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">E</forename><surname>Rieloff</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<postBox>P.O. Box 124</postBox>
+									<postCode>S-221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Skepö</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<postBox>P.O. Box 124</postBox>
+									<postCode>S-221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Report on MX-1923: SAXS measurements of Statherin at BM29</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BE7DF33B31EDAEC6AB5D926C47160FA8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Statherin is an intrinsically disordered protein (IDP) present in saliva, where the main function is to inhibit precipitation of calcium phosphate and crystal growth in the supersaturated environment. We have seen that the protein self-assembles to oligomers with increased protein concentration. The aim of this project is twofold: (i) to understand the self-assembly of Statherin; what intermolecular interactions govern the process and characterise the oligomers with respect to size, shape and polydispersity, and (ii) to further develop coarse-grained and atomistic models for IDPs. The project is also part of a larger project with the aim to study the structure-function relationship of IDPs, especially the ones in saliva.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Results and Discussion</head><p>SAXS measurements on Statherin were performed at BM29 in September 2017. The experiments were performed at 20 • C and pH 8.1, with 10-500 mM NaCl, and also with an addition of 0.4-1.6 mM CaCl 2 , since Statherin is known to be calcium binding. The protein concentration was varied between 0.22 and 12.4 mg/mL. Also, two runs of SAXS connected to size exlusion chromatography (SEC) was performed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Monomeric Statherin</head><p>Despite the tendency to self-associate we obtained a form factor at the protein concentration 0.24 mg/mL, measured at 150 mM NaCl (Figure <ref type="figure" target="#fig_0">1a</ref>). The molecular weight was determined to 5.29 kDa, based on I(0) obtained from the pair distance distribution function, P(r), shown in Figure <ref type="figure" target="#fig_0">1c</ref>. This is in good agreement with the theoretical molecular weight of 5.38 kDa, confirming monomeric Statherin at this protein concentration. The dimensionless Kratky plot (Figure 1b) shows that Statherin indeed behaves as an intrinsically disordered protein.</p><formula xml:id="formula_0">1 0 0.1 0.2 0.3 q (Å -1)</formula><p>The SEC-SAXS intensity trace showed one peak with a small shoulder. The data extracted from the peak is also presented in Figure <ref type="figure" target="#fig_0">1</ref>, and shows excellent agreement with the data measured at 0.24 mg/mL. The radius of gyration, R g , determined from P(r) are also consistent between the measurements, 19.8 ± 0.6 Å at 0.24 mg/mL and 19.3 ± 0.2 Å from SEC-SAXS. Hence, we have drawn the conclusion that the peak corresponds to monomeric Statherin. The signal from the shoulder was too small to give good data. With a better column it would be possible to increase the protein concentration loaded onto the column, and therefore receive better data. Regarding the effect of calcium, no structural changes were observed upon addition of Ca 2+ .</p><p>The form factor and R g has been compared with simulations of Statherin utilising a course-grained model developed in our group for the protein Histatin 5 <ref type="bibr" target="#b0">[1]</ref>. As stated above, the experimental R g is 19.3 ± 0.2 Å, while the model gives a slightly smaller value, 18.0±0.02 Å. We also see deviations between model and experiment in the form factor and Kratky plot. This suggests that the model, based on excluded volume and electrostatics, cannot accurately account for Statherin, which is both more hydrophobic and has a higher proline content than Histatin 5, and also contains phosphorylated serines. Therefore, we will continue with model development.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Oligomer formation</head><p>Oligomer formation was observed at all of the salt concentrations when increasing the protein concentration. Figure <ref type="figure" target="#fig_1">2a</ref> shows that at 150 mM NaCl the average size of the monomers grows linearly with concentration in the studied range. At 10 mM NaCl the highest concentration shows repulsion in the system (Figure <ref type="figure" target="#fig_1">2b</ref>), suggesting a limit to the growth. The question is if this also is valid for higher ionic strengths, and to answer that more measurements are required at higher protein concentrations.</p><p>To capture self-association in our coarse-grained model an extra hydrophobic interaction is required, in addition to the electrostatics, excluded volume and weak van deer Waalsattraction. Work is carried out to set the strength of this interaction to account for the results seen in experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Conclusions</head><p>We indeed obtained a form factor crucial for our modelling, and saw that at 150 mM salt the oligomers grow linearly in size with increased protein concentration. To gain a complete understanding of what interactions govern the association process and the polydispersity of the oligomers, further measurements are required.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: SAXS data for Statherin obtained by measurement at 0.24 mg/mL (black) and by SEC-SAXS (grey), at 150 mM NaCl. (a) Form factor, (b) dimensionless Kratky plot, and (c) Pair distance distribution function.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: (a) Association number obtained by SAXS measurements versus protein concentration at 150 mM NaCl, and (b) SAXS curves at 10 mM NaCl.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Coarse‐grained modeling of the intrinsically disordered protein Histatin 5 in solution: Monte Carlo simulations in combination with SAXS</title>
+		<author>
+			<persName><forename type="first">Carolina</forename><surname>Cragnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominique</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><surname>Cabane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie</forename><surname>Skepö</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/prot.25025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Structure, Function, and Bioinformatics</title>
+		<title level="j" type="abbrev">Proteins</title>
+		<idno type="ISSN">0887-3585</idno>
+		<idno type="ISSNe">1097-0134</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="777" to="791" />
+			<date type="published" when="2016-03-16">2016</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Cragnell, D. Durand, B. Cabane, and M. Skepö, &quot;Coarse-grained modeling of the intrinsically disordered protein Histatin 5 in solution: Monte carlo simulations in combination with SAXS,&quot; Proteins: Structure, Function, and Bioinformatics, vol. 84, no. 6, pp. 777-791, 2016.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

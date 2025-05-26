@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using phonons to probe the hidden order in URu2Si2</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Forrest</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Helen</forename><surname>Walker</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dai</forename><surname>Aoki</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">-ISIS Facility</orgName>
+								<orgName type="laboratory">Appleton Laboratory</orgName>
+								<orgName type="institution" key="instit1">STFC Rutherford</orgName>
+								<orgName type="institution" key="instit2">Harwell Science and Innovation Campus</orgName>
+								<address>
+									<postCode>OX11 0QX</postCode>
+									<settlement>Chilton</settlement>
+									<region>Oxon</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Appleton Laboratory</orgName>
+								<orgName type="institution" key="instit1">GB Russell Ewings * -ISIS Facility</orgName>
+								<orgName type="institution" key="instit2">STFC Rutherford</orgName>
+								<orgName type="institution" key="instit3">Harwell Science and Innovation Campus</orgName>
+								<address>
+									<postCode>OX11 0QX</postCode>
+									<settlement>Chilton</settlement>
+									<region>Oxon GB</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">CEA Grenoble -INAC SPSMS</orgName>
+								<address>
+									<addrLine>17 rue des Martyrs</addrLine>
+									<postCode>FR -38054</postCode>
+									<settlement>Grenoble Cedex 9</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using phonons to probe the hidden order in URu2Si2</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9C618553555972B14B8B4B2B663340E1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>URu 2 Si 2 is one of the most actively studied materials exhibiting unconventional behaviour due to electronic correlations <ref type="bibr" target="#b0">[1]</ref>. The central mystery of this compound is the nature of the so-called `hidden order' (HO) state, which sets in below 17.5 K. This transition is characterised by an enormous change in entropy (~0.2R ln2). A small `parasitic' antiferromagnetic order sets in in the HO phase, but its ordered moment is far too small (~0.02μ B / U) to explain the change in entropy. The nature of the order parameter is still uncertain, despite intensive theoretical <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref> and experimental <ref type="bibr" target="#b4">[3]</ref><ref type="bibr" target="#b5">[4]</ref><ref type="bibr" target="#b6">[5]</ref><ref type="bibr" target="#b7">[6]</ref><ref type="bibr" target="#b8">[7]</ref><ref type="bibr" target="#b10">[8]</ref> efforts. In addition, URu 2 Si 2 superconducts below 1.2 K, and can also be driven into an antiferromagnetic state with a comparatively large moment of 0.4μ B / U with the application of a modest pressure of ~0.5 GPa. This would seem to indicate that URu 2 Si 2 exists in a delicately balanced state due to strong electronic correlations. Very recently a small orthorhombic structural distortion has been observed on cooling into the HO phase using synchrotron x-ray diffraction <ref type="bibr" target="#b12">[9]</ref>. However, this effect has only been seen in ultra-clean samples (as defined by high residual resistivity ratio, RRR), and not in "dirty" samples. One curious aspect of this is that the large characteristic entropy change described above is not limited to such ultra-clean samples. In recent years (again, with ultra-clean samples) much effort has been devoted to understanding the electronic structure of URu 2 Si 2 , in particular the precise details of the Fermi surface (FS). Recent advances in ARPES techniques <ref type="bibr" target="#b4">[3]</ref> have, to an extent, resolved contradictory interpretations of band structure measurements. FS hotspots of enhanced quasi-particle density are revealed together with a reconstruction of the FS on entering the HO state, characterised by FS nesting. Phonons are highly sensitive to the band structure, so we would expect to observe subtle modifications in the phonon spectra accompanying changes in the FS and/or structural distortions. A generic example of the former would be a Kohn anomaly in the phonon dispersion at a nesting wavevector. Surprisingly, there had at the time of our proposal never been a systematic study of the phonons in URu 2 Si 2 , with only a single inelastic neutron scattering (INS) study <ref type="bibr" target="#b7">[6]</ref> over a limited energy and Q range, and some Raman spectroscopy measurements <ref type="bibr" target="#b8">[7]</ref>. The main finding in ref. <ref type="bibr" target="#b7">6</ref> is that in the HO phase there is a longitudinal optic mode that softens dramatically along the (ζ,ζ,0) trajectory, and that this mode appears to be absent well above the HO transition temperature. This is ascribed to an instability of the FS towards breaking of the body-centred tetragonal symmetry in the HO phase. The aim of our proposal was to perform measurements of the phonons in URu 2 Si 2 using a high purity (small, hence not accessible to neutrons) sample. We compared our measurements with neutron data we took on a lower purity (large) sample, e.g. fig. <ref type="figure" target="#fig_0">1</ref>, which had the additional problem of a significant magnetic contribution to the scattering which made analysis of the phonons more difficult. Shortly before the experiment we became aware of refernces <ref type="bibr" target="#b13">[10]</ref> and <ref type="bibr" target="#b14">[11]</ref>, both of which reported much more comprehensive measurements of the phonons in URu 2 Si 2, including measurements using IXS, albeit on an offcut of a lower purity large sample. Using ID28 we were able to map out the phonon dispersion in several Brillouin zones along all of the major symmetry directions. We found that our measurements were fully consistent with the published data, indicating that sample purity has little bearing on the lattice dynamics in URu 2 Si 2. As was found in refs. <ref type="bibr" target="#b13">[10]</ref> and <ref type="bibr" target="#b14">[11]</ref>, we observed no change in the phonon dispersion on cooling from the paramagnetic to the hidden order phase. Sample data taken in the HO and PM are shown in fig. <ref type="figure">2</ref>. Figure 3a: sample dispersion along the (0,0,1) direction measured on ID28 at 7 K. Marker colour indicates peak intensity and marker size peak width Figure 2b: as figure 2a, measured at 25 K</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: sample time-of-flight neutron data showing the magnetic and phonon contributions to S(Q,E)</figDesc><graphic coords="2,27.70,350.40,233.30,175.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;Colloquium&lt;/i&gt;: Hidden order, superconductivity, and magnetism: The unsolved case of&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;URu&lt;/mml:mi&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;Si&lt;/mml:mi&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:math&gt;</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mydosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Oppeneer</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/revmodphys.83.1301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Reviews of Modern Physics</title>
+		<title level="j" type="abbrev">Rev. Mod. Phys.</title>
+		<idno type="ISSN">0034-6861</idno>
+		<idno type="ISSNe">1539-0756</idno>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1301" to="1322" />
+			<date type="published" when="2011-11-16">2011</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. A. Mydosh and P. M. Oppeneer, Rev. Mod. Phys 83, 1301 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Hastatic order in the heavy-fermion compound URu2Si2</title>
+		<author>
+			<persName><forename type="first">Premala</forename><surname>Chandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Piers</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rebecca</forename><surname>Flint</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature11820</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">493</biblScope>
+			<biblScope unit="issue">7434</biblScope>
+			<biblScope unit="page" from="621" to="626" />
+			<date type="published" when="2013-01">2013</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Chandra et al, Nature 493, 621 (2013);</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Oppeneer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page">205103</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. M. Oppeneer et al, Phys. Rev. B 82, 205103 (2010);</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Arrested Kondo effect and hidden order in URu2Si2</title>
+		<author>
+			<persName><forename type="first">Kristjan</forename><surname>Haule</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabriel</forename><surname>Kotliar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphys1392</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Physics</title>
+		<title level="j" type="abbrev">Nature Phys</title>
+		<idno type="ISSN">1745-2473</idno>
+		<idno type="ISSNe">1745-2481</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="796" to="799" />
+			<date type="published" when="2009-09-06">2009</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Haule et al, Nature Phys. 5, 796 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J. -Q</forename><surname>Meng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page">127002</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. -Q. Meng et al, Phys. Rev. Lett. 111, 127002 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Wiebe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Phys</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">96</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. R. Wiebe et al, Nat. Phys. 3, 96 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ressouche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">67201</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Ressouche et al, Phys. Rev. Lett. 109, 067201 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Celebrating the arXiv</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Butch</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphoton.2011.334</idno>
+		<idno type="arXiv">arXiv:1212.6238</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Photonics</title>
+		<title level="j" type="abbrev">Nature Photon</title>
+		<idno type="ISSN">1749-4885</idno>
+		<idno type="ISSNe">1749-4893</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="1" />
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. P. Butch et al, arXiv:1212.6238 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buhot</surname></persName>
+		</author>
+		<idno type="DOI">10.17296/korbil.2013..53.</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Kor. Phys. Soc</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page">1427</biblScope>
+			<date type="published" when="2013-10-31">2013</date>
+			<publisher>The Korean Society of Bilingualism</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Buhot et al, J. Kor. Phys. Soc. 10, 1427 (2013);</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Raman study of the heavy fermion system URu2Si2 at low temperatures and high hydrostatic pressures</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lampakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Palles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Liarokapis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mydosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physb.2006.01.362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physica B: Condensed Matter</title>
+		<title level="j" type="abbrev">Physica B: Condensed Matter</title>
+		<idno type="ISSN">0921-4526</idno>
+		<imprint>
+			<biblScope unit="volume">378-380</biblScope>
+			<biblScope unit="page" from="578" to="580" />
+			<date type="published" when="2006-05">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Lampakis et al, Physica B 378, 578 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zeit. Krist</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page">567</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. J. Clark et al, Zeit. Krist. 220, 567 (2005);</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Variational density-functional perturbation theory for dielectrics and lattice dynamics</title>
+		<author>
+			<persName><forename type="first">Keith</forename><surname>Refson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">R</forename><surname>Tulip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stewart</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.73.155114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">155114</biblScope>
+			<date type="published" when="2006-04-19">2006</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Refson et al, Phys. Rev. B 73, 155114 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tonegawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Comms</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">4188</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Tonegawa et al, Nat. Comms 5, 4188 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Butch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">35128</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Butch et al, Phys. Rev. B 91, 035128 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Buhot Replies:</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Buhot</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.84.1841</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1841" to="1841" />
+			<date type="published" when="2015">2015</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Buhot et al, Phys. Rev. B 91, 035129 (2015).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

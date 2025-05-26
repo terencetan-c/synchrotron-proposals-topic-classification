@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2684B205C59F58BFC58903E20ADAA7E0</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The goal of this experiment was to quantitatively estimate the accuracy of the Laue microdiffraction setup recently installed on BM32, in particular the absolute accuracy of the strain tensor. This is in view of using the setup later for the study of plastically deformed polycrystalline materials. The long term aim of our research is to understand the way polycrystalline materials deform in the plastic regime, with emphasis on the link between microstructure (dislocation structure, crystallographic texture), activated deformation mechanisms at the grain scale (dislocation glide, dislocation climb, twinning), and overall behaviour. When polycrystals are deformed plastically, since individual grains exhibit an anisotropic plastic behaviour, they react differently to the prescribed load, and this gives rise to strong mechanical interactions between grains, with substantial redistribution of stress between "hard" and "soft" grains. Current theoretical efforts aim at predicting quantitatively the effect that these interactions have on the effective strength of a material, and on the evolution of the microstructure during mechanical testing. However there is still lack at present of precise analysis of the corresponding stress heterogeneities in the deformed grains, at the relevant (i.e. micron) scale. This is a severe limitation for a deeper understanding of many issues in Materials Sciences, e.g. resistance under fatigue loading, crack propagations, phase transformations, etc.</p><p>A new setup for white-beam microdiffraction, partly similar to the one developed at the ALS [4], was recently installed at beamline BM32 (ESRF). In principle, it allows 2D mapping of local stress in polycrystalline specimens with a (sub)micron spatial resolution. The white beam (energy range 5-30 keV) is focused down to a 0.8 x 1.5 μm 2 cross-section with Kirkpatrick-Baez (KB) mirrors. The specimen is mounted on an x-y-z translation stage at 40° from the incident microbeam, thus allowing scanning microdiffraction with micron spatial resolution. Laue diagrams are recorded on a 2D detector (MAR CCD) positioned at 90° from the incident beam and a few centimetres away from the specimen. After having indexed the Laue pattern and found the local orientation, deviatoric strain can in principle be obtained by a careful analysis of the distortions of the experimental Laue diagram. Local stress is then derived from lattice strain using the elastic constants of the scanned grain.</p><p>However, for this analysis, advanced image processing is needed to reach the desired accuracy of ~10 -4 on the lattice parameters, which typically translates into ~0.1 pixel accuracy on the positions of the Laue spots. It is worth noting that the required resolution is far not attained with available softwares, such as XMAS developed at the ALS (and broadly distributed among the community), owing to the use of unadapted image processing procedures. Indeed, XMAS requires a fit of Laue spots by simple analytical functions (such as Gaussian) although those spots exhibit most of the time a much more complex shape. As a consequence, one classically obtains stress levels of the order of GPa even in very soft materials (such as pure Cu) for which stresses larger than ~50 MPa are obviously unrealistic. One also find very few quantitative data analysis in the literature (and in that case with only few details concerning the evaluation procedure), although the setup at ALS and APS are operational since about a decade. Furthermore, we do not know any publication providing a realistic estimation of uncertainties on the obtained stress levels, as well as the dependence of the accuracy on the experimental conditions. This matter of fact motivate the development of a new open source analysis software at BM32 (J.S. Micha), and the present experiment.</p><p>The purpose of this particular experiment was to collect a number of scans on a pure W specimen, elastically deformed in situ under uniaxial tension, in both white beam and monochromatic microdiffraction setup. For doing this, we have mounted a tensile machine with a load capacity of 10.000 N, developed at LPMTM, on the translation stage of the microdiffraction setup. The choice of W was justified by its high yield stress (~500MPa) and its well known elastic isotropy at the grain scale, so that any macroscopic loading gives rise a uniform stress field increment inside grains. The measured stress field is therefore exactly known in advance. We take advantage of this property to estimate the accuracy of the method: one should obtain, thoughout the scans, uniform stress maps which value matches the stress increment applied between two successive loading steps of the specimen. Furthermore, as for the processing of Laue image, we are testing a completely new method, based on image correlation. For this, we have developed a procedure in two steps.</p><p>(i) First, it is necessary to be able to superimposed, with a resolution of ~1 micron, two successive scans measured at two load levels. For this, a software has been developed and tested for a carefull analysis of some specific regions of laue diagrams. Figure <ref type="figure" target="#fig_1">1</ref> show two Laue patterns measured at the same position (within the 1 micron accuracy) for specimen loading of 5 MPa and 500 MPa. One clearly recognize the very strong similarity of both pattern.</p><p>(ii) Next, we have adapted and make use of an image correlation method to calculate the relative displacements of Laue spots on the camera, for increasing loading of the specimen (figure <ref type="figure" target="#fig_2">2</ref>). First tests are in very good agreement with the solution (analytical in this case). There is still some ongoing work on those data, but we are now confident that the developed procedure will provide an accuracy adapted to that required for micromechanical studies, with many potential applications.</p><p>To develop the method few steps further, and in view of its latter implementation of the new software developed at BM32, we have applied very recently for funding for a one-year post-doc, and we got success. The post-doc will start hopefully before the end of the current year. This work will be presented at a national (french) workshop focussed microdiffraction techniques that will be held at ESRF in sept. 2009. A publication is planned for 2010. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>odile.robach@cea.fr) Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Olivier Castelnau *, Christophe Le Bourlot *, Remi Chiron *, Laboratoire des Propriétés Mécaniques et Thermodynamiques des Matériaux, CNRS-UPR9001, Université Paris 13, av. JB Clément, Villetaneuse, France.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Laue Patterns measured on the tensile deformed W polycrystalline specimen at 5 MPa (left) and 500 MPa (right) macroscopic loading. The displacement of Laue spot is small (of the order of 1 pixel) but visible.</figDesc><graphic coords="3,70.02,372.78,198.12,198.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Displacement of Laue spots on the X-ray camera obtained by the proposed image processing procedure. The displacement has been calculated between the two Laue diagrams shown in figure 1. Except for few spots for which the image processing apparently does not work well, most of the 500 spots on this image exhibit a cooperative movement toward the center of the camera, in good agreement with the theory.</figDesc><graphic coords="4,173.88,123.12,247.92,264.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">XAFS with an operating polymer-membrane fuel cell</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Pieter</forename><surname>Glatzel</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof. Dr</roleName><forename type="first">W</forename><surname>Grünert</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Maurits</forename><surname>Van Den Berg</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><surname>Petrova</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>De Toni</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Lehrstuhl</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Technische</forename><surname>Chemie</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><surname>Tkachenko</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Zelinsky</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Ruhr-Universität Bochum</orgName>
+								<address>
+									<addrLine>Universitätsstr. 150 Dr. Konstantin Klementiev</addrLine>
+									<postCode>D-44789</postCode>
+									<settlement>Bochum</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Organic Chemistry</orgName>
+								<orgName type="institution">ALBA synchrotron light facility</orgName>
+								<address>
+									<addrLine>Edifici Ciències Nord. Mòdul C-3 central. Campus Universitari de Bellaterra. Universita</addrLine>
+									<postCode>08193</postCode>
+									<settlement>Bellaterra Barcelona</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">XAFS with an operating polymer-membrane fuel cell</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F6246583037CEB33D4309C5C5041FBBB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The development of proton exchange membrane (PEM) fuel cells is nowadays focused on cathode materials the improvement of which bears the largest potential for the development of the whole device <ref type="bibr" target="#b0">[1]</ref>. Alloyed Pt-M catalysts (M = Fe, Co, …) brought considerable progress towards the reduction of overpotentials, which has been ascribed to electronic effects of M on the Platinum (d-band occupancy <ref type="bibr" target="#b1">[2]</ref>). XAFS has strongly contributed to the knowledge on structural properties of fuel cell electrodes <ref type="bibr" target="#b2">[3]</ref>, however, XAFS studies with working membrane-electrode assemblies (MEAs) have been reported only recently. The problem is that undesired signals from the Pt in the counter electrode would obscure Pt spectra from the target electrode. Therefore, in <ref type="bibr" target="#b3">[4]</ref>, dealing with anode catalysts, the Pt was scratched away from the cathode in the beam path, in <ref type="bibr" target="#b4">[5]</ref> and <ref type="bibr" target="#b5">[6]</ref> (the latter with fluorescence detection), non-Pt cathodes were employed. Both experiments, while representing a considerable methodical progress, are open to doubts if the conditions at the investigated spots are representative for state-of-the art PEM fuel cells under typical loads. We are developing a new in-situ PEM fuel cell in which interference by the counter electrode is eliminated by illuminating the electrodes at grazing incidence. This approach was expected to suppress the influence of the counter electrode both by geometric displacement of the interaction zones with the beam and by predominant absorption in the upper (i.e., the investigated) electrode. The aim of our measurements was on the one hand the proof-of-principle for our newly constructed cell, and on the other hand the measurement of the first spectra under gas atmosphere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental</head><p>The cathode contains Pt (30-40 %) and ca. 10 % Co on carbon; the anode contains platinum on carbon. The samples were measured in the form of ready MEAs (cathode/anode on nafion membrane), which were mounted in our custom-made cell (see figure <ref type="figure" target="#fig_0">1a</ref> and <ref type="figure" target="#fig_0">1b</ref>). Before each experiment, the cell was aligned paral-lel to the beam, and in a transmission geometry the location of the cell assembly relative to the beam was determined.</p><p>Subsequently the angle between the cell and the beam was altered, so that a catalyst layer was irradiated. A full optimisation of measurement parameters was performed, which yielded an optimal angle of 5° relative to the beam. For detection of fluorescent radiation at the Pt L III and the Co K-edges, a multi-element germanium detector was used. Spectra of the Pt L III -edge were recorded at room temperature, at the Co K-edge both at room temperature and at temperatures up to 80 °C at beamline ID26.</p><p>Measurements under full load conditions as originally intended proved to be impossible due to on site arisen technical defects of the modified cell setup, which would have caused safety considerations. These defects were caused by a certain fragility of the flow field modified for beam passage to the analysis spot. This experience has prompted us to substantially modify the beam path in the flow field to increase stability and facilitate sealing. The new flow-field will appear in cell versions to be used in follow-up projects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>In the first experiment, the cathode was irradiated at a five degree angle to the beam. In figure <ref type="figure" target="#fig_0">1c</ref>, the k 2weigthed Fourier transform of the chi function can be seen, compared to spectra of the platinum foil and two platinum alloy standards measured subsequently. The spectrum of the cathode shows most resemblance with the spectrum of the Pt 3 Co alloy standard, which was also supported by the XANES (data not shown).</p><p>A second experiment was performed to prove the absence of interference from the counter electrode. Thus, cathode and anode were swapped around, so that the anode was now irradiated. The angle between the sample and the beam was varied. For this experiment we removed the modified cover plate, as it does not allow for setting of high angles between sample and beam. The fluorescent radiation around the cobalt K-edge stemming from the cobalt in the cathode layer was used as a marker. When the angle between sample and the beam is large enough, incident beam intensity will reach the lower (cathode) layer, and the induced fluorescence can be detected. The signal increased with increasing angle (Fig. <ref type="figure" target="#fig_0">1d</ref>). On the other hand, it can be seen that with small angles (1-9°), no spectrum was detected, proving that our method is indeed suited to measure radiation only from one electrode layer, without interference from the counter electrode.</p><p>For a third experiment, we once again used the cell in the original configuration to measure spectra at the cobalt K-edge from the cathode. This is more difficult in our grazing mode due to stronger absorption of the incident beam and the lower Co content. Only XANES spectra were be obtained in satisfactory quality, whereas reliable EXAFS spectra would have required unacceptable measurement time. This experience has meanwhile led to further modifications in the construction allowing for a variable (and increased) solid angle for the collection of sample fluorescence. Measuring the XANES region, the interaction of the Pt-Co particles (after air contact) with diluted hydrogen at temperatures below 100 °C was studied. These measurements are based on observation of strong exothermic effects under similar conditions which were noted in pre-treatments for chemisorption studies and had been tentatively observed in the reduction of superficially oxidised Co. As no changes in the Co XANES were detected, this interpretation was rejected; probably the heat is evolved in the reduction of adsorbed oxygen (as in H 2 /O 2 titration).</p><p>Having analysed the experience of the project work and having alleviated the technical defects to our cell, we have meanwhile modified the carbon flow field in order to be able to perform true operando studies without safety risks. We have also created a beam path for larger incident angles which can be used for non-Pt elements, and a facility to vary the cross-section of the fluorescence exit, which would further improve the fluorescence yield. Using the new alterations, we are preparing to submit a follow-up proposal for the second half of 2009.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: a) Photograph of the cell assembly at the beamline. Ingoing radiation indicated by an orange dashed line, exiting fluorescence by a red dashed arrow. The modification of the cell's cover plate is highlighted; b) Cross section of the modified fuel cell assembly, showing the cathode, anode and PEM layers (not to scale) as well as the highlighted cover plate; c) FTs of the Pt/Co-cathode compared to standard alloys; d)Co K-edge XANES at different angles between the sample and the beam.</figDesc><graphic coords="3,31.08,632.71,414.17,56.57" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Activity benchmarks and requirements for Pt, Pt-alloy, and non-Pt oxygen reduction catalysts for PEMFCs</title>
+		<author>
+			<persName><forename type="first">Hubert</forename><forename type="middle">A</forename><surname>Gasteiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shyam</forename><forename type="middle">S</forename><surname>Kocha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bhaskar</forename><surname>Sompalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frederick</forename><forename type="middle">T</forename><surname>Wagner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apcatb.2004.06.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Catalysis B: Environmental</title>
+		<title level="j" type="abbrev">Applied Catalysis B: Environmental</title>
+		<idno type="ISSN">0926-3373</idno>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="9" to="35" />
+			<date type="published" when="2005-03">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. A. Gasteiger, S. S. Kocha, B. Sompalli, F. T. Wagner, Appl. Catal. B 56:9 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Role of Structural and Electronic Properties of Pt and Pt Alloys on Electrocatalysis of Oxygen Reduction: An In Situ XANES and EXAFS Investigation</title>
+		<author>
+			<persName><forename type="first">Sanjeev</forename><surname>Mukerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Supramaniam</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manuel</forename><forename type="middle">P</forename><surname>Soriaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Mcbreen</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/1.2048590</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of The Electrochemical Society</title>
+		<title level="j" type="abbrev">J. Electrochem. Soc.</title>
+		<idno type="ISSN">0013-4651</idno>
+		<idno type="ISSNe">1945-7111</idno>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1409" to="1422" />
+			<date type="published" when="1995-05-01">1995</date>
+			<publisher>The Electrochemical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Mukerjee, S. Srinivasan, S. M. P., J. McBreen, J. Electrochem. Soc. 142:1409 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">X-ray Absorption Spectroscopy of Low Temperature Fuel Cell Catalysts</title>
+		<author>
+			<persName><forename type="first">Andrea</forename><forename type="middle">E</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abigail</forename><surname>Rose</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr020708r</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<title level="j" type="abbrev">Chem. Rev.</title>
+		<idno type="ISSN">0009-2665</idno>
+		<idno type="ISSNe">1520-6890</idno>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4613" to="4636" />
+			<date type="published" when="2004-08-10">2004</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. E. Russell, A. Rose, Chem. Rev. 104:4613 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">In-situ XAFS fuel cell measurements of a carbon-supported Pt–Ru anode electrocatalyst in hydrogen and direct methanol operation</title>
+		<author>
+			<persName><forename type="first">Christina</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathalie</forename><surname>Martz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thorsten</forename><surname>Buhrmester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joachim</forename><surname>Scherer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hartmut</forename><surname>Fuess</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b204293b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<title level="j" type="abbrev">Phys. Chem. Chem. Phys.</title>
+		<idno type="ISSN">1463-9076</idno>
+		<idno type="ISSNe">1463-9084</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3555" to="3557" />
+			<date type="published" when="2002-07-03">2002</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Roth, N. Martz, T. Buhrmester, J. Scherer, H. Fuess, PCCP 4:3555 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">In-Situ XANES of Carbon-Supported Pt−Ru Anode Electrocatalyst for Reformate-Air Polymer Electrolyte Fuel Cells</title>
+		<author>
+			<persName><forename type="first">Rameshkrishnan</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guoyan</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Renxuan</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><forename type="middle">R</forename><surname>Bare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Modica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Mickelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">U</forename><surname>Segre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nadia</forename><surname>Leyarovska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eugene</forename><forename type="middle">S</forename><surname>Smotkin</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp0139787</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<title level="j" type="abbrev">J. Phys. Chem. B</title>
+		<idno type="ISSN">1520-6106</idno>
+		<idno type="ISSNe">1520-5207</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3458" to="3465" />
+			<date type="published" when="2002-03-12">2002</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Viswanathan, G. Y. Hou, R. X. Liu, S. Bare, F. Modica, G. Mickelson, C. U. Segre, N. Leyarovska, E. S. Smotkin, J. Phys. Chem. B 106:3458 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A PEM fuel cell for in situ XAS studies</title>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J K</forename><surname>Wiltshire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">R</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abigail</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">P</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">P</forename><surname>Hogarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Thompsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><forename type="middle">E</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.electacta.2005.05.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochimica Acta</title>
+		<title level="j" type="abbrev">Electrochimica Acta</title>
+		<idno type="ISSN">0013-4686</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">25-26</biblScope>
+			<biblScope unit="page" from="5208" to="5217" />
+			<date type="published" when="2005-09">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. J. K. Wiltshire, C. R. King, A. Rose, P. B. Wells, M. P. Hogarth, D. Thompsett, A. E. Russell, Electrochimica Acta 50:5208 (2005).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

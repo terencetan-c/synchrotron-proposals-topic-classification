@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The reaction of bone towards degrading Mg implants -3D imaging of nanostructural responses by SAXS tensor tomography</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Di Michiel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gavin</forename><surname>Vaughan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stefano</forename><surname>Checchia</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tilman</forename><surname>Grünewald</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Helga</forename><surname>Lichtenegger</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marianne</forename><surname>Liebi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anders</forename><surname>Palmquist</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ali</forename><surname>Furqan</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Shah</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics and Materials Science</orgName>
+								<orgName type="institution" key="instit1">ID13</orgName>
+								<orgName type="institution" key="instit2">ESRF</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">BOKU</orgName>
+								<address>
+									<settlement>Vienna</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Biomaterials</orgName>
+								<orgName type="institution">Chalmers University</orgName>
+								<address>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biomaterials</orgName>
+								<orgName type="institution">University of Gothenburg</orgName>
+								<address>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Gothenburg</orgName>
+								<address>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The reaction of bone towards degrading Mg implants -3D imaging of nanostructural responses by SAXS tensor tomography</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">28FC2C4DBBCD9EA7A3C0ED6DF5498A8B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>During this experiment we aimed at collecting a comprehensive dataset on the nanostructural response of bone towards degrading Mg implant and 3D printed metallic scaffolds. As these samples have a considerable size, this necessitated the use of high energies (60 keV) to penetrate the sample. We succesfully managed to collect 6 datasets on the various systems and its controls and reconstruct the SAXS tensor from it already.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Samples and setup</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Setup:</head><p>We operated the beamline at 60 keV, as a tradeoff between the accessible q-range, q-resolution and the absorption in the sample. We used beamsizes of 60 and 120µm for the scaffolds and Mg implant respectively. As the data acquisition strategy necessitated a rotation and a tilt of the sample in the beam direction, we used a Huber 511.1 eulerian cradle for that. We scanning was carried out with the Aerotec y-stage and the Huber zstage in a continous fashion at discrete sampling angles. A Pilatus 2M CdTe detector was used for the data acquisiton with an exposure time of 20ms. As the necessary q-range from 0.2 to 20 nm -1 required a sampledetector distance of 2000mm, we also used a vacuum flighttube to reduce air scattering. The 1mm diameter beamstop was glued to the exit window of the flight tube. We collected between 185 and 250 projections per sample. The setup allowed tilts of up to 40°. In addition, we also measured absorption tomography with 3.18µm resolution at the same samples to be able to correct for absorption effects in the sample. Samples As not the complete Mg degradation sample set was ready at the time of the experiment, we measured only one fast degrading ZX50 implant after 3 months in a rat femur. In addition to that, we also investigated a sample set of 3D-printed scaffolds made of Ti and Co-Cr in a sheep tibia. In total we measured two different pore sizes of Ti, one pore size of Ti and a reference Ti implant sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Principal outcome</head><p>Figure <ref type="figure" target="#fig_0">1</ref> shows an exemplary reconstruction of a sample with a 3D printed scaffold. The voids left by the implant are clearly visible and one slice is taken out to compare it to fit of the mineral platelet size as obtained by a q-resolved reconstruction of the momentum transfer and a subsequent fit of the t-parameter. We can already in our preliminary evaluation see the changes in the t-parameter as well as in the degree of orientation in the channels of the implant and am very optimistic that an in-depth analysis will provide us with even more insights.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions and further proceedings</head><p>We consider the expeirment to be highly succesful, we could establish the method of SAXS tensor tomography at ID15, implement a setup and gather very high quality data on meaningful samples. The first reconstructions show already very promising features and we are confident that the further evaluation of the data will allow us to learn a lot on the optimal implant design. It is anticipated to publish the results in an appropriate journal. Furthermore we want to point out the great support we got from the whole ID15A team during the preparation and the experiment. We want to especially point out the great help from our local contacts Marco di Michiel, Gavin Vaughan and Stefano Checchia during the experiment. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure1Bone remodeling around 3D printed Ti implants. 3D reconstruction of the bone alignment in the implant region (right side) and the surrounding trabecular network from an implant in a sheep tibia. The 2D cut through the volume highlights the complex arrangement in the pores and the determination of the mineral platelet thickness allows to identify distinct zones in the centre of the implant channels of accelerated bone growth</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

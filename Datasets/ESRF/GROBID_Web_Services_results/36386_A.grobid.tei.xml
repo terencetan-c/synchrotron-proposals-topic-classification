@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Investigation of crystal transformations in poly(vinylidene fluoride)with microfocus WAXS/SAXS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>Dr</roleName><forename type="first">Richard</forename><surname>Davies</surname></persName>
+							<email>richard.davies@esrf.fr</email>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Zafeiropulos</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Denis</forename><forename type="middle">V</forename><surname>Anokhin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Chimie des Surfaces et Interfaces</orgName>
+								<orgName type="institution">CNRS UPR9069</orgName>
+								<address>
+									<addrLine>15, rue Jean Starcky</addrLine>
+									<postBox>BP 2488</postBox>
+									<postCode>68057</postCode>
+									<settlement>Mulhouse CEDEX</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Rosenthal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Chimie des Surfaces et Interfaces</orgName>
+								<orgName type="institution">CNRS UPR9069</orgName>
+								<address>
+									<addrLine>15, rue Jean Starcky</addrLine>
+									<postBox>BP 2488</postBox>
+									<postCode>68057</postCode>
+									<settlement>Mulhouse CEDEX</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dimitri</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Chimie des Surfaces et Interfaces</orgName>
+								<orgName type="institution">CNRS UPR9069</orgName>
+								<address>
+									<addrLine>15, rue Jean Starcky</addrLine>
+									<postBox>BP 2488</postBox>
+									<postCode>68057</postCode>
+									<settlement>Mulhouse CEDEX</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Zafeiropoulos</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Leibniz-Institut für Polymerforschung Dresden e.V</orgName>
+								<address>
+									<addrLine>Hohe Strasse 6</addrLine>
+									<postCode>D-01069</postCode>
+									<settlement>Dresden</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Investigation of crystal transformations in poly(vinylidene fluoride)with microfocus WAXS/SAXS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">131D39F5B3BAF60A89A597A67BE898F2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Poly(vinylidene fluoride), PVDF, has been extensively investigated for the last forty years because of its unique high performance properties exploited in various technological applications <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> . Thus, PVDF has excellent mechanical behavior, high chemical resistance, good thermal stability as well as high pyro-and piezo-electric coefficients. Many of these properties crucially depend on the polymer processing conditions as they determine the resulting crystal phase composition. Apart from the polar β-phase phase, PVDF crystallizes in at least two nonpolar phases: α-phase (with the lattice parameters a=4.96Å, b=9.64Å and c (fiber repeat)=4.62Å, chain conformation TG + TG -) <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> and γ-phase (a=4.97Å, b=9.66Å, c (fiber repeat)=9.18Å, chain conformation T 3 G + T 3 G -) <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> . In thin films crystallized from the melt two types of spherulites can be identified by optical microscopy <ref type="bibr" target="#b6">7</ref> : large spherulites of the α-form <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> and smaller spherulites of the γ-form <ref type="bibr" target="#b5">6</ref> . In cross-polarized light the α-spherulites show high birefringence and regular concentric banding, whereas for the γ-spherulites the birefringence is lower and banding does not appear due to their morphological irregularity <ref type="bibr" target="#b8">9</ref> Upon annealing of thin films at a high temperature (160-170°C) a solidstate transformation of the α-spherulites to a higher-melting crystalline form occurs <ref type="bibr" target="#b6">7</ref> . Based on infra-red and optical microscopy data, this phase was assigned to the γ-form <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> . However, these methods do not provide direct structural information on the formed crystal phase. To elucidate this, we have undertaken a morphological study of two-dimensional spherulites using microfocus X-ray scattering. PVDF (Mw = 1.66x105 g/mol, Mw/Mn=1.7) films were prepared by solution-casting from DMF on glass. The obtained films were dried in vacuum, molten at 210°C and subsequently crystallized for 88 hrs at 165°C. For micro-focus X-ray scattering experiments the films were recovered from glass by floating them off in water. The 2D micro-focus X-ray scattering experiments were carried out at the ID13 beam line at the European Synchrotron Radiation Facility. A monochromatic circularsection X-ray beam with a diameter of 0.5µm (FWHM) and a wavelength of 1.0 Å was used. The experiments were performed in transmission geometry with the sample surface normal to the X-ray beam. The region of interest was selected with an upstream on-axis optical microscope using the morphological difference between the α-and γ-spherulites. The sample was scanned by means of an x-y gantry. The diffraction patterns were collected using a step of 1.0 µm. The micro-focus WAXS diffraction patterns measured along the scan show three different crystalline structures (FIG <ref type="figure" target="#fig_0">1</ref>). The patterns in FIG 1(b) and 1(c) were recorded within the banded spherulite whereas pattern 1(a) was taken within the γ-spherulite. It should be noted that the well-pronounced (020) and (110) reflexes are identical for both, α-and γ-modifications, and therefore they are present on all the patterns. The (021)  α reflex is superposed with the (022)  γ . The identification of the phases thus can be done using the unique reflexes of each of the phases such as the (021) γ reflex of the γ-phase and (100) α and (120)  α reflexes of the αphase. The X-ray pattern of the first region (FIG. <ref type="figure" target="#fig_0">1(a)</ref>) is characterized by the (021)  γ reflex at 3.3Å and the absence of (021) α reflex at 4.27Å, which indicates that it is a pure γ-phase. The orientation of the (110) γ reflex changes randomly along the scan direction, which can be accounted for by the orientational disorder of lamellar crystals. The latter observation is in agreement with the curled lamellar morphology found for the γspherulite from optical microscopy and AFM. The third region (FIG. <ref type="figure" target="#fig_0">1(c)</ref>) is characterized by the presence of (100) α and (120)  α reflexes located at 5.0Å and 3.5Å, respectively. The pattern does no contain any γpeaks. The maximum of the azimuthal intensity distribution of the (020) α peak points along the radial direction of the banded spherulite r α indicated with a dashed arrow (FIG. <ref type="figure" target="#fig_0">1(b</ref>,<ref type="figure">c</ref>)). Therefore the growth direction of the α-spherulite is parallel to the b-axis of the α unit cell. The second, or intermediate, region (FIG. <ref type="figure" target="#fig_0">1(b)</ref>) exhibits only the peaks typical of the γ-crystalline phase (cf. FIG <ref type="figure" target="#fig_0">1a</ref>). Therefore we can identify the high-melting phase (i.e. the intermediate region) as the γ-modification formed from the α-phase, which will be denoted in the following as γ α . The morphological difference between γ and γ α phases consists in the fact that the γ α phase exhibits orientation for the (020) peak, which is similar to what is observed for the α-phase. The radially-integrated diffraction intensity was plotted as a function of position along the scan line (ordinate) and the norm of the reciprocal space vector s (FIG 2 (a)). The intensity of (110) reflection within the γ α -.and α-regions exhibits oscillations (cf. FIG 2 (b)) with a spatial frequency of about 5µm/cycle, as found from the power spectral density function (FIG 2(c)). This intensity variation within the banded spherulite can be attributed to a regular twist of the lamellar crystals, which are coming in and out of the reflection conditions during the scan. The observed solid-state α→γ transformation occurs upon long-time annealing at small supercoolings. The αspherulites gradually transform into the γ-phase starting from the interface between the γand α-spherulites. The transformation front propagates radially, i.e. parallel to b-axis of the α-modification. This growth mechanism accounts for the jagged boundary between the phases such as observed in optical microrgraphs. As soon as the transformation front reaches the center of an α-spherulite, the subsequent growth of the γ α phase spreads from the spherulite center radially in all directions. The increase of the melting temperature of the γ α -phase compared to the original γ-phase can be explained by a higher crystal thickness and perfectness of the transformed γ α -lamellae. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG 1 .</head><label>1</label><figDesc>FIG 1. 2D WAXS patterns of PVDF recorded at different positions along the scan. They correspond to two different crystalline modifications. a) γ-modification (within the γ-spherulite); b) γ αmodification (within the αspherulite); c) α-modification (banded spherulite).</figDesc><graphic coords="1,318.66,530.76,240.96,78.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG 2 .</head><label>2</label><figDesc>FIG 2. (a) radially-integrated diffraction intensity along the scan displaying three different crystalline morphologies: γ, γ α and α; (b) intensity of the (110) reflex as a function of distance along the scan; (c) 1D power spectral density of the γ α and α regions of (b) revealing a distinct peak at 5.0 µm corresponding to the band width along the scan.</figDesc><graphic coords="2,318.66,86.76,234.30,286.56" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Seiler</surname></persName>
+		</author>
+		<title level="m">Modern Fluoropolymers</title>
+		<meeting><address><addrLine>Chichester</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">D. A. Seiler, Modern Fluoropolymers, (2nd ed., Wiley, Chichester, 1998)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Poly(Vinylidene Fluoride)</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Lovinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-009-7343-5_5</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Developments in Crystalline Polymers—1</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Netherlands</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="195" to="273" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. J. Lovinger, Developments in Crystalline Polymers, (Applied Science Publications, London, 1981)</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Polymorphism of poly(vinylidene fluoride). III. The crystal structure of phase II</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Doll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lando</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00222347008212505</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Macromolecular Science, Part B</title>
+		<title level="j" type="abbrev">Journal of Macromolecular Science, Part B</title>
+		<idno type="ISSN">0022-2348</idno>
+		<idno type="ISSNe">1525-609X</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="309" to="329" />
+			<date type="published" when="1970-06">1970</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. W. Doll, J. B. Lando, Macromol. Sci.-Phys., B4, 309, (1970)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A reexamination of the crystal structure of phase II of poly(vinylidene fluoride)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bachmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lando</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma50002a006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="40" to="46" />
+			<date type="published" when="1981-01">1981</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. A. Bachmann, J. B. Lando, Macromolecules, 14, 40, (1981)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Oriented phase III poly(vinylidene fluoride)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weinhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Litt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lando</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pol.1979.130170907</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Polymer Science: Polymer Letters Edition</title>
+		<title level="j" type="abbrev">J. Polym. Sci. B Polym. Lett. Ed.</title>
+		<idno type="ISSN">0360-6384</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="585" to="589" />
+			<date type="published" when="1979-09-06">1979</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Weinhold, M. H. Litt, J. B. Lando, J. Polym. Sci.,Polym. Lett. Ed., 17, 585, (1979)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Electron Diffraction Investigation of a High-Temperature Form of Poly(vinylidene fluoride)</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Lovinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Keith</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma60071a026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="919" to="924" />
+			<date type="published" when="1979-09">1979</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. J. Lovinger, H. D. Keith, Macromolecules, 12, 919, (1979)</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Enseignement infirmier supérieur</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gianotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Capazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zamboni</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s003533610016352x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Revue Internationale de la Croix-Rouge</title>
+		<title level="j" type="abbrev">Rev. Int. Croix-Rouge</title>
+		<idno type="ISSN">0035-3361</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">656</biblScope>
+			<biblScope unit="page" from="500" to="501" />
+			<date type="published" when="1973-08">1973</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Gianotti, A. Capazzi, V. Zamboni, Chim. Ind., 55, 501, (1973)</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The morphology and thermal response of high-temperature–crystallized poly(vinylidene fluoride)</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Prest</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Luca</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.321438</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4136" to="4143" />
+			<date type="published" when="1975-10-01">1975</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. M. Prest Jr, D. J. Luca, J. Appl. Phys., 46, 4136, (1975)</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Crystallization and morphology of melt‐solidified poly(vinylidene fluoride)</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Lovinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pol.1980.180180412</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Polymer Science: Polymer Physics Edition</title>
+		<title level="j" type="abbrev">J. Polym. Sci. Polym. Phys. Ed.</title>
+		<idno type="ISSN">0098-1273</idno>
+		<idno type="ISSNe">1542-9385</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="793" to="809" />
+			<date type="published" when="1980-04">1980</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. J. Lovinger, J. Polym. Sci.-Polym. Phys. Ed. 18, 793, (1980)</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The formation of the γ phase from the α and β polymorphs of polyvinylidene fluoride</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Prest</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Luca</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.324439</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="5042" to="5047" />
+			<date type="published" when="1978-10-01">1978</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. M. Prest Jr, D. J. Luca, J. Appl. Phys., 49, 5042, (1978)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">An infrared study of phase-III poly(vinylidene fluoride)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bachmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lando</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.325780</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="6106" to="6112" />
+			<date type="published" when="1979-10-01">1979</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. A. Bachmann, W. L. Gordon, J. L. Koenig, J. B. Lando, J. Appl. Phys., 50, 6106, (1979)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

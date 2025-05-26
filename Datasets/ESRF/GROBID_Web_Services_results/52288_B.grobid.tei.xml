@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Residual stress and distortion prediction for EBF and LMD additive manufacturing methods</title>
+				<funder ref="#_8sQxqmn">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Buslaps</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Andreas Lundback (Luleå</orgName>
+								<orgName type="institution" key="instit1">University West) Magnus Hornqvist (Chalmers University of Technology</orgName>
+								<orgName type="institution" key="instit2">University of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Pederson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Andreas Lundback (Luleå</orgName>
+								<orgName type="institution" key="instit1">University West) Magnus Hornqvist (Chalmers University of Technology</orgName>
+								<orgName type="institution" key="instit2">University of Technology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Residual stress and distortion prediction for EBF and LMD additive manufacturing methods</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BBA74D157DFEB09C53494627D1A50E4E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Within aerospace component manufacturing, fabrication has been recognized as an efficient way to reduce the weight and lead time of complex components typically manufactured using traditional techniques, such as one-piece castings or forgings. A fabricated structure is built by joining smaller subcomponents with a possibility to combine several material forms and alloys. The weight reduction potential comes from an efficient use of different mechanical properties and achievable geometrical tolerances for castings, forgings and sheet material. An important technology in this concept is additive manufacturing (AM), which enables features such as bosses and flanges to be added on subcomponents of fabricated structures and thereby minimizes the material usage (e.g. smaller forging envelope) and shortens the lead time. The use of AM also enables changes late in the design process. It further has a great potential in the aftermarket for repair and modifications.</p><p>Additive manufacturing is a broad definition that includes several different processes and methods in which metallic material is melted in a layer-by-layer manner to form 3 dimensional geometries, either as a near net-shape part or as part of a larger structure. One important advantage with the AM method, compared to conventional manufacturing methods is the potential to significantly lower the buy-to-fly ratio, i.e. components can be manufactured with near final shape without significant machining. And because machining costs are a significant part of the total product manufacturing cost, AM therefore enables significant cost savings for both manufacturing and product pricing.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The current work focuses on exploring the Laser Metal Deposition (LMD) process and Electron Beam Free Form Fabrication (EBF 3 ) process of Ti-6Al-4V (Ti-64). Here a laser energy beam (see Figure <ref type="figure" target="#fig_0">1</ref>) or electron energy beam is used to melt the metal wire of Ti-64, layer by layer, until the appropriate geometry is built. The cooling rate of the deposited material determines the microstructure and thus also the average mechanical properties of the as built part. The substrate was instrumented with thermocouples and a LVDT-gauge (Linear Variable Differential Transformer) to measure the transient temperature and deformation of the substrate during the AM-processes. The measurements are thereafter used for validation of the computational model. The residual stresses are measured by means of x-ray diffraction at the ID15A beam line in the synchrotron radiation facility at ESRF in Grenoble, France. These experimentally measured residual stresses are then compared with those predicted by the simulation model. In Figure <ref type="figure" target="#fig_1">2</ref> the finished specimen, including the fixture can be seen. The building sequence is also indicated. The dimension of the substrate is 130x100x14 mm and the added material forms an open box with the dimension of 100x70 mm and with a thickness of 4 mm. 20 layers of material is added, each with a thickness of 0.7 mm giving a total wall height of 14 mm. The residual stress measurements were carried out by energy-dispersive X-ray diffraction on the high-energy beam line ID15A at the European Synchrotron Research Facility (ESRF) in Grenoble, France. The characterization used a high-flux white beam with an energy range of 50-250 keV. Measurements were done in transmission mode, with two energy-discriminating detectors positioned at 5° (2) horizontally and vertically from the beam direction. The setup allows collection of complete energy-intensity spectrums, which are converted to intensity vs. 2 by the equivalent wavelength. A slit size of 100 x 100 m 2 was used for both the incident and diffracted beam slits, giving a diamond shaped gauge volume with a length of approximately 2 mm. The residual stresses were measured in the middle of one of the long walls of each box from to directions, by illumination from the side of the wall (giving strains in the x and z directions) and from the bottom side of the plate (giving strains in the x and y directions), see Figure <ref type="figure" target="#fig_2">3</ref>.  During illumination from the side the gauge volume was placed in the second wall, and the incident beam was allowed to penetrate the first wall. The collection time for each measurement point was 60 s, and the specimen was moved between measurements in order to perform line scans of the strains as a function of the position from the top of the wall. While collecting the spectrum during side illumination the specimen was moved back and forth ±1 mm in the x direction compared to the nominal position of the measurement to increase the gauge volume and statistics. Three parallel line scans were performed, spaced 2 mm apart to check repeatability. During illumination from the bottom, only one line scan was performed. Spectrum fitting was performed using the General Structure Analysis System software <ref type="bibr" target="#b0">[1]</ref> (GSAS) in order to determine the lattice parameters, a and c, of the hcp -phase. Because of the low amount of -phase in the structure, this was neglected in the present study. More details are described in references <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>.</p><p>The resulting residual stresses are shown in Figure <ref type="figure" target="#fig_2">3</ref>(b), which also includes the results from the numerical simulations. As expected from the strains in Figure <ref type="figure" target="#fig_2">3</ref>(a), the overall trends are in agreement between experiments and predictions, whereas the levels differ. In Figure <ref type="figure" target="#fig_4">4</ref> the measured and computed deformations is shown. The first figure shows the out of plane deformations during the entire process. One peak corresponds to the addition of one layer. It can be seen that the overall trend is that the results is diverging. The computed deformation is also over predicted in each layer. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Left: Illustration of the laser-wire interaction. The molten metal solidifies into a bead by relative motion of the welding tool and the substrate. Right: Side-and top view images of the real process.</figDesc><graphic coords="2,34.20,250.90,438.70,251.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Finished LMD specimen including the fixture and building sequence.</figDesc><graphic coords="3,34.01,86.36,427.54,256.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. The residual stresses were measured in the middle of one of the long walls of each box</figDesc><graphic coords="3,33.95,389.75,524.40,273.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. (a) Measured and predicted strains. (b) Measured and predicted residual stresses.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Measured and predicted deformation history for the entire process, measured at the center of the bottom surface.</figDesc><graphic coords="4,34.20,524.75,314.55,220.55" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p><rs type="person">Axel Steuwer</rs> (<rs type="projectName">MAX-lab) Craig Brice</rs> (<rs type="affiliation">NASA Langley Research center</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_8sQxqmn">
+					<orgName type="project" subtype="full">MAX-lab) Craig Brice</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future work</head><p>The measurements performed at ESRF rendered in important residual stress state data in differently additivelly manufactured Ti-6Al-4V material. The next step in this research work is to perform post built heat treatments on the additivelly manufactured Ti-6Al-4V samples, and then measure change in residual stresses, in order to eventually be able to predit the new additively manufactured materials' mechanical properties through appropriate material modelling. The here involved group of scientists are working with development of a physically based material model for additive manufacturing of Ti-6Al-4V material. This model will, when fully validated, be able to predict the final mechanical properties of additive manufactured Ti-6Al-4V depending on its thermo mechanical treatment history. One of these "mechanical properties" is residual stresses, which not only affects static properties of final products, but also dynamic properties such as fatigue strenght. Complete understanding and control of these properties are fundamental needs before additive manufacturing will be mature for serial production of advanced structural componenets. Part of this modeling efforts have recently been published in reference <ref type="bibr" target="#b4">[4]</ref>.</p><p>The present research group anticipate to apply for new beam time at ESRF in order to complete the full set of measurements needed to valide the simulation model for additive manufacturing of Ti-6Al-4V presented in the article above. If the application is granted, this will enable the development of a comprehensive physically based material model for additive manufacturing of Ti-6Al-4V.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Emissions Inventory Report Summary for Los Alamos National Laboratory for Calendar Year 2006</title>
+		<idno type="DOI">10.2172/920237</idno>
+		<idno>No. LAUR 86-748</idno>
+		<ptr target="http://www.ncnr.nist.gov/xtal/software/gsas.html" />
+	</analytic>
+	<monogr>
+		<title level="m">General Structure Analysis System (GSAS)</title>
+		<meeting><address><addrLine>Los Alamos National Laboratory, Los Alamos, NM</addrLine></address></meeting>
+		<imprint>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">LANL Report</note>
+	<note type="raw_reference">A.C. Larson and R.B. von Dreele, General Structure Analysis System (GSAS). LANL Report No. LAUR 86-748, Los Alamos National Laboratory, Los Alamos, NM, 2000, http://www.ncnr.nist.gov/xtal/software/ gsas.html.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Modelling And Simulation Of Metal Deposition On A Ti-6al-4v</forename><surname>Plate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Lundbäck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Pederson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magnus</forename><surname>Hörnqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Craig</forename><surname>Brice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Axel</forename><surname>Steuwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Almir</forename><surname>Heralic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Buslaps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lars-Erik</forename><surname>Lindgren</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015-07-30">26-30 July, 2015</date>
+			<publisher>National Congress on Computational Mechanics</publisher>
+			<pubPlace>San Diego, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MODELLING AND SIMULATION OF METAL DEPOSITION ON A Ti-6Al-4V PLATE Andreas Lundbäck ; Robert Pederson ; Magnus Hörnqvist ; Craig Brice ; Axel Steuwer ; Almir Heralic ; Thomas Buslaps ; Lars-Erik Lindgren; National Congress on Computational Mechanics, San Diego, USA, 26-30 July, 2015.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Modeling And Experimental Measurement with Synchrotron Radiation of Residual Stresses in Laser Metal Deposited Ti‐6Al‐4V</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Lundbäck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Pederson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magnus</forename><forename type="middle">Hörnqvist</forename><surname>Colliander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Craig</forename><surname>Brice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Axel</forename><surname>Steuwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Almir</forename><surname>Heralic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Buslaps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lars‐erik</forename><surname>Lindgren</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781119296126.ch216</idno>
+		<imprint>
+			<date type="published" when="2016-05-02" />
+			<publisher>Wiley</publisher>
+			<biblScope unit="page" from="1279" to="1282" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MODELING AND EXPERIMENTAL MEASUREMENT WITH SYNCHROTRON RADIATION OF RESIDUAL STRESSES IN LASER METAL DEPOSITED Ti-6Al-4V</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Modeling And Experimental Measurement with Synchrotron Radiation of Residual Stresses in Laser Metal Deposited Ti‐6Al‐4V</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Lundbäck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Pederson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magnus</forename><forename type="middle">Hörnqvist</forename><surname>Colliander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Craig</forename><surname>Brice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Axel</forename><surname>Steuwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Almir</forename><surname>Heralic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Buslaps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lars‐erik</forename><surname>Lindgren</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781119296126.ch216</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 13th World conference on Titanium</title>
+		<meeting>the 13th World conference on Titanium<address><addrLine>San Diego, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2016-05-02">2016</date>
+			<biblScope unit="page" from="1279" to="1282" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andreas Lundbäck, Robert Pederson, Magnus Hörnqvist Colliander, Craig Brice, Axel Steuwer, Almir Heralic, Thomas Buslaps and Lars-Erik Lindgren, Proceedings of the 13th World conference on Titanium, 2016, pp 1279-1282, San Diego, USA.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Simulation Of Additive Manufacturing Using Coupled Constitutive And</forename><surname>Microstructure Models Lindgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-E</forename><surname>Lundbäck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fisk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pederson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Andersson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Additive Manufacturing</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SIMULATION OF ADDITIVE MANUFACTURING USING COUPLED CONSTITUTIVE AND MICROSTRUCTURE MODELS Lindgren, L-E., Lundbäck, A., Fisk, M., Pederson, R. &amp; Andersson, Journal of Additive Manufacturing, 2016i.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

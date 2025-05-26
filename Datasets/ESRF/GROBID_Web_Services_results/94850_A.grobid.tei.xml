@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8B2D2EFE60598B2C6F1D2DF5337D94CB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: CryoEM Study of Trypsin Modulating Oostatic Factor Binding to E. coli Ribosomes Experiment number: MX-2301 Beamline: CM01 Date of experiment: from: 20 Jul 2020 to: 22 Jul 2020 Date of report: Shifts: 6 Local contact(s): Michael Hons Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Anastasia Lilina* Sergei Strelkov* * Laboratory for Biocrystallography, KU Leuven, 3000 Leuven, Belgium Report:</p><p>Allocated beamtime was used as followed: 2 hours for preparing grid atlases, 3 hours for grid screening and selecting the best grid, the remaining time was used for data collection. As a result, we were able to collect a dataset of 9830 movies for E.coli ribosome.</p><p>In total 6 grids with frozen sample were loaded into the microscope. However only grids #3 and #10 were showing good ice quality and decent particle distribution. In total 10 grid squares were selected on grid#10.</p><p>Examples of a good grid square and a grid hole with particles are shown in figure <ref type="figure" target="#fig_2">1A</ref> and 1B. The data were collected with the following parameters: magnification 165k, pixel size 0.827 Å/pixel, number of frames per movie 40, dose per movie 45.0 e -/Å 2 . The overall statistics for resolution and astigmatism distribution is shown in figure <ref type="figure" target="#fig_2">1C</ref>.</p><p>Processed data were copied from ESRF server using rsync command and raw data were copied on hard drive and shipped to Leuven. During the download, we were giving priority to the pre-processed images that we could use directly for CTF estimation and particle picking. Data processing was carried at KU Leuven using CryoSparc v 2.15.</p><p>Initial processing was done using first 1700 micrographs and 190k particles were picked using blob picker. After partical inspection and several rounds of 2D classifcation, we had 93k particles suitable for 3D reconstruction.</p><p>Initial map resolution was 3.0 Å. Afterwards, preliminary 3D reconstruction was used to generate 2D templates for optimized particle picking. Template picker was applied to 2556 micrographs with estimated CTF-fit resolution better than 3.5Å. In total 500k particles were picked followed by particle extraction and 2D The binding site of the trypsin modulating oostatic factor is still being refined but the data look very promising and suitable for future publication.  A B C A B C class_0 class_1 class_1</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>classification. Selected 2D classes for 3D reconstruction are shown in fig. 2A. 3D reconstruction revealed 2 classs with resolution 2.85Å and 3.01Å (fig. 2B and 2C) .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. A. Example of selected squares for data collection. B. Carbon hole with graphene oxide containing vitrified ribosomes C. Data collection statistics.</figDesc><graphic coords="3,362.75,491.39,154.83,135.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. A. Selected 2D classes for ab-initio reconstruction. B. 3D classes obtained after ab-initio reconstruction and refinement. C. Homegeneous refinement of one of the classes obtained during ab-initio reconstruction.</figDesc><graphic coords="3,27.85,611.74,286.80,130.40" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

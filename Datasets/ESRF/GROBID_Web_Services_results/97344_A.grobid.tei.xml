@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental report: Testing isomorph theory on a glass-forming liquid under high pressure using diffraction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Experimental report: Testing isomorph theory on a glass-forming liquid under high pressure using diffraction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9C4CE3A5B7102E2E55D940738FCCFAAD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>During the beamtime, the were two main results. The first was the main experimental setup used to test isomorph theory by measuring the structure factor along 3 isobars and 3 isotherms. The second main result was proof-of concept experiment conducted, used to test two proposed links between the fragility and structure of glass-forming liquids. In this experimental report we will treat each result separately.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proof of concept experiment:</head><p>The goal of the experiment is measuring the structure factor for a glass-forming liquid. The experimental setup was very simple, a silicon glass capillary, closed with beeswax. We measured the structure factor as a function of temperature. The experimental setup was successful in getting temperature dependent structural measurements and will be used to apply for further beamtime. The experimental setup is a steel capillary, cooled by liquid nitrogen. We measured at beamline ID31. The sample is cumene. The successful measurements conducted were along three isobars and three isotherms. The conducted measurements and the experimental setup are shown in figure <ref type="figure" target="#fig_1">2</ref>. The goal of the experiment is to show that the structure of the simple glass-forming liquid, cumene, is invariant along lines of constant relaxation time, isochrones. The measured isobars and isotherms map out the phase diagram. We compare measurements along isochrones, with measurements along isobars, isotherms, and isochores.</p><p>We measured the empty cell at ambient pressure in jumps of 10 kelvin, the same case as when the isobars were measured. The background subtracted is the measurement at the same temperature.</p><p>We were hoping to measure in a wide q-range, such that it would be possible to calculate the pair distribution function, G(r), from our measurement. Sadly, it was only possible to get the first peak when the background was subtracted. See Figure <ref type="figure" target="#fig_2">3</ref>. The analysis of the results is still early, but promising. As shown in Figure 4 the measurement of the first structure peak collapse onto a single line when plotted as a function of Q̃=Q/ρ^1/3, in agreement with the predictions of isomorph theory. This is shown in figure 4. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Left: The measured signal, the background and the cumene signal with the background subtracted. Right: A picture of the experimental setup Testing Isomorph theory:</figDesc><graphic coords="1,51.50,526.65,237.65,426.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Left: The measured state points in a (P, T)-phase diagram. The dashed lines are isochrones, the dotted lines are isochores. Right: The experimental setup without the pressure setup mounted.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: The measured signal for the cell + cumene, the background and the cumene signal with the background subtracted. It is not possible to see the secondary peaks of the structure factor due to interference of the cell.</figDesc><graphic coords="2,59.70,267.85,230.75,173.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Left: Collapse of the main structure peak of cumene when plotted as a function of Q= Q rho^(1/3). The spikes around 1.6 are a signal from ice, crystallizing on the cell on measurements at low temperatures. Ice was present on background measurements resulting in the sudden drop in intensity. Right: The measured state points in a (P, T)-phase diagram. The dashed lines are candidates for isomorphs, the dotted lines are isochores.</figDesc><graphic coords="2,62.05,508.30,217.75,163.35" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

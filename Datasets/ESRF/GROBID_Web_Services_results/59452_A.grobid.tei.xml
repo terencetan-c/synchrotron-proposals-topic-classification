@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">19B29432DED1D0670EBA1CE06584A2FD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report: Proposal summary</head><p>We have designed and commissioned a new in situ advanced manufacturing rig to directionally solidify novel alloys whilst applying a permanent magnetic field (0.5T) and obtaining fast tomographic images. We now propose to use the ultra-fast X-ray tomography at ID19 to thoroughly study how magnetic fields affect solidification of Al-Si-Cu-(Fe) alloys, in particularly, how the dendrite morphology is disrupted. This experimental investigation, when coupled with our numerical models, can be used to demonstrate the potential of Thermoelectric Magneto-Hydro-Dynamics (TEMHD) convection during solidification, helping the design of a new class of alloys (lighter and stronger).</p><p>1. Integration of the rig with ID19. An in-house build MagDS system, which contains two furnaces (up to 1000 C) and an X-ray window in between (Figure <ref type="figure" target="#fig_1">1</ref>), is capable of directionally solidifying novel alloys whilst applying a permanent magnetic field (0.5T). This MagDS system was integrated with ID19's high speed tomographic imaging system successfully (Figure <ref type="figure">2</ref>) with the support of ID19's beamline scientists. Fig. 2. The MagDS system in ID19 ESRF</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results</head><p>We have performed high speed tomographic imaging of solidification process of both Al-15wt%Cu and Al-5.5Si-3.4Cu (wt.%) alloys. The samples were first fully melted in the furnace then a thermal gradient was built up via varying the temperature of both furnaces. The directional solidification was triggered by cooling both furnaces down at a prescribed rate. Experimental conditions with varied cooling rates and thermal gradients were utilized. A magnet field of 0.5 T was applied to different samples with the same directional solidification conditions. Analysis of the full time dependent 3D reconstruction is still underway, but the initial results already show the effect of magnet on solidification microstructures.</p><p>(1) Experiments on 2mm diameter Al-15%wt.Cu samples have shown the formation of a helical microstructure (figure <ref type="figure" target="#fig_2">3</ref>) when the magnet is on, and more importantly the growth morphology and segregation behavior are totally different with the magnetic field applied (figure <ref type="figure">4</ref>). Our simulations reproduce the observed behavior as shown in figure <ref type="figure">5</ref>.</p><p>(2) There is also evidence that TEMHD can lead to significant grain refinement. Using the same experiment set-up (MagDS), experiments were conducted on a 319 Al alloy (Al-5.5Si-3.4Cu, wt.%), which is widely used in industry. Figure <ref type="figure">2</ref>.7 shows the microstructure of 319 Al alloy with and without the application of the magnetic field.</p><p>In the presence of a 0.5 T, the magnetic field the grains are around 20 times smaller. Current results demonstrate that TEMHD has a significant effect on solidification microstructure. However, fully analysis of the experimental results is still ongoing. The 3D/4D quantification will provide us a better understanding of the underlying mechanisms. One example of 3D dendrite is shown in figure <ref type="figure" target="#fig_4">7</ref>.  Fig. 5 Numerical model of TESA showing the formation of a single turn of the helical structure. Time is relative, where 0s represents the start of the turn.  (a) (b) 0 T 0.5 T</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants(* indicates experimentalists): Dr. Biao Cai*, University of Manchester Prof. Peter d Lee*, University of Manchester Professor Koulis Pericleous, University of Greenwich Dr Andrew Kao*, University of Greenwich</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Schematic of the MagDS system</figDesc><graphic coords="3,179.95,239.23,199.92,148.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Radiographies of directionally solidifying Al-15wt%.Cu dendrites at different rotation angles: 0, 90, 180 o , showing the helical structure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .Fig. 6 .</head><label>46</label><figDesc>Fig. 4. 2D slice from 3D volume of directionally solidifying Al-15wt%.Cu dendrites. Top row: without magnetic fields; bottom row with 0.5 T magnetic field onto the sample.Significant difference in dendrite morphology and segregation can be observed.</figDesc><graphic coords="4,71.93,522.11,451.45,206.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 7 A</head><label>7</label><figDesc>Fig. 7 A reconstructed equiaxed dendrite 3. Publications An oral presentation has been accepted at Defects and Properties of Cast etals in TMS2017, entitled '4D Synchrotron X-ray Imaging of Magnetically Controlled Al Alloy Solidification'. A few journal publications are expected, and one is in preparation.</figDesc><graphic coords="5,206.55,225.43,182.25,173.45" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

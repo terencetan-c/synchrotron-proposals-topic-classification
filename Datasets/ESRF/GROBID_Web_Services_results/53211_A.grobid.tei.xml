@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EC1CA76E4AE802AE11B4861B8892CACB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: Stress micro-mapping in As-and Sbimplanted HgCdTe photodiodes Experiment number: 32-02-756 Beamline: BM32 Date of experiment: from: 27/11/2013 to: 30/11/2013 Date of report: 10/02/2020 Shifts: 9 Local contact(s): Jean-Sébastien MICHA Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Dr Habil Philippe Ballet* -CEA-Grenoble / LETI / DOPT / STM / LMS Dr Ing Habil Xavier Biquard* -CEA-Grenoble / IRIG / DEPHY / MEM / NRS Dr Clément LOBRE* -CEA-Grenoble / LETI / DOPT / STM / LMS</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The main goal of this proposal was to obtain the local crystal deformations and damages induced by the implantation of arsenic and to observe the effect of the activation thermal annealing.</p><p>The ternary alloy Hg1-xCdxTe is of the Zinc-Blende type and is constituted by 2 face-centred cubic sub-lattices (named A and B afterwards) offsetted by [¼,¼,¼] with the anion sub-lattice made of Tellurium while the cation sub-lattice hosts either Hg or Cd. Consequently, (hkl) reflections are only allowed if Miller indexes h, k and l have the same parity and their sum is either odd (odd indexes) or even (even indexes). Concerning their intensities, there is a major difference for even Miller indexes: (hkl) reflections with h+k+l=4n have an amplitude proportional to the square of the sum of atomic form factor (fA+fB) 2 while h+k+l=4n+2 have an amplitude proportional to the square of the difference of atomic form factor (fA-fB) 2 . h+k+l=4n reflections are strong while 4n+2 reflections are weak.</p><p>As shown on table <ref type="table">1</ref> for as-implanted sample, the diffraction signal almost goes down to background level in a 750 nm deep and #5 µm wide zone corresponding to As implantation zone. Moreover, that zone is roughly 500-750 nm thick, perfectly corresponding to expected penetration length of 360 keV As ions: diffraction intensity reduces because of implantation-induced damages. A detailed comparison on figure <ref type="figure" target="#fig_1">1</ref> shows that the weak diffraction intensity is 1.5 time more reduced than the strong one. The proposed explanation is that misfit dislocations occur in the damaged zone, thus inducing stacking fault in the crystal that locally transform the AB atomic structure into BA structure. Therefore, the two cfc sub-lattices are no more exclusively made of cations or anions, but of a mixture of both in various proportions: fA and fB difference lowers. And whatever the proportion of anion/cation mixing, this does not affect strong reflections but specifically decreases weak reflections until -in the limit case where anions and cations are fully mixed-up -weak reflection are zero since fA=fB. After annealing, we observe a complete restoration of the diffraction signal in the implanted zone: from both strong and weak diffraction intensities point of view, there is no more trace of implantation damages after annealing.</p><p>As a conclusion, we have observed that the activation thermal annealing has completely cured the epi-layer from its As implantation damages, an ideal situation for HgCdTe photodiodes.</p><p>[1] C. Lobre, 'Compréhension des mécanismes de dopage arsenic de CdHgTe par implantation ionique', phdthesis, Grenoble, Grenoble, 2014.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>As-implanted sample</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Annealed sample</head><p>Weak reflection (8,-2,8) 14.8 keV Strong reflection (6,-2,8) 14.5 keV Weak reflection (6,0,8) 12.37 keV Strong reflection (7,-1,7) 12.25 keV Table <ref type="table">1</ref>: Comparison between diffraction intensity repartition for as-implanted and annealed samples. For each sample, we compare the most intense weak reflection with the corresponding strongest one that is closest in energy to avoid any penetration length distortion. Intensity is coloured coded from blue to red as shown at the extreme right and the localisation of implanted pixels is shown on the left. X-ray beam was raster scan every H=0.25 µm x V=1 µm. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Comparison between strong and weak reflection for the pixel zone of both samples. Density of displaced atoms is also represented against the right scale. Insert: SIMS measurements of the concentration of cations Hg and Cd with depth</figDesc><graphic coords="3,86.05,407.05,428.80,306.20" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

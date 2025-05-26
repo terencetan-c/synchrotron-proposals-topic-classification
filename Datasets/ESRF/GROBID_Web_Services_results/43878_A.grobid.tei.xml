@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local stress determination in a microelectronics component using the Kossel microdiffraction technique</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Denis</forename><surname>Bouscaud</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Raphaël</forename><surname>Pesci</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sophie</forename><surname>Berveiller</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+						</author>
+						<title level="a" type="main">Local stress determination in a microelectronics component using the Kossel microdiffraction technique</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">ECFC61268C55F777CEA9DB9C044B7EED</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Previous measurements performed on a superalloy single crystal (ID13 beamline) showed that it was feasible to obtain some really high quality Kossel line patterns through monochromatic synchrotron emission. From these Kossel patterns, it was then possible to determine stress values similar to those applied with a small tensile micromachine. The aim of these new experiments was to test the Kossel technique for polycrystalline materials with small grain size. The grain-to-grain residual stress state on copper interconnects was studied in particular.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The mechanical properties of copper interconnects is a key issue for the reliability of microelectronic devices. Thus, ST Microelectronics developed MEMS sensors integrated in the damascene process to follow the average stress state after processing<ref type="foot" target="#foot_0">foot_0</ref> . Moreover, local strains may lead to failures in copper lines, so the knowledge of the grain-to-grain stress state is crucial. MEMS sensors have been located precisely by X-ray fluorescence spectroscopy mappings (figure <ref type="figure">1 (a)</ref>). The copper grain size being about one micrometer (Figure <ref type="figure">1 (b)</ref>), a 300 nm sized X-ray beam was focused on the material in order to probe it one grain at a time. An energy level beyond the absorption edge of copper was preferred so as to intensify the X-ray fluorescence and consequently the Kossel patterns intensity. A CCD detector was placed as close as possible to the samples in order to collect the maximum number of Kossel lines and to obtain stress values with the best precision (figure <ref type="figure">2</ref> (a)). Several tests were performed to find the correct acquisition parameters in order to have a sufficient pattern quality for the post-processing. The typical acquisition time to record one pattern was very long: about two hours. This is due to the low signal-to-noise ratio of the Kossel microdiffraction technique added to the very small diffraction volume, the copper thickness being only about 700nm. Several Kossel line patterns were recorded for different grains belonging to the copper pointer. An example of experimental pattern is given in figure 2 (b). The black spots are representative of the diffuse diffusion phenomenon.</p><p>Every Kossel line pattern was then indexed using a program (developed in collaboration with Adam Morawiec) that takes into account the distance between the center of projection on the material and the center of the CCD screen, the wavelength of the emitted X-rays, as well as the crystalline structure and the lattice parameter of the tested material. The stress tensors in the specimen coordinate system were then calculated: one result is given in figure <ref type="figure">2 (b)</ref>. The sign and the order of magnitude of the longitudinal stress are quite in accordance with the average stress obtained from the deviation of the whole pointer. These experiments, never performed before, showed that it was possible to determine the stress state for such thin layers at the micrometer scale by Kossel microdiffraction, using a fine monochromatic synchrotron beam. These results were used in a PhD project<ref type="foot" target="#foot_1">foot_1</ref> and will be the object of further publication.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>X-ray fluorescence cartography to locate the copper lines (a). SEM observation of the microstructure of a Cu-MEMS sensor showing small twinned grains (b).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Experimental setup to acquire Kossel line patterns in ID13 beamline (a). A Kossel line pattern obtained for a copper grain located at the extremity of the pointer, with the simulated pattern superimposed and the full stress tensor result (in MPa) (b).</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>By measuring the deviation of the Cu-pointer (due to the stress relaxation) after etching the dielectric layers</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>Title: Development of Kossel microdiffraction for strain and stress analysis at the micrometer scale -Applications to crystalline materials. Defended the 18 th of May 2012</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

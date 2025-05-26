@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mechanisms underlying Delta receptor functions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Hons</forename><surname>Michael</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Cell Science</orgName>
+								<orgName type="institution">S. P. Pune University</orgName>
+								<address>
+									<settlement>Pune-411007</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Janesh</forename><surname>Kumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Cell Science</orgName>
+								<orgName type="institution">S. P. Pune University</orgName>
+								<address>
+									<settlement>Pune-411007</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ananth</forename><surname>Prasad Burada</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Cell Science</orgName>
+								<orgName type="institution">S. P. Pune University</orgName>
+								<address>
+									<settlement>Pune-411007</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mechanisms underlying Delta receptor functions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">503C4020C24DFB75A26E995D2FFE35A2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>For the allocated beamtime at CM01 beamline, we were able to collect a decent dataset (4120 movies) for ligand bound form of Delta receptor using the Krios Cryo-Electron Microscope. With the help of the local contact (HONS Michael), we loaded 7 grids in the grid loader (prepared and tested by Dr Manikandan Karuppasamy, EMBL, Grenoble.) containing ligand bound protein. First we screened the prepared grids and selected the best grids with good ice thickness and particle distribution. We chose grid no.7 and marked good squares with intermittent ice thickness imaged. The following parameters were adjusted using grid hole of each square: Magnification: 130,000; pixel size: 1.067; spot size: 6; with a total dose of 40.38е -/Ȧ 2 ; fractions (# frames): 40; exposure time: 5s; images per hole: 3; amplitude contrast: 10%; drift correction was set once per grid square and autodefocus was set once every 3 rd grid hole; Energy filter was set to 20еV and the data was collected in super resolution counting mode. The data collection was monitored using the ExiMX interface; data processing (motion correction and CTF estimation) was done simultaneously as the data was collected as shown in Figure <ref type="figure">1</ref>. In addition, data collection statistics was performed by the system to measure the resolution distribution across movies, average motion per frame and astigmatism. Unfortunately, due to Gain reference issues with Gatan detector a few hours of data collection were lost. In total, 4120 movies were collected, out of which 3800 were good and 320 were bad containing gain reference issues and drift in movies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure1: Data collection with simultaneous processing</head><p>Processed and raw data was transferred from the system to the harddisks using Rsync command line. The untransferred data was transferred to home institute by FTP. Data processing is being carried at home institute using softwares like CryoSPARC version2 and Relion3 beta. Raw data was imported and processed. good micrographs were separated from the bad ones by checking individual micrographs. Approximately 800 particles were picked manually from few micrographs, followed by particle extraction and 2D classification. Then, these particles were used as template to optimize the autopick and extract particles from all micrographs. These particles classified and further processed. Further processing is ongoing, but from intial steps of classification we observed heterogeniety in the sample which is hindering to obtain high resolution structural information. Hence, it would be necessary to obtain more micrographs to to get more no of particles to build high resolution structure of Delta receptor. Figure <ref type="figure">2</ref>   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>few steps in processing and representative 2D classes and 3D reconstruction. Manuscript under preparation for publication.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure2:</head><figDesc>Figure2: Data processing of motion corrected and CTF estimated movies showing representative 2D classes and 3D reconstruction</figDesc><graphic coords="2,106.97,521.63,381.88,242.70" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

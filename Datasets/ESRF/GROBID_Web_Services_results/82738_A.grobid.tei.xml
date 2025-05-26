@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ptychographic imaging of phase ordered domains in FeAl</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Steven</forename><surname>Leake</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carsten</forename><surname>Richter</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chan</forename><surname>Kim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Lu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ulrike</forename><surname>Boesenberg</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alexey</forename><surname>Zozulya</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xfel</forename><surname>Eu</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Fresnel Inst</roleName><forename type="first">Virginie</forename><surname>Chamard</surname></persName>
+						</author>
+						<title level="a" type="main">Ptychographic imaging of phase ordered domains in FeAl</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">81C964CAE7019B828EE88B3643184C65</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We performed coherent diffractive imaging (CXDI) in Bragg scattering geometry on phase ordered domains in Fe-Al alloys using ptychography at ID01 beamline. To obtain coherent illumination, which is one of the key parameters for a successful experiment, we slitted the beam to about 60µm(H) x 300µm(V) just in front of the Fresnel zone plate (FZP: 300µm diameter). The focus size, measured by knife-edge scan with a</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>wedged silicon, was about 200nm(H) x 70nm(V) (FWHM). To check overal stability of equipments &amp; the illumination function, we measured a test pattern in the transmission geometry and we successfully retrieved object image (test pattern) and the illumination function by on-site analysis. Then, we measured the overfocused beam from FZP using Andor CCD which is located about 5m downstream from the sample/focus plane before and after our main 3D measurements. The focused beam size recovered by Quiney method was about 180nm(H) x 70nm(V) (FWHM) and it matched well with the other analysises. (Images are not shown here.)</p><p>As a main experiment, we aimed to reveal the 3D arrangement of antiphase domain (APD) strucures in FeAl alloys (45 At% Al). The B2 phase domain structure in a 45 At% Al alloy was measured at two different reflections: the 001 superlattice peak and the fundamental 002 Bragg peak. Here, we expect a strong (π +/-α 001 ) phase shift from domain boundary at 001 peak and a relatively small (α 002 ) phase shift at 002 peak. The π phase shift, which is caused by the antiphase domain boundaries (ADBs), is only sensitive to the superlattice peak (not sensitive to the fundamental peak) and α 001 &amp; α 002 phase shift are caused by the strain near the domain boundaries (|α 002 | = 2|α 001 |: α is propotional to the length of q-vector). If we subtract half of (002) phase from (001) phase, only π phase shift is left and these area can be considered as ADBs. Sectioned images at around central position of the reconstructed 3D (001) and ( <ref type="formula">002</ref>   These calculations were then applied again to 3D ( <ref type="formula">001</ref>) &amp; (002) phase images. During these processes, we selected relatively small region (1.7µm x 1.8µm x 1.1µm) as compared with the reconstructed whole 3D images to avoid reconstruction artifacts near the boundaries of scanned area and to minimize effects from phase wrapping although the phase wrapping was already corrected in 3-dimensionally. After the subtraction, we expected to have only 0 and π phase values, but there still exist small fluctuation near 0 and π phase values as we can see from the bottom images (subtracted phase) in Fig. <ref type="figure" target="#fig_2">1(b)</ref> &amp; <ref type="figure">(c</ref>). So, we applied an additional window (for example +/π/2) for an on-off domain maps, which are shown in Fig. <ref type="figure" target="#fig_4">2</ref>  As a last step, we have tried to match strain maps from the (002) phase and ADBs from the on-off domain map. When there exist ADBs, we expect some strain near there due to the changes of atomic ordering (e.g. Fe-Al-Fe-Fe-Al-Fe). Now, we are working on this part together with preparing manuscript for a publication.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>) phase images are shown in Fig.1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>(a) and above mentioned calculations are applied to two different line profiles, which are shown in Fig. 1(b) &amp; (c).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (a) Sectioned images at around central position of the reconstructed 3D phase images (upper: (001) phase, lower: (002) phase). (b, c) Upper: Line profiles from the sectioned images (a), marked as dotted yellow lines. Lower: Subtracted phase values which are only sensitive to π phase shift from anti-phase domains.</figDesc><graphic coords="2,40.41,79.01,204.61,138.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>(a) &amp; (b). In FeAl BCC structure, atomic switching mostly occurs in [111] direction (1 st nearest neighbor direction) and it makes ABDs in (110) plane. From our on-off domain maps, the ADBs are clearly shown in (110) plane family.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. (a) On-off domain map of FeAl antiphase domain structure (inset: calculated illumination fn.). Grey colors correspond to one domain and empty area corresponds to anti-phase domain (or vice verse). (b) One of xy slice of 3D anti-phase domain image. The length of axis arrows is 400nm.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

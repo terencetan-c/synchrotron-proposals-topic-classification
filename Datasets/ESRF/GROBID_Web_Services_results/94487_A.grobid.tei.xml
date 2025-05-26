@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">56620152821BABCE264ECED832C22375</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the experiment, we planned to do surface diffraction measurements with Cu(100) single crystal under CO2 electrochemical reduction condition. ID 10 has switched the beamline control software from SPEC to BLISS, which does not support UB matrix calculations and movements/scans in reciprocal space. Following the suggestions of the beamline staff, we ran SPEC in the background, and had SPEC do all the motor angle calculations, using the vertical sample stage of the diffractometer. The calculated angles were fed into BLISS (lookupscan) to simulate the crystal truncation rod scans. Unfortunately, this procedure did not work and the angles calculated via SPEC were off a lot. At day 4 of our beamtime it became clear that the geometry of the diffractometer at ID10 could not be calculated within the sixc session of SPEC. Unfortunately, we and the beamline staff were not able to solve the problem until the end of the beamtime, despite hard efforts. We thus only could collect some reflectivity data instead of full sets of crystal truncation rods, as proposed in our beamtime proposal. This was highly frustrating for the three members of the experimental team, especially because they had to enter a 14 days quarantine after their return to Germany.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>While we understand that the transition from SPEC to BLISS takes some time before BLISS can live up to its full potential and provide equivalent functionality as SPEC, we regard UB matrix calculations and navigation and scans in reciprocal space as indispensable for X-ray diffraction techniques of single crystals. Implementing these functions in BLISS should be given high important priority. It would be ideal if SPEC and BLISS could be both implemented at the beamline and either of those be used, depending on the needs of the user, but we understand that this might be difficult to realize technically. We also urge the ESRF to inform the users that these are currently not available. In our case, we were not aware that reciprocal space functions were not implemented in BLISS until two weeks before our beamtime. If we would have known well in advance that no reciprocal space functionality currently exists at the beamline, we could have set up calculations of our own. In addition, further improvements are required to make ID10 suitable for operando surface diffraction experiments of solid-liquid interfaces. First, these experiments usually require a horizontal orientation of the interface due to cell design. Furthermore, substantial auxiliary equipment (in our case a remote controlled liquid pump system) needs to be mounted on the sample stage. This is not possible in the moment at ID10, because the range of the horizontal theta rotation is strongly restricted (and much smaller than the required &gt;120° for CTR acquisition) by the nearby double crystal monochromator. Implementing easy translation of the latter device away from the diffractometer, as planned by the ID10 staff, would be highly useful.</p><p>As an alternative to the conventional CTR acquisition (as in the former beamline ID03), acquisition with a large 2D detector, similar as at ID31, was suggested. While this is in general an interesting option, it is not always practical. At the photon energies available at ID10, only the innermost CTRs would be accessible unless the detector is moved very close to the sample (which is problematic because of the before mentioned restricted sample rotation). Furthermore, a rapid on-the-fly extraction of the CTRs from the data would be required, which currently does not exist. This is very important for operando experiments where the sample can rapidly degrade and where immediate knowledge about the quality of the obtained CTR data is necessary.</p><p>In the end, we like to express our disappointment that after the shutdown of ID03 no adequate substitute for surface and interface diffraction experiments exists. This is in no means the fault of the ID10 beamline staff, who had been very helpful during the experiment and devoted considerable time and efforts to our experiment. In our opinion, ESRF management needs to devote substantially more resources, especially in the field of software development, to re-implement functionalities that have been a standard in Xray diffraction for more than 30 years.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

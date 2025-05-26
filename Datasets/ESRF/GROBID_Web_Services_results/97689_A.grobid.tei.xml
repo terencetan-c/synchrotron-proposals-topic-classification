@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-09-12">12 th September 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alexandra</forename><surname>Pacureanu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carles</forename><surname>Bosch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andreas</forename><surname>Schaefer</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Yuxin Zhang</orgName>
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">The Francis Crick Institute</orgName>
+								<address>
+									<addrLine>Alexandra Pacureanu</addrLine>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">ESRF</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-09-12">12 th September 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4B5D1E4A20DFDDD3A533E567695D2751</idno>
+					<note type="submission">from: 13 th July 2022 to: 18 th July 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Relating brain function to structure with subcellular resolution</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report: Introduction</head><p>The purpose of this proposal was to link in vivo function to subcellular anatomical structure in the mouse brain by integrating X-ray nanoholotomography (XNH) in a correlative multimodal imaging pipeline. The neural circuit of interest was the glomerular column in the mouse olfactory bulb, a modular and compact circuit containing the first synapses in the olfactory sensory pathway. Additionally, this proposal would add one biological replicate to the dataset obtained in the previous proposal LS2918.</p><p>For this purpose we designed similar experiments to the one described in the previous proposal, in which we recorded neural activity in vivo while a panel of 50 monomolecular odorants was presented to an anaesthetised mouse using a custom odour delivery setup <ref type="bibr" target="#b0">1</ref> . The mouse expressed the Ca 2+ -sensitive fluorescent indicator GCaMP6f under the Tbet promoter, revealing the neural activity of all projection neurons in the olfactory bulb under a 2-photon microscope. Eleven planes were imaged covering a 330*730*302 µm 3 volume in the surroundings of a genetically-tagged glomerulus (MOR174/9-eGFP), the same microcircuitry targeted before. Additionally, this time the first three planes recorded the activity in the glomerular layer, thereby enabling extracting insights on the "input" activity profiles in the different glomeruli along with the "output" activity profiles recorded at the cell bodies of the projection neurons located deeper and retrieved in the remaining 8 planes.</p><p>As before, after the functional recording of neuronal responses to the different odorants, a fluorescent blood vessel reporter (sulforhodamine 101) was intraperitoneally administered, and we recorded two spatially detailed datasets using the same in vivo 2-photon setup covering the same volume with the exact same plane distribution (0.645*1.426*27.5 µm 3 voxels) and another one with higher resolution (0.215*0.475*5 µm 3 voxels). The brain region was then dissected, stained with a standard EM protocol 2,3 and imaged with full-field X-ray tomography at PSI TOMCAT (proposal 20211896).</p><p>The X-ray tomograms revealed subcellular details including the positions of cell nuclei and blood vessels. This information allowed identifying multiple landmarks in the synchrotron and 2-photon datasets, ultimately allowing to warp the latter into the former dataset's space coordinates 4 at single-cell precision 3 .</p><p>The stained tissue section, initially of ~3*3*0.5mm 3 , was trimmed to an ID16A-compatible size in a way that would retain the in vivo imaged region, thereby resulting in a parallelogrammic prism (Fig. <ref type="figure" target="#fig_0">1c</ref>) sitting on a synchrotron holder and re-embedded in a droplet of resin to protect the specimen and provide a smooth airsample interface without edges. This specimen was then scanned with a lab X-ray µCT (Zeiss Versa 510) and brought to ESRF. The lab X-ray tomogram of the trimmed specimen could also be warped to a common space with the TOMCAT and 2-photon datasets, thereby revealing the positions of the in vivo recorded cells in the trimmed specimen (Fig. <ref type="figure" target="#fig_0">1d-e</ref>).</p><p>All experimenters attended the beamtime presentially, except YZ who had to attend remotely except the last day, following local COVID19 guidance. A recurring videocall session and online documentation of the process enabled conducting the experiment under hybrid attendance (presential and online) efficiently. Tools and goals were defined and briefed at the beginning of the beamtime: Checkpoints:</p><p>1. Track specimen orientation through sample mounting and orientate in stage 2. Verify optimal imaging settings (using insights from previous beamtime) 3. Scan through all tiles routinely 4. Verify acquisition quality</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Channels of communication:</head><p>• Specific channel on slack • Recurrent videoconference room on zoom • Log book, spreadsheet and folder to store preliminary images on google drive • Log of instructions on data processing routines on a github repository.</p><p>Background information:</p><p>• Synchrotron X-ray tomography with annotated regions of interest (link)</p><p>• Lab X-ray tomography of the trimmed sample with annotated regions of interest (link) and tiles (link).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data transfer protocols:</head><p>• ssh • globus Goals:</p><p>• Acquire from below the mitral cell layer (retrieving all mitral cells) up to above the glomerular layer • Minimise sample disruption during thawing to maintain structural integrity for subsequent follow up high resolution EM. in the ID16A setup returned expected landscapes (f) and allowed translating the locations of the tiles to stage motor positions. (g) Preliminary inspection of reconstructed tomograms acquired during this beamtime revealed that the resolution obtained was sufficient to resolve lateral dendrites (arrowheads) and nuclei (asterisk) as expected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Orientation of the specimen and identification of the region of interest</head><p>The location of the prism in the sample could be identified macroscopically by comparing the overall shape observed under a magnifying lens to the expected cartography. Its corners were named, and their positions monitored up to when they were mounted in the beamline stage (Fig. <ref type="figure">2</ref>).</p><p>The sample was imaged in cryogenic conditions using liquid N2.</p><p>The sample faces were then located parallel to the beam by observing the absorption through fine rotations, and the stage height calibrated with a series of quick scans (Fig. <ref type="figure" target="#fig_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 2. Sample positioning in the chamber</head><p>The location of the prism in the sample was guided by marking the pin stem temporarily, naming the named sample corners (cardinal points' acronyms), and translating those positions to the mounting holder and to the end stage (racc would be towards S, the kB mirrors towards E, beam comes from E -flows towards W).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 3. Surface of the sample revealed by single projections in the beamline setup</head><p>A fast scan provided evidence of asymmetrical features in the sample's surface that matched the expected view, thereby confirming coarse orientation was correct.</p><p>Those details were sufficient to plan the locations in the dataset to be acquired (Fig. <ref type="figure" target="#fig_0">1f</ref>) and therefore to translate tile positions to motor stage coordinates (Fig. <ref type="figure" target="#fig_0">1e</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Imaging settings</head><p>Transmission at 33 keV was ~52%. This transmission was lower than previously obtained with similarly stained specimens imaged at this energy, attributable to its larger dimensions (Table <ref type="table">1</ref>) but within the acceptable range.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Specimen name</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Size</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Beam energy Transmission Y391 (this beamtime)</head><p>Parallelogrammic prism smallD = 1320 µm largeD = 1410 µm 33 keV 52 % C432 (LS2918) Parallelogrammic prism smallD = 965 µm largeD = 1230 µm 17 keV 14 % C417 Cylinder D = 800 µm 33 keV 63 % Cortex Cylinder D = 750 µm 17 keV 30 % Table 1. X-ray transmission of metal-stained mouse brain tissue specimens at ID16A.</p><p>The first round of tiles acquired in an overnight scan returned several motor movement failures, resulting in multiple invalid datasets. The source of the error could be identified and fixed by the beamline scientists (via relaxation of motor precisions).</p><p>A second malfunction in motor positions was further identified, manifesting as correctly reported motor positions but wrong actual positions at some tomogram distances. This was due to a malfunction in repositioning the motor after flats were acquired. We then monitored the actual motor positions by reading them from the metadata header of the images.</p><p>To acquire all the relevant volume we initially aimed for within the remaining beamtime available, we opted for recording only from positions 2, 3 and 4 (thereby not imaging the 1 st position). We verified that this modification of the imaging algorithm did not inflict a noticeable loss in image quality in this specimen (Fig. <ref type="figure" target="#fig_1">4</ref>), while speeding up acquisition so that all tiles could be recorded within the remaining beamtime. The total duration of each holotomography scan with 3 distances for phase-retrieval was 2h30min.</p><p>Tile configuration and data acquisition Individual reconstructed tiles were configured as before: cylinders of 3216*3216 pixels diameter and height, with a pixel size of 100nm. Data quality in the tile was expected to be of two types: highest resolution in the central 2000*2000 pixel cylinder, and lower resolution in the outer shell (Fig. <ref type="figure" target="#fig_0">1e2</ref>). A total of 32 tiles were configured so all neurons whose physiology had been recorded in vivo along with their input glomeruli would be contained (Fig. <ref type="figure" target="#fig_0">1d-e</ref>).</p><p>All tiles were partially reconstructed (pre-alignment) during the beamtime to verify data integrity.</p><p>All relevant tiles have now been fully reconstructed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample unloading and retrieval</head><p>The sample was unloaded from the stage and brought back to room temperature immersed in a bath of liquid N2 in a vented but closed styrofoam box. While less abrupt than in the previous specimen, a lab µCT dataset of the thawed sample implied that it had cracked during the thawing process (Fig. <ref type="figure" target="#fig_3">5</ref>). Future experiments at ID16A will be planned at room temperature to prevent sample damage after beamtime, which will enable follow-up EM imaging of narrower regions of interest at higher resolution. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>All tomograms have been reconstructed at ESRF and are being transferred to the Francis Crick Institute for storage and analysis. They will be stitched using a non-rigid algorithm developed for synchrotron X-ray tomography <ref type="bibr" target="#b4">5</ref> .</p><p>The dataset obtained during the previous beamtime LS2918 ("C432_XNH") has already been stitched and an automated classifier has enabled retrieving the location and morphology of ~50000 nuclei within it. We will use this same classifier to detect nuclei in the newly acquired dataset. We expect some additional training data to be necessary for optimal performance.</p><p>The previous dataset "C432_XNH" could also be successfully warped to a common space with the other related modalities (SXRT and in vivo 2-photon), revealing the locations of all recorded neurons in the XNH data. We will replicate this approach with the continuous volume of the stitched "Y391_XNH" dataset obtained during this beamtime.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The purpose of this proposal was to link in vivo function to subcellular anatomical structure in the mouse brain by integrating X-ray nanoholotomography (XNH) in a correlative multimodal imaging pipeline. We acquired with XNH 32 adjacent tiles covering &gt;700*1100*800 µm 3 (or &gt;0.6 mm 3 ) of mouse brain tissue containing ~100 neurons and input glomeruli of known physiological activity. Because complete glomerular columns are embedded in this tissue, we are certain we will be able to group projection neurons with known physiology by the glomerular column they belong to, thereby grouping sister mitral cells together and thus describing inputoutput relations in this mammalian neuronal circuit. We expect to be able to trace a large fraction of the lateral dendrites of all recorded projection neurons, responsible for computational interactions between glomerular columns. Since this region contains the same neuronal circuit imaged in a previous beamtime, the joint analysis of both datasets will inform on the variability of a neuronal circuit's structure-function across individuals. This beamtime has allowed us to image a larger sample (still providing enough transmission at 33 keV) that had undergone a more exhaustive imaging experiment (retrieving now both input and output activity of the circuit), and helped identify potential improvements in motor position monitoring. Finally, it has pointed out that cryo conditions might be detrimental for recovering the specimen after the beamtime. Replicating this approach with a third sample containing the same neuronal microcircuit would provide a unique insight into how this neuronal circuit processes information in the brain, accounting for inter-individual variability. This n=3 would complete an exceptional experimental cohort whose structure-function insights would be novel and of highest interest for the wider systems neuroscience field.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Summary of results. a) A CT dataset of the stained and embedded original slice (3*3*0.5 mm 3 ) was obtained with a ZEISS Versa 510 at the Francis Crick Institute, which alongside SXRT data obtained at the TOMCAT beamline at PSI (b) guided the choice of an optimal specimen for this experiment. The 2-photon in vivo data region could be then located in the stained specimen, guiding its trimming (c) to an ID16A-compatible size (d). A total of 32 tiles were configured so that the central 200 µm diameter cylinders of each tile (zone with highest resolution) would touch tangentially, and in two layers in depth (e1). The tiles were optimally positioned and priority-ranked according to the location of the imaged neurons in the 2-photon in vivo dataset. Correct orientation of the sample</figDesc><graphic coords="3,34.00,231.37,517.00,460.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Comparison of two reconstructions of the same tomogram reconstructed employing 3 and 4 distance phase retrieval algorithms, respectively. Final resolution is similar in both cases.</figDesc><graphic coords="5,251.95,500.31,209.65,209.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>3 -</head><label>3</label><figDesc>distance reconstruction [d2, d3, d4] 4-distance reconstruction [d1, d2, d3, d4]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Resin-embedded specimens crack during the thawing process after being imaged at ID16A under cryo conditions.</figDesc><graphic coords="6,34.00,299.03,532.90,105.99" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fast odour dynamics are encoded in the olfactory system and guide behaviour</title>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Ackels</surname></persName>
+			<idno type="ORCID">0000-0002-4964-1162</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Erskine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Debanjan</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alina</forename><forename type="middle">Cristina</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tom</forename><forename type="middle">P A</forename><surname>Warner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sina</forename><surname>Tootoonian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Izumi</forename><surname>Fukunaga</surname></persName>
+			<idno type="ORCID">0000-0003-1860-5377</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><forename type="middle">J</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><forename type="middle">T</forename><surname>Schaefer</surname></persName>
+			<idno type="ORCID">0000-0002-4677-8788</idno>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03514-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">593</biblScope>
+			<biblScope unit="issue">7860</biblScope>
+			<biblScope unit="page" from="558" to="563" />
+			<date type="published" when="2021-05-05">2021</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ackels, T. et al. Fast odour dynamics are encoded in the olfactory system and guide behaviour. Nature 593, 558-563, doi:10.1038/s41586-021-03514-2 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Extracellular space preservation aids the connectomic analysis of neural circuits</title>
+		<author>
+			<persName><forename type="first">Marta</forename><surname>Pallotto</surname></persName>
+			<idno type="ORCID">0000-0001-7694-0398</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">V</forename><surname>Watkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Boma</forename><surname>Fubara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">H</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><forename type="middle">L</forename><surname>Briggman</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/elife.08206</idno>
+	</analytic>
+	<monogr>
+		<title level="j">eLife</title>
+		<idno type="ISSNe">2050-084X</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2015-12-09">2015</date>
+			<publisher>eLife Sciences Publications, Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pallotto, M., Watkins, P. V., Fubara, B., Singer, J. H. &amp; Briggman, K. L. Extracellular space preservation aids the connectomic analysis of neural circuits. Elife 4, doi:10.7554/eLife.08206 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Sample Preparation and Warping Accuracy for Correlative Multimodal Imaging in the Mouse Olfactory Bulb Using 2-Photon, Synchrotron X-Ray and Volume Electron Microscopy</title>
+		<author>
+			<persName><forename type="first">Yuxin</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Ackels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandra</forename><surname>Pacureanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Christine</forename><surname>Zdora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Bonnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><forename type="middle">T</forename><surname>Schaefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carles</forename><surname>Bosch</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fcell.2022.880696</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Cell and Developmental Biology</title>
+		<title level="j" type="abbrev">Front. Cell Dev. Biol.</title>
+		<idno type="ISSNe">2296-634X</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">880696</biblScope>
+			<date type="published" when="2022-06-08">2022</date>
+			<publisher>Frontiers Media SA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, Y. et al. Sample Preparation and Warping Accuracy for Correlative Multimodal Imaging in the Mouse Olfactory Bulb Using 2-Photon, Synchrotron X-Ray and Volume Electron Microscopy. Front Cell Dev Biol 10, 880696, doi:10.3389/fcell.2022.880696 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Functional and multiscale 3D structural investigation of brain tissue through correlative in vivo physiology, synchrotron microtomography and volume electron microscopy</title>
+		<author>
+			<persName><forename type="first">Carles</forename><surname>Bosch</surname></persName>
+			<idno type="ORCID">0000-0003-4179-0451</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Ackels</surname></persName>
+			<idno type="ORCID">0000-0002-4964-1162</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandra</forename><surname>Pacureanu</surname></persName>
+			<idno type="ORCID">0000-0003-2306-7040</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yuxin</forename><surname>Zhang</surname></persName>
+			<idno type="ORCID">0000-0003-0243-2520</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">J</forename><surname>Peddie</surname></persName>
+			<idno type="ORCID">0000-0002-8329-5419</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Manuel</forename><surname>Berning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Norman</forename><surname>Rzepka</surname></persName>
+			<idno type="ORCID">0000-0002-8168-7929</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Christine</forename><surname>Zdora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Isabell</forename><surname>Whiteley</surname></persName>
+			<idno type="ORCID">0000-0003-2460-678X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Malte</forename><surname>Storm</surname></persName>
+			<idno type="ORCID">0000-0002-1602-781X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Bonnin</surname></persName>
+			<idno type="ORCID">0000-0001-5537-8682</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Rau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Troy</forename><surname>Margrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lucy</forename><surname>Collinson</surname></persName>
+			<idno type="ORCID">0000-0003-0260-613X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><forename type="middle">T</forename><surname>Schaefer</surname></persName>
+			<idno type="ORCID">0000-0002-4677-8788</idno>
+		</author>
+		<idno type="DOI">10.1038/s41467-022-30199-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2923</biblScope>
+			<date type="published" when="2022-05-25">2022</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bosch, C. et al. Functional and multiscale 3D structural investigation of brain tissue through correlative in vivo physiology, synchrotron microtomography and volume electron microscopy. Nature communications 13, 2923, doi:10.1038/s41467-022-30199-6 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">NRStitcher: non-rigid stitching of terapixel-scale volumetric images</title>
+		<author>
+			<persName><forename type="first">Arttu</forename><surname>Miettinen</surname></persName>
+			<idno type="ORCID">0000-0003-3132-0544</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ioannis</forename><forename type="middle">Vogiatzis</forename><surname>Oikonomidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Bonnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Stampanoni</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btz423</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<idno type="ISSN">1367-4803</idno>
+		<idno type="ISSNe">1367-4811</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="5290" to="5297" />
+			<date type="published" when="2019-05-22">2019</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miettinen, A., Oikonomidis, I. V., Bonnin, A. &amp; Stampanoni, M. NRStitcher: non-rigid stitching of terapixel-scale volumetric images. Bioinformatics 35, 5290-5297, doi:10.1093/bioinformatics/btz423 (2019).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

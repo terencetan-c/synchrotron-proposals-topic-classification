@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Micro-and meso-scale morphology evolution, solute rejection and mass transport during equiaxed solidification in Al-Ge alloys</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Anatoly</forename><surname>Snigirev</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dept.</roleName><forename type="first">Ragnvald</forename><forename type="middle">H</forename><surname>Mathiesen</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dept. of Materials Techn</roleName><forename type="first">Paul</forename><forename type="middle">L</forename><surname>Schaffer</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>NTNU</roleName><forename type="first">N-7491</forename><surname>Trondheim</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dept. of Materials Techn</roleName><forename type="first">Lars</forename><surname>Arnberg</surname></persName>
+						</author>
+						<title level="a" type="main">Micro-and meso-scale morphology evolution, solute rejection and mass transport during equiaxed solidification in Al-Ge alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B4976BCA5B2C5AEA576FE8D8FED82E10</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>20%wtCu and Al-25%wtCu was studied in situ by X-radiography. In total 110 image sequences were collected, with a systematic variation of solidification conditions spanning imposed temperature gradients from 2 to 50 K/mm, and cooling rates from 0.02-1.1 K/s. A monochromatic energy of 15 keV was used throughout the experiment.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The main topics of this study were to investigate the morphological evolution and growth kinetics of primary dendritic crystals during:</p><p>1. The early transient stage, without buoyancy driven flow, where the initial stage growth limited by heat transport (fast kinetics v g ~ mm/s or more) gradually retards towards mass transport limited kinetics (v g ~ 10 -5 m/s) during the establishment of a liquid diffusion layer of solute rejected at the solid-liquid interface. 2. Mesoscale buoyant transport of free equiaxed crystals in the different Al-Ge and Al-Cu alloys (Al-8%wtGe is roughly neutral, ρ sol ≈ ρ liq ), with particular emphasis on dilution of the intradendritic solute as a function of the relative solid-liquid flow velocities. 3. Inter dendritic interactions (via solute) as the free crystals form a coherent network.</p><p>While the observations and quantitative data on topic 1 would be of major importance to guide and validate micro-scale models of single grain dendritic growth in alloy systems, topics 2 and 3 would be vital for improvement of current mesoscale simulation codes to handle multiple grains (dendrite envelope models).</p><p>Unfortunately, the conditions we had at BM05 could not meet with the demands set by our experiment. The current multilayer monochromator, which is needed at the BM-beamline to boost the incident beam brilliance up to the desired level, produced a semi-sinusoidal stripe pattern, with &gt; 50% intensity variations across the incident beam (see Fig <ref type="figure" target="#fig_0">1)</ref>, significantly above the contrast variations expected form our samples. Furthermore, the pattern was found to drift (up to 10-15 μm/min) which impaired proper flat fielding. Actually, similar conditions were encountered also in our previous study at BM05, MA-199, on hydrodynamics and coagulation mechanisms in immiscible liquids, although in that experiment considerably less critical since that study did not require the solute profile analysis, which is needed for all the topics of MA-400. We were of the impression after MA-199 that the multilayer problems were temporary and would be fixed before our next run. Attempts were made to bypass the problem by changing to different positions of the crystals, but a uniform region could not be located. In principle conditions could also have been improved by shifting to another monochromatic energy, but at BM05 this is a time consuming operation since the two multilayer crystals have slightly different d-spacings, which cause the vertical beam position at the sample to be energy dependent, requiring re-alignment of all post-mono components after relatively modest shifts in energy. For studies of static contrast objects, the multilayer structure can be "repaired" by introduction of a diffuse scatterer in the beam. For studies of dynamic systems, such as herein, where the resolutions obtained typically are limited by temporal blurring from the motion during exposure of our contrast objects relative to the camera system, the loss in intensity associated with the introduction of a scatterer would be more critical, in particular at a bending magnet. In addition we were also interested in obtaining some near-field fringe(s) for further contrast enhancement of the solid-liquid interfaces, so a diffuse scatterer was not really a viable option.</p><p>Secondly, we encountered serious problems with finding a good scintillator. We tried several, also from other beam lines, but those we tried were found to have considerable amounts of dust/dirt particles on the light-emmitting side. These particles project onto the CCD as sharp contrast objects (dark spots) of sizes comparable to the morphological details of intrest in our samples. Accordingly, removal by Fourier filtering without loss of vital data is not possible. The dust particle projections are also not perfectly stable, but change slightly with the drift of the multilayer structure, therefore they are not generally removable by flat fielding.</p><p>Finally, and somewhat less critical, the objectives of the FreLoN were severily colored/burned from their accumulated exposure to the X-ray beam. The coloring should not cause serious damage to the image contrast, but would give rise to some loss by diffuse light scattering. Again, when studying dynamic systems the loss of photons is more critical. We were not able to locate any spare objectives anywhere at the ESRF, although one may regard such as consumables. MA-400 also included studies of a few Al-Cu-samples with pronounced buoyant effects. This also allowed us to evaluate the BM05/ESRF bending magnet performance, by direct comparison with results obtained on some of the same alloys during a 2002-campaign at ID22 (ME-595), see Fig. <ref type="figure" target="#fig_0">1</ref>, middle and right image. From the comparisons it is evident that even without any of the problems encountered, bending magnets do not provide ideal beam conditions for this kind of experiments. Better conditions are probably available at ID19, which has been used extensively by other groups to study similar topics, albeit at coarser time and length scales. Yet, since ID19 extends 150 m or so from the source, its sample position flux density is really not the optimal solution when high spatial resolution and short exposures are sought simultaneously. Both for high-resolution ultra-fast tomography and radiography of dynamic systems, access to a non-extended undulator beam line would ensure optimal conditions, but for the last 4-5 years it has not been possible to get access to such setups at the ESRF on the academic beam time quota. To our knowledge, there are at present no bright undulator setups available for high resolution imaging elsewhere in Europe.</p><p>The sequences collected duirng MA-400 are not of the quality required to carry out detailed solute profile analysis, and accrodingly topics 1-3 can not be addressed as intended. Nevertheless, the data collected is of adequate quality to be used to guide and validate a meso scale modelling approach on how boyancy driven crystal flow and Stokes drag influence the crystal growth rate and envelope morphology, and this work is in progress.</p><p>Although  was not what would be considered as a successful experiment, we would very much like to express our gratitude for the local support we received, both from the BM05 beam line staff and our local contact, who all did their very best to provide us with the best obtainable conditions, given the current status of the beam line facilities.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Left: Example of the BM05 multilayer intensity profile, ~ 1.4 x 1.4 mm 2 field of view. Middle: Flat field corrected image from a MA-400 Al-20%wtCu sequence collected at BM05. Right: Flat field corrected image from ME-595 collected at ID22 with the same alloy and field of view, identical exposure time and camera settings, and closely similar solidification parameters.</figDesc><graphic coords="2,34.50,257.82,142.55,142.32" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Proposal Code CH-5458 Confidential experimental report: this paper will be submitted in April 2021 Out-of-equilibrium decoupling of volume and ferroelastic lattice strains driven by the self-trapping of photoinduced charge-transfer in a Prussian Blue Analogue</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Giovanni</forename><surname>Azzolina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IPR (Institut de Physique de Rennes)</orgName>
+								<orgName type="laboratory">UMR 6251</orgName>
+								<orgName type="institution" key="instit1">Univ Rennes</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-35000</postCode>
+									<settlement>Rennes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+							<email>eric.collet@univ-rennes1.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">IPR (Institut de Physique de Rennes)</orgName>
+								<orgName type="laboratory">UMR 6251</orgName>
+								<orgName type="institution" key="instit1">Univ Rennes</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-35000</postCode>
+									<settlement>Rennes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Céline</forename><surname>Mariette</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IPR (Institut de Physique de Rennes)</orgName>
+								<orgName type="laboratory">UMR 6251</orgName>
+								<orgName type="institution" key="instit1">Univ Rennes</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-35000</postCode>
+									<settlement>Rennes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Cammarata</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IPR (Institut de Physique de Rennes)</orgName>
+								<orgName type="laboratory">UMR 6251</orgName>
+								<orgName type="institution" key="instit1">Univ Rennes</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-35000</postCode>
+									<settlement>Rennes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elzbieta</forename><surname>Trzop</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IPR (Institut de Physique de Rennes)</orgName>
+								<orgName type="laboratory">UMR 6251</orgName>
+								<orgName type="institution" key="instit1">Univ Rennes</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-35000</postCode>
+									<settlement>Rennes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Herve</forename><surname>Cailleau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IPR (Institut de Physique de Rennes)</orgName>
+								<orgName type="laboratory">UMR 6251</orgName>
+								<orgName type="institution" key="instit1">Univ Rennes</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-35000</postCode>
+									<settlement>Rennes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Claude</forename><surname>Ecolivet</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">IPR (Institut de Physique de Rennes)</orgName>
+								<orgName type="laboratory">UMR 6251</orgName>
+								<orgName type="institution" key="instit1">Univ Rennes</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-35000</postCode>
+									<settlement>Rennes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mathias</forename><surname>Sander</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">European Synchrotron Radiation Facility</orgName>
+								<address>
+									<postCode>F-38000</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matteo</forename><surname>Levantino</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">European Synchrotron Radiation Facility</orgName>
+								<address>
+									<postCode>F-38000</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Materials Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Pure and Applied Sciences</orgName>
+								<orgName type="institution">Univ Tsukuba</orgName>
+								<address>
+									<addrLine>1-1-1 Tennodai</addrLine>
+									<postCode>305-8577</postCode>
+									<settlement>Tsukuba</settlement>
+									<region>Ibaraki</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Chemistry</orgName>
+								<orgName type="department" key="dep2">School of Science</orgName>
+								<orgName type="institution">The University of Tokyo</orgName>
+								<address>
+									<addrLine>7-3-1 Hongo Bunkyo-ku</addrLine>
+									<postCode>113- 0033</postCode>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roman</forename><surname>Bertoni</surname></persName>
+							<email>roman.bertoni@univ-rennes1.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">IPR (Institut de Physique de Rennes)</orgName>
+								<orgName type="laboratory">UMR 6251</orgName>
+								<orgName type="institution" key="instit1">Univ Rennes</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F-35000</postCode>
+									<settlement>Rennes</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Proposal Code CH-5458 Confidential experimental report: this paper will be submitted in April 2021 Out-of-equilibrium decoupling of volume and ferroelastic lattice strains driven by the self-trapping of photoinduced charge-transfer in a Prussian Blue Analogue</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">ACF118091EA7D80EA2E47A344680B20D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Photo-induced structural dynamics in molecular materials often involve two main components; local molecular distortions induced by the self-trapping of electronic excited state and incoherent lattice dynamics due to energy dissipation. The latter component frequently hinders clear manifestation at macroscopic scale of local self-trapped entities and their coupling to the lattice. The studied material RbMnFe is a Prussian Blue Analogue that exhibits no thermal expansion, which allows for the observation of long-range dynamics induced by the structural trapping of photoinduced charge-transfer states. Indeed the photoinduced Mn III Fe II to Mn II Fe III charge-transfer states correspond to small-polarons, involving local Jahn-Teller distortion and volume expansion, responsible for the emergence of various physical properties. At equilibrium, the lattice expansion and the ferroelastic Jahn-Teller distortion evolve in a coupled way. Here, we use time resolved X-ray diffraction to investigate the anisotropic out-of-equilibrium lattice dynamics triggered by the self-trapping of CT state induced by ultrafast optical excitation. The observed dynamics evidence a decoupling of both types of lattice deformation in the time domain, with an impulsive lattice response due to Jahn-Teller reorganization and displacive volume expansion controlled by the long-lived fraction of self-trapped photo-induced CT state.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Ultrafast photo-induced dynamics in materials results from complex couplings between electronic and structural reorganizations, responsible amongst other things for the stabilization of photo-induced orders. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> The initial electronic excited state may involve strongly dispersive states, reaching quickly new thermal distribution, which can drive structural motion within the unit cell and later on global lattice expansion. <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> In molecular materials with weakly dispersive electronic states, the initial excitation can be structurally trapped at the molecular level, precluding fast decays of excited electronic state. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> Often in time-resolved experiment, it is difficult to discriminate the contribution of local structural distortions induced by electronic excited states from the lattice dynamics generated by the incoherent population of phonons. Therefore, materials presenting structural distortion without thermal expansion are ideal playground to investigate interactions of quasiparticles such as self-trapped small-polarons with the lattice, <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> which may trigger long-range lattice deformations in materials. <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> Cyano-bridged bimetallic systems are of specific interest, since they exhibit various types of orders tunable by light, like reversible ferro-or antiferro-magnetism. Those functions are based on photo-induced intermetallic charge transfer (CT) or spin-transition (ST) coupled to structural self-trapping and symmetry changes. <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref> Prussian blue analogues (PBA) in particular are characterized by CT based transformation that are strongly cooperative due to the important volume change accompanying both thermal and steady photo-induced phase transition, <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> and which implies strong interactions of the CT process with the lattice. It is therefore compulsory to understand the coupling between self-trapped CT excitation, known as small-polarons, <ref type="bibr" target="#b25">26</ref> and the lattice and its impact in the emergence of macroscopic order and functionalities.</p><p>Here we study the photo-induced out-of-equilibrium dynamics in the RbMnFe PBA system, <ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref> which undergoes a CT-based phase transition resulting from the coupling between intermetallic CT, responsible for an important non-symmetry-breaking volume (V) strain, and a symmetry-breaking Jahn-Teller distortion associated with ferroelastic shear strain 𝜂. In the framework of the Landau theory of phase transitions, we have shown that due to their elastic coupling, V and 𝜂 change simultaneously at thermal equilibrium during the CT-based phase transition. <ref type="bibr" target="#b29">30</ref> Here we investigate the lattice dynamics resulting from the photoinduced Fe-to-Mn CT process by time-resolved X-ray diffraction, <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> which allows for monitoring in real time the long-range lattice reorganization. The observed dynamics reveal the decoupling in the time domain of the non-symmetrybreaking (nsb) volume strain and symmetry-breaking (sb) ferroelastic strain. We show that the fraction of lessbonding self-trapped CT excited state, controlled by light excitation, acts as an external parameter for lattice expansion, allowing for reaching a transient state hidden at thermal equilibrium. We studied the RbMnFe system (Fig. <ref type="figure" target="#fig_0">S1</ref>), with composition Rb0.94Mn[Fe(CN)6]0.98•2.5H2O, which exhibits bistability between two phases with different structural and electronic configurations (Fig. <ref type="figure" target="#fig_0">1a</ref>,<ref type="figure" target="#fig_0">1b</ref>). The high temperature (HT) phase forms a FCC lattice with metals in Oh ligand fields of electronic configuration Mn II (S=5/2)Fe III (S=½). The low temperature (LT) phase is tetragonal, as a Jahn-Teller distortion stabilizes the Mn III (S=2)Fe II (S=0) electronic configuration (Fig. <ref type="figure" target="#fig_0">1b</ref>). <ref type="bibr" target="#b29">30</ref> Various techniques described the occurrence of the CTbased phase transition from Mn III Fe II (LT) to Mn II Fe III (HT) at thermal equilibrium, or under continuous light irradiation at low temperature. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref> The degree of CT is monitored through the evolution of the totally symmetric order parameter 𝛾 measuring the fraction of Mn II Fe III CT state that changes from 𝛾=0 in the LT phase to 𝛾=1 in the HT phase. 𝛾is usually probed by magnetism or optical spectroscopies. <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b35">36</ref> The thermal phase transition exhibits a wide hysteresis 37 (Tup≈285K, Tdown≈185 K) as revealed by magnetic susceptibility (Fig. <ref type="figure" target="#fig_1">S2</ref>).</p><p>Fig <ref type="figure" target="#fig_1">2a</ref> shows the important changes in the lattice parameters on warming from the LT tetragonal space group 𝐹4 ̅ 2𝑚 (aLT=10.059(3) Å, cLT=10.502(3) Å) to the HT cubic space group (𝐹4 ̅ 3𝑚, aHT=10.563(1) Å). Our X-ray diffraction data (Fig. <ref type="figure" target="#fig_1">2d</ref>) highlight the symmetry change during the CT-based phase transition, with a zoom in the ranges of scattering vector q [1.13-1.31 Å -1 ] and [2.29-2.61 Å <ref type="bibr">-1</ref> ]. The (h00) and (00l) peaks are equivalent in the cubic HT phase and correspond to the same q. In the LT tetragonal phase the (h00) and (00l) peaks split and correspond to different q, due to the stronger contraction along a compared to c. As explained recently, <ref type="bibr" target="#b29">30</ref> this structural instability occurs at the  point of the Brillouin Zone and the transition can be described at equilibrium in terms of two coupled order parameters. The ferroelastic cubic-tetragonal distortion is the symmetry-breaking (sb) order parameter, which belongs to the E representation of the HT 4 ̅ 3𝑚 point group. <ref type="bibr" target="#b29">30</ref> Fig. <ref type="figure" target="#fig_1">2c</ref> shows its amplitude defined as (𝑇) =</p><p>2 √3 ( 𝑐(𝑇)-𝑎(𝑇) 𝑎 𝐻𝑇</p><p>).</p><p>This anisotropic distortion obeys transformation properties (2z 2 -x 2 -y 2 ) of the Jahn-Teller mode <ref type="bibr" target="#b29">30</ref> elongating c and contracting the other axes a = b and results in a splitting of the lattice parameters in the LT phase:</p><formula xml:id="formula_0">𝜟𝒂 𝒔𝒃 = 1 2</formula><p>(2𝒂 𝑳𝑻 -𝒂 𝑳𝑻 -𝒃 𝑳𝑻 ) = 𝒄 𝑳𝑻 -𝒂 𝑳𝑻 = 0.443(1) Å.</p><p>The non-symmetry-breaking (nsb) volume strain is related to the average change of the lattice parameter:</p><p>𝜟𝒂 𝒏𝒔𝒃 = 𝒂 𝑯𝑻 -&lt; 𝒂 𝑳𝑻 &gt;= 0.353(1) Å, with &lt; 𝒂 𝑳𝑻 &gt;= Indeed, during the LT to HT phase transition, the population of the anti-bonding Mn dx 2 -y 2 state in the Mn II Fe III HT phase favors Oh symmetry around the manganese, reorganizing so the energy levels of the orbitals. <ref type="bibr" target="#b33">34</ref> The LT Mn-N bonds along x and y (≈1.89 Å) expand and the ones along z (≈2.29 Å) shorten (Fig. <ref type="figure" target="#fig_0">1c</ref>) to get equivalent (≈2.05 Å) in the cubic HT phase. <ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref> Due to the polymeric nature of the lattice, and the additional elongation of the Fe-C bonds, the CT transition from the Mn III Fe II LT towards the less-bonding Mn II Fe III HT phases results in a global volume expansion from VLT=1062.2(2) Å 3 to VHT=1178.5(2) Å 3 (Fig. <ref type="figure" target="#fig_1">2b</ref>). This large volume change is responsible for the phase nucleation process, where the HT and LT phases coexist, which translates into a weight transfer between HT to LT Bragg peaks during the transition (Fig. <ref type="figure" target="#fig_1">2d</ref>, <ref type="figure" target="#fig_1">2e</ref>). In the frame of the Landau theory of phase transition, <ref type="bibr" target="#b29">30</ref> we have shown that the volume change at the transition is linearly coupled to the totally symmetric order parameter 𝛾, which is the main contribution to volume expansion. <ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b42">43</ref> Since this system exhibits zero thermal expansion in LT or HT phases <ref type="bibr" target="#b22">23</ref> and the volume changes from 𝑉 𝐿𝑇 in the LT phase (𝛾=0) to 𝑉 𝐻𝑇 in the HT phase (𝛾=1), the thermal evolution of the fraction of Mn II Fe III CT state 𝛾(𝑇) can then be derived from the relative lattice expansion with respect to the LT phase:</p><formula xml:id="formula_1">𝛾(𝑇) = 𝑉(𝑇)-𝑉 𝐿𝑇 𝑉 𝐻𝑇 -𝑉 𝐿𝑇</formula><p>shown in Fig. <ref type="figure" target="#fig_1">2b</ref> (right axis). Our recent study explained that, at thermal equilibrium, the simultaneous and discontinuous change of the parameters monitoring the CT (𝛾 and V) and the ferroelastic symmetry breaking (), is due to their elastic coupling. <ref type="bibr" target="#b29">30</ref> In addition to thermal equilibrium phase transition, the CT between the ground Mn III Fe II and Mn II Fe III configurations can also be photo-induced. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> Nevertheless, the dynamics resulting from the interaction of the local structural self-trapping process of this photoinduced CT with the surrounding lattice is currently unknown, <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b32">33</ref> as the techniques used so far were lacking time resolution. Hereafter, we use ultrafast timeresolved x-ray diffraction to study the lattice response to a laser pulse, driving the photoinduced CT. The ultrafast photo-induced lattice dynamics is monitored with optical pump 一 X-ray probe configuration at the ERSF ID09 beamline <ref type="bibr" target="#b43">44</ref> with ~70 ps experimental time resolution (supplementary information). The sample is cool down at 110, 130 and 160 K in the LT phase Mn III Fe II and excited with 1 ps laser pulses centered at 520 nm.</p><p>This optical excitation is known for promoting the intervalence electron transfer from Fe to Mn to create the Mn II Fe III configuration. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> The ≈300 nm typical size of the nanocrystals (Fig. <ref type="figure" target="#fig_0">S1</ref>), <ref type="bibr" target="#b22">23</ref> similar to the pump penetration depth (≈350 nm), <ref type="bibr" target="#b28">29</ref> ensures a rather homogeneous excitation at the individual nanocrystal scale.</p><p>The photo-induced CT process occurs on the picosecond time scale and the resulting transient electronic state lasts for more than 10 µs, as revealed by different techniques. <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46</ref>  The relative diffracted intensity difference between 75 ps and negative delay (Fig. <ref type="figure" target="#fig_1">2f</ref>) shows this anisotropic lattice response. It is characterized by a shift of the (00l) Bragg peaks towards higher scattering vector q, corresponding to the contraction of the c axis (Fig. <ref type="figure" target="#fig_5">3b</ref>), and the opposite shift of the (h00) peaks towards lower q, corresponding to the expansion of the a axis (a=b Fig. <ref type="figure" target="#fig_5">3a</ref>). This is strikingly different from the simultaneous expansion of a and c observed during the thermal equilibrium transition (Fig. <ref type="figure" target="#fig_1">2e</ref>), where (h00) and (00l) low temperature peaks become equivalent in the cubic HT phase. However, 75 ps after photoexcitation the increase of V and decrease of 𝜂 moves the system towards the values of the HT phase. In a second step, the partial decrease of a is accompanied by an increase of c, which recovers values almost similar to the ones prior to optical excitation. Compared to negative delay, the relative diffracted intensity changes at 600 ps shown in Fig. <ref type="figure" target="#fig_12">S8</ref>, corresponds mainly to a shift towards lower q of the (h00) peaks, i.e. an expansion along the a axis. This different evolution of a and c increases the ferroelastic distortion 𝜂, which recovers values close to initial equilibrium conditions. However, the lattice volume V remains constant after photoexcitation and larger than at equilibrium (Fig. <ref type="figure" target="#fig_5">3c</ref> &amp; <ref type="figure" target="#fig_5">3d</ref>). For describing the ultrafast volume expansion, occurring within the time resolution, we used a step function convoluted with the instrumental response function (Fig. <ref type="figure" target="#fig_5">3c</ref>, 3e and S6). An additional exponential relaxation (𝜏 𝑟 =130 ps) provides a satisfactory guide for the eye to describe the decay in (Figs 3a, 3b, 3d, 3f and S6). The initial expansion of a and contraction of c are also quite linear with excitation densities (Fig. <ref type="figure" target="#fig_11">S7</ref>). In addition, the photo-responses, at 110 and 160 K are similar to the ones at 130 K for similar excitation densities (Fig. <ref type="figure" target="#fig_5">3e-f</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig</head><p>Photo-induced phase transitions are intricate with the concept of cooperative and non-linear response to light perturbation, allowing for the emergence of long-range structural and electronic orders. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48</ref> However, cumulative changes within the kHz repetition rate of the experiment precluded investigations with excitation above ≈ 42 µJ.mm -2 . In the excitation density regime explored here, we did not observe any cooperative phenomena like partial formation of cubic phase, neither non-linear photo-response. We focus then our attention on the dynamics of precursor phenomena driven by photoinduced self-trapped CT states.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We should underline that, since this system exhibits no thermal expansion, <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b29">30</ref> the observed volume expansion is not due to laser heating, through the incoherent lattice phonon population. The photo-responses are also similar in shapes or amplitudes, for different excitation densities and over a wide temperature range (110-160 K), well below the phase transition temperature (300 K), which confirms the non-thermal origin of the response.</p><p>The absence of excitation densities dependence in the lattice response timescale, the linear response to excitation density (Figure <ref type="figure" target="#fig_11">S7</ref>) and the anisotropic structural dynamics suggest that the origin of this macroscopic long-range lattice dynamics is the local self-trapping of the photoinduced CT. Indeed, previous experiments have shown that photoexcitation of the Mn III Fe II state drives the intervalence electron transfer to create the Mn II Fe III configuration. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b33">34</ref> The associated population of Mn dx 2 -y 2 state (Fig. <ref type="figure" target="#fig_0">1c</ref>) is stabilized by elongating the Mn-N bonds along x and y, which reduces the Jahn-Teller distortion and brings the Mn sites towards Oh symmetry. <ref type="bibr" target="#b33">34</ref> Time-resolved infrared spectroscopy evidenced that this local lattice deformation, dissolving the Jahn-Teller distortion, occurs within ≈1 ps. <ref type="bibr" target="#b45">46</ref> In a similar CoFe analogue, femtosecond XANES experiments monitored the Co-N bond elongation, trapping the photoinduced CT, within 50 fs. <ref type="bibr" target="#b21">22</ref> This anisotropic structural self-trapping of the Mn II Fe III CT state results in a local lattice distortion, characteristic of these small-polarons, <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b33">34</ref> elastically coupled to the lattice. These local and reverse Jahn-Teller distortions around the MnN6 octahedron, within the cyano-bridged polymeric lattice, generate anisotropic strains, sources of elastic deformation waves travelling through the crystals. <ref type="bibr" target="#b7">8</ref> The structural trappings of the CT states within the crystal, elongating Mn-N bonds along x and y and contracting those along z, result then in a global expansion of a and b axes and a contraction of the c axis (Fig. <ref type="figure" target="#fig_6">4a</ref>). Such elastic deformations propagate typically with sound velocity (c = 4300 m/s) <ref type="bibr" target="#b48">49</ref> and the characteristic timescale 𝜏 𝐸𝐷 for volume expansion scales to the average crystal size <ref type="bibr" target="#b7">8</ref> (𝑟 ≈ 3.10 -7 m). 𝜏 𝐸𝐷 = 𝑟 𝑐 ≈ 70 𝑝𝑠 falls within our time resolution. The anisotropic structural reorganization around the self-trapped CT state, dissolving the Jahn-Teller distortion, is responsible for the initial decrease of the ferroelastic distortion 𝜂, while its less bonding nature accounts for the global volume increase.</p><p>After this initial structural dynamics, the volume strain and the ferroelastic distortion decouple in time. The photo-induced CT Mn II Fe III state is long-lived due to the structural trapping, as previously observed by optical and X-ray spectroscopy. <ref type="bibr" target="#b44">45</ref> Fig. <ref type="figure" target="#fig_13">S9</ref> shows that volume relaxation occurs within 10s µs, which corresponds to the lifetime of the self-trapped CT state as monitored by optical density. <ref type="bibr" target="#b44">45</ref> Given that the fraction 𝛾 ℎ𝜈 of photoinduced CT states couples linearly to the volume strain, <ref type="bibr" target="#b29">30</ref> that these live much longer than the elastic equilibration timescale of the lattice and that there is no thermal lattice expansion in this system, the lattice expansion directly correlates to 𝛾 ℎ𝜈 and both are transiently locked up after photoexcitation. The observed 0.1% volume change after photoexcitation, compared to the 10% volume change when CT is complete during the thermal transition, provides a rough estimate of 𝛾 ℎ𝜈 =1% (Fig. <ref type="figure" target="#fig_11">S7</ref>), which confirms the local nature of the process. In order to restore elastic equilibrium, the internal stress due to long-range structural deformations related to the formation of CT small-polarons must be minimized. The ferroelastic deformation 𝜂, initially reduced by local distortions, has to equilibrate with the globally tetragonal lattice surrounding the smallpolarons, and it almost recovers the equilibrium value within ≈500 ps. On contrary, the long lifetime of the selftrapped CT state, of higher molecular volume, prevents lattice contraction and locks transiently the crystalline volume over 10s µs (Fig. <ref type="figure" target="#fig_13">S9</ref>). The volume strain and the ferroelastic distortion decouple then in time because different processes drive their dynamics. The volume expansion corresponds to a displacive process, driven by the long-lived fraction 𝛾 ℎ𝜈 of photoinduced Mn II Fe III sites of higher volume. The evolution of 𝜂 is mainly impulsive as characterized by its initial overshoot, in response to local and anisotropic distortions. Indeed, due to anisotropy the effect of the local and reverse Jahn-Teller reorganizations superpose and drive anisotropic lattice response. This decoupling in the time domain of the ferroelastic deformation and volume strain differs from thermal equilibrium transformation, where V and  change in a coupled way. The transient photoinduced lattice parameters after 500 ps corresponds then to a transient state, not observed at thermal equilibrium.</p><p>Fig. <ref type="figure" target="#fig_6">4b</ref> shows a schematic evolution of the potential at equilibrium, with a single equilibrium volume VLT or VHT, except in the hysteresis region where both coexist. The zero thermal expansion in the investigated temperature range <ref type="bibr" target="#b22">23</ref> implies a quasi-harmonic potential around VLT and VHT. The evolution of the partial DOS on the Mn after photoexcitation (Fig. <ref type="figure" target="#fig_6">4c</ref>) qualitatively explains the observed dynamics, as the lattice potential is modified by the fraction of CT state 𝛾 ℎ𝜈 . This partial population of antibonding Mn dx 2 -y 2 states launches the reverse Jahn-teller distortion and results in a self-trapping of the CT state (Fig. <ref type="figure" target="#fig_0">1c</ref>). The Mn-N bonds elongate then along x and y, which expands the a and b lattice axes, shifting so the transient equilibrium volume of the photoexcited state compared to the ground state (Fig. <ref type="figure" target="#fig_6">4a</ref>). Since the photo-excited state leaves 10s µs, the lattice has to accommodate to the photoinduced population of antibonding electronic states. 𝛾 ℎ𝜈 plays therefore the role of an external parameter controlled by light and acting on the lattice volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Thanks to the ideal playground offered by the RbMnFe material, it is possible to investigate the interaction of structurally self-trapped CT excited states with the lattice, without parasitic contribution from incoherent phonon population. The observed dynamics is rationalized in terms of anisotropic lattice deformations related to symmetry breaking ferroelastic distortion (𝜂) and non-symmetry-breaking volume expansion (V), which are driven by the self-trapping of photoinduced CT states. Contrary to the case of delocalized electronic excitation, <ref type="bibr" target="#b49">50</ref> which rapidly thermalize with the lattice, the out-of-equilibrium electronic distribution of excited CT state is not relaxing to the electronic ground state. Indeed, the local and anisotropic structural reorganization of the Mn-N bonds, elongating by ≈10 %, results in the formation of small-polarons. <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b33">34</ref> This prevents fast decay towards the ground state of the less bonding electronic excited state. The lattice deformations driven by those local selftrapped CT states superpose in a constructive way due to anisotropy, which launches a long-range lattice dynamics. The initial impulsive response driven by the anisotropic strain induced by the local self-trapping corresponds to a displacive process, shifting the macroscopic crystal volume. Within ~500 ps after photoexcitation, the ferroelastic distortion relaxes to minimize the global elastic cost, while the long-lived CT small-polarons prevents fast volume relaxation. The high sensitivity of the technique and the large and anisotropic local distortions allow for analyzing how local precursor phenomenon couple to the lattice. The present study highlights that describing the self-trapping dynamics at the scale of the photoactive site only is not sufficient in solid state. Indeed, the elastic energy of the lattice has to be considered in the out-ofequilibrium process, as it is the case at thermal equilibrium in volume-changing molecular magnetic materials. <ref type="bibr" target="#b50">51</ref> Our results highlight the strong interactions of self-trapped photoinduced state with the lattice, which is often neglected, that may play a key role in the inhibition or amplification of photo-induced transformations in volume-changing molecular systems. Acknowledgement Parts of this research were carried out in the frame of the IM-LED LIA (CNRS) and a JSPS Grant-in-Aid for Scientific Research (A) 20H00369 and JSPS KAKENHI 16H06521 Co-ordination Asymmetry. The authors gratefully acknowledge Agence Nationale de la Recherche for financial support undergrant ANR-16-CE30-0018, ANR-19-CE30-0004, ANR-19-CE07-0027, the University Rennes 1 and the Fondation Rennes 1 for funding. We collected the X-ray diffracted intensity with Rayonix MX170-HS CCD detector, with an active area of 170x170mm 2 and a pixel size of 89 µm. We chose a distance of ~23 cm from the sample as a trade-off between q-resolution and portion of q-space explored. A schematic representation of the setup geometry and a typical diffraction image are shown in Fig. <ref type="figure" target="#fig_7">S3</ref>. In order to increase the statistics, each image was collected using the integration of numerous X-ray shots. The diffraction data were refined using the software TOPAS-Academic version 6. <ref type="bibr" target="#b51">52</ref> For monitoring the thermally-induced phase transition, we collected x-ray diffraction during a continuous thermal ramp, averaging the data collected within 10 K intervals. The almost zero thermal expansion showed by the MnFe system, revealed by high resolution diffraction studies <ref type="bibr" target="#b22">23</ref> could not be accurately monitored by our experimental set-up, due to the relatively poor q-resolution. The refinement process had to take into account the presence of crystals of a known and passive Rb2Mn[Fe(CN)6]•3.5H2O impurity. The temperature dependance of the lattice parameters of the Rb0.94Mn[Fe(CN)6]0.98•2.5H2O sample shown in Fig. <ref type="figure" target="#fig_1">2</ref> exhibits a phase transition around 280 K on warming, in good agreement with the magnetic susceptibility (Fig. <ref type="figure" target="#fig_1">S2</ref>).</p><p>In order to study the out-of-equilibrium dynamics, we used a regenerative amplifier coupled to an OPA in order to generate ~1 ps pulses centered around 520 nm (Fig. <ref type="figure" target="#fig_7">S3</ref>). This wavelength is shown to efficiently promote the intervalence charge transfer from Mn III Fe II to Mn II Fe III using both continuous <ref type="bibr" target="#b42">43</ref> and pulsed <ref type="bibr" target="#b45">46</ref> irradiation. The penetration depth in RbMnFe can be calculated starting from the values of the real and imaginary parts of the dielectric constant reported in ref <ref type="bibr" target="#b28">29</ref> and the penetration depth at 520 nm is around 320 nm, which is similar to the 300 nm average size of the microcrystals composing the sample. This ensures a rather homogeneous excitation at the individual microcrystal scale. We used a quasi-grazing incidence geometry with the sample surface tilted around 4° with respect to the X-ray direction and a laser incidence perpendicular to the direction of the film (Fig. <ref type="figure" target="#fig_7">S3</ref>). This allows for increasing the diffracted signal from the thin film of microcrystals by maximizing the excited area of the sample. This geometry is used to compensate the relatively low X-ray flux, due to the chopper system for time-resolved measurements in use at ID09 for time resolved measurements. <ref type="bibr" target="#b43">44</ref> The optical pump  X-ray probe experiment was performed with ~70 ps time resolution (𝜎 ≃ 30 𝑝𝑠), at a repetition rate of 1 kHz. The time resolution of the experiment was limited by the X-ray pulse duration. The time delay between the pump and the probe was controlled electronically. Each diffraction pattern was collected by integrating the diffracted intensity of up to 3000 X-ray shots at a given time delay. The negative delay signal (-10 ns) was used as reference and was collected several times during each scan to check the complete relaxation of the sample. We used excitation fluences up to 42 μJ.mm -2 . Higher fluences may have resulted in photo-induced residual effects indicating an incomplete relaxation of the sample that would make the data interpretation inconclusive. We collected data at several temperatures (110 K, 130 K and 160 K) outside the bistability region to allow for complete relaxation of the sample.</p><p>Fig. <ref type="figure" target="#fig_8">S4</ref> shows an example of a time-resolved (top) X-ray diffraction pattern I(q) collected 10 ns before laser excitation (negative delays). The bottom pannel shows the differences between the intensity measured at postive delays and the reference signal at negative delay. The diffraction patterns were obtained by azimuthal integration of the diffracted intensity images using the python library PyFAI. <ref type="bibr" target="#b52">53</ref> Due to the limitation given by the experimental geometry, the presence of the impurity in the sample and the small intensity of the photoinduced signal, it was not possible to perform a Rietveld refinement on the data. We used a Pawley refinement to retrieve the value of the lattice parameters as function of the time delay, using the software TOPAS-Academic version 6. <ref type="bibr" target="#b51">52</ref> The data at negative delays were refined using the tetragonal LT phase and the cubic impurity. The experimental parameters were refined using these data and were kept fixed during the rest of the analysis. The data presented in Figure 3 were obtained by allowing volume expansion of the passive Rb2Mn[Fe(CN)6]•3.5H2O impurity. These cubic crystals exhibits a weak thermal expansion but does not undergo volume-changing charge-transfer transition. For checking the contribution of this impurity in the conclusion of our work on the lattice dynamics of photoexcited Rb0.94Mn[Fe(CN)6]0.98•2.5H2O crystals, we compare in Fig. S5 the results of the Pawley analysis taking into account the lattice expansion of the impurity (aimp) or not. In both cases we observe for the photoactive Rb0.94Mn[Fe(CN)6]0.98•2.5H2O crystals the same qualitative response with an initial opposite shift of the lattice parameters a and c (clearly seen in the differential data by the opposite shift of the (h00) and (00l) peaks of the Rb0.94Mn[Fe(CN)6]0.98•2.5H2O sample shown in Fig. 2). These shifts decrease the symmetry breaking order parameter  and result in a global volume expansion. Both analysis shown in Fig. S5 underline the out-of-equilibrium decoupling in time of the volume strain and the ferroelastic distortion. The fits of the time dependent volume 𝑉(𝑡) 𝑉 𝐿𝑇 in Fig. 3 and S5 were performed using a convolution of a Gaussian Instrumental Response Function (IRF) with a step function 𝐻(𝑡): 𝑉(𝑡) 𝑉 𝐿𝑇 = 𝐼𝑅𝐹(𝑡)[𝐴. 𝐻(𝑡)]. A is the amplitude of the step and the 𝐼𝑅𝐹(𝑡) = 1 √2𝜋𝜎 exp (-𝑡 2 2𝜎 2 ) is characterized by 𝜎 ≃ 30 𝑝𝑠 corresponding to an overall time resolution of ~70 ps. For the fits of the time-dependent signals 𝑠(𝑡) of the others lattice parameters, we add an exponential component; 𝑠(𝑡) = 𝐼𝑅𝐹 𝑋 (𝑡) [(𝐴 -𝐵 exp ( -𝑡 𝜏 𝑟 )) * 𝐻(𝑡)]. 𝜏 𝑟 ≃130 ps provides a satisfactory guide for the eye. Fig. S6 shows the effect of the limited time resolution on the signal. Fig. S7 shows the almost linear response with excitation density of the photoinduced lattice changes ∆𝒂 ℎ𝜐 , ∆𝒄 ℎ𝜐 and ∆𝑽 ℎ𝜐 fitted at 75 ps.    The volume probed by time-resolved X-ray diffraction and the photoinduced CT states decay within 10s µs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (a) Structure of RbMnFe system in the cubic HT phase. Mn, N, C, Fe and Rb are shown in green, light blue, black, orange and purple respectively. (b) Schematic valence states and electronic configurations in the LT Mn III Fe II and HT Mn II Fe III phases. (c) The Mn III Fe II to Mn II Fe III charge transfer is stabilized by the reverse Jahn-Teller distortion as the Mn 𝑑 𝑥 2 -𝑦 2 is populated.</figDesc><graphic coords="3,51.10,51.10,319.55,357.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: (a) Lattice parameters upon warming. The solid lines mark the average values in each phase. The dotted line marks the beginning of the ascending branch of the hysteresis from LT to HT phases. The vertical and thick arrows refer to non-symmetry-breaking (, green) and symmetry breaking (η, purple) changes. (b) Thermal evolution of the lattice volume, scaled in CT fraction (T) (right axis). (c) Thermal evolution of the amplitude η of the symmetry breaking. (d) Evolution of the powder diffraction patterns along the scattering vector q from LT (blue) to HT (red) phases, zoomed in the [1.13-1.31 Å -1 ] and [2.29-2.61 Å -1 ] ranges. The grey lines show intermediate temperature between LT and HT phases. (e) Temperature evolution of the differential X-ray diffraction signal with respect to 120 K (LT). (f) Time-resolved differential X-ray diffraction signal, with respect to negative delay, measured 75 ps after photoexcitation.</figDesc><graphic coords="4,53.98,51.05,487.40,323.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>1 3 (</head><label>13</label><figDesc>2𝒂 + 𝒄) = 10.204(1) Å.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>Fig. 3a &amp; 3b display the evolution of lattice parameters at 130 K, normalized to their values before photoexcitation, for two excitation densities and more data are shown in Fig. S5. Fig. 3c &amp; 3d show the temporal evolutions of the normalized lattice volume V and ferroelastic distortion 𝜂. The data highlight the presence of the two distinct steps in the out-of-equilibrium lattice dynamics. Immediately after laser excitation the lattice parameter a increases, while c decreases simultaneously, and both reach extrema within the experimental time resolution. The relative diffracted intensity difference between 75 ps and negative delay (Fig. 2f) shows this</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: (a, b, c, d) Relative temporal evolution of the lattice parameters a, c, V and 𝜂, with respect to values prior to photoexcitation at 130 K, for pump fluences of 24 µJ.mm -2 (blue) and 42 µJ.mm -2 (orange). The solid lines represents the fit of the data. (e) and (f) show the relative evolution of V and 𝜂 at 110 K, 130K and 160 K.</figDesc><graphic coords="6,173.18,192.04,249.10,467.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: (a) Schematic representation of the structural changes caused by the photoexcitation with the local structural trapping, the dynamical expansion along a and contraction along c and the transient equilibrium lattice expended along a. (b) Schematic representation of the evolution of the lattice potential with different equilibrium volume during the thermal phase transition (bottom) and for a fraction  h 𝛎 of photo-induced CT state (top). The grey dotted lines mark the values of the Volume in the LT, HT and photo-induced (PI) phases. (c) Schematic representation of the density of states in the HT, LT and PI states (bottom, middle, top). The colored parts schematically represent the occupation of each band in relation with Fig. 1b.</figDesc><graphic coords="10,51.05,51.05,493.35,291.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. S3 -</head><label>S3</label><figDesc>Fig. S3 -Schematic representation of the experimental setup used for the time-resolved measurements atID09.</figDesc><graphic coords="12,70.98,51.05,453.50,313.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. S4 -</head><label>S4</label><figDesc>Fig. S4 -Diffraction patterns measured 10 ns before laser excitation (negative delays top) and difference signal for different time delays (bottom)</figDesc><graphic coords="13,51.05,375.92,493.35,156.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. S5 - 2 2𝜎 2 )</head><label>S522</label><figDesc>Fig. S5 -Relative temporal evolution at 130 K and for different laser fluences of the lattice parameters a, c, V and η of the Rb0.94Mn[Fe(CN)6]0.98•2.5H2O photoactive crystals, with respect to values prior to photoexcitation. The figure on the left corresponds to the Pawley analysis allowing a thermal expansion of the cubic crystals (aimp) of the passive Rb2Mn[Fe(CN)6]•3.5H2O impurity. The figure on the right corresponds to the Pawley analysis without change of the lattice impurity (aimp fixed). Both analysis provide similar qualitative featuresfor the time dependence of V and η, which are the key lattice parameters describing the phase transition.</figDesc><graphic coords="14,51.05,51.05,493.35,463.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. S6 -</head><label>S6</label><figDesc>Fig. S6 -Fit of the temporal dependence of 𝑉(𝑡) 𝑉 𝐿𝑇 (left) and 𝒂(𝑡) 𝒂 𝐿𝑇 (right). The volume variation V h as function of the pump fluence is scaled to the fraction  of CT state (green right axis).</figDesc><graphic coords="15,51.05,222.94,493.35,199.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. S7 -</head><label>S7</label><figDesc>Fig. S7 -Evolution of the photoinduced shift of lattice parameters ∆𝒂 ℎ𝜐 and ∆𝒄 ℎ𝜐 (left) and volume expansion V h (right) as function of the pump fluence. The volume change is scaled to  (green right axis).</figDesc><graphic coords="15,51.05,511.32,493.35,148.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. S8</head><label>S8</label><figDesc>Fig. S8 Evolution of the time-resolved differential X-ray diffraction signal, with respect to negative delay, measured 75 ps and 600 ps after photoexcitation. The contribution of the lattice contraction along c is stronger at 75 ps than at 600 ps, where it is mainly the lattice expansion along a that contributes to the signal change.</figDesc><graphic coords="16,161.98,51.05,271.40,285.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. S9</head><label>S9</label><figDesc>Fig. S9 Optical density change (OD) probed at 650 nm for the RbMnFe compound after fs laser excitation at530 nm, monitoring the decay of the photoinduced Mn III Fe II state (left, reprinted with permission from ref<ref type="bibr" target="#b44">45</ref> ).</figDesc><graphic coords="16,51.05,485.26,493.05,169.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="11,51.05,236.09,450.93,147.95" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Samples preparation</head><p>We used microcrystals of Rb0.94Mn[Fe(CN)6]0.98•2.5H2O synthesized by mixing a polyethylene glycol monolaurate (PEGM) matrix containing MnCl2 (aq) and RbCl (aq) with another PEGM matrix containing K3[Fe(CN)6] (aq) and RbCl (aq). The obtained precipitate was centrifuged, washed in methanol and dried in air as described in ref <ref type="bibr" target="#b22">23</ref> . The chemical formula was confirmed using elemental analysis and infrared spectroscopy. The sample we used is a dispersion of microcrystals in ethanol (Fig. <ref type="figure">S1a</ref>) that was deposited on a glass substrate (Fig. <ref type="figure">S1b</ref>). The scanning electron microscope (SEM) images revealed that the crystals are plate-shaped and with good crystallinity (Fig. <ref type="figure">S1c</ref>). Fig. <ref type="figure">S2</ref> shows the 𝜒 𝑀 . 𝑇 vs 𝑇 (𝜒 𝑀 being the molar magnetic susceptibility and 𝑇 the temperature). <ref type="bibr" target="#b22">23</ref> The 𝜒 𝑀 . 𝑇 value ( 4.75 cm 3 .K.mol -1 at 300 K) of the HT phase Fe III (S=1/2)Mn II (S=5/2) decreases around T1/2↓ 185 K on cooling, as the LT phase Fe II (S=0)Mn III (S=2) forms. Conversely, on warming the sample from the LT phase, the 𝜒 𝑀 . 𝑇 value increases around T1/2↑ 285 K.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>X-ray diffraction</head><p>The X-ray diffraction experiment was performed at the ID09 beamline of the ESRF synchrotron. <ref type="bibr" target="#b43">44</ref> The beam was focused using a toroidal mirror and the beam size at the focal point was 150 x 150 µm 2 . The footprint on the sample, due to the quasi-grazing angle experimental geometry was roughly 0.150 x 3 mm 2 . We performed the measurements by keeping the sample surface close to grazing angle with respect to the X-rays incident direction. The energy of the beam was set to 14.8 keV by regulating the undulator gap. The samples were fixed to a goniometer head mounted on a Huber 1-Circle Goniometer (model 410a) with the rotation axis perpendicular both to the X-rays and laser directions. Temperature control during the experiment was achieved using an Oxford Cryosystems Cryostream 800 liquid nitrogen cooler positioned along the rotation axis of the goniometer. The thermal scans were performed using a cooling/heating rate of 6 K/min.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Towards properties on demand in quantum materials</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Basov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Averitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hsieh</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat5017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1077" to="1088" />
+			<date type="published" when="2017-10-25">2017</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. N. Basov, R. D. Averitt and D. Hsieh, Nature Materials 16, 1077 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Terahertz-field-induced insulator-to-metal transition in vanadium dioxide metamaterial</title>
+		<author>
+			<persName><forename type="first">Mengkun</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harold</forename><forename type="middle">Y</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hu</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">C</forename><surname>Strikwerda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kebin</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">R</forename><surname>Keiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aaron</forename><forename type="middle">J</forename><surname>Sternbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><forename type="middle">G</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Salinporn</forename><surname>Kittiwatanakul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiwei</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stuart</forename><forename type="middle">A</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fiorenzo</forename><forename type="middle">G</forename><surname>Omenetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xin</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">D</forename><surname>Averitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature11231</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">487</biblScope>
+			<biblScope unit="issue">7407</biblScope>
+			<biblScope unit="page" from="345" to="348" />
+			<date type="published" when="2012-07-11">2012</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Liu, H. Y. Hwang, H. Tao, A. C. Strikwerda, K. Fan, G. R. Keiser, A. J. Sternbach, K. G. West, S. Kittiwatanakul, J. Lu, S. A. Wolf, F. G. Omenetto, X. Zhang, K. A. Nelson and R. D. Averitt, Nature 487 (7407), 345-348 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Resonant and nonresonant control over matter and light by intense terahertz transients</title>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Kampfrath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Koichiro</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphoton.2013.184</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Photonics</title>
+		<title level="j" type="abbrev">Nature Photon</title>
+		<idno type="ISSN">1749-4885</idno>
+		<idno type="ISSNe">1749-4893</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="680" to="690" />
+			<date type="published" when="2013-08-29">2013</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Kampfrath, K. Tanaka and K. A. Nelson, Nature Photonics 7 (9), 680-690 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Direct observation of collective modes coupled to molecular orbital–driven charge transfer</title>
+		<author>
+			<persName><forename type="first">Tadahiko</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stuart</forename><forename type="middle">A</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sercan</forename><surname>Keskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gastón</forename><surname>Corthey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masaki</forename><surname>Hada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kostyantyn</forename><surname>Pichugin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Marx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julian</forename><surname>Hirscht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenta</forename><surname>Shionuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ken</forename><surname>Onda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoichi</forename><surname>Okimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ya</forename><surname>Koshihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takashi</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hengbo</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mitsushiro</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yugo</forename><surname>Oshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Majed</forename><surname>Abdel-Jawad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reizo</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J Dwayne</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aab3480</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="issue">6267</biblScope>
+			<biblScope unit="page" from="1501" to="1505" />
+			<date type="published" when="2015-12-18">2015</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Ishikawa, S. A. Hayes, S. Keskin, G. Corthey, M. Hada, K. Pichugin, A. Marx, J. Hirscht, K. Shionuma, K. Onda, Y. Okimoto, S.-y. Koshihara, T. Yamamoto, H. Cui, M. Nomura, Y. Oshima, M. Abdel-Jawad, R. Kato and R. J. D. Miller, Science 350 (6267), 1501-1505 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Femtosecond X-ray measurement of coherent lattice vibrations near the Lindemann stability limit</title>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Sokolowski-Tinten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Blome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juris</forename><surname>Blums</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Cavalleri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clemens</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Tarasevitch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ingo</forename><surname>Uschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eckhard</forename><surname>Förster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Kammler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Horn-Von-Hoegen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dietrich</forename><surname>Von Der Linde</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature01490</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">422</biblScope>
+			<biblScope unit="issue">6929</biblScope>
+			<biblScope unit="page" from="287" to="289" />
+			<date type="published" when="2003-03">2003</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Sokolowski-Tinten, C. Blome, J. Blums, A. Cavalleri, C. Dietrich, A. Tarasevitch, I. Uschmann, E. Forster, M. Kammler, M. Horn-von-Hoegen and D. von der Linde, Nature 422 (6929), 287-289 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Ultrafast Bond Softening in Bismuth: Mapping a Solid&apos;s Interatomic Potential with X-rays</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Fritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Reis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Akre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arthur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Blome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Bucksbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cavalieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Engemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fahy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Falcone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Fuoss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hajdu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Hertlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Hillyard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Horn-Von Hoegen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kammler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kaspar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kienberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krejcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lindenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mcfarland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Montagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eì.</forename><forename type="middle">D</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nicoul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rudati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schlarb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Siddons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sokolowski-Tinten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Tschentscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Von Der Linde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Hastings</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1135009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="issue">5812</biblScope>
+			<biblScope unit="page" from="633" to="636" />
+			<date type="published" when="2007-02-02">2007</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. M. Fritz, D. A. Reis, B. Adams, R. A. Akre, J. Arthur, C. Blome, P. H. Bucksbaum, A. L. Cavalieri, S. Engemann, S. Fahy, R. W. Falcone, P. H. Fuoss, K. J. Gaffney, M. J. George, J. Hajdu, M. P. Hertlein, P. B. Hillyard, M. H. V. Hoegen, M. Kammler, J. Kaspar, R. Kienberger, P. Krejcik, S. H. Lee, A. M. Lindenberg, B. McFarland, D. Meyer, T. Montagne, E. D. Murray, A. J. Nelson, M. Nicoul, R. Pahl, J. Rudati, H. Schlarb, D. P. Siddons, K. Sokolowski-Tinten, T. Tschentscher, D. von der Linde and J. B. Hastings, Science 315 (5812), 633-636 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Ultrafast structural dynamics of the orthorhombic distortion in the Fe-pnictide parent compound BaFe2As2</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rettig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Mariager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ferrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grübel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rittmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ingold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Staub</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4947250</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Structural Dynamics</title>
+		<idno type="ISSNe">2329-7778</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">23611</biblScope>
+			<date type="published" when="2016-03-01">2016</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Rettig, S. O. Mariager, A. Ferrer, S. Grübel, J. A. Johnson, J. Rittmann, T. Wolf, S. L. Johnson, G. Ingold, P. Beaud and U. Staub, Structural Dynamics 3 (2), 023611 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Elastically driven cooperative response of a molecular material impacted by a laser pulse</title>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Bertoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maciej</forename><surname>Lorenc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hervé</forename><surname>Cailleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antoine</forename><surname>Tissot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jérôme</forename><surname>Laisney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Laure</forename><surname>Boillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurentiu</forename><surname>Stoleriu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandru</forename><surname>Stancu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cristian</forename><surname>Enachescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat4606</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="606" to="610" />
+			<date type="published" when="2016-03-28">2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Bertoni, M. Lorenc, H. Cailleau, A. Tissot, J. Laisney, M. L. Boillot, L. Stoleriu, A. Stancu, C. Enachescu and E. Collet, Nat Mater 15 (6), 606-610 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Successive Dynamical Steps of Photoinduced Switching of a Molecular Fe(III) Spin-Crossover Material by Time-Resolved X-Ray Diffraction</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lorenc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hébert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moisan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Trzop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Servol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buron-Le Cointe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cailleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Boillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pontecorvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wulff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koshihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Collet</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.103.028301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2009-07-10">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Lorenc, J. Hebert, N. Moisan, E. Trzop, M. Servol, M. Buron-Le Cointe, H. Cailleau, M. L. Boillot, E. Pontecorvo, M. Wulff, S. Koshihara and E. Collet, Physical Review Letters 103 (2), -(2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Coherent acoustic phonon generation in exciton self-trapping</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">X</forename><surname>Morrissey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Dexheimer</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.81.094302</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">94302</biblScope>
+			<date type="published" when="2010-03-22">2010</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. X. Morrissey and S. L. Dexheimer, Physical Review B 81 (9), 094302 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Nonlinear lattice relaxation of photogenerated charge-transfer excitation in halogen-bridged mixed-valence metal complexes. I. Soliton and self-trapped exciton</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mishima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nasu</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.39.5758</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="5758" to="5762" />
+			<date type="published" when="1989-03-15">1989</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Mishima and K. Nasu, Physical Review B 39 (9), 5758-5762 (1989).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Self-Trapping of an Electron by the Acoustical Mode of Lattice Vibration. I</title>
+		<author>
+			<persName><forename type="first">Yutaka</forename><surname>Toyozawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1143/ptp.26.29</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Progress of Theoretical Physics</title>
+		<title level="j" type="abbrev">Prog. Theor. Phys.</title>
+		<idno type="ISSN">0033-068X</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="44" />
+			<date type="published" when="1961-07">1961</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Toyozawa, Progress of Theoretical Physics 26 (1), 29-44 (1961).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Self-Trapped Excitons in All-Inorganic Halide Perovskites: Fundamentals, Status, and Potential Applications</title>
+		<author>
+			<persName><forename type="first">Shunran</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiajun</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jing</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiang</forename><surname>Tang</surname></persName>
+			<idno type="ORCID">0000-0003-2574-2943</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.jpclett.8b03604</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<title level="j" type="abbrev">J. Phys. Chem. Lett.</title>
+		<idno type="ISSN">1948-7185</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1999" to="2007" />
+			<date type="published" when="2019-04-04">2019</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Li, J. Luo, J. Liu and J. Tang, The Journal of Physical Chemistry Letters 10 (8), 1999-2007 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Self-Trapped Excitons in Silicon Dioxide: Mechanism and Properties</title>
+		<author>
+			<persName><forename type="first">Sohrab</forename><surname>Ismail-Beigi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">G</forename><surname>Louie</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.95.156401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<date type="published" when="2005-10-06">2005</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ismail-Beigi and S. G. Louie, Physical Review Letters 95 (15), -(2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Femtosecond Vibrational Dynamics of Self-Trapping in a Quasi-One-Dimensional System</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Dexheimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Van Pelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Brozik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Swanson</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.84.4425</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="4425" to="4428" />
+			<date type="published" when="2000-05-08">2000</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. L. Dexheimer, A. D. Van Pelt, J. A. Brozik and B. I. Swanson, Physical Review Letters 84 (19), 4425- 4428 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Self-trapped polaron exciton in neutral fullerene&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:mrow&gt;&lt;mml:msub&gt;&lt;mml:mrow&gt;&lt;mml:mi mathvariant=&quot;normal&quot;&gt;C&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;60&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msub&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kuzmany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sohmen</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.68.2822</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="2822" to="2825" />
+			<date type="published" when="1992-05-04">1992</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Matus, H. Kuzmany and E. Sohmen, Physical Review Letters 68 (18), 2822-2825 (1992).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Light-induced spin-crossover magnet</title>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenta</forename><surname>Imoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshihide</forename><surname>Tsunobuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shinjiro</forename><surname>Takano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchem.1067</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chemistry</title>
+		<title level="j" type="abbrev">Nature Chem</title>
+		<idno type="ISSN">1755-4330</idno>
+		<idno type="ISSNe">1755-4349</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="564" to="569" />
+			<date type="published" when="2011-06-05">2011</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ohkoshi, K. Imoto, Y. Tsunobuchi, S. Takano and H. Tokoro, Nature Chemistry 3 (7), 564-569 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">90-degree optical switching of output second-harmonic light in chiral photomagnet</title>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shinjiro</forename><surname>Takano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenta</forename><surname>Imoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie</forename><surname>Yoshikiyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Asuka</forename><surname>Namai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphoton.2013.310</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Photonics</title>
+		<title level="j" type="abbrev">Nature Photon</title>
+		<idno type="ISSN">1749-4885</idno>
+		<idno type="ISSNe">1749-4893</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="71" />
+			<date type="published" when="2014">2014</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ohkoshi, S. Takano, K. Imoto, M. Yoshikiyo, A. Namai and H. Tokoro, Nat Photon 8 (1), 65-71 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Visible-Light-Induced Reversible Photomagnetism in Rubidium Manganese Hexacyanoferrate</title>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomoyuki</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomohiro</forename><surname>Nuida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yutaka</forename><surname>Moritomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenji</forename><surname>Ohoyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edgard</forename><forename type="middle">Davy Loutete</forename><surname>Dangui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kamel</forename><surname>Boukheddaden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm701873s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<title level="j" type="abbrev">Chem. Mater.</title>
+		<idno type="ISSN">0897-4756</idno>
+		<idno type="ISSNe">1520-5002</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="423" to="428" />
+			<date type="published" when="2008">2008</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Tokoro, T. Matsuda, T. Nuida, Y. Moritomo, K. Ohoyama, E. D. L. Dangui, K. Boukheddaden and S. Ohkoshi, Chem Mater 20 (2), 423-428 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Molecules to build solids: high TC molecule-based magnets by design and recent revival of cyano complexes chemistry</title>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Verdaguer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bleuzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Marvaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vaissermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seuleiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Desplanches</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Scuiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Train</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lomenech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rosenman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Veillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cartier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Villain</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0010-8545(99)00156-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coordination Chemistry Reviews</title>
+		<title level="j" type="abbrev">Coordination Chemistry Reviews</title>
+		<idno type="ISSN">0010-8545</idno>
+		<imprint>
+			<biblScope unit="volume">190-192</biblScope>
+			<biblScope unit="issue">192</biblScope>
+			<biblScope unit="page" from="1023" to="1047" />
+			<date type="published" when="1999-09">1999</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Verdaguer, A. Bleuzen, V. Marvaud, J. Vaissermann, M. Seuleiman, C. Desplanches, A. Scuiller, C. Train, R. Garde, G. Gelly, C. Lomenech, I. Rosenman, P. Veillet, C. Cartier and F. Villain, Coordination Chemistry Reviews 190-192, 1023-1047 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">ChemInform Abstract: Switchable Fe/Co Prussian Blue Networks and Molecular Analogues</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Aguila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoann</forename><surname>Prado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evangelia</forename><forename type="middle">S</forename><surname>Koumousi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Corine</forename><surname>Mathoniere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rodolphe</forename><surname>Clerac</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/chin.201607235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemInform</title>
+		<title level="j" type="abbrev">ChemInform</title>
+		<idno type="ISSN">0931-7597</idno>
+		<idno type="ISSNe">1522-2667</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="203" to="224" />
+			<date type="published" when="2016-01">2016</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Aguila, Y. Prado, E. S. Koumousi, C. Mathoniere and R. Clerac, Chemical Society Reviews 45 (1), 203-224 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Charge transfer driven by ultrafast spin transition in a CoFe Prussian blue analogue</title>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Cammarata</surname></persName>
+			<idno type="ORCID">0000-0003-3013-1186</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Serhane</forename><surname>Zerdane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lodovico</forename><surname>Balducci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Azzolina</surname></persName>
+			<idno type="ORCID">0000-0002-6318-9360</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Mazerat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cecile</forename><surname>Exertier</surname></persName>
+			<idno type="ORCID">0000-0001-7457-6895</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Matilde</forename><surname>Trabuco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Levantino</surname></persName>
+			<idno type="ORCID">0000-0002-1224-4809</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><surname>Alonso-Mori</surname></persName>
+			<idno type="ORCID">0000-0002-5357-0934</idno>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">M</forename><surname>Glownia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sanghoon</forename><surname>Song</surname></persName>
+			<idno type="ORCID">0000-0003-3493-1850</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Laure</forename><surname>Catala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Talal</forename><surname>Mallah</surname></persName>
+			<idno type="ORCID">0000-0002-9311-3463</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Samir</forename><forename type="middle">F</forename><surname>Matar</surname></persName>
+			<idno type="ORCID">0000-0001-5419-358X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+			<idno type="ORCID">0000-0003-0810-7411</idno>
+		</author>
+		<idno type="DOI">10.1038/s41557-020-00597-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Chemistry</title>
+		<title level="j" type="abbrev">Nat. Chem.</title>
+		<idno type="ISSN">1755-4330</idno>
+		<idno type="ISSNe">1755-4349</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="14" />
+			<date type="published" when="2021">2021</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Cammarata, S. Zerdane, L. Balducci, G. Azzolina, S. Mazerat, C. Exertier, M. Trabuco, M. Levantino, R. Alonso-Mori, J. M. Glownia, S. Song, L. Catala, T. Mallah, S. F. Matar and E. Collet, Nature Chemistry 13 (1), 10-14 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Zero Thermal Expansion Fluid and Oriented Film Based on a Bistable Metal-Cyanide Polymer</title>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kosuke</forename><surname>Nakagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenta</forename><surname>Imoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fumiyoshi</forename><surname>Hakoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm203762k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<title level="j" type="abbrev">Chem. Mater.</title>
+		<idno type="ISSN">0897-4756</idno>
+		<idno type="ISSNe">1520-5002</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1324" to="1330" />
+			<date type="published" when="2012-03-21">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Tokoro, K. Nakagawa, K. Imoto, F. Hakoe and S. Ohkoshi, Chem Mater 24 (7), 1324-1330 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">CoFe Prussian Blue Analogues under Variable Pressure. Evidence of Departure from Cubic Symmetry: X-ray Diffraction and Absorption Study</title>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Bleuzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Daniel</forename><surname>Cafun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Bachschmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Verdaguer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pascal</forename><surname>Münsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Baudelet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Paul</forename><surname>Itié</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp805852n</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<title level="j" type="abbrev">J. Phys. Chem. C</title>
+		<idno type="ISSN">1932-7447</idno>
+		<idno type="ISSNe">1932-7455</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">45</biblScope>
+			<biblScope unit="page" from="17709" to="17715" />
+			<date type="published" when="2008-10-16">2008</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Bleuzen, J.-D. Cafun, A. Bachschmidt, M. Verdaguer, P. Münsch, F. Baudelet and J.-P. Itié, The Journal of Physical Chemistry C 112 (45), 17709-17715 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Photoswitchable 11 nm CsCoFe Prussian Blue Analogue Nanocrystals with High Relaxation Temperature</title>
+		<author>
+			<persName><forename type="first">Linh</forename><surname>Trinh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Serhane</forename><surname>Zerdane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Mazérat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nada</forename><surname>Dia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diana</forename><surname>Dragoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Herrero</surname></persName>
+			<idno type="ORCID">0000-0003-2113-4625</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Rivière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laure</forename><surname>Catala</surname></persName>
+			<idno type="ORCID">0000-0001-7067-7437</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Cammarata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+			<idno type="ORCID">0000-0003-0810-7411</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Talal</forename><surname>Mallah</surname></persName>
+			<idno type="ORCID">0000-0002-9311-3463</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.inorgchem.0c01432</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inorganic Chemistry</title>
+		<title level="j" type="abbrev">Inorg. Chem.</title>
+		<idno type="ISSN">0020-1669</idno>
+		<idno type="ISSNe">1520-510X</idno>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="13153" to="13161" />
+			<date type="published" when="2020-08-28">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Trinh, S. Zerdane, S. Mazérat, N. Dia, D. Dragoe, C. Herrero, E. Rivière, L. Catala, M. Cammarata, E. Collet and T. Mallah, Inorganic Chemistry 59 (18), 13153-13161 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Interplay between the Charge Transport Phenomena and the Charge-Transfer Phase Transition in Rb&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;Mn[Fe(CN)&lt;sub&gt;6&lt;/sub&gt;]&lt;sub&gt;&lt;i&gt;y&lt;/i&gt;&lt;/sub&gt;·&lt;i&gt;z&lt;/i&gt;H&lt;sub&gt;2&lt;/sub&gt;O</title>
+		<author>
+			<persName><forename type="first">Gábor</forename><surname>Molnár</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saioa</forename><surname>Cobo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tarik</forename><surname>Mahfoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Esther</forename><forename type="middle">J M</forename><surname>Vertelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petra</forename><forename type="middle">J</forename><surname>Van Koningsbruggen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Demont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Azzedine</forename><surname>Bousseksou</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp8090478</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<title level="j" type="abbrev">J. Phys. Chem. C</title>
+		<idno type="ISSN">1932-7447</idno>
+		<idno type="ISSNe">1932-7455</idno>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2586" to="2593" />
+			<date type="published" when="2009-01-16">2009</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Molnár, S. Cobo, T. Mahfoud, E. J. M. Vertelman, P. J. van Koningsbruggen, P. Demont and A. Bousseksou, The Journal of Physical Chemistry C 113 (6), 2586-2593 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Single Laser Shot Photoinduced Phase Transition of Rubidium Manganese Hexacyanoferrate Investigated by X‐ray Diffraction</title>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Azzolina</surname></persName>
+			<idno type="ORCID">0000-0002-6318-9360</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+			<idno type="ORCID">0000-0003-0810-7411</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Céline</forename><surname>Mariette</surname></persName>
+			<idno type="ORCID">0000-0001-8067-9591</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Cammarata</surname></persName>
+			<idno type="ORCID">0000-0003-3013-1186</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Elzbieta</forename><surname>Trzop</surname></persName>
+			<idno type="ORCID">0000-0003-1998-1825</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Mathias</forename><surname>Sander</surname></persName>
+			<idno type="ORCID">0000-0001-9045-9824</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Levantino</surname></persName>
+			<idno type="ORCID">0000-0002-1224-4809</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kosuke</forename><surname>Nakagawa</surname></persName>
+			<idno type="ORCID">0000-0002-7176-0010</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+			<idno type="ORCID">0000-0002-3431-0643</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shin‐ichi</forename><surname>Ohkoshi</surname></persName>
+			<idno type="ORCID">0000-0001-9359-5928</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Bertoni</surname></persName>
+			<idno type="ORCID">0000-0003-3459-7127</idno>
+		</author>
+		<idno type="DOI">10.1002/ejic.201801478</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Inorganic Chemistry</title>
+		<title level="j" type="abbrev">Eur J Inorg Chem</title>
+		<idno type="ISSN">1434-1948</idno>
+		<idno type="ISSNe">1099-0682</idno>
+		<imprint>
+			<biblScope unit="volume">2019</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="3142" to="3147" />
+			<date type="published" when="2019-02-27">2019. 2019</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Azzolina, E. Collet, C. Mariette, M. Cammarata, E. Trzop, M. Sander, M. Levantino, K. Nakagawa, H. Tokoro, S. Ohkoshi and R. Bertoni, Eur J Inorg Chem 2019 (27), 3142-3147 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Photomagnetism in Cyano-Bridged Bimetal Assemblies</title>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ar300068k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Accounts of Chemical Research</title>
+		<title level="j" type="abbrev">Acc. Chem. Res.</title>
+		<idno type="ISSN">0001-4842</idno>
+		<idno type="ISSNe">1520-4898</idno>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1749" to="1758" />
+			<date type="published" when="2012-08-06">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ohkoshi and H. Tokoro, Accounts of Chemical Research 45 (10), 1749-1758 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The dielectric constant in a thermal phase transition magnetic material composed of rubidium manganese hexacyanoferrate observed by spectroscopic ellipsometry</title>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomohiro</forename><surname>Nuida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomoyuki</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhito</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b504062k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Chemistry</title>
+		<title level="j" type="abbrev">J. Mater. Chem.</title>
+		<idno type="ISSN">0959-9428</idno>
+		<idno type="ISSNe">1364-5501</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">32</biblScope>
+			<biblScope unit="page">3291</biblScope>
+			<date type="published" when="2005">2005</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ohkoshi, T. Nuida, T. Matsuda, H. Tokoro and K. Hashimoto, Journal of Materials Chemistry 15 (32), 3291 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Landau theory for non-symmetry-breaking electronic instability coupled to symmetry-breaking order parameter applied to Prussian blue analog</title>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Azzolina</surname></persName>
+			<idno type="ORCID">0000-0002-6318-9360</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Bertoni</surname></persName>
+			<idno type="ORCID">0000-0003-3459-7127</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Claude</forename><surname>Ecolivet</surname></persName>
+			<idno type="ORCID">0000-0002-1929-7655</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+			<idno type="ORCID">0000-0002-3431-0643</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+			<idno type="ORCID">0000-0001-9359-5928</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+			<idno type="ORCID">0000-0003-0810-7411</idno>
+		</author>
+		<idno type="DOI">10.1103/physrevb.102.134104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">2469-9950</idno>
+		<idno type="ISSNe">2469-9969</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">134104</biblScope>
+			<date type="published" when="2020-10-09">2020</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Azzolina, R. Bertoni, C. Ecolivet, H. Tokoro, S. Ohkoshi and E. Collet, Physical Review B 102 (13), 134104 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A time-dependent order parameter for ultrafast photoinduced phase transitions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caviezel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Mariager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rettig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ingold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dornes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Radovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kubacka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ferrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Lemke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chollet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Glownia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sikorski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wadati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kawasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tokura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Staub</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat4046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="923" to="927" />
+			<date type="published" when="2014-08-03">2014</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Beaud, A. Caviezel, S. O. Mariager, L. Rettig, G. Ingold, C. Dornes, S. W. Huang, J. A. Johnson, M. Radovic, T. Huber, T. Kubacka, A. Ferrer, H. T. Lemke, M. Chollet, D. Zhu, J. M. Glownia, M. Sikorski, A. Robert, H. Wadati, M. Nakamura, M. Kawasaki, Y. Tokura, S. L. Johnson and U. Staub, Nat Mater 13 (10), 923-927 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Laser-Induced Ferroelectric Structural Order in an Organic Charge-Transfer Crystal</title>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Hélene</forename><surname>Lemée-Cailleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marylise</forename><surname>Buron-Le Cointe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hervé</forename><surname>Cailleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Wulff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tadeusz</forename><surname>Luty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ya</forename><surname>Koshihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathias</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Loic</forename><surname>Toupet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Rabiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Techert</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1082001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="issue">5619</biblScope>
+			<biblScope unit="page" from="612" to="615" />
+			<date type="published" when="2003-04-25">2003</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Collet, M. H. Lemee-Cailleau, M. Buron-Le Cointe, H. Cailleau, M. Wulff, T. Luty, S. Y. Koshihara, M. Meyer, L. Toupet, P. Rabiller and S. Techert, Science 300 (5619), 612-615 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">One-shot-laser-pulse-induced demagnetization in rubidium manganese hexacyanoferrate</title>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhito</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1556170</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1245" to="1247" />
+			<date type="published" when="2003-02-24">2003</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Tokoro, S. Ohkoshi and K. Hashimoto, Applied Physics Letters 82 (8), 1245-1247 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A Large Thermal Hysteresis Loop Produced by a Charge-Transfer Phase Transition in a Rubidium Manganese Hexacyanoferrate</title>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomoyuki</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhito</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ic030332f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inorganic Chemistry</title>
+		<title level="j" type="abbrev">Inorg. Chem.</title>
+		<idno type="ISSN">0020-1669</idno>
+		<idno type="ISSNe">1520-510X</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="5231" to="5236" />
+			<date type="published" when="2004-07-20">2004</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Tokoro, S. Ohkoshi, T. Matsuda and K. Hashimoto, Inorganic Chemistry 43 (17), 5231-5236 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Theoretical prediction of a charge-transfer phase transition</title>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+			<idno type="ORCID">0000-0002-3431-0643</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Asuka</forename><surname>Namai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie</forename><surname>Yoshikiyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rei</forename><surname>Fujiwara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kouji</forename><surname>Chiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+			<idno type="ORCID">0000-0001-9359-5928</idno>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-18213-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">63</biblScope>
+			<date type="published" when="2018-01-11">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Tokoro, A. Namai, M. Yoshikiyo, R. Fujiwara, K. Chiba and S. Ohkoshi, Sci Rep 8 (1), 63 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Photoinduced Ferrimagnetic Systems in Prussian Blue Analogues C&lt;sup&gt;I&lt;/sup&gt;&lt;i&gt;&lt;sub&gt;x&lt;/sub&gt;&lt;/i&gt;Co&lt;sub&gt;4&lt;/sub&gt;[Fe(CN)&lt;sub&gt;6&lt;/sub&gt;]&lt;i&gt;&lt;sub&gt;y&lt;/sub&gt;&lt;/i&gt; (C&lt;sup&gt;I&lt;/sup&gt; = Alkali Cation). 2. X-ray Absorption Spectroscopy of the Metastable State</title>
+		<author>
+			<persName><forename type="first">Christophe</forename><surname>Cartier Dit Moulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Françoise</forename><surname>Villain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Bleuzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Anne</forename><surname>Arrio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Sainctavit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claire</forename><surname>Lomenech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Virginie</forename><surname>Escax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Baudelet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><surname>Dartyge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Jacques</forename><surname>Gallet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Verdaguer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja000349m</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="6653" to="6658" />
+			<date type="published" when="2000-06-30">2000</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Cartier dit Moulin, F. Villain, A. Bleuzen, M.-A. Arrio, P. Sainctavit, C. Lomenech, V. Escax, F. Baudelet, E. Dartyge, J.-J. Gallet and M. Verdaguer, Journal of the American Chemical Society 122 (28), 6653-6658 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Single Laser Shot Photoinduced Phase Transition of Rubidium Manganese Hexacyanoferrate Investigated by X‐ray Diffraction</title>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Azzolina</surname></persName>
+			<idno type="ORCID">0000-0002-6318-9360</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+			<idno type="ORCID">0000-0003-0810-7411</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Céline</forename><surname>Mariette</surname></persName>
+			<idno type="ORCID">0000-0001-8067-9591</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Cammarata</surname></persName>
+			<idno type="ORCID">0000-0003-3013-1186</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Elzbieta</forename><surname>Trzop</surname></persName>
+			<idno type="ORCID">0000-0003-1998-1825</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Mathias</forename><surname>Sander</surname></persName>
+			<idno type="ORCID">0000-0001-9045-9824</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Levantino</surname></persName>
+			<idno type="ORCID">0000-0002-1224-4809</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kosuke</forename><surname>Nakagawa</surname></persName>
+			<idno type="ORCID">0000-0002-7176-0010</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+			<idno type="ORCID">0000-0002-3431-0643</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shin‐ichi</forename><surname>Ohkoshi</surname></persName>
+			<idno type="ORCID">0000-0001-9359-5928</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Bertoni</surname></persName>
+			<idno type="ORCID">0000-0003-3459-7127</idno>
+		</author>
+		<idno type="DOI">10.1002/ejic.201801478</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Inorganic Chemistry</title>
+		<title level="j" type="abbrev">Eur J Inorg Chem</title>
+		<idno type="ISSN">1434-1948</idno>
+		<idno type="ISSNe">1099-0682</idno>
+		<imprint>
+			<biblScope unit="volume">2019</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="3142" to="3147" />
+			<date type="published" when="2019-02-27">2019. 2019</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Azzolina, E. Collet, C. Mariette, M. Cammarata, E. Trzop, M. Sander, M. Levantino, K. Nakagawa, H. Tokoro, S.-i. Ohkoshi and R. Bertoni, Eur J Inorg Chem 2019 (27), 3142-3147 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Structural Transition Induced by Charge-Transfer in RbMn[Fe(CN)&lt;sub&gt;6&lt;/sub&gt;] –Investigation by Synchrotron-Radiation X-ray Powder Analysis–</title>
+		<author>
+			<persName><forename type="first">Yutaka</forename><surname>Moritomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenichi</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Akira</forename><surname>Kuriki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masaki</forename><surname>Takata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Makoto</forename><surname>Sakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhito</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1143/jpsj.71.2078</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Physical Society of Japan</title>
+		<title level="j" type="abbrev">J. Phys. Soc. Jpn.</title>
+		<idno type="ISSN">0031-9015</idno>
+		<idno type="ISSNe">1347-4073</idno>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2078" to="2081" />
+			<date type="published" when="2002-09">2002</date>
+			<publisher>Physical Society of Japan</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Moritomo, K. Kato, A. Kuriki, M. Takata, M. Sakata, H. Tokoro, S. Ohkoshi and K. Hashimoto, Journal of the Physical Society of Japan 71 (9), 2078-2081 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Photo-induced charge-transfer phase transition of rubidium manganese hexacyanoferrate in ferromagnetic and paramagnetic states</title>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhito</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmmm.2006.10.429</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Magnetism and Magnetic Materials</title>
+		<title level="j" type="abbrev">Journal of Magnetism and Magnetic Materials</title>
+		<idno type="ISSN">0304-8853</idno>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1422" to="1428" />
+			<date type="published" when="2007-03">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Tokoro, K. Hashimoto and S. Ohkoshi, J Magn Magn Mater 310 (2), 1422-1428 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Crystal Structures of Photo-induced Phase and Rapidly-cooled Phase in Rb&lt;sub&gt;0.73&lt;/sub&gt;Mn[Fe(CN)&lt;sub&gt;6&lt;/sub&gt;]&lt;sub&gt;0.91&lt;/sub&gt;·1.4H&lt;sub&gt;2&lt;/sub&gt;O Prussian Blue Analog</title>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomoyuki</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seiji</forename><surname>Miyashita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhito</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<idno type="DOI">10.1143/jpsj.75.085004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Physical Society of Japan</title>
+		<title level="j" type="abbrev">J. Phys. Soc. Jpn.</title>
+		<idno type="ISSN">0031-9015</idno>
+		<idno type="ISSNe">1347-4073</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">085004</biblScope>
+			<date type="published" when="2006-08-15">2006</date>
+			<publisher>Physical Society of Japan</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Tokoro, S. Miyashita, K. Hashimoto and S. Ohkoshi, Physical Review B 73, 172415 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Observation of Spin Transition in an Octahedrally Coordinated Manganese(II) Compound</title>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masayoshi</forename><surname>Utsunomiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikihisa</forename><surname>Mizuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masahiko</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhito</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp0133687</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<title level="j" type="abbrev">J. Phys. Chem. B</title>
+		<idno type="ISSN">1520-6106</idno>
+		<idno type="ISSNe">1520-5207</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2423" to="2425" />
+			<date type="published" when="2002-02-16">2002</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ohkoshi, H. Tokoro, M. Utsunomiya, M. Mizuno, M. Abe and K. Hashimoto, The Journal of Physical Chemistry B 106 (10), 2423-2425 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Moritomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Umekawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hashimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">255502</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Kato, Y. Moritomo, M. Takata, M. Sakata, M. Umekawa, N. Hamada, S. Ohkoshi, H. Tokoro and K. Hashimoto, Physical Review Letters 91, 255502 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A Surprisingly Large Thermal Hysteresis Loop in a Reversible Phase Transition of Rb&lt;i&gt;&lt;sub&gt;x&lt;/sub&gt;&lt;/i&gt;Mn[Fe(CN)&lt;sub&gt;6&lt;/sub&gt;]&lt;sub&gt;(&lt;/sub&gt;&lt;i&gt;&lt;sub&gt;x&lt;/sub&gt;&lt;/i&gt;&lt;sub&gt;+2)/3&lt;/sub&gt;·&lt;i&gt;z&lt;/i&gt;H&lt;sub&gt;2&lt;/sub&gt;O</title>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomoyuki</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhito</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm048461x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<title level="j" type="abbrev">Chem. Mater.</title>
+		<idno type="ISSN">0897-4756</idno>
+		<idno type="ISSNe">1520-5002</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="81" to="84" />
+			<date type="published" when="2005">2005</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ohkoshi, T. Matsuda, H. Tokoro and K. Hashimoto, Chem Mater 17 (1), 81-84 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Chopper system for time resolved experiments with synchrotron radiation</title>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Cammarata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurent</forename><surname>Eybert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Friederike</forename><surname>Ewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Reichenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Wulff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philip</forename><surname>Anfinrud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Friedrich</forename><surname>Schotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anton</forename><surname>Plech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qingyu</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maciej</forename><surname>Lorenc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernd</forename><surname>Lindenau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jürgen</forename><surname>Räbiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Polachowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3036983</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<idno type="ISSN">0034-6748</idno>
+		<idno type="ISSNe">1089-7623</idno>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">15101</biblScope>
+			<date type="published" when="2009-01-01">2009</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Cammarata, L. Eybert, F. Ewald, W. Reichenbach, M. Wulff, P. Anfinrud, F. Schotte, A. Plech, Q. Kong, M. Lorenc, B. Lindenau, J. Rabiger and S. Polachowski, Rev Sci Instrum 80 (1), 015101 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Probing Transient Photoinduced Charge Transfer in Prussian Blue Analogues with Time‐Resolved XANES and Optical Spectroscopy</title>
+		<author>
+			<persName><forename type="first">Serhane</forename><surname>Zerdane</surname></persName>
+			<idno type="ORCID">0000-0001-7816-8477</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Cammarata</surname></persName>
+			<idno type="ORCID">0000-0003-3013-1186</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Lodovico</forename><surname>Balducci</surname></persName>
+			<idno type="ORCID">0000-0002-0223-9758</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Bertoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laure</forename><surname>Catala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Mazerat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Talal</forename><surname>Mallah</surname></persName>
+			<idno type="ORCID">0000-0002-9311-3463</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">N</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Wulff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kosuke</forename><surname>Nakagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin‐ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Collet</surname></persName>
+			<idno type="ORCID">0000-0003-0810-7411</idno>
+		</author>
+		<idno type="DOI">10.1002/ejic.201700657</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Inorganic Chemistry</title>
+		<title level="j" type="abbrev">Eur J Inorg Chem</title>
+		<idno type="ISSN">1434-1948</idno>
+		<idno type="ISSNe">1099-0682</idno>
+		<imprint>
+			<biblScope unit="volume">2018</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="272" to="277" />
+			<date type="published" when="2018">2018. 2018</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Zerdane, M. Cammarata, L. Balducci, R. Bertoni, L. Catala, S. Mazerat, T. Mallah, M. N. Pedersen, M. Wulff, K. Nakagawa, H. Tokoro, S. Ohkoshi and E. Collet, Eur J Inorg Chem 2018 (3-4), 272-277 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Ultrafast dynamics of reversible photoinduced phase transitions in rubidium manganese hexacyanoferrate investigated by midinfrared CN vibration spectroscopy</title>
+		<author>
+			<persName><forename type="first">Akifumi</forename><surname>Asahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Makoto</forename><surname>Nakajima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ryo</forename><surname>Fukaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tohru</forename><surname>Suemoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.86.195138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<date type="published" when="2012-11-26">2012</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Asahara, M. Nakajima, R. Fukaya, H. Tokoro, S. Ohkoshi and T. Suemoto, Physical Review B 86 (19) (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Photoinduced Cooperative Charge Transfer in Low-Dimensional Organic Crystals</title>
+		<author>
+			<persName><forename type="first">Shin-Ya</forename><surname>Koshihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yosuke</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroyuki</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshinori</forename><surname>Tokura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tadeusz</forename><surname>Luty</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp984172i</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<title level="j" type="abbrev">J. Phys. Chem. B</title>
+		<idno type="ISSN">1520-6106</idno>
+		<idno type="ISSNe">1520-5207</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="2592" to="2600" />
+			<date type="published" when="1999-03-11">1999</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Koshihara, Y. Takahashi, H. Sakai, Y. Tokura and T. Luty, The Journal of Physical Chemistry B 103 (14), 2592-2600 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ultrafast disordering of vanadium dimers in photoexcited VO &lt;sub&gt;2&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Wall</surname></persName>
+			<idno type="ORCID">0000-0002-6136-0224</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shan</forename><surname>Yang</surname></persName>
+			<idno type="ORCID">0000-0003-0205-3416</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Luciana</forename><surname>Vidas</surname></persName>
+			<idno type="ORCID">0000-0002-0750-6616</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Matthieu</forename><surname>Chollet</surname></persName>
+			<idno type="ORCID">0000-0002-9629-890X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">M</forename><surname>Glownia</surname></persName>
+			<idno type="ORCID">0000-0002-6172-7946</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Kozina</surname></persName>
+			<idno type="ORCID">0000-0002-4747-345X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tetsuo</forename><surname>Katayama</surname></persName>
+			<idno type="ORCID">0000-0002-2681-8316</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Henighan</surname></persName>
+			<idno type="ORCID">0000-0003-0745-370X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Mason</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">A</forename><surname>Miller</surname></persName>
+			<idno type="ORCID">0000-0002-5585-7736</idno>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Reis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lynn</forename><forename type="middle">A</forename><surname>Boatner</surname></persName>
+			<idno type="ORCID">0000-0002-0235-7594</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Delaire</surname></persName>
+			<idno type="ORCID">0000-0003-1230-2834</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Mariano</forename><surname>Trigo</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aau3873</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="issue">6414</biblScope>
+			<biblScope unit="page" from="572" to="576" />
+			<date type="published" when="2018-11-02">2018</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Wall, S. Yang, L. Vidas, M. Chollet, J. M. Glownia, M. Kozina, T. Katayama, T. Henighan, M. Jiang, T. A. Miller, D. A. Reis, L. A. Boatner, O. Delaire and M. Trigo, Science 362 (6414), 572-576 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Experimental access to elastic and thermodynamic properties of RbMnFe(CN)6</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Boukheddaden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Loutete-Dangui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Codjovi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rodriguéz-Velamazán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ohkoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tokoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koubaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Abid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Varret</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3528239</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13520</biblScope>
+			<date type="published" when="2011-01-01">2011</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Boukheddaden, E. D. Loutete-Dangui, E. Codjovi, M. Castro, J. A. Rodriguéz-Velamazán, S. Ohkoshi, H. Tokoro, M. Koubaa, Y. Abid and F. Varret, Journal of Applied Physics 109 (1), 013520 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Influence of lattice heating time on femtosecond laser-induced strain waves in InSb</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Krasniqi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grolimund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ingold</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.78.174302</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<date type="published" when="2008-11-06">2008</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. S. Krasniqi, S. L. Johnson, P. Beaud, M. Kaiser, D. Grolimund and G. Ingold, Physical Review B 78 (17) (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Total free energy of a spin-crossover molecular system</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Spiering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Boukheddaden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Linares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Varret</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.70.184106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">184106</biblScope>
+			<date type="published" when="2004-11-12">2004</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Spiering, K. Boukheddaden, J. Linares and F. Varret, Physical Review B 70, 184106 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;TOPAS&lt;/i&gt; and &lt;i&gt;TOPAS-Academic&lt;/i&gt;: an optimization program integrating computer algebra and crystallographic objects written in C++</title>
+		<author>
+			<persName><forename type="first">Alan</forename><forename type="middle">A</forename><surname>Coelho</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576718000183</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="210" to="218" />
+			<date type="published" when="2018-02-01">2018</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Coelho, Journal of Applied Crystallography 51 (1), 210-218 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The fast azimuthal integration Python library:&lt;i&gt;pyFAI&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Giannis</forename><surname>Ashiotis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aurore</forename><surname>Deschildre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zubair</forename><surname>Nawaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">P</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitrios</forename><surname>Karkoulis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frédéric</forename><forename type="middle">Emmanuel</forename><surname>Picca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jérôme</forename><surname>Kieffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576715004306</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="510" to="519" />
+			<date type="published" when="2015-03-24">2015</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Ashiotis, A. Deschildre, Z. Nawaz, J. P. Wright, D. Karkoulis, F. E. Picca and J. Kieffer, Journal of Applied Crystallography 48 (2), 510-519 (2015).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

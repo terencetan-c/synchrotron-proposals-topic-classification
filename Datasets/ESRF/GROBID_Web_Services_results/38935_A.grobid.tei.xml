@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Andrei</forename><surname>Rogalev</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">European Synchrotron Radiation Facility (ESRF)</orgName>
+								<address>
+									<addrLine>B.P. 220</addrLine>
+									<postCode>F-38043</postCode>
+									<settlement>Grenoble Cedex</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="laboratory">European Synchrotron Radiation Facility (ESRF)</orgName>
+								<address>
+									<addrLine>B.P. 220</addrLine>
+									<postCode>F-38043</postCode>
+									<settlement>Grenoble Cedex</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fabrice</forename><surname>Wilhelm</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">European Synchrotron Radiation Facility (ESRF)</orgName>
+								<address>
+									<addrLine>B.P. 220</addrLine>
+									<postCode>F-38043</postCode>
+									<settlement>Grenoble Cedex</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="laboratory">European Synchrotron Radiation Facility (ESRF)</orgName>
+								<address>
+									<addrLine>B.P. 220</addrLine>
+									<postCode>F-38043</postCode>
+									<settlement>Grenoble Cedex</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">José</forename><surname>Goulon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">European Synchrotron Radiation Facility (ESRF)</orgName>
+								<address>
+									<addrLine>B.P. 220</addrLine>
+									<postCode>F-38043</postCode>
+									<settlement>Grenoble Cedex</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gérard</forename><surname>Goujon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">European Synchrotron Radiation Facility (ESRF)</orgName>
+								<address>
+									<addrLine>B.P. 220</addrLine>
+									<postCode>F-38043</postCode>
+									<settlement>Grenoble Cedex</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2244E42775CC74E1CF4B47EA4018C9AE</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">MOTIVATIONS OF THE PROJECT</head><p>In 2007-2008, the ID12 team has invested much time and effort in designing and in commissionning a new, fully modular XDMR spectrometer exploiting amplitude (AM), frequency (FM) and phase modulation (PM) of the incident microwaves. Indeed, we expected a significant gain in detection sensitivity but also a far better immunity against artefacts, especially at very high pumping power. Moreover, there are attractive opportunities with modulation techniques to get a direct access to longitudinal and transverse relaxation times: the longitudinal relaxation time T 1 would tell us how fast energy is locally transferred to the lattice, whereas the transverse relaxation times T 2 would describe how fast precession coherence could be lost due to magnon-magnon scattering processes. Extracting relaxation times from measurements of the precession angle (ϑ 0 ) is not a trivial task even though, according to the Bloch-Bloembergen eqn. of motion <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> :</p><formula xml:id="formula_0">∆M z /M s = - -- -1/2 [tan ϑ 0 ] 2 ≈ -1/4 (γh cp ) 2 T 1 T 2 in longitudinal geometry;</formula><p>sin ϑ 0 ≈ γh cp T 2 in transverse geometry. Difficulties are threefold: (i) we failed so far to establish a reliable calibration method of the amplitude of the circularly polarized microwave field h cp inside the resonant cavity; (ii) one should combine XDMR measurements in both longitudinal and transverse geometries in order to disentangle T 1 and T 2 contributions with the handicap that those measurements can hardly be performed under the same experimental conditions; (iii) absolute determinations of the opening angle of precession in transverse geometry would rely on still questionable approximations regarding the electron bunch length in the ESRF storage ring. In this respect, modulation techniques appear much more promising and could potentially be exploited to measure spinlattice relaxation times as short as 100 ps.</p><p>The underlying concept, however, requires us to analyze as complex vectors every modulation satellite measured in the frequency domain: in other terms, we need accurate measurements of both the phase and amplitude of the output signals. In this respect, it is mandatory to operate the Agilent vector spectrum analyzer (VSA) in the time-average data acquisation mode. For example, measurements carried out with either amplitude (AM) or frequency (FM) modulation in the longitudinal geometry would yield the following phase shifts at resonance:</p><formula xml:id="formula_1">tan Φ AM = -ω AM T 1 {(1 -ξ 2 T 1 T 2 )[1+½ (T 2 /T 1 )] + ½ (ω AM ) 2 T 1 T 2 [1+(T 2 /T 1 )] + ...} (1) tan Φ FM = -2ω FM T 2 {1 + ¼ (T 1 /T 2 ) + ½ (ω FM ) 2 T 1 T 2 [1+(T 1 /T 2 )] + ½ ∆ 2 T 1 T 2 [1-(T 2 /T 1 )] -½ ξ 2 T 1 2 ...} (2)</formula><p>in which: ω AM = 2πF AM and ω FM = 2πF FM whereas ξ 2 = ¼ (γh cp ) <ref type="bibr" target="#b1">2</ref> and ∆ = 2π[F MW -F MW0 ]. Here, F AM and F FM are modulation frequencies whereas F MW and F MW0 refer to the actual microwave frequency and its value at resonance. Note that in eqn (1), the microwave power now appears only as a correction since ξ 2 T 1 T 2 = ¼ (h cp /h sat ) 2 . One would show that modulation phase-shits measured in transverse geometry could yield only T 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">RESULTS</head><p>The highest priority was thus given to the commissionning of the new spectrometer that can be operated with amplitude (AM), frequency (FM) or phase modulation (PM) of microwaves.  We have reproduced in Figure <ref type="figure" target="#fig_0">1</ref> a typical Fe K-edge AM-XDMR spectrum recorded in longitudinal geometry with a YIG thin film rotated at magic angle in order to minimize any foldover effect <ref type="bibr" target="#b1">2</ref> . With a pumping power as low as 150 mW, we could resolve -for the first time-the low order bulk (Backward) MagnetoStatic Waves (BMSW) satellites: this is the first direct evidence that orbital magnetization components can couple to magnetostatic modes through dipole-dipole interactions 2 . From very preliminary measurements of ∆Φ AM , we could also estimate T 1 to be of the order of 80 ns.</p><p>We have reproduced in Figure <ref type="figure" target="#fig_1">2</ref> typical PM-XDMR spectra recorded in transverse geometry with a YIG film again rotated at magic angle. The absorptive and dispersive parts shown in Fig. <ref type="figure" target="#fig_1">2a</ref> were measured in a superheterodyne detection mode with only 10 mW incident microwave power. The signal could be still measured 2 at a power as low as 100 µW. As shown in Fig. <ref type="figure" target="#fig_1">2b</ref>, the sign of the XDMR spectra recorded in the energy-scan mode is nicely inverted when switching from left-to right-circularly polarized X-rays whereas there is no significant difference with repect to the static XMCD signal 2 . Unfortunately, for some reason which is still unclear, we failed so far to measure T 2 in the latter PM superheterodyne mode.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: AM XDMR spectrum recorded in longitudinal geometry at the Fe K-edge with a YIG thin film inclined at magic angle. BMSW satellites become clearly visible at low pumping power.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figures 2 :</head><label>2</label><figDesc>Figures 2: PM XDMR spectra recorded in transverse geometry at the Fe Kedge with a YIG film inclined again at the magic angle: a) Absorptive and dispersive XDMR spectra recorded in the field-scan mode; b) Comparison of the static XMCD spectrum with XDMR spectra recorded in the energy -scan mode for left-or right CP X-rays.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Element-selective X-ray detected magnetic resonance: a novel application of synchrotron radiation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goulon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rogalev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wilhelm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ch</forename><forename type="middle">H</forename><surname>Goulon-Ginet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Goujon</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049507011260</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="257" to="271" />
+			<date type="published" when="2007-04-11">2007</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Goulon, A. Rogalev, F. Wilhelm, Ch. Goulon-Ginet and G. Goujon, Element-selective X-ray detected magnetic resonance: a novel application of Synchrotron Radiation. J. Synchrotron Radiation 14, (2007), 257-271.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">X-Ray Detected Magnetic Resonance: A New Spectroscopic Tool</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goulon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rogalev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wilhelm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Goujon</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-04498-4_7</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Springer Proceedings in Physics</title>
+		<meeting><address><addrLine>Mittelwihr</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="191" to="222" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Goulon, A. Rogalev, F. Wilhelm and G. Goujon, X-ray detected magnetic resonance: a new spectroscopic tool. Proc. of the V th international school on Synchrotron Radiation and Magnetism, Mittelwihr (2008) -Springer Verlag</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

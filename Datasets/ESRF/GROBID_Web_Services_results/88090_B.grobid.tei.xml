@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2B024407E3E1471B5460012E141C82A3</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: High pressure elasticity of CaF2 and BaF2 from thermal diffuse scattering Experiment number: HC-3705 Beamline: ID28 Date of experiment: from:17/03/2018 to: 20/03/2018 Date of report: 10/03/2021 Shifts:5 Local contact(s): Adrien Girard Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Adrien Girard* BOSAK Alexei WINKLER Bjoern STEKIEL Michal NGUYEN Thanh Tra* WEHINGER Bjorn</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>We proposed to measure the high pressure thermal diffuse scattering, in view of obtaining an absolute pressure scale in the megabar region based on the TDS measurements. We have performed the experiments on single CaF2 crystals but we ran into considerable problems which are detailed below.</p><p>The TDS from single single crystals is extremely sensitive to the elastic strain experienced by the sample in the high pressure cell. We have found that the quality of the sample diffuse scattering is severely altered above a few GPa. While the peaks intensities might be sufficient to performe structure analysis from bragg peaks, we have concluded that TDS under high pressure is practically very difficult to perform. The TDS was systematically parasited by elastic scattering from high pressure induced defects on the crystals, and the crystal quality was not good enough for TDS analysis above a few GPa.</p><p>After several unsuccesfull trials, it was decided to stop the experiment, and to measure the thermal diffuse scattering of celestite, in view of determining the stiffness coefficients of this material using the same data processing as planned for the high pressure experiment, for which some coefficients values are discussed.</p><p>Measured and theoretical TDS intensities in selected cuts of reciprocal space are shown in figure <ref type="figure" target="#fig_1">1</ref> for the single temperature method at T1 =100 K. For the fit, images containing Bragg peaks were removed. The elastic coefficients obtained from the fit are gathered in table 1. The elastic tensor c was obtained using a single scaling factor with the ST approach and the absolute values result from the rescaling to our theoretical c11 value, according to the previously established procedure <ref type="bibr">[21]</ref>. In table 3 we compare the elastic coefficients of SrSO4 derived from the ST approach to those obtained by DFT calculations. Most of the fitted elastic coefficients obtained with the ST method are in good agreement with the theoretical values, except for the c44, c66 and c13 coefficients. The ST approach is sensitive to any elastic contribution to the diffuse scattering, arising from defects, dislocation or disorder.</p><p>In order to disentangle the elastic and inelastic contributions to the diffuse scattering, one possibility is to use energy and momentum resolved measurements. To this end, IXS available at ID28 beamline can provide additional insights about structural disorder by analysing the intensity of the zero-energy-transfer line. The intensity of the central line is weak when the crystal is of good quality, and increases in the presence of defects, thereby providing a qualitative estimate of the defect state of the sample. In the case of SrSO4, the elastic contribution was confirmed by the presence of a strong central line in the IXS spectra of our sample (not shown here), indicating the presence of defects or structural disorder. This is consistent with a local disorder of the SO4 tetrahedra, as deduced from the DFT calculations. Therefore, the deviations observed in the fitted elastic stiffness coefficients relative to the calculated values likely stem from the contribution of elastic diffuse scattering.</p><p>The determination of the elastic tensor c based on the single temperature measurement is based on the assumption that the diffuse signal originates from the acoustic phonons only. In cases where a small elastic component is present, i.e. the diffuse scattering does not originate from the phonons only, an alternative option is to obtain the elastic tensor c from the difference between two measurements at different temperatures. Because the temperature dependence of diffuse scattering from static disorder is much weaker than the one due to the phonon scattering, it can be subtracted using patterns acquired at two different temperatures T1 and T2 in the same geometry. The results of the fit of c from TDS patterns resulting from the temperature subtraction of two datasets measured at T1 =100 K and T2 =130 K are reported in table <ref type="table">1</ref>. Table <ref type="table">1</ref>. Elastic coefficients of SrSO4 in GPa obtained from DFT calculations and TDS analysis with the ST (T1 =100 K) and the MT methods (T1 =100 K, T2 =130 K). The elastic coefficients were fitted in both cases in the ROI q ∈ [0.06, 0.2]. For the ST set, the values were rescaled to the calculated value of c11. The values for BaSO4 are also reported for comparison. Relative differences (Rel. diffs.) are the relative deviation of the experimental coefficients with respect to our DFT calculations.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Graphical rendering of experimental diffuse scattering and calculated TDS for SrSO4. Left panel: measurements at T =100 K with ROI of q ∈ [0.06, 0.2] and right panel: MT approach at T =100, 130 K. The data are grouped by pairs, with experimental patterns on the left-hand side and the calculated ones on the right-hand side. The images show cross sections of reciprocal space near a selection of Bragg reflections. The intensity is plotted on a linear color scale from blue (zero) to red (maximal intensity Imax). The stripes with zero intensity are due to the removal of some frames containing saturated/defective pixels in the data processing</figDesc><graphic coords="3,35.50,535.70,518.78,157.68" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

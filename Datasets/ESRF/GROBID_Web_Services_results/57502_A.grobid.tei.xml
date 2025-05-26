@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Calibration of the platinum pressure gauge up to 200 GPa</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-02-20">20/02/2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><surname>Mezouar</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dewaele</forename><surname>Agnès</surname></persName>
+						</author>
+						<title level="a" type="main">Calibration of the platinum pressure gauge up to 200 GPa</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-02-20">20/02/2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6CB285AE5E58AB9C353BB6378AB34910</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this proposal was to extend the pressure range for the calibration of the platinum X-ray pressure gauge (wich gives Pressure P for a given atomic volume V). In fact, our team had measured this calibration up to 96 GPa only (see <ref type="bibr">[1]</ref> for original data, and <ref type="bibr" target="#b1">[2]</ref> after update of the ruby pressure gauge), and shock-wave <ref type="bibr">[3]</ref> but also one recent diamond anvil cell study <ref type="bibr" target="#b3">[4]</ref> suggested that it underestimated the pressure. In this experiments, the primary X-ray pressure gauge was tungsten, which we have calibrated up to 160 GPa and for which a good agreement between static and schock wave calibration has been obtained.</p><p>For these experiments, a highly focused X-ray beam (2x3 microns) was used on ID27 and monochromatic Xray diffraction data were collected on a MAR-CCD detector. Samples were small (~3 microns size) grains of Pt and W pressure gauge. They were loaded in neon pressure transmitting medium. We chose neon instead of helium, which is more hydrostatic, in order to prevent failure of diamond anvils, which become very likely when helium is used above ~150 GPa. The conditions of the two pressure runs are summarized in Table <ref type="table" target="#tab_0">1</ref> We plot in Figure <ref type="figure" target="#fig_0">1</ref> the lattice parameter of platinum calculated using the (111) diffraction peak vs pressure measured using the tungsten X-ray gauge. In fact, (111) diffraction peak is expected to be least affected by non-hydrostatic stresses <ref type="bibr" target="#b4">[5]</ref>. In the current experiments, the difference between lattice parameters yielded by different diffraction peaks was relatively large, reaching 0.3%; we interpret this by the small size of the cristallites in the starting sample, which must have induced important micro-stress.</p><p>Even with this difficulty, the lattice parameters measured in this experiment are less scattered than those collected in 2004, and the measurements of PtW_1 and PtW_2 agree with each other. The data do not agree with the fitted equation of state curve published in 2004 [1], but agrees with a curve published 3 years after on the basis of the same data but with an updated calibration of pressure <ref type="bibr" target="#b1">[2]</ref>. The plotted curve is a Rydberg-Vinet equation of state, with the following parameters: V 0 =15.09 Å 3 /at, K 0 =277.3 GPa, K' 0 =5.12. Our data suggest that this equation of state can be used for pressure calibration purpose, up to 200 GPa. The pressure estimated using this calibration is ~5 GPa (2.5%) lower than the one found in refs <ref type="bibr">[3,</ref><ref type="bibr" target="#b3">4]</ref> at 200 GPa.</p><p>It can be noted that the platinum equation of state from ref <ref type="bibr">[3]</ref> is completely independent from ours, and that the platinum equation of state from ref <ref type="bibr" target="#b3">[4]</ref> has been obtained using a similar technique, but with a different pressure gauge. The 2.5% difference may thus appear as an absolute pressure uncertainty for diamond anvil cell measurements around 200 GPa.  <ref type="bibr" target="#b1">[2]</ref> (red), <ref type="bibr">[3]</ref> (blue) and <ref type="bibr" target="#b3">[4]</ref> (green).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: lattice parameter of platinum measured in this experiment using the (111) diffraction peaks vs pressure. The continuous lines are fitted equations of state publised in refs [1] (grey),<ref type="bibr" target="#b1">[2]</ref> (red),[3]  (blue) and<ref type="bibr" target="#b3">[4]</ref> (green).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>. Conditions of experimental runs. P: pressure.</figDesc><table><row><cell>Run name</cell><cell>Sample</cell><cell>P medium</cell><cell cols="2">P range (GPa) P gauge</cell><cell>Gauge calibration</cell></row><row><cell>PtW_1</cell><cell>Fe powder</cell><cell>Neon</cell><cell>0-187</cell><cell>W</cell><cell>[6]</cell></row><row><cell>PtW_2</cell><cell>Fe powder</cell><cell>Neon</cell><cell>0-146</cell><cell>W</cell><cell>[6]</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>from: 12/09/2015 to: 14/09/2015</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Equations of state of six metals above&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;94&lt;/mml:mn&gt;&lt;mml:mspace width=&quot;0.3em&quot;/&gt;&lt;mml:mi mathvariant=&quot;normal&quot;&gt;GPa&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;</title>
+		<author>
+			<persName><forename type="first">Agnès</forename><surname>Dewaele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Loubeyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohamed</forename><surname>Mezouar</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.70.094112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">94112</biblScope>
+			<date type="published" when="2004-09-22">2004</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dewaele et al., Equations of state of six metals above 94 GPa, Phys. Rev. B 70, 094112, 2004;</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Equations of state of MgO, Au, Pt, NaCl-B1, and NaCl-B2: Internally consistent high-temperature pressure scales</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Dorogokupets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dewaele</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/08957950701659700</idno>
+	</analytic>
+	<monogr>
+		<title level="j">High Pressure Research</title>
+		<title level="j" type="abbrev">High Pressure Research</title>
+		<idno type="ISSN">0895-7959</idno>
+		<idno type="ISSNe">1477-2299</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="431" to="446" />
+			<date type="published" when="2007-12">2007</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Dorogokupets and A. Dewaele, Equations of state of MgO, Au, Pt, NaCl-B1, and NaCl-B2: Internally consistent HP-HT pressure scales, High Press. Res. 27, 431, 2007</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Ultrahigh-pressure scales for gold and platinum at pressures up to 550 GPa</title>
+		<author>
+			<persName><forename type="first">Manabu</forename><surname>Yokoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nobuaki</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazutaka</forename><forename type="middle">G</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ken-Ichi</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshinori</forename><surname>Tange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Taku</forename><surname>Tsuchiya</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.80.104114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2009-09-24">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Yokoo et al., Ultra-high-pressure scales for gold and platinum at pressures up to 550 GPa, Phys. Rev. B 80, 104114, 2009</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Intercomparison of pressure standards (Au, Pt, Mo, MgO, NaCl and Ne) to 2.5 Mbar</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Dorfman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Prakapenka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Duffy</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2012jb009292</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Solid Earth</title>
+		<title level="j" type="abbrev">J. Geophys. Res.</title>
+		<idno type="ISSN">0148-0227</idno>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">B8</biblScope>
+			<date type="published" when="2012-08">2012</date>
+			<publisher>American Geophysical Union (AGU)</publisher>
+		</imprint>
+	</monogr>
+	<note>up to 2.5 Mbar</note>
+	<note type="raw_reference">S.M. Dorfmann et al., Intercomparison of pressure standards (Au, Pt, Mo, MgO, NaCl, Ne) up to 2.5 Mbar, J. Geophys. Res. 117, B08210, 2012</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Isothermal equation of state for gold with a He-pressure medium</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dewaele</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.78.104119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2008-09-29">2008</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Takemura and A. Dewaele, Isothermal equation of state for gold with a He-pressure medium, Phys. Rev. B 78, 104119, 2008</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Supplementary file 1. Previous proteomic studies of HIV-infected cells.</title>
+		<author>
+			<persName><forename type="first">Ptw_2</forename><surname>Ptw_1</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dewaele</forename></persName>
+		</author>
+		<idno type="DOI">10.7554/elife.18296.027</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dorfman et</title>
+		<imprint>
+			<date type="published" when="2004">2004. 2004. 2007. 2009. 2012</date>
+			<publisher>eLife Sciences Publications, Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note>Yokoo et</note>
+	<note type="raw_reference">PtW_2 PtW_1 Dewaele et al., 2004 measurements Dewaele et al., 2004 Dewaele and Dorogokupets, 2007 Yokoo et al., 2009 Dorfman et al., 2012</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

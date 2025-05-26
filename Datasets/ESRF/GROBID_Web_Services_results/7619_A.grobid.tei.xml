@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Date of experiment: Date of report: ID24 from: 25-1 l-96 to: 2-12-96 Shifts: Local contact(s)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><surname>Hagelstein</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hodeau</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lorenzo</forename><forename type="middle">J</forename><surname>Emilio</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Cristallographie -CNRS</orgName>
+								<orgName type="institution">Grenoble BOS Sandra&quot; FAVRE</orgName>
+								<address>
+									<postBox>BP 166</postBox>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">NICOLIN Vincent *</orgName>
+								<orgName type="institution" key="instit2">HESS Christoph LEPES</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<address>
+									<postBox>BP 166</postBox>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">Grenoble SCHLENKER Claire LEPES</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postBox>BP 166</postBox>
+									<settlement>Grenoble</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Date of experiment: Date of report: ID24 from: 25-1 l-96 to: 2-12-96 Shifts: Local contact(s)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">85A10B0FACFF6FEE10BC334B7F73AEF7</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Report : the monophosphate tungsten bronzes (P02)4(W03)2m are a family of compounds that presents Charge Density Wave (CDW) transitions, due to electronic instabilities. One important physical property associated with this CDW state is the lowtemperature periodic lattice distorsion (Peierls transition due to an electron-phonon coupling), which gives rise to a superstructure and to satellite reflections.</p><p>Since these satellite reflections are a highly selective source of information about the CDW, the study of both the intensity and the phase for these reflections is a direct way to quantify the atomic displacements associated with the CDW. DAFS (Diffraction Anomalous Fine Structure) measurements consist in measuring diffracted intensities on a continuous range (from 200 eV to 1 keV) around the absorption edge of the resonant atom, thus yielding more information about the phase than MAD experiment (3 or 4 wavelengths, with a 30" max. precision for the phase).</p><p>The choice of a dispersive optics allows a fast collection of I(E) spectra, and eliminates an important source of systematic errors, as the whole setup (orientation, temperature,optics...) doesn't change.</p><p>Results : taking advantage of the small polychromatic focus point of ID24 (80 Km FW at IO%), the sample was easily aligned in the diffracting position, despite its very small size (200~100x10 pm). This demonstrates the feasibility of DAFS measurements on ID24 even for small crystals.</p><p>All diffraction images were collected using the rotating method, with a large 2D detector (image-plate with on-line reading). We thus collected 70 couples of images (the second one being taken with "finger slits" as energy markers, see report of exp n'MI-119 for details), both at room temperature and above the phase transition. An example of the images obtained is shown in fig. <ref type="figure">1</ref>.</p><p>We have observed unexpected features, such as a superstructure due to stacking faults in the sample (fig. <ref type="figure">2</ref>). This emphasizes the importance of a large 2D detector to provide a large vision of what actually (expected or not) happens in the compound, which is of course very important for phase transitions.</p><p>The extraction of data from the images follows the process described for the experiment n o MI-1 19 (image corrections, integration, energy calibration, intensity normalization). But since the quantity of data (hundreds of reflections, 3 gigabytes of data) is very important, we are developpin a program based on IDL language : this software will allow data reduction for all dispersive DAFS measurements in the rotating method, including indexation of reflections (main peaks or satellites ; with a refinement of experimental parameters), automatic integration of I(E) spectra with background substraction, and collection of orientation parameters for each reflection (to allow absorption and lorentz-polarization corrections in further refinement). The development of this program is well under way and data reduction for this experiment will follow.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">98E4BCB041273EA82EEE3999523680E8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The framework of our work is the differentiation of the planet into its two main reservoirs that are the mantle and the core. At that time, about 4.5 billion years ago, elements were partitioned between the two reservoirs depending on their chemical affinity for silicate (lithophile element) or iron (siderophile element). Most of the respective compositions of the mantle and the core were established once the differentiation ceased, about a hundred million years after the beginning of accretion. However, the abundance of Highly Siderophile Elements (HSEs) in the mantle is at odds with the generally accepted scenario, whereby siderophile elements segregated into the forming core. Indeed, they display a chondritic relative abundance in the mantle. One possible explanation for the overabundance of HSEs in the Earth's mantle could be that their core-mantle partitioning was affected by the extreme pressure and temperature of the Earth's differentiation, as it is the case for moderately siderophile elements (e.g. nickel, cobalt 1 ). This has never been tested experimentally at the accurate conditions of the differentiation, and could potentially change our view of the accretion and differentiation of the planet. We aim at measuring low concentrations of HSEs (namely rhenium, iridium, palladium and gold) dissolved in the silicate phase of high pressure and high temperature (HP-HT) runs in equilibrium with a metallic phase. Our experimental runs are synthetized at various P and T using laser heated diamond anvil cell technique (LH-DAC, in our lab at Potsdam) in order to decipher these effects on the metal-silicate partitioning of HSEs during Earth's differentiation. Extrapolations of previous experiments performed at lower P-T suggest that the chondritic abundance of HSEs in the mantle could be controlled by metal-silicate equilibrium instead of calling for a late delivery of chondritic material 2,3 . We want to directly test this hypothesis at the conditions of core-mantle differentiation (P &gt; 40 GPa and T &gt; 3000 K). We expect very low amounts of HSEs in the silicate of our runs (ppm level), and due to the geometry of our samples (FIB lamellae with silicate phases of 2x2x3 microns) the use of nanobeam analyses is mandatory. The goal of this first round of measurements was to check our hability to detect the low concentrations of HSEs present in the standard materials and to perform the first few measurements on actual high P-T samples.</p><p>We have used standards synthesized using piston cylinder 4,5 and NIST610, which offers a wide diversity of siderophile elements (Ag, Pd, Rh, Ru, Pt, Ir, Au and Re) at different concentrations, from tens to thousands of ppm. Nano XRF measurements were performed on ID16B at the European Synchrotron Radiation Facility (ESRF). The spatial resolution of the beam is about 60x60 nm and was combined with the high flux in the monochromatic (pink) beam mode. The X-ray beam was set at 29.5 keV, and the brilliance was about 7.10 10 photons.s -<ref type="foot" target="#foot_0">foot_0</ref> , and we used Si and Ge detectors.Using this technic, it is possible to map large area (up to 30 x 20 microns in our case) of our standards (and samples) with high sensitivity for heavy elements studied here. We could reach the K-lines of Pd and the L-lines of Re, Au and Ir. Due to the situation at the time, all the measurements were performed remotely thanks to the local contact present at the beamline, Valentina Bonino.</p><p>In terms of geometry, the standards and samples were mounted on Cu-grids during the FIB preparation, and the grid was subsequently taped to a Si3N4 membrane using double sided tape. The membrane itself was attached to a PEEK holder using Kapton tape.</p><p>Using nanoXRF, we acquired high precision chemical maps of the standards (500 to 600 ms per pixel) from which we could extract Regions Of Interest (ROIs). Using XRF measurements, we could also retrieve the concentration of several siderophile elements. In order to do so, we used the software PyMCa developed by the ESRF 6 . We defined one big ROI in the standards at the center of the FIB lamella and we defined the peaks that were expected to be present in the matrix. Using iron as internal standard, we could determine to the composition of the sample. We found very good agreement between the published values of Re, Pd, Rh, Ru, Ag, Ir and Pt and those obtained by nano-XRF. The only exception is for Au that was present at very low concentrations in one of the standard (&lt;1 ppm). In that case, we could not retrieve its concentration in the standard.</p><p>We brought 8 experimental samples to the beamline. We present on figure 1 a backscattered image of one typical sample along with 3 different maps obtained with nano-XRF (Au, Re, Ca). One can see that very small details are visible in the XRF maps. This allowed us to see that the cristallised part surounding the quenched metal was Ca-rich which implies that it is calcium perovskite. This is a signature of subliquidus temperatures for the silicate part. Unfortunatelly, this is below the temperature in which we are interested, and the very thin zone that is above the liquidus is way too small to be analysed by any technic with confidence. We are now performing new LH-DAC experiments in order to increase the size of the molten silicate, and be able to measure the amount of HSEs present in our runs.</p><p>All in all, this beamtime has allowed us to set the ground for future measurements on high P-T samples that contain low concentrations of HSEs. We now have a nicely working procedure to analyse few microns thick FIB lamellae. Bibliographie 1. Siebert, J., Badro, J., Antonangeli, D. &amp; Ryerson, F. J. Metal-silicate partitioning of Ni and Co in a deep magma ocean. Earth Planet. Sci. Lett. 321-322, 189-197 (2012). 2. Mann, U., Frost, D. J., Rubie, D. C., Becker, H. &amp; Audétat, A. Partitioning of Ru, Rh, Pd, Re, Ir and Pt between liquid metal and silicate at high pressures and high temperatures -Implications for the origin of highly siderophile element concentrations in the Earth's mantle. Geochim. Cosmochim. Acta 84, 593-613 (2012). 3. Bennett, N. R., Brenan, J. M. &amp; Fei, Y. Thermometry of the magma ocean : Controls on the metalsilicate partitioning of gold. Geochim. Cosmochim. Acta 184, 173-192 (2016). 4. Chen, J., Mallmann, G., Zhukova, I. &amp; O'Neill, H. Development of PGE-Bearing Silicate Glass Standards for Quantitative Trace Element Analysis in Silicate-Based Metallurgical Slags. J. Sustain. Metall. 6, 691-699 (2020). 5. Bennett, N. R. &amp; Brenan, J. M. Controls on the solubility of rhenium in silicate melt: Implications for the osmium isotopic composition of Earth's mantle. Earth Planet. Sci. Lett. 361, 320-332 (2013). 6. Solé, V. A., Papillon, E., Cotte, M., Walter, P. &amp; Susini, J. A multiplatform code for the analysis of energy-dispersive X-ray fluorescence spectra. Spectrochim. Acta -Part B At. Spectrosc. 62, 63-68 (2007).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants(* indicates experimentalists): Ingrid Blanchard* (University of Potsdam) Max Wilke* (University of Potsdam) Sylvain Petitgirard* (ETH) Wolfgang Morgenroth* (University of Potsdam)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: From left to right: backscattered image of one our sample synthetised at 75 GPa and 4000 K, nano-XRF maps of the same samples for gold, rhenium and calcium.</figDesc><graphic coords="3,111.38,354.22,145.46,156.95" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>microns</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

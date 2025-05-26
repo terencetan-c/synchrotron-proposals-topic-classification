@@ -1,0 +1,2722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Large-area van der Waals epitaxy and magnetic characterization of Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt; films on graphene</title>
+				<funder ref="#_J54SSHc">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_TfsSG7G">
+					<orgName type="full">European Union</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>IOP Publishing</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-08-11">11 August 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">Marcelo</forename><surname>J Lopes</surname></persName>
+							<idno type="ORCID">0000-0001-5268-1862</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Dietmar</forename><surname>Czubak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eugenio</forename><surname>Zallo</surname></persName>
+							<idno type="ORCID">0000-0003-1796-9777</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adriana</forename><forename type="middle">I</forename><surname>Figueroa</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Catalan Institute of Nanoscience and Nanotechnology (ICN2)</orgName>
+								<orgName type="institution" key="instit1">CSIC</orgName>
+								<orgName type="institution" key="instit2">BIST</orgName>
+								<address>
+									<addrLine>Campus UAB</addrLine>
+									<postCode>08193</postCode>
+									<settlement>Bellaterra Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><surname>Guillemard</surname></persName>
+							<idno type="ORCID">0000-0002-3347-0047</idno>
+							<affiliation key="aff2">
+								<orgName type="institution">ALBA Synchrotron Light Source</orgName>
+								<address>
+									<postCode>08290</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Manuel</forename><surname>Valvidares</surname></persName>
+							<idno type="ORCID">0000-0003-4895-8114</idno>
+							<affiliation key="aff2">
+								<orgName type="institution">ALBA Synchrotron Light Source</orgName>
+								<address>
+									<postCode>08290</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><surname>Rubio-Zuazo</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Spanish CRG BM25-SpLine at The ESRF-The European Synchrotron</orgName>
+								<address>
+									<postCode>38000</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Instituto de Ciencia de Materiales de Madrid (ICMM)</orgName>
+								<orgName type="institution">CSIC</orgName>
+								<address>
+									<postCode>28049</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jesús</forename><surname>López-Sanchéz</surname></persName>
+							<idno type="ORCID">0000-0002-2670-9347</idno>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Spanish CRG BM25-SpLine at The ESRF-The European Synchrotron</orgName>
+								<address>
+									<postCode>38000</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Instituto de Ciencia de Materiales de Madrid (ICMM)</orgName>
+								<orgName type="institution">CSIC</orgName>
+								<address>
+									<postCode>28049</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><forename type="middle">O</forename><surname>Valenzuela</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Catalan Institute of Nanoscience and Nanotechnology (ICN2)</orgName>
+								<orgName type="institution" key="instit1">CSIC</orgName>
+								<orgName type="institution" key="instit2">BIST</orgName>
+								<address>
+									<addrLine>Campus UAB</addrLine>
+									<postCode>08193</postCode>
+									<settlement>Bellaterra Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Walter Schottky Institut and Physik Department</orgName>
+								<orgName type="institution">Institució Catalana de Recerca i Estudis Avançats (ICREA)</orgName>
+								<address>
+									<postCode>08010</postCode>
+									<settlement>Barcelona</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Hanke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Manfred</forename><surname>Ramsteiner</surname></persName>
+							<email>ramsteiner@pdi-berlin.de</email>
+							<idno type="ORCID">0000-0001-5455-2001</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Technische Universität München</orgName>
+								<address>
+									<addrLine>Am Coulombwall 4</addrLine>
+									<postCode>85748</postCode>
+									<settlement>Garching</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Large-area van der Waals epitaxy and magnetic characterization of Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt; films on graphene</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">2D Materials</title>
+						<title level="j" type="abbrev">2D Mater.</title>
+						<idno type="eISSN">2053-1583</idno>
+						<imprint>
+							<publisher>IOP Publishing</publisher>
+							<biblScope unit="volume">8</biblScope>
+							<biblScope unit="issue">4</biblScope>
+							<biblScope unit="page">041001</biblScope>
+							<date type="published" when="2021-08-11">11 August 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1EBC8D8B6358B9BEF40B56D2604C910D</idno>
+					<idno type="DOI">10.1088/2053-1583/ac171d</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>magnetic 2D materials</term>
+					<term>van der Waals heterostructures</term>
+					<term>van der Waals epitaxy</term>
+					<term>molecular beam epitaxy</term>
+					<term>ferromagnetism</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Scalable fabrication of magnetic 2D materials and heterostructures constitutes a crucial step for scaling down current spintronic devices and the development of novel spintronic applications. Here, we report on van der Waals (vdW) epitaxy of the layered magnetic metal Fe 3 GeTe 2 (FGT)-a 2D crystal with highly tunable properties and a high prospect for room temperature ferromagnetism (FM)-directly on graphene by employing molecular beam epitaxy. Morphological and structural characterization confirmed the realization of large-area, continuous FGT/graphene heterostructure films with stable interfaces and good crystalline quality. Furthermore, magneto-transport and x-ray magnetic circular dichroism investigations confirmed a robust out-of-plane FM in the layers, comparable to state-of-the-art exfoliated flakes from bulk crystals. These results are highly relevant for further research on wafer-scale growth of vdW heterostructures combining FGT with other layered crystals such as transition metal dichalcogenides for the realization of multifunctional, atomically thin devices.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Layered magnetic materials such as Cr 2 Ge 2 Te 6 <ref type="bibr" target="#b0">[1]</ref>, CrI 3 <ref type="bibr" target="#b1">[2]</ref>, CrTe 2 <ref type="bibr" target="#b2">[3]</ref>, and Fe 3 GeTe 2 (FGT) <ref type="bibr" target="#b3">[4]</ref> are considered to be promising building blocks for the development of ultra-compact spintronic devices with faster response and low-power dissipation. Moreover, their study is expected to open new perspectives on a more versatile modulation of magnetic properties, beyond what can be achieved in traditional 3D magnetic thin films <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. As an example, combining these layered magnets with other 2D crystals such as graphene, transition metal dichalcogenides (TMDCs), or metal monochalcogenides to form van der Waals (vdW) heterostructures offers great potential to tailor magnetism via proximity-induced phenomena <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</p><p>2D magnets and related vdW heterostructures promise a large impact in future applications if they can sustain magnetic order up to room temperature <ref type="bibr" target="#b10">[11]</ref>. Within the current catalogue of available materials, one of the most promising candidates to fulfill this requirement is FGT <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b11">12]</ref>. FGT is a ferromagnetic conductor with a robust out-of-plane anisotropy <ref type="bibr" target="#b12">[13]</ref> and, most remarkably, highly tunable properties. It has been shown that the Curie temperature (T C ) in few-layer thick FGT can be boosted (from around 100 K) to room temperature, or even beyond that (up to 400 K), via electrostatic doping <ref type="bibr" target="#b3">[4]</ref>, or when grown onto a topological insulator <ref type="bibr" target="#b11">[12]</ref>. Nearly room temperature ferromagnetism (FM) could also be achieved by modulating the composition during growth to realize the Fe-rich phases Fe 4 GeTe 2 and Fe 5-x GeTe 2 <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>. Besides these possibilities, strain engineering and substitutional doping have also been identified as effective routes to exert control over the magnetic properties of FGT <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref>. Finally, although a native surface oxide forms upon air exposure <ref type="bibr" target="#b18">[19]</ref>, degradation in FGT is not as severe as in chromium halides <ref type="bibr" target="#b19">[20]</ref>, which should facilitate its realistic exploration in devices.</p><p>As for other magnetic 2D materials, experimental research on FGT has mainly concentrated on micrometer-sized flakes exfoliated from bulk crystals. This type of sample allows for exploring fundamental properties as well as device concepts based on vdW heterostacks <ref type="bibr" target="#b20">[21]</ref>. However, it is not compatible with standard device fabrication, which usually requires a wafer-scale, uniform form of material. Recent progress has been made in this direction, with a few studies reporting on molecular beam epitaxy (MBE) of FGT films on Al 2 O 3 (0001) <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b21">22]</ref>, GaAs(111) <ref type="bibr" target="#b21">[22]</ref>, and Ge(111) <ref type="bibr" target="#b22">[23]</ref>. MBE growth of FGT/MnTe <ref type="bibr" target="#b21">[22]</ref> and FGT/Bi 2 Te 3 <ref type="bibr" target="#b11">[12]</ref> heterostructures, both on Al 2 O 3 (0001) wafers, has also been demonstrated. In general, the collection of data contained in these studies suggests-as usual in conventional epitaxy-that lattice-matching between FGT and its growth template is crucial to obtain large-area films with good crystalline quality. However, such requirement also reduces the number of choices in terms of suitable materials that can be employed as substrate for FGT, or combined with it to realize magnetic superlattices. Interestingly, this seems to hold true even for Bi 2 Te 3 -buffered Al 2 O 3 (0001) templates <ref type="bibr" target="#b11">[12]</ref>, on which FGT growth should in principle proceed via vdW epitaxy <ref type="bibr" target="#b23">[24]</ref>. The detection of strain in the FGT film has been associated with the lattice mismatch between both materials (the (a = b) inplane lattice constant of Bi 2 Te 3 and FGT is 4.38 and 3.99 Å, respectively) <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref>, indicating that interlayer interactions beyond vdW-bonding take place at the FGT/Bi 2 Te 3 interface. In spite of this observation, the weak nature of vdW interactions is generally believed to alleviate the need for lattice matching conditions <ref type="bibr" target="#b26">[27]</ref>, so that vdW epitaxy of FGT on top of 2D crystals such as graphene, hexagonal BN (h-BN), and TMDCs should enable the transfer-free, scalable realization of 2D heterostructures exhibiting atomically smooth vdW interfaces. Nevertheless, the intrinsically weak bonding between 2D materials also creates difficulties namely uncontrolled nucleation on morphological defects (e.g. wrinkles) <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref>, which can in turn result in non-uniform growth of low-quality material. Hence, exploiting epitaxial growth of FGT on other 2D crystals is greatly demanded for the development of atomically thin magnetic vdW materials to be implemented into future applications.</p><p>In this work, we assess the feasibility of growing FGT thin films directly on graphene surfaces by using MBE. We employed different characterization tools to investigate the structure and magnetic properties of the FGT/graphene heterostructures. Largescale, homogeneous FGT films exhibiting a smooth surface morphology could be realized on graphene with a preferential epitaxial orientation and low inplane mosaicity. Additionally, no structural damage or modification took place in graphene due to FGT growth, indicating the formation of a stable vdW interface between the materials. Magnetism in the samples were probed macro-and microscopically, revealing a ferromagnetic behavior for the FGT films that is similar to state-of-the art exfoliated flakes as well as thin films grown on 3D substrates. Overall, our results demonstrate that vdW epitaxy of FGT on graphene is a powerful approach for the wafer-scale fabrication of magnetic vdW heterostructures combining dissimilar 2D crystals for spintronics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental section</head><p>FGT films were synthesized by MBE (base pressure around 5 × 10 -11 mbar) using elemental Fe, Ge, and Te evaporated from Knudsen cells. For all growth experiments the flux ratio of Fe, Ge, and Te was kept at ∼2:1:20. The flux for each element was obtained by measuring the respective beam equivalent pressure employing a pressure gauge. Note that the flux ratio was chosen as it resulted in the epitaxial 2D growth of FGT films exhibiting structural and magnetic properties similar to those reported for stoichiometric FGT bulk crystals and thin films, as it will be shown in the next section. Differently from bulk crystal growth, for which a stoichiometric mixture of Fe, Ge, and Te powders is usually employed as starting material <ref type="bibr" target="#b12">[13]</ref>, the difference in sticking coefficient for each element on the graphene surface at the growth temperature is the main reason for the utilization of a ratio differing from the nominal composition of 3:1:2. A similar growth strategy was adopted for MBE growth of FGT on the 3D substrates Al 2 O 3 and Ge(111) <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b22">23]</ref>. Continuous films with thicknesses around 10 and 20 nm (i.e. from 12 to 25 quintuple layers (QLs); 1 QL ∼ 0.8 nm formed by sequential Te/Fe/FeGe/Fe/Te slabs) were obtained using growth times of 1 and 2 h, respectively. As substrates, 1 cm × 1 cm large epitaxial graphene on semiinsulating, on-axis 4H-SiC(0001) were utilized. They were fabricated via SiC surface graphitization at high temperatures in an Ar atmosphere, following wellestablished synthesis protocols <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31]</ref>. FGT films were also synthesized on 1 cm × 1 cm Al 2 O 3 (0001) pieces using the same conditions for comparison. The graphene/SiC(0001) substrates were outgassed at 450 • C (550 • C for sapphire) for at least 1 h and then cooled to 300 • C for FGT growth. All substrates were coated with ∼1 µm of Ti on the backside via electron beam evaporation to allow non-contact heating by radiation. In-situ growth monitoring was performed by reflection high energy electron diffraction (RHEED). Finally, in some cases the FGT films were capped in-situ with a ∼5 nm thick amorphous Te layer deposited after sample cooling to room temperature. This procedure was adopted in order to reduce FGT surface oxidation upon prolonged air exposure <ref type="bibr" target="#b22">[23]</ref>, which could hinder the successful use of the surface-sensitive techniques x-ray absorption spectroscopy (XAS), x-ray magnetic circular dichroism (XMCD), and grazing incidence x-ray diffraction (GID) (see below).</p><p>Atomic force microscopy (AFM) in tapping mode was employed to probe the surface morphology of the FGT films. Raman spectroscopy in back scattering configuration was performed with the aim of obtaining information about the structure of FGT and graphene. Raman measurements were also carried out on commercially available FGT bulk crystals (HQ graphene) for comparison. The Raman spectra were excited at a wavelength of 473 nm with the laser beam focused onto the sample surface to a 1 µm diameter spot. In order to probe the azimuthal dependence of various in-plane lattice parameters, we have used synchrotron-based GID. This experiment was performed at the SpLine beamline BM25 at the European Synchrotron Radiation Facility (ESRF) in Grenoble. An incidence angle of the illuminating x-rays of 0.2 • sufficiently suppresses strong scattering by the substrate, and thus makes this method highly surface sensitive. A primary x-ray photon energy of 17 keV (λ = 0.7293 Å) enables the inspection of a comparatively large area in reciprocal space, which is important to probe also multiple reflections of the same lattice plane family.</p><p>Magneto-transport characterization was performed within the 4 K-300 K temperature range and with magnetic field up to 8 T, using a large-area van der Pauw (vdP) geometry with Al contact wires bonded at the edges of the 1 cm × 1 cm FGT film. XAS and XMCD measurements were employed to investigate the magnetic properties microscopically <ref type="bibr" target="#b31">[32]</ref>. XAS spectra at the Fe L 3 and L 2 edges were recorded in the beam line BL-29 (BOREAS) at the ALBA synchrotron (Spain), which provides an ultrahigh-vacuum sample environment with a base temperature of ∼3 K and magnetic field up to 6 T. Measurements used total-electron-yield detection, where the drain current was measured from the sample to the ground. The magnetic field was applied along the x-ray beam at normal incidence relative to the sample plane. XMCD was obtained by subtracting XAS spectra with the photon helicity vector antiparallel and parallel to the magnetic field (see supplementary materials (available online at stacks.iop.org/2DM/8/ 041001/mmedia)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head><p>AFM analyses revealed the formation of continuous FGT films on graphene/SiC(0001) without strong thickness inhomogeneity due to island formation or localized out-of-plane-growth. Figure <ref type="figure" target="#fig_0">1(a)</ref> shows a typical AFM height image of a ∼10 nm thick FGT film which demonstrates its coverage over the micrometer-large graphene/SiC surface terraces. Very similar results were obtained for 20 nm thick FGT. Discontinuities (holes) in the film are observed mostly close to step edges (indicated by red arrows), resulting in relatively small areas with exposed graphene (see figure <ref type="figure" target="#fig_0">1(b)</ref>). The absence of FGT in these regions is confirmed by phase-contrast imaging (not shown), as well as by the depth profile shown in figure <ref type="figure" target="#fig_0">1</ref></p><formula xml:id="formula_0">(b) (inset).</formula><p>Interestingly, a small step of ∼0.4 nm is visible in the valley region of the line profile, which is known to form at the border between n and n + 1 graphene layers as a result of the SiC decomposition process during graphene formation <ref type="bibr" target="#b32">[33]</ref>. The appearance of such morphological irregularities in the FGT film is probably related to an inability of FGT to growunder the employed synthesis conditions-over the bi-to few-layer thick graphene ribbons and patches located on step edge regions <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34]</ref>. They exhibit a much lower chemical reactivity in comparison to that of monolayer graphene covering surface terraces. This variation is known to affect the overgrowth of 2D materials <ref type="bibr" target="#b34">[35]</ref>. Further optimization of FGT growth parameters and graphene substrate preparation are anticipated to mitigate this problem. The root-mean-square (RMS) roughness of the FGT film was measured to be ∼1 nm in 1 µm × 1 µm on a surface terrace, which is higher than that measured for an area of same size in graphene (RMS ∼ 0.2 nm). Note that the AFM images depicted here were acquired in non-capped FGT films exposed to air for several days. Thus, natural oxidation of the topmost few layers of the FGT film <ref type="bibr" target="#b18">[19]</ref>, as well as water and other surface contaminants, are expected to affect the surface roughness.</p><p>Figure <ref type="figure" target="#fig_0">1</ref>(c) exhibits a typical RHEED pattern obtained during FGT growth (bottom panel), where the narrow streaks indicate epitaxial growth of a 2D film with smooth surface and good structural quality. In addition, the shift in their location with respect to the pattern obtained for the graphene/SiC template (upper panel) reveals the evolution to a larger in-plane lattice constant, as expected for FGT growth (see GID later).</p><p>Raman spectroscopy (see figure <ref type="figure" target="#fig_0">1(d)</ref>) confirmed that the graphene layer did not suffer structural changes due to FGT synthesis. Besides the SiC background signal, the graphene-related 2D and G peaks remain mostly unaltered. The small variation in the position and width of the 2D peak can be associated For comparison, the Raman spectrum collected from a bulk FGT crystal is also plotted (green spectrum).</p><p>with excitation of surface areas containing a different number of graphene layers, e.g. close to step edge regions <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b34">35]</ref>. Additionally, other effects that might take place at the FGT/graphene interface such as charge transfer, hybridization, as well as local strain fluctuations, are also anticipated to promote variations in the graphene Raman modes <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref>.</p><p>In order to disentangle the potential contribution of each of them, future investigations are required. Importantly, the intensity of the defect-related D peak does not increase after growth. This confirms the structural integrity of graphene and indicates that no rehybridization takes place in graphene, e.g. due to the formation of covalent bonds with FGT. Finally, the Raman measurements also served to confirm the formation of FGT. The inset in figure <ref type="figure" target="#fig_0">1(d)</ref> shows the spectral region that is relevant for this material. The two components appearing at ∼120 and ∼155 cm -1 are associated with the A 1g and the sum of the A 1g + E 2g phonon modes in FGT <ref type="bibr" target="#b36">[37]</ref>. The A 1g mode for the FGT is slightly blue-shifted with respect to that of bulk FGT. This might be associated with the strain in the FGT film (see GID results below), or due to different degrees of degradation of the materials due to surface oxidation and/or laser exposure <ref type="bibr" target="#b36">[37]</ref>. Investigating these issues in detail requires dedicated experiments. The strong peak located around 205 cm -1 originates from the SiC substrate <ref type="bibr" target="#b37">[38]</ref>.</p><p>Further information on the structure of FGT/graphene heterostacks was obtained by GID. Figure <ref type="figure" target="#fig_1">2</ref>(a) shows an in-plane reciprocal space map of a Te-capped, ∼10 nm thick FGT film, in which the color-coded scattered intensity in reciprocal space is plotted as a function of reciprocal lattice units (rlu), referring to the hexagonal lattice of the SiC(0001) substrate. The corresponding absolute length (in units of Å -1 ) of the scattering vector is additionally provided along the H hex axis. There are highly localized substrate reflections, namely the SiC(2 1.0) reflection and its higher orders. Over imposed to the map itself there is a line scan crossing the SiC( <ref type="formula">2</ref>  <ref type="formula">22</ref>.0)] one can deduce an average inplane lattice parameter for FGT of 4.011 Å, which indicates a slight tensile strain of about 0.5% (taking as reference value d FGT = 3.991 Å for bulk crystals <ref type="bibr" target="#b25">[26]</ref>). This tensile strain is much smaller than what has been reported for FGT grown on Bi 2 Te 3 (1.7% tensile strain) <ref type="bibr" target="#b11">[12]</ref>, in agreement with the anticipated weak interaction between FGT and graphene. We speculate that the observed strain might be related to structural and morphological deformations in the FGT layers, such as bending taking place around surface irregularities (graphene wrinkles) and the SiC surface steps.</p><p>Following the intensity distribution along the FGT arcs [e.g. the FGT(22.0)], one recognizes a pronounced preferential azimuthal orientation of the FGT layer in a way that the FGT[11.0] net planes are parallel to SiC <ref type="bibr">[11.0]</ref>. Two of those angular profiles crossing the FGT(11.0) and (22.0) reflection are plotted in figure <ref type="figure" target="#fig_1">2(b)</ref>. They prove a full width at half maximum of about 4.7 • , indicating a FGT lattice wellaligned with respect to the substrate. Additionally, there are weaker maxima 30 • off revealing a smaller fraction of the FGT layer which appears twinned to the major variant. Complementary to that, arcs corresponding to FGT(n0.0) (see figure <ref type="figure" target="#fig_1">2(a)</ref>) have their maxima at K = 0, which fully confirms the previous statement. Moreover, there are additional low-intensity maxima symmetric to the FGT(22.0) at 0 • and ±60 • , which are about 10 • off the (2 1.0) direction. These highly symmetric sub-features are most probably due to a coincidence lattice between the FGT layer and the underlying graphene and/or SiC substrate <ref type="bibr" target="#b33">[34]</ref>. The very same coincidence lattice might be responsible for the additional arcs next to the SiC(2 1.0) and (4 2.0), which contain pronounced maxima azimuthally 20 • off the [2 1.0] direction, or in other words: they are 10 • off the [10.0] direction.</p><p>The magnetic and electrical characteristics of FGT/graphene heterostacks were investigated by transverse resistance (R XY ) measurements. In ferromagnetic materials, R XY under the application of an out-of-plane magnetic field H is given by the superposition of the ordinary (OHE) and anomalous (AHE) Hall effects and can be expressed as:</p><formula xml:id="formula_1">R XY = R OHE + R AHE with R OHE = µ 0 R O H, and R AHE = µ 0 R A M z<label>(1)</label></formula><p>where µ 0 is the vacuum permeability and M z the out-of-plane component of the magnetization. R O and R A are the ordinary and anomalous Hall coefficients, respectively <ref type="bibr" target="#b38">[39]</ref>. Whereas the OHE (R OHE ) contains information about the electrical characteristics, the AHE (R AHE ) can be utilized to investigate the magnetic order and the magnetization reversal in ferromagnetic films. Figure <ref type="figure">3</ref>(a) displays R XY for a 20 nm thick FGT on graphene measured at different temperatures during subsequent downward and upward sweeps of an external magnetic field. At low temperature (5 K), the AHE is clearly detected as a square shape hysteresis loop superimposed on an OHE contribution with its linear dependence on the external field (see equation 1) <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b39">40]</ref>. The occurrence of the AHE reflects the ferromagnetic order in the FGT film, with the observed remanence providing evidence for a strong perpendicular magnetic anisotropy. In agreement with <ref type="bibr" target="#b21">[22]</ref> and <ref type="bibr" target="#b22">[23]</ref>, both the coercive fields H C as well as the saturation resistance ∆R AHE decrease with increasing temperature. Thereby, ∆R AHE is defined as the value of R AHE (see equation ( <ref type="formula" target="#formula_1">1</ref>)) at magnetization saturation. The temperature dependencies of H C and ∆R AHE are shown in figure <ref type="figure">3(b</ref>). Note that one has to be cautious in regarding the absolute value of H C as a physical property of FGT due to its possible dependence on domain wall pinning effects. Nevertheless, the extrapolation of both quantities to zero indicates in average a Curie temperature of about 220 K that agrees well with what has been reported for FGT nanoflakes <ref type="bibr" target="#b39">[40]</ref>.</p><p>From the slope of the OHE contribution to the Hall curves shown in figure <ref type="figure">3</ref>(a) a low-temperature carrier density of 6.8 × 10 13 cm -2 is extracted which, in principle, can be ascribed to highly n-type doped graphene on SiC(0001). In contrast, FGT films are expected to exhibit a hole-like transport character with an opposite R OHE slope and have a much larger carrier density (on the order of 2 × 10 15 cm -2 ), as determined for films on sapphire substrates (see supplementary materials (available online at stacks.iop.org/2DM/8/041001/mmedia)), which is in agreement with <ref type="bibr" target="#b21">[22]</ref>. The sheet resistivity of the FGT/graphene heterostructure (150 Ω sq -1 ) is found to be almost one order of magnitude smaller than the one commonly observed for our epitaxial graphene films (∼2 kΩ sq -1 ). These findings are explained consistently by considering parallel conduction through two transport channels for the analysis of the OHE <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b41">42]</ref>. In this case, the sign as well as the absolute value of the R OHE slope depend on the relative conductivities of the FGT and graphene films. Therefore in general they do not reflect the carrier type and density of only one of the two transport channels <ref type="bibr" target="#b41">[42]</ref>.</p><p>Figure <ref type="figure">3</ref>(c) reveals that the transverse resistance R XY actually exhibits plateaus which can be explained by the QHE in graphene or precursors of the QHE occurring at magnetic fields with magnitudes above 4 T <ref type="bibr" target="#b42">[43]</ref>. Please note that the R XY data shown in figure <ref type="figure">3</ref>(c) contain a certain contribution of the magnetic-field dependent longitudinal resistance due the utilized vdP geometry. The positions of the plateaus can be associated with Landau-level indices and exhibit the expected linear dependence on the inverse field (µ 0 H) -1 <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>, as can be seen in figure <ref type="figure">3(d)</ref>. The occurrence of the QHE plateaus underlines the high quality and carrier mobility of the graphene film underneath FGT over the large-area vdP structure.</p><p>XMCD/XAS results obtained for a Te-capped, 20 nm thick FGT film on graphene/SiC(0001) are shown in figure <ref type="figure" target="#fig_4">4</ref>. The magnetic hysteresis loop shown in figure <ref type="figure" target="#fig_4">4</ref>(a) was recorded at base temperature of 3 K with the beam energy fixed at the maximum of the Fe L 3 XMCD signal (706.4 eV) (see inset figure <ref type="figure" target="#fig_4">4(b)</ref>). The signal is normalized to an energy point at the pre-edge region (703 eV) <ref type="bibr" target="#b44">[45]</ref>, measured on the fly with a magnetic field ramp of 1.5 T min -1 at high B (from ±6 to ±2 T) and of 1.0 T min -1 at low B (from ±2 to ∓2 T). In accordance with the magnetotransport results, the square shape of the loop reveals the strong out-of-plane ferromagnetic character of the Fe atoms in the FGT film.</p><p>The temperature dependence of the maximum of the Fe L 3 XMCD signal in saturation (6 T) and remanence (0 T) is plotted in figure 4(b). The remanent magnetization extrapolates to zero at about ∼220 K, which agrees closely with the T C found by transport measurements. The 6 T XMCD signal persists at room temperature, demonstrating a strong paramagnetic response even though long range ferromagnetic order has already vanished. Application of the magneto-optical sum rules for XAS and XMCD <ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref> allows us to extract the orbital, spin and total moments (m orb , m spin and m Total ) of Fe 3d electrons in the ground state of FGT. The number of 3d holes was set to 4, as reported for the Fe 3d 6 configuration in FGT <ref type="bibr" target="#b48">[49]</ref>, and the value of the magnetic dipole operator term was neglected. From the experimental Fe L 2,3 edges in the spectra at 3 K and 6 T we obtain m orb = 0.047 ± 0.004 µB/Fe; m spin = 1.13 ± 0.09 µB/Fe and m Total = 1.18 ± 0.10 µB/Fe. The orbital-to-spin moment ratio is 0.042 ± 0.008, which is comparable to that of elemental Fe(0.043) <ref type="bibr" target="#b47">[48]</ref>, somewhat larger than what is reported for FGT(0.03) <ref type="bibr" target="#b48">[49]</ref>, but lower than that of Fe 5 GeTe 2 (0.056) <ref type="bibr" target="#b49">[50]</ref>.</p><p>In summary, vdW epitaxy of FGT magnetic films on graphene was investigated by employing MBE. The realization of large-area FGT/graphene heterostructure films with high structural and interface quality was demonstrated via a thorough structural characterization, as well as magneto-transport and XMCD investigations, which revealed a robust perpendicular magnetic anisotropy in FGT and the observation of plateaus associated with the QHE effect in epitaxial graphene. These results are highly relevant for further research on wafer-scale growth of atomically thin, allepitaxial vdW heterostructures with multifunctional properties. By combining FGT with other selected 2D crystals including TMDCs, metal monochalcogenides, and h-BN, which can be grown by precise methods such as MBE <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref><ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref>, we envision the realization of spintronic devices with dimensions and performance not achievable with conventional bulk materials.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (a) AFM height image of a ∼10 nm thick FGT grown on graphene/SiC(0001). The red arrows indicate the position of surface steps in graphene/SiC(0001). (b) AFM image of a surface area close to a step edge in graphene/SiC(0001) where a discontinuity in FGT is evident. The inset shows the profile corresponding to the red line in the main figure. (c) In-situ RHEED patterns taken perpendicular to the SiC&lt;100&gt; direction, before (upper panel) and after FGT growth (lower panel). (d) Raman spectra showing the graphene and SiC components for samples with (blue spectrum) and without (green spectrum) a ∼20 nm thick FGT film on top. The inset depicts the A1g and A1g + E2g Raman components associated with the FGT film (blue spectrum).For comparison, the Raman spectrum collected from a bulk FGT crystal is also plotted (green spectrum).</figDesc><graphic coords="5,129.32,72.89,414.04,395.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. (a) GID in-plane reciprocal space map of a Te-capped 10 nm thick FGT on graphene/SiC(0001), reflecting the azimuthal dependence of various in-plane lattice parameters. The white line shows a linear scan along the SiC[2 1.0] direction. (b) Two azimuthal intensity profiles intersecting the maxima caused by the FGT lattice.</figDesc><graphic coords="6,129.32,72.89,414.04,146.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>1.0) reflection. Note that we use the fourcomponent vector notation for hexagonal symmetry, i.e. (hklm) = (hk.m) = (hk-(h + k)m). As a guide for the eye we have drawn different radii corresponding to net planes distances from graphene, G(10.0) and G(11.0), and FGT, i.e. the FGT(n0.0) with n = [2..4] and FGT(nn.0) with [n = 1..3]. From the radial scan one can extract quantitative information on the various in-plane lattice spacing values. Based on the three most intense contributions from FGT [i.e. (11.0), (30.0) and (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>2D Mater. 8 (2021) 041001 Figure 3 .</head><label>80410013</label><figDesc>Figure 3. (a) Transverse resistance RXY of a 1 cm × 1 cm FGT/graphene vdP structure during downward and upward magnetic field sweeps at different temperatures. The RXY curves for temperatures above 5 K are successively upshifted by 2.5 Ω for clarity. (b) Coercive field HC and saturation resistance ∆RAHE extracted from the AHE contribution as a function of temperature. The solid lines are guides to the eye. (c) Transverse resistance RXY of the same FGT/graphene vdP structure as a function of magnetic field in the range from -4 to -8 T. (d) Landau-level index of the quantum Hall effect (QHE) plateaus in (c) as a function of the inverse magnetic field. The solid line represents the result of a linear fitting.</figDesc><graphic coords="7,129.32,72.89,414.04,327.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (a) Hysteresis loop recorded at the Fe L3 edge for a Te-capped, ∼20 nm thick FGT film on graphene/SiC(0001) at 3 K. The XMCD signal is normalized to its value in saturation. (b) Temperature dependence of the Fe L3 XMCD maximum in saturation (6 T, blue circles) and remanence (red triangles). Inset: XMCD signal, expressed in percentage of the average XAS, recorded at 3 K under an out-of-plane magnetic field of 6 T (blue) and at remanence (red).</figDesc><graphic coords="8,129.32,71.89,198.04,306.12" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to thank <rs type="person">H-P Schönherr</rs>, <rs type="person">C Hermann</rs>, and <rs type="person">C Stemmler</rs> for their dedicated maintenance of the MBE system, as well as <rs type="person">A Riedel</rs>, <rs type="person">W Seidel</rs>, <rs type="person">S, Rauwerdink</rs>, and <rs type="person">A Tahraoui</rs> for technical support. Furthermore, the authors appreciate the critical reading of the manuscript by <rs type="person">Yukihiko Takagaki</rs>. They also acknowledge the provision of beamtime under the project <rs type="grantNumber">HC-4068</rs> at the <rs type="institution" subtype="infrastructure">European Synchrotron Radiation Facility (ESRF)</rs>, located in Grenoble (France). ICN2 researchers acknowledge support from the <rs type="funder">European Union</rs> <rs type="programName">Horizon 2020 research and innovation programme</rs> under Grant Agreement No. <rs type="grantNumber">881603</rs> (<rs type="affiliation">Graphene Flagship</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_TfsSG7G">
+					<idno type="grant-number">HC-4068</idno>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation programme</orgName>
+				</org>
+				<org type="funding" xml:id="_J54SSHc">
+					<idno type="grant-number">881603</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">European Synchrotron Radiation Facility (ESRF)</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement</head><p>The data that support the findings of this study are available upon reasonable request from the authors.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">546</biblScope>
+			<biblScope unit="page">265</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gong C et al 2017 Nature 546 265</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">546</biblScope>
+			<biblScope unit="page">270</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang B et al 2017 Nature 546 270</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">In-Plane Magnetic Domains and Néel-like Domain Walls in Thin Flakes of the Room Temperature CrTe&lt;sub&gt;2&lt;/sub&gt; Van der Waals Ferromagnet</title>
+		<author>
+			<persName><forename type="first">Anike</forename><surname>Purbawati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johann</forename><surname>Coraux</surname></persName>
+			<idno type="ORCID">0000-0003-2373-3453</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdellali</forename><surname>Hadj-Azzem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nianjheng</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nedjma</forename><surname>Bendiab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Jegouso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Renard</surname></persName>
+			<idno type="ORCID">0000-0003-0883-9276</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Laetitia</forename><surname>Marty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Bouchiat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">André</forename><surname>Sulpice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lucia</forename><surname>Aballe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Foerster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Genuzio</surname></persName>
+			<idno type="ORCID">0000-0003-0699-2525</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Locatelli</surname></persName>
+			<idno type="ORCID">0000-0002-8072-7343</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tevfik</forename><forename type="middle">Onur</forename><surname>Menteş</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zheng</forename><forename type="middle">Vitto</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xingdan</forename><surname>Sun</surname></persName>
+			<idno type="ORCID">0000-0003-3811-2326</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Manuel</forename><surname>Núñez-Regueiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Rougemaille</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsami.0c07017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Applied Materials &amp; Interfaces</title>
+		<title level="j" type="abbrev">ACS Appl. Mater. Interfaces</title>
+		<idno type="ISSN">1944-8244</idno>
+		<idno type="ISSNe">1944-8252</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="30702" to="30710" />
+			<date type="published" when="2020-06-09">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Purbawati A et al 2020 ACS Appl. Mater. Interfaces 12 30702</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Gate-tunable room-temperature ferromagnetism in two-dimensional Fe3GeTe2</title>
+		<author>
+			<persName><forename type="first">Yujun</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yijun</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yichen</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jingzhao</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nai</forename><forename type="middle">Zhou</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zeyuan</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yangfan</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi</forename><forename type="middle">Zheng</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shiwei</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Junyi</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jing</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xian</forename><forename type="middle">Hui</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuanbo</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-018-0626-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">563</biblScope>
+			<biblScope unit="issue">7729</biblScope>
+			<biblScope unit="page" from="94" to="99" />
+			<date type="published" when="2018-10-22">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deng Y et al 2018 Nature 563 94</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Magnetic 2D materials and heterostructures</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gibertini</surname></persName>
+			<idno type="ORCID">0000-0003-3980-5319</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koperski</surname></persName>
+			<idno type="ORCID">0000-0002-8301-914X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Morpurgo</surname></persName>
+			<idno type="ORCID">0000-0003-0974-3620</idno>
+		</author>
+		<author>
+			<persName><forename type="first">K S</forename><forename type="middle">S</forename><surname>Novoselov</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41565-019-0438-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Nanotechnology</title>
+		<title level="j" type="abbrev">Nat. Nanotechnol.</title>
+		<idno type="ISSN">1748-3387</idno>
+		<idno type="ISSNe">1748-3395</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="408" to="419" />
+			<date type="published" when="2019-05">2019</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibertini M, Koperski M, Morpurgo A F and Novoselov K S 2019 Nat. Nanotechnol. 14 408</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Two-dimensional magnetic crystals and emergent heterostructure devices</title>
+		<author>
+			<persName><forename type="first">Cheng</forename><surname>Gong</surname></persName>
+			<idno type="ORCID">0000-0001-7714-6380</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Xiang</forename><surname>Zhang</surname></persName>
+			<idno type="ORCID">0000-0002-3272-894X</idno>
+		</author>
+		<idno type="DOI">10.1126/science.aav4450</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="issue">6428</biblScope>
+			<biblScope unit="page">4450</biblScope>
+			<date type="published" when="2019-02-15">2019</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gong C and Zhang X 2019 Science 363 eaav4450</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zutic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabian</forename><forename type="middle">J</forename><surname>Sarma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page">323</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zutic I, Fabian J and Sarma S D 2004 Rev. Mod. Phys. 76 323</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Boosting the Curie Temperature of Two-Dimensional Semiconducting CrI&lt;sub&gt;3&lt;/sub&gt; Monolayer through van der Waals Heterostructures</title>
+		<author>
+			<persName><forename type="first">Shanbao</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chengxi</forename><surname>Huang</surname></persName>
+			<idno type="ORCID">0000-0003-1491-3954</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Huasheng</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Junfei</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Puru</forename><surname>Jena</surname></persName>
+			<idno type="ORCID">0000-0002-2316-859X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Erjun</forename><surname>Kan</surname></persName>
+			<idno type="ORCID">0000-0003-0433-4190</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcc.9b04631</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<title level="j" type="abbrev">J. Phys. Chem. C</title>
+		<idno type="ISSN">1932-7447</idno>
+		<idno type="ISSNe">1932-7455</idno>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">29</biblScope>
+			<biblScope unit="page" from="17987" to="17993" />
+			<date type="published" when="2019-07-03">2019</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen S, Huang C, Sun H, Ding J, Jena P and Kan E 2019 J. Phys Chem. C 123 17987</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Proximity Spin–Orbit Torque on a Two-Dimensional Magnet within van der Waals Heterostructure: Current-Driven Antiferromagnet-to-Ferromagnet Reversible Nonequilibrium Phase Transition in Bilayer CrI&lt;sub&gt;3&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">Kapildeb</forename><surname>Dolui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marko</forename><forename type="middle">D</forename><surname>Petrović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Zollner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petr</forename><surname>Plecháč</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jaroslav</forename><surname>Fabian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Branislav</forename><forename type="middle">K</forename><surname>Nikolić</surname></persName>
+			<idno type="ORCID">0000-0002-5793-7764</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.nanolett.9b04556</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Letters</title>
+		<title level="j" type="abbrev">Nano Lett.</title>
+		<idno type="ISSN">1530-6984</idno>
+		<idno type="ISSNe">1530-6992</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2288" to="2295" />
+			<date type="published" when="2020-03-04">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dolui K, Petrovic M D, Zollner K, Plechac P, Fabian J and Nikolic B K 2020 Nano Lett. 20 2288</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Van der Waals heterostructures for spintronics and opto-spintronics</title>
+		<author>
+			<persName><forename type="first">Juan</forename><forename type="middle">F</forename><surname>Sierra</surname></persName>
+			<idno type="ORCID">0000-0002-5438-0534</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jaroslav</forename><surname>Fabian</surname></persName>
+			<idno type="ORCID">0000-0002-3009-4525</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><forename type="middle">K</forename><surname>Kawakami</surname></persName>
+			<idno type="ORCID">0000-0003-0245-9192</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Roche</surname></persName>
+			<idno type="ORCID">0000-0003-0323-4665</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergio</forename><forename type="middle">O</forename><surname>Valenzuela</surname></persName>
+			<idno type="ORCID">0000-0002-4632-8891</idno>
+		</author>
+		<idno type="DOI">10.1038/s41565-021-00936-x</idno>
+		<ptr target="https://doi.org/10.1038/s41565-021-00936-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Nanotechnology</title>
+		<title level="j" type="abbrev">Nat. Nanotechnol.</title>
+		<idno type="ISSN">1748-3387</idno>
+		<idno type="ISSNe">1748-3395</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="856" to="868" />
+			<date type="published" when="2021-07-19">2021</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sierra J F , Fabian J, Kawakami R K , Roche S and Valenzuela S O 2021 Nat. Nanotechnol. (https://doi.org/10.1038/s41565- 021-00936-x)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The phase diagram of 2D antiferromagnets</title>
+		<author>
+			<persName><forename type="first">Sergio</forename><forename type="middle">O</forename><surname>Valenzuela</surname></persName>
+			<idno type="ORCID">0000-0002-4632-8891</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Roche</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41565-019-0592-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Nanotechnology</title>
+		<title level="j" type="abbrev">Nat. Nanotechnol.</title>
+		<idno type="ISSN">1748-3387</idno>
+		<idno type="ISSNe">1748-3395</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1088" to="1089" />
+			<date type="published" when="2019-12">2019</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valenzuela S O and Roche S 2019 Nat. Nanotechnol. 14 1088</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Above Room-Temperature Ferromagnetism in Wafer-Scale Two-Dimensional van der Waals Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt; Tailored by a Topological Insulator</title>
+		<author>
+			<persName><forename type="first">Haiyu</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yingjie</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peichen</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenjie</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuhao</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaohui</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chandan</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongdong</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qing</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hangtian</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dahai</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Na</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lianggong</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tianxiao</forename><surname>Nie</surname></persName>
+			<idno type="ORCID">0000-0001-9067-9931</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Weisheng</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kang</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0003-0487-5464</idno>
+		</author>
+		<idno type="DOI">10.1021/acsnano.0c03152</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="10045" to="10053" />
+			<date type="published" when="2020-07-20">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang H et al 2020 ACS Nano 14 10045</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Two-dimensional itinerant ferromagnetism in atomically thin Fe3GeTe2</title>
+		<author>
+			<persName><forename type="first">Zaiyao</forename><surname>Fei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bevin</forename><surname>Huang</surname></persName>
+			<idno type="ORCID">0000-0002-8301-4058</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Malinowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenbo</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0003-4173-3801</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tiancheng</forename><surname>Song</surname></persName>
+			<idno type="ORCID">0000-0002-6845-6624</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><surname>Yao</surname></persName>
+			<idno type="ORCID">0000-0003-2883-4528</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoyang</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">F</forename><surname>May</surname></persName>
+			<idno type="ORCID">0000-0003-0777-8539</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Weida</forename><surname>Wu</surname></persName>
+			<idno type="ORCID">0000-0003-1691-6091</idno>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">H</forename><surname>Cobden</surname></persName>
+			<idno type="ORCID">0000-0002-7254-2728</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jiun-Haw</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaodong</forename><surname>Xu</surname></persName>
+			<idno type="ORCID">0000-0003-0348-2095</idno>
+		</author>
+		<idno type="DOI">10.1038/s41563-018-0149-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="778" to="782" />
+			<date type="published" when="2018-08-13">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fei Z et al 2018 Nat. Mater. 17 778</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ferromagnetism Near Room Temperature in the Cleavable van der Waals Crystal Fe&lt;sub&gt;5&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">F</forename><surname>May</surname></persName>
+			<idno type="ORCID">0000-0003-0777-8539</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitry</forename><surname>Ovchinnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qiang</forename><surname>Zheng</surname></persName>
+			<idno type="ORCID">0000-0002-9279-7779</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Raphael</forename><surname>Hermann</surname></persName>
+			<idno type="ORCID">0000-0002-6138-5624</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Stuart</forename><surname>Calder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bevin</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zaiyao</forename><surname>Fei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yaohua</forename><surname>Liu</surname></persName>
+			<idno type="ORCID">0000-0002-5867-5065</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaodong</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Mcguire</surname></persName>
+			<idno type="ORCID">0000-0003-1762-9406</idno>
+		</author>
+		<idno type="DOI">10.1021/acsnano.8b09660</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="4436" to="4442" />
+			<date type="published" when="2019-03-13">2019</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">May A F, Ovchinnikov D, Zheng Q, Hermann R, Calder S, Huang B, Fei Z, Liu Y, Xu X and McGuire M A 2019 ACS Nano 13 4436</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Nearly room temperature ferromagnetism in a magnetic metal-rich van der Waals metal</title>
+		<author>
+			<persName><forename type="first">Junho</forename><surname>Seo</surname></persName>
+			<idno type="ORCID">0000-0002-7880-459X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Duck</forename><forename type="middle">Young</forename><surname>Kim</surname></persName>
+			<idno type="ORCID">0000-0002-0765-6374</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Eun</forename><forename type="middle">Su</forename><surname>An</surname></persName>
+			<idno type="ORCID">0000-0002-5030-2539</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kyoo</forename><surname>Kim</surname></persName>
+			<idno type="ORCID">0000-0002-7305-8786</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Gi-Yeop</forename><surname>Kim</surname></persName>
+			<idno type="ORCID">0000-0002-3557-5387</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Soo-Yoon</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dong</forename><forename type="middle">Wook</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bo</forename><forename type="middle">Gyu</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heejung</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gyeongsik</forename><surname>Eom</surname></persName>
+			<idno type="ORCID">0000-0001-6424-1717</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Seung</forename><forename type="middle">Young</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><surname>Stania</surname></persName>
+			<idno type="ORCID">0000-0002-1560-8081</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Muntwiler</surname></persName>
+			<idno type="ORCID">0000-0002-6628-3977</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jinwon</forename><surname>Lee</surname></persName>
+			<idno type="ORCID">0000-0002-6075-5101</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kenji</forename><surname>Watanabe</surname></persName>
+			<idno type="ORCID">0000-0003-3701-8119</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Takashi</forename><surname>Taniguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Youn</forename><forename type="middle">Jung</forename><surname>Jo</surname></persName>
+			<idno type="ORCID">0000-0001-8030-583X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jieun</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Byung</forename><forename type="middle">Il</forename><surname>Min</surname></persName>
+			<idno type="ORCID">0000-0003-4793-3732</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Moon</forename><forename type="middle">Ho</forename><surname>Jo</surname></persName>
+			<idno type="ORCID">0000-0002-3160-358X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Han</forename><forename type="middle">Woong</forename><surname>Yeom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Si-Young</forename><surname>Choi</surname></persName>
+			<idno type="ORCID">0000-0003-1648-142X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ji</forename><forename type="middle">Hoon</forename><surname>Shim</surname></persName>
+			<idno type="ORCID">0000-0001-7357-0029</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><forename type="middle">Sung</forename><surname>Kim</surname></persName>
+			<idno type="ORCID">0000-0002-1413-7265</idno>
+		</author>
+		<idno type="DOI">10.1126/sciadv.aay8912</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science Advances</title>
+		<title level="j" type="abbrev">Sci. Adv.</title>
+		<idno type="ISSNe">2375-2548</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2020-01-17">2020</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seo J et al 2020 Sci. Adv. 6 eaay8912</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Strong anisotropy and magnetostriction in the two-dimensional Stoner ferromagnet&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mml:mrow&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;Fe&lt;/mml:mi&gt;&lt;mml:mn&gt;3&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;GeTe&lt;/mml:mi&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;</title>
+		<author>
+			<persName><forename type="first">Houlong</forename><forename type="middle">L</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P R C</forename><forename type="middle">R C</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">G</forename><surname>Hennig</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.93.134407</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">2469-9950</idno>
+		<idno type="ISSNe">2469-9969</idno>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">134407</biblScope>
+			<date type="published" when="2016-04-06">2016</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhuang H L, Kent P R C and Hennig R G 2016 Phys Rev. B 93 134407</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Enhanced Ferromagnetism and Tunable Magnetism in Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt; Monolayer by Strain Engineering</title>
+		<author>
+			<persName><forename type="first">Xiaohui</forename><surname>Hu</surname></persName>
+			<idno type="ORCID">0000-0001-6346-1419</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yinghe</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaodong</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arkady</forename><forename type="middle">V</forename><surname>Krasheninnikov</surname></persName>
+			<idno type="ORCID">0000-0003-0074-7588</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zhongfang</forename><surname>Chen</surname></persName>
+			<idno type="ORCID">0000-0002-1445-9184</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Litao</forename><surname>Sun</surname></persName>
+			<idno type="ORCID">0000-0002-2750-5004</idno>
+		</author>
+		<idno type="DOI">10.1021/acsami.0c05530</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Applied Materials &amp; Interfaces</title>
+		<title level="j" type="abbrev">ACS Appl. Mater. Interfaces</title>
+		<idno type="ISSN">1944-8244</idno>
+		<idno type="ISSNe">1944-8252</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="26367" to="26373" />
+			<date type="published" when="2020-05-15">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu X, Zhao Y, Shen X, Krasheninnikov A V, Chen Z and Sun L 2020 ACS Appl. Mater. Interfaces 12 26367</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Tunable magnetic properties in van der Waals crystals (Fe1−&lt;i&gt;x&lt;/i&gt;Co&lt;i&gt;x&lt;/i&gt;)5GeTe2</title>
+		<author>
+			<persName><forename type="first">Congkuan</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feihao</forename><surname>Pan</surname></persName>
+			<idno type="ORCID">0000-0001-8383-9052</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sheng</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kun</forename><surname>Ai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tianlong</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peng</forename><surname>Cheng</surname></persName>
+			<idno type="ORCID">0000-0003-2351-2060</idno>
+		</author>
+		<idno type="DOI">10.1063/5.0006337</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page">202402</biblScope>
+			<date type="published" when="2020-05-18">2020</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tian C, Pan F, Xu S, Ai K, Xia T and Cheng P 2020 Appl. Phys. Lett. 116 202402</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Antiferromagnetic coupling of van der Waals ferromagnetic Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">Dongseuk</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sijin</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jinhwan</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jungbum</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sungjung</forename><surname>Joo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Taeyueb</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kil-Joon</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seung-Young</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Changsoo</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kyoung-Woong</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Changgu</forename><surname>Lee</surname></persName>
+			<idno type="ORCID">0000-0002-8915-7746</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jisang</forename><surname>Hong</surname></persName>
+			<idno type="ORCID">0000-0002-5895-8700</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Chanyong</forename><surname>Hwang</surname></persName>
+			<idno type="ORCID">0000-0002-6612-7552</idno>
+		</author>
+		<idno type="DOI">10.1088/1361-6528/ab0a37</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanotechnology</title>
+		<title level="j" type="abbrev">Nanotechnology</title>
+		<idno type="ISSN">0957-4484</idno>
+		<idno type="ISSNe">1361-6528</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">245701</biblScope>
+			<date type="published" when="2019-03-26">2019</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim D et al 2019 Nanotechnology 30 245701</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Raman Spectroscopy, Photocatalytic Degradation, and Stabilization of Atomically Thin Chromium Tri-iodide</title>
+		<author>
+			<persName><forename type="first">Dmitry</forename><surname>Shcherbakov</surname></persName>
+			<idno type="ORCID">0000-0001-5125-8691</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Petr</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Weber</surname></persName>
+			<idno type="ORCID">0000-0003-4175-9278</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yaxian</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><surname>Hu</surname></persName>
+			<idno type="ORCID">0000-0003-0080-4239</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yanglin</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenji</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takashi</forename><surname>Taniguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhiqiang</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Windl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><surname>Goldberger</surname></persName>
+			<idno type="ORCID">0000-0003-4284-604X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Bockrath</surname></persName>
+			<idno type="ORCID">0000-0002-7000-1442</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Chun</forename><forename type="middle">Ning</forename><surname>Lau</surname></persName>
+			<idno type="ORCID">0000-0003-2159-6723</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.nanolett.8b01131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Letters</title>
+		<title level="j" type="abbrev">Nano Lett.</title>
+		<idno type="ISSN">1530-6984</idno>
+		<idno type="ISSNe">1530-6992</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="4214" to="4219" />
+			<date type="published" when="2018-06-04">2018</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shcherbakov D et al 2018 Nano Lett. 18 4214</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Spin-Valve Effect in Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt;/MoS&lt;sub&gt;2&lt;/sub&gt;/Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt; van der Waals Heterostructures</title>
+		<author>
+			<persName><forename type="first">Hailong</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Faguang</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ce</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Quanshan</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenkai</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ziao</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhongming</forename><surname>Wei</surname></persName>
+			<idno type="ORCID">0000-0002-6237-0993</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kai</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kaiyou</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0002-6017-7575</idno>
+		</author>
+		<idno type="DOI">10.1021/acsami.0c12483</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Applied Materials &amp; Interfaces</title>
+		<title level="j" type="abbrev">ACS Appl. Mater. Interfaces</title>
+		<idno type="ISSN">1944-8244</idno>
+		<idno type="ISSNe">1944-8252</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">39</biblScope>
+			<biblScope unit="page" from="43921" to="43926" />
+			<date type="published" when="2020-09-03">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin H, Yan F, Hu C, Lv Q, Zhu W, Wang Z, Wei Z, Chang K and Wang K 2020 ACS Appl. Mater. Interfaces 12 43921</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Wafer-scale two-dimensional ferromagnetic Fe3GeTe2 thin films grown by molecular beam epitaxy</title>
+		<author>
+			<persName><forename type="first">Shanshan</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiang</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yichao</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ce</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Enze</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiwei</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yanwen</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weiyi</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cheng</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kaiyou</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Faxian</forename><surname>Xiu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41699-017-0033-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">npj 2D Materials and Applications</title>
+		<title level="j" type="abbrev">npj 2D Mater Appl</title>
+		<idno type="ISSNe">2397-7132</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="2017-09-14">2017</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu S et al 2017 NPJ 2D Mater. Appl. 1 30</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Robust ferromagnetism in wafer-scale monolayer and multilayer Fe3GeTe2</title>
+		<author>
+			<persName><forename type="first">Ryan</forename><surname>Roemer</surname></persName>
+			<idno type="ORCID">0000-0003-0688-0267</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Chong</forename><surname>Liu</surname></persName>
+			<idno type="ORCID">0000-0002-2314-8687</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ke</forename><surname>Zou</surname></persName>
+			<idno type="ORCID">0000-0002-1181-1779</idno>
+		</author>
+		<idno type="DOI">10.1038/s41699-020-00167-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">npj 2D Materials and Applications</title>
+		<title level="j" type="abbrev">npj 2D Mater Appl</title>
+		<idno type="ISSNe">2397-7132</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2020-10-07">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roemer R, Liu C and Zou K 2020 NPJ 2D Mater. Appl. 4 33</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">van der Waals epitaxy: 2D materials and topological insulators</title>
+		<author>
+			<persName><forename type="first">Lee</forename><forename type="middle">A</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">L</forename><surname>Hinkle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmt.2017.09.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Materials Today</title>
+		<title level="j" type="abbrev">Applied Materials Today</title>
+		<idno type="ISSN">2352-9407</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="504" to="515" />
+			<date type="published" when="2017-12">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Walsh L A and Hinkle C L 2017 Appl. Mater. Today 9 504</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Growth of single-crystalline Bi2Te3 hexagonal nanoplates with and without single nanopores during temperature-controlled solvothermal synthesis</title>
+		<author>
+			<persName><forename type="first">Yuichi</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Koji</forename><surname>Tomita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masayuki</forename><surname>Takashiri</surname></persName>
+			<idno type="ORCID">0000-0001-7041-6595</idno>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-47356-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">10790</biblScope>
+			<date type="published" when="2019-07-25">2019</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hosokawa Y, Tomita K and Takashiri M 2019 Sci. Rep. 9 10790</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt; and Ni&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt; – Two New Layered Transition‐Metal Compounds: Crystal Structures, HRTEM Investigations, and Magnetic and Electrical Properties</title>
+		<author>
+			<persName><forename type="first">Hans‐jörg</forename><surname>Deiseroth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Krasimir</forename><surname>Aleksandrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christof</forename><surname>Reiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenz</forename><surname>Kienle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reinhard</forename><forename type="middle">K</forename><surname>Kremer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ejic.200501020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Inorganic Chemistry</title>
+		<title level="j" type="abbrev">Eur J Inorg Chem</title>
+		<idno type="ISSN">1434-1948</idno>
+		<idno type="ISSNe">1099-0682</idno>
+		<imprint>
+			<biblScope unit="volume">2006</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1561" to="1567" />
+			<date type="published" when="2006-04">2006. 2006</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deiseroth H-J, Aleksandrov K, Reiner C, Kienle L and Kremer R K 2006 Eur. J. Inorg. Chem. 2006 1561</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Van der Waals epitaxy—a new epitaxial growth method for a highly lattice-mismatched system</title>
+		<author>
+			<persName><forename type="first">Atsushi</forename><surname>Koma</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0040-6090(92)90872-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<title level="j" type="abbrev">Thin Solid Films</title>
+		<idno type="ISSN">0040-6090</idno>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="72" to="76" />
+			<date type="published" when="1992-08">1992</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koma A 1992 Thin Solid Films 216 72</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Defect mediated van der Waals epitaxy of hexagonal boron nitride on graphene</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmann</surname></persName>
+			<idno type="ORCID">0000-0002-5485-1244</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bashouti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Riechert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J M J</forename><forename type="middle">M J</forename><surname>Lopes</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2053-1583/aaa4cb</idno>
+	</analytic>
+	<monogr>
+		<title level="j">2D Materials</title>
+		<title level="j" type="abbrev">2D Mater.</title>
+		<idno type="ISSNe">2053-1583</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">025004</biblScope>
+			<date type="published" when="2018-01-15">2018 2D Mater. 5 025004</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heilmann M, Bashouti M, Riechert H and Lopes J M J 2018 2D Mater. 5 025004</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Direct Synthesis of van der Waals Solids</title>
+		<author>
+			<persName><forename type="first">Yu-Chuan</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ning</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nestor</forename><surname>Perea-Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jie</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhong</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xin</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chia</forename><forename type="middle">Hui</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ce</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lazaro</forename><surname>Calderin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">N</forename><surname>Browning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">S</forename><surname>Bresnehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moon</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Theresa</forename><forename type="middle">S</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mauricio</forename><surname>Terrones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">A</forename><surname>Robinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn5003858</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="3715" to="3723" />
+			<date type="published" when="2014-03-27">2014</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin Y-C et al 2014 ACS Nano 8 3715</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Towards wafer-size graphene layers by atmospheric pressure graphitization of silicon carbide</title>
+		<author>
+			<persName><forename type="first">Konstantin</forename><forename type="middle">V</forename><surname>Emtsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aaron</forename><surname>Bostwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karsten</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Jobst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gary</forename><forename type="middle">L</forename><surname>Kellogg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lothar</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jessica</forename><forename type="middle">L</forename><surname>Mcchesney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Taisuke</forename><surname>Ohta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergey</forename><forename type="middle">A</forename><surname>Reshanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonas</forename><surname>Röhrl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eli</forename><surname>Rotenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><forename type="middle">K</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Waldmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heiko</forename><forename type="middle">B</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Seyller</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat2382</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="203" to="207" />
+			<date type="published" when="2009-02-08">2009</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Emtsev K V et al 2009 Nat. Mater. 8 203</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Influence of the silicon carbide surface morphology on the epitaxial graphene formation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ramsteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M J</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Riechert</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3638058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">111901</biblScope>
+			<date type="published" when="2011-09-12">2011</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliveira M H, Schumann T, Ramsteiner M, Lopes J M J and Riechert H 2011 Appl. Phys. Lett. 99 111901</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Figueroa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Der Laan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ccr.2014.03.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Coord. Chem. Rev</title>
+		<imprint>
+			<biblScope unit="page">95</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Figueroa A I and Van Der Laan G 2014 Coord. Chem. Rev. 277-8 95</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The effect of the SiC(0001) surface morphology on the growth of epitaxial mono-layer graphene nanoribbons</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Galves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wofford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G V</forename><forename type="middle">V</forename><surname>Soares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Jahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pfüller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Riechert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J M J</forename><forename type="middle">M J</forename><surname>Lopes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.carbon.2017.01.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Carbon</title>
+		<title level="j" type="abbrev">Carbon</title>
+		<idno type="ISSN">0008-6223</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="162" to="168" />
+			<date type="published" when="2017-05">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Galves L A, Wofford J M, Soares G V, Jahn U, Pfüller C, Riechert H and Lopes J M J 2017 Carbon 115 162</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Coincident-site lattice matching during van der Waals epitaxy</title>
+		<author>
+			<persName><forename type="first">Jos</forename><forename type="middle">E</forename><surname>Boschker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lauren</forename><forename type="middle">A</forename><surname>Galves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timur</forename><surname>Flissikowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joao</forename><forename type="middle">Marcelo J</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henning</forename><surname>Riechert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raffaella</forename><surname>Calarco</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep18079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">18079</biblScope>
+			<date type="published" when="2015-12-14">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boschker J, Galves L A, Flissikowski T, Lopes J M J, Riechert H and Calarco R 2015 Sci. Rep. 5 18079</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Influence of Proximity to Supporting Substrate on van der Waals Epitaxy of Atomically Thin Graphene/Hexagonal Boron Nitride Heterostructures</title>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Heilmann</surname></persName>
+			<idno type="ORCID">0000-0002-5485-1244</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">S</forename><surname>Prikhodko</surname></persName>
+			<idno type="ORCID">0000-0003-2871-2432</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Hanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Sabelfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nikolai</forename><forename type="middle">I</forename><surname>Borgardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J M J</forename><forename type="middle">Marcelo J</forename><surname>Lopes</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsami.9b21490</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Applied Materials &amp; Interfaces</title>
+		<title level="j" type="abbrev">ACS Appl. Mater. Interfaces</title>
+		<idno type="ISSN">1944-8244</idno>
+		<idno type="ISSNe">1944-8252</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="8897" to="8907" />
+			<date type="published" when="2020-01-23">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heilmann M, Prikhodko A S, Hanke M, Sabelfeld A, Borgardt N I and Lopes J M J 2020 ACS Appl. Mater. Interfaces 12 8897</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Charge Versus Energy Transfer in Atomically Thin Graphene-Transition Metal Dichalcogenide van der Waals Heterostructures</title>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Froehlicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Etienne</forename><surname>Lorchat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stéphane</forename><surname>Berciaud</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevx.8.011007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review X</title>
+		<title level="j" type="abbrev">Phys. Rev. X</title>
+		<idno type="ISSNe">2160-3308</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">11007</biblScope>
+			<date type="published" when="2018-01-18">2018</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Froehlicher G, Lorchat E and Berciaud S 2018 Phys. Rev. X 8 011007</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Lattice Dynamics, Phonon Chirality, and Spin–Phonon Coupling in 2D Itinerant Ferromagnet Fe&lt;sub&gt;3&lt;/sub&gt;GeTe&lt;sub&gt;2&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">Luojun</forename><surname>Du</surname></persName>
+			<idno type="ORCID">0000-0002-2420-8258</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jian</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yanchong</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaomei</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rong</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xuerong</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xueyin</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiao</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenji</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takashi</forename><surname>Taniguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongxia</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guoqiang</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xuedong</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tawfique</forename><surname>Hasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guangyu</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhipei</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201904734</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Functional Materials</title>
+		<title level="j" type="abbrev">Adv Funct Materials</title>
+		<idno type="ISSN">1616-301X</idno>
+		<idno type="ISSNe">1616-3028</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">48</biblScope>
+			<biblScope unit="page">1904734</biblScope>
+			<date type="published" when="2019-09-25">2019</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Du L et al 2019 Adv. Funct. Mater. 29 1904734</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Spatial characterization of doped SiC wafers by Raman spectroscopy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pophristic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lukacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F H</forename><forename type="middle">H</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I T</forename><forename type="middle">T</forename><surname>Ferguson</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.368947</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="6268" to="6273" />
+			<date type="published" when="1998-12-01">1998</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burton J C, Sun L, Pophristic M, Lukacs S J, Long F H, Feng Z C and Ferguson I T 1998 J. Appl. Phys. 84 6268</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Anomalous Hall effect and magnetoresistance in the layered ferromagnet&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:mrow&gt;&lt;mml:msub&gt;&lt;mml:mi mathvariant=&quot;normal&quot;&gt;Fe&lt;/mml:mi&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;1&lt;/mml:mn&gt;&lt;mml:mo&gt;∕&lt;/mml:mo&gt;&lt;mml:mn&gt;4&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msub&gt;&lt;mml:mi mathvariant=&quot;normal&quot;&gt;Ta&lt;/mml:mi&gt;&lt;mml:msub&gt;&lt;mml:mi mathvariant=&quot;normal&quot;&gt;S&lt;/mml:mi&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;: The inelastic regime</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Checkelsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Minhyea</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Morosan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Cava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N P</forename><forename type="middle">P</forename><surname>Ong</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.77.014433</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">14433</biblScope>
+			<date type="published" when="2008-01-22">2008</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Checkelsky J G, Lee M, Morosan E, Cava R J and Ong N P 2008 Phys. Rev. B 77 014433</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Hard magnetic properties in nanoflake van der Waals Fe3GeTe2</title>
+		<author>
+			<persName><forename type="first">Cheng</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jinhwan</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Soon-Gil</forename><surname>Jung</surname></persName>
+			<idno type="ORCID">0000-0001-6517-0543</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tuson</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sultan</forename><surname>Albarakati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Partridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><forename type="middle">R</forename><surname>Field</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dougal</forename><forename type="middle">G</forename><surname>Mcculloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lan</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Changgu</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-018-04018-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1554</biblScope>
+			<date type="published" when="2018-04-19">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tan C, Lee J, Jung S-G, Park T, Albarakati S, Partridge J, Field M R, McCulloch D G, Wang L and Lee C 2018 Nat. Commun. 9 1554</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Multi-channel magnetotransport in Co2FeSi/(Al,Ga)As spin-LEDs</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Farshchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bruski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ramsteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Manzke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-J</forename><surname>Friedland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H T</forename><forename type="middle">T</forename><surname>Grahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ssc.2011.01.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Communications</title>
+		<title level="j" type="abbrev">Solid State Communications</title>
+		<idno type="ISSN">0038-1098</idno>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="436" to="439" />
+			<date type="published" when="2011-03">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Farshchi R, Bruski P, Ramsteiner M, Herfort J, Brandt O, Manzke Y, Friedland K-J and Grahn H T 2011 Solid State Commun. 151 436</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Coexisting holes and electrons in high-&lt;i&gt;T&lt;/i&gt;&lt;sub&gt;C&lt;/sub&gt;materials: implications from normal state transport</title>
+		<author>
+			<persName><forename type="first">Dale</forename><forename type="middle">R</forename><surname>Harshman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">D</forename><surname>Dow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">T</forename><surname>Fiory</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14786435.2010.527864</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Magazine</title>
+		<title level="j" type="abbrev">Philosophical Magazine</title>
+		<idno type="ISSN">1478-6435</idno>
+		<idno type="ISSNe">1478-6443</idno>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="818" to="840" />
+			<date type="published" when="2011-02-11">2011</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harshman D R, Dow J D and Fiory A T 2011 Phil. Mag. 91 818</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Quantum oscillations and quantum Hall effect in epitaxial graphene</title>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Jobst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Waldmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Florian</forename><surname>Speck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><surname>Hirner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Duncan</forename><forename type="middle">K</forename><surname>Maude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Seyller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heiko</forename><forename type="middle">B</forename><surname>Weber</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.81.195434</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">195434</biblScope>
+			<date type="published" when="2010-05-25">2010</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jobst J, Waldmann D, Speck F, Hirner R, Maude D K, Seyller T and Weber H B 2010 Phys. Rev. B 81 195434</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Experimental observation of the quantum Hall effect and Berry&apos;s phase in graphene</title>
+		<author>
+			<persName><forename type="first">Yuanbo</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan-Wen</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Horst</forename><forename type="middle">L</forename><surname>Stormer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philip</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature04235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">438</biblScope>
+			<biblScope unit="issue">7065</biblScope>
+			<biblScope unit="page" from="201" to="204" />
+			<date type="published" when="2005-11">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang Y, Tan Y-W, Stormer H L and Kim P 2005 Nature 438 201</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Element specific x-ray magnetic circular dichroism magnetization curves using total electron yield</title>
+		<author>
+			<persName><forename type="first">Eberhard</forename><surname>Goering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Fuss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wibke</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Judith</forename><surname>Will</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gisela</forename><surname>Schütz</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1308095</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="5920" to="5923" />
+			<date type="published" when="2000-11-15">2000</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goering E, Fuss A, Wber W, Will J and Schütz G 2000 J. Appl. Phys. 88 5920</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">X-ray circular dichroism as a probe of orbital magnetization</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Thole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Carra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Der Laan</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.68.1943</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1943" to="1946" />
+			<date type="published" when="1992-03-23">1992</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thole B T, Carra P, Sette F and van der Laan G 1992 Phys. Rev. Lett. 68 1943</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">X-ray circular dichroism and local magnetic fields</title>
+		<author>
+			<persName><forename type="first">Paolo</forename><surname>Carra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Thole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Massimo</forename><surname>Altarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xindong</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.70.694</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="694" to="697" />
+			<date type="published" when="1993-02-01">1993</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carra P, Thole B T, Altarelli M and Wang X 1993 Phys. Rev. Lett. 70 694</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Experimental Confirmation of the X-Ray Magnetic Circular Dichroism Sum Rules for Iron and Cobalt</title>
+		<author>
+			<persName><forename type="first">C T</forename><forename type="middle">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">U</forename><surname>Idzerda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N V</forename><forename type="middle">V</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Meigs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chaban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G H</forename><forename type="middle">H</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pellegrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sette</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.75.152</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="152" to="155" />
+			<date type="published" when="1995-07-03">1995</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen C T, Idzerda Y U, Lin H-J, Smith N V, Meigs G, Chaban E, Ho G H, Pellegrin E and Sette F 1995 Phys. Rev. Lett. 75 152</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Electronic correlation and magnetism in the ferromagnetic metal&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mml:mrow&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;Fe&lt;/mml:mi&gt;&lt;mml:mn&gt;3&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;GeTe&lt;/mml:mi&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;</title>
+		<author>
+			<persName><forename type="first">Jian-Xin</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Janoschek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Chaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Cezar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomasz</forename><surname>Durakiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Filip</forename><surname>Ronning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yasmine</forename><surname>Sassa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Mansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wakeham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">D</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.93.144404</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">2469-9950</idno>
+		<idno type="ISSNe">2469-9969</idno>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">144404</biblScope>
+			<date type="published" when="2016-04-05">2016</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu J-X et al 2016 Phys. Rev. B 93 144404</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Itinerant ferromagnetism mediated by giant spin polarization of the metallic ligand band in the van der Waals magnet &lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mml:mrow&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;Fe&lt;/mml:mi&gt;&lt;mml:mn&gt;5&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:mi&gt;Ge&lt;/mml:mi&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;Te&lt;/mml:mi&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamagami</surname></persName>
+			<idno type="ORCID">0000-0001-6997-6157</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fujisawa</surname></persName>
+			<idno type="ORCID">0000-0002-5436-0883</idno>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Driesen</surname></persName>
+			<idno type="ORCID">0000-0003-3534-4519</idno>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanaka</surname></persName>
+			<idno type="ORCID">0000-0002-5178-7777</idno>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wadati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Araki</surname></persName>
+			<idno type="ORCID">0000-0003-3377-7900</idno>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Muro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Niimi</surname></persName>
+			<idno type="ORCID">0000-0003-1659-0634</idno>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Okada</surname></persName>
+			<idno type="ORCID">0000-0001-9172-0844</idno>
+		</author>
+		<idno type="DOI">10.1103/physrevb.103.l060403</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">2469-9950</idno>
+		<idno type="ISSNe">2469-9969</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">60403</biblScope>
+			<date type="published" when="2021-02-12">2021</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yamagami K et al 2021 Phys. Rev. B 103 L060403</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Beyond van der Waals Interaction: The Case of MoSe&lt;sub&gt;2&lt;/sub&gt; Epitaxially Grown on Few-Layer Graphene</title>
+		<author>
+			<persName><forename type="first">Minh</forename><forename type="middle">Tuan</forename><surname>Dau</surname></persName>
+			<idno type="ORCID">0000-0001-7375-299X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Maxime</forename><surname>Gay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Di Felice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Céline</forename><surname>Vergnaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Marty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cyrille</forename><surname>Beigné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gilles</forename><surname>Renaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Renault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Mallet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Toai</forename><surname>Le Quang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Yves</forename><surname>Veuillen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Loïc</forename><surname>Huder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><forename type="middle">T</forename><surname>Renard</surname></persName>
+			<idno type="ORCID">0000-0001-6242-9468</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Claude</forename><surname>Chapelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Zamborlini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Jugovac</surname></persName>
+			<idno type="ORCID">0000-0001-9525-3980</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Vitaliy</forename><surname>Feyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yannick</forename><forename type="middle">J</forename><surname>Dappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pascal</forename><surname>Pochet</surname></persName>
+			<idno type="ORCID">0000-0002-1521-973X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Matthieu</forename><surname>Jamet</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsnano.7b07446</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2319" to="2331" />
+			<date type="published" when="2018-01-31">2018</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dau M T et al 2018 ACS Nano 12 2319</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Layer-by-Layer Epitaxial Growth of Scalable WSe&lt;sub&gt;2&lt;/sub&gt; on Sapphire by Molecular Beam Epitaxy</title>
+		<author>
+			<persName><forename type="first">Masaki</forename><surname>Nakano</surname></persName>
+			<idno type="ORCID">0000-0002-7461-860X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yue</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuta</forename><surname>Kashiwabara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hideki</forename><surname>Matsuoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshihiro</forename><surname>Iwasa</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.nanolett.7b02420</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Letters</title>
+		<title level="j" type="abbrev">Nano Lett.</title>
+		<idno type="ISSN">1530-6984</idno>
+		<idno type="ISSNe">1530-6992</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="5595" to="5599" />
+			<date type="published" when="2017-08-30">2017</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakano M, Wang Y, Kashiwabara Y, Matsuoka H and Iwasa Y 2017 Nano Lett. 17 5595</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Experimental formation of monolayer group-IV monochalcogenides</title>
+		<author>
+			<persName><forename type="first">Kai</forename><surname>Chang</surname></persName>
+			<idno type="ORCID">0000-0002-4965-4537</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Stuart</forename><forename type="middle">S P</forename><surname>Parkin</surname></persName>
+			<idno type="ORCID">0000-0003-4702-6139</idno>
+		</author>
+		<idno type="DOI">10.1063/5.0012300</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">220902</biblScope>
+			<date type="published" when="2020-06-12">2020</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chang K and Parkin S S P 2020 J. Appl. Phys. 127 220902</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Epitaxy of 2D chalcogenides: Aspects and consequences of weak van der Waals coupling</title>
+		<author>
+			<persName><forename type="first">Wouter</forename><surname>Mortelmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>De Gendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Heyns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clement</forename><surname>Merckling</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmt.2021.100975</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Materials Today</title>
+		<title level="j" type="abbrev">Applied Materials Today</title>
+		<idno type="ISSN">2352-9407</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">100975</biblScope>
+			<date type="published" when="2021-03">2021</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mortelmans W, de Gendt S, Heyns M and Merckling C 2021 Appl. Mater. Today 22 100975</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Synthesis of hexagonal boron nitride: From bulk crystals to atomically thin films</title>
+		<author>
+			<persName><forename type="first">J M J</forename><surname>Lopes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pcrysgrow.2021.100522</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Crystal Growth and Characterization of Materials</title>
+		<title level="j" type="abbrev">Progress in Crystal Growth and Characterization of Materials</title>
+		<idno type="ISSN">0960-8974</idno>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">100522</biblScope>
+			<date type="published" when="2021-05">2021</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lopes J M J 2021 Prog. Cryst. Growth Charact. Mater. 67 100522</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

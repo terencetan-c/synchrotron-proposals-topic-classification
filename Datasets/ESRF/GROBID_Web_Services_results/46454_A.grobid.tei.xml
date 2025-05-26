@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-03-08">8 Mar 2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Pierre</forename><surname>Thibault</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics (E17)</orgName>
+								<orgName type="institution">Technische Universität München</orgName>
+								<address>
+									<postCode>85748</postCode>
+									<settlement>Garching</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Dierolf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics (E17)</orgName>
+								<orgName type="institution">Technische Universität München</orgName>
+								<address>
+									<postCode>85748</postCode>
+									<settlement>Garching</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ana</forename><surname>Diaz</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Paul Scherrer Institute</orgName>
+								<address>
+									<postCode>5323</postCode>
+									<settlement>Villigen PSI</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics (E17)</orgName>
+								<orgName type="institution">Technische Universität München</orgName>
+								<address>
+									<postCode>85748</postCode>
+									<settlement>Garching</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2012-03-08">8 Mar 2012</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C8A0CB8E0EC78E0F00226334261AAA66</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T19:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>1. Objectives Together with MI-1082 ("Ptychographic computed tomography with a broad energy bandwidth"), this proposal was part of a project to demonstrate tomography and laminography based on ptychographic coherent diffractive imaging (PCDI) at ID22NI. After the beamtime for this proposal, whose original objectives were focused on laminography, had been scheduled before the MI-1082 run dedicated to standard tomography, the priority of the experiment reported here was shifted towards a first successful realization of high-resolution ptychographic tomography. The extension to laminography was thus postponed to the July run (MI-1082). In order to obtain ptychographic projection measurements of the high quality required for successful ptychographic tomography, several issues which were encountered during the first test of ptychographic imaging at ID22NI in July 2009 (MI-978) had to be addressed as the first objective of this run.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Measurements performed 2.1 Optimization of projection measurements</head><p>The critical points for ptychographic measurements identified in 2009 (MI-978) were addressed during the first part of experiment in th following way:</p><p>1. Quality of the incoming focused beam: a. Drift problems due to changes of head load on KB system → No longer present with the upgraded mechanical system available in 2011. b. Strong streaks in diffraction data attributed to parasitic scattering from mirror imperfections and the entrance slits. → Solved by introducing an additional clean-up pinhole directly downstream of the KB system. 2. Collection of diffraction data: a. Fast saturation of detector in area of the undiffracted central beam → Increase of sample-to-detector distance to spread the central cone over more pixels. → Motorized beamstop to block the direct beam for increased dynamic range. b. Data acquisition overhead, mainly due to FReLoN readout time → Optimization of read-out time by only reading the innermost 1024x1024 detector pixels using the kinetic region-of-interest read-out mode. Testing the effectiveness of these optimizations and their fine-tuning was done using ptychographic projection measurements performed on a Siemens star test pattern (XRadia Inc., model X50-30-2 with an increased thickness of 700 nm gold), whose smallest features have a size of 50 nm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Ptychographic tomography</head><p>For ptychographic tomography scans three different samples were used: Nanoporous Au prepared by focused ion beam (FIB) milling to have a cylindrical freestanding tip, Ni superalloy prepared in the same way, and Mo-Al-Ti alloy which naturally grows in the form of whiskers. Nanoporous gold: First tests were preformed on the nanoporous gold which was supposed to show the strongest contrast. However, the tip prepared by FIB milling did not yield a good scattering signal. While a piece manually cut from the bulk of the specimen did show the expected strong diffraction, its irregular shape and time constraints only allowed to collect a few of projection angles (31 over 180 degrees range). Ni superalloy: A tomographic scan covering a range of 180 degrees in 120 angular steps was performed which took 10.5 hours in total. Mo-Al-Ti alloy: As it did not exhibit a sufficient scattering signal, only a few ptychographic projections but no tomographic data set was collected for this specimen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head><p>3.1 Projection measurements Due to the optimizations discussed in section 2.1 the quality of the reconstructed projection images could be greatly improved compared to the first PCDI tests in 2009 (see experimental report of MI-978). However, the reconstruction also show some degradation (Fig. <ref type="figure" target="#fig_0">1(a)</ref>) attributed mainly to the detector's response function. Different approaches to address this issue have been integrated in the reconstruction algorithms and -although still requiring further development -already yield significant improvements, (Fig. <ref type="figure" target="#fig_0">1(b)</ref>). Parts of the results will be used in a publication on PCDI with a broad energy bandwidth currently in preparation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Tomographic measurements</head><p>From the tomographic scans discussed in section 2.2, unfortunately no volume of reasonable quality could be obtained: While in all cases the number of angles is very limited, the supposedly best scan on the Ni superalloy only shows the overall shape of the sample while a clear identification of interior features is not possible. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Ptychographic reconstructions of a Siemens star test pattern without (a) and with (b) algorithmic correction of the incoherent background in diffraction patterns created by the detector's scintillator response. Already the visual comparison shows a strong improvement in the sharpness of the retrieved structure. The gain in resolution is further illustrated in (c) and (d), which show line-outs through bars in the second ring from the center (c) or the inner one (d), respectively, as marked by the blue vertical lines in (a) [blue plots] and (b) [green plots]. While in (c) it is demonstrated how the rectangular shape of the lithographic structures is more accurately retrieved in case (b), (d) presents the improved ability to separate the fine features.</figDesc><graphic coords="2,49.00,388.70,497.90,310.10" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

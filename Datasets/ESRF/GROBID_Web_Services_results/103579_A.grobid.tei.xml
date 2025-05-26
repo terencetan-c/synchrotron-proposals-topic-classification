@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY ESRF User Office</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<address>
+									<addrLine>CS 40220 71 avenue des Martyrs</addrLine>
+									<postCode>F-38043 38000 GRENOBLE</postCode>
+									<settlement>GRENOBLE Cedex 9</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY ESRF User Office</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BC5B755F7E5FBDEC912E3D8A56FF0033</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Report for ls-3187 project: Cephalopod vision.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Project objectives and results:</head><p>We proposed to generate an atlas of the full Pygmy squid (Sp. Idiosepius Hallami), that not only showed the overall organization of its organs, but had also sufficient resolution to follow major nerve bundles showing the relationship between its organs and nervous ganglions, i.e the full central and peripheral nervous system. This will enable us (and the Squid community at large) to generate a mesoscale description of the nervous system (a projectome) and also will enable the acquisition of targeted synaptic-resolution volumes to be correlated back to this atlas in order to understand the major inputs and outputs of the imaged volumes. Following some contrast and resin integrity tests we settled at 125 nm/voxel resolution. The stitching of the resulting volume at ESRF (that was accomplished in collaboration with Jayde Livingston from Alexandra Pacureanu's team at ID16a) indicates that our goal has been achieved and has exceeded our expectations in sample contrast and quality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation:</head><p>Pygmy squid Idiosepius hallami hatchlings were prepared for electron microscopy (EM) (Table <ref type="table" target="#tab_0">1</ref>). The hatchlings were sacrificed and immersed in 2.5% Glutaraldehyde, 2% Paraformaldehyde in 0.15M Sodium Cacodylate for at least 72H, at 4℃. After that, samples were incubated in osmium tetroxide, potassium ferrocyanide, pyrogallol, uranyl acetate and lead aspartate (times, concentrations and conditions are detailed in table 1) until dehydration using a graded ethanol series followed by acetone. Embedding was done in durcupan resin. The samples were polymerised at 70℃ for 3 days. All samples were scanned in a Bruker Skyscanner 2401 microCT prior to re embedding. This scan was important to detect cracks or bubbles in the sample, and confirm that the staining was even through the sample. All samples were scanned at 85Kv with a minimum voxel size of 1µm (figure <ref type="figure" target="#fig_0">1a</ref>). Intact samples were selected and re embedded in small aluminium stubs (figure <ref type="figure" target="#fig_0">1b</ref>), and further trimmed to reduce the amount of resin surrounding the sample. At the ESRF the best specimen in terms of integrity and staining quality was mounted on the sample holder (figure <ref type="figure" target="#fig_0">1c</ref>) and introduced in the beamline chamber (figure <ref type="figure" target="#fig_0">1d</ref>). Moreover, tissue preservation was ensured by serial section transmission electron microscope imaging of at least 3 specimens of the same batch. Since Durcupan resin was never used at this beamline, it was necessary to perform test scans at different resolutions and X-Ray doses to check resolution and resin stability (figure <ref type="figure" target="#fig_1">2a</ref>). Test scans covered different areas, like arms and brain (figure <ref type="figure" target="#fig_1">2b</ref> and <ref type="figure" target="#fig_1">2c</ref>) that contain different quantities of heavy metals. All tests were successful as there were no to very little resin expansion or contraction.   We imaged an entire Idiosepius hallami (measuring ~0.6*0.6*1.8mm, the largest volume acquired at this resolution at ID16a) by stitching together approximately 40 volumes acquired at 125 nm/voxel (figure <ref type="figure" target="#fig_2">3</ref>).</p><p>Additionally, we imaged a few selected regions at 50 nm pixel size corresponding to areas of interest with current ongoing projects in the lab.</p><p>The squid was virtually divided in 8 floors (figure <ref type="figure" target="#fig_2">3a</ref>) and in each floor 4-6 scans were performed to cover the whole volume of the animal. During our time at the ESRF, all scans went through the routine holographic x-ray computed tomography workflow and were phase-reconstructed. Examples are shown in figure <ref type="figure" target="#fig_2">3b</ref>, where it is also possible to see small darker areas in the brain. These are big nerve bundles that we will segment in order to generate the projectome. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>We currently have a whole pygmy squid hatchling volume acquired at 125 nm/voxel resolution. This volume is stitched and we are currently working on its segmentation. Figure <ref type="figure" target="#fig_3">4</ref> shows some images of the volume. We can detect not only individual organs (figure <ref type="figure" target="#fig_3">4a</ref>, <ref type="figure" target="#fig_3">4b</ref> and <ref type="figure" target="#fig_3">4c</ref>) and tissues but also nerve bundles in and out of the brain (figure <ref type="figure" target="#fig_3">4d</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future directions:</head><p>We are currently working on segmenting all nerve bundles in the whole pygmy squid. Furthermore, we plan to segment all organs and tissues in order to generate a whole animal atlas. This volume of the whole cephalopod brain and body will enable the study of the contributions of visual circuits to the different behaviours exhibited by the animal, the major interest of one of the projects in the lab by following the long-range axon projections from the photoreceptors to the different brain lobes, i.e the visual information flow. Circuits connected with efferent optic tracts projecting to the lateral basal lobes are likely associated with vision-driven camouflage, very specific to cephalopods, while the visual input onto neural circuits in associative and memory centres such as the vertical lobe might save memories allowing a myriad of delayed and planned behaviours, such as hiding in safe spots, remembering threats or guiding responses to conspecifics. Since cephalopods represent the culprit of brain sophistication in invertebrates and have evolved in parallel to vertebrates for hundreds of millions of years, the detailed comparisons of circuits responsible for vision, memory or action selection will shed light into convergent solutions to implement canonical computations but also species-specific ones, like camouflage. This atlas will prove essential in enabling the community to engage in these exciting comparative studies in the years to come.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Sample selection and setup. a) MicroCT of the selected specimen. b) Re-embedding and mounting of the selected specimen on the beamline-compatible aluminium stub. c) resin was further trimmed, and stub placed in the beamline holder; d) sample entering the beamline chamber.</figDesc><graphic coords="3,44.70,37.50,516.00,561.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Test scans. a) Test scan of eye at a resolution of 100nm/voxel. The durcupan resin resisted this scan resiliently. b) and c) 3D rendering of test scans, b) showing the arms and c) part of the eye and optic lobe.</figDesc><graphic coords="4,44.70,37.50,516.00,167.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Beamline time planification and reconstruction a) Virtual division of the pygmy squid in 8 floors. b) Visualisation of some individual scans after phase reconstruction.</figDesc><graphic coords="4,47.49,388.23,473.50,372.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4</head><label>4</label><figDesc>Figure 4 Whole pygmy squid volume. a) optic lobe in pink; b) eye in purple and optic lobe in pink; c) whole pygmy squid showing arms in green and eye in purple; d) arms in green, eye in purple and some nerve bundles inside brain in pink.</figDesc><graphic coords="5,44.70,146.09,516.00,306.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Electron Microscopy sample preparation protocol.</figDesc><table><row><cell>Solution</cell><cell>Concentration</cell><cell>Condition</cell><cell>Notes</cell></row><row><cell>Glutaraldehyde and</cell><cell>2.5%, 2% in 0.15M Sodium</cell><cell>&lt;72H at 4C</cell><cell></cell></row><row><cell>Paraformaldehyde in Sodium</cell><cell>Cacodylate</cell><cell></cell><cell></cell></row><row><cell>Cacodylate</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sodium Cacodylate</cell><cell>0.15 M pH=7.4</cell><cell>1*30' RT</cell><cell></cell></row><row><cell>Osmium Tetroxide</cell><cell>2% in 0.15 M Sodium</cell><cell>24h RT</cell><cell></cell></row><row><cell></cell><cell>Cacodylate pH=7.4</cell><cell></cell><cell></cell></row><row><cell>Sodium Cacodylate</cell><cell>0.15 M pH=7.4</cell><cell>3*30' 4C</cell><cell></cell></row><row><cell>Potassium Ferrocyanide</cell><cell>2.5% in 0.15 M Sodium</cell><cell>O/N 4C</cell><cell>Dark</cell></row><row><cell></cell><cell>Cacodylate pH=7.4</cell><cell></cell><cell></cell></row><row><cell>Sodium Cacodylate</cell><cell>0.15 M pH=7.4</cell><cell>3*30' RT</cell><cell></cell></row><row><cell>Osmium Tetroxide</cell><cell>2% in 0.15 M Sodium</cell><cell>3h RT</cell><cell></cell></row><row><cell></cell><cell>Cacodylate pH=7.4</cell><cell></cell><cell></cell></row><row><cell>Sodium Cacodylate</cell><cell>0.15 M pH=7.4</cell><cell>2*30' RT</cell><cell></cell></row><row><cell>Water</cell><cell></cell><cell>2*30' RT</cell><cell></cell></row><row><cell>Pyrogallol</cell><cell>4% Pyrogallol in H2O</cell><cell>O/N RT</cell><cell>Dark</cell></row><row><cell>Water</cell><cell></cell><cell>2*30' RT</cell><cell></cell></row><row><cell>Osmium Tetroxide</cell><cell>2% in Water</cell><cell>6h RT</cell><cell></cell></row><row><cell>Water</cell><cell></cell><cell>2*30' RT</cell><cell></cell></row><row><cell>Uranyl Acetate</cell><cell>4% Uranyl Acetate</cell><cell>O/N 4C</cell><cell>Dark</cell></row><row><cell>Uranyl Acetate</cell><cell>4% Uranyl Acetate</cell><cell>2h 50C</cell><cell>Dark</cell></row><row><cell>Water</cell><cell></cell><cell>2*30 RT</cell><cell></cell></row><row><cell>Ethanol</cell><cell>50% EtOH in H20</cell><cell>30' 4C</cell><cell></cell></row><row><cell>Ethanol</cell><cell>75% EtOH in H20</cell><cell>30' 4C</cell><cell></cell></row><row><cell>Ethanol</cell><cell>100%</cell><cell>45' RT</cell><cell></cell></row><row><cell>Acetone</cell><cell>100% (Change /45')</cell><cell>2h45' RT</cell><cell></cell></row><row><cell>Durcupan</cell><cell>25% Durcupan in Acetone</cell><cell>O/N 4C</cell><cell></cell></row><row><cell>Durcupan</cell><cell>50% Durcupan in Acetone</cell><cell>O/N 4C</cell><cell></cell></row><row><cell>Durcupan</cell><cell>75% Durcupan in Acetone</cell><cell>O/N 4C</cell><cell></cell></row><row><cell>Durcupan</cell><cell>100% Durcupan</cell><cell>2days 4C</cell><cell></cell></row><row><cell>Embed</cell><cell></cell><cell>3days 70C</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

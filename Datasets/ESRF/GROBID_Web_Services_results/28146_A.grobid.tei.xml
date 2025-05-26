@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2005-02-28">28 February 2005</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Alberto</forename><surname>Bravin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Graphics Division</orgName>
+								<orgName type="institution">CREB Universitat Politècnica de Catalunya Barcelona</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mr</forename><forename type="middle">Paul</forename><surname>Tafforeau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Graphics Division</orgName>
+								<orgName type="institution">CREB Universitat Politècnica de Catalunya Barcelona</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Dolors</forename><surname>Ayala</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Graphics Division</orgName>
+								<orgName type="institution">CREB Universitat Politècnica de Catalunya Barcelona</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergi</forename><surname>Grau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Graphics Division</orgName>
+								<orgName type="institution">CREB Universitat Politècnica de Catalunya Barcelona</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Dani</forename><surname>Tost</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computer Graphics Division</orgName>
+								<orgName type="institution">CREB Universitat Politècnica de Catalunya Barcelona</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2005-02-28">28 February 2005</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">25590B4EE775EB49C5627602ACB2DA97</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T16:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this report we describe a series of experiments realized at beam line ID 17 of the ESRF. These experiments belong to a research project aimed at studying the evolution of biomaterial implants in rabbit specimens. Three groups participate in the project: a materials group, responsible of the design and study of the biomaterials, a veterinarian group, responsible of the implantation, care and sacrifice of the animals and our group, the computer graphics group, interested in the modelling and visualization of 3D datasets and time-varying datasets. The goal of the experiments realized at the ESRF is to obtain a stack of 3D images of the specimens bones in ordre to reconstruct and visualize a 3D model of them and compare it with the information obtained from histological cuts. The experiment consists in the study of the evolution of four temporal sets: three with a biomaterial implanted and one without any implant. The three materials were two cements, hydroxipatite deficient in calcium, Ca 9 (P O 4 ) 5 (HP O 4 )OH, one dense and the other porous and one glass, calcium phosphate reinforced with T iO 2 . The periods to study were 1, 4 and 12 weeks. The animals used were new Zealand white rabbits 4 months old and the materials were implanted at the femoral ends. The implantation was performed at the end of April and we were given the 12 samples fixed in formol at the end of July. At the ESRF, we saw that we would be able to put 3 samples on the support and obtain an image of all of them at once. Therefore, we obtained 3 images with samples corresponding to 1, 4 and 12 weeks respectively with the three materials implanted and one image with the control samples corresponding to 1, 4 and 12 weeks without any material implanted.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The capture system is able to process 5 scans of 16 slices automatically. There are 2 overlapping slices in consecutive scans and therefore in each group of 5 scans we processed 72 slices. As the precision is 47µm 3 /voxel, the traversal was of 3.384mm for each group of 5 scans. Therefore, as the sample height was about 3cm we needed to apply the process 10 or 11 times for each image. The final resulting file size was of 1929321 (1389x1389) bytes for each image.</p><p>The capture system generates a synogram for each slice. The following table shows all the information related to the captures. Image # of Initial Size bet. Value range captures capture captures 1 week 10 236055 3055 [-0.8749179,1.7194947] 4 week 9 243055 3055 [-1.8395381,1.9305849] 12 weeks 9 240055 3055 [-1.0152638,1.5675046] control 11 228000 3055 [-1.0630543,1.8503094]</p><p>Figure <ref type="figure">1</ref> (left) shows the 3 sample sets corresponding to 4 weeks. After this capture process, there are several computer processes to be applied:</p><p>• CT reconstruction</p><p>• clipping and segmentation of the volume</p><p>• Visualization: 2D slices and 3D image</p><p>The CT reconstruction process was performed with a custom software available at the ID17 line. From each synogram obtained in the previous process this software generates a 2D slice of voxels with floating point associated values. We merged all these slices and coded the values in a byte obtaining a 3D voxelization of 1389 × 1389 × 772.</p><p>The following process was applied in order to obtain a volume representation for each sample. First of all, as the initial voxelization showed a large quantity of empty space, we clipped the volume according to the minimal containing box of the three samples appearing in it, obtaining a 3D voxelization of 981 × 1024 × 645.</p><p>As each image contained the representation of three samples, we developed an application to extract three different volume models, one for each sample. We used a graphics interface library developed by our group to design the graphics interface used in this application (see Figure <ref type="figure">2</ref>). We had several problems to apply the classical connected component labeling algorithm to the images because there was some noise in between.</p><p>Figure <ref type="figure">1</ref> (right) shows one slice of the sample corresponding to 4 weeks and porous cement. We used the Volume Visualization Platform also developed by our group to obtain a voxel model of each sample and to visualize it. Figure <ref type="figure">3</ref> shows a 3D visualization of the sample with dense cement (1 week).</p><p>ESRF Experiment Report Form July 1999</p><p>1 Experiment: results</p><p>The images show that although the animals are very similar and the implants are located in the same zone of the bone, the differences between specimens are too important to allow us to simulate a continuous animation in time. Samples can be studied separately but no interpolation between them can be done. A continuous study requires an in-vivo experiment with captures done on the same animal at different time instants.</p><p>In addition, the resolution of the images is good and comparable to that of hystological studies. The contrast of the biomaterial is sufficient to segment it and makes it possible to do measurements on it.</p><p>A qualitative study of the materials has been performed together with the materials and the veterinarian groups. We can conclude that concerning the glass material we can observe that it is not absorbed by the cellular tissue and, therefore, it is not a good material for this application. In the other two materials there is a major degree of absorption, but quantitative measurements are needed to analyze to which extend this absortion makes the material useful.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Future work</head><p>In order to evaluate the remaining materials, we need more work to be done. First, from our software we need to:</p><p>• extract the zone containing the implant (6mm of implant diameter plus 3mm of the sorrounding zone</p><p>• perform axial cross sections to this zone</p><p>• compute the volume of the implant in this zone</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Conclusions</head><p>With this experiment we have been able to test our Volume Visualization software with real samples, not only phantoms, to compare results from hystology and imagery and we are obtaining new requests from possible users of our software as are the people of the materials and veterinarian groups.</p><p>As our current area of interest is time-varying modeling and visualization, we would like to have images of a real temporal sequence and, therefore, we need to have the results of an in-vivo experiment.</p><p>ESRF Experiment Report Form July 1999 Figure 2: The graphical user interface for the connected component labeling Figure 3: A 3D view of the sample with the dense cement (1 week)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :Figure 2 :</head><label>12</label><figDesc>Figure 1: One slice of the set corresponding to 4weeks (left) and one slice of sample with porous cement (right)</figDesc><graphic coords="4,292.56,45.30,242.00,208.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8B7D6C403D376A624694D51B11C46D82</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental report HC-2284</head><p>This experiment is a continuation of beamtime HC-1750, where we had detected x-ray excited GaAs luminescence with a newly developed setup, but only rather weak and with several technical shortcomings (see respective experimental report).</p><p>This time the optical setup has been improved in several aspects. The Al-coated mirrors in the collection optic have been replaced by Au-coated ones with a better reflectivity in the 900 nm range where GaAs emits. A slightly better spectrometer has been used, with a detector with a high quantum efficiency in the relevant spectral range. The most important improvement, however, was the addition of several alignment stages to the base carrying the mirror optics. It turned out that even although the center of rotation of the goniometer has been aligned with greatest possible care (a big compliment to our local contact Tao Zhou and the whole ID01 team) to coincide with the focal spot of the x-ray beam and the focal spot of the XEOL collection optics, slight unavoidable misalignments after sample change or larger sample movements in the few 10 µm range lead to a dramatic loss in collected XEOL intensity.</p><p>In total, we have gained many orders of magnitude in XEOL intensity, and could actually start with the real experiment, measuring the luminescence of thin GaAs membranes as a function of strain applied by a piezo-based tensile straining device depicted in Fig. <ref type="figure">1</ref>.</p><p>By applying electric biases from 0V to 200V to the top and bottom contacts of the piezo legs, roughly uniaxial strain is induced to the GaAs membrane bonded across the gap between the legs. This strain has been measured using the (002) and ( <ref type="formula">113</ref>) GaAs Bragg reflections. At the same time, the 8 keV x-ray photons excited the XEOL signal.  shift of the luminescence is observed, as shown in Fig. <ref type="figure" target="#fig_3">3</ref>(a). Due to the uniaxial strain, the degeneracy between light-hole and heavy hole states is lifted, and the XEOL line is composed of a superposition of two lines. Due to the selection rules, those lines can be distinguished by their polarization. Therefore, we have recorded all spectra as a function of polarization using a rotating polarizer in the parallel beam section of the collection optics. Representative spectra and the full scan are shown in Fig. <ref type="figure" target="#fig_3">3(b</ref>,<ref type="figure">c</ref>).</p><p>In the reciprocal space maps in Fig. <ref type="figure" target="#fig_1">2</ref>(a), several peaks can be observed, hinting to inhomogeneities of the strain and/or tilt state of the membranes. In order to quantify the variations, we have used fast raster scans of the real-space position at different Bragg angles around the (002) GaAs reflection. For this purpose, a Fresnel zone plate was used to focus the x-ray beam to around 500×500 nm 2 . The results are shown in Fig. <ref type="figure" target="#fig_2">4</ref>. Obviously, already without applied bias a rather inhomogeneous strain and tilt distribution is present. This is associated to the bonding process, where different thermal expansions and inhomogeneous bond thickness/stiffness seem to be problematic.</p><p>Upon applying a bias, the strain and tilt change, as can be seen in Fig. <ref type="figure" target="#fig_4">5</ref>. While the strain globally moves towards smaller values, locally the amplitude of this variation varies, and some regions even Shaded areas show regions where the GaAs membrane sits on top of the piezo legs (part of the bonding area). For this analysis the main maximum in the maps was evaluated and strain is calculated relative to the nominal GaAs peak position. show the opposite behavior. Inhomogeneities appear also in the regions where the membrane is bonded onto the piezo legs, showing that the effect is not only geometric due to the finite leg width, but related to an inhomogeneous bonding strength of the membrane. Thus care has to be taken when evaluating the relation between strain and luminescence line shift. Without the use of a nanofocused x-ray beam, those effects could not have been detected and observed.</p><p>In summary, we could show in this experiment that XEOL is effective enough to measure even polarization-resolved data, both using "conventional" beam sizes in the few 100µm area as well as using a focused beam with about 500 nm size. This demonstrates the possibility to use XEOL as a local probe in combination with high-resolution diffraction as a local strain probe, which will be very useful for a number of in-situ studies simultaneously probing structural an optical properties at the nanoscale. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Figure 1: (a) sketch and (b) image of the two-leg piezo device to apply uniaxial strain to a GaAs membrane bonded on top. The back side of the piezo has Au contacts as well, serving as ground.</figDesc><graphic coords="1,241.92,126.48,273.12,116.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: (a) GaAs (002) reciprocal space map of a strained GaAs membrane. The 3D map is shown in 3 projections: scattering plane (left; -Q y is perpendicular to membrane surface) tilt-out-of plane-strain plane (middle), and tilt-in-plane strain plane (right). Rather than a single Bragg peak, different peaks corresponding to different strain and tilt states are visible. Beam size was 100×100 µm 2 (b) XEOL spectra from the strained GaAs membrane for different bias settings of the piezo legs.</figDesc><graphic coords="1,327.84,344.64,192.96,283.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: real space distribution of out-of-plane strain (left) and tilt (right) obtained from the reciprocal space maps.Shaded areas show regions where the GaAs membrane sits on top of the piezo legs (part of the bonding area). For this analysis the main maximum in the maps was evaluated and strain is calculated relative to the nominal GaAs peak position.</figDesc><graphic coords="2,80.40,488.40,438.72,168.96" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: (a) XEOL line shift of the GaAs emission line as a function of in-plane strain. (b) XEOL spectra for different polarizer settings, showing the composition of the emission of two lines with different polarization. (c) full map of XEOL spectra as a function of polarizer angle.</figDesc><graphic coords="2,78.00,76.32,313.92,168.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: in-plane distribution of the strain change (colormap, in %) and tilt change (arrows; length in ° exaggerated by a factor of 2) relative to the 0V case (Fig. 4) for applied bias of 120 V (left) and 240V (right). Shaded areas show regions where the GaAs membrane sits on top of the piezo legs (part of the bonding area).</figDesc><graphic coords="3,79.20,153.60,442.32,169.44" type="vector_box" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

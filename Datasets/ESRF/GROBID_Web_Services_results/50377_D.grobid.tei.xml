@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Measurement of phonon dispersion in Ti-24Nb-4Zr-8Sn by inelastic X-ray scattering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2013-01-21">21/01/2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alexei</forename><surname>Bossak</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Edward</forename><surname>Obbard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Australian Nuclear Science and Technology Organisation (ANSTO) New Illawarra Rd Lucas Heights New South Wales AUS -NSW 2234</orgName>
+								<address>
+									<country>SYDNEY</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">New South Wales AUS -NSW</orgName>
+								<address>
+									<addrLine>2234 MENAI 3</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergey</forename><surname>Danilkin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Bragg Institute -ANSTO Private Mail Bag</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yulin</forename><surname>Hao</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Haoliang</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Liaoning Province</orgName>
+								<orgName type="institution">Chinese Academy of Sciences Shenyang National Laboratory for Materials Science Institute of Metal Research (IMR)</orgName>
+								<address>
+									<postCode>CHN -110016</postCode>
+									<settlement>SHENYANG</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Measurement of phonon dispersion in Ti-24Nb-4Zr-8Sn by inelastic X-ray scattering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-01-21">21/01/2013</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E3D1B18F449401E863A5A2CFAE7F7E52</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>HS-4808</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>The phonon dispersion of pure β phase titanium at 1020°C has been measured <ref type="bibr" target="#b0">[1]</ref>, as has that of NiTi-based shape memory materials <ref type="bibr" target="#b1">[2]</ref>, and these measurements continue to support advances in understanding of elastic constants and transformation behaviour <ref type="bibr" target="#b2">[3]</ref>. Despite widespread interest in alloys based on the titanium-group V/VI bcc system for the development of low-elastic modulus biomedical alloys <ref type="bibr" target="#b3">[4]</ref>, the phonon dispersion of a representative alloy at room temperature has never been measured. Doing so is expected to provide significant insight into control of elastic properties, as well as deeper understanding of martensitic transformations in titanium. Ti-24Nb-4Zr-8Sn (wt%) is an excellent case study for this purpose because it has the lowest polycrystalline Young's modulus yet measured in β phase titanium. This inelastic X-ray scattering work is being carried out following previous synchrotron X-ray powder diffraction work <ref type="bibr" target="#b4">[5]</ref> and is part of a project carried out by ANSTO and IMR, Shenyang, China, to research elastic properties of Ti-24Nb-4Zr-8Sn, especially non-linear behaviour in single crystals <ref type="bibr" target="#b5">[6]</ref> at low stress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental overview</head><p>Several branches of dispersion curves in the bcc β phase of Ti-24Nb-4Zr-8Sn were acquired at 100K, 298K and 423K. For the 298K measurements, samples of two different oxygen content were measured. In all cases LA[111] and then TA1[112] and TA1[110] branches were measured for their relevance to, respectively, the β-ω and β-α″ transformations. Thereafter sufficient other branches were measured to define elastic constants of the β phase. The scope of measurements is shown in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treatment of Data</head><p>FIT28 was used to fit the raw data and define excitation energies, among other parameters. Use of the Damped Harmonic Oscillator function was necessary to account for the large damping that caused wide and flat peaks in many branches, especially those with low energy. In some cases a second excitation peak was also required to improve quality of fitting. The appearance of the dispersion curves is qualitatively similar to that of pure titanium at high temperature <ref type="bibr" target="#b0">[1]</ref>, with low energy TA1[110] and TA1[112] branches under 10 meV, and the pronounced anomaly in LA <ref type="bibr">[111]</ref> where energy transfer falls to zero energy at q=2/3. An example of raw data and peaks fit in FIT28 are shown in Figure <ref type="figure" target="#fig_0">1</ref>.</p><p>Dispersion curve sets are being prepared for publication, with additional first-principles modelling planned to provide explanation for the different nature of the soft modes and other anomalies as a function of oxygen concentration and temperature, and link these to the elastic properties.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Inelastic scattering data from 0.10 wt%O, 298K, LA[100]: (left) FIT28 curve fitting at q=0.4; (right) contour plot of corrected intensity for all measurements along LA[100] branch.</figDesc><graphic coords="2,308.93,314.35,248.75,201.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Number of data points measured for phonon branches</figDesc><table><row><cell cols="2">Planes Mode</cell><cell cols="4">0.10w% O 100 K 0.10w% O 298 K 0.10w%O 423 K 0.18w%O 298 K</cell></row><row><cell>112</cell><cell>L</cell><cell></cell><cell>2</cell><cell></cell><cell></cell></row><row><cell>112</cell><cell>T1</cell><cell>11</cell><cell>19</cell><cell>10</cell><cell>10</cell></row><row><cell>110</cell><cell>L</cell><cell>3</cell><cell>3</cell><cell>4</cell><cell>5</cell></row><row><cell>110</cell><cell>T1</cell><cell></cell><cell>5</cell><cell>7</cell><cell>5</cell></row><row><cell>001</cell><cell>L</cell><cell>3</cell><cell>9</cell><cell>7</cell><cell>3</cell></row><row><cell>001</cell><cell>T</cell><cell>3</cell><cell>10</cell><cell>7</cell><cell>5</cell></row><row><cell>111</cell><cell>L</cell><cell>11</cell><cell>23</cell><cell>14</cell><cell>11</cell></row><row><cell>111</cell><cell>T</cell><cell></cell><cell>10</cell><cell>3</cell><cell>3</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Phonon dispersion of the bcc phase of group-IV metals. I. bcc titanium</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Petry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heiming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trampenau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Herzig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Schober</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vogl</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.43.10933</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<idno type="ISSNe">1095-3795</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="10933" to="10947" />
+			<date type="published" when="1991-05-01">1991</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Petry, A. Heiming, J. Trampenau, M. Alba, C. Herzig, et. al.; Phys. Rev. B, v43 (1991) 10933- 10947.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Observation of a soft-phonon mode and a pre-martensitic phase in the intermetallic compound Ti&lt;sub&gt;50&lt;/sub&gt;Ni&lt;sub&gt;47&lt;/sub&gt;Fe&lt;sub&gt;3&lt;/sub&gt;studied by inelastic neutron scattering</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Moine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Allain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Renker</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0305-4608/14/11/009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics F: Metal Physics</title>
+		<title level="j" type="abbrev">J. Phys. F: Met. Phys.</title>
+		<idno type="ISSN">0305-4608</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2517" to="2523" />
+			<date type="published" when="1984-11">1984</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Moine, J. Allain, B. Renker; J. Phys. F Met. Phys. 14 (1984) 2517-2523.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Martensitic transformation path of NiTi</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hatcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">Yu. </forename><surname>Kontsevoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Freeman</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.79.020202</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">20202</biblScope>
+			<date type="published" when="2009-01-13">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Hatcher, O. Yu. Kontsevoi, A. J. Freeman; Phys. Rev. B, v79 (2009) 020202.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Titanium alloys for biomedical applications</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Rack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Qazi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2005.08.032</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: C</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: C</title>
+		<idno type="ISSN">0928-4931</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1269" to="1277" />
+			<date type="published" when="2006-09">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. J. Rack, J. I. Qazi; Mater. Sci. Eng. C, v26 (2006) 1269-1277.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The effect of oxygen on α″ martensite and superelasticity in Ti–24Nb–4Zr–8Sn</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Obbard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Talling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2010.09.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="112" to="125" />
+			<date type="published" when="2011-01">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. G. Obbard, Y. L. Hao, R. J. Talling, S. J. Li, Y. W. Zhang, D. Dye, R. Yang. The effect of oxygen on α″ martensite and superelasticity in Ti-24Nb-4Zr-8Sn; Acta Mater. v59 (2011) 112-125.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Elastic properties of Ti–24Nb–4Zr–8Sn single crystals with bcc crystal structure</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Obbard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2011.01.048</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3081" to="3090" />
+			<date type="published" when="2011-05">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. W. Zhang, S. J. Li, E. G. Obbard, H. Wang, S. C. Wang, Y. L. Hao, R. Yang. Elastic properties of Ti- 24Nb-4Zr-8Sn single crystals with bcc crystal structure; Acta Mater. v59 (2011) 3081-3090.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

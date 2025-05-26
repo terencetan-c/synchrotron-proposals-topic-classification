@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jiri</forename><surname>Novak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Synchrotron Radiation</orgName>
+								<address>
+									<addrLine>Forschungszentrum Karlsruhe</addrLine>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein- Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Minkevich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Synchrotron Radiation</orgName>
+								<address>
+									<addrLine>Forschungszentrum Karlsruhe</addrLine>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein- Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Fohtung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Synchrotron Radiation</orgName>
+								<address>
+									<addrLine>Forschungszentrum Karlsruhe</addrLine>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein- Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Riotte</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Synchrotron Radiation</orgName>
+								<address>
+									<addrLine>Forschungszentrum Karlsruhe</addrLine>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein- Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Grigoriev</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Synchrotron Radiation</orgName>
+								<address>
+									<addrLine>Forschungszentrum Karlsruhe</addrLine>
+									<postCode>76344</postCode>
+									<settlement>Eggenstein- Leopoldshafen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5C56714E1C1B1670981741C0B24856BC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>HS-3635</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Coherent diffractive imaging based on iterative phase retrieval algorithms <ref type="bibr" target="#b0">[1]</ref> is well known for its ability to reconstruct the phase of the measured X-ray wave front. An assumption about Fourier Transform relation between direct and reciprocal spaces is used, and it in turn allows us to reconstruct the object under investigation. Such algorithms are an established technique to image small isolated nanoparticles and strain free crystals, when their image in direct space is described by the real-valued function. Application of these phase retrieval methods to the strained crystals, which are expressed by complex-valued numbers, to study the internal strain has proven to be a nontrivial task. Reconstruction of highly inhomogeneous strain fields of the order of 10 -3 usually leads to algorithm stagnation in the vicinity of the local minima without finding the correct solution <ref type="bibr" target="#b2">[2,</ref><ref type="bibr" target="#b3">3]</ref>. The number of local minima increases with increase of strain inhomogeneity <ref type="bibr" target="#b3">[3]</ref>. Recently, we have extended the algorithms adopted for the determination of larger strain of the order of 10 -3 . In the current work we investigate the strain state in inhomogeneously strained (GaMn)As/GaAs periodical wires using our phase retrieval algorithm. Magnetocrystalline anisotropy of diluted magnetic semiconductor layers like GaMnAs can be substantially affected by elastic strains <ref type="bibr" target="#b4">[4]</ref>. Due to the lattice mismatch between GaMnAs and GaAs, depending mainly on the concentration of Mn interstitial atoms <ref type="bibr" target="#b5">[5]</ref>, epitaxial GaMnAs layers deposited on GaAs substrates are biaxially compressed. The local strain status of the layers can be efficiently affected by lateral lithographical patterning of the surface, which creates a periodic sequence of thin wires and groves (surface grating). In the investigated structures the period of wires is T=2 μm and the nominal wire width is 1 μm. A 200 nm thick (Ga,Mn)As layer with a nominal Mn concentration of about 7% was grown onto a (001)GaAs substrate (Fig. <ref type="figure" target="#fig_0">1</ref>). The periodic wire structure was prepared by electron-beam lithography and reactive ion etching with an etching depth of approx. 700 nm. The (Ga,Mn)As surface wires were oriented along the [1-10] direction. The technological details can be found elsewhere <ref type="bibr" target="#b4">[4]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>The measurements have been done at the ID01B beamline using photon energy of 8 keV. A two-dimensional reciprocal-space map (RSM) was recorded in vicinity of the 004 reciprocal lattice point (Fig. <ref type="figure" target="#fig_2">2</ref>). The RSM q x q z plane is perpendicular to the alignment of the wires. Two separated features in the RSM correspond to the 004 reciprocal lattice points of GaAs and (Ga,Mn)As (the corresponding difference in Bragg angles is about 0.2 degree). Performing the phase-retrieval algorithm, we assumed that the unit cells both in (Ga,Mn)As and GaAs crystals are not deformed but only shifted as wholes, so that their structure factors are not affected by elastic deformation. The measured RSM was divided in two regions Ω L and Ω S (see Fig. <ref type="figure" target="#fig_2">2</ref>), and each of them was used further for an independent reconstruction of the corresponding composite parts (Ga,Mn)As and GaAs of the wire, respectively. We have found the amplitudes and phases of the waves scattered from Ω L and Ω S separately <ref type="bibr" target="#b6">[6]</ref>. Thus we illustrated the material-specific nature of x-ray diffraction allowing independent analysis of each element of the structure. The results of these individual reconstructions gave the continuous field of displacement, building up the strained inhomogeneous system as a whole (Fig. <ref type="figure" target="#fig_1">3</ref>). The reproducibility of the obtained solutions was proven performing a series of inversion cycles starting from different sets of random phases of the scattered radiation. The direct-space resolution achieved is about 10×10 nm 2 . These results offer important perspective for local strain determination at the nanoscale. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (GaMn)As/GaAs periodic wires (2μm period) on GaAs substrate</figDesc><graphic coords="2,424.56,66.30,135.38,82.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3:Retrieved vertical component of displacement field in (GaMn)As/GaAs single wire (in Ǻ).</figDesc><graphic coords="2,277.02,512.10,270.36,135.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Reciprocal space map near 004 reflection of (GaMn)As (lower peak) / GaAs (upper peak) wires in the plane perpendicular to the etched wires direction.</figDesc><graphic coords="2,34.02,512.10,234.32,210.12" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>Andrey.Minkevich@iss.fzk.de</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Phase retrieval algorithms: a comparison</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Fienup</surname></persName>
+		</author>
+		<idno type="DOI">10.1364/ao.21.002758</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Optics</title>
+		<title level="j" type="abbrev">Appl. Opt.</title>
+		<idno type="ISSN">0003-6935</idno>
+		<idno type="ISSNe">1539-4522</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">2758</biblScope>
+			<date type="published" when="1982-08-01">1982</date>
+			<publisher>Optica Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. R. Fienup, Appl. Opt. 21, 2758 (1982);</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Gerchberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">O</forename><surname>Saxton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optik (Stuttgart)</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">237</biblScope>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. W. Gerchberg and W. O. Saxton, Optik (Stuttgart) 35, 237 (1972).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Inversion of the diffraction pattern from an inhomogeneously strained crystal using an iterative algorithm</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Minkevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gailhanou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-S</forename><surname>Micha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Charlet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chamard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.76.104106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">104106</biblScope>
+			<date type="published" when="2007-09-17">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.A. Minkevich, M.Gailhanou, J.-S.Micha, B.Charlet, V.Chamard, O.Thomas. Phys. Rev. B 76, 104106 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Applicability of an iterative inversion algorithm to the diffraction patterns from inhomogeneously strained crystals</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Minkevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baumbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gailhanou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.78.174110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page">174110</biblScope>
+			<date type="published" when="2008-11-25">2008</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.A. Minkevich, T. Baumbach, M.Gailhanou, O.Thomas. Phys. Rev. B 78, 174110 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Local control of magnetocrystalline anisotropy in (Ga,Mn)As microdevices: Demonstration in current-induced switching</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wunderlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Irvine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zemen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Holý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Rushforth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>De Ranieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Rana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Výborný</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jairo</forename><surname>Sinova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Foxon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Campion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Gallagher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jungwirth</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.76.054424</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">54424</biblScope>
+			<date type="published" when="2007-08-13">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wunderlich, A. C. Irvine, J. Zemen, V. Holý, A. W. Rushforth, E. D. Ranieri, U. Rana, K. Výborný, J. Sinova, C. T. Foxon, et al., Phys. Rev. B 76, 054424 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Lattice constant in diluted magnetic semiconductors (Ga,Mn)As</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mašek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kudrnovský</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Máca</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.67.153203</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<idno type="ISSNe">1095-3795</idno>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">153203</biblScope>
+			<date type="published" when="2003-04-30">2003</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Mašek, J. Kudrnovský, and F. Máca, Phys. Rev. B 67, 153203 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Selective coherent x-ray diffractive imaging of displacement fields in (Ga,Mn)As/GaAs periodic wires</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Minkevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fohtung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Slobodskyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Riotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grigoriev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schmidbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Irvine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Novák</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Holý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baumbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.84.054113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note>Submitted</note>
+	<note type="raw_reference">A.A. Minkevich, E. Fohtung, T. Slobodskyy, M. Riotte, D. Grigoriev, M. Schmidbauer, A.C. Irvine, V. Novak, V. Holy, T. Baumbach. Submitted (2009).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

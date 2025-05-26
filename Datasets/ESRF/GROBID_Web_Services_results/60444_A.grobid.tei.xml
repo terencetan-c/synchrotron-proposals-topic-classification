@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4D5483F5A4303CC0E04BC41F1D22F5AA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report on the first experiment to efficiently focus 100 keV x-rays down to a spot size below 100 nm in 2D. This was achieved using a high-aspect ratio (&gt; 10 3 ) Multilayer Zone Plate (MZP) with 10 nm outermost zone width and an optical thickness of 30 µm. For this experiment, the new Laue-Laue monochromator of ID-31 was used for the first time. We have applied our MZP optic for nano-Bragg scans on buried silver crystals and show that it possible to detect the nano-structure of crystal grains hidden inside amorphous claddings.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MZP fabrication</head><p>The Multilayer Zone Plate shown in Fig. <ref type="figure" target="#fig_0">1</ref> has been fabricated using the thin film technique of Pulsed Laser Deposition (PLD), yielding alternating zones of Zr O 1.8 and Ta 2 O 1 on a rotating glass fibre <ref type="bibr">[1]</ref> that is tapered to increase efficiency. The layer thickness corresponds to the Fresnel zone plate law over the whole cross section of 8.6 µm in diameter, with outermost zones of 10 nm. From the initial glass wire with a length of several millimetres, we have prepared an MZP of 30 µm in optical thickness, corresponding to an aspect ratio of up to 1:3000. The focal length has been chosen to 4 mm at 60 keV and 6.7 mm at 100 keV.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Efficiency</head><p>The MZP has been placed into the pre-focused ID-31 beam, first at 60 keV (0.44 % bandwidth) and later at 100 keV x-ray energy (0.57 % bandwidth). After alignment, the focusing efficiency at 60 keV can be estimated: From an incoming flux of 2.2×10 11 ph/s, about 7.1×10 10 ph/s reach the Pilatus CdTe detector, and 2.6×10 8 ph/s are scattered by the MZP. Correcting for beam stop shadow, geometric mismatch of the 60 µm × 30 µm pre-focused beam, and ±1 st focus order yields an effective efficiency of 7.9 % for the MZP.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nano-Bragg on buried silver crystals</head><p>To demonstrate the capabilities of this high-energy small focus, we have collected diffraction data in Bragg geometry from polycrystalline silver droplets, which have been hidden inside Zr O 2 by PLD. One typical droplet is shown in Fig. <ref type="figure" target="#fig_1">2</ref> (a) (exposed via focused ion beam) where some facets of nano-crystals are visible. The coloured inset shows the intensity of a specific Bragg peak while the sample was scanned in two lateral directions, at the same scale bar. During the 2D-scan, the intensity distribution around the Bragg peak changes dramatically on the Pilatus detector, see Fig. <ref type="figure" target="#fig_1">2</ref> (b) and the highlighted zoom-ins (1-4). The horizontal green bar is a small part of the powder diffraction ring from many droplets / crystals. In region (1), the Bragg peak is illuminated only by the CRL beam of low intensity density; regions (2-4) show that splitting into satellites occurs when scanned through the MZP beam. The step size of the scan is 50 nm. Selected 1D-scans with 10 nm step size are shown in Fig. <ref type="figure" target="#fig_1">2 (c</ref>). With such measurements, crystal strain and lattice deformations can be measured and reconstructed for individual nano-sized objects [2]; with our high-energy MZP, non-destructive imaging of deeply buried structures can be enabled at real-space resolutions of 100 nm and better. Similar results were achieved at 100 keV (not shown here).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other samples</head><p>A few experiments have not shown significant signal, e.g. inspection of silicon wafer bonding errors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Beam size / resolution</head><p>Fitting error functions to fine nano-Bragg scans reveal a resolution of 65(2) nm, which is the convolution of x-ray beam size and nano-crystallite size. We conclude that efficient focusing of 60 keV x-rays well below 100 nm beam sizes has been achieved. Similar measurements have also been carried out at 100 keV.</p><p>[1] C. Eberl, F. Döring, T. Liese, F. Schlenkrich, B. Roos, M. Hahn, T. Hoinkes, A. Rauschenbeutel, M. Osterhoff, T. Salditt, H.U. Krebs: "Fabrication of laser deposited high-quality multilayer zone plates for hard x-ray nanofocusing", Applied Surface Science 307, <ref type="bibr">638-644 (2014, doi:10.1016/j.apsusc.2014.04.089</ref>).</p><p>[2] J. Wallentin, R.N. Wilke, M. Osterhoff, T. Salditt: "Simultaneous high-resolution Bragg contrast and ptychographic imaging of a single solar cell nanowire", Journal of Applied Crystallography 48, 1818-1826 (2015, doi:10.1107/S1600576715017975).</p><p>3.0e+04 4.0e+04 5.0e+04 6.0e+04 7.0e+04 8.0e+04 9.0e+04 1.0e+05 -0.1 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 ROI 2, corrected by 32/srcur scan 46 scan 47 scan 48 1 2 3 4 1 2 3 4 ZrO 2 Ag ZrO 2 (a) (b) (c)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. SEM and TEM images of the MZP. (a) Cross sectional view of the 8.6 µm diameter aperture with a &gt; 90% coverage of active zones. (b) Side view during FIB handling: the optical thickness of the MZP has been thinned down to about 30 µm, which yields in first approximation the optimum phase shift of π (for 60 keV) between alternating Zr O 1.8 and Ta 2 O 1 layers. (c) High resolving TEM images show a high quality of the outermost zones with widths of 10 nm.</figDesc><graphic coords="1,385.51,571.48,175.75,164.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Poly-crystalline silver droplets have been sandwiched inside ZrO 2 layers and measured in scanning Bragg geometry. (a) Facets inside one droplet exposed with a focused ion beam. (b, 1-4) While scanned through the MZP beam, the Bragg peak measured on the Pilatus detector changes dramatically its appearance; satellite peaks can be used to quantify e.g. strains and lattice deformations. (c) High resolution 1D scans like these show that resolutions better than 100 nm are achieved.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

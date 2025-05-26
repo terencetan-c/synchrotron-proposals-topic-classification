@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">3-D tomographic analysis of the SiC reinforcement distribution in an Al matrix composite fabricated by rheocasting. Experiment number: ME216</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">E</forename><surname>Boller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculdade de Ciências e Tecnologia</orgName>
+								<orgName type="institution" key="instit1">Rui MARTINS * CENIMAT</orgName>
+								<orgName type="institution" key="instit2">Universidade Nova de Lisboa REPORT</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francisco</forename><forename type="middle">Braz</forename><surname>Fernandes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculdade de Ciências e Tecnologia</orgName>
+								<orgName type="institution" key="instit1">Rui MARTINS * CENIMAT</orgName>
+								<orgName type="institution" key="instit2">Universidade Nova de Lisboa REPORT</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexandre</forename><surname>Velhinho</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculdade de Ciências e Tecnologia</orgName>
+								<orgName type="institution" key="instit1">Rui MARTINS * CENIMAT</orgName>
+								<orgName type="institution" key="instit2">Universidade Nova de Lisboa REPORT</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">3-D tomographic analysis of the SiC reinforcement distribution in an Al matrix composite fabricated by rheocasting. Experiment number: ME216</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B66A8B05210219D621341F005D3F7339</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T16:22+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The present report refers to an experiment that took place at the ID19 beamline, aiming at the elucidation of some aspects regarding particle distribution in SiC particle-reinforced functionally graded aluminium composites. Additionally, it is hoped to shed some light on the wetting characteristics of the composite constituents, by examining the relationships between the ceramic particles and the porosity present in the material.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The composites, prepared from an AS7G03 (Al 7 Si 0,3 Mg) alloy and SiC particles (with two different sizes, namely 120 µm in one case and 35 µm in the other), were produced by rheocasting in CENIMAT (Universidade Nova de Lisboa -Faculdade de Ciências e Tecnologia). The material thus produced was then molten and centrifugally cast in the Mechanical Engineering Department (Universidade do Minho, Escola de Engenharia), in order to obtain the functionally graded composites. Details of both processes are available elsewhere <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> . From these FGM's, cylindrical samples, around 1 mm in diameter, were machined by EDM. The axis of each sample was parallel to the direction of the functional gradient. The original positions of the samples defined a regular grid. From each sample several Regions Of Interest (ROI) were scanned, as illustrated in Figure <ref type="figure" target="#fig_0">1</ref>. In total, 9 samples, summing up to 36 ROI, were analysed during the course of the experiment. The beam energy used was 20 keV, using a multilayer as monochromator. The sample was placed at 100 mm from the detector, a FRELON 1024*1024 CCD camera. This distance gave access to edge detection mode to be able to enhance contrast between SiC particles and aluminium matrix. Pixel size was 0.95 µm.</p><p>The results obtained suffered from little absorption contrast between the aluminium matrix and the SiC reinforcing particles. This feature caused some delay in the interpretation of results, since the achievement of proper image segmentation was not immediate The problem is currently achieving its resolution stage, through a collaboration developed with a research team from Laboratoire des Composites Thermostructuraux (CNRS-SNECMA-CEA-Université de Bordeaux I) and GEMPPM (CNRS-INSA de Lyon), to experiment with previously tested segmentation methods <ref type="bibr" target="#b3">[4]</ref> . Figure <ref type="figure">2</ref> shows an example of the raw results obtained, while Figure <ref type="figure">3</ref> shows some preliminary results, where image segmentation allows separation of the matrix, the reinforcing particles and the voids present in the material. In the near future, the study will focus in the interactions between these three constituents, in order to elucidate whether the wetting of SiC particles by the matrix is satisfactory. a) b) c) d) Figure 3 -Sequence of images illustrating the results of the segmentation procedure employed: a) original image; b) voids and reinforcing particles; c) voids only; d) reinforcing particles only.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -Schematic representation of the functionally graded composite samples studied in the experiment. Each sample was obtained by EDM machining of a centrifugally-cast composite. From each, several tomographs were registered, regarding regions of interest at 2, 7, 13 and 25 mm of the top (SiC-rich) surface.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 -Figure 3 -</head><label>23</label><figDesc>Figure 2 -Slice images from regions located 2 mm from the surface of a composite reinforced with 120 µm SiC particles. Porosity is easily observed, but the SiC particles are almost undistinguishable from the Al matrix.</figDesc><graphic coords="2,200.25,175.25,193.50,193.50" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Al/SiCp Functionally Graded Metal-Matrix Composites Produced by Centrifugal Casting: Effect of Particle Grain Size on Reinforcement Distribution</title>
+		<author>
+			<persName><forename type="first">Alexandre</forename><surname>Velhinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Sequeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><forename type="middle">Manuel</forename><surname>Braz Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">José</forename><forename type="middle">D</forename><surname>Botas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Rocha</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/msf.423-425.257</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science Forum</title>
+		<title level="j" type="abbrev">MSF</title>
+		<idno type="ISSNe">1662-9752</idno>
+		<imprint>
+			<biblScope unit="volume">423-425</biblScope>
+			<biblScope unit="page" from="257" to="262" />
+			<date type="published" when="2001">2001</date>
+			<publisher>Trans Tech Publications, Ltd.</publisher>
+			<pubPlace>Coimbra, Portugal</pubPlace>
+		</imprint>
+	</monogr>
+	<note>submitted to Materials Science Forum</note>
+	<note type="raw_reference">- A. VELHINHO, F.M. BRAZ FERNANDES, J.D. BOTAS, &quot;Materiais 2001 -1 st International Materials Symposium&quot;, Coimbra, Portugal, 9-11 Abril 2001; submitted to Materials Science Forum.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Rocha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Soares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Sá</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Ferro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">6th Int. Symp. on Functionally Graded Materials</title>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>American Ceramic Society Transactions</publisher>
+		</imprint>
+	</monogr>
+	<note>submitted to</note>
+	<note type="raw_reference">- L.A. ROCHA, A.E. DIAS, D. SOARES, C.M. SÁ, A.C. FERRO, 6th Int. Symp. on Functionally Graded Materials, (2000); submitted to American Ceramic Society Transactions.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Rocha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Sequeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Velhinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Sá</surname></persName>
+		</author>
+		<title level="m">Proceedings XVI Congresso Brasileiro de Engenharia Mecânica</title>
+		<meeting>XVI Congresso Brasileiro de Engenharia Mecânica</meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="381" to="388" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">- L.A. ROCHA, P.D. SEQUEIRA, A. VELHINHO, C.M. SÁ, Proceedings XVI Congresso Brasileiro de Engenharia Mecânica (2001) pp. 381-388.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Image segmentation for phase-contrast hard X-ray CMT of C/C composites</title>
+		<author>
+			<persName><forename type="first">Gerard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0008-6223(00)00103-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Carbon</title>
+		<title level="j" type="abbrev">Carbon</title>
+		<idno type="ISSN">0008-6223</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="167" to="173" />
+			<date type="published" when="2001-02">2001</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">- G. VIGNOLES, Carbon, 39 (2001) pp. 167-173.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

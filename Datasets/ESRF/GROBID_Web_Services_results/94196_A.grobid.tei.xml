@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8FCA53952FCD73062C7A16E8244AC701</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the round of beamtime in September 2020, the onsite experimentalist (Benoit) performed six experiments that studied the influence of preexisting fracture density and pore fluid on fracture network growth and subsequent failure. The experiments were performed on Westerly granite. Some of the experiments used granite cores that were precracked, and the other two experiments were not precracked. The experiments varied in the applied confining stress and pore fluid pressure. In the round of beamtime in February 2021, Benoit performed three additional experiments that included more end members of the parameter space.</p><p>Through collaboration with project ES-930, the present project (ES-927) plans to compare fracture development in these granite cores with the sandstone cores deformed for project ES-930. The tables below describe the applied loading conditions, pore pressure, and sample treatment for the experiments relevant for this work.</p><p>These experiments were acquired with the new HDF5 format. At the time of acquisition no reconstruction was yet possible, and no correction or adjustment during acquisition could be accomplished. Following these experiments, the computing cluster at ESRF underwent some maintenance that slowed the reconstruction process. Much effort has been expended in developing the reconstruction software, but we are not yet at the capacities, functionalities and quality available before the shutdown. Thus, at this time, we are continuing to post-process the experimental data, and have not yet begun the scientific analysis.</p><p>In the meantime, we have been developing new post-processing scripts that will help automatize the process of denoising, fracture and pore segmentation, and digital image correlation that we will perform for these experiments. Thus, when we acquire the reconstructed scans we will be able to apply our post-processing steps as efficiently as possible.</p><p>In the past two years, we have published several papers using previous experiments performed on beamline ID19 (see citations below). We also have several papers under review that use synchrotron data from beamline ID19. Two papers (submitted to the International Journal of Rock Mechanics and Mining Sciences) study the influence of segmentation method and spatial resolution on the fracture network characteristics calculated from tomograms. Another manuscript under review (submitted to Pure and Applied Geophysics) uses fracture characteristics to predict fracture network development using machine learning. Another manuscript (submitted to Tectonophysics) quantifies the localization of local strains calculated from digital image correlation of tomograms. Another manuscript (submitted to Frontiers in Earth Science) quantifies the localization of the fracture networks extracted from X-ray tomography triaxial compression experiments.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Experiment title: Isolating the factors governing strain localization and fracture coalescence leading to dynamic rupture Firstly, I apologize for the lateness of this report, I was not aware of the deadline.</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiments completed in February 2021</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The competition between fracture nucleation, propagation, and coalescence in dry and water-saturated crystalline rock</title>
+		<author>
+			<persName><forename type="first">Jessica</forename><forename type="middle">A</forename><surname>Mcbeck</surname></persName>
+			<idno type="ORCID">0000-0002-4465-5522</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Wenlu</forename><surname>Zhu</surname></persName>
+			<idno type="ORCID">0000-0001-8166-7357</idno>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Renard</surname></persName>
+			<idno type="ORCID">0000-0002-5125-5930</idno>
+		</author>
+		<idno type="DOI">10.5194/se-12-375-2021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Solid Earth</title>
+		<title level="j" type="abbrev">Solid Earth</title>
+		<idno type="ISSNe">1869-9529</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="375" to="387" />
+			<date type="published" when="2021-02-16">2021</date>
+			<publisher>Copernicus GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McBeck, J. A., Zhu, W., &amp; Renard, F. (2021). The competition between fracture nucleation, propagation, and coalescence in dry and water-saturated crystalline rock. Solid Earth, 12(2), 375-387.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Deformation Precursors to Catastrophic Failure in Rocks</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcbeck</surname></persName>
+			<idno type="ORCID">0000-0002-4465-5522</idno>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Aiken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mathiesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ben‐zion</surname></persName>
+			<idno type="ORCID">0000-0002-9602-2014</idno>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Renard</surname></persName>
+			<idno type="ORCID">0000-0002-5125-5930</idno>
+		</author>
+		<idno type="DOI">10.1029/2020gl090255</idno>
+		<idno>GL090255</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<title level="j" type="abbrev">Geophysical Research Letters</title>
+		<idno type="ISSN">0094-8276</idno>
+		<idno type="ISSNe">1944-8007</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<date type="published" when="2020-12-24">2020. 2020</date>
+			<publisher>American Geophysical Union (AGU)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McBeck, J. A., Aiken, J. M., Mathiesen, J., Ben-Zion, Y., &amp; Renard, F. (2020). Deformation precursors to catastrophic failure in rocks. Geophysical Research Letters, 47(24), e2020GL090255.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Creep Burst Coincident With Faulting in Marble Observed in 4‐D Synchrotron X‐Ray Imaging Triaxial Compression Experiments</title>
+		<author>
+			<persName><forename type="first">François</forename><surname>Renard</surname></persName>
+			<idno type="ORCID">0000-0002-5125-5930</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Neelima</forename><surname>Kandula</surname></persName>
+			<idno type="ORCID">0000-0001-7980-6688</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jessica</forename><surname>Mcbeck</surname></persName>
+			<idno type="ORCID">0000-0002-4465-5522</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Benoît</forename><surname>Cordonnier</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2020jb020354</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Solid Earth</title>
+		<title level="j" type="abbrev">JGR Solid Earth</title>
+		<idno type="ISSN">2169-9313</idno>
+		<idno type="ISSNe">2169-9356</idno>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="2020-09">2020. 2020JB020354</date>
+			<publisher>American Geophysical Union (AGU)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Renard, F., Kandula, N., McBeck, J., &amp; Cordonnier, B. (2020). Creep burst coincident with faulting in marble observed in 4-D synchrotron X-ray imaging triaxial compression experiments. Journal of Geophysical Research: Solid Earth, 125(9), e2020JB020354.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Predicting the proximity to macroscopic failure using local strain populations from dynamic in situ X-ray tomography triaxial compression experiments on rocks</title>
+		<author>
+			<persName><forename type="first">Jessica</forename><surname>Mcbeck</surname></persName>
+			<idno type="ORCID">0000-0002-4465-5522</idno>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">Mark</forename><surname>Aiken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yehuda</forename><surname>Ben-Zion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francois</forename><surname>Renard</surname></persName>
+			<idno type="ORCID">0000-0002-5125-5930</idno>
+		</author>
+		<idno type="DOI">10.1016/j.epsl.2020.116344</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Earth and Planetary Science Letters</title>
+		<title level="j" type="abbrev">Earth and Planetary Science Letters</title>
+		<idno type="ISSN">0012-821X</idno>
+		<imprint>
+			<biblScope unit="volume">543</biblScope>
+			<biblScope unit="page">116344</biblScope>
+			<date type="published" when="2020-08">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McBeck, J., Aiken, J. M., Ben-Zion, Y., &amp; Renard, F. (2020). Predicting the proximity to macroscopic failure using local strain populations from dynamic in situ X-ray tomography triaxial compression experiments on rocks. Earth and Planetary Science Letters, 543, 116344.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The mixology of precursory strain partitioning approaching brittle failure in rocks</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ben-Zion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Renard</surname></persName>
+			<idno type="ORCID">0000-0002-5125-5930</idno>
+		</author>
+		<idno type="DOI">10.1093/gji/ggaa121</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Journal International</title>
+		<idno type="ISSN">0956-540X</idno>
+		<idno type="ISSNe">1365-246X</idno>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1856" to="1872" />
+			<date type="published" when="2020-03-14">2020</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McBeck, J., Ben-Zion, Y., &amp; Renard, F. (2020). The mixology of precursory strain partitioning approaching brittle failure in rocks. Geophysical Journal International, 221(3), 1856-1872.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Competition between slow slip and damage on and off faults revealed in 4D synchrotron imaging experiments</title>
+		<author>
+			<persName><forename type="first">François</forename><surname>Renard</surname></persName>
+			<idno type="ORCID">0000-0002-5125-5930</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jessica</forename><surname>Mcbeck</surname></persName>
+			<idno type="ORCID">0000-0002-4465-5522</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Benoît</forename><surname>Cordonnier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tecto.2020.228437</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tectonophysics</title>
+		<title level="j" type="abbrev">Tectonophysics</title>
+		<idno type="ISSN">0040-1951</idno>
+		<imprint>
+			<biblScope unit="volume">782-783</biblScope>
+			<biblScope unit="page">228437</biblScope>
+			<date type="published" when="2020-05">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Renard, F., McBeck, J., &amp; Cordonnier, B. (2020). Competition between slow slip and damage on and off faults revealed in 4D synchrotron imaging experiments. Tectonophysics, 782, 228437.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

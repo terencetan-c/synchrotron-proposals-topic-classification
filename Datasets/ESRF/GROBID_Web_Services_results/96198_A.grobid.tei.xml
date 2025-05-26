@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Investigating structural properties of high-Fe borosilicate glasses in support of vitrification of complex radioactive wastes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Thompson</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Professor</roleName><forename type="first">Paul</forename><forename type="middle">Adrian</forename><surname>Bingham</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Miss</roleName><forename type="first">Jessica</forename><forename type="middle">Rigby</forename><surname>Mr</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">James</forename><surname>Eales</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tony</forename><surname>Bell</surname></persName>
+						</author>
+						<title level="a" type="main">Investigating structural properties of high-Fe borosilicate glasses in support of vitrification of complex radioactive wastes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">42584D30A3A8A35C09DDFC0071436B87</idno>
+					<note type="submission">from: 03/06/2021 to: 07/06/2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>28-011280</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The primary goal of this proposal was determine the iron chemistry within 3 borosilicate glasses in support of a large scale project to vitrify radioactive waste at the Hanford site, USA. Some of the waste streams expected at the Hanford site are expected to have high concentrations of iron from various sources, including the use of iron-bearing reducing agents in the various processes employed to extract uranium and plutonium for weapons manufacturing. The current plan is to employ a "direct feed" system, meaning no pre-treatment will be done to the waste, so understadning how high concentrations of iron integrate within a borosilicate glass network, and how this impacts the final glass properties is of high importance.</p><p>In this epxeriment, Fe K-edge XANES was acquired on a series of borosilicate glass designed to be a non-radioactive surrogate series for a high-iron waste stream at the Hanford site. Additionally, Fe K-edge EXAFS was acquired for two simpler borosilicate glass series. All three series had incremental dopings of iron oxide in a pro-rata basis, as to keep the ratio of the other components the same. The XANES data was used to determine the oxidation state of the Hanford analogue series, and the EXAFS will be used to determine the average coordination of the iron within the glass. EXAFS was not done on the Hanford analogue series as the wider composition contained nickel, and the Ni K-edge would have interfered with the energy range required for good EXAFS data.</p><p>The XANES data for the Hanford analogue series (referred to as the HAFe series from here onwards), was processed by first determining the energy drift of the beamline on the day of measurement. This was done by measuring known standards during the experiment, and comparing spectral features with previous research. The spectral feature selected was the position of the pre-edge peak, corresponding to the 1s -3s transition. The average difference for several standards was determined (-1.45 eV) and the shift was then applied to the samples.</p><p>The shifted spectra were then normalised in ATHENA, with repeated spectra averaged to increase the S/N ratio for each spectrum. The processed stackplot can be seen in Figure <ref type="figure" target="#fig_0">1</ref>, with the pre-edge peak indicated. The centroid position of this pre-edge peak is used to determine the oxidation state, with the positions for each sample plotted in Figure <ref type="figure" target="#fig_1">2</ref>, alongside the measured standards and processed XANES data from a previous body of work done at ESRF (Experiment number MA 4906).  The red markers in Figure <ref type="figure" target="#fig_1">2</ref> denote the average centroid position of the processed XANES spectra, and unlike the positions in the SCFe and CCFe series, there is a split in the positions. The samples corresponding to the two higher energy positions are the two samples with the highest concentrations of iron. X-ray Diffraction (XRD) data showed that these two samples were not completely amorphous -there is the presence of a mixed transition metal oxide spinel phase. The XRD data showed the diffraction peaks increased in intensity with the increase in iron, so it would suggest that iron makes up a significant part of the phase. As such, this would be reflected in the iron K-edge XANES and would explain the change in the centroid position of the 1s -3s transition peak. Fe 57 Mössbauer spectra also confirms the presence of Fe-bearing crystalline phase that increases in abundance with the increase in iron concentrations within the glass. The Mössbaur spectra also confirms that there is no presence of Fe(II) despite the lower centroid energy samples, which would mean the wider composition is having an effect on the transition energies that will warrant further investigation. The EXAFS data is yet to be fully processed. The data will first be processed in ATHENA, to normalise the spectra. From there, the EXAFS data will be processed in ARTEMIS. This will show the average bond distances between the iron and the nearest neighbour atom (in this case will be oxygen), which will tell us about the coordination of the iron.</p><p>To summarise, XANES data was acquired for a series of borosilicate glass analogous to a highiron Hanford waste stream. The XANES data showed a change in the centroid position in higher iron samples, which XRD and Fe 57 Mössbauer spectroscopy confirmed the presence of an ironbearing spinel phase. The non-crystalline Mössbuaer spectra also confirmed the iron exists as Fe(III), which suggests other influences the wider composition is having on the iron chemistry, as the centroid position of the 1s -3s transition peak is much lower than the Fe(III) energy, though still higher than the Fe(II) energy. HAFe010.0 HAFe005.0 HAFe003.0 HAFe001.0 7111 7112 7113 7114 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 Aegirine Fe-Berlinite Grandidierite Staurolite Hematite Magnetite Standards SCFe Series CCFe Series HAFe Series Integrated Intensity (a.u.) Centroid Energy (eV) Fe(III) Fe(II)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Stackplot of the HAFe series XANES (left).Figure 2: The average centroid positions of all samples and standards measured in this experiment and in MA 4906 (right).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 1: Stackplot of the HAFe series XANES (left).Figure 2: The average centroid positions of all samples and standards measured in this experiment and in MA 4906 (right).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>Photon Energy (eV)</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

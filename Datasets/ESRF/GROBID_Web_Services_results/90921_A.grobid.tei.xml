@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-02-26">26/2/2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Matteo</forename><surname>Levantino</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Harsha</forename><surname>Ravishankar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Umeå University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Annette</forename><surname>Duelli</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Copenhagen</orgName>
+								<address>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pontus</forename><surname>Gourdon</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Copenhagen</orgName>
+								<address>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Magnus</forename><surname>Andersson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Umeå University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-02-26">26/2/2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E84570FF6EAA4A5C37E295B32F854152</idno>
+					<note type="submission">from: 15/11/2018 to: 19/11/2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>LS-2883</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>P-type ATPase proteins are found in biological membranes and execute active transport by means of ATP hydrolysis to transport (mostly ions) against a concentration gradient. These membrane protein transporters are critical to several important biological processes, such as the muscle contraction-relaxation cycle, cellular homeostasis of transition metals, and upholding membrane potential. The sarcoplasmic reticulum Ca 2+ ATPase (SERCA) governs muscle relaxation and is by far the best-characterized member of the P-type ATPase family with several crystallized intermediates <ref type="bibr" target="#b0">[1]</ref>. However, not all transient intermediate states are amendable to trapping techniques and whether the observed dynamics displayed within the crystal lattice also are perserved in the native membrane is a fundamental unanswered question. We have developed timeresolved X-ray solution scattering (TR-XSS) for activating P-type ATPase proteins using laser-induced release of caged ATP. The main target have been the SERCA reaction (report LS-2410, LS-2527, and LS-2667), which have now resulted in a publication in Science Advances <ref type="bibr" target="#b1">[2]</ref>. In short, we determined the structure and timing of a two transient intermediate states, one that was previously unresolved (Fig. <ref type="figure" target="#fig_0">1A</ref>,<ref type="figure">B</ref>). Importantly, for the structural biology field, the already observed intermediate showed quite similar structural rearrangements as the crystallized protein. A critical part of this LS-2883 experiment: when adding the SERCA-specific inhibitor thapsigargin the signal was completely eradicated (data not shown in this report).</p><p>Having established TR-XSS experimental design and MD simulation-based structural refinement protocol for P-type ATPase activation, we now seek to explore other targets in the family. SERCA is a special case due to its very high presence in membranes from rabbit skeletal muscle. Therefore, to study other P-type ATPases would require performing TR-XSS experiments on recombinant proteins. In earlier ID09 experiments (LS-2527 and LS-2665), we collected data on recombinant Zn 2+ -transporting ATPase (ZntA) <ref type="bibr" target="#b2">[3]</ref> and bacterial Ca 2+ -transporting ATPase (LMCA1) <ref type="bibr" target="#b3">[4]</ref> and in this LS-2883 experiment we collected data on the ZntA protein at higher concentration, as well as a Co 2+ -transporting ATPase. While we can track the different kinetics of these transporters, the data quality did not allow structural refinement (exemplified by ZntA in Fig. <ref type="figure" target="#fig_0">1C</ref>). The conclusion is that a higher protein concentration and cleaving off the 6xhis-tag did not improve the data. Instead, it is likely that dynamics in the heterogenic micelle-lipid environment is contributing to the difference scattering thereby obscuring the protein signal (several orders of magnitude larger difference scattering compared to the native membrane). We now propose to perform TR-XSS experiments on nanodisc-inserted recombinant proteins, which will provide a controlled uniform surrounding -much like the native membrane (see 2020 proposal).</p><p>Finally, we also performed experiments on ATP-activation of adenylate kinase (AdK), which catalyzes interconversion of ATP, ADP, and AMP, and thereby plays an important role in cellular energy homeostasis <ref type="bibr" target="#b4">[5]</ref>. Open and closed crystal structures show how ATP-and AMP-binding domains close over a central core region (Fig. <ref type="figure" target="#fig_0">1D</ref>). A fundamental question is which of the domains close first upon presenting ATP, i.e. is the binding event cooperative? TR-XSS offers a unique possibility as a non-intrusive method that can determine the ordering of structural events. We collected high-quality time-resolved data of AdK dynamics following laser-induced release of caged ATP (Fig. <ref type="figure" target="#fig_0">1E</ref>). Using our established MD-based structural refinement protocol we obtained very good fit to the experimental data (Fig. <ref type="figure" target="#fig_0">1F</ref>), which corresponded to a structure with the NMP domain open, while the ATP domain closing on the ATP. Hence, LS-2883 provided the first experimental evidence of cooperativity in substrate binding in the AdK enzyme (manuscript in progress).</p><p>In conclusion, we have established an experimental and modeling protocol for laser-induced ATP activation of P-type ATPase proteins -now published in Science Advances. To capitalize on this progress we now propose to shift focus from micelle-lipid solubilized recombinant proteins to nanodisc-inserted recombinant proteins (see 2020 proposal). We also performed a successful experiment on the ATP-dependent adenylate kinase enzyme that showcases the broad applicability of our developed approach and the versatility of the ID09B beam station. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (A) Time-resolved X-ray scattering data for SERCA (black lines) and corresponding fits from kinetic modeling (red lines). (B) Refined TR-XSS pre-pulse, 1.5 intermediate, and 13 ms late states. (C) Time-resolved X-ray scattering data for ZntA. (D) Open and closed crystal structures of adenylate kinase (AdK) (E) Time-resolved X-ray scattering data for AdK. (F) MD-based refined modeling agreement to the late basis spectrum from decomposed AdK data.</figDesc><graphic coords="2,81.68,376.42,432.00,243.75" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Bublitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="431" to="439" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bublitz et al., Curr. Opin. Struct. Biol. 20, 431-439 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Tracking Ca2+ATPase Intermediates in Real-time by X-Ray Solution Scattering</title>
+		<author>
+			<persName><forename type="first">Harsha</forename><surname>Ravishankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Nors Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alya</forename><surname>Sitsel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chenge</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annette</forename><surname>Duelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Levantino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Wulff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claus</forename><surname>Olesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Poul</forename><surname>Nissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magnus</forename><surname>Andersson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2019.11.324</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">26a</biblScope>
+			<date type="published" when="2020-02" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ravishankar, Nors Pedersen, Eklund, Sitsel, Li, Duelli, Levantino, Wulff, Barth, Olsesen, Nissen, Andersson. Science Advances in press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Wang</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">514</biblScope>
+			<biblScope unit="issue">7523</biblScope>
+			<biblScope unit="page" from="518" to="522" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang el al., Nature, 514(7523), 518-522 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Dynamics of P-type ATPase transport revealed by single-molecule FRET</title>
+		<author>
+			<persName><forename type="first">Mateusz</forename><surname>Dyla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">S</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magnus</forename><surname>Kjaergaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Null-</forename><forename type="middle">M</forename><surname>Sørensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacob</forename><surname>Lauwring Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><forename type="middle">P</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charlotte</forename><surname>Rohde Knudsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roger</forename><forename type="middle">B</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Poul</forename><surname>Nissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><forename type="middle">C</forename><surname>Blanchard</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature24296</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">551</biblScope>
+			<biblScope unit="issue">7680</biblScope>
+			<biblScope unit="page" from="346" to="351" />
+			<date type="published" when="2017-11">2017</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dyla et al., Nature 551(7680), 346-351 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Intrinsic motions along an enzymatic reaction trajectory</title>
+		<author>
+			<persName><forename type="first">Katherine</forename><forename type="middle">A</forename><surname>Henzler-Wildman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vu</forename><surname>Thai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magnus</forename><surname>Wolf-Watz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Fenn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ed</forename><surname>Pozharski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">A</forename><surname>Petsko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Karplus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Hübner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dorothee</forename><surname>Kern</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06410</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">450</biblScope>
+			<biblScope unit="issue">7171</biblScope>
+			<biblScope unit="page" from="838" to="844" />
+			<date type="published" when="2007-11-18">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henzler-Wildman et al., Nature 450(7171), 838-844 (2007).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

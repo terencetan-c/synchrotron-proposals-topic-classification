@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Effantin</forename><surname>Gregory</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Cell Science</orgName>
+								<orgName type="institution">S. P. Pune University</orgName>
+								<address>
+									<settlement>Pune-411007</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Janesh</forename><surname>Kumar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Cell Science</orgName>
+								<orgName type="institution">S. P. Pune University</orgName>
+								<address>
+									<settlement>Pune-411007</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Surbhi</forename><surname>Dhingra</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Cell Science</orgName>
+								<orgName type="institution">S. P. Pune University</orgName>
+								<address>
+									<settlement>Pune-411007</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DACD5082178FD224F40BB8E49598F631</idno>
+					<note type="submission">Once completed, the report should be submitted electronically to the User Office via the User</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:00+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><ref type="url" target="https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do">https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports supporting requests for additional beam time</head><p>Reports can be submitted independently of new proposals -it is necessary simply to indicate the number of the report(s) supporting a new proposal on the proposal form.</p><p>The Review Committees reserve the right to reject new proposals from groups who have not reported on the use of beam time allocated previously.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports on experiments relating to long term projects</head><p>Proposers awarded beam time for a long term project are required to submit an interim report at the end of each year, irrespective of the number of shifts of beam time they have used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Published papers</head><p>All users must give proper credit to ESRF staff members and proper mention to ESRF facilities which were essential for the results described in any ensuing publication. Further, they are obliged to send to the Joint ESRF/ ILL library the complete reference and the abstract of all papers appearing in print, and resulting from the use of the ESRF.</p><p>Should you wish to make more general comments on the experiment, please note them on the User Evaluation Form, and send both the Report and the Evaluation Form to the User Office.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deadlines for submission of Experimental Reports</head><p>-1st March for experiments carried out up until June of the previous year; -1st September for experiments carried out up until January of the same year.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instructions for preparing your Report</head><p>• fill in a separate form for each project or series of measurements.</p><p>• type your report, in English.</p><p>• include the reference number of the proposal to which the report refers.</p><p>• make sure that the text, tables and figures fit into the space available.</p><p>• if your work is published or is in press, you may prefer to paste in the abstract, and add full reference details. If the abstract is in a language other than English, please include an English translation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment number: MX2162</head><p>Beamline:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CM01</head><p>Date of experiment:</p><p>from: 22 nd March 2019 to:</p><p>Figure1: Data collection statistics</p><p>Processed and raw data was transferred from the system to the harddisks using Rsync command line. Data processing was carried at home institute using CryoSPARC software version2.9. The motion corrected movies were imported in the software, CTF estimated and good micrographs were separated from the bad ones by checking individual micrographs. Template based picking was done from few micrographs, followed by particle extraction and 2D classification. Then, these particles were used as template to optimize the autopick and extract particles from all micrographs, and go for 2D classification. Initial processing showed that the data collection at this tilt angle (-30°) was not sufficient to obtain side views and we could observe only few titled views as well as a lot of drift even after motion correction. Furthermore, due to ice thickness of the micrographs we couldn't see much features in the later 2D classes. We could have obtained a better dataset if we were allowed to prepare fresh grids due to emergency conditions, we had the protein with us as well as the expert, but unfortunately, due to the rules and regulations of ESRF, we weren't able to do so.</p><p>Hence, it would be necessary to optimize the tilt angle and collect better movies to obtain sufficient side views to build high resolution structure of kainate receptor. Figure <ref type="figure">2</ref> shows a glimpse of processing of movies.</p><p>Figure2: Data processing of motion corrected and CTF estimated movies</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,149.20,37.60,315.30,177.35" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Date of report:</head><p>Shifts:</p></div>			</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

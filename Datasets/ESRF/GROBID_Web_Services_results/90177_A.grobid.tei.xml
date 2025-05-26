@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Unveiling the mechanism of Ce1-xGdxO2-x/2 nanoparticles formation by means of in-situ combined Pair Distribution Function and Debye Function Analyses</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Stefano</forename><surname>Checchia</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Scavini</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dip. di Chimica</orgName>
+								<orgName type="institution">Università degli Studi di Milano</orgName>
+								<address>
+									<settlement>Milano</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Federica</forename><surname>Bertolotti</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Aarhus University Aarhus Institute of Advanced Study (AIAS)</orgName>
+								<address>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Antonietta</forename><surname>Guagliardi</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">CNR -Istituto di Cristallografia</orgName>
+								<address>
+									<settlement>Bari</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mauro</forename><surname>Coduri</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anna</forename><surname>Bosc</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dip. di Chimica</orgName>
+								<orgName type="institution">Università degli Studi di Milano</orgName>
+								<address>
+									<settlement>Milano</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mariangela</forename><surname>Longhi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dip. di Chimica</orgName>
+								<orgName type="institution">Università degli Studi di Milano</orgName>
+								<address>
+									<settlement>Milano</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masciocchi</forename><surname>Norberto</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Insubria To.Sca.Lab</orgName>
+								<address>
+									<settlement>Como</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Unveiling the mechanism of Ce1-xGdxO2-x/2 nanoparticles formation by means of in-situ combined Pair Distribution Function and Debye Function Analyses</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">351D4DA7ABA2926ECA47E48597A64F29</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report</head><p>We performed an in-situ time resolved diffraction experiments to investigate the kinetics of Ce1-xGdxO2-x/2 nanoparticles formation, analyzing the data by means of Pair Distribution Function/Debye Function Analysis (PDF/DFA).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Brief Introduction to the scientific problem</head><p>CeO2 and Gd-doped ceria nanoparticles have many interesting applications in different fields acting e.g. as catalysts <ref type="bibr" target="#b0">1</ref> or electrocatalyst <ref type="bibr" target="#b1">2</ref> for several reactions.</p><p>Nanostructuring seems to deeply affect both the defect chemistry and the transport properties of Ce1-xGdxO2-x/2 (hereafter CGO), improving the oxygen diffusion performance. Besides affecting the grain boundary resistivity at intermediate temperature, the crystal size is supposed to directly influence the way defects interact. <ref type="bibr" target="#b2">3</ref> In CGO, Gd <ref type="bibr">3+</ref> and oxygen vacancies form in bulk materials large clusters with Ia-3 symmetry enclosed in a fluorite CeO2-like matrix (Fm-3m symmetry). <ref type="bibr" target="#b3">4</ref> The structural relaxation (distortion) of Gd 3+ ions traps the oxygen vacancies and subtract them from the diffusion process. In a previus experiment <ref type="bibr" target="#b5">5</ref> at the ID22 beamline of the ESRF we investigated the crystal structure of CGO nanoparticles with Dv≈2-3 nm prepared using a reverse micellar wet synthetic path at room temperature <ref type="bibr" target="#b7">6</ref> . By PDF analysis we observed that even for very high Gd concentration (x=0.500) the Gd 3+ relaxation process around the oxygen vacancies is completely frustrated <ref type="bibr" target="#b5">5</ref> probing that the defect chemistry of nanoparticles has a completely different architecture in respect to the bulk material.</p><p>In order to comprehend the kinetics and thermodynamics of nanoparticle formation at the atomistic levelwe performed an in-situ diffraction study of the CGO synthesis. PDF and DFA were selected for in-situ investigation of CGO nanoparticles because, as described above and in Ref. (5), both techniques take advantage of the total scattering approach supplying complementary information. PDF analysis demonstrates its effectiveness in characterizing the structural distortions in CGO <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b5">5</ref> and in identifying even small clusters of heavy metal oxides which may form during nucleation. In particular DFA can derive the size, size distribution and shape of nanoparticles unveiling also possible inhomogeneities between their surface and their core. <ref type="bibr" target="#b8">7</ref> Experimental details 0.24 M aqueous solutions with different Gd 3+ / Ce 3+ ratios (=0/8, 1/7, 2/6, 3/5, 4/4) were prepared and dispersed in a mixture of n-octane, 1-butanol, and CTAB to form a micro-emulsion (ME): ME-A.</p><p>A second ME of similar composition was made using NaOH instead of Ce 3+ / Gd 3+ salts: ME-B.</p><p>The two stable ME were then mixed in a flask under stirring. Mixing of the two solutions correspond to t0. After homogenization (around 15 seconds) an aliquot of the mixed solution was syringed inside the reactor and measurements at room temperature started. Due to the procedure described above and to the ime needed for the "search procedure", measurements in general started 90 seconds after t0.</p><p>The core of the reactor was a quartz capillary (diameter = 2 mm) mounted in a metal frame connected to two Teflon pipes for injection and overfull.</p><p>The reactor was mounted on a goniometric head on top of a rotation stage of the ID15A beamline of ESRF at 320.7 mm distance from the detector, a Dectris Pilatus 2M CdTe. Wavelength was λ = 0.182329 Å. Maximum value of momentum transfer measured was Qmax = 27.5 Å -1 .</p><p>During each reaction around 1000 frames, 10 sec/each were collected. Averaging blocks of 6, 30, 60 and 120 frames produced raw data with increasing signal to noise ratio but decreasing time resolution (1, 5, 10, 20 min). Using the best time resolution (1 min/pattern) we obtained good quality G(r) limiting the Q interva to Qmax = 22 Å -1 .</p><p>Besides, several blank solutions were prepared and measured using the same cell which are the empty cell plus solutions not changing with time varying of few components in respect to the reactive one. In particular, we collect data on the starting MEs (without mixing them) either in presence or absence of Ce and/or Gd ions. Concentration of reactants in the blank solutions is the same as in the starting solution sued for the kinetics.</p><p>For each blank about 150 frames, 10 sec/each have been collected in order to gain a larger signal to noise ratios in respect to experiments so avoiding the introduction of additional noise to the data</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>This version of the experimental report focuses on the PDF results because DFA analysis is still in progress.</p><p>First of all, we investigated the G(r) function of the Ce and/or Gd environment in the starting solution collecting data on microemulsion ME-A and using the data set collected on n-octane, 1-butanol, and CTAB in water without rare earth ions as a background. The resulting (differential) G(r) function should be contributed mainly by the environment of Ce and/or Gd ions.</p><p>Figure <ref type="figure" target="#fig_0">1A</ref> reported the case of pure cerium as a bue curve. Sharp peaks appear up to 10 Å suggesing that some clusterisation of Ce-containing species is present also in ME-A before strating the reaction. In the pure gadolinium case, only one sharp peak appear at ≈2.39 Å and a 2 nd coordination shell is hardly visible around 3.8-4.0 Å. To rationalize the G(r) in the pure cerium case, we tested different models such as fluorite-like structures with reduced dimensions (e.g. plates, roads), cerium idroxide aphases and some polimorphs of cerium nitrate. In particular, Ce(NO3)3•4H2O crystallizes in Pbca space group; each Ce ions is coordinates by 10 oxygen ions: four of them come from H2O molcules, four from two isolated NO3 groups bound only to one Ce ion and the remining two from two NO3 group, each of one is bridges two cerium ions, forming in this way chains along the crystallographic c direction. <ref type="bibr" target="#b11">8</ref> Isolating one chain it is possible to obtain a reasonable fit of the experimental G(r) function, as shown in Fig. <ref type="figure" target="#fig_0">1B</ref>. Altought this model has to be improved, the fit demostrates that Ce ions form complex structures even in solution. Conversely, Gd ions seem to be sorrounded by one ordered coordination sphere.</p><p>The second step of data analysis was the investigation in-situ of the nanoparticle growth. As stated above, the first data sets were generally collected about 90 sec after the mixing of solutions A and B. This hindered to observe the initial transformation of Ce-clusters into CeO2 nuclei.</p><p>We will discuss in some details the kinetic of pure CeO2 synthesis.</p><p>Due to the presence of extended Ce clusters in ME-A, the choice of the background is critical.</p><p>In principle, a suitable background should contain all the contribution to scattering but that of the growing nanoparticles. However, at the very beginning of the reaction almost all the Ce ions are involved in the Ceclusters so that the pattern of ME-A could act as background. At the end of the reaction, almost all the Ce ions should form nanoparticles, so that a suitable the background should come from ME-B. In between, we should use linear combination of the two extreems varying their weights with time, provided that adding NaOH does not change the structure of the residual Ce clusters in solution. In Figure <ref type="figure" target="#fig_1">2</ref> are reported the low r portion of CeO2 nanoparticles PDFs at the beginning (panel A) and at the end (panel B) of the reaction using different backgrounds: ME-A (blue curves), ME-B (green curve) and a 1:1 linear combination of the two MEs (red curve). The background choice deeply affects the shape of the G(r) functions especially (but not only) at very short range and, as a consequence, the fit quality and results.</p><p>As additional comment, focusing on the 3.5-4.3 Å r range, correponding to the 1 st Ce-Ce distance of the fluorite structure, we note that in panel A , beside the peak centered at r=3.8 Å (the tipical Ce-Ce distance in bulk CeO2) a shoulder appears at r≈ 4.05 Å which is hardly visible in the G(r) displayed in panel B. This suggests huge atomic relaxation at the beginning of the reaction probably due to Ce 3+ ions at the surface during CeO2 nucleation and initial growth.</p><p>We decided to calculated experimental PDFs,using ME-B (so without Ce) as a background and fitting tha data using a two phase model formed by spherical CeO2 fluorite nanoparticles plus Ce(NO3)3•4H2O, as above described. Aiming to avoid over-parametrization of the fit, we fixed all the positional degrees of freedom of the latter phase and varied only its scale factor.</p><p>In figure <ref type="figure" target="#fig_2">3</ref> are reported the fits of G(r) at the beginning (panels A, B) and at the end (panels C and D) of the reaction. To highligth the importance of including the Ce(NO3)3•4H2O in the model, in panels A and C are reported the fits using only the CeO2 phase and in panel B and D the best fits of the two phases model.</p><p>Including the Ce(NO3)3•4H2O phase improves significantly the fit quality at the beginning of the reacion when a non negligible fraction of Ce ions is in solution. However, the biphasic fit shown in Fig. <ref type="figure" target="#fig_2">3B</ref> is far from being optimal eg. In correpondence to the 1 st Ce-Ce distance (the adopted fluorite model does not allow surface relaxation) and to larger interatomic distances (e.g. in the 7-8 Å interval). Even at the end of the reaction some Ce ions are still in solution, as suggested by the calculated curves of Figs. <ref type="figure" target="#fig_2">3C</ref> and <ref type="figure" target="#fig_2">3D</ref>. The fit results for the CeO2 phase in the 2-30 Å are shown in figure 4. All the refined parameters vary rapidly at the beginning of the reaction, then the slopes are progressive reduced. For this reason we used a logarithmic scale for the abscissa values.  During the reaction, the volume averaged particles dimensions DV passes from ≈ 12 Å to ≈ 24 Å. At the same time, the cell constant a and the thermal parameters U(Ce) and U(O) display noticeable decreases. The trends of the U parameters point to a reduction of disorder reducing the surface-to-volume ratio. The a cell constant shrinking should be related to an incrisingly larger fraction of Ce 4+ ions in the nanoparticles, suggesting thet Ce 3+ are located preferentially at the surface during crystal growth.</p><p>Starting from the fitted DV and scale factors parameters, and approximating the nanoparticles shapes to spheres of diameter DV, we calculated the concentration of CeO2 nanoparticles as a function of time (normalized to 1 at the largest t value). Figure <ref type="figure" target="#fig_4">5</ref> shows that it drops to one-quarter in respect to its initial value. The growth of final CeO2 occur at the expence of most of the cerium oxide nuclei existing at the beginning of the reaction Passing to the doped materials, the choice of the background is made even more complex by the additional presence of Gd 3+ in solution. For this reason, up to now only preliminary results are shown in this experimental report. However, we note that all the different strategies tested up to now point to very similar trends of the fitted parameters, with some small differences in their absolute refined values. In Figure <ref type="figure" target="#fig_5">6</ref> is reported, as an example, the case of Ce0.5Gd0.5O1.75 sample. The fitted parameters display similar trends to the CeO2 case. However, the particles dimension DV is ≈ 10 Å at the beginning of the reaction, it starts increasing after an induction period of 10 minute and converges to ≈ 14 Å at the end.</p><p>We note here that a a progressive reduction of the crystal growth rate is observed on increasing the Gd concentration in the starting solutions.</p><p>The different crystal growth kinetic of pure an Gd-doped nanocrystals suggests that gadolinium inihibits in some way the crystal growth; this could originate either by the different redox properties of Ce and Gd ions, as revealed by thair Pourbaix diagram 9 , or by steric mismatch due to the different ionic radii of Gd 3+ 1.053 Å in respect to Ce 4+ (0.97 Å) and Ce 3+ (1.143 Å). 10</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary and Future Work</head><p>We performed an in-situ diffraction study of pure and Gd-doped CeO2 nanoparticles crystal growth, analyzing the data in the real space by PDF analysis. By the experimental point of view, accurate measurements of suitable backgrounds and of MEs is mandatory for the investigations, in order to include in the calculated PDFs scattering contributions coming only (or mainly) from Ce/Gd-containing species.</p><p>Although the large majority of scattered intensities in this experiment come from the background, good quality PDFs calculated up to Qmax = 22 Å -1 were measured in one minute.</p><p>The experimental strategy allowed to follow the growth of the investigated nanomaterials in detail revealing the time evolution of the particles dimensions and of disorder. Additional data analysis approaches will be applied to extract all the pieces of structural information also with the help of ab-initio and force field simulations of nanoparticles.</p><p>In addition, also DFA data analysis is in progress to derive the shape of the growing nanoparticles quntifying also the inhomogeneities between their surface and their core, suggested by PDF analysis.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. A) Experimental differential G(r) functions highlighting the environment of Ce (blue curve) and of Gd (red curve). See text for details. B) Fit of the blue curve of panel A with the structural model of Ce(NO3)3•4H2O (red curve). Residuals are also reported as green curve. In the inset is schetched a portion of a (unrelaxed) chain of Ce(NO3)3•4H2O along the c axis: White, light blue and red spheres are Ce, N and O ions, respectively. Hydrogen ions have not been considered in the model</figDesc><graphic coords="2,98.68,573.21,396.79,170.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Low r region PDFs of CeO2 nanoparticles at the beginning (panel A) and at the end (panel B) of the reaction using different backgrounds: solution A (blue curves), n-octane, 1-butanol, CTAB and NaOH in water (red curve) and a 1:1 linear combination of the two solutions.</figDesc><graphic coords="3,98.68,355.69,396.75,155.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Blue curves depict the experimental G(r) functions of CeO2 nanoparticles at the beginning (panels A and B) and at the end (panels C and D) of the reaction using solution B as background. In panels A and C the data have been fitted with a model with only CeO2 nanoparticles; in panels B and D aso the Ce(NO3)3•4H2O is considered in the model</figDesc><graphic coords="4,105.42,110.65,383.40,218.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Fit results for the CeO2 phase in the synthesis of CeO2.Figure 5. Up: Scale factor of CeO2 phase. Down: concentration of particles (normalized to 1 at the end of the reaction)</figDesc><graphic coords="4,391.85,438.53,165.05,198.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 4. Fit results for the CeO2 phase in the synthesis of CeO2.Figure 5. Up: Scale factor of CeO2 phase. Down: concentration of particles (normalized to 1 at the end of the reaction)</figDesc><graphic coords="4,39.40,438.54,343.66,198.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Fit results for the Ce0.5Gd0.5O1.75 phase in the synthesis of Ce0.5Gd0.5O1.75.</figDesc><graphic coords="5,130.17,170.64,334.43,198.40" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We plan to extend the present investigation to other rare earth dopants to reveal the origin of the crystal growth rate reduction of doped nanocrystals in respect to pure CeO2. In addition, the technological importance of Ce1-xRExO2-x/2 materials (with RE = rare earth) make these studies interesting per se. In order to detect the first instants of the reactions is mandatory to substitute our manual procedure with an automatized one. In this respect, the staff of ID15A is developing an experimental stage for liquid samples and reaction involving liquids.</p></div>
+			</div>
+
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>from: 20/10/2018 to: 23/10/2018</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Godinho</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">D. N. Durgasri</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Surface Science</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">592</biblScope>
+			<date type="published" when="2010">2010. 2014</date>
+		</imprint>
+	</monogr>
+	<note>J Mater Sci.</note>
+	<note type="raw_reference">See e. g. M. Godinho et al. J Mater Sci. 45 (2010) 593; D. N. Durgasri, Applied Surface Science 314 (2014) 592.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A fundamental study of infiltrated CeO2 and (Gd,Ce)O2 nanoparticles on the electrocatalytic activity of Pt cathodes of solid oxide fuel cells</title>
+		<author>
+			<persName><forename type="first">Na</forename><surname>Ai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kongfa</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">San</forename><forename type="middle">Ping</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ssi.2012.12.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Ionics</title>
+		<title level="j" type="abbrev">Solid State Ionics</title>
+		<idno type="ISSN">0167-2738</idno>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2013-02">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Ai et al., Solid State Ionics 233 (2013) 87</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Zhi-Peng</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">93104</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhi-Peng Li et al., Appl. Phys. Lett. 98 (2011) 093104</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Probing Complex Disorder in Ce&lt;sub&gt;1-&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;Gd&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;O&lt;sub&gt;2-&lt;i&gt;x&lt;/i&gt;/2&lt;/sub&gt;Using the Pair Distribution Function Analysis</title>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Scavini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mauro</forename><surname>Coduri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mattia</forename><surname>Allieta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michela</forename><surname>Brunelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudio</forename><surname>Ferrero</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm203819u</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<title level="j" type="abbrev">Chem. Mater.</title>
+		<idno type="ISSN">0897-4756</idno>
+		<idno type="ISSNe">1520-5002</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1338" to="1345" />
+			<date type="published" when="2012-03-21">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Scavini et al. Chem. Mater., 24 (2012) 1338;</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Percolating hierarchical defect structures drive phase transformation in Ce&lt;sub&gt;1−&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;Gd&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;O&lt;sub&gt;2−&lt;i&gt;x&lt;/i&gt;/2&lt;/sub&gt;: a total scattering study</title>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Scavini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mauro</forename><surname>Coduri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mattia</forename><surname>Allieta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paolo</forename><surname>Masala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Serena</forename><surname>Cappelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cesare</forename><surname>Oliva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michela</forename><surname>Brunelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Orsini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudio</forename><surname>Ferrero</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s2052252515011641</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IUCrJ</title>
+		<title level="j" type="abbrev">IUCrJ</title>
+		<idno type="ISSNe">2052-2525</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="511" to="522" />
+			<date type="published" when="2015-07-30">2015</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Scavini et al., IUCrJ 2 (2015) 511</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Committee Report</title>
+		<idno type="DOI">10.1111/j.1747-1567.1985.tb02011.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Techniques</title>
+		<title level="j" type="abbrev">Exp Techniques</title>
+		<idno type="ISSN">0732-8818</idno>
+		<idno type="ISSNe">1747-1567</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="31" to="31" />
+			<date type="published" when="1985-04" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Experimental report of Exp. Ch5157, ID22</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">@</forename><surname>Esrf</surname></persName>
+		</author>
+		<idno>31.01-06.02.2018</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">@ESRF, 31.01-06.02.2018</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reverse micellar synthesis of cerium oxide nanoparticles</title>
+		<author>
+			<persName><forename type="first">Srivatsan</forename><surname>Sathyamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">J</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reza</forename><forename type="middle">T</forename><surname>Dabestani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Parans</forename><surname>Paranthaman</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0957-4484/16/9/089</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanotechnology</title>
+		<title level="j" type="abbrev">Nanotechnology</title>
+		<idno type="ISSN">0957-4484</idno>
+		<idno type="ISSNe">1361-6528</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1960" to="1964" />
+			<date type="published" when="2005-07-28">2005</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Sathyamurthy et al. Nanotechnology 16 (2005) 1960-64</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bertolotti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">987</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Bertolotti et al., Nat. Mater. 15 (2016) 987;</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;DEBUSSY 2.0&lt;/i&gt;: the new release of a Debye user system for nanocrystalline and/or disordered materials</title>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Cervellino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruggero</forename><surname>Frison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Federica</forename><surname>Bertolotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonietta</forename><surname>Guagliardi</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576715020488</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2026" to="2032" />
+			<date type="published" when="2015-11-28">2015. 2026</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Cervellino et al., J. Appl. Cryst. 48 (2015) 48, 2026;</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Coherent Nanotwins and Dynamic Disorder in Cesium Lead Halide Perovskite Nanocrystals</title>
+		<author>
+			<persName><forename type="first">Federica</forename><surname>Bertolotti</surname></persName>
+			<idno type="ORCID">0000-0002-6001-9040</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Loredana</forename><surname>Protesescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maksym</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+			<idno type="ORCID">0000-0002-6396-8938</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergii</forename><surname>Yakunin</surname></persName>
+			<idno type="ORCID">0000-0002-6409-0565</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Cervellino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><forename type="middle">J L</forename><surname>Billinge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maxwell</forename><forename type="middle">W</forename><surname>Terban</surname></persName>
+			<idno type="ORCID">0000-0002-7094-1266</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">Skov</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Norberto</forename><surname>Masciocchi</surname></persName>
+			<idno type="ORCID">0000-0001-9921-2350</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Antonietta</forename><surname>Guagliardi</surname></persName>
+			<idno type="ORCID">0000-0001-6390-2114</idno>
+		</author>
+		<idno type="DOI">10.1021/acsnano.7b00017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="3819" to="3831" />
+			<date type="published" when="2017-04-10">2017</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Bertolotti et al., Acs Nano 11 (2017), 3819.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Tetraaquatri(nitrato)cerium(III)</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Milinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Radivojevics</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Djuric</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ribar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crystal Structure Communications</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3)3</biblScope>
+			<biblScope unit="page" from="1241" to="1244" />
+			<date type="published" when="1982">1982</date>
+			<pubPlace>Ce(H2O</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Milinski, P. RadivojevicS. Djuric, B. Ribar, &apos;Tetraaquatri(nitrato)cerium(III), Ce(H2O)4•(NO3)3, &apos;Crystal Structure Communications&apos;, 11 (1982) 1241-1244</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pourbaix</surname></persName>
+		</author>
+		<title level="m">Atlas d&apos;équilibres électrochimiques</title>
+		<imprint>
+			<publisher>Gauthier-Villars et Cie</publisher>
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Pourbaix, Atlas d&apos;équilibres électrochimiques, Gauthier-Villars et Cie, 1963</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Revised effective ionic radii and systematic studies of interatomic distances in halides and chalcogenides</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Shannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Acta</forename><surname>Cryst</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0567739476001551</idno>
+		<ptr target="http://abulafia.mt.ic.ac.uk/shannon/" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section A</title>
+		<title level="j" type="abbrev">Acta Cryst A</title>
+		<idno type="ISSN">0567-7394</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="751" to="767" />
+			<date type="published" when="1976-09-01">1976</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.D. Shannon, Acta Cryst. A32 751-767 (1976) and http://abulafia.mt.ic.ac.uk/shannon/</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

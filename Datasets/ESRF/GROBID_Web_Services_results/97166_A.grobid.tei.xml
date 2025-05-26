@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experiment title: Revealing structure-activity relationships during selective olefin oxidation by operando X-ray diffraction Experiment number: CH 6051</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Charles</forename><surname>Mcmonagle</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><surname>Klag</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Chemical Technology and Polymer Chemistry (ITCP)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthias</forename><surname>Stehle</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Chemical Technology and Polymer Chemistry (ITCP)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mariam</forename><surname>Schulte</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Chemical Technology and Polymer Chemistry (ITCP)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><forename type="middle">L</forename><surname>Sheppard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Chemical Technology and Polymer Chemistry (ITCP)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Catalysis Research and Technology (IKFT)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jan-Dierk</forename><surname>Grunwaldt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Chemical Technology and Polymer Chemistry (ITCP)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Catalysis Research and Technology (IKFT)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Experiment title: Revealing structure-activity relationships during selective olefin oxidation by operando X-ray diffraction Experiment number: CH 6051</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3A7540CB7EDE7E56F7FC36BADCBD815A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Selective oxidations are key reactions for the functionalization of hydrocarbons in chemical industry <ref type="bibr" target="#b0">[1]</ref>. These include the selective oxidation of propylene and isobutene to acrolein and methacrolein (respectively). However, catalytic processes that occur during selective oxidations are still not entirely understood. Thus, establishing relationships between catalyst structure and activity/selectivity is required for a knowledge-based catalyst design and improvement.</p><p>Most commonly, research focuses on simplified model systems (e.g. 2-component Bi-Mo, Fe-Mo, Co-Mo) to get a fundamental understanding of catalytic function <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. However, such model studies cannot relate sufficiently to the complex structure of the superior 4-component Bi-Mo-Co-Fe-O systems used in the light olefin oxidation reactions. Such 4-component Bi-Mo-Co-Fe-oxides show indeed excellent catalytic performance, but their complex crystalline phase composition is still challenging to characterise, particularly the role and interplay of individual metal oxide phases <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>. An operando synchrotron XRD approach is therefore crucial.</p><p>This study involves the structural investigation of complex 4-component Bi-Mo-Co-Fe-oxide catalysts during selective isobutene oxidation by means of operando XRD. Using our capillary microreactor system, we investigated seven Bi-Mo-Co-Fe oxide catalysts prepared with flame spray pyrolysis or hydrothermal synthesis, containing various amounts of bismuth, molybdenum, cobalt and iron. In this way both the influence of preparation method and that of chemical composition on catalytic performance were investigated. For this purpose, we focused on phase formation and phase stability of each catalyst, using the following conditions: i) Phase formation experiments were performed in a temperature range of 25 -600 °C (2 K/min) under reaction atmosphere (80% He, 12% O2, 8% C4H8). ii)</p><p>Phase stability experiments were performed at 430 °C, switching in a successive manner between oxidizing, reducing and reaction atmosphere. Fig. <ref type="figure" target="#fig_0">1</ref> shows exemplarily the acquired XRD patterns during phase formation experiments of two catalysts prepared via flame spray pyroylisis that differ in their amounts of Bi, Mo, Co and Fe. Here, a strong influence of chemical composition on the metal oxide phases present could be observed, as the initial XRD patterns of the two catalysts strongly differed from each other. Moreover, heat-up from room temperature to 600 °C lead to several structural changes taking place during selective isobutene oxidation (e.g. formation of ternary phase Bi3FeMo2O12). A pronounced structural change was observed in similar ranges for both catalysts (T= 400 -420 °C ). As the simultaneously collected activity data (via mass spectrometry) showed, this strong change in catalyst structure took place as the catalyst was activated. However, further qualitative and quantitative data analysis will be required to assign the changes in the XRD patterns to the formation of the particular phases present in such complex systems (e.g. CoxFe1-xMoO4, α-Bi2Mo3O12).</p><p>Here, especially using Rietveld refinement (Fig. <ref type="figure">2</ref>) will enable to determine and quantify the individual metal oxide phases present.</p><p>In conclusion, the phase formation and phase stability experiments need to be analyzed in detail for final conclusions on the seven investigated catalyst systems. First results showed us that synchrotron XRD with (sequential) Rietveld refinement will allow to deconvolute the complex crystalline phase structure of Bi-Mo-Co-Fe oxides as it evolves under reaction conditions, while simultaneous mass spectrometry data monitors the catalytic performance. Thus, correlations between the role of individual catalyst phases, their dynamic behaviour, and interaction with other phases and their effect on catalytic performance can be determined. Together with complementary characterization methods (operando XAS, Raman spectroscopy) this will allow us to more accurately define catalyst functionality in terms of active, inactive or spectator phases. In turn this promotes optimisation of catalyst synthesis and process conditions for greater efficiency and sustainability.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Structural evolution of two Bi-Mo-Co-Fe-O catalysts derived from XRD during phase formation experiments (25 -600 °C, 2 K/min, 80% He/ 12% O2/ 8% C4H8).</figDesc><graphic coords="3,46.38,48.35,240.90,183.12" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>We thank the beamline staff, especially <rs type="person">Charles McMonagle</rs>, for their support.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Fundamentals of Hydrocarbon Oxidation</title>
+		<author>
+			<persName><forename type="first">Jerzy</forename><surname>Haber</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9783527610044.hetcat0170</idno>
+		<imprint>
+			<date type="published" when="2008-02-21">2008</date>
+			<publisher>Wiley</publisher>
+			<biblScope unit="page" from="3359" to="3384" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Haber, Handbook of Heterogeneous Catalysis, Wiley-VCH 2008, 3359.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Multicomponent Bismuth Molybdate Catalyst: A Highly Functionalized Catalyst System for the Selective Oxidation of Olefin</title>
+		<author>
+			<persName><forename type="first">Yoshihiko</forename><surname>Moro-Oka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wataru</forename><surname>Ueda</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0360-0564(08)60659-8</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Catalysis</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="233" to="273" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Moro-Oka, W. Ueda, Adv. Catal. 1994, 40, 233-273.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Reactivity of Bismuth Molybdates for Selective Oxidation of Propylene Probed by Correlative Operando Spectroscopies</title>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Sprenger</surname></persName>
+			<idno type="ORCID">0000-0002-4219-1808</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Stehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abhijeet</forename><surname>Gaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><forename type="middle">Martin</forename><surname>Gänzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daria</forename><surname>Gashnikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Kleist</surname></persName>
+			<idno type="ORCID">0000-0002-9364-9946</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jan-Dierk</forename><surname>Grunwaldt</surname></persName>
+			<idno type="ORCID">0000-0003-3606-0956</idno>
+		</author>
+		<idno type="DOI">10.1021/acscatal.8b00696</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catalysis</title>
+		<title level="j" type="abbrev">ACS Catal.</title>
+		<idno type="ISSN">2155-5435</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="6462" to="6475" />
+			<date type="published" when="2018-05-25">2018</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Sprenger, M. Stehle, A. Gaur, et al. ACS Catal. 2018, 8, 6462-6475.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Structural Evolution of Highly Active Multicomponent Catalysts for Selective Propylene Oxidation</title>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Sprenger</surname></persName>
+			<idno type="ORCID">0000-0002-4219-1808</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">L</forename><surname>Sheppard</surname></persName>
+			<idno type="ORCID">0000-0002-8891-985X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jussi-Petteri</forename><surname>Suuronen</surname></persName>
+			<idno type="ORCID">0000-0002-1632-761X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Abhijeet</forename><surname>Gaur</surname></persName>
+			<idno type="ORCID">0000-0001-5328-9280</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Federico</forename><surname>Benzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan-Dierk</forename><surname>Grunwaldt</surname></persName>
+			<idno type="ORCID">0000-0003-3606-0956</idno>
+		</author>
+		<idno type="DOI">10.3390/catal8090356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Catalysts</title>
+		<title level="j" type="abbrev">Catalysts</title>
+		<idno type="ISSNe">2073-4344</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">356</biblScope>
+			<date type="published" when="2018-08-27">2018</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Sprenger, T. Sheppard, J.-P. Suuronen, et al. Catalysts 2018, 8, 356</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Fig. 2: Selected pattern at 435 °C and corresponding fit during sequential Rietveld refinement of Bi-Mo</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sheppard</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Stehle, A. Gaur, T. Sheppard, et al. J. Catal. 2021. Fig. 2: Selected pattern at 435 °C and corresponding fit during sequential Rietveld refinement of Bi-Mo-Co-Fe-O.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

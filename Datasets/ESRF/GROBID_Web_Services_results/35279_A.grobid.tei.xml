@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Measurement of the influence of fatigue crack growth on a residual stress field</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">T</forename><surname>Buslaps</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department Mr D Garrity</orgName>
+								<orgName type="institution" key="instit1">Price University of Surrey Dr M R Wenman Nuclear</orgName>
+								<orgName type="institution" key="instit2">University of Surrey</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Measurement of the influence of fatigue crack growth on a residual stress field</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B3B26851C577463AC81212D407225C09</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>from</term>
+					<term>02/12/06 to</term>
+					<term>04/12/06</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this experiment is to measure the residual elastic strain distribution in a compact tension (CT) specimen made of fine-grained SA 508, which has been subjected to an in-plane compressive pre-load and subsequently had a fatigue crack grown from the notch. The results will be used to validate a numerical model developed to predict the influence of the residual stress distribution of the fracture behaviour of this steel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental method</head><p>A series of 25 mm thick compact tension specimens, as shown in Figure <ref type="figure" target="#fig_0">1</ref> (a), were manufactured from SA 508 ferritic steel which were measured at different stages of preparation process of the fracture toughness test <ref type="bibr">[3]</ref>. The two specimens were:</p><p>• After the specimen has been subjected to a compressive preload • After the specimen has been subjected to a compressive preload and had a fatigue crack grown from the notch tip. This crack was characterised by optical surface techniques prior to the experiment.</p><p>In each specimen 1 line scan was performed from the notch tip to the base of the specimen and a region around the notch tip was mapped. The measurements were taken using beam line ID15A using the white beam configuration at 7.5º where a two energy dispersive detector setup allowed the measurement of two strain directions simultaneously. The high flux of this beam allowed for sufficient penetration and the use of small enough gauge volumes for the resolution needed. In order to obtain the required spatial accuracy for determining the extent of the stress field measurements were taken at a maximum of 0.25 mm intervals for each line scan and 0.5 mm spacing for each map. The grain size of the material is typically less than 10µm which allowed the beam size to be set at 0.15 mm x 0.15 mm. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The results achieved through the synchrotron X-ray diffraction experiments have proved to be of a high quality. As can be seen from Figures <ref type="figure" target="#fig_1">2</ref> and <ref type="figure">3</ref> the scatter observed between measurement points, represented by a black dot in both plots, was minimal allowing high resolution plots to be generated.</p><p>A plot, Figure <ref type="figure" target="#fig_1">2</ref>, of the residual elastic strains predicted by finite element analysis in the loading direction (ε 11 ) is compared to the measured strains through the synchrotron X ray diffraction experiment. It can be seen that the numerical models, utilising a bi-linear kinematic plasticity model, prediction of the residual elastic strain is a good approximation of the measured strains. With a peak micro-strain of 2450 predicted by the finite element analysis compared to the 2550 micro-strain measured through the diffraction experiment. Therefore it is possible to validate the predicted residual strain distribution and hence the residual stress distribution induced by the compressive pre-load. The results from the cracked specimen show that again the numerical model is producing a close approximation to the distribution of the measured residual micro-strain although the peak strains around the crack tip are over estimated by approximately 25 % which suggests that any prediction of the influence of the residual stress field on the fracture behaviour of the material will be greater than in reality. This is an important consideration in the use of FE analysis for safety justifications made using codes such as R6 <ref type="bibr" target="#b0">(Ainsworth 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Map Region Line Scan</head><p>All measurements made at mid thickness</p><formula xml:id="formula_0">(i) (ii)</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -Shape and dimensions of the compact tension specimen subjected to the pre-loading and subsequent fatigue crack growth in compression</figDesc><graphic coords="2,136.59,29.64,368.97,252.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 -</head><label>2</label><figDesc>Figure2-Plots of the measured variations in residual elastic strain (ε 11 ) against distance from the notch tip at mid thickness for a SA 508 CT specimen which has been (i) subjected to a preload of -90 kN (ii) subjected to a preload of -90 kN and then had a fatigue crack grown from the notch tip.</figDesc><graphic coords="2,297.86,428.12,234.82,185.02" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p>mm</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The observations made above are confirmed when the mapped regions are compared for the measured and predicted strain distributions in the ε 11 direction.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary</head><p>A series of X-ray diffraction experiments were conducted on beam line ID15A at the ESRF to obtain the residual strain distribution within a series of CT specimens. The results show minimal scatter between measurement points, due to the small grain size of this material, and provide a high resolution indication of the residual strain distribution induced following the application of an in-plane compressive pre-load.</p><p>The results have been used to show that the numerical model developed is very close to accurately predicting the magnitude and distribution of residual elastic strain post pre-loading. However the numerical model is over predicting the peak strain at the crack tip following the simulation of fatigue crack growth which suggests that any predictions provided by this model will if used as an input into a structural integrity assessment lead to a conservative prediction of the proximity to failure.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Evaluating Marine Ecosystem Restoration Goals for Northern British Columbia</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Ainsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Pitcher</surname></persName>
+		</author>
+		<idno type="DOI">10.4027/famdis.2005.24</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Fisheries Assessment and Management in Data-Limited Situations</title>
+		<imprint>
+			<publisher>Alaska Sea Grant, University of Alaska Fairbanks</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="419" to="438" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ainsworth, R. A. (2005). R6 Assessment of the integrity of structure containing defects, British Energy Generation Limited.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

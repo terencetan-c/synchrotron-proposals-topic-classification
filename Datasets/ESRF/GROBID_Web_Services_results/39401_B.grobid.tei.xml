@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structural basis for the recognition between lentiviral integrases and LEDGF</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mr</forename><forename type="middle">Gianluca</forename><surname>Cioci</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stephen</forename><surname>Hare</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">P</forename><surname>Cherepanov</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structural basis for the recognition between lentiviral integrases and LEDGF</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CBFFD62E0C0F2E7B4F557682F254D7CB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T19:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>LEDGF is a host cell factor involved in HIV (and generally lentiviral) DNA integration <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref>. Lentiviral integrases (INs) and LEDGF interact with high affinity. The host factor engages INs via a small alpha-helical integrase binding domain (IBD) located within its C-terminal region <ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref>. On the IN side, the catalytic core domain (CCD) and the N-terminal domain (NTD) have been implicated into the interaction with LEDGF (8). A crystal structure of the HIV-1 IN CCD complexed with LEDGF IBD complex revealed a part of the HIV-1 IN-LEDGF interface <ref type="bibr" target="#b4">(5)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The goals of this experiment:</head><p>Our main objective was (i) to elucidate the complete interface between HIV IN and LEDGF that involves the NTD and the CCD of the viral protein. We also wanted (ii) to obtain more complete structural information about the functional IN complex, and (iii) to understand the adaptive changes in lentiviral IN proteins (e.g. bovine immunodeficiency virus [BIV] IN) that allow these divergent proteins to recognize a conserved host cell protein.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental method:</head><p>We had obtained crystals of two-domain fragments (NTD+CCD) of HIV and BIV INs complexed with LEDGF IBD. The three crystal forms used in the experiment were:</p><p>Form Composition Crystals size (um) preliminary diffr. limit I HIV IN (1-209)+LEDGF(347-429) 70x70x40 3.6 Å II HIV IN (1-209)+LEDGF(347-429) 40x30x30 4 Å III BIV IN (1-211)+LEDGF(347-429) 30x10x10 ~10 Å</p><p>The experiment was very successful. In total, over 30 crystals were tested, and good diffraction data with a very significant gain in resolution were obtained for both HIV-derived crystal forms, although BIV-derived crystals diffracted poorly (8 -9 Å). The data collection, refined unit cell parameters and scaling statistics for the crystal forms II and I are shown in the table below.</p><p>Crystal Form II I Space Group P2 1 2 1 2 1 P321 Unit cell parameters 201.4, 202.5, 280.5, 90, 90, 90 210.4 210.4 162.82 90 90 120 Resolution (Å) 50-3.2 (3.37-3.20) 50-3.06 (3.22-3.06) No. Reflections 188554 (27244) 77620 (11295) R merge 0.161 (0.562) 0.083 (0.521) &lt;I/σ(I)&gt; 13.0 (3.9) 16.0 (3.0) Completeness (%) 100 (100) 99.1 (99.6) Multiplicity 7.9 (8.0) 6.2 (6.0)</p><p>The structure of the HIV-derived complex was solved via molecular replacement using both data sets; the current R work /R free are 19.55/22.2% for form II and 27.2/29.6% for form I. Although crystals of form I diffracted to a higher resolution (3.06 v.s. 3.2 Å), the 12-fold NCS present in form II (36 protein chains per ASU) drastically increased the observation:parameter ratio, resulting in a better electron density map and lower R factors (the free reflection set was selected using SHELL option in SFTOOLS). In addition to elucidating the entire IN-IBD interface, these structures revealed a novel tetrameric IN assembly, which might reflect the active state of the enzyme. These structural data are currently being validated using functional assays. We are also working to improve the crystal form III as well as generating alternative crystals to address the adaptive changes in lentiviral integrase proteins that allow these divergent proteins to recognize a conserved host cell factor. This work is supported by the Medical Research Council of the UK.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Lentiviral Integrase Binding Protein LEDGF/p75 and HIV-1 Replication</title>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Engelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cherepanov</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1000046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathogens</title>
+		<title level="j" type="abbrev">PLoS Pathogens</title>
+		<idno type="ISSNe">1553-7374</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">e1000046</biblScope>
+			<date type="published" when="2008-03-28">2008</date>
+			<publisher>Public Library of Science (PLoS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Engelman, A. &amp; Cherepanov, P. (2008) PLoS Pathog. 4, e1000046.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">LEDGF/p75 functions downstream from preintegration complex formation to effect gene-specific HIV-1 integration</title>
+		<author>
+			<persName><forename type="first">Ming-Chieh</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nidhanapati</forename><forename type="middle">K</forename><surname>Raghavendra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nick</forename><surname>Vandegraaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Janet</forename><forename type="middle">E</forename><surname>Daigle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Siobhan</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Kellam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cherepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Engelman</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.1565107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes &amp; Development</title>
+		<title level="j" type="abbrev">Genes Dev.</title>
+		<idno type="ISSN">0890-9369</idno>
+		<idno type="ISSNe">1549-5477</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="1767" to="1778" />
+			<date type="published" when="2007-07-15">2007</date>
+			<publisher>Cold Spring Harbor Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shun, M. C., Raghavendra, N. K., Vandegraaff, N., Daigle, J. E., Hughes, S., Kellam, P., Cherepanov, P. &amp; Engelman, A. (2007) Genes Dev. 21, 1767-78.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">An Essential Role for LEDGF/p75 in HIV Integration</title>
+		<author>
+			<persName><forename type="first">Manuel</forename><surname>Llano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dyana</forename><forename type="middle">T</forename><surname>Saenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Meehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Phonphimon</forename><surname>Wongthida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mary</forename><surname>Peretz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">H</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wulin</forename><surname>Teo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">M</forename><surname>Poeschla</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1132319</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="issue">5798</biblScope>
+			<biblScope unit="page" from="461" to="464" />
+			<date type="published" when="2006-10-20">2006</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Llano, M., Saenz, D. T., Meehan, A., Wongthida, P., Peretz, M., Walker, W. H., Teo, W. &amp; Poeschla, E. M. (2006) Science 314, 461-4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Role of PSIP1/LEDGF/p75 in Lentiviral Infectivity and Integration Targeting</title>
+		<author>
+			<persName><forename type="first">Heather</forename><forename type="middle">M</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keshet</forename><surname>Ronen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manuel</forename><surname>Llano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heidi</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dyana</forename><surname>Saenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wendy</forename><surname>Bickmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Poeschla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frederic</forename><forename type="middle">D</forename><surname>Bushman</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0001340</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<title level="j" type="abbrev">PLoS ONE</title>
+		<idno type="ISSNe">1932-6203</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">e1340</biblScope>
+			<date type="published" when="2007-12-19">2007</date>
+			<publisher>Public Library of Science (PLoS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marshall, H. M., Ronen, K., Berry, C., Llano, M., Sutherland, H., Saenz, D., Bickmore, W., Poeschla, E., et al. (2007) PLoS ONE 2, e1340.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Solution structure of the HIV-1 integrase-binding domain in LEDGF/p75</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cherepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhen-Yu </forename><forename type="middle">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shaila</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Goedele</forename><surname>Maertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerhard</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Engelman</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nsmb937</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Structural &amp; Molecular Biology</title>
+		<title level="j" type="abbrev">Nat Struct Mol Biol</title>
+		<idno type="ISSN">1545-9993</idno>
+		<idno type="ISSNe">1545-9985</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="526" to="532" />
+			<date type="published" when="2005-05-15">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cherepanov, P., Sun, Z. Y., Rahman, S., Maertens, G., Wagner, G. &amp; Engelman, A. (2005) Nat. Struct. Mol. Biol. 12, 526-32.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Identification of an Evolutionarily Conserved Domain in Human Lens Epithelium-derived Growth Factor/Transcriptional Co-activator p75 (LEDGF/p75) That Binds HIV-1 Integrase</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cherepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Devroe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pamela</forename><forename type="middle">A</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Engelman</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m406307200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="issue">47</biblScope>
+			<biblScope unit="page" from="48883" to="48892" />
+			<date type="published" when="2004-11">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cherepanov, P., Devroe, E., Silver, P. A. &amp; Engelman, A. (2004) J. Biol. Chem. 279, 48883-92.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">LEDGF/p75 interacts with divergent lentiviral integrases and modulates their enzymatic activity in vitro</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cherepanov</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkl885</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<idno type="ISSN">0305-1048</idno>
+		<idno type="ISSNe">1362-4962</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="113" to="124" />
+			<date type="published" when="2007">2007</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cherepanov, P. (2007) Nucleic Acids Res. 35, 113-24.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">LEDGF/p75 Is Essential for Nuclear and Chromosomal Targeting of HIV-1 Integrase in Human Cells</title>
+		<author>
+			<persName><forename type="first">Goedele</forename><surname>Maertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cherepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wim</forename><surname>Pluymers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katrien</forename><surname>Busschots</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>De Clercq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zeger</forename><surname>Debyser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yves</forename><surname>Engelborghs</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m303594200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="issue">35</biblScope>
+			<biblScope unit="page" from="33528" to="33539" />
+			<date type="published" when="2003-08">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maertens, G., Cherepanov, P., Pluymers, W., Busschots, K., De Clercq, E., Debyser, Z. &amp; Engelborghs, Y. (2003) J. Biol. Chem. 278, 33528-39.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

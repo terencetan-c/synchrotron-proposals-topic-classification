@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-05-09">May 9, 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jean-Sébastien</forename><surname>Micha</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Stephen Hall: Division of Solid Mechanics</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Johan Hektor: Division of Solid Mechanics</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Matti Ristinmaa: Division of Solid Mechanics</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Division of Solid Mechanics</orgName>
+								<orgName type="institution" key="instit1">Håkan Hallberg</orgName>
+								<orgName type="institution" key="instit2">Lund University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Srinivasan Iyengar</orgName>
+								<orgName type="department" key="dep2">Division of Materials Engineering</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Jean-Baptiste Marijon: Arts et Metiers ParisTech</orgName>
+								<orgName type="laboratory">Laboratoire PIMM</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-05-09">May 9, 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">620400CA037BDF1E0900FFAA3C49B482</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>This report describes the experiment MA-2095 performed on BM32 during April and May 2014. The goal of the experiment was to perform grain mapping and to measure crystal strain around a growing tin whisker (a single crystal of tin, protruding from the sample surface). The overall objective is to better understand the driving forces behind whisker growth and subsequently aid in the development of theoretical and numerical models for this phenomena. The measurements were made using 2D and 3D Laue microdiffraction. Resolution in 3D was obtained using the differential apperture X-ray microscopy (DAXM or wire scanning) technique currently under development at BM32. The measured sample consisted of a 5 µm layer of tin electrodeposited on a copper substrate. Prior to the experiment the sample was aged for approximately two weeks to give time for whiskers to appear. A suitable region of the sample, containing a single tin whisker, was identified using an electron microscope. The same region was located again during the experiment using the optical microscope mounted on the beamline. A 2D scan of a region of 20 × 20 µm around the selected tin whisker, using a beam of 0.5 × 0.5 µm, was performed. Figure <ref type="figure" target="#fig_1">1a</ref> shows a map of the orientation of the tin grains containing the most intense diffraction peak at each position in the 2D scan; making the common assumption that the most intense peak belongs to the grain on the surface of the sample. The position of the whisker root is marked with 'X' in the figure. The indexing of the diffraction patterns was done using the BM32 software LaueTools.</p><p>Since DAXM is a time consuming technique -scanning of each point on the sample took approximately 1 hour -it is not feasible to measure all points in the 2D mesh using the wire-scanning. Therefore we decided to do the 3D scans as a cross, centered on the whisker root. Each scanned line (4 in total) was 8 µm long with a spacing of 0.8 µm and using 600 positions for the wire at each position of the sample. During the analysis of the 3D-data it was found that a mistake was made during the measurements; it appears as if a peripheral part of the wire touched the sample towards the end of each scan. This has the implication that it is only possible to calibrate the position of the wire relative to the sample on the top quarter of the detector. For this reason we are unable to reconstruct diffraction patterns with enough peaks from each depth to be able to determine the strain (minimum 8 peaks are needed). However, we are able to reconstruct individual diffraction peaks as a function of depth, as shown in Figure <ref type="figure" target="#fig_1">1b</ref>. From this reconstruction it is seen that the center position of the peak moves with depth in the sample, this is a clear indication of strain gradients in the thickness direction within the grain. These strain gradients are believed to be caused by relaxation due to whisker growth. The preliminary results of the 3D-scans indicate that the DAXM method works for our sample and they also indicate that our hypothesis, that whisker growth is a stress relaxation phenomena, is correct. This is the first time strain gradients around a whisker have been measured in 3D. However, further experiments are necessary to complete the 3D mapping and to investigate the 3D strain gradient in detail. Since this experiment, the DAXM set-up at BM32 has been improved, making the wire scans easier to perform. For future experiments the distance between the sample and the wire will be increased to avoid collision.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>× ×</head><p>Depth along beam</p><p>(a) (b) Measured diffraction peak Peak reconstructed at different depths </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (a): Grain orientations obtained from the 2D scans. (b): One diffraction peak from a Sn grain and the same peak reconstructed at different depths in the sample. The slight movement of the peak (illustrated by the gray lines) between the depths is an indication of strain gradients within the grain.</figDesc><graphic coords="2,53.58,502.98,171.00,154.31" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

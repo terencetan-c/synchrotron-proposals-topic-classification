@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure determination of Deoxyuridine pyrophosphatase (dUTPase) from Trypanosoma cruzi</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">V</forename><surname>Stojanoff</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Chem. Dept</orgName>
+								<orgName type="laboratory">York Structural Biology Laboratory</orgName>
+								<orgName type="institution">University of York</orgName>
+								<address>
+									<postCode>YO10 5DD</postCode>
+									<settlement>Heslington</settlement>
+									<region>York</region>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><surname>Harkiolaki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Chem. Dept</orgName>
+								<orgName type="laboratory">York Structural Biology Laboratory</orgName>
+								<orgName type="institution">University of York</orgName>
+								<address>
+									<postCode>YO10 5DD</postCode>
+									<settlement>Heslington</settlement>
+									<region>York</region>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Johan</forename><forename type="middle">P</forename><surname>Turkenburg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Chem. Dept</orgName>
+								<orgName type="laboratory">York Structural Biology Laboratory</orgName>
+								<orgName type="institution">University of York</orgName>
+								<address>
+									<postCode>YO10 5DD</postCode>
+									<settlement>Heslington</settlement>
+									<region>York</region>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Keith</forename><forename type="middle">S</forename><surname>Wilson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Chem. Dept</orgName>
+								<orgName type="laboratory">York Structural Biology Laboratory</orgName>
+								<orgName type="institution">University of York</orgName>
+								<address>
+									<postCode>YO10 5DD</postCode>
+									<settlement>Heslington</settlement>
+									<region>York</region>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structure determination of Deoxyuridine pyrophosphatase (dUTPase) from Trypanosoma cruzi</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CF81216E67F9B3C33EA3AFE30CE524EA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T21:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>LS-1532</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The presence of uracil instead of thymine in DNA, whether caused by non specific incorporation by DNA polymerase or by spontaneous deamination of cytosine, is highly mutagenic and leads to the activation of repair mechanisms which nick the DNA in their attempt to excise uracil. Depending on the extent of uracil incorporation, this action might give rise to multiple breaks in the DNA strands and leads to DNA fragmentation and cell death. Directly related to the ratio of dTTP/dUTP in the cell is the extent of uracil incorporation in the genome. If this ratio is low, DNA polymerase encounters more of the uracil deoxyribonucleotide than normal DNA equivalent (dTTP) and incorporates the former to the newly synthesised DNA strand. Deoxyuridine pyrophosphatase (dUTPase EC 3.6.1.23) is the enzyme responsible for the hydrolysis of deoxyuridine 5'-triphosphate (dUTP) to pyrophosphate and deoxyuridine 5'-monophosphate (dUMP). In doing so, dUTPase not only eliminates the triphosphate form of deoxyuridine which is a substrate for DNA polymerase (dUMP is not a possible substrate), but also produces dUMP which is the major metabolite in the production of the normal DNA deoxyribonucleotide dTTP (see Pyrimidine Salvage and Interconversion Pathways, attached). In essence dUTPase keeps the cellular dTTP/dUTP ratio sufficiently high for maintenance of normal cellular activity. The highly homologous protozoan dUTPases from Leishmania major <ref type="bibr" target="#b0">(Camachio et al., 1997)</ref> and Trypanosoma cruzi <ref type="bibr" target="#b1">(Bernier-Villamor et al., 1999)</ref> which function as dimers, share minimal primary sequence similarity with known dUTPases from other organisms. It is this feature that suggests their potential use as targets in drug design against these organisms. Being sufficiently different from mammalian dUTPases, drugs designed to inhibit them could be lethal to the protozoans whilst leaving their hosts unaffected. The T.cruzi dUTPase crystallises in space group P6 3 22 with cell dimensions a=b=136.43Å and c=68.70Å and one molecule in the asymmetric unit with a solvent content of 55% (crystal form I). Data was collected to 2.4Å with 98% completeness. Selenomethionine dUTPase also crystallises in space group P6 3 22 but with the c axis dimension doubled (crystal form II). The cell dimensions are a=b= 134.66Å and c=148.66Å and there are two molecules per asymmetric unit with a solvent content of 60%.</p><p>Data were collected at three wavelengths on station BM14 at the ESRF to a resolution of 3.0Å and completeness of 100%. The data were processed using DENZO and SCALEPACK. The positions of seleniums were readily determined using SOLVE <ref type="bibr" target="#b2">(Terwilliger &amp; Berendzen, 1999)</ref>. The map was clear enough to distinguish secondary structure features such as helices. A fragmented initial C α trace was built using Quanta (MSI Inc). The non-crystallographic symmetry matrix was deduced from the selenium positions plus some of the C α trace and used to improve the phases through NCS averaging using DM <ref type="bibr" target="#b4">(Cowtan, 1994)</ref>. As tracing proceeded, it became apparent that each molecule was comprised of two domains and they were related with separate NCS matrices suggesting relative domain movement. Again the density was averaged with DM, using modification with multi domain NCS averaging. Multi-domain averaging produced a map with sufficient features for an elementary amino acid assignment, admittedly spanning barely half the actual molecule. This molecule was then used as a model for structure solution in crystal form I by molecular replacement using the program AmoRe <ref type="bibr" target="#b5">(Navaza, 1994)</ref>. Electron density maps calculated using this model were of poor quality. Cross crystal averaging did not improve the maps significantly, most likely due to domain flexibility in the molecule. Therefore, data were also collected on station ID14-2 for a mercury derivative crystal grown in the presence of thimerosal (crystal form I). Phase information from this derivative was used to improve the electron density for crystal form I.</p><p>Crystal from II was refined to an R-factor of 28% (R-free 38%) using REFMAC <ref type="bibr" target="#b6">(Murshudov et al., 1997)</ref>. This partially refined model was then used as a starting model in crystal form I, and further refined to an Rfactor of 21% (R-free 29%). Several further datasets were collected at the ESRF in an attempt to obtain structures of the protein in the presence of cofactors. So far no unambiguous density has been observed for the cofactors.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Description of a novel eukaryotic deoxyuridine 5′-triphosphate nucleotidohydrolase in Leishmania major</title>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Camacho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rosalía</forename><surname>Arrebola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Peña-Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luis</forename><forename type="middle">M</forename><surname>Ruiz-Pérez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dolores</forename><surname>González-Pacanowska</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj3250441</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Journal</title>
+		<idno type="ISSN">0264-6021</idno>
+		<idno type="ISSNe">1470-8728</idno>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="441" to="447" />
+			<date type="published" when="1997-07-15">1997</date>
+			<publisher>Portland Press Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Camachio, A., Arrebola, R., Pena-Diaz, J., Ruiz-Perez, L.M. &amp; Gonzalez-Pacanowska, D. Description of a novel eukaryotic deoxyuridine 5&apos;-triphosphate nucleotidohydrolase in Leishmania major. Biochem. J. 325, 441-447 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Crystallization and preliminary X-ray diffraction of &lt;i&gt;Trypanosoma cruzi&lt;/i&gt; dUTPase</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bernier-Villamor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Camacho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>González-Pacanowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cedergren-Zeppezauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Antson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s090744499801035x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="528" to="530" />
+			<date type="published" when="1999-02-01">1999</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernier-Villamor, V., Camacho, A., Gonzalez-Pacanowska, D., Cedergren-Zeppezauer E., Antson, A. &amp; Wilson, K.S. Crystallisation and preliminary X-ray diffraction of Trypanosoma cruzi dUTPase. Acta Cryst. D55, 528-530 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Automated MAD and MIR structure solution</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">C</forename><surname>Terwilliger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joel</forename><surname>Berendzen</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444999000839</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="849" to="861" />
+			<date type="published" when="1999-04-01">1999</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Terwilliger, T.C. &amp; J. Berendzen. Automated structure solution for MIR and MAD. Acta Cryst. D55, 849- 861 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">HTTP, HTML, CSS – Aufbauhelfer im Web</title>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Meinel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maxim</forename><surname>Asjoma</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-662-63701-2_27</idno>
+		<ptr target="http://www.msi.com/life/products/quanta/index.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Die neue digitale Welt verstehen</title>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2021" />
+			<biblScope unit="page" from="156" to="159" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Molecular Simulations Inc. http://www.msi.com/life/products/quanta/index.html</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;DM/DMMULTI&lt;/i&gt;software for phase improvement by density modification</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Cowtan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Main</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/97809553602060000849</idno>
+	</analytic>
+	<monogr>
+		<title level="m">International Tables for Crystallography</title>
+		<imprint>
+			<publisher>International Union of Crystallography</publisher>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="407" to="412" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cowtan, K. dm: An automated procedure for phase improvement by density modification. Joint CCP4 and ESF-EACBM Newsletter on Protein Crystallography 31, 34-38 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;AMoRe&lt;/i&gt;: an automated package for molecular replacement</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Navaza</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0108767393007597</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section A Foundations of Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr A Found Crystallogr</title>
+		<idno type="ISSN">0108-7673</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="157" to="163" />
+			<date type="published" when="1994-03-01">1994</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Navaza. J. AMoRe: an Automated Package for Molecular Replacement. Acta. Cryst. 50, 157-163 (1994).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Refinement of Macromolecular Structures by the Maximum-Likelihood Method</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Murshudov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Vagin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Dodson</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444996012255</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="240" to="255" />
+			<date type="published" when="1997-05-01">1997</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murshudov, G.N., Vagin, A. A. &amp; Dodson, E.J. Refinement of Macromolecular Structures by the Maximum- Likelihood Method Acta Cryst D53, 240-255 (1997).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

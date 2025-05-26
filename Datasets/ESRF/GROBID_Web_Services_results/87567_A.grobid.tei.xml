@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+				<funder ref="#_47djapR">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>15/3/19</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Carlotta</forename><surname>Giacobbe</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><forename type="middle">Gómez</forename><surname>Barreiro</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><surname>Morales</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sánchez</forename><surname>Migallón</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mercedes</forename><forename type="middle">Suárez</forename><surname>Barrios</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Sánchez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Del</forename><surname>Río</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Esrf</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">) (PI) Geology</orgName>
+								<orgName type="institution">University of Salamanca</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Salamanca</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Salamanca</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">15/3/19</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8CC46D22F773F14A130B63AB1AAC57E7</idno>
+					<note type="submission">Once completed, the report should be submitted electronically to the User Office via the</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>ES-698</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Large parts of the Earth display strong elastic anisotropy, as revealed by seismic data. There is consensus that crystal preferred orientation (or texture) plays a crucial role. There is a broad effort to quantitatively link microstructures to macroscopic properties with physical models. The microstructural characterization relies on X-ray diffraction to quantify crystal preferred orientation. Sheet-silicate-rich rocks occur in a wide range of geologic environments. Clay-rich shales are estimated to comprise over 75% of the rocks in sedimentary basins and sheet silicate minerals become aligned during sedimentation, compaction and diagenesis. Slates form by recrystallization of shales at low grade conditions. The goal is to learn to understand the mechanisms that lead to this alignment with a systematic investigation of the famous slate localities in N Spain.</p><p>Our original idea was to develop a better strategy for quantitative texture analysis of complex slates at ESRF, and compare the result with previous data in ALS (Berkeley) and new experiments along 2020 in APS (Chicago). In this first round of experiments we established an optimal procedure by performing tests at ID11 beamline. Optimal samples are cylinders, which can be rotated to any orientation. Cylinders are 2-3mm in diameter and 10mm long. They were analyzed in transmission with a beam 0.5 mm. Hard X-rays (40keV) were finally provided what to some extend limited the resolution of some phases. A second drawback to overcome was the small size of the Frelon detector which reduce the final d-spacing range per measurement. Samples were aligned on the goniometer to have the cylinder axis centered in the beam. Acquisition strategy included translation of the sample along the axis to improve grain statistics. Images will be collected at different rotations (from -75° to +75° in 15° intervals) to obtain good pole figure coverage.</p><p>Diffraction images (Fig. <ref type="figure" target="#fig_0">1A</ref>) from each rotation were corrected for FReLon geometrical distortion and merged into a single one in TIFF format, using Fit2D <ref type="bibr" target="#b0">[1]</ref> Some issues came out as the geometrical distortion increase with the rotation angle, making +/-75º images unusable in some cases, a point that need to be explored and fixed in future experiments with Frelon detectors. Diffraction images were decomposed with Rietveld program MAUD (Material Analysis Using Diffraction; Lutterotti et al., 1997) into 72 azimuthal sectors of 5º, over which intensity was integrated, providing a total of 216 diffraction spectra per sample analyzed with the Rietveld method in MAUD as described in our tutorials <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref> (Fig. <ref type="figure" target="#fig_0">1B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A) B) C) D) Muscovite</head><p>Vp -Slate (km/s) --foliation--&gt; </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chlorite</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: A) Diffraction image from a slate. Strong intensity variation along Debye rings is due to texture. B) 'Unrolled' diffraction image (data) and Rietveld fit after complete texture analysis on MAUD. The Rietveld processing results in a good data fit which ensure a convergence of the refined parameters. C) Recalculated pole figures for Muscovite and chlorite. D) P-wave velocity distribution calcualted after the orientation distribution function, where fast propagation is along the foliation plane.</figDesc><graphic coords="2,103.05,603.40,312.05,78.00" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Pole figures were recalculated after the orientation distribution (OD) of each phase (<rs type="affiliation">Ms, Chl, Qtz, Pl</rs>). Only phyllosilicates showed a texture, with values between 40-25 m.r.d. Some texture components were preliminary identified and tentatively related to SEM microstructure as part of a composite fabric developed during regional scale folding of the unit. However, more samples are needed to confirm this point. OD were used to calculate polyphasic elastic tensors per sample and seismic anisotropy (Fig. <ref type="figure">1D</ref>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_47djapR">
+					<idno type="grant-number">1D</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Calibration and correction of spatial distortions in 2D detector systems</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Hammersley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Svensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0168-9002(94)90720-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="312" to="321" />
+			<date type="published" when="1994-07">1994</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hammersley, A. P., Svensson, S. O., &amp; Thompson, A. (1994). Calibration and correction of spatial distortions in 2D detector systems. Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, 346(1-2), 312-321.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Combined texture and structure analysis of deformed limestone from time-of-flight neutron diffraction spectra</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lutterotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matthies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-R</forename><surname>Wenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Richardson</surname><genName>Jr</genName></persName>
+		</author>
+		<idno type="DOI">10.1063/1.364220</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="594" to="600" />
+			<date type="published" when="1997-01-15">1997</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutterotti, L., Matthies, S., Wenk, H. R., Schultz, A. S., &amp; Richardson Jr, J. W. (1997). Combined texture and structure analysis of deformed limestone from time-of-flight neutron diffraction spectra. Journal of Applied Physics, 81(2), 594- 600.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Rietveld texture analysis from synchrotron diffraction images. I. Calibration and basic analysis</title>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Lutterotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Vasin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans-Rudolf</forename><surname>Wenk</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0885715613001346</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Diffraction</title>
+		<title level="j" type="abbrev">Powder Diffr.</title>
+		<idno type="ISSN">0885-7156</idno>
+		<idno type="ISSNe">1945-7413</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="76" to="84" />
+			<date type="published" when="2014-01-23">2014</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lutterotti L., Vasin R., Wenk H.-R. (2014) Rietveld texture analysis from synchrotron diffraction images: I. Basic analysis. Powder Diff. 29, 76</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Rietveld texture analysis from synchrotron diffraction images. II. Complex multiphase materials and diamond anvil cell experiments</title>
+		<author>
+			<persName><forename type="first">Hans-Rudolf</forename><surname>Wenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Lutterotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pamela</forename><surname>Kaercher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Waruntorn</forename><surname>Kanitpanyacharoen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lowell</forename><surname>Miyagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Vasin</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0885715614000360</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Diffraction</title>
+		<title level="j" type="abbrev">Powder Diffr.</title>
+		<idno type="ISSN">0885-7156</idno>
+		<idno type="ISSNe">1945-7413</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="220" to="232" />
+			<date type="published" when="2014-05-15">2014</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wenk H.-R., Lutterotti L., Kaercher P., Kanitpanyacharoen W., Miyagi L., Vasin R. (2014) Rietveld texture analysis from synchrotron diffraction images: II. Complex multiphase materials and diamond anvil cell experiments. Powder Diff. 29, 220</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

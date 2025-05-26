@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The dynamics of colloid-liquid crystal composites Experiment number: SC2326</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Troika</forename><surname>Id10a</surname></persName>
+							<affiliation key="aff0">
+								<address>
+									<country>9/08</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Yuriy</forename><surname>Chushkin</surname></persName>
+							<affiliation key="aff0">
+								<address>
+									<country>9/08</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Paul</forename><surname>Clegg</surname></persName>
+							<affiliation key="aff0">
+								<address>
+									<country>9/08</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Chethan</forename><surname>Lobo</surname></persName>
+							<affiliation key="aff0">
+								<address>
+									<country>9/08</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Katya</forename><surname>Lyakhova</surname></persName>
+							<affiliation key="aff0">
+								<address>
+									<country>9/08</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The dynamics of colloid-liquid crystal composites Experiment number: SC2326</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8CFFB874CC20E5E35D9AFC0C35A943D3</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Our aim, during experiment SC2326, was to study the dynamics of colloidal particles in a liquid crystal -particle composite approaching and within the nematic phase <ref type="bibr">[1]</ref>. Here the anisotropy of the host can lead to effective interactions between the particles. These new interactions can exist immediately preceding the transition as well as in the ordered phase. From this research we hope to fuel theoretical attempts to describe the formation of soft solids in these systems. For investigating the network behaviour and formation we studied liquid crystal pentacyanobiphenyl (5CB) samples containing different colloidal volume fractions. Series of silica particles with progressively varying hydrophobicity were available -so that the interaction between the molecules and the silica surface could be tuned. We observed our samples as they aged and also at different temperatures -predominantly following a single protocol. During the experiment we have been able to collect data in a q-range from 0.0028 Å -1 to 0.017 Å -1 . This means we are looking at the dynamics of particles and clusters of particles. Slow speckle fluctuations could be seen by eye in the CCD images. Using the matlab based XPCSGUI software (written by Yuriy Chushkin) the normalized intensity correlation function could be calculated for several q-regions as well as the 2-times correlation function for one q-region. This was available during the experiment, which meant we could follow the behaviour of the samples roughly and decide what to experiment next to make a useful study. This software was also extremely useful for characterizing the performance of the beamline.</p><p>From the dynamics it appears that the particles in many of the samples show liquid-like behaviour at temperatures above the isotropic-nematic transition temperature. Suggesting that the colloids a freely dispersed and able to perform motion. It is found that after cooling into the nematic phase a gel-like structure is formed, regardless of the hydrophobicity and volume fraction of the silica colloids. Sometimes structural rearrangements are found to occur after cooling down, which can be seen easily from the 2-time correlation function (figure 1, right) that was calculated during experimenting. Our initial analysis involves examining the 2-time correlation function qualitatively and analysing the intensity autocorrelation function quantitatively. The former shows that hydrophilic silica particles appear to form robust gels in the nematic phase which do not always melt in the isotropic phase. Hydrophobic particles tend form gels which often exhibit dynamics which change irregularly with the sample age (figure <ref type="figure" target="#fig_0">1</ref>, right). These gels to tend to melt as the host liquid crystal becomes disordered. We have begun analysing the intensity autocorrelation function by finding the best fit to g 2 = 1 -C exp ( -2(t/τ) β ). The function describes the simpler samples or shorter age segments of more exotic dynamics well. Our initial work shows that the decay rate (1/ τ) varies linearly with the wave vector. More detailed analysis is currently in progress as part of Danielle van 't Zand's PhD thesis and will be brought to a conclusion over the next few weeks. Example fit parameters are shown in figure <ref type="figure" target="#fig_0">1</ref> (left).</p><p>Wave vector, q [Å -1 ] Decorrelation rate, 1/ τ [s -1 ] Yuriy Chushkin very kindly made his XPCSGUI software available to us during and after the experiments for analysis in Edinburgh. At all stages during and after the experiments he provided outstanding support and advice.</p><p>[1] S. P. Meeker, W. C. K. Poon, J. Crain, E. M. Terentjev, Phys. Rev. E 61, <ref type="bibr">R6083 (2000)</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (left) Linear dependence of decorrelation rate versus wave vector revealing that the colloids show quasi-ballistic motion in the gels, (right) Example of 2-time correlation function calculated during the experiment, revealing structural suggesting that there are intermittent dynamics as the sample ages.</figDesc><graphic coords="2,355.08,396.24,224.76,226.80" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

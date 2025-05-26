@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY INSTALLATION EUROPEENNE DE RAYONNEMENT SYNCHROTRON Experiment Report Form</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>2/02/2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Alberto</forename><surname>Bravin</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Elke</forename><surname>Brauer-Krisch</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><forename type="middle">Anatoly</forename><surname>Rosenfeld</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Michael</forename><surname>Lerch</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><forename type="middle">Tomas</forename><surname>Kron</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Medical Radiation Physics</orgName>
+								<orgName type="institution">University of Wollongong</orgName>
+								<address>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Peter McCallum Cancer Institute</orgName>
+								<address>
+									<settlement>Melbourne</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY INSTALLATION EUROPEENNE DE RAYONNEMENT SYNCHROTRON Experiment Report Form</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">2/02/2007</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2932F3EE9D6EDFE757ED906F7E97A5AB</idno>
+					<note type="submission">from: 26/05/2005 to: 30/05/2007</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The ultimate goal of this proposal was to investigate the possibility of an improvement in the efficiency of radiation therapy, and of synchrotron MRT in particular, by inserting tissue samples in a magnetic field during the irradiation. In particular we aimed to:</p><p>• Improve the high spatial resolution of radiation detector instrumentation for dosimetry in MRT;</p><p>• Investigate the effect of a magnetic field (and its strength), on the spatial distribution of the absorbed dose in MRT at different depths in a phantom, with experimental measurements and Monte Carlo simulations, and; • Investigate the possibility of enhancing the radiobiological effects from X-ray synchrotron radiation beams (on DNA level) in the presence of a magnetic field, both experimentally and with Monte Carlo simulations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Monte Carlo modelling and experimental dosimetry measurements have been conducted as part of our ongoing study of using magnetic fields to manipulate the dose deposition of secondary electrons to improve the peak-to-valley dose ratio (PVDR) in MRT. Experimental measurements have been conducted with different magnet constructions to investigate the potential of using a longitudinal magnetic field to improve the peak-to-valley dose ratio (PVDR) of a synchrotron X-ray microbeam array.</p><p>Initial GaF film results (in a 70x70x5mm 3 Perspex phantom) using a longitudinal magnetic field were very encouraging. Using an MRT array made up of three microbeams a significant reduction in each microbeams lateral penumbra was observed, with the dose being redeposited in the peak. Consequently we also observed an increase in the PVDR of up to 70% with the application of a magnetic field. No MOSFET measurements could be made with this arrangement due to the small spacing between the magnet poles (5mm). Pulsed magnetic field results were carried out using a coiled solenoid arrangement (25 mm bore) that accommodated MOSFETs and GaF film and had an average filed of 2.5 T over 30 msec. Both the GaF film and MOSFET detectors agreed in their results but failed to reproduce the previously observed effects on the microbeam profile with magnetic field. A new permanent magnet arrangement was constructed to accommodate both MOSFETs and GaF film. Detailed measurements were repeated with both film and MOSFETs, which again agreed but failed to reproduce the previously observed effects.</p><p>Monte Carlo simulations centred initially on the Penelope code and then were extended to EGS5. Previous research (from BNL 2000) showed a reduction in microbeam penumbra width with a magnetic field of 2 T for a 14 keV single synchrotron X-ray microbeam using EGS4. Our Penelope results showed a significant reduction of the X-ray microbeam penumbra with a lateral magnetic field, but not at the low magnetic fields currently available to us experimentally. The Penelope code is unable to simulate a polarized photon beam (the MRT beam is horizontally polarized). Simulations are currently underway using the EGS5 code to investigate the polarization significance.</p><p>Other preliminary experiments were also conducted in an attempt to improve the PVDR of the microbeam array. These included studying the PVDR of monoenegetic X-ray microbeam arrays and experimentally simulating X-ray pencil beams. Both of these investigations showed increases in the PDVR, which warrants the further investigation which is currently underway.</p><p>While our preliminary results could not be reproduced we are keen to pursue the effect of a magnetic field on the radiobiological dose deposition. We have carried out an investigation using a wide photon beam with energy 100 kV p using the same permanent magnet set-up used at ESRF. Results indicate that the RBE increases from 1.0 to 1.7. Such experiments are being planned for 2007.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Detailed Longterm Project Outcomes:</head><p>Magneto-MRT is the application of magnetic fields to Microbeam Radiation Therapy (MRT), a novel idea that the CMRP research team have been investigating on the ID-17 Biomedical beamline at the ESRF. Monte Carlo modelling and phantom dosimetry experimental measurements have been conducted as part of an ongoing study of using magnetic fields to manipulate the dose deposition of secondary electrons to improve the peak-to-valley dose ratio (PVDR) in MRT. The development and construction of three magnet apparatus, two using permanent magnets and the third using a pulsed magnet coil, were based on computer simulations to optimise the magnetic field strength over the whole radiation field. The permanent magnet apparatus yielded a static magnetic field strength of 1 Tesla (first model) and 1.3 Tesla (second model) between magnet poles. The magnet coil apparatus produced a 2.5 Tesla pulse of longitudinal magnetic field in synchronisation with the MRT beam delivery system (30 ms duration). Dosimetric measurements were performed using GaF-chromic film and MOSFET (edge-on) detectors.</p><p>Initial magneto-MRT measurements were carried out using GaF-chromic film pieces cut from a single piece of film and mounted in the same orientation with respect to the microbeam array. A 1 mm thick slab of Perspex separated each film piece. The 5 mm gap between the magnet poles was too small for the edge-on MOSFET carrier measurements. Analysis of the films via microdensitometry techniques (see Fig. <ref type="figure">1</ref>) showed a significant increase in the peak dose at 2,3 and 4 mm depths as shown Fig. <ref type="figure">1</ref> and Fig. <ref type="figure" target="#fig_0">2</ref>. No significant change in the peak dose at 1mm depth was observed. The points plotted in Fig. <ref type="figure" target="#fig_0">2</ref> are the average of the deduced dose values for the three microbeams studied. A reduction in the valley dose (see Fig. <ref type="figure">3</ref>) was observed at depth of 1 mm only. The corresponding increase in PVDR was 70 % at this depth. At 2, 3, and 4 mm depth there was a reduction in the dose associated with the lateral penumbra of each microbeam but no significant reduction in the dose at the centre of the valley. In this case the increase in PVDR followed the relative increase observed in peak dose of ~25%. Fig. <ref type="figure">3</ref>. Microbeam valley dose profiles for the three microbeams. 0 100 200 300 400 500 600 100 300 500 700 900 1100 1300 Relative Position (microns) Deduced Dose (Gy) 1mm depth, B on 2mm depth, B on 1mm depth -B off 2mm depth -B off 0 10 0 20 0 30 0 40 0 50 0 60 0 70 0 80 0 90 0 100 0 100 300 500 700 900 1100 1300 1500 R elative P osition (m icro ns) Deduced Dose (Gy) 1 m m B = 0 T 1 m m B = g p p p 200 300 400 500 600 0 2 4 6 8 1 0 1 2 1 4 Depth (mm) Deduced Dose (Gy) B=0T B= Poly. (B=0T)</p><p>Monte Carlo computer simulations, performed in parallel with the magneto-MRT experiments using Penelope (see Fig. <ref type="figure" target="#fig_1">4</ref>.), show magnetic field effects only for field strengths greater than those used in these experiments. The simulations are currently undergoing modification to incorporate any polarisation effects that may be present in the synchrotron beam using EGS5.</p><p>Extensive PVDR measurements were carried out with a cylindrical Perspex phantom and a MOSFET (edge-on) detector inside the 25 mm diameter bore of the 60 mm long magnet coil as mentioned above. Similar measurements were also done using GaF film. The MOSFET dosimetry measurements agreed with the GaF film data, however both showed no significant change in the peak and valley dose with magnetic field, and hence, no change in the PVDR. Fig. <ref type="figure">1</ref>. Microbeam peak dose profiles using GaF film.</p><p>To remove any uncertainties related to lack of synchronization of the magnetic field pulse with the radiation pulse a new permanent magnet arrangement was designed and developed with a pole separation of 10 mm. The measured longitudinal field strength was 1.3 T and the pole spacing accommodated both GaF film and edgeon MOSFETs. However no variation in the lateral physical dose profile of the microbeams was observed with magnetic field using either the MOSFETs or GaF film. This contradicts earlier results obtained with Gafchromic film.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.2T 1 T</head><p>A comprehensive study was carried out to model the response of the MOSFET detector in 'edge-on' mode and investigate the perturbation in the MRT radiation field from non-TE detector components. Results from both the computer-simulations and physical measurements show an asymmetry in the response of the MOSFET (edge-on) detector due to the physical components (epoxy bubble and silicon chip) of the detector. Consequently, a new design of the MOSFET detector was proposed which included no epoxy bubble and used the face-to-face edge of the MOSFETs to reduce the asymmetry of photon scattering. These new MOSFET detectors, developed at the CMRP, will be used in future magneto-MRT experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2">T 1 T</head><p>Experiments were also conducted to investigate whether the PVDR can be improved by modifying particular beam properties, such as the height and energy of the MRT beam. A significant increase (improvement) in the PVDR was observed as the beam height was reduced from 5 mm to 0.5 mm (as predicted by theory). Further research will be required to investigate whether the improved PVDR translates into better tumor control. An investigation into modifying the design of the current MRT multi-slit collimation (MSC) to improve the PVDR is currently underway.</p><p>The study investigating the PVDR with beam energy was conducted using monochromatic synchrotron beams of 30, 50, 70, and 100 keV. These monoenergetic beams (note that the 100 keV labelled point is actually associated with the full MRT beam spectrum) were used to show the variation in the measured PVDR with increasing beam energy and are shown in Fig 5 . Monte Carlo simulations are currently under way at all of these beam energies for comparison. We also studied the variation in the PVDR as a function of microbeam number for an array of 24 microbeams. A sample of the results is shown in Fig. <ref type="figure">6</ref>. Significant differences exist for the case of monochromatic beams compared to the full MRT spectrum, which is a subtle yet important aspect pertaining to MRT dosimetry. Despite the fact that we were unable to reproduce the substantial increase in the PVDR with magnetic field that was observed in the earlier GaF-chromic film data, many positive outcomes resulted from the project. These outcomes directly relate to and assist the development of microbeam radiation therapy. Future magneto-MRT research needs to be carried out to investigate the radiobiological effects (and corresponding therapeutic benefits) on a cellular level from using magnetic fields in MRT. Some results have already been achieved using a 5x5 mm 2 , 100keVp X-ray beam which saw the radiobiological effectiveness (RBE) of the beam increase from 1.0 to 1.7. Cell irradiation studies are planned for 2007 experiments and if successful further studies are planned to expand these radiobiological studies to small animals. A comprehensive study, incorporating all the aspects mentioned in this magneto-MRT project, will hopefully develop MRT at the ESRF to a suitable standard for the treatment of inoperable human infantile brain tumours.  ATO Advanced Research Workshop on Radiation Detectors for Medical Applications (Alushta, Crimea, Ukraine, 2005). </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Microbeam peak depth dose with and without longitudinal magnetic field applied.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Penelope MC code simulation data of the effect a longitudinal magnetic field on a single microbeam.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Experimentally deduced PVDR as a function of monoenergetic synchrotron X-ray enegy Fig. 6. Experimentally deduced PVDR as a function of microbeam number for 24 microbeams. Microbeam number 12 is the central microbeam. Publicat 1. M. Yudelev and M. Zaider "Miniature 2. SFET for Synchrotron 3. ental of MOSFET dosimetry for microbeam radiation therapy (MRT)", Radiat. Prot. Dosim., 2006 4.eidi Nettelbeck "Magneto-MRT: Improving the PVDR in MRT" (in preparation)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>) A. B. Rosenfeld, D. Cutajar, M. L. F. Lerch, G. Takacs, detectors for in vivo dosimetry", Rad .Prot. Dosim., 120, 48-55, 2006 A. B. Rosenfeld, E. A. Siegbahn, E. Brauer-Krish, A. Holmes-Siedle, M. L. F. Lerch, A. Bravin, I. M. Cornelius, G. J. Takacs, N. Painuly, H. Nettelbeck and T. Kron "Edge on Face-to-Face (EOFF) MO Microbeam Dosimetry: MC modeling", IEEE Trans on Nucl. Sci., NS-52, 2562-2569, 2005. E. A. Siegbahn, E. Bräuer-Krisch, M. L. F. Lerch, A. B. Rosenfeld and A. Bravin "Theoretical and experim comparison (submited) H Book Chapters 1. A. B. Rosenfeld "Semiconductor detectors in radiation medicine: Radiotherapy and related applications", Radiation Detectors for Medical Applications Proceedings of the N odern Radiation Therapy", Chapter in Microdosimetri h LET Radiations: Theory and Applic . B. Rosenfeld "Semiconductor Radiation Detect Response of Physical and Biological Systems to Low and H ited by Y.Horowitz (Elsevier, 2006).</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

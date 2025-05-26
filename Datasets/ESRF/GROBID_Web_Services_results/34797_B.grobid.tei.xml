@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+				<funder ref="#_UESxEnh #_aMNsUKT #_SmpYtJA">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Dept. of Physics of Universty of Ferrara (Italy)</orgName>
+				</funder>
+				<funder ref="#_yHcz478">
+					<orgName type="full">FEDER</orgName>
+				</funder>
+				<funder ref="#_EMgnDWR">
+					<orgName type="full">ESRF (Grenoble, France)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8B0C71636B5F93D4916269C63A56A735</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">INTRODUCTION</head><p>The experiment is a collaboration project between the INAF/IASF -Bologna and Palermo and the University of Ferrara, Italy, the Dep. de Física da Universidade de Coimbra, Portugal and the CESR/CNRS of Toulouse, France. The aim of this project is to optimize the design of CZT/CdTe pixel detectors for hard X and soft γ-ray astrophysics for performing high sensitivity polarimetric measurements together with spectroscopy, imaging and timing in the 100 keV -1 MeV range. This idea was born several years ago (ref. <ref type="bibr" target="#b0">1)</ref> with a view to implementation in a new generation of wide field telescope, but it has also become very appealing in the last two years within the framework of the new ESA plan for the next decade (Cosmic Vision 2015-2025). In fact polarimetry has been recognized as a very important observational parameter also for high energy astrophysics (&gt;100 keV) and therefore this capability should be included in proposals for future space missions (ref. <ref type="bibr" target="#b1">2)</ref>. In particular the proposers have been involved, as part of a large European collaboration, in the preparation of a new telescope mission concept (GRI, Gamma Ray Imager) based on Laue focussing techniques (ref 3). The GRI mission proposal has been submitted in June 2007 in answer to ESA Cosmic Vision 2015-2025 first call for proposal. In this context and for ongoing development activities on Laue lens for hard X-and soft gamma-rays astrophysics (ref. <ref type="bibr" target="#b3">4)</ref>, the data obtained by the POLCA II experiment (MI-854) at ESRF are very important for optimizing the design of a Laue lens focal plane based on CZT pixel detector in order to obtain the best performance also as a Compton scattering hard X-and soft γ-ray polarimeter. As part of the design process, a sophisticated Monte Carlo simulation code based on the GEANT4 program has been developed (ref. <ref type="bibr" target="#b4">5)</ref>, where an extensive polarimetric study was performed in order to evaluate the response and performance of the detection plane to the type of linearly polarised radiation expected to be produced in various types of astrophysical sources <ref type="bibr">(ref. 6)</ref>. In order to compare and calibrate the simulations with measurements, a first experiment (POLCA/MI-592) was already implemented at the ERSF-ID 15 beamline in July 2002 (ref. <ref type="bibr" target="#b6">7)</ref>. Three small 4×4 pixel CdTe crystals were tested under a ~100 % polarised beam at three energies (100,300,400 keV). It was verified that the experimental results were in agreement with the results predicted by Monte Carlo simulations <ref type="bibr">(ref. 8)</ref>. Encouraged by these results, the new larger size experiment (POLCA II) has given us more information about the dependence of the polarisation modulation factor on incoming energy in the range 100-1000 keV and on the angle between the polarisation plane and the detector axis as well as on the distance between scattered hits. These results, compared with MC simulations, will allow us to be more confident in the evaluation of the achievable sensitivity to polarisation levels of high energy cosmic source emissions of a new instrument based on this technology and provide us with fundamental information with which to compare the CZT array polarimetric performance with other focal plane designs (ref. 9, 10).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">EXPERIMENT DESCRIPTION</head><p>The POLCA experimental set-up is schematically shown in Figure <ref type="figure">1</ref>. The following four main functional subsystems can be identified: a. The POLCA II detection system: this subsystem comprises the CZT pixel spectrometer from IMARAD and the analog front-electronics (Figure <ref type="figure">2</ref>). The detector is made of two adjacent CZT crystals (5 mm thick) for a total area of 4×4 cm 2 . The anode side is segmented in a 16×16 array (256 pixels) of 2.5 mm pitch, while the cathode is a monoelectrode. The detector is connected through 3 high density connectors with a custom designed board containing 8 ASICs (eV Products) with 16 independent channels each. The total active pixels of the POLCA II detection system are 128, distributed in array of 11×11 pixel plus 7 adjacent ones (Figure <ref type="figure" target="#fig_1">3</ref>). (a) (b) Figure 2. (a) The 16×16 pixels CZT spectrometer from IMARAD of the POLCA II detection system; (b) the board containing the 8 (16 channels) eV Products ASICs used as Front end electronics. 5/15 b. The Multiparametric Electronics (referred also as TAKES electronics): this subsystem is a custom designed electronics that allows handling and acquiring analog signals from 128 different channels with coincidence logic and auto-calibration circuit. c. The data acquisition H/W: this subsystem is based on a MXI-3 PXI box with a fast digital I/O board from National Instrument (PXI 6533). The board allows reading in hand-shake mode parallel 32 bits words with an internal clock of 2 MHz.</p><p>d. The quick look and storage station: this system is based on an Intel P4 PC that acquires the data through the PCI-MXI-3 interface using a custom s/w tool developed in LABVIEW. The s/w provides both the quick-look to set and control the current measurement and the data storage on disk.</p><p>Both the HW and SW have been described in detail in ref 12 and 13. It should be underlined the main features of the TAKES Electronics. Any signal is presented to a peak stretcher and to a voltage comparator (minimum energy threshold E min ). The peak voltage of any analog signal overcoming E min is pre-stretched for a time of the order of the input pulse rise time (≈ 0.7 µsec). For the 128 pixel signals configuration, if within the coincidence window time, selectable among 1, 2, 4, 8, 16 µsec, one or two digitized outputs coming from the energy thresholds E min occur, a post stretching action is issued and the analog data are enabled to be converted in digital by the analog-to-digital converter (ADC). The coincidence criterion is 6/15</p><p>simply based on the fact that single or double events detected within the coincidence time (usually 1 or 2 µsec) are accepted as valid and then post-stretched to be converted in digital by the 12 bit flash ADC. The energy of any hit of an event (single, double or multiple) is coded with 10 significant bits and to any channel an address code is associated depending on its physical input wiring. TAKES electronics also adds a flag which allows to recognize the end of an event. TAKES reserves a word of 32 bit to any single event, two 32 bit pattern for any double event, and so on, depending on the event multiplicity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">SETUP AT ESRF BEAMLINE ID 15A</head><p>The POLCA experiment was set-up in the experimental hutch at about 100 cm from the beam entrance window on a micrometric positioning and rotation system (ref. <ref type="bibr" target="#b12">13</ref>). In the ID 15/A experimental hutch the POLCA II detection system has been mounted through a mechanical plexiglas interface on a rotational stage on a XYZ positioning system (Figure <ref type="figure" target="#fig_2">4</ref>).</p><p>All the POLCA II subsystems (detector, power supply, and multiparametric electronics) have been mounted inside the experimental hutch, leaving in the control room only the NI PXI box with the NI6533 data acquisition board and the ESRF control console and the Quicklook station (PC).</p><p>Through the ESRF control console is possible to manage all the positioning and rotation stage, to monitor the beam intensity and the optics hutch shutter. Furthermore the video camera monitor allows to visually checking of the experimental area and the beam position by means of the use of fluorescent paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">ID 15A BEAM ATTENUATORS FOR OPERATING THE DETECTION SYSTEM</head><p>The beam intensity depend on the electrons current (measure in mA) running on the main ring of the ESRF (ref. <ref type="bibr" target="#b13">14)</ref>. These current is time dependent with a typical life cycle of ~6 hours as shown in the graph reported in Figure <ref type="figure">5</ref>, where the beam current is plotted versus time in s for the entire test session. The plot is obtained by using, where available, the current values (filled circles) reported in the log file of all the commands in the ESRF console system. These data have been therefore fitted with an exponential decay model for each cycle. The average decay low for the ring current in each cycle is: </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7/15</head><p>Where t is the time in seconds from each cycle starting point (maximum ring current). This model has been used to reconstruct the instantaneous beam intensity. The beam intensity affect the photon flux on the detector during the measurements and therefore these numbers could be useful to normalize the pixel relative efficiencies.</p><p>Our detection system (POLCA II plus the TAKES multiparametric electronics) can handle up to 20000 count/s, before being affected by signal pile up and data buffer saturation. Because of the very high intensity of the photon beam emerging from the optical hutch, we needed to reduce the flux impinging to the POLCA II detector. In order to reduce the flux we have added different shields between the incoming beam and the detector. In the plots of Figure <ref type="figure" target="#fig_4">6</ref> the Aluminium thickness needed to limit the beam flux to 20000 photon/s as function of energy and for two different beam spot sizes, is shown. This plot is obtained convolving the beam flux intensity spectrum with the exponential attenuation law:</p><formula xml:id="formula_0">max 1 ( ) ( ) ( ) [2] ( ) N E a x cm Log E M µ ⋅ ∆ =</formula><p>Where µ(E) is the linear attenuation coefficient at energy E (keV), N(E) is the incoming beam flux (photon/cm 2 /s) at energy E (keV), ∆a the beam spot area, and M max is the maximum number of incoming photon that the system can handle.</p><p>In order to control the photon flux entering in the experimental hutch, an Aluminium absorber is implemented in the optical hutch. This absorber is made of an Aluminium cube with 100 mm side that is mounted on a translator stage as shown in the figure at the right (Figure <ref type="figure" target="#fig_5">7</ref>). The absorber can be moved up and down orthogonally with respect to the beam axis, allowing to increase the absorption thickness continuously from 0 to ~140 mm. During the POLCA II tests we have used different type of absorber to maintain the incoming photons flux on the detector compatible with the maximum count rate allowed by the POLCA II electronics. The used absorbers configuration was made by adding to the absorber in the optical hutch a few layers of different material and thickness that were positioned at the beam entrance window in the experimental hutch.  POLarimetry with Cadmium telluride Array (POLCA) II MI-854 8/15</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">BEAM TESTS AT THE BEAMLINE ID15A</head><p>This section will describe the POLCA II performed tests using the beamline ID 15A at the ESRF. For each test type the objective as well as the used set up and measurement condition and typical integration time are given.</p><p>The measurements are divided in two main classes: the first class is devoted to a deep study of the POLCA II detector performance as a hard X ray scattering polarimeter, while the second one is dedicated to evaluate possible effects of the Laue diffraction on the photon polarization status using Cu mosaic crystals coupled with the POLCA II detection system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">Polarimetry tests</head><p>The main objective of this tests type is a fine evaluation of polarimetric capabilities achievable with a CZT pixel detector with mm pixel scale and quite standard thickness over a wide high energy range (from ~100 keV to ~800 keV) Pixel Scans. These are preliminary measurements performed in order to determine the response of each POLCA II pixel at selected energies. In particular the single events acquired during these tests will be used to correct the double event data for efficiency and gain non uniformity across the active detector surface. This test type consists of scans over all the 11×11 detector pixels with a fine collimated beam for each energy that will be used for polarimetric measurements. At a given energy each scan start at the centre of pixel at the left of the left top corner pixel of the active detector array, and then using the XY micrometric positioning system the detector will be moved in order to scan all the pixels following a path like the one shown in Figure <ref type="figure" target="#fig_5">7</ref>. The measurement time at each reached pixel was, generally, set to 30 s in order to have enough statistics: assuming an average count rate of 20000 c/s, we will acquire ~6×10 5 counts. This number of course depends on the beam energy. These tests set have the aim to make a fine evaluation of the performance of the POLCA II CZT pixel detector as a hard X-ray scattering polarimeter. In particular the results of this test type is the determination of the Q (modulation) factor of the POLCA II detector as function of energy.</p><p>Polarimetry tests with rotation around corner pixels. The tests were made using the fine collimated beam centred on each of the four corner pixel of the active detector. The measure on the same corner pixel is repeated 4 (or at least two) time rotating the detector by 90° (counter-clockwise) each time around the corner pixel itself. This method allows us to operate the 11×11 POLCA II pixel detector and extrapolate the obtained results to a 21×21 array. In fact due to the 90° double events distribution symmetry produced by a polarized photon beam we can simply irradiate a corner pixel of the 11×11 array and consider the measured distribution as quarter (90°) of a 360° distribution obtained around the target pixel seen as the central pixel of a 21×21 array. Therefore we just need to extrapolate our 11×11 double events distribution to the remaining three quadrants to obtain the equivalent distribution at 360°.</p><p>Figure <ref type="figure" target="#fig_7">9</ref> shows the rotation procedure around one of the four corner pixel. Because in the 9/15</p><p>POLCA set-up at ESRF the photon polarization plane direction was parallel to the horizontal detector axis we expect the scattering distribution of Compton events to be symmetric around this axis. Therefore the rotation scheme reported in Figure <ref type="figure" target="#fig_7">9</ref> was limited for most of all the energies to only the 0° and 90° cases in order to save time.</p><p>The calculation of the modulation Q factor depends on the double events distribution and statistics. In order to get enough statistics on double events these tests have required a relative large integration time for each measure. Because typically we expect double event percentage between few percent at the lower beam energy and up to ~10% a higher one, we need to collect ~10 6 -10 7 counts to have a least 10 5 double events, e.g. less than 0.5 % as statistic error. Taking as average rate 20000 c/s for all the available energies, an integration time of typically ~300 s for each irradiating configuration was used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Test with Laue crystals</head><p>The Bragg diffraction which we propose for the development of a Laue lens for Hard Xand soft γ-ray (ref. <ref type="bibr" target="#b4">5)</ref>, requires the use of mosaic crystals in transmission configuration. With mosaic crystal we mean a crystal made of microscopic perfect crystals (crystallites), with their lattice planes slightly misaligned with each other. The crystallites misalignment with respect to the most probable direction can be described/modeled with a Gaussian function whose standard deviation best fits the crystallites orientation spread. The FWHM of this Gaussian distribution defines the mosaic spread of the crystal. In general, the X-rays which impinge on a perfect crystal are diffracted according to the Bragg law:</p><formula xml:id="formula_1">2 sin [3] hc d n E θ ⋅ =</formula><p>where θ (Bragg angle) is the angle between the lattice planes and the direction of both the incident and diffracted photons, θ is also known as diffraction angle, d is the distance between lattice planes, n (= 1,2, ….) is the diffraction order and E is the photon energy, hc=12.4 keV•Å.</p><p>We have used some Cu crystals in transmission configuration (Laue) to test with the POLCA II detection system the systematic effect in the polarisation status of the impinging photon introduced by the Laue diffraction.</p><p>The experimental setup for these tests is shown in Figure <ref type="figure" target="#fig_9">10</ref>. The Cu crystal holder was positioned on an Al holder at ~80 cm from the POLCA II detector surface and connected by mean of a mechanical I/F to a high accuracy rotation stage (8000 steps/degree, therefore ~0.5 arcsec for each steps) with the rotation axis parallel to the Cu crystal holder itself. 10/15</p><p>Reflectivity Tests on Cu crystals. As a preliminary activity before the tests with Cu crystal in Laue configuration coupled with the POLCA II detector, we have determined the useful Bragg angles using as detector for beam monitoring an HPGe spectrometer available in the standard setup of the ID15A experiment hutch. We have moved out from the line of sight the POLCA II detector and we have activated the HPGe detector to measure the intensity of the beam transmitted through the selected Cu crystal. Therefore we performed a scan on the rotation angle between the crystal surface plane (used as reference) and the beam direction using the high precision rotation stage on which the crystal holder was mounted. An example of the results of these scan measurements (i.e. rocking curve) is shown in Figure <ref type="figure" target="#fig_8">11</ref>, where the reflectivity curve (i.e. rocking curve) of one of the Cu mosaic crystals obtained with the ID 15A HPGe detector is reported. The plot shows the detected counts (y axis) from the transmitted beam at 350 keV as function the angle between the beam direction and the crystal surface given as number of steps of the rotational stage to which the Cu holder is connected. In this curve different reflectivity features are clearly evident. In particular a very strong absorption peak is present around position 1200, in which the transmitted beam intensity decrease to ~55% of the original one. These scans allowed to determine the best Bragg angles (the angle for which the crystal exhibit an efficient diffraction) at a given beam energy for the selected Cu mosaic crystal.  11/15</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">THE POLARIMETRIC QUALITY FACTOR</head><p>The polarimetric performance of an instrument can be evaluated by analysing the distribution of double events through the polarimetric modulation factor, Q:</p><formula xml:id="formula_2">y y N N N N Q x x + - = [4]</formula><p>Here we obtain Q through the orthogonal x-and y-axis directions defined over the detector plane, to a polarised beam whose electric vector points in the y direction. N x and N y are the number of counts in each of the orthogonal directions.</p><p>The single events obtained in each of the directly irradiated pixels allow us to determine the response map of the 11×11 active detector pixels. Therefore we are able to later correct the non uniformity of the response of our monolithic CdTe detectors using these distributions. This is done through the irradiation of the detector surface by a photon beam in the same condition of our measurements, obtaining a pixel response non dependent on the polarisation of the incident beam, as is the case of the single events detected in the pixel directly irradiated by the beam. Then we calculate the true double events counts N true for each pixel by:</p><formula xml:id="formula_3">max sng pol true N N N N = [5]</formula><p>where N pol is the number of double events detected (that depend on the beam polarisation), N sng are the single events detected when the pixel is directly irradiated and N max is maximum value among all the matrix pixels N sng . By the analysis of double event distributions obtained by this method in the pixels around the irradiated pixel, the modulation Q factor for the CZT prototype can be calculated by Eq. <ref type="bibr" target="#b3">[4]</ref> minimizing the errors introduced by the nonuniformities in the response of the detector pixels. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>12/15</head><p>Through the 90° matrix rotation we were able to extrapolate the results from the 11×11 matrix to a 21×21 array. Therefore, the double event distributions produced when irradiating matrix corner pixels allow us to study the asymmetry produced by the polarisation of the beam in the crystal volume up to pixels apart of up 10 position form the scattering centre.</p><p>In Figure <ref type="figure" target="#fig_0">12</ref> the double event distributions obtained for 4 monochromatic ~99 % polarised photon beams (150 keV, 250 keV, 450 keV and 550 keV) are presented. As can be seen the double event distribution shows the expected asymmetry where higher number of double events are detected in the direction orthogonal to the beam polarisation vector direction. The double event distributions obtained for each energy allowed us to calculate the polarimetric modulation Q factor of the CZT prototype through <ref type="bibr" target="#b3">[4]</ref> extrapolating the results to a 21×21 pixelated matrix, as explained in section 5.1 above.</p><p>Figure <ref type="figure" target="#fig_11">13</ref> shows the polarimetric Q factors calculated for the CZT prototype as a function of the polarised photon beam energy. These factors were obtained after the correction of the non uniformity in the response of the detector throughout its pixelated volume, by using the method explained above where true double events are given by <ref type="bibr" target="#b4">[5]</ref>. For comparison, Monte Carlo simulations were performed of a 5 mm thick CZT matrix similar to POLCA prototype under analogous conditions.</p><p>The experimental polarimetric Q factor obtained is of about 0.35 or higher up to 350 keV. It decreases to about 0.15 for 650 keV, since for higher energies the probability of Compton events with a scattering angle θ lower than 90º is higher than in the 150 keV -350 keV band. Lower Compton scattering angles provide poorer polarisation information, since as explained before θ M is about 90° for soft gamma and hard X-rays. Furthermore lower θ mean also that a higher fraction of Compton photons escapes the CZT without interacting a second time with the crystal. The fraction of photons that cross the CZT matrix without interaction also increases with the beam energy. As can be seen in Figure <ref type="figure" target="#fig_11">13</ref>, the CZT prototype performances obtained up to 450 keV are in good agreement with the Monte Carlo simulation results performed with a GEANT4 based code. From 550 keV to higher energies, a secondary synchrotron beam (due to a gap in the beam collimator shield) was projected onto the CZT active surface area which introduced a substantial error component in the Q factor calculation. For 750 keV the secondary was so dramatically close to the main beam (a few pixels) that the double event distributions of the two beams overlapped and it was not possible to perform the polarimetric analysis of our prototype. POLarimetry with Cadmium telluride Array (POLCA) II MI-854 13/15</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">THE EFFECT ON BEAM POLARISATION OF THE LAUE DIFFRACTION</head><p>Using the angle, calculated by the rocking curve obtained with the scan measurement described in section 5.2 (Reflectivity Tests on Cu crystals), we have set the position of the Cu crystal holder rotation stage and we have moved the POLCA II detector in order to intercept both the transmitted and the diffracted beam with the active surface. Of course, the relative position (in the plane orthogonal to the beam direction, being the distance from the crystal older fixed) of the POLCA II detector was dependent on the selected Braggs angle and therefore on the beam energy.</p><p>With a distance between the detector surface and the Cu crystal of ~80 cm, we expected for the 111 Bragg angle at 350 keV the value of 8.5 millirad that give rise to a linear separation between the transmitted and the diffracted beam of 10-15 mm, compatible with the detector active surface dimensions (27.5×27.5 mm 2 ). In Figure <ref type="figure" target="#fig_12">14</ref> is shown the POLCA II image of both the diffracted and the transmitted beam at 350 keV. In this test we have centred the diffracted beam on a single pixel (the black pixel) and therefore the transmitted beam is impinging between more pixels as evident from the image. From Figure <ref type="figure" target="#fig_12">14</ref>, a feature is clearly readable directly from the image: the polarisation state of the incident beam is well visible in the diffracted beam as demonstrated by the significant difference between the counts in the two orthogonal directions around the incident pixel, while for the transmitted beam the quick look image does not allow to see directly the beam polarisation status because the beam itself is spread out over more pixels.</p><p>Measurements were performed at 350 keV and 450 keV. At both energies the transmitted beam and one or more diffracted beams by the Cu crystal structure (Figure <ref type="figure" target="#fig_8">11</ref>) were observed in the CZT matrix. Since the Laue lens system principle is based on the diffracted beam detection, we studied the characteristics of the diffracted beam, in particular its intensity, its polarisation direction and polarisation level and its diameter. So far as the precision of our measurements allowed, no change was observed in the beam diameter, in the polarisation level as well as in the polarisation direction of the beam. Therefore, the Laue diffraction of gamma-rays inside a crystal does not change the photons polarisation state. It must be stressed that this is the first experimental evidence of this hypothesis that was predicted by <ref type="bibr" target="#b4">[5]</ref>. In Figure <ref type="figure" target="#fig_11">13</ref>, the modulation Q factor obtained for the 350 keV and 450 keV diffracted beam shows a good agreement with Q obtained for a direct beam of the same energy when no crystals are employed in the measurements.</p><p>The intensity of the first order diffracted beam observed was on average one third of the transmitted beam. Other order beams were observed showing lower intensity levels. However 14/15 these other order beam intensities should be minimized in the GRI mission perspective, since they will introduce complexity and/or noise in the image reconstruction and analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8">CONCLUSION AND FUTURE WORK</head><p>The POLCA II experiment allowed us to validate our polarimetric Monte Carlo simulation studies for energies up to 750 keV, since the polarimetric Q factor as well as the relative detection efficiency for double and multiple events are in good agreement with the results obtained by the simulations. The detection efficiency for Compton scattered events (&gt; 15% above 200 keV) as well as the polarimetric Q factor (~0.35 up to 350 keV and &gt;0.15 up to 650 keV) obtained by direct irradiation of a CZT pixelated matrix showed its potential of performing accurate polarimetric measurements up to 650 keV. The polarimetric measurements performed when interposing a copper crystal between the polarized beam and the POLCA II detector showed for the first time experimental evidence that Laue diffraction of a gamma-ray beam inside the crystal does not change the polarization state of the diffracted beam, as was anticipated by previous theoretical studies. After the MI-854 beam tests, the POLCA II detection system has been refurbished and redesigned with particular care to the wiring and the connection between the ASICs output channels and the output connectors in order to reduce the noise level and to obtain a better shielding from the environmental interferences. This effort is critical to improve the sensitivity to the linear polarization level.</p><p>Using the new POLCA II detection system we would like to perform more tests with two main targets: (a) A deeper study of the performances of CZT pixel detectors as focal plane for Laue lens in the hard X and soft gamma ray regime. The preliminary test performed with POLCA II coupled with single crystals in Laue lens configuration suggest to verify the polarimetric response of our detector with a more representative Laue lens prototype . (b) A further study of the performance as high energy scattering polarimeter achievable with CZT pixel spectrometers. In particular new tests will be required to evaluate the effective sensitivity to the beam linear polarization degree of our POLCA prototype, as well as his response to the angle between the beam polarization vector and the detector axis.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .Figure 2 .</head><label>12</label><figDesc>Figure 1. The POLCA II functional scheme: (1) the detection system, (2) The multiparametric electronics, (3) Data acquisition hardware, and (4) the storage and quick-look station.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. The 11×11 active pixels of the IMARAD CZT (red contour) and the 7 spare active pixels (red circle) for a total of 128 connected channels.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. The POLCA II detection system mounted on the rotational stage on the XYZ micrometric positioning stages: (a) view behind the detector; (b) view from the detector photon impinging side. (c) The POLCA II system setup in the ID 15A experimental hutch; in the front the multiparametric electronics is visible.</figDesc><graphic coords="5,183.06,543.96,213.05,159.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>6 (Figure 5 .</head><label>65</label><figDesc>Figure 5. The beam current versus time in s for the entire test session: experimental values (dark symbols), beam current fitted using Eq. [1] (red continuous lines).</figDesc><graphic coords="6,94.50,545.64,393.60,194.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Aluminium thickness needed to limit the beam flux to 20000 photon/s as function of energy and for two different beam spot size (red for 0.1×0.1 mm 2 and blue for 0.2×0.2 mm 2 ). Both plots was obtained by means of Eq. 2.</figDesc><graphic coords="7,78.12,74.52,266.82,209.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. The scheme of the absorber implemented in the ID15B optical hutch. The right numbers are the motor steps corresponding to min and max beam absorption.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. The path used for the pixel scan test types.</figDesc><graphic coords="8,307.44,380.46,208.80,198.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. The complete rotation scheme for 4.1.2 type tests. The beam is impinging on the corner pixel 85 (the centre of the 21×21 equivalent array)</figDesc><graphic coords="9,83.94,74.46,225.96,221.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 11 .</head><label>11</label><figDesc>Figure 11. The reflectivity curve (i.e. rocking curve) of one of the Cu mosaic crystals obtained with the ID 15A HPGe detector.</figDesc><graphic coords="10,125.40,560.52,344.40,167.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. The ID 15A setup for test with Cu crystals in Laue diffraction configuration and the POLCA II detector. On the right the Cu crystals holder. Crystal planes are parallel to the long side of the holders (280 mm). The Al holder accommodates 3 crystals with thickness varying from 6 to 7.3 mm.</figDesc><graphic coords="10,81.24,73.28,249.30,259.79" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Double events distributions for four energies obtained after irradiating a corner pixel (pixel 245: up and left corner) of CZT 11×11 matrix by a 100 % polarised beam. The direction of the polarisation vector of the incoming beam is represented by double arrow lines.</figDesc><graphic coords="11,171.00,586.14,124.40,124.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. The Q factor as function of energy for the POLCA II detector when irradiated by a monochromatic ~99% polarized photon beam. The Q factor obtained for 350 keV and 450 keV Cu Laue monochromator diffracted beams is also shown. Monte Carlo simulation results obtained in similar conditions are shown for comparison.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 14 .</head><label>14</label><figDesc>Figure 14. The image of both transmitted and diffracted beam on the POLCA II detector at 350 keV. As expected the distance between the two beams is equivalent to ~4 pixels (10 mm).</figDesc><graphic coords="13,78.12,362.52,235.80,215.28" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>15/15</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgement</head><p>We thank the <rs type="institution" subtype="infrastructure">ESRF</rs> for the opportunity given to our group with the approval of the POLCA proposal and for all the support (both financial and technical) offered for the beam test campaign. In particular we would like thank <rs type="person">Dr. Veijo Honkimäki</rs>, responsible of the ID15 beam and all the <rs type="institution" subtype="infrastructure">ESRF</rs> staff for the kind assistance and the support during the test campaign.</p><p>This work was carried out in cooperation between the <rs type="institution">Departamento de Física, Universidade de Coimbra, Portugal</rs> (<rs type="grantNumber">Unit 217/94</rs>), the <rs type="institution">IASF (Istituto di Astrofisica Spaziale e Fisica Cosmica) Bologna and Palermo, INAF, Italy</rs>, the <rs type="funder">ESRF (Grenoble, France)</rs>, the <rs type="funder">Dept. of Physics of Universty of Ferrara (Italy)</rs> and with a participation of the <rs type="institution" subtype="infrastructure">CNRS/CESR</rs> and the <rs type="institution">Université Paul Sabatier (Toulouse, France)</rs>. The project was supported by <rs type="funder">FEDER</rs> through project <rs type="grantNumber">POCTI/FNU/49561/2002</rs> and project <rs type="grantNumber">PTDC/CTE-SPA/65803/2006</rs> of <rs type="institution">Fundação para a Ciência e a Tecnologia, Portugal</rs> and by <rs type="institution" subtype="infrastructure">INAF/IASF-BO 2006 Basic Research funds</rs> (<rs type="grantNumber">CRA1.01.02.01</rs>). The work of <rs type="institution">R.M. Curado da Silva</rs> was supported by the <rs type="programName">Fundação para a Ciência e Tecnologia</rs>, Portugal, through the research grant <rs type="grantNumber">SFRH/BPD/24187/200</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_EMgnDWR">
+					<idno type="grant-number">Unit 217/94</idno>
+				</org>
+				<org type="funding" xml:id="_yHcz478">
+					<idno type="grant-number">POCTI/FNU/49561/2002</idno>
+				</org>
+				<org type="funding" xml:id="_UESxEnh">
+					<idno type="grant-number">PTDC/CTE-SPA/65803/2006</idno>
+				</org>
+				<org type="funding" xml:id="_aMNsUKT">
+					<idno type="grant-number">CRA1.01.02.01</idno>
+					<orgName type="program" subtype="full">Fundação para a Ciência e Tecnologia</orgName>
+				</org>
+				<org type="funding" xml:id="_SmpYtJA">
+					<idno type="grant-number">SFRH/BPD/24187/200</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">ESRF</orgName>
+					<orgName type="full" lang="en">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="fr">Source Européenne de Rayonnement Synchrotron</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">ESRF</orgName>
+					<orgName type="full" lang="en">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="fr">Source Européenne de Rayonnement Synchrotron</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">CNRS/CESR</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">INAF/IASF-BO 2006 Basic Research funds</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">CIPHER: coded imager and polarimeter for high-energy radiation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bertuccio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sampietro</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0168-9002(00)00283-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">448</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="525" to="530" />
+			<date type="published" when="2000-07">2000</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Caroli, et al., Nucl. Instr. and Meth. Section A, 448, pp 525-530 (2000);</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The gamma ray lens — an ESA technology reference study</title>
+		<author>
+			<persName><forename type="first">Craig</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicola</forename><surname>Rando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aleksander</forename><surname>Lyngvi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tone</forename><surname>Peacock</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4020-5304-7_28</idno>
+		<ptr target="http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=36959" />
+	</analytic>
+	<monogr>
+		<title level="m">Focusing Telescopes in Nuclear Astrophysics</title>
+		<imprint>
+			<publisher>Springer Netherlands</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="279" to="288" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ESA Gamma ray Lens Report: http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=36959;</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Gri-Gamma Ray</forename><surname>The</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Imager</surname></persName>
+		</author>
+		<ptr target="http://gri.cesr.fr/documents.html" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">The GRI-Gamma Ray Imager: http://gri.cesr.fr/documents.html;</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Frontera</surname></persName>
+		</author>
+		<title level="m">SPIE Proceedings on Optics for EUV, X-Ray, and Gamma-Ray Astronomy III</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">6688</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frontera, F, et al., SPIE Proceedings on Optics for EUV, X-Ray, and Gamma-Ray Astronomy III, 6688, pp 66880N, (2007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">&lt;title&gt;Monte Carlo polarimetric simulations of a hard x-ray energy telescope&lt;/title&gt;</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ezio</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Siffert</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.454233</idno>
+	</analytic>
+	<monogr>
+		<title level="m">SPIE Proceedings</title>
+		<imprint>
+			<publisher>SPIE</publisher>
+			<date type="published" when="2002-01-31">2002</date>
+			<biblScope unit="volume">4497</biblScope>
+			<biblScope unit="page" from="70" to="78" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Curado da Silva, et al., SPIE Proceedings on X-ray and Gamma-ray instrumentation for Astronomy XII, 4497, pp 70-78 (2002);</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>J. Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>L. Hills</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1005027107614</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<idno type="ISSN">0038-6308</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">3/4</biblScope>
+			<biblScope unit="page" from="309" to="388" />
+			<date type="published" when="1997">1997</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Lei, A. J. Dean and G. L. Hills, Space Science Reviews, 82, pp. 309-388 (1997);</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A study of prototype CdTe hard X- and γ-ray detectors</title>
+		<author>
+			<persName><forename type="first">Ezio</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Natalia</forename><surname>Auricchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ariano</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Filomena</forename><surname>Schiavone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giulio</forename><surname>Ventura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rui</forename><forename type="middle">M Curado</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Siffert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Makram</forename><surname>Hage-Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gianfranco</forename><surname>Taiocchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2003.08.061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">513</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="350" to="356" />
+			<date type="published" when="2003-11">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Caroli, et al., Nucl. Instr. and Meth. Section A, 513, pp 350-356 (2003);</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Nucl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1198" to="1203" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Curado da Silva, et al., IEEE Trans. Nucl. Sci., 50, nº 4, pp. 1198-1203 (2003);</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Polarisation measurements with a CdTe pixel array detector for Laue hard X-ray focusing telescopes</title>
+		<author>
+			<persName><forename type="first">Ezio</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rui</forename><forename type="middle">M Curado</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Pisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Filippo</forename><surname>Frontera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matilde</forename><forename type="middle">T D</forename><surname>Castanheira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefano</forename><forename type="middle">Del</forename><surname>Sordo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10686-006-9048-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Astronomy</title>
+		<title level="j" type="abbrev">Exp Astron</title>
+		<idno type="ISSN">0922-6435</idno>
+		<idno type="ISSNe">1572-9508</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="353" to="364" />
+			<date type="published" when="2005-12">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Caroli, et al., Experimental Astronomy, 20, pp 353-364, (2005)</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Simulated Performance of CZT-Based Focal Plane Detectors for Gamma-Ray Lenses</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Zoglauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cornelia</forename><forename type="middle">B</forename><surname>Wunderer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Weidenspointner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ezio</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rui</forename><forename type="middle">M Curado</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">E</forename><surname>Boggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Von Ballmoos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jurgen</forename><surname>Knodlseder</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/nssmic.2006.353808</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2006 IEEE Nuclear Science Symposium Conference Record</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2006-10">2006. 2007</date>
+			<biblScope unit="page" from="3742" to="3749" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zoglauer, A., et al., IEEE Nuclear Science Symposium Conference Record 2006, pp 3742-3749 (2007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Imaging with CdTe Arrays</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Landini</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-011-0407-4_57</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Imaging in High Energy Astronomy</title>
+		<imprint>
+			<publisher>Springer Netherlands</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="345" to="349" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Caroli, et al. &quot;PolCA (Polarimtery with Cdte Array)&quot;, Internal Report IASF/BO N. 345/2002.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Figure 1: A depiction of the experimental set up and testing procedures.</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ventura</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.18302/fig-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Internal Report IASF</title>
+		<imprint>
+			<biblScope unit="volume">444</biblScope>
+			<date type="published" when="2006">2006</date>
+			<publisher>PeerJ</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Ventura, et al., &quot;POLCA2 (POLarimetry with CZT Arrays): experimental set-up, calibration procedures and results&quot; Internal Report IASF/BO n. 444/2006</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">POLCA II (POLarimetry with CZT Arrays)-User Manual for ESRF 2007 tests</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Internal Report IASF</title>
+		<imprint>
+			<biblScope unit="volume">464</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Caroli, et al., &quot;POLCA II (POLarimetry with CZT Arrays)-User Manual for ESRF 2007 tests&quot;, Internal Report IASF/BO n. 464/2007;</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">European Synchrotron Radiation Facility (ESRF)</title>
+		<author>
+			<persName><surname>Esrf</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-349-94186-5_458</idno>
+		<ptr target="www.esrf.fr/exp_facilities/ID15A/" />
+	</analytic>
+	<monogr>
+		<title level="m">The Grants Register 2018</title>
+		<meeting><address><addrLine>Grenoble</addrLine></address></meeting>
+		<imprint>
+			<publisher>Palgrave Macmillan UK</publisher>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="page" from="317" to="318" />
+		</imprint>
+	</monogr>
+	<note>ID15 Handbook</note>
+	<note type="raw_reference">ESRF, &quot;ID15 Handbook&quot;, European Synchrotron Research Facility, Grenoble, (1997). Also available at the ESRF web page www.esrf.fr/exp_facilities/ID15A/.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">2007 IEEE nuclear science symposium conference record</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/nssmic.2007.4436265</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2007 IEEE Nuclear Science Symposium Conference Record</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2007">2007. 2007</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2545" to="2550" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Curado da Silva, R.M, et al., IEEE Nuclear Science Symposium Conference Record, 2007. Volume 4, pp 2545 -2550 (2007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Polarimetric performance of a Laue lens gamma-ray CdZnTe focal plane prototype</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Auricchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Del Sordo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Frontera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Honkimäki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schiavone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M F</forename><surname>Trindade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ventura</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3000092</idno>
+		<idno>JR08-3125R</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2008-10-15">2008</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Curado da Silva, R.M., et al., Polarimetric performance of a Laue lens gamma-ray CZT focal plane prototype&quot; JR08-3125R, accepted for publication in Journal of Applied Physics, 2008.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

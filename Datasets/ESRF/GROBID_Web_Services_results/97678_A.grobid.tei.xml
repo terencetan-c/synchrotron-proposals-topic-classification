@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4479321E52A0556B29D03C2CBA9F79BA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: Evolution of Li Dendrite Growth on Graphite Anodes Under Fast-Charging Conditions Experiment number: MA-5068 Beamline: ID19 Date of experiment: from: 2021-10-29 to: 2021-11-02 Date of report: Shifts: 12 Local contact(s): Ludovic Broche ( email: broche@esrf.fr ) Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Matthew Sadd* Nataliia Mozhzhukhina* Shizhao Xiong* Aleksandar Matic* Antoine Klein* Martina Olsson* Report:</p><p>The aim of this experiment was to monitor the lithiation/delithiation (charge/discharge) process of graphite anodes using an operando X-ray Tomographic Microscopy experiment. The plating of metallic lithium on graphite anode is a key issue that needs to be tackled in Li-ion batteries, as the formation of Li dendrites can affect the reversibility of the batteries and potentially lead to internal short circuiting, posing critical safety issues like ignition of the battery. In partilcuar the experiment targetted the behaviour of the lithiation and delithiation process under 'fast-charging' conditions in a series of electrolyte formulations, linking electrolyte properties and applied current density on the formation of Li-metal on the graphite material during the intercalation process.</p><p>The information provided from this experiment has given direct insights of the plating process on graphite anodes, with metrics gathered including the volume of plated Li-metal, the location of the plating process within the cell, and effect of applied current density on the extent of the plating.</p><p>In the experiment the PCO Edge 5.5 dector was used with a 20 times objective, resulting in a voxel size of 0.332 µm. The 'half-acquisition' method was used to increase the field of view to 4450 x 2160 pixels with 1477.4 µm x 717.12 µm. Tomograms were gathered using rapid exposure, 15 ms per projection, owing to the high flux of the ESRF x-ray source. To acquire a tomogram with 4000 projections, the measurement time was 60 s. This rapid measurement time enabled the operando nature of the measurement where tomograms could be taken during battery operation, without the electrochemical measurements being paused. All acquired tomograms were reconstructed using the paganin phase reconstruction method. The reconstructed data was of high quality, with graphite, glass fibre separator, and plated Li-metal clearly observed. Only very minor ring artifacts were observed in the reconstructed data, enabling accurate analysis of the acquired images. During the beamtime there was some machine downtime and it led to the loss of 8 hours beamtime, resulting in the partial loss of data for one sample. However despite this issue operando data sets were successfully gathered for 6 cells, with the progessive cycling at rates of 1C, 2C, and 3 C. Further data sets were gathered for a series of ex situ samples.</p><p>The measured cells used 3 different electrolyte formulations:</p><p>-LP57 1 M LiPF6 in ethylene carbonate and ethylmethyl carbonate (1:1v) -LP57 + VC 1 M LiPF6 in ethylene carbonate and ethylmethyl carbonate (1:1v) with vinylene carbonate -LP57 + LiFSI 1 M LiPF6 in ethylene carbonate and ethylmethyl carbonate (1:1v) with lithium bis(fluorosulfonyl) imide salt</p><p>The operando cells used for a majority of the experiments had a diameter of 1.58 mm, meaning that an 86% coverage of the total electrode volume was achieved when the half-acquisition method were applied. This allows quantitative analysis of the tomographic data, including correlative analysis with electrochemical data acquired simultaneously.</p><p>Figures <ref type="figure" target="#fig_1">1</ref> and <ref type="figure" target="#fig_2">2</ref> show the lithiation of graphite in cells containing the LP57 and the LP57 + VC electrolytes in the pristine, post lithiation at 1C, and post lithiation at 3C. In both figures the identifyable phases are that of the graphite particles, which are clearly resolved, the glass fibre separator that sits above the graphite, and lithium metal which is observed as the black phase that forms between the graphite and glass fibre layers (observed in Figure <ref type="figure" target="#fig_1">1c</ref> and Figures <ref type="figure" target="#fig_2">2b</ref> and <ref type="figure">c</ref>).  Our results show the difference in morphology of the plated lithium metal phases between systems with the two electrolytes. Figure <ref type="figure" target="#fig_1">1c</ref> shows that when a Li phase forms, it mainly remains close to the graphite surface, with a morphology identified as "mossy" Li. In clear contrast Figures <ref type="figure" target="#fig_2">2 b</ref> and <ref type="figure">c</ref> show plated Li that is progating through the separator material, which would potentially lead to the short circuit and battery failure.</p><p>To gain further insights into the Li-plating process, the operando experiment has provided tomograms during the plating process, allowing the onset of plating to be correlated with the cell's voltage and state of charge.</p><p>Figure <ref type="figure" target="#fig_3">3</ref> shows that during the first 25 minutes (a-c) of lithiation there is no evidence of Li-plating on the graphite material. However, after 45 minutes of lithiation, when the cell's voltage reaches an almost constant value, Liplating starts. Furthermore, from the point where Li-plating is first observed it rapidly propagates, with the Li phase appearing to reach heights of ~50 µm above the surface of the graphite electrode. The application of Paganin phase constrast reconstruction algorithms, along with the coherent x-ray source of ESRF have been instrumental in the successful identification of Li phases with the measured cells. Further work is underway on the segementation of the Li phases to provide a quantitative analysis, gaining metrics of the Limetal volume, and the kinetics of the Li phases growth during discharge. Finally, due to the materials and protocols used during this experiment, it is expected that the data acquired from this experiment will be provided for the BIGMAP project. The dissemination of the acquired data will be used not only for analysis of Li-metal plating, but also for modelling purposes, accelerating our knowledge of the processes in Li-ion batteries and further maturing the technolgy.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Vertical slices of graphite in cell contain the LP57 electrolyte a) in the pristine (uncycled) state b) after lithiation at 1C c) after lithiation at 3C. Scale bars of 100 µm.</figDesc><graphic coords="3,89.00,279.48,423.00,190.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Vertical slices of graphite in cell contain the LP57 + VC electrolyte a) in the pristine (uncycled) state b) after lithiation at 1C c) after lithiation at 3C. Scale bars of 100 µm.</figDesc><graphic coords="3,89.00,522.88,423.00,207.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Vertical slices of graphite in cell contain the LP57 + VC electrolyte taken during cell cycling at 1C, operando measurement. a) in the pristine (uncycled) state b) 5 minutes of lithiation c) 25 minutes of lithiation d) 45 minutes lithiation e) post lithiation. With the electrochemical voltage profile shown as the inset graph on the right. Scale bars of 100 µm.</figDesc><graphic coords="4,34.00,204.74,533.00,244.30" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

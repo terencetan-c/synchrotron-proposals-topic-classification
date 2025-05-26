@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014">2014 /I</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014">2014 /I</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2304B6342BA095EE45DF663FAB4ADC81</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Page</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Beamtime Used</head><p>Please give a short summary of progress for each scheduling period for which beamtime has been allocated/used : Scheduling period</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ID19</head><p>6 -New algorithm for low number of projections reconstruction giving interesting results with 200 projections only : one of them has been implemented in PyHST2 -Development of users friendly macros for the configuration of PCO DIMAX camera for fast tomography.</p><p>-study of nucleation and growth of intermetallics in Al-Si-Fe alloys. Ultra fast scans in 0.2 seconds have been done : we show that thermodynamic calculation are not respected at high level of Fe because it does not take into account undercooling effect.</p><p>-indentation of liquid foams : it was possible, for the first time, to obtain qualitative information about the behaviour of crystalline ordering in micro-foams under indentation.</p><p>-phase separation glass : 4D experiments with scan time between 1 -2 seconds allowed to establish the hydrodynamics behavior of phase separation glass during isothermal treatment.</p><p>2014 /II ID19 6 -Development of the high temperature furnace under controlled atmosphere using slip rings for fluids.</p><p>-Simplification and merging of fasttomo macros to have only one version whatever the detector used (PCO DIMAX, PCO Edge, FReLoN).</p><p>-Definition of triple mic optics with Optique Peter for fast multiresolution with one camera : this device is financed by LTP partners.</p><p>-Glass formation was for the first time investigated with 4D tomography under CO2 atmosphere.</p><p>-Intrumescent coatings : it was possible for the first time and with very fast acquisition (0.15 seconds per scan) to study in 4D the foaming of several intrumescent coatings.</p><p>-damage in new generation of composites : it was possible to identify with in situ tomography the main mechanisms (nucleation, growth and coalescence of damage) as a function of matrix and volume fraction of metallic glass reinforcements  Development of multi-resolution using two PCO cameras at the same time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Financial :</head><p>All the partners and ESRF ID19 staff decided to change one of the financial investment originally planned in the LTP : rather than buying a new camera, as in mentioned in the original text, it was decided to invest in a new triple objective white beam optic (which will be developed by Optique Peter company). This triple optics will allow to perform fast multiresolution tomography with one single camera with optics ranging from x2.5 up to x10 : a sketch of the optics is shown beside. The cost of such an optic is 78000 euros (paid by all partners MATEIS, SVI, SIMAP, Uni Wuerzburg). An option is to extend optics to x20, depending on the extra cost.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Technical and Scientific</head><p>Milestones Achieved ( in relation to the milestones identified in the original proposal).</p><p>The technical and scientific milestones achieve are presented according to the tasks that where originally defined in the LTP. Lot of work on development have been made in between the beamtime session. For the tasks already done please refer to the previous report. Several user friendly routines have been written in order to facilitate the use of PCODIMAX configuration and this was fully integrated in the ID19 wiki :</p><p>Pcotomoscanconfig : all the required standard parameters are defined easily as shown below for standard users Pcotomoconfig : an expert mode for the tomo configuration as shown below A predefined spec macro has also been created with example in order to be able to change easily mode of acquisision : it is possible to use the predefined functions pcotakeref (take reference images) , pcotakedark (take dark images) , pcoroi (change ROI) and pcotomo to perform a full tomo with the parameters defined below For controlled atmosphere furnace and for continuous rotating (ultra fast acquisition), a slip ring for fluids is needed (gas for the sample and water for cooling the basis of the furnace). On June 13 th , a first run of tests was carried out with the set-up showed in the picture below.</p><p>Unfortunately, the torque imposed by the friction inside the rotary joint (of the order of 2 N.m) was too high to be sustained by the rotation stage. Therefore, a new rotary joint with a torque smaller than 0.5 N.m has been bought and adapted to the set-up. The value of the torque should satisfy the requirements of the rotation stage, and a new tests of experiments is planned in February 2015. Although no experiments could be performed under a continuous gas flow in June 2014, we could still use the furnace with a CO2 atmosphere, thanks to its tight enough quartz lid. Also, we aim at improving the temperature homogeneity for the next run of experiments at the end of February 2015. Task 1.3.1 : GPU implementation of existing algorithm Backprojection algorithm and Paganin algorithm : W. Augustin (SIMAP/ESRF), R. Daudin (SIMAP) : work has been done to implement the Paganin reconstruction in the fasttomo version for PCO Dimax. Now, thanks to the merging of all fasttomo version every feature will be available. Task 1.3.1 : GPU implementation of new algorithm A priori knowledge reconstruction in PyHST2 : E. Gouillart (SVI), A. Mirone (ESRF) : work has been done concerning the iterative reconstruction with a priori knowledge. The implemented a priori knowledge techniques are based on the total variation penalization and a new recently found convex functional which is based on overlapping patches. Details of the different methods and how they are implemented in the PyHST2 code can be found in the paper of A. Mirone . An interesting point is that they provide methods for estimating, in the absence of ground-truth data, the optimal parameters values for a priori techniques. Low number projection reconstruction (J. Dittman University of Würzburg) : using database of scans that were acquired at the beginning of the LTP a work was done. Selected examples from the Tomography examples database LTP ma1876 [1] have been reconstruted down to 200 projections by the total variation minimization approach to Compressed Sensing presented in [2]. As objective quality assessment local thickness analysis based on these reconstructions from few projections are presented. Further, a first result on smearing artifact reducing reconstruction (K. Dremel, LRM / Uni Würzburg) from 250 projections is shown. The respective datasets are Al8Cu_250_g13_t1 (spanning approx. 0.7° per image, 3.9ms exposure) and subsets of Al8Cu_1000_g13_t4 (spanning approx. 0.18° per image, 3.9ms exposure) [1]. Provided results were multi-EDF-type files containing the raw camera images as well as corresponding darkand reference images. Dark and reference images were reduced by taking the median over the supplied stack. The reference image was (after substraction of the dark image) scaled to compensate for the slight mismatch in exposure time to the actual radiographs. Substracting the dark image also from the radiographs, then dividing by the corrected reference image and taking the negative logarithm finally results in the sinograms that are the basis of the following reconstructions. No further preprocessing steps (denoising, etc.) were applied besides clipping empty spaces. Reconstruction by means of [2] from 125 or 200 projections (every eights / fifth projection of Al8Cu_1000_g13_t4) took about 100min for the 804²x400 volumes as presented here. This time might be reduced (apart from scaling up the hardware) by either precise tuning of the input parameters and/or loosening quality demands. Visually, the compressed sensing reconstructions from few views show more pronounced edges of the thin dendritic structures which appear blurred in the regular reconstruction from the full dataset. It remains to be discussed whether this impacts on the precision of quantitative thickness or volume fraction analyses. While the visual impression as well as the segmentability (by global Otsu threshold) are very good for the 200 projection result (fig.</p><p>2 and 3), the reconstruction from 125 projection shows notable visual quality degradation (fig. <ref type="figure" target="#fig_5">4</ref>).</p><p>Regarding the local thickness <ref type="bibr">[3,</ref><ref type="bibr">4]</ref> statistics of the dendrites though, both reconstructions show similar results (with high variance). Additionally, reconstruction from the azimuthally averaged projections Al8Cu_250_g13_t1 was attempted. Figure <ref type="figure" target="#fig_6">5</ref> compares the results of reconstruction analogous to the previous datasets as well as an iterative reconstruction method that reverts the azimuthal integration (K. Dremel, LRM / Uni Würzburg). Figure 3: Local thickness analysis of the 200 projections reconstruction shown in fig. 1 (left). The histogram shows the thickness distribution within the visible axial slice. The typical thickness is around 4.2px (= 4.6µm).  Task 2 : Scientific applications Task 2.1 : Elaboration (R. Daudin, P. Lhuissier, L. Salvo, SIMAP) : nucleation of intermetallics in Al-Si-Fe alloys</p><p>The nucleation of Fe intermetallics in cast aluminium alloys is challenging for the recycling of these materials : indeed as they are recycled the level of Fe increased and more and more intermetallics are formed. These intermetallics are detrimental to mechanical properties to casting fluidity <ref type="bibr">[1]</ref><ref type="bibr">[2]</ref><ref type="bibr">[3]</ref>. Some simple design rules have been derived to avoid problems in primary casting [4] but there is a lack of study to understand how these intermetallics nucleates, which is essential to find a possible way to avoid their formation. 2D radiography experiments allows to determine the fast lateral growth rates of these intermetallics platelets <ref type="bibr" target="#b10">[5]</ref> and first 3D in situ experiments allowed to identify the important role of the oxide layer in the nucleation <ref type="bibr">[6]</ref>. However the low acquisition (60 s per scan) rates for the 3D in situ experiments does not allow to state the nucleation phenomenon at higher level of Fe. Figure <ref type="figure" target="#fig_7">6</ref> shows the phase diagram from thermocalc calculation. As it can be seen on figure <ref type="figure" target="#fig_7">6</ref>, below 1.1wt% Fe the intermetallics nucleates after primary aluminium phase (which was effectively observed in <ref type="bibr" target="#b10">[5]</ref>) above intermetallics should nucleates first and at 1.1%wt both phases should nucleate at the same time. Fast scan are required to observe without ambiguity the nucleation phenomenon. figure <ref type="figure">7</ref> presents the set up used : a PCO Dimax camera and the SIMAP furnace.</p><p>Experimental conditions : A pink beam 17.6 KeV was used. Tomography scan time was set in between 0.2s and 5 s with an optics of 1.1µm. the fastest speed (0.2s) was used for the sample with 1.1wt% Fe with a reduced ROI 920 x 760. The main results obtained are :</p><p>-for level even for Fe &gt; 1.1wt% it has been observed that intermetallics nucleates after the primary phase in contradiction with thermocalc prediction. This can be explained by the fact that intermetallics requires specific undercooling -for 1.1wt% Fe we were able, thanks to the very fast acquisition (0.2s) , to clearly observed that both phases (primary aluminium alloy and intermetallics) nucleate at the same time, which was never observed up to now. Thanks to the new furnace, we could for the first time perform experiments using a CO2 atmosphere. Chemical reactions between glass-forming raw materials involve carbonates and silica ; since reactions with carbonates depend on the CO2 partial pressure, a high CO2 partial pressure is needed if one wishes to reproduce operating conditions of a glass furnace. The first experiments demonstrated that solid-state reactions are possible between calcium and sodium carbonate, to form new crystalline species (figure <ref type="figure" target="#fig_9">8</ref>).</p><p>Experimental conditions : Energy 19KeV, optics 1.1 µm, ROI 1008x1008 and acquisition time between 1 and 2 s for a full tomography. Phase-Task 2.2 : Phase transformation Task 2.2.1 : Crystalline ordering in micro-foams(A. Meagher, F.G. Moreno, HZB)</p><p>Nanoindentation is a material characterisation technique by which the hardness of a substance is determined from the force-load curved produced when a tip, of particular shape, is pushed into a sample of said material. Such characterisation has been successfully studied theoretically using the Bragg bubble raft model of crystalline interactions. However the limitations of a two dimensional system frustrates the exploration of many phenomena unique to three-dimensional systems. The development of high-energy X-ray facilities, along with advanced imaging and three-dimensional printing, has allowed us to finally expand these experiments into three dimensions. Firstly, the expansion and proliferation of rapid-prototying machines has allowed us to fabricate indentation tips precisely scaled to the bubbles we are employing in our experiments. The advances in X-ray imaging has provided us the sensitivity and time-widows required to conduct this delicate work. Figure <ref type="figure" target="#fig_10">9</ref> shows a radioscopic image of one of our indentation experiments. Bubbles of approximately 800 microns in diameter are seen to order at the top of the vessel, while the indentation screw is seen at the bottom of the image. A top the indentation screw an indenter tip with a Vickies style geometry is place. However, due to the relative absorption profiles of the polymer used in construction and the aqueous solution in which the bubbles are placed, this indentation tip cannot be resolved in the radiographies. So far our experiments have met with mixed success. Our initial experiments were met with several technical problems which led to uncertainties in the validity of our experiment. Our last synchrotron campaign had resolved these difficulties however. The foams were produced correctly, the indenter tip was positioned successfully beneath the bubble pile and the resulting indention process was conducted smoothly and in a controlled manner. Experimental conditions : pink beam, PCO Dimax with FoV 20 x 10 mm, pixelsize 10 mu. Later, while reconstructing the samples an unusual imaging defect was discovered. While the exterior of the sample could be successfully reconstructed, the interior of the sample was found to suffer from an apparent blurring effect (Figure <ref type="figure" target="#fig_11">10</ref>). More unusual still, these defects were only present on certain image slices (Figure <ref type="figure" target="#fig_12">11</ref>). Such noise produced significant errors when segmentation of the images was attempted, leading to results which could not be trussed for determining statistical properties about our foams. The result is that, while our experiment proceeded without fault, the current results can only yield qualitative results regarding the structure of the foam and how this changes during the deformation of the sample.  Task 2.2.2 : Intumescent coatings Characterization and dynamics : C. Simpson, X. Zhong, P.Withers (Manchester University) :</p><p>Preliminary tests on high temperature imaging of intumescent paint have been performed on 12 painted silicon wafers that were heated up to 600°C (with various heating rates 10-50°C/s). Scans were performed with a voxel size of 2.75µm in order to capture the beginning and the end of the foaming process. Fast continuous acquisitions have been performed as well as single acquisition (in non continuous mode because of desynchronisation camera and MUSST). An impressive scan time of 0:125 s was achieved. Figure <ref type="figure" target="#fig_13">12</ref> and 13 shows the set up mounted on ID19. Figure 14 shows the radiographs of the painting foaming while heating at 10K/min. One can see that phase contrast allows easily to see the foaming.   Task 2.2.3 : Phase separation glass Isothermal and cooling experiments (E. Gouillart SVI) : In June 2014, we performed new experiments on phase separated barium borosilicate glasses (with a larger volume fraction of the phase with the lowest viscosity, compared to earlier experiments). These experiments, together with earlier experiments (MA1281, SC3724), were used to demonstrate the hydrodynamic nature of coarsening in glass melts at high temperature, and in particular the very good agreement between the coarsening rate and the surface tension over viscosity ratio. These results are gathered in a publication that will be submitted in the next few weeks. Figure 16 presents the 3D rendering of the phase evolution during isothermal experiments at 1230°C Figure 16: Tomography images of domain coarsening, for an experiment at 1230• C and heating times of 80, 160, 320 and 480 s. The size of the square box is 250 μm.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><figDesc>January 2014 -December 2014 : one post doc : Rémi Daudin (SIMAP) based at 60% at ESRF  January 2014 -December 2014: two researchers Pierre Lhuissier (10%), Luc Salvo (5%) (SIMAP) on the LTP  January 2014 -December 2014: Two technicians Franck Peloux et Xavier Bataillon (SIMAP): 2 weeks  November 2014 -December 2014 : 1 year engineer (Werner Augustin) recruited based 100% at ESRF (payment 50% SIMAP/ 50% ESRF) Technical : for technical before 2014 please refer to the previous report  Modification of a high temperature induction furnace with vacuum or gas for fast in situ experiments (SVI) :  Improvement of the specific user friendly macros for fast in situ acquisition with PCO DIMAX camera and fast reconstruction  Discussion with Optique Peter about the acquisition of a triple objective white beam optics for single camera fast multi resolution.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>control : R. Daudin, P.Lhuissier (SIMAP) and ESRF staff.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>and correlation : P.Lhuissier.This was postponed since we realized that the main limitation was the transfer of the files via the network. Therefore we decided to wait for a direct local access to the data in order to work on this point. This will be tested in February 2015 with a faster vesion of 2D live slice. A local Buffer System (LBS) has been successfully tested n BM05 in December 2014 and another one has been installed on ID19 in January 2015.Task 1.1.2 : MuliresolutionMulti resolution 1 camera : Work was done on the definition of a new triple optic in white beam without eye piece to perform faster multiresolution imaging than what can be done with the rotating multiresolution set up. Funding for this optics has been ensured by partners as mentioned previously and this optics will be available in 2015.Multi resolution 2 cameras :First tests have been performed with two recording PCO DIMAX cameras at the same time mounted on the two stages of ID19 in high energy conditions and with semi-transparent windows. This was tested for the foam case. Data are still under analysis.temperature furnace (controlled atmosphere up to 1600°C) E. Garre, E. Gouillart (SVI), E. Boller (ESRF)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1 : slip ring mounted under the furnace (MRTOMO stage on ID19).</figDesc><graphic coords="5,260.02,71.35,132.00,201.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Comparison of reconstruction from 200 projections (left, every fifths of Al8Cu_1000_g13_t4) with regular reconstruction (reference image from [1], right side)</figDesc><graphic coords="6,147.65,353.86,300.00,204.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Reconstruction from 125 projections (left, every eights of Al8Cu_1000_g13_t4, slice 162) by [2]. Right: Local thickness analysis of the same slice. Here speckle filtering was omitted after segmentation. The histogram shows a similar thickness distribution as fig. 2.</figDesc><graphic coords="7,70.85,354.58,452.40,210.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Reconstruction from 250 azimuthally integrated (0.7°) projections (Al8Cu_250_g13_t1). Left: Total variation minimizing reconstruction [2]. Right: smearing artifact reducing reconstruction (K. Dremel, LRM / Uni Würzburg) [1] Tomography examples database LTP ma1876, &lt;pierre.lhuissier@simap.grenoble-inp.fr&gt; [2] J. Dittmann, Tomographic reconstruction from few X-ray projections based on compressed sensing , Master Thesis, Universität Würzburg, 2013 [3] Bob Dougherty, Local Thickness ImageJ Plugin, http://www.optinav.com/Local_Thickness.htm [4] T. Hildebrand, P. Rüesgsegger, A new method for the model-independent assessment of thickness in three-dimensional images, J. of Microscopy 185(1996)    </figDesc><graphic coords="8,70.85,82.85,442.87,200.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 :</head><label>6</label><figDesc>Figure 6 : thermocalc prediction of phases in Al-Si-Fe alloys Figure 7 : fast tomography set up with SIMAP furnace and PCO DIMAX camera mounted on ID19</figDesc><graphic coords="9,70.85,127.67,191.05,177.79" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>[ 1 ]</head><label>1</label><figDesc>Taghados et al Journal of Alloys and Compounds 468 (2009) 539-545 [2] Ma et al Materials Science and Engineering A 490 (2008) 36-51 [3] Yi et al Materials Science and Engineering A 386 (2004) 396-407 [4] John A. Taylor / Procedia Materials Science 1 ( 2012 ) 19 -33 [5] Wang et al Scripta Materialia 60 (2009) 516-519 [6] Terzi et al, Acta Materialia 58 (2010) 5370-5380 Task 2.1.3 : glass formation (E. Gouillart SVI)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 :</head><label>8</label><figDesc>Figure 8 : thermal treatment at ~750°C of a mixture of sodium and calcium carbonate. Intermediate shades of gray inside the original grains indicate the formation of mixed species.</figDesc><graphic coords="10,205.48,111.63,176.97,175.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 9 :</head><label>9</label><figDesc>Figure 9 : radioscopy of indentation experiment showing the bubble pile and indentation screw. Then faint outline of the indenter tip can also be seen</figDesc><graphic coords="11,164.95,71.35,286.68,197.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 10 :</head><label>10</label><figDesc>Figure 10 : Foam reconstruction showing the imaging artefact leading to errors during the segmentation process. Near the boundaries of the foam, a clear distinction is seen between the liquid (white) and air(black) phases of the foam. Near the centre of the foam this clear distinction is no longer present.</figDesc><graphic coords="11,70.85,453.06,219.72,221.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 11</head><label>11</label><figDesc>Figure 11 Another reconstructed slice of the same foam. The foam is seen to be broken into crystalline regions, while the square section in the centre of the image shows a cross section of the indenter tip itself. The image noise problem in Fig.2 is no longer seen. The edge-length of the cell is 20 mm.</figDesc><graphic coords="11,301.40,453.06,216.58,221.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 12 :</head><label>12</label><figDesc>Figure 12 : heating device for the intrumescent foams mounted on ID19 Figure 13 : zoom on the heating part of the sample</figDesc><graphic coords="12,90.35,306.85,173.40,181.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure14 : 4</head><label>4</label><figDesc>Figure14 : 4 radiographs showing the foaming.</figDesc><graphic coords="12,70.85,576.58,470.30,117.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 15</head><label>15</label><figDesc>Figure15present 2D slices reconstruction and it can be seen from these images that the acquisition is fast enough to capture the foaming in 3D even at 50K/min. Image analysis is under work.</figDesc><graphic coords="13,70.85,149.54,470.30,117.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 15 :</head><label>15</label><figDesc>Figure 15 : 2D slices during foaming at 50K/min</figDesc></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We hope to be able to repeat this experiment in the future. With proper imaging parameters in place, and a smooth experimental procedure, we expect to preform out experiments successfully. The resulting experimental data will represent a significant advancement within the area of foam physics, and its expansion into the domain of simulation media for other systems.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Aluminum matrix composites with volume fractions of 1%,4% and 10% of amorphous metal inclusions were prepared by mixing powders, Spark Plasma Sintering (SPS) and hot extrusion. The reinforcing phase was a Zr57Cu20Al10Ti8Ni5 metallic glass (MG) and the matrix phase consisted of two types of aluminum powders with similar particle sizes but different strengths (pure aluminum and 5083). Damage mechanisms in tension were characterized by X-ray tomography using in-situ tensile tests. This revealed the lack of ductility of pure SPS samples due to a non-negligible level of residual porosity after the sintering process. Hot extruded specimens exhibited a significant increase in strength and ductility. This allowed us to analyze and compare the damage mechanisms for the soft matrix (pure Al) composite and the hard matrix (5083 alloy) composites with 1vol.%, 4vol.% and 10vol.% of inclusions. The competition between particle cracking and decohesion is only observed in the case of the hard matrix, allowing the required level of stress in the inclusion to induce brittle fracture. In the case of the soft matrix, damage is caused by debonding at the matrix/particle interfaces as well as matrix shearing allowing coalescence decohesion (figure <ref type="figure">17</ref>).</p><p>Scans were performed with the PCO DIMAX camera with time scan in between 20-80s and an optic of 1.1µm (energy in between 17.6 -50 KeV). The room temperature tensile machine of MATEIS was used with a ramp speed of 1µm/min. interrupted and continuous in situ tests have been performed. The 'fasttomo' reconstruction front-end is an octave-based program to facilitate the reconstruction of microtomography data acquired using the corresponding spec macro 'fasttomo'. It allows one to choose/trim the parameters for the tomographic reconstruction done by PyHST(_2) and preliminary scan inspection via a preview slice. It is written in free interpreter-language Octave and was developed by several authors from different beamlines (mainly id19 and id22) over the past 15 years and is currently in use at ID11, ID19, BM05, NINA, ID17 just started, ID06 is going to join. Hence, there are a couple of diverging versions and unfortunately there exists very few information on the history and inter-dependency of these versions. Additionally, a new dedicated version started as a side-branch with the pco.dimax using multi-edf as standard file-format being introduced to the ID19 beamline.</p><p>On October 2015 work has started by Werner Augustin to merge these versions and to provide a unified software to beamline scientists as well as end users. For that purpose it was agreed to start with the most often used version from ID19 and the one used by users from SIMaP, which has additional support for continuous scan from the pco.dimax camera which are stored in multi-edf files. The result will be a main version where gradually also versions from other beamlines will be merged in cooperation with their beamline scientists.</p><p>The merging work is challenging, because of the scarce version information. Differences between the versions had to be classified very careful as bug-fixes and improvements to not discard them accidentally. At the same time, users where asked about ideas for improving the usability and configurability of the front-end. There was some brief work on checking an existing GUI and possibilities how to include this work into the project.</p><p>The current progress was presented and discussed in a users meeting end of December. It was agreed that the main focus of the work was on the merging of the different versions to make sure that there was a stable and maintainable version at the end of Werner Augustin one year contract. At the same time people from the DAU department should be involved to have their support after the end of this project.</p><p>Mid of January 2015 a first merged version was made available for testing and common use. 75-80% of the work is done.  <ref type="bibr">, 2014, vol. 324, p. 41-48.</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The rupture of a single liquid aluminium alloy film</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Heim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>García-Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Vinod Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banhart</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4sm00487f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page">4711</biblScope>
+			<date type="published" when="2014">2014</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Heim, F. García-Moreno, G.S. Vinod Kumar, A. Rack, J. Banhart, The rupture of a single liquid aluminium alloy film, Soft Matter 10(26), 4711-4716 (2014)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Fragmentation and Limits to Dynamical Scaling in Viscous Coarsening: An Interrupted&lt;i&gt;in situ&lt;/i&gt;X-Ray Tomographic Study</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Bouttes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuelle</forename><surname>Gouillart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elodie</forename><surname>Boller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davy</forename><surname>Dalmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Damien</forename><surname>Vandembroucq</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.112.245701</idno>
+		<idno>245701.A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<date type="published" when="2014-06-18">2014</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bouttes, D., Gouillart, E., Boller, E., Dalmas, D., &amp; Vandembroucq, D. (2014). Fragmentation and Limits to Dynamical Scaling in Viscous Coarsening: An Interrupted in situ X-Ray Tomographic Study. Physical review letters, 112(24), 245701.A</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Quantitative X-ray tomography</title>
+		<author>
+			<persName><forename type="first">Maire</forename><forename type="middle">E</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">INTERNATIONAL MATERIALS REVIEWS</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="43" />
+			<date type="published" when="2014">JAN 2014</date>
+		</imprint>
+	</monogr>
+	<note>Published</note>
+	<note type="raw_reference">Maire E., Withers, P. J., Quantitative X-ray tomography, INTERNATIONAL MATERIALS REVIEWS Volume: 59 Issue: 1 Pages: 1-43 Published: JAN 2014</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Synchrotron X-ray imaging for crystal growth studies</title>
+		<author>
+			<persName><forename type="first">José</forename><surname>Baruchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Di Michiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tamzin</forename><surname>Lafford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Lhuissier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacques</forename><surname>Meyssonnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henri</forename><surname>Nguyen-Thi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Armelle</forename><surname>Philip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petra</forename><surname>Pernot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Salvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Scheel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.crhy.2012.10.010</idno>
+		<idno>14 Issue: 2-3 Pages: 208-220 Published: FEB-MAR 2013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comptes Rendus Physique</title>
+		<title level="j" type="abbrev">Comptes Rendus Physique</title>
+		<idno type="ISSN">1631-0705</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="208" to="220" />
+			<date type="published" when="2013-02" />
+			<publisher>Cellule MathDoc/Centre Mersenne</publisher>
+		</imprint>
+	</monogr>
+	<note>Papers in preparation</note>
+	<note type="raw_reference">José Baruchel , Marco Di Michiel , Tamzin Lafford , Pierre Lhuissier ,Jacques Meyssonnier , Henri Nguyen-Thi, Armelle Philip , Petra Pernot , Luc Salvo ,Mario Scheel, Synchrotron X-ray imaging for crystal growth studies, COMPTES RENDUS PHYSIQUE Volume: 14 Issue: 2-3 Pages: 208-220 Published: FEB-MAR 2013. Papers in preparation :</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Hydrodynamic coarsening in phase-separated silicate melts</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Bouttes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Océane</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Corinne</forename><surname>Claireaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Woelffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davy</forename><surname>Dalmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuelle</forename><surname>Gouillart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Lhuissier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Salvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elodie</forename><surname>Boller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Damien</forename><surname>Vandembroucq</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.03.045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="233" to="242" />
+			<date type="published" when="2015-06" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>submitted to 2O3 by X-Ray microtomography</note>
+	<note type="raw_reference">David Bouttes, Océane Lambert, Corinne Claireaux, William Woelffel, Davy Dalmas, Emmanuelle Gouillart, Pierre Lhuissier, Luc Salvo, Elodie Boller, &quot;Hydrodynamic coarsening in phase-separated silicate melts&quot; submitted to Acta Materialia Conferences : -Morphology of Phase Separation and Coarsening of BaO -SiO2 -B2O3 by X-Ray microtomography</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Investigation of the nucleation of intermetallics in Al-Si-Fe Alloys using high speed in situ microtomography</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bouttes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vandembroucq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gouillart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dalmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Boller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Woelffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-H</forename><surname>Chopinet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Toplis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Boller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gouillart</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Esg Conference</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The 8th International Conference on BORATE GLASSES, CRYSTALS AND MELTS</title>
+		<editor>
+			<persName><forename type="first">September -Ani</forename><surname>Darlapudi</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Sofiane</forename><surname>Terzi</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Michelle</forename><surname>Alvarez</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Pierre</forename><surname>Lhuissier</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Parma; Luc Salvo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elodie Boller</publisher>
+			<date type="published" when="2014-05">June 30 -July 14 2014. may 2014</date>
+			<biblScope unit="page" from="21" to="24" />
+		</imprint>
+	</monogr>
+	<note>Influence of the early melting reactivity stages on the soda-lime glass heterogeneities content 3DMS conference Annecy</note>
+	<note type="raw_reference">Bouttes D., Vandembroucq D., Gouillart E., Dalmas D., Boller E., The 8th International Conference on BORATE GLASSES, CRYSTALS AND MELTS, Paradubice, June 30 -July 14 2014 -Influence of the early melting reactivity stages on the soda-lime glass heterogeneities content Woelffel W., Chopinet M-H., Toplis M. J., Boller E., Gouillart E., ESG Conference, Parma, 21-24 September -Ani Darlapudi; Sofiane Terzi; Michelle Alvarez; Pierre Lhuissier; Luc Salvo; Elodie Boller, « Investigation of the nucleation of intermetallics in Al-Si-Fe Alloys using high speed in situ microtomography&quot;, 3DMS conference Annecy may 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">4D Damage Characterization during Superplastic Deformation of Magnesium Alloys</title>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Lhuissier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Scheel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Salvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elodie</forename><surname>Boller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Di Michiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">Jacques</forename><surname>Blandin</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/msf.735.61</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science Forum</title>
+		<title level="j" type="abbrev">MSF</title>
+		<idno type="ISSNe">1662-9752</idno>
+		<imprint>
+			<biblScope unit="volume">735</biblScope>
+			<biblScope unit="page" from="61" to="66" />
+			<date type="published" when="2014-05">may 2014</date>
+			<publisher>Trans Tech Publications, Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note>3DMS conference Annecy</note>
+	<note type="raw_reference">-Pierre Lhuissier, Mario Scheel, Robin Gibaud, Louis Marciliac, Rémi Daudin, Elodie Boller, Luc Salvo, Jean-Jacques Blandin, In situ high temperature deformation: interest of 4D characterization at higher strain rate, 3DMS conference Annecy may 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Damage in amorphous crystalline composite, 3DMS conference Annecy may 2014</title>
+		<author>
+			<persName><forename type="first">Ferre</forename><surname>Antoine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Maire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvain</forename><surname>Dancette</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>PhD directly linked to the LTP</note>
+	<note type="raw_reference">-Antoine FERRE, Eric Maire, Sylvain Dancette, Damage in amorphous crystalline composite, 3DMS conference Annecy may 2014. PhD directly linked to the LTP :</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Micro-tomographie d&apos;un borosilicate de baryum démixé : du mûrissement à la fragmentation</title>
+		<author>
+			<persName><forename type="first">Bouttes</forename><surname>David</surname></persName>
+		</author>
+		<ptr target="https://tel.archives-ouvertes.fr/PASTEL/tel-01078337v2" />
+		<imprint>
+			<date type="published" when="2014-10-08">8 oct. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">David BOUTTES (https://tel.archives-ouvertes.fr/PASTEL/tel-01078337v2) &quot;Micro-tomographie d&apos;un borosilicate de baryum démixé : du mûrissement à la fragmentation&quot;, defence 8 oct. 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Endommagement dans les composites à matrice métallique et renfort amorphe</title>
+		<author>
+			<persName><forename type="first">Ferre</forename><surname>Antoine</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>defence in 2015</note>
+	<note type="raw_reference">Antoine FERRE : &quot;Endommagement dans les composites à matrice métallique et renfort amorphe&quot; defence in 2015</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Scientific milestones achieved</title>
+		<author>
+			<persName><forename type="first">Rohit</forename><forename type="middle">C</forename><surname>Agrawal</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13312-012-0244-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Indian Pediatrics</title>
+		<title level="j" type="abbrev">Indian Pediatr</title>
+		<idno type="ISSN">0019-6061</idno>
+		<idno type="ISSNe">0974-7559</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="945" to="945" />
+			<date type="published" when="2012-12" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note>in relation to the milestones identified in the original proposal</note>
+	<note type="raw_reference">Technical and Scientific Milestones Achieved (in relation to the milestones identified in the original proposal):</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

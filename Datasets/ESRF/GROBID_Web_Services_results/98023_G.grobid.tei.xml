@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">CHIKV nsP1 in complex with m 7 GTP and SAH substrates Experiment number: mx2637</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-08-24">24/08/2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Daouda</forename><surname>Traore</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">UMR 7257 Juan Reguera AFMB CNRS</orgName>
+								<orgName type="laboratory" key="lab2">UMR 7257</orgName>
+								<orgName type="institution">Rhian Jones AFMB CNRS</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">CHIKV nsP1 in complex with m 7 GTP and SAH substrates Experiment number: mx2637</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-08-24">24/08/2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C00E8F5221DB030C56B3BB87725D1D0D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Cap structures are universally present in eukaryotic mRNA 5' termini, and are critical for RNA stability, processing and translation. Many viruses such as Chikungunya (CHIKV) encode viral enzymes that append cap structures to the viral RNA to mimic host mRNA and hijack the host machinery. The aim of this experiment was to solve the structure of CHIKV nsP1 capping pore in complex with an S-adenosyl homocysteine (SAH) and 7-methyl guanosine triphosphate (m 7 GTP) ligands. NsP1 uses these precursors to form a covalent complex with an m 7 GMP cap0 structure that will eventually be transferred to 5' terminal phosphate of the viral RNA. The experiment was performed by Daouda Traore, who communicated with us via Skype about the experimental set-up. Four replicate grids of nsP1 with the substrates (Quantifoil R2/2 gold 300 mesh with a graphene oxide coating) that had been pre-screened on the TALOS Artica at the CNB Madrid were loaded into the microscope by Daouda. The ATLASes corresponded well to those aquired pretransportation, and data collection was set up with multi-acquisition from three of the grids to have enough squares for collection, due to uneven graphene oxide coverage over the grids.</p><p>An automated data collection was set up with the following parameters; 4 images were collected per hole at a magnification of 105,000 in super-resolution mode (corresponding to a super-res pixel size of 0.42 Å/pix and a physical pixel size of 0.839Å/pix), spot size 4, defocus range: 1-2.5m, exposure time: 1.8s distributed over A total of 6035 movies were collected from the first grid, 2076 from the second and 2754 from the third. All data was processed on the fly using the CM01 pipeline; monitored via the ExiMX interface. Movie drift was first corrected using MotionCorr2 and CTF correction performed with gCTF. Particles are clearly visible at up to -0.8um defocus.</p><p>Data were transferred to the lab, and the movies were processed from within Relion 3.1.3. Following motion correction (Motion Corr2) and CTF correction (CTFFind 4), 4461 of the 10865 movies were taken forward for processing following pruning for high astigmatism, or CTFs that did not exhibit Thon rings beyond 4-5Å. A very high number of micrographs were discarded due to a lack of graphene oxide coverage (and absence of particles) as multi-grid set-up in EPU does not allow for hole selection. Using Relion's autopicking procedure, 561,683 particles were selected from the dose-weighted micrographs (roughly 126 per micrograph), and 470,236 were retained following 2D classification. 2D classification yielded classes that correspond mostly to single ring projections of nsP1 (purified in GDN detergent); an improvement on previous data collections in fos-choline detergent where both single rings and sandwiches of single rings (an artefact of association via the exposed detergent micelle) were observed. This improvement in data homogeneity facilitated processing, and 3D classification did not yield any major differences in species in the dataset and was just used to 'clean' particles and improve the final resolution of reconstructions.</p><p>Finally, 241,438 particles were 3D refined using c12 symmetry (no differences in the maps were observed in c1) to 2.8Å resolution (2.5Å post-processing, Figure <ref type="figure" target="#fig_0">1</ref>). Contrary to structures collected with GTP or SAM ligands alone from the previous step of the nsP1 capping pathway (involving the methylation of GTP to produce m 7 GTP), the ligands are much more clearly defined in all of the 12 active sites of the dodecamer (Figure2). We propose that this reflects the need for binding of both m 7 GTP and SAH ligands simultenously within the active pocket for correct positioning of the m 7 GMP moiety for transfer and organisation of the active site-we identify several key amino acids that change rotamers and contacts to the ligands relative to the SAM and GTP bound structures. This correlates with biochemical data that shows that SAH is needed as a cofactor for transfer of the m 7 GMP cap from the m 7 GTP to the protein.</p><p>Finally, unexpectedly we do not observe any transfer of the m 7 GMP cap to the nsP1, despite the presence of magnesium and SAM cofactors. This was an unexpected result, but analysis of the active site suggests that the m 7 GTP alpha phosphate group is too distant for nucleophilic attack, and that the leaving group is incorrectly positioned. We hypothesise that this structure corresponds to a metastable state (as observed for other guanylyltransferases), and could serve as a checkpoint in the nsP1 capping reaction. Indeed, subsequent cryoEM data collections where the protein was incubated with both substrates and an RNA that is poorly capped show that the RNA serves as a stimulus for transfer of the m 7 GMP cap to the protein. The PDB model and maps have been submitted to the PDB and EMDB (8AOW and EMD-15554), and we have submitted a paper for publication describing different structural states of the CHIKV nsP1 capping pathway. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Local resolution plot of nsP1 rings bound to SAH and m 7 GTP ligands and FSC. The dashed line represents the 0.143 threshold.</figDesc><graphic coords="3,33.00,409.44,140.28,204.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Comparison of ligand densities in c12 symmetrised maps for A) SAM bound nsP1 (CM01 data collection mx2261), B) GTP bound nsP1 and C) SAH and m 7 GTP bound nsP1 (this experiment). The ligand density is substantially improved when both ligands are bound togther (all maps corresponding to the ligands are contoured at sigma level 2.0).</figDesc><graphic coords="4,33.96,119.64,520.00,156.72" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast scanning SAXS of hydrated biological cells Experiment number: SC5002</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sophie-Charlotte</forename><surname>August</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jan-Philipp</forename><surname>Burchert</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chiara</forename><surname>Cassini</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Markus</forename><surname>Osterhoff</surname></persName>
+						</author>
+						<title level="a" type="main">Fast scanning SAXS of hydrated biological cells Experiment number: SC5002</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5DA0134B9F01BB5CE88CAFDD5CEE8BFC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this experiment was to apply fast scanning small angle X-ray scattering (SAXS) of biological cells to hydrated cells. While scanning SAXS on freeze-dried cells is currently a well-established method [1-5], hydrated cells remain a challenging kind of sample [6-7], as they need to remain in aqueous environment for the duration of the scans, which diminishes the contrast and requires an adequate sample chamber. Hydrated cells are closer to physiological conditions than freeze-dried cells, so an effective way to perform scanning SAXS on them is an important step towards the collection of more realistic data.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experimental setup and data collection: Two different model cell lines were examined: NIH-3T3 cells <ref type="bibr" target="#b7">[8]</ref> and mouse embryonic fibroblasts (MEFs) lacking vimentin <ref type="bibr" target="#b8">[9]</ref>. Samples containing cells from one of the two cell lines were prepared by growing cells on silicon-rich nitride windows with a total membrane area of 1.5 x 1.5 mm 2 ; the cells were then chemically fixed with formaldehyde and stored in phosphate-buffered saline (PBS) until the sample chamber was assembled. The sample chamber was obtained by sandwiching two silicon-rich nitride windows together, with their flat sides facing each other. A polydimethylsiloxane (PDMS) spacer, approximately as thick as the cellular thickness (about 20 μm) was placed on the silicon frame of one window, to make sure that the PBS wetted the cells at all times with the lowest amount of liquid possible, thus minimizing the background scattering. The PDMS spacer was sealed along its outer rim with two-component silicone to avoid water permeation and evaporation. The sandwich was kept together by metallic frames screwed together. The experiments were performed at EHII of ID13 using a microfocused beam (2 x 2 μm 2 ). The diffraction patterns were collected by an Eiger 4M detector (Dectris) placed about 0.8 m away from the sample. Single cells or small groups of cells were located with the in-line optical microscope and then scanned in fast scanning mode <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> with a step size of 0.5 μm in both the horizontal and vertical direction, and an exposure time for each position of 50 ms. A step size smaller than the beam size was deliberately chosen, in order to better resolve cells in the dark field contrast (oversampling approach). In addition, we scanned one freeze-dried sample, namely MEFs lacking vimentin and expressing a human desmin mutant (R406W), in order to compare it with data from the same kind of sample taken before the EBS upgrade (experiment SC4893).</p><p>Results: Because of the large amount of data collected, data analysis is still in progress. From the dark field contrast images, which we already computed, cell shapes can be distinguished in the scans of hydrated samples (Figure <ref type="figure" target="#fig_0">1a</ref>), revealing that we have sufficient contrast despite the low electron density difference between the cells and their aqueous environment. It is worth noting that our wet sample chambers remained leak-tight all through the measurements (up to 6 hours per sample), demonstrating the effectiveness of our approach. However, the wet sample chambers had to be safely sent to ESRF for the remote beam time to take place. Therefore, they remained immersed in MilliQ water for one to two weeks before the actual measurement, and an unforeseen response to this procedure was that one of the components of the chamber left some debris back on the samples, as visible in the dark field contrast images. The cause of this issue is currently being investigated. Dark field contrast images of freeze-dried cells (Figure <ref type="figure" target="#fig_0">1c</ref>) show excellent contrast between the cells and the empty silicon nitride membrane, as highlighted by the comparison with a scan of the same cell type and with the same step size and exposure time, executed before the EBS upgrade (Figure <ref type="figure" target="#fig_0">1b</ref>). The improvement in brilliance allowed us to obtain a clean, micrometric-sized beam with a higher photon flux (2.5 • 10 12 photons/s instead of 1 • 10 12 photons/s), so that better photon statistics can be achieved in the same time span. Further analysis of the individual scattering patterns and their radial intensity decay will reveal the extent of this improvement. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: a) Dark field contrast image of a silicon-rich nitiride window carrying fixed-hydrated MEFs lacking vimentin. b) Dark field contrast image of a silicon-rich nitiride window carrying freeze-dried MEFs lacking vimentin and expressing a human desmin mutant. This scan was taken during experiment SC4893, before the EBS upgrade. c) Dark field contrast image of a silicon-rich nitiride window carrying freeze-dried MEFs lacking vimentin and expressing a human desmin mutant. b and c are shown in the same color scale for better comparison.</figDesc><graphic coords="2,34.00,271.43,532.45,132.30" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">X-ray nano-diffraction on cytoskeletal networks</title>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens-Friedrich</forename><surname>Nolting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Olendrowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jannick</forename><surname>Langfahl-Klabes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1367-2630/14/8/085013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">New Journal of Physics</title>
+		<title level="j" type="abbrev">New J. Phys.</title>
+		<idno type="ISSNe">1367-2630</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">085013</biblScope>
+			<date type="published" when="2012-08-17">2012</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weinhausen, Britta, et al. &quot;X-ray nano-diffraction on cytoskeletal networks.&quot; New Journal of Physics 14.8 (2012): 085013.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Revealing the Structure of Stereociliary Actin by X-ray Nanoimaging</title>
+		<author>
+			<persName><forename type="first">Valeria</forename><surname>Piazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Dammann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Maurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn5041526</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="12228" to="12237" />
+			<date type="published" when="2014-12-01">2014</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piazza, Valeria, et al. &quot;Revealing the structure of stereociliary actin by X-ray nanoimaging.&quot; ACS Nano 8.12 (2014): 12228-12237.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Following DNA Compaction During the Cell Cycle by X-ray Nanodiffraction</title>
+		<author>
+			<persName><forename type="first">Clément</forename><forename type="middle">Y J</forename><surname>Hémonnot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christiane</forename><surname>Ranke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliva</forename><surname>Saldanha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rita</forename><surname>Graceffa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+			<idno type="ORCID">0000-0002-0009-1024</idno>
+		</author>
+		<idno type="DOI">10.1021/acsnano.6b05034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="10661" to="10670" />
+			<date type="published" when="2016-11-24">2016</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hémonnot, Clément YJ, et al. &quot;Following DNA Compaction During the Cell Cycle by X-ray Nanodiffraction.&quot; ACS Nano 10.12 (2016): 10661-10670.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Scanning X-ray diffraction on cardiac tissue: automatized data analysis and processing</title>
+		<author>
+			<persName><forename type="first">Jan-David</forename><surname>Nicolas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marten</forename><surname>Bernhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Markus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frauke</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+			<idno type="ORCID">0000-0003-4636-0813</idno>
+		</author>
+		<idno type="DOI">10.1107/s1600577517011936</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSNe">1600-5775</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1163" to="1172" />
+			<date type="published" when="2017-10-23">2017</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nicolas, J-D., et al. &quot;Scanning X-ray diffraction on cardiac tissue: automatized data analysis and processing.&quot; Journal of Synchrotron Radiation 24.6 (2017): 1163-1172.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Large field-of-view scanning small-angle X-ray scattering of mammalian cells</title>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Cassini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Wittmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerrit</forename><surname>Brehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manuela</forename><surname>Denz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600577520006864</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSNe">1600-5775</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1059" to="1068" />
+			<date type="published" when="2020-06-16">2020</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cassini, Chiara, et al. &quot;Large field-of-view scanning small-angle X-ray scattering of mammalian cells.&quot; Journal of Synchrotron Radiation 27.4 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Microfluidic devices for X-ray studies on hydrated cells</title>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c2lc41014a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="212" to="215" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weinhausen, Britta, and Sarah Köster. &quot;Microfluidic devices for X-ray studies on hydrated cells.&quot; Lab on a Chip 13.2 (2013): 212-215.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Scanning X-Ray Nanodiffraction on Living Eukaryotic Cells in Microfluidic Environments</title>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliva</forename><surname>Saldanha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robin</forename><forename type="middle">N</forename><surname>Wilke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Dammann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marius</forename><surname>Priebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Sprung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.112.088102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">88102</biblScope>
+			<date type="published" when="2014-02-25">2014</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weinhausen, Britta, et al. &quot;Scanning X-ray nanodiffraction on living eukaryotic cells in microfluidic environments.&quot; Physical Review Letters 112.8 (2014): 088102.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">QUANTITATIVE STUDIES OF THE GROWTH OF MOUSE EMBRYO CELLS IN CULTURE AND THEIR DEVELOPMENT INTO ESTABLISHED LINES</title>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">J</forename><surname>Todaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Howard</forename><surname>Green</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.17.2.299</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Cell Biology</title>
+		<idno type="ISSN">0021-9525</idno>
+		<idno type="ISSNe">1540-8140</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="299" to="313" />
+			<date type="published" when="1963-05-01">1963</date>
+			<publisher>Rockefeller University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Todaro, George J., and Howard Green. &quot;Quantitative studies of the growth of mouse embryo cells in culture and their development into established lines.&quot; The Journal of cell biology 17.2 (1963): 299-313.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Impaired mechanical stability, migration and contractile capacity in vimentin deficient fibroblasts</title>
+		<author>
+			<persName><forename type="first">Beate</forename><surname>Eckes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dagmar</forename><surname>Dogic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emma</forename><surname>Colucci-Guyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ning</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Maniotis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Donald</forename><surname>Ingber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandra</forename><surname>Merckling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francina</forename><surname>Langa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Monique</forename><surname>Aumailley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annie</forename><surname>Delouvée</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Victor</forename><surname>Koteliansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Babinet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Krieg</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.111.13.1897</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cell Science</title>
+		<idno type="ISSN">0021-9533</idno>
+		<idno type="ISSNe">1477-9137</idno>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="1897" to="1907" />
+			<date type="published" when="1998-07-01">1998</date>
+			<publisher>The Company of Biologists</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eckes, Beate, et al. &quot;Impaired mechanical stability, migration and contractile capacity in vimentin-deficient fibroblasts.&quot; Journal of Cell Science 111.13 (1998): 1897-1907.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jakub</forename><surname>Drnec</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hazel</forename><surname>Reardon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nils</forename><surname>Lau</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nyborg</forename><surname>Broge</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bo</forename><surname>Brummerstedt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Ertl</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mirijam</forename><surname>Zobel</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Iversen -Center for Materials Crystallography</orgName>
+								<orgName type="institution">Aarhus University</orgName>
+								<address>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University</orgName>
+								<address>
+									<settlement>Bayreuth</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CBD6674C48778756D08C276820CBE6D8</idno>
+					<note type="submission">from: 15 th Feb to: 18 th Feb 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T12:34+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The initially proposed experiments were carried out using the CdTe detector. As reported for the previous beamtime, the proper and best possible treatment of those detectors is still under exploration.</p><p>We observed that they can stand about a 500,000 cts/pixel/sec, but not for extended times. It seems to be a dose effect. During in-situ experiments, temperature ramps or when exposing the same sample for extended times, diffraction rings are "burnt" into the detector. They induce an afterglow which decays, but this requires some times. E.g. a measurement of ceria powder with 300,000 cts/pixel/sec carried out for 2 min will heavily overexpose the detector. The subsequent afterglow cannot be eliminated by switching off and restarting the detector. The afterglow needs several (about 6 hours) to go away. After this, the before overexposed pixels are more sensitive and higher noise is present in those pixels compared to not overexposed pixels. In the following graphics this is shown for an aqueous nanodiamond dispersion of 1 wt%. We show the example of nanodiamonds because it has the least scattering contrast of the particles against the solvent from the dispersions used throughout the beamtime, and thus best shows the overall outstanding performance of the CdTe detector. The nanodiamond peaks have only 500 counts compared to 350,000 cts in the peak maximum of the first sharp diffraction peak of water. Nevertheless, the diamond signal can be clearly detected. However, we also see in the inset, that the noise in the data in between 8.3 and 8.7 Å -1 is way higher than in the surroundings. This is due to the before mentioned enhanced sensitiviy of the previously overexposed pixels. It is obvious that such an enhanced sensitivity somewhat ruins d-PDF calculation for such weak scattering contrasts / concentrations. Together with the beamline scientists we therefore concluded after this beamtime that additional care has to be taken when measuring with the CdTe detector to not oversaturate at all in any possible manner in order to get the most proper liquid data from the detector.</p><p>At the time of the beamtime and the weeks thereafter, issues with the radial integration of the CdTe detector persisted. As reported before, no radial integration routine existed to account for the dead areas (lines) in between the individual sectors of the Pilatus detector, see below to the left.</p><p>The integration of the detector, in particular with asymmetric primary beam positions, resulted in kinks in the data as shown in the figure to the right, where the signal height of the nanodiamonds is compared to the "kink" signal from the insufficient data integration. In order to analyze such challenging dispersions, a proper correction for dead and masked areas is utmost important. Recently, an "inpainting" tool was implemented into pyFAI in order to account for those kinks by interpolating in between adjacent pixels of rings of constant Q. By the time of writing this report, we have not tested and played around with this "inpainting" tool yet, but we will do so in the near future in order to analyze the data collected on the solvation shells around nanoparticles during this beamtime CH-4789.</p><p>Nanodiamond peak: signal height 500 counts Kapton capillary, 1 mm Water in Kapton Nanodiamond dispersion (1 wt%) in Kapton Nanodiamond peak: signal height 500 counts Missing corrections in radial integration Nanodiamonds in water Water</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

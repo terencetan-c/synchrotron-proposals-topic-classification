@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SC -5024</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lyu -Isabelle</forename><surname>Morfin</surname></persName>
+						</author>
+						<title level="a" type="main">SC -5024</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5F3F4C78D5C0557B74D6D8DAB3F04AD3</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>1. Summarize of the exp:</p><p>Is described here the essential information needed to use the data. You may find the complete experimental report below which is a little messy since we met several pbm during our work.</p><p>We performed simultaneous SAXS-WAXS measurements for every sample from Group1, 2, 3 and 4.The temperature range asked has been done for all of them except the Group1 for which the maximum reachable temperature was around 147°C due to the broken resistor on one side of the sample holder. Our problem of heating had two consequences : firstly to not be able to reach 160°C and secondly that the temperature values are not exactly the ones asked and mentioned in the header of the files and summarized in the file Temperature_Lyu (measured temperature). In order to estimate the real temperatures (Treal), we have measured temperature in the first sample position S1 and last one S11 and compare them with set temperature. Temperature of the samples starting from 6th position up to 11th need to be corrected. The table below contains real temperature of the sample at the position 11 at the known set temperature. All others positions can be interpolated between set temperature and the T11.</p><p>Measured temp. Real Temp. 30.0 28.5 40.0 38.5 50.0 47.6 60.0 56.4 70.0 66.2 80.0 75.6 90.0 84.5 100.0 93.4 110.0 102.9 120.0 112.3 130.0 122.3</p><p>Data reduction has been done right now without subtraction of the empty cell. The names of the files are like for the first part of the experiment, for example : Group1/21Feb25D5_3500_S1.dat. D5 corresponds to SAXS and WOS corresponds to WAXS. Files are classified in several folders named Group1, 2 and 3. For this example, 3500 corresponds to the run number. S1 corresponds to the first sample of your priority list being in the group 1. I wrote in red in the exp. report (below), the names of the samples, the associated names (S1, S2…) and the position in the sample holder for each group.</p><p>We also had some transmission measurement problems. You will see some curves, the first temperatures of the group 1 are shifted compared to the others. It is possible to correct that by applying a multiplicative factor. I could do that if you can not but in a first attempt, I prefer to deliver the data like this in order for you to know. This transmission pbm also creates difficulties to substrat the empty cell. the empty cell having a large pick around 0.19ang-1, it is possible to estimate the multiplicative factor to apply to the empty cell intensity to eliminate this peak. One more time, I prefer to not do it in a first attempt. The empty cell run numbers are written in green in the exp. report.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental report :</head><p>This notebook corresponds to the second part of the SC-5024 experiment started in dec 2020.</p><p>The setup used is made with the new WOS (17cm long) plus the removable kapton holder allowing to measure the transmission and the beastop holder. A 5 cm of diameter kapton window is used just after the WOS to close the vaccum SAXS part.</p><p>calibration at 8 KeV it worked fine for the D5 but for the WOS it looks like the statistics in the wos were not enough.</p><p>Zr fluoresces at 17.5kev. It is used for measuring the flat field. loopscan 60 15 ---&gt; for the D5</p><p>Name of the calibrations : 8keV_fast_20210224 for both detectors First images Image Saved to File "/users/opd02/raw/21Feb24D5_0360.edf" Image Saved to File "/users/opd02/raw/21Feb24WOS_0360.edf" last images 419 New calibration for the WOS : 8keV_fast_20210224_2 worse than 8keV_fast_20210224 We use 8keV_fast_20210224 for WOS timescan for flat : from /21Feb24WOS_0561.edf to 1017 Samples: scan name pos time comment d5 0978 -979 wos -1029 Cr2O3 in capil 1 60 0980 -1030 -2 60 0983 -1033 -GC 6 60 0986 -1036 -AgB in front of the sample holder like GC 8 60 0989 -1039 -AgB in capil 9 60 992 -1042 -1044 Cr2O3 in front of the sqmple holder 10 60 Measurements during the night (night2.mac): for each sample, the first measurement is the one for measuring the transmission (kapton on), the second one is the real measure 1609-10 ZS41 1 60 T=30C 1611-12 ZS41Li 2 60 ZS11 3 missing 1613-14 ZS11Li 4 90 1615-16 ZS21 5 60 1617-18 ZS13 6 90 1619-20 ZS12 7 60 1621-22 ZS12Li 8 90 1623-24 ZS1-07 9 60 1625-26 ZS1-15 10 90 1627-28 ZS31 11 60 1657-76 1-11, no 3 T=40 1678-97 1-11, no 3 T =50 1699-1718 1-11, no 3 T=60 1720-1739 1-11, no 3 T=70 1741-60 1-11, no 3 T = 80 1762-81 1-11, no 3 T=90 1783-1802 1-11, no 3 T=100 1804-23 1-11, no 3 T=110 1825-44 1-11, no 3 T=120 1846-65 1-11, no 3 T=130 <ref type="bibr">1867-86 T=130 1888-1907 T=125 1909-28 T=120 1930-49 T=115 1951-70 T=110 1972-91 T=105 1993-2012 T=100 2014-33 T=95 2035-54 T=90 2056-75 T=85 2077-96 T=80 2098-2117 T=75 2119-38 T=70 2140-59 T=65 2161-80 T=60 2182-2201 T=55 2203-22 T=50 2224-43 T=45 2245-64 T=40 2266-85 T=35</ref> 2287-2306 T=30 Sample 3 has not been measured. It was missing in the program. I stopped the macro around 8am since it could not reach the last temperature 25C. it had started around 10pm last on thursday. it has been too quick.</p><p>Temperature ramping rate was 50K/min which far to fast and could cause the problem with regulation.</p><p>Moreover, positions of the sampleholder were not correct and not all samples has been measured. SrCl2 2M 90s just to see for a flat but bump of water on the wosna one of the resistance of nanodac has been broken which did not let us go to the 160C. The thermocouple was between positions 5 and 6. So, positions 7-11 might not have the right temperature. probably there is a gradient of temperatures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Group</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>the end of each temperature there is dscan gamma for 30 points.problem with temperature setpoint that the motion of nanodac is interrupted by other actions in the script, for example, moving sample table. Then the setpoint is taken from the actual temperature, which is higher due to overshooting. change PID from 4.7 -95 -20 to 5</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,73.50,73.50,451.50,224.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,73.50,405.30,451.50,192.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,73.50,73.50,451.50,182.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="8,73.50,444.52,303.75,204.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Figure 4. Activation of M cells is necessary and sufficient to trigger a phase-shift without light.</title>
+		<idno type="DOI">10.7554/elife.02780.007</idno>
+		<idno>=1419. 4671-72 4683-84 4717-18 4729-30 4763-64 4775-76 4809-10 4820-21 4855-56 4867-68 4901-4902 4913-4914 4947-4948 ... 4959-4960</idno>
+		<imprint>
+			<date>null</date>
+			<publisher>eLife Sciences Publications, Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note>of temperature regulation during the night Marina do a new macro for the decrease in temperature, from 120C to 30C forst run of this macro the orange one goes up to 36.3 with a quite large shift in time</note>
+	<note type="raw_reference">of temperature regulation during the night. Marina do a new macro for the decrease in temperature, from 120C to 30C forst run of this macro =1419. 4671-72 4683-84 4717-18 4729-30 4763-64 4775-76 4809-10 4820-21 4855-56 4867-68 4901-4902 4913-4914 4947-4948 ... 4959-4960 Saturday morning I try a move in temp from 30 to 35 with PID (P=10). Since the red T increased slowly until 30 and stop, the orange one goes up to 36.3 with a quite large shift in time.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

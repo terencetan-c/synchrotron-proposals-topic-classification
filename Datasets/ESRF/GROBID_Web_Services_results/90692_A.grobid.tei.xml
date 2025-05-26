@@ -1,0 +1,2453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dense neuronal reconstruction through X-ray holographic nano-tomography</title>
+				<funder ref="#_nSXAxfp #_j7rNaDC #_W9xpyYj #_6fesUr2 #_E78eJax">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">HMS Dean&apos;s Initiative</orgName>
+				</funder>
+				<funder ref="#_fZ9VDp2">
+					<orgName type="full">Edward R. and Anne G. Lefler Center, Goldenson Family</orgName>
+				</funder>
+				<funder ref="#_475thTc">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Cold Spring Harbor Laboratory</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-05-30">2019-05-30</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alexandra</forename><surname>Pacureanu</surname></persName>
+							<idno type="ORCID">0000-0003-2306-7040</idno>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">ESRF</orgName>
+								<orgName type="institution" key="instit2">The European Synchrotron</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Neurobiology</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jasper</forename><surname>Maniates-Selvin</surname></persName>
+							<idno type="ORCID">0000-0001-8033-258X</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Neurobiology</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Program in Neuroscience</orgName>
+								<orgName type="institution">Harvard University</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Aaron</forename><forename type="middle">T</forename><surname>Kuan</surname></persName>
+							<email>aaron_kuan@hms.harvard.edu</email>
+							<idno type="ORCID">0000-0002-1908-7949</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Neurobiology</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Logan</forename><forename type="middle">A</forename><surname>Thomas</surname></persName>
+							<idno type="ORCID">0000-0002-7806-3496</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Neurobiology</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chiao-Lin</forename><surname>Chen</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Genetics</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+							<idno type="ORCID">0000-0002-4129-9091</idno>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">ESRF</orgName>
+								<orgName type="institution" key="instit2">The European Synchrotron</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wei-Chung Allen</forename><surname>Lee</surname></persName>
+							<idno type="ORCID">0000-0002-4618-295X</idno>
+						</author>
+						<title level="a" type="main">Dense neuronal reconstruction through X-ray holographic nano-tomography</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>Cold Spring Harbor Laboratory</publisher>
+							<date type="published" when="2019-05-30" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">479C2C9D3B47DA9EF540E6A6D007588E</idno>
+					<idno type="DOI">10.1101/653188</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Elucidating the structure of neuronal networks provides a foundation for understanding how the nervous system processes information to generate behavior. Despite technological breakthroughs in visible light and electron microscopy, imaging dense nanometer-scale neuronal structures over millimeter-scale tissue volumes remains a challenge. Here, we demonstrate that X-ray holographic nano-tomography is capable of imaging large tissue volumes with sufficient resolution to disentangle dense neuronal circuitry in Drosophila melanogaster and mammalian central and peripheral nervous tissue. Furthermore, we show that automatic segmentation using convolutional neural networks enables rapid extraction of neuronal morphologies from these volumetric datasets. The technique we present allows rapid data collection and analysis of multiple specimens, and can be used correlatively with light microscopy and electron microscopy on the same samples. Thus, X-ray holographic nano-tomography provides a new avenue for discoveries in neuroscience and life sciences in general.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Our understanding of the nervous system is built on our knowledge of the structure and connectivity of neurons. However, unraveling their structure is a daunting technical challenge because neuronal axons and dendrites are small in diameter (~20-1000 nm) and traverse long distances (millimeters or more). With current technology, we generally can either image a sparse subset of neurons with a large field of view (FOV) through fluorescent labeling and visible light microscopy (LM) or comprehensively map small regions via electron microscopy (EM). Advancing our understanding of neuronal networks will require imaging modalities that can simultaneously achieve high resolution and large FOV.</p><p>At present, LM and magnetic resonance imaging techniques can image large regions, but not with sufficient resolution to densely resolve neuronal processes. Recent advances in super-resolution imaging have greatly improved resolving power for LM <ref type="bibr" target="#b12">(Gao et al., 2019;</ref><ref type="bibr" target="#b16">Heintzmann and Gustafsson, 2009;</ref><ref type="bibr" target="#b17">Hell, 2007;</ref><ref type="bibr" target="#b21">Huang et al., 2009)</ref>; however, these techniques rely on sparse labeling with fluorescent probes, such that only a fraction of neurons are visible. On the other hand, all neurons can be detected locally in EM micrographs, but collection of large volumes encompassing entire circuits requires elaborate sample and data processing, yielding major scaling challenges <ref type="bibr" target="#b3">(Briggman and Bock, 2012;</ref><ref type="bibr" target="#b18">Helmstaedter et al., 2013;</ref><ref type="bibr" target="#b24">Lee et al., 2016;</ref><ref type="bibr" target="#b43">Xu et al., 2017;</ref><ref type="bibr">Zheng et al., 2018)</ref>. Thus, despite rapid and transformative advances in both LM and EM, a spatial resolution and FOV gap remains.</p><p>Hard X-rays are an attractive illumination probe for imaging thick tissue samples with fine spatial resolution due to their high penetration power and sub-nanometer wavelength. Previously, attenuation-based X-ray microtomography with a synchrotron source enabled visualization of metal stained, sparse wiring in the Drosophila brain <ref type="bibr" target="#b29">(Mizutani et al., 2013)</ref>. The advent of Xray phase-contrast techniques enabled imaging of both stained and unstained brain tissue at micrometer and submicrometer scales <ref type="bibr">(Cedola et al., 2017;</ref><ref type="bibr" target="#b9">Dyer et al., 2017;</ref><ref type="bibr" target="#b10">Fonseca et al., 2018;</ref><ref type="bibr" target="#b22">Khimchenko et al., 2018;</ref><ref type="bibr" target="#b26">Massimi et al., 2019;</ref><ref type="bibr" target="#b34">Schulz et al., 2010;</ref><ref type="bibr" target="#b37">Shahmoradian et al., 2017;</ref><ref type="bibr" target="#b40">Töpperwien et al., 2018)</ref>. However, until now, X-ray microscopy has not achieved the necessary resolving power to enable dense reconstruction of neuronal morphologies.</p><p>Here we present a pipeline based on X-ray holographic nano-tomography (also called X-ray nanoholotomography, or XNH) that enables imaging of large volumes of neural tissue with sufficient resolution to extract the morphologies of densely packed neurons without specific labeling. We combined a highly focused and brilliant hard X-ray nano-probe <ref type="bibr" target="#b38">(da Silva et al., 2017)</ref>, an advanced nano-positioning system, cryogenic imaging, new sample preparation protocols, and enhanced phase retrieval approaches to achieve significant improvements in image quality. We show that individual neurons can be manually traced through XNH datasets of central and peripheral nervous tissue of the fruit fly Drosophila melanogaster and mouse. In addition, we use a 3D U-NET convolutional neural network (CNN) to automatically segment dendrites and axons from the XNH data. Moreover, we demonstrate that XNH is compatible with cell type-specific genetic labeling techniques as well as post-hoc EM of the same samples. These results demonstrate that XNH is a versatile volumetric imaging modality for biological microscopy, which can be combined with LM and EM in correlative workflows to accelerate our understanding of neuronal networks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XNH imaging of central and peripheral nervous systems</head><p>To explore the potential of XNH for imaging neuronal morphologies, we imaged samples of mouse cortex as well as the brain, ventral nerve cord (VNC), and leg of adult Drosophila. We varied the reconstructed isotropic voxel size (edge length) from 30 nm to 120 nm, yielding FOVs (edge length of square cylindrical volume) from 60 µm to 240 µm (96 µm to 384 µm with extended FOV, see Supplementary Table <ref type="table">1</ref>) for each dataset. Sample sizes ranged from whole Drosophila brains (300 µm × 200 µm × 700 µm) to blocks of mouse cortex (1 mm × 0.5 mm × 2 mm). Samples were prepared using standard protocols for EM <ref type="bibr" target="#b20">(Hua et al., 2015;</ref><ref type="bibr">Zheng et al., 2018)</ref> and mounted onto aluminum cylindrical pins for imaging (Fig. <ref type="figure" target="#fig_0">1a</ref>, inset).</p><p>XNH imaging was conducted at the nano-imaging beamline ID16A at the European Synchrotron (ESRF). For image acquisition, the samples were positioned downstream of the focal spot of a highly brilliant X-ray beam (Fig. <ref type="figure" target="#fig_0">1a</ref>). After traversing the sample, the propagating beam generated self-interference patterns, (i.e. holograms) that were recorded on a lens-coupled CCD detector about 1.2 m downstream of the sample (Fig. <ref type="figure" target="#fig_0">1b</ref>). For each dataset, four tomographic scans (rotations of the sample over 180º) were recorded at different focus-tosample distances (Fig. <ref type="figure" target="#fig_0">1a</ref>), and processed together via a phase retrieval algorithm to obtain angular phase maps of the sample (Fig. <ref type="figure" target="#fig_0">1c</ref>) <ref type="bibr" target="#b7">(Cloetens et al., 1999;</ref><ref type="bibr" target="#b30">Mokso et al., 2007;</ref><ref type="bibr" target="#b44">Yu et al., 2018)</ref>. Lastly, a 3D image volume of the tissue was generated from the angular phase maps by tomographic reconstruction using filtered back-projection <ref type="bibr" target="#b28">(Mirone et al., 2014)</ref>.</p><p>Figure <ref type="figure" target="#fig_0">1d</ref>-e shows a tomographic slice and a 3D rendering of an XNH scan capturing the central brain of an adult Drosophila (120 nm voxels) (Supplementary Video 1). At this resolution, large individual neuronal processes can be resolved (Fig. <ref type="figure" target="#fig_0">1d</ref>, inset, Fig. <ref type="figure" target="#fig_0">1e</ref>, orange tracts). Figure <ref type="figure" target="#fig_0">1f</ref> shows a volume rendering of a large FOV XNH scan from mouse cortex (100 nm voxels). In this dataset, we can trace large dendrites, in particular the apical dendrites of pyramidal neurons. Figure <ref type="figure" target="#fig_0">1g</ref> shows a virtual slice from a high-resolution mouse cortex scan (30 nm voxels) (Supplementary Video 2). At this resolution, many ultrastructural features are resolved including mitochondria, endoplasmic reticulum, dendrites, myelinated and unmyelinated axons (Fig. <ref type="figure" target="#fig_0">1g</ref>, insets).</p><p>To quantify the spatial resolution of XNH image volumes, we utilized Fourier Shell Correlation (FSC) <ref type="bibr" target="#b13">(Harauz and van Heel, 1986)</ref>. While the pixel size is directly determined by the geometrical magnification M = (𝑧𝑧 1 + 𝑧𝑧 2 ) 𝑧𝑧 1 ⁄ (Fig. <ref type="figure" target="#fig_0">1a</ref>), the actual resolution depends on multiple factors, including the spot size and coherence properties, the mechanical stability of the system, the detection system, the sample composition and the image reconstruction approach. We found that the measured spatial resolutions in both mouse and Drosophila data vary between two and four times the voxel size, depending on the sample characteristics and acquisition parameters (Fig. <ref type="figure" target="#fig_0">1h</ref>, Supplementary Table <ref type="table">1</ref>, Fig. <ref type="figure" target="#fig_0">S1a-c</ref>). Reducing the voxel size improved image resolution down to the smallest voxel size we tested (30 nm), but the relative resolution (measured resolution divided by voxel size) was best at larger voxel sizes (Fig. <ref type="figure" target="#fig_0">S1a</ref>). This is likely due to larger voxel sizes corresponding to reduced radiation dose and less tissue present outside the FOV (see Discussion).</p><p>Although FSC is a commonly utilized method to quantify resolution in many imaging modalities including X-ray imaging, its implementation is somewhat controversial <ref type="bibr" target="#b14">(Heel and Schatz, 2017;</ref><ref type="bibr" target="#b15">van Heel and Schatz, 2005)</ref>. Therefore, we used an independent method based on identification of features with sharp edges to verify our FSC resolution measurements <ref type="bibr" target="#b30">(Mokso et al., 2007)</ref>. This edge-fitting method produced resolution measurements consistent with those measured via FSC (Fig. <ref type="figure" target="#fig_0">S1d-f</ref>), suggesting that the FSC algorithm produces accurate measures of resolution that can be interpreted as the fidelity of sharp edges or small features in the image volumes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Correlative X-ray imaging with EM and genetic labeling</head><p>To verify that XNH images faithfully reproduce the ultrastructure of biological samples, we collected thinsections of samples after XNH imaging and imaged the same regions at higher lateral resolution with EM. We found that corresponding EM and XNH image data from the Drosophila leg nerve (50 nm pixels, Fig. <ref type="figure" target="#fig_1">2a</ref>, Supplementary Video 3) and mouse cortex (100 nm pixels, Fig. <ref type="figure" target="#fig_1">2b</ref>) have very similar characteristics, with membranes and mitochondria appearing as the most prominent dark features. Most of the neurites in the EM image are also resolved in XNH, and only the smallest processes are not resolved with XNH. We also verified that fine ultrastructure features, such as membranes, synaptic vesicles and post-synaptic densities, are preserved in the EM images after XNH imaging <ref type="bibr">(Fig. 2b,</ref><ref type="bibr">inset)</ref>. This demonstrates that our XNH sample preparation and imaging approach are compatible with post-hoc, serial section EM, so that an XNH imaged volume can be imaged at higher resolution with EM, for identification of synapses or other fine ultrastructural features.</p><p>Based on the similarity between XNH and EM images, we reasoned that cell type-specific labeling strategies previously developed for EM could be adapted for XNH. EM-visible labeling of specific cell types has been achieved using peroxidases that deposit dense precipitates inside the organelles of genetically-defined cell populations <ref type="bibr" target="#b0">(Atasoy et al., 2014;</ref><ref type="bibr" target="#b45">Zhang et al., 2019)</ref>. We developed a fly reporter line that targets the peroxidase APEX2 <ref type="bibr" target="#b23">(Lam et al., 2015)</ref> to the nuclei of GABAergic neurons (see Methods). We show that APEX2 can successfully be detected in these flies with XNH imaging and that labeled cells can be automatically segmented using a Random Forest classifier with minimal training (Fig. <ref type="figure" target="#fig_1">2c</ref>) <ref type="bibr" target="#b39">(Sommer et al., 2011)</ref>. These results demonstrate that the nuclear-APEX2 reporter line enables identification of genetically-defined cell populations within XNH images and suggest more generally that labeling strategies developed for EM can also be detected with XNH.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Millimeter-scale XNH imaging of a Drosophila leg at single-neuron resolution</head><p>To image large regions with complex topology at high resolution, we stitched multiple, overlapping XNH scans to image the majority of a Drosophila leg (coxa, trochanter, femur, and tibia segments) and the associated first thoracic (T1) neuromere in the VNC (Fig. <ref type="figure" target="#fig_2">3a</ref>,<ref type="figure">b</ref>). This dataset consisted of 12 individual scan volumes at pixel sizes between 50 and 200 nm, including a length of the main leg nerve totaling more than 1.4 mm (Fig. <ref type="figure" target="#fig_2">3c</ref>,<ref type="figure">d</ref>, Supplementary Table <ref type="table">2</ref>, Supplementary Video 4). Because each XNH scan takes about 4 hours to acquire, this entire dataset was collected in less than 2 days. The 12 scans were aligned together to produce a continuous dataset encompassing the leg and the neural circuit in the VNC that controls this leg's movements (Fig. <ref type="figure" target="#fig_2">3c</ref>). Representative 2D slices (Fig. <ref type="figure" target="#fig_2">3e-i</ref>) show that many axons in the main leg nerve can be clearly resolved and reconstructed. Because the surrounding musculature, exoskeleton, and sensory structures are also visible, individual neurons can be mapped from their peripheral sources and targets back to the VNC.    <ref type="table">2</ref>), including the T1 neuromere of the ventral nerve cord (VNC), the coxa, trochanter, femur, and tibia segments of the leg. Most scans were recorded at 75 nm pixel size, a resolution at which motor axons and large sensory axons can be traced through the leg. (b) Photograph of sample after heavy-metal staining, embedding, and mounting for XNH imaging. (c) 3D rendering of scan volume: individual scans were stitched together to form a contiguous volume of the leg (see Methods). (d) Computationally unfolded cross-section of the scan volume, following the main leg nerve over 1.4 mm from the VNC throughout the coxa, trochanter, femur, and tibia segments. (e) Cross-section through the coxa. Fats, muscles, and neurons are clearly visible. (f) Detailed view of nerve within the coxa. The indicated motor neuron is the same neuron as in (h) (g) Cross-section through the femur. Asterisk denotes the femoral chordatonal organ, a proprioceptive sensory structure <ref type="bibr" target="#b25">(Mamiya et al., 2018)</ref>. (h) Detailed view of nerve within the femur, including a motor axon branching off to innervate a muscle (arrow). (i) Crosssection through the tibia. Fewer large-diameter motor axons are visible in this cross-section compared to (f) and (h), as most motor axons have left the nerve to innervate muscles in more proximal leg segments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reconstruction of Individual Neuron Morphologies</head><p>Until now, tracing of individual neuron morphologies from X-ray image data has been only possible through sparse labeling <ref type="bibr" target="#b10">(Fonseca et al., 2018;</ref><ref type="bibr" target="#b29">Mizutani et al., 2013;</ref><ref type="bibr" target="#b31">Ng et al., 2016;</ref><ref type="bibr" target="#b36">Shahbazi et al., 2018)</ref>. However, our results suggest that XNH image volumes contain sufficient signal to noise and spatial resolution to resolve and reconstruct dense populations of neurons without specific labeling. To test this, we reconstructed individual motor and sensory axons in high resolution scans of the Drosophila VNC (50 nm pixels, Supplementary Video 3) via manual skeletonization, a process where human annotators trace a wire-frame model of the neuronal processes <ref type="bibr" target="#b32">(Saalfeld et al., 2009;</ref><ref type="bibr" target="#b33">Schneider-Mizell et al., 2016)</ref>. A total of 108 neurons were seeded from their axons in the front leg nerve and were traced into the VNC (Fig. <ref type="figure" target="#fig_3">4a-d</ref>). The reconstructed neurons included both motor neurons that send their axons into the leg to innervate muscles and sensory neurons that send signals from sensory organs in the leg to the VNC. We were able to trace neurons and capture the major branching patterns of their primary axons in the VNC. Based on these branching patterns, we were able to classify the neurons into several morphological clusters (Fig. <ref type="figure" target="#fig_3">4e</ref>) and identify the dorsally-branching clusters as motor neurons <ref type="bibr" target="#b1">(Baek and Mann, 2009;</ref><ref type="bibr" target="#b2">Brierley et al., 2012)</ref> and the ventrallybranching clusters as sensory neurons <ref type="bibr" target="#b41">(Tsubouchi et al., 2017)</ref>. In some cases, we were also able to associate the neurons with specific sensory organs, such as the campaniform sensilla and femoral chordatonal organs <ref type="bibr" target="#b25">(Mamiya et al., 2018)</ref>. We observed that axons are spatially organized in the nerve, such that axons from neurons from the same morphological cluster tend to also physically cluster together within the nerve (Fig. <ref type="figure" target="#fig_3">4c</ref>, <ref type="figure">inset</ref>). These results demonstrate that XNH enables morphological classification of cell types, providing insight into the organizational principles of circuits in the central and peripheral nervous systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Automated Segmentation of Neuronal Morphologies using Convolutional Neural Networks</head><p>While manual tracing can produce targeted, highquality reconstructions, it can be time-consuming. To accelerate neuronal reconstructions, we adapted an automated segmentation pipeline developed for EM <ref type="bibr" target="#b11">(Funke et al., 2017)</ref>, and applied it to the XNH image data (see Methods). The goal of automated segmentation is to assign voxels in the image volume to neurons. Unlike skeletonization (Fig. <ref type="figure" target="#fig_3">4</ref>), segmentation allows the full geometry of the neurons to be reconstructed in 3D. Broadly speaking, the pipeline consists of two major steps: affinity prediction and agglomeration. In the affinity prediction step, a CNN (Fig. <ref type="figure" target="#fig_4">5a</ref>) is used to convert the image data into an affinity graph, which quantifies locally how likely adjacent voxels are to be part of the same object (Fig. <ref type="figure" target="#fig_4">5b</ref>,<ref type="figure">c</ref>). During the subsequent agglomeration step, voxels are first grouped into supervoxels using a watershed algorithm, which are then progressively merged into larger objects based on the predicted affinities along the contact area of adjacent supervoxels. The merging procedure is stopped at a user-defined threshold, giving rise to the final segmentation (Fig. <ref type="figure" target="#fig_4">5d</ref>).</p><p>To assess whether automated segmentation can be used with XNH data to reconstruct neuronal morphologies, we applied automated segmentation to an XNH image volume encompassing the majority of a T1 neuromere and part of the main front leg nerve (Fig. <ref type="figure" target="#fig_4">5e</ref>, Supplementary Video 5). Generally, the morphologies of the segmented neurons match the corresponding manual reconstructions, demonstrating that automated segmentation can generate dense single neuron morphologies from XNH data. However, in some instances, different voxels from the same neuron are erroneously labeled with different neuron IDs (split error) or two different neurons are erroneously combined into a single neuron ID (merge error). Such errors are also present in segmentations based on EM data, and are usually corrected via human proofreading. To determine how accurate the automated segmentation is, we compared it to manual (voxel-wise) segmentation for small test volumes and quantified split and merge errors using clustering similarity metrics (Fig. <ref type="figure" target="#fig_1">S2a</ref>, Supplementary Table <ref type="table">3</ref>). Comparing these error scores with published metrics from EM segmentation studies suggests that this automated segmentation workflow works similarly well with XNH data as with EM data and can be used to rapidly and accurately segment neurons.  <ref type="bibr" target="#b1">(Baek and Mann, 2009;</ref><ref type="bibr" target="#b2">Brierley et al., 2012)</ref> and those arborizing ventrally as sensory neurons <ref type="bibr" target="#b41">(Tsubouchi et al., 2017)</ref>. Two major subtypes of leg sensory neurons, campaniform sensilla and chordotonal neurons, were identified based on arborization pattern in the VNC <ref type="bibr" target="#b25">(Mamiya et al., 2018)</ref>. For each voxel, the CNN calculates an affinity vector that quantifies how likely the pixel is grouped in the same neuron as neighboring pixels in z, y and x directions (plotted as RGB color components, respectively). In isotropic XNH data, affinities in different cardinal directions are usually similar, leading to images that appear mostly grayscale. These dark (low affinity) voxels are the basis for membrane predictions. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Advances in XNH imaging of neural circuits</head><p>Here, we present non-destructive, X-ray phase-contrast imaging of neural tissue with sufficiently high resolution and FOV to densely reconstruct individual neuronal morphologies. We have obtained these results by combining several innovative elements. The instrument developed at the ID16A beamline at the European Synchrotron <ref type="bibr" target="#b38">(da Silva et al., 2017)</ref> can produce a highly brilliant and coherent X-ray probe focused to a spot below 30 nm, which we have used for holographic imaging. Another critical aspect is the accuracy of the rotational and translational stage movements to match the length scale of the expected resolution (&lt; 100 nm); for this we employed active capacitive compensation to stabilize the sample <ref type="bibr" target="#b42">(Villar et al., 2018)</ref>. The sample itself must also remain stable throughout the measurements -a particular concern is heating and warping of the sample due to radiation absorption. We found that data quality depends on delivering an appropriate X-ray dose that is sufficient to produce clear images, but that does not warp the sample <ref type="bibr" target="#b8">(Du and Jacobsen, 2018)</ref>. Imaging in cryogenic conditions was a key development that mitigated sample warping and allowed us to reliably record data at sub-100 nm voxel sizes.</p><p>Sample properties are also important for image quality. Here, we chose to use heavy-metal staining protocols for EM, which enhance contrast in cell membranes, facilitate dense reconstruction of neurons, and allow the same samples to be imaged post-hoc with EM (Fig. <ref type="figure" target="#fig_1">2a</ref>,<ref type="figure">b</ref>). However, with phase-contrast imaging, even unstained tissue can generate sufficient contrast to densely trace individual neurons (Fig. <ref type="figure" target="#fig_0">S1g</ref>, Supplementary Video 6). Phase-contrast imaging enables data acquisition from thick samples (&gt; 1 mm), but image quality improves the closer the sample thickness is to the FOV. We found that a 300 μm thick sample of mouse cortex produces high-quality results (Fig. <ref type="figure" target="#fig_0">1g</ref>), while a ~1 mm thick sample could still be imaged, but with a noticeable loss in resolution (Fig. <ref type="figure" target="#fig_1">2b</ref>). Lastly, we developed a simple re-embedding method <ref type="bibr">(Figs. 1a &amp; 3b)</ref> to avoid rough edges on the surface of the sample, minimizing artifacts in the phase reconstructions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Neuron segmentation from XNH data</head><p>We demonstrate that XNH enables individual neuronal morphologies to be reconstructed in their dense circuit context. Here, we adapted reconstruction approaches developed originally for large-scale EM. Because XNH images appear qualitatively similar to EM images (Fig. <ref type="figure" target="#fig_1">2</ref>), adapting these techniques was relatively straightforward. While XNH imaging currently cannot resolve the smallest neuronal branches (&lt; 50 nm), reconstruction of a neuron's large-diameter processes often clearly indicates its cell type <ref type="bibr" target="#b33">(Schneider-Mizell et al., 2016)</ref>. Indeed, we were able to identify pyramidal neurons in mouse cortex (Fig. <ref type="figure" target="#fig_0">1g</ref>) and to differentiate sensory and motor neurons in the fly VNC (Fig. <ref type="figure" target="#fig_3">4e</ref>).</p><p>The larger voxel size of XNH data relative to EM data offers several practical advantages. Larger voxels produce substantially smaller image files for a given tissue volume, which can be analyzed without specialized hardware infrastructure necessary for large-scale EM datasets. Furthermore, manual and automated analysis can be completed more rapidly, considering the reduced complexity of the task. Indeed, we deployed CNNs for automated segmentation in XNH volumes on timescales of a few hours (~ 0.1 s/μm 3 XNH compared with ~ 10 s/μm 3 for ssTEM).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outlook</head><p>XNH is complementary to and compatible with both LM and EM imaging. XNH offers superior resolution with denser labeling compared to most LM techniques, and can image samples too thick for LM without tissue clearing. XNH achieves lower resolution than volumetric EM, however, offers advantages in speed, convenience, and data handling. Since physical thin-sectioning is not necessary, XNH can image specimens that are difficult to cut reliably (such as a whole Drosophila leg). XNH image data also requires no section-to-section alignment, eliminating a step that continues to be a computational challenge for large-scale EM datasets.</p><p>By filling a gap between the resolutions of LM and EM, XNH can enable multiscale characterization of neural circuits that depend on both long-range connections and local computations, such as the Drosophila motor system and mammalian cortex. For example, a population of cortical neurons could be functionally imaged with LM, their long-range inputs mapped via XNH, and their local connectivity reconstructed using targeted EM.</p><p>At the resolutions achieved here, XNH is well-suited for mapping projectomes (i.e. atlases of all large-caliber connections between brain regions). Previously, singleneuron-resolution projectomes have been obtained using large-scale EM or built up from sparse fluorescent labeling <ref type="bibr" target="#b6">(Chiang et al., 2011;</ref><ref type="bibr" target="#b19">Hildebrand et al., 2017)</ref>; however, XNH represents a less laborious approach. A few XNH scans can encompass the whole brain of small model organisms such as adult Drosophila (Fig. <ref type="figure" target="#fig_0">1</ref>), and in a typical beamline experiment (1-2 weeks), the entire brain of the larval zebrafish or larval tadpole could be mapped. With technical upgrades to increase imaging throughput, producing projectomes of small mammalian brains or a mouse brain may be possible within the next few years <ref type="bibr" target="#b27">(Mikula, 2016)</ref>.</p><p>It is worth noting that the results demonstrated here are still far from any theoretical resolution limits for hard Xrays, which have wavelengths on the angstrom scale. In practice, XNH resolution is limited by focusing optics, mechanical stability and precision of stage movements, sample warping and performance of reconstruction algorithms, rather than by fundamental physical limits. The upgrade of the European Synchrotron (to be completed in 2020), along with planned improvements to X-ray optics and detectors, will likely improve imaging resolution and throughput. Future technical advances may allow XNH to resolve the thinnest neuron branches and the synapses between them, opening a wide array of applications in mapping neuronal circuit connectivity.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: X-ray Holographic Nano-Tomography (XNH) Technique and Characterization. (a) Upper inset: a Drosophila brain (blue arrow) embedded in resin and mounted on a pin for imaging.Diagram: schematic of imaging setup. The X-ray beam from the synchrotron is focused to a spot using two mirrors, and traverses the sample before hitting the detector. (b) Holographic projections (a result of free-space propagation of the coherent X-ray beam) are recorded for each angle as the sample is rotated up to 180°. (c) Phase projections are calculated using phase retrieval algorithms by computationally combining 4 holographic projections of the sample at different distances from the beam focus. Color scale indicates phase in radians. (d) A slice through the reconstructed 3D image volume (120 nm voxels), calculated using tomographic reconstruction. Inset right: detail view, showing individual neurons (bright objects). (e) 3D rendering of XNH volume of the central fly brain. The tissue outline is shown in blue, while large neurons and trachea are highlighted in orange. (f) 3D rendering of an XNH volume of mouse cortex (100 nm voxel size). Inset right: virtual slice resolving individual cell bodies and large dendrites. (g) Virtual slice through a mouse cortex XNH volume with 30 nm voxels. Insets: detail view resolving ultrastructural features including mitochondria (magenta arrowheads), endoplasmic reticulum (magenta arrows), nucleolus (magenta asterisk), myelinated axons, and dendrites (blue arrowheads). (h) Measured resolution for different scans plotted as a function of pixel size and field of view (FOV). Values for resolution were obtained using Fourier Shell Correlation (see Methods, Supplementary Table1).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Ultrastructural Details and Genetic Labeling in X-ray Nano-Holography Images. (a) Comparison of corresponding Xray (50 nm pixels) and TEM (12 nm pixels, 100 nm thick section) images taken from the Drosophila main leg nerve. Despite the difference in resolution, most of the motor and sensory axons are resolved in the X-ray image. (b) Comparison of corresponding X-ray (100 nm pixels) and TEM (4 nm pixels, 45 nm thick section) images taken from mouse somatosensory cortex. Inset: detail view of EM image showing chemical synapses (arrows) that are well-preserved after XNH imaging. (c) Top: photograph of fly brain with GABAergic nuclei labeled with APEX2 (arrows). Middle: XNH images (120 nm pixels, 15 µm thick minimum intensity projection) of the same fly brain, showing clusters of dark, APEX2 labeled GABAergic cell nuclei (arrows). Bottom: XNH virtual slice (120 nm thick) and output from an automated Random Forest image classifier trained to detect labeled cells (green).</figDesc><graphic coords="5,36.00,42.00,540.02,324.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Millimeter-scale XNH imaging of a Drosophila leg at single-neuron resolution. (a) Schematic of XNH imaging strategy: 12 XNH scans were tiled along the front leg (Supplementary Table2), including the T1 neuromere of the ventral nerve cord (VNC), the coxa, trochanter, femur, and tibia segments of the leg. Most scans were recorded at 75 nm pixel size, a resolution at which motor axons and large sensory axons can be traced through the leg. (b) Photograph of sample after heavy-metal staining, embedding, and mounting for XNH imaging. (c) 3D rendering of scan volume: individual scans were stitched together to form a contiguous volume of the leg (see Methods). (d) Computationally unfolded cross-section of the scan volume, following the main leg nerve over 1.4 mm from the VNC throughout the coxa, trochanter, femur, and tibia segments. (e) Cross-section through the coxa. Fats, muscles, and neurons are clearly visible. (f) Detailed view of nerve within the coxa. The indicated motor neuron is the same neuron as in (h) (g) Cross-section through the femur. Asterisk denotes the femoral chordatonal organ, a proprioceptive sensory structure<ref type="bibr" target="#b25">(Mamiya et al., 2018)</ref>. (h) Detailed view of nerve within the femur, including a motor axon branching off to innervate a muscle (arrow). (i) Crosssection through the tibia. Fewer large-diameter motor axons are visible in this cross-section compared to (f) and (h), as most motor axons have left the nerve to innervate muscles in more proximal leg segments.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Reconstruction of Individual Neuron Morphologies. (a-b) Overview of XNH image volume encompassing the anterior half of the VNC and the first segment of a front leg of an adult Drosophila (200 nm voxels). A smaller, high resolution volume (50 nm voxels, highlighted) centered on the first thoracic (T1) neuromere of the VNC and including the initial segment of the leg nerve was used for tracing. (c) Virtual slice though the main leg nerve at the location indicated by the cyan square in (a) and (d). Colors of the individual neuron cross-sections correspond to the neuron type classifications shown in (d) Scale bar: 10 µm. (d) Left: 108 individual axons were manually skeletonized and clustered based on their morphologies. (e) Example neuron morphologies for motor (top) and sensory (bottom) neuron clusters. Axons arborizing dorsally in the VNC were identified as motor neurons<ref type="bibr" target="#b1">(Baek and Mann, 2009;</ref><ref type="bibr" target="#b2">Brierley et al., 2012)</ref> and those arborizing ventrally as sensory neurons<ref type="bibr" target="#b41">(Tsubouchi et al., 2017)</ref>. Two major subtypes of leg sensory neurons, campaniform sensilla and chordotonal neurons, were identified based on arborization pattern in the VNC<ref type="bibr" target="#b25">(Mamiya et al., 2018)</ref>.</figDesc><graphic coords="7,36.00,49.15,543.25,164.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Automated Segmentation of Neuronal Morphologies using Convolutional Neural Networks (CNNs). (a) Schematic of U-NET CNN architecture used for automated segmentation (adapted from (Funke et al., 2017)). (b-d) Automated segmentation of XNH image volumes. (b) Raw XNH image data, recorded from Drosophila VNC. (c) Predicted affinities output by 3D U-NET corresponding to data shown in (b).For each voxel, the CNN calculates an affinity vector that quantifies how likely the pixel is grouped in the same neuron as neighboring pixels in z, y and x directions (plotted as RGB color components, respectively). In isotropic XNH data, affinities in different cardinal directions are usually similar, leading to images that appear mostly grayscale. These dark (low affinity) voxels are the basis for membrane predictions. (d) Segmentation of volume corresponding to data shown in (a) and affinities shown in (b). Each neuron is agglomerated into a 3D morphology based on the affinities. In this visualization, each neuron is colored with a unique color. (e) 3D visualization of automatically segmented neurons in the Drosophila VNC.</figDesc><graphic coords="8,55.43,53.58,501.18,518.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>Figure 5: Automated Segmentation of Neuronal Morphologies using Convolutional Neural Networks (CNNs). (a) Schematic of U-NET CNN architecture used for automated segmentation (adapted from (Funke et al., 2017)). (b-d) Automated segmentation of XNH image volumes. (b) Raw XNH image data, recorded from Drosophila VNC. (c) Predicted affinities output by 3D U-NET corresponding to data shown in (b).For each voxel, the CNN calculates an affinity vector that quantifies how likely the pixel is grouped in the same neuron as neighboring pixels in z, y and x directions (plotted as RGB color components, respectively). In isotropic XNH data, affinities in different cardinal directions are usually similar, leading to images that appear mostly grayscale. These dark (low affinity) voxels are the basis for membrane predictions. (d) Segmentation of volume corresponding to data shown in (a) and affinities shown in (b). Each neuron is agglomerated into a 3D morphology based on the affinities. In this visualization, each neuron is colored with a unique color. (e) 3D visualization of automatically segmented neurons in the Drosophila VNC.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,36.00,36.00,540.07,403.46" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors acknowledge <rs type="person">Jan Funke</rs> for providing code and assistance with automated segmentation; <rs type="person">Julio da Silva</rs> for providing code and assistance for Fourier Shell Correlation measurements; <rs type="person">John Tuthill</rs> and <rs type="person">Tony Azevedo</rs> for discussions and advice regarding Drosophila motor systems; <rs type="person">Norbert Perrimon</rs>, <rs type="person">Matt Pecot</rs>, and <rs type="person">Haluk Lacin</rs> for providing fly lines; <rs type="person">Rick Fetter</rs> and <rs type="person">Andrew Thompson</rs> for sample preparation advice; <rs type="person">Rachel Wilson</rs> and <rs type="person">Hannah Somhegyi</rs> for discussion and advice; <rs type="person">Thedita Pedersen</rs> for preprocessing and alignment of image data; <rs type="person">Lia DeCoursey</rs>, <rs type="person">Rholee Xu</rs>, and <rs type="person">Thedita Pedersen</rs> for neuron tracing; and <rs type="person">Jimin Shin</rs>, <rs type="person">Wei-Wei Lou</rs>, <rs type="person">Julie Han</rs>, <rs type="person">Mingguan Liu</rs>, <rs type="person">Yumin Hu</rs>, and <rs type="person">Rholee Xu</rs> for manual annotation of ground truth segmentation for CNN training.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>The authors acknowledge ESRF for granting beamtime for the experiments: <rs type="grantNumber">LS2845</rs>, <rs type="grantNumber">IHLS2928</rs>, <rs type="grantNumber">IHLS3121</rs>, <rs type="grantNumber">IHHC3498</rs>, <rs type="grantNumber">IHMA7</rs> and <rs type="grantNumber">IHLS3004</rs>. This work was supported by the <rs type="funder">NIH</rs> (<rs type="grantNumber">R01NS108410</rs>), and awards from the <rs type="funder">Edward R. and Anne G. Lefler Center, Goldenson Family</rs>, and <rs type="funder">HMS Dean's Initiative</rs> to W-C.A.L.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_nSXAxfp">
+					<idno type="grant-number">LS2845</idno>
+				</org>
+				<org type="funding" xml:id="_j7rNaDC">
+					<idno type="grant-number">IHLS2928</idno>
+				</org>
+				<org type="funding" xml:id="_W9xpyYj">
+					<idno type="grant-number">IHLS3121</idno>
+				</org>
+				<org type="funding" xml:id="_6fesUr2">
+					<idno type="grant-number">IHHC3498</idno>
+				</org>
+				<org type="funding" xml:id="_E78eJax">
+					<idno type="grant-number">IHMA7</idno>
+				</org>
+				<org type="funding" xml:id="_475thTc">
+					<idno type="grant-number">IHLS3004</idno>
+				</org>
+				<org type="funding" xml:id="_fZ9VDp2">
+					<idno type="grant-number">R01NS108410</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and materials availability</head><p>Image data and custom code will be made publicly available upon publication of the manuscript. In the interim, to request access to the data or custom code, please contact: joitapac@esrf.eu, Aaron_Kuan@hms.harvard.edu, Wei-Chung_Lee@hms.harvard.edu.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Interests</head><p>The authors declare no competing interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A genetically specified connectomics approach applied to long-range feeding regulatory circuits</title>
+		<author>
+			<persName><forename type="first">Deniz</forename><surname>Atasoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Nicholas</forename><surname>Betley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei-Ping</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helen</forename><forename type="middle">H</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sinem</forename><forename type="middle">M</forename><surname>Sertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Louis</forename><forename type="middle">K</forename><surname>Scheffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julie</forename><forename type="middle">H</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">D</forename><surname>Fetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><forename type="middle">M</forename><surname>Sternson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn.3854</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<title level="j" type="abbrev">Nat Neurosci</title>
+		<idno type="ISSN">1097-6256</idno>
+		<idno type="ISSNe">1546-1726</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1830" to="1839" />
+			<date type="published" when="2014-11-02">2014</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Atasoy, D., Betley, J.N., Li, W.-P., Su, H.H., Sertel, S.M., Scheffer, L.K., Simpson, J.H., Fetter, R.D., and Sternson, S.M. (2014). A genetically specified connectomics approach applied to long-range feeding regulatory circuits. Nat. Neurosci. 17, 1830-1839.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Lineage and Birth Date Specify Motor Neuron Targeting and Dendritic Architecture in Adult&lt;i&gt;Drosophila&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Myungin</forename><surname>Baek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/jneurosci.1585-09.2009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<title level="j" type="abbrev">J. Neurosci.</title>
+		<idno type="ISSN">0270-6474</idno>
+		<idno type="ISSNe">1529-2401</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="6904" to="6916" />
+			<date type="published" when="2009-05-27">2009</date>
+			<publisher>Society for Neuroscience</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baek, M., and Mann, R.S. (2009). Lineage and Birth Date Specify Motor Neuron Targeting and Dendritic Architecture in Adult Drosophila. J. Neurosci. 29, 6904-6916.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Developmental origins and architecture of &lt;i&gt;Drosophila&lt;/i&gt; leg motoneurons</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Brierley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rathore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vijayraghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cne.23003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Comparative Neurology</title>
+		<title level="j" type="abbrev">J of Comparative Neurology</title>
+		<idno type="ISSN">0021-9967</idno>
+		<idno type="ISSNe">1096-9861</idno>
+		<imprint>
+			<biblScope unit="volume">520</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1629" to="1649" />
+			<date type="published" when="2012-04-02">2012</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brierley, D.J., Rathore, K., VijayRaghavan, K., and Williams, D.W. (2012). Developmental origins and architecture of Drosophila leg motoneurons. J. Comp. Neurol. 520, 1629-1649.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Volume electron microscopy for neuronal circuit reconstruction</title>
+		<author>
+			<persName><forename type="first">Kevin</forename><forename type="middle">L</forename><surname>Briggman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davi</forename><forename type="middle">D</forename><surname>Bock</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.conb.2011.10.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Neurobiology</title>
+		<title level="j" type="abbrev">Current Opinion in Neurobiology</title>
+		<idno type="ISSN">0959-4388</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="154" to="161" />
+			<date type="published" when="2012-02">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Briggman, K.L., and Bock, D.D. (2012). Volume electron microscopy for neuronal circuit reconstruction. Curr. Opin. Neurobiol. 22, 154-161.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">X-Ray Phase Contrast Tomography Reveals Early Vascular Alterations and Neuronal Loss in a Multiple Sclerosis Model</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cedola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bravin</surname></persName>
+			<idno type="ORCID">0000-0001-6868-2755</idno>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bukreeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fratini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pacureanu</surname></persName>
+			<idno type="ORCID">0000-0003-2306-7040</idno>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mittone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Massimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+			<idno type="ORCID">0000-0002-4129-9091</idno>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Coan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Campi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spanò</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Grigoryev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Petrosino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Venturi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mastrogiacomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicole</forename><surname>Kerlero De Rosbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Uccelli</surname></persName>
+			<idno type="ORCID">0000-0002-2008-6038</idno>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-06251-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2017-07-19" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cedola, A., Bravin, A., Bukreeva, I., Fratini, M., Pacureanu, A., Mittone, A., Massimi, L., Cloetens, P., Coan, P., Campi, G., et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Phase Contrast Tomography Reveals Early Vascular Alterations and Neuronal Loss in a</title>
+		<author>
+			<persName><forename type="first">X-Ray</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Multiple Sclerosis Model. Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">5890</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X-Ray Phase Contrast Tomography Reveals Early Vascular Alterations and Neuronal Loss in a Multiple Sclerosis Model. Sci. Rep. 7, 5890.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Three-Dimensional Reconstruction of Brain-wide Wiring Networks in Drosophila at Single-Cell Resolution</title>
+		<author>
+			<persName><forename type="first">Ann-Shyn</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chih-Yung</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chao-Chun</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hsiu-Ming</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chang-Huain</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chang-Wei</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chi-Tin</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jian-Jheng</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guo-Tzau</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yung-Chang</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cheng-Chi</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guan-Yu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu-Tai</forename><surname>Ching</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ping-Chang</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chih-Yang</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hui-Hao</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chia-Chou</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hao-Wei</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yun-Ann</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jing-Yi</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hsin-Jung</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chun-Fang</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ru-Fen</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chao-Yuan</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jenn-Kang</forename><surname>Hwang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2010.11.056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<title level="j" type="abbrev">Current Biology</title>
+		<idno type="ISSN">0960-9822</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2011-01">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chiang, A.-S., Lin, C.-Y., Chuang, C.-C., Chang, H.-M., Hsieh, C.-H., Yeh, C.-W., Shih, C.-T., Wu, J.-J., Wang, G.-T., Chen, Y.-C., et al. (2011). Three-Dimensional Reconstruction of Brain-wide Wiring Networks in Drosophila at Single-Cell Resolution. Curr. Biol. 21, 1-11.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Hard x-ray phase imaging using simple propagation of a coherent synchrotron radiation beam</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">José</forename><surname>Baruchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Pierre</forename><surname>Guigay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petra</forename><surname>Pernot-Rejmánková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Murielle</forename><surname>Salomé-Pateyron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Schlenker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Yves</forename><surname>Buffière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Maire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gilles</forename><surname>Peix</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/32/10a/330</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<title level="j" type="abbrev">J. Phys. D: Appl. Phys.</title>
+		<idno type="ISSN">0022-3727</idno>
+		<idno type="ISSNe">1361-6463</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">10A</biblScope>
+			<biblScope unit="page" from="A145" to="A151" />
+			<date type="published" when="1999-01-01">1999</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cloetens, P., Ludwig, W., Baruchel, J., Guigay, J.-P., Pernot-Rejmánková, P., Salomé-Pateyron, M., Schlenker, M., Buffière, J.-Y., Maire, E., and Peix, G. (1999). Hard x-ray phase imaging using simple propagation of a coherent synchrotron radiation beam. J. Phys. D. Appl. Phys. 32, A145-A151.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Relative merits and limiting factors for x-ray and electron microscopy of thick, hydrated organic materials</title>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ultramic.2017.10.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ultramicroscopy</title>
+		<title level="j" type="abbrev">Ultramicroscopy</title>
+		<idno type="ISSN">0304-3991</idno>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page" from="293" to="309" />
+			<date type="published" when="2018-01">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Du, M., and Jacobsen, C. (2018). Relative merits and limiting factors for x-ray and electron microscopy of thick, hydrated organic materials. Ultramicroscopy 184, 293-309.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Quantifying Mesoscale Neuroanatomy Using X-Ray Microtomography</title>
+		<author>
+			<persName><forename type="first">Eva</forename><forename type="middle">L</forename><surname>Dyer</surname></persName>
+			<idno type="ORCID">0000-0002-6962-524X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Gray Roncal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Judy</forename><forename type="middle">A</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hugo</forename><forename type="middle">L</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Doga</forename><surname>Gürsoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>De Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kamel</forename><surname>Fezzaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xianghui</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">T</forename><surname>Vogelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Konrad</forename><forename type="middle">P</forename><surname>Körding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Narayanan</forename><surname>Kasthuri</surname></persName>
+			<idno type="ORCID">0000-0003-3825-931X</idno>
+		</author>
+		<idno type="DOI">10.1523/eneuro.0195-17.2017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">eneuro</title>
+		<title level="j" type="abbrev">eNeuro</title>
+		<idno type="ISSNe">2373-2822</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="ENEURO.0195" to="17.2017" />
+			<date type="published" when="2017-09">2017. 2017</date>
+			<publisher>Society for Neuroscience</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dyer, E.L., Gray Roncal, W., Prasad, J.A., Fernandes, H.L., Gürsoy, D., De Andrade, V., Fezzaa, K., Xiao, X., Vogelstein, J.T., Jacobsen, C., et al. (2017). Quantifying Mesoscale Neuroanatomy Using X-Ray Microtomography. ENeuro 4, ENEURO.0195- 17.2017.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">High-resolution synchrotron-based X-ray microtomography as a tool to unveil the three-dimensional neuronal architecture of the brain</title>
+		<author>
+			<persName><forename type="first">Matheus</forename><forename type="middle">De Castro</forename><surname>Fonseca</surname></persName>
+			<idno type="ORCID">0000-0001-9048-9775</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Bruno</forename><forename type="middle">Henrique Silva</forename><surname>Araujo</surname></persName>
+			<idno type="ORCID">0000-0003-0012-4217</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><forename type="middle">Sato Baraldi</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathaly</forename><forename type="middle">Lopes</forename><surname>Archilha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dionísio</forename><forename type="middle">Pedro Amorim</forename><surname>Neto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Esper</forename><surname>Cavalheiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harry</forename><surname>Westfahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antônio</forename><forename type="middle">José Roque</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kleber</forename><forename type="middle">Gomes</forename><surname>Franchini</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-30501-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">12074</biblScope>
+			<date type="published" when="2018-08-13">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fonseca, M. de C., Araujo, B.H.S., Dias, C.S.B., Archilha, N.L., Neto, D.P.A., Cavalheiro, E., Westfahl, H., da Silva, A.J.R., and Franchini, K.G. (2018). High-resolution synchrotron-based X-ray microtomography as a tool to unveil the three-dimensional neuronal architecture of the brain. Sci. Rep. 8, 12074.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Large Scale Image Segmentation with Structured Loss Based Deep Learning for Connectome Reconstruction</title>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Funke</surname></persName>
+			<idno type="ORCID">0000-0003-4388-7783</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Fabian</forename><surname>Tschopp</surname></persName>
+			<idno type="ORCID">0000-0001-9210-3426</idno>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Grisaitis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arlo</forename><surname>Sheridan</surname></persName>
+			<idno type="ORCID">0000-0003-2907-2254</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Chandan</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Saalfeld</surname></persName>
+			<idno type="ORCID">0000-0002-4106-1761</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Srinivas</forename><forename type="middle">C</forename><surname>Turaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tpami.2018.2835450</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<title level="j" type="abbrev">IEEE Trans. Pattern Anal. Mach. Intell.</title>
+		<idno type="ISSN">0162-8828</idno>
+		<idno type="ISSNe">1939-3539</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1669" to="1680" />
+			<date type="published" when="2017">2017</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Funke, J., Tschopp, F.D., Grisaitis, W., Sheridan, A., Singh, C., Saalfeld, S., and Turaga, S.C. (2017). A Deep Structured Learning Approach Towards Automating Connectome Reconstruction from 3D Electron Micrographs. 1-11.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Cortical column and whole-brain imaging with molecular contrast and nanoscale resolution</title>
+		<author>
+			<persName><forename type="first">Ruixuan</forename><surname>Gao</surname></persName>
+			<idno type="ORCID">0000-0001-7137-2512</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shoh</forename><forename type="middle">M</forename><surname>Asano</surname></persName>
+			<idno type="ORCID">0000-0002-9201-1350</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Srigokul</forename><surname>Upadhyayula</surname></persName>
+			<idno type="ORCID">0000-0001-6727-5883</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Igor</forename><surname>Pisarev</surname></persName>
+			<idno type="ORCID">0000-0003-4353-4945</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">E</forename><surname>Milkie</surname></persName>
+			<idno type="ORCID">0000-0002-3917-6965</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tsung-Li</forename><surname>Liu</surname></persName>
+			<idno type="ORCID">0000-0001-7965-4725</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ved</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Austin</forename><surname>Graves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Grace</forename><forename type="middle">H</forename><surname>Huynh</surname></persName>
+			<idno type="ORCID">0000-0002-3801-8041</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yongxin</forename><surname>Zhao</surname></persName>
+			<idno type="ORCID">0000-0003-4188-5725</idno>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Bogovic</surname></persName>
+			<idno type="ORCID">0000-0002-4829-9457</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><surname>Colonell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carolyn</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Zugates</surname></persName>
+			<idno type="ORCID">0000-0003-1882-3665</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><surname>Tappan</surname></persName>
+			<idno type="ORCID">0000-0001-5120-3770</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Alfredo</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kishore</forename><forename type="middle">R</forename><surname>Mosaliganti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shu-Hsien</forename><surname>Sheu</surname></persName>
+			<idno type="ORCID">0000-0003-0758-4654</idno>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Amalia</forename><surname>Pasolli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Song</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Shan</forename><surname>Xu</surname></persName>
+			<idno type="ORCID">0000-0002-8564-7836</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sean</forename><forename type="middle">G</forename><surname>Megason</surname></persName>
+			<idno type="ORCID">0000-0002-9330-2934</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Harald</forename><surname>Hess</surname></persName>
+			<idno type="ORCID">0000-0003-3000-1533</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><surname>Lippincott-Schwartz</surname></persName>
+			<idno type="ORCID">0000-0002-8601-3501</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Hantman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerald</forename><forename type="middle">M</forename><surname>Rubin</surname></persName>
+			<idno type="ORCID">0000-0001-8762-8703</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Kirchhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Saalfeld</surname></persName>
+			<idno type="ORCID">0000-0002-4106-1761</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshinori</forename><surname>Aso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><forename type="middle">S</forename><surname>Boyden</surname></persName>
+			<idno type="ORCID">0000-0002-0419-3351</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Betzig</surname></persName>
+			<idno type="ORCID">0000-0002-4192-1274</idno>
+		</author>
+		<idno type="DOI">10.1126/science.aau8302</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="issue">6424</biblScope>
+			<biblScope unit="page">8302</biblScope>
+			<date type="published" when="2019-01-18">2019</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gao, R., Asano, S.M., Upadhyayula, S., Pisarev, I., Milkie, D.E., Liu, T.-L., Singh, V., Graves, A., Huynh, G.H., Zhao, Y., et al. (2019). Cortical column and whole-brain imaging with molecular contrast and nanoscale resolution. Science 363, eaau8302.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">DIRECT 3D RECONSTRUCTION FROM PROJECTIONS WITH INITIALLY UNKNOWN ANGLES</title>
+		<author>
+			<persName><forename type="first">George</forename><surname>Harauz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marin</forename><surname>Van Heel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-444-87877-9.50027-3</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Pattern Recognition in Practice</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1986">1986</date>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="279" to="288" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harauz, G., and van Heel, M. (1986). Exact filters for general geometry three dimensional reconstruction. Optik. 73, 146-156.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Reassessing the Revolution&apos;s Resolutions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heel</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schatz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioRxiv</title>
+		<imprint>
+			<date type="published" when="2017">2017. 224402</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heel, M. van, and Schatz, M. (2017). Reassessing the Revolution&apos;s Resolutions. BioRxiv 224402.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Fourier shell correlation threshold criteria</title>
+		<author>
+			<persName><forename type="first">Marin</forename><surname>Van Heel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Schatz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsb.2005.05.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Structural Biology</title>
+		<title level="j" type="abbrev">Journal of Structural Biology</title>
+		<idno type="ISSN">1047-8477</idno>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="250" to="262" />
+			<date type="published" when="2005-09">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van Heel, M., and Schatz, M. (2005). Fourier shell correlation threshold criteria. J. Struct. Biol. 151, 250-262.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Subdiffraction resolution in continuous samples</title>
+		<author>
+			<persName><forename type="first">Rainer</forename><surname>Heintzmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mats</forename><forename type="middle">G L</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphoton.2009.102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Photonics</title>
+		<title level="j" type="abbrev">Nature Photon</title>
+		<idno type="ISSN">1749-4885</idno>
+		<idno type="ISSNe">1749-4893</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="362" to="364" />
+			<date type="published" when="2009-07">2009</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heintzmann, R., and Gustafsson, M.G.L. (2009). Subdiffraction resolution in continuous samples. Nat. Photonics 3, 362-364.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Far-Field Optical Nanoscopy</title>
+		<author>
+			<persName><forename type="first">Stefan</forename><forename type="middle">W</forename><surname>Hell</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1137395</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="issue">5828</biblScope>
+			<biblScope unit="page" from="1153" to="1158" />
+			<date type="published" when="2007-05-25">2007</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hell, S.W. (2007). Far-field optical nanoscopy. Science 316, 1153-1158.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Connectomic reconstruction of the inner plexiform layer in the mouse retina</title>
+		<author>
+			<persName><forename type="first">Moritz</forename><surname>Helmstaedter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><forename type="middle">L</forename><surname>Briggman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Srinivas</forename><forename type="middle">C</forename><surname>Turaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Viren</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Sebastian</forename><surname>Seung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Winfried</forename><surname>Denk</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature12346</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">500</biblScope>
+			<biblScope unit="issue">7461</biblScope>
+			<biblScope unit="page" from="168" to="174" />
+			<date type="published" when="2013-08-07">2013</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Helmstaedter, M., Briggman, K.L., Turaga, S.C., Jain, V., Seung, H.S., and Denk, W. (2013). Connectomic reconstruction of the inner plexiform layer in the mouse retina. Nature 500.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Whole-brain serial-section electron microscopy in larval zebrafish</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">Grant Colburn</forename><surname>Hildebrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcelo</forename><surname>Cicconet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Russel</forename><forename type="middle">Miguel</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woohyuk</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tran</forename><forename type="middle">Minh</forename><surname>Quan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jungmin</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arthur</forename><forename type="middle">Willis</forename><surname>Wetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Scott Champion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brett</forename><forename type="middle">Jesse</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Owen</forename><surname>Randlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">Scott</forename><surname>Plummer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruben</forename><surname>Portugues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Isaac</forename><forename type="middle">Henry</forename><surname>Bianco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">David</forename><surname>Baden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kunal</forename><surname>Lillaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Randal</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">Tzvi</forename><surname>Vogelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">Franz</forename><surname>Schier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei-Chung Allen</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Won-Ki</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeff</forename><forename type="middle">William</forename><surname>Lichtman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Florian</forename><surname>Engert</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature22356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">545</biblScope>
+			<biblScope unit="issue">7654</biblScope>
+			<biblScope unit="page" from="345" to="349" />
+			<date type="published" when="2017-05">2017</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hildebrand, D.G.C., Cicconet, M., Torres, R.M., Choi, W., Quan, T.M., Moon, J., Wetzel, A.W., Scott Champion, A., Graham, B.J., Randlett, O., et al. (2017). Whole-brain serial-section electron microscopy in larval zebrafish. Nature 545, 345-349.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Large-volume en-bloc staining for electron microscopy-based connectomics</title>
+		<author>
+			<persName><forename type="first">Yunfeng</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philip</forename><surname>Laserstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moritz</forename><surname>Helmstaedter</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms8923</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7923</biblScope>
+			<date type="published" when="2015-08-03">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hua, Y., Laserstein, P., and Helmstaedter, M. (2015). Large-volume en-bloc staining for electron microscopy-based connectomics. Nat. Commun. 6, 7923.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Super-Resolution Fluorescence Microscopy</title>
+		<author>
+			<persName><forename type="first">Bo</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaowei</forename><surname>Zhuang</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.biochem.77.061906.092014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Biochemistry</title>
+		<title level="j" type="abbrev">Annu. Rev. Biochem.</title>
+		<idno type="ISSN">0066-4154</idno>
+		<idno type="ISSNe">1545-4509</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="993" to="1016" />
+			<date type="published" when="2009-06-01">2009</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, B., Bates, M., and Zhuang, X. (2009). Super-Resolution Fluorescence Microscopy. Annu. Rev. Biochem. 78, 993-1016.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Hard X-ray Nano-Holotomography of Formalin-Fixated and Paraffin-Embedded Human Brain Tissue</title>
+		<author>
+			<persName><forename type="first">Anna</forename><surname>Khimchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandra</forename><surname>Pacureanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christos</forename><surname>Bikis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><forename type="middle">E</forename><surname>Hieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Thalmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans</forename><surname>Deyhle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabriel</forename><surname>Schweighauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jürgen</forename><surname>Hench</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magdalena</forename><surname>Müller-Gerbl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Muller</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s143192761801406x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microscopy and Microanalysis</title>
+		<title level="j" type="abbrev">Microsc Microanal</title>
+		<idno type="ISSN">1431-9276</idno>
+		<idno type="ISSNe">1435-8115</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">S2</biblScope>
+			<biblScope unit="page" from="354" to="355" />
+			<date type="published" when="2018-08">2018</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khimchenko, A., Pacureanu, A., Bikis, C., Hieber, S.E., Thalmann, P., Deyhle, H., Schweighauser, G., Hench, J., Frank, S., Müller- Gerbl, M., et al. (2018). Hard X-ray Nano-Holotomography of Formalin-Fixated and Paraffin-Embedded Human Brain Tissue. Microsc. Microanal. 24, 354-355.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Directed evolution of APEX2 for electron microscopy and proximity labeling</title>
+		<author>
+			<persName><forename type="first">Stephanie</forename><forename type="middle">S</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><forename type="middle">D</forename><surname>Martell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kimberli</forename><forename type="middle">J</forename><surname>Kamer</surname></persName>
+			<idno type="ORCID">0000-0001-8728-7793</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">J</forename><surname>Deerinck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">H</forename><surname>Ellisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vamsi</forename><forename type="middle">K</forename><surname>Mootha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alice</forename><forename type="middle">Y</forename><surname>Ting</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.3179</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Methods</title>
+		<title level="j" type="abbrev">Nat Methods</title>
+		<idno type="ISSN">1548-7091</idno>
+		<idno type="ISSNe">1548-7105</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="51" to="54" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lam, S.S., Martell, J.D., Kamer, K.J., Deerinck, T.J., Ellisman, M.H., Mootha, V.K., and Ting, A.Y. (2015). Directed evolution of APEX2 for electron microscopy and proximity labeling. Nat. Methods 12, 51-54.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Anatomy and function of an excitatory network in the visual cortex</title>
+		<author>
+			<persName><forename type="first">Wei-Chung Allen</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brett</forename><forename type="middle">J</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Greg</forename><surname>Hood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katie</forename><surname>Glattfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Clay</forename><surname>Reid</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature17192</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">532</biblScope>
+			<biblScope unit="issue">7599</biblScope>
+			<biblScope unit="page" from="370" to="374" />
+			<date type="published" when="2016-03-28">2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, W.-C.A., Bonin, V., Reed, M., Graham, B.J., Hood, G., Glattfelder, K., and Reid, R.C. (2016). Anatomy and function of an excitatory network in the visual cortex. Nature 532, 370-374.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Neural Coding of Leg Proprioception in Drosophila</title>
+		<author>
+			<persName><forename type="first">Akira</forename><surname>Mamiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pralaksha</forename><surname>Gurung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">C</forename><surname>Tuthill</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2018.09.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<title level="j" type="abbrev">Neuron</title>
+		<idno type="ISSN">0896-6273</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="636" to="650.e6" />
+			<date type="published" when="2018-11">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mamiya, A., Gurung, P., and Tuthill, J.C. (2018). Neural Coding of Leg Proprioception in Drosophila. Neuron 100, 636-650.e6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Laboratory-based x-ray phase contrast CT technology for clinical intra-operative specimen imaging</title>
+		<author>
+			<persName><forename type="first">Lorenzo</forename><surname>Massimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charlotte</forename><forename type="middle">K</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Endrizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">R T</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glafcos</forename><surname>Havariyoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sam</forename><forename type="middle">P M</forename><surname>Hawker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bennie</forename><surname>Smit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alberto</forename><surname>Astolfo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Larkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">M</forename><surname>Waltham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zoheb</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">W</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rachel</forename><forename type="middle">L</forename><surname>Nelan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><surname>Peel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tamara</forename><surname>Suaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Louise</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ian</forename><forename type="middle">G</forename><surname>Haig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Olivo</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.2511770</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Medical Imaging 2019: Physics of Medical Imaging</title>
+		<editor>
+			<persName><forename type="first">G.-H</forename><surname>Bosmans</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">Gilat</forename><surname>Chen</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Schmidt</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>SPIE</publisher>
+			<date type="published" when="2019-03-01">2019. 2019</date>
+			<biblScope unit="page">62</biblScope>
+		</imprint>
+	</monogr>
+	<note>In Medical Imaging</note>
+	<note type="raw_reference">Massimi, L., Hagen, C.K., Endrizzi, M., Munro, P.R.T., Havariyoun, G., Hawker, S.P.M., Smit, B., Astolfo, A., Larkin, O., Waltham, R.M., et al. (2019). Laboratory-based x-ray phase contrast CT technology for clinical intra-operative specimen imaging. In Medical Imaging 2019: Physics of Medical Imaging, H. Bosmans, G.-H. Chen, and T. Gilat Schmidt, eds. (SPIE), p. 62.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Progress Towards Mammalian Whole-Brain Cellular Connectomics</title>
+		<author>
+			<persName><forename type="first">Shawn</forename><surname>Mikula</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnana.2016.00062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Neuroanatomy</title>
+		<title level="j" type="abbrev">Front. Neuroanat.</title>
+		<idno type="ISSNe">1662-5129</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">62</biblScope>
+			<date type="published" when="2016-06-30">2016</date>
+			<publisher>Frontiers Media SA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mikula, S. (2016). Progress Towards Mammalian Whole-Brain Cellular Connectomics. Front. Neuroanat. 10, 62.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The PyHST2 hybrid distributed code for high speed tomographic reconstruction with iterative reconstruction and a priori knowledge capabilities</title>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Mirone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuel</forename><surname>Brun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuelle</forename><surname>Gouillart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Tafforeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jerome</forename><surname>Kieffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nimb.2013.09.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms</title>
+		<idno type="ISSN">0168-583X</idno>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="page" from="41" to="48" />
+			<date type="published" when="2014-04">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mirone, A., Brun, E., Gouillart, E., Tafforeau, P., and Kieffer, J. (2014). The PyHST2 hybrid distributed code for high speed tomographic reconstruction with iterative reconstruction and a priori knowledge capabilities. Nucl. Instruments Methods Phys. Res. Sect. B Beam Interact. with Mater. Atoms 324, 41-48.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Three-dimensional network of Drosophila brain hemisphere</title>
+		<author>
+			<persName><forename type="first">Ryuta</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rino</forename><surname>Saiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Akihisa</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kentaro</forename><surname>Uesugi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshio</forename><surname>Suzuki</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsb.2013.08.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Structural Biology</title>
+		<title level="j" type="abbrev">Journal of Structural Biology</title>
+		<idno type="ISSN">1047-8477</idno>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="271" to="279" />
+			<date type="published" when="2013-11">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mizutani, R., Saiga, R., Takeuchi, A., Uesugi, K., and Suzuki, Y. (2013). Three-dimensional network of Drosophila brain hemisphere. J. Struct. Biol. 184, 271-279.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Nanoscale zoom tomography with hard x rays using Kirkpatrick-Baez optics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mokso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-Y</forename><surname>Buffière</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2719653</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">144104</biblScope>
+			<date type="published" when="2007-04-02">2007</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mokso, R., Cloetens, P., Maire, E., Ludwig, W., and Buffière, J.-Y. (2007). Nanoscale zoom tomography with hard x rays using Kirkpatrick-Baez optics. Appl. Phys. Lett. 90, 144104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Genetically targeted 3D visualisation of Drosophila neurons under Electron Microscopy and X-Ray Microscopy using miniSOG</title>
+		<author>
+			<persName><forename type="first">Julian</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alyssa</forename><surname>Browning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenz</forename><surname>Lechner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masako</forename><surname>Terada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gillian</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">S X E</forename><surname>Jefferis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep38863</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">38863</biblScope>
+			<date type="published" when="2016-12-13">2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ng, J., Browning, A., Lechner, L., Terada, M., Howard, G., and Jefferis, G.S.X.E. (2016). Genetically targeted 3D visualisation of Drosophila neurons under Electron Microscopy and X-Ray Microscopy using miniSOG. Sci. Rep. 6, 38863.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">CATMAID: collaborative annotation toolkit for massive amounts of image data</title>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><surname>Cardona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Volker</forename><surname>Hartenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Tomančák</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp266</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<idno type="ISSN">1367-4803</idno>
+		<idno type="ISSNe">1367-4811</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="1984" to="1986" />
+			<date type="published" when="2009-04-17">2009</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saalfeld, S., Cardona, A., Hartenstein, V., and Tomancak, P. (2009). CATMAID: collaborative annotation toolkit for massive amounts of image data. Bioinformatics 25, 1984-1986.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Quantitative neuroanatomy for connectomics in Drosophila</title>
+		<author>
+			<persName><forename type="first">Casey</forename><forename type="middle">M</forename><surname>Schneider-Mizell</surname></persName>
+			<idno type="ORCID">0000-0001-9477-3853</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Gerhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Longair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Kazimiers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maarten</forename><forename type="middle">F</forename><surname>Zwart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Champion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><forename type="middle">M</forename><surname>Midgley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">D</forename><surname>Fetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Saalfeld</surname></persName>
+			<idno type="ORCID">0000-0002-4106-1761</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><surname>Cardona</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/elife.12059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">eLife</title>
+		<idno type="ISSNe">2050-084X</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1133" to="1145" />
+			<date type="published" when="2016-03-18">2016</date>
+			<publisher>eLife Sciences Publications, Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schneider-Mizell, C.M., Gerhard, S., Longair, M., Kazimiers, T., Li, F., Zwart, M.F., Champion, A., Midgley, F.M., Fetter, R.D., Saalfeld, S., et al. (2016). Quantitative neuroanatomy for connectomics in Drosophila. Elife 5, 1133-1145.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">High-resolution tomographic imaging of a human cerebellum: comparison of absorption and grating-based phase contrast</title>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timm</forename><surname>Weitkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Irene</forename><surname>Zanette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Felix</forename><surname>Beckmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Rutishauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elena</forename><surname>Reznikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Müller</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsif.2010.0281</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of The Royal Society Interface</title>
+		<title level="j" type="abbrev">J. R. Soc. Interface.</title>
+		<idno type="ISSN">1742-5689</idno>
+		<idno type="ISSNe">1742-5662</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">53</biblScope>
+			<biblScope unit="page" from="1665" to="1676" />
+			<date type="published" when="2010-07-21">2010</date>
+			<publisher>The Royal Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schulz, G., Weitkamp, T., Zanette, I., Pfeiffer, F., Beckmann, F., David, C., Rutishauser, S., Reznikova, E., and Müller, B. (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">High-resolution tomographic imaging of a human cerebellum: comparison of absorption and grating-based phase contrast</title>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timm</forename><surname>Weitkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Irene</forename><surname>Zanette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Felix</forename><surname>Beckmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Rutishauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elena</forename><surname>Reznikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Müller</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsif.2010.0281</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of The Royal Society Interface</title>
+		<title level="j" type="abbrev">J. R. Soc. Interface.</title>
+		<idno type="ISSN">1742-5689</idno>
+		<idno type="ISSNe">1742-5662</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">53</biblScope>
+			<biblScope unit="page" from="1665" to="1676" />
+			<date type="published" when="2010-07-21" />
+			<publisher>The Royal Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">High-resolution tomographic imaging of a human cerebellum: comparison of absorption and grating-based phase contrast. J. R. Soc. Interface 7, 1665-1676.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Flexible Learning-Free Segmentation and Reconstruction of Neural Volumes</title>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Shahbazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeffery</forename><surname>Kinnison</surname></persName>
+			<idno type="ORCID">0000-0001-5643-1123</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Rafael</forename><surname>Vescovi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Hill</surname></persName>
+			<idno type="ORCID">0000-0001-6080-8712</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Maximilian</forename><surname>Joesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Takeno</surname></persName>
+			<idno type="ORCID">0000-0002-8384-7500</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hongkui</forename><surname>Zeng</surname></persName>
+			<idno type="ORCID">0000-0002-0326-5878</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Nuno</forename><forename type="middle">Maçarico</forename><surname>Da Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jaime</forename><surname>Grutzendler</surname></persName>
+			<idno type="ORCID">0000-0002-5000-243X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Narayanan</forename><surname>Kasthuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Walter</forename><forename type="middle">J</forename><surname>Scheirer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-32628-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">14247</biblScope>
+			<date type="published" when="2018-09-24">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shahbazi, A., Kinnison, J., Vescovi, R., Du, M., Hill, R., Joesch, M., Takeno, M., Zeng, H., da Costa, N.M., Grutzendler, J., et al. (2018). Flexible Learning-Free Segmentation and Reconstruction of Neural Volumes. Sci. Rep. 8, 14247.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Three-Dimensional Imaging of Biological Tissue by Cryo X-Ray Ptychography</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Shahmoradian</surname></persName>
+			<idno type="ORCID">0000-0001-9752-7287</idno>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H R</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diaz</surname></persName>
+			<idno type="ORCID">0000-0003-0479-4752</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guizar-Sicairos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raabe</surname></persName>
+			<idno type="ORCID">0000-0002-2071-6896</idno>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Spycher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Britschgi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Stahlberg</surname></persName>
+			<idno type="ORCID">0000-0002-1185-4592</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Holler</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-05587-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6291</biblScope>
+			<date type="published" when="2017-07-24">2017</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shahmoradian, S.H., Tsai, E.H.R., Diaz, A., Guizar-Sicairos, M., Raabe, J., Spycher, L., Britschgi, M., Ruf, A., Stahlberg, H., and Holler, M. (2017). Three-Dimensional Imaging of Biological Tissue by Cryo X-Ray Ptychography. Sci. Rep. 7, 6291.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Efficient concentration of highenergy x-rays for diffraction-limited imaging resolution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pacureanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bohic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Morawe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">492</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">da Silva, J.C., Pacureanu, A., Yang, Y., Bohic, S., Morawe, C., Barrett, R., and Cloetens, P. (2017). Efficient concentration of high- energy x-rays for diffraction-limited imaging resolution. Optica 4, 492.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Ilastik: Interactive learning and segmentation toolkit</title>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Straehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ullrich</forename><surname>Kothe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fred</forename><forename type="middle">A</forename><surname>Hamprecht</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/isbi.2011.5872394</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2011 IEEE International Symposium on Biomedical Imaging: From Nano to Macro</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011-03">2011</date>
+			<biblScope unit="page" from="230" to="233" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sommer, C., Straehle, C., Kothe, U., and Hamprecht, F.A. (2011). Ilastik: Interactive learning and segmentation toolkit. In 2011 IEEE International Symposium on Biomedical Imaging: From Nano to Macro, (IEEE), pp. 230-233.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Three-dimensional virtual histology of human cerebellum by X-ray phase-contrast tomography</title>
+		<author>
+			<persName><forename type="first">Mareike</forename><surname>Töpperwien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franziska</forename><surname>Van Der Meer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christine</forename><surname>Stadelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1801678115</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="6940" to="6945" />
+			<date type="published" when="2018-06-18">2018</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Töpperwien, M., van der Meer, F., Stadelmann, C., and Salditt, T. (2018). Three-dimensional virtual histology of human cerebellum by X-ray phase-contrast tomography. Proc. Natl. Acad. Sci. U. S. A. 115, 6940-6945.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Topological and modality-specific representation of somatosensory information in the fly brain</title>
+		<author>
+			<persName><forename type="first">Asako</forename><surname>Tsubouchi</surname></persName>
+			<idno type="ORCID">0000-0002-6284-8221</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tomoko</forename><surname>Yano</surname></persName>
+			<idno type="ORCID">0000-0003-3036-2232</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Takeshi</forename><forename type="middle">K</forename><surname>Yokoyama</surname></persName>
+			<idno type="ORCID">0000-0002-8793-9648</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Chloé</forename><surname>Murtin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hideo</forename><surname>Otsuna</surname></persName>
+			<idno type="ORCID">0000-0002-2107-8881</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kei</forename><surname>Ito</surname></persName>
+			<idno type="ORCID">0000-0002-7274-5533</idno>
+		</author>
+		<idno type="DOI">10.1126/science.aan4428</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="issue">6363</biblScope>
+			<biblScope unit="page" from="615" to="623" />
+			<date type="published" when="2017-11-03">2017</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsubouchi, A., Yano, T., Yokoyama, T.K., Murtin, C., Otsuna, H., and Ito, K. (2017). Topological and modality-specific representation of somatosensory information in the fly brain. Science 358, 615-623.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Nanopositioning for the ESRF ID16A Nano-Imaging Beamline</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Villar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Andre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bohic</surname></persName>
+			<idno type="ORCID">0000-0001-6355-7592</idno>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Da Silva</surname></persName>
+			<idno type="ORCID">0000-0001-8035-0550</idno>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guilloud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hignette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pacureanu</surname></persName>
+			<idno type="ORCID">0000-0003-2306-7040</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salome</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Der Linden</surname></persName>
+			<idno type="ORCID">0000-0002-3481-0787</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+			<idno type="ORCID">0000-0001-5318-5385</idno>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+			<idno type="ORCID">0000-0002-4129-9091</idno>
+		</author>
+		<idno type="DOI">10.1080/08940886.2018.1506234</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Synchrotron Radiation News</title>
+		<title level="j" type="abbrev">Synchrotron Radiation News</title>
+		<idno type="ISSN">0894-0886</idno>
+		<idno type="ISSNe">1931-7344</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="9" to="14" />
+			<date type="published" when="2018-09-03">2018</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Villar, F., Andre, L., Baker, R., Bohic, S., da Silva, J.C., Guilloud, C., Hignette, O., Meyer, J., Pacureanu, A., Perez, M., et al. (2018). Nanopositioning for the ESRF ID16A Nano-Imaging Beamline. Synchrotron Radiat. News 31, 9-14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Enhanced FIB-SEM systems for large-volume 3D imaging</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Shan</forename><surname>Xu</surname></persName>
+			<idno type="ORCID">0000-0002-8564-7836</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kenneth</forename><forename type="middle">J</forename><surname>Hayworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhiyuan</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patricia</forename><surname>Grob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ahmed</forename><forename type="middle">M</forename><surname>Hassan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">José</forename><forename type="middle">G</forename><surname>García-Cerdán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Krishna</forename><forename type="middle">K</forename><surname>Niyogi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eva</forename><surname>Nogales</surname></persName>
+			<idno type="ORCID">0000-0001-9816-3681</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Weinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harald</forename><forename type="middle">F</forename><surname>Hess</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/elife.25916</idno>
+	</analytic>
+	<monogr>
+		<title level="j">eLife</title>
+		<idno type="ISSNe">2050-084X</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2017-05-13">2017</date>
+			<publisher>eLife Sciences Publications, Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, C.S., Hayworth, K.J., Lu, Z., Grob, P., Hassan, A.M., García-Cerdán, J.G., Niyogi, K.K., Nogales, E., Weinberg, R.J., and Hess, H.F. (2017). Enhanced FIB-SEM systems for large-volume 3D imaging. Elife 6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Automatic projection image registration for nanoscale X-ray tomographic reconstruction</title>
+		<author>
+			<persName><forename type="first">Haiyan</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sihao</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chenxi</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuwei</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xianghui</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Piero</forename><surname>Pianetta</surname></persName>
+			<idno type="ORCID">0000-0002-4834-6014</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Young-Sang</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yijin</forename><surname>Liu</surname></persName>
+			<idno type="ORCID">0000-0002-8417-2488</idno>
+		</author>
+		<idno type="DOI">10.1107/s1600577518013929</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSNe">1600-5775</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1819" to="1826" />
+			<date type="published" when="2018-10-23">2018</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yu, H., Xia, S., Wei, C., Mao, Y., Larsson, D., Xiao, X., Pianetta, P., Yu, Y.-S., and Liu, Y. (2018). Automatic projection image registration for nanoscale X-ray tomographic reconstruction. J. Synchrotron Rad 25, 1819-1826.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Multiplexed peroxidase-based electron microscopy labeling enables simultaneous visualization of multiple cell types</title>
+		<author>
+			<persName><forename type="first">Qiyu</forename><surname>Zhang</surname></persName>
+			<idno type="ORCID">0000-0002-7141-4046</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Wei-Chung A.</forename><surname>Lee</surname></persName>
+			<idno type="ORCID">0000-0002-4618-295X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+			<idno type="ORCID">0000-0002-8742-525X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">D</forename><surname>Ginty</surname></persName>
+			<idno type="ORCID">0000-0001-9723-8530</idno>
+		</author>
+		<idno type="DOI">10.1038/s41593-019-0358-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<title level="j" type="abbrev">Nat Neurosci</title>
+		<idno type="ISSN">1097-6256</idno>
+		<idno type="ISSNe">1546-1726</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="828" to="839" />
+			<date type="published" when="2019-03-18">2019</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, Q., Lee, W.-C.A., Paul, D.L., and Ginty, D.D. (2019). Multiplexed peroxidase-based electron microscopy labeling enables simultaneous visualization of multiple cell types. Nat. Neurosci. 22, 828-839.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">A complete electron microscopy volume of the brain of adult&lt;i&gt;Drosophila melanogaster&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Zhihao</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Scott</forename><surname>Lauritzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Perlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Camenzind</forename><forename type="middle">G</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Milkie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omar</forename><surname>Torrens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Corey</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nadiya</forename><surname>Sharifi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">A</forename><surname>Calle-Schuler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lucia</forename><surname>Kmecova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iqbal</forename><forename type="middle">J</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bill</forename><surname>Karsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">T</forename><surname>Trautman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Bogovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philipp</forename><surname>Hanslovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">S X E</forename><surname>Jefferis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Kazhdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Khaled</forename><surname>Khairy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">D</forename><surname>Fetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davi</forename><forename type="middle">D</forename><surname>Bock</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/140905</idno>
+		<imprint>
+			<date type="published" when="2017-05-22" />
+			<publisher>Cold Spring Harbor Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zheng, Z., Lauritzen, J.S., Perlman, E., Robinson, C.G., Nichols, M., Milkie, D., Torrens, O., Price, J., Fisher, C.B., Sharifi, N., et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">A Complete Electron Microscopy Volume of the Brain of Adult Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">Zhihao</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Scott</forename><surname>Lauritzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Perlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Camenzind</forename><forename type="middle">G</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Milkie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omar</forename><surname>Torrens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Corey</forename><forename type="middle">B</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nadiya</forename><surname>Sharifi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">A</forename><surname>Calle-Schuler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lucia</forename><surname>Kmecova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iqbal</forename><forename type="middle">J</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bill</forename><surname>Karsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">T</forename><surname>Trautman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">A</forename><surname>Bogovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philipp</forename><surname>Hanslovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">S X E</forename><surname>Jefferis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Kazhdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Khaled</forename><surname>Khairy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">D</forename><surname>Fetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davi</forename><forename type="middle">D</forename><surname>Bock</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2018.06.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<title level="j" type="abbrev">Cell</title>
+		<idno type="ISSN">0092-8674</idno>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="730" to="743.e22" />
+			<date type="published" when="2018-07" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>e22</note>
+	<note type="raw_reference">A Complete Electron Microscopy Volume of the Brain of Adult Drosophila melanogaster. Cell 174, 730-743.e22.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure and evolution of the Ivy protein family, unexpected lysozyme inhibitors in Gram-negative bacteria</title>
+				<funder>
+					<orgName type="full">French National Ge ´nopole Network</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Marseille-Nice Ge ´nopole for the use of the Proteomic and Bioinformatics platforms</orgName>
+				</funder>
+				<funder ref="#_mS9vFnK">
+					<orgName type="full">French Ministry of Industry</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Centre National de la Recherche Scientifique</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Proceedings of the National Academy of Sciences</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2007-02-20">February 20, 2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Chantal</forename><surname>Abergel</surname></persName>
+							<email>chantal.abergel@igs.cnrs-mrs.fr.</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Unite ´Propre de Recherche 2589</orgName>
+								<orgName type="department" key="dep2">Institut de Biologie Structurale et Microbiologie-Institut Fe ´de ´ratif de Recherche 88</orgName>
+								<orgName type="laboratory">Structural and Genomic Information Laboratory</orgName>
+								<orgName type="institution" key="instit1">Centre National de la Recherche Scientifique</orgName>
+								<orgName type="institution" key="instit2">Parc Scientifique de Luminy</orgName>
+								<address>
+									<addrLine>163 Avenue de Luminy Case 934 Cedex 9</addrLine>
+									<postCode>13288</postCode>
+									<settlement>Marseille</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vincent</forename><surname>Monchois</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Unite ´Propre de Recherche 2589</orgName>
+								<orgName type="department" key="dep2">Institut de Biologie Structurale et Microbiologie-Institut Fe ´de ´ratif de Recherche 88</orgName>
+								<orgName type="laboratory">Structural and Genomic Information Laboratory</orgName>
+								<orgName type="institution" key="instit1">Centre National de la Recherche Scientifique</orgName>
+								<orgName type="institution" key="instit2">Parc Scientifique de Luminy</orgName>
+								<address>
+									<addrLine>163 Avenue de Luminy Case 934 Cedex 9</addrLine>
+									<postCode>13288</postCode>
+									<settlement>Marseille</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Deborah</forename><surname>Byrne</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Unite ´Propre de Recherche 2589</orgName>
+								<orgName type="department" key="dep2">Institut de Biologie Structurale et Microbiologie-Institut Fe ´de ´ratif de Recherche 88</orgName>
+								<orgName type="laboratory">Structural and Genomic Information Laboratory</orgName>
+								<orgName type="institution" key="instit1">Centre National de la Recherche Scientifique</orgName>
+								<orgName type="institution" key="instit2">Parc Scientifique de Luminy</orgName>
+								<address>
+									<addrLine>163 Avenue de Luminy Case 934 Cedex 9</addrLine>
+									<postCode>13288</postCode>
+									<settlement>Marseille</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sabine</forename><surname>Chenivesse</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Unite ´Propre de Recherche 2589</orgName>
+								<orgName type="department" key="dep2">Institut de Biologie Structurale et Microbiologie-Institut Fe ´de ´ratif de Recherche 88</orgName>
+								<orgName type="laboratory">Structural and Genomic Information Laboratory</orgName>
+								<orgName type="institution" key="instit1">Centre National de la Recherche Scientifique</orgName>
+								<orgName type="institution" key="instit2">Parc Scientifique de Luminy</orgName>
+								<address>
+									<addrLine>163 Avenue de Luminy Case 934 Cedex 9</addrLine>
+									<postCode>13288</postCode>
+									<settlement>Marseille</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Frédérique</forename><surname>Lembo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jean-Claude</forename><surname>Lazzaroni</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Unite ´de Microbiologie et Ge ´ne ´tique</orgName>
+								<orgName type="institution">Unite ´Mixte de Recherche</orgName>
+								<address>
+									<postCode>5577</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jean-Michel</forename><surname>Claverie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Unite ´Propre de Recherche 2589</orgName>
+								<orgName type="department" key="dep2">Institut de Biologie Structurale et Microbiologie-Institut Fe ´de ´ratif de Recherche 88</orgName>
+								<orgName type="laboratory">Structural and Genomic Information Laboratory</orgName>
+								<orgName type="institution" key="instit1">Centre National de la Recherche Scientifique</orgName>
+								<orgName type="institution" key="instit2">Parc Scientifique de Luminy</orgName>
+								<address>
+									<addrLine>163 Avenue de Luminy Case 934 Cedex 9</addrLine>
+									<postCode>13288</postCode>
+									<settlement>Marseille</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Edited by Janet M. Thornton</orgName>
+								<orgName type="institution">Universite ´Claude Bernard Lyon1</orgName>
+								<address>
+									<addrLine>Ba ˆt 405</addrLine>
+									<postCode>F-69622</postCode>
+									<settlement>Villeurbanne Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Adaptation et Pathoge ´nie, Unite ´Mixte de Recherche</orgName>
+								<orgName type="institution">European Bioinformatics Institute</orgName>
+								<address>
+									<addrLine>15 Rue des Martyrs</addrLine>
+									<postCode>38000</postCode>
+									<settlement>Cambridge Grenoble Microbiologie</settlement>
+									<country>United Kingdom France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Institut National des Sciences Applique ´es-Bayer Crop Science</orgName>
+								<orgName type="institution" key="instit1">Centre National de la Recherche Scientifique-Universite ´Clande Bernard</orgName>
+								<orgName type="institution" key="instit2">Universite ´Lyon</orgName>
+								<address>
+									<addrLine>Bat Andre ´LWOFF 10 Rue Raphael Dubois</addrLine>
+									<postCode>69622</postCode>
+									<settlement>Villeurbanne Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structure and evolution of the Ivy protein family, unexpected lysozyme inhibitors in Gram-negative bacteria</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Proceedings of the National Academy of Sciences</title>
+						<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+						<idno type="ISSN">0027-8424</idno>
+						<idno type="eISSN">1091-6490</idno>
+						<imprint>
+							<publisher>Proceedings of the National Academy of Sciences</publisher>
+							<biblScope unit="volume">104</biblScope>
+							<biblScope unit="issue">15</biblScope>
+							<biblScope unit="page" from="6394" to="6399"/>
+							<date type="published" when="2007-02-20">February 20, 2007</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F0B4F9B4986F83E5D2C4410B0AAD9389</idno>
+					<idno type="DOI">10.1073/pnas.0611019104</idno>
+					<note type="submission">received for review</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Part of an ancestral bactericidal system, vertebrate C-type lysozyme targets the peptidoglycan moiety of bacterial cell walls. We report the crystal structure of a protein inhibitor of C-type lysozyme, the Escherichia coli Ivy protein, alone and in complex with hen egg white lysozyme. Ivy exhibits a novel fold in which a protruding five-residue loop appears essential to its inhibitory effect. This feature guided the identification of Ivy orthologues in other Gram-negative bacteria. The structure of the evolutionary distant Pseudomonas aeruginosa Ivy orthologue was also determined in complex with hen egg white lysozyme, and its antilysozyme activity was confirmed. Ivy expression protects porous cell-wall E. coli mutants from the lytic effect of lysozyme, suggesting that it is a response against the permeabilizing effects of the innate vertebrate immune system. As such, Ivy acts as a virulence factor for a number of Gram-negative bacteria-infecting vertebrates.</p><p>antilysozyme ͉ innate vertebrate immune system L ysozyme was discovered in 1921 by Sir Alexander Fleming, who was then trying to understand the inhibitory property of his own nasal mucus on the growth of Staphylococcus cultures. This discovery stimulated Fleming's search for antimicrobial compounds and probably paved the way for his later discovery of penicillin <ref type="bibr" target="#b0">(1)</ref>. For the next 80 years, lysozyme continued to play a central role as a model enzyme in many aspects of modern biology <ref type="bibr" target="#b1">(2)</ref>, including protein chemistry, crystallography, NMR, enzymology, and immunology, as well as in the study of protein folding <ref type="bibr" target="#b2">(3)</ref>. The classical representative of this widespread enzyme family is the hen egg white lysozyme (HEWL), known as C-type lysozyme. HEWL was the first enzyme to have its structure determined by x-ray crystallography <ref type="bibr" target="#b3">(4)</ref>. Chicken C-type lysozymes have been characterized in many other animal species, including mammals, reptiles, and invertebrates. The enzymatic specificity of C-type lysozymes, as well as of other distinct types characterized in birds, phages, bacteria, fungi, invertebrates, and plants, is to cleave the ␤-glycosidic bond between the C-1 of N-acetylmuraminic acid and the C-4 of N-acetylglucosamine of peptidoglycan, a reticulated polymer forming the rigid layer of bacterial cell walls <ref type="bibr" target="#b4">(5)</ref>. This enzymatic activity is thought to be at the origin of the antibacterial specificity of lysozyme against Gram-positive bacteria, and to a lesser extent against Gram-negative bacteria, although an alternative mechanism has been proposed <ref type="bibr" target="#b4">(5)</ref>. In human, C-type lysozyme is present at high concentration (up to 50 g⅐ml Ϫ1 ) in all secretions, including tears and saliva. C-type lysozyme is thought to have evolved from an ancestral metazoan bactericidal defense system <ref type="bibr" target="#b5">(6)</ref>.</p><p>During the course of a systematic survey of Escherichia coli genes of unknown functions, we discovered a protein inhibitor of C-type lysozyme, as the product of the ykfE/ivy gene <ref type="bibr" target="#b6">(7)</ref>. Here, we report the E. coli Ivy periplasmic protein (Ivyc) crystal structure at 1.6-Å resolution in both isolation and complex with HEWL, and the structure of the orthologous gene product in Pseudomonas aeruginosa (Ivyp1), also in complex with HEWL. These structures were used to guide bioinformatics analyses and design directed mutagenesis experiments aimed at exploring the interplay of lysozyme vs. antilysozyme activities in the control of bacterial growth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overall Structure of E. coli Ivy Protein [Protein Data Bank (PDB) Code</head><p>1XS0]. The protein encoded by the ykfE gene was expressed and purified in the context of a structural genomics project systematically targeting E. coli genes of unknown function. The YkfE protein was serendipitously found to copurify, and then to cocrystallize with HEWL used in the routine bacterial disruption protocol. The YkfE protein was subsequently characterized as a potent and specific inhibitor for C-type lysozyme <ref type="bibr" target="#b6">(7)</ref>, and the gene name was changed to Ivy (inhibitor of vertebrate lysozyme) to reflect this property. High-resolution crystal structures have been obtained for E. coli Ivy (Ivyc) in both isolation and complex with lysozyme [supporting information (SI) Table <ref type="table">1</ref> and Figs. <ref type="figure" target="#fig_0">1</ref> and <ref type="figure" target="#fig_1">2</ref>].</p><p>Description of the Structure. We previously demonstrated by gel filtration and fluorescence studies that the periplasmic Ivyc homodimer is the physiologically active unit, with a dimerization K d in the 10 Ϫ9 M range <ref type="bibr" target="#b6">(7)</ref>. The Ivyc protein crystallized as a dimer. The crystal asymmetric unit contains three molecules corresponding to a noncrystallographic dimer and a monomer. By applying the crystallographic symmetry, this monomer reconstructs the physiological dimer. Each monomer consists of a central ␤-sheet made of five antiparallel ␤-strands flanked on the convex side by two short helices (␣ 1 , ␣ 2 ; six and eight residues, respectively) and, on the concave side, by an amphipatic helix (␣ 4 ; 11 residues) (Fig. <ref type="figure" target="#fig_0">1</ref>). We searched for structural homologues of this domain by using the program DALI <ref type="bibr" target="#b7">(8)</ref>. The best structural match in the PDB is the 306-aa histone acetyltransferase (PDB code 1BOB) from yeast (Z ϭ 5.2), with only 9% of identical residues over 89 amino acids and a rmsd of 4.0 Å. However, the topology of the two structures is markedly different, thus making the Ivy structure a novel fold. The dimer structure exhibits a horseshoe-like fold centered on the two antiparallel amphipatic helices (␣ 4 ) (Fig. <ref type="figure" target="#fig_0">1b</ref>). In the crystal, there is 1,605-Å 2 buried surface area between the two monomers related by the crystallographic 2-fold axis (monomer A) and 1,432-Å 2 buried surface area between the two monomers related by the noncrystallographic 2-fold axis (monomers B and C). The rmsd between the three monomers ranges from 0.547 Å (B/C) to 0.865 Å over 122 residues (A/B) based on C␣ superimposition. The structure reveals that the dimer involves interactions between backbones and side chains of residues all gathered in the C-terminus part of the molecule in the ␤6 strand and the ␣4 and ␣5 helices (Fig. <ref type="figure" target="#fig_1">2b</ref>). These residues are conserved in various E. coli strains, Shigella flexneri, Klebsiella pneumoniae, and Burkholderia cepacia homologues sequences, suggesting that the Ivy protein is a functional dimer in these bacteria and probably monomeric in the other Ivy-containing bacteria.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanism of Lysozyme Inhibition: The Ivyc-HEWL Complex Structure</head><p>(PDB Code 1GPQ). The crystal asymmetric unit contains one noncrystallographic homodimer of Ivyc in complex with two molecules of HEWL. There are two types of Ivyc/HEWL interactions: the main interaction involving a 969-Å 2 buried surface area between one Ivyc monomer and one HEWL molecule, and a secondary interaction involving a 552-Å 2 buried surface area between the second Ivyc monomer and the same HEWL molecule, thus creating a 1,340-Å 2 buried surface area between the Ivyc homodimer and  the first HEWL molecule (Fig. <ref type="figure" target="#fig_1">2a</ref>). For the second HEWL monomer, the buried surface area is 1,043 Å 2 for the main interaction and 623 Å 2 for the secondary interaction, leading to a total of 1,361-Å 2 buried surface area between the Ivyc homodimer and the second HEWL molecule.</p><p>The structure of the complex confirms the experimental stoechiometry of the interaction between Ivyc and HEWL <ref type="bibr" target="#b6">(7)</ref> and immediately suggests the mechanism of lysozyme inhibition by the Ivyc molecule. Through the Ivyc/HEWL complex formation, the lysozyme active site becomes occluded by a loop protruding from the Ivyc molecule (Fig. <ref type="figure" target="#fig_1">2 c</ref> and <ref type="figure">d</ref>). At the center of this loop, a histidine residue (H60) makes hydrogen bonds with two of the three residues responsible for the enzymatic activity of the lysozyme (D52 and E35). The lysozyme molecule complexed with Ivyc does not exhibit any significant structural change (rmsd Ϸ0.5 Å over 127 residues based on the C␣ superimposition of 1HEL with the lysozyme molecules in the crystal). However, one water molecule is excluded from the lysozyme active site and replaced by the histidine of the Ivyc inhibitory loop.</p><p>The comparison of the refined structures of Ivyc in isolation or complexed with HEWL (Fig. <ref type="figure" target="#fig_1">2b</ref> and SI Table <ref type="table">2</ref>) reveals a few minor conformational changes. These include the orientation of the small helix (␣3) in the three monomers of the free Ivyc form. The orientation observed in molecule A is the closest to the one observed in the Ivyc dimer complexed with HEWL. Three 3 10helices (1, 2, and 3) seen in the Ivyc/HEWL structure are absent in the three uncomplexed Ivy molecules. More surprisingly, the protruding Ivy loop directly interacting with the lysozyme active site does not exhibit a noticeable conformational change between the two crystal forms. The rigidity of this rather short loop may be explained by the presence of a disulfide bond (C57-C62) and a salt bridge between the lysine residue (K58) next to the first cysteine and the aspartate residue (D61) next to the second cysteine. These structural constraints suggesting a key-lock type of interaction with C-type lysozymes might explain the strict conservation of the loop sequence between a subset of Ivy homologues (Ivyc orthologues) even in distantly related bacteria (Fig. <ref type="figure">3</ref> and SI Fig. <ref type="figure">5</ref>).</p><p>Functional Studies: Characterization of ⌬Ivy E. coli Mutants. The central role of the CKPHDC loop in the inhibition was experimentally validated by directed mutagenesis. Amino acid substitutions were performed to assess the influence of some of the key interacting residues as suggested by the structure of the Ivyc/HEWL complex. As expected, we observed a lower inhibitory activity for the histidine (H60) mutants. The most drastic effect (300-fold increase in K i ) was observed when introducing a negatively charged aspartic residue at this position (SI Table <ref type="table">3</ref>). This effect is most likely caused by a repulsive interaction with the two acidic residues of the lysozyme active site (D52 and E35). On the other hand, no significant change in the inhibitory activity was observed when introducing a C62 3 A62 mutation disrupting the disulfide bridge.</p><p>We performed a knockout of the E. coli ivy gene to assess the in vivo protective effect of the Ivy protein in the presence of lysozyme. The sole ivy gene knockout in E. coli did not exhibit a phenotype of increased sensitivity to HEWL, thus confirming that, in laboratory conditions, lysozyme does not penetrate the bacterial wall <ref type="bibr" target="#b8">(9)</ref>. We then constructed a double mutant by introducing a TolB-pal deletion to reproduce the ''porous cell-wall'' phenotype described earlier <ref type="bibr" target="#b9">(10)</ref>. It was previously shown that E. coli ⌬tolB mutants exhibit a typical phenotype of sensitivity to drugs and detergents, leakiness, and outer membrane vesicles formation <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>, because of impaired envelope synthesis. We measured the sensitivity to lysozyme of the ⌬tolB⌬ivy double mutant with reference to the ⌬tolB mutant (JC864). In laboratory conditions, the ⌬tolB mutant was found to be sensitive to lysozyme concentrations higher than the one found in secretions (Ͼ50 g⅐ml Ϫ1 ; SI Fig. <ref type="figure">6</ref>), thus demonstrating that protein-sized molecules, in addition to small molecules, can penetrate such leaky E. coli cells. The ⌬tolB⌬ivy mutant was then tested and found to exhibit a higher sensitivity to HEWL because for physiological concentrations (50 g⅐ml Ϫ1 ; Fig. <ref type="figure" target="#fig_2">4a</ref>) the lysozyme effect on bacterial growth was already visible, supporting the protective role of Ivyc. This protective effect was further confirmed upon overexpression of Ivyc in a ⌬tolB⌬ivy double mutant carrying an isopropyl ␤-D-thiogalactoside-inducible expression plasmid (Fig. <ref type="figure" target="#fig_2">4b</ref>) where the Ivy expression was able to restore bacterial growth for lysozyme concentrations up to 500 g⅐ml Ϫ1 . Similar results have been also described in the context of other permeabilizing treatments <ref type="bibr" target="#b8">(9)</ref>.</p><p>The Ivy Protein Family: Phylogenetic Distribution. An exhaustive search for E. coli Ivy protein homologues was performed by using all publicly accessible sequence data, including complete bacterial genome sequences and data from ongoing sequencing projects from all major genome sequencing centers (see Materials and Methods). All identified Ivy homologue sequences were iteratively used as queries to optimize the detection of more evolutionary distant relatives. A total of 35 distinct Ivy-like sequences were identified (ranging from 100% to Ͻ25% sequence identity with E. coli K12 Ivy protein). Surprisingly, Ivy homologues are only identified in members of the Proteobacteria (Gram-negative bacteria), and all of them are predicted to be periplasmic (<ref type="url" target="www.cbs.dtu.dk/">www.cbs.dtu.dk/</ref> services/SignalP). On one hand, it may appear logical that Ivy proteins colocalize with the proteoglycan moiety (the lysozyme substrate) within the periplasmic compartment. On the other hand, the proteoglycan network is thought to be physically shielded from the attack of exogeneous enzymes by the Proteobacteria cell wall and is not considered a natural substrate for lysozyme. The presence of a gene encoding a lysozyme inhibitor in Gram-negative rather than Gram-positive bacteria is thus a paradox. The phylogenetic tree of Ivy homologues is presented in Fig. <ref type="figure">3</ref>, according to the standard Proteobacteria divisions <ref type="bibr" target="#b11">(12)</ref>: alpha, beta, gamma, delta, and epsilon. As of today, the Ivy protein family is most represented in the gamma and beta divisions, but two Ivy homologues were unambiguously identified in two unrelated species of the alpha division: Parococcus denitrificans and Gluconobacter oxydans. Within the gamma and beta divisions, Ivy homologues are sporad-Fig. <ref type="figure">3</ref>. Phylogenetic analysis of the Ivy protein family. The phylogenetic tree suggests that an ancestor of Ivyc existed in both the gamma and beta divisions (in yellow) but was subsequently lost in some of the gamma (e.g., Salmonella) and beta division clades (e.g., most Neisseriaceae and Bordetella). The anomalous position of the branch leading to the few alpha species (in red) in which Ivy is identified strongly suggests an acquisition by horizontal transfer from Enterobacteria, as was probably the case for B. cepacia (loss of the Burkholderia-derived gene, acquisition from Enterobacteria). Ivyc paralogous sequences exhibiting the noncanonical loop motif (in green) appear to have emerged from a duplication within and limited to the Pseudomonas clade (followed by the loss of the original Ivyc orthologue, except for P. aeruginosa).</p><p>ically distributed. For instance, Ivy homologues are present in all Enterobacteriales, except in Salmonella, but are also found in all sequenced Pseudomonadaceae. Similarly in the beta division, Ivy homologues are found in all Burkholderia, are identified in a single Neisseriaceae species, and are absent from many other sequenced genomes of this division. Such a sporadic distribution of the Ivy protein family denotes a complex underlying evolutionary history made of differential gene losses across clades superimposed with events of horizontal transfers as suggested by detailed phylogenetic analysis (Fig. <ref type="figure">3</ref>). Except for the alphaproteobacteria, most of the species harboring Ivyc orthologues are pathogens or opportunistic pathogens to human or other vertebrates.</p><p>Orthologous vs. Paralogous Ivy Homologues. Most identified members of the Ivy protein family, including the closest homologues to E. coli Ivy, exhibit an absolute conservation of the CKPHDC subsequence (SI Fig. <ref type="figure">5a</ref>). This motif exactly coincides with the lysozyme inhibitory loop identified in the HEWL/Ivyc complex 3D structure and our functional studies of Ivyc loop mutants (see above). Based on these data, we classified Ivy homologues exhibiting this loop sequence as bona fide orthologues of the E. coli ivy gene (i.e., predicted to be lysozyme inhibitors and perform the same function in their respective species). Two additional orthologous sequences contain a nearly exact conservation of the loop with the aspartate residue being replaced by an asparagine residue in the Burkordelia cepacia Ivy sequence (48% identity with Ivyc) and the lysine residue being replaced by an arginine residue in the Gluconobacter oxydans 621H Ivy sequence (26% sequence identity with Ivyc). The analyses of these mutations in the context of the Ivyc/HEWL complex 3D structure suggest that they both should be compatible with a proper lysozyme/Ivy interaction and thus lysozyme inhibition. The five remaining Ivy homologues exhibiting noncanonical loop sequences were then referred to as E. coli Ivy paralogues (i.e., predicted to perform different functions) (SI Fig. <ref type="figure">5b</ref>). Ivy paralogues are only found within species from the Pseudomonas genus: P. aeruginosa, P. syringae, P. putida, and P. fluorescens, all with related, but different, CExxDxC loop sequences. Moreover, P. aeruginosa is the sole species exhibiting both an orthologous and a paralogous version of Ivy. The P. aeruginosa Ivy orthologous sequence is also the most similar to the P. aeruginosa Ivy paralogous sequence, strongly suggesting that a gene duplication leading to the noncanonical loop in Ivy paralogues occurred along the branch leading to the Pseudomonadaceae. The absence of Ivy homologues in the close Acinetobacter genus might be caused by subsequent gene losses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Expression and Functional Characterization of P. aeruginosa Ivy Ho-</head><p>mologues. To test our functional predictions about the orthologous versus paralogous Ivy forms, we expressed (see Materials and Methods) the product of both P. aeruginosa Ivy-related genes. The two proteins called Ivyp1 (orthologue) and Ivyp2 (paralogue) were purified and tested for their inhibitory activity against HEWL. As predicted from their respective loop sequences, the Ivyp1 (CK-PHDC) protein was found to inhibit lysozyme activity, whereas Ivyp2 (CEKSDC) did not. The result of the Ivyp1 inhibition of the HEWL activity is presented in SI Fig. <ref type="figure">7a</ref>. As for Ivyc, the inhibition follows a ''slow tight binding'' mechanism with a Ki app {Ivyp1, HEWL} of Ϸ25 nM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Structure of P. aeruginosa Ivyp1 (PDB Code 1UUZ</head><p>). After the demonstration that P. aeruginosa Ivyp1 and E. coli Ivy exhibited similar antilysozyme activities, we determined the structure of the Ivyp1:HEWL complex to visualize how the inhibitory interaction was preserved despite the remote similarity of these two Ivy protein sequences (30% identical residues; SI Fig. <ref type="figure">5a</ref>). As expected, the structure of Ivyp1 is similar to the Ivyc monomer structure. However, as predicted from the nonconservation of the residues involved in Ivyc dimer formation, P. aeruginosa Ivyp1 is a monomer.</p><p>Despite this significant difference, the interaction of the two Ivy homologues with the lysozyme molecule is remarkably similar (Fig. <ref type="figure" target="#fig_1">2</ref>, SI Fig. <ref type="figure">7b</ref>, and SI Table <ref type="table">4</ref>). The C␣ rmsd between the Ivyp1 and Ivyc monomers is Ϸ2.8 Å. We then compared the surfaces of interaction in the two complexes to identify the key residues responsible for the robustness of the Ivy-lysozyme interaction. In both Ivy complexes, the Ivy-HEWL interaction involves the same amount of salt bridges, hydrogen bonds involving side chains, side chains/main chains, and main-chain interactions. However, among the numerous residues involved in the interaction with lysozyme, only three are strictly conserved: the histidine residue (H60 in Ivyc, H62 in Ivyp1) forming both a direct hydrogen bond (E35-OE1) and an indirect hydrogen bond through a water molecule (D52-OD1) within the HEWL active site, one aspartate residue (D61 in Ivyc and D63 in Ivyp1), and a glutamate residue (E120 in Ivyc and E123 in Ivyp1). We then compared the interaction areas in the two complexes. Because of the dimeric state of the Ivyc molecule, the surface area buried upon Ivyc-HEWL complex formation is larger (Ϸ1,340 Å 2 ) than for the Ivyp-HEWL complex (Ϸ1,000 Å 2 ). This difference probably explains the lower inhibitory activity (25-fold decrease) of Ivyp1 compared with Ivyc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We described a protein family with a broad, albeit discontinuous, phylogenetic range. A subset of this family, defined by a highly conserved loop, exhibits a physiologically significant antilysozyme activity, making it a protein inhibitor of lysozyme. The structures of two phylogenetically distant (Fig. <ref type="figure">3</ref> and SI Fig. <ref type="figure">5</ref>) members of the Ivy family, in complex with lysozyme, highlighted the central role of the conserved CKPHDC loop in the enzyme inhibition that occurs via a key-lock type of interaction, in the absence of conformational changes in the Ivy or lysozyme molecules. The Ivy structure corresponds to a new fold, and the protein can be either dimeric as in E. coli or monomeric as in P. aeruginosa. Comprehensive sequence similarity searches identified a distinct subset of the Ivy family, uniquely found in Pseudomonas species and consisting of proteins most likely sharing the same overall structure, but in which the conserved CKPHDC motif is replaced by a more variable sequence still flanked by two conserved cysteines. These divergent Ivy proteins all might function as inhibitors against the same unidentified enzyme or exhibit different activities altogether. Until now, no partners to these Pseudomonas Ivy paralogues have been identified to our knowledge.</p><p>The complex phylogenetic distribution of the Ivy family lysozyme inhibitor does not lend itself to a simple interpretation. On one hand, antilysozyme Ivy orthologues are found in species from three different proteobacteria division (alpha, beta, and gamma), which would argue in favor of them being a significant and general factor in bacterial fitness. On the other hand, their distribution is highly sporadic within each division and does not clearly correlate with a given ecological niche. In that respect the absence of Ivy homologues in genus Salmonella or Vibrionaceae is particularly puzzling given their close relationship (and frequent gene exchange) with the Ivy-containing Enterobacteria. Even more paradoxical is the fact that the ivy genes appear restricted to Gram-negative bacteria, a priori not sensitive to lysozyme, and are not found in any Grampositive bacteria, thought to be the natural target of C-type lysozyme. Our results confirmed that lysozyme had no effect on E. coli under laboratory conditions, unless its permeability was artificially increased by introducing a membrane defect, such as in TolB Ϫ mutants. Only under such conditions the expression of ivy exhibited a protective effect on the bacterial growth (Fig. <ref type="figure" target="#fig_2">4</ref>). Similar circumstances might actually be encountered in the natural environment of Gram-negative bacteria. The innate vertebrate immune system, increasingly recognized as the first line of defense against bacterial infection, produces a number of proteins highly toxic to Gram-negative but not to Gram-positive bacteria <ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref>. In synergy, these protective agents (i) make pores in the membrane of the pathogen through proteases (e.g., perforins, defensins, bacterial permeability-increasing proteins), (ii) opsonize bacteria through serum proteins (e.g., lipopolysaccharide-binding protein, lysozyme), and (iii) chemoattract leukocytes. In turn, Gram-negative bacteria have evolved protective mechanisms, such as ecotins, a family of periplasmic proteins inhibiting serine proteases, including the permeabilizing neutrophil elastase <ref type="bibr" target="#b14">(15)</ref>. The Ivy protein could play a similar role against lysozyme, whereas the Ivy paralogue might inhibit another of the many microbicidal agents present in human nasal and salivatory secretions <ref type="bibr" target="#b17">(18)</ref> such as PLUNC proteins, ubiquitous in vertebrate genomes, and known to be active against P. aeruginosa <ref type="bibr" target="#b18">(19)</ref>. Interestingly, the mechanism of Ivy inhibition is similar to the one observed for ecotin against serine proteases, in a substrate-like fashion, through a critical protruding loop <ref type="bibr" target="#b14">(15)</ref>.</p><p>Along the same line, ivy gene products secreted by Gramnegative bacteria might also be protective for themselves and neighboring Gram-positive bacteria in natural situations, such as in biofilm (where Pseudomonas are predominant) or other symbiotic, for instance intestinal, populations (where Enterobacteria abound) <ref type="bibr" target="#b19">(20)</ref>. Finally, both Ivy and ecotin are part of the 25 genes significantly up-regulated by higher concentrations of acetyl phosphate known to promote the free living state where bacteria are more sensitive to the vertebrate innate immune system <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b19">20)</ref>. Indeed more work is needed to identify the physiological function of Ivy genes that might lead to a reappraisal of the physiological role of C-type lysozyme and related enzymes in the control of opportunistic bacterial infections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>Cloning, expression and purification of the Ivyc (7, 21), Ivyp1, and Ivyp2 proteins and the crystallization conditions of the Ivy/HEWL complexes are described in SI Text.</p><p>Data Collection and Processing. Ivyc. To use the MAD method <ref type="bibr" target="#b21">(22)</ref> to solve the Ivyc structure, a three-wavelength data set was collected at the European Synchrotron Radiation Facility (Grenoble, France) radiation synchrotron facility (BM30A) on a selenomethionine-substituted Ivyc crystal flash-frozen to 105 K. A 1.58-Å resolution data set was also collected on the same crystal at a wavelength of 0.9793 Å (SI Table <ref type="table">1</ref>). The crystal lattice was originally misinterpreted as trigonal P3 1 with two molecules per asymmetric unit <ref type="bibr" target="#b20">(21)</ref> and subsequently reinterpreted as monoclinic, C2, with unit cell parameters a ϭ 81.34, b ϭ 46.96, c ϭ 88.04, and ␤ ϭ 89.95. There are three molecules per asymmetric unit related by a ''frustrated'' P3 1 21 crystallographic symmetry (SI Text). Ivyc/HEWL complex. One crystal of Ivyc/HEWL complex flash-frozen to 105 K was collected at the European Synchrotron Radiation Facility (BM30A) at a wavelength of 0.9798 Å. The crystals belong to the monoclinic space group P2 1 with unit cell parameters a ϭ 55.49 Å, b ϭ 59.56 Å, c ϭ 69.20 Å, and ␤ ϭ 95.39. The packing density for two molecules of complex in the asymmetric unit of these crystals (volume 227,694 Å 3 ) is 2 Å 3 ⅐Da Ϫ1 , indicating an approximate solvent content of 38% <ref type="bibr" target="#b22">(23)</ref>. Statistics of the 1.6-Å resolution data set are presented in SI Table <ref type="table">1</ref>. Ivyp1/HEWL complex. One crystal of Ivyp1/HEWL complex flashfrozen to 105 K was collected at the European Synchrotron Radiation Facility (ID14EH2) at a wavelength of 0.933 Å. The crystals belong to the monoclinic space group P2 1 with unit cell parameters a ϭ 52.35 Å, b ϭ 60.76 Å, c ϭ 78.24 Å, and ␤ ϭ 102.29. The packing density for two molecules of complex in the asymmetric unit (volume 243,158 Å 3 ) is 2.14 Å 3 ⅐Da Ϫ1 , corresponding to a 42.5% solvent content <ref type="bibr" target="#b22">(23)</ref>. Statistics of the 1.8-Å resolution data set are presented in SI Table <ref type="table">1</ref>.</p><p>Structure Determination and Refinement. Ivyc and Ivyc/HEWL. Phase determination was performed by using the SOLVE program <ref type="bibr" target="#b23">(24)</ref>. Phases were calculated on the three wavelengths in the 20-to 2.58-Å resolution range, and a single solution was found with seven sites and a mean figure of merit of 0.85 for all of the data between 20 and 2.58 Å. The phases obtained were improved by using solvent-flattening and histogram-matching techniques as implemented in the DM program <ref type="bibr" target="#b24">(25)</ref>, and the electron-density maps were used to construct the main chain of the molecules by using TURBO-FRODO <ref type="bibr" target="#b25">(26)</ref>. Interestingly, the pseudo symmetry was so strong that it was possible to build most of the structure in the P3 1 space group except for ␣ 3 , 2 , 3 , which could only be refined in the proper space group (SI Text). Preliminary refinement was performed with CNS (27) between 20 and 1.58 Å.</p><p>The initial phasing of the Ivyc/HEWL complex was then carried out by molecular replacement using AMoRe software <ref type="bibr" target="#b27">(28)</ref>. Patter-son rotation and translation search were carried out by using the HEWL coordinates (PDB code 1HEL) and the polyalanine trace of the initial construction (190 of the 270 aa) of the selenomethionine-substituted Ivyc homodimer previously solved by MAD method in the P3 1 space group. The best solution of the translation function search corresponding to two HEWL molecules and the Ivyc homodimer partial structure gave a correlation factor of 43% and an R factor of 44%. Refinement was performed with CNS (27) between 20 and 1.6 Å. The final R work and R free were 18.1 and 21.1, respectively. The model includes 519 residues and 635 water molecules (PDB code 1GPQ; SI Table <ref type="table">1</ref>). We then came back to the free form of the Ivyc structure to compare it with the Ivyc/ HEWL complex structure. Molecular replacement using the refined homodimer Ivyc structure was thus performed on the Ivyc uncomplexed crystal form reprocessed in the C2 space group, and the structure was refined by using CNS and 20-and 1.58-Å data. The final model corresponds to 389 residues and 302 water molecules with R work of 22.5% and R free of 26.0 (SI Table <ref type="table">1</ref>) (PDB code 1XS0). Ivyp1/HEWL. The structure of the Ivyp/Hewl complex was solved by molecular replacement using AMoRe software <ref type="bibr" target="#b27">(28)</ref>, the HEWL structure (PDB code 1HEL) and one monomer of the Ivyc structure (PDB code 1GPQ). The best solution of the translation function search corresponding to two HEWL molecules and two Ivyc monomers gave a correlation factor of 32% and an R factor of 48%. Refinement was performed by using CNS (27) between 20 and 1.8 Å. After refinement, the final R work and R free were 21.3 and 25.0, respectively (SI Table <ref type="table">1</ref>). The model includes 532 residues and 386 water molecules (PDB code 1UUZ).</p><p>Figs. 1a and 2 a, b, and d were generated with the VMD program (29). Fig. <ref type="figure" target="#fig_0">1b</ref> was generated with MOLSCRIPT (30), and Fig. <ref type="figure" target="#fig_1">2c</ref> was generated with TURBO-FRODO <ref type="bibr" target="#b25">(26)</ref>.</p><p>Inhibition Activity Measurements. HEWL activity assay and inhibition studies were performed as described (7) (SI Text). HEWL (70 nM) was preincubated with Ivyp1 (0-200 nM) at room temperature for 15 min before the addition of the Micrococcus lysodeikticus substrate (0.125 mg⅐ml Ϫ1 ). Ivyp1 K i value was determined according to the slow tight binding competitive inhibition model (with no conformational change) <ref type="bibr" target="#b30">(31,</ref><ref type="bibr" target="#b31">32)</ref>. We used the Morrison's quadratic equation as follows:</p><formula xml:id="formula_0">͑V lvyp1 /V 0 ͒ 2 ϩ ͑ V lvyp1 /V 0 ͒ ϫ ͑It/Et ϩ Ki/Et Ϫ 1͒ Ϫ K i /Et ϭ 0, [1]</formula><p>where K i is the apparent dissociation constant, Et, the total enzyme (HEWL) concentration, It the total inhibitor (Ivyp1) concentration, V Ivyp1 , the inhibited velocity for a given concentration of Ivyp1, and V 0 the velocity in absence of inhibitor.</p><p>The K i value was determined by fitting the experimental data onto the V Ivyp1 /V 0 theoretical curves computed from Eq. 1 (SI Fig. <ref type="figure">7a</ref>).</p><p>Knockout Constructions. Two constructions were produced to assay the effect of the Ivyc gene knockout on the E. coli growth in the presence of lysozyme: ⌬Ivy and ⌬Ivy⌬TolB (SI Text).</p><p>Sensitivity to C-Type Lysozyme. E. coli mutants sensitivity to lysozyme was measured on 4-ml deepwell cultures at 25°C in LB plus tetracycline (⌬TolB resistance) or LB plus tetracycline plus kanamycin (⌬TolB⌬Ivy resistance) media inoculated with 200 l of bacterial cells at a 0.5 OD 600 . Increasing concentrations (50 g/ml to 1 mg/ml) of HEWL were added to the growth media, and cell growth was monitored overtime by following their OD absorbance at 600 nm for the two mutants and the ⌬TolB⌬Ivy mutant transformed by the empty pET26 vector as control and the pET26 vector carrying the Ivyc gene used for periplasmic expression of the Ivyc protein. When OD 600 reached 0.5 Ivyc expression was induced by adding 0.5 mM isopropyl ␤-D-thiogalactoside.</p><p>Phylogenetic Analysis of the Ivy Protein Family. Ivy protein sequences were aligned with 3D-coffee (33) by using the PDB files 1GPQB and 1UUZB as structural references. The neighbor-joining phylogeny was computed with Mega3 (34) (option: pairwise deletion, and JTT amino acid substitution model), and bootstrap values were computed from 250 replications. Branches with bootstrap values Ͻ50% were collapsed. The tree was rooted on the branch separating the Ivyc orthologous sequences (harboring the conserved antilysozyme CKPHDC motif) from the Ivyc paralogous sequences harboring a different loop (and of unknown function).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Stereoviews of the Ivyc structure. (a) C␣ trace of the Ivyc monomer (residues 2-128). (b) Ribbon structure of the Ivyc dimer.</figDesc><graphic coords="3,43.16,51.52,246.00,185.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The Ivyc structure. (a) Cartoon representation of the Ivyc-HEWL complex. Monomers of the Ivyc dimer are colored blue and red, and the two lysozyme molecules are colored orange. The Ivyc H60 residues responsible of the HEWL inhibition are represented as light blue balls and sticks. The HEWL D52 residue is colored in yellow, and the E35 is in purple with balls and sticks representation. These two residues are part of the HEWL active site and make hydrogen bonds with the Ivyc H60 residues. The black arrows line up the surface contact area between the Ivyc dimer and each lyzosyme molecule. (b) Cartoon representation of the superimposition of the Ivy molecules in the complex structure (red and pink) and the three isolated Ivyc molecules (yellow, blue, purple) superimposed with one Ivyc molecule from the complex (red). Secondary structure elements are marked on the structure. (c) Stereoview of the electron density map of the Ivyc protruding loop penetrating the HEWL active site. The two Fo Ϫ Fc electronic density map is contoured at 1.0 . Residues are colored by types: basic residues in cyan, acidic residues in red, polar residues in light green, hydrophobic residues in yellow, cysteine residues in green, and aromatic residues in purple. Ivyc H60 and HEWL E35 and D52 are labeled. (d) Interaction of the Ivyc loop (CKPHDC) with the lysozyme active site. Ivyc is represented as a blue ribbon; H60, C57, and C62 are yellow balls and sticks; and the lysozyme active site as molecular surface is colored according to residue types (acidic, red; polar, green; hydrophobic, white; basic, blue).</figDesc><graphic coords="3,42.68,355.12,510.00,268.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Effect of increasing concentrations of HEWL on E. coli mutants' growth kinetics. (a) E. coli MG1655 ⌬tolB⌬ivy. (b) E. coli MG1655 ⌬tolB⌬ivy transformed with the pET26 plasmid expressing the Ivyc protein in the periplasm. For E. coli MG1655 ⌬tolB (JC864) as a control see SI Fig. 6.</figDesc><graphic coords="5,42.68,51.61,510.00,222.00" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6396" xml:id="foot_0"><p>͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0611019104   Abergel et al.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6398" xml:id="foot_1"><p>͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0611019104   Abergel et al.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>We thank <rs type="person">Dr. Jorge Navaza</rs> and <rs type="person">Dr. Hiroyuki Ogata</rs> for helpful discussion, <rs type="person">Pr. Alain Filloux</rs> (<rs type="affiliation">Centre National de la Recherche Scientifique</rs>) for the P. aeruginosa PAO1 genomic DNA, <rs type="person">Dr. Michel Roth</rs> for expert help on the BM30A beamline at the <rs type="institution" subtype="infrastructure">European Synchrotron Radiation Facility</rs>, and <rs type="funder">Marseille-Nice Ge ´nopole for the use of the Proteomic and Bioinformatics platforms</rs>. This study was supported by the <rs type="funder">Centre National de la Recherche Scientifique</rs>, <rs type="funder">French Ministry of Industry</rs> Grant <rs type="grantNumber">4906088</rs>, and the <rs type="funder">French National Ge ´nopole Network</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_mS9vFnK">
+					<idno type="grant-number">4906088</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="en">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="fr">Source Européenne de Rayonnement Synchrotron</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;Alexander Fleming: The Man and the Myth&lt;/i&gt;. Gwyn Macfarlane</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Macfarlane</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/353871</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Isis</title>
+		<title level="j" type="abbrev">Isis</title>
+		<idno type="ISSN">0021-1753</idno>
+		<idno type="ISSNe">1545-6994</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="284" to="285" />
+			<date type="published" when="1985-06">1985</date>
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Oxford, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacFarlane G (1985) Alexander Fleming: The Man and the Myth (Oxford Univ Press, Oxford, UK).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Animal lysozymes c and g: An overview</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Prager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Joliès</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-0348-9225-4_2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Experientia Supplementum</title>
+		<meeting><address><addrLine>Basel, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Birkhäuser Basel</publisher>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="page" from="9" to="31" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Prager EM, Jolle `s P (1996) Animal Lysozymes c and g: An Overview (Birkha ¨user, Basel, Switzerland).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The folding process of hen lysozyme: a perspective from the ‘new view’</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Dobson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s000180050165</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cellular and Molecular Life Sciences CMLS</title>
+		<title level="j" type="abbrev">CMLS, Cell. Mol. Life Sci.</title>
+		<idno type="ISSN">1420-682X</idno>
+		<idno type="ISSNe">1420-9071</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="363" to="371" />
+			<date type="published" when="1998-04">1998</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matagne A, Dobson CM (1998) Cell Mol Life Sci 54:363-371.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Structure of Hen Egg-White Lysozyme: A Three-dimensional Fourier Synthesis at 2 Å Resolution</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C F</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Mair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C T</forename><surname>North</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Sarma</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/206757a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="issue">4986</biblScope>
+			<biblScope unit="page" from="757" to="761" />
+			<date type="published" when="1965-05">1965</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blake CC, Koenig DF, Mair GA, North AC, Phillips DC, Sarma VR (1965) Nature 206:757-761.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Holtje</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exs</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="105" to="110" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holtje JV (1996) Exs 75:105-110.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Inducible Antibacterial Defense System in C. elegans</title>
+		<author>
+			<persName><forename type="first">Gustavo</forename><forename type="middle">V</forename><surname>Mallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Léopold</forename><surname>Kurz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carole</forename><surname>Couillault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathalie</forename><surname>Pujol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Granjeaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuji</forename><surname>Kohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">J</forename><surname>Ewbank</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0960-9822(02)00928-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<title level="j" type="abbrev">Current Biology</title>
+		<idno type="ISSN">0960-9822</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="1209" to="1214" />
+			<date type="published" when="2002-07">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mallo GV, Kurz CL, Couillault C, Pujol N, Granjeaud S, Kohara Y, Ewbank JJ (2002) Curr Biol 12:1209-1214.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Escherichia coli ykfE ORFan Gene Encodes a Potent Inhibitor of C-type Lysozyme</title>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Monchois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chantal</forename><surname>Abergel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Sturgis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Jeudy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Michel</forename><surname>Claverie</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m010297200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="18437" to="18441" />
+			<date type="published" when="2001-05">2001</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Monchois V, Abergel C, Sturgis J, Jeudy S, Claverie JM (2001) J Biol Chem 276:18437-18441.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Dali: a network tool for protein structure comparison</title>
+		<author>
+			<persName><forename type="first">Liisa</forename><surname>Holm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Sander</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0968-0004(00)89105-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Biochemical Sciences</title>
+		<title level="j" type="abbrev">Trends in Biochemical Sciences</title>
+		<idno type="ISSN">0968-0004</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="478" to="480" />
+			<date type="published" when="1995-11">1995</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holm L, Sander C (1995) Trends Biochem Sci 20:478-480.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Periplasmic lysozyme inhibitor contributes to lysozyme resistance in Escherichia coli</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Deckers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Masschalck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aertsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Callewaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G M</forename><surname>Van Tiggelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Atanassova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Michiels</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00018-004-4066-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cellular and Molecular Life Sciences (CMLS)</title>
+		<title level="j" type="abbrev">Cellular and Molecular Life Sciences (CMLS)</title>
+		<idno type="ISSN">1420-682X</idno>
+		<idno type="ISSNe">1420-9071</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1229" to="1237" />
+			<date type="published" when="2004-05-01">2004</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deckers D, Masschalck B, Aertsen A, Callewaert L, Van Tiggelen CG, Atanassova M, Michiels CW (2004) Cell Mol Life Sci 61:1229-1237.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;Escherichia coli tol-pal&lt;/i&gt; Mutants Form Outer Membrane Vesicles</title>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Bernadac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marthe</forename><surname>Gavioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Claude</forename><surname>Lazzaroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Satish</forename><surname>Raina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><surname>Lloubès</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/jb.180.18.4872-4878.1998</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Bacteriology</title>
+		<title level="j" type="abbrev">J Bacteriol</title>
+		<idno type="ISSN">0021-9193</idno>
+		<idno type="ISSNe">1098-5530</idno>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="4872" to="4878" />
+			<date type="published" when="1998-09-15">1998</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernadac A, Gavioli M, Lazzaroni JC, Raina S, Lloubes R (1998) J Bacteriol 180:4872-4878.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The &lt;i&gt;excC&lt;/i&gt; gene of &lt;i&gt;Escherichia coli&lt;/i&gt; K‐12 required for cell envelope integrity encodes the peptidoglycan‐associated lipoprotein (PAL)</title>
+		<author>
+			<persName><forename type="first">Jean‐claude</forename><surname>Lazzaroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raymond</forename><surname>Portalier</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2958.1992.tb01523.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Microbiology</title>
+		<title level="j" type="abbrev">Molecular Microbiology</title>
+		<idno type="ISSN">0950-382X</idno>
+		<idno type="ISSNe">1365-2958</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="735" to="742" />
+			<date type="published" when="1992-03">1992</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lazzaroni JC, Portalier R (1992) Mol Microbiol 6:735-742.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The phylogeny of proteobacteria: relationships to other eubacterial phyla and eukaryotes</title>
+		<author>
+			<persName><forename type="first">Radhey</forename><forename type="middle">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1574-6976.2000.tb00547.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiology Reviews</title>
+		<title level="j" type="abbrev">FEMS Microbiol Rev</title>
+		<idno type="ISSNe">1574-6976</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="367" to="402" />
+			<date type="published" when="2000-10">2000</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gupta RS (2000) FEMS Microbiol Rev 24:367-402.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Host defense in oral and airway epithelia: chromosome 20 contributes a new protein family</title>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">D</forename><surname>Bingle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Null-</forename><forename type="middle">U</forename><surname>Gorr</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biocel.2004.05.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The International Journal of Biochemistry &amp; Cell Biology</title>
+		<title level="j" type="abbrev">The International Journal of Biochemistry &amp; Cell Biology</title>
+		<idno type="ISSN">1357-2725</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2144" to="2152" />
+			<date type="published" when="2004-11">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bingle CD, Gorr SU (2004) Int J Biochem Cell Biol 36:2144-2152.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Lipid mediator-induced expression of bactericidal/ permeability-increasing protein (BPI) in human mucosal epithelia</title>
+		<author>
+			<persName><forename type="first">Geraldine</forename><surname>Canny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ofer</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glenn</forename><forename type="middle">T</forename><surname>Furuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sailaja</forename><surname>Narravula-Alipati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">B</forename><surname>Sisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">N</forename><surname>Serhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sean</forename><forename type="middle">P</forename><surname>Colgan</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.052533799</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="3902" to="3907" />
+			<date type="published" when="2002-03-12">2002</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Canny G, Levy O, Furuta GT, Narravula-Alipati S, Sisson RB, Serhan CN, Colgan SP (2002) Proc Natl Acad Sci USA 99:3902-3907.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The periplasmic serine protease inhibitor ecotin protects bacteria against neutrophil elastase</title>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">T</forename><surname>Eggers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iain</forename><forename type="middle">A</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valerie</forename><forename type="middle">A</forename><surname>Delmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">G</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">S</forename><surname>Craik</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj20031790</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Journal</title>
+		<idno type="ISSN">0264-6021</idno>
+		<idno type="ISSNe">1470-8728</idno>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="107" to="118" />
+			<date type="published" when="2004-04-01">2004</date>
+			<publisher>Portland Press Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eggers CT, Murray IA, Delmar VA, Day AG, Craik CS (2004) Biochem J 379:107-118.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Expression of BPI (bactericidal/permeability-increasing protein) in human mucosal epithelia</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Canny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Serhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Colgan</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bst0310795</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Society Transactions</title>
+		<idno type="ISSN">0300-5127</idno>
+		<idno type="ISSNe">1470-8752</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="795" to="800" />
+			<date type="published" when="2003-08-01">2003</date>
+			<publisher>Portland Press Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levy O, Canny G, Serhan CN, Colgan SP (2003) Biochem Soc Trans 31:795-800.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Functional and biochemical characterization of epithelial bactericidal/permeability-increasing protein</title>
+		<author>
+			<persName><forename type="first">Geraldine</forename><surname>Canny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elke</forename><surname>Cario</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Lennartsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Urban</forename><surname>Gullberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ciara</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ofer</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sean</forename><forename type="middle">P</forename><surname>Colgan</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpgi.00347.2005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Physiology-Gastrointestinal and Liver Physiology</title>
+		<title level="j" type="abbrev">American Journal of Physiology-Gastrointestinal and Liver Physiology</title>
+		<idno type="ISSN">0193-1857</idno>
+		<idno type="ISSNe">1522-1547</idno>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="G557" to="G567" />
+			<date type="published" when="2006-03">2006</date>
+			<publisher>American Physiological Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Canny G, Cario E, Lennartsson A, Gullberg U, Brennan C, Levy O, Colgan SP (2006) Am J Physiol 290:G557-G567.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">PLUNC: A novel family of candidate host defence proteins expressed in the upper airways and nasopharynx</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bingle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Craven</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/hmg/11.8.937</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Human Molecular Genetics</title>
+		<idno type="ISSNe">1460-2083</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="937" to="943" />
+			<date type="published" when="2002-04-15">2002</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bingle CD, Craven CJ (2002) Hum Mol Genet 11:937-943.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Expression and anti-bacterial activity of human parotid secretory protein (PSP)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Geetha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Venkatesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Fasciotto Dunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-U</forename><surname>Gorr</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bst0310815</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Society Transactions</title>
+		<idno type="ISSN">0300-5127</idno>
+		<idno type="ISSNe">1470-8752</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="815" to="818" />
+			<date type="published" when="2003-08-01">2003</date>
+			<publisher>Portland Press Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Geetha C, Venkatesh SG, Dunn BH, Gorr SU (2003) Biochem Soc Trans 31:815-818.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Evidence that acetyl phosphate functions as a global signal during biofilm development</title>
+		<author>
+			<persName><forename type="first">Alan</forename><forename type="middle">J</forename><surname>Wolfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dong‐eun</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><forename type="middle">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeanine</forename><forename type="middle">E</forename><surname>Seitz‐partridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Vidaurri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Birgit</forename><forename type="middle">M</forename><surname>Prüß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Margaret</forename><forename type="middle">C</forename><surname>Henk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">C</forename><surname>Larkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tyrrell</forename><surname>Conway</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2958.2003.03457.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Microbiology</title>
+		<title level="j" type="abbrev">Molecular Microbiology</title>
+		<idno type="ISSN">0950-382X</idno>
+		<idno type="ISSNe">1365-2958</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="977" to="988" />
+			<date type="published" when="2003-05">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wolfe AJ, Chang DE, Walker JD, Seitz-Partridge JE, Vidaurri MD, Lange CF, Pruss BM, Henk MC, Larkin JC, Conway T (2003) Mol Microbiol 48:977-988.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Crystallization and preliminary crystallographic study of b0220, an `ORFan&apos; protein of unknown function from&lt;i&gt;Escherichia coli&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Chantal</forename><surname>Abergel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Monchois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabine</forename><surname>Chenivesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Jeudy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Michel</forename><surname>Claverie</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444900015316</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1694" to="1695" />
+			<date type="published" when="2000-12-01">2000</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abergel C, Monchois V, Chenivesse S, Jeudy S, Claverie JM (2000) Acta Crystallogr D 56:1694-1695.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Selenomethionyl proteins produced for analysis by multiwavelength anomalous diffraction (MAD): a vehicle for direct determination of three-dimensional structure.</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Hendrickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Horton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lemaster</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/j.1460-2075.1990.tb08287.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The EMBO Journal</title>
+		<title level="j" type="abbrev">The EMBO Journal</title>
+		<idno type="ISSN">0261-4189</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1665" to="1672" />
+			<date type="published" when="1990-05">1990</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hendrickson WA, Horton JR, LeMaster DM (1990) EMBO J 9:1665-1672.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Solvent content of protein crystals</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Matthews</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-2836(68)90205-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="491" to="497" />
+			<date type="published" when="1968-04">1968</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthews BW (1968) J Mol Biol 33:491-497.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Automated MAD and MIR structure solution</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">C</forename><surname>Terwilliger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joel</forename><surname>Berendzen</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444999000839</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="849" to="861" />
+			<date type="published" when="1999-04-01">1999</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Terwilliger TC, Berendzen J (1999) Acta Crystallogr D 55:849-861.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">From crystal to structure with CCP4</title>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Cowtan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">S</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444911007578</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="233" to="234" />
+			<date type="published" when="1994">1994</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cowtan K (1994) Joint CCP4 ESF-EACBM Newsl Protein Crystallogr 31:34-38.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">CRYStallize: A crystallographic symmetry display and handling subpackage in TOM/FRODO</title>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Roussel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Null-</forename><forename type="middle">C</forename><surname>Fontecilla-Camps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Cambillau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0263-7855(90)80087-v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Graphics</title>
+		<title level="j" type="abbrev">Journal of Molecular Graphics</title>
+		<idno type="ISSN">0263-7855</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="86" to="88" />
+			<date type="published" when="1991">1991</date>
+			<publisher>Elsevier BV</publisher>
+			<pubPlace>Mountain View, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roussel A, Cambillau C (1991) The TURBO-FRODO Graphics Package (Silicon Graphics, Mountain View, CA).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Crystallography &amp; NMR System: A New Software Suite for Macromolecular Structure Determination</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Brünger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Clore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Delano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Grosse-Kunstleve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nilges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Pannu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Simonson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Warren</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444998003254</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="905" to="921" />
+			<date type="published" when="1998-09-01">1998</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brunger AT, Adams PD, Clore GM, DeLano WL, Gros P, Grosse-Kunstleve RW, Jiang JS, Kuszewski J, Nilges M, Pannu NS, et al. (1998) Acta Crystallogr D 54:905-921.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Implementation of molecular replacement in &lt;i&gt;AMoRe&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Jorge</forename><surname>Navaza</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444901012422</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1367" to="1372" />
+			<date type="published" when="2001-09-21">2001</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Navaza J (2001) Acta Crystallogr D 57:1367-1372.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">VMD: Visual molecular dynamics</title>
+		<author>
+			<persName><forename type="first">William</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Dalke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Schulten</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0263-7855(96)00018-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Graphics</title>
+		<title level="j" type="abbrev">Journal of Molecular Graphics</title>
+		<idno type="ISSN">0263-7855</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="38" />
+			<date type="published" when="1996-02">1996</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Humphrey W, Dalke A, Schulten K (1996) J Mol Graphics 14:33-38.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">MOLSCRIPT: a program to produce both detailed and schematic plots of protein structures</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Kraulis</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889891004399</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="946" to="950" />
+			<date type="published" when="1991-10-01">1991</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kraulis PJ (1991) J Appl Crystallogr 24:946-950.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The Behavior and Significance of Slow‐Binding Enzyme Inhibitors</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">F</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9780470123072.ch5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Enzymol Relat Areas Mol Biol</title>
+		<idno type="ISSNe">1934-4694</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="201" to="301" />
+			<date type="published" when="1988-01">1988</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morrison JF, Walsh CT (1988) Adv Enzymol Relat Areas Mol Biol 61:201-301.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Kinetics of the reversible inhibition of enzyme-catalysed reactions by tight-binding inhibitors</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Morrison</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0005-2744(69)90420-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimica et Biophysica Acta (BBA) - Enzymology</title>
+		<title level="j" type="abbrev">Biochimica et Biophysica Acta (BBA) - Enzymology</title>
+		<idno type="ISSN">0005-2744</idno>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="269" to="286" />
+			<date type="published" when="1969-08">1969</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morrison JF (1969) Biochim Biophys Acta 185:269-286.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">3DCoffee@igs: a web server for combining sequences and structures into a multiple sequence alignment</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Poirot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Suhre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Abergel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>O'toole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Notredame</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkh382</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<title level="j" type="abbrev">Nucleic Acids Research</title>
+		<idno type="ISSN">0305-1048</idno>
+		<idno type="ISSNe">1362-4962</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">Web Server</biblScope>
+			<biblScope unit="page" from="W37" to="W40" />
+			<date type="published" when="2004-07-01">2004</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poirot O, Suhre K, Abergel C, O&apos;Toole E, Notredame C (2004) Nucleic Acids Res 32:W37-W40.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brief Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="150" to="163" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar S, Tamura K, Nei M (2004) Brief Bioinform 5:150-163.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local stress analysis in silicides for submicron electronic devices</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Florian</forename><surname>Heidelbach</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">David Howard -IMEC</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Patrice Gergaud -MATOP</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<settlement>Marseille</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Michel Ignat -LTPCM-INPG</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ingrid</forename><surname>De Wolf -Imec</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Leuven</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Belgium</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Herman Maes -IMEC</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Karen MAex -IMEC</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Local stress analysis in silicides for submicron electronic devices</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">77F95A467D640C62DA05FE4ECDB63480</idno>
+					<note type="submission">Received at ESRF</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:22+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>During the 4 days of our experimental time at ESRF, in total 823 data files, each being one ZD-XKD image (about 2 MBytes/file), were collected. This was mainly possible because part of the data acquisition could be done automatically using a macro file written by Florian Heidelbach. The experiments were performed in mr 1996, and the evaluation of the results is not finished yet. This report is therefore a prelimina m, and lists the experiments done, some practical problems and the first results. No publications were made yet using these data.</p><p>The sample used for the first experiments was a small piece from a Si wafer (about 1x1x0.5 mm3), containing 140 nm thick CoSiz lines (fabricated by annealing 30 nm Co during a two step rapid thermal anneal (450 'C, 100s; 700 'C, 30s) with different dimensions, separated by a 100 nm thin oxide. This sample was glued on a thin glass bar and the bar was mounted in a plastic holder which fitted in the goneometer head. The mounting was such that the CoSi2 lines were perpendicular to the phi rotation axis. This is important, because, when the sample is rotated along this axis, the XRD beam will elongate along the length of the lines, and not along the width. As we do not expect a strain variation along the length of the lines, elongation of the beam does not give a problem. However, if the beam would elongate along the width direction, we would measure different regions along the width of the line (-5 different strain) when changing phi, which would make the results unreliable. The XBD beam was focused through a glass capillary on the sample. The beam radius changes with distance from the capillary. In order to have a small beam (we aimed at a beam diameter &lt; 5 pm), it is important to bring the sample as close as possible to the capillary. Further, this should be done in such a way that the sample does not hit the when rotating. For this reason, the sample was moved, in horizontal position, as close as safely possible to the capillary (see Fig. <ref type="figure">1</ref>, distance dt), and then turned to the correct phi angle for XRD measurements. We did overlook one important detail here, which is important to remember for later measurements. It is explained in Fig. <ref type="figure">1</ref>. The rotation axis for phi is determined by the place on the sample to be measured. In our case, it was close to the left side of the sample, as shown in Fig. <ref type="figure">1</ref> by the black dot. When rotating the sample around this phi axis, the distance increases (dz). A shorter distance (ds), and thus a smaller beam spot, would have been obtained when the rotation axis is close to the right side of the sample as shown in Fig. <ref type="figure">1</ref>, bottom. Because the result of the experiment is better for a smaller beam dimension, this mounting of the sample is very important and should be done as good as possible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eiel; Distance of sample to capillary Eigk Scanning experiment across 5 versus position of the phi axis pm wide CoSi2 lines.</head><p>Besides many tests on the Si (HKL = 440) and on the CoSiz (HKL = 440) lines to obtain a good XRD signal, three main experiments were performed: . ss 5 .yn wade CQ&amp;&amp;S The intention of this experiment is to measure the variation of mechanical stress along the width of 5 pm lines. A scan was performed across 5 pm wide CoSiz lines, starting on top of the first line, and scanning across the second line. This is shown in Fig. <ref type="figure">2</ref>. Each 1 pm, an XRD signal was measured at five different angles phi: 12.5.27.5.35.50 and 62. This is necessary to extract strain data from the XRD signal. Further, a small relative phi scan was done with an relative angle +0.5 and -0.5 around each of these five angles, for example at 12. 12.5, 13 etc.. The XRD images obtained at these three angles will be added to improve the statistics of the experiment. So, at each position of the beam on the sample, 15 spectra were collected, with an integration time of 300 set for each measurement. In total, data were obtained at 16 adjacent positions on the sample. The further processing of these data is still going on. However, to have a first estimation of the magnitude of the XRD beam diameter, the intensity of the CoSi2 signal as function of the position was extracted from the data. This is shown in Fig. <ref type="figure">3</ref>. It is clear from this figure that the CoSi2 signal does not go to zero in between the lines. This indicates that the XRD beam diameter is larger than 5 pm. This is probably due to a too large distance between sample and capillary. However, there is a clear variation of the intensity with position on the lines, indicating that the beam size CC 10 pm. The position of the lines can be estimated from the sign of the 2* derivative of a polynomial lit to the data (dotted line).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eiea; Intensity of CoSi2 signal as function of the position on the sample.</head><p>2. Zoom-out exueriment. In a second experiment the beam was positioned on the sample just outside the first 5 pm CoSi2 line, so that no Co!+ signal was obtained. Next, the distance from sample to capillary was increased in steps of 0.43 mm. This resulted in an enlargement of the beam diameter, so that the beam did probe a small part of the CoSi2 line. The larger the distance, the larger the beam diameter, the larger the part of the CoSi2 line which was probed. In this way, an alternative "zoom-out scan" across the CoSi2 line was performed. Also here, the data still have to be further processed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">CoSh line width</head><p>In order to control whether the strain in the CoSi2 lines changes with line width, XRD measurements were performed on lines with wtdth 3 pm and 2 p.m. Also here one of the main problems was probing the correct lines on the sample. No ophd tool was avadable to control this. Again, data were collected at different phi in order to extract strain information</p><p>The data have to be further processed using the FIT2D program of A.P. Hammersley, of which is a version available at IMEC. There is still a lot of work to do: summing the data for small Phi in order to obtain better statistics, correcting.for the Si, signal which sometimes overlaps with the Co&amp; signal, and extracting the relevant data.for strain calculations. The experiments were very interesting and promising, good signals from the thin Co,%2 could be obtained. We are convinced that we will get some nice results. A lot of know-how was collected during these first experiments with the micro beam, which will be very important for further similar experiments we hope to do with this micro-beam at ESRF.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

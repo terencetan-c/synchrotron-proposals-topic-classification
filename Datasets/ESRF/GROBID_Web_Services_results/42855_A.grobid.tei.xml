@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Esrf</forename><surname>User Office</surname></persName>
+							<email>useroff@esrf.fr</email>
+							<affiliation key="aff0">
+								<address>
+									<addrLine>6 rue Jules Horowitz</addrLine>
+									<postBox>BP 220</postBox>
+									<postCode>F-38043 38043 GRENOBLE</postCode>
+									<settlement>GRENOBLE CEDEX</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">46497E64FCEBE1D58138C1BA0F30B007</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Residual stresses and Performance Optimisation for 3mm Ti-6Al-4V Friction Stir Welded plates</head><p>MN James, A Steuwer and DG Hattingh Beam line scientist: Dr Tomas Buslaps Aims of the experiment and scientific background The underlying aim of the work is to link variation in Friction Stir Welding (FSW) process parameters with residual stress, mechanical properties and dynamic joint performance. Thus synchrotron diffraction residual stress measurements was performed on a set of 5 by 270 mm long welds, made using on MTS iSTIR platform in 3 mm Ti-6Al-4V plate using positional control, a tool rotational speed of 550 rpm and a Lanthanated tungsten tool. Weld conditions are given in Table <ref type="table">1</ref> as are the tensile properties of the welds and the heat input. A backing plate of Haynes 230 alloy was employed to assist in producing sound welds with easy release. These welding parameters produced almost defect-free welds, with only small rootflaws present in all welds.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1: Welding conditions for FSW Ti-6Al-4V Synchrotron Measurements</head><p>Residual stresses were measured in the plates on beam line ID15A at the ESRF, Grenoble. The beam line was operated in energydispersive mode, with two detectors placed at 5 o with respect to the incoming beam. This ensures that the scattering vectors, i.e. the directions in which strain is measured, are virtually orthogonal, thus providing two directions of strain simultaneously. The experimental setup on the ID15A instrument is shown in Fig. <ref type="figure">1</ref>.</p><p>Figure <ref type="figure">2</ref> shows the Vickers hardness values for the set of welds. Some scatter in the data persists, despite repeated measurements and averaging. The hardness of the parent material is of the order 310-320 HV. The hardness increase, but increases significantly to between 340-360HV in the stir zone (nugget). A clear correlation between increase in traverse speed and increase in hardness can be observed in Figure <ref type="figure">2</ref>, suggesting that the decrease in average heat input with increasing traverse speed reduces the hardness. Some metallurgical work was also carried out, using an SEM and EBSD images of the weld and parent regions. This indicated that the parent plate contains about 4% β-phase and that the weld nugget region is virtually free from any β-phase.</p><p>Name Travel speed (mm/min) Pitch (mm/rev) Torque (Nm) x-Force (kN) Z-force (kN) Heat Input (kJ/mm) UTS (MPa) Elongation (%) W5 165 0.30 32 1.2 9.1 0.67 1014 8 W4 135 0.25 31 1.4 8.2 0.79 1010 3 W3 105 0.19 28 1.1 6.9 0.92 1002 5 W2 75 0.14 28 2 6.5 1.29 1029 12 W1 45 0.82 28 2 5.5 2.15 1059 4 PP 980 18</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1</head><p>As one would expect for this alloy, and as confirmed by the EBSD image of the weld nugget, the thermomechanical cycle in FS welding significantly affects the microstructure and the amount of β-phase present in the weld zone. Figure <ref type="figure">3</ref> shows the integrated intensity (in arbitrary units) of the β-(1 1 0) diffraction peak as a function of position from the weld line. It is clear that the very little β is present in the nugget.</p><p>In order to be able to calculate the overall residual stresses in the nugget, the volume fraction of  phase has be approximated (using Figure <ref type="figure">3</ref>) by the formula VF  (x) = VF PM -(0.9VF PM )*Exp(-(x/5) 4 ), with a parent material volume fraction VF PM = 4% as obtained from EBSD. This approximation is scaled to integrated intensity and shown as the 'fit' line in Figure <ref type="figure">3</ref>. Hence less than 0.5% of β phase remains in the stir zone. From the fitted data we can extract the lattice parameters for each phase using GSAS, to allow calculation of strain and hence stresses. The residual stress profiles at the weld line are shown in Figure <ref type="figure">4</ref> and they show an increase in nugget magnitude with increasing travel speed (and thus reduced heat input). This goes hand in hand with the increase in hardness noted above and is reminiscent of similar behaviour observed in the parametric studies of residual stresses in friction stir welds of age-hardening aluminium alloys or steels. All VF corr long stresses -200 -100 0 100 200 300 400 500 -20 -15 -10 -5 0 5 10 15 20 W1 W2 W3 W4 W5 Fig. 3 Fig. 4</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Fig. 2</figDesc><graphic coords="2,40.50,280.30,256.50,198.75" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

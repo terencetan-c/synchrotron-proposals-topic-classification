@@ -1,0 +1,2866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-03-13">March 13, 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Foad</forename><surname>Vashahi</surname></persName>
+							<idno type="ORCID">0000-0003-0696-3062</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599-3290</postCode>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">R</forename><surname>Martinez</surname></persName>
+							<idno type="ORCID">0000-0002-6211-763X</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<addrLine>4400 Fifth Avenue</addrLine>
+									<postCode>15213</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Erfan</forename><surname>Dashtimoghadam</surname></persName>
+							<idno type="ORCID">0000-0001-5607-7961</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599-3290</postCode>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Farahnaz</forename><surname>Fahimipour</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599-3290</postCode>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Keith</surname></persName>
+							<idno type="ORCID">0000-0001-6351-5392</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599-3290</postCode>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Egor</forename><forename type="middle">A</forename><surname>Bersenev</surname></persName>
+							<idno type="ORCID">0000-0001-5609-7794</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Phystech School of Electronics, Photonics, and Molecular Physics</orgName>
+								<orgName type="institution">Moscow Institute of Physics and Technology</orgName>
+								<address>
+									<addrLine>Institutskiy per. 9</addrLine>
+									<postCode>141700</postCode>
+									<settlement>Dolgoprudny</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Problems of Chemical Physics</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<postCode>142432</postCode>
+									<settlement>Chernogolovka</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dimitri</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+							<idno type="ORCID">0000-0002-5905-2652</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Problems of Chemical Physics</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<postCode>142432</postCode>
+									<settlement>Chernogolovka</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Institut de Sciences des Matériaux de Mulhouse-IS2M</orgName>
+								<orgName type="laboratory">UMR 7361</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>15 rue Jean Starcky</addrLine>
+									<postCode>F-68057</postCode>
+									<settlement>Mulhouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Faculty of Chemistry</orgName>
+								<orgName type="institution">Lomonosov Moscow State University</orgName>
+								<address>
+									<addrLine>Leninskie Gory 1/51</addrLine>
+									<postCode>119991</postCode>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ekaterina</forename><forename type="middle">B</forename><surname>Zhulina</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution" key="instit1">Institute of Macromolecular Com- pounds</orgName>
+								<orgName type="institution" key="instit2">Russian Academy of Sciences</orgName>
+								<orgName type="institution" key="instit3">St. Petersburg</orgName>
+								<address>
+									<postCode>199004</postCode>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pavel</forename><surname>Popryadukhin</surname></persName>
+							<idno type="ORCID">0000-0001-5478-5630</idno>
+							<affiliation key="aff6">
+								<orgName type="institution" key="instit1">Institute of Macromolecular Com- pounds</orgName>
+								<orgName type="institution" key="instit2">Russian Academy of Sciences</orgName>
+								<orgName type="institution" key="instit3">St. Petersburg</orgName>
+								<address>
+									<postCode>199004</postCode>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Krzysztof</forename><surname>Matyjaszewski</surname></persName>
+							<email>matyjaszewski@cmu.edu</email>
+							<idno type="ORCID">0000-0003-1960-3402</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<addrLine>4400 Fifth Avenue</addrLine>
+									<postCode>15213</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammad</forename><surname>Vatankhah-Varnosfaderani</surname></persName>
+							<idno type="ORCID">0000-0001-7636-9099</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599-3290</postCode>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+							<email>sergei@email.unc.edu</email>
+							<idno type="ORCID">0000-0003-3672-1611</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599-3290</postCode>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution" key="instit1">Moscow State University</orgName>
+								<orgName type="institution" key="instit2">Moscow State University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Science Advances</title>
+						<title level="j" type="abbrev">Sci. Adv.</title>
+						<idno type="eISSN">2375-2548</idno>
+						<imprint>
+							<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+							<biblScope unit="volume">8</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<date type="published" when="2023-03-13">March 13, 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3B7A6A7EBD0F4224AB3D81BD5465C175</idno>
+					<idno type="DOI">10.1126/sciadv.abm2469</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Injectable hydrogels are desired in many biomedical applications due to their minimally invasive deployment to the body and their ability to introduce drugs. However, current injectables suffer from mechanical mismatch with tissue, fragility, water expulsion, and high viscosity. To address these issues, we design brush-like macromolecules that concurrently provide softness, firmness, strength, fluidity, and swellability. The synthesized linearbottlebrush-linear (LBL) copolymers facilitate improved injectability as the compact conformation of bottlebrush blocks results in low solution viscosity, while the thermoresponsive linear blocks permit prompt gelation at 37°C. The resulting hydrogels mimic the deformation response of supersoft tissues such as adipose and brain while withstanding deformations of 700% and precluding water expulsion upon gelation. Given their low cytotoxicity and mild inflammation in vivo, the developed materials will have vital implications for reconstructive surgery, tissue engineering, and drug delivery applications.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Injectable hydrogels are aqueous polymer solutions that undergo in situ gelation upon deployment to their target environment, such as the human body or porous scaffolds (Fig. <ref type="figure" target="#fig_0">1A</ref>). These materials are vital for reconstructive surgery, tissue engineering, and drug delivery applications as they are minimally invasive, allow filling of irregular cavities, and enable co-injection of drugs and biologics <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref>. The successfully implemented gelation mechanisms carry distinct pros and cons <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref>. For example, covalent crosslinking yields mechanically robust gels, but the uncontrolled leaching of residual crosslinkers, initiators, and monomers is harmful to surrounding tissue <ref type="bibr" target="#b10">(11)</ref>. On the other hand, physically crosslinked gels are formed under innate conditions, and hence are much safer, but they suffer from mechanical weakness, which may lead to fragmentation and migration through the body <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref>. Both classes of injectable hydrogels, composed of linear polymers, require a substantial amount of water (90 to 99%) to lower the solution viscosity (Fig. <ref type="figure" target="#fig_0">1B</ref>) and mimic the characteristic modulus (10 to 1000 Pa) of supersoft tissues such as adipose, brain, and lung tissue. This water content notably exceeds tissues' 70%, which may lead to implant shrinkage due to water expulsion. Furthermore, synthetic hydrogels demonstrate a considerable mechanical mismatch with surrounding tissues <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref>, which is identified as one of the leading causes of inflammation in reconstructive surgery as well as inadequate cell response in tissue engineering <ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref>. All soft tissues demonstrate the characteristic J-shape stress-strain curves, where the initially soft response (~1 to 10 kPa) is followed by intense strain stiffening, also known as firmness, whereby the modulus increases by two or three orders of magnitude (Fig. <ref type="figure" target="#fig_0">1C</ref>) <ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref><ref type="bibr" target="#b22">(23)</ref>. In contrast, while various polymeric systems succeed in achieving soft hydrogels <ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref><ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref>, combining this with tissue-mimetic firmness remains challenging for synthetic systems <ref type="bibr" target="#b29">(30)</ref><ref type="bibr" target="#b30">(31)</ref><ref type="bibr" target="#b31">(32)</ref>.</p><p>Here, we introduce a distinct injectable hydrogel platform based on hydrophilic thermosensitive linear-bottlebrush-linear (LBL) triblock copolymers that self-assemble at body temperature. Unlike current approaches to the design of soft tissue fillers, the developed systems combine vital advantages such as (i) the tissue-mimetic J-shape deformation response at a controlled water fraction, which reduces the mechanical mismatch between the implant and the native tissue; (ii) low viscosity at high polymer concentration to facilitate injectability; (iii) physical crosslinking that eliminates leaching of chemicals into the body; and (iv) mechanical resilience that allows withstanding up to 700% deformations at a low modulus below 1 kPa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>The combination of linear and bottlebrush blocks is pivotal in providing multiple vital improvements to injectable hydrogels. First, brush macromolecules are more compact and less entangled <ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref><ref type="bibr" target="#b34">(35)</ref><ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref>, which facilitates injection by reducing solution viscosity compared to linear counterparts of the same molecular weight and concentration (Fig. <ref type="figure" target="#fig_0">1B</ref>) <ref type="bibr" target="#b37">(38)</ref>. Second, grafted side chains, acting as crosslinker diluents, alleviate the need for a large water content to attain the desired gel softness <ref type="bibr" target="#b13">(14)</ref>. Third, steric repulsion between densely grafted side chains in the brush block instigates strain-stiffening of polymer networks at much lower strains of &lt;200% (Fig. <ref type="figure" target="#fig_0">1C</ref>) <ref type="bibr" target="#b38">(39)</ref>. Like softness, strain stiffening can also be adjusted in a broad range by varying the brush architecture <ref type="bibr" target="#b14">(15)</ref>. Fourth, both chemical and architectural dissimilarity of linear and bottlebrush blocks results in strong microphase separation <ref type="bibr" target="#b39">(40,</ref><ref type="bibr" target="#b40">41)</ref>, which sustain up to 700% deformation as discussed later. Fifth, the softness and disentangled nature of brush networks enhance their swellability, allowing equilibrium swelling ratios up to V gel /V dry = 40 <ref type="bibr" target="#b41">(42)</ref>, which eliminates the after-gelation syneresis.</p><p>To demonstrate the effect of brush architecture on the gelation behavior and resulting mechanical properties, we synthesize two systems of hydrophilic triblock macromolecules with thermosensitive polyethylene glycol (PEG) bottlebrush block and poly(nisopropylacrylamide) (PNIPAM) linear end blocks (Fig. <ref type="figure">2</ref>). In system 1 (LBL), we use reversible addition fragmentation chain transfer (RAFT) to vary the degree of polymerization (DP) of the bottlebrush (bb) backbone, n bb = 274, 550, and 880, while maintaining the same DP of side chains at n sc = 9 (Table <ref type="table">1</ref>). In system 2 [linear-brush-onbrush-linear (LBoBL)], we vary DP of side chains from n sc = 13 to 126 at constant n bb = 399 and n L = 1200 by using a combination of atom transfer radical polymerization (ATRP) and RAFT, respectively. To prevent crystallization of longer PEG in system 2, we use the so-called brush-on-brush strategy, which yields comb-like polymers with brush-like side chains <ref type="bibr" target="#b42">(43)</ref>. In both systems, we deliberately keep the volume fraction of linear block ( L ) below 0.3 to ensure formation of spherical domains <ref type="bibr" target="#b43">(44,</ref><ref type="bibr" target="#b44">45)</ref>.</p><p>Like other temperature-responsive copolymers <ref type="bibr" target="#b43">(44,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47)</ref>, the PNIPAM-bbPEG-PNIPAM triblocks promptly self-assemble upon reaching their lower critical solution temperature (LCST) (Fig. <ref type="figure" target="#fig_1">3A</ref> and fig. <ref type="figure">S7</ref>) to produce two types of polymer networks: hydrogels at body temperature and elastomers after water evaporation (Fig. <ref type="figure" target="#fig_1">3B</ref> and movie S1). The gelation process is ascribed to LCST-triggered microphase separation of the PNIPAM linear (L) blocks, which results in a bottlebrush network, physically crosslinked by spherical L-domains corroborated by small-angle x-ray scattering (SAXS; Fig. <ref type="figure" target="#fig_1">3C</ref>) and consistent with theoretical predictions <ref type="bibr" target="#b39">(40,</ref><ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b47">48)</ref>. The proposed system benefits from PNIPAM's distinct LCST transition within the physiological temperature range (49) yet readily allows application of other thermosensitive polymers such as poly(N-vinyl caprolactam) and polyoxazolines <ref type="bibr" target="#b44">(45,</ref><ref type="bibr" target="#b49">50)</ref>. Strong microphase separation upon temperature stimuli yields soft yet mechanically robust hydrogels that maintain their shape upon extrusion (Fig. <ref type="figure" target="#fig_1">3</ref>, D and E, and movie S2). The optical transparency of both hydrogels and elastomers suggests the formation of homogeneous networks, in contrast to frequently observed turbidity upon microphase separation of linear counterparts <ref type="bibr" target="#b50">(51)</ref><ref type="bibr" target="#b51">(52)</ref><ref type="bibr" target="#b52">(53)</ref>.</p><p>The synthesized LBL triblocks were then dissolved in water at different concentrations to monitor the gelation process as a function of temperature, where the gelation temperature (T gel ) is identified as intersection of the storage modulus, G′ (T), and loss modulus, G′′ (T), curves (Fig. <ref type="figure" target="#fig_2">4</ref>, A and B, and figs. S8 to S10). The self-assembly process is reversible, as demonstrated both by returning to the initial modulus upon cooling and by prompt responses to cyclic temperature variations (fig. <ref type="figure" target="#fig_0">S11</ref>). Depending on LBL structural composition (Fig. <ref type="figure" target="#fig_2">4A</ref>) or solution concentration (Fig. <ref type="figure" target="#fig_2">4B</ref>), T gel varies within a range of cloud points T c ≅ 28 ° to 40 ° C (Fig. <ref type="figure" target="#fig_2">4C</ref>, Table <ref type="table">1</ref>, and table <ref type="table">S1</ref>). Like in all thermosensitive polymers <ref type="bibr" target="#b53">(54,</ref><ref type="bibr" target="#b54">55)</ref>, onset of gelation shifts to lower temperatures with increasing solution concentration (Fig. <ref type="figure" target="#fig_2">4C</ref>). At a constant concentration, T gel decreases with increasing linear block size, while the effects of n bb and n sc are marginal (Table <ref type="table">1</ref>, systems 1 and 2). The n L effect is consistent with the theoretically predicted scaling relation (</p><formula xml:id="formula_0">T gel -T 0 ) / T gel ~ n L -1/2</formula><p>(inset in Fig. <ref type="figure" target="#fig_2">4C</ref>), where T 0 corresponds to sign reversal of the second virial coefficient of NIPAM-NIPAM interaction (eq. S4 and fig. <ref type="figure" target="#fig_0">S18</ref>).</p><p>The gel storage modulus G 37 , measured at the physiological temperature of 37°C, shows strong dependence on both solution concentration and LBL composition (n bb , n sc , n L , and  L ), which allows covering the entire soft tissue range from 10 to 10 5 Pa (Fig. <ref type="figure" target="#fig_2">4D</ref>). Especially, strong effect is demonstrated by the lower concentration gels [5 weight % (wt %)] that cover two orders of magnitude in modulus upon increasing  L from 0.05 to 0.25. The observed modulus increase is ascribed to the correspondingly increasing size of L-domains measured by SAXS (Fig. <ref type="figure" target="#fig_1">3C</ref> and table <ref type="table">S3</ref>), which corresponds to higher aggregation numbers, i.e., degree of crosslinking. Physical properties, such as solution viscosity and gel modulus, can be further adjusted using four-arm star-like LBL block copolymers (Figs. <ref type="figure" target="#fig_0">1C</ref> and <ref type="figure" target="#fig_2">4D</ref>, respectively), representing the scope of future studies.</p><p>The physically crosslinked gels are mechanically resilient-a vital feature for reconstructive body implants that are subjected to recurrent and large deformations-as confirmed by cyclic strain sweep tests showing a high yield strain of  y ≅ 300% (Fig. <ref type="figure" target="#fig_3">5A</ref>). Depending on the LBL composition, the  y may reach up to 700% as observed for the sample, LBL-880-9-24% with n bb = 880,  L = 0.22, and G 37 = 450 Pa (tables S4 to S6 and figs. S12 and S13). The deformation-caused dissociation process is fully reversible, as demonstrated by G′ recovery upon strain decrease (Fig. <ref type="figure" target="#fig_3">5A</ref>, inset; figs. S12, S13, and S23; and tables S4 to S6), indicative of prompt recovery upon dynamic deformation. The mechanical resilience is corroborated by uniaxial compression test, where an LBL hydrogel (15 wt %) withstands up to fourfold compression (Fig. <ref type="figure" target="#fig_3">5B</ref>). This behavior is on par with covalently crosslinked hydrogels and represents a substantial improvement of physically crosslinked injectable hydrogels that are typically very brittle <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b43">44)</ref>. Furthermore, the 10 to 30 wt % LBL hydrogels do not exhibit any sign of syneresis, which is attributed to a relatively high equilibrium swelling ratio ranging from 12 to 24 (table <ref type="table">S7</ref>). This behavior is consistent with the swellability enhancement observed in chemical brush networks caused by disentanglement of bottlebrush networks strands and soft elasticity of brush networks <ref type="bibr" target="#b41">(42)</ref>.</p><p>Characterization of the strain-stiffening behavior requires tensile tests that are straightforward for dry elastomer but quite challenging for physically crosslinked LBL hydrogels due to their prompt</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>System 2 LBoBL</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>System 1 LBL</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig. 2. Synthesis of thermoresponsive copolymers.</head><p>A bifunctional CTA (bfCTA) ( <ref type="formula">1</ref>) is prepared via an esterification procedure (Materials and Methods). System 1: LBL triblock (LBL)-two-step RAFT polymerization of PEG methyl ether methacrylate (PEGMA; M w = 500 g mol -1 ) yields bb-CTA (2) and PNIPAM linear blocks at both bottlebrush ends (3). System 2: LBoBL triblock (LBoBL)-three-step polymerization of PNIPAM-BoBPEG-PNIPAM triblock with ATRP functionality. bfCTA is used to synthesize comb-like middle block containing OEO 3 MA and branches with bromine functionality (4) required for polymerizing linear PNIPAM chains at both ends <ref type="bibr" target="#b4">(5)</ref>. ATRP polymerization of triethylene glycol methyl ether acrylate (PEGA; M w = 218 g mol -1 ) (using Br-terminated side chains) allows the preparation of PNIPAM-BoBPEG-PNIPAM LBoBLs with n sc = 13, 24, 67, and 126 <ref type="bibr" target="#b5">(6)</ref>. For more details, see Materials and Methods.</p><p>Downloaded from <ref type="url" target="https://www.science.org">https://www.science.org</ref> at Moscow State University on <ref type="bibr" target="#b60">March 13, 2023</ref> dissociation upon removal from a thermal bath. To resolve this issue, we develop two complementary synthetic strategies for post-gelation crosslinking that, depending on application, enable either slow spontaneous or rapid on-demand fixation of LBL hydrogels. The first approach is based on the Diels-Alder (DA) chemistry involving the synthesis of two complementary LBL structures with furan and maleimide functional groups in their L-blocks that slowly (~10 hours) couple following the microphase separation above LCST (figs. S14 and S15). The second strategy is empowered by incorporating a controlled fraction of ultraviolet (UV)-curable methacrylate groups within the PNIPAM L-blocks that react on demand under mild UV irradiation ( = 365 nm) (Materials and Methods; fig. <ref type="figure" target="#fig_4">S16</ref>). The formation of permanent networks is verified by swelling the crosslinked samples in organic solvents over a period of 7 days (fig. <ref type="figure" target="#fig_0">S17</ref>) without the loss of optical transparency (figs. S17 and S21). This allows tensile tests of LBL hydrogels and quantitative comparison of their deformation behavior with that of linear chain hydrogels and soft tissues (Fig. <ref type="figure" target="#fig_3">5C</ref> and fig. <ref type="figure" target="#fig_0">S18</ref>). The LBL hydrogels demonstrate much steeper strain stiffening characterized by a firmness parameter of  ≅ 0.2, which is considerably higher than  ≅ 0.01 of linear hydrogels (table <ref type="table">S8</ref>). The beta parameter depends on the microphase separated morphology (domain size, aggregation number), the interaction parameter, and the block dimensions. It can be enhanced by increasing the side-chain length and volume fraction of the linear blocks or by synthesizing brush blocks with shorter backbones <ref type="bibr" target="#b35">(36)</ref>. Although the superior firmness of tissues ( ≅ 0.4 to 0.9) is not achieved, the current LBL hydrogels allow mimicking tissues such as lung and gut that are located at the lower boundary of the tissue firmness range <ref type="bibr" target="#b13">(14)</ref>.</p><p>After water evaporation, we obtain dry transparent elastomers (Fig. <ref type="figure" target="#fig_3">5D</ref>) that are stiffer and more strain stiffening than the cor responding LBL hydrogels (table <ref type="table">S2</ref>). Like the hydrogels, they exhibit the characteristic J-shape stress-strain response matching that of stiffer tissues such as porcine skin and aorta (fig. <ref type="figure" target="#fig_0">S19</ref>). Furthermore, the PNIPAM-bbPEG-PNIPAM elastomers are significantly stronger than their PMMA (polymethyl methacrylate)-bbPDMS (polydimethylsiloxane)-PMMA counterparts <ref type="bibr" target="#b39">(40)</ref> as they attain a stress at break of 3.5 MPa, notably higher than the 0.6 MPa of the PMMA/PDMS systems. The strength enhancement is ascribed to (i) hydrogen bonding between PNIPAM chains and brush PEGs upon progressive withdrawal of the PNIPAM linear block from L-domains upon deformation and (ii) well-defined structure of LBL due to a higher retention of chain-end functionality during the RAFT polymerization of bottlebrush backbone.</p><p>Biocompatibility of the LBL hydrogels is validated by cytotoxicity tests (ISO 10993-5) and in vivo injection to animal models (Fig. <ref type="figure" target="#fig_4">6</ref>). NIH/3T3 fibroblasts demonstrate 86% viability when exposed to aqueous extracts from an LBL hydrogel for 24 hours (Fig. <ref type="figure" target="#fig_4">6A</ref>). Cells' proliferation on LBL substrates is monitored by fluorescence microscopy over the course of 7 days (Fig. <ref type="figure" target="#fig_4">6B</ref>) and further corroborated by the progressively increasing DNA content in cultured cells over the time of experiment (Fig. <ref type="figure" target="#fig_4">6C</ref>). To evaluate the tissue reaction to LBL hydrogels, we examine animal models subjected to intramuscular injection followed by prompt gelation at body temperature. Figure <ref type="figure" target="#fig_4">6D</ref> shows explanted samples and the micrographs of tissue cross-sections taken at ×4, ×10, and ×20 magnifications harvested after 3-day and 1-week implantation, inflammatory phase of the wound healing process <ref type="bibr" target="#b55">(56)</ref>. Upon clinical examination, the samples are localized at the injected site, forming a round cavity without visible spreading into the surrounding tissue. After 1 week, the samples are Table <ref type="table">1</ref>. Architectural parameters and gelation properties. Four series (A to D) of LBL and LBoBL triblocks with different degrees of polymerization (DP) of bottlebrush backbone (n bb ), linear block (n L ), and side chains (n sc ), determined by NMR spectroscopy (figs. S5 and S6). In system 2 (series D), the brush block includes PEG side chains and PEG spacers between the side chains, resulting in n bb = n b + n s , where indices b and s represent brush DP = 144 and spacer DP = 255, respectively.  L = V lin /(V lin + V bb ) is the volume fraction of linear blocks. T gel is gelation temperature at the intersection of the G′(T) and G′′ (T) curves (Fig. <ref type="figure" target="#fig_2">4</ref>, <ref type="figure">A</ref> and <ref type="figure">B</ref>). G 37 corresponds to storage modulus measured at 37°C and 1 Hz. The NA (not applicable) cells in series A and C indicate that T gel is outside the physiological range (T gel &gt; 37°C). See table S1 for the complete set of measurements at different concentrations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Series</head><p>n bb n sc  L n L T gel ( ° C) G 37 (Pa) Nomenclature System 1-at 20 wt % A 274 9 0.05 34 NA NA LBL-274-9-6% 0.12 79 32.4 284 LBL-274-9-12% 0.24 188 30.8 583 LBL-274-9-24% B 550 9 0.05 60 33.2 119 LBL-550-9-6% 0.12 169 32.4 317 LBL-550-9-12% 0.20 310 29.6 713 LBL-550-9-24% C 880 9 0.05 113 NA NA LBL-880-9-6% 0.13 294 30.7 267 LBL-880-9-12% 0.22 542 29.2 454 LBL-880-9-24% System 2-at 10 wt % D 399 13 0.31 1200 33.6 1.7 LBoBL-399-13-31% 24 0.22 35.2 3.7 LBoBL-399-24-22% 67 0.10 32.9 141 LBoBL 399-67-10% 126 0.06 33.4 147 LBoBL-399-126-6% Downloaded from <ref type="url" target="https://www.science.org">https://www.science.org</ref> at Moscow State University on March 13, 2023</p><p>found to be fully intact and distinctly separated from surrounding muscle tissue. The injected samples are well tolerated, with no evidence of clinically visible inflammatory response or necrosis in surrounding tissues (Fig. <ref type="figure" target="#fig_4">6D</ref>, i and ii). According to the histological analysis of the specimens stained with hematoxylin and eosin (H&amp;E), injected hydrogels are intact and surrounded by a smooth capsule at 3 days and 1 week after surgical injection. The capsule presents a layer of young connective tissue with a small amount of loose subtle collagen fibers, infiltrated with macrophages and a small number of lymphocytes. No multinucleated foreign body giant cells are observed. After 1 week, a tendency of declining inflammation is observed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Hydrophilic thermoresponsive LBL triblock copolymers afford a powerful platform for the design of injectable tissue-mimetic hydrogels and elastomers. Both the mechanical properties and gelation temperature can be finely tuned by the triblock architecture at a given solution concentration. Concentrated yet low viscosity aqueous solutions of LBL triblocks promptly respond to physiological temperature enabling injection along with prompt gelation at a controlled water fraction. Upon drying, thermoplastic elastomers are obtained, which can be either dissolved or molded at an elevated temperature. Both hydrogels and elastomers demonstrate tissue-like mechanical properties characterized by the oxymoronic combination of softness and firmness, resulting in the characteristic J-shape of stress-strain curves. Because of a high aggregation number f ~ 150 and the equilibrium nature of the gelation process, LBL hydrogels are mechanically robust, sustaining ~700% deformation and promptly reassociating if ruptured. By incorporating UV-or temperaturetriggered crosslinkers in L-domains, reversible networks can be converted to permanent hydrogels that resist accidental temperature variations. As supported by in vitro and in vivo studies, the injectable hydrogels can be used as either body fillers for reconstructive surgery or bio-inks when mixed with cells for tissue engineering. These materials are readily adaptable for additive manufacturing of shape-specific objects such as organs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>PEG methyl ether methacrylate [PEGMA; M w = 500 g mol -1 ; 200 parts per million (ppm) hydroquinone monomethyl ether (MEHQ) as inhibitor] was purchased (Sigma-Aldrich) and purified passing through an aluminum oxide column (twice). NIPAM (97%, M w = 113.16 g mol -1 ) was purchased from Sigma-Aldrich and TCI America and recrystallized using a 50:50 mixture of toluene/hexane (three times) for purification. Potassium tert-butoxide (reagent grade, ≥98%; Sigma-Aldrich) iodine (flakes, ReagentPlus, ≥99%; Sigma-Aldrich) and 2,2′-azobis(2-methylpropionitrile) (AIBN; 98%; Sigma-Aldrich) as the RAFT initiator were used as received. For UV chemical crosslinking, UV photocrosslinker Irgacure 2595 (BASF) was used. Triethylene glycol methyl ether methacrylate (OEO 3 MA; 93%; Sigma-Aldrich) and triethylene glycol methyl ether acrylate (OEO 3 A; 95%; TCI) were passed through basic alumina plugs to remove inhibitor. Copper(I) bromide (CuBr; 99.999%; Sigma-Aldrich), copper(II) bromide (CuBr 2 ; 98%; Acros), -bromoisobutyryl bromide (98%; Sigma-Aldrich), ethylene glycol (99.8%; Sigma-Aldrich), tris[2-(dimethylamino)ethyl]amine (Me 6 TREN; Sigma-Aldrich), N,N′dicyclohexylcarbodiimide (DCC), 4-(dimethylamino)pyridine (DMAP; 98%; Sigma-Aldrich), 2-hydroxyethyl methacrylate (HEMA; &gt;99%; Sigma-Aldrich), ethylene diamine (for synthesis; Sigma-Aldrich), anhydrous ethylene glycol (Sigma-Aldrich; 99.8%), ethanol amine (Sigma-Aldrich, ≥98%), furan (Acros, 99%; Sigma-Aldrich), maleic anhydride (99%; Sigma-Aldrich), isophorone diisocyanate (TCI, 98%; Sigma-Aldrich), furfuryl isocyanate (97%; Sigma-Aldrich), 2-isocyanatoethyl methacrylate (≤0.1% 2(3)-t-butylhydroquinone monomethyl ether (BHT) as inhibitor, 98%; Sigma-Aldrich), 4,4′-azobis(4-cyanovaleric acid) (≥98%; Sigma-Aldrich), dibutyltin dilaurate (DBTDL; TCI, 95%; Sigma-Aldrich), and PEG bis[2-(dodecylthiocarbonothioylthio)-2methylpropionate] (average M n = 10,800) were used as received B Concentration effect A Composition effect Tuning gelation temperature C Covering tissue softness D without further purification. Reagent-grade toluene, anisole, tetrahydrofuran (THF), hexane, ethyl acetate, heptane, carbon disulfide, dichloromethane (DCM), methanol, and acetone were used as organic solvents for polymerization and purification purposes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chain transfer agent</head><p>In a typical synthesis, 1-dodecanethiol (10.5 ml, 0.044 mol) is added over 5 to 10 min to a cold mixture of potassium tert-butoxide (4.932 g, 0.044 mol) and 200 ml of heptane in a 250-ml flask, under constant stirring. After 1 hour, within a period of 10 min, CS 2 (3.3 g, 0.044 mol) is added and stirred for 30 min and then at room temperature for an additional 1 hour. To the slurry, iodine (6 g, 0.024 mol) is added and stirred overnight. The mixture was washed with deionized water (three times) and once with saturated water sodium thiosulfate. To the dried product (5 g, 9 mmol) in 100 ml of ethyl acetate, 4,4′-azobis(4-cyanovaleric acid) (9.9 mmol, 2.8 g) is added and refluxed at 88°C overnight. The product was washed with water (three times) and then dried with magnesium sulfate. The purified chain transfer agent (CTA) was recrystallized in hexane.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bifunctional CTA</head><p>In a 100-ml round-bottom flask equipped with magnet and stopper, ethylene glycol (1.78 mmol, 0.111 g), DCC (3.72 mmol, 0.767 g) is added with 30 ml of dry DCM as solvent. Diluted CTA (3.72 mmol, 1.5 g) in 10 ml of DCM is added dropwise in a period of 10 min followed by one-shot injection of catalytic amount of DMAP (0.37 mmol, 0.045 g) diluted in 10 ml of DCM. The reaction was stirred overnight at room temperature. Afterward, the organic layer is washed with water (three times) and further purified using column chromatography (50:50 ethyl acetate/hexane).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tetrafunctional star-CTA</head><p>In a 100-ml round-bottom flask equipped with magnet and stopper, pentaerythritol (0.91 mmol, 0.124 g), DCC (3.72 mmol, 0.767 g) is added with dry pyridine as solvent. CTA (3.72 mmol, 1.5 g) diluted  <ref type="table">S8</ref>). The linear hydrogels remain soft in a broad range of deformations, while the initially soft LBL stiffen with deformation, demonstrating the characteristic J-shape mechanical response. (D) Tensile stress-strain curves of PNIPAM-bbPEG-PNIPAM elastomers of different compositions [n bb , L ] demonstrate much higher strength compared to the hydrophobic PMMA-bbPDMS-PMMA from <ref type="bibr" target="#b39">(40)</ref>.</p><p>Downloaded from <ref type="url" target="https://www.science.org">https://www.science.org</ref> at Moscow State University on March 13, 2023 in 10 ml of DCM was added dropwise in a 10-min period followed by one-shot injection of DMAP (0.37 mmol, 45 mg) diluted in 10 ml of DCM. Reaction proceeds overnight; afterward, organic layer is washed with water (three times) and further purified using column chromatography (50:50 ethyl acetate/hexane).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Linear PNIPAM-PEG-PNIPAM</head><p>In a typical synthesis, in a Schlenk flask equipped with stir bar, 1 g (92.</p><p>6 mol) of PEG bis[2-(dodecylthiocarbonothioylthio)-2methylpropionate] is dissolved in 6 ml of 1,4-dioxane with 1 g (8.83 mmol) of NIPAM followed by 9.26 mol (1.5 g) of AIBN. The mixture is purged with nitrogen for 1 hour, and the reaction started by lowering the flask in 65°C oil bath. The reaction stopped at desired conversion [checked with 1 H nuclear magnetic resonance (NMR) spectroscopy; fig. S1] and precipitated in hexane three times.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LBL triblocks (system 1)</head><p>Step 1: In a typical synthesis, a 100-ml Schlenk flask was equipped with a stir bar, and a solution of monomer (PEG methacrylate methyl ether, 0.02 mol), bifunctional CTA (bfCTA;0.05 mmol), initiator (AIBN, 0.005 mmol), and toluene (3:1 monomer) was added and sparged with nitrogen for 1 hour. Polymerization was started by placing the flask in an oil bath at 61°C. Polymerization was stopped by exposing to air at 75% conversion (tracked using 1 H NMR). Purified polymer , which solidifies at body temperature and returns to the liquid state upon explantation. Clinical examination of (i) surgical site and (ii) explanted specimens suggests that the intramuscular implants are localized within a confined injection cavity. The micrographs of different magnifications (as indicated) show tissue cross-sections stained with hematoxylin and eosin. At lower magnifications, the injected LBL hydrogels are seen to form a well-defined oval-shaped cavity surrounded by a moderate capsule. The histology evaluation showed the slight to moderate inflammatory response with a tendency to decline. Downloaded from <ref type="url" target="https://www.science.org">https://www.science.org</ref> at Moscow State University on <ref type="bibr" target="#b60">March 13, 2023</ref> was precipitated from toluene/hexane (three times) yielding bb-CTA.</p><p>Step 2: In a typical synthesis, a 100-ml Schlenk flask was equipped with a stir bar, bb-CTA (0.005 mol), and NIPAM (0.0052 mol). The solids were dissolved in a solution of toluene/acetone/PEG (3:1:1) with AIBN (0.0005 mol) as initiator. The solution was sparged with nitrogen for 1 hour. Polymerization started by placing the flask in an oil bath at 63°C. After 3 hours, the polymer was precipitated in acetone/hexane three times. The resulting polymer is a triblock copolymer, PNIPAM-bbPEG-PNIPAM, dried by casting into films using Teflon petri dish. The volume fraction of the L-block ( L ) was determined via 1 H NMR (fig. <ref type="figure" target="#fig_3">S5</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LBoBL triblocks (system 2)</head><p>Step 1: a 100-ml Schlenk-modified flask was loaded with OEO 3 MA (40.9 ml, 0.2 mol), 2-(2-bromoisobutryloxy)ethyl methacrylate (13.7 ml, 64 mmol), AIBN (2.5 mg, 15 mol), bfCTA [2 ml of a stock solution (0.111 g ml -1 ) in N,N′-dimethylformamide (DMF), 0.26 mmol], anisole (50 ml), and a magnetic stir bar. The mixture was degassed by three cycles of freeze-pump thaw. The reaction was started by immersion in an oil bath set to 70°C. Polymerization was stopped once conversion reached 39.9% by 1 H NMR spectroscopy. The crude product was purified by dialysis against a 1-kDa MWCO RC-treated dialysis membrane in a 50% methanol/THF solution. The product was dried overnight to yield the P(BiBEM 144 -co-OEO 3 MA 255 ) backbone as a viscous oil. Purity was confirmed by 1 H NMR. Step 2: A 1000-ml Schlenk-modified flask was loaded with NIPAM (133.78 g, 1.18 mol) and a magnetic stir bar. The NIPAM was dissolved in 530 ml of deionized water and cooled in an ice bath before P(BiBEM 144 -co-OEO 3 MA 255 ) (5.6 g, 116 mol of trithiocarbonate chain ends assuming the polymer has a M n, th = 96,850) was added as a stock solution in dioxane (80 ml) with an additional 20 ml of DMF. The flask was wrapped in aluminum foil and sparged with nitrogen gas for 4 hours in a large ice bath. The flask and ice bath were loaded into a blue light chamber. The reaction was started by turning on the blue light ( max = 460 nm, intensity = 14.9 mW/cm 2 ) and stopped after 35 min. The crude product was purified by dialysis against a 2-kDa RC-treated dialysis membrane in a 70% methanol/ THF solution with six solvent changes and precipitated into diethyl ether three times. Purity was confirmed by 1 H NMR. Step 3: In a typical synthesis, PNIPAM 1200 -b-P(BiBEM 144 -co-OEO 3 MA 255 )-b-PNIPAM 1200 (1.98 g, 0.79 mmol, BiBEM) and copper(II) bromide (22 mg, 99 mol) were added to a 100-ml Schlenk flask with a magnetic stir bar. The solids were dissolved in DMF (12 ml), anisole (50 ml), OEO 3 A (16.7 ml, 79 mmol), and Me 6 TREN (82 l, 0.3 mmol). The flask was sealed and degassed by freezing in liquid nitrogen, evacuation under vacuum, and thawing for a total of three rounds. On the last round, the flask was opened under a strong flow of nitrogen gas, and copper(I) bromide (28 mg, 0.2 mmol) was quickly added. Polymerization started at room temperature and was stopped once conversion of the side chain was of the desired length, by extrapolation to conversion by 1 H NMR. The reaction mixture was quenched with air, diluted with THF, purified by dialysis against a 50-kDa RC-treated dialysis membrane in a 70% methanol/THF solution with six solvent changes, and precipitated into diethyl ether (figs. S6 and S22 and table <ref type="table">S9</ref>). The recipe used to prepare the PNIPAM 1200 -b-P(BiBEMg-OEO 3 A 126 ) 144 -co-OEO 3 MA 255 )-b-PNIPAM 1200 brush used a higher molar ratio of [OEO 3 A]/[BiBEM] = 200.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Star-like LBL</head><p>The procedure follows synthesis of system 1 but with star-CTA as RAFT agent for synthesis of four-arm backbone, followed by using four-arm bottlebrush-CTA as macroinitiator to grow linear PNIPAM domains (fig. <ref type="figure" target="#fig_2">S4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isocyanate-terminated maleimide adduct for DA crosslinking (system 1)</head><p>In a typical synthesis, maleic anhydride (10 g, 0.102 mol) is initially protected with furan (21 g, 0.306 mol) in 100 ml of toluene in a 250-ml round-bottom flask at 80°C for 24 hours. Afterward, the solvent is fully evaporated, and the product is recrystallized twice from cold acetone (3,6-exo-1,2,3,6-tetrahydrophthalic anhydride). The product (10 g, 0.06 mol) is refluxed in 100 ml of methanol with dropwise addition of ethanol amine (0.12 mol, 7.35 g) in ice bath for 30 min at room temperature and refluxed at 80°C for 24 hours. Afterward, the solvent is fully evaporated, and the product is recrystallized from ethanol and chloroform twice forming protected 2-hydroxyethylmaleimide (PHEMI). In 50 ml of dry DCM, PHEMI (10 g, 0.048 mol) is dissolved with catalytic amount of dibutyltin dilaurate. Excess isophorone diisocyanate (0.48 mol, 106 g) diluted in 10 ml of dry DCM is added dropwise over 30 min. Reaction is left at room temperature for 24 hours. Afterward, the solvent is evaporated using nitrogen and the product is washed with minimal amount of DCM and excess dry hexane (fig. <ref type="figure" target="#fig_3">S15</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DA crosslinking of tissue-mimetic hydrogel</head><p>The LBL triblock is functionalized with copolymerization of HEMA (compound 7, &lt;5 mol %; fig. <ref type="figure">S8</ref>) during the second step of RAFT (system 1) and is modified via postpolymerization. The functionalized LBL is purged with nitrogen and reacted with excess AIBN at 65°C overnight to remove CTA end groups and cap both chain ends. The product is treated with excess maleimide-isocyanate and furfuryl isocyanate DA adducts in two separate reactions with DCM as the solvent at room temperature and catalytic amount of DBT-DL. LBLs participated with hexane, and the two polymers with DA moieties were mixed and cast at room temperature to afford linear domain crosslinked bottlebrush elastomer (fig. <ref type="figure" target="#fig_2">S14</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>UV chemical crosslinking of tissue-mimetic hydrogel</head><p>In a typical procedure, OH-functionalized capped LBL form system 1 is dissolved in deionized water, mixed with a water-soluble photoinitiator (Irgacure 2595, BASF), casted in a Teflon petri dish, and placed in an oven at 37°C for 1 hour to ensure macrophase separation. The physically crosslinked gel was quickly placed under UV for 2 min under nitrogen. The resultant gel is chemically crosslinked in linear domains (fig. <ref type="figure" target="#fig_4">S16</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dynamic mechanical analysis</head><p>Samples were cast from THF with concentration of ~20% and dried overnight on a balanced table. Dumbbell shapes with dimension of 12 mm × 2 mm × 1 mm were cut from the film for mechanical analysis. Samples were uniaxially extended up to the breaking point using an RSA-G2 dynamic mechanical analysis (DMA) system from TA Instruments at a constant strain rate of 0.005 s -1 and ambient temperature of 20° to 21°C. All samples were measured at least three times (except one sample with two measurements). To measure stress strain of LBL hydrogels at room temperature, chemically crosslinked dog bones were initially cut out of dry elastomer, swollen to Q = 3, and subjected to uniaxial tensile test. To measure compressive stress strain of physically crosslinked hydrogel, a 6-ml syringe containing the 15 wt % LBL solution was placed in an oven at 40°C for 10 min. The luer lock was cut, and the gel was plunged into heated medium (water at 40°C). The container was placed on DMA module and subjected to compressive strain.</p><p>Downloaded from <ref type="url" target="https://www.science.org">https://www.science.org</ref> at Moscow State University on March 13, 2023</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rheology</head><p>To study the rheological behavior of the hydrogels, three different samples with concentrations of 5, 10, and 20% in water for each of the synthesized polymers were prepared. All measurements were done using AR-G2 rheometer (TA Instruments) equipped with stainless-steel plate (40 mm diameter) equipped with a solvent trap to prevent excess evaporation in higher temperatures. We measure storage and loss modulus (G′ and G′′, respectively) for a range of temperature and frequencies. Temperature measurements ranging from 20° to 40°C with a rate of 1°C/min at a frequency of 1 Hz were carried out. The dependency of storage and loss modulus on the strain-frequency variation was done for three representative frequencies of 0.1, 1.0, and 10 Hz at a constant temperature of 37°C. For this study, the applied strain was varied from 0.01 to 10,000%. In addition, the response of the synthesized hydrogels was assessed with time-temperature sweep. In this regard, initial temperature was set to 20°C and ramped up to 37°C while sampling over time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>X-ray scattering measurements and analysis</head><p>The small-angle x-ray (SAXS) measurements were carried out at the ID02 beamline of the European Synchrotron Radiation Facility in Grenoble, France. The experiments were conducted in transmission geometry using a photon energy of 12.4 keV. The recorded 2D data were centered, calibrated, regrouped, and reduced to 1D using the SAXS utilities platform described elsewhere <ref type="bibr" target="#b56">(57)</ref>. The analysis of the SAXS data was performed using the small-angle neutron scattering (SANS) and Ultra-Small-Angle Neutron Scattering (USANS) data reduction and analysis package provided by NIST for the Igor Pro environment (WaveMetrics Ltd.). The monochromatic x-ray beam was collimated on the sample to a footprint of 50 m × 100 m. Hybrid photon-counting detector Eiger2 4M (Dectris Ltd., Switzerland) was implemented in the vacuum flight tube at a 3-m sampledetector distance. Because of high flux, the acquisition times were less than 10 ms. No specific radiation damage was observed during the measurements. For quantitative analysis of SAXS curves, we model the scattering intensity as I(q) ≈ (q)S(q), where S(q) is the structure factor and (q) is the form factor of homogeneous monodisperse spheres. The polydispersity effect was incorporated by a convolution of the scattering intensity with the Gaussian size distribution functions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PrestoBlue assay</head><p>The cytotoxicity of extracts from the thermoresponsive gel was studied according to ISO standard 10993-5 to resemble the first 24 hours of cellular response of the clinical administration. The thermoresponsive gel samples were placed into the extraction medium containing Dulbecco's modified Eagle's medium (DMEM), supplemented with 10% fetal calf serum (FCS) and 1% mixture of penicillin/ streptomycin (Sigma-Aldrich) at a concentration of 3 cm 2 /ml. The samples were stored at 37°C and 5% CO 2 for 24 hours. The fibroblasts (NIH/3T3, American Type Culture Collection) were seeded on a 96-well plate at an initial concentration of 10 4 cells/cm 2 and incubated for 24 hours. Then, the culture media were replaced by the extract's media and incubated at 37°C and 5% CO 2 . The cellular viability was analyzed after 24 hours by using PrestoBlue cell viability reagent (Invitrogen) according to the manufacturer's protocol. At the end of incubation time, the culture medium was replaced with 10% of resazurin-based PrestoBlue reagent, and the fluorescence intensity was recorded with a microplate reader (BioTek Instruments) at 544-nm/590-nm excitation/emission wavelength after 30 min of incubation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA quantification assay</head><p>NIH/3T3 proliferation in contact with thermoresponsive gel was evaluated for 7 days. To analyze the cellular proliferation, NIH/3T3 fibroblasts were cultured at the density of 5 × 10 5 cells/ml with DMEM basal culture medium supplemented with 10% FCS and 1% penicillin/streptomycin. The NIH/3T3 fibroblasts were incubated at 37°C and 5% CO 2 . To assess the cellular proliferation, the fibroblasts were collected at 3, 5, and 7 days for DNA quantification. The DNA content of the cells was measured using the Quanti-iT PicoGreen dsDNA Kit (Invitrogen) based on the manufacturer's protocol. Further, immunohistochemical staining was performed to monitor the cell number using a Cytopainter Green Fluorescence F-actin staining kit and 4′,6-diamidino-2-phenylindole (DAPI) following the manufacturer's instructions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In vivo study</head><p>For this study, male Wistar white rats (weight, 350 to 400 g; age, 6 to 7 weeks old) were used in accordance with principles of the European Convention, Strasbourg, 1986 and the Helsinki Declaration of the World Medical Association for the Humane Treatment of Animals 1996. The rats were kept in a humidity-and temperature-controlled environment, on a 12-hour/12-hour light/dark cycle, with food and water made available ad libitum. Under general anesthesia, the injectable thermoresponsive gel samples were injected in the musculus adductor magnus on both hindlimbs. After surgical administration, animals were kept in individual cages. The tissue surrounding injected thermoresponsive specimens were explanted at 3 days and 1 week after surgery. For histological tissue evaluation, the harvested tissue specimens were fixed in 10% neutral formalin (pH 7.4) and then dehydrated in a series of ascending ethanol solutions (50, 70, 90, and 100% ethanol, 5 min each). Then, the dehydrated specimens were embedded in paraffin. The 5-m paraffin slides were sectioned and deparaffinized. The slides were then stained with H&amp;E after rehydration in a graded ethanol solution series (100, 90, and 70% ethanol, 5 min each, dH 2 O for 10 min). Tissue sections were studied using light microscopy (Leica), and micrographs of tissue cross-sections were taken at ×4, ×10, ×20, and ×40 magnifications from each time point. Institutional animal care and use committee guidelines were followed with animal subjects.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Injectable hydrogels. (A) Injection of a polymer solution at room temperature followed by in situ gelation in a target environment such as biological tissue at 37°C. The formed hydrogel has a well-defined interface with the surrounding tissue while matching its mechanical properties. (B) Complex viscosity as a function of solution concentration for three block copolymer architectures: linear PNIPAM-PEG-PNIPAM triblock (M n = 65 kDa), LBL PNIPAM-bbPEG-PNIPAM triblock (M n = 432 kDa), and four-arm star with bbPEG-PNIPAM diblock arms (M n = 472 kDa) (figs. S1 to S4). The arrow indicates the favored trend in the injectable hydrogel design: achieving lower viscosity at a higher concentration to facilitate in vivo injections and three-dimensional (3D) printing applications. Despite higher molecular weight, brush polymer solutions are more fluid compared to their linear counterparts at the same concentration. (C) Mechanical mismatch between linear hydrogels and biological tissues. The LBL systems studied in this paper mimic both the initial softness and J-shape deformation response of soft tissues. Downloaded from https://www.science.org at Moscow State University on March 13, 2023</figDesc><graphic coords="2,119.63,249.46,126.98,93.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Tissue-mimetic thermosensitive hydrogels and elastomers. (A) LBL triblock copolymers with linear PNIPAM and bottlebrush PEG blocks form a homogeneous solution in water at 25°C. Upon heating above LCST, gelation occurs because of microphase separation of the PNIPAM blocks. LBL hydrogel implants can be either removed through cooling-induced network dissociation or permanently crosslinked by reactive monomeric units purposely incorporated within L-block. (B) Reversible transition between clear solutions of LBL triblocks at 25°C and transparent hydrogels at 37°C. After solvent evaporation, an optically transparent film is formed and placed over a picture of the University of North Carolina (UNC) well. Underneath the pictures, solution viscosity gel and Young's modulus ranges of the synthesized LBLs are indicated (tables S1 and S2). (C) 1D SAXS curves of selected LBLs. The dashed lines mark the minima of the sphere form factor (d 2 ) and the interference peak (d 3 ) (40), related to the diameter and ordering of PNIPAM domains dispersed in the PEG bottlebrush matrix (inset), respectively. The PNIPAM domain size increases with n L at an aggregation number of Q ≅ 150 (tableS3), in agreement with the previously studied PMMA-bbPDMS-PMMA elastomers<ref type="bibr" target="#b47">(48)</ref>. a.u., arbitrary units. (D) Swift gelation of an LBL solution (20 wt %) upon injection into water at 37°C using two needle sizes, 20 gauge (20G) and 27 gauge (27G) (movie S1). Pink and blue organic dyes were added for optical distinction. (E) From left to right, 3D printing of the UNC logo with LBL hydrogel (27 gauge), the UNC logo printed with the same hydrogel mixed with the Brilliant Blue dye, and 30 mm × 30 mm × 1 mm honeycomb, respectively, using a Cellink Biox 3D printer. Downloaded from https://www.science.org at Moscow State University on<ref type="bibr" target="#b60">March 13, 2023</ref> </figDesc><graphic coords="5,92.63,67.43,419.42,359.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Gelation properties. Temperature sweeps of aqueous solutions of representative LBL copolymers (figs. S8 and S9) measured at (A) three different volume fractions of the linear PNIPAM block (LBL-550-9-x%) and (B) three different solution concentrations (LBL-550-9-12%), as indicated. Solid and dashed lines correspond to the storage and loss moduli (G′ and G′′), respectively. The vertical blue bars in (A) and (B) correspond to body temperature of 37°C. (C) The gelation temperature (T gel ) decreases with DP of PNIPAM linear block (n L ) at three different solution concentrations. The symbol shapes are defined in (D). Inset: Log-log plot of the relative gelation temperature  = (T gel -T 0 )/T gel versus n L demonstrates the square root decay as  ~ n L -0.5 (eqs. S1 to S7). (D) The gel storage modulus, G 37 , measured at 37°C, increases with both solution concentration and volume fraction of the PNIPAM block ( L ). The star symbols show G 37 of hydrogels formed by self-assembly of four-arm block copolymers with bbPEG-PNIPAM diblock arms (n bb = 687, n L = 447, n sc = 9, and  L = 0.22) (fig. S4). Downloaded from https://www.science.org at Moscow State University on March 13, 2023</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Mechanical properties. (A)Representative forward and reverse shear strain sweeps at 1 Hz give the yield strain ( y ) measured at the G′ and G′′ intersect (hollow circle) for PNIPAM-bbPEG-PNIPAM solution (n bb = 550,  L = 0.12, c = 20 wt %, LBL-550-9-12%). Inset: Reverse (G R ) versus forward (G F ) taken at 10% strain at the same frequency (solid circle) calculated form and cycles (tables S4 to S6). This LBL hydrogel maintains linear viscoelasticity up to a shear strain of  ≅ 100% (solid circle), followed by shear-thinning due to dissociation of the physical networks at  ≅ 300% (hollow circle). (B) Uniaxial compression of a cylindrical sample of PNIPAM-bbPEG-PNIPAM (n bb = 550,  L = 0.2, c = 15 wt %, LBL-550-9-24%) at 37°C in water (0.5 mm/s, h 0 = 11.7 mm). Small amount of Brilliant Blue dye was added to the hydrogel for optical contrast. The corresponding true stress-compression curve along with the sample snapshots captured at different degrees of compression demonstrates material resilience up to 400% strain. (C) Stress-strain curves of chemically crosslinked LBL hydrogels (3 and 4) at Q = 3 versus linear hydrogels (5 and 6) (58, 59) measured upon uniaxial extension. Curves 1 and 2 represent two biological tissues, 1 and 2, fetal membrane and gut, respectively (tableS8). The linear hydrogels remain soft in a broad range of deformations, while the initially soft LBL stiffen with deformation, demonstrating the characteristic J-shape mechanical response. (D) Tensile stress-strain curves of PNIPAM-bbPEG-PNIPAM elastomers of different compositions [n bb , L ] demonstrate much higher strength compared to the hydrophobic PMMA-bbPDMS-PMMA from<ref type="bibr" target="#b39">(40)</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>BFig. 6 .</head><label>6</label><figDesc>Fig. 6. Toxicity and in vivo assessment. (A) Cytotoxicity assay shows 86% viability of NIH/3T3 fibroblasts exposed to 24-hour aqueous extracts from a PNIPAM-bb-PEG-PNIPAM hydrogel (n bb = 336, n L = 502,  L = 0.26, T gel = 32 ° C, E 0, gel ~ 3 kPa, E 0, dry = 37.7 kPa, G = 8.4 kPa,  = 0.25) relative to negative and positive counts (NC and PC). (B) Proliferation of the cells cultured on a PNIPAM-bbPEG-PNIPAM sample is monitored by fluorescent microscopy over a period of 7 days (Materials and Methods). (C) DNA concentration in the cultured cells increases over a period of 7 days, which corroborates the cell proliferation. (D) Tissue examination 3 days and 1 week after intramuscular injection of LBL hydrogel (n bb = 587, n L = 461,  L = 0.26, T gel = 32 ° C, E 0, gel ~ 2 kPa, E 0, dry = 106 kPa, G = 20.3 kPa,  = 0.32), which solidifies at body temperature and returns to the liquid state upon explantation. Clinical examination of (i) surgical site and (ii) explanted specimens suggests that the intramuscular implants are localized within a confined injection cavity. The micrographs of different magnifications (as indicated) show tissue cross-sections stained with hematoxylin and eosin. At lower magnifications, the injected LBL hydrogels are seen to form a well-defined oval-shaped cavity surrounded by a moderate capsule. The histology evaluation showed the slight to moderate inflammatory response with a tendency to decline.</figDesc><graphic coords="8,120.83,77.64,372.50,376.10" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from https://www.science.org at Moscow State University on<ref type="bibr" target="#b60">March 13, 2023</ref> </p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY MATERIALS</head><p>Supplementary material for this article is available at <ref type="url" target="https://science.org/doi/10.1126/sciadv.abm2469">https://science.org/doi/10.1126/  sciadv.abm2469</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Photoactivated Composite Biomaterial for Soft Tissue Restoration in Rodents and in Humans</title>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">T</forename><surname>Hillel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shimon</forename><surname>Unterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zayna</forename><surname>Nahas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Branden</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeannine</forename><forename type="middle">M</forename><surname>Coburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joyce</forename><surname>Axelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jemin</forename><forename type="middle">J</forename><surname>Chae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qiongyu</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Trow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhipeng</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Serge</forename><surname>Lichtsteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Damon</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christine</forename><surname>Matheson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patricia</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathaniel</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susumu</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Janis</forename><forename type="middle">M</forename><surname>Taube</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><forename type="middle">H</forename><surname>Elisseeff</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/scitranslmed.3002331</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science Translational Medicine</title>
+		<title level="j" type="abbrev">Sci. Transl. Med.</title>
+		<idno type="ISSN">1946-6234</idno>
+		<idno type="ISSNe">1946-6242</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">93</biblScope>
+			<biblScope unit="page">67</biblScope>
+			<date type="published" when="2011-07-27">2011</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note>3, 93ra</note>
+	<note type="raw_reference">A. T. Hillel, S. Unterman, Z. Nahas, B. Reid, J. M. Coburn, J. Axelman, J. J. Chae, Q. Guo, R. Trow, A. Thomas, Z. Hou, S. Lichtsteiner, D. Sutton, C. Matheson, P. Walker, N. David, S. Mori, J. M. Taube, J. H. Elisseeff, Photoactivated composite biomaterial for soft tissue restoration in rodents and in humans. Sci. Transl. Med. 3, 93ra67 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">In situ-forming injectable hydrogels for regenerative medicine</title>
+		<author>
+			<persName><forename type="first">Null-</forename><forename type="middle">A</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Junseok</forename><surname>Yeom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Byung</forename><forename type="middle">Woo</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allan</forename><forename type="middle">S</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sei</forename><forename type="middle">Kwang</forename><surname>Hahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.progpolymsci.2014.07.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Polymer Science</title>
+		<title level="j" type="abbrev">Progress in Polymer Science</title>
+		<idno type="ISSN">0079-6700</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1973" to="1986" />
+			<date type="published" when="2014-12">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-A. Yang, J. Yeom, B. W. Hwang, A. S. Hoffman, S. K. Hahn, In situ-forming injectable hydrogels for regenerative medicine. Prog. Polym. Sci. 39, 1973-1986 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Injectable hydrogels as unique biomedical materials</title>
+		<author>
+			<persName><forename type="first">Lin</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiandong</forename><surname>Ding</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b713009k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Society Reviews</title>
+		<title level="j" type="abbrev">Chem. Soc. Rev.</title>
+		<idno type="ISSN">0306-0012</idno>
+		<idno type="ISSNe">1460-4744</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">1473</biblScope>
+			<date type="published" when="2008">2008</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Yu, J. Ding, Injectable hydrogels as unique biomedical materials. Chem. Soc. Rev. 37, 1473-1481 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Highly Elastic and Conductive Human‐Based Protein Hybrid Hydrogels</title>
+		<author>
+			<persName><forename type="first">Nasim</forename><surname>Annabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Su</forename><forename type="middle">Ryon</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Tamayol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Miscuglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohsen</forename><forename type="middle">Afshar</forename><surname>Bakooshli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Assmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pooria</forename><surname>Mostafalu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeong‐yun</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Suzanne</forename><surname>Mithieux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Louis</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaowu</forename><forename type="middle">(shirley)</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">S</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Khademhosseini</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201503255</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="40" to="49" />
+			<date type="published" when="2016">2016</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Annabi, S. R. Shin, A. Tamayol, M. Miscuglio, M. A. Bakooshli, A. Assmann, P. Mostafalu, J.-Y. Sun, S. Mithieux, L. Cheung, X. S. Tang, A. S. Weiss, A. Khademhosseini, Highly elastic and conductive human-based protein hybrid hydrogels. Adv. Mater. 28, 40-49 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Injectable Cryogels for Biomedical Applications</title>
+		<author>
+			<persName><forename type="first">Loek</forename><forename type="middle">J</forename><surname>Eggermont</surname></persName>
+			<idno type="ORCID">0000-0002-2151-7653</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zachary</forename><forename type="middle">J</forename><surname>Rogers</surname></persName>
+			<idno type="ORCID">0000-0002-4422-7907</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Thibault</forename><surname>Colombani</surname></persName>
+			<idno type="ORCID">0000-0003-3258-5093</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Adnan</forename><surname>Memic</surname></persName>
+			<idno type="ORCID">0000-0003-4639-8168</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sidi</forename><forename type="middle">A</forename><surname>Bencherif</surname></persName>
+			<idno type="ORCID">0000-0002-7704-5608</idno>
+		</author>
+		<idno type="DOI">10.1016/j.tibtech.2019.09.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Biotechnology</title>
+		<title level="j" type="abbrev">Trends in Biotechnology</title>
+		<idno type="ISSN">0167-7799</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="418" to="431" />
+			<date type="published" when="2020-04">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. J. Eggermont, Z. J. Rogers, T. Colombani, A. Memic, S. A. Bencherif, Injectable cryogels for biomedical applications. Trends Biotechnol. 38, 418-431 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Injectable Self‐Healing Natural Biopolymer‐Based Hydrogel Adhesive with Thermoresponsive Reversible Adhesion for Minimally Invasive Surgery</title>
+		<author>
+			<persName><forename type="first">Lei</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cong</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lei</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuhe</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Can</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhengnan</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pengfei</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaojun</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yian</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peng</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chengyun</forename><surname>Ning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guoxin</forename><surname>Tan</surname></persName>
+			<idno type="ORCID">0000-0001-7334-753X</idno>
+		</author>
+		<idno type="DOI">10.1002/adfm.202007457</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Functional Materials</title>
+		<title level="j" type="abbrev">Adv Funct Materials</title>
+		<idno type="ISSN">1616-301X</idno>
+		<idno type="ISSNe">1616-3028</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">2007457</biblScope>
+			<date type="published" when="2021-01-20">2021</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Zhou, C. Dai, L. Fan, Y. Jiang, C. Liu, Z. Zhou, P. Guan, Y. Tian, J. Xing, X. Li, Y. Luo, P. Yu, C. Ning, G. Tan, Injectable self-healing natural biopolymer-based hydrogel adhesive with thermoresponsive reversible adhesion for minimally invasive surgery. Adv. Funct. Mater. 31, 2007457 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Drug-releasing implants: current progress, challenges and perspectives</title>
+		<author>
+			<persName><forename type="first">Abel</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moom</forename><surname>Sinn Aw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manpreet</forename><surname>Bariana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tushar</forename><surname>Kumeria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ye</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dusan</forename><surname>Losic</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4tb00548a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. B</title>
+		<title level="j" type="abbrev">J. Mater. Chem. B</title>
+		<idno type="ISSN">2050-750X</idno>
+		<idno type="ISSNe">2050-7518</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">37</biblScope>
+			<biblScope unit="page" from="6157" to="6182" />
+			<date type="published" when="2014">2014</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Santos, M. S. Aw, M. Bariana, T. Kumeria, Y. Wang, D. Losic, Drug-releasing implants: Current progress, challenges and perspectives. J. Mater. Chem. B 2, 6157-6182 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Synthesis, properties, and biomedical applications of gelatin methacryloyl (GelMA) hydrogels</title>
+		<author>
+			<persName><forename type="first">Kan</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Grissel</forename><surname>Trujillo-De Santiago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><forename type="middle">Moisés</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Tamayol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nasim</forename><surname>Annabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Khademhosseini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2015.08.045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<title level="j" type="abbrev">Biomaterials</title>
+		<idno type="ISSN">0142-9612</idno>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="254" to="271" />
+			<date type="published" when="2015-12">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Yue, G. Trujillo-de Santiago, M. M. Alvarez, A. Tamayol, N. Annabi, A. Khademhosseini, Synthesis, properties, and biomedical applications of gelatin methacryloyl (GelMA) hydrogels. Biomaterials 73, 254-271 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Designing hydrogels for controlled drug delivery</title>
+		<author>
+			<persName><forename type="first">Jianyu</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">J</forename><surname>Mooney</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/natrevmats.2016.71</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Materials</title>
+		<title level="j" type="abbrev">Nat Rev Mater</title>
+		<idno type="ISSNe">2058-8437</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">16071</biblScope>
+			<date type="published" when="2016-10-18">2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Li, D. J. Mooney, Designing hydrogels for controlled drug delivery. Nat. Rev. Mater. 1, 16071 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">In situ forming hydrogels based on chitosan for drug delivery and tissue regeneration</title>
+		<author>
+			<persName><forename type="first">Li</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qi</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xuemin</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huifang</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ajps.2016.07.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Asian Journal of Pharmaceutical Sciences</title>
+		<title level="j" type="abbrev">Asian Journal of Pharmaceutical Sciences</title>
+		<idno type="ISSN">1818-0876</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="673" to="683" />
+			<date type="published" when="2016-12">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Liu, Q. Gao, X. Lu, H. Zhou, In situ forming hydrogels based on chitosan for drug delivery and tissue regeneration. Asian J. Pharm. Sci. 11, 673-683 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The Effect of Silicone Gel Bleed on Capsular Contracture</title>
+		<author>
+			<persName><forename type="first">Hunter</forename><forename type="middle">R</forename><surname>Moyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bahair</forename><forename type="middle">H</forename><surname>Ghazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><surname>Losken</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/prs.0b013e318262f174</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plastic &amp; Reconstructive Surgery</title>
+		<idno type="ISSN">0032-1052</idno>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="793" to="800" />
+			<date type="published" when="2012-10">2012</date>
+			<publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. R. Moyer, B. H. Ghazi, A. Losken, The effect of silicone gel bleed on capsular contracture: A generational study. Plast. Reconstr. Surg. 130, 793-800 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Silicone breast implants and autoimmune rheumatic diseases: myth or reality</title>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">Willem</forename><surname>Cohen Tervaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maartje</forename><forename type="middle">J</forename><surname>Colaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">René</forename><forename type="middle">R</forename><surname>Van Der Hulst</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/bor.0000000000000391</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Rheumatology</title>
+		<idno type="ISSN">1040-8711</idno>
+		<idno type="ISSNe">1531-6963</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="348" to="354" />
+			<date type="published" when="2017-07">2017</date>
+			<publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. W. Cohen Tervaert, M. J. Colaris, R. R. van der Hulst, Silicone breast implants and autoimmune rheumatic diseases: Myth or reality. Curr. Opin. Rheumatol. 29, 348-354 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">US FDA Breast Implant Postapproval Studies</title>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">J</forename><surname>Coroneos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jesse</forename><forename type="middle">C</forename><surname>Selber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anaeze</forename><forename type="middle">C</forename><surname>Offodile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">E</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">W</forename><surname>Clemens</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/sla.0000000000002990</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Surgery</title>
+		<idno type="ISSN">0003-4932</idno>
+		<idno type="ISSNe">1528-1140</idno>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="30" to="36" />
+			<date type="published" when="2019-01">2019</date>
+			<publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. J. Coroneos, J. C. Selber, A. C. Offodile, C. E. Butler, M. W. Clemens, US FDA breast implant postapproval studies: Long-term outcomes in 99,993 patients. Ann. Surg. 269, 30-36 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Bottlebrush Bridge between Soft Gels and Firm Tissues</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Vatankhah-Varnosfaderani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Clair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Farahnaz</forename><surname>Fahimipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erfan</forename><surname>Dashtimoghadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdelaziz</forename><surname>Lallam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Sztucki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitri</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heyi</forename><surname>Liang</surname></persName>
+			<idno type="ORCID">0000-0002-8308-3547</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+			<idno type="ORCID">0000-0002-6484-7409</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<idno type="DOI">10.1021/acscentsci.9b01216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Central Science</title>
+		<title level="j" type="abbrev">ACS Cent. Sci.</title>
+		<idno type="ISSN">2374-7943</idno>
+		<idno type="ISSNe">2374-7951</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="413" to="419" />
+			<date type="published" when="2020-01-22">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. N. Keith, M. Vatankhah-Varnosfaderani, C. Clair, F. Fahimipour, E. Dashtimoghadam, A. Lallam, M. Sztucki, D. A. Ivanov, H. Liang, A. V. Dobrynin, S. S. Sheiko, Bottlebrush bridge between soft gels and firm tissues. ACS Cent. Sci. 6, 413-419 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Independently Tuning Elastomer Softness and Firmness by Incorporating Side Chain Mixtures into Bottlebrush Network Strands</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Keith</surname></persName>
+			<idno type="ORCID">0000-0001-6351-5392</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Clair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdelaziz</forename><surname>Lallam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Egor</forename><forename type="middle">A</forename><surname>Bersenev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitri</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+			<idno type="ORCID">0000-0002-5905-2652</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yuan</forename><surname>Tian</surname></persName>
+			<idno type="ORCID">0000-0002-7277-1408</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+			<idno type="ORCID">0000-0002-6484-7409</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.0c01725</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="9306" to="9312" />
+			<date type="published" when="2020-10-23">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. N. Keith, C. Clair, A. Lallam, E. A. Bersenev, D. A. Ivanov, Y. Tian, A. V. Dobrynin, S. S. Sheiko, A. N. Keith, C. Clair, A. Lallam, E. A. Bersenev, D. A. Ivanov, Y. Tian, A. V. Dobrynin, S. S. Sheiko, Independently tuning elastomer softness and firmness by incorporating side chain mixtures into bottlebrush network strands. Macromolecules 53, 9306-9312 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A Perspective on the Clinical Translation of Scaffolds for Tissue Engineering</title>
+		<author>
+			<persName><forename type="first">Matthew</forename><forename type="middle">J</forename><surname>Webber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omar</forename><forename type="middle">F</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefanie</forename><forename type="middle">A</forename><surname>Sydlik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><forename type="middle">C</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Langer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10439-014-1104-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Biomedical Engineering</title>
+		<title level="j" type="abbrev">Ann Biomed Eng</title>
+		<idno type="ISSN">0090-6964</idno>
+		<idno type="ISSNe">1573-9686</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="641" to="656" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. Webber, O. F. Khan, S. A. Sydlik, B. C. Tang, R. Langer, A perspective on the clinical translation of scaffolds for tissue engineering. Ann. Biomed. Eng. 43, 641-656 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Injectable hydrogels delivering therapeutic agents for disease treatment and tissue engineering</title>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+			<idno type="ORCID">0000-0002-5002-0910</idno>
+		</author>
+		<idno type="DOI">10.1186/s40824-018-0138-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials Research</title>
+		<title level="j" type="abbrev">Biomater Res</title>
+		<idno type="ISSNe">2055-7124</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="2018-09-26">2018</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. H. Lee, Injectable hydrogels delivering therapeutic agents for disease treatment and tissue engineering. Biomater. Res. 22, 27 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Hydrogels with tunable stress relaxation regulate stem cell fate and activity</title>
+		<author>
+			<persName><forename type="first">Ovijit</forename><surname>Chaudhuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luo</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Darinka</forename><surname>Klumpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Max</forename><surname>Darnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sidi</forename><forename type="middle">A</forename><surname>Bencherif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">C</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathaniel</forename><surname>Huebsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hong-Pyo</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evi</forename><surname>Lippens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georg</forename><forename type="middle">N</forename><surname>Duda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">J</forename><surname>Mooney</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat4489</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="326" to="334" />
+			<date type="published" when="2016">2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Chaudhuri, L. Gu, D. Klumpers, M. Darnell, S. A. Bencherif, J. C. Weaver, N. Huebsch, H. P. Lee, E. Lippens, G. N. Duda, D. J. Mooney, Hydrogels with tunable stress relaxation regulate stem cell fate and activity. Nat. Mater. 15, 326-334 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mechanical biocompatibility of highly deformable biomedical materials</title>
+		<author>
+			<persName><forename type="first">Edoardo</forename><surname>Mazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">E</forename><surname>Ehret</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmbbm.2015.03.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanical Behavior of Biomedical Materials</title>
+		<title level="j" type="abbrev">Journal of the Mechanical Behavior of Biomedical Materials</title>
+		<idno type="ISSN">1751-6161</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="100" to="124" />
+			<date type="published" when="2015-08">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Mazza, A. E. Ehret, Mechanical biocompatibility of highly deformable biomedical materials. J. Mech. Behav. Biomed. Mater. 48, 100-124 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Biomechanics of Soft Tissue</title>
+		<author>
+			<persName><forename type="first">Gerhard</forename><forename type="middle">A</forename><surname>Holzapfel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-012443341-0/50107-1</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Materials Behavior Models</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1057" to="1071" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. A. Holzapfel, Biomechanics of soft tissue. Handb. Mater. Behav. Model. 3, 1049-1063 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Describing the firmness, springiness and rubberiness of food gels using fractional calculus. Part II: Measurements on semi-hard cheese</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Faber</surname></persName>
+			<idno type="ORCID">0000-0002-4092-8263</idno>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jaishankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Mckinley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.foodhyd.2016.06.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Food Hydrocolloids</title>
+		<title level="j" type="abbrev">Food Hydrocolloids</title>
+		<idno type="ISSN">0268-005X</idno>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="325" to="339" />
+			<date type="published" when="2017-01">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. J. Faber, A. Jaishankar, G. H. McKinley, Describing the firmness, springiness and rubberiness of food gels using fractional calculus. Part II: Measurements on semi- hard cheese. Food Hydrocoll. 62, 325-339 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Nonlinear elasticity in biological gels</title>
+		<author>
+			<persName><forename type="first">Cornelis</forename><surname>Storm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><forename type="middle">J</forename><surname>Pastore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Mackintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Lubensky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">A</forename><surname>Janmey</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature03521</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">435</biblScope>
+			<biblScope unit="issue">7039</biblScope>
+			<biblScope unit="page" from="191" to="194" />
+			<date type="published" when="2005-05">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Storm, J. J. Pastore, F. C. MacKintosh, T. C. Lubensky, P. A. Janmey, Nonlinear elasticity in biological gels. Nature 435, 191-194 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Nonlinear Elasticity: From Single Chain to Networks and Gels</title>
+		<author>
+			<persName><forename type="first">Jan-Michael Y.</forename><surname>Carrillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fred</forename><forename type="middle">C</forename><surname>Mackintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma400478f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3679" to="3692" />
+			<date type="published" when="2013-04-26">2013</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Y. Carrillo, F. C. MacKintosh, A. V. Dobrynin, Nonlinear elasticity: From single chain to networks and gels. Macromolecules 46, 3679-3692 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Inputs of Macromolecular Engineering in the Design of Injectable Hydrogels Based on Synthetic Thermoresponsive Polymers</title>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Pertici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Trimaille</surname></persName>
+			<idno type="ORCID">0000-0002-0488-0346</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Didier</forename><surname>Gigmes</surname></persName>
+			<idno type="ORCID">0000-0002-8833-8393</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.9b00705</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="682" to="692" />
+			<date type="published" when="2020-01-16">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Pertici, T. Trimaille, D. Gigmes, Inputs of macromolecular engineering in the design of injectable hydrogels based on synthetic thermoresponsive polymers. Macromolecules 53, 682-692 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Mechanically tunable conductive interpenetrating network hydrogels that mimic the elastic moduli of biological tissue</title>
+		<author>
+			<persName><forename type="first">Vivian</forename><forename type="middle">R</forename><surname>Feig</surname></persName>
+			<idno type="ORCID">0000-0001-6144-0868</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Helen</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Minah</forename><surname>Lee</surname></persName>
+			<idno type="ORCID">0000-0003-0047-1358</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zhenan</forename><surname>Bao</surname></persName>
+			<idno type="ORCID">0000-0002-0972-1715</idno>
+		</author>
+		<idno type="DOI">10.1038/s41467-018-05222-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2740</biblScope>
+			<date type="published" when="2018-07-16">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. R. Feig, H. Tran, M. Lee, Z. Bao, Mechanically tunable conductive interpenetrating network hydrogels that mimic the elastic moduli of biological tissue. Nat. Commun. 9, 2740 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Ultra-stretchable hydrogels with hierarchical hydrogen bonds</title>
+		<author>
+			<persName><forename type="first">Yujing</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jian</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qiang</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ningkun</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhongda</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhiqiang</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-020-68678-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">11727</biblScope>
+			<date type="published" when="2020-07-16">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. You, J. Yang, Q. Zheng, N. Wu, Z. Lv, Z. Jiang, Ultra-stretchable hydrogels with hierarchical hydrogen bonds. Sci. Rep. 10, 11727 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A mechanically adaptive hydrogel with a reconfigurable network consisting entirely of inorganic nanosheets and water</title>
+		<author>
+			<persName><forename type="first">Koki</forename><surname>Sano</surname></persName>
+			<idno type="ORCID">0000-0002-5702-4252</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Naoki</forename><surname>Igarashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yasuo</forename><surname>Ebina</surname></persName>
+			<idno type="ORCID">0000-0003-3471-9825</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Takayoshi</forename><surname>Sasaki</surname></persName>
+			<idno type="ORCID">0000-0002-2872-0427</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Takaaki</forename><surname>Hikima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takuzo</forename><surname>Aida</surname></persName>
+			<idno type="ORCID">0000-0002-0002-8017</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yasuhiro</forename><surname>Ishida</surname></persName>
+			<idno type="ORCID">0000-0002-5526-6100</idno>
+		</author>
+		<idno type="DOI">10.1038/s41467-020-19905-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6026</biblScope>
+			<date type="published" when="2020-11-27">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Sano, N. Igarashi, Y. Ebina, T. Sasaki, T. Hikima, T. Aida, Y. Ishida, A mechanically adaptive hydrogel with a reconfigurable network consisting entirely of inorganic nanosheets and water. Nat. Commun. 11, 6026 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Swelling-strengthening hydrogels by embedding with deformable nanobarriers</title>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan</forename><surname>Pang</surname></persName>
+			<idno type="ORCID">0000-0002-6722-9403</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jinyao</forename><surname>Liu</surname></persName>
+			<idno type="ORCID">0000-0002-6044-2033</idno>
+		</author>
+		<idno type="DOI">10.1038/s41467-020-18308-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">4502</biblScope>
+			<date type="published" when="2020-09-09">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Wu, Y. Pang, J. Liu, Swelling-strengthening hydrogels by embedding with deformable nanobarriers. Nat. Commun. 11, 4502 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Polymer gel with a flexible and highly ordered three-dimensional network synthesized via bond percolation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+			<idno type="ORCID">0000-0001-6194-3676</idno>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakagawa</surname></persName>
+			<idno type="ORCID">0000-0002-9848-2823</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tsuji</surname></persName>
+			<idno type="ORCID">0000-0002-1945-1165</idno>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shibayama</surname></persName>
+			<idno type="ORCID">0000-0002-8683-5070</idno>
+		</author>
+		<idno type="DOI">10.1126/sciadv.aax8647</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science Advances</title>
+		<title level="j" type="abbrev">Sci. Adv.</title>
+		<idno type="ISSNe">2375-2548</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">8647</biblScope>
+			<date type="published" when="2019-12-06">2019</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Li, S. Nakagawa, Y. Tsuji, N. Watanabe, M. Shibayama, Polymer gel with a flexible and highly ordered three-dimensional network synthesized via bond percolation. Sci. Adv. 5, eaax8647 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Nonlinear mechanics of hybrid polymer networks that mimic the complex mechanical environment of cells</title>
+		<author>
+			<persName><forename type="first">Maarten</forename><surname>Jaspers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><forename type="middle">L</forename><surname>Vaessen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pim</forename><surname>Van Schayik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dion</forename><surname>Voerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><forename type="middle">E</forename><surname>Rowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">H J</forename><surname>Kouwer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms15478</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">15478</biblScope>
+			<date type="published" when="2017-05-25">2017</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Jaspers, S. L. Vaessen, P. van Schayik, D. Voerman, A. E. Rowan, P. H. J. Kouwer, Nonlinear mechanics of hybrid polymer networks that mimic the complex mechanical environment of cells. Nat. Commun. 8, 15478 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Stepped Moduli in Layered Composites</title>
+		<author>
+			<persName><forename type="first">Ju‐hee</forename><surname>So</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alok</forename><forename type="middle">S</forename><surname>Tayi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Firat</forename><surname>Güder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">M</forename><surname>Whitesides</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201401548</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Functional Materials</title>
+		<title level="j" type="abbrev">Adv Funct Materials</title>
+		<idno type="ISSN">1616-301X</idno>
+		<idno type="ISSNe">1616-3028</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">45</biblScope>
+			<biblScope unit="page" from="7197" to="7204" />
+			<date type="published" when="2014-09-16">2014</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-H. So, A. S. Tayi, F. Güder, G. M. Whitesides, Stepped moduli in layered composites. Adv. Funct. Mater. 24, 7197-7204 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Toughening Elastomers with Sacrificial Bonds and Watching Them Break</title>
+		<author>
+			<persName><forename type="first">Etienne</forename><surname>Ducrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yulan</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Bulters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rint</forename><forename type="middle">P</forename><surname>Sijbesma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Costantino</forename><surname>Creton</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1248494</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="issue">6180</biblScope>
+			<biblScope unit="page" from="186" to="189" />
+			<date type="published" when="2014-04-11">2014</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Ducrot, Y. Chen, M. Bulters, R. P. Sijbesma, C. Creton, Toughening elastomers with sacrificial bonds and watching them break. Science 344, 186-189 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Theory of Microphase Segregation in ABA Triblock Comb-Shaped Copolymers: Lamellar Mesophase</title>
+		<author>
+			<persName><forename type="first">Ivan</forename><forename type="middle">V</forename><surname>Mikhailov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frans</forename><forename type="middle">A M</forename><surname>Leermakers</surname></persName>
+			<idno type="ORCID">0000-0001-5895-2539</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Anatoly</forename><forename type="middle">A</forename><surname>Darinskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ekaterina</forename><forename type="middle">B</forename><surname>Zhulina</surname></persName>
+			<idno type="ORCID">0000-0001-9139-3484</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Oleg</forename><forename type="middle">V</forename><surname>Borisov</surname></persName>
+			<idno type="ORCID">0000-0002-9281-9093</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.1c00094</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4747" to="4759" />
+			<date type="published" when="2021-05-13">2021</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. V. Mikhailov, F. A. M. Leermakers, A. A. Darinskii, E. B. Zhulina, O. V. Borisov, Theory of microphase segregation in ABA triblock comb-shaped copolymers: Lamellar mesophase. Macromolecules 54, 4747-4759 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Linear Rheological Response of a Series of Densely Branched Brush Polymers</title>
+		<author>
+			<persName><forename type="first">Miao</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">B</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><forename type="middle">A</forename><surname>Kornfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">H</forename><surname>Grubbs</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma2009673</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="6935" to="6943" />
+			<date type="published" when="2011-08-04">2011</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Hu, Y. Xia, G. B. McKenna, J. A. Kornfield, R. H. Grubbs, Linear rheological response of a series of densely branched brush polymers. Macromolecules 44, 6935-6943 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Linear and Extensional Rheology of Model Branched Polystyrenes: From Loosely Grafted Combs to Bottlebrushes</title>
+		<author>
+			<persName><forename type="first">Mahdi</forename><surname>Abbasi</surname></persName>
+			<idno type="ORCID">0000-0001-6099-421X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenz</forename><surname>Faust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kamran</forename><surname>Riazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Wilhelm</surname></persName>
+			<idno type="ORCID">0000-0003-2105-6946</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.7b01034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="5964" to="5977" />
+			<date type="published" when="2017-07-18">2017</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Abbasi, L. Faust, K. Riazi, M. Wilhelm, Linear and extensional rheology of model branched polystyrenes: From loosely grafted combs to bottlebrushes. Macromolecules 50, 5964-5977 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Solvent-free, supersoft and superelastic bottlebrush melts and networks</title>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">F M</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joanna</forename><surname>Burdyńska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Vatankhah-Varnoosfaderani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Krzysztof</forename><surname>Matyjaszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jarosław</forename><surname>Paturej</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Rubinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat4508</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="183" to="189" />
+			<date type="published" when="2016">2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. F. M. Daniel, J. Burdyńska, M. Vatankhah-Varnoosfaderani, K. Matyjaszewski, J. Paturej, M. Rubinstein, A. V. Dobrynin, S. S. Sheiko, Solvent-free, supersoft and superelastic bottlebrush melts and networks. Nat. Mater. 15, 183-189 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Universality of the Entanglement Plateau Modulus of Comb and Bottlebrush Polymer Melts</title>
+		<author>
+			<persName><forename type="first">Heyi</forename><surname>Liang</surname></persName>
+			<idno type="ORCID">0000-0002-8308-3547</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><forename type="middle">J</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guojun</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">R</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ekaterina</forename><forename type="middle">B</forename><surname>Zhulina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Krzysztof</forename><surname>Matyjaszewski</surname></persName>
+			<idno type="ORCID">0000-0003-1960-3402</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+			<idno type="ORCID">0000-0002-6484-7409</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.8b01761</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="10028" to="10039" />
+			<date type="published" when="2018-12-03">2018</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Liang, B. J. Morgan, G. Xie, M. R. Martinez, E. B. Zhulina, K. Matyjaszewski, S. S. Sheiko, A. V. Dobrynin, Universality of the entanglement plateau modulus of comb and bottlebrush polymer melts. Macromolecules 51, 10028-10039 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Injectable non-leaching tissue-mimetic bottlebrush elastomers as an advanced platform for reconstructive surgery</title>
+		<author>
+			<persName><forename type="first">Erfan</forename><surname>Dashtimoghadam</surname></persName>
+			<idno type="ORCID">0000-0001-5607-7961</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Farahnaz</forename><surname>Fahimipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Foad</forename><surname>Vashahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Popryadukhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Vatankhah-Varnosfaderani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<idno type="DOI">10.1038/s41467-021-23962-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">3961</biblScope>
+			<date type="published" when="2021-06-25">2021</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Dashtimoghadam, F. Fahimipour, A. N. Keith, F. Vashahi, P. Popryadukhin, M. Vatankhah-Varnosfaderani, S. S. Sheiko, Injectable non-leaching tissue-mimetic bottlebrush elastomers as an advanced platform for reconstructive surgery. Nat. Commun. 12, 3961 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Architectural Code for Rubber Elasticity: From Supersoft to Superfirm Materials</title>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+			<idno type="ORCID">0000-0002-6484-7409</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.9b01127</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="7531" to="7546" />
+			<date type="published" when="2019-09-20">2019</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. S. Sheiko, A. V. Dobrynin, Architectural code for rubber elasticity: From supersoft to superfirm materials. Macromolecules 52, 7531-7546 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Chameleon-like elastomers with molecularly encoded strain-adaptive stiffening and coloration</title>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Vatankhah-Varnosfaderani</surname></persName>
+			<idno type="ORCID">0000-0001-7636-9099</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Keith</surname></persName>
+			<idno type="ORCID">0000-0001-6351-5392</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yidan</forename><surname>Cong</surname></persName>
+			<idno type="ORCID">0000-0002-8675-4780</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Heyi</forename><surname>Liang</surname></persName>
+			<idno type="ORCID">0000-0002-8308-3547</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Rosenthal</surname></persName>
+			<idno type="ORCID">0000-0001-6014-6050</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Sztucki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Clair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><surname>Magonov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitri</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+			<idno type="ORCID">0000-0002-5905-2652</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+			<idno type="ORCID">0000-0002-6484-7409</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<idno type="DOI">10.1126/science.aar5308</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="issue">6383</biblScope>
+			<biblScope unit="page" from="1509" to="1513" />
+			<date type="published" when="2018-03-30">2018</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Vatankhah-Varnosfaderani, A. N. Keith, Y. Cong, H. Liang, M. Rosenthal, M. Sztucki, C. Clair, S. Magonov, D. A. Ivanov, A. V. Dobrynin, S. S. Sheiko, Chameleon-like elastomers with molecularly encoded strain-adaptive stiffening and coloration. Science 359, 1509-1513 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Microphase Segregation in the Melts of Bottlebrush Block Copolymers</title>
+		<author>
+			<persName><forename type="first">Ekaterina</forename><forename type="middle">B</forename><surname>Zhulina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+			<idno type="ORCID">0000-0002-6484-7409</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Oleg</forename><forename type="middle">V</forename><surname>Borisov</surname></persName>
+			<idno type="ORCID">0000-0002-9281-9093</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.9b02485</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2582" to="2593" />
+			<date type="published" when="2020-04-01">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. B. Zhulina, S. S. Sheiko, A. V. Dobrynin, O. V. Borisov, Microphase segregation in the melts of bottlebrush block copolymers. Macromolecules 53, 2582-2593 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Nonlinear Elasticity and Swelling of Comb and Bottlebrush Networks</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heyi</forename><surname>Liang</surname></persName>
+			<idno type="ORCID">0000-0002-8308-3547</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Erfan</forename><surname>Dashtimoghadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><forename type="middle">J</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+			<idno type="ORCID">0000-0002-6484-7409</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.9b00956</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="5095" to="5101" />
+			<date type="published" when="2019-06-28">2019</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Jacobs, H. Liang, E. Dashtimoghadam, B. J. Morgan, S. S. Sheiko, A. V. Dobrynin, Nonlinear elasticity and swelling of comb and bottlebrush networks. Macromolecules 52, 5095-5101 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Densely-Grafted and Double-Grafted PEO Brushes via ATRP. A Route to Soft Elastomers</title>
+		<author>
+			<persName><forename type="first">Dorota</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ying</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tadeusz</forename><surname>Pakula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Krzysztof</forename><surname>Matyjaszewski</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma0345347</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="6746" to="6755" />
+			<date type="published" when="2003-08-07">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Neugebauer, Y. Zhang, T. Pakula, S. S. Sheiko, K. Matyjaszewski, Densely-grafted and double-grafted PEO brushes via ATRP. A route to soft elastomers. Macromolecules 36, 6746-6755 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">In situ-forming hydrogels—review of temperature-sensitive systems</title>
+		<author>
+			<persName><forename type="first">Eve</forename><surname>Ruel-Gariépy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Christophe</forename><surname>Leroux</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejpb.2004.03.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Pharmaceutics and Biopharmaceutics</title>
+		<title level="j" type="abbrev">European Journal of Pharmaceutics and Biopharmaceutics</title>
+		<idno type="ISSN">0939-6411</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="409" to="426" />
+			<date type="published" when="2004-09">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Ruel-Gariepy, J.-C. Leroux, In situ-forming hydrogels-Review of temperature-sensitive systems. Eur. J. Pharm. Biopharm. 58, 409-426 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Hydrogels Generated from Cyclic Poly(2‐Oxazoline)s Display Unique Swelling and Mechanical Properties</title>
+		<author>
+			<persName><forename type="first">Lucca</forename><surname>Trachsel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Romio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcy</forename><surname>Zenobi‐wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edmondo</forename><forename type="middle">M</forename><surname>Benetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/marc.202170018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecular Rapid Communications</title>
+		<title level="j" type="abbrev">Macromol. Rapid Commun.</title>
+		<idno type="ISSN">1022-1336</idno>
+		<idno type="ISSNe">1521-3927</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2021-04">2000658. 2021</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Trachsel, M. Romio, M. Zenobi-Wong, E. M. Benetti, Hydrogels generated from cyclic poly(2-oxazoline)s display unique swelling and mechanical properties. Macromol. Rapid Commun. 42, 2000658 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Soft network composite materials with deterministic and bio-inspired designs</title>
+		<author>
+			<persName><forename type="first">Kyung-In</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ha</forename><forename type="middle">Uk</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sheng</forename><surname>Xu</surname></persName>
+			<idno type="ORCID">0000-0002-3120-4992</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Chi</forename><forename type="middle">Hwan</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haiwen</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jaewoong</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huanyu</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gwang-Tae</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sang</forename><forename type="middle">Youn</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jung</forename><forename type="middle">Woo</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeonghyun</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moongee</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fuxing</forename><surname>Miao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yiyuan</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Han</forename><forename type="middle">Na</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Flavin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Howard</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gil</forename><forename type="middle">Woo</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ki</forename><forename type="middle">Jun</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sang</forename><forename type="middle">Il</forename><surname>Rhee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeahoon</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Byunggik</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">Won</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Myoung</forename><forename type="middle">Hee</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">Young</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Young</forename><forename type="middle">Min</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ungyu</forename><surname>Paik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yihui</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yonggang</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">A</forename><surname>Rogers</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms7566</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6566</biblScope>
+			<date type="published" when="2015-03-18">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. I. Jang, H. U. Chung, S. Xu, C. H. Lee, H. Luan, J. Jeong, H. Cheng, G. T. Kim, S. Y. Han, J. W. Lee, J. Kim, M. Cho, F. Miao, Y. Yang, H. N. Jung, M. Flavin, H. Liu, G. W. Kong, K. J. Yu, S. Il Rhee, J. Chung, B. Kim, J. W. Kwak, M. H. Yun, J. Y. Kim, Y. M. Song, U. Paik, Y. Zhang, Y. Huang, J. A. Rogers, Soft network composite materials with deterministic and bio- inspired designs. Nat. Commun. 6, 6566 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Preparation and Characterization of Thermoresponsive PEG-Based Injectable Hydrogels and Their Application for 3D Cell Culture</title>
+		<author>
+			<persName><forename type="first">Tian</forename><surname>Li</surname></persName>
+			<idno type="ORCID">0000-0002-9829-6959</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Fei</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diana</forename><surname>Diaz-Dussan</surname></persName>
+			<idno type="ORCID">0000-0003-1778-3964</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jianyang</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shruti</forename><surname>Srinivas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ravin</forename><surname>Narain</surname></persName>
+			<idno type="ORCID">0000-0003-0947-9719</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Wendy</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaojuan</forename><surname>Hao</surname></persName>
+			<idno type="ORCID">0000-0003-2705-0000</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.biomac.9b01743</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomacromolecules</title>
+		<title level="j" type="abbrev">Biomacromolecules</title>
+		<idno type="ISSN">1525-7797</idno>
+		<idno type="ISSNe">1526-4602</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1254" to="1263" />
+			<date type="published" when="2020-01-24">2020</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Li, F. Huang, D. Diaz-Dussan, J. Zhao, S. Srinivas, R. Narain, W. Tian, X. Hao, Preparation and characterization of thermoresponsive PEG-based injectable hydrogels and their application for 3D cell culture. Biomacromolecules 21, 1254-1263 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Strained Bottlebrushes in Super-Soft Physical Networks</title>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Clair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdelaziz</forename><surname>Lallam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Sztucki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Vatankhah-Varnosfaderani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yidan</forename><surname>Cong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heyi</forename><surname>Liang</surname></persName>
+			<idno type="ORCID">0000-0002-8308-3547</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">V</forename><surname>Dobrynin</surname></persName>
+			<idno type="ORCID">0000-0002-6484-7409</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitri</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+			<idno type="ORCID">0000-0002-5905-2652</idno>
+		</author>
+		<idno type="DOI">10.1021/acsmacrolett.9b00106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Macro Letters</title>
+		<title level="j" type="abbrev">ACS Macro Lett.</title>
+		<idno type="ISSN">2161-1653</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="530" to="534" />
+			<date type="published" when="2019-04-23">2019</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Clair, A. Lallam, M. Rosenthal, M. Sztucki, M. Vatankhah-Varnosfaderani, A. N. Keith, Y. Cong, H. Liang, A. V. Dobrynin, S. S. Sheiko, D. A. Ivanov, Strained bottlebrushes in super-soft physical networks. ACS Macro Lett. 8, 530-534 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Poly(&lt;i&gt;N&lt;/i&gt;‐isopropylacrylamide) Phase Diagrams: Fifty Years of Research</title>
+		<author>
+			<persName><forename type="first">Avraham</forename><surname>Halperin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Kröger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Françoise</forename><forename type="middle">M</forename><surname>Winnik</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.201506663</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">51</biblScope>
+			<biblScope unit="page" from="15342" to="15367" />
+			<date type="published" when="2015-11-27">2015</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Halperin, M. Kröger, F. M. Winnik, Poly(N-isopropylacrylamide) phase diagrams: Fifty years of research. Angew. Chem. Int. Ed. 54, 15342-15367 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Biological Stimuli-Induced Phase Transition of a Synthesized Block Copolymer: Preferential Interactions between PNIPAM-&lt;i&gt;b&lt;/i&gt;-PNVCL and Heme Proteins</title>
+		<author>
+			<persName><forename type="first">Krishan</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reddicherla</forename><surname>Umapathi</surname></persName>
+			<idno type="ORCID">0000-0001-8071-5345</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kalyan</forename><surname>Ramesh</surname></persName>
+			<idno type="ORCID">0000-0001-6267-2505</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Seung-Kyu</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kwon</forename><forename type="middle">Taek</forename><surname>Lim</surname></persName>
+			<idno type="ORCID">0000-0002-7023-6057</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yun</forename><forename type="middle">Suk</forename><surname>Huh</surname></persName>
+			<idno type="ORCID">0000-0003-1612-4473</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Pannuru</forename><surname>Venkatesu</surname></persName>
+			<idno type="ORCID">0000-0002-8926-2861</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.langmuir.0c02900</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1682" to="1696" />
+			<date type="published" when="2021-01-25">2021</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Kumar, R. Umapathi, K. Ramesh, S. K. Hwang, K. T. Lim, Y. S. Huh, P. Venkatesu, Biological stimuli-induced phase transition of a synthesized block copolymer: Preferential interactions between PNIPAM-b-PNVCL and heme proteins. Langmuir 37, 1682-1696 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Quantifying the impact of molecular defects on polymer network elasticity</title>
+		<author>
+			<persName><forename type="first">Mingjiang</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rui</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ken</forename><surname>Kawamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bradley</forename><forename type="middle">D</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeremiah</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aag0184</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">353</biblScope>
+			<biblScope unit="issue">6305</biblScope>
+			<biblScope unit="page" from="1264" to="1268" />
+			<date type="published" when="2016-09-16">2016</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Zhong, R. Wang, K. Kawamoto, B. D. Olsen, J. A. Johnson, Quantifying the impact of molecular defects on polymer network elasticity. Science 353, 1264-1268 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Small-Angle Neutron-Scattering Study on Preparation Temperature Dependence of Thermosensitive Gels</title>
+		<author>
+			<persName><forename type="first">Shin-Ichi</forename><surname>Takata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomohisa</forename><surname>Norisuye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mitsuhiro</forename><surname>Shibayama</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma0201126</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="4779" to="4784" />
+			<date type="published" when="2002-05-03">2002</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. I. Takata, T. Norisuye, M. Shibayama, Small-angle neutron-scattering study on preparation temperature dependence of thermosensitive gels. Macromolecules 35, 4779-4784 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Connectivity and Structural Defects in Model Hydrogels: A Combined Proton NMR and Monte Carlo Simulation Study</title>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Konrad</forename><surname>Schwenke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manami</forename><surname>Kurakazu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuki</forename><surname>Akagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ung-Il</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens-Uwe</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takamasa</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kay</forename><surname>Saalwächter</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma201847v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="9666" to="9674" />
+			<date type="published" when="2011-11-21">2011</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Lange, K. Schwenke, M. Kurakazu, Y. Akagi, U. Il Chung, M. Lang, J. U. Sommer, T. Sakai, K. Saalwächter, Connectivity and structural defects in model hydrogels: A combined proton NMR and Monte Carlo simulation study. Macromolecules 44, 9666-9674 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Poly(&lt;i&gt;N&lt;/i&gt;-isopropyl acrylamide)–poly(ethylene glycol)–poly(&lt;i&gt;N&lt;/i&gt;-isopropyl acrylamide) as a thermoreversible gelator for topical administration</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haddow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Mcauley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Kirton</surname></persName>
+			<idno type="ORCID">0000-0002-1567-0061</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Cook</surname></persName>
+			<idno type="ORCID">0000-0002-0772-682X</idno>
+		</author>
+		<idno type="DOI">10.1039/d0ma00080a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Advances</title>
+		<title level="j" type="abbrev">Mater. Adv.</title>
+		<idno type="ISSNe">2633-5409</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="371" to="386" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Haddow, W. J. McAuley, S. B. Kirton, M. T. Cook, Poly(N-isopropyl acrylamide)- poly(ethylene glycol)-poly(N-isopropyl acrylamide) as a thermoreversible gelator for topical administration. Mater. Adv. 1, 371-386 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Self-Assembled Micelles from Thermoresponsive Poly(methyl methacrylate)-&lt;i&gt;b&lt;/i&gt;-poly(&lt;i&gt;N&lt;/i&gt;-isopropylacrylamide) Diblock Copolymers in Aqueous Solution</title>
+		<author>
+			<persName><forename type="first">Chia-Hsin</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cristiane</forename><surname>Henschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geethu</forename><forename type="middle">P</forename><surname>Meledam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">A</forename><surname>Schroer</surname></persName>
+			<idno type="ORCID">0000-0002-0747-3965</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Müller-Buschbaum</surname></persName>
+			<idno type="ORCID">0000-0002-9566-6088</idno>
+		</author>
+		<author>
+			<persName><forename type="first">André</forename><surname>Laschewsky</surname></persName>
+			<idno type="ORCID">0000-0003-2443-886X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Christine</forename><forename type="middle">M</forename><surname>Papadakis</surname></persName>
+			<idno type="ORCID">0000-0002-7098-3458</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.macromol.0c02189</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="384" to="397" />
+			<date type="published" when="2021">2021</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. H. Ko, C. Henschel, G. P. Meledam, M. A. Schroer, P. Müller-Buschbaum, A. Laschewsky, C. M. Papadakis, Self-assembled micelles from thermoresponsive poly(methyl methacrylate)-b-poly(N-isopropylacrylamide) diblock copolymers in aqueous solution. Macromolecules 54, 384-397 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Pathophysiology of acute wound healing</title>
+		<author>
+			<persName><forename type="first">Jie</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Kirsner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clindermatol.2006.09.007</idno>
+		<ptr target="https://www.science.org" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinics in Dermatology</title>
+		<title level="j" type="abbrev">Clinics in Dermatology</title>
+		<idno type="ISSN">0738-081X</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date type="published" when="2007-01">2007. 2023</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Li, J. Chen, R. Kirsner, Pathophysiology of acute wound healing. Clin. Dermatol. 25, 9-18 (2007). Downloaded from https://www.science.org at Moscow State University on March 13, 2023</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">A multipurpose instrument for time-resolved ultra-small-angle and coherent X-ray scattering</title>
+		<author>
+			<persName><forename type="first">Theyencheri</forename><surname>Narayanan</surname></persName>
+			<idno type="ORCID">0000-0003-1957-1041</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Sztucki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Van Vaerenbergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joachim</forename><surname>Léonardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacques</forename><surname>Gorini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurent</forename><surname>Claustre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franc</forename><surname>Sever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Morse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Boesecke</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576718012748</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1511" to="1524" />
+			<date type="published" when="2018-10-11">2018</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Narayanan, M. Sztucki, P. Van Vaerenbergh, J. Léonardon, J. Gorini, L. Claustre, F. Sever, J. Morse, P. Boesecke, A multipurpose instrument for time-resolved ultra-small-angle and coherent x-ray scattering. J. Appl. Cryst. 51, 1511-1524 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">3D printing of highly stretchable hydrogel with diverse UV curable polymers</title>
+		<author>
+			<persName><forename type="first">Qi</forename><surname>Ge</surname></persName>
+			<idno type="ORCID">0000-0002-8666-8532</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zhe</forename><surname>Chen</surname></persName>
+			<idno type="ORCID">0000-0003-4398-7485</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jianxiang</forename><surname>Cheng</surname></persName>
+			<idno type="ORCID">0000-0003-2015-8561</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Biao</forename><surname>Zhang</surname></persName>
+			<idno type="ORCID">0000-0002-0191-0191</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yuan-Fang</forename><surname>Zhang</surname></persName>
+			<idno type="ORCID">0000-0002-2903-9027</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Honggeng</forename><surname>Li</surname></persName>
+			<idno type="ORCID">0000-0002-7267-7948</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Xiangnan</forename><surname>He</surname></persName>
+			<idno type="ORCID">0000-0001-6384-900X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Chao</forename><surname>Yuan</surname></persName>
+			<idno type="ORCID">0000-0003-1306-2094</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ji</forename><surname>Liu</surname></persName>
+			<idno type="ORCID">0000-0001-7171-405X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shlomo</forename><surname>Magdassi</surname></persName>
+			<idno type="ORCID">0000-0002-6794-0553</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shaoxing</forename><surname>Qu</surname></persName>
+			<idno type="ORCID">0000-0002-1217-4644</idno>
+		</author>
+		<idno type="DOI">10.1126/sciadv.aba4261</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science Advances</title>
+		<title level="j" type="abbrev">Sci. Adv.</title>
+		<idno type="ISSNe">2375-2548</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">4261</biblScope>
+			<date type="published" when="2021-01-08">2021</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Q. Ge, Z. Chen, J. Cheng, B. Zhang, Y.-F. Zhang, H. Li, X. He, C. Yuan, J. Liu, S. Magdassi, S. Qu, 3D printing of highly stretchable hydrogel with diverse UV curable polymers. Sci. Adv. 7, eaba4261 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Highly Elastic Biodegradable Single-Network Hydrogel for Cell Printing</title>
+		<author>
+			<persName><forename type="first">Cancan</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenhan</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guohao</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi</forename><surname>Hong</surname></persName>
+			<idno type="ORCID">0000-0002-5846-2596</idno>
+		</author>
+		<idno type="DOI">10.1021/acsami.8b01294</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Applied Materials &amp; Interfaces</title>
+		<title level="j" type="abbrev">ACS Appl. Mater. Interfaces</title>
+		<idno type="ISSN">1944-8244</idno>
+		<idno type="ISSNe">1944-8252</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="9969" to="9979" />
+			<date type="published" when="2018-02-16">2018</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Xu, W. Lee, G. Dai, Y. Hong, Highly elastic biodegradable single-network hydrogel for cell printing. ACS Appl. Mater. Interfaces 10, 9969-9979 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">conducted x-ray studies and data analysis. E.A.B. provided theoretical interpretation of experimental data. M.V.-V. developed the synthetic methodology. S.S.S. conceived the idea of injectable tissue-mimetic hydrogels. F.V. optimized hydrodynamic properties of hydrogels and fluidic parameters for three-dimensional printing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cong</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Morgan</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N K</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">F.V. and S.S.S. are primary writers of the manuscript. S.S.S</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1126/sciadv.abm2469</idno>
+		<editor>M.V.</editor>
+		<imprint>
+			<date type="published" when="2022">2004048. 2022</date>
+			<pubPlace>Grenoble, France</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Acknowledgments: We acknowledge perfect technical support of the personnel of the ID02 beamline of the European Synchrotron Radiation Facility (ESRF Funding: We acknowledge funding from the NSF (DMR 1921835, DMR 1921858, and DMR We appreciate the assistance with mechanical characterization of System 2 materials by Author contributions: F.V. synthesized and characterized the monomers for crosslinking and LBL triblock copolymer networks of system 1. M.R.M. synthesized polymer networks of system 2. F.V. and E.D. performed rheological tests and demonstrative injection study conducted mechanical studies and DMA tests acknowledge Russian Science Foundation RSCF grant 20-13-00270 for supporting the X-ray, theoretical, and biocompatibility studies of LBL hydrogels. The NMR instrumentation at Carnegie Mellon University was partially supported by the NSF (CHE-0130903, CHE-1039870, and CHE-1726525) -V. are the principal investigators and corresponding authors. All authors discussed the results and provided feedback on the manuscript. Competing interests: The authors declare that they have no competing interests. Data and materials availability: All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials Submitted 3 September 2021 Accepted 29 November 2021 Published 21 January</note>
+	<note type="raw_reference">Acknowledgments: We acknowledge perfect technical support of the personnel of the ID02 beamline of the European Synchrotron Radiation Facility (ESRF) in Grenoble, France. We appreciate the assistance with mechanical characterization of System 2 materials by Y. Cong, D. Zhang, and B. Morgan and fruitful discussions with O. Borisov. Funding: We acknowledge funding from the NSF (DMR 1921835, DMR 1921858, and DMR 2004048). D.A.I., E.B.Z., P.P., and S.S.S. acknowledge Russian Science Foundation RSCF grant 20-13-00270 for supporting the X-ray, theoretical, and biocompatibility studies of LBL hydrogels. The NMR instrumentation at Carnegie Mellon University was partially supported by the NSF (CHE-0130903, CHE-1039870, and CHE-1726525). Author contributions: F.V. synthesized and characterized the monomers for crosslinking and LBL triblock copolymer networks of system 1. M.R.M. synthesized polymer networks of system 2. F.V. and E.D. performed rheological tests and demonstrative injection study. F.V., E.D., and A.N.K. conducted mechanical studies and DMA tests. E.D., F.F., and P.P. performed biological assays. E.A.B. and D.A.I. conducted x-ray studies and data analysis. E.A.B. provided theoretical interpretation of experimental data. M.V.-V. developed the synthetic methodology. S.S.S. conceived the idea of injectable tissue-mimetic hydrogels. F.V. optimized hydrodynamic properties of hydrogels and fluidic parameters for three-dimensional printing. F.V. and S.S.S. are primary writers of the manuscript. S.S.S., K.M., and M.V.-V. are the principal investigators and corresponding authors. All authors discussed the results and provided feedback on the manuscript. Competing interests: The authors declare that they have no competing interests. Data and materials availability: All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials. Submitted 3 September 2021 Accepted 29 November 2021 Published 21 January 2022 10.1126/sciadv.abm2469</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Figure 1: EPA Level III ecoregions in the state of Texas (shapefile downloaded from https://www.epa.gov/eco-research/ecoregion-download-files-state-region-6).</title>
+		<idno type="DOI">10.7717/peerj.3612/fig-1</idno>
+		<ptr target="https://www.science.org" />
+		<imprint>
+			<date type="published" when="2023-03-13">March 13, 2023</date>
+			<publisher>PeerJ</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Downloaded from https://www.science.org at Moscow State University on March 13, 2023</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Research in the Antarctic</title>
+		<idno type="DOI">10.2136/sssaj1972.03615995003600030005x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soil Science Society of America Journal</title>
+		<title level="j" type="abbrev">Soil Science Soc of Amer J</title>
+		<idno type="ISSN">0361-5995</idno>
+		<idno type="ISSNe">1435-0661</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="1200">1200. 20005</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York Avenue NW, Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Use of this article is subject to the Terms of service Science Advances (ISSN ) is published by the American Association for the Advancement of Science exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution License 4.0 (CC BY). Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties</note>
+	<note type="raw_reference">Use of this article is subject to the Terms of service Science Advances (ISSN ) is published by the American Association for the Advancement of Science. 1200 New York Avenue NW, Washington, DC 20005. The title Science Advances is a registered trademark of AAAS. Copyright © 2022 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution License 4.0 (CC BY). Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Injectable bottlebrush hydrogels with tissue-mimetic mechanical properties</title>
+		<author>
+			<persName><forename type="first">Foad</forename><surname>Vashahi</surname></persName>
+			<idno type="ORCID">0000-0003-0696-3062</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">R</forename><surname>Martinez</surname></persName>
+			<idno type="ORCID">0000-0002-6211-763X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Erfan</forename><surname>Dashtimoghadam</surname></persName>
+			<idno type="ORCID">0000-0001-5607-7961</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Farahnaz</forename><surname>Fahimipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Keith</surname></persName>
+			<idno type="ORCID">0000-0001-6351-5392</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Egor</forename><forename type="middle">A</forename><surname>Bersenev</surname></persName>
+			<idno type="ORCID">0000-0001-5609-7794</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitri</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+			<idno type="ORCID">0000-0002-5905-2652</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ekaterina</forename><forename type="middle">B</forename><surname>Zhulina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Popryadukhin</surname></persName>
+			<idno type="ORCID">0000-0001-5478-5630</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Krzysztof</forename><surname>Matyjaszewski</surname></persName>
+			<idno type="ORCID">0000-0003-1960-3402</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Vatankhah-Varnosfaderani</surname></persName>
+			<idno type="ORCID">0000-0001-7636-9099</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">S</forename><surname>Sheiko</surname></persName>
+			<idno type="ORCID">0000-0003-3672-1611</idno>
+		</author>
+		<idno type="DOI">10.1126/sciadv.abm2469</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science Advances</title>
+		<title level="j" type="abbrev">Sci. Adv.</title>
+		<idno type="ISSNe">2375-2548</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">2469</biblScope>
+			<date type="published" when="2022-01-21" />
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foad Vashahi, Michael R. Martinez, Erfan Dashtimoghadam, Farahnaz Fahimipour, Andrew N. Keith, Egor A. Bersenev, Dimitri A. Ivanov, Ekaterina B. Zhulina, Pavel Popryadukhin, Krzysztof Matyjaszewski, Mohammad Vatankhah- Varnosfaderani, and Sergei S. Sheiko Sci. Adv., 8 (3), eabm2469. DOI: 10.1126/sciadv.abm2469</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

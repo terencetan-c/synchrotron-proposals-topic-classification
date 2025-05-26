@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report for SC-2208 experiment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Uri</forename><surname>Raviv</surname></persName>
+						</author>
+						<title level="a" type="main">Report for SC-2208 experiment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F59567553844BD765A105CF95C71DBD2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:00+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>To polymerize microtubule (MT) at the beamline, tubulin concentrated to 45±5 μM in PEM buffer (50 mM 1,4-piperazinediethanesulfonic acid, 1 mM MgCl 2 , 1mM EGTA, 0.02 % (w/v) NaN 3 , adjusted to pH = 6.8 with ca. 70 mM NaOH), 1 mM GTP and 5 % glycerol was incubated at 36±1 o C for 20min. MT depolymerization was suppressed by adding the chemotherapy drug Taxol at 1:1 tubulin to Taxol mole ratio. We also checked that 0.1 wt% of Glutaraldehyde of preassembled MT (at home) did not have a detectable effect on the MT scattering data. Other drugs were examined as well and the results are still being analyzed. We have also examined the sample damage in the various modes of measurements and concluded that working with capillaries in this beamline gives very good data if scanned for 5 min. We also tried various ways to hold the sample in the beam and improved the design of our capillary sample holder based on the experience from our July 2007 run.</p><p>The SAXS profile of MTs is consistent with the form factor of an isotropic hollow cylinder (Fig. <ref type="figure">1</ref>). Based on MT structural data (1, 2), we modeled the MT as three concentric cylindrical shells, of a high electron density region surrounded by two low ones, as shown in the inset to Fig. <ref type="figure">1</ref>, keeping the total wall thickness, a 1 = 4.9 nm, and mean electron density as those of MTs. The thickness and location of the high electron density region, within the MT wall, and the inner MT radius, R in , are fitting parameters in this model (see details below).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Pure MT data and analysis. The solid symbols show the azimuthally averaged raw MT SAXS data. The thin broken black line is a series of power laws that pass through the minima of the scattering intensities. As in other MT-related scattering studies <ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref>, this is the assumed background scattering. Open symbols show the MT SAXS data, following background subtraction. The red solid curve is the fitted scattering model. The inset shows the variation of the radial electron density, Δρ(r), relative of the MT wall, as obtained from fitting the data to the model of isotropic infinitely long hollow cylinders with nonuniform electron density profile. r is the distance from the center of the cylinders We then looked at MT-tau (isoform 4RS) complexes (Figure <ref type="figure" target="#fig_1">2</ref>) we found that the solution x-ray scattering is extremely sensitive to very small changes in the tau/tubulin stoichiometry. We then looked at other MT-tau complexe (other tau isoforms) and found detectable differences between MT-tau complexes formed with different tau isoforms. Based on analysis similar to that shown in Figure <ref type="figure" target="#fig_0">1</ref> we plot in Figure <ref type="figure" target="#fig_2">3</ref> the variation of the inner tau radius as a function of the tau/tubulin molar ration for 4 tau isoforms. The data show that even small amounts of tau can influence the size of MTs. Different tau isoforms change the MT size to a different extent. The isoforms with 4 binding domain (4RS and 4RL isoforms) have a greater effect on the MT size than the isoforms with 3 binding domains (3R isoforms). Unexpectedly the short projection domains (3RS and 4RS) induce smaller MT size changes than their corresponding long projection domain analogue (3RL and 4RL). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Details about MT data analysis</head><p>To analyse the data, we start by considering the form factor of a single hollow cylinder of core radius R c and a shell radius R s and a total height of 2H. We assume that the inside and outside of the tube have the same electron density and the inside of the tube has a uniform electron density that differ by 0 ρ Δ from the outside of the tube. The scattering amplitude F is proportional to the Fourier transform of the electron density of the hollow cylinder:</p><formula xml:id="formula_0">F(q ┴, q z ) ∝</formula><p>, where the integration is over the volume V of the hollow cylinder.</p><formula xml:id="formula_1">dr r iq r V ∫ ⋅ - Δ ) exp( ) ( 0 ρ</formula><p>In cylindrical coordinates we obtain:</p><formula xml:id="formula_2">F(q ┴, q z ) ∝ ∫ ∫ ∫ ⊥ - - - Δ s x R R H H z d iq d z iq dz π φ φ ρ ρ ρ ρ 2 0 0 ) cos( exp( ) exp( = ( ) ( ) ∫ ⊥ Δ s c R R z z q J d q Hq ρ ρ ρ ρ π 0 0 sin 4 = ( ){ ( ) ( )} c c s s z z R q J R R q J R q Hq ⊥ ⊥ - Δ 1 1 0 sin 4π ρ</formula><p>, where J 0 and J 1 are the zero and first Bessel functions of the first kind.</p><p>The intensity I is given by 2 F , but since our solutions are isotropic we need to perform a powder average in the reciprocal q space:</p><formula xml:id="formula_3">I(q) ∝ ∫ Ω q d F 2 = ∫ ∫ π π θ θ ψ 2 0 0 2 sin q q q d F d = 2π ∫ π θ θ 0 2 sin q q d F By setting q x θ cos =</formula><p>we get:</p><p>( ) 2 1 2 1 sin x q q q q -= = ⊥ θ and qx q q q z = = θ cos so finally the intensity is given by: ( ) ( )</p><formula xml:id="formula_4">B dx x qR J R x qR J R x x q Hqx A q I c c s s + - - - - Δ = ∫ 2 2 / 1 2 1 2 / 1 2 1 1 0 2 2 4 2 2 0 )} ) 1 ( ( ) ) 1 ( ( { ) 1 ( sin ) ( ρ</formula><p>where A and B are constants.</p><p>In the more general case we have a series of n concentric homogenous hollow cylinders with an overall radial electron density profile given by the set of parameters ( ,</p><formula xml:id="formula_5">ρ k R k , H k ). ( ) k k k ρ ρ ρ Δ = + + 2 1</formula><p>is the difference between the electron density of the surrounding (the solvent in our case) and the k-th homogenous hollow cylinder with a core radius and a shell radius</p><formula xml:id="formula_6">. 2H k R 1 + k R</formula><p>k is the height of the k-th hollow cylinder (H n+1 =0) and k=1,2,…,n+1. The scattering intensity of such randomly oriented n concentric cylinders is:</p><formula xml:id="formula_7">( ) ( ) ( ) ( ) ( ) ( ) ( ) { } B dx x qR J R x qR J R qx H x x q A q I n k k k k k k k + ⎟ ⎠ ⎞ ⎜ ⎝ ⎛ - - - ⋅ Δ ⋅ - = ∑ ∫ = + + 2 1 2 / 1 2 1 2 / 1 2 1 1 1 1 0 2 2 4 1 1 sin 1 1 ρ</formula><p>For n infinitely long concentric hollow cylinders we get:</p><formula xml:id="formula_8">( ) ( ) ( ) ( ) ( ) ( ) { } B dx x qR J R x qR J R x x q A q I n k k k k k k + ⎟ ⎠ ⎞ ⎜ ⎝ ⎛ - - - ⋅ Δ - = ∑ ∫ = + + 2 1 2 / 1 2 1 2 / 1 2 1 1 1 1 0 2 2 4 1 1 1 1 ρ</formula><p>In our case we reduced the number of parameters by having , ρ k R k be a function of a subset of parameters a i out of which a much smaller subset of parameters was free to float.</p><p>For the case of pure microtubule solutions we have the set of parameters shown in the Table <ref type="table">1</ref>. The values of and k R k ρ are calculated (based on the parameters of Tables I) as described in Table <ref type="table">II</ref>. Table I. The values of a i in the case of pure MT. Parameter value Description Source 1 a = 8.97 nm 1 R -the internal microtubule radius Tubulin structural data(1) but allowed to fluctuate within reasonable physical limits 2 a = 2.31 nm 1 2 R R --width of the internal low electron density region</p><p>Free 3 a = 2.52 nm 2 3 R R --width of the high electron density region Free 4 a = 4.9 nm 1 4 R R --total microtubule wall width Tubulin structural data(1) 5 a = 411 e/nm 3 Mean electron density of microtubule wall Microtubule(1) and tubulin(7) structural data, tubuline M w and partial specific volume(2, 8) Table II. Calculation of and k R k ρ k R k ρ 1 1 a R = 0 1 = ρ 2 1 2 a a R + = ( ) ( ) 4 3 4 10 6 2 2 a a a a a + -= ρ 3 2 1 3 a a a R + + = 2 3 ρ ρ = 4 1 4 a a R + = 1 4 ρ ρ =</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Pure MT data and analysis. The solid symbols show the azimuthally averaged raw MT SAXS data. The thin broken black line is a series of power laws that pass through the minima of the scattering intensities. As in other MT-related scattering studies(3-6), this is the assumed background scattering. Open symbols show the MT SAXS data, following background subtraction. The red solid curve is the fitted scattering model. The inset shows the variation of the radial electron density, Δρ(r), relative of the MT wall, as obtained from fitting the data to the model of isotropic infinitely long hollow cylinders with nonuniform electron density profile. r is the distance from the center of the cylinders</figDesc><graphic coords="2,90.00,534.70,416.04,66.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Azimuthally averaged raw MT -tau (4RS isoform) complexes data, at tau-tubulin molar ratio as indicated in the figure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Inner MT radius (R 1 MT ) as a function of the tau/tubulin molar ratio (in moles) of different tau isoforms (as indicated in the figure).</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Microtubule Structure at 8 Å Resolution</title>
+		<author>
+			<persName><forename type="first">Huilin</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">J</forename><surname>Derosier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">V</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eva</forename><surname>Nogales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenneth</forename><forename type="middle">H</forename><surname>Downing</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0969-2126(02)00827-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<title level="j" type="abbrev">Structure</title>
+		<idno type="ISSN">0969-2126</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1317" to="1328" />
+			<date type="published" when="2002-10">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, H., D. J. DeRosier, W. V. Nickolson, E. Nogales, and K. H. Downing. 2002. Microtubule Structure at 8ֵ Resolution. Structure 10:1317-1328.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Chemical Characterization of Calf Brain Microtubule Protein Subunits</title>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronald</forename><forename type="middle">P</forename><surname>Frigon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Serge</forename><forename type="middle">N</forename><surname>Timasheff</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0021-9258(19)43386-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">248</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="7253" to="7262" />
+			<date type="published" when="1973-10">1973</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, J. C., R. P. Frigon, and S. N. Timasheff. 1973. The Chemical Characterization of Calf Brain Microtubule Protein Subunits. J. Biol. Chem. 248:7253-7262.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Higher-order assembly of microtubules by counterions: From hexagonal bundles to living necklaces</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Needleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Miguel</forename><forename type="middle">A</forename><surname>Ojeda-Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uri</forename><surname>Raviv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Herbert</forename><forename type="middle">P</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leslie</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cyrus</forename><forename type="middle">R</forename><surname>Safinya</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0406076101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">46</biblScope>
+			<biblScope unit="page" from="16099" to="16103" />
+			<date type="published" when="2004-11-08">2004</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Needleman, D. J., M. A. Ojeda-Lopez, U. Raviv, H. P. Miller, L. Wilson, and C. R. Safinya. 2004. Higher-order Assembly of Microtubules by Counterions: From Hexagonal Bundles to Living Necklaces. Proc. Natl. Acad. Sci. USA 101:16099-16103.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fernando-Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Andreu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Diakun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Towns-Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bordas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structural Intermediates in the Assembly of Taxoid-Induced Microtubules and GDP-Tubulin Double Rings: Time-Resolved X-ray Scattering</title>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="2408" to="2420" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fernando-Diaz, J., J. M. Andreu, G. Diakun, E. Towns-Andrews, and J. Bordas. 1996. Structural Intermediates in the Assembly of Taxoid-Induced Microtubules and GDP-Tubulin Double Rings: Time-Resolved X-ray Scattering. Biophys. J. 70:2408-2420.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Twelve protofilament taxol-induced microtubules assembled from purified tublin. A synchrotron X-ray scattering study in comparison with glycerol- and map-induced microtubules</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Andreu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garcia De Ancos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Medrano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nogales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Towns-Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pantos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bordas</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.40595</idno>
+	</analytic>
+	<monogr>
+		<title level="m">AIP Conference Proceedings</title>
+		<imprint>
+			<publisher>AIP</publisher>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page" from="160" to="169" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andreu, J. M., J. Bordas, J. F. Diaz, J. Garcia de Ancos, R. Gil, F. J. Medrano, E. Nogales, E. Pantos, and E. Towns-Andrews. 1992. Low Resolution Structure of Microtubules in Solution: Synchrotron X-ray Scattering and Electron Microscopy of Taxol-induced Microtubule Assembled from Purified Tubulin in Comparison with Glycerol and MAP-induced Microtubules. J. Mol. Biol. 226:169-184.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cationic liposome–microtubule complexes: Pathways to the formation of two-state lipid–protein nanotubes with open or closed ends</title>
+		<author>
+			<persName><forename type="first">Uri</forename><surname>Raviv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Needleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Youli</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Herbert</forename><forename type="middle">P</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leslie</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cyrus</forename><forename type="middle">R</forename><surname>Safinya</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0502183102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">32</biblScope>
+			<biblScope unit="page" from="11167" to="11172" />
+			<date type="published" when="2005-07-29">2005</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raviv, U., D. J. Needleman, Y. Li, H. P. Miller, L. Wilson, and C. R. Safinya. 2005. Cationic Liposome -Microtubule Complexes: Pathways to the Formation of Two State Lipid-Protein Nanotubes with Open or Closed Ends. Proc. Natl. Acad. Sci. USA 102:11167-11172.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Structure of the αβ tubulin dimer by electron crystallography</title>
+		<author>
+			<persName><forename type="first">Eva</forename><surname>Nogales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sharon</forename><forename type="middle">G</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenneth</forename><forename type="middle">H</forename><surname>Downing</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/34465</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="issue">6663</biblScope>
+			<biblScope unit="page" from="199" to="203" />
+			<date type="published" when="1998-01-08">1998</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nogales, E., S. G. Wolf, and K. H. Downing. 1998. Structure of αβ tubulin dimer by electron crystallography. Nature 393:199-203.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Magnesium-induced self-association of calf brain tubulin. I. Stoichiometry</title>
+		<author>
+			<persName><forename type="first">Ronald</forename><forename type="middle">P</forename><surname>Frigon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Serge</forename><forename type="middle">N</forename><surname>Timasheff</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi00692a001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<title level="j" type="abbrev">Biochemistry</title>
+		<idno type="ISSN">0006-2960</idno>
+		<idno type="ISSNe">1520-4995</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="4559" to="4566" />
+			<date type="published" when="1975-10-01">1975</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frigon, R. P., and S. N. Timasheff. 1975. Magnesium-induced self-association of calf brain tubulin. I. Stoichiometry. Biochemistry 14:4559-4566.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

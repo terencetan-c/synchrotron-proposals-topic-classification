@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6ADE66AD0BF73778E10D00947DCA6094</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Due to the importance of the atmospheric records derived from the air trapped in polar ice cores, firn stud ies are of primary interest to get the evolution of the firn structure to better constrain the air trapping.</p><p>Several methods are used to determine the pore close off density including total gas content measure ments, which give an estimate of its mean value by meas uring the amount of air trapped in the ice, or porosity measurements, which give the evolution of the closed porosity as a function of depth (or density) and thus information of how the pores closure occurs. Beside these methods two dimensional structural informations have been obtained by coaxial episcopy <ref type="bibr" target="#b0">[1]</ref> showing the repar tition of the porosity around the ice crystals <ref type="bibr" target="#b1">[2]</ref>, but real 3D information is really desirable.</p><p>In this context, three dimensional high resolution images Vostok firn (BH8) were obtained using X ray absorption tomography on European Synchrotron Research Facility (ESRF, Grenoble, France) ID19 beam line. We present here the first results obtained on 40 sam ples taken between 15 and 160 m depth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation and processing</head><p>In the cold room, samples are cut and machined with a lathe into cylinders of about 15 mm of diameter and 15 mm height and fixed on a copper base with a drop of silicone grease. The samples are then put in a refrigera tor at a temperature of 40°C in order to prevent their transformation before the analysis.</p><p>They are transported at the ESRF and placed in a specially designed cryogenic cell cooled at about 50 °C by nitrogen flowing between the double Plexiglas walls of the cell <ref type="bibr" target="#b3">[4]</ref>. By rotating the cell in front of the X ray beam 900 images, projections of the x ray attenuation by the sample absorption, are taken by a Frelon CCD camera. Computer data acquisition and analyses The analysis of each 3D core sample is performed in 3 main steps: data acquisition, pre processing and processing. Data acquisition. A filtered back propagation algo rithm (ESRF algorithm) is used to compute the three dimensional mapping of the linear absorption coefficient in the sample from the 2D radiography projections for 900 angular sample positions ranging from 0° to 180°. The 3D volume sample is a 1024 3 voxel cubic data using float ing point units with a 10 µm voxel resolution. The result is thus a numerical cylindrical sample of 1 cm diameter and height. The first step is to change the large data set represen tation (64000 possible values for each voxel -4 bytes) to a compact description like 256 values (unsigned char -1 byte). This step is performed by shrinking and trans forming the spatial absorption histogram for each sample by a signal re scaling. The final volume is equivalent to 256 grey level images allowing performing 3D image processing procedures. A resulting slice is presented on Fig. 1 a where the cross section highlights the distortion of the reconstructed gray level in particular on the bor der of the sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3D reconstrucion of the</head><p>Pre processing. The pre processing step aims to convert the noised 3D reconstructed volume image in a binary phase description of the medium: porous and solid phase. Apart from the experimental artifact like hoar for mation during the transfer of the sample, the main noise element comes from the ESRF reconstruction algorithm, the signal to noise ratio in the acquisition hardware (Frelon CCD, experimental misalignment, etc.). A non exhaustive list of error and noise are: poor phase contrast in particular due to the fact that we perform a local tomography, gray level spots, rings, ghost elements or tomography gray level distortion on the borders ("para bolic" cross section distribution), etc.</p><p>To avoid these errors and improve the binary final volume image quality we developed 3D computer rou tines in a sequential procedure. The main steps used are:</p><p>1) Definition of a discrete cylindrical ROI (region of interest) to perform all analyses. This procedure is nec essary to prevent errors in the analyses because the acqui sition data volume is a cube and the core sample is a cylinder. For each sample a cylinder domain control was inscribed in the cubic data, centered in the observable sample. The radius and relative position differs for each sample and the average size is: radius 0.005025 [m] and 0.01024 [m];</p><p>2) The grey level correction routine is used to pre vent the "parabolic" grey level distortion on the border of the volume (common error from the ESRF reconstruc tion algorithm). The routine generates an averaged image of the entire stack for the ROI, used to evaluate the mean deviation factor from the idealized "flat" distribution for each voxel in the plane. This deviation parameter is applied over the corresponding voxel in all planes of the stack to correct the value. The final volume has a "flat" grey level distribution over the cross sections. The results of this operation are seen on Fig. <ref type="figure">1</ref>  7) A morphologic filter is applied over the porous phase to eliminate (transformed in solid phase) the objects with the radius smaller than 3 voxel. This filter uses the counting voxel procedure <ref type="bibr" target="#b5">[6]</ref> to evaluate the vol ume associated for each porous object;</p><p>8) The rings and small artifacts (common error from the ESRF reconstruction algorithm) in the porous phase are filtered by the "morpho topologic filter". Basically for each individual object in the porous phase is observed the maxima local radius from a discrete background distance map <ref type="bibr" target="#b2">[3]</ref>. This distance map is performed with a 5×5×5 kernel mask (125 voxel), using the "5 7 11 chamfer" approximation (using only integer operators). This radius is associated to respective object volume and surface by a "voxel surfel integration" procedure <ref type="bibr" target="#b5">[6]</ref>. This integration prevents the common errors associated to the voxel counting procedure and allows a quick surface area evalu ation with a local kernel (27 voxel -3×3×3). The final filter step is based on the ratio between the surface and volume of the equivalent idealized sphere (with the same radius) related to the measure. If the surface and volume deviation ratio is more of 50% the object is erased (trans formed in solid phase). In this analysis, this filter is applied on the objects with a radius smaller than 10 voxel.</p><p>In Fig. <ref type="figure" target="#fig_0">2</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>is showed for 5 different depths the com mon image section, the ROI external volume and the porous internal shape by 3D rendering (20% transparency).</head><p>Processing. The porous phase analysis is performed over the entire cylindrical ROI, allowing to characterize each pore. The procedure has different steps: i) a labeling procedure is used to identify each individual pore (a con nected cluster of voxel); ii) the distance map is used to identify the maxima radius inside the object; iii) a "voxel surfel integration" is used to improve the measure quality of the specific surface and volume ratio; and iv) a classifi cation of the objects depending on wether they touch or not the ROI. We assume than a porosity is open when it touch the ROI edge, otherwise it is closed. This assump tion is not sufficient to classify the porous objects in the "close off" depth domain since the size of the sample is not large enough compare to the size of the objects.</p><p>The final results are: specific surface (by volume) distribution, the porous volume distribution (by volume or radius), the main radius distribution, the topologic and morphologic deviation (related to the idealized sphere) and a classification in closed or open pore.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In this section, we present the first results obtained during this study on the evolution of the density, closed porosity and specific area with depth.</head><p>Density. Density, or total porosity is an integrated parameter which can be easily controlled and compared to other and simpler techniques. Unfortunately no density measurements have been performed in the field on BH8 core. However, on Fig. <ref type="figure" target="#fig_2">3 a</ref> sample, the numerical density is 0.52 while the field den sity for the adjacent cores are 0.46 (BH3 value over 1 m) and 0.475 (BH7, 3 samples of 5 cm height). To know whether this discrepancy was due to the method or to an evolution of the firn sample during the storage we calculate the density from 10 of the 1024 origi nal 2D sample images. The density calculated in such a way is very similar to the 3D results especially for the 15 m sample where the mean density on 10 slices is 0.512 (σ=0.02) instead of 0.52. This strongly suggests that the numerical treatment does not significantly affect the den sity result and that the long storage duration has most probably modified the most porous samples. Closed porosity. Closed porosity results are plotted on Fig. 3 a. They are compared with those obtained on the field by a pycnometric method (Barnola et al., in preparation) similar to the one described in Schwander et al. [7]. In this case, the sample volume is about 100 cm 3 and the precision of the volume measurement by the air expansion is about 0.2 cm 3 , which give a precision on the porosity of about 2*10 3 . When comparing the two tech niques, the most obvious feature is the large discrepancy in the close off area. This is due to the different sizes of the sample cylinders: 100 cm 3 with the pycnometric method and 0.785 cm 3 for the 3D reconstruction. The firn part of the profile is reported on Fig. 4. In this case, the pycnometric method gives high scattered results and takes into account the precision of the method, mean values not significantly different from zero. The 3D reconstruction shows that a closed porosity exists all along the firn. Its mean values are very small, 8.4*10 4 that is about only 1% of the porosity at the pore close off. If we exclude the 15 m sample, which seems to have evolved during the storage, the close porosity, decrease with depth, from about 1*10 3 to 5*10 4 at 65-70 m depth. Considering that there are 600 closed pores in the volume of our samples and that they are spherical, they should have a mean radius of .06 mm. This value compares well with the value 0.04 mm obtained by V. Lipenkov [5] at a depth of 183 m on another Vostok core. Finally we can note that visual inspection of the dif ferent slices suggest that the closed pores are preferential ly located between the different grains and not inside the ice crystals. Specific area. The specific area based on the 3D reconstruction are plotted on Fig. 5 and compared with the results obtained in the field on the BH7 core [1, 2]. These last results were obtained by processing 2 D photo graphs taken in reflective coaxial light. This technique has the advantage to give, together with the pores, the grains boundary position [1]. However, the 2D-3D transforma tion has to be validated. The agreement between the two techniques is very good which validate the 2D measure ments and also shows that the storage of the sample did not affect this parameter.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>We have shown the large potential of the high reso lution X ray tomography to obtained virtual firn samples on which different parameters can be measured. This pre liminary work has already permit to quantify the closed pore volume in the Vostok firn and to validate 2D field measurements The main limitation of this technique is the small volume reconstructed despite the very large data file that have to be handled, but it appear unique to study 3D parameters. 7. Schwander J., Stauffer B. Age difference between Polar ice and the air trapped in its bubbles. -Nature, v. 311, 1984, p. 45 47. ТРЕХМЕРНАЯ РЕКОНСТРУКЦИЯ СТРУКТУРЫ ФИРНА С ПОМОЩЬЮ РЕНТГЕНОВСКОЙ ТОМОГРАФИИ С помощью рентгеновской абсорбционной то мографии были получены с высоким разрешением трехмерные изображения 40 образцов фирна, отоб ранные на глубинах от 15 до 160 м на станции Вос ток. В результате удалось определить изменения с глубиной плотности фирна, объема замкнутых пор и удельной поверхности. Оценки этих параметров бы ли сравнены с результатами измерений другими ме тодами и показали хорошую сходимость. Некоторые отличия плотности образцов с ее малыми значения ми, видимо, связаны с тем, что после отбора они долгое время находились в хранилище. Представлен ный метод расширяет и дополняет возможности ра нее использованных методик, но с его помощью можно исследовать образцы фирна только неболь ших размеров.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>2 1</head><label>2</label><figDesc>Fig. 1. Vostok BH8 ice core sample from 96 m depth: grey level image slice from ESRF obtained by the back projection volume reconstruction algorithm (a) and grey level distribution of a cross section (b) Рис. 1. Образец керна льда озера Восток ВР8 с глубины 96 м. Скорректированное распределение серого тона, получен ное с помощью специального алгоритма фильтрации в цилиндрической рабочей области (а); исходное попереч ное сечение в серой палитре (b)</figDesc><graphic coords="1,118.98,439.88,352.88,218.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>b; 3 )Fig. 2 .</head><label>32</label><figDesc>Fig. 2. Image of different firn and ice samples (from top to bottom: 15, 85, 96, 118 and 161 m depth), in the left column a 2D grey level slice, in the centre column the ROI solid surface and in the right column the entire vol ume with a transparency of 20% (resolution 10 µm, ROI cylinder: radius 0.5025 cm and 1.024 cm height) Рис. 2. Изображение разных образцов фирна и льда (свер ху вниз: c глубины 15, 85, 96, 118 и 161 м). Слевадвумерные срезы в серой шкале, посредине -по верхности рабочей цилиндрической области, справа показан весь объем рабочих областей с прозрачнос тью 20% (разрешение 10 мк, радиус цилиндричес кой рабочей области 0,5025 см, ее высота 1,024 см)</figDesc><graphic coords="2,303.58,302.75,235.28,328.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Comparison of BH8 3D numerical density (grey circles) and closed porosity (grey stars) to experimental data obtained on adjacent cores (a) and with BH3 (cross), BH5 (stars) mean values and detailed measurements on BH7 (circles). Triangles compare 2D density with mean BH3 values (b) Рис. 3. Сравнение плотности в керне BH8, полученной по трехмерным изображениям (серые кружки) и закрытой порис тости (серые звездочки) с экспериментальными данными по другим, отобранным рядом кернам (а), а также с плотностью в кернах ВН3 (крестики), керне ВН5 (звездочки) и полученной при детальных измерениях в керне ВН7 (кружки). Треугольники показывают сравнение двумерной плотности со средними значениями по ВН3 (b)</figDesc><graphic coords="3,106.79,502.35,385.09,174.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .Fig. 5 .</head><label>45</label><figDesc>Fig. 4. Closed porosity in the firn determined by the pycnomet ric method (cross, individual measurements and black dots, mean values) and by 3D reconstruction (grey stars) Рис. 4. Замкнутая пористость фирна, определенная пикноме трическим методом (крестики -отдельные измере ния, черные кружки -средние значения), и получен ная по трехмерным изображениям (серые звездочки) Fig. 5. Evolution of the specific area with the density calculated from the 3D reconstruction (stars) together with those (black dots) reconstructed from 2D field photographs taken in reflected light Рис. 5. Изменения удельной площади и плотности, рассчи танные по трехмерным изображениям (звездочки), и они же, реконструированные по двумерным полевым фотографиям, сделанным в отраженном свете (чер ные кружки)</figDesc><graphic coords="4,95.32,63.98,189.12,189.36" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Imaging of firn and bubbly ice in coaxial reflected light: a new technique for the characterization of these porous media</title>
+		<author>
+			<persName><forename type="first">Laurent</forename><surname>Arnaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Gay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Marc</forename><surname>Barnola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Duval</surname></persName>
+		</author>
+		<idno type="DOI">10.3189/s0022143000002653</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Glaciology</title>
+		<title level="j" type="abbrev">J. Glaciol.</title>
+		<idno type="ISSN">0022-1430</idno>
+		<idno type="ISSNe">1727-5652</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">147</biblScope>
+			<biblScope unit="page" from="326" to="332" />
+			<date type="published" when="1998">1998</date>
+			<publisher>International Glaciological Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnaud L., Gay M., Barnola J. M., Duval P. Imaging of firn and bubbly ice in coaxial reflected light: new technique for the characterization of these porous media. -Journ. of Glaciology, v. 44, 1998, p. 326 332.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Modelling of the densification of polar firn: characterization of the snow–firn transition</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Arnaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Y</forename><surname>Lipenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Barnola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Duval</surname></persName>
+		</author>
+		<idno type="DOI">10.3189/1998aog26-1-39-44</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Glaciology</title>
+		<title level="j" type="abbrev">Ann. Glaciol.</title>
+		<idno type="ISSN">0260-3055</idno>
+		<idno type="ISSNe">1727-5644</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="39" to="44" />
+			<date type="published" when="1998">1998</date>
+			<publisher>International Glaciological Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnaud L., Lipenkov V.Y., Barnola J. M. et al. Modelling the densification of polar firn: charateri zation of the snow firn transition. -Annals of Glaciology, v. 26, 1998, p. 39 44.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Chassery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Montanvert</surname></persName>
+		</author>
+		<title level="m">Géométrie Discrète en Analyse d&apos;Images</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<publisher>Edition Hermes</publisher>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chassery J.M., Montanvert A. Géométrie Discrète en Analyse d&apos;Images, Paris, Edition Hermes, 1982.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Imaging by X ray tomography: an interesting tool to study physical snow properties. -МГИ, вып</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Coléou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lesaffre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Brzoska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Flin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">119</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coléou C., Lesaffre B., Brzoska J. B., Flin F. Imaging by X ray tomography: an interesting tool to study physical snow properties. -МГИ, вып. 94, 2003, с. 115 119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Air bubbles and air hydrate crystals in the Vostok ice core. -Physics of Ice Core Records</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Y</forename><surname>Lipenkov</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Hokkaido University Press</publisher>
+			<biblScope unit="page" from="327" to="358" />
+			<pubPlace>Sapporo</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lipenkov V.Y. Air bubbles and air hydrate crystals in the Vostok ice core. -Physics of Ice Core Records. Sapporo, Hokkaido University Press, 2000, p. 327 358.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Image analysis and mathematical morphology, v 2. Theoretical Advances</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Serra</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<publisher>Academic Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Serra J. Image analysis and mathematical morphology, v 2. Theoretical Advances. New York, Academic Press, 1988.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

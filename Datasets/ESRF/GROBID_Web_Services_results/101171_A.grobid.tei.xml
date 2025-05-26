@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">08CC03CE6ED478A44D7005BBF1279FC3</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Before the beamtime, preparation of the catalyst required using a reactor of length 20 cm (containing approximately 10 pellets per section, 4 sections) was performed, under conditions described in Table <ref type="table" target="#tab_0">1</ref>. The Gas Hourly Space Velocity (GHSV) was approximately 5600 hr -1 with 2 vol % H2 at 220 °C over 24 hours. After reaction, the reactor was flushed with Argon and taps on the edges would trap the pellets inside the stainless-steel tube, after which placement in an Argon glovebox could prevent any interaction in air and thus, passivation/oxidation. The pellets for each condition would then be placed in a 10 cm glass capillary, with one pellet per section being held up by quartz wool on either end. Using the natural Fischer-Tropsch reaction as inspiration, paraffin wax was then melted and placed on top of the quartz wool on either end, trapping the pellets on either end. The capillaries were then removed and transported safely for the beamtime.  It was desired to determine how the pellets after different reduction environments was affected, by preventing oxidation/passivation using a novel method of trapping the pellets. At the beamline, the 4x5 mm pellets were to be scanned at 90.856 keV by rotating the tubes described in Figure <ref type="figure" target="#fig_1">1</ref> at 180 °, with the conditions as described in Table <ref type="table" target="#tab_0">1</ref>. All conditions in this table were successfully scanned, with each pellet scanned twice. To achieve these positions, heights for each catalyst scan were found by raising the plate and using the Y-level. It was confirmed that the beam would hit the right place as the capillary tubes used would leave a "burn" mark where the incident beam occurred, since the capillary seems to contain some Fe. Initially, it seemed that the scans would completely penetrate the pellets, but there appears to be some dampening of the intensity as it gets closer to the centre of the pellet, as seen in Figure <ref type="figure" target="#fig_1">1</ref>. While it might have been useful to see peak intensities initially for specific 2 θ values, this wasn't as important as determined the specific phases present of CuO, Cu metal and ZnO and their subsequent crystallographic properties. Using Rietveld analysis, Figure <ref type="figure">2</ref> shows the preliminary analysis of conditions D and E in Table <ref type="table" target="#tab_0">1</ref>.</p><p>Figure <ref type="figure">2</ref>. Cu wt. % after Rietveld fitting for conditions D (left) and E (right) from Table <ref type="table" target="#tab_0">1</ref>.</p><p>From preliminary visual analysis, it is clear that the Cu metal is more intense when Cs2O is introduced, even before any water is added. The pockets of Cu formation (which typically indicate sintering) are more drastic, especially for the centre of the reactor where the temperature is 220 °C. Since there is a small temperature profile of ± 10 °C in the bed, the extremes can also pinpoint the drastic effect even a small temperature change can have. This phenomenon will be studied further and can set the basis for detailed publications on how realworld pelletised catalysts are affected by the addition of these alkali metals and in-particular, why the sintering and subsequent strength loss is observed. Additionally, this method of analysis also prevents the need for general intensities to be kept the same and can be used in many other hard materials.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>-CT studies of low-temperature water-gas shift catalysts during activation and reaction: Effect of catalyst and gas composition on the crystalline phase and deactivation</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Pellets trapped in the capillary (Left), along with their relative positions in the large-scale reactor (middle) and an example of the total intensities for each scan in an unreacted pellet with 1 wt. % Cs2O (right).</figDesc><graphic coords="3,84.30,69.27,175.75,161.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Samples and their experimental conditions and whether they were run at the beamline.</figDesc><table><row><cell cols="4">Sample Experimental Condition Capillary name Successful Beam scan</cell></row><row><cell></cell><cell>20 Bar Dry</cell><cell>D</cell><cell>Yes</cell></row><row><cell>CZA-PS-1</cell><cell>Atm Dry 20 Bar Wet</cell><cell>A, O G, J, M</cell><cell>Yes Yes</cell></row><row><cell></cell><cell>Atm Wet</cell><cell>P</cell><cell>Yes</cell></row><row><cell>CZA-PS-2</cell><cell>20 Bar Dry Atm Dry</cell><cell>E, L B, H</cell><cell>Yes Yes</cell></row><row><cell></cell><cell>20 Bar Dry</cell><cell>F</cell><cell>Yes</cell></row><row><cell>CZA-PS-3</cell><cell>Atm Dry</cell><cell>C</cell><cell>Yes</cell></row><row><cell></cell><cell>20 Bar Wet</cell><cell>I, K</cell><cell>Yes</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

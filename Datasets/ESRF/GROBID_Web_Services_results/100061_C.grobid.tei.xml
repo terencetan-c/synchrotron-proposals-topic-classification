@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ESRF Experiment Report_A26-2-945_Francisco Molina-Lopez</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Francisco</forename><surname>Molina-Lopez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Engineering (MTM)</orgName>
+								<orgName type="institution">KU Leuven</orgName>
+								<address>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Rosenthal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Engineering (MTM)</orgName>
+								<orgName type="institution">KU Leuven</orgName>
+								<address>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ESRF Experiment Report_A26-2-945_Francisco Molina-Lopez</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3C4499EAE8FC96ED0156465928822219</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Energy harvesting devices, such as thermoelectric generators (TEGs) and photovoltaics, present a great potential to meet the clean energy goal of Europe. Though the devices based on inorganic materials have shown satisfactory performance and been commercialized, organic-based devices possess many advantages, such as low toxicity to the environment, lower cost in mass-producing, the potential for large area devices, suitability for flexible devices, and material abundance. Recent reports suggest that by optimizing composition and fabrication method, the energy harvesting performance of organic materials can catch up, and even exceed in some cases (such as low temperatures and the presence of high thermal contact resistance for TEGs, or indoor light conditions for photovoltaics), that of inorganic materials. <ref type="bibr" target="#b0">(Cutting &amp; Venkataraman, 2016;</ref><ref type="bibr" target="#b16">Nozariasbmarz, 2020)</ref> This makes organicbased devices promising for the future of clean energy.</p><p>Printed organic thermoelectric (OTE) and organic photovoltaics (OPV) materials are the focus of our group. By applying printing techniques, we not only fabricate these materials into flexible devices/modules at a low cost, but also expect to boost their performance by tuning their microstructure. For instance, aligning OTE polymers along the thermogradient direction should maximize their OTE performance. <ref type="bibr" target="#b1">(Wei, 2014;</ref><ref type="bibr" target="#b2">Shi, 2017)</ref> Allison C. <ref type="bibr">Hinckley et. al.</ref> demonstrated that, due to the anisotropic morphology induced by the solution-shearing method, a boost of the OTE performance of PEDOT: PSS thin film of up to 5-times was possible. <ref type="bibr" target="#b3">(Hinckley, 2021)</ref> Mechanical rubbering and drawing can also induce anisotropic morphology in polymer films and, consequently, enhance their OTE performance. <ref type="bibr" target="#b4">(Scheunemann, 2020)</ref> Thus, our goal for printed OTE materials is to boost performance through promoting morphological anisotropy by tuning the printing parameters.</p><p>Two printing techniques are used to prepare 3D and 3D OTE materials with uniaxially-aligned morphology: electrical-field-assisted 3D printing and brush printing. The external electrical field has been demonstrated to promote structural alignment in conducting polymer thin films, which massively enhances the carrier mobility along the aligned direction. <ref type="bibr" target="#b5">(Molina-Lopez, 2018</ref>) By combining the external electric field and the direct ink writing (DIW) 3D-printing technique (what we call e-DIW), we expect to improve the structural alignment and performance of printed bulk materials and, meanwhile, offer manufacturing flexibility for various device geometries. Brush-printing is a technique commonly applied for patterning continuous thin films. Though conventional brush printing is limited to 2D or in-plane devices, it provides a reliable approach to induce alignment in various types of conducting polymer thin films. <ref type="bibr">(Wang, 2017)</ref> In the current stage of our research, we expect to optimize the brush printing parameters to reach the best performance of OTE thin films. Organic photovoltaic (OPV) cells have raised a lot of interest as they are a low-cost alternative to traditional solar cells and they can be processed under ambient conditions. <ref type="bibr" target="#b12">(Brabec, 2008;</ref><ref type="bibr" target="#b11">Lu, 2015)</ref> However, most OPV devices are fabricated using conventional fabrication methods such as spin coating and evaporation, which are not compatible with large-scale production. A roll-to-roll manufactured OPV carefully printed by different coating methods has been reported. <ref type="bibr">(Angmo, 2013)</ref> In our work, we make films with the inkjet printing method, which has the advantages of being contactless, digital, and maskless. Moreover, we can pattern our materials precisely and additively, which minimizes material waste, and on rigid and flexible substrates. In literature, the morphology of the active layer, which is the bulk heterojunction (BHJ), was reported to play an important role in OPV efficiency. For instance, face-on and end-on orientations are desirable for OPVs and light emitting diodes needing high levels of out-of-plane transport. <ref type="bibr" target="#b8">(Müller-Buschbaum, 2014;</ref><ref type="bibr" target="#b9">Pandey, 2019)</ref> The fast-drying pattern of inkjetprinted films composed of tiny (few pl) drops will allow us to access a myriad of new morphologies useful to boost the performance of OPV. <ref type="bibr" target="#b7">(Chen, 2022</ref>) Furthermore, we expect to tune the morphology of the device by developing co-solvent systems and by optimizing the annealing temperature of the printed films.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental methods</head><p>In this experiment we tested three types of materials: 1) OTE bulk materials produced by electric-field assisted 3D printing (e-DIW), 2) OTE thin films produced by brush-printing, and 3) OPV thin films produced by ink-jet printing. The substrate for the thin film samples is silicon. Because the goal of printed OPV is to incorporate them in wearable devices, the OPV thin films are also prepared on a flexible substrate, polyimide, to study the substrate effect on the polymer morphology. The OTE bulk materials were characterized by wide-angle X-ray scattering (WAXS), and the thin films were tested by grazing incident wide-angle X-ray scattering (GIWAXS). With the support of Martin Rosenthal, the characterization was conducted at beamline BM 26, from 20 th to 23 rd April 2022. All the data were collected by a Pilatus 1M detector with a 12 keV X-ray. The mask and 'poni' files were generated by "pyFAI" using Al2O3 as the standard sample. The software "GIuSAXS" has been used for visualizing the 2D WAXS result. The data reduction has been done by the software "BUBBLE" with the mask files, 'poni' files, and raw data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>• 3D-printed OTE 3D printing is a promising technique to prepare material/device with complex geometry in a simple way. Besides the shearing force applied to the material during the 3D printing process, we also apply an external electric field (e-DIW technique) to align the PEDOT: PSS and attempt to enhance its power factor. In this experiment, we prepared several printed PEDOT:PSS "pillars" with e-DIW at the different applied electric fields and characterized them by WAXS. The pillars were vertically fixed on the holder as shown in Figure <ref type="figure" target="#fig_0">1(a)</ref>. The vertical direction was defined as the y-axis, which is parallel to the applied electric-field and printed direction, and the horizontal direction was defined as the x-axis, as shown in Figure <ref type="figure" target="#fig_0">1(b)</ref>. After subtracting the background signal credited to air scattering, the 2D WAXS result of the printed pillars is processed into the plots with intensity on the y-axis versus the q value on the x-axis. Figure <ref type="figure" target="#fig_1">2</ref> (a), for instance, shows the 2D WAXS pattern of pillar samples printed under no field, 1Hz, and 100Hz AC electric fields, respectively. Their corresponding reduction plot is shown in Figure <ref type="figure" target="#fig_1">2(b)</ref>. Besides the scatter next to the beam stop, the pattern shows two rings around q ~ 1.4 Å -1 and q ~ 1.85 Å -1 . These peaks are assigned to the 𝜋-𝜋 stacking signal accounted for PSS and PEDOT, respectively. <ref type="bibr" target="#b3">(Hinckley, 2021;</ref><ref type="bibr">Wang, 2017)</ref>The position of the peaks doesn't change under different e-field conditions indicating the lack of effect of the e-field on the packing spacing of the polymers. However, if taking PSS as a reference, no field and 100Hz induce higher intensity of the 𝜋-𝜋 stacking signal, or (020), of PEDOT crystals compared with 1Hz. This result suggests that AC electric field can help tune the crystallinity of PEDOT. Such microstructure differences might reflect on the ratio of electrical/thermal conductivity and are relevant for thermoelectric performance. The degree of alignment, or anisotropy, of the crystalline phase for this type of sample, is calculated as the intensity ratio of the edge-on phase (x-region, calculated as the integral of the intensity within the cake sector covered by an azimuth angle between 0 to 30 o ) to that of the face-on phase (y-region, calculated as the total intensity between 60 and 90 o ), as shown in Figure <ref type="figure" target="#fig_2">3 (a)</ref>. The reason is that any face-on phase detected in the WAXS pattern must necessarily come from polymer chains arranged perpendicularly to the printing direction g. Interestingly the degree of anisotropy of PSS is independent of the e-field and the frequency: it remains around 0.975 for no field conditions and both 1Hz and 100Hz samples. The flexible backbone of PSS might hinder its alignment to the applied electric field direction. On the contrary, the degree of anisotropy significantly differs for PEDOT for different frequencies. The DIW sample without an external electric field shows the highest degree of anisotropy, up to 1.08. The e-DIW samples, interestingly, exhibit a slightly lower degree of anisotropy: 0.97 for 1 Hz AC field and around 1 for 100 Hz. Unlike PSS, the backbone of PEDOT consists of conjugated 𝜋 -bonds and thiophene rings. These components increase the planarity of PEDOT and make it rigid and more likely to align along preferential directions. In the present result, the shearing force during extrusion seems to be an effective approach to aligning the PEDOT crystals in the extrusion direction. Surprisingly, the external AC electric field does not promote such alignment but seems to hinder it instead. We need to dig deeper into the literature and perform more experiments to clarify the correlation between AC frequency and the degree of anisotropy of PEDOT. There is still plenty of room to optimize the printing parameters. For instance, maybe we haven't found the best frequency of the AC electric field for aligning the polymer chains. (Molina-Lopez, 2018) In any case, while we hypothesize that uniaxial molecular alignment is beneficial for thermoelectric performance, such alignment does not need to come from the crystalline phase. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>• Brush-printed OTE</head><p>In this experiment, we prepared PEDOT:PSS thin films on a silicon wafer by brush-printing with different brushing speeds. The microstructure of these films is characterized by GIWAXS taken from two directions, parallel and perpendicular to the brushing direction, as shown in Figure <ref type="figure">4(a)</ref>. By comparing the horizontal (in-plane) 𝜋 -𝜋 signal along the parallel (Ixy,0) and perpendicular (Ixy,90) direction to printing, we can know whether the PEDOT crystalline phase is aligned along the printing direction (Molina-Lopez, 2018), which we define as the degree of anisotropy. On the other hand, by comparing the horizontal (in-plane, Ixy,0) and meridian (out-of-plane, Iz,0) signal of the 𝜋-𝜋 stacking signal, we can determine the preferred orientation of the PEDOT crystalline phase in the film (edge-on vs face-on). The edge-on/face-on ratio is calculated as Ixy,0 divided by Iz,0. The degree of anisotropy and edge-on/face-on ratio of spin-coated and brush-printed PEDOT:PSS films are shown by the orange and blue lines, respectively, in Figure <ref type="figure">4(b)</ref>. All the intensities are corrected by their solid angle χ as described in the literature. (Chen S. P., 2020) For the spin-coated film, the 𝜋-𝜋 signal in the meridian direction is much stronger than that in the horizontal direction (edge-on/face-on ratio &lt; 1), suggesting a strong face-on orientation. Contrarily, the edge-on/face-on ratio of brush-printed films is much higher than 1. This result suggests that the PEDOT crystals in brush-printed films tend to position their "edge", or ethylendioxy part, on the substrate, as shown in Figure <ref type="figure">4(c)</ref>. The conducting polymer films with edge-on orientation might favor electron transport in the in-plane direction and are in principle desired.</p><p>We calculate the degree of anisotropy of the crystalline phase of PEDOT to analyze their alignment in the spin-coated and brush-printed films. This is shown by the blue line in Figure <ref type="figure">4(b)</ref>. Because spin-coated samples should exhibit point-symmetry from the film center, we assigned the degree of anisotropy of spin-coated PEDOT film as 1. For the brush-printed film produced at 1mm/s brushing speed, the horizontal (in-plane) 𝜋-𝜋 signal from perpendicular incidence is higher than that from a parallel incidence. Thus, the degree of anisotropy is lower than 1, suggesting that PEDOT crystals tend to arrange with the backbone perpendicular to the brushing direction. In contrast, the brushprinted film prepared at 2mm/s shows a degree of anisotropy higher than 1, indicating that PEDOT chains tend to align along the brushing direction. The morphology of the PEDOT crystalline phase in spin-coated and brush-printed films is represented in Figure <ref type="figure">4(c)</ref>.</p><p>Figure <ref type="figure">4</ref> (a) Sketch of the fabrication of brush-printed film and its GIWAXS characterization from two directions concerning the brush-printing direction. (b) the degree of anisotropy and face-on/edgeon ratio of PEDOT crystalline phase in spin-coated and brush-printed films. The edge-on/face-on ratio (in orange line) is calculated by the horizontal (in-plane) 𝜋-𝜋 signal (Ixy,0) divided by the meridian (out-of-plane) 𝜋-𝜋 signal (Iz,0). The degree of anisotropy is calculated by the horizontal (in-plane) 𝜋-𝜋 signal along the parallel (Ixy,0) and perpendicular (Ixy,90) direction compared to the printing direction. (c) Sketch of PEDOT crystal orientation in spin-coated film, and brush-printed films with 1mm/s and 2mm/s printing speed, respectively.</p><p>In conclusion, the brushing speed seems to be a valid "knob" to tune the molecular alignment over a wide range of directions, as well as the edge-on/face-on arrangement of the molecules. However, we cannot uncouple those two effects yet. Unfortunately, at the moment of the GIWAXS beamtime, we could not control well the parameters of brush printing for good film quality. and we could not obtain the GIWAXS signal in some of the films such as the brush-printed films prepared at 3mm/s and 4mm/s brushing speed. We hope to receive more beamtime to investigate the effect of brushing speed on film morphologies with better quality and their corresponding OTE performance. With the optimized brushing speed and printing parameters, we believe our brush-printing materials and its GIWAXS results can contribute to that general goal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>• Ink-jet printed OPV</head><p>OPV performance is predominantly dependent on the polymer morphology of the active layer, which is affected by the fabrication parameters, such as solvent, substrate, temperature, preparation method, etc. <ref type="bibr" target="#b13">(Gu, 2016)</ref> Herein we look into the morphology of the ink-jet printed active layer samples listed in Table <ref type="table" target="#tab_0">1</ref>, to understand the correlation between the printing parameter, polymer morphology, and device performance. PM6:Y6 is the polymer blend chosen as the active layer in our OPV device for its reported high performance, consistently reaching PCE &gt; 15%. <ref type="bibr">(Ma, 2020)</ref> The solvent used for the PM6:Y6 solution is a key factor to tune the polymer morphology. PM6:Y6, PM6, and Y6 spin-coated films are prepared to compare with their corresponding ink-jet printing counterparts. The 2D GIWAXS patterns of spin-coated samples are shown in Figure <ref type="figure" target="#fig_3">5(a)</ref>. Spin-coated samples of PM6:Y6 and Y6 exhibit a strong 𝜋-𝜋 stacking signal in the out-of-plane region while the PM6 sample shows no signal at all. The result points out that the 𝜋-𝜋 stacking signal at q ~1.7 Å -1 in PM6:Y6 composite is mainly contributed by the Y6 component, and a face-on orientation is favored in their crystalline phase. The results of spin-coated samples are consistent with the literature. <ref type="bibr" target="#b15">(Zhu, 2020)</ref> In contrast, the 𝜋-𝜋 stacking signal can hardly be found in all the ink-jet printed samples. The 1D reductions of 2D GIWAXS patterns after background subtraction are shown in Figure <ref type="figure" target="#fig_3">5(b)</ref>. The solid lines represent spin-coated samples, and the dashed lines represent ink-jet printed samples. The absence of the 𝜋-𝜋 stacking signal for the inkjet-printed samples might indicate the amorphous phase dominant microstructure and the low order of polymer packing in ink-jet-printed films. Ordered packing of the polymer chain and overlapping of the 𝜋-orbitals are crucial for delocalizing the charge carriers and therefore promoting their mobility. Given the low order of polymer packing in ink-jet printed films, low electrical conductivity and OPV efficiency can be unfortunately foreseen. As previously mentioned, the solvent used for PM6:Y6 solution casting might result in different crystal morphology. <ref type="bibr" target="#b15">(Zhu, 2020)</ref> In the literature, this active layer is usually prepared by spin-coating from chloroform. However, the boiling point of chloroform is too slow for inkjet printing, because fast evaporation at the nozzle will cause polymer aggregation and nozzle clogging. Thus, chloroform is replaced by tetralin to dissolve PM6:Y6 ink for inkjet printing. That might cause the morphological difference between spin-coated and ink-jet printed films. Indeed, since the boiling point of tetralin (207 o C) is much higher than that of chloroform (61.2 o C), the 80 o C used for annealing is not sufficient to remove tetralin from the film, leading to low crystallinity of the ink-jet printed films. In the future experiment, we plan to raise the annealing temperature of inkjet-printed films and study the subsequent morphological change of PM6:Y6 upon annealing at high temp temperature (&gt; 170 o C). Also, we plan to study the morphology of PM6:Y6 deposited from a co-solvent system ink. Finally, another possible reason for the lack of diffraction peaks is the lack of control of the film thickness when deposited by inkjet printing. This may lead to non-uniform very thin films, which might be discontinuous.</p><p>Active layer films are also prepared on a flexible substrate, Kapton, to investigate the substrate effect on their polymer morphology. However, the signal of Kapton itself is much stronger than the tested materials. In addition, the 𝜋-𝜋 stacking signals of PM6:Y6 and Y6 overlap with the Kapton signal, as shown in Figure <ref type="figure" target="#fig_4">6</ref>. For this reason, it is difficult to analyze our target materials on Kapton. In the future GIWAXS experiment, the morphology of the active layer will only be prepared on silicon substrate spin-coated with a thin film of an electron transfer layer (ETL) material. In this way, we avoid the interference from the Kapton substrate signal and utilize as an interface the actual material that will be present in the final device stack (i.e., the ETL film). The ETL film must be very thin (several nm) to minimize undesired potentially overlapping peaks in the spectrum. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Being this the first synchrotron experience of our group, we had the opportunity to learn the operation procedure and preliminary data process of (GI)WAXS. The results from this experiment provide first-hand morphological information about our printed materials. The WAXS pattern of e-DIW printed OTE materials taught us that although e-field does not change the π-π stacking distance, it may hinder the alignment of the crystalline phase otherwise induced by the normal shear force experienced by the material at the nozzle during extrusion. Though not all our brush-printed films exhibit a signal in GIWAXS, we demonstrated that the printing speed can help us tune the PEDOT crystals' alignment and orientation, which ranges from exclusively face-on molecules isotropically oriented for spin-coated films, to mostly edge-on molecules with their backbone aligned perpendicular to the printing direction at a low printing speed of 1 mm/s, or predominantly edge-on molecules with their backbone aligned parallel to the printing direction at a medium printing speed of 2 mm/s. For ink-jet printed OPV, the current sample preparation seems not suitable for the GIWAXS measurement, but corrective actions have been defined for the next experimental run. Overall, (GI)WAXS offers fundamental information about our printed materials. In future beamtime, we will continue to thoroughly study the morphology of these printed materials fabricated at varied printing parameters, will optimize the material composition and the printing parameters, and will eventually offer high-performance energy-harvesting devices to mitigate our society's shortage of energy sources.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future work</head><p>During this beamtime, we obtained relevant information about our printed materials. However, we barely scratched the surface, and we will need more beamtime and investigation to make a convincing hypothesis on the morphology-performance relationship of our printed materials. In the new CRG-DUBBLE proposal we plan to prepare more e-DIW printed OTE bulk materials processed at different e-filed frequencies and nozzle diameters and characterize their microstructure in different scales by combining WAXS and SAXS. Also, we will improve the quality of brush-printed films and propose to study the effect of brushing speed on film morphology. For printed OPV, we will optimize the inkjet printing parameters and the post-printing annealing (higher temperature for inkjet-printed films must be used). We will choose a Si substrate spin-coated with a thin film of ETL to minimize the background signal from the substrate while using the actual interface to be present in the final device. In the end, these (GI)WAXS/SAXS results will be key data to support our research on optimizing the performance of printed energy harvesters via tuning printing parameters.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 (a) Picture of the e-DIW pillar samples fixed on the sample holder for WAXS. (b) sketch of the experimental setup indicating the axes assigned to the sample geometry.</figDesc><graphic coords="3,164.90,72.00,283.43,199.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 (a) 2D WAXS pattern of pillar samples e-DIW under no electric field (NF), 1Hz and 100Hz AC electric field, respectively. (b) WAXS intensity of e-DIW pillar samples after background subtraction and reduction.</figDesc><graphic coords="4,90.00,72.00,402.76,340.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3 (a) Definition of edge-on (x-region) and face-on (y-region) intensity. (b) x/y ratio, as the degree of anisotropy, printed pillar samples in regards of PSS and PEDOT peak intensity. In conclusion, pillars printed without field are more crystalline and the crystalline phase shows higher alignment than e-DIW pillars. On the other hand, e-DIW at 100 Hz results in more uniaxially aligned and crystalline PEDOT:PSS than e-DIW at 1 Hz. It is not clear yet at this point what conditions are the best for thermoelectric performance.</figDesc><graphic coords="5,90.00,72.00,451.30,153.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5</head><label>5</label><figDesc>Figure5(a) 2D GIWAXS patterns of PM6:Y6, PM6, and Y6 films prepared by spin-coating and inkjet printing on a silicon substrate, (b) 1D GIWAXS intensity profile of PM6:Y6, PM6, and Y6 films prepared by spin-coating and ink-jet printing. The peak at q ~1.7 Å -1 represents the 𝜋-𝜋 stacking. Only spin-coated samples display the 𝜋-𝜋 stacking signal.</figDesc><graphic coords="7,90.00,523.12,451.30,147.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. 2D GIWAXS patterns of PM6:Y6, PM6, and Y6 films prepared by spin-coating and ink-jet printing on Kapton substrate, and 2D GIWAXS pattern of bare Kapton substrate.</figDesc><graphic coords="8,72.00,349.23,451.30,186.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Active layer samples and their fabrication parameters</figDesc><table><row><cell>Sample name</cell><cell>Fabrication method</cell><cell>Substrate</cell><cell>Material</cell><cell>Solvent</cell><cell>Annealing temperature ( o C)</cell></row><row><cell>PM6:Y6 SC</cell><cell>Spin-coating</cell><cell>Si</cell><cell>PM6:Y6</cell><cell>Chloroform</cell><cell>80</cell></row><row><cell>PM6 SC</cell><cell>Spin-coating</cell><cell>Si</cell><cell>PM6</cell><cell>Chloroform</cell><cell>80</cell></row><row><cell>Y6 SC</cell><cell>Spin-coating</cell><cell>Si</cell><cell>Y6</cell><cell>Chloroform</cell><cell>80</cell></row><row><cell>PM6:Y6 IJP</cell><cell>Ink-jet printing</cell><cell>Si</cell><cell>PM6:Y6</cell><cell>Tetralin</cell><cell>80</cell></row><row><cell>PM6 IJP</cell><cell>Ink-jet printing</cell><cell>Si</cell><cell>PM6</cell><cell>Tetralin</cell><cell>80</cell></row><row><cell>Y6 IJP</cell><cell>Ink-jet printing</cell><cell>Si</cell><cell>Y6</cell><cell>Tetralin</cell><cell>80</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Indoor light recycling: a new home for organic photovoltaics</title>
+		<author>
+			<persName><forename type="first">Christie</forename><forename type="middle">L</forename><surname>Cutting</surname></persName>
+			<idno type="ORCID">0000-0001-8783-9471</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Monojit</forename><surname>Bag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c6tc03344j</idno>
+		<ptr target="https://doi.org/10.1039/c6tc03344j" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Chemistry C</title>
+		<title level="j" type="abbrev">J. Mater. Chem. C</title>
+		<idno type="ISSN">2050-7526</idno>
+		<idno type="ISSNe">2050-7534</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="10367" to="10370" />
+			<date type="published" when="2016">2016</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cutting, C. L., Bag, M., &amp; Venkataraman, D. (2016). Indoor Light Recycling: A new home for organic photovoltaics. Journal of Materials Chemistry C, 4(43), 10367-10370. https://doi.org/10.1039/c6tc03344j</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Experimental Studies on the Anisotropic Thermoelectric Properties of Conducting Polymer Films</title>
+		<author>
+			<persName><forename type="first">Qingshuo</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masakazu</forename><surname>Mukaida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhiro</forename><surname>Kirihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takao</forename><surname>Ishida</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/mz500446z</idno>
+		<ptr target="https://doi.org/10.1021/mz500446z" />
+	</analytic>
+	<monogr>
+		<title level="j">ACS Macro Letters</title>
+		<title level="j" type="abbrev">ACS Macro Lett.</title>
+		<idno type="ISSN">2161-1653</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="948" to="952" />
+			<date type="published" when="2014-09-05">2014</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wei, Q., Mukaida, M., Kirihara, K., &amp; Ishida, T. (2014). Experimental studies on the anisotropic thermoelectric properties of conducting polymer films. ACS Macro Letters, 3(9), 948-952. https://doi.org/10.1021/mz500446z</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Tuning Thermal Transport in Chain‐Oriented Conducting Polymers for Enhanced Thermoelectric Efficiency: A Computational Study</title>
+		<author>
+			<persName><forename type="first">Wen</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhigang</forename><surname>Shuai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dong</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201702847</idno>
+		<ptr target="https://doi.org/10.1002/adfm.201702847" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Functional Materials</title>
+		<title level="j" type="abbrev">Adv Funct Materials</title>
+		<idno type="ISSN">1616-301X</idno>
+		<idno type="ISSNe">1616-3028</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">40</biblScope>
+			<biblScope unit="page">1702847</biblScope>
+			<date type="published" when="2017-08-29">2017</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shi, W., Shuai, Z., &amp; Wang, D. (2017). Tuning thermal transport in chain-oriented conducting polymers for Enhanced Thermoelectric Efficiency: A computational study. Advanced Functional Materials, 27(40), 1702847. https://doi.org/10.1002/adfm.201702847</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Achieving High Thermoelectric Performance and Metallic Transport in Solvent‐Sheared PEDOT:PSS</title>
+		<author>
+			<persName><forename type="first">Allison</forename><forename type="middle">C</forename><surname>Hinckley</surname></persName>
+			<idno type="ORCID">0000-0002-8829-3201</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sean</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><forename type="middle">T</forename><surname>Dunham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aditya</forename><surname>Sood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">T</forename><surname>Barako</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">F</forename><surname>Toney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenneth</forename><forename type="middle">E</forename><surname>Goodson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhenan</forename><surname>Bao</surname></persName>
+			<idno type="ORCID">0000-0002-0972-1715</idno>
+		</author>
+		<idno type="DOI">10.1002/aelm.202001190</idno>
+		<ptr target="https://doi.org/10.1002/aelm.202001190" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Electronic Materials</title>
+		<title level="j" type="abbrev">Adv Elect Materials</title>
+		<idno type="ISSN">2199-160X</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2021-01-27">2021. 2001190</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hinckley, A. C., Andrews, S. C., Dunham, M. T., Sood, A., Barako, M. T., Schneider, S., Toney, M. F., Goodson, K. E., &amp; Bao, Z. (2021). Achieving high thermoelectric performance and metallic transport in solvent-sheared PEDOT:PSS. Advanced Electronic Materials, 7(3), 2001190. https://doi.org/10.1002/aelm.202001190</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Rubbing and Drawing: Generic Ways to Improve the Thermoelectric Power Factor of Organic Semiconductors?</title>
+		<author>
+			<persName><forename type="first">Dorothea</forename><surname>Scheunemann</surname></persName>
+			<idno type="ORCID">0000-0001-9458-7022</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Vishnu</forename><surname>Vijayakumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huiyan</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pablo</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Leclerc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Brinkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martijn</forename><surname>Kemerink</surname></persName>
+			<idno type="ORCID">0000-0002-7104-7127</idno>
+		</author>
+		<idno type="DOI">10.1002/aelm.202000218</idno>
+		<ptr target="https://doi.org/10.1002/aelm.202000218" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Electronic Materials</title>
+		<title level="j" type="abbrev">Adv Elect Materials</title>
+		<idno type="ISSN">2199-160X</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2020-07-14">2020. 2000218</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scheunemann, D., Vijayakumar, V., Zeng, H., Durand, P., Leclerc, N., Brinkmann, M., &amp; Kemerink, M. (2020). Rubbing and drawing: Generic Ways to improve the thermoelectric power factor of organic semiconductors? Advanced Electronic Materials, 6(8), 2000218. https://doi.org/10.1002/aelm.202000218</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Enhancing Molecular Alignment and Charge Transport of Solution‐Sheared Semiconducting Polymer Films by the Electrical‐Blade Effect</title>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Molina‐lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hung‐chin</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ging‐ji</forename><forename type="middle">Nathan</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hongping</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leo</forename><surname>Shaw</surname></persName>
+			<idno type="ORCID">0000-0003-1182-5537</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jie</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">F</forename><surname>Toney</surname></persName>
+			<idno type="ORCID">0000-0002-7513-1166</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zhenan</forename><surname>Bao</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aelm.201800110</idno>
+		<ptr target="https://doi.org/10.1002/aelm.201800110" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Electronic Materials</title>
+		<title level="j" type="abbrev">Adv Elect Materials</title>
+		<idno type="ISSN">2199-160X</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">1800110</biblScope>
+			<date type="published" when="2018-05-21">2018</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Molina-Lopez, F., Wu, H. C., Wang, G. J. N., Yan, H., Shaw, L., Xu, J., Toney, M. F., &amp; Bao, Z. (2018). Enhancing molecular alignment and charge transport of solution- sheared semiconducting Polymer Films by the electrical-blade effect. Advanced Electronic Materials, 4(7), 1800110. https://doi.org/10.1002/aelm.201800110</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Aggregation control in natural brush-printed conjugated polymer films and implications for enhancing charge transport</title>
+		<author>
+			<persName><forename type="first">Gang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">D</forename><surname>Eastham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Fabiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">F</forename><surname>Manley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Li</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Binghao</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xinan</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhihua</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ran</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">P H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lin</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Bedzyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ferdinand</forename><forename type="middle">S</forename><surname>Melkonyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Facchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobin</forename><forename type="middle">J</forename><surname>Marks</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1713634114</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1713634114" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">47</biblScope>
+			<biblScope unit="page" from="114" to="147" />
+			<date type="published" when="2017-11-06">2017</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, G., Huang, W., Eastham, N. D., Fabiano, S., Manley, E. F., Zeng, L., Wang, B., Zhang, X., Chen, Z., Li, R., Chang, R. P., Chen, L. X., Bedzyk, M. J., Melkonyan, F. S., Facchetti, A., &amp; Marks, T. J. (2017). Aggregation control in natural brush-printed conjugated polymer films and implications for enhancing charge transport. Proceedings of the National Academy of Sciences, 114(47). https://doi.org/10.1073/pnas.1713634114</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Balancing the Molecular Aggregation and Vertical Phase Separation in the Polymer: Nonfullerene Blend Films Enables 13.09% Efficiency of Organic Solar Cells with Inkjet‐Printed Active Layer</title>
+		<author>
+			<persName><forename type="first">Xingze</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rong</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yunfei</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wusong</forename><surname>Zha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jian</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qun</forename><surname>Luo</surname></persName>
+			<idno type="ORCID">0000-0002-7527-460X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zheng</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chang‐qi</forename><surname>Ma</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.202200044</idno>
+		<ptr target="https://doi.org/10.1002/aenm.202200044" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Energy Materials</title>
+		<title level="j" type="abbrev">Advanced Energy Materials</title>
+		<idno type="ISSN">1614-6832</idno>
+		<idno type="ISSNe">1614-6840</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">2200044</biblScope>
+			<date type="published" when="2022-02-12">2022</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, X., Huang, R., Han, Y., Zha, W., Fang, J., Lin, J., Luo, Q., Chen, Z., &amp; Ma, C. Q. (2022). Balancing the molecular aggregation and vertical phase separation in the polymer: Nonfullerene blend films enables 13.09% efficiency of organic solar cells with inkjet-printed active layer. Advanced Energy Materials, 12(12), 2200044. https://doi.org/10.1002/aenm.202200044</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Active Layer Morphology of Organic Solar Cells Probed with Grazing Incidence Scattering Techniques</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Müller-Buschbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201304187</idno>
+		<ptr target="https://doi.org/10.1002/adma.201304187" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">46</biblScope>
+			<biblScope unit="page" from="7692" to="7709" />
+			<date type="published" when="2014-02-12">2014</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Müller-Buschbaum, P. (2014). The active layer morphology of organic solar cells probed with grazing incidence scattering techniques. Advanced Materials, 26(46), 7692-7709. https://doi.org/10.1002/adma.201304187</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Recent advances in the orientation of conjugated polymers for organic field-effect transistors</title>
+		<author>
+			<persName><forename type="first">Manish</forename><surname>Pandey</surname></persName>
+			<idno type="ORCID">0000-0003-0963-8097</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Nikita</forename><surname>Kumari</surname></persName>
+			<idno type="ORCID">0000-0002-3708-2228</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Shuichi</forename><surname>Nagamatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shyam</forename><forename type="middle">S</forename><surname>Pandey</surname></persName>
+			<idno type="ORCID">0000-0001-8102-1003</idno>
+		</author>
+		<idno type="DOI">10.1039/c9tc04397g</idno>
+		<ptr target="https://doi.org/10.1039/c9tc04397g" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Chemistry C</title>
+		<title level="j" type="abbrev">J. Mater. Chem. C</title>
+		<idno type="ISSN">2050-7526</idno>
+		<idno type="ISSNe">2050-7534</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="13323" to="13351" />
+			<date type="published" when="2019">2019</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pandey, M., Kumari, N., Nagamatsu, S., &amp; Pandey, S. S. (2019). Recent advances in the orientation of conjugated polymers for organic field-effect transistors. Journal of Materials Chemistry C, 7(43), 13323-13351. https://doi.org/10.1039/c9tc04397g</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Roll‐to‐Roll Inkjet Printing and Photonic Sintering of Electrodes for ITO Free Polymer Solar Cell Modules and Facile Product Integration</title>
+		<author>
+			<persName><forename type="first">Dechan</forename><surname>Angmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thue</forename><forename type="middle">T</forename><surname>Larsen‐olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikkel</forename><surname>Jørgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roar</forename><forename type="middle">R</forename><surname>Søndergaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frederik</forename><forename type="middle">C</forename><surname>Krebs</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.201200520</idno>
+		<ptr target="https://doi.org/10.1002/aenm.201200520" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Energy Materials</title>
+		<title level="j" type="abbrev">Advanced Energy Materials</title>
+		<idno type="ISSN">1614-6832</idno>
+		<idno type="ISSNe">1614-6840</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="172" to="175" />
+			<date type="published" when="2012-09-17">2012</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Angmo, D., Larsen-Olsen, T. T., Jørgensen, M., Søndergaard, R. R., &amp; Krebs, F. C. (2012). Roll-to-roll inkjet printing and photonic sintering of electrodes for ITO free polymer solar cell modules and facile product integration. Advanced Energy Materials, 3(2), 172-175. https://doi.org/10.1002/aenm.201200520</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Recent Advances in Bulk Heterojunction Polymer Solar Cells</title>
+		<author>
+			<persName><forename type="first">Luyao</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tianyue</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qinghe</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Donglin</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luping</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.chemrev.5b00098</idno>
+		<ptr target="https://doi.org/10.1021/acs.chemrev.5b00098" />
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<title level="j" type="abbrev">Chem. Rev.</title>
+		<idno type="ISSN">0009-2665</idno>
+		<idno type="ISSNe">1520-6890</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="12666" to="12731" />
+			<date type="published" when="2015-08-07">2015</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lu, L., Zheng, T., Wu, Q., Schneider, A. M., Zhao, D., &amp; Yu, L. (2015). Recent advances in bulk heterojunction polymer solar cells. Chemical Reviews, 115(23), 12666-12731. https://doi.org/10.1021/acs.chemrev.5b00098</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Solution-Processed Organic Solar Cells</title>
+		<author>
+			<persName><forename type="first">Christoph</forename><forename type="middle">J</forename><surname>Brabec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Durrant</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/mrs2008.138</idno>
+		<ptr target="https://doi.org/10.1557/mrs2008.138" />
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bulletin</title>
+		<title level="j" type="abbrev">MRS Bull.</title>
+		<idno type="ISSN">0883-7694</idno>
+		<idno type="ISSNe">1938-1425</idno>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="670" to="675" />
+			<date type="published" when="2008-07">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brabec, C. J., &amp; Durrant, J. R. (2008). Solution-processed organic solar cells. MRS Bulletin, 33(7), 670-675. https://doi.org/10.1557/mrs2008.138</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Comparison of the Morphology Development of Polymer–Fullerene and Polymer–Polymer Solar Cells during Solution‐Shearing Blade Coating</title>
+		<author>
+			<persName><forename type="first">Xiaodan</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hongping</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tadanori</forename><surname>Kurosawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bob</forename><forename type="middle">C</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><forename type="middle">L</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">W F</forename><surname>To</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><forename type="middle">D</forename><surname>Oosterhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Victoria</forename><surname>Savikhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Molina‐lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">J</forename><surname>Tassone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><forename type="middle">C B</forename><surname>Mannsfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cheng</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">F</forename><surname>Toney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhenan</forename><surname>Bao</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/aenm.201601225</idno>
+		<ptr target="https://doi.org/10.1002/aenm.201601225" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Energy Materials</title>
+		<title level="j" type="abbrev">Advanced Energy Materials</title>
+		<idno type="ISSN">1614-6832</idno>
+		<idno type="ISSNe">1614-6840</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">1601225</biblScope>
+			<date type="published" when="2016-08-22">2016</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gu, X., Yan, H., Kurosawa, T., Schroeder, B. C., Gu, K. L., Zhou, Y., To, J. W., Oosterhout, S. D., Savikhin, V., Molina-Lopez, F., Tassone, C. J., Mannsfeld, S. C., Wang, C., Toney, M. F., &amp; Bao, Z. (2016). Comparison of the morphology development of polymer-fullerene and polymer-polymer solar cells during solution-shearing blade coating. Advanced Energy Materials, 6(22), 1601225. https://doi.org/10.1002/aenm.201601225</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">High-Efficiency Indoor Organic Photovoltaics with a Band-Aligned Interlayer</title>
+		<author>
+			<persName><forename type="first">Lik-Kuen</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuzhong</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philip</forename><forename type="middle">C Y</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guangye</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiachen</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chao</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jianquan</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hang</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andy</forename><forename type="middle">Man</forename><surname>Hong Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kam</forename><forename type="middle">Sing</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shu</forename><forename type="middle">Kong</forename><surname>So</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">He</forename><surname>Yan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.joule.2020.06.008</idno>
+		<ptr target="https://doi.org/10.1016/j.joule.2020.06.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Joule</title>
+		<title level="j" type="abbrev">Joule</title>
+		<idno type="ISSN">2542-4351</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1607" to="1611" />
+			<date type="published" when="2020-07">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ma, L.-K., Chen, Y., Chow, P. C. Y., Zhang, G., Huang, J., Ma, C., Zhang, J., Yin, H., Hong Cheung, A. M., Wong, K. S., So, S. K., &amp; Yan, H. (2020). High-efficiency indoor organic photovoltaics with a band-aligned interlayer. Joule, 4(7), 1607-1611. https://doi.org/10.1016/j.joule.2020.06.008</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Efficient Organic Solar Cell with 16.88% Efficiency Enabled by Refined Acceptor Crystallization and Morphology with Improved Charge Transfer and Transport Properties</title>
+		<author>
+			<persName><forename type="first">Lei</forename><surname>Zhu</surname></persName>
+			<idno type="ORCID">0000-0003-3971-0299</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guanqing</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tianyu</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jinqiu</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jing</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chaoqun</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathaniel</forename><surname>Prine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jazib</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaodan</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zaifei</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zheng</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haiming</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lei</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yongming</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>Liu</surname></persName>
+			<idno type="ORCID">0000-0002-5572-8512</idno>
+		</author>
+		<idno type="DOI">10.1002/aenm.201904234</idno>
+		<ptr target="https://doi.org/10.1002/aenm.201904234" />
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Energy Materials</title>
+		<title level="j" type="abbrev">Advanced Energy Materials</title>
+		<idno type="ISSN">1614-6832</idno>
+		<idno type="ISSNe">1614-6840</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">1904234</biblScope>
+			<date type="published" when="2020-03-20">2020</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu, L., Zhang, M., Zhou, G., Hao, T., Xu, J., Wang, J., Qiu, C., Prine, N., Ali, J., Feng, W., Gu, X., Ma, Z., Tang, Z., Zhu, H., Ying, L., Zhang, Y., &amp; Liu, F. (2020). Efficient organic solar cell with 16.88% efficiency enabled by refined acceptor crystallization and morphology with improved charge transfer and transport properties. Advanced Energy Materials, 10(18), 1904234. https://doi.org/10.1002/aenm.201904234</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Thermoelectric generators for wearable body heat harvesting: Material and device concurrent optimization</title>
+		<author>
+			<persName><forename type="first">Amin</forename><surname>Nozariasbmarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Suarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Houston</forename><surname>Dycus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><forename type="middle">J</forename><surname>Cabral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">M</forename><surname>Lebeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mehmet</forename><forename type="middle">C</forename><surname>Öztürk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daryoosh</forename><surname>Vashaee</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nanoen.2019.104265</idno>
+		<ptr target="https://doi.org/10.1016/j.nanoen.2019.104265" />
+	</analytic>
+	<monogr>
+		<title level="j">Nano Energy</title>
+		<title level="j" type="abbrev">Nano Energy</title>
+		<idno type="ISSN">2211-2855</idno>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">104265</biblScope>
+			<date type="published" when="2020-01">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nozariasbmarz, A., Suarez, F., Dycus, J. H., Cabral, M. J., LeBeau, J. M., Ö ztürk, M. C., &amp; Vashaee, D. (2020). Thermoelectric generators for wearable body heat harvesting: Material and device concurrent optimization. Nano Energy, 67, 104265. https://doi.org/10.1016/j.nanoen.2019.104265</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Unraveling vertical inhomogeneity in vapour phase polymerized PEDOT:Tos films</title>
+		<author>
+			<persName><forename type="first">Shangzhi</forename><surname>Chen</surname></persName>
+			<idno type="ORCID">0000-0002-7410-2531</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ioannis</forename><surname>Petsagkourakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicoletta</forename><surname>Spampinato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chaoyang</forename><surname>Kuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xianjie</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Brooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evan</forename><forename type="middle">S H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mats</forename><surname>Fahlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xavier</forename><surname>Crispin</surname></persName>
+			<idno type="ORCID">0000-0001-8845-6296</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Eleni</forename><surname>Pavlopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magnus</forename><forename type="middle">P</forename><surname>Jonsson</surname></persName>
+			<idno type="ORCID">0000-0002-3002-3639</idno>
+		</author>
+		<idno type="DOI">10.1039/d0ta06031c</idno>
+		<ptr target="https://doi.org/10.1039/d0ta06031c" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Chemistry A</title>
+		<title level="j" type="abbrev">J. Mater. Chem. A</title>
+		<idno type="ISSN">2050-7488</idno>
+		<idno type="ISSNe">2050-7496</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">36</biblScope>
+			<biblScope unit="page" from="18726" to="18734" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, S., Petsagkourakis, I., Spampinato, N., Kuang, C., Liu, X., Brooke, R., Kang, E. S., Fahlman, M., Crispin, X., Pavlopoulou, E., &amp; Jonsson, M. P. (2020). Unraveling vertical inhomogeneity in vapour phase polymerized PEDOT: TOS films. Journal of Materials Chemistry A, 8(36), 18726-18734. https://doi.org/10.1039/d0ta06031c</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

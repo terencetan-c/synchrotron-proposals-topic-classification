@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Is there in glasses a characteristic correlation length for the elasticity?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-03-17">17/03/2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Dimitrios</forename><surname>Bessas</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Federico</forename><surname>Caporaletti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Trento</orgName>
+								<address>
+									<addrLine>Via Sommarive 14</addrLine>
+									<postCode>38123</postCode>
+									<settlement>Povo</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giacomo</forename><surname>Baldi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Trento</orgName>
+								<address>
+									<addrLine>Via Sommarive 14</addrLine>
+									<postCode>38123</postCode>
+									<settlement>Povo</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maurizio</forename><surname>Montagna</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Trento</orgName>
+								<address>
+									<addrLine>Via Sommarive 14</addrLine>
+									<postCode>38123</postCode>
+									<settlement>Povo</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Zanatta</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">University of Verona</orgName>
+								<address>
+									<addrLine>Strada le Grazie 15</addrLine>
+									<postCode>37134</postCode>
+									<settlement>Verona</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Is there in glasses a characteristic correlation length for the elasticity?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-03-17">17/03/2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C4A1004E2402ECA2E6753F50E93BC709</idno>
+					<note type="submission">from: 01/10/2018 to: 08/10/2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report</head><p>Glasses at low temperature (below 10 K) display thermal and vibrational properties markedly different from those of crystals <ref type="bibr" target="#b0">[1]</ref>. In glasses, long-wavelength phonons (∼GHz) are considerably more damped because of the presence of disorder in the elastic constants. In particular it has been recently argued that this elastic disorder in glasses should be characterized by long-range correlations <ref type="bibr" target="#b0">[1]</ref>. These correlations are expected to give rise to a logarithmic correction to the Rayleigh (Γ 𝑝 ∝ E 4 ) term expetected in case of scattering from uncorrelated hetereogeneous elastic disorder <ref type="bibr" target="#b1">[2]</ref>. Directly accessing the relevant frequency range to test this hypothesis is at present impossible on bulk samples. An alternative route is to study the low frequency (&lt; 1 meV) tail of the vibrational density of states (DOS), which is directly related to sound attenuation <ref type="bibr" target="#b1">[2]</ref>. The aim of this experiment was to measure the low-energy part of the DOS of the prototypical glass-former SiO 2 expoliting the very high energy resolution of the Hard X-ray spectrograph recently developed at the beamline ID18 <ref type="bibr" target="#b2">[3]</ref> combined with high resolution inelastic X-ray scattering with nuclear resonant analysis (NRAIXS) <ref type="bibr" target="#b3">[4]</ref>. More in detail, the employed spectrograph is able to disperse photons at different energies into distinct spatial locations. Using a tungsteen slit we could select four different beams, each of them with an energy resolution of roughly 150 µeV (FWHM, see Fig. <ref type="figure" target="#fig_0">1</ref>), which were then used to 'perform' 4 inelastic scattering experiments in parallel. In this way the efficiency of the measurments is increased as the total energy spectrum is obtained from the average of the four ones collected exploiting the different "colors" emerging from the spectrograph. The inelastically scattered intensity was then analysed using an 𝛼-57 Fe foil, achieving a total bandpass in detection of 0.5 µeV <ref type="bibr" target="#b3">[4]</ref>. The overall energy resolution for the measured inelastic spectra was therefore fixed by that of the incident beam. The inelastic spectra were measured integrating the scattered radiation over a large range of scattering vectors q= 1.4 -14 A ̇-1 to ensure the validity of the incoherent approximation <ref type="bibr" target="#b4">[5]</ref> and an appropriate integration of the vibrational states: both are required for the extraction of the DOS. The vibrational dynamics of SiO 2 was investigated at two different temperatures: T=150 and 300 K. Fig. <ref type="figure">2</ref> shows the inelastic X-ray scattering spectrum of SiO 2 at 300 K (blue curve), along with the total instrumental response. The extracted spectra are characterized by an energy resolution of 170 µeV. The data analysis process is basically completed and we succeeded to extract the DOS of SiO 2 down to energies of 300 µeV at both the investigated temperatures. We are now starting to prepare a paper to present the obtained results <ref type="bibr" target="#b5">[6]</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure1: Intrumental response of the spectrograph: from the dispersed beam four "colors" are selected using a tungsteen slit.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Figure 10: SUP MAT 3 (DePalma et al., 2021) (left) and SUP MAT 5 (DePalma et al., 2021) (right).</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gelin</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.18519/fig-10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mat</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">177</biblScope>
+			<date type="published" when="2016">2016</date>
+			<publisher>PeerJ</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Gelin et al., Nat. Mat 15, 177 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Acoustic Attenuation in Glasses and its Relation with the Boson Peak</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schirmacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ruocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Scopigno</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.98.025501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">25501</biblScope>
+			<date type="published" when="2007-01-09">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Schirmacher et al., Phys. Rev. Lett. 98, 025501 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Hard-X-Ray Spectroscopy with a Spectrographic Approach</title>
+		<author>
+			<persName><forename type="first">Aleksandr</forename><forename type="middle">I</forename><surname>Chumakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuri</forename><surname>Shvyd’ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilya</forename><surname>Sergueev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitrios</forename><surname>Bessas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rudolf</forename><surname>Rüffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.123.097402</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">97402</biblScope>
+			<date type="published" when="2019-08-29">2019</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. I. Chumakov et al., Phys. Rev. Lett. 123, 097402 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Nuclear Resonance Energy Analysis of Inelastic X-Ray Scattering</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Chumakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Q R</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rüffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Grünsteudel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Grünsteudel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.76.4258</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="4258" to="4261" />
+			<date type="published" when="1996-05-27">1996</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. I. Chumakov et al., Phys. Rev. Lett. 76, 4258 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Phonon density of states probed by inelastic x-ray scattering</title>
+		<author>
+			<persName><forename type="first">Alexey</forename><surname>Bosak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Krisch</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.72.224305</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">224305</biblScope>
+			<date type="published" when="2005-12-22">2005</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Bosak et al., Phys. Rev. B 72, 224305 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Figure 5: Extrapulmonary Mtb strains with different antibiotic resistance: SENS (blue line), MDR (orange line), XDR (red line).</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Caporaletti</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.18830/fig-5</idno>
+		<imprint>
+			<date>null</date>
+			<publisher>PeerJ</publisher>
+		</imprint>
+	</monogr>
+	<note>in preparation and instrumental response (orange line</note>
+	<note type="raw_reference">F. Caporaletti et al. (in preparation). Figure 2: Energy spectrum of the inelastic X-ray scattering from SiO2 (blue line) and instrumental response (orange line).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

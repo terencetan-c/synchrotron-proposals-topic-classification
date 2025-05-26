@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Gas sensitive Pd containing organometallic macromolecules with functionalised end groups: metal-gas interaction studied by EXAFS Experiment number: 08-01-838</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Chiara</forename><surname>Maurizio</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Battocchio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Physics</orgName>
+								<orgName type="institution">University of &quot;Roma Tre&quot;</orgName>
+								<address>
+									<addrLine>Via della Vasca Navale 84</addrLine>
+									<postCode>00146</postCode>
+									<country>Rome</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Polzonetti</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Physics</orgName>
+								<orgName type="institution">University of &quot;Roma Tre&quot;</orgName>
+								<address>
+									<addrLine>Via della Vasca Navale 84</addrLine>
+									<postCode>00146</postCode>
+									<country>Rome</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">I</forename><surname>Fratoddi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Chemistry</orgName>
+								<orgName type="institution">University &quot;La Sapienza&quot;</orgName>
+								<address>
+									<addrLine>P.le A. Moro 5</addrLine>
+									<postCode>00185</postCode>
+									<settlement>Rome</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Russo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. of Chemistry</orgName>
+								<orgName type="institution">University &quot;La Sapienza&quot;</orgName>
+								<address>
+									<addrLine>P.le A. Moro 5</addrLine>
+									<postCode>00185</postCode>
+									<settlement>Rome</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Gas sensitive Pd containing organometallic macromolecules with functionalised end groups: metal-gas interaction studied by EXAFS Experiment number: 08-01-838</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2D9822238C05B74035DEA127FE461FAC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>11</term>
+					<term>02</term>
+					<term>2011</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>In the framework of sensors devices, our research program concerns the EXAFS investigation of novel nanostructured and single-molecule organometallic systems, and the study of their interaction with small gaseous molecules.</p><p>Since the last decade, great attention has been paid by the scientific community to the synthesis and characterization of polymeric conjugated systems containing transition metal centers σor π-bonded to the organic main chain <ref type="bibr" target="#b0">[1]</ref>. In this field, the charge transport in model Pt and Pd acetylides was investigated <ref type="bibr" target="#b1">[2]</ref> in view of applications for molecular electronics. In fact, rigid-rod π-conjugated transition metal oligomers constitute a potentially new class of molecular wires and there are several studies regarding the electron transfer in α,ω-dithiol, thioacetyl, or α,ω-dithioacetyl endgroups, necessary for the formation of selfassembled monolayers (SAMs) or covalent connections between gold electrodes <ref type="bibr" target="#b2">[3]</ref>.</p><p>The chemical and electronic structure of polymetallyynes, i.e. Pt and Pd-containing rodlikeorganometallic polymers with diethynyl organic spacers <ref type="bibr" target="#b3">[4]</ref> that are the building blocks of these materials, have been thoroughly investigated by means of SR-XPS, NEXAFS <ref type="bibr" target="#b4">[5]</ref>, reflEXAFS and EXAFS <ref type="bibr" target="#b5">[6]</ref>. Simpler related model molecules have been recently synthesized to have model systems whose characterization would be crucial for the interpretation of the chemical physical properties of the polymers. In this framework, Pt and Pd based binuclear complexes Pt 2 -DEBP-Cl 2 , Pd 2 -DEBP-Cl 2 and Pd 2 -DEBP-SR have been investigated by means of X-ray Photoemission (XPS) and X-ray Absorption (EXAFS) spectroscopies, and molecular and electronic properties such as the square planar structure around the transition metal, charge transfer interaction between units <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref> have been assessed. Furthermore, Pd 2 -DEBP-SR molecules have been successfully anchored on gold nanoparticles and exposed to NO, showing an interesting gas-sensitivity <ref type="bibr" target="#b8">[9]</ref>.</p><p>The main objective of this project was to correlate the chemical, geometrical and electronic structure of small Pd containing organometallic systems with different terminal groups (chlorine or thiolate) and their sensitivity and selectivity with regard to gaseous molecules containing sulfur, such as H 2 S and SO 2 . During the previous experiment 08-01-767, X-ray Absorption measurements were successfully performed on Pt poly-ynes exposed to H 2 S; EXAFS data analysis evidenced an interaction between the metal, covalently bonded to the diethynyl-macromolecule, and H 2 S molecules, inducing structural modifications at the Pt coordination centre <ref type="bibr" target="#b9">[10]</ref>.</p><p>To develop the study started in experiment 08-01-767, our investigation has been extended to the interaction between Pd-diethynylbiphenyl-Cl 2 systems and the corresponding thiolates (Pddiethynylbiphenyl-S-COCH 3 ) and H 2 S, SO 2 . The use of thiolate derivatives open new perspective in view of the use of this class of compounds as self assembled monolayers on gold surfaces.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment:</head><p>The experiment aimed at achieving information about the interaction occurring between sulfur containing gaseous molecules (H 2 S and SO 2 ) and the transition metal dialkynyl bridged Pd(II) complexes trans-Pd-DEBP 2 -Cl 2 , trans-Pd-DEBP 2 -(SCOCH 3 ) 2 , trans-Pd-EP-SCOCH 3 and trans-Pd-(PBu 3 ) 2 -(SCOCH 3 ) 2 . EXAFS spectroscopy measurements were carried out on pellet samples, both in low vacuum conditions (P = 10 -5 mBar) and in presence of H 2 S or SO 2 gas (P = 100 mBar maximum). Detection of the transmission signal was done at the Pd K-edge (24350 eV). More in detail:</p><p>As a start, we performed EXAFS measurements on the pristine sample pellet (P = 10 -5 mBar). Then, we filled up the GILDA's chemical cell with sulfur-containing gas (H 2 S or SO 2 , partial pressure of about 100 mBar), then we performed the same structural characterization. This was done for the four proposed samples. In situ treatments were made possible at GILDA by a small chemical chamber equipped with input and output gas lines, that allows to perform EXAFS measurements on samples in controlled chemical environment <ref type="bibr" target="#b10">[11]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>The hypothesized chemical interaction occurring between Pd(II) and sulfur-containing chemical species was verified and investigated. We believe that this chemical interaction is responsible for the high sensitivity and selectivity of Pd-DEBPn polymers based mass sensor devices towards sulfur-containing compounds <ref type="bibr" target="#b11">[12]</ref>. Furthermore, the structural order of the first neighbors surrounding the absorbing metal species in H 2 S, SO 2 environment were investigated, and EXAFS data analysis suggested a square-pyramidal geometry around the transition metal with the gas molecule in the apical position for the pentacoordinated palladium center, as already observed and reported by some of us for the analogous Pt(II) containing materials <ref type="bibr" target="#b9">[10]</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig.1: Molecular Structure of trans-Pd-DEBP2-Cl2, trans-Pd-DEBP2-(SCOCH3)2, trans-Pd-EP-SCOCH3 and trans-Pd-(PBu3)2-(SCOCH3)2</figDesc><graphic coords="2,85.10,210.80,420.20,145.70" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>07/ 05/ 2010 to: 13/05/2010</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Transition Metals in Polymeric π‐Conjugated Organic Frameworks</title>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">P</forename><surname>Kingsborough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">M</forename><surname>Swager</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9780470166499.ch2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Progress in Inorganic Chemistry</title>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Karlin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Ed</forename></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1999-01">1999</date>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="123" to="231" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. P. Kingsborough, T. M. Swager, In Progress in Inorganic Chemistry; K. D. Karlin Ed.; Wiley: New York, 1999; Vol. 48, pp 123;</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Ligand Effects on Charge Transport in Platinum(II) Acetylides</title>
+		<author>
+			<persName><forename type="first">Terence</forename><forename type="middle">L</forename><surname>Schull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">G</forename><surname>Kushmerick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">H</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clifford</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">K</forename><surname>Pollack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ranganathan</forename><surname>Shashidhar</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja029564o</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3202" to="3203" />
+			<date type="published" when="2003-02-25">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. H. Shull, J. G. Kushmerick, C. H. Patterson, C. George, M. H. Moore, S. K. Pollack, R. Shashidahr, J.Am.Chem.Soc. 125 (2003) 3202;</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Transition to Organic Materials Science. Passive, Active, and Hybrid Nanotechnologies</title>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">M</forename><surname>Tour</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jo070543s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Organic Chemistry</title>
+		<title level="j" type="abbrev">J. Org. Chem.</title>
+		<idno type="ISSN">0022-3263</idno>
+		<idno type="ISSNe">1520-6904</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="7477" to="7496" />
+			<date type="published" when="2007-07-12">2007</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.M. Tour, J. Org. Chem, 72, (2007) 7477;</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Nanostructured polymetallaynes of controlled length: Synthesis and characterization of oligomers and polymers from 1,1′‐bis‐(ethynyl)4,4′‐biphenyl bridging Pt(II) or Pd(II) centers</title>
+		<author>
+			<persName><forename type="first">Ilaria</forename><surname>Fratoddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Battocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandra</forename><forename type="middle">L</forename><surname>Groia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria</forename><forename type="middle">V</forename><surname>Russo</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pola.22081</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Polymer Science Part A: Polymer Chemistry</title>
+		<title level="j" type="abbrev">J. Polym. Sci. A Polym. Chem.</title>
+		<idno type="ISSN">0887-624X</idno>
+		<idno type="ISSNe">1099-0518</idno>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3311" to="3329" />
+			<date type="published" when="2007-06-15">2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Fratoddi, A. La Groia, C. Battocchio, M. V. Russo, Journal of Polymer Science Part A: Polymer Chemistry, 45 (15) (2007) 3311;</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">NEXAFS study of a Pt-containing rod-like organometallic polymer (Pt-DEBP): molecular orientation onto HOPG, Au/Si(111), Cr/Si(111) and Si(111) surfaces</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Battocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fratoddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Polzonetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cplett.2004.10.126</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Physics Letters</title>
+		<title level="j" type="abbrev">Chemical Physics Letters</title>
+		<idno type="ISSN">0009-2614</idno>
+		<imprint>
+			<biblScope unit="volume">400</biblScope>
+			<biblScope unit="issue">4-6</biblScope>
+			<biblScope unit="page" from="290" to="295" />
+			<date type="published" when="2004-12">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Battocchio, I. Fratoddi, M. V. Russo, G. Polzonetti Chem. Phys. Lett. 400 (2004) 290;</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">XAS study of a Pt-containing rod-like organometallic polymer</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Battocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>D’acapito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Smolentsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Soldatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fratoddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Contini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Davoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Polzonetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mobilio</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemphys.2006.01.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Physics</title>
+		<title level="j" type="abbrev">Chemical Physics</title>
+		<idno type="ISSN">0301-0104</idno>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="422" to="428" />
+			<date type="published" when="2006-06">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Battocchio, F. D&apos;Acapito, G. Smolentsev, A.V. Soldatov, I. Fratoddi, G. Contini, I. Davoli, G. Polzonetti, S. Mobilio Chemical Physics 325 (2006) 422;</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Platinum (II) dialkynyl bridged binuclear complex and related multinuclear oligomer: Comparison of EXAFS and X-ray crystal structure studies</title>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Battocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>D’acapito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilaria</forename><surname>Fratoddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandra</forename><surname>La Groia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Polzonetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giuseppina</forename><surname>Roviello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria</forename><forename type="middle">Vittoria</forename><surname>Russo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemphys.2006.07.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Physics</title>
+		<title level="j" type="abbrev">Chemical Physics</title>
+		<idno type="ISSN">0301-0104</idno>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="269" to="274" />
+			<date type="published" when="2006-09">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Battocchio, F. D&apos;Acapito, I. Fratoddi, A. La Groia, G. Polzonetti, G. Roviello, M. V. Russo, Chemical Physics 328 (1-3) (2006) 269;</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Binuclear Pd(II) complexes with alkynyl ligands and functionalised tail-groups: Molecular and electronic structure studied by XPS and EXAFS</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Battocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fratoddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vitaliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Polzonetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.solidstatesciences.2010.02.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Sciences</title>
+		<title level="j" type="abbrev">Solid State Sciences</title>
+		<idno type="ISSN">1293-2558</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1881" to="1885" />
+			<date type="published" when="2010-11">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Battocchio, I. Fratoddi, R. Vitaliano, M. V. Russo, G. Polzonetti, Solid State Sciences 12(11) (2010) 1881</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Synthesis and Microstructural Investigations of Organometallic Pd(II) Thiol-Gold Nanoparticles Hybrids</title>
+		<author>
+			<persName><forename type="first">Floriana</forename><surname>Vitale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rosa</forename><surname>Vitaliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Battocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilaria</forename><surname>Fratoddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cinzia</forename><surname>Giannini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emanuela</forename><surname>Piscopiello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonella</forename><surname>Guagliardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Cervellino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Polzonetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mariavittoria</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leander</forename><surname>Tapfer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11671-008-9181-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale Research Letters</title>
+		<title level="j" type="abbrev">Nanoscale Res Lett</title>
+		<idno type="ISSNe">1556-276X</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">461</biblScope>
+			<date type="published" when="2008-10-10">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Vitale, R. Vitaliano, C. Battocchio, I. Fratoddi, C. Giannini, E. Piscopiello, A. Guagliardi, A. Cervellino, G. Polzonetti, M. V. Russo, L. Tapfer, Nanoscale Research Letters, 3 (2008) 461</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">H&lt;sub&gt;2&lt;/sub&gt;S Gas Interaction with Pt(II)-Containing Polymetallaynes of Selected Chain Length: An XPS and EXAFS Study</title>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Battocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilaria</forename><surname>Fratoddi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria</forename><surname>Vittoria Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Polzonetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp803119j</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry A</title>
+		<title level="j" type="abbrev">J. Phys. Chem. A</title>
+		<idno type="ISSN">1089-5639</idno>
+		<idno type="ISSNe">1520-5215</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">32</biblScope>
+			<biblScope unit="page" from="7365" to="7373" />
+			<date type="published" when="2008-07-23">2008</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Battocchio, I. Fratoddi, M. V. Russo, G. Polzonetti J. Phys. Chem. A, 112 (2008) 7365</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A new cell for the study of&lt;i&gt;in situ&lt;/i&gt;chemical reactions using X-ray absorption spectroscopy</title>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Longo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonella</forename><surname>Balerna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>D'acapito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>D'anca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Giannici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leonarda</forename><forename type="middle">F</forename><surname>Liotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giuseppe</forename><surname>Pantaleo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonino</forename><surname>Martorana</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s090904950501143x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="499" to="505" />
+			<date type="published" when="2005-06-15">2005</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Longo, A. Balerna, F. d&apos;Acapito, F. D&apos;Anca, F. Giannici, L. F. Liotta, G. Pantaleo, A. Martorana, J. Synchrotron Rad. 12 (2005) 499</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">SAW chemical sensing using poly-ynes and organometallic polymer films</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Penza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cassano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sergi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lo Sterzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Russo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0925-4005(01)00937-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors and Actuators B: Chemical</title>
+		<title level="j" type="abbrev">Sensors and Actuators B: Chemical</title>
+		<idno type="ISSN">0925-4005</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="88" to="98" />
+			<date type="published" when="2001-12">2001</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Penza, G. Cassano, A. Sergi, C. Lo Sterzo, M.V. Russo, Sensors and Actuators B 81 (2001) 88</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

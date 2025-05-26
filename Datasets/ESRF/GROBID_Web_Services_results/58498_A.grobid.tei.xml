@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ptychographic imaging of phase ordered domains in FeAl</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Steven</forename><surname>Leake</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chan</forename><surname>Kim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Roth</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joerg</forename><surname>Hallmann</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Lu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xfel</forename><surname>Eu</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Virginie CHAMARD (Fresnel Inst</orgName>
+								<address>
+									<settlement>Marseille</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">SiWoo LEE (PUSAN University</orgName>
+								<address>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ptychographic imaging of phase ordered domains in FeAl</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">92492E0EEF28F62442B5C5F665076E4F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We preformed Bragg-ptychography imaging on phase ordered domains in FeAl at the ID01 beamline. The aim was to reveal the 3D arrangement of antiphase domain (APD) structures in FeAl alloys (40 At% and 27 At% Al). As a first step, a "Siemens Star" standard sample was measured to check the size and stability of the focused beam by ptychography in tranmission scattering geometry. In addition, a European XFEL logo sample patterned onto a Si (100) substrate was used to test 2D Bragg ptychography. After these test</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The B2 phase domain structure from FeAl alloy with 40 At% Al was measured at two different Bragg peaks (001 &amp; 002). Here, we expect  phase shift (0 phase shift) from domain boundary at the (001) peak (at the (002) peak) from domain boundaries. Examples of reconstructed amplitude and phase images are shown in Fig. 2 (100 iterations with the PIE algorithm). The retrieved amplitude of domain structures seems quite robust comparing the (001) &amp; (002) results, but the phase images are not quite well reconstructed until now.</p><p>More work is required to test different phase retrieval strategies, e.g. the conjugated gradient algorithm, additional constraints, shrink wrap, etc.</p><p>We also measured the D03 phase domain structure in a FeAl alloy with 27 At% Al at the (222) reflection.</p><p>For this measurement, we heated up the sample to 440 degree C. Also, we located the (111) Bragg peak but the signal strength was lower than expected for unknown reasons. Estimated from the FWHM of the Bragg reflections the domain size of the 27 At% Al sample is much larger than that of 40 At% Al sample. We still did not start analysis of the D03 data but this will be performed after finishing off the analysis of B2 phase domain structures.</p><p>The preliminary results from FeAl alloy with 40 At% Al are quite promising for the strain imaging of the antiphase domain structures. Ultimately, the success of the experiment depends on the resolution we will obtain in the final images and whether the question about possible correlations between lattice strain and antiphase domain boundaries can be addressed. (a, c) Measured intensities at two different scan positions and rocking angles. (b, d) Calculated intensities at same scan points as in (a) and (c). (e, f) Sectioned 2D images illustrating the retrieved domain structure in a FeAl crystallite.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>experiments, we moved to our main FeAl alloy specimens (40 At% &amp; 27At% Al). B2 phase domains with 40 At% Al at the (001) &amp; (002) Bragg peaks and D03 phase domain with 27 At% Al at the (222) Bragg peak were measured using the 3D Bragg ptychography imaging method. To obtain additional information about the incident beam needed for a flawless reconstruction, we measured the overfocused beam from the Fresnel zone plate (FZP: 300 m diameter) by using an Andor CCD placed 5 m downstream from the focal point. The focused beam size recovered by the Quiney method was about 350 nm (H) x 130 nm (V) (FWHM) when the FZP was illuminated by a 80 m (H) x 200 m (V) beam. The Siemens star was located about 1.4 mm downstream from the focal point and with a defocused illumination function, we could retrieve the Siemens star image clearly. The Siemens star image and reconstructed illumination function are shown in Fig. 1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Reconstructed Siemens star and probe</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Result of the Bragg ptychography experiment performed at ESRF (ID01) in March 2016 on the FeAl (002) fundamental reflection.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

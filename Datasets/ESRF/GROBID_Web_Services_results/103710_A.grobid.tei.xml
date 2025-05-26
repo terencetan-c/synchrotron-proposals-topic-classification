@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">31247FBEF310FABABFB10913CB3CFD4B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment title:</head><p>High-resolution X-ray scattering tensor tomography study of the age-related structural changes in the human femoral neck cortex Report:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview</head><p>This experiment is part of a broader investigation aiming to assess the contribution of bone tissue properties to the strength of the ageing human hip. The aim of this experiment was to analyse the orientation and spatial distribution of the collagen and mineral platelets in the human femoral neck cortex at the lamellar level, in the aim of relating the structure to the mechanical properties. A total of 4 micropillars, extracted from the inferior and superior femoral neck cortex of 2 patients and previously tested by microcompression and Raman spectroscopy, were measured by small-and wide-angle X-ray scattering tensor tomography for structural (SWASTT). Additionally, a separate absorption tomogram was measured with a diode for mineral density distribution assessment. The high resolution data acquired at the beamline allows us to gain precise structural knowledge of the sample, and evaluate the contribution of nanoscale tissue properties to the strength of human bone at the microscale.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation and previous testing</head><p>A total of 5 cadeveric femoral necks of various ages (57-93) were used in the preparation of this experiment.</p><p>From each femoral neck, two micropillar samples (80-100um diameter) were extracted from the osteonal bone on the superior and inferior sides respectively. The samples were measured prior to the X-ray experiment by microcompression using a cyclic loading and unloading protocol for characterization of the elastic modulus and the yield point. Additionally, the pillars were measured by Raman Spectroscopy to extract information on the chemical structure. As expected, the mineral to matrix ratio (ratio of the integral areas of v2PO4/amide III) of the bone dominates the mechanical properties. This quantity was positively correlated with the measured elastic moduli, yield strains and stresses. The structure of the sample measured by SWASTT in the current experiment is currently being analysed in the aim of identifying structural differences accounting for the remaining variability in the mechanical properties of the samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Samples measured and quality of measurement/data</head><p>During the beamtime, 4 micropillars (2 pairs of samples, ages 57 and 89) were succesfully measured. The micropillars were raster scanned with an x-ray energy of 13.2keV, a beam and step size of 2um and exposure time of 5ms. The scattering data was recorded at a detector distance of 200mm, leading to the measurements of scattering vectors in the full azimuthal range between 0.2 -30nm-1. This setup allows for simultaneous measurement of the orientation of the SAXS and WAXS signals, arising from the nanoscale mineral platelets and the mineral crystals respectively. In figure <ref type="figure" target="#fig_1">1</ref>, the bone scattering is shown with the principal SAXS (orange) and WAXS (blue) orientations. Combined with an additional absorption tomogram measurement, the samples were fully characterized by high-resolution SWASTT and absorption tomography as planned. The measurement time per sample was ~10h, which was longer than initially expected, due to the extra time needed for the separate absorption measurement and the use of an increased field of view. The latter was necessary due to the final sample geometry and the suboptimal recentering of the sample after each projection. In addition we lost some time due to detector software problems and establishing means of acquiring absorption data, crucial for the reconstruction. Thus only 2 pairs of samples were measured from the prepared 5 pairs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plan and status of data evaluation</head><p>All the collected data is currently being processed. The scattering datasets were radially integrated into 8 azimuthal and 1024 radial bins (figure <ref type="figure">2</ref>) using a custom made python script. In figure <ref type="figure">2</ref> (right), the scattering intensity in two orthogonal directions is plotted, displaying the anisotropy at both length scales. These orientations correspond to those indicated in current bone models <ref type="bibr">[1]</ref>. SWASTT reconstructions will be made in specific q-bins, corresponding to the SAXS and WAXS orientations, simirlarly to the evaluation of data previously measured at the beamline <ref type="bibr">[2]</ref>. In a second step, we will reconstruct fully q-resolved reconstructions which provide the orientations across all probed length scales. The structural information at each length scale will be correlated to the mechanical properties and compared between sample, in the aim of identifying key structures influening the bone strength. Currently, the absorption tomograms are under reconstruction. They will serve as starting point for the alignment of the scattering data in the reconstructions. SAXS WAXS Figure 2 : Left: Symmetric Intensity of scattering signal, illustrating structural variation within the sample. Middle: Cake plot displaying the radially integrated intensity in 8 azimuthal segments. Right: Intensity of two orthogonal segments, representing the principal SAXS (orange, horizontal) and WAXS (blue, vertical) orientations. [1]: Reznikov N, Shahar R, Weiner S., Acta Biomater.10(9):3815-26 (2014) [2]: Grünewald, T. A., Liebi, M., Wittig, et al., Science Advances, 6(24), 4171-4183 (2020)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants (* indicates experimentalists): TÄNZER Torne, Paul Scherrer Institut (PSI) LIEBI Marianne, Paul Scherrer Institut (PSI) CARLSEN Mads, Paul Scherrer Institut (PSI) GUTIERREZ BOLAÑOS Carolina, Paul Scherrer Institut (PSI) SIMON Mathieu, University of Bern (UniBe)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1 : Bone scattering pattern, illustrating the simultaneous SAXS and WAXS measurement.</figDesc><graphic coords="3,320.70,69.84,246.30,248.28" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

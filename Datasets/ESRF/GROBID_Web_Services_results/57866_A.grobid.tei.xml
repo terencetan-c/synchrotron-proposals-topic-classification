@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental studies on x-ray parametric downconversion</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sharon</forename><surname>Shwartz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aviad</forename><surname>Schori</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Denis</forename><surname>Borodin</surname></persName>
+						</author>
+						<title level="a" type="main">Experimental studies on x-ray parametric downconversion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">696633A33E6635A2C015BBEBF58D8FDF</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this report we describe the main results of the experiment on Parametric Down-Conversion of X-Rays into lower energy X-Rays near 90 degrees 2θ angles, performed at ID-10 ESRF beamline.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The objective of this beam-line proposal was to demonstrate the effect of parametric down conversion (PDC) of X-rays into lower energy X-rays with the highest signal-to-noise ratio ever achieved. In this process an incident beam interacts with the vacuum field within a nonlinear crystal to generate two correlated photons at lower energies. The maximum efficiency of the process is obtained when the energy and momentum conservation conditions (phasematching) are reached.</p><p>In all previous experiment the Compton background was about 5 orders of magnitude stronger than the PDC signal, thus only coincidence measurements where presented. In addition, since the phase matching condition for the PDC process is only slightly deviated from the Bragg condition, the generated photons were never collinear, thus the demonstration of various quantum effects was out of reach. Here we chose the reciprocal lattice vector normal to the (660) atomic planes of a high quality diamond crystal, and the energy of an incident beam at 21 keV allowed 2θ angles near 90 degrees. This configuration results in the lowest count rate for both Compton and elastic scattering when the polarization of the input beam is in the scattering plane. The low count rates allowed a small deviation angle from the Bragg condition, which results in a higher count rate of the PDC effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods:</head><p>All beamline motors were controlled using SPEC software. The spectra from the Silicon Drift Detectors (SDD) were recorded using proprietary Amptek software. The coincidence data (counts and spectra) was recorded using a MATLAB program and a digitizer.</p><p>The experimental setup is shown in Fig. <ref type="figure">1</ref>. The two detectors were installed in accord with phase-matching conditions so they would detect parametrically scattered photons. The coincidence circuit counts only when two detectors "click" within a small time window.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,63.50,72.50,466.40,270.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,36.50,72.50,541.30,324.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary of results:</head><p>We used the (660) atomic plane of the high quality diamond * in Laue geometry.</p><p>Due to the Compton scattering caused by the π-polarization of the incident beam we weren't able to observe the PDC effect directly. Nevertheless, the Compton count rate was relatively low (in the order of 2,000 C.P.S.), which allowed us to work at small offsets from the Bragg peak. This resulted in an increased PDC count rate. The coincidence measurements were performed for several cases: degeneracy, i.e. the signal and the idler photons have the same energy and for the cases when the ratio between the energy of the pump photon and the signal photon is 1.2 and 1.4 (Fig. <ref type="figure">2a</ref>, <ref type="figure">b</ref> and <ref type="figure">c</ref> respectively).</p><p>* The diamond was manufactured at TISNUM, Moscow, Russia All the obtained experimental data found an agreement with phasematching calculations and the estimation of the Compton background. As we expected the elastic scattering of the horizontal polarization was highly suppressed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions &amp; future:</head><p>In the current experiment the effect PDC was observed using the coincidence electronics and the agreement with our calculations was found. The highest count rate (more than 1 coincidence count per second) and signal-tonoise ratio were achieved.</p><p>In the future we intend to repeat this experiment with the emphasis on the direct measurement. In order to do so there are several options: put the two detectors even closer to each other so the offset from the Bragg would be even smaller which in turn will increase the PDC count rate and decrease the Compton count rate (with increased elastic scattering, however). In this case the PDC contribution to the spectra should be pronounced. Another option is to work with better polarization ratio (in the present experiment the ratio between the two polarizations was about 10 3 ). This, in fact, will have a bigger impact on results since the polarization ratio is absolutely essential for this kind of experiment due to the nature of both Compton and elastic scattering. This technique can be used in imaging experiments and for testing the basic concept of quantum optics.</p></div>			</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using texture to unravel the relative intensities of overlapping reflections in a powder diffraction pattern</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>-Mar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratorium für Kristallographie</orgName>
+								<orgName type="institution">ETH</orgName>
+								<address>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Emerich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratorium für Kristallographie</orgName>
+								<orgName type="institution">ETH</orgName>
+								<address>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Wessels</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratorium für Kristallographie</orgName>
+								<orgName type="institution">ETH</orgName>
+								<address>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Simon</forename><surname>Brenner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratorium für Kristallographie</orgName>
+								<orgName type="institution">ETH</orgName>
+								<address>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lynne</forename><surname>Mccusker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratorium für Kristallographie</orgName>
+								<orgName type="institution">ETH</orgName>
+								<address>
+									<settlement>Zürich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using texture to unravel the relative intensities of overlapping reflections in a powder diffraction pattern</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FCADD99D9E4312EE57941BEED3F903D6</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T15:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The first part of the beamtime for this experiment was used to test the effect of wobbling the flat-plate specimen during data collection. To establish the texture of a sample, a series of single reflections are measured at all sample tilts and rotations in 5˚ steps. It was hoped that the wobbling motion would allow a better integration between these steps (thereby creating a 'smoother' texture). A special sample holder (schematic drawing shown below) was designed with this in mind. The tests were performed on an untextured flat-plate sample of the high-silica zeolite ZSM-5 with relatively large crystallites (ca 10 x 5 x 2 µm). First, a normal high-resolution diffraction pattern was collected on a capillary sample as a control that the flat-plate sample was, in fact, untextured. Then, diffraction patterns of the flat-plate sample were measured using a 1 x 5 mm beam (i) without any sample motion, (ii) with sample wobbling (ca ±1˚), and (iii) with sample spinning (no wobbling). Much to our surprise, there was no significant difference between these diffraction patterns. Apparently, even with relatively large crystallites, there were still enough particles in diffracting condition even without any sample movement. However, the beam was relatively large, so an effect might become more apparent for smaller beam cross-sections.</p><p>The second part of the beamtime was spent collecting data on the high-silica zeolite FAS-9. We had collected data on the related material IM-5, which has slightly broader lines but no impurities, in a previous experiment (Swiss . Those data allowed the unit cell to be determined (orthorhombic, a = 14.277 Å, b = 57.369 Å, c = 20.107 Å), but time did not allow enough data to be collected for structure determination. Although the FAS-9 sample contained impurities, it appeared to be more highly crystalline, so these additional measurements were performed on that material.</p><p>Ten pole figures and four full diffraction patterns (at different sample orientations) were collected. The pole figures allowed the indexing to be confirmed and the impurity peaks to be identified, but the sample proved to scatter rather poorly, so long counting times were necessary. Small 2θ sections of the four full datasets that show intensity differences as a function of tilt angle χ are shown below. The very large unit cell (ca 16,000 Å 3 ) makes it a challenging problem, and further software development is necessary to obtain a reasonable deconvolution of the overlapping peaks. That development is in progress.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. A schematic diagram of the sample wobbling mechanism tested in the first part of the experiment.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>χ = 70Þ, φ = 190Þ χ = 50Þ, φ = 190Þ χ = 25Þ, φ = 190Þ χ = 0Þ, φ = 0Þ Þ2 θ Figure 2. Sections of the full diffraction patterns (λ = 0.99903 Å)collected at increasing tilt angle (χ).</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Federico</forename><surname>Zontone</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Lab. Cristallographie-CNRS BP166 3801</orgName>
+								<orgName type="institution">Juan OCAMPO*</orgName>
+								<address>
+									<settlement>Grenoble Paul DUVAL*</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Chateigner</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">54 me Moliere, DU</orgName>
+								<orgName type="laboratory">Sophie de la CHAPELLE*: Lab. de Glaciologie et &apos;sophysique de I&apos;Environnement</orgName>
+								<address>
+									<postCode>38400</postCode>
+									<settlement>St Martin d&apos;H&amp;es</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9A5358992BFC5D597493FC056146B4F1</idno>
+					<note type="submission">Received at ESRF: 3 SFP 1997</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Law diagram of a grain boundary zone which shows the spot splitting comespondmg to less than 1' of difference in orienmtmn.</p><p>On the right, pole figure for the averaged orientation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Ice from polar sheets is subject to severe natural temperature and pressure conditions, which are varying with depth. These variations give rise to different complex microstructures. One of the measurable microstmctnral parameter is the so-called fabric, or historically induced and modified texture. This latter depends on the dynamical processes which play a rule in the polar sheet deformation, and is consequently a very informative parameter to understand the mechanics of the polar ice sheets.</p><p>However, ice's crystallographic preferred orientations are very difficult to analyse for various reasons. Firstly, and obviously, electron microscopy measurements are not practicable for local measurements. Secondly, using classical X-ray generators with four circle goniometers equipped with cryostats would be, if possible to setup, unreasonably time consuming and only global textures would be accessible. Finally, grain details can be seen using polarized light microscopy, but nothing can be said using this technique on the a and b crystallographic axes distribution around the c axis.</p><p>A promising technique has been developped recently at ESRF using 2D detectors and the Laue transmission mode with a microbeam [l], which makes possible local texture mapping of ice. As a pilot experiment we examined in this work several samples from the Vostok core, East Antarctica, coming from the depths of 2301 and 2871m on which local orientation measurements were successfully conducted. Then on several bicrystals from the depth of 3316m, we measured the grain boundary orientation variations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment</head><p>In the case of ice, a cooling system is necessary, in order to avoid its sublimation from free surfaces and edges. A first round observation indicated that the regulated temperature of the sample's cell would preferably be below 40 C. We decided to fix this temperature at -60C in all experiments, temperature which allowed no visible sample destruction even after 10 hours of experiment. In our case, ice slabs of 1x1 cm' surface and 1 mm thickness approximately were cut in the core. The samples were glued on a copper sample holder and oriented with their main plane perpendicular to the synchrotron beam, collimated at 30x30 pm. The whole was placed in a plexiglass cell. A combined system with a liquid nitrogen flow and a resistance heater was used to ensure the temperature regulation.</p><p>Originally, we planned to use a CCD detector with sample movements automatically controlled and simultaneous recording of Laue diagrams. However, mainly due to the cooling system, the relatively small radius of the CCD plate was not possible to put close enough to the sample, and consequently an unsufticient number of Laue spots would have been recorded for indexing. We then decided to use a much larger detector, a MAR Research image plate system, available at the time. Unfortunately such a system does not allow a rapid acquisition (several minutes for each exposure) of the diagram, and it was impossible to analyse as much samples as planned. We decided to concentrate on samples from only one depth of the core: 2301m, in order to get a reliable statistics in terms of number of grains for misorient&amp;on correlation analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>First results</head><p>We were able to measure 5 samples, using 1 mm or 2mm mesh of the scans, depending of the observed grain sizes. That way the orientation of 4 to 5 grains in each sample was determine using the OrientExpress for Unix [2] program. From those experiments, orientation relationships between neighbour grains will be calculated to see if preferred orientation relationships exist. Results will be used to compare with selfconsistent simulations of the deformation models.</p><p>Our experiments already documented a very precise determination of the orientations, subgrains misoriented by less than 1 degree being visible on the Laue diagrams by the spots splitting. When noticed, we used this interesting aspect of the technique to visualize the orientation modifications at a grain boundary, on large bicrystals from a deeper zone (33 16m). These experiments already tell us that several subgrains are formed near the grain boundaty, which are links between the two considerably different orientations of the two main crystals.</p><p>This was a worldwide unique experiment, needless to say that the first results are excitingly encouraging. With few improvements of the technique, rapid texture investigation of ice will become available.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

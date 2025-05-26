@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">XAFS and XMCD study of element specific actuation dynamics and magnetostriction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Strohm</forename><surname>Cornelius</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sikora</forename><surname>Marcin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Agh-Ust</forename><surname>Kraków</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Poland</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Imim</forename><surname>Maciej</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Pan</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Kraków</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Imim</forename><surname>Pan</surname></persName>
+						</author>
+						<title level="a" type="main">XAFS and XMCD study of element specific actuation dynamics and magnetostriction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">10F30C0BA4BAA410FB4B05589BFA2246</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of the project was to observe the evolution of local structure and magnetization during magnetic field induced strain in the single crystals of Ni-Mn-Ga Heusler alloys with 10 and 14 modulations (10M and 14M). Experiment was performed in transmission using mini-pulsed field coil system at the extreeme conditions branch of ID24. Single crystals of 10M and 14M type were thinned to approx. 10m thicknes in order to allow for optimum detection at Ni K-edge. XAFS spectra were collected during each magnetic field pulse at left and right handed circularly polarized light. Maximum field of the pulses was increased gradually up to 30 Tesla. Mesurements were performed at a temperature slightly lower than room temperature (in the immediate vicinity of the austenite / martensite phase transition).</p><p>In Figure <ref type="figure" target="#fig_0">1</ref> example XAFS and XMCD spectra of M10 sample are shown. Week, but clearly resolved XMCD effect is visible. Relatively dependence of the changes in the resultant magnetization of the Ni sublattice were determined as the integral of the XMCD signal as a function of the magnetic field (results for two different consecutive measurement series) and compensation temperature. As shown in figure <ref type="figure" target="#fig_1">2</ref>, such procedure allows to obtain good quality element selective magnetization curves at low magnetic field. At selected high field pulses we have clearly observed the expected magnetic bifurcation due to magnetocaloric effect (figure <ref type="figure" target="#fig_2">3</ref>). Unfortunately the reproducibility of the results was poor. Likely due to mechanical sample motions (deformations) associated with the strain released during demagnetization. We have performed a thorough systematic off line analysis of the data using on purpose created Matlab based software. Unfortunately, due to the lack of systematics in the results obtained, we find that the data are not conclusive and thus not suitable for publication.</p><p>The experiment showed that it is possible to observe a magnetocaloric effect in the XMCD spectra using a prototype impulse method. However, the assumed goal, i.e. correlating it with temperature and initial deformation was impossible.   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Averaged XAFS spectrum at Ni K-edge (upper panel) measured on the monocrystalline Ni2MnGa M10 sample. The energy scale is denoted in pixels of the position-sensitive detector. The bottom panel represents the XMCD spectrum obtained by changing helicity of circularly polarized X-rays using diamond quarter-wave (QWP). The magnetic signal is clearly observed in the range of pixels from 80 to 90.</figDesc><graphic coords="2,101.90,36.85,391.55,260.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. (upper panel) The dependence of the magnetic field and XMCD signal on time. (bottom panel) Element selective magnetization profile determined from the data shown in upper panel.Only five measurement points could be extracted from the increasing field profile, while much higher data density is obtained at the decreasing field, which results from time asymmetry in the pulse shape. The magnetization shows a nice overlap of the increasing and decreasing field profiles, i.e. negligible magneto-caloric effect when magnetizing the crystal from zero to 3.3 Tesla.</figDesc><graphic coords="2,98.75,410.40,397.70,297.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Results of the measurements performed for two consecutive magnetic field pulses shown in the way analogous to Figure 2. Left panels show a clearly visible magneticaloric effect demonstrated as bifurcation between magnetic profiles probed during the growth and decrease of magnetic field. Negligible effect and much lower XMCD amplitude was observed in the data shown on right panels. Both measurements were performed in identical experimental conditions, proceeded with identical preparation of the sample (i.e. zerofield warming and cooling over structural phase transition).</figDesc><graphic coords="3,33.95,37.10,251.90,188.75" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

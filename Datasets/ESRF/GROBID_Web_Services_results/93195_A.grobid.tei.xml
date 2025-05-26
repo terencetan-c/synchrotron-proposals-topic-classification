@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY ESRF User Office</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-11-27">27 November 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<address>
+									<addrLine>CS 40220 71 avenue des Martyrs</addrLine>
+									<postCode>F-38043 38000 GRENOBLE</postCode>
+									<settlement>GRENOBLE Cedex 9</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY ESRF User Office</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-11-27">27 November 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1C36872E1CC74C3A53ACAA5A7E0A98D8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This project aims to determine, for the first time, a 3D structure of the SARM1(sterile α and HEAT/armadillo motif-containing protein) ring octamer. Using SEC-MALS and negative-stain EM, we have discovered (Sporny et al., 2019) that SARM1, a protein that executes axonal degeneration, forms an octamer ring structure. Using X-ray crystallography, we further found that the SARM1 octamer is arranged around tandem SAM domains. This arrangement was not described before in other SAM proteins, but is reminiscent of the apoptosome and inflammasome -well known ring-like oligomers that like SARM1may lead to cell death. In these CryoEM experiments we aim to reveal how the catalytic TIR domain is kept auto-inhibited, and how might NMN activate SARM1. But the most fascinating question is whether there a particular functional relevance for the ring arrangement of SARM1, considering its resemblance to the other degenerative complexes, that is, apoptosome and inflammasome, and in light of the recently discovered interplay between SARM1 and the inflammasome.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prior to the Nov 2019 Krios ESRF session:</head><p>To learn more about the activation mechanism of SARM1, we study the structure and properties of human SARM1. Using SEC-MALS and negative-stain EM, we first observed that SARM1 forms an octamer ring in solution <ref type="bibr">(Sporny et al., 2019)</ref>. We also determined the 2.5-Å resolution SAM1-2 crystal structure that revealed how the unique ring arrangement is facilitated by complementary interacting interfaces from both the SAM1 and SAM2 domains. We also explored the experimental variables to suit Cryo EM data collection and structure determination, and have performed several Cryo sessions using both CCD and direct detector equipped microscopes. These variables include: protein phosphorylation/dephosphorylation; GraFix cross-linking; and protein concentrations upon freezing. We continue to fine-tune these variables using negative stain and Cryo visualization and we continue to make progress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nov 25-27 ESRF Krios data collection session report</head><p>In this session, one shipping dewar was sent from Israel and received and well taken care of by the CM01 staff. Measurements were conducted by Dr. Michael Hons, a collaborator of this project, who screened through eight grids that varied in protein concentration and freezing device. The best grid in terms of ice thickness and particle dispersion was then set for 72 hours automatic data collection. MX2218: Mag 165k C2 70 Spotsize 6 dose rate 4.83 number of frames 40 exposure time 7 s pixelsize 0.827 total dose 49.43495597 dose/frame 1.235873899 objective aperture 100 QF 1.2/1.3 3700 movies were collected and auto-processed for motion correction and dose weighing (DW). I have downloaded the data directly via rsync -avztuHAXP -e 'ssh -p5022' mx2218@firewall.esrf.fr:/data/visitor/mx2218/cm01/20191125/ Manual inspection of the 3700 motion corrected images showed that ~3000 of them can be used for particle picking and processing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Processing report</head><p>We have used cryoSPARC v2 for CTF correction, particle picking, iterative 2D classification, and 3D abinitio reconstructions and refinement. Of the 200,000 particles that were used for 3D reconstruction, &lt;100,000 are eventually used for the reconstructing of one homogenous model. The 3D model estimated resolution ranges between 3-7A. This allows us to position all the domains and most of the secondary structure elements. However, even the best EM maps -the outcome of local refinement protocols fall (a little) short of revealing some of the most interesting features of the structure. Therefore, we immediately request for another 72 hour Krios time, in which data collection will continue on the same (or similar) grid, to double the number of processed particles in the 3D reconstruction, or allowing the further classification to reach better outcomes.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

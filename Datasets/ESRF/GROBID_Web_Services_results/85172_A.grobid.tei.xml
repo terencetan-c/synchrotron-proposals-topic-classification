@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Electron-phonon interaction: dynamical effects studied with RIXS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">N</forename><surname>Brookes</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Arpaia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Microtechnology and Nanoscience</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<postCode>SE-41296</postCode>
+									<settlement>Göteborg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><surname>Braicovich</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dipartimento di Fisica</orgName>
+								<orgName type="institution">Politecnico di Milano</orgName>
+								<address>
+									<addrLine>Piazza Leonardo Da Vinci 32</addrLine>
+									<postCode>I-20133</postCode>
+									<settlement>Milano</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Fumagalli</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dipartimento di Fisica</orgName>
+								<orgName type="institution">Politecnico di Milano</orgName>
+								<address>
+									<addrLine>Piazza Leonardo Da Vinci 32</addrLine>
+									<postCode>I-20133</postCode>
+									<settlement>Milano</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Ghiringhelli</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dipartimento di Fisica</orgName>
+								<orgName type="institution">Politecnico di Milano</orgName>
+								<address>
+									<addrLine>Piazza Leonardo Da Vinci 32</addrLine>
+									<postCode>I-20133</postCode>
+									<settlement>Milano</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Rossi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dipartimento di Fisica</orgName>
+								<orgName type="institution">Politecnico di Milano</orgName>
+								<address>
+									<addrLine>Piazza Leonardo Da Vinci 32</addrLine>
+									<postCode>I-20133</postCode>
+									<settlement>Milano</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Salluzzo</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">CNR-SPIN</orgName>
+								<address>
+									<addrLine>Complesso Monte Sant&apos;Angelo -Via Cinthia</addrLine>
+									<postCode>I-80126</postCode>
+									<settlement>Napoli</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Electron-phonon interaction: dynamical effects studied with RIXS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BC3816EB85B3BCC76275FE18214040CD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Electron-phonon coupling is the mechanism leading to the formation of Cooper pairs in conventional superconductors. In unconventional superconducting cuprates, general consensus has not yet been reached on the driving force for Cooper pairing. However, several theories as well as experimental works propose an active role of phonons in the formation of Cooper pairs, possibly in cooperation with magnetic excitations <ref type="bibr" target="#b0">[1]</ref>. Therefore, determination of electron-phonon coupling in cuprates is an active branch of research <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. Inelastic neutron scattering (INS) and nonresonant inelastic x-ray scattering (IXS) are widely used techniques to assess phonon dispersion relations in materials. Nevertheless, the information about electron-phonon coupling is not easily retrieved, since it is contained in the broadening (usually in the order of few %) of the linewidths of the phonon peaks <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. Resonant inelastic x-ray scattering (RIXS) is emerging as a novel technique complementary to INS and IXS for the study of electron-phonon coupling <ref type="bibr" target="#b3">[4]</ref>. Though the energy resolution is still worse than the one of typical INS and IXS experiments, RIXS offers the strong advantage of directly probing the electron-phonon coupling <ref type="bibr" target="#b3">[4]</ref>. A deep theoretical understanding of the process leading to the formation of phonons in RIXS is lacking at present. A first theoretical approach suggests that during the intermediate state of the scattering process, the photoexcited electron perturbs the lattice and generates a phonon, whose spectral intensity is directly proportional to the interaction with the electron <ref type="bibr" target="#b3">[4]</ref>. Our experiment aims at validating this model by studying the effect of detuning (i.e. the incident photon energy is moved away from the maximum of the absorption peak) on the intensity of the phonon excitation. By detuning the incident energy, the duration of the intermediate state is effectively decreased <ref type="bibr" target="#b4">[5]</ref>. If the model holds, a smooth monotonic decrease of the phonon intensity is expected upon detuning. A smooth operation of the machine and the beamline allowed to collect spectra on undoped NdBa2Cu3O6+δ (NBCO) at several incident energies in the proximity of the Cu L3 edge absorption peak (~931 eV). Figure <ref type="figure" target="#fig_0">1</ref> displays the low-energy range of a fraction of the acquired RIXS spectra detuned below the Cu L3 edge. Lattice and magnetic excitations are clearly resolved. In particular, a phonon peak is observed at 75 meV, a magnon at 275 meV, and a bimagnon continuum around 400 meV. We note a decrease of the phonon intensity upon detuning, as theoretically expected. Figure <ref type="figure" target="#fig_1">2</ref> reports the acquired RIXS spectra detuned above the Cu L3 edge. The phonon peak follows a similar trend as in Figure <ref type="figure" target="#fig_0">1</ref>. Instead, the magnetic excitations do not show a symmetric behavior with respect to the absorption edge. The understanding of these measurements, possibly following the theory developed in Ref. <ref type="bibr" target="#b5">6</ref>, is currently in progress. We also measured RIXS spectra at different in-plane momentum transfers, ranging from -0.1 r.l.u. to -0.4 r.l.u. For each momentum transfer, we collected RIXS spectra with incident photon energy tuned at the Cu L3 edge, and detuned by -0.5 eV. Such RIXS map of the phonon intensity directly probes the momentum dependence of the electron-phonon coupling. We note that this information is not easily retrieved with other techniques, such as INS and IXS. The acquisition of a detailed phonon intensity map in the whole two-dimensional Brillouin zone will require further beamtime. The preparation of a manuscript is foreseen as soon as the analysis of all data is carried out and the fine details of the theoretical model describing lattice and magnetic excitations are implemented. As this experiment is a pioneering investigation, this research field include several future perspectives:</p><p>1) Collect a complete RIXS intensity map to probe the momentum dependence of the electron-phonon interaction within the Brillouin zone; 2) Study the doping dependence of the phonon intensity, to unveil changes in the electron-phonon coupling while crossing the superconducting dome; 3) Measure the electron-phonon interaction in other families of cuprates, to reveal analogies and discrepancies among different families; 4) Study the electron-phonon coupling between superconducting and non-superconducting compounds, taking into account also non-cuprate systems; 5) Study the universality of the behavior of magnetic excitations upon detuning in other families of cuprates, as well as non-cuprate systems.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 RIXS spectra of NBCO measured at different incident photon energies below the Cu L3 edge absorption peak. The spectra are normalized to the spectral weight of the dd excitations (not shown).</figDesc><graphic coords="2,33.96,36.84,266.16,203.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 RIXS spectra of NBCO measured at different incident photon energies above the Cu L3 edge absorption peak. The spectra are normalized to the spectral weight of the dd excitations (not shown).</figDesc><graphic coords="2,294.96,36.96,266.40,204.00" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>from: 15/11/2017 to: 21/11/2017</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Johnston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page">64513</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnston, S. et al. Phys. Rev. B 82, 064513 (2010)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pintschovius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Stat. Sol. B</title>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="page" from="30" to="50" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Pintschovius Phys. Stat. Sol. B 242, 30-50 (2005)</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Reznik</forename><surname>Adv</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cond. Matt. Phys</title>
+		<imprint>
+			<biblScope unit="volume">2010</biblScope>
+			<biblScope unit="page">523549</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Reznik Adv. Cond. Matt. Phys. 2010, 523549 (2010)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Determining the electron-phonon coupling strength from Resonant Inelastic X-ray Scattering at transition metal L-edges</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J P</forename><surname>Ament</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Veenendaal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Den Brink</surname></persName>
+		</author>
+		<idno type="DOI">10.1209/0295-5075/95/27008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EPL (Europhysics Letters)</title>
+		<title level="j" type="abbrev">EPL</title>
+		<idno type="ISSN">0295-5075</idno>
+		<idno type="ISSNe">1286-4854</idno>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">27008</biblScope>
+			<date type="published" when="2011-07-01">2011</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Ament et al. EPL 95, 27008 (2011)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gel'mukhanov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Gel&apos;mukhanov et al. Phys. Rev. A 59, 1 (1999)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Dynamic characteristics of respiratory central chemoreflex in normal rats</title>
+		<author>
+			<persName><forename type="first">Takeshi</forename><surname>Tohyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keita</forename><surname>Saku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroyuki</forename><surname>Tsutsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenji</forename><surname>Sunagawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fasebj.31.1_supplement.1072.6</idno>
+		<idno type="arXiv">arXiv:1710.02250</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The FASEB Journal</title>
+		<title level="j" type="abbrev">The FASEB Journal</title>
+		<idno type="ISSN">0892-6638</idno>
+		<idno type="ISSNe">1530-6860</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">S1</biblScope>
+			<date type="published" when="2017-04">2017</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note>cond-mat.str-el</note>
+	<note type="raw_reference">T. Tohyama and K. Tsutsui arXiv:1710.02250 [cond-mat.str-el] (2017)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

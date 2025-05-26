@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Helene</forename><surname>Elleaume</surname></persName>
+							<email>h.elleaume@esrf.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">GIN</orgName>
+								<orgName type="institution">INSERM U836 equipe</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">BARBIER Emmanuel</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">PANNETIER Nicolas Phone +33</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">REMY Chantal Phone +33</orgName>
+								<orgName type="institution" key="instit2">INSERM</orgName>
+								<address>
+									<addrLine>U836 equipe 6 GIN</addrLine>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">ADAM Jean Francois Phone +33</orgName>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">ESTEVE Francois Phone +33</orgName>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">DEMAN Pierre Phone +33</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E08D05B703892C494E85420FF27D817E</idno>
+					<note type="submission">October 12 th 2010</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T19:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Aims of the experiment and scientific background: The purpose of this study was to compare perfusion data collected in the brain of rat bearing a brain tumor using MRI (performed at the Grenoble Institute of Neuroscience) and Synchrotron tomography (SRCT). SRCT is the only imaging modality that gives true quantitative contrast agent concentration in live animals. Thus results from this study should contribute to improve perfusion quantification in animal using MRI. To obtain this comparable data, rats were first imaged using MRI and were transported to the ESRF where they were imaged using SRCT. This experiment was based on the results from a preliminary study carried out in February 2010, which allowed evaluating and improving our experimental set-up (both MRI and SRCT).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tumor:</head><p>Following a tumor implantation problem, all tumors did not grow as expected. In fine, a total of 7 tumors were obtained. On 5 healthy rats, acquisitions were performed anyway in order to study the arterial input function.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MRI :</head><p>Rats were imaged in a preclinical 7T MRI system equipped with an Avance III Console (Bruker). First, a slow bolus of Gd-DOTA diluted twice (37.5 mg/ml) was injected (0.2mmol/kg, 4.5 ml/min) with a remote controlled injector. T1-weighted MRI images were acquired (spatial resolution 0.35x0.35x1 mm3) at the rate of 1 image / 15s continuously over 20min. Second, a rapid bolus of Gd-DOTA was injected (0.2mmol/kg, 15ml/min) with a remote controlled injector. T2*-weighted images were acquired using an echo-planar imaging sequence (spatial resolution 0.35x0.35x1 mm3) at the rate of 2 images / s during 3min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SRCT:</head><p>Rats were imaged as for MRI but Gd-DOTA was replaced by Iomeron 400 ® ([I] = 400mg/ml). Anesthetic procedure, spatial and temporal resolutions of the dynamic follow-up were similar to the one used during the MRI protocol.</p><p>Data from both modalities were processed using the same homemade software. A difference in transit times is observed between the MRI and the synchrotron acquisitions. This difference might be ascribed to the contrast agent viscosity: the viscosity of the X-ray contrast agent (Iomeron 400 ®) was ten times higher than that of the MRI contrast agent (Gd-DOTA). To further compare the data, we decided to widen the X-ray data, keeping constant the area under the curve (i.e. maintaining the amount of contrast agent constant). After this correction, we found a linear correlation between the concentration measured by monochromatic X-Ray tomography and ΔR2 * , the MRI concentration surrogate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data computed by gamma-variate model:</head><p>Cerebral Blood Volume (CBV) and Cerebral Blood Flow (CBF) were computed using the gamma-variate model to estimate the bent of the imaging protocol. CBV and CBF were estimated in the tumor ROI and in the contralateral ROI. Eventually, the tumor to contralateral ratio was computed for each imaging modality.</p><p>The standard deviation is very important, in part due to the normalisation with the controlateral. The standard deviation for one animal seems higher with MRI. But the standard deviation of the mean value between the rats is lower in MRI. The standard deviation doesn't allow to conclude on the estimation of the perfusion parameters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions:</head><p>These preliminary results show a good relationship (linear) between the concentration of contrast agent and MRI signal with spiral acquisition in vivo, i.e. in a real distribution of the paramagnetic agent which has an important influence on the measure of the ΔR2 * . However this correlation was found after performing a correction of what is supposed to be an influence of the viscosity of the contrast agent.</p><p>For the perfusion parameter analysis, it is not possible to measure the arterial input on the MRI acquisitions. Then only regional blood parameters were computed, leading to important standard deviation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussions:</head><p>Acquisitions using contrast agent with the same dynamic viscosity could be of interest to validate the proposed correction method. However, a reduced viscosity would correspond to a reduced amount of X-ray contrast agent and thus to a lower SNR. In any case, another choice of contrast agent is mandatory to obtain a clearer comparison between these two imaging modalities. The tumoral stage was maybe too early and the enhancement of the signal was low during the contrast agent pass, leading to a poor signal to noise ratio.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Regions of interest were drawn on different area(brain, tumor, controlateral, muscle, vein and artery (if any)   as shown on the figure below:Raw Data:Both MRI and Synchrotron data were of excellent quality. Raw data were plotted on the same graph to compare the contrast agent observed by MRI and SRCT.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,91.10,92.05,413.15,264.90" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

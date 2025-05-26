@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-06-13">13 June 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-06-13">13 June 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B34B27B99140E6149C18A3386FF7B7D1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Benoit MALARD (CIRIMAT</term>
+					<term>INPT) Ms Sophie BERVEILLER (LEM3</term>
+					<term>ENSAM)</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Shape memory alloys (SMA) undergo a martensitic transformation during mechanical loading which is reversible; this gives rise to their superelastic behavior. From an experimental point of view, the study of SMA requires the use of diffraction to separately identify austenite and martensite behavior. Most of the works follow either the microstructural evolution under load, or the average behavior of each phase <ref type="bibr">[1]</ref>. There are very few results for individual grain behavior in a polycrystal <ref type="bibr">[2]</ref><ref type="bibr">[3]</ref><ref type="bibr">[4]</ref> and the mechanical behavior of the martensite M18R phase has never been understood at the grain scale. This proposal consists in an in-situ loading experiment of a polycrystalline Cu-Al-Be SMA, using Diffraction Contrast Tomography and topotomography.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental method:</head><p>The studied alloy is a 87.9%Cu-11.5%Al-0.6%Be alloy. It was provided by Nimesis Technology© and was obtained by hot drawing. Specimen for nanox tensile rig was cut from a rectangular bar (3*1 mm 2 section); final dimensions are presented figure <ref type="figure" target="#fig_0">1</ref>. At room temperature, the alloy is fully austenitic; its grain size was measured by optical microscopy after polishing and chemical etching with a Mi14 solution (figure <ref type="figure">2</ref>). It is around 80 ± 5 µm. An in-situ loading test was performed and was stopped at different loading point to acquire DCT and TT patterns. 12 measurement points were recorded during loading and 2 during unloading.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>A first DCT analysis was performed before loading; the initial microstructure was then reconstructed. It was used to select particular grain for further topotomography: we consider different orientations, locations (surface/volume of the sample) and/or grain sizes.</p><p>Table 1 summarizes selected grains. Grain number Orientation Position Used diffraction vector Theoretical relative intensity 3 [110] Bulk 220 100 9 3' Neighbor 311 3,6 10 Surface/ large grain 311 3,6 15 [110] 25' neighbor 220 100 18 [001] 3' neighbor 200 4,1 25 [111] Bulk 111 7,8 47 [110] Surface / large 220 100 81 [001] Small 200 4,1 Table 1: selected grain for topotomography</p><p>At each loading step, DCT and TT were done. Unfortunately, we could not measure the sample strain; only the force was accessible.</p><p>In the selected grains, the first variant was observed at the 10 th loading point, corresponding to a macroscopic applied stress of 340 MPa. The grain 18 was the first one to transform (figure <ref type="figure">3a</ref>): one variant appears in the grain. This could be expected as it is [001]-oriented in the tensile direction, which is known as an easy direction to transform. At the next loading point (applied macroscopic stress of 360 MPa), all the studied grains have started to transform and several martensite plates are visible (figure <ref type="figure">3b</ref>). Upon unloading, all these stacking plates have disappeared: this confirms that they are due to martensite and not to another inelastic phenomenon.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1 : Nanox sample Figure2: Initial microstructure</figDesc><graphic coords="1,329.38,555.35,412.33,152.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Figure 3: (a) first variant observed in grain 18 at 340 MPa. (b) Grain 10 at 360 MPa.</figDesc><graphic coords="2,81.20,510.99,146.85,139.35" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Further works:</head><p>The first key factor of this experiment is that we were able to observe martensite formation in a CuAlBe alloy at the grain scale, which has never been done up to now.</p><p>All the studied grains will be reconstructed in 3D to identifiy the number of variants activated in each grain, their development. Their orientations well be determined first using crystallographic approach, given the initial orientation of the austenitic grains and the habit planes. All these processing are currently under works.</p></div>			</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

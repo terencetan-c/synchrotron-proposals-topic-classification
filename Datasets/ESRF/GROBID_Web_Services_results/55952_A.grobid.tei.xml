@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ca doping of mesoporous TiO2 films for enhanced photocatalytic efficiency under solar irradiation</title>
+				<funder ref="#_QxJAqJE">
+					<orgName type="full">European Synchrotron Radiation in Grenoble (France)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-03-03">3 March 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Y</forename><surname>Castro</surname></persName>
+							<email>castro@icv.csic.es</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Instituto de Cera ´mica y Vidrio (CSIC)</orgName>
+								<address>
+									<addrLine>Campus de Cantoblanco</addrLine>
+									<postCode>28049</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Durán</surname></persName>
+						</author>
+						<title level="a" type="main">Ca doping of mesoporous TiO2 films for enhanced photocatalytic efficiency under solar irradiation</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Sol-Gel Science and Technology</title>
+						<title level="j" type="abbrev">J Sol-Gel Sci Technol</title>
+						<idno type="ISSN">0928-0707</idno>
+						<idno type="eISSN">1573-4846</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">78</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<biblScope unit="page" from="482" to="491"/>
+							<date type="published" when="2016-03-03">3 March 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FF06D95DD02E3BF726A7ACF52906C9C8</idno>
+					<idno type="DOI">10.1007/s10971-016-3988-1</idno>
+					<note type="submission">Received: 24 November 2015 / Accepted: 18 February 2016 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Mesoporous TiO 2 films</term>
+					<term>Sol-gel coatings</term>
+					<term>Dopants</term>
+					<term>Photocatalysis</term>
+					<term>Degradation of methyl orange (MO)</term>
+					<term>Solar irradiation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Anatase mesoporous TiO 2 films doped with Ca were prepared by sol-gel and deposited onto glass slides. The influence of the dopant in the textural and structural properties of the films was studied together with their photocatalytic activity. Titania sols w/o and with Ca were synthesised from titanium isopropoxide as TiO 2 precursor, acetic acid as complexing agent, and polyethylene glycol hexadecyl ether (Brij58) as pore-generating agent. The TiO 2 films were characterised by Fourier transform infrared spectroscopy, Raman spectroscopy, and transmission electron microscopy. Environmental ellipsometric porosimetry was used to obtain the adsorption-desorption isotherms and the total pore volume, for determining the pore size distribution and specific surface area (S s ) of the films, crucial parameters that govern the photocatalytic behaviour. The photocatalytic activity was evaluated through the degradation of methyl orange (MO) in aqueous solution using a Xe lamp that simulates solar radiation. The photocatalytic activity depends on the dopant amount. The dopant creates levels within the band gap that improving the charge separation, and reduces the recombination e -/h ? pairs. The best results of MO degradation were obtained for the films sintered at 450 °C for 90 min and doped with 3 % of Ca 2? .</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Titanium dioxide (TiO 2 ) is considered a good semiconductor because of its exceptional optical and electronic properties, strong oxidising power, non-toxicity, easily available, low cost, and long-term stability against photocorrosion and chemical corrosion, along with its high photocatalytic efficiency. The most important application of TiO 2 is related with the degradation of pollutants in water and gas phase by advanced oxidation processes, together with bactericidal applications when TiO 2 is doped with silver nanoparticles <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. In the industrial sector, the use of TiO 2 particles is not always feasible due to the high costs of the filtration facilities needed to recover the catalyst after use. Therefore, processes focused on supported catalysts with high catalytic performance are considered. Deposition of TiO 2 films on transparent substrates is a suitable procedure to immobilise the photocatalyst avoiding the release of nanoparticles into the medium <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>.</p><p>A large variety of methods have been developed to prepare TiO 2 films, but sol-gel is one of the most widely used since it permits obtaining coatings at much lower temperatures than conventional processing. The use of templates allows the self-assembly of organised micelles and creates mesoporous films with high specific surface area. The textural and morphological properties greatly affect the photocatalytic properties. Different studies indicate that photocatalytic activity mainly depends on the total surface effectively irradiated with UV photons <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref> and on the size of the pores <ref type="bibr" target="#b8">[9]</ref>.</p><p>A disadvantage of using TiO 2 with solar illumination resides in its bandwidth; the radiation absorption threshold is around 380 nm (3.2 eV), this means that titania takes very little advantage of the solar spectrum; only between 4 and 6 % of the total intensity of sunlight <ref type="bibr" target="#b9">[10]</ref> can photoactivate to produce charge carriers. Considering that the reaction rate of the photocatalytic process is proportional to irradiation, this is a significant limitation. Thus, it is important to look for routes to shift the optical gap towards lower energy or extend the wavelength range absorption of TiO 2 into the visible region. On the other side, the increasingly stringent regulations open up opportunities for novel green photocatalytic routes leading to the substitution or modification of TiO 2 , an ultraviolet (UV) absorber, in order to allow the use of sunlight (UV-Vis light) as the energy source for fine chemical production processes. The goal was to produce enhanced photocatalysts adapted to the solar spectrum by developing new semiconductors or modifying the TiO 2 by doping with transition metals, cations, or anions to arrive to better performances. Different reports <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref> showed that the production of metal-doped TiO 2 can enhance photoinduced surface redox reactions even in visible light region.</p><p>The efficiency of a dopant depends on different parameters such as its concentration and distribution in TiO 2 matrix, the creation of additional energy levels in the band gap, and the electron donor concentration. For example, an excess of dopant concentration could produce a detrimental effect decreasing the photocatalytic activity, because the charge recombination is favoured <ref type="bibr" target="#b12">[13]</ref>.</p><p>The doping of TiO 2 with noble metals, such as Au, Ir, Os, Rh, Ru, Pt, and Pd, generates structural changes in the coatings, like smaller TiO 2 crystal size and changes in the interplane distances of the crystalline network. Their main effect is usually to increase the acceptance capacity of photogenerated electrons, preventing the recombination processes and, at the same time, enhancing the reduction processes on the metal surface <ref type="bibr" target="#b13">[14]</ref>. However, the energy level and d-electron configuration of the dopants are critical factors to consider in the process of generating electron-hole pairs in TiO 2 .</p><p>The most popular transition metals used as dopants are W, V, Cr, Fe, Co, Mn, and Cu which modify the optical and photoelectrochemical properties of TiO 2 , shifting the light absorption of TiO 2 to the visible region and prolonging the lifetime of electron and holes, thus increasing the photocatalytic activity <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref>. The principal effect of these dopants is to create additional intermediate energy levels that modify the electrical and optical properties of the TiO 2 matrix and inhibit the recombination of photoinduced e -/h ? pairs and shifts the TiO 2 band gap. Iketani <ref type="bibr" target="#b17">[18]</ref> highlighted the importance of the oxidation state of V; V 5? reduces the photocatalytic activity as compared to the high photocatalytic efficiency of V 4? . In other cases, the increment of dopant content favours the crystallisation of rutile phase <ref type="bibr" target="#b18">[19]</ref>, and the photocatalytic activity decreases.</p><p>On the other hand, the photocatalytic properties of TiO 2 are modified when doped with alkaline and alkaline earth ions. Al-Salim et al. <ref type="bibr" target="#b19">[20]</ref> considered that the photocatalytic activity of TiO 2 films doped with Ca 2? increases because Ca 2? ions could create oxygen vacancies or interstitial substitutions. The development of oxygen vacancies by metal ion doping leads to new phase formation, which acts as a sensitiser. The size distribution of such sensitiser in the TiO 2 matrix plays a significant role in visible light degradation.</p><p>Many studies have demonstrated the effectiveness of Ca 2? dopant for enhancing the photocatalytic activity of TiO 2 under UV radiation or visible light <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22]</ref>, but a few reports analyse the properties under solar irradiation <ref type="bibr" target="#b22">[23]</ref>. Furthermore, it is difficult to obtain definite conclusions on the effects of Ca doping on the photoactivity.</p><p>The aim of this work was to explore the potential of using Ca 2? , with valence lower than Ti 4? , for doping TiO 2 to improve its visible photocatalytic activity. Mesoporous nanocrystalline TiO 2 -anatase films doped with Ca 2? were prepared using Brij58 as surfactant. The photocatalytic activity of Ca-TiO 2 films was studied by varying the Ca amount and the heat treatment of the coatings. The different parameters ruling the photoactivity, such as film thickness, crystallinity, total pore volume, specific surface area, and total surface exposed to illumination, were considered, along with the analysis of the textural properties that allow advancing in the relationship between photocatalytic properties and film structure.</p><p>2 Experimental section 2.1 Synthesis and characterisation of undoped and Ca-doped TiO 2 sols Ca-doped TiO 2 sols were prepared using titanium isopropoxide (TISP, Aldrich, 284.22 g/mol, 97 %) as precursor via acid catalysis. TISP was chemically modified by mixing with acetic acid (AcOH, Aldrich, 60.05 g/mol, 99.99 %) and absolute ethanol, in order to control the hydrolysis and condensation reactions. After 1 h of stirring, polyethylene glycol hexadecyl ether P5884 (Brij58, Aldrich, 1124 g/mol) was added to the solution TISP/ EtOH/AcOH. Then, Ca(NO 3 ) 2 (Aldrich, 236.15 g/mol, 99 %) was incorporated using different molar ratios Ca(NO 3 ) 2 /TISP = 0.01 and 0.03. Finally, a mixture of ethanol and acidified water (0.1 M HCl) was added drop by drop onto the solutions, up to a final oxide concentration of 30 g/L. The final molar ratio was fixed to 1 TISP:1 AcOH:40 EtOH:0.07 Brij58:2 H 2 O:(0.01-0.03) Ca. All the sols were aged for 2 days before coating deposition.</p><p>Two reference sols were prepared: TiO 2 -Brij58-SD sol was obtained following the same process without the addition of Ca and TiO 2 -SD sol without Ca and Brij58.</p><p>The stability of the sols was studied through the evolution of viscosity with time, using an Ostwald viscometer (Pobel, 0c model, viscosity range 0.6-3 mPas).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Deposition of undoped and Ca-doped TiO 2 films</head><p>Undoped and doped TiO 2 thin films were deposited by dipcoating combined with evaporation-induced self-assembly (EISA) method onto glass slides and silicon wafers. The films were obtained at 35 cm/min and 20 % relative humidity (RH), and heat-treated in air at 450 °C for 60 or 90 min using a heating ramp of 10 °C/min. In the case of multilayer coatings, the same withdrawal rate was used along with an intermediate heat treatment of 350 °C/1 h between coatings followed by a final treatment of 450 °C for 60 or 90 min.</p><p>The glass slides used to measure the photocatalytic activity were coated with a first layer of SiO 2 , using a SiO 2 sol prepared in two steps using TEOS (tetraethoxysilane). SiO 2 coatings were sintered at 450 °C for 30 min, obtaining a thickness of *210 nm, and a refractive index of *1.44, corresponding to 98 % of theoretical density of SiO 2 . The quite dense SiO 2 coating avoids the diffusion of Na ? cations from the glass substrate to the TiO 2 coating during firing and the possible inhibition of photocatalytic activity <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Characterisation of doped films</head><p>The coatings were characterised by optical microscopy (Zeiss, HP1, Germany) to detect the presence of precipitates, impurities, bubbles, or cracks, and studied by transmission electronic microscopy (TEM) (Hitachi H-7100, Japan) to confirm the homogeneity and porous structure of the films. TEM samples were obtained by scratching the films and depositing the scaled fragments onto carboncoated copper grids.</p><p>Ellipsometry and environmental ellipsometric porosimetry (EEP) measurements were taken using a spectral Ellipsometer (M-2000UTM, J.A. Co., Woollam) modified with a system that allows controlling the relative humidity (RH) (Humidity Generator HG-1, Michel Instruments) to characterise films deposited onto glass slides. The spectra were taken between 250 and 900 nm at a fixed incident angle of 70°. The data were fitted using the WVASE32 software with a Cauchy model. From the fitting data, the refractive index (n) (taken at k = 700 nm) and the thickness (e) of the films were obtained as a function of relative humidity RH (from 0 % to 100 %). The total pore volume and the adsorption-desorption isotherms were further obtained by considering the Bruggeman effective medium approximation model (BEMA) and a reference TiO 2 coating obtained using the TiO 2 -SD sol. The pore size distributions were calculated utilising a modified Kelvin equation taking into account ellipsoidal pore geometry <ref type="bibr" target="#b25">[26]</ref>. Finally, specific surface area and exposed surface area per cm 2 of sample were calculated <ref type="bibr" target="#b8">[9]</ref>.</p><p>The hydrophobic-hydrophilic character of the coatings was evaluated through the variation in the contact angle using an Easy Drop equipment (''Drop Shape Analysis System'' Kruss DSA 100).</p><p>Raman spectra were measured in back-scattering using a confocal Raman microscope (Witec alpha-300R). The samples were excited with 514.5-nm line of an Ar ? ion laser.</p><p>The crystallisation behaviour was followed by grazing incidence X-ray diffraction (GIXRD) of undoped and doped TiO 2 coatings deposited on Si wafers. GI-XRD spectra were obtained using synchrotron radiation with a wavelength of k = 0.62 A ˚in the BM25B Spanish Line (SpLine), at the European Synchrotron Radiation Facility (ESRF, Grenoble, France). The 2h scanning angle was varied between 8°and 25°with a step of 0.034°, a counting time of about 5 s, and varying the grazing angle between 0.08°and 0.15°.</p><p>UV-Vis absorption spectra of TiO 2 layers deposited on quartz glass were recorded using a Lambda 950 spectrophotometer (PerkinElmer Inc., USA) equipment in the range of 200-2000 nm. The band gap was determined using the Eq. <ref type="bibr" target="#b0">(1)</ref>.</p><formula xml:id="formula_0">aE ð Þ 1=m ¼ A E À E g À Á<label>ð1Þ</label></formula><p>where a is the absorption coefficient, E g is the band gap energy, E is the energy of the incident photon, A is a constant, and m is a parameter that depends on the electronic transition of the semiconductor; for indirect transition semiconductor such as TiO 2 -anatase phase, m = 2 <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b26">27]</ref>.</p><p>The photocatalytic activity was evaluated by the degradation of methyl orange (MO) <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref> in aqueous solution using the films deposited onto glass slides on top of a first layer of SiO 2 . The light source (Oriel, model 96000) is equipped with a solar light simulating Xe-arc lamp (Osram XBO 450 W) with commercial AM 6197 filter.</p><p>The tests were performed using 25 mL of aqueous solution of methyl orange (MO) with a concentration of c = 3 mg/L. The pH of the solution was adjusted to 2 using HCl <ref type="bibr" target="#b29">[30]</ref>, and the total surface tested was equal to 25 cm 2 . The quartz reactor vessel is covered with window glass to prevent solution evaporation. First, photolysis and dark tests (adsorption) were performed to confirm that the degradation of MO is only associated with the TiO 2 film and not to light irradiation and/or adsorption.</p><p>Photocatalytic measurements were taken introducing the TiO 2 samples in the MO solution and maintained under continuous stirring and irradiation. The degradation was monitored using a home-made system depicted in Fig. <ref type="figure" target="#fig_0">1</ref>. Beyond the sample, a narrow bandpass filter with centre at 500 nm and bandwidth of 10 nm (Thorlabs, FB-500-10 full width at half maximum) was placed in front of a biased Silicon Photodetector (Thorlabs DET100A). The filter limits allow the light transmission in a wavelength range that matches the absorption band of the MO (508 nm). Therefore, the intensity of light at the detector allows measuring the degradation of MO. All the elements were mounted on an optical table to ensure stability and optically isolated in the dark to avoid the presence of other light sources. The output signal from the detector (voltage) was sent to a Keithley 2010 multimeter. The signal at the multimeter was recorded every 10 min with a PC computer using a Visual Basic homemade code.</p><p>3 Results and Discussion The stability of undoped and doped TiO 2 sols was evaluated following the evolution of viscosity with ageing time at 25 °C. In all the cases, a Newtonian behaviour was observed with initial viscosities between 1.5 and 2 mPa s, without significant change for at least 1 month, thus revealing an excellent stability. The doping does not affect the stability of TiO 2 sols. Multilayer TiO 2 films deposited onto glass slides from undoped and doped TiO 2 -Brij58 sols were characterised by Raman spectroscopy. Figure <ref type="figure">2</ref> shows the Raman spectra of undoped and Ca-doped mesoporous TiO 2 -Brij58-Ca films treated at 450 °C for 60 min. The bands observed in Fig. <ref type="figure">2</ref> reveal the presence of anatase phase with tetragonal structure that corresponds to the space group D 4h 19 (I4/amd) <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref>. The Raman-active modes are clearly distinguishable, indicating the crystallisation of anatase phase without the presence of brookite and rutile phases. However, the dopant concentration and the heat treatment time affect the intensity and broadness of the peaks and therefore the structure (crystal size and crystalline fraction) <ref type="bibr" target="#b32">[33]</ref>. In order to evaluate the differences among samples, the position and the full width at half maximum [FWHM] of the E g mode at 144 cm -1 were established (Table <ref type="table" target="#tab_1">1</ref>). A slight shifting of the bands to lower frequencies is observed suggesting an alteration in the crystal symmetry and/or a lattice distortion, originating a non-stoichiometric material that affects the photocatalytic activity. On the other hand, the FWHM increases for 1 % mol of Ca 2? , but decreases again for 3 % mol Ca 2? , indicating small changes in the crystal size. In general, the change in width and shift of the Raman bands is associated with the presence of impurity atoms, as well as with the number of defects. In this case, the introduction of Ca 2? as an impurity in the TiO 2 network could explain the different intensity and broadness of the peaks between undoped and doped coatings and explain the photocatalytic behaviour.</p><p>Crystal size was obtained by GIXRD as a function of dopant and sintering time for coatings deposited onto Si wafer. Figure <ref type="figure">3</ref> shows the diffraction patterns of TiO 2 -Brij58-Ca film treated at 450 °C/90 min, where anatase was identified as the only crystalline phase present, confirming the Raman studies. Peaks associated with the Si wafer substrates were observed and identified. The crystal size was calculated using the Scherrer's equation and considering the peaks of anatase (101) and (004) (Fig. <ref type="figure">3</ref>). For undoped TiO 2 films, the average crystal size increases with the sintering time, going from 8.9 to 9.8 nm for TiO 2 -SD-60 min and TiO 2 -SD-90 min, respectively. The incorporation of Ca 2? slightly increases the crystal size (Table <ref type="table" target="#tab_2">2</ref>) with respect to undoped coatings, but this size does not significantly change with the sintering time. The position of (101) peak of anatase was estimated using GIXRD spectrum and is shown in Table <ref type="table" target="#tab_2">2</ref>. The (101) peak is shifted to lower angles for Ca-doped TiO 2 films compared to TiO 2 films, this shift increases with the increment of Ca 2? . Some reports associate this displacement with the insertion of Ca 2? cation within the anatase matrix <ref type="bibr" target="#b20">[21]</ref>. This inclusion produces the distortion of TiO 2 lattice as observed by Raman and would be advantageous for the photocatalytic activity.</p><p>The lattice parameters for TiO 2 -Brij58-SD and TiO 2 -Brij58-3%Ca 60-min samples were determined considering a tetrahedral crystal structure and a single anatase phase (Table <ref type="table" target="#tab_3">3</ref>). The lattice parameter ''a'' decreases in the doped sample respecting to undoped coating, whereas the parameter ''c'' increases, indicating a deformation of TiO 2 tetrahedra. This deformation could be related with the incorporation of Ca 2? ions in intersticial sites in de TiO 2 network <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b21">22]</ref> and with the generation of defects.</p><p>The band gap (E g ) of Ca-doped TiO 2 films was determined from UV-Vis spectral data and using the Eq. 1. For TiO 2 -Brij58-SD and TiO 2 -Brij58-Ca samples, values of 3.64 and 3.7 eV were obtained. Considering an error of 0.05 eV, the E g maintains near constant, and the introduction of Ca 2? did not affect the final values.</p><p>0 2000 4000 6000 8000 10000 12000 50 150 250 350 450 550 650</p><p>Raman Intensity (a.u.)</p><p>Raman shiŌ (cm-1)</p><formula xml:id="formula_1">TiO2-Brij58-SD TiO2-Brij58-1%Ca TiO2-Brij58-3%Ca Eg A1g B1g</formula><p>Eg Fig. <ref type="figure">2</ref> Raman spectroscopy spectra of doped and undoped mesoporous TiO 2 films heat-treated at 450 °C for 60 min These results indicate that the introduction of Ca 2? in TiO 2 -anatase films does not greatly affect the structure of the coatings. The crystal size remains unchanged, as the band gap. Only slight changes in the symmetry of the crystals are appreciated, likely originated by distortions of the lattice produced by defects associated with Ca 2? .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Textural characterisation of TiO 2 films</head><p>Spectral ellipsometry and environmental ellipsometric porosimetry (EEP) permit to characterise properties such as optical constant, thickness, refractive index, and porosity properties of the films. Cauchy model for transparent films was used to obtain thickness and refractive index.</p><p>The textural properties are summarised for doped and Ca-doped TiO 2 films in Table <ref type="table" target="#tab_4">4</ref> together with the contact angle.</p><p>The thickness (e) and refractive index (n) of the coatings were measured as a function of sintering conditions and dopant amount. Increasing the sintering time does not significantly change e and n. The refractive index varies between 1.67 and 1.73 and the thickness between 308 and 335 nm. Thus, Ca doping of the coating does not substantially change the optical parameters.</p><p>On the other hand, the total pore volume fraction (V pore ) was calculated by Bruggeman effective medium approximation (BEMA) model. All the coatings presented high V pore around 30-35 %. The pore size distribution was calculated through the variation in the refractive index and thickness with the relative humidity and using the modified Kelvin ´s equation.</p><p>Figure <ref type="figure" target="#fig_3">4a</ref>, b shows the water adsorption-desorption isotherms and the pore size distribution for TiO 2 -Bri-j58-1%Ca 60-min film respectively. A reversible type IV adsorption-desorption isotherm with hysteresis loop is observed (Fig. <ref type="figure" target="#fig_3">4a</ref>), indicating the presence of pores in the mesoporous range (2-50 nm). TiO 2 -Brij58-1%Ca 60-min film presents a total pore volume of 35 % (Fig. <ref type="figure" target="#fig_3">4a</ref>) and a pore size of 6.1 nm (Fig. <ref type="figure" target="#fig_3">4b</ref>). The rest of the samples exhibit isotherms with similar shapes (not shown).</p><p>All the films presented pore sizes between 4.7 and 6.1 nm (Table <ref type="table" target="#tab_4">4</ref>), the increment of Ca dopant slightly increasing the pore size; however, when the sintering time increases, the pore size remains near constant (* 6 nm). Longer sintering times could stabilise the network of TiO 2 avoiding the deformation or collapse of the pores.</p><p>The specific surface area (S s ) and the exposed area (S exp ) were also calculated <ref type="bibr" target="#b25">[26]</ref> (Table <ref type="table" target="#tab_4">4</ref>). This last parameter represents the total area exposed to irradiation, thus being relevant for photocatalytic behaviour. All the coatings present S s and S exp between 200-233 m 2 /cm 3 and 60-75 cm 2 .</p><p>Finally, the Ca-doped TiO 2 films present significantly lower contact angles (h) with respect to undoped coatings (*25°), showing that dopant increases the hydrophilicity of the films; this behaviour agrees with the results reported by Yuan et al. <ref type="bibr" target="#b33">[34]</ref> and is significant for the photocatalytic properties since it improves the contact between the pollutant containing solution and the material, facilitating the catalytic reactions.</p><p>Transmission electronic microscopy (TEM) confirmed the porous structure of the coatings. Figure <ref type="figure">5</ref> shows the micrographs of TiO 2 -Brij58-SD and TiO 2 -Brij58-Ca films. All the films present similar mesoporous structures in agreement with the porosity characterisation obtained by EEP. The mesoporosity is homogeneously distributed not presenting a defined order. The results included in Table <ref type="table" target="#tab_4">4</ref> indicate that Ca doping of titania-anatase mesoporous films does not significantly affect their optical properties (n and e) and texture. Similar pore volume, pore size, S s , and S exp were obtained for doped films. The only parameter with a significant change was the contact angle that clearly decreases for doped samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Photocatalytic activity of TiO 2 films</head><p>The photocatalytic activity of undoped and doped TiO 2 films was evaluated through the degradation of methyl orange (MO) <ref type="bibr" target="#b8">[9]</ref>. The preliminary tests showed that neither photolysis nor adsorption processes occur.</p><p>Figures <ref type="figure">6</ref> and <ref type="figure">7</ref> present the photocatalytic behaviour of undoped and Ca-doped TiO 2 -Brij58 films sintered at 450 °C for 60 and 90 min.</p><p>The photocatalytic efficiency of TiO 2 films is clearly enhanced by the incorporation of Ca 2? doping, the final performance depending on Ca content and sintering time. TiO 2 -Brij58-1%Ca sintered for 60 min and TiO 2 -Bri-j58-3%Ca treated during 90-min films showed decomposing rates of 79 and 83 % of MO after 2.5 h under solar irradiation, respectively (Figs. <ref type="figure">6</ref>, <ref type="figure">7</ref>), corresponding with the highests degradation performance. Undoped TiO 2 -Brij58 films present the lower degradation rate (37 %) compared to Ca-doped TiO 2 films in both sintering conditions (79-83 %, respectively).</p><p>For obtaining the kinetic parameters, the photocatalytic decomposition of MO was described by a first-order kinetic model <ref type="bibr" target="#b34">[35]</ref>, -ln (C 0 /C) = kt, where C 0 and C are the concentrations at t = 0 and at time t. The plots of ln (C 0 / C) versus t show a straight line with a slope k that is the apparent first-order reaction constant (Fig. <ref type="figure">8</ref>). On the other hand, heterogeneous catalysis is a surface phenomenon, so it is well known that the overall kinetic parameters are dependent from the real (exposed) surface of the active semiconductors. A possible approach to the photocatalytic Fig. 5 TEM micrographs of undoped films -TiO 2 -Brij58 (a) and TiO 2 -Brij58-1%Ca 60 min (b)</p><p>efficiency is described for a new kinetic parameter, K 0 , which would express the degradation efficiency per unit area of the catalyst, defined as K 0 = k/(S exp ) <ref type="bibr" target="#b35">[36]</ref>. Table <ref type="table" target="#tab_5">5</ref> shows the first-order rate constants, k, together with the normalised rate constants, K 0 , and the t 1/2 (the time at which the remaining concentration of MO is half of the initial concentration) for the different TiO 2 films used in this study.</p><p>The k value parameter of TiO 2 -Brij58-3%Ca 90-min film was 0.0118 min -1 , the highest value among all the photocatalysts considered and associated with a t 1/2 of 58 min. This photocatalyst has specific reactive sites that act as efficient traps favouring the formation of reactive hydroxyl radicals. Ca-doped TiO 2 films show a stronger effective degradation rate together with TiO 2 -Bri-j58-1%Ca 60-min (0.0105 min -1 ) film. Undoped TiO 2 films present the lowest efficiency, with t 1/2 of 223 and 150 min.</p><p>The differences in the reaction rates are usually due to morphological and/or structural changes induced by the incorporation of a dopant. But new arguments should be taken into account because these changes are not relevant in Ca-doped titania films obtained in this study as described in previous sections.</p><p>Indeed, to explain the photocatalytic behaviour, two main aspects have to be considered: one associated with the structural, textural, and porous structure of the coatings, and other related with the nature of the dopant and the effect in the electronic structure of titania-anatase. One main objective of doping was to induce a change in spectral band position that results in the increased absorption of visible light. This change could be induced by (1) a decrease in the band gap or (2) a modification of intra-band gap states, both changing the electronic structure of TiO 2 .</p><p>In this case, the band gap is not affected by the incorporation of Ca 2? and it cannot explain the enhanced photocatalytic behaviour of doped samples.</p><p>With respect to the textural properties (Table <ref type="table" target="#tab_4">4</ref>), TiO 2 -Brij58-Ca 90-min films present a pore size *6.0 nm associated with a high specific exposed surface area (S s * 70 cm 2 ). Chen and Dionysiou <ref type="bibr" target="#b36">[37]</ref> demonstrated that the photocatalytic activity depends on the pore size photocatalysts with pore size around 5 nm being the most 0 10 20 30 40 50 60 70 80 90 100 0 2000 4000 6000 8000 % DegradaƟon Time (s) TiO2-Brij58-SD TiO2-Brij58-1%Ca TiO2-Brij58-3%Ca Fig. 7 Photocatalytic degradation of methyl orange (c = 3 mg/L) for doped and undoped TiO 2 -Brij58 films heat-treated at 450 °C/90 min 0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 0 20 40 60 80 100 120 140 160 Ln (C/C 0 ) Time (min) TiO2-Brij58-SD-60min TiO2-Brij58-1%Ca-60min TiO2-Brij58-3%Ca-60min Fig. 8 First-order kinetics for Ca-doped and undoped TiO 2 -Brij58 films sintered at 450 °C for 60 min adequate to obtain high degradation rates. However, all the studied coatings present a similar structure (pore size, S s and S exp ). Therefore, these parameters are neither determinant to explain the better performance of doped photocatalysts. Only the contact angle is significantly lower for Ca-TiO 2 coatings, which could explain a larger wettability and an increase in the photocatalytic activity. So, the most probable origin of the enhanced photocatalytic activity should be related with the intercalation of Ca 2? cation into the TiO 2 network and the modification of electronic states within the band gap. Different authors report that Ca 2? could be isomorphously substituted or interstitially introduced into the matrix inducing oxygen vacants or interstitial Ti 3? ions <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>. Both effects can increase the photocatalytic activity. However, considering that the radius of Ca 2? (0.99 A ˚) is much bigger than that of Ti 4? (0.68 A ˚) and closer to O 2-(1.26 A ˚) <ref type="bibr" target="#b37">[38]</ref>, the more probable situation according to Raman and GIXRD results points to the location of Ca 2? in interstitial sites in TiO 2anatase crystals, thus producing a lattice deformation and/ or generating defects in the semiconductor structure. Impurity bands are likely created within the band gap that will increase the photocatalytic activity. These defects might improve the charge separation and reduce the recombination e -/h ? pairs, acting as bridge for electron transitions, likely explaining the enhanced photocatalytic activity of photocatalyst doped with Ca <ref type="bibr" target="#b38">[39]</ref>.</p><p>The much enhanced efficiency of Ca 2? -doped mesoporous titania films converts these materials into suitable and cost-effective candidates for indoor and outdoor applications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Conclusions</head><p>The incorporation of Ca 2? ions in the network of TiO 2 films prepared by sol-gel greatly increase the photocatalytic degradation of methyl orange (MO) and its kinetic when measured under simulated solar irradiation Xe lamp.</p><p>The incorporation of Ca 2? in the TiO 2 network modifies the unit cell, as observed by Raman and GIXRD.</p><p>The highest efficiency was found for the films TiO 2 -Brij58-1%Ca sintered for 60 min and TiO 2 -Brij58-3%Ca treated during 90 min. Neither the band gap measurements nor the structural and textural properties change appreciably with the Ca doping of the coating; therefore, they cannot explain the differences in the photocatalytic activity.</p><p>The substitution of Ti 4? ions by Ca 2? in the TiO 2 matrix likely modifies the impurity level of electronic bands increasing the stabilisation of the anatase phase.</p><p>The introduction of Ca 2? ions in interstitial positions of Ti 4? in the TiO 2 matrix likely contributes to enhance the photocatalytic activity.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>3. 1</head><label>1</label><figDesc>Characterisation of doped TiO 2 sols and structure of the films</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Device to monitor the degradation of MO</figDesc><graphic coords="4,204.13,531.11,340.32,180.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Adsorption-desorption isotherm (a) and pore size distribution (b) for TiO 2 -Brij58-1 %Ca 60-min film</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 Fig. 7 Fig. 8</head><label>678</label><figDesc>Fig. 6 Photocatalytic degradation of methyl orange (c = 3 mg/L) for doped and undoped TiO 2 -Brij58 films heat-treated at 450 °C/60 min</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Position of E g Raman-active mode and FWHM for TiO 2 anatase</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>TiO 2 _Brij58_SD</cell></row><row><cell></cell><cell></cell><cell></cell><cell>TiO 2 _Brij58_1Ca</cell></row><row><cell></cell><cell></cell><cell></cell><cell>TiO 2 _Brij58_3Ca</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Si-wafer</cell></row><row><cell></cell><cell></cell><cell></cell><cell>anatase</cell></row><row><cell></cell><cell></cell><cell>u.a</cell></row><row><cell></cell><cell></cell><cell>6</cell><cell>8</cell><cell>10 12 14 16 18 20 22 24 26</cell></row><row><cell></cell><cell></cell><cell></cell><cell>2 Theta</cell></row><row><cell></cell><cell></cell><cell cols="2">Fig. 3 GIRDX measurement of TiO 2 -Brij58-Ca films heat-treated at</cell></row><row><cell></cell><cell></cell><cell cols="2">450 °C/90 min</cell></row><row><cell>Sample</cell><cell>Position of the</cell><cell>FWHM (cm -1 )</cell></row><row><cell></cell><cell>E g mode (cm -1 )</cell><cell></cell></row><row><cell cols="2">TiO 2 -AcOH-Brij58; 60 min</cell><cell></cell></row><row><cell>Undoped</cell><cell>145.25</cell><cell>16.11</cell></row><row><cell>1 % Ca</cell><cell>145.10</cell><cell>16.61</cell></row><row><cell>3 % Ca</cell><cell>144.69</cell><cell>16.02</cell></row><row><cell cols="2">TiO 2 -AcOH-Brij58; 90 min</cell><cell></cell></row><row><cell>Undoped</cell><cell>145.07</cell><cell>14.62</cell></row><row><cell>1 % Ca</cell><cell>144.93</cell><cell>15.20</cell></row><row><cell>3 % Ca</cell><cell>144.67</cell><cell>14.80</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Crystal size for doped and undoped TiO 2 films heat-treated at 450 °C</figDesc><table><row><cell>Composition</cell><cell>Position of peak (101)</cell><cell>Crystal size (nm) ± 0.3</cell></row><row><cell cols="2">TiO 2 -AcOH-Brij58; 60 min</cell><cell></cell></row><row><cell>Undoped</cell><cell>10.126</cell><cell>8.9</cell></row><row><cell>1 % Ca</cell><cell>10.073</cell><cell>10.2</cell></row><row><cell>3 % Ca</cell><cell>10.050</cell><cell>10.9</cell></row><row><cell cols="2">TiO 2 -AcOH-Brij58; 90 min</cell><cell></cell></row><row><cell>Undoped</cell><cell>10.192</cell><cell>9.8</cell></row><row><cell>1 % Ca</cell><cell>10.179</cell><cell>9.9</cell></row><row><cell>3 % Ca</cell><cell>10.122</cell><cell>10.9</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3</head><label>3</label><figDesc>Lattice parameters for undoped and 3 % Ca-TiO 2 -Brij58 films heat-treated at 450 °C/60 min</figDesc><table><row><cell>Composition</cell><cell cols="2">Lattice parameters (A ˚)</cell></row><row><cell></cell><cell>a (±0.0025)</cell><cell>c (±0.0025)</cell></row><row><cell>TiO 2 -Brij58 60 min</cell><cell>3.787</cell><cell>9.437</cell></row><row><cell>TiO 2 -Brij58-Ca 60 min</cell><cell>3.768</cell><cell>9.472</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4</head><label>4</label><figDesc>EEP characterisation for doped and undoped TiO 2 films heat-treated at 450 °C for 60 and 90 min</figDesc><table><row><cell>Composition</cell><cell>e (nm) ± 0,02</cell><cell>n ± 0.05</cell><cell>V pore (%) ± 5 %</cell><cell>/ (nm) ± 10 %</cell><cell>S s (m 2 /cm 3 ) ± 10 %</cell><cell>S exp (cm 2 ) ± 10 %</cell><cell>h (°)</cell></row><row><cell>60 min</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Undoped</cell><cell>331</cell><cell>1.73</cell><cell>29.7</cell><cell>4.7</cell><cell>227</cell><cell>68</cell><cell>27</cell></row><row><cell>1 % Ca</cell><cell>308</cell><cell>1.69</cell><cell>35.1</cell><cell>6.1</cell><cell>214</cell><cell>70</cell><cell>9.9</cell></row><row><cell>3 % Ca</cell><cell>310</cell><cell>1.74</cell><cell>32.1</cell><cell>5.8</cell><cell>218</cell><cell>70</cell><cell>9.5</cell></row><row><cell>90 min</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Undoped</cell><cell>335</cell><cell>1.66</cell><cell>34.0</cell><cell>5.7</cell><cell>212</cell><cell>71</cell><cell>25</cell></row><row><cell>1 % Ca</cell><cell>315</cell><cell>1.70</cell><cell>35.0</cell><cell>6.1</cell><cell>210</cell><cell>71</cell><cell>15.5</cell></row><row><cell>3 % Ca</cell><cell>318</cell><cell>1.69</cell><cell>34.9</cell><cell>6.2</cell><cell>215</cell><cell>68</cell><cell>10.1</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 5</head><label>5</label><figDesc>Kinetic constants and lifetime for all the TiO 2 coatings heattreated at 450 °C</figDesc><table><row><cell>Composition</cell><cell>k (k/min)</cell><cell>K 0 (k/S exp )</cell><cell>t 1/2 (min)</cell></row><row><cell>60 min</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Undoped</cell><cell>0.0031</cell><cell>4.5 9 10 -5</cell><cell>223</cell></row><row><cell>1 % Ca</cell><cell>0.0105</cell><cell>1.5 9 10 -4</cell><cell>66</cell></row><row><cell>3 % Ca</cell><cell>0.0068</cell><cell>9.4 9 10 -5</cell><cell>101</cell></row><row><cell>90 min</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Undoped</cell><cell>0.0046</cell><cell>6.4 9 10 -5</cell><cell>150</cell></row><row><cell>1 % Ca</cell><cell>0.0100</cell><cell>1.5 9 10 -4</cell><cell>69</cell></row><row><cell>3 % Ca</cell><cell>0.0118</cell><cell>1.8 9 10 -4</cell><cell>58</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J Sol-Gel Sci Technol (2016) 78:482-491</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments This work was supported by <rs type="grantNumber">PIE-CSIC-2004-60E637</rs>. The authors acknowledge <rs type="person">Aritz Iglesias</rs> for the experimental work and <rs type="person">Adolfo del Campo</rs> for the Raman measurements. The authors also thank <rs type="person">German Castro</rs> and <rs type="person">Juan Rubio</rs> of <rs type="institution" subtype="infrastructure">Spanish CRG BM25-SpLine</rs> at the <rs type="funder">European Synchrotron Radiation in Grenoble (France)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_QxJAqJE">
+					<idno type="grant-number">PIE-CSIC-2004-60E637</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Spanish CRG BM25-SpLine</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Photocatalytic and biocidal activities of novel coating systems of mesoporous and dense TiO 2 -anatase containing silver nanoparticles</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Rolda ´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>De On ˜a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dura ´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Faccendini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lagier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Grau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Pellegri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng C</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="630" to="640" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rolda ´n MV, de On ˜a P, Castro Y, Dura ´n A, Faccendini P, Lagier C, Grau R, Pellegri NS (2014) Photocatalytic and biocidal activities of novel coating systems of mesoporous and dense TiO 2 -anatase containing silver nanoparticles. Mater Sci Eng C 43:630-640</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Silver Doped TiO2 Photocatalyst for Methyl Orange Degradation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Girginov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stefchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vitanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hr</forename><forename type="middle">R</forename><surname>Dikov</surname></persName>
+		</author>
+		<idno type="DOI">10.25103/jestr.054.03</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Engineering Science and Technology Review</title>
+		<title level="j" type="abbrev">JESTR</title>
+		<idno type="ISSN">1791-9320</idno>
+		<idno type="ISSNe">1791-2377</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="14" to="17" />
+			<date type="published" when="2012-12">2012</date>
+			<publisher>International Hellenic University</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Girginov Ch, Stefchev P, Vitanov P, Hr Dikov (2012) Silver doped TiO 2 photocatalyst for methyl orange degradation. J Eng Sci Technol Rev 5:14-17</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Antibacterial effects of silver nanoparticles on gram-negative bacteria: Influence on the growth and biofilms formation, mechanisms of action</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Radzig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Nadtochenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Koksharova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kiwi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Lipasova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Khmel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfb.2012.07.039</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids and Surfaces B: Biointerfaces</title>
+		<title level="j" type="abbrev">Colloids and Surfaces B: Biointerfaces</title>
+		<idno type="ISSN">0927-7765</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="300" to="306" />
+			<date type="published" when="2013-02">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Radzig M, Nadtochenko V, Koksharova O, Kiwi J, Lipasova V, Khmel I (2013) Antibacterial effects of silver nanoparticles on gram-negative bacteria: influence on the growth and biofilms formation, mechanisms of action. Colloids Surf B 102:300-306</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Enhanced photocatalytic activity of mesoporous SiO 2 /TiO 2 sol-gel coatings doped with Ag nanoparticles</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Rolda ´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dura ´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Pellegri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Solgel Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="180" to="194" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rolda ´n MV, Castro Y, Dura ´n A, Pellegri NS (2015) Enhanced photocatalytic activity of mesoporous SiO 2 /TiO 2 sol-gel coatings doped with Ag nanoparticles. J Solgel Sci Technol 76:180-194</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">On the preparation of TiO 2 -sepiolite hybrid materials for the photocatalytic degradation of TCE: influence of TiO 2 distribution in the mineralization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sua ´rez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Coronado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Portela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Martı ´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Avila</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sa ´nchez B</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Sci Eng</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="5892" to="5896" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sua ´rez S, Coronado JM, Portela R, Martı ´n JC, Yates M, Avila P, Sa ´nchez B (2008) On the preparation of TiO 2 -sepiolite hybrid materials for the photocatalytic degradation of TCE: influence of TiO 2 distribution in the mineralization. Environ Sci Eng 42:5892-5896</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Hybrid photocatalysts for the degradation of trichloroethylene in air</title>
+		<author>
+			<persName><forename type="first">Tlr</forename><forename type="middle">L R</forename><surname>Hewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suárez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Coronado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Portela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Avila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sanchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cattod.2009.02.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Catalysis Today</title>
+		<title level="j" type="abbrev">Catalysis Today</title>
+		<idno type="ISSN">0920-5861</idno>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="302" to="308" />
+			<date type="published" when="2009-05">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hewer TLR, Sua ´rez S, Coronado JM, Portela R, A ´vila P, Sa ´nchez B (2009) Hybrid photocatalysts for the degradation of TCE in air. Catal Today 143:302-308</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Optimised photocatalytic activity of grid-like mesoporous TiO&lt;sub&gt;2&lt;/sub&gt;films: effect of crystallinity, pore size distribution, and pore accessibility</title>
+		<author>
+			<persName><forename type="first">Yoshiaki</forename><surname>Sakatani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Grosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lionel</forename><surname>Nicole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cédric</forename><surname>Boissière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Galo</forename><forename type="middle">J</forename><surname>De A. A. Soler-Illia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clément</forename><surname>Sanchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b512824m</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem.</title>
+		<title level="j" type="abbrev">J. Mater. Chem.</title>
+		<idno type="ISSN">0959-9428</idno>
+		<idno type="ISSNe">1364-5501</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="77" to="82" />
+			<date type="published" when="2006">2006</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakatani Y, Grosso D, Nicole L, Boissie `re C, de AA Soler-Illia GJ, Sa ´nchez C (2006) Optimised photocatalytic activity of grid- like mesoporous TiO 2 films: effect of crystallinity, pore size distribution, and pore accessibility. J Mater Chem 16:77-82</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Photocatalytic oxidation of methyl ethyl ketones over sol–gel mesoporous and meso-structured TiO2 films obtained by EISA method</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arconada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Durán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Héquet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apcatb.2011.06.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Catalysis B: Environmental</title>
+		<title level="j" type="abbrev">Applied Catalysis B: Environmental</title>
+		<idno type="ISSN">0926-3373</idno>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="52" to="58" />
+			<date type="published" when="2011-08" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arconada N, Castro Y, Dura ´n A, He ´quet V (2011) Photocatalytic oxidation of methyl ethyl ketones over sol-gel mesoporous and meso-structured TiO 2 films obtained by EISA method. Appl Catal B 107:52-58</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Photocatalytic properties in aqueous solution of porous TiO2-anatase films prepared by sol–gel process</title>
+		<author>
+			<persName><forename type="first">Noemi</forename><surname>Arconada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yolanda</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alicia</forename><surname>Durán</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apcata.2010.06.051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Catalysis A: General</title>
+		<title level="j" type="abbrev">Applied Catalysis A: General</title>
+		<idno type="ISSN">0926-860X</idno>
+		<imprint>
+			<biblScope unit="volume">385</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="101" to="107" />
+			<date type="published" when="2010-09-15">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arconada N, Castro Y, Dura ´n A (2010) Photocatalytic properties in aqueous solution of porous TiO 2 -anatase films prepared by sol-gel process. Appl Catal A 385:101-107</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Investigations of metal-doped titanium dioxide photocatalysts</title>
+		<author>
+			<persName><forename type="first">Dana</forename><surname>Dvoranová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vlasta</forename><surname>Brezová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Milan</forename><surname>Mazúr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mounir</forename><forename type="middle">A</forename><surname>Malati</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0926-3373(01)00335-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Catalysis B: Environmental</title>
+		<title level="j" type="abbrev">Applied Catalysis B: Environmental</title>
+		<idno type="ISSN">0926-3373</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="91" to="105" />
+			<date type="published" when="2002-04">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dvoranova ´D, Brezova ´V, Mazu ´r M, Malati MA (2002) Inves- tigations of metal-doped titanium dioxide photocatalysts. Appl Catal B 37:91-105</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Doped-TiO2: A Review</title>
+		<author>
+			<persName><forename type="first">Adriana</forename><surname>Zaleska</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/187221208786306289</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Recent Patents on Engineering</title>
+		<title level="j" type="abbrev">ENG</title>
+		<idno type="ISSN">1872-2121</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="157" to="164" />
+			<date type="published" when="2008-11-01">2008</date>
+			<publisher>Bentham Science Publishers Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zaleska A (2008) Doped-TiO 2 : a review. Recent Pat Eng 2:157-164</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Enhancement of the photocatalytic activity of TiO2 by doping it with calcium ions</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">G</forename><surname>Akpan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Hameed</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jcis.2011.01.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Colloid and Interface Science</title>
+		<title level="j" type="abbrev">Journal of Colloid and Interface Science</title>
+		<idno type="ISSN">0021-9797</idno>
+		<imprint>
+			<biblScope unit="volume">357</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="168" to="178" />
+			<date type="published" when="2011-05">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akpan UG, Hameed BH (2011) Enhancement of the photocat- alytic activity of TiO 2 by doping it with calcium ions. J Colloid Interface Sci 357:168-178</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Hydrothermal doping method for preparation of Cr3+-TiO2 photocatalysts with concentration gradient distribution of Cr3+</title>
+		<author>
+			<persName><forename type="first">Jiefang</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhigang</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jinlong</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haijun</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masakazu</forename><surname>Anpo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiazhen</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lizhong</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apcatb.2005.08.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Catalysis B: Environmental</title>
+		<title level="j" type="abbrev">Applied Catalysis B: Environmental</title>
+		<idno type="ISSN">0926-3373</idno>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="329" to="335" />
+			<date type="published" when="2006-02">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu J, Deng Z, Chen F (2006) Hydrothermal doping method for preparation of Cr 3? -TiO 2 photocatalysts with concentration gra- dient distribution of Cr 3? . Appl Catal B 62:329-335</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Schottky barrier and surface plasmonic resonance phenomena towards the photocatalytic reaction: study of their mechanisms to enhance photocatalytic activity</title>
+		<author>
+			<persName><forename type="first">Maksudur</forename><forename type="middle">R</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tan</forename><forename type="middle">Wooi</forename><surname>Chuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abu</forename><surname>Yousuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mnk</forename><forename type="middle">N K</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chin</forename><forename type="middle">Kui</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4cy01545b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Catalysis Science &amp; Technology</title>
+		<title level="j" type="abbrev">Catal. Sci. Technol.</title>
+		<idno type="ISSN">2044-4753</idno>
+		<idno type="ISSNe">2044-4761</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2522" to="2531" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khan MR, Chuan TW, Yousuf A, Chowdhury MNK, Kui Cheng C (2015) Schottky barrier and surface plasmonic resonance phenomena towards the photocatalytic reaction: study of their mechanisms to enhance photocatalytic activity. Catal Sci Technol 5:2522-2531</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Efficient preparation of nanocrystalline anatase TiO 2 and V/TiO 2 thin layers using microwave drying and/or microwave calcination technique</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sobek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cı ´rkva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kment</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">ˇ</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ha</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Solid State Chem</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="3387" to="3392" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z ˇabova H, Sobek J, Cı ´rkva V, S ˇolcova O, Kment S ˇ, Ha ´jek M (2009) Efficient preparation of nanocrystalline anatase TiO 2 and V/TiO 2 thin layers using microwave drying and/or microwave calcination technique. J Solid State Chem 182:3387-3392</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Electrospun mesoporous W6+-doped TiO2 thin films for efficient visible-light photocatalysis</title>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haiying</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiang</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ce</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2008.10.037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Letters</title>
+		<title level="j" type="abbrev">Materials Letters</title>
+		<idno type="ISSN">0167-577X</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="331" to="333" />
+			<date type="published" when="2009-01">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang Y, Wang H, Li X, Wang C (2009) Electrospun mesoporous W 6? -doped TiO 2 thin films for efficient visible-light photo- catalysis. Mater Lett 63:331-333</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Titania and tungsten doped titania thin films on glass; active photocatalysts</title>
+		<author>
+			<persName><forename type="first">Ashti</forename><surname>Rampaul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ivan</forename><forename type="middle">P</forename><surname>Parkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shane</forename><forename type="middle">A</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juilio</forename><surname>Desouza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nickolas</forename><surname>Elliott</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0277-5387(02)01333-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Polyhedron</title>
+		<title level="j" type="abbrev">Polyhedron</title>
+		<idno type="ISSN">0277-5387</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="44" />
+			<date type="published" when="2003-01">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rampaul A, Parkin IP, O ´Neill SA, Desouza J, Mills A, Elliott N (2003) Titania and tungsten doped titania thin films on glass; active photocatalysts. Polyhedron 22:35-44</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Sol–gel-derived VχTi1−χO2 films and their photocatalytic activities under visible light irradiation</title>
+		<author>
+			<persName><forename type="first">Kazuya</forename><surname>Iketani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ren-De</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Motoyuki</forename><surname>Toki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ken</forename><surname>Hirota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Osamu</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mseb.2003.09.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: B</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: B</title>
+		<idno type="ISSN">0921-5107</idno>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="187" to="193" />
+			<date type="published" when="2004-05">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iketani K, De Sun R, Toki M, Hirota K, Yamaguchi O (2004) Sol-gel-derived V v Ti 1-v O 2 films and their photocatalytic activ- ities under visible light irradiation Kazuya. Mater Sci Eng B 108:187-193</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Sol-gel preparation of Ti1−V O2 solid solution film electrodes with conspicuous photoresponse in the visible region</title>
+		<author>
+			<persName><forename type="first">Gaoling</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiromitsu</forename><surname>Kozuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hong</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Toshinobu</forename><surname>Yoko</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0040-6090(98)01227-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<title level="j" type="abbrev">Thin Solid Films</title>
+		<idno type="ISSN">0040-6090</idno>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="123" to="128" />
+			<date type="published" when="1999-02">1999</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao G, Kozuka H, Lin H, Yoko T (1999) Sol-gel preparation of Ti 1-x V x O 2 solid solution film electrodes with conspicuous pho- toresponse in the visible region. Thin Solid Films 339:123-128</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Characterisation and activity of sol-gel-prepared TiO 2 photocatalysts modified with Ca, Sr or Ba ion additives</title>
+		<author>
+			<persName><forename type="first">Al-Salim Ni</forename><surname>Bagshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bittar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kemmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Macquillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Millsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ryana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Chem</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="2358" to="2363" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Al-Salim NI, Bagshaw SA, Bittar A, Kemmitt T, Macquillan AJ, Millsa AM, Ryana MJ (2000) Characterisation and activity of sol-gel-prepared TiO 2 photocatalysts modified with Ca, Sr or Ba ion additives. J Mater Chem 10:2358-2363</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">F, Ca co-doped TiO&lt;sub&gt;2&lt;/sub&gt;nanocrystals with enhanced photocatalytic activity</title>
+		<author>
+			<persName><forename type="first">Weiwei</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shuang</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ying</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lele</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daming</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhengwei</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Runwei</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zongtao</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shilun</forename><surname>Qiu</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4dt01908c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dalton Trans.</title>
+		<title level="j" type="abbrev">Dalton Trans.</title>
+		<idno type="ISSN">1477-9226</idno>
+		<idno type="ISSNe">1477-9234</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="16160" to="16163" />
+			<date type="published" when="2014-08-01">2014</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fu W, Ding S, Wang Y, Wu L, Zhang D, Pan Z, Wang R, Zhang Z, Qiu S (2014) F, Ca co-doped TiO 2 nanocrystals with enhanced photocatalytic activity. Dalton Trans 43:16160-16163</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effect of doping TiO2 with alkaline-earth metal ions on its photocatalytic activity</title>
+		<author>
+			<persName><forename type="first">Yuexiang</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shaoqin</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fengyi</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gongxuan</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shuben</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.2298/jsc0704393l</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Serbian Chemical Society</title>
+		<title level="j" type="abbrev">J Serb Chem Soc</title>
+		<idno type="ISSN">0352-5139</idno>
+		<idno type="ISSNe">1820-7421</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="393" to="402" />
+			<date type="published" when="2007">2007</date>
+			<publisher>National Library of Serbia</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li Y, Peng S, Jiang F, Lu G, Li S (2007) Effect of doping TiO 2 with alkaline-earth metal on its photocatalytic activity. J Serch Chem Soc 72:393-402</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The effect of operational parameters and TiO2-doping on the photocatalytic degradation of azo-dyes</title>
+		<author>
+			<persName><forename type="first">Fotini</forename><surname>Kiriakidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitris</forename><forename type="middle">I</forename><surname>Kondarides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xenophon</forename><forename type="middle">E</forename><surname>Verykios</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0920-5861(99)00174-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Catalysis Today</title>
+		<title level="j" type="abbrev">Catalysis Today</title>
+		<idno type="ISSN">0920-5861</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="119" to="130" />
+			<date type="published" when="1999-11">1999</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiriakidou F, Kondarides DI, Verykios XE (1999) The effect of operational parameters and TiO 2 -doping on the photocatalytic degradation of azo-dyes. Catal Today 54:119-130</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">X-ray photoelectron diffraction study of an anatase thin film: TiO2(001)</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Herman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Osterwalder</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0039-6028(99)01186-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surface Science</title>
+		<title level="j" type="abbrev">Surface Science</title>
+		<idno type="ISSN">0039-6028</idno>
+		<imprint>
+			<biblScope unit="volume">447</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="201" to="211" />
+			<date type="published" when="2000-02">2000</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herman GS, Gao Y, Tran TT, Osterwalder J (2000) X-ray pho- toelectron diffraction study of an anatase thin film: TiO 2 (001). Surf Sci 447:201-211</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Glass: Sol–Gel Coatings</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guglielmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brusatin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tombolan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b0-08-043152-6/00636-7</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Encyclopedia of Materials: Science and Technology</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1993">1993</date>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3575" to="3579" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guglielmi M, Brusatin G, Tombolan N (1993) Ion migration in thin sol-gel glass coatings. Riv Staz Sper Vetro Sup 23:495-498</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Porosity and Mechanical Properties of Mesoporous Thin Films Assessed by Environmental Ellipsometric Porosimetry</title>
+		<author>
+			<persName><forename type="first">Cédric</forename><surname>Boissiere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Grosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sophie</forename><surname>Lepoutre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lionel</forename><surname>Nicole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aline</forename><forename type="middle">Brunet</forename><surname>Bruneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clément</forename><surname>Sanchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la050981z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="12362" to="12371" />
+			<date type="published" when="2005-11-23" />
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boissiere C, Grosso D, Lepotre S, Nicole L, Brunet AB, Sa ´nchez C (2005) Porosity and mechanical properties of mesoporous thin films assessed by environmental ellipsometric porosimetry. Langmuir 21:12362-12371</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">First-principles study on transition metal-doped anatase TiO2</title>
+		<author>
+			<persName><forename type="first">Yaqin</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruirui</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jianbao</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Liangliang</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shiwei</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1556-276x-9-46</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale Research Letters</title>
+		<title level="j" type="abbrev">Nanoscale Res Lett</title>
+		<idno type="ISSNe">1556-276X</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="46" to="53" />
+			<date type="published" when="2014-01-28">2014</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang Y, Zhang R, Li J, Li L, Lin S (2014) First-principles study on transition metal-doped anatase TiO 2 . Nanoscale Res Lett 9:46-53</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Nanostructured glass coatings for solar control with photocatalytic properties</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gonçalves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Durán</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jnoncrysol.2013.01.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Non-Crystalline Solids</title>
+		<title level="j" type="abbrev">Journal of Non-Crystalline Solids</title>
+		<idno type="ISSN">0022-3093</idno>
+		<imprint>
+			<biblScope unit="volume">377</biblScope>
+			<biblScope unit="page" from="250" to="253" />
+			<date type="published" when="2013-10">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fortes LM, Gonc ¸alves MC, Almeida RM, Castro Y, Dura ´n A (2013) Nanostructured glass coatings for solar control with photocatalytic properties. J Non-Cryst Solids 377:250-253</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Investigation of photocatalytic activity of metal-doped TiO2 nanoparticles prepared by Pechini method</title>
+		<author>
+			<persName><forename type="first">Adriane</forename><forename type="middle">V</forename><surname>Rosario</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wania</forename><forename type="middle">A</forename><surname>Christinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberta</forename><forename type="middle">N</forename><surname>Barreto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ernesto</forename><forename type="middle">C</forename><surname>Pereira</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10971-012-2910-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sol-Gel Science and Technology</title>
+		<title level="j" type="abbrev">J Sol-Gel Sci Technol</title>
+		<idno type="ISSN">0928-0707</idno>
+		<idno type="ISSNe">1573-4846</idno>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="734" to="742" />
+			<date type="published" when="2012-11-09">2012</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rosario AV, Christinelli WA, Barreto RN, Pereira EC (2012) Investigation of photocatalytic activity of metal-doped TiO 2 nanoparticles prepared by Pechini method. J Solgel Sci Technol 64:734-742</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Photocatalytic activity of porous TiO2 films prepared by anodic oxidation</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1001-0521(07)60173-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rare Metals</title>
+		<title level="j" type="abbrev">Rare Metals</title>
+		<idno type="ISSN">1001-0521</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="136" to="141" />
+			<date type="published" when="2007-04">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang W, Tao J, Wang T, Wang L (2007) Photocatalytic activity of porous TiO 2 films prepared by anodic oxidation. Rare Met 26:136-141</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Raman spectroscopy of dip-coated and spin-coated sol–gel TiO2 thin films on different types of glass substrate</title>
+		<author>
+			<persName><forename type="first">Š</forename><surname>Kment</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gregora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kmentová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Novotná</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hubička</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krýsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sajdl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dejneka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brunclíková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jastrabík</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hrabovský</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10971-012-2787-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sol-Gel Science and Technology</title>
+		<title level="j" type="abbrev">J Sol-Gel Sci Technol</title>
+		<idno type="ISSN">0928-0707</idno>
+		<idno type="ISSNe">1573-4846</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="294" to="306" />
+			<date type="published" when="2012-05-12">2012</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kment S, Gregora I, Kmentova ´H, Novatna ´P, Hubicka Z, Kry ´sa J, Sajdl P, Dejneka A, Brunclı ´kova ´M, Jastrabı ´k L, Hrabovsky ´M (2012) Raman spectroscopy of dip-coated and spin-coated sol- gel TiO 2 thin films on different types of glass substrate. J Solgel Sci Technol 63:294-306</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Synthesis of High-Temperature Stable Anatase TiO&lt;sub&gt;2&lt;/sub&gt; Photocatalyst</title>
+		<author>
+			<persName><forename type="first">Suresh</forename><forename type="middle">C</forename><surname>Pillai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pradeepan</forename><surname>Periyat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reenamole</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Declan</forename><forename type="middle">E</forename><surname>Mccormack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">K</forename><surname>Seery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hugh</forename><surname>Hayden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Colreavy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Corr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Hinder</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp065933h</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<title level="j" type="abbrev">J. Phys. Chem. C</title>
+		<idno type="ISSN">1932-7447</idno>
+		<idno type="ISSNe">1932-7455</idno>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1605" to="1611" />
+			<date type="published" when="2007-01-10">2007</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pillai SC, Periyat P, George R, McCormack DE, Seery MK, Hayden H, Colreavy J, Corr D, Hinder SJ (2007) Synthesis of high-temperature stable anatase TiO 2 photocatalyst. J Phys Chem C 111:1605-1611</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effects of crystallization and dopant concentration on the emission behavior of TiO2:Eu nanophosphors</title>
+		<author>
+			<persName><forename type="first">Mou</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Umapada</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Justo</forename><forename type="middle">Miguel Gracia Y</forename><surname>Jiménez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Felipe</forename><surname>Pérez-Rodríguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1556-276x-7-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale Research Letters</title>
+		<title level="j" type="abbrev">Nanoscale Res Lett</title>
+		<idno type="ISSNe">1556-276X</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2012-01-03" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pal M, Pal U, Garcı ´aa JM, Pe ´rez-Rodrı ´guez F (2012) Effects of crystallization and dopant concentration on the emission behavior of TiO 2 : Eu nanophosphors. Nanoscale Res Lett 7:1-12</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Effect of metal ion dopants on photochemical properties of anatase TiO2 films synthesized by a modified sol-gel method</title>
+		<author>
+			<persName><forename type="first">Zhangfu</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Junling</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bin</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jianqiang</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tsf.2007.02.101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<title level="j" type="abbrev">Thin Solid Films</title>
+		<idno type="ISSN">0040-6090</idno>
+		<imprint>
+			<biblScope unit="volume">515</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="7091" to="7095" />
+			<date type="published" when="2007-06">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuan Z, Zahng J, Li B, Li J (2007) Effect of metal ion dopants on photochemical properties of anatase TiO 2 films synthesized by a modified sol-gel method. Thin Solid Films 515:7091-7095</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Photocatalytic degradation of methyl orange in aqueous TiO 2 under different solar irradiation sources</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Rashed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>El-Amin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Phys Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="73" to="81" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rashed MN, El-Amin AA (2007) Photocatalytic degradation of methyl orange in aqueous TiO 2 under different solar irradiation sources. Int J Phys Sci 2:73-81</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Metolachlor photocatalytic degradation using TiO2 photocatalysts</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Sakkas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Arabatzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">K</forename><surname>Konstantinou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Dimou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Albanis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Falaras</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apcatb.2003.12.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Catalysis B: Environmental</title>
+		<title level="j" type="abbrev">Applied Catalysis B: Environmental</title>
+		<idno type="ISSN">0926-3373</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="195" to="205" />
+			<date type="published" when="2004-05">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakkas VA, Arabatzis IM, Konstantinou IK, Dimou AD, Albanis TA, Falaras P (2004) Metolachlor photocatalytic degradation using TiO 2 photocatalysts. Appl Catal B 49:195-205</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Bimodal mesoporous TiO2–P25 composite thick films with high photocatalytic activity and improved structural integrity</title>
+		<author>
+			<persName><forename type="first">Yongjun</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dionysios</forename><forename type="middle">D</forename><surname>Dionysiou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apcatb.2007.11.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Catalysis B: Environmental</title>
+		<title level="j" type="abbrev">Applied Catalysis B: Environmental</title>
+		<idno type="ISSN">0926-3373</idno>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="147" to="155" />
+			<date type="published" when="2008-04-15">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen Y, Dionysiou DD (2008) Bimodal mesoporous TiO 2 -P25 composite thick films with high photocatalytic activity and improved structural integrity. Appl Catal B 80:147-155</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Synthesis of Calcium Doped TiO2 Nanomaterials and Their Visible Light Degradation Property</title>
+		<author>
+			<persName><forename type="first">Shaoyou</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zongyi</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dingze</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yunguo</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.2991/icmaee-14.2014.12</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Intelligent Systems Research</title>
+		<imprint>
+			<publisher>Atlantis Press</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="43" to="47" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu S, Min Z, Hu D, Liu Y (2014) Synthesis of calcium doped TiO 2 nanomaterials and their visible light degradation property. In: International conference on material and environmental engineering, pp 43-47</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Electronic structure of cation-codoped TiO2 for visible-light photocatalyst applications from hybrid density functional theory calculations</title>
+		<author>
+			<persName><forename type="first">Run</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Niall</forename><forename type="middle">J</forename><surname>English</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3574773</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="142103" to="142105" />
+			<date type="published" when="2011-04-04">2011</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Long R, English NJ (2011) Electronic structure of cation- codoped TiO 2 for visible-light photocatalyst applications from hybrid density functional theory calculations. Appl Phys Lett 98:142103-142105</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

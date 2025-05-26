@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">648FD97B75EB8E24B88548E5BCE160AB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment title:</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stress-assisted diffusion (SAD) of hydrogen atoms in anisotropic polycrystals</head><p>Hamidreza Abdolvand, Assistant professor at the University of Western Ontario, London, Canada.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary</head><p>Zirconium alloys are widely used in the core of various types of nuclear reactors. Following the diffusion of hydrogen within the microstructure of zirconium, a brittle phase called zirconium hydride might form. Formation of hydrides is significantly detrimental to the integrity and in-service performance of reactors matrials. Thus, understanding the underlying mechanism and consequences of hydride formation is crucial in increasing the lifespan of nuclear reactor core components. This research aims to employ a novel experimental technique, scanning three-dimensional synchrotron X-ray diffraction, on two hydrided zirconium samples to have a more comprehensive understanding of hydride formation. The experiment includes measuring 3D stresses at different temperatures to determine how hydride precipitation and dissolution affect the stress fields close to hydrided grain boundaries and triple points.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scanning 3D-XRD experiment setup and samples</head><p>The Scanning 3D-XRD experiment was conducted at ID-11, at the European Synchrotron Radiation Facility (ESRF) in Grenoble, France. The experiment benefited from the new generation of Exremely Brilliant synchrotron source (EBS) at ESRF, where 200 nm monochromatic X-ray beam was be used to measure 3D stress fields. The experimental setup is shown in Fig. <ref type="figure">1</ref>. The samples can be heated in-situ using a vaccum furnace. Two catholically charged zirconium samples were heat treated and electron backscatter diffraction measurement were conducted on the samples to detect the hydrides forming at the grain boundaries and triple points. Using focus ion beam (FIB), two tri-crystal samples were cut in the form of micropillars with different orientation relationship, e.g. hard-soft, between the zirconium crystals. Microscopic images of Sample#1 and #2 and their corresponding EBSD maps are shown in Fig.2a and 2b, respectively. (a) (b) Fig. 2 -Microscopic images of (a) Sample#1 and (b) Sample#2. The grain numbers are based on the color in their corresponding EBSD map. EBSD maps are rotated in order to align the grains with the microscopic image.</p><p>During each temperature stage, the diffraction patterns were collected layer-by-layer to cover the height of the specimen. The height of each layer is approximately 1.5m. A full scan was performed on Sample#1 at room temperature. For Sample#2, diffraction patterns were collected at 5 different temperatures during the experiment. The final temperature for each heating/cooling stage is listed below:</p><p>• T0 = 24.5 °C • T1 = 280 °C • T2 = 380 °C • T3 = 430 °C • Tfinal= 24.7 °C The purpose of the mentioned heating stages was to heat the sample beyond the Terminal Solid Solubility limit (TSS) to dissolve all the hydrides. The final stage is designed in order to reprecipitate the dissolved hydride. The post-processing of the collected dataset is done by coding in Python. The preliminary results of the experiment are presented below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Diffraction peaks</head><p>After measuring all the layers of the two samples at each temperature stage, the diffraction peaks and the shape of the grains in each layer are captured. Fig. <ref type="figure">3</ref> illustrates the diffraction peaks for a test layer of Sample#2. The peaks marked with indicators below them are the known phases within that layer, e.g. -Zr, and hydride. As shown in Fig. <ref type="figure">3</ref>, some unmarked phases are also detected within the sample. Detection of these phases is a part of the future work in post-processing. 2. Grain shapes The test layer consists of 3 adjacent grains. The Rodriguez Vector components for all the three grains are presented in Fig.4. (a) Grain#1 (b) Grain#2 (c) Grain#3 Fig. 4-Rodriguez Vector components captured for (a) Grain#1 (b) Grian#2 and (c) Grain#3</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Phase map</head><p>Using the diffraction peaks and unit cell parameters for possible phases in the test layer, the phases at different regions of the layer can be identified. Once the phase of all the data points in this layer is identified, the phase map of the whole layer can be captured. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants (* indicates experimentalists):</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 -Fig. 2 -</head><label>12</label><figDesc>Fig. 1-The experimental setup at ID-11, ESRF</figDesc><graphic coords="2,93.58,606.17,444.00,154.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 -Fig. 4 -</head><label>34</label><figDesc>Fig. 3-Diffraction peaks measured for the test layer. Red, green, blue and pink marks respectively represent zirconium (HCP), -hydride (FCC), -hydride (FCT) and -hydride (ordered tetragonal)</figDesc><graphic coords="4,121.52,36.85,366.35,139.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 -</head><label>5</label><figDesc>Fig. 5-The phase map for the entire test layer. Red regions are zirconium, green regions are delta hydrides and blue regions are other unknow phases at this layer (possibly zirconium oxide or other hydride phases)</figDesc><graphic coords="5,164.40,116.72,263.35,254.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,39.40,135.74,272.60,243.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,317.15,135.74,249.64,239.35" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

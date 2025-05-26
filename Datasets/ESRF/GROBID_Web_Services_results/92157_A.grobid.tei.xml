@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6B9E406374650A740518B6C427698070</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MX2131</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aims of analysis</head><p>The goal of the present experiment was to acquire information on the shape and structural conformations of multi domain tyrosine kinases lacking high resolution structures. The insights on protein size, shape and flexibility in solution measured by SAXS will allow us to uncover structural conformations that participate in kinase autoinhibition and activation.</p><p>The current measurement included wild-type constructs, proteins containing pointmutations identified in patients, and complexes of kinase with engineered proteins targeting specific domains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental set up</head><p>Proteins were measured using batch and/or SEC-SAXS modes at concentration range from 0.5-20mg/mL in buffer containing 150mM NaCl, 20mM Tris pH7.5 and 5% glycerol. The data were recorded at BM29 at 10˚C over a q range of 0.025-5 nm -1 and beam wavelength of 0.9919 Å.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Protein samples flowed through a capillary in a rate of 10µL/s, and 10 individual frames collected and averaged to generate a final scattering profile.</p><p>For the SEC-SAXS mode, samples containing protein at high concentrations (&gt;10mg/mL) were subjected to a gel filtration in S200 10/300 column (GE Healthcare) using the standard buffer described above. The column flow was about 0.7mL/min and 2100 frames were collected for each run (total of 1 frame per second).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preliminary results</head><p>Averaged scattering profile from buffer and samples were subtracted and analysed using ATSAS suite (EMBL). In general samples behaved well in the buffer as expected, with low aggregation amounts observed at low q angles when measuring higher concentrations of protein.</p><p>The different constructs and complexes measured provided a preliminary overview on the different conformations present in solution, from more compact to very elongated shapes (Fig. <ref type="figure" target="#fig_0">1</ref>). These data is being further treated for generation of ab initio envelopes for superimposition with available molecular models. Combination with previous measurements will allow to set a comparative analysis between proteins containing different domains to support our hypothesis on the participation of its domains to kinase regulation.</p><p>In addition, the SEC-SAXS mode generated acceptable signal for wild-type (Fig. <ref type="figure" target="#fig_1">2</ref>) and mutant proteins measured using this protocol. These samples were previously analysed using batch mode and remeasured in this experiment aiming to decrease structural factors that complicated previous conclusions. The analysis of SEC-SAXS data is ongoing.  References 1. Franke, D et al. ATSAS 2.8: a comprehensive data analysis suite for small-angle scattering from macromolecular solutions. J. Appl. Cryst. (2017) 50, 1212-1225.</p><p>0 2 4 -2 -1 0 1 2 3 s (nm -1 ) Log (I) relative SAXS data scattering Compact protein 0 4 8 12 16 20 0.0 0.2 0.4 0.6 0.8 r (nm) p(r) P(r) function Compact protein 0 2 4 6 8 √3 0 1 2 sR g Normalized Kratky (sR g ) ² *I(s)/I(0) Elongated protein Compact protein 0 4 8 12 16 20 0.0 0.2 0.4 0.6 0.8 1.0 r (nm) p(r) P(r) function Elongated protein 0 2 4 -2 -1 0 1 2 3 s (nm -1 ) Log (I) relative SAXS data scattering Elongated protein A B D C E</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 -</head><label>1</label><figDesc>Fig. 1 -Comparative example between elongated and compact proteins measured in batch mode. A and C: scattering profile. B and D: P(r) function. E: Normalized Kratky plot for both proteins.</figDesc><graphic coords="2,46.00,497.56,261.12,174.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 -</head><label>2</label><figDesc>Fig. 2 -Example of SEC-SAXS from the compact protein. Frames with constant Rg (in å) in the main peak are shown. These data is being further analysed.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

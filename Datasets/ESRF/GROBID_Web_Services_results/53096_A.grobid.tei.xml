@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental report 02-01 838_Water management operated at elevated temperature studied in-situ and operando by SAXS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Experimental report 02-01 838_Water management operated at elevated temperature studied in-situ and operando by SAXS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">03B9DEAEFE124CDB8EA4DCB2FCA8DCFE</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Reducing human related greenhouse effect is one of the challenges of our modern societies. In this context, efficient ways to convert energy from a non-carbon based fuel into electrical power is essential. Fuel cells represent on of the most promising technologies for automotive and small portable electronics applications. Because of their low operation temperature, high efficiency and moderate cost, Proton Exchange Membrane Fuel cells (PEMFC) are one of the most advanced and promising technologies. A central element of these devices is the ionomer membrane, which acts as a proton conductor while electrically insulating anode and cathode. This material should ideally have low resistance to protonic transfer, as well as excellent resistance to chemical and mechanical stress. Particularly, understanding the organization of this material at a nanometric scale and how it relates to macrosocopic characteristics are of upmost importance. In terms of durability and efficiency, two important aspects have to be understood: i) water distribution as a function of the operating conditions, and ii) aging of the cell, i.e. degradation of the ionomer material due to repeated operation cycles. Aspect i) is linked to efficiency since ionomer proton transport properties are dependent on hydration levels. Aspect ii) is related to fuel cell cost, since degradation ultimately results in membrane failure, which has then to be replaced by a new material. Thus, in-situ measurements of this material are required to design and produce more durable and efficient systems.</p><p>Operando characterization of water distribution in PEMFCs have been carried out with numerous techniques including NMR <ref type="bibr" target="#b5">[6]</ref>, confocal Raman microscopy <ref type="bibr" target="#b11">[12]</ref>, Small Angle Neutron Scattering (SANS) <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b12">13]</ref>, neutron <ref type="bibr" target="#b9">[10]</ref> and X-ray <ref type="bibr" target="#b19">[20]</ref> imaging. The global conclusion of these studies is that water distribution in a functioning fuel cell is highly heterogeneous, both in-plane and through-plane. This intrinsic heterogeneity of the functioning fuel cell induces an aging process which in turn is also heterogeneous <ref type="bibr" target="#b3">[4]</ref>. Although aging potentially impacts all the materials composing the fuel cell (current collecting plates <ref type="bibr" target="#b21">[22]</ref>, gas diffusion layers <ref type="bibr" target="#b17">[18]</ref>, catalyst layers <ref type="bibr" target="#b22">[23]</ref> or the ionomer membrane <ref type="bibr" target="#b10">[11]</ref>) can suffer from degradation, catastrophic failure of the cell is often a result of membrane failure <ref type="bibr" target="#b2">[3]</ref>. In-situ membrane degradation is a result of both chemical corrosion of the polymer, as well as introduction of cation pollutants in the ionic groups. These effects cause changes in the structural integrity of the polymer spanning lengthscales from around 10Å(average distance separating ionic domains) to a few 100Å(size of the polymer bundles). In this context, the large Q-range and high brilliance of SAXS beamlines allows to measure all of these effects in a single measurement, and is thus well adapted for in situ measurements, where structural evolutions can occur in timescales of over 1s <ref type="bibr" target="#b15">[16]</ref>. In this document, we report the first attempt at observing in-situ the effects of aging on the large scale organization of the polymer, and how this impacts the swelling properties of the membrane. Since MEA aging is heterogeneous, the membrane was probe at three different representative positions, with a specially designed cell (fig. <ref type="figure" target="#fig_5">6</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Fuel cells and experimental conditions</head><p>The single serpentine single cells were made of gold coated aluminum. For the X-ray experiment, the metallic gasket was drilled and replaced by x-ray transparent beryllium windows at 3 different representative positions (air inlet, middle, and air outlet), in front of the current collecting rib and the gas flow channel (Fig <ref type="figure" target="#fig_5">6a</ref>). This makes a total of 6 different positions that can be probed. In order to not overwhelm the membrane signal by the strongly scattering Gas Diffusion Layer (GDL) and Catalyst Layer (CL), the MEA was stripped of these components at the probed locations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Experimental conditions</head><p>The single serpentine cell was operated in counter-flow configuration, with H 2 as fuel and air as oxydant Different conditions have been investigated: 80 • C_1,5 bars_50 % HR, 90 • C_1,2 bars_68/46 % HR, 105 • C _1,2 bars_40/26 % HR, 90 • C_1,5 bars_70/70 % HR, 105 • C_1,85 bars_70/70 % HR.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">SAXS</head><p>SAXS data were collected on the D2AM/BM2 beamline at the ESRF (Grenoble, France). After radial integration and empty cell subtraction, scattering angles were converted to wavevector transfer Q by using a calibrated scattering pattern (BeAg standard). The ionomer peak and the small angle scattering upturn were determined by using the procedure of Maccarini et al.: the data was fitted with a sum of 2 gaussian functions (one for the ionomer peak and one for the matrix peak) and a background. The Q 0 value was extracted from the position of the gaussian corresponding to the ionomer peak. The small angle scattering upturn is determined by the intensity at a fixed Q-value of Q = 0.04 Å -1 . The MEA consisted of a Nafion XL membrane and two home-made gas diffusion electrodes made of Gas Diffusion Layer from SGL Sigracet 24BC with PtRu/C at the Anode and PtCo/C at the cathode. Two similar MEA have been studied in two different cells with exactly the same design. The first MEA have been characterised after break-in at 80 • C_1,5 bars_50 % HR for 16 hours. The second one has been aged at 90 • C_1,2 bars_68/46 % HR during roughly 700 hours after break-in, and then characterised by SAXS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">'Ex-situ' aging characterization</head><p>Quantification of aging effects on swelling properties of the membrane was carried out by measuring SAXS spectra for each MEA position at imposed relative humidity conditions. Spectra taken at a particular relative humidity value for aged and pristine membrane is shown in fig. <ref type="figure" target="#fig_1">2</ref>. While the pristine membrane is highly homogeneous, spectacular differences are observed for the aged sample, highlighting heterogeneous aging. This result is in accordance with previously published ex-situ data, where it was observed that the most significant effects of aging were observed at the air inlet <ref type="bibr" target="#b14">[15]</ref>. This is due to operating conditions (counter-flow gas delivery and high temperature), which create a water concentration gradient within the cell during operation <ref type="bibr" target="#b16">[17]</ref>. This causes the regions far from the air outlet to encounter greater amounts of liquid water, especially in front of the current collecting ribs <ref type="bibr" target="#b4">[5]</ref> causing a slow polymer backbone relaxation observed in kinetic experiments <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b0">1]</ref>. To quantify the effects of aging, we follow the approach taken in Maccarini et al. <ref type="bibr" target="#b14">[15]</ref>, which consists of extracting two parameters from the data in a 'model free approach'. The first parameter is the d-spacing, which is obtained from the position of the ionomer peak, is a marker of the microscopic swelling properties of the membrane at a small scale <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b20">21]</ref>). The second parameter is the intensity at low Q (ILQ) reflecting the large scale organization of the polymer. The values of these 2 parameters at different hydration levels (50,60,70,80,90,100 % relative humidity) are shown in figure <ref type="figure" target="#fig_2">3</ref>. Substantial differences are observed in the absolute value of these parameters which are shifted both in d-spacing and ILQ with the position, reflecting the heterogeneous nature of in-situ membrane aging. Interestingly, systematic discrepancies between ribs and channels are observed, and they increase when we get further away from the air inlet, being minimal near the air outlet. Indeed, it has been shown that i) liquid water tends to accumulate under the current collecting ribs <ref type="bibr" target="#b4">[5]</ref> and ii) the grtadient in water content in an operating cell goes from the air inlet (most hydrated) to the air outlet (less hydrated) <ref type="bibr" target="#b16">[17]</ref>. Hence these two parameters reflect the water distribution in the operating cell, meaning that water distribution could be a driving force in membrane degradation. We also observe a linear relationship between the value of the d-spacing and the intensity at low Q, showing that microscopic swelling impacts the long range organization of the polymer. Interestingly, at high humidity conditions, the d-spacing shows a dramatic increase at the air air inlet rib. This overswelling effect, which has been onserved ex-situ membranes aged in a stack <ref type="bibr" target="#b14">[15]</ref>, is substantially different than hygrothermal aging, which causes a slight decrease in microscopic swelling <ref type="bibr" target="#b1">[2]</ref> or cationic pollution, which tends to hinder swelling properties both microscopically <ref type="bibr" target="#b13">[14]</ref> and macroscopically <ref type="bibr" target="#b6">[7]</ref>. Quantification of the structural effects of aging in situ was evaluated by measuring both the d-spacing and ILQ as a function of the relative position without and with current (fig <ref type="figure" target="#fig_3">4</ref>). At OCV, since no current is drawn from the cell, these two parameters behave exactly like a situation where the membrane is equilibrated at an equivalent relative humidity: similarly to observation made in reference spectra, the pristine membrane is homogeneous, in contrast to it's aged counterpart which presents large heterogeneities, especially near the air inlet. We also observe a scaling of the ILQ with the d-spacing due to the effect of humidity on the polymer large scale organization, as described in the previous section. When current is drawn from the cell, the overall effect on ionomer hydration is minimal for both aged and pristine membranes, as the d-spacing does not dramatically change, although small differences are observed. Nevertheless, a slight shift towards higher values with current is observed in both cases, which is in agreement with measured in-situ SANS data <ref type="bibr" target="#b16">[17]</ref>. The small angle upturn, on the other hand, encounters spectacular changes in both cases. In the pristine membrane, we observe that current tends to segregate ribs from channels, as well as. Interestingly, it is much more marked for the small angle upturn, for both aged and pristine cases. Interestingly, the application of current does not drastically change the swelling properties of the membrane in the aged situation, which could mean that unlike the pristine case, swelling behavior is here driven by the history of the membrane, not the application of current. In contrast to the pristine case, The ILQ shows a very peculiar behavior: indeed, the scaling property with membrane hydration is broken, as we observe a discrepancy between since the ILQ values follow the opposite trend of the d-spacing, thus breaking the relationship between ILQ and d-spacing. This peculiar behavior is thus a signature of the effect of proton transport through an aged ionomer large scale organization. Since ILQ is dependent on the d-spacing (and in turn, to local hydration conditions <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b15">16]</ref>), it is difficult, to separate the effect of current on the large scale organization of the polymer from inplane hydration inhomogeneities. In order to overcome this issue, we further propose a normalized ILQ, which can be obtained by dividing the measured ILQ by a reference ILQ. This reference value can simply be obtained by transforming the measured d-spacing into an ILQ reference by exploiting the linear relationship between ILQ and d-spacing that is measured in the reference curves (fig. <ref type="figure" target="#fig_2">3</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">In-situ measurements</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Kinetics</head><p>We have been able to record the evolution of the ionomer peak position and small angle upturn during change in current with a time resolution of 5s (fig. <ref type="figure" target="#fig_4">5</ref>). We have shown that the membrane reacts within less than one minute. The water content increases in the membrane when current goes from 0 to 0.1 A/cm 2 . </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -Experimental principle: a) Photography of the SAXS designed cell, with a picture of the single serpentine gas flow channel in the middle. The colored rectangles highlight the probed zones. b)Example of reference SAXS spectra collected at 80% humidity, with the ionomer peak position Q 0 and small angle scattering upturn highlighted. Filled circles represent measurements made in front of the rib, while open circles were made in front of the channel. The curves are translated in the y-axis for illustration purposes.</figDesc><graphic coords="2,85.04,85.04,432.00,243.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 -</head><label>2</label><figDesc>Figure 2 -SAXS spectra for all three positions in front of a channel (open symbols) or in front of a rib (closed symbols) for a pristine (a) and an aged (b) membrane.Recorded at 90 • C_1,2 bars_68/46 % HR</figDesc><graphic coords="3,85.04,290.62,259.20,194.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 -</head><label>3</label><figDesc>Figure 3 -Intensity at low Q (ILQ) as a function of d-spacing. The filled circles rebresent current collecting ribs, the open symbols gas flow channels.</figDesc><graphic coords="4,85.04,85.04,288.00,216.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 -</head><label>4</label><figDesc>Figure 4 -d-spacing (blue triangles) and Intensity at low Q (red circles) at OCV (top), and 0.6 A/cm 2 (bottom) as a function of the position (0 being the air outlet, 1 the air inlet), for the pristine (left) and aged (right) membranes. Hollow symbols represent channels, full symbols ribs.</figDesc><graphic coords="4,85.04,423.03,540.00,216.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 -</head><label>5</label><figDesc>Figure 5 -Normalized ILQs</figDesc><graphic coords="5,85.04,372.46,546.91,194.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 -</head><label>6</label><figDesc>Figure 6 -Evolution of ionomer peak position and small angle scattering upturn during change in current from 0 to 0.1 A/cm 2</figDesc><graphic coords="6,85.04,85.04,648.00,216.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Effects of hydrothermal/thermal treatments on the water-uptake of Nafion membranes and relations with changes of conformation, counter-elastic force and tensile modulus of the matrix</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alberti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Narducci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sganappa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpowsour.2007.09.034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Power Sources</title>
+		<title level="j" type="abbrev">Journal of Power Sources</title>
+		<idno type="ISSN">0378-7753</idno>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="575" to="583" />
+			<date type="published" when="2008-04">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G Alberti, R Narducci, and M Sganappa. Effects of hydrothermal/thermal treatments on the water-uptake of nafion membranes and relations with changes of conformation, counter-elastic force and tensile modulus of the matrix. Journal of Power Sources, 178(2):575-583, 2008.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Structure and transport properties of solution-cast nafion R membranes subjected to hygrothermal aging</title>
+		<author>
+			<persName><forename type="first">Francette</forename><surname>Floraine M Collette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hakima</forename><surname>Thominette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gérard</forename><surname>Mendil-Jakani</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gebel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of membrane science</title>
+		<imprint>
+			<biblScope unit="volume">435</biblScope>
+			<biblScope unit="page" from="242" to="252" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Floraine M Collette, Francette Thominette, Hakima Mendil-Jakani, and Gérard Gebel. Struc- ture and transport properties of solution-cast nafion R membranes subjected to hygrothermal aging. Journal of membrane science, 435:242-252, 2013.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Understanding Membrane Failure in PEMFC: Comparison of Diagnostic Tools at Different Observation Scales</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Moor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Charvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Moukheiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Niepceron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Breilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rossinot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Claude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Albérola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Flandin</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/fuce.201100161</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fuel Cells</title>
+		<title level="j" type="abbrev">Fuel Cells</title>
+		<idno type="ISSN">1615-6846</idno>
+		<idno type="ISSNe">1615-6854</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="356" to="364" />
+			<date type="published" when="2012-03-14">2012</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G De Moor, C Bas, N Charvin, E Moukheiber, F Niepceron, N Breilly, J André, E Rossinot, E Claude, ND Albérola, et al. Understanding membrane failure in pemfc: comparison of diagnostic tools at different observation scales. Fuel Cells, 12(3):356-364, 2012.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A review of &lt;scp&gt;PEM&lt;/scp&gt; fuel cell durability: materials degradation, local heterogeneities of aging and possible mitigation strategies</title>
+		<author>
+			<persName><forename type="first">Laetitia</forename><surname>Dubau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luis</forename><surname>Castanheira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frédéric</forename><surname>Maillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marian</forename><surname>Chatenet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Lottin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gaël</forename><surname>Maranzana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jérôme</forename><surname>Dillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adrien</forename><surname>Lamibrac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean‐christophe</forename><surname>Perrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eddy</forename><surname>Moukheiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Assma</forename><surname>Elkaddouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gilles</forename><surname>De Moor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Corine</forename><surname>Bas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lionel</forename><surname>Flandin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Caqué</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/wene.113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">WIREs Energy and Environment</title>
+		<title level="j" type="abbrev">WIREs Energy &amp; Environment</title>
+		<idno type="ISSN">2041-8396</idno>
+		<idno type="ISSNe">2041-840X</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="540" to="560" />
+			<date type="published" when="2014-03-05">2014</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laetitia Dubau, Luis Castanheira, Frédéric Maillard, Marian Chatenet, Olivier Lottin, Gaël Maranzana, Jérôme Dillet, Adrien Lamibrac, Jean-Christophe Perrin, Eddy Moukheiber, et al. A review of pem fuel cell durability: materials degradation, local heterogeneities of aging and possible mitigation strategies. Wiley Interdisciplinary Reviews: Energy and Environment, 3(6):540-560, 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effects of cathode corrosion on through-plane water transport in proton exchange membrane fuel cells</title>
+		<author>
+			<persName><forename type="first">Dusan</forename><surname>Joseph D Fairweather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><forename type="middle">Z</forename><surname>Spernjak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Silvia</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">S</forename><surname>Wessel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">L</forename><surname>Hussey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kateryna</forename><surname>Jacobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rangachary</forename><surname>Artyushkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rodney</forename><forename type="middle">L</forename><surname>Mukundan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Borup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of The Electrochemical Society</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="980" to="F993" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joseph D Fairweather, Dusan Spernjak, Adam Z Weber, David Harvey, Silvia Wessel, Daniel S Hussey, David L Jacobson, Kateryna Artyushkova, Rangachary Mukundan, and Rodney L Borup. Effects of cathode corrosion on through-plane water transport in proton exchange membrane fuel cells. Journal of The Electrochemical Society, 160(9):F980-F993, 2013.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">In situ observations of water production and distribution in an operating h2/o2 pem fuel cell assembly using 1h nmr microscopy</title>
+		<author>
+			<persName><surname>Kirk W Feindel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P-A</forename><surname>Logan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dieter</forename><surname>Larocque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">H</forename><surname>Starke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roderick</forename><forename type="middle">E</forename><surname>Bergens</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wasylishen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">37</biblScope>
+			<biblScope unit="page" from="11436" to="11437" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kirk W Feindel, Logan P-A LaRocque, Dieter Starke, Steven H Bergens, and Roderick E Wasylishen. In situ observations of water production and distribution in an operating h2/o2 pem fuel cell assembly using 1h nmr microscopy. Journal of the American Chemical Society, 126(37):11436-11437, 2004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Structure and related properties of solution-cast perfluorosulfonated ionomer films</title>
+		<author>
+			<persName><forename type="first">Gerard</forename><surname>Gebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Aldebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Pineri</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma00172a049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1425" to="1428" />
+			<date type="published" when="1987-06">1987</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gerard Gebel, Pierre Aldebert, and Michel Pineri. Structure and related properties of solution- cast perfluorosulfonated ionomer films. Macromolecules, 20(6):1425-1428, 1987.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Water profile determination in a running PEMFC by small-angle neutron scattering</title>
+		<author>
+			<persName><forename type="first">Gérard</forename><surname>Gebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Diat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvie</forename><surname>Escribano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Renaut</forename><surname>Mosdale</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpowsour.2007.12.124</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Power Sources</title>
+		<title level="j" type="abbrev">Journal of Power Sources</title>
+		<idno type="ISSN">0378-7753</idno>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="132" to="139" />
+			<date type="published" when="2008-04">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gérard Gebel, Olivier Diat, Sylvie Escribano, and Renaut Mosdale. Water profile deter- mination in a running pemfc by small-angle neutron scattering. Journal of Power Sources, 179(1):132-139, 2008.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The kinetics of water sorption in Nafion membranes: a small-angle neutron scattering study</title>
+		<author>
+			<persName><forename type="first">Gérard</forename><surname>Gebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandrine</forename><surname>Lyonnard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hakima</forename><surname>Mendil-Jakani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arnaud</forename><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/23/23/234107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Condensed Matter</title>
+		<title level="j" type="abbrev">J. Phys.: Condens. Matter</title>
+		<idno type="ISSN">0953-8984</idno>
+		<idno type="ISSNe">1361-648X</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page">234107</biblScope>
+			<date type="published" when="2011-05-25">2011</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gérard Gebel, Sandrine Lyonnard, Hakima Mendil-Jakani, and Arnaud Morin. The kinetics of water sorption in nafion membranes: a small-angle neutron scattering study. Journal of Physics: Condensed Matter, 23(23):234107, 2011.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">In Situ Investigation of Two‐Phase Flow Patterns in Flow Fields of PEFC’s Using Neutron Radiography</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Geiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsukada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vontobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wokaun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Scherer</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/fuce.200290007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fuel Cells</title>
+		<title level="j" type="abbrev">Fuel Cells</title>
+		<idno type="ISSN">1615-6846</idno>
+		<idno type="ISSNe">1615-6854</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="92" to="98" />
+			<date type="published" when="2002-12">2002</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">AB Geiger, A Tsukada, E Lehmann, P Vontobel, A Wokaun, and GG Scherer. In situ investi- gation of two-phase flow patterns in flow fields of pefcs using neutron radiography. Fuel Cells, 2(2):92-98, 2002.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Aspects of the Chemical Degradation of PFSA Ionomers used in PEM Fuel Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Healy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hayden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Waldo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brundage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gasteiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Abbott</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/fuce.200400050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fuel Cells</title>
+		<title level="j" type="abbrev">Fuel Cells</title>
+		<idno type="ISSN">1615-6846</idno>
+		<idno type="ISSNe">1615-6854</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="302" to="308" />
+			<date type="published" when="2005-04">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J Healy, C Hayden, T Xie, K Olson, R Waldo, M Brundage, H Gasteiger, and J Abbott. Aspects of the chemical degradation of pfsa ionomers used in pem fuel cells. Fuel cells, 5(2):302-308, 2005.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">In situ analysis of water management in operating fuel cells by confocal Raman spectroscopy</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Huguet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deabate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Sutor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.elecom.2011.02.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochemistry Communications</title>
+		<title level="j" type="abbrev">Electrochemistry Communications</title>
+		<idno type="ISSN">1388-2481</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="418" to="422" />
+			<date type="published" when="2011-05">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P Huguet, A Morin, G Gebel, S Deabate, AK Sutor, and Z Peng. In situ analysis of water management in operating fuel cells by confocal raman spectroscopy. Electrochemistry Com- munications, 13(5):418-422, 2011.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A combined method of small-angle neutron scattering and neutron radiography to visualize water in an operating fuel cell over a wide length scale from nano to millimeter</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Iwase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Iikura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matsubayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Maekawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2009.01.165</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">605</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="95" to="98" />
+			<date type="published" when="2009-06">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H Iwase, S Koizumi, H Iikura, M Matsubayashi, D Yamaguchi, Y Maekawa, and T Hashimoto. A combined method of small-angle neutron scattering and neutron radiography to visualize water in an operating fuel cell over a wide length scale from nano to millimeter. Nuclear In- struments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, 605(1):95-98, 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Small-Angle Scattering Study of Perfluorosulfonated Ionomer Solutions</title>
+		<author>
+			<persName><forename type="first">Benoit</forename><surname>Loppinet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gérard</forename><surname>Gebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudine</forename><forename type="middle">E</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp9623047</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<title level="j" type="abbrev">J. Phys. Chem. B</title>
+		<idno type="ISSN">1520-6106</idno>
+		<idno type="ISSNe">1520-5207</idno>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1884" to="1892" />
+			<date type="published" when="1997-03-01">1997</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benoit Loppinet, Gérard Gebel, and Claudine E Williams. Small-angle scattering study of perfluorosulfonated ionomer solutions. The Journal of Physical Chemistry B, 101(10):1884- 1892, 1997.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Submicrometer 3D Structural Evidence of Fuel Cell Membrane Heterogeneous Degradation</title>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Maccarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandrine</forename><surname>Lyonnard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arnaud</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">Francois</forename><surname>Blachot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emanuela</forename><surname>Di Cola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Govind</forename><surname>Prajapati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gérard</forename><surname>Gebel</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/mz500179z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Macro Letters</title>
+		<title level="j" type="abbrev">ACS Macro Lett.</title>
+		<idno type="ISSN">2161-1653</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="778" to="783" />
+			<date type="published" when="2014-07-24">2014</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marco Maccarini, Sandrine Lyonnard, Arnaud Morin, Jean Francois Blachot, Emanuela Di Cola, Govind Prajapati, Michael Reynolds, and Gérard Gebel. Submicrometer 3d structural evidence of fuel cell membrane heterogeneous degradation. ACS Macro Letters, 3(8):778-783, 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Real time monitoring of water distribution in an operando fuel cell during transient states</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Porcar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lyonnard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpowsour.2017.08.067</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Power Sources</title>
+		<title level="j" type="abbrev">Journal of Power Sources</title>
+		<idno type="ISSN">0378-7753</idno>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page" from="230" to="234" />
+			<date type="published" when="2017-10">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N Martinez, Z Peng, A Morin, L Porcar, G Gebel, and S Lyonnard. Real time monitoring of water distribution in an operando fuel cell during transient states. Journal of Power Sources, 365:230-234, 2017.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Quantitative Multi-Scale Operando Diagnosis of Water Localization inside a Fuel Cell</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Porcar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guillermo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lyonnard</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/2.1401614jes</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of The Electrochemical Society</title>
+		<title level="j" type="abbrev">J. Electrochem. Soc.</title>
+		<idno type="ISSN">0013-4651</idno>
+		<idno type="ISSNe">1945-7111</idno>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="F9" to="F21" />
+			<date type="published" when="2017">2017</date>
+			<publisher>The Electrochemical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A Morin, G Gebel, L Porcar, Z Peng, N Martinez, A Guillermo, and S Lyonnard. Quanti- tative multi-scale operando diagnosis of water localization inside a fuel cell. Journal of The Electrochemical Society, 164(2):F9-F21, 2017.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A reverse-current decay mechanism for fuel cells</title>
+		<author>
+			<persName><forename type="first">Lawrence</forename><surname>Carl A Reiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">W</forename><surname>Bregoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J Deliang</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mike</forename><forename type="middle">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">D</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jarvi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochemical and Solid-State Letters</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="273" to="A276" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carl A Reiser, Lawrence Bregoli, Timothy W Patterson, S Yi Jung, J Deliang Yang, Mike L Perry, and Thomas D Jarvi. A reverse-current decay mechanism for fuel cells. Electrochemical and Solid-State Letters, 8(6):A273-A276, 2005.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Evidence of Elongated Polymeric Aggregates in Nafion</title>
+		<author>
+			<persName><forename type="first">Laurent</forename><surname>Rubatat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><forename type="middle">Laure</forename><surname>Rollet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gérard</forename><surname>Gebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Diat</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ma011578b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecules</title>
+		<title level="j" type="abbrev">Macromolecules</title>
+		<idno type="ISSN">0024-9297</idno>
+		<idno type="ISSNe">1520-5835</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4050" to="4055" />
+			<date type="published" when="2002-04-09">2002</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laurent Rubatat, Anne Laure Rollet, Gérard Gebel, and Olivier Diat. Evidence of elongated polymeric aggregates in nafion. Macromolecules, 35(10):4050-4055, 2002.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">In-situ visualization of liquid water in an operating PEMFC by soft X-ray radiography</title>
+		<author>
+			<persName><forename type="first">Takashi</forename><surname>Sasabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shohji</forename><surname>Tsushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shuichiro</forename><surname>Hirai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhydene.2010.06.050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Hydrogen Energy</title>
+		<title level="j" type="abbrev">International Journal of Hydrogen Energy</title>
+		<idno type="ISSN">0360-3199</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="11119" to="11128" />
+			<date type="published" when="2010-10">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Takashi Sasabe, Shohji Tsushima, and Shuichiro Hirai. In-situ visualization of liquid water in an operating pemfc by soft x-ray radiography. International Journal of Hydrogen Energy, 35(20):11119-11128, 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Parallel cylindrical water nanochannels in Nafion fuel-cell membranes</title>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Schmidt-Rohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qiang</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat2074</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="75" to="83" />
+			<date type="published" when="2008">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klaus Schmidt-Rohr and Qiang Chen. Parallel cylindrical water nanochannels in nafion fuel- cell membranes. Nature materials, 7(1):75-83, 2008.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Metal bipolar plates for PEM fuel cell—A review</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tawfik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mahajan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpowsour.2006.09.088</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Power Sources</title>
+		<title level="j" type="abbrev">Journal of Power Sources</title>
+		<idno type="ISSN">0378-7753</idno>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="755" to="767" />
+			<date type="published" when="2007-01">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H Tawfik, Y Hung, and D Mahajan. Metal bipolar plates for pem fuel cell-a review. Journal of Power Sources, 163(2):755-767, 2007.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A review of platinum-based catalyst layer degradation in proton exchange membrane fuel cells</title>
+		<author>
+			<persName><forename type="first">Shengsheng</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiao-Zi</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><forename type="middle">Ng Cheng</forename><surname>Hin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haijiang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Andreas</forename><surname>Friedrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathias</forename><surname>Schulze</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpowsour.2009.06.073</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Power Sources</title>
+		<title level="j" type="abbrev">Journal of Power Sources</title>
+		<idno type="ISSN">0378-7753</idno>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="588" to="600" />
+			<date type="published" when="2009-12">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shengsheng Zhang, Xiao-Zi Yuan, Jason Ng Cheng Hin, Haijiang Wang, K Andreas Friedrich, and Mathias Schulze. A review of platinum-based catalyst layer degradation in proton ex- change membrane fuel cells. Journal of Power Sources, 194(2):588-600, 2009.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

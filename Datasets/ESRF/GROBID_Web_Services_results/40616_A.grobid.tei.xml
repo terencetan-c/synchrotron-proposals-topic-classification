@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure determination of porcine adenovirus fibre, of the N-terminal part of the bacteriophage T4 short tail fibre and of gramicidin S analogues</title>
+				<funder>
+					<orgName type="full">European Commision</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Spanish Ministry of Science and Innovation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Xunta de Galicia</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Olivia</forename><surname>Sleator</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Santiago de Compostela) *Sergio Galan-Bartual (University of Santiago de Compostela) *Antonio L. Llamas-Saiz (University of Santiago de Compostela) José M. Otero-Casas (University of Santiago de Compostela</orgName>
+								<orgName type="institution" key="instit2">Instituto de Biologia Molecular de Barcelona-CSIC</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pablo</forename><surname>Guardado-Calvo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Santiago de Compostela) *Sergio Galan-Bartual (University of Santiago de Compostela) *Antonio L. Llamas-Saiz (University of Santiago de Compostela) José M. Otero-Casas (University of Santiago de Compostela</orgName>
+								<orgName type="institution" key="instit2">Instituto de Biologia Molecular de Barcelona-CSIC</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>ESRF, BM16</roleName><forename type="first">Gavin</forename><forename type="middle">C</forename><surname>Fox</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Santiago de Compostela) *Sergio Galan-Bartual (University of Santiago de Compostela) *Antonio L. Llamas-Saiz (University of Santiago de Compostela) José M. Otero-Casas (University of Santiago de Compostela</orgName>
+								<orgName type="institution" key="instit2">Instituto de Biologia Molecular de Barcelona-CSIC</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><forename type="middle">J</forename><surname>Van Raaij</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Santiago de Compostela) *Sergio Galan-Bartual (University of Santiago de Compostela) *Antonio L. Llamas-Saiz (University of Santiago de Compostela) José M. Otero-Casas (University of Santiago de Compostela</orgName>
+								<orgName type="institution" key="instit2">Instituto de Biologia Molecular de Barcelona-CSIC</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structure determination of porcine adenovirus fibre, of the N-terminal part of the bacteriophage T4 short tail fibre and of gramicidin S analogues</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3E796ECBADEB3545F893B6C65EEA0BB7</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Porcine adenovirus type 4 has a fibre with a novel primary structure <ref type="bibr" target="#b0">[1]</ref>. The protein contains 703 amino acids with a tail domain comparable in size and sequence to most adenovirus fibres, a short shaft region, a head region and a C-terminal sequence. The C-terminal sequence contains an RGD motif, found in the penton protein of other adenoviruses. Furthermore, the C-terminal sequence has significant homology to galectin proteins, a characteristic not shared with other adenovirus fibres. We have obtained the fibre cDNA from our collaborator Joel Glasgow at the Gene Therapy Center of the University of Alabama at Birmingham (USA) and have been able to bacterially express, purify and crystallise several of these domains (see below).</p><p>Gramicidins are non-ribosomally synthesized peptides. Gramicidin S, produced by Bacillus brevis, is a cationic cyclic deca-peptide antibiotic with twofold symmetry: cyclo-[Val-Orn-Leu-DPhe-Pro]2. It has antimicrobial activity against bacteria and fungi. Our collaborators Mark Overhand from Leiden University (NL) and Anabel Jimenez (Instituto de Ciencia de Materiales de Aragon, Zaragoza, ES) have synthesised various analogues in order to study the influence of beta-turn residues on the peptide structure and antibiotic activity. The native form and several analogues have already been crystallised and their structures solved <ref type="bibr">[2, 3, 4, 5, 6, unpublished results</ref>]. In the crystals, gramicidin S analogue molecules often line up to form channels with hydrophobic exteriors and hydrophilic interiors, indicating gramicidin S may function as a membrane channel. We have crystallised several more analogues (see table below), some with interesting biological activities.</p><p>Thermus thermophilus strain HB8 has an enoyl reductase for which the crystal structure is available (1ULU.pdb), however at limited resolution and no publication describing the structure is available. Furthermore, we are interested in obtaining structures of the protein with different ligands.</p><p>The shikimic acid pathway is essential to many pathogens but absent in mammals. Enzymes in its pathway are therefore appropriate targets for the development of novel antibiotics. Dehydroquinase (3-dehydroquinate dehydratase, EC 4.2.1.10) is the third enzyme of the pathway, catalyzing the reversible dehydratation of 3dehydroquinic acid to form 3-dehydroshikimic acid. Our collaborators at the Dpt of Organic Chemistry of the University of Santiago de Compostela have synthesised inhibitors with high affinity for Helicobacter pylori type II dehydroquinase and efficient inhibition characteristics. We have co-crystallised the protein with the inhibitors. The structures should shed light on the inhibition mechanism aid in design of improved antibiotics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results obtained</head><p>We have estimated the diffraction limit and/or measured native data from all the flash-frozen crystals shown in the table below; where multiple crystals were measured for the same protein or peptide only the best results or dataset are shown.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystal</head><p>Resolution Rmerge Completeness Multiplicity Structure solution PAd4 fibre galectin domains 1.9 Å 0.075 0.961 4.1 solved by MR, refined to R = 0.205 (Rfree = 0.250) GramS analogues GSB 1.1 Å ---twinned GSFI 1.0 Å ---does not index GSN1 1.1 Å ---does not index GSN2 1.1 Å 0.157 0.983 4.3 -GSOi 1.1 Å ---twinned GSTi 1.5 Å 0.029 0.963 4.0 -MKc63 1.15 Å 0.051 0.767 6.6 -MKc64 1.5 Å 0.112 0.897 11.8 -MKc88 1.2 Å ---too radiation sensitive MKc93 up to ~2 Å ---twinned/split Mkd16 1.1 Å 0.048 0.955 2.7 -MKd24 1.7 Å 0.045 0.988 7.3 -VK7-2 1.0 A 0.039 0.861 2.3 -VK7-37 1.0 Å 0.059 0.890 2.5 solved by direct methods, under refinement VK8-13 1.0 Å 0.058 0.880 3.0 solved by direct methods, under refinement VK8-58 1.5 Å 0.342 0.903 2.1 does not index MN2 1.0 Å 0.060 0.793 5.2 solved by direct methods, under refinement Th. thermophilus enoyl reductase InhA 1.5 Å 0.062 0.964 2.9 solved by MR, current R = 0.169 (Rfree = 0.206) InhA-NAD 1.6 Å 0.061 0.982 3.6 solved by MR, current R = 0.197 (Rfree = 0.213) H. pylori DHQ with inhibitors DHQ ~2.5 Å ---not processed yet DHQ-CB1 up to ~5 Å ----DHQ-CB2 2.95 Å 0.103 0.999 6.5 solved by MR, current R = 0.206 (Rfree = 0.274) DHQ-CB3 ~3.0 Å ---twinned/split Porcine adenovirus type 4 fibre</p><p>For the two-galectin domain construct of the porcine adenovirus type 4, it was possible to solve and refine its structure by molecular replacement using the human galectin 3 structure (35 and 36% sequence identity, resp.) as a search model <ref type="bibr" target="#b6">[7]</ref>. The asymmetric unit is composed of four independent molecules related by pseudo-translational symmetry. Several cycles of manual building and refinement were performed until a model was obtained in which almost all the residues are present and both the refinement statistics as well as the geometry of the model were considered acceptable.</p><p>The structure reveals two carbohydrate recognition domains connected by a linker peptide. Each carbohydrate recognition domain is folded in a classical beta-sandwich composed of two beta-sheets of five and six beta-strands arranged in a jelly roll motif. Both carbohydrate recognition domains are interacting with each other via a new dimerisation surface that positions them face to face. This arrangement can explain the multivalent binding mode present in some tandem-repeat galectins. It has been possible to model a glycerol molecule in the sugar-binding site of C-terminal carbohydrate recognition domain. This finding suggests that at least the sugar-binding pocket of C-terminal carbohydrate recognition domain is active. It has been possible to model the linker peptide that joins both carbohydrate recognition domains. The linker peptide present in tandem repeat galectins is of variable length and often is rich in prolines. It has a structural function joining and orienting both carbohydrate recognition domains; in galectin-8 it has been shown to have a critical biological role. Finally, a short C-terminal tail is observed, its function is not clear.</p><p>To sum up, the structure of porcine adenovirus type 4 galectin domain is the first tandem-repeat galectin that has been solved. It reveals a new dimerisation surface that can be common to other tandem-repeat galectins as well as the structure of the linker peptide. This structural informaction can help us to understand the interaction of porcine adenovirus type 4 with its receptor as well as the sugar recognition mechanism that tandem repeat galectins use. A paper describing this structure is in preparation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GramicidinS analogues</head><p>Atomic resolution data of some of the gramicidin S peptides was obtained, and three structures were solved by direct methods, those of analogues MN2, VK8-13 and VK7-37. Analogue MN2 crystallised in space group P2 1 2 1 2 1 , with a cell of 17.5 x 20.9 x 49.0 Å and two independent molecules in the asymmetric unit. The monomers have the expected two-stranded beta-sheet structure, with rather large twists. In the crystals, the molecules line up laterally into stacks with a hydrophobic and hydrophilic side.</p><p>Analogue VK8-13 crystallised in space group P2 1 2 1 2 1 , with a cell of 19.2 x 24.7 x 32.1 Å and two independent molecules in the asymmetric unit. The monomers have the expected two-stranded beta-sheet structure, with rather large twists. In the crystals, the two independent molecules from dimers via 4 hydrogen bonds with a hydrophobic and a hydrophilic side.</p><p>Analogue VK7-37 crystallised in space group P6 5 , with a cell of 28.8 x 28.8 x 34.9 Å and two independent molecules in the asymmetric unit. The monomers have the expected two-stranded beta-sheet structure, with rather large twists. In the crystals, the molecules from helical channels with a hydrophobic exterior and hydrophilic inside (interior diameter over 15 Å). It will now be interesting to relate the structures to the biological activities of the molecules.</p><p>The other gramicidin S analogues either did not diffract to high enough resolution, or have resisted structure solution by direct methods up to now, in many cases because of a high number of independent molecules in the asymmetric unit. Molecular replacement attemps have been performed without success until now. We will continue attempts at structure solution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>T4 short tail fibre -fibritin foldon fusions</head><p>No suitable crystals were available when preparing for the synchrotron visit, so no measurements were performed. However, we did obtain and measure crystals for two other projects, as described below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermus thermophilus strain HB8 enoyl reductase</head><p>A crystal of enoyl ACP reductase diffracted to 1.5 Å and a complete set of data was collected to that resolution. Molecular replacement with PDB entry 1ULU (unpublished) allowed us to improve on its resolution (2.0 Å). A crystal soaked in a NAD+ yielded the structure of the NAD-InhA complex at 1.6 Å resolution. The space groups of these two systems were P2 1 with cells of 54.3 x 107.8 x 86.0 Å and 54.5 x 107.8 x 86.3 Å, respectively, and two independent molecules in the asymmetric units. These results have allowed us a higher resolution view of the conformational changes induced by NAD-binding. We aim to extend these studies to further ligands.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Helicobacter pylori Type II dehydroquinase with inhibitors</head><p>Data of native dehydroquinase (DHQ), dehydroquinase grown in the presence of inhibitor CB2 and CB3 was collected. Crystals grown in presence of inhibitor CB1 were found not to diffract sufficiently well to warrant data collection. Data of native DHQ extended to around 2.5 Å, but as the structure in the database (PDB entry 1J2Y) is at about the same resolution (2.6 Å), they were not processed further yet. Data from crystals grown in the presence of CB3 were twinned and we were not able to integrate them satisfactorily.</p><p>Data from crystals grown in the presence of CB2 extended to just better than 3 Å. CB2 also has the most favourable inhibition properties of the three molecules tested. The structure of the DHQ-CB2 complex was solved by molecular replacement. A loop containing several residues important for catalysis was found to be rearranged in the inhibitor complex and clear density for the inhibitor molecule was observed. The aromatic functional group of the inhibitor interacts with the catalytic tyrosine-22 by pi-stacking, expelling the arginine-17 side-chain, which is essential for catalysis, from the active site. The structure therefore explains the favorable properties of the inhibitor and will aid in designing further improved inhibitors. Refinement is in its final stages and a joint manuscript describing the synthesis, inhibition characteristics and structure of the complex is under preparation.</p></div>		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by grants from the <rs type="funder">European Commision</rs>, the <rs type="funder">Spanish Ministry of Science and Innovation</rs> and the <rs type="funder">Xunta de Galicia</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sequence analysis of the fiber genomic region of a porcine adenovirus predicts a novel fiber protein</title>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">B</forename><surname>Kleiboeker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0168-1702(95)00079-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Virus Research</title>
+		<title level="j" type="abbrev">Virus Research</title>
+		<idno type="ISSN">0168-1702</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="299" to="309" />
+			<date type="published" when="1995-12">1995</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kleiboeker SB (1995) Virus Res 39, 299.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The crystal structure of a hydrated gramicidin S–urea complex</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Hull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Karlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Main</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Woolfson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Dodson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/275206a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="issue">5677</biblScope>
+			<biblScope unit="page" from="206" to="207" />
+			<date type="published" when="1978-09">1978</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hull SE, Karlsson R, Main P, Woolfson MM, Dodson EJ (1978) Nature 275, 206.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Channels in the Gramicidin S-with-Urea Structure and their Possible Relation to Transmembrane Ion Transport</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Tishchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Andrianov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Vainstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Woolfson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Dodson</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444995000916</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="151" to="159" />
+			<date type="published" when="1997-03-01">1997</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tishchenko GN, Adrianov VI, Vainstein BK, Woolfson MM, Dodson EJ (1997) Acta Cryst D53, 151.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Double-stranded helical twisted β-sheet channels in crystals of gramicidin S grown in the presence of trifluoroacetic and hydrochloric acids</title>
+		<author>
+			<persName><forename type="first">Antonio</forename><forename type="middle">L</forename><surname>Llamas-Saiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gijsbert</forename><forename type="middle">M</forename><surname>Grotenbreg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Overhand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">J</forename><surname>Van Raaij</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444906056435</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="401" to="407" />
+			<date type="published" when="2007-02-21">2007</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Llamas-Saiz AL, Grotenbreg GM, Overhand M, van Raaij MJ (2007) Acta Cryst D63, 401.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">An Unusual Reverse Turn Structure Adopted by a Furanoid Sugar Amino Acid Incorporated in Gramicidin S</title>
+		<author>
+			<persName><forename type="first">Gijsbert</forename><forename type="middle">M</forename><surname>Grotenbreg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mattie</forename><forename type="middle">S M</forename><surname>Timmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><forename type="middle">L</forename><surname>Llamas-Saiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martijn</forename><surname>Verdoes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gijsbert</forename><forename type="middle">A</forename><surname>Van Der Marel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">J</forename><surname>Van Raaij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Herman</forename><forename type="middle">S</forename><surname>Overkleeft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Overhand</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja0397254</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3444" to="3446" />
+			<date type="published" when="2004-02-25">2004</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grotenbreg GM, Llamas-Saiz AL, van Raaij MJ, Overhand M et al. (2004) J Am Chem Soc 126, 3444.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">β-Turn Modified Gramicidin S Analogues Containing Arylated Sugar Amino Acids Display Antimicrobial and Hemolytic Activity Comparable to the Natural Product</title>
+		<author>
+			<persName><forename type="first">Gijsbert</forename><forename type="middle">M</forename><surname>Grotenbreg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annelies</forename><forename type="middle">E M</forename><surname>Buizert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><forename type="middle">L</forename><surname>Llamas-Saiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emile</forename><surname>Spalburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">A V</forename><surname>Van Hooft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><forename type="middle">J</forename><surname>De Neeling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daan</forename><surname>Noort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">J</forename><surname>Van Raaij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gijsbert</forename><forename type="middle">A</forename><surname>Van Der Marel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Herman</forename><forename type="middle">S</forename><surname>Overkleeft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Overhand</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja0588510</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="7559" to="7565" />
+			<date type="published" when="2006-05-17">2006</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grotenbreg GM, Llamas-Saiz AL, van Raaij MJ, Overhand M et al. (2006) J Am Chem Soc 128, 7559.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">High Resolution X-Ray Structure of Human Galectin-3 in complex with LacNAc</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sorme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arnoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kahl-Knutsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Leffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">J</forename><surname>Nilsson</surname></persName>
+		</author>
+		<idno type="DOI">10.2210/pdb1kjl/pdb</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page">1737</biblScope>
+			<date type="published" when="2005">2005</date>
+			<publisher>Worldwide Protein Data Bank</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sorme P, Arnoux P, Kahl-Knutsson B, Leffler H, Rini JM, Nilsson UJ (2005) J Am Chem Soc 127, 1737.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Application of synchrotron X-ray imaging to the study of elastic strain energy effects on dendrite arm detachment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Tamzin</forename><surname>Lafford</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nguyen-Thi</forename><surname>Henri</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Reinhart</forename><surname>Guillaume</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mangelinck-Noël</forename><surname>Nathalie</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tandjaoui</forename><surname>Amina</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lafford</forename><surname>Tamzin</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">IM2NP UMR CNRS 6242</orgName>
+								<orgName type="institution">SCHENK Thomas*, LPM</orgName>
+								<address>
+									<addrLine>Campus Saint-Jérôme Case 142</addrLine>
+									<postCode>13397</postCode>
+									<settlement>Marseille Cedex 20</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Ecole des Mines de Nancy</orgName>
+								<address>
+									<addrLine>Parc de Saurupt</addrLine>
+									<postCode>54042</postCode>
+									<settlement>Nancy cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">VIE Charlotte</orgName>
+								<orgName type="institution" key="instit1">AVESON John*</orgName>
+								<orgName type="institution" key="instit2">STONE Howard*</orgName>
+								<orgName type="institution" key="instit3">University of Cambridge</orgName>
+								<address>
+									<country>Great-Britain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Application of synchrotron X-ray imaging to the study of elastic strain energy effects on dendrite arm detachment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">59A8D45CBAD8E029C03F4AAD4D0D5088</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Figure 1. The asymmetric detachment of a liquid film between a pair of solid networks. The top row of images shows the direct images, and the bottom row shows the advantage of image subtraction in highlighting microstructural features.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The experiment was carried out using the apparatus and protocol well established by the IM2NP team. This experiment aimed to focus on buoyancy effects on the solidification of aluminium-based alloy (see report 1004). Furthermore, solidification cracking was observed, and close investigation gave detailed information on the mechanisms of crack initiation and propagation. In processing the subsequent data we have explored further the use of image subtraction to highlight microstructural changing during the experiment, and have begun to explore the use of image correlation tools.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Hot tearing under natural cooling down</head><p>The Al-Sn system is well suited to studies of hot tearing owing to its wide freezing range. In particular, an alloy of composition Al-15wt%Sn was observed to undergo hot tearing during natural cooling. Most notably, we observed two distinct mechanisms: asymmetric and symmetric propagation. Local detachments of the liquid film between agglomerated solid networks initiate the cracks. Detachment starts from one side first before the liquid is extracted through capillary driven flow. At triple junctions, we observed crack extension by symmetric propagation where both sides detached at once. This work has been combined with post mortem electron microscopy to correlate features already observed in hot tear fractography. A final manuscript has been prepared for submission to Acta Materialia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Dendrite fragmentation</head><p>One of the main goals of the experiment was to identify the underlying cause of dendrite fragmentation and assess any effects of elastic strain on thermodynamic equilibrium. Many fragmentation events were observed. The most amenable to further analysis were treated using a simple image correlation based approach. The data was analysed for any perceptible motion prior to fragmentation, with comparison made to dendrite arms that did not fragment. Discussions with image processing experts have helped identify a more robust strategy for performing the correlation and this will be implemented in order to improve the reliability of the algorithm.</p><p>No distinction was observed between the perceived motions of the dendrites for all dendrites analysed. However, it was noted that many of the fragmentation events took place at microstructural features that may have been prior tip-split instabilities. Further investigation is ongoing to examine the nature of the tip-split instability and if indeed it does have an effect on fragmentation behaviour. This research led to a master's project which attracted the highest grade available and we intend to publish after further analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Perspectives</head><p>Due to technical issues, it was not possible to perform observations using topography imaging in order to obtain information on stress and strain in the dendritic structure, as initially planned in the submitted proposal. Further experiments combining radiography and topography techniques would provide valuable information and will be considered in a future proposal. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Detachment of a dendrite from a dendritic network -note the doublet like instability at the point which goes on to provide the fragmentation point.</figDesc><graphic coords="2,121.62,336.72,356.16,287.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="1,121.68,587.34,355.68,184.08" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>from: 03/11/2010 to: 08/11/2010</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

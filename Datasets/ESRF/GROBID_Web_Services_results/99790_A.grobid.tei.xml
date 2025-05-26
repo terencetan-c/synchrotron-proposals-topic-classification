@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-09-01">01/09/2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Matteo</forename><surname>Levantino</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Umeå University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fredrik</forename><surname>Orädd</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Umeå University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Konstantinos</forename><surname>Magkakis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Umeå University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Irfan</forename><surname>Parabudiansyah</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Umeå University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Magnus</forename><surname>Andersson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Umeå University</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-09-01">01/09/2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3A84EFEA941AB5D21ECFD434215F82FC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>LS-3088</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>We have developed a time-resolved X-ray solution scattering (TR-XSS) approach at beamline ID09 to determine the structure and timing in ATP-dependent biological processes. The main focus is on P-type ATPase proteins that are found in biological membranes and execute active transport by means of ATP hydrolysis to transport (mostly) ions against a concentration gradient. These membrane protein transporters are critical to several important biological processes, such as the muscle contraction-relaxation cycle, cellular homeostasis of transition metals, and upholding membrane potential. The sarcoplasmic reticulum Ca 2+ ATPase (SERCA1a) governs muscle relaxation and is by far the best-characterized member of the P-type ATPase family with several crystallized intermediates <ref type="bibr" target="#b0">[1]</ref>. We have used the TR-XSS method to determine structural intermediate states of SERCA1a in solution <ref type="bibr">[2]</ref>. Having established a TR-XSS experimental design and MD simulationbased structural refinement protocol for P-type ATPase activation, we now seek to understand regulation of the transport reaction, which constitutes a new frontline in structural biology.</p><p>In the LS-3088 experiment, we characterized how SERCA1a transport is regulated by the concentration of the transported Ca 2+ ion. Above a critical limit of 0.1 mM Ca 2+ , the formation of the first intermediate state is slowed down and the main peak is shifted towards high-q, which indicates that the cytoplasmic soluble domains takes a more compact structure -while the rate-limiting state is independent of Ca 2+ concentration (Fig. <ref type="figure" target="#fig_0">1A</ref>,<ref type="figure">B</ref>). Structural refinement using our established MD protocol is ongoing. The results will be summarized in Manuscript 1.</p><p>We have earlier collected TR-XSS data of the SERCA2b isoform, which is an ubiquitous transporter that controls Ca 2+ levels in all tissues <ref type="bibr">[3]</ref>. The SERCA2b data showed considerably slower kinetics compared to the SERCA1a isoform, which is in agreement with a higher Ca 2+ affinity. It has been proposed that a unique C-terminal extension is responsible for this regulatory process (Fig. <ref type="figure" target="#fig_0">1C</ref>) -and indeed the basis spectrum indicated a different structure compared to SERCA1a. In the LS-3088 experiment, we characterized a mutant SERCA2b protein where this C-terminal extension had been deleted (collaboration Kenji Inaba, Tokohu University, Japan). The TR-XSS data of the mutant showed that while the rate-limiting states were more or less identical between the wild-type and mutant proteins, the mutant showed a very different early state that contained structural features reminiscent of later stages in the reaction cycle (Fig. <ref type="figure" target="#fig_0">1D</ref>). A preliminary interpretation is that deletion of the regulatory C-terminal extension leads to uncontrolled roaming of the enzyme through the reaction cycle. We have initiated structural refinement and will summarize the results in Manuscript 2.</p><p>To enable determination of regulatory mechanisms induced by lipid composition in the membrane, we have developed TR-XSS experiments on recombinant proteins inserted into nanodiscs -in which the lipid content can be controlled. In the LS-3088 experiment, we have now performed TR-XSS experiments on a bacterial Ca 2+ transporter (LMCA1) <ref type="bibr">[4]</ref> in POPG (found predominantly in the bacterial membrane) and POPC lipids (found in membranes associated with Ca 2+ transport in eukaryotes). While the kinetics developed similarly in POPG lipids to what we have observed so far in other systems, the suboptimal POPC lipids resulted in very different development of the transient intermediates (Fig. <ref type="figure" target="#fig_0">1D</ref>,<ref type="figure">E</ref>). We are now summarizing this first attempt at determining regulatory mechanisms induced by membrane-protein lipids in Manuscript 3 -and we will also propose to characterize several lipid compositions to better understand the coupling between lipid chemistry and protein function (see new proposal).</p><p>We also proposed to characterize internal regulation in Zn 2+ ATPases, but here the protein signal was obscured by what we determined to be a signal originating from a polymer-forming oxidative reaction caused by cysteine, which functions to deliver Zn 2+ to the protein. This is a challenge, and we are now exploring alternative ways of Zn 2+ delivery, such as e.g. by the native chaperone.</p><p>Finally, we have used TR-XSS to determine the level of cooperativity in the adenylate kinase reaction [5]. In the published data, the full reaction was not covered -so now we extended in 1 Hz mode also to collect the longer time delays (Fig. <ref type="figure" target="#fig_0">1F</ref>). While the structural interpretation is similar, the kinetic data differ and we now summarize our results in Manuscript 4, which will focus on TR-XSS method development. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Time-resolved development at low and high Ca 2+ concentration for the (A) first-forming SERCA1a intermediate and (B) the rate-limiting state. (C) Schematic of the SERCA2b structure with C-terminal extension (green). (D) TR-XSS basis spectra of SERCA1a, SERCA2b wild-type, and SERCA2b deletion mutant. Time-resolved intermediate populations of LMCA1 in (E) POPG and (F) POPC nanodiscs. (G) Adenylate kinase data merged over longer time delays in a bifurcated kinetic model.</figDesc><graphic coords="2,78.00,402.22,439.35,238.65" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Figure 3: Risk of bias summary (Abreu et al., 2017; Afshar et al., 2010; Ai, 2020; Bolasco et al., 2011; Cai et al., 2022; Chen, Zhao &amp; Huang, 2019; Dai &amp; Ma, 2021; Deng, 2011; Dong et al., 2011; Fakhrpour et al., 2020; Fang et al., 2023; Feng et al., 2020; Frih et al., 2017; Hristea et al., 2016; Jeong et al., 2019; Kozlowska et al., 2023; Leng, 2012; Li et al., 2008; Li &amp; Feng, 2020; Liao et al., 2016; Limwannata et al., 2021; Lu, 2022; Martin-Alemañy et al., 2020, 2016, 2022; Sezer et al., 2014; Shi et al., 2021; Su et al., 2022; Sun, Sun &amp; Yang, 2022a; Tabibi et al., 2023; Tan et al., 2015; Tayebi, Ramezani &amp; Kashef, 2018; Vijaya et al., 2019; Wang &amp; Liu, 2021; Wang, 2018; Wang et al., 2019; Wang, 2019; Wang et al., 2023; Wei, 2020; Wen et al., 2022; Wilund et al., 2010; Xu et al., 2022; Xu &amp; Fang, 2016; Yan, Zhao &amp; Peng, 2022; Yang et al., 2021; Yao et al., 2020; Yu &amp; Cao, 2018; Zeng et al., 2020; Zhou, 2020; Zhou et al., 2016; Zhu et al., 2020).</title>
+		<author>
+			<persName><surname>Bublitz</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.19053/fig-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="346" to="351" />
+			<date type="published" when="2010">2010. 2020. 2019. 2017. 2021</date>
+			<publisher>PeerJ</publisher>
+		</imprint>
+	</monogr>
+	<note>Science Advances. Cell reports Nature Science Advances. 7(47): eabi5514</note>
+	<note type="raw_reference">Bublitz et al., Curr. Opin. Struct. Biol. 20, 431-439 (2010) [2] Ravishankar et al., Science Advances. 6(12): eaaz0981 (2020) [3] Inoue et al., Cell reports, 27, 1221-1230 (2019) [4] Dyla et al., Nature 551(7680), 346- 351 (2017) [5] Orädd et al., Science Advances. 7(47): eabi5514 (2021)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

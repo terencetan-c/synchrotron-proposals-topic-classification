@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Elastic and plastic relaxation in core-shell nanowires</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Jiri</forename><surname>Novak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Inst. for Semiconductor and Solid State Physics</orgName>
+								<orgName type="institution">Johannes Kepler University</orgName>
+								<address>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">J</forename><surname>Stangl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Inst. for Semiconductor and Solid State Physics</orgName>
+								<orgName type="institution">Johannes Kepler University</orgName>
+								<address>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><forename type="first">Bernhard</forename><forename type="middle">G</forename><surname>Bauer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Inst. for Semiconductor and Solid State Physics</orgName>
+								<orgName type="institution">Johannes Kepler University</orgName>
+								<address>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Mandl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Inst. for Semiconductor and Solid State Physics</orgName>
+								<orgName type="institution">Johannes Kepler University</orgName>
+								<address>
+									<settlement>Linz</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Elastic and plastic relaxation in core-shell nanowires</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5E1D98B3921A685FFB668D26CC547127</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>In a continuation of experiment Si-1499, we have completed a systematical study of InAscore/InAsP-shell nanowire strutctures. The samples were grown by chemical vapor deposition at Lund University (Sweden) on Si(111) substrates <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>, using an allyl alcohol layer to obtain wire nucleation <ref type="bibr" target="#b1">[2]</ref>. Using arsine and trimethylindium as precursor gases, InAs wires are grown at a substrate temperatures around 550°C. These InAs cores have a nominal thickness of 100 nm and a length of about 2 µm. Subsequently, phosphine is added as precursor to cover the wires by a shell of InAsP: two sample series have been fabricated, one with pure InP shells wof different thicknesses, and a second one where the arsine/phophine ratio was varied to obtain shells with different InP content, and hence different mismatch between core and shell. For all samples, high resolution reciprocal space maps have been recorded both in coplanar diffraction geometry as well as in grazing incidence diffraction (GID) geometry. Hence the lattice parameters parallel and perpendicular to the growth plane have been determined to obtain the material composition from the unit cell strains. The main question addressed here is the strain state of the shell, and in particular whether the shell is grown pseudomorphically, or plastic relaxation plays already a role: the latter is expected to lead to a deterioration of optoelectronic properties due to incorporation of extended defects.</p><p>In contrast to a pseudomorphic 2D layer, the strain state of a pseudomorphic shell wrapped around a core with hexagonal shape is rather complicated. Furthermore, since the shell thickness and the core diameter are of the same order of magnitude at least for the thicker shells in the investigated samples, straining of the core has to be taken into account. For this reason simulations of the RSMs have been performed, starting from models of the wires and calculating their strain state using a finite element method (FEM) package. Kinematical scattering theory was used to simulate the corresponding RSMs: due to the small size and high aspect ratio, multiple scattering effects do not need to be taken into account in the simulations even in GID geometry.</p><p>Figure <ref type="figure" target="#fig_0">1</ref> shows as colormaps RSMs for several samples of the two series. The best simulations are overlaid as black contour lines. Obviously, while for low InP contents and thin shells a good match is obtained, for the thicker shells and/or the higher InP contents, no good correspondence is found between experiment and simulation. This indicates that in this case plastic relaxation is already important. From these data, the critical shell thickness and/or shell mismatch can be determined, and the growth process optimized accordingly: it is found that the growth rates of the shell differ significantly as compared to growth rates calibrated using 2D layer gorwth. Detailed data analysis currently under way shall also reveal whether alloying between core and shell is important in these samples.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig.1: Reciprocal space maps of two InAs-core/InAsP-shell wire sample series (colormaps) and best fitting simulations (black contour lines). Excellent correspondence to model calculation is found for thin shells and low InP contents, while otherwise no fitting simulation could be achieved, indicating that plastic relaxation sets in at the corresponding strain and thickness values.</figDesc><graphic coords="2,241.80,488.22,112.74,98.94" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Au-Free Epitaxial Growth of InAs Nanowires</title>
+		<author>
+			<persName><forename type="first">Bernhard</forename><surname>Mandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julian</forename><surname>Stangl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Mårtensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Mikkelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jessica</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lisa</forename><forename type="middle">S</forename><surname>Karlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G&amp;uuml;Nther</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lars</forename><surname>Samuelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Werner</forename><surname>Seifert</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nl060452v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nano Letters</title>
+		<title level="j" type="abbrev">Nano Lett.</title>
+		<idno type="ISSN">1530-6984</idno>
+		<idno type="ISSNe">1530-6992</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1817" to="1821" />
+			<date type="published" when="2006-07-13">2006</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Mandl, J. Stangl, T. Mårtensson, G. Bauer, L. Samuelson, W. Seifert, Nano Letters 6, 1817 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Th</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Mårtensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hilner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mikkelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thelander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Stangl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ohlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lundgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Samuelson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Seifert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">1801</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Th. Mårtensson, J.B. Wagner, E. Hilner, A. Mikkelsen, C. Thelander, J. Stangl, B.J. Ohlsson, A. Gustafsson, E. Lundgren, L. Samuelson, W. Seifert, Advanced Materials 19, 1801 (2007).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

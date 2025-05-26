@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EXAFS/XANES studies on the speciation of Tc(IV) in the presence of complexing organics and fulvic acids</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Ch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departement of Interphase Chemistry -K.U.Leuven</orgName>
+								<orgName type="laboratory">Laboratory for Colloïd Chemistry</orgName>
+								<address>
+									<addrLine>Kasteelpark Arenberg 23 B-</addrLine>
+									<postCode>3001</postCode>
+									<settlement>Leuven -BELGIUM</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Harald</forename><surname>Funke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departement of Interphase Chemistry -K.U.Leuven</orgName>
+								<orgName type="laboratory">Laboratory for Colloïd Chemistry</orgName>
+								<address>
+									<addrLine>Kasteelpark Arenberg 23 B-</addrLine>
+									<postCode>3001</postCode>
+									<settlement>Leuven -BELGIUM</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Prof.Dr</roleName><forename type="first">André</forename><surname>Maes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departement of Interphase Chemistry -K.U.Leuven</orgName>
+								<orgName type="laboratory">Laboratory for Colloïd Chemistry</orgName>
+								<address>
+									<addrLine>Kasteelpark Arenberg 23 B-</addrLine>
+									<postCode>3001</postCode>
+									<settlement>Leuven -BELGIUM</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ir</forename><surname>Eric</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departement of Interphase Chemistry -K.U.Leuven</orgName>
+								<orgName type="laboratory">Laboratory for Colloïd Chemistry</orgName>
+								<address>
+									<addrLine>Kasteelpark Arenberg 23 B-</addrLine>
+									<postCode>3001</postCode>
+									<settlement>Leuven -BELGIUM</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Breynaert</forename><forename type="middle">Ir Christophe</forename><surname>Bruggeman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departement of Interphase Chemistry -K.U.Leuven</orgName>
+								<orgName type="laboratory">Laboratory for Colloïd Chemistry</orgName>
+								<address>
+									<addrLine>Kasteelpark Arenberg 23 B-</addrLine>
+									<postCode>3001</postCode>
+									<settlement>Leuven -BELGIUM</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EXAFS/XANES studies on the speciation of Tc(IV) in the presence of complexing organics and fulvic acids</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">81CD37E8BC9ADCB585A2639AFD562569</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:27+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The redox-sensitive fission product technetium-99 (Tc) is of great interest in nuclear waste disposal studies because of its potential for contaminating the geosphere due to its very long half-life (2.13×10 5 year) and high mobility under oxidising conditions, where technetium forms pertechnetate (TcO 4 -) <ref type="bibr" target="#b0">[1]</ref>. Under suitable reducing conditions, e.g. in the presence of an iron(II) containing solid phase which can act as an electrondonor, the solubility can be limited by the reduction of pertechnetate followed by the formation of a surface precipitate <ref type="bibr" target="#b1">[2]</ref>. However, upon association with mobile humic substances (HS), the solubility of reduced Tc species may be drastically enhanced <ref type="bibr" target="#b2">[3]</ref>.</p><p>A first XANES measuring campaign (performed at ESRF, March 2001, CH-1050) demonstrated for the first time that pertechnetate was reduced to Tc(IV) and Tc(IV)-HS species were formed in Gorleben sand/Gorleben groundwater (rich in humic acids) reducing systems. These results were published in Radiochimica Acta <ref type="bibr" target="#b3">[4]</ref>.</p><p>A second EXAFS/XANES campaign (performed at ESRF, July 2002, SI-790) was then performed on samples in which TcO 4 -was reduced by various solid phases (pyrite, magnetite, Gorleben sand, Boom Clay), both in absence and presence of humic acids (HA). These experiments were set up in order to elucidate the chemical environment of Tc in these systems on atomic scale. The data from these experiments showed very interesting and surprising results, because all spectra could be fitted with a hydrated amorphous Tc(IV) oxide phase, independent of the reducing surface used and of the eventual presence of HA. These results could only mean that Tc(IV) oxide colloids were formed and precipitated upon reduction of TcO 4 -, and that these colloids could also interact with the organic colloidal material from Gorleben and Boom Clay HA. This latter observation was confirmed by batch sorption experiments with Tc and Boom Clay suspensions from which an interaction constant could be derived describing the interaction of a neutral Tc(IV) species and dissolved HA <ref type="bibr" target="#b4">[5]</ref>. The results from the above described EXAFS/XANES data were incorporated in an article published in Environmental Science &amp; Technology <ref type="bibr" target="#b5">[6]</ref>.</p><p>The aim of a third EXAFS/XANES campaign was to investigate the universality of the observed interaction between Tc(IV) colloids and HA for other organic molecules. Therefore batch systems were set up at KULeuven in which TcO 4 -was chemically reduced to Tc(IV) in presence of 9 reference organic compounds varying in size from small to large (citric acid, hydroxybenzoic acid, pyrogallol, glutaminate, isosaccharinic acid, aurintricarboxylic acid, calconcarboxylic acid, Laurentian fulvic acid, Fluka humic acid) and of Boom Clay HA. These samples still yielded the same colloidal Tc(IV) spectra in presence of large humic acid molecules (Fluka HA and Boom Clay HA) as observed before, however different spectra were now obtained in the presence of small dissolved organic molecules. At that time no performant modeling capabilities were accessible, due to which only single scattering analysis of the data was possible. Based on only SS analysis it was not possible to elucidate an exact structure for the complexes formed.</p><p>In order to further elucidate the behaviour of Tc(IV) in the presence of organic matter (colloïd association and/or complexation), a new, fourth, EXAFS/XANES campaign was set up in which the experience of the third campaign was used to specifically investigate Tc(IV) complexation in function of the pH with complexing agents resulting in strong complexes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental setup TcO 4</head><p>-was chemically reduced to Tc(IV) and contacted with sufficient amounts of 1) small reference organic molecules (salicylic acid, protocatechuic acid, pyrogallol, gallic acid as natural decay products of lignin or polyphenol <ref type="bibr" target="#b10">[11]</ref> and representative for the main complexing functional group geometries on FA and HA) and 2) fulvic acids. The systems were buffered in order to obtain a series covering both acidic and basic pH (2-10) so as to obtain a range of competition between H + and Tc(IV) for the complexing sites. TcO 4 -reduction and subsequent association with the organic molecules was monitored as a function of time by Gel Permeation Chromatography, UV-VIS to determine the speciation of Tc(IV)/organic complexes. All samples were then preconcentrated and transferred into heat-sealed poly-ethylene microtubes as a slurry. A total of 20 samples were prepared to be measured at the ESRF.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Although the research on the results of this fourth campaign and its precessor is not yet finished completely, some main conclusions could already be drawn:</p><p>1) The technique used for the preparation of the samples produced relatively pure samples with technetium concentrations high enough for XAS-measurements in fluorescence mode and in some cases also transmission mode. The complete XAS campaign resulted in spectra for 10 samples. Due to the installation of a new monochromator crystal in the beamline optics (BM20), the raw spectra contain more glitches as compaired to the previous campaigns. Although data extraction was more difficult, good EXAFS spectra were obtained.</p><p>2) As described in literature <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref> and observed in the results of the previous session, Tc(IV) species formed chelates with most smaller organic molecules by means of a ligand exchange between the hydrolysed Tc(IV) molecules and functional groups present on the organics. For all samples the presence of an organic Tccomplex could be identified by SS analysis of the spectra (exafspak/feff8.28) <ref type="bibr" target="#b8">[9]</ref>.</p><p>3) The structure extracted from the spectra of a pertechnetate standard solution was nearly identical to the optimized structure obtained from DFT 1 -calculations (ub3lyp/lanl2dz) (Table <ref type="table" target="#tab_1">2</ref> ; Fig <ref type="figure" target="#fig_0">1</ref> ) which was in accordance with the results of Gancheff et al. <ref type="bibr" target="#b9">[10]</ref> and <ref type="bibr" target="#b10">[11]</ref>. All parameters were floated during the fit, except for the coordination number N MS = 3 * N SS and E 0 which was forced to be identical for all paths. 4) In the pH range from 4 to 9 the protocatechuic and pyrogallol-complexes were identified as similar monomeric di-phenol complexes, in contrast with the dimeric structure of the citric acid Tc(IV) complex measured in the third campaign. Both phenolic complexes were modeled by DFT-calculations (ub3lyp/lanl2dz) to obtain a more detailed structure of the complexes. The interatomic distances obtained from the model and from the EXAFS spectra coincided within 0.1Ǻ, the expected error on both techniques. Based on FEFFcalculations (feff 8.2) on the modeled structures a MS path, between 2 carbon atoms of the rigid aromatic 1 Density Functional Theory structure could be identified in the spectra. Other less rigid MS paths from the FEFF-calculations could not be identified up until now.</p><p>.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 :</head><label>1</label><figDesc>Fig 1: DFT (ub3lyp/lanl2dz) optimized structure of TcO 4 -</figDesc><graphic coords="3,379.50,79.92,145.26,171.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Parameters for the TcO 4-structure obtained from EXAFS analysis and DFT.</figDesc><table><row><cell></cell><cell>DFT (ub3lyp/lanl2dz)</cell><cell></cell><cell>EXAFS ++</cell><cell></cell></row><row><cell></cell><cell>d(Tc-O) (Ǻ)</cell><cell>N</cell><cell>R (Ǻ)</cell><cell>σ²</cell></row><row><cell>SS: Tc-O</cell><cell>1.75561</cell><cell>4.01961</cell><cell>1.72546</cell><cell>0.00164</cell></row><row><cell>MS: Tc-O-O</cell><cell></cell><cell>12.0588</cell><cell>3.19108</cell><cell>0.00577</cell></row><row><cell cols="3">++ E 0 =2.91059, Scale=0.94658, Expected resolution=0.116355 Ǻ.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 :</head><label>2</label><figDesc>Atomic coordinates for the structure Fig 1.</figDesc><table><row><cell># Elem</cell><cell>X</cell><cell>Y</cell><cell>Z</cell></row><row><cell>1 Tc</cell><cell>0.000000</cell><cell>0.000000</cell><cell>0.000000</cell></row><row><cell>2 O</cell><cell>1.013600</cell><cell>1.013600</cell><cell>1.013600</cell></row><row><cell>3 O</cell><cell>-1.013600</cell><cell>-1.013600</cell><cell>1.013600</cell></row><row><cell>4 O</cell><cell>1.013600</cell><cell>-1.013600</cell><cell>-1.013600</cell></row><row><cell>5 O</cell><cell>-1.013600</cell><cell>1.013600</cell><cell>-1.013600</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Technetium in the Hydrosphere and in the Geosphere</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Lieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ch.</forename><surname>Bauscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1524/ract.1987.42.4.205</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ract</title>
+		<title level="j" type="abbrev">Radiochimica Acta</title>
+		<idno type="ISSN">0033-8230</idno>
+		<idno type="ISSNe">2193-3405</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="205" to="214" />
+			<date type="published" when="1987-07-01">1987</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lieser, K.H. and C. Bauscher, Technetium in the Hydrosphere and in the Geosphere .1. Chemistry of Technetium and Iron in Natural-Waters and Influence of the Redox Potential on the Sorption of Technetium. Radiochimica Acta, 1987. 42(4): p. 205-213.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Reduction of Pertechnetate in Solution by Heterogeneous Electron Transfer from Fe(II)-Containing Geological Material</title>
+		<author>
+			<persName><forename type="first">Daqing</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Trygve</forename><forename type="middle">E</forename><surname>Eriksen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/es950627v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Science &amp; Technology</title>
+		<title level="j" type="abbrev">Environ. Sci. Technol.</title>
+		<idno type="ISSN">0013-936X</idno>
+		<idno type="ISSNe">1520-5851</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2263" to="2269" />
+			<date type="published" when="1996-06-01">1996</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cui, D.Q. and T.E. Eriksen, Reduction of pertechnetate in solution by heterogeneous electron transfer from Fe(II)-containing geological material. Environmental Science &amp; Technology, 1996. 30(7): p. 2263-2269.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Complexation of Technetium with Humic Acid</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sekine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1524/ract.1993.63.special-issue.87</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiochimica Acta</title>
+		<idno type="ISSN">0033-8230</idno>
+		<idno type="ISSNe">2193-3405</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">s1</biblScope>
+			<biblScope unit="page" from="87" to="90" />
+			<date type="published" when="1993-12-01">1993</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sekine, T., A. Watanabe, K. Yoshihara, and J.I. Kim, Complexation of Technetium with Humic-Acid. Radiochimica Acta, 1993. 63: p. 87-90.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Evidence for the existence of Tc(IV) – humic substance species by X-ray absorption near-edge spectroscopy</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Geraedts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bruggeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><forename type="middle">R</forename><surname>Van Loon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rossberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reich</surname></persName>
+		</author>
+		<idno type="DOI">10.1524/ract.2002.90.12_2002.879</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiochimica Acta</title>
+		<idno type="ISSN">0033-8230</idno>
+		<idno type="ISSNe">2193-3405</idno>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="879" to="884" />
+			<date type="published" when="2002-12-01">2002</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Geraedts, K., C. Bruggeman, A. Maes, L.R. Van Loon, A. Rossberg, and T. Reich, Evidence for the existence of Tc(IV) -humic substance species by X-ray absorption near-edge spectroscopy. Radiochimica Acta, 2002. 90(12): p. 879-884.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Quantification of the Interaction of Tc with Dissolved Boom Clay Humic Substances</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bruggeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Geraedts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vancluysen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/es020091v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Science &amp; Technology</title>
+		<title level="j" type="abbrev">Environ. Sci. Technol.</title>
+		<idno type="ISSN">0013-936X</idno>
+		<idno type="ISSNe">1520-5851</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="747" to="753" />
+			<date type="published" when="2003-01-18">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maes, A., C. Bruggeman, K. Geraedts, and J. Vancluysen, Quantification of the interaction of Tc with dissolved boom clay humic substances. Environmental Science &amp; Technology, 2003. 37(4): p. 747- 753.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Evidence for the Interaction of Technetium Colloids with Humic Substances by X-ray Absorption Spectroscopy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Geraedts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bruggeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vancluysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rossberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hennig</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/es034720s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Science &amp; Technology</title>
+		<title level="j" type="abbrev">Environ. Sci. Technol.</title>
+		<idno type="ISSN">0013-936X</idno>
+		<idno type="ISSNe">1520-5851</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2044" to="2051" />
+			<date type="published" when="2004-02-27">2004</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maes, A., K. Geraedts, C. Bruggeman, J. Vancluysen, A. Roßberg, and H. Hennig, Evidence for the Formation of Technetium Colloids in Humic Substances by X-Ray Absorption Spectroscopy. Environmental Science &amp; Technology, 2004. 38(7): p. 2044-2051.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Preparation and characterization of technetium(IV)-complexes with diethylenetriaminepentaacetic acid and ethylenediaminetetraacetic acid as ligands</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Noll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Münze</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0020-708x(83)90059-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The International Journal of Applied Radiation and Isotopes</title>
+		<title level="j" type="abbrev">The International Journal of Applied Radiation and Isotopes</title>
+		<idno type="ISSN">0020-708X</idno>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="581" to="584" />
+			<date type="published" when="1983-03">1983</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Noll, B., S. Seifert, and R. Munze, Preparation and Characterization of Technetium(Iv)-Complexes with Diethylenetriaminepentaacetic Acid and Ethylenediaminetetraacetic Acid as Ligands. International Journal of Applied Radiation and Isotopes, 1983. 34(3): p. 581-584.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Technetium carboxylate complexes—II. Structural and chemical studies</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Pinkerton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0883-2889(88)90011-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Radiation Applications and Instrumentation. Part A. Applied Radiation and Isotopes</title>
+		<title level="j" type="abbrev">International Journal of Radiation Applications and Instrumentation. Part A. Applied Radiation and Isotopes</title>
+		<idno type="ISSN">0883-2889</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1167" to="1177" />
+			<date type="published" when="1988-01">1988</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kennedy, C.M. and T.C. Pinkerton, Technetium Carboxylate Complexes .2. Structural and Chemical Studies. Applied Radiation and Isotopes, 1988. 39(11): p. 1167-1177.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Real-space multiple-scattering calculation and interpretation of x-ray-absorption near-edge structure</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Ankudinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ravel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Rehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Conradson</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.58.7565</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<idno type="ISSNe">1095-3795</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="7565" to="7576" />
+			<date type="published" when="1998-09-15">1998</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ankudinov, A.L., B. Ravel, J.J. Rehr, and S.D. Conradson, Real Space Multiple Scattering Calculation of XANES. Phys. Rev. B, 1998. 58: p. 7565.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Density functional study of technetium and rhenium compounds</title>
+		<author>
+			<persName><forename type="first">Jorge</forename><surname>Gancheff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Kremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eduardo</forename><surname>Kremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oscar</forename><forename type="middle">N</forename><surname>Ventura</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0166-1280(01)00601-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Structure: THEOCHEM</title>
+		<title level="j" type="abbrev">Journal of Molecular Structure: THEOCHEM</title>
+		<idno type="ISSN">0166-1280</idno>
+		<imprint>
+			<biblScope unit="volume">580</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="107" to="116" />
+			<date type="published" when="2002-03">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gancheff, J., C. Kremer, E. Kremer, and O.N. Ventura, Density functional study of technetium and rhenium compounds. Journal of Molecular Structure-Theochem, 2002. 580: p. 107-116.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Refinements of the crystal structures of KTcO&lt;sub&gt;4&lt;/sub&gt;, KReO&lt;sub&gt;4&lt;/sub&gt; and OsO&lt;sub&gt;4&lt;/sub&gt;. The bond lengths in tetrahedral oxoanions and oxides of &lt;i&gt;d&lt;/i&gt; &lt;sup&gt;0&lt;/sup&gt; transition metals</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-D</forename><surname>Hasse</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s056774087600530x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section B Structural Crystallography and Crystal Chemistry</title>
+		<title level="j" type="abbrev">Acta Crystallogr B Struct Sci</title>
+		<idno type="ISSN">0567-7408</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1334" to="1337" />
+			<date type="published" when="1976-05-01">1976</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krebs, B. and K.D. Hasse, Refinements of Crystal-Structures of Ktco-4, Kreo-4 and Oso-4 -Bond Lengths in Tetrahedral Oxo-Anions and Oxides of Do Transition-Metals. Acta Crystallographica Section B-Structural Science, 1976. 32: p. 1334-1337.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

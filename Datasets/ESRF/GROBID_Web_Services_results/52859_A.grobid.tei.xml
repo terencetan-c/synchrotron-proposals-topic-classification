@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0FACD99C9B522E393511FBE5DE0B1109</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:34+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: In situ characterization of the influence of casting defects in fatigue damage of aluminium alloys with high resolution tomography and Digital Volume Correlation Experiment number: MA-2037 Beamline: ID19 Date of experiment: from: 2014/04/01 to: 2014/04/05 Date of report: 2014/07/17 Shifts: 12 Local contact(s): Elodie Boller, Vincent Fernandez</p><p>Received at ESRF/ Names and affiliations of applicants (* indicates experimentalists): Dr Nathalie Limodin* -LML, Ecole Centrale Lille Dr Ahmed El Bartali* -LML, Ecole Centrale Lille Dr Eric Charkaluk* -LML, Ecole Centrale Lille Dr Jean-François Witz* -LML, Ecole Centrale Lille Pr Jean-Yves Buffière* -MATEIS, INSA de Lyon Nora Dahdah* -LML, Ecole Centrale Lille Sébastien Dézécot* -MATEIS, INSA de Lyon</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>In-situ fatigue tests at (moderately) high temperatures and characterised by high resolution tomography were performed on ID19. The main objective of the experiment was to obtain in situ 3D images of the initiation and growth of damage during cyclic mechanical loading of an Aluminium Silicon automotive cast alloy (AlSi7U3) at temperatures relevant for service conditions (T~200°C).</p><p>A radiation furnace equipped with four halogen lamps has been designed and used successfully with a fatigue machine used previously by some of the proposers. The X-ray beam goes through the static furnace via two holes in the water cooled furnace walls. During the tomography scans (180° rotation) the in situ fatigue machine rotates freely within the furnace while keeping the samples gage length at the focal center of the four lamps. A quartz tube (2 mm thick) is used to transmit the load from the top to the bottom of the machine.</p><p>The quartz material induces an acceptable and quasi constant attenuation of the beam during the rotation. The furnace design provides a relatively large (20 mm height) and homogeneous hot zone (dT/dz &lt; 0.3 °C/mm), with very little temporal fluctuations (&lt; 1 °C/hr). Images were obtained in pink beam mode (E=35 keV) on a CMOS PCO Dimax detector (2048 pixels 2 ). The scan duration was 45 s (2000 Images) with a 2.75 µm voxel size. Thanks to the large spatial coherence of the beam on ID19 eutectic Si particles could easily distinguished from the surrounding Al matrix and small (~ few microns long) cracks could easily be detected.</p><p>The scan time was short enough to avoid creep/relaxation effects at the temperatures investigated (T&lt; 250°C). Seven fatigue specimens with a 2×2 mm² cross section were tested: 2 at 150°C, 2 at 200°C and 3 at 250°C. Unixial tensile fatigue tests at constant stress amplitude were performed with a load ratio of 0.1 and a maximum stress of the order of 150% of the yield stress at the corresponding temperature (low cycle fatigue).</p><p>Because of this high stress level, a significant amount of plastic strain was obtained in the samples during loading so that the load had to be constantly re-adjusted manually along the fatigue life. In practice, therefore, the amount of strain imposed during the test could not be accurately controlled. A situation that should be improved in the future. Nevertheless, to the best of the authors' knowledge, this is the first time that 3D propagation of fatigue cracks is observed in situ in 3D above room temperature, in a metallic material.</p><p>The results obtained at the two lower temperatures, (150°C and 200°C), showed that cracks initiate first at large subsurface pores and then propagate along the hard inclusions towards the free surface (Figure <ref type="figure" target="#fig_2">1 a</ref>).</p><p>At 250°C, an additional damage mechanism is also observed: cracks are also detected in Silicon particles (see arrow on Figure <ref type="figure" target="#fig_2">1 b</ref>) around the main pore that drives to failure but also in other areas of the specimen gage length (Figure <ref type="figure" target="#fig_2">1 c</ref>).</p><p>3D images obtained by laboratory tomography were used to generate microstructurally realistic meshes of the microstructure within the present samples (pores + matrix, no intermetallic second phase); those meshes were used to perform Finite Element (FE) simulation of the strain/stress distribution during loading (elasto plastic calculation). An example of these simulations is shown in figure <ref type="figure" target="#fig_1">2</ref>: a large strain concentration can be seen; close to the pore cluster where crack initiation was indeed observed. Figure <ref type="figure" target="#fig_1">2</ref> also shows the strain field calculated by Digital Volume Correlation (DVC) along the loading direction at the first cycle between the minimum and maximum load; the image of the microstructure was superposed to this field to allow comparison of the crack path with local deformation. The DVC results are in good agreement with the FE simulation regarding the strain concentration around the pores, however a large strain accumulation close to hard second phase particles associated with a small pore is also detected by DVC but not by the FE simulation which is based on an oversimplified mesh (see arrow). The DVC analysis of the 3D images recorded in situ helps to understand the relations between initiation sites and crack path and the local microstructural features: crack initiation is porosity driven while propagation is correlated with the presence of hard intermetallic phases. It also gives some very interesting information on the degree of complexity which has to be taken into account in so-called "realistic" microstructures to reproduce actual strain development within the samples.</p><p>Finally, it should be noted that the small cross section of the samples (2×2 mm 2 ), which was selected to match a small voxel size, gave only limited information on the propagation of the cracks: once initiation had occurred the load on the unbroken ligament led very rapidly to failure. Loading direction (b) 40cycles F= 207N (a) 0cycle F= 39N (a) 10 000cycles F= 329N (b) 30 cycles F= 252N (c) (d) Detail : Intermetallics zone (c) 30 cycles F= 252N</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: 3D rendering (a) &amp; (b) of fatigue cracks in AlSi7Cu3 specimen initiated from a subsurface pore after 40 cycles at 250°C with (c) the corresponding strain field measured with DVC and (d) the strain field computed by Finite Element Modeling. The crack initiation location is in good agreement with the FE calculation which does not predict, however, a large plastic strain accumulation (arrows &amp; detail) detected by DVC and induced by a smaller pore surrounded by intermetallic phases.</figDesc><graphic coords="3,398.00,431.57,119.25,167.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Microcracks observations at (a) 150°C, (b) 250°C at the main pore and (c) at 250°C far away from the main pore</figDesc><graphic coords="3,217.60,123.74,147.80,123.01" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

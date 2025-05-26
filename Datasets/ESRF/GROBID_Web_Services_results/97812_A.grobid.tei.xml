@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experiment Report Form</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Jiliang</forename><surname>Liu</surname></persName>
+							<email>jiliang.liu@esrf.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biomaterials</orgName>
+								<orgName type="institution">MPI of Colloids and Interfaces</orgName>
+								<address>
+									<postCode>14476</postCode>
+									<settlement>Potsdam</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Experiment Report Form</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">201FF8AE89A3F21ACFA593CF5DD55E37</idno>
+					<note type="submission">from: 18.11.2021 to: 22.11.2021 Received at ESRF: Names and affiliations of applicants (* indicates experimentalists):</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The strategy developed by avian to protect the chick from environmental, mechanical stresses resulted in the surprising combination of high stiffness and direction-dependent fracture toughness in the eggshells. The shell ceramics is a hybrid nanocomposite of organic and inorganic materials; the total organic amount often varies from 0.05 to 5 wt %. The resultant conjugates were found to display interfaces with mismatches that can evolve and integrate internal forces within materials. Two different causes of residual strains/stresses have been reported [2, 3]: The inter-crystalline (biomolecules are at the boundaries of the crystals) and intra-crystalline (inside the crystal lattices). Although very promising research on the role of these "impurities" in the inorganic frameworks, the interaction of the organic induced internal strains with external/applied strains is poorly understood. This proposal, in combination with recent Raman, WDS, and nanoindentation aims to understand the key role of incorporated molecules on the mechanical performance and crystalline structures of the eggshells.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This experiment aimed to understand the role of organic inclusion on the mechanical performance of the ostrich eggshell. In specific, we intend to elucidate the interaction of applied and organic-induced/residual stresses and study the role of pre-stresses on the functionality of these bioceramics. The eggshells (fresh and hatched) were cut longitudinally with a fine diamond wire in a small piece of approximately 2mm*150 µm *150 µm. The samples were mounted on a holder and aligned to the diamond tip of the home-designed indenter. As a comparative reference, a series of the samples were heat-treated prior to the experiment to eliminate the organic-induced strains. The samples were scanned in no-load, low-load (elastic deformation), high-load (damaged), and unloaded conditions. The allocated time on ID13 was 4 days, the qrange cover was from 1 to 5 Å -1 at 12.7 KeV, beam size 4µm * 4µm, the exposure time was 2ms, and a sample to detector distance of 12cm. The step size was 5 or 10 µm depending on the resolution needed for the map. The first day was used for the alignment of the indentation set-up and the correction of the rotational displacement (the various cable bringing tensions). The second day was dedicated to the exclusion of the reflection created by the diamond indenter. Accordingly, we started the measurements on 19.11.21 at night. Due to recent results at BESSY on MμSPOT beamline, we decided to rotate the sample, surprisingly the diffracted signal obtained at ID13 revealed many Bragg reflections at each selected position with a beam size much smaller (4*4µm at ESRF compared to 30*30μm at BESSY, see section V). The revealed Braggs reflections/peaks will allow us to determine the stress orientation with the use of the maximal intensity through the applied rotation range. A summary of the measurements performed during this run:</p><p> Full mapping (length from inner layer to outter layer) of the fresh sample (no external load) to investigate the residual strains (0° to 122°)  Mapping (under the indent) of the fresh sample under applied loads allows us to investigate the interaction of the applied and residual stress and strains and their distribution inside the control eggshell,  Mapping (under the indent) of the heat-treated sample under no and applied loads to investigate the organic removal on development of applied strain,  Mapping (under the indent) of the hatched eggshells under no and applied loads to study the structural evolution (resorption of Ca) prior to the hatching and its role on the mechanical characteristics of the eggshells</p><p>We did not have any problem with the instruments and but a few beam time was lost during the run due to 4 beam shutdowns. For the continuation proposal that will be submitted in September 2022 the local contact advise us to ask for 1 day "Machine Dedicated Time" plus the regular 5 days as for the previous proposal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I) Preliminary data treatment</head><p>The raw spectra images were processed directly during measurement on ID13 with the in-house software: radial integration of 720 bins taking into account detector calibration run (and electronic background). All processed data were analysed at the MPI with an in-house built Matlab code. The corresponding Intensity and Q values were extracted from the H5 files and classified in a Matlab matrix by X and Y position in the sample. Then, the data were filtered for the noise (single pixel, cosmic rays, impurities), the baseline was corrected with the code by Mirko Hrovat (2009), and SAXS signal is excluded. Then each Bragg signal is fitted with the peakfit code of Thomas C. O'Haver (2015). As shown by Fig 1 : all different fits have a low error and the Voigt fit was the best match for most of the Bragg signal, but the Voigt fit was not optimised for the large brunch of spectra: If most of the peaks were better fitted, some fit showed bimodal distributions instead of unimodal distribution (the parameters could not be optimised for all the peaks to be fitted). This was leading to computer-induced false indexing. The Gaussian signal was constant reliability through all tested Bagg peaks. The Lorentzian fit has an error a bit higher than the two previous fits, inducing mistakes in maximum intensity. Contrary to BESSY the Lorentzian fit was not optimum and the Godness of the Fit gives better consistency with a Gaussian fit.</p><p>The presence/absence of SAXS signal is then used to create a mask (map) of the sample position II) ID13 results: Full high resolution map of the fresh Ostrich eggshell For the high-resolution full map of the overall sample, the arm supporting the diamond indenter was not installed allowing a 0 to 188° rotation of the sample. The sample was characterised under a 4µm beam spot size and the step was 5 µm horizontally and 10 µm vertically, 161*414 WAXS patterns were recorded. As visible in Fig 2 and 3, the rotation influence the maximum intensity and the presence/absence of the Bragg signal. This experience aimed to determine the difference between the fresh Ostrich eggshell layers and the crystal residual stress orientation. The eggshell is composed of 6 different layers characterised by a different Young's Modulus, the rotation will help us to collect the maximum peak intensity and have an overview of the organisation without indentation. Those data are currently in the fitting process (high calculation and RAM needed), then the rotation angle has to be considered before the reconstruction of the sample maximum intensity map. III) ID13 results: Stress and strain distribution</p><p>For those experiments, 161*81 WAXS patterns were recorded per sample/condition/rotational angle from 0° to 120° (step of 2°). From the previous analysis Bragg peak center maps are reconstructed. Samples were analysed before load, during the loading (the load curve has been recorded by our set-up), and at rest (without load). A first mapping is done by using only the Bragg peak center (from our fit) in one single angle, and we can see the region of interest during the load (see Figs. <ref type="figure" target="#fig_2">4</ref> and <ref type="figure">5</ref>).  and <ref type="figure">5</ref>, we can see that the miller plan 006 is affected by the loading (100g) but not the 110 miller plan. This information has to be confirmed by all rotation maps analyses. To differentiate the induced from the residual stress and strain, the rest and loaded condition need to be compared to the "before-load sample". This analysis has to be done independently from the rotational angles. The second step of the analysis is the use of every rotational data set of the sample, the maximum intensity will be the map for each Bragg peak to understand the indentation influence on the crystal orientation and the stress direction.</p><p>Last but not least data interpretation, we will compare the Bragg peak width concerning indentation, taking into account that the rotation influence the width. Once the region of interest is selected in the previously cited map (Bragg center, intensity width) the processed 1D data will be extracted via an in-house built Matlab interface. The background will be subtracted from the WAXS curves and manual fit analyses will be conducted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV)</head><p>ID13 results: Effect of Egg hatching/ heat treatment condition</p><p>The fresh sample will be compared to the different conditions for each analysis: Bragg peak center map per rotation, max intensity in all rotations, and the width map. This analysis will be performed after the end of the calculation of Step II. As our experiment resulted in a very large dataset (23TB) and automatic analysis of the Bragg peak was performed, a user interface was created with Matlab allowing (without coding skill required) the navigation from the previously created PNG map to the original datasets (raw and processed). This will be used for localisation of the region of interest, checking of the fit (done manually on Origin for the extracted 1D file(s)), and saving the 2D pattern of this ROI.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 :</head><label>1</label><figDesc>Fig 1: Example of 3 different fits for the same Bragg peakOnce the Bragg peaks are fitted, all fit results are compared to geological calcite (reference from crystallographic international database). The data are screened and the closest value for the miller plan is found, the fitted data are then separated for each miller plan and high-resolution maps for the Miller plans are created.</figDesc><graphic coords="2,62.76,396.72,242.04,252.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 2 :</head><label>2</label><figDesc>Fig 2: WAXS raw pattern: rotational angle 30° Fig 3: WAXS raw pattern rotational angle 20°</figDesc><graphic coords="3,312.72,125.28,243.48,220.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig 4 :</head><label>4</label><figDesc>Fig 4: WAXS mapping: center of the Bragg peak selected for the miller index 006 (rotation 0°) Fig 5: WAXS mapping: center of the Bragg peak selected for the miller index 110 (rotation 0°)In Figs.4 and 5, we can see that the miller plan 006 is affected by the loading (100g) but not the 110 miller plan. This information has to be confirmed by all rotation maps analyses. To differentiate the induced from the residual stress and strain, the rest and loaded condition need to be compared to the "before-load sample". This analysis has to be done independently from the rotational angles. The second step of the analysis is the use of every rotational data set of the sample, the maximum intensity will be the map for each Bragg peak to understand the indentation influence on the crystal orientation and the stress direction.</figDesc><graphic coords="3,63.00,448.20,226.32,203.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig 1 :</head><label>1</label><figDesc>Fig 1: WAXS patterns of BESSY mySPOT Fig 2: WAXS patterns of ESRF ID13 We suppose a different convergence of the Beam (lense) that had affected the Bragg diffraction. Therefore for our future analysis ID13 would be mandatory to have a consistent set of data allowing publication. VI) Matlab Interface for data extraction, manipulation and navigation</figDesc><graphic coords="4,62.76,224.76,219.48,203.52" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Main conclusions and perspectives:</head><p> We obtained the variation of the lattice and peaks positions depending on the condition.  We obtained all the needed information for the crystal orientation and stress orientation.  We obtained the crystal structure of the biogenic calcite depending on the condition.  A continuation proposal would be needed to apply accurate physiological conditions (in specific, hydration/hydration) with taking into account fresh sample, hatched sample and heat-treated sample (control). A new mechanical setup is required to be designed to allow WAXS patterns to be recorded with rotation in hydrated condition.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The avian egg exhibits general allometric invariances in mechanical design</title>
+		<author>
+			<persName><forename type="first">Jia-Yang</forename><surname>Juang</surname></persName>
+			<idno type="ORCID">0000-0001-6801-3244</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Pin-Yi</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Da-Chang</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shang-Ping</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">An</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Null-</forename><forename type="middle">I</forename><surname>Hsieh</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-14552-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">14205</biblScope>
+			<date type="published" when="2017-10-27">2017</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">-Juang, et al. The avian egg exhibits general allometric invariances in mechanical design. Sci Rep 7, 14205 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Differences between Bond Lengths in Biogenic and Geological Calcite</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zolotoyabko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Fieramosca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Von Dreele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Addadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Politi</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cg901195t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crystal Growth &amp; Design</title>
+		<title level="j" type="abbrev">Crystal Growth &amp; Design</title>
+		<idno type="ISSN">1528-7483</idno>
+		<idno type="ISSNe">1528-7505</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1207" to="1214" />
+			<date type="published" when="2010-02-05">2010</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">-Zolotoyabko, et al., Differences between bond lengths in biogenic and geological calcite. Cryst Growth Des 2010, 10, 1207.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Anisotropic lattice distortions in biogenic aragonite</title>
+		<author>
+			<persName><forename type="first">Boaz</forename><surname>Pokroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">P</forename><surname>Quintana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El'ad</forename><forename type="middle">N</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Berner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emil</forename><surname>Zolotoyabko</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat1263</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="900" to="902" />
+			<date type="published" when="2004-11-14">2004</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">-Pokroy, et al. Anisotropic lattice distortions in the biogenic aragonite. E. Nat. Mater. 2004, 3, 900-902.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

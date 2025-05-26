@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scanning X-Ray Microscopy to image strain fluctuations in strained SiGe-on-insulator nano-structures for electronics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2017-09-12">12 September 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Steven</forename><surname>Leake</surname></persName>
+						</author>
+						<title level="a" type="main">Scanning X-Ray Microscopy to image strain fluctuations in strained SiGe-on-insulator nano-structures for electronics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-09-12">12 September 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0F056D7041D16B2679E422A44BDE553C</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Report:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objective</head><p>The electronic properties of semiconductor nanostructures are strongly influenced by their strain state-a fact which is exploited particularly in micro-electronics, as the mobility of charge carrier can be enhanced by a factor up to x2,5 in the case of strained silicon-on-insulator <ref type="bibr">[1]</ref>. As the size of functional nanostructures is reduced, the ability to map strain at the nanoscale has become essential.</p><p>While transmission electron microscopy allows measuring strain maps on single objects, it involves destroying the sample and cannot map a large number of nano-structures. Recently, an optimized Scanning X-Ray Microscopy technique has been developped at the ID01 beamline and now enables the quantitative determination of strain in nanostructures down to around 100 nm with sensitivity below 10E-4.</p><p>The goal of this experiment was to study strain relaxation in various strained SiGe-on-insulator nanostructures: SiGe islands (average 25% Ge composition) grown on silicon oxide with a silicon substrate (with a different crystalline orientation to avoid overlapping diffraction). The four samples observed were synthesized at STMicroElectronics using a mask which produces SiGe lines and square or rectangular SiGe islands of lateral size 250, 500 nm and 2, 5 µm, with a spacing between devices typically equal to the object sizes. The thickness of all the SiGe objects was around 20 nm for three samples, and 13 nm for one.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental method</head><p>We used a KB-focused beam of size 220x100 nm (vertical x horizontal) through a multilayer mirror in order to get as much flux as possible (4E10 ph/s reached) and combine this with the fast diffraction mapping possible on id01 (so-called "k-map"), using the continuous scan mode of the piezo stage combined with the maxipix fast readout. We used a pink beam illumination (no monochromator) in order to further maximize the flux on the sample.</p><p>The following samples were studied, collecting data from k-map on areas of typically around 8x8µm^2 using 0.1µm steps with 0.03 fs/point (to avoid damaging the sample) and at 30 2-theta angles (step 0.01 degree):</p><p>• 20 nm-thick strained SiGe-on-insulator with nitride on top. For this sample we did k-map on several SiGe patterns : 130nm width-lines (so called zone A6 on the mask), squares of 500nm x 500nm spacer 500nm (D2), squares of 2µm x 2µm spacer 2µm (D4), squares of 5µm x 5µm spacer 5µm (D6) and squares of 250nm x 250nm spacer 5000nm (E6). For this experiment, we collected information around three Bragg reflections -( <ref type="formula">113</ref>), (1-13) and ( <ref type="formula">004</ref>) -in order to eventually retrieve the full strain tensor <ref type="bibr">[2]</ref>. (figure 1) • 13 nm-thick strained SiGe-on-insulator. For this sample, we only observed the (113) Bragg reflection and the A6, D2, D4, D6 zones, including a zone of lines of 50µm width, which can be considered as full sheet. (figure <ref type="figure" target="#fig_3">3</ref>) • 20 nm-thick strained SiGe-on-insulator without nitride on top. Here we looked at A6, D2, D4 zones and around the (113) reflection. (figure 2) • 20 nm-thick strained SiGe bilayer -with a thin silicon layer in between SiGe and the silicon oxide (insulator). Same measurements as for the previous sample has been done.    The map used to extract this profil has a size of 8x8µm^2, with a 101 nm step size (the full horizontal extent is 2µm). The SiGe island is stressed in compression, resulting in a lower (-0.6%) out-of-plane parameter.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>This experiment was a success, allowing to measure the strain and tilts (along 3 directions in the best case) on several strained SiGe-on-insulator patterns. The available flux thanks to the Kirkpatrick-Baez mirror and a multilayer mirror combined to the pink beam was such that we could measure small layers (down to 13 nm) in a reasonable amount of time to yield quantitative results. Additionally, we were able to confirm that it was possible to measure the diffraction from thin SiGe layers (down to 13 nm) using a fast scanning approach before radiation damage [2] induced a significant relaxation of the islands.</p><p>This work has produced large amounts of data to analyse and at the time being calculations are on their way. An article will be written on the results for the sSiGeOI, using also the results of a previous experiment which studied strain fluctuations in strained silicon-on-insulator lines of 70nm thickness, for which the fabrication process was different.</p><p>[1] S. Baudot, S., F. Andrieu, F. Rieutord, and J. Eymery, J. Appl. <ref type="bibr">Phys. 105 (2009</ref><ref type="bibr">),114302 [2] Mastropietro et al., Phys. Rev. Lett. 111, 215502 (2013)</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>•</head><figDesc>Vincent FAVRE-NICOLIN (ESRF) *• Joel EYMERY (CEA) * • Remy BERTHELON (CEA/ST) * • Gaetan GIRARD (ESRF) * • Francois ANDRIEU (CEA)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Deformation on a 12x12µm^2 area of a strained SiGe-on-insulator layer of thickness 20 nm. The map represents the tilt angle (°) value perpendicular to the scattering plane, showing clear evidence of the side relaxation of the islands.</figDesc><graphic coords="2,36.72,318.24,258.24,212.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Strain map (ε 113) of a SiGe island of 2x2µm^2. The map size is 8x8µm^2, with a 101 nm resolution.</figDesc><graphic coords="2,300.48,318.24,258.00,212.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Deformation on a 8x8µm^2 area of a strained SiGeon-insulator layer of thickness 13 nm. The map represents the integrated intensity of the Bragg peak for each point of the scan. The smooth variations are thus linked with the total thickness of the layer : we can state that there are fluctuations of +/-10 A in the layer (30% of intensity variation).</figDesc><graphic coords="3,36.72,39.60,258.24,212.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Strain profil (ε 113), in the scattering direction, of a SiGe island of 2x2µm^2, relatively to a bulk Si 0.76 Ge 0.24 alloy.The map used to extract this profil has a size of 8x8µm^2, with a 101 nm step size (the full horizontal extent is 2µm). The SiGe island is stressed in compression, resulting in a lower (-0.6%) out-of-plane parameter.</figDesc><graphic coords="3,300.48,39.60,258.00,212.40" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

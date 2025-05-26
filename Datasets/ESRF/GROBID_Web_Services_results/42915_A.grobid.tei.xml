@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Preliminary Study of Microtomography on Plasma-Sprayed Tungsten (first part of MA-890)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Timm</forename><surname>Weitkamp</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Main Proposer) -IPP</roleName><forename type="first">Alessandro</forename><surname>Zivelonghi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Germany</forename><surname>Garching</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rasinski -Ipp</forename><surname>Marcin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Waizmann -Fachhochschule</forename><surname>Gebhard</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Aalen</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Germany</surname></persName>
+						</author>
+						<title level="a" type="main">Preliminary Study of Microtomography on Plasma-Sprayed Tungsten (first part of MA-890)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3AA07CCFB3E5800E511D9DC5847B58D2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T19:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Main Goal: demonstrate feasibility of high resolution microtomography on porous tungsten. Goal Status: successfully achieved.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Experiment MA-890 has been split into a preliminary part and a subsequent measurement campaign, in order to first check feasibility of the measurement (due to the challinging task to penetrate tungsten) and find out the best dimensions of the samples. Successful measurements has been carried out at ID19 with 52keV beam energy on conoidal samples (Fig. <ref type="figure" target="#fig_1">1</ref>). Up to 0.6 mm thick Vacuum Plasma Sprayed -Tungsten (25% porous) has been successfully reconstructed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample Geometry</head><p>, All the samples (except one W33%CuCrZr sample) were directly cut from a 10 cm*5 cm tile coated with 2 mm VPS-W 25% porous. The samples include a large cylindrical base made of steel (substrate), the thin conoidal spike of VPS-W (coating) and a W-Steel junction region (between coating and substrate).</p><p>A B Sample ID Material Top Ø [mm] Bottom Ø [mm] 2 VPS-W25% 0.4 0.6 4 VPS-W25% 0.25 0.4 5 VPS-W25% 0.25 0.4 8 W33%CuCrZr 0.25 0.4  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement Details</head><p>All the 17 tomographic scans except 3 have been performed at 52 keV, with a single scan time ranging from 0.5 to 2 hours. Five parameters, which affect the quality of the reconstruction, have been identified and adjusted for VPS-W25%. We tried to optimize the reconstruction quality keeping the time per scan on reasonable values. The best tomographic quality has been achieved with a 73 min long scan and 1.4 µm/px resolution. Lower beam energy (35 keV) has been attempted on less dense W30%CuCrZr composite (Fig. <ref type="figure" target="#fig_2">2c</ref>), in the hope to further improve the reconstruction quality. However no improvement has been noticed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Fig. <ref type="figure" target="#fig_2">2a</ref> demostrates feasibility of microtomography on a 0.6 mm thick region of a 25% porous tungsten. Fig. <ref type="figure" target="#fig_2">2b</ref> demonstates feasibility of microtomography on a 1.3 mm thick junction region of W11%Steel82% (7% voids have been also observed in the steel substrate).</p><p>During every reconstruction (from projections) we faced the problem of ring artifacts formation in the 2D slices (fig. <ref type="figure" target="#fig_2">2d</ref>). The problem has been solved with special filtering algorithms applied to the projections before slice reconstruction took place. a b c d W</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Sample geometry used during the preliminary study. Conoidal shape has been required in order to test different sample thicknesses. A: diameter range from 0.28 to 0.4 mm. B: diameter from 0.4 to 0.6 mm</figDesc><graphic coords="1,391.05,462.20,144.00,153.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Tomographic slices of different materials in scope for MA-890</figDesc><graphic coords="2,67.05,430.75,193.00,198.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>samples tested during the MA-890 preliminary campaign.</figDesc><table><row><cell>VPS-W25%</cell></row></table><note><p>X-Ray Rad.</p></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

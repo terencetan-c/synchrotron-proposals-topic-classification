@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">459CB1A09DAB2FD6EBE95FE4FA83B2DE</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: Local Structure in TiOF Experiment number: HC4081 Beamline: ID11 Date of experiment: from:24/02/2021 to: 25/02/2021 Date of report: 09/08/2023 Shifts: 3 Local contact(s): Jon Wright Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): James Cumby, University of Edinburgh Scott Rait, University of Edinburgh *Jon Wright, ESRF</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>TiOF adopts a tetragonal rutile structure, with O and F anions randomly distributed across the anion positions based on average (Bragg) crystallography. However, a local fac-anion arrangement within TiO3F3 octahedra is expected based on chemical bonding arguments, with a resulting off-centring of Ti 3+ cations from their ideal positions. This has previously been reported in FeOF [1] but our initial laboratory results showed that TiOF adopts a different anion arrangement.</p><p>The aim of this experiment was to measure and interpret the diffuse X-ray scattering from TiOF, taking advantage of the combination of high flux, high energy and large dynamic range available at ID11. By combining direct modelling of diffuse scattering features with corresponding real-space analysis (3D-ΔPDF) we expected to determine the correlated displacements of Ti cations within the structure.</p><p>Due to the continuing pandemic, it was necessary to tailor our experimental approach in order to run the experiment remotely. Four different crystals were mounted, and measurements taken using a variety of X-ray fluxes, rotational speeds and image collection times. Crystals 1 and 3 were only weakly scattering due to the small size of the crystallites, meaning that only Bragg scattering was observed. Crystals 2 and 4 both showed transverse-polarised rods of diffuse scattering along [110] directions, consistent with 2D ordered correlations between Ti displacements. For crystal 4, variable temperature measurements were additionally used to establish the temperature dependence of this diffuse scattering (Fig. <ref type="figure" target="#fig_1">1A</ref>). The diffuse intensity decreased slightly with increasing temperature, demonstrating that the diffuse scattering occurs due to static disorder rather than thermal excitations (phonons). As expected, the diffuse scattering from TiOF differes from that observed for FeOF (i.e. parallel displacements of cations between edge-sharing octahedra) and is instead consistent with anti-parallel displacements of Ti cations within edge-sharing octahedra. However, the data do not agree with a simple model expected from edge-sharing fac-TiO3F3 octahedra due to the systematic absence of some of the diffuse rods.</p><p>Using the measured data, we have been able to obtain a 3D-ΔPDF representation of the scattering (Fig. <ref type="figure" target="#fig_1">1B</ref>). This has been complicated due to inconsistencies between background and sample measurements, but allows us to observe the real-space distortions from the average (Bragg) structure. A key finding from the 3D-ΔPDF is that Ti atoms separated by a real-space translation of (0.5,0.5,0.5) (highlighted in Fig. <ref type="figure" target="#fig_1">1B</ref>) show strong correlations. This is inconsistent with uncorrelated order between perpendicular (110) planes and is indicative that the scattering occurs from multiple, lower symmetry, domains.</p><p>Currently, no distortion model can simultaneously match both the observed scattering and 3D-ΔPDF results.</p><p>Work is on-going to understand the measured scattering using a combination of modelling techniques and ab initio simulations.</p><p>[1] Brink, F.J, Withers, R.L. and Norén, L., J. Solid State Chem. 161, 2001, 31.</p><p>[110]</p><p>[001]</p><p>A B</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (A) Reconstructed precession images of [1kl] (top) and [hk0.5] (bottom) crystallographic planes showing rods of diffuse scattering along (110) directions. Data collected at 105 K (left) and 280 K (right) show a slight reduction in diffuse intensity consistent with static correlated disorder. (B) 3D-ΔPDF through the real-space (110) plane showing displacements of neighbouring Ti cations. The highlighted region shows strong correlations between Ti atoms separated by a translation of [0.5,0.5,0.5].</figDesc><graphic coords="3,33.65,50.60,236.60,251.20" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

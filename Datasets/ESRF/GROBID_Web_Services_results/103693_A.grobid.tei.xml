@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fast scanning SAXS of living biological cells</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Sztucki</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Boram</forename><surname>Yu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mangalika</forename><surname>Sinha</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rita</forename><surname>Mendes</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Da</forename><surname>Silva</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Markus</forename><surname>Osterhoff</surname></persName>
+						</author>
+						<title level="a" type="main">Fast scanning SAXS of living biological cells</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">683C356936CB829FD29B669388A20FBC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this experiment was to implement fast scanning small angle x-ray scattering (SAXS) on biological cells in fixed-hydrated conditions. One major challenge here is radiation-induced gas formation, which can be diminished by providing continuous liquid flow inside the sample chamber. In our previous experiment (SC-5331), we used a custom-made flow chamber to flush out the undesired radiation-induced gases. However, due to the thick liquid layer inside the chamber, the cell signal obtained was weak. Thus, during this beamtime we aimed for improved conditions and obtained scanning SAXS data for fixed-hydrated SW13 cells with fluorescent keratin bundles (SK8/K18), in fixed-hydrated conditions at different flow rates. In addition, we also applied fast scanning SAXS on desmin-mutant fibroblast (Vim-/-+hDesR406W) and healthy muscle cell (HiPSC-cardiomyocytes) in freeze-dried conditions. Here our aim was to understand the differences in the intercellular structure for healthy and diseased fibroblast &amp; muscle cell lines. Note that measurements on living cells were not possible due to unsolved issues concerning biosafety and sample handling. Experimental setup and data collection: All the cells used in this experiment were grown on silicon nitride (SiN) windows with a total membrane area of 1.5 x 1.5 mm 2 . Before plating the Vim-/-+hDesR406W &amp; HiPSCcardiomyocytes cells, a 5% fibronectin solution was coated on the SiN windows. Afterwards, they were chemically fixed with 3.7% formaldehyde. The SK8/K18 cells, i.e., human epithelial cells, express fluorescently tagged keratins whereas the Vim-/-+hDesR406W &amp; HiPSC-cardiomyocytes were labelled for actin &amp; desmin, after fixation. The fixed-hydrated cell lines were stored in phosphate buffer saline (PBS) for transport to the synchrotron. For the fibroblast and muscle cells, the cell-windows were quickly submerged into the liquid ethane-propane mixture (37% ethane, 63% propane, kept at about -196 ℃). The frozen cells were dried in a home-built freeze-drie. Fully freeze-dried samples were stored inside a desiccator until measurement. During the beamtime, the flow chamber was prepared by stacking two silicon nitride windows on top of each other, one with cells ('cell window') and the other one with an SU8 structure ('flow guide window') with a predefined height of 20 μm (Figure <ref type="figure">1a</ref>). Both windows and tubing were placed on a 3D-printed resin frame coated with silicone latex. The side view of the assembled frame is shown in Figure <ref type="figure">1a</ref>. With the help from Peter van der Linden (ESRF), the chamber was connected to the syringe pumps (Figure <ref type="figure">1b</ref>); the inlet syringe was filled with degassed PBS. After the assembly, the chamber was mounted on the piezo stage and it was supported from both sides using a custom-designed metal holder fabricated by Lionel Lardière (ESRF) and Peter Luley (University of Göttingen). The volumetric flow rate in the chamber was varied between 25 μl/h and 500 μl/h to test the influence of the flow rate on the SAXS signal. The freeze-dried samples were simply mounted on the</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>piezo stage using a dedicated holder (Figure <ref type="figure" target="#fig_0">1c</ref>, bottom). The experiment was carried out at EH III of ID13 using a 15 keV nanofocused beam (0.25 x 0.25 μm 2 ). An Eiger 4M detector (Dectris) was employed to collect the diffraction patterns with an exposure time of 2 ms. The in-line optical microscope was used to select single or multiple cells/regions; thereafter the special ID13 fast scanning mode was setup with a step size between 0.25 and 0.5 μm in the horizontal &amp; vertical directions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>We considered tracking the degree of radiation damage on the cell at different flow rates by scanning the same cell region repeatedly. Thus, we selected 3 to 5 regions on the single cell window referring to the higher resolution optical microscopic images taken in our in-house laboratory. While scanning, we monitored the Xray darkfield (DF) contrast image, on-the-fly, to track the degree of radiation damage. For the single regions, we were able to scan 3 to 10 times in a row; therefore, we measured 4 fixed-hydrated samples and collected over 100 datasets. For the freeze-dried samples, we applied 'patch' scanning, which automatically split the window into 10 x 10 regions, acquiring 100 dataset per sample. In the X-ray DF contrast images after detector mask correction, cell shape can be well distinguished for the hydrated sample (Figure <ref type="figure">2a</ref>) and the freeze-dried sample (Figure <ref type="figure">2c</ref>). We calculated the radial integral from the individual scattering patterns to obtain the azimuthal intensity profiles. Figure <ref type="figure">2b</ref>, and 2d show the main orientation in real space, which is determined from the circular mean of the azimuthal intensity profile. For both fixed-hydrated and freeze-dried cell samples we observed random orientation for the empty (cell-free) positions and non-random orientation in the cellular positions which is in accordance to the X-ray DF contrast images. This finding reveals that despite the low electron density difference between the fixed-hydrated cells and their surrounding flow environment, we are able to detect the orientation of nanometric structures of subcellular components. These results encourage us to mimic the near-physiological conditions (i.e., fixed-hydrated) for real biological systems like the healthy and diseased fibroblast and muscle cell line in our next beamtime. We also plan to understand the effect of different flow rates on the obtained fast scan SAXS data. Due to the huge amount of data collected, the analysis is still ongoing.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Schematic of the flow chamber assembly used in the beamline a) Side view of the sandwich structure after assembly. b) Simplified flow device setup, pumps not shown. c) Side view of the assembled flow sample chamber (top) and the sample holder for the freeze-dried sample (bottom). In the flow sample chamber, PBS is flowing to +y direction while scanning.</figDesc><graphic coords="2,46.50,118.50,516.82,183.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure2:</head><figDesc>Figure2: Darkfield images of a) fixed-hydrated SK8/K18 c) freeze-dried Vim-/-+hDesR406W. Step size is 0.25 x 0.25 μm 2 and exposure time is 2 ms.b) and d) show the main orientation at each scan point.</figDesc><graphic coords="2,34.00,476.55,525.47,112.45" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

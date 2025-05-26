@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report on SAXS measurements of Histatin 5 at BM29 (MX-1858)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><surname>Jephthah</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>Post Office Box 124</addrLine>
+									<postCode>S-221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Henriques</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>Post Office Box 124</addrLine>
+									<postCode>S-221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Cragnell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>Post Office Box 124</addrLine>
+									<postCode>S-221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Skepö</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>Post Office Box 124</addrLine>
+									<postCode>S-221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Report on SAXS measurements of Histatin 5 at BM29 (MX-1858)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AE20E71EE79658A672F55C1248A4F254</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In order to understand the function and working mechanism of the intrinsically disordered salivary protein Histatin 5, it is required to know its structure and function in solution. By comparing simulation data from both atomistic molecular dynamics (MD) simulations and from coarse-grained Monte Carlo (MC) simulations with experimental data, the greatest understanding of such a system is achieved. It has however been discovered that different simulation models give rise to different structural properties when studying them as a function of temperature (see Figure <ref type="figure" target="#fig_0">1</ref>), rendering it impossible to know which simulation method to rely on without any complementary experimental data. To solve this problem, small-angle X-ray scattering (SAXS) measurements of Histatin 5 at different temperatures are vital. Thus, the aim of this project was two-fold: (i) to study structural and thermodynamic properties of Histatin 5 to obtain a more thorough understanding of its biological function, and (ii) to further develop and validate atomistic and coarse-grained simulation models for intrinsically disordered proteins (IPD's).</p><p>Histatin 5 is an intrisically disordered salivary protein which has been used as the model 1 IPD in our group due to it being very typical and representative for the IDP family. The protein is a short cationic peptide (24 amino acids and net charge +5 at pH 7) with a molecular weight of approximately 3 kDa. It has many known biological functions, of which one of the most important is its anti-fungal activity. The protein is also known to adopt random-coil conformation under physiological pH and at a temperature of approximately 20 • C. Previous studies have shown that heating induces a contraction of the conformational ensemble of many IDP's. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> Is is thus hypothesized that Histatin 5 will show similar behaviour. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>SAXS measurements on Histatin 5 were performed at BM29 in July 2016. The experiments were performed at pH 7, either completely salt free or in 140 mM NaCl. The concentration of the protein was varied in the range of 0.54-5.65 mg/ml. The measurements were performed at different temperatures in the range of 5-55.7 • C. The results showed that the radius of gyration, R g , of Histatin 5 increases slightly with temperature until at least 37 • C, after which it decreases rapidly, see Table <ref type="table" target="#tab_0">1</ref>. Thus, the experimental results have proven that neither of the previously mentioned simulation methods have been able to correctly capture the temperature dependence of Histatin 5. The initial trend in increased radius of gyration is similar to that of the coarse-grained MC method (see Figure <ref type="figure" target="#fig_0">1</ref>), but the sudden decrease after 37.0 • C is however not observed at all. The only simulation method to result in such a decrease in radius of gyration is the atomistic MD simulation using the Amber ff99SB-ILDN force field in combination with the TIP4P-D water model. This method does however show a constant decrease with increased temperature and is thus not appropriate for this purpose either. The Kratky plot of Histatin 5 at two selected temperatures can be seen in Figure <ref type="figure" target="#fig_1">2</ref>. The figure shows an increase to a plateau for both cases, indicating random chain conformation.</p><p>Thus, even though a heat-induced collapse was observed in the radius of gyration at high Since it is now known that the simulation models are insufficient to capture the temperatureinduced behavior of Histatin 5, studies have been initiated to investigate why and how this can be improved. For example, the temperature dependence of the dielectric constant in the water models used in the atomistic MD simulations is currently being investigated. Preliminary results indicates that although the actual value of the dielectric constant may deviate depending on what model is used, the general trend of the temperature dependence is still neatly captured.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: The radius of gyration as a function of the temperature for Histatin 5 in different simulations models.</figDesc><graphic coords="2,118.80,199.70,374.41,426.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Kratky plot of Histatin 5 at two selected temperatures. The gray curve represents the data from measurements at 37.0 • C (310.0 K), with a radius of gyration of 1.44 nm. The red curve represents the data from measurements at 55.7 • C (328.7 K), with a radius of gyration of 1.29 nm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>The radius of gyration of Histatin 5 at different temperatures as obtained from the distance distribution function.</figDesc><table><row><cell cols="2">T ( • C) R g (nm)</cell></row><row><cell>5</cell><cell>1.39</cell></row><row><cell>10</cell><cell>1.37</cell></row><row><cell>20</cell><cell>1.41</cell></row><row><cell>27</cell><cell>1.40</cell></row><row><cell>37</cell><cell>1.44</cell></row><row><cell>50</cell><cell>1.28</cell></row><row><cell>55.7</cell><cell>1.29</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Single-molecule spectroscopy of the temperature-induced collapse of unfolded proteins</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Nettels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sonja</forename><surname>Müller-Späth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Küster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hagen</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominik</forename><surname>Haenni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Rüegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Reymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Armin</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Kubelka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><surname>Heinz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Gast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">B</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><surname>Schuler</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0900622106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="20740" to="20745" />
+			<date type="published" when="2009-12-08">2009</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nettels, D.; Müller-Späth, S.; Küster, F.; Hofmann, H.; Haenni, D.; Rüegger, S.; Rey- mond, L.; Hoffmann, A.; Kubelka, J.; Heinz, B.; Others, Single-molecule spectroscopy of the temperature-induced collapse of unfolded proteins. Proceedings of the National Academy of Sciences 2009, 106, 20740-20745.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Intrinsically Disordered Proteins and Their Environment: Effects of Strong Denaturants, Temperature, pH, Counter Ions, Membranes, Binding Partners, Osmolytes, and Macromolecular Crowding</title>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">N</forename><surname>Uversky</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10930-009-9201-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Protein Journal</title>
+		<title level="j" type="abbrev">Protein J</title>
+		<idno type="ISSN">1572-3887</idno>
+		<idno type="ISSNe">1875-8355</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">7-8</biblScope>
+			<biblScope unit="page" from="305" to="325" />
+			<date type="published" when="2009-09-19">2009</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Uversky, V. N. Intrinsically disordered proteins and their environment: effects of strong denaturants, temperature, pH, counter ions, membranes, binding partners, osmolytes, and macromolecular crowding. The protein journal 2009, 28, 305-325.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Temperature-dependent solvation modulates the dimensions of disordered proteins</title>
+		<author>
+			<persName><forename type="first">René</forename><surname>Wuttke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hagen</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Nettels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Madeleine</forename><forename type="middle">B</forename><surname>Borgia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeetain</forename><surname>Mittal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">B</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><surname>Schuler</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1313006111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="5213" to="5218" />
+			<date type="published" when="2014-03-21">2014</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wuttke, R.; Hofmann, H.; Nettels, D.; Borgia, M. B.; Mittal, J.; Best, R. B.; Schuler, B. Temperature-dependent solvation modulates the dimensions of disordered proteins. Pro- ceedings of the National Academy of Sciences 2014, 111, 5213-5218.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

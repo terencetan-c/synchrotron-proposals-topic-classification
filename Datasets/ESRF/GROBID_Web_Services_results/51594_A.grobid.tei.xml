@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tomographic investigation of the coupled mechanism of creep-cavity growth</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alexander</forename><surname>Rack</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Ecole des Mines de Saint-Etienne</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">András</forename><surname>Borbély</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Ecole des Mines de Saint-Etienne</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Tomographic investigation of the coupled mechanism of creep-cavity growth</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">294A37819ECAB1D304BBEF87A6F29473</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Long-term creep tests were performed on two flat hollow cylinders made of P91 (9-1%CrMoVNb) and E911 (9-1-1%CrMoWVNb) martensitic steels. The main difference between them is related to the extra 1wt% of W present in E911, which initially is in solid-solution, but with time stabilizes the M 23 C 6 carbides and precipitates at grain boundaries in form of Fe 2 W Laves phase. The samples were subjected to multi-axial loads characteristic of steam pipes under in-service conditions. Microtomography was performed at beam-line ID19 using X-rays with energy of 52 keV. The detector had an effective pixel size of 0.28 µm and a field of view of about 0.6 mm x 0.6 mm, which imposed the measurement of five adjacent sub-volumes in order to cover the whole length of the sample of 2 mm. The sub-volumes were merged later together using image correlation. To characterize creep damage voids were identified and extracted from reconstructions using a gradient based local threshold. Only voids having a volume larger than 125 voxels (~ 2 µm 3 ) were analyzed. This lower limit was selected in agreement with literature data indicating that the shape and volume of an ellipsoid can be already well approximated by a structure of 5x5x5 voxels. Furthermore, void shape was characterized in terms of two parameters: the complexity factor, CF and the elongation, e <ref type="bibr" target="#b0">[1]</ref>. Applying visually determined threshold values for CF (CF &lt; 0.5) and e (e &lt; 1.9 for P911 and e &lt; 2.1 for P91) the voids were separated in coalesced and non-coalesced classes and both were analyzed. Figures <ref type="figure">1a</ref> and <ref type="figure">1b</ref> show the voids spatial distribution in the two samples ((a) qualitative image) and (b) the distrubution of void density along the tube wall. It is evident that there are more voids in the P91 steel (contrary to the shorter creep time of this sample) compared to E911 material.</p><p>The diffrerence between the damage behavior of the two steel has two origins: 1. The garin size in P91 steel is just the half of the grain size in E911 steel. This means there are more potential grain boundary void locations in P91. 2. The 911 steel contains additional 1wt.% of W, which leads to precipitation of Fe 2 W laves phase at grain boundaries. These precipitates hinder grain boundary sliding, considered as the main void nucleation mechnism at triple line or quadruple points <ref type="bibr" target="#b1">[2]</ref>.</p><p>Next, void growth was simulated according to the constrained diffusional mechanism predicting the following growth-rate of the void radius R <ref type="bibr" target="#b2">[3]</ref>: The void size predicted on the basis of Eq. ( <ref type="formula">1</ref>) is in reasonable agreement with experimental data (Fig. <ref type="figure">2</ref>) indicating that the model of constrained diffusional growth is a good approximation for predicting void growth in P91 and E911 steels. Present analysis is essentially based on the 3D high-resolution information obtained by synchrotron X-ray microtomography, which allowed identifying the presence of the constrained growth-mechanism based on the sizedistribution of non-coalesced voids. a) b) Fig. 2. Distribution of largest voids in E911 and P91 steels along the tube wall. Points are experiperimental data, Lines are simulation results.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>is the Boltzmann constant, T is the temperature, Ω is the atomic volume and b D d is the product between the grain boundary width d and the grain boundary diffusion coefficient b D . The average grain size g and the average inter-void spacing λ were evaluated from metallographic sections and tomographic reconstructions, respectively. In simulations the product between the sintering stress 0 σ and the fraction of non-is the component of the applied stress normal to the grain boundary. Since the actual stress-state is tri-axial, ∞ I σ was considered equal to the maximum-principal stress and was obtained from finite element simulations describing the creep deformation of the tubes. Modeling was done with the commercial software ABAQUS using axisymmetric elements and a viscoplastic Norton-law.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .Fig. 2 .</head><label>12</label><figDesc>Figure 1. Damage distribution in E911 and P91 steels: (a) tomographic reconstruction of damage after 37 800 and 10 200 h, respectively. (b) Void density of all cavities through the wall thickness (indicated by the Z-axis, which has the origin at the inner surface of the tub.</figDesc><graphic coords="2,34.05,95.25,270.95,199.70" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ID19 from: 28/03/2014/ to: 29/03/2014 &amp; from: 02/07/2014/ to: 03/07/2014</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">In situ 3D quantification of the evolution of creep cavity size, shape, and spatial orientation using synchrotron X-ray tomography</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Isaac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sket</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Reimers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Camin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sauthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Pyzalla</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2007.05.108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: A</title>
+		<idno type="ISSN">0921-5093</idno>
+		<imprint>
+			<biblScope unit="volume">478</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="108" to="118" />
+			<date type="published" when="2008-04">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Isaac A, Sket F, Reimers W, Camin B, Sauthoff G, Pyzalla AR (2008) Mater. Sci. Eng. A 476:108</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Three-dimensional analysis of creep voids in copper by serial sectioning combined with large field EBSD</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dzieciol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borbély</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/1743284714y.0000000593</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Technology</title>
+		<title level="j" type="abbrev">Materials Science and Technology</title>
+		<idno type="ISSN">0267-0836</idno>
+		<idno type="ISSNe">1743-2847</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="540" to="546" />
+			<date type="published" when="2015-03">2015</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Abbasi, K. Dzieciol and A. Borbély, (2015) Mater. Sci. Technol. 31, 540-546.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Fracture at High Temperature</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Riedel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+			<publisher>Springer Verlag</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riedel H (1987) Fracture at High Temperature, Springer Verlag, Berlin.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

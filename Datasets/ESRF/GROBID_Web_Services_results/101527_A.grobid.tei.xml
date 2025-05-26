@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effect of Nickel re-oxidation on the electrode damage of a Solid Oxide Cell investigated by X-ray nanotomography</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>02/08/2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Pauline</forename><surname>Gravier</surname></persName>
+						</author>
+						<title level="a" type="main">Effect of Nickel re-oxidation on the electrode damage of a Solid Oxide Cell investigated by X-ray nanotomography</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">02/08/2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">573ED5B457F0A88AB3F8B0605101ADEC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head><p>Maxime Hubert* (CEA, LITEN), Jérôme Laurencin* (CEA, LITEN), Davide Cademartori* (Univ. Genoa), Aurélien Doitrand* (INSA Lyon) , Amandine Jay* (CEA, LITEN)   </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Solid Oxide Cells (SOCs) are electrochemical devices working at high temperature. They are considered as one of the most promising technology for the massive production of hydrogen in electrolysis mode or the production of electricity when operated in fuel cell mode. They consist of a dense electrolyte, usually made of Yttria Stabilized Zirconia (YSZ), sandwiched between two porous electrodes. Because of system failures in operation (e.g. fuel shortage or air re-introduction during the system's shutdown), the nickel used in the ceramic-metallic electrode (Ni-YSZ cermet) can be re-oxidized inducing its volume expansion. The Ni swelling within the cermet generates high tensile stresses in the YSZ backbone leading to the formation of micro-cracks. This mechanical damage causes a significant decrease in the SOC electrochemical performances. However, the fracture mode in the electrode microstructure as well as its impact on the electrochemistry are not well understood yet. Therefore, the main goal of this experiment is to characterize the distribution of micro-cracks in the Ni-YSZ cermet generated at different levels of Ni re-oxidation. For this purpose, it is essential to combine a very high spatial resolution to detect the cracks while keeping a large field of view to be representative of the overall electrode microstructure. Moreover, a high-energy beam is needed to distinguish the different phases and to ensure the transmission across the high-absorbent ceramic materials of SOCs. The X-ray nano-holotomography technique available at the ESRF on the ID16A beamline is especially relevant for this study as it fullfils all the requirements.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental method</head><p>The experiment was carried out on the ID16A NanoImaging beamline of the ESRF. The holotomographic acquisitons were performed at 33.6 keV, recording 2000 projections over 180° for each scans with a resolution of 10 nm. The specific acquisiton procedure with a random motion has been used since its elevance was already proved for Solid Oxide Cells during previous experiments. The phase retrieval was done using input data correpsonding to the known materials in the samples.</p><p>During the experiment, five samples have been scanned in their pristine state. All these samples were cut by Plasma-Focused Ion Beam (PFIB) and fixed on a specific pin adapted to the beamline setup. Two of these samples have been oxydized and reduced ex-situ before a new acquisiton during the beamtime (Figure <ref type="figure" target="#fig_0">1</ref>). The redox cycle produced micro-cracks in the YSZ backbone. Since the same sample have been scanned before and after oxydation, we should be able to reveal the location for crack appearance. The three other samples will be partially re-oxydized with a controlled time and analyzed using the FIB-SEM technique (destructive technique). In addition, two samples after a redox cycle of 30 min and 60 min have been also characterized during the beamtime. These samples will help for the good understanding of the crack appearance. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The experiment was a success. We have especially scanned successfully two samples that have been aged exsitu during the beamtime, validating the protocol from sample preparation to redox treatment. The data treatment to detect the micro-cracks is still in progress. A first step of image registration has been achived for the reconstructions that have been done in pristine state and after redox cycle. Nevertheless, we are at the limit of the spatial resolution of the beamline, making the clear detection of cracks very challenging. We are also working on solutions to improve image quality using Machine Learning methods. In addition to the holotomographic acquisitions, a Near Field Ptychographic scans has been also achieved on one sample. This technique should allow a better spatial resolution to be reached. However, the data treatment of this kind of acquisition is more complex and time consuming. The operatio is still on-going in link with people of the beamline.</p><p>At least one article will be written after the final data analysis obtained on the ID16A beamline.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -Projection obtained on the beamline for the same sample (a) in pristine state and (b) after an ex-situ redox cycle.</figDesc><graphic coords="2,59.95,188.64,325.49,188.45" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

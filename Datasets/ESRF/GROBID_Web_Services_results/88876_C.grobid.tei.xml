@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cryo-EM structural studies of a potential bioscavenger and detoxification biocatalysts -human butyrylcholinesterase in its native tetrameric form Experiment number: MX 2007</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-07-20">20/07/2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Hons</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Konstantin</forename><surname>Boyko</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Galina</forename><surname>Kachalova</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Research Center of Biotechnology</orgName>
+								<orgName type="institution">RAS</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Research Center of Biotechnology</orgName>
+								<orgName type="institution" key="instit1">Timur Baimukhametov*</orgName>
+								<orgName type="institution" key="instit2">National Research Center &quot;Kurchatov Institute&quot; Alena Nikolaeva</orgName>
+								<orgName type="institution" key="instit3">RAS</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Research Center of Biotechnology</orgName>
+								<orgName type="institution" key="instit1">National Research Center &quot;Kurchatov Institute&quot; Vladimir Popov</orgName>
+								<orgName type="institution" key="instit2">RAS</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cryo-EM structural studies of a potential bioscavenger and detoxification biocatalysts -human butyrylcholinesterase in its native tetrameric form Experiment number: MX 2007</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-07-20">20/07/2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BE5D080077F9C358E010891031A3427E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Human butyrylcholinesterase (BChE) is a potential bioscavenger of toxic organophosphates. It can be used as an antidote to protect acetylcholinesterase and is a protein of choice for development of detoxification biocatalysts for clinical applications. To date, all the attempts to obtain the atomic structure of the full-length glycosylated tetrameric BChE were unsuccessful. The aim of the project was to use Cryo-EM technique to reveal the structure of the native tetrameric BChE and to clarify the details of its tetrameric and dimeric interfaces. Based on our preliminary experiments we estimated the optimal concentration of the sample for the experiment, prepared the grids and conducted Cryo-EM experiments at the ESRF instrument equipped with K2 detector.  <ref type="table" target="#tab_0">RELION 2.1  3 According to ResMap 1.1.4</ref> Examples of obtained images are shown on Figure <ref type="figure">1</ref>. Noteworthy, that side view on BChE tetramers can also be projection of BChE dimers. Obtained images were processed as described below (Table <ref type="table" target="#tab_0">1</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data processing</head><p>Frame alignment and dose weighting were performed using UCSF Motioncor2. CTF estimation on aligned, unweighted, micrographs was performed with Gctf. All data processing steps except for the particle picking procedure were conducted in RELION 2.1. The BChE particles were picked automatically using Gautomatch software (<ref type="url" target="https://www.mrc-lmb.cam.ac.uk/kzhang/Gautomatch/">https://www.mrc-lmb.cam.ac.uk/kzhang/Gautomatch/</ref>) with an automatically generated template. This resulted in 170,963 particles, which were extracted (256×256 pixels) and downsampled (128×128 and 64×64 pixels) for the iterative reference-free 2D classification. In total, 49,261 particles of 2D classes that possessed the quaternary structure features (Figure <ref type="figure" target="#fig_1">2A</ref>) were subjected to 3D classification. A low-resolution initial tetramer model, required for the 3D classification stage, was built in EMAN2 using the corresponding class averages. The 3D classification resulted in five 3D classes, of which only one class had the quaternary structure features characteristic of tetramer. Subsequent 3D refinement of this tetrameric class containing 6712 particles was done without applying symmetry. This subset of particles was used for the final refinement (Figure <ref type="figure" target="#fig_1">2B</ref>). The refinement was made using a soft mask encompassing the whole map and C2 symmetry based on preliminary knowledge of the tetramer structure and led to an improvement of the resolution. The 7.6 Å resolution of the final map was estimated by the 0.143 FSC criterion after a postprocessing procedure (Figure <ref type="figure" target="#fig_1">2C</ref>). Estimation of the local resolution was done with ResMap with the soft mask used in postprocessing (Figure <ref type="figure" target="#fig_1">2D</ref>). The final 3D map was deposited in the Electron Microscopy Data Bank (EMDB) under the accession code EMD-0256. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CryoEM model of BChE tetramer</head><p>The dataset was collected using a K2 detector on a Titan Krios electron microscope. Raw particles showed a moderate distribution of the expected tetramers, and reference-free 2D averages (Figure <ref type="figure" target="#fig_1">2A</ref>) clearly demonstrate the presence of the expected oligomeric state. An initial reconstruction without symmetry applied gave a 10.5 Å resolution. C2 symmetry application, together with mask-enforced reconstruction, provided a 9.1 Å resolution, which was finally increased to 7.6 Å after postprocessing (Figure <ref type="figure" target="#fig_1">2C</ref>, Table <ref type="table" target="#tab_0">1</ref>). This confirmed that the tetramer is a dimer of dimers, as previously stated. The final cryoEM map exhibited characteristic features of the BChE tetramer: a four-monomer arrangement with well-resolved secondary structural elements, as well as a left-handed superhelical C-terminal tail which lies in the center of the molecule along the 2-fold axis of the tetramer, perpendicular to its "plane" (Figure <ref type="figure" target="#fig_2">3A</ref>,<ref type="figure">B</ref>). </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1a :</head><label>1a</label><figDesc>Fig. 1a: Top view on BChE tetramers are highlighted by green circle. Fig. 1b: Side view on BChE tetramers / dimers are highlighted by green circle.</figDesc><graphic coords="2,39.25,247.55,251.65,244.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Quality of the cryoEM data. A -Class averages obtained after 2D classification, subjected to 3D classification. B -Distribution of Euler angles (generated by RELION). С -FSC curves of the masked density maps without imposing symmetry (dotted line) and with C2 symmetry applied (solid line) (according to RELION). D -Local resolution of the final density map estimated with MonoRes, shown on the complete volume (left) and on a coronal cross-section (right).</figDesc><graphic coords="3,33.95,36.85,467.65,263.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. CryoEM map of the BChE tetramer. A-Top view of the map, where the 2-fold axis, which coincides with the C-terminal tail of BChE, is perpendicular to the plane of the screen. The map is depicted as a semitransparent gray surface. The BChE tetramer model fitted into the experimental density is shown as a cartoon model and colored by monomers. The polyproline peptide is colored in black and indicated with yellow circle. B -Side view of the map. The representation is the same as that in panel A.</figDesc><graphic coords="3,33.95,548.05,467.55,191.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>CryoEM data collection and processing statistics</figDesc><table><row><cell>Data collection</cell></row><row><cell>Accelerating voltage, kV</cell></row></table><note><p>1 Calibrated pixel size at the detector 2 According to</p></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">3D structure of the natural tetrameric form of human butyrylcholinesterase as revealed by cryoEM, SAXS and MD</title>
+		<author>
+			<persName><forename type="first">Konstantin</forename><forename type="middle">M</forename><surname>Boyko</surname></persName>
+			<idno type="ORCID">0000-0001-8229-189X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Timur</forename><forename type="middle">N</forename><surname>Baymukhametov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yury</forename><forename type="middle">M</forename><surname>Chesnokov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Hons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sofya</forename><forename type="middle">V</forename><surname>Lushchekina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petr</forename><forename type="middle">V</forename><surname>Konarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexey</forename><forename type="middle">V</forename><surname>Lipkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><forename type="middle">L</forename><surname>Vasiliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patrick</forename><surname>Masson</surname></persName>
+			<idno type="ORCID">0000-0002-7837-3662</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">O</forename><surname>Popov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michail</forename><forename type="middle">V</forename><surname>Kovalchuk</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biochi.2018.10.017</idno>
+		<ptr target="https://doi.org/10.1016/j.biochi.2018.10.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochimie</title>
+		<title level="j" type="abbrev">Biochimie</title>
+		<idno type="ISSN">0300-9084</idno>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="196" to="205" />
+			<date type="published" when="2018">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>we obtained for the first time the natural tetrameric structure of human BChE at a 7.6 Å resolution 3D structure of the natural tetrameric form of human butyrylcholinesterase as revealed by cryoEM, SAXS and MD</note>
+	<note type="raw_reference">To summarized, we obtained for the first time the natural tetrameric structure of human BChE at a 7.6 Å resolution. The structure differs significantly from the models proposed earlier at the level of the quaternary structure, including in the arrangement of monomers and orientation of the C-terminal tail. The data was published in the following article: Konstantin M. Boyko, Timur N Baymukhametov, Yury M Chesnokov, Michael Hons, Sofya V Lushchekina, Petr V Konarev, Alexey V Lipkin, Alexandre L Vasiliev, Ph.D. Patrick Masson, Vladimir O Popov, Michail V Kovalchuk &quot;3D structure of the natural tetrameric form of human butyrylcholinesterase as revealed by cryoEM, SAXS and MD&quot; Biochimie, 2018, https://doi.org/10.1016/j.biochi.2018.10.017.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

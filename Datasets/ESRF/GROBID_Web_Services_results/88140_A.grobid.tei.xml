@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Radiation therapy dosimetry using a uniform monochromatic X-ray beam Experiment number</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-04-14">14 April 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Herwig</forename><surname>Requardt</surname></persName>
+							<email>requardt@esrf.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution">-Warwick University Jonathan Duffy -Warwick University Sam Manger -Warwick University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jenny</forename><surname>Spiga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">-Warwick University Jonathan Duffy -Warwick University Sam Manger -Warwick University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alberto</forename><surname>Bravin -Esrf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">-Warwick University Jonathan Duffy -Warwick University Sam Manger -Warwick University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Herwig</forename><surname>Requardt -Esrf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">-Warwick University Jonathan Duffy -Warwick University Sam Manger -Warwick University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paolo</forename><surname>Pellicioli -Esrf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">-Warwick University Jonathan Duffy -Warwick University Sam Manger -Warwick University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mariele</forename><surname>Romano -Esrf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">-Warwick University Jonathan Duffy -Warwick University Sam Manger -Warwick University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Radiation therapy dosimetry using a uniform monochromatic X-ray beam Experiment number</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-04-14">14 April 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B857111AD4F192EE275E6E29618F62B3</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of our experiment was to calibrate and benchmark the depth dose curves simulated with the Monte Carlo code Geant4 using a monochromatic X-ray beam. This step is essential to prepare the dose prescription for the in-vivo preclinical studies. As indicated in the proposal, the experiment has been performed at the ID17 hutch, which can provide intense and uniform quasi monochromatic beams in the energy range 30 -140 keV, and where similar experiments have been conducted in the past using different parameters.</p><p>In the first part of it, we irradiated a solid water phantom made of slabs with different width (typically 0.5-1cm width), so the final dimension was of 30x30x12 cm 3 . After the initial alignment, we conducted a dosimetry calibration using a PTW semiflex chamber before each measurement. In terms of dosimeters, we used Gafchromic films of two types: EBT3, widely used in clinics (sensitivity dose range 0.1 -20 Gy), and HD-V2, typically used in Microbeam Radiation Therapy for dose evaluation (dose range 10 -1000 Gy). The irradiation of HD-V2 films required three times the time compared to EBT3, being the sensitivity lower. The films were inserted at different depths in the phantom (surface, 5-10-20-30-40-60-100 mm). The measurements were performed using two different beam sizes (1x1 cm 2 and 2x2 cm 2 ), and at 10 energies <ref type="bibr">(30-35-40-45-50-55-60-80-120-140 keV)</ref>. In each case we gave an entrance dose of 2Gy.</p><p>In figure <ref type="figure" target="#fig_0">1</ref> we report the preliminary comparison of three depth dose profiles obtained with Geant4 simulations with the experimental data. They appear to be in good agreement, although it looks like Geant4 slightly underestimates the dose delivered for very low energies (30 keV). In order to be able to read our films with the scanner we took three calibration curves at 30, 50 and 100 keV. For each energy, we delivered a dose of 0.5-1-2-5-10-15 Gy on a EBT3 gafchromic film positioned at 0.5 cm depth in the phantom. We couldn't read the films as they require at least 4-5 days to stabilise, but the ionization chamber gave us immediate comparable results. It took us two days to complete this first part of the experiment.</p><p>During the third day, we focalised on the dose enhancement evaluation using three different enhancers: Iodine (10 mg/ml), Gadolinium (10 mg/ml) and Gold (1.8 mg/ml). We made the measurements using a PTW semiflex chamber situated at different depths in a phantom comprising a combination of pmma slabs of about 5x5x2 cm 3 and two sample containers. We wanted to study the attenuation of the X-ray beam due to the presence of the dose enhancers. To be able to take into account the k edges of the fluids (Iodine 33.17keV, Gadolinium 50.2 keV and Gold 80.7249 keV) and appreciate the differences, we considered three sets of energies: 30-35 keV, 45-55 keV and 75-85 keV. For each energy, we conducted a characterization filling the containers with water. This second part of the experiment comprises a total of 195 measurements and some preliminary results are shown in figure <ref type="figure">2</ref> for Iodine. We report the linear attenuation coefficient and it looks like we can expect a dose enhancement with iodine. Surely there is some more investigation needed, which will be the aim of our next proposal. The local contacts at the beamline have been really helpful and were keen on giving their scientific opinion, who gave some input for interesting discussions on what to investigate next. Figure 2 -Dose Enhacement Factor vs Energy 0.00E+00 5.00E+00 1.00E+01 1.50E+01 2.00E+01 2.50E+01 3.00E+01 3.50E+01 4.00E+01 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 0 20 40 60 80 100 120 DEF Energy (keV) Dose Enhancement Factor vs Energy Iodine Iodine Attenuation</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -Figure</head><label>1</label><figDesc>Figure 1 -Comparison of simulated and experimental depth dose curves</figDesc><graphic coords="3,34.65,147.93,375.84,250.32" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">528708E5A8F7186AD7DB82C5535303AC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: Following dissolved nickel from advanced Pt-alloyed ORR catalysts in a real fuel cell Experiment number: CH-6341 Beamline: ID26 Date of experiment: from: 03/05/2022 to: 06/05/2022 Date of report: Shifts: 9 Local contact(s): Jan Pieter Glatzel Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Michal Ronovsky -ESRF Mila Myllymaki -University of Helsinki Jakub Drnec -ESRF</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The first day was dedicated to the experimental setup and beamline alignment due to the complexity of the setup and measurement scheme. On the second day, we optimized radiation dose. The Nafion membrane of the fuel cell is very susceptible to radiation damage, especially at lower energies of 7keV, and that we need to control tightly the overal dose by severely limiting the measurement time. On the third day, we put a new sample in the fuel cell and use previously developed limited exposure measurement scheme, where the dose was kept to absolute minimum. This paid off well as we were able to not only proved the depth profiling concept but also acquired publication-quality data, which summary is below.</p><p>This experiment aims to track dissolved nickel ions in the fuel cell and find whether it ends up in the membrane/catalyst layer/gas diffusion layer or anode/cathode side. We have found that the required information can be obtained from the pre-edge region. Thus, in Figure <ref type="figure" target="#fig_1">1</ref>, we show a linear combination fitting of the pre-edge region with three reference spectra: NiO (yellow), Ni foil (green), and NiSO4 solution in the Nafion membrane (purple).</p><p>We identified the dissolution of Ni out of the catalyst layer; see Figure <ref type="figure" target="#fig_1">1</ref>, first column. Figure <ref type="figure" target="#fig_1">1a</ref>) shows spectra before the accelerated stress test (AST). A significant pre-edge feature is present and probably associated with Ni 0 species (yellow). As we proceed with the AST, Ni leaches out of the catalyst, and Ni 0 species is oxidized to Ni 2+ . See a smaller contribution from Ni 0 and an increase in contribution from Ni 2+ (purple) in Figure <ref type="figure" target="#fig_1">1b</ref>). After 6k cycles, there are almost no Ni 0 species. These spectra were measured with all five analyzers crystals to limit the dose and thus will not provide any depth information. The Ni 2+ signal was identified by matching to the reference samples. The best match was mixture of two Ni 2+ species: signal from the membrane which was soaked in Ni solution (large majority) and Ni 2+ from NiO reference. (small minority) Interestingly, these were the only reference well matching the XAS spectra for Ni 2+ species pointing to particular chemical environment of the Ni 2+ in ionomer. In total we measured about 30 different references of compounds with different Ni oxidation state.</p><p>The depth information was measured in subsequent steps. Once we dissolved nickel, we measured XANES with individual crystals. The geometry of analyzers crystals was set up so that crystal 5 (C5) is the most grazing (the most surface sensitive), with its center at only 13 deg from the sample plane. Crystal 1 (C1) was the least grazing (the least surface sensitive), with its center at 41 deg from the sample surface plane. Crystal 3 (C3) was in between. Before we set the potential to draw current from the cell that would move Ni around, we measured spectra at open circuit potential (OCP), see Figures d), e), and f). We see an increased contribution of Ni 2+ from NiO and Ni 0 from Ni foil from C1 to C5. As expected, most of the metallic nickel and NiO are on the surface where the catalyst layer is. The strongest contribution from Ni 2+ membrane species is found in the C1 and thus deeper in the sample, where the membrane is. Afterward, we holt a potential of 0.5 V to flow current to redistribute Ni within the sample. After 2h -Figure <ref type="figure" target="#fig_1">1</ref> g), h), i); the trend from C1 to C5 is similar with the most metallic nickel and NiO at the surface, but their ratios to Ni 2+ in the membrane are lower. This suggests that the 2h-potential hold further dissolved Ni from the catalyst layer, which moved into the membrane. Afterward, we set the potential for 0.5 V for two more hours. Figure <ref type="figure" target="#fig_1">1</ref> i), k), l); shows data after 4h in total. Interestingly, the trend flips, and the most metallic nickel is present at C1 while C5 shows the least contribution of metallic nickel. This result strongly suggests a reduction of Ni 2+ in the membrane to metallic nickel. Reduction through hydrogen crossover phenomenon is well described in the literature for platinum but, to our best knowledge, was never observed for Ni. Understanding of the Ni chemistry within the membrane to a such level shown here can potentially have large consequences for MEA design, as proton conductivity and the overall performance of the fuel cell is likely affected by those Ni species. Overall, this experiment was successful as we proved that our inhouse XAS hydrogen fuel cell design delivers both high current densities and a sufficient Ni fluorescence signal. As we found that the information can be satisfactorily obtained from the pre-edge region, we can significantly improve the quality and speed of data acquisition in the future beamtimes. Use of the 2D detector will also allow simultaneous signal acquisition from different crystals, thus acquiring the depth information in one scan.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: A set of measurements fitted using a linear combination of reference spectra. Figures a) to c) are measured with all 5 crystals. a) is the beginning of life before the AST, b) is after 1k cycles of AST,and c) is after 6k cycles of AST. Ni dissolution is apparent. Spectra d), g), j) were measured with C1, spectra e), h), k) were measured with C3, and spectra f), i), l) were measured with C5.</figDesc><graphic coords="3,57.84,306.84,501.24,265.20" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

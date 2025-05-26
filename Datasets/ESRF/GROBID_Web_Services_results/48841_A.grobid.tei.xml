@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Screening the Incorporation of Amino Acids into an Inorganic Crystalline Host: the Case of Calcite</title>
+				<funder ref="#_Jm75Htb">
+					<orgName type="full">Technion Executive Vice-President for Research</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">ESRF (ID31)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-06-20">2012-06-20</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Shirly</forename><surname>Borukhin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Leonid</forename><surname>Bloch</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Tzvia</forename><surname>Radlauer</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Adrian</forename><forename type="middle">H</forename><surname>Hill</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Fitch</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Boaz</forename><surname>Pokroy</surname></persName>
+							<email>bpokroy@technion.ac.il</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Engineering and the Russell</orgName>
+								<orgName type="institution">Berrie Nanotechnology Institute Technion Israel Institute of Technology Haifa</orgName>
+								<address>
+									<postCode>32000</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">European Synchrotron Radiation Facility</orgName>
+								<orgName type="laboratory">www.afm-journal.de www.MaterialsViews.com</orgName>
+								<address>
+									<postBox>BP 220</postBox>
+									<postCode>F-38043</postCode>
+									<settlement>Grenoble Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Screening the Incorporation of Amino Acids into an Inorganic Crystalline Host: the Case of Calcite</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Advanced Functional Materials</title>
+						<title level="j" type="abbrev">Adv Funct Materials</title>
+						<idno type="ISSN">1616-301X</idno>
+						<idno type="eISSN">1616-3028</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">22</biblScope>
+							<biblScope unit="issue">20</biblScope>
+							<biblScope unit="page" from="4216" to="4224"/>
+							<date type="published" when="2012-06-20" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">E510FE38EAD7D397483A67AEF9A8264F</idno>
+					<idno type="DOI">10.1002/adfm.201201079</idno>
+					<note type="submission">Received: April 18, 2012</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Organisms produce more than 70 different biogenic crystals with different chemistries and crystallographic structures at room temperature and standard pressure. One of the most intriguing characteristics of these structures is their ability to incorporate biological molecules into the crystalline structures, resulting in nanocomposites. <ref type="bibr">[ 1 , 2 ]</ref> As little as a small weight percent of incorporation leads to signifi cant alteration in some of the chemical and physical properties, such as fracture behavior, hardness, lattice strains, texture, solubility, and more. The ability to incorporate proteins has also been demonstrated in synthetic systems such as nanometer-sized micelles and even functionalized nanoparticles, but the basic questions still remain: what is the mechanism by which proteins become incorporated into inorganic single crystals? Which amino acids in the protein sequences are responsible for this incorporation and facilitate it? In this study we took a reductionist approach in which we mapped all the amino acids in terms of their incorporation into calcite, using high-resolution synchrotron powder diffraction and analytical chemistry. The insights we propose are important for the interaction of organic molecules and inorganic substances in general, and more specifi cally for those working on hybrid materials and interfaces, biomimetic materials, and obviously in the fi eld of biomineralization.</p><p>The precise structure/property tuning of biogenic crystals is achieved via specialized organic molecules in the form of vesicles and/or organic frameworks. These organic molecules are located between individual crystallites and are termed the intercrystalline organic phase. Some 40 years ago Towe and Thompson, <ref type="bibr">[ 3 ]</ref> using transmission electron microscopy (TEM), showed that there is organic matter within aragonite tablets of the nacre of the Mytilus bivalve shell. Almost two decades later Berman et al. <ref type="bibr">[ 4 ]</ref> showed that proteins extracted from biogenic single crystals not only interact with calcite crystals grown in situ but even get entrapped within these single crystals. They attributed this phenomenon to the conchoidal nature of the fracture of biogenic crystals: For example, the cracks do not propagate rapidly along the cleavage planes but rather are defl ected by the intracrystalline proteins. Berman et al. <ref type="bibr">[ 5 ]</ref> and Aizenberg et al. <ref type="bibr">[ 6 ]</ref> went on to show, by means of single-crystal diffraction, that the coherence length of biogenic crystals is anisotropic and is lower than that of its inorganic counterparts, and that by this method it is possible to determine the specifi c planes on which the intracrystalline proteins are located. It was postulated that these proteins adhere to specifi c crystallographic planes, <ref type="bibr">[ 4 , 6 , 7 ]</ref> probably at steps and kinks. <ref type="bibr">[ 8 ]</ref> Since those fi rst observations, many biogenic crystals were found to be formed via an amorphous precursor phase <ref type="bibr" target="#b20">[ 9 ]</ref> rather than by classical crystal growth. This fi nding, however, does not contradict the concept of intracrystalline molecules. Moreover, it is feasible that these organic molecules in many cases actually become entrapped during the amorphous-to-crystalline transition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Screening the Incorporation of Amino Acids into an Inorganic Crystalline Host: the Case of Calcite</head><p>Organisms have the ability to produce structures with superior characteristics as in the course of biomineralization. One of the most intriguing characteristics of biominerals is the existence of intracrystalline macromolecules. Despite several studies over the last two decades and efforts to mimic the incoporation of macromolecules synthetically, a fundamental understanding of the mechanism of incorporation is as yet lacking. For example, which of the common 20 amino acids are really responsible for the interaction with the mineral phase? Here a reductionist approach, based on high-resolution synchrotron powder diffraction and analytical chemistry, is utilized to screen all of these amino acids in terms of their incorporation into calcite. We showed that the important factors are amino-acid charge, size, rigidity and the relative pKa of the carboxyl and amino functional groups. It is also demonstrated that cysteine, surprisingly, interacts very strongly with the mineral phase and therefore, like acidic amino acids, becomes richly incorporated. The insights gained from this study shed new light on the incorporation of organic molecules into an inorganic host in general, and in particular on the biomineralization process. DOI: 10.1002/adfm.201201079 and many additional amino acids are common in a few specifi c proteins. <ref type="bibr" target="#b4">[ 26 ]</ref> Surprisingly there are even some basic proteins among those that are mineral-associated. One well-known example is lustrin A. <ref type="bibr" target="#b5">[ 27 ]</ref> This protein has Cys-rich domains interspersed by Prorich and other domains. The Cys/Pro domains are thought to explain atomic force microscopy (AFM) pulling experiments that reveal a saw-tooth force-extension curve. <ref type="bibr" target="#b7">[ 28 ]</ref> Two other basic proteins from the nacre of the abalone, perlwapin <ref type="bibr" target="#b8">[ 29 ]</ref> and perlustrin, <ref type="bibr" target="#b9">[ 30 ]</ref> also demonstrate Cys domains. Meldrum et al. <ref type="bibr" target="#b10">[ 31 ]</ref> recently demonstrated that the presence of positively charged additive poly(allylamine hydrochloride) affects the precipitation of calcium carbonate and induces the formation of thin fi lms and fi bers of calcite through a process of microphase separation. Nassif and Colfen also showed that cationic polymers interact with calcium carbonate and induce aragonite. <ref type="bibr" target="#b11">[ 32 ]</ref> Thus, despite the considerable amount of work on intracrystalline proteins and on protein/mineral interactions, there are still many open questions about the mechanism by which proteins become incorporated into crystalline structures. Which amino acids are the main ones responsible for the incorporation, and why? What is the difference in this respect between amino acids such as Asp and Glu? What is the role of Cys in biomineralization-associated proteins? Does Cys have a role in the interaction with the mineral or only in the protein folding? As basic proteins have been shown to interact with the mineral phase, by what mechanism do they interact? These are only some of the open questions.</p><p>To answer some of these questions and obtain a deeper understanding of the mechanism of protein incorporation, we have adopted a reductionist approach by fi rst undertaking a fundamental study in which we mapped all the common amino acids in terms of their incorporation into calcite. We then investigated which amino acids become incorporated into the calcite lattice and at what concentrations, and examined the effects of such incorporation on the hosting lattice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Incorporation of Aspartic acid as a Standard</head><p>Aspartic acid is the amino acid that is most widely accepted as responsible for the incorporation of proteins into calcite. We grew calcite in the presence of different aspartic acid concentrations (0.5, 2 and 3 mg/ml). The differently grown crystals were studied by high-resolution powder diffraction as described in our previous work on biogenic calcite. <ref type="bibr">[ 10c , 11 ]</ref> Surprisingly, we found that a single amino acid (Asp in this case) could induce lattice distortions very similar to those we observed for biogenic calcite. We have an expansion of the calcite c -lattice para meter, which increases as a function of the Asp concentration in the crystal growth solution. This distortion could be clearly observed by the shift of the (104) calcite peak to larger d-spacings (see Figure <ref type="figure">1 a</ref>). It can be seen in Figure <ref type="figure">1</ref> that there is a small shoulder due to the X-ray diffraction of a small amount of crystals in which no incorporation occurred, but most of the crystals indeed had high levels of incorporation leading In the last decade, Pokroy and Zolotoyabko showed that intracrystalline organic molecules cause anisotropic lattice distortions in biogenic calcite and aragonite, which was detectable via high-resolution synchrotron powder diffraction. <ref type="bibr" target="#b23">[ 10 ]</ref> They also found that the microstructure evolves as a function of mild annealing, and detected via diffraction, is very different from that of other materials, in that the diffraction peaks in the latter broaden rather than narrow upon annealing. <ref type="bibr" target="#b26">[ 11 ]</ref> A similar effect was observed when small-angle X-ray scattering (SAXS) was used on Pinna nobilis prisms: a smoothening effect of initially rough organic-inorganic interfaces after mild heat treatment was also observed and was attributed to occluded organic molecules. <ref type="bibr" target="#b27">[ 12 ]</ref> A few studies have focused on directly imaging these organic/inorganic interfaces by means of TEM. Sethmann et al., by combining high-resolution and energy-fi ltering TEM, revealed carbon enrichments located between crystal domain boundaries, strongly suggesting an intercalated network-like proteinaceous organic matrix. <ref type="bibr" target="#b28">[ 13 ]</ref> Rousseau et al. used dark-fi eld TEM to image nacre and found that the intracrystalline organic matrix might itself possibly be crystalline. <ref type="bibr" target="#b29">[ 14 ]</ref> Li et al. <ref type="bibr" target="#b30">[ 15 ]</ref> used annular dark-fi eld scanning transmission electron microscopy (STEM) and electron tomography to reveal the intracrystalline organic phase within the single calcite prisms in Atrina rigida .</p><p>Several groups have adopted the concept of intracrystalline organic molecules and have succeeded in incorporating different materials into single crystals of calcite. <ref type="bibr" target="#b31">[ 16 ]</ref> Colfen et al. showed that directed assembly of precursor units can form "mesocrystal" structures, in which the constituent nanoparticles are aligned within a single crystal and often also have organic molecules between these nanoparticles. <ref type="bibr">[ 17 ]</ref> Recently Estroff et al. grew calcite crystals within gels and demonstrated that gel incorporation can be achieved via control of the gel's degree of cross-linking. <ref type="bibr">[ 18c ]</ref> Gilbert et al. showed that a nacreassociated protein fragment is able to template lamellar aragonite growth. <ref type="bibr" target="#b38">[ 19 ]</ref> There are several examples of the incorporation of organic particles within single crystals: Kim et al. and Meldrum et al . grew calcite single crystals containing polystyrene particles with enhanced mechanical properties <ref type="bibr" target="#b39">[ 20 ]</ref> as well as copolymer micelles that mimic protein incorporation. <ref type="bibr">[ 21 , 22 ]</ref> Latex particles have also been included within zinc oxide <ref type="bibr" target="#b1">[ 23 ]</ref> and calcite crystals. <ref type="bibr" target="#b2">[ 24 ]</ref> Recently it was also shown that organic molecules can stabilize an amorphous precursor of CaCO 3 and, via that route, become incorporated into the succeeding crystalline phase.</p><p>Despite research efforts to date on intracrystalline organic molecules, our understanding of the specifi c organic/mineral interactions, mechanisms of incorporation, and infl uence of organic molecules on the structure of the inorganic phase remains rather poor. What is known is that many of the intracrystalline proteins extracted from biogenic calcite are acidic, i.e. they have an isoelectric point (pI) of below 7, and are rich in Asp and Glu. This has already been known since the pioneering work of Weiner and Hood in 1975. <ref type="bibr" target="#b3">[ 25 ]</ref> Nevertheless, the vast majority of acidic proteins are enriched with aspartic acid rather than with Glu. <ref type="bibr" target="#b4">[ 26 ]</ref> This latter point is not as yet understood. It is believed that Asp serves to bind calcium during the mineralization process. Other amino acids, such as Ser, Tyr, Asn and Gly, are also common in mineral-associated proteins,</p><p>We showed here that Asp indeed became incorporated into the calcite lattice and had a similar effect to that observed in biogenic calcite. It is intriguing to note that the effect revealed by a single amino acid can be the same as that attributed to whole proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Incorporation of Different Amino Acids</head><p>We performed the same experiments as those described above for Asp with all 20 amino acids, with one exception, Tyr. This amino acid is so insoluble in aqueous solutions at room temperature <ref type="bibr" target="#b12">[ 33 ]</ref> that crystallization experiments could not be successfully done with it. We divided the amino acids into several main groups: negatively charged (Asp, Glu), positively charged (Arg, His, Lys), polar side chains (Ser, Thr, Asn, Gln), hydrophobic side chains (Ala, Val, Ile, Leu, Met, Phe, Tyr, Trp), and special cases (Cys, Gly, Pro). Figure <ref type="figure">2</ref> presents a summary of the results for all the amino acids (induced lattice strain vs. incorporated concentration). It is evident that a large variety of amino acids did become incorporated, but that several did not. Among those that did there were obviously distinct differences, which we discuss below. In general there was a linear relationship between the molar incorporation of the different amino acids and the induced lattice distortion (Figure <ref type="figure">2</ref> ). Nevertheless, it is clear that there were specifi c amino acids that seemed to have either a stronger or a relatively weaker effect than the trend line.</p><p>Figure <ref type="figure">3</ref> shows the plotted incorporation concentrations for the different amino acids. It is clear that the amino acids which stood out in terms of incorporation concentration were the acidic amino acids and, most surprisingly Cys. The latter fi nding will be discussed separately below. Figure <ref type="figure" target="#fig_3">4</ref> depicts the incorporation concentration vs. the amino-acid concentration in the crystallization solution. It is evident that Cys became incorporated at the same level as Asp, but that a higher concentration was needed for the same effect. Calcite grown in solutions of Asp and Glu with similar concentrations revealed higher incorporation levels of Asp than of Glu, and this will be discussed below. Also clear from Figure <ref type="figure" target="#fig_3">4</ref> is the fi nding that Asn became incorporated more easily than Gln, and this too will be discussed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Acidic Amino Acids</head><p>Both Asp and Glu became incorporated into the calcite lattice in rather high concentrations. It is clear, however, that Asp was incorporated much more readily and at higher concentrations. As mentioned above, it is well known that the constituents of calcite-associated intracrystalline proteins are rich in Asp and Glu. This makes sense because of their acidity, which enables them to bind with calcium ions.</p><p>As to why Glu became incorporated to a lesser extent than Asp, we refer to the observation that the vast majority of to a strong peak shift. Not only did the Asp become incorporated into calcite and cause lattice distortions but this was very similar to biogenic calcite, in which upon mild isochronous annealing the lattice distortions were fully relaxed, reaching the values of the synthetic control (Figure <ref type="figure">1 b</ref>). Moreover, we found striking similarities between the Asp effect on microstructure, as previously observed for biogenic calcite: the diffraction peaks broadened rather than narrowing upon annealing, in contrast to most materials ( Table <ref type="table" target="#tab_0">1</ref> ). At 500 ° C there was narrowing due to conventional grain growth.</p><p>Direct measurement of the amino-acid concentration was performed on the same platform as that used for amino-acid analysis. However, no protein degradation was needed other than by merely dissolving the crystals in hydrochloric acid and searching for one specifi c amino-acid concentration. We found that for aspartic acid the concentration in the calcite lattice was 0.00819 amino acid/CaCO 3 , while the concentration in the crystal growth solution was 0.02253 M (equal to 3 mg/ml). After the isochronous annealing, which allowed relaxation of most of the lattice distortions, direct measurements of aminoacid concentrations revealed that only 4% of the Asp remained in the lattice (0.00032 amino acid/CaCO 3 ).</p><p>It is important to note that in order to induce ∼ 0.1% distortion, a concentration of about 1 at.% incorporated amino acid was needed ( Table <ref type="table">2</ref> ). a) 3.024 3.028 3.032 3.036 3.040 3.044 3.048 3.052 0.0 0.2 0.4 0.6 0.8 1.0 Intensity (normalized) d-spacings [Å] Reference 0.5 mg/ml Asp 2 mg/ml Asp 3 mg/ml Asp b) 3.024 3.028 3.032 3.036 3.040 3.044 3.048 3.052 0.0 0.2 0.4 0.6 0.8 1.0 Intensity (normalized) d-spacings [Å] 3 mg/ml Asp 100 O C 200 O C 300 O C 500 O C</p><p>Table <ref type="table">2</ref>. Quantitative data of amino-acid content in the preparation solution, the amount incorporated, and the strain induced for each amino acid.</p><p>Amino acid Amino-acid concentration in solution [M] Molar ratio in crystal Lattice distortion [ Δ c/c] Rietveld refi nement goodness of fi t: χ 2 Aspartic acid (slow) Asp D 0.02253 0.00819 0.00233 4.349 After heat treatment at 300 ° C for 30 min 0.02253 0.00032 7.7E-5 2.66 Glutamic acid (slow) Glu E 0.02039 0.00469 NT NT Cysteine (slow) Cys C 0.04953 0.00827 NT NT Aspartic acid (rapid) Asp D 0.03005 0.00109 4.73E-04 5.531 Glutamic acid (rapid) Glu E 0.02039 ND &lt; 3.9E-04 5.98E-05 5.656 Cysteine (rapid) Cys C 0.02479 7.41E-04 0.00156 4.917 Asparagine Asn N 0.02271 0.00177 5.75E-04 5.491 Glycine Gly G 0.03995 0.00153 5.05E-04 4.86 Tryptophane Trp W 0.00978 ND &lt; 4.25E-5 4.82E-04 2.049 Glutamine Gln Q 0.02052 1.44E-04 3.21E-04 2.142 Alanine Ala A 0.03367 4.10E-04 1.84E-04 3.934 Arginine Arg R 0.0287 1.44E-04 1.34E-04 3.5 Phenylalanine Phe F 0.01816 ND &lt; 4.07E-5 1.24E-04 1.575 Methionine Met M 0.02011 ND &lt; 2.85E-4 6.72E-05 3.93 Serine Ser S 0.02854 6.89E-04 5.00E-05 2.205 Histidine His H 0.01933 4.36E-04 3.67E-05 3.814 Threonine Thr T 0.03359 5.02E-04 3.19E-05 1.55 Lysine Lys K 0.02052 9.88E-05 3.14E-05 4.018 Isoleucine Ile I 0.02287 ND ND 1.158 Leucine Leu L 0.03049 ND ND 0.8865 Proline Pro P 0.03475 ND ND 1.299 Valine Val V 0.0256 ND ND 1.264 * ND, not detected; NT, not tested. 0.000 0.002 0.004 0.006 0.008 0.0000 0.0005 0.0010 0.0015 0.0020 0.0025 F T K A E S Q W D G N D C Lattice Distortion [Δc/c] Molar Concentration [amino/CaCO 3 ] Figure 3 . Concentrations of the different amino acids incorporated individually into the lattice of synthetic CaCO 3 powders. Each point represents the atomic ratio of an amino acid incorporated into CaCO 3 crystals during its growth in solution. The dark blue (D), red (E) and light green (C) were prepared by process (ii), while all the rest by process (i) (see Experimental Section).</p><p>D E C D E C N G W Q A R F M S H T K 0.000 0.002 0.004 0.006 0.008 Molar Concentration [amino/CaCO 3 ]</p><p>Amino Acid pKa ratios of the the amino-and carboxyl terminal groups for Lys, Arg, and His were 4.26, 4.43, and 5.37 respectively, while His was incorporated at the highest concentration. This makes sense because in His the carboxyl terminal group has the lowest pKa while the pKa values of the amino terminal group for the three basic amino acids are about the same. Indeed we found a good correlation between the pKa ratios and the incorporated concentrations. The incorporated concentrations of Lys, Arg, and His were 9.9 × 10 -5 , 1.4 × 10 -4 and 4.4 × 10 -4 (atomic ratio [amino-acid/CaCO 3 ]), respectively.</p><p>In future work we will separately test the effect of pH on incorporation of the basic amino acids.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Polar Side Chains</head><p>Among the amino acids that exhibit polar, uncharged side chains we found that Ser, Thr, Asn and Gln became incorporated. Asn was incorporated at the highest concentration in this group (an order of magnitude more than Gln; see Table <ref type="table">2</ref> ). This was reminiscent of the difference between Asp and Glu. It is interesting to note that Ser and Asn are common constituents of biomineralization proteins. It is not clear by what mechanism these particular amino acids interact with the mineral, as they are not charged. However, once again there might be weak interaction of the carboxyl terminal group with the mineral. For all amino acids in this group the pKa of the carboxyl terminal group is close to 2, while that of the amino terminal group is close to 9. This means that around pH 7, in which we grew our crystals, the negative charge on the carboxyl group was slightly more pronounced than the positive charge on the amino terminal group. This probably still allowed for some incorporation via binding of the carboxyl group with calcium.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Hydrophobic Side Chains</head><p>Within this group only Ala was detected by chemical analysis at a concentration comparable to those of most of the amino acids in the polar uncharged side-chain group. XRD, as mentioned above, is more sensitive, and we detected small lattice distortions for several of these amino acids. In this case the interaction might also involve the carboxyl terminal group. It is feasible, however, that there may be some effect of interaction with water, especially of the calcium ions, but possibly with the carboxyl group as well.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Special Cases</head><p>In this group we had a real surprise. Cys became incorporated almost as well as Asp, and led to very pronounced lattice distortions. Gly also became incorporated very well, which fi ts with the observation that many biomineralization-associated proteins are rich in Gly. Pro was the only amino acid in this group that did not become incorporated, and was not detected either by chemical analysis or by XRD. It is possible that the failure of Pro to become incorporated was because of its rigid structure; the cyclic structure of its side chain locks its φ backbone intracrystalline proteins are enriched with aspartic acid (Asp) rather than with glutamic acid (Glu). <ref type="bibr" target="#b4">[ 26 ]</ref> It was postulated by Marin et al . <ref type="bibr" target="#b4">[ 26 ]</ref> that this might be explained in terms of the length of the side chain of Glu as compared with that of Asp. We found here that probably this longer side chain of Glu indeed hindered it from becoming incorporated into calcite to the same degree as Asp did.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Basic Amino Acids</head><p>On examining incorporation of the basic amino acids, namely Arg, His and Lys, we found that only Lys was detectable by chemical analysis. X-ray diffraction (XRD) is much more sensitive to incorporation than chemical analysis, and in all cases we detected a very small effect on the lattice (in the range of ε = 5 × 10 -5 ). In the case of Lys not only did we detect a small amount of incorporation by chemical analysis, but the lattice distortions were somewhat higher. It is not surprising that these positive amino acids did not become incorporated easily, but it should be stressed that when we grew the calcite in the presence of these amino acids, both positive calcium ions and negatively charged carbonate ions were present. It might be supposed that they could interact and bind the carbonate ions, but obviously any such interaction was not suffi cient to allow incorporation into the calcite lattice.</p><p>The fact that we found at least some incorporation might also have to do with the pH at which we performed our experiments (i.e., as close as possible to pH 7). If the positive tail of the amino acid is far enough from the carboxyl group and/ or the pKa ratio of the carboxyl and amino-terminal groups is of a suitable magnitude (which we cannot determine at this point), incorporation might still be facilitated. For example the 0.00 0.01 0.02 0.03 0.04 0.05 0.000 0.001 0.002 0.003 0.004 0.005 0.006 0.007 0.008 0.009 C T S R Q K M F H G W N A E D E C D Concentration in Lattice [amino/CaCO 3 ] There is no doubt that such a rigid and bulky side group would hinder the ability of Pro to become incorporated, as it would produce too many local lattice distortions.</p><p>With regard to the incorporation of Cys, as mentioned above this was surprising. To date it has never been shown that Cys binds to the mineral phase; rather, in proteins in which Cys domains were observed, it was suggested that their function had to do with folding of the proteins. There are several biomineralization proteins also from vertebrates which contain Cysrich regions. <ref type="bibr" target="#b13">[ 34 ]</ref> Cys not only became incorporated but did so as well as Asp, and like Asp induced strong lattice distortions. Although we lack proof as yet, we suspect that Cys interacts with the mineral via the thiol bond, namely the S-Ca bond. The S-Ca bond is strong, having a bond strength of 308.4 ± 18.82 KJ/mole. <ref type="bibr" target="#b14">[ 35 ]</ref> Of course at this point we cannot completely eliminate the possibility that in solution S-S bonds form dimers, which then interact with the mineral via the carboxyl groups. However the S-Ca bond is even stronger than the S-S bond and dimers would be rather large molecules for incorporation at such high concentrations.</p><p>While Cys residues are frequently involved in coordinating particular metal ions of a number of metalloenzymes such as iron-sulfur clusters <ref type="bibr" target="#b15">[ 36 ]</ref> in more or less soluble proteins, this is the fi rst clue that Cys might be involved in the interaction with a mineral phase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8.">Effect of Size</head><p>In an attempt to understand how the size of amino acids affects their incorporation and their infl uence on the host lattice, we depicted the lattice strain normalized to the concentration of all the amino acids (see Figure <ref type="figure" target="#fig_4">5</ref> ). It is clear from this fi gure that there are two main groups of amino acids: those that induced high normalized distortions and those that induced lower normalized distortions. By far the highest normalized distortions were induced by Trp, meaning that even small amounts of its incorporation led to high lattice distortions. Trp has a very rigid structure, and probably when incorporated, even at very low concentrations, it strongly distorts the lattice. Pro, in comparison, is also rigid but because of the small size of the molecule the very low concentration of its incorporation is not suffi cient to produce any detectable lattice distortions (see Table <ref type="table">2</ref> ).</p><p>Phe also induced high-normalized distortion, probably because of its rigid and bulky benzene group. Gln has a rather long backbone, which obviously disturbed the host lattice more signifi cantly than the smaller amino acids and than the similar but shorter Asn amino acid (as in the case of the Asp and Glu pair).</p><p>The normalized lattice distortion of Cys was also high, not only because of the high concentration of incorporation but also because of the relatively large size of the sulfur atoms.</p><p>To observe the differences in normalized distortions within the second group (amino acids with lower normalized distortion values), we have expanded the distortions for this group ( Figure <ref type="figure">6</ref> ). Here we see, once again, the profound effect of size. Arg and Asn are the largest molecules in this group. On the other hand, one of the smallest effects was observed for Ser, a rather small amino acid. It is not clear why some of the amino acids in this group, although not larger in size, induced higher relative normalized distortions, but this might indicate how well the specifi c amino acid could be fi tted and organized in the host lattice. An excellent example of this is given by the comparison between Ala and Ser. The only difference between these two was that in Ser one hydrogen was replaced by a hydroxyl, which is much larger, and yet the normalized distortion of Ser was much lower than that of Ala. It is also known that biomineralization proteins are enriched with Ser. This interesting observation must mean that Ser could fi t much better in the calcite lattice than Ala. D D E C N G W Q A R F M S H T K 0 2 4 6 8 10 12 Lattice Distortion[Δc/c]</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>/ Concentration[x]</head><p>Amino Acid Figure <ref type="figure">6</ref> . Lattice strain normalized to the concentration for all the amino acids, with higher magnifi cation of the lower strain. The dark blue (D), was prepared by process (ii), while all the rest by process (i) (see Experimental Section).</p><formula xml:id="formula_0">D D E C N G W Q A R F M S</formula><p>H T K 0.0 0.2 0.4 0.6 0.8 1.0 Lattice Distortion[Δc/c]</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>/Concentration[x]</head><p>Amino Acid that during crystallization these amino acids bound strongly with the growing crystal, and probably had time to become incorporated in a more ordered state (better packing) and hence be incorporated in higher concentrations. It is also interesting to note that when the distortions were normalized to concentrations, we found that for Asp in the slower crystallization method the relative distortions were lower, supporting the hypothesis of better packing and ordering in the calcite lattice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.10.">Crystallographic Concentration</head><p>To obtain an estimate of the relative amount of amino acids per unit cells of calcite and to gain a deeper understanding of the sensitivity of XRD measurements for such a concentration, we depicted the concentrations of the different amino acids as the number of amino acids per calcite unit cells and also as the average linear distance between amino acids ( Figure <ref type="figure" target="#fig_6">8</ref> ). It is interesting to notice that for the highest concentrations of incorporation we found one amino acid per 10 unit cells of calcite, which indeed is a large number from a crystallographic point of view. Moreover measurement of the linear distance between amino acids for this case yielded an amino acid every 2 nanometers.</p><p>By comparison, in terms of the sensitivity of XRD, we found that XRD was sensitive to incorporation of amino acids down to one amino acid per over 4000 unit cell.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Conclusions</head><p>Amino acids on their own, even when not part of an intracrystalline protein, can become incorporated into the calcite host lattice and induce lattice distortions and microstructures very similar to those observed previously in biogenic calcite. Moreover, as with biogenic calcite, lattice distortion and broadening of the diffraction peaks can be observed upon heating.</p><p>To examine the degree of amino-acid packing, we normalized the graph of Figure <ref type="figure">6</ref> to the molecular weight of the amino acids. This provided the distortion normalized not only to concentration but also to size ( Figure <ref type="figure">7</ref> ). It is interesting to note that for Asn the new normalized effect was reduced, indicating better packing of this amino acid in the calcite lattice. Asn is very common in biogenic calcite-associated proteins. On the other hand, the relative effects of Gly and His were enhanced, implying that their relative packing in the lattice is not optimal. His has a rigid and bulky imidazole ring, which obviously hindered its packing. Gly is a very small molecule and at this point we do not understand why it was not well packed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.9.">Effect of Crystallization Rate</head><p>To understand whether the rate of crystallization affects the amount of incorporation for a particular amino acid, we allowed the calcite to grow in the presence of identical amino acids with identical concentrations, by two different methods: (i) a fast crystallization method, achieved by the addition of carbonate ions to calcium ions at a controlled rate (see Experimental Section), and (ii) a slow crystallization method, achieved by diffusion of CO 2 into a calcium ion solution. In both cases the starting pH was close to 7 and controlled the rate so that crystallization took place not via an amorphous precursor but rather via classical crystallization. We tested these two methods for Asp, Glu, and Cys. Surprisingly in all cases the slow method yielded higher levels of amino-acid incorporation (see Figure <ref type="figure">3</ref> ). This was contrary to what was expected, as slow crystal growth is a traditional method for the purifi cation of solids, as in the case of freezing of sea water to expel salts and impurities. <ref type="bibr" target="#b16">[ 37 ]</ref> With fast crystallization, the amino acids would be expected to have less time in which to be expelled from the growing crystal and would become incorporated in lower concentrations. Our observation of the opposite of what was expected might imply 0 1000 2000 3000 4000 0.0000 0.0005 0.0010 0.0015 0.0020 0.0025 Lattice Distortion [Δc/c] M A H T S A H S T M F W W K K R R E E D Q Q D Lattice Distortion [Δc/c] No. of Unit Cells Between Amino Acids 0 2 4 6 8 1 0 1 2 1 4 0.0000 0.0005 0.0010 0.0015 0.0020 0.0025 F N N G G C C D D Average Distance Between Amino Acids [nm]</p><p>Figure <ref type="figure">7</ref> . Lattice strain normalized to concentration and molecular weight for all amino acids, with higher magnifi cation of the lower strain. The dark blue (D), was prepared by process (ii), while all the rest by process (i) (see Experimental Section).</p><formula xml:id="formula_1">D D E C N G W Q A R F M S</formula><p>H T K 0.000 0.001 0.002 0.003 0.004 0.005 0.006 Lattice Distortion[Δc/c]/ Concentration[x]*M.W Amino Acid Adv. Funct. Mater. 2012, DOI: 10.1002/adfm.201201079 [ 1 ] P. Fratzl , R. Weinkamer , Prog. Mater. Sci. 2007 , 52 , 1263 . [ 2 ] a) H. J. Gao , B. H. Ji , I. L. Jager , E. Arzt , P. Fratzl , Proc. Natl. Acad. Sci. USA 2003 , 100 , 5597 ; b) S. Weiner , L. Addadi , J. Mater. Chem. 1997 , 7 , 689 . [ 3 ] K. M. Towe , G. R. Thompson , Calcif. Tissue Res. 1972 , 10 , 38 . [ 4 ] A. Berman , L. Addadi , S. Weiner , Nature 1988 , 331 , 546 . [ 5 ] a) A. Berman , L. Addadi , A. Kvick , L. Leiserowitz , M. Nelson , S. Weiner , Science 1990 , 250 , 664 ; b) A. Berman , J. Hanson , L. Leiserowitz , T. F. Koetzle , S. Weiner , L. Addadi , Science 1993 , 259 , 776 . [ 6 ] J. Aizenberg , J. Hanson , T. F. Koetzle , L. Leiserowitz , S. Weiner , L. Addadi , Chem.-Eur. J. 1995 , 1 , 414 . [ 7 ] L. Addadi , S. Weiner , Proc. Natl. Acad. Sci. USA 1985 , 82 , 4110 . [ 8 ] a) S. Elhadj , E. A. Salter , A. Wierzbicki , J. J. De Yoreo , N. Han , P. M. Dove , Cryst. Growth Des. 2006 , 6 , 197 ; b) J. J. De Yoreo , of nine (ESRF ) or twelve (APS) (111)Si crystal analyzers. Use of the advanced analyzing optics resulted in diffraction spectra of superior quality and, above all, in intense and extremely narrow diffraction peaks with an instrumental contribution to the peak widths not exceeding 0.004 ° . <ref type="bibr" target="#b17">[ 38 ]</ref> The instrument was calibrated and the wavelength refi ned with silicon standard samples from the National Bureau of Standards and Technology (NIST, Gaithersburg, MD, USA). ID31 is equipped with a hot-air blower for in-situ heat treatments. Data analysis : The calculated lattice parameters of the CaCO 3 powders were extracted from the XRD spectra via the Rietveld refi nement method by employing the GSAS program and the EXPGUI interface. Lattice distortions were determined with high precision as in our previous studies. <ref type="bibr">[ 10c ]</ref> Chemical analysis : Amino-acid analysis (AAA): concentrations of the amino acids incorporated into CaCO 3 crystals during precipitation were measured by AAA at Aminolab, Rehovot Israel. Sample preparation: CaCO 3 crystal powders containing amino acids were sonicated for 40 minutes in 5% bleach (sodium hypochlorite) to remove the amino acids on the powder surface and between crystallites, preserving only the intracrystalline amino acids. The powders were then separated from the solvent by centrifugation. After the CaCO 3 powders were cleaned several times with deionized water they were completely dissolved in 0.1 M HCl.</p><p>For amino-acid detection, 25 μ l of the solutions were injected during the AAA process. The amino acids were separated on a special ionexchange column and derivatized with ninhydrin after their elution from the column (post-column derivatization). This method of analysis is based on the chromatographic separation of amino acids by Moore and Stein. <ref type="bibr" target="#b18">[ 39 ]</ref> Amino acids were detected at 570 and 440 nm, and were identifi ed and quantifi ed against standards that were injected during the AAA process. The limit of detection of the method is around 0.5-1.0 mg/L. This method was applicable in the case of all of the amino acids other than Cys.</p><p>Elemental analysis was also carried out, in order to detect Cys by energy dispersive spectroscopy (EDS) and wavelength dispersive spectroscopy (WDS) on the CaCO 3 crystals containing cysteine, in the FEI Quanta 200 Environmental Scanning Electron Microscope (E-SEM). The k-factors of the sulfur were calculated according to FeS 2 standard samples.</p><p>We found pronounced differences between the various amino acids in their ability to be incorporated into calcite and in their effects on the lattice in terms of lattice distortions. We showed that the important factors governing the ability of an amino acid to become incorporated into calcite are whether they are acidic or basic, the relative pKa values of the carboxyl and amino terminal groups, their size, and their rigidity. We also showed that Cys became very well incorporated into calcite, probably because of the thiol-calcium bond.</p><p>Our results may shed light on the understanding of how proteins interact with the mineral phase and on the identity of the factors governing the degree of incorporation. Though amino acids in a peptide are connected via the N and C terminus as opposed to free amino acids we yet believe that some of the data presented here will somewhat change current concepts about intracrystalline proteins in biomineralization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Experimental Section</head><p>Materials : Calcite was grown in the presence of all of the 20 common amino acids: A: D-alanine (Ala), C: L-cysteine (Cys), D: L-aspartic acid (Asp), E: L-glutamic acid (Glu), F: D-phenylalanine (Phe), G: glycine (Gly), H: L-histidine (His), I: L-isoleucine (Ile), K: L-lysine (Lys), L: DL-leucine (Leu), M: L-methionine (Met), N: L-asparagine (Asn), P: DL-proline (Pro), Q: L-glutamine (Gln), R: L-arginine (Arg), S: DL-serine (Ser), T: L-threonine (Thr), V: L-valine (Val), W: DL-tryptophan (Trp), Y: DL-tyrosine (Tyr). All were purchased from Sigma-Aldrich. Calcium chloride dehydrates, ammonium bicarbonate, and sodium hypochlorite were from Sigma-Aldrich and sodium bicarbonate was from Bio-Lab Ltd, Jerusalem Israel. Deionized water was used for all solutions.</p><p>Calcite crystal growth: CaCO 3 (crystallographic space group R 3 c ) powders were precipitated by two different methods: (i) A faster precipitation method, using a controlled mixture of an aqueous solution of 50 mM CaCl 2 and 50 mM NaHCO 3 , in the presence of different amino acids, or (ii) a slower precipitation method, commonly known in the literature as the "diffusion method", in which an aqueous solution of 50 mM CaCl 2 is placed in a desiccator in the presence of ammonium bicarbonate.</p><p>In both processes the starting pH was close to 7 and the total volume was large enough to not allow large pH changes during growth, however the exact evolution in pH was not monitored.</p><p>In process (i), the CaCl 2 aqueous solution was injected into the NaHCO 3 aqueous solution by using an ISMATEC peristaltic tubing pump with a tube diameter of 0.38 mm, at a pumping rate of 1.6 ml/min. The different amino acids were added individually and were present equally in the CaCl 2 and NaHCO 3 aqueous solutions at contents in the range of 3-6 mg/ml. In process (ii), the crystals were precipitated in a 50 mM CaCl 2 aqueous solution in the presence of CO 2 gas from 0.5 g of ammonium bicarbonate. The crystal growth took place over 24 hours. For both processes, reference samples for the formation of pure CaCO 3 were prepared from solutions containing no amino acid.</p><p>XRD characterization: CaCO 3 powders were characterized by highresolution X-ray diffraction (HRXRD) from a synchrotron source. Diffraction measurements of the high-resolution powder were conducted at the ID31 powder diffraction beam line at the European Synchrotron Research Facility (ESRF), Grenoble, France, and at the beamline 11-BM at the Advanced Photon Source (APS) at the Argonne National Laboratory, Argonne, IL, USA. The experiments utilized synchrotron light at wavelengths in the range of 0.39479 Å ± 0.000095 Å to 0.49582 Å ± 0.00000471 Å. The high-resolution beamlines are equipped with a crystalmonochromator and crystal-analyzer optical elements of the incident and diffracted beams, respectively. X-rays from the synchrotron storage ring were monochromated by a liquid nitrogen-cooled double-crystal silicon monochromator. The optics of the diffracted beam consisted</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .Figure 3 .</head><label>23</label><figDesc>Figure2. Correlation between the lattice strain induced by amino acids and the concentration of incorporated amino acids. The dark blue (D), was prepared by process (ii), while all the rest by process (i) (see Experimental Section).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4 . Concentrations of the different amino acids incorporated individually into the lattice of synthetic CaCO 3 powders as a function of their concentration in the crystallization solution. Each point represents the atomic ratio of an amino acid incorporated into CaCO 3 crystals during its growth in solution. The dark blue (D), red (E) and light green (C) were prepared by process (ii), while all the rest by process (i) (see Experimental Section).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure5. Lattice distortion normalized to the concentration for all the amino acids. The dark blue (D) was prepared by process (ii), while all the rest by process (i) (see Experimental Section).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 8 .</head><label>8</label><figDesc>Figure8. Lattice strain due to the different amino-acid contents in the lattice. The dark blue (D), was prepared by process (ii), while all the rest by process (i) (see Experimental Section).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>FWHM values of the (104) calcite peak obtained for CaCO 3 powders prepared from solutions containing 3 mg/ml Asp (process (ii)), after different stages of isochronous annealing up to 500 ° C. Figure 1 . a) The (104) calcite refl ections obtained for CaCO 3 powders prepared from solutions containing Asp (process (ii), see Experimental Section). The effects of different amounts of Asp on the peak positions are demonstrated. In red, blue, and violet -calcite powders grown from solutions with the addition of 0.5, 2, and 3 mg/ml Asp, respectively. In black: a reference calcite powder, prepared under the same conditions as the other powders of the same batch, without the addition of aspartic acid. b) HRXRD peak evolution of calcite (104) obtained from a solution containing 3 mg/ml Asp, after isochronous annealing up to 500 ° C. In violet -the biomimetic calcite peak: brown, blue, red, and black represent the (104) spectra obtained after different stages of the isochronous annealing at 100 ° C, 200 ° C, 300 ° C, and 500 ° C, respectively.</figDesc><table><row><cell>Isochronous annealing stage</cell><cell>FWHM</cell></row><row><cell>100 °C</cell><cell>0.019</cell></row><row><cell>200 °C</cell><cell>0.025</cell></row><row><cell>300 °C</cell><cell>0.024</cell></row><row><cell>500 °C</cell><cell>0.020</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Adv. Funct. Mater. 2012, DOI: 10.1002/adfm.201201079</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>www.afm-journal.de www.MaterialsViews.com wileyonlinelibrary.com © 2012 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>wileyonlinelibrary.com© 2012 WILEY-VCH Verlag GmbH &amp; Co. KGaA, Weinheim</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Sasha Pechook</rs> for help in collecting the XRD data at ID31 of the <rs type="institution" subtype="infrastructure">ESRF</rs> and acknowledge the fi nancial support via the <rs type="funder">Technion Executive Vice-President for Research</rs>, Grant no. <rs type="grantNumber">2014208</rs>. We are also indebted to the APS (11-BM) and <rs type="funder">ESRF (ID31)</rs> for the use of their powder high-resolution beamlines.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Jm75Htb">
+					<idno type="grant-number">2014208</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">ESRF</orgName>
+					<orgName type="full" lang="en">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="fr">Source Européenne de Rayonnement Synchrotron</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">An artificial biomineral formed by incorporation of copolymer micelles in calcite crystals</title>
+		<author>
+			<persName><forename type="first">Yi-Yeoun</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathirvel</forename><surname>Ganesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pengcheng</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">N</forename><surname>Kulak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shirly</forename><surname>Borukhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sasha</forename><surname>Pechook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luis</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><surname>Kröger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">J</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">P</forename><surname>Armes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Boaz</forename><surname>Pokroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fiona</forename><forename type="middle">C</forename><surname>Meldrum</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat3103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="890" to="896" />
+			<date type="published" when="2011-09-04">2011</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Y. Kim , K. Ganesan , P. C. Yang , A. N. Kulak , S. Borukhin , S. Pechook , L. Ribeiro , R. Kroger , S. J. Eichhorn , S. P. Armes , B. Pokroy , F. C. Meldrum , Nat. Mater. 2011 , 10 , 890 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Polymers designed to control nucleation and growth of inorganic crystals from aqueous media</title>
+		<author>
+			<persName><forename type="first">Gerhard</forename><surname>Wegner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pia</forename><surname>Baum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maren</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jochen</forename><surname>Norwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katharina</forename><surname>Landfester</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/1521-3900(200110)175:1&lt;349::aid-masy349&gt;3.0.co;2-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecular Symposia</title>
+		<title level="j" type="abbrev">Macromol. Symp.</title>
+		<idno type="ISSN">1022-1360</idno>
+		<idno type="ISSNe">1521-3900</idno>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="349" to="356" />
+			<date type="published" when="2001-10">2001</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Wegner , P. Baum , M. Mullert , J. Norwig , K. Landfester , Macromol. Symp. 2001 , 175 , 349 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The origin of faceting of ultraflat gold films epitaxially grown on mica</title>
+		<author>
+			<persName><forename type="first">Björn</forename><surname>Lüssem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Silvia</forename><surname>Karthäuser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans</forename><surname>Haselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rainer</forename><surname>Waser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2004.11.082</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Surface Science</title>
+		<title level="j" type="abbrev">Applied Surface Science</title>
+		<idno type="ISSN">0169-4332</idno>
+		<imprint>
+			<biblScope unit="volume">249</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="197" to="202" />
+			<date type="published" when="2005-08">2005 , 249 , 197</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Lussem , S. Karthauser , H. Haselier , R. Waser , Appl. Surf. Sci. 2005 , 249 , 197 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Soluble Protein of the Organic Matrix of Mollusk Shells: A Potential Template for Shell Formation</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Weiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leroy</forename><surname>Hood</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1188379</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="issue">4218</biblScope>
+			<biblScope unit="page" from="987" to="989" />
+			<date type="published" when="1975-12-05">1975</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Weiner , L. Hood , Science 1975 , 190 , 987 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Molluscan Shell Proteins: Primary Structure, Origin, and Evolution</title>
+		<author>
+			<persName><forename type="first">Frédéric</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gilles</forename><surname>Luquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><surname>Marie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davorin</forename><surname>Medakovic</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0070-2153(07)80006-8</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Current Topics in Developmental Biology</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="0209">2008 , 80 , 209</date>
+			<biblScope unit="page" from="209" to="276" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Marin , G. Luquet , B. Marie , D. Medakovic , Curr. Top. Devel. Biol., 2008 , 80 , 209 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Molecular Cloning and Characterization of Lustrin A, a Matrix Protein from Shell and Pearl Nacre of Haliotis rufescens</title>
+		<author>
+			<persName><forename type="first">Xueyu</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angela</forename><forename type="middle">M</forename><surname>Belcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">K</forename><surname>Hansma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Galen</forename><forename type="middle">D</forename><surname>Stucky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">E</forename><surname>Morse</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.272.51.32472</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="issue">51</biblScope>
+			<biblScope unit="page" from="32472" to="32481" />
+			<date type="published" when="1997-12">1997. 32472</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">a) X. Y. Shen , A. M. Belcher , P. K. Hansma , G. D. Stucky , D. E. Morse , J. Biol. Chem. 1997 , 272 , 32472 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Characterization of a Ca(II)-, Mineral-Interactive Polyelectrolyte Sequence from the Adhesive Elastomeric Biomineralization Protein, Lustrin A</title>
+		<author>
+			<persName><forename type="first">Brandon</forename><forename type="middle">A</forename><surname>Wustman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">C</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">E</forename><surname>Morse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">Spencer</forename><surname>Evans</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la0361621</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="277" to="277" />
+			<date type="published" when="2003-12-06">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. A. Wustman , J. C. Weaver , D. E. Morse , J. S. Evans , Langmuir 2003 , 20 , 277 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Molecular mechanistic origin of the toughness of natural adhesives, fibres and composites</title>
+		<author>
+			<persName><forename type="first">Bettye</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tilman</forename><forename type="middle">E</forename><surname>Schäffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Viani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">B</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neil</forename><forename type="middle">A</forename><surname>Frederick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Kindt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angela</forename><surname>Belcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Galen</forename><forename type="middle">D</forename><surname>Stucky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">E</forename><surname>Morse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">K</forename><surname>Hansma</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/21607</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">399</biblScope>
+			<biblScope unit="issue">6738</biblScope>
+			<biblScope unit="page" from="761" to="763" />
+			<date type="published" when="1999-06">1999</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. L. Smith , T. E. Schaffer , M. Viani , J. B. Thompson , N. A. Frederick , J. Kindt , A. Belcher , G. D. Stucky , D. E. Morse , P. K. Hansma , Nature 1999 , 399 , 761 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Perlwapin, an Abalone Nacre Protein with Three Four-Disulfide Core (Whey Acidic Protein) Domains, Inhibits the Growth of Calcium Carbonate Crystals</title>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Treccani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karlheinz</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabian</forename><surname>Heinemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Monika</forename><surname>Fritz</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.106.086108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2601" to="2608" />
+			<date type="published" when="2006-10">2006 , 91 , 2601</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Treccani , K. Mann , F. Heinemann , M. Fritz , Biophys. J. 2006 , 91 , 2601 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Perlustrin, a Haliotis laevigata (Abalone) Nacre Protein, Is Homologous to the Insulin-like Growth Factor Binding Protein N-Terminal Module of Vertebrates</title>
+		<author>
+			<persName><forename type="first">Ingrid</forename><forename type="middle">M</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Walter</forename><surname>Göhring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Monika</forename><surname>Fritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karlheinz</forename><surname>Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/bbrc.2001.5170</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical and Biophysical Research Communications</title>
+		<title level="j" type="abbrev">Biochemical and Biophysical Research Communications</title>
+		<idno type="ISSN">0006-291X</idno>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="244" to="249" />
+			<date type="published" when="2001-07">2001</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. M. Weiss , W. Gohring , M. Fritz , K. Mann , Biochem. Biophys. Res. Commun. 2001 , 285 , 244 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Think Positive: Phase Separation Enables a Positively Charged Additive to Induce Dramatic Changes in Calcium Carbonate Morphology</title>
+		<author>
+			<persName><forename type="first">Bram</forename><surname>Cantaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi‐yeoun</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henning</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Nudelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nico</forename><forename type="middle">A J M</forename><surname>Sommerdijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fiona</forename><forename type="middle">C</forename><surname>Meldrum</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201102385</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Functional Materials</title>
+		<title level="j" type="abbrev">Adv Funct Materials</title>
+		<idno type="ISSN">1616-301X</idno>
+		<idno type="ISSNe">1616-3028</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="907" to="915" />
+			<date type="published" when="2012-01-09">2012</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Cantaert , Y.-Y. Kim , H. Ludwig , F. Nudelman , N. A. J. M. Sommerdijk , F. C. Meldrum , Adv. Funct. Mater. 2012 , 22 , 907 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Synthesis of Stable Aragonite Superstructures by a Biomimetic Crystallization Pathway</title>
+		<author>
+			<persName><forename type="first">Nadine</forename><surname>Nassif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicole</forename><surname>Gehrke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicola</forename><surname>Pinna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Natasha</forename><surname>Shirshova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Tauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Antonietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Cölfen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200500081</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">37</biblScope>
+			<biblScope unit="page" from="6004" to="6009" />
+			<date type="published" when="2005-09-14">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Nassif , N. Gehrke , N. Pinna , N. Shirshova , K. Tauer , M. Antonietti , H. Colfen , Angew. Chem.-Int. Ed. 2005 , 44 , 6004 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Measuring and Modeling Activity Coefficients in Aqueous Amino-Acid Solutions</title>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Held</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><forename type="middle">F</forename><surname>Cameretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabriele</forename><surname>Sadowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ie100088c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial &amp; Engineering Chemistry Research</title>
+		<title level="j" type="abbrev">Ind. Eng. Chem. Res.</title>
+		<idno type="ISSN">0888-5885</idno>
+		<idno type="ISSNe">1520-5045</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="131" to="141" />
+			<date type="published" when="2011">2011</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Held , L. F. Cameretti , G. Sadowski , Ind. Eng. Chem. Res. 2011 , 50 , 131 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Relationships between bone protein and mineral in developing porcine long bone and calvaria</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Sodek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Tupy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sodek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Grynpas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s8756-3282(99)00251-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<title level="j" type="abbrev">Bone</title>
+		<idno type="ISSN">8756-3282</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="189" to="198" />
+			<date type="published" when="2000-02">2000</date>
+			<publisher>Elsevier BV</publisher>
+			<pubPlace>Bone</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. L. Sodek , J. H. Tupy , J. Sodek , M. D. Grynpas , Bone 2000 , 26 , 189 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mass-spectrometric studies of the vaporization of the sulphides of calcium, strontium and barium. The dissociation energy of S2 and SO</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Goldfinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jeunehomme</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/tf9646000306</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transactions of the Faraday Society</title>
+		<title level="j" type="abbrev">Trans. Faraday Soc.</title>
+		<idno type="ISSN">0014-7672</idno>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">306</biblScope>
+			<date type="published" when="1964">1964</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Colin , P. Goldfi nger , M. Jeunehomme , Trans. Faraday Soc. 1964 , 60 , 306 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Characterization of the Iron-Sulfur Cluster Coordinated by a Cysteine Cluster Motif (CXXCXXXCX27C) in the Nqo3 Subunit in the Proton-translocating NADH-Quinone Oxidoreductase (NDH-1) of Thermus thermophilus HB-8</title>
+		<author>
+			<persName><forename type="first">Eiko</forename><surname>Nakamaru-Ogiso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takahiro</forename><surname>Yano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomoko</forename><surname>Ohnishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takao</forename><surname>Yagi</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m108796200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1680" to="1688" />
+			<date type="published" when="2002-01">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Nakamaru-Ogiso , T. Yano , T. Ohnishi , T. Yagi , J. Biol. Chem. 2002 , 277 , 1680 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Dyeing Crystals</title>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Kahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">W</forename><surname>Gurney</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr980088n</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<title level="j" type="abbrev">Chem. Rev.</title>
+		<idno type="ISSN">0009-2665</idno>
+		<idno type="ISSNe">1520-6890</idno>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="893" to="952" />
+			<date type="published" when="2001-03-27">2001</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Kahr , R. W. Gurney , Chem. Rev. 2001 , 101 , 893 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The high resolution powder diffraction beam line at ESRF</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Fitch</surname></persName>
+		</author>
+		<idno type="DOI">10.6028/jres.109.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research of the National Institute of Standards and Technology</title>
+		<title level="j" type="abbrev">J. Res. Natl. Inst. Stand. Technol.</title>
+		<idno type="ISSN">1044-677X</idno>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">133</biblScope>
+			<date type="published" when="2004-01">2004</date>
+			<publisher>National Institute of Standards and Technology (NIST)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. N. Fitch , J. Res. Natl. Inst. Stand. Technol. 2004 , 109 , 133 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">PHOTOMETRIC NINHYDRIN METHOD FOR USE IN THE CHROMATOGRAPHY OF AMINO ACIDS</title>
+		<author>
+			<persName><forename type="first">Stanford</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">H</forename><surname>Stein</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0021-9258(18)51034-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="367" to="388" />
+			<date type="published" when="1948-10">1948</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Moore , W. H. Stein , J. Biol. Chem. 1948 , 176 , 367 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Zepeda-Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Friddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Wasylenki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Chernov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Gilmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Dove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cryst. Growth Des</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">5135</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. A. Zepeda-Ruiz , R. W. Friddle , S. R. Qiu , L. E. Wasylenki , A. A. Chernov , G. H. Gilmer , P. M. Dove , Cryst. Growth Des. 2009 , 9 , 5135 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Amorphous calcium carbonate transforms into calcite during sea urchin larval spicule growth</title>
+		<author>
+			<persName><forename type="first">Elia</forename><surname>Beniash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joanna</forename><surname>Aizenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lia</forename><surname>Addadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Weiner</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.1997.0066</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society of London. Series B: Biological Sciences</title>
+		<title level="j" type="abbrev">Proc. R. Soc. Lond. B</title>
+		<idno type="ISSN">0962-8452</idno>
+		<idno type="ISSNe">1471-2954</idno>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="issue">1380</biblScope>
+			<biblScope unit="page" from="461" to="465" />
+			<date type="published" when="1997-03-22">1997</date>
+			<publisher>The Royal Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">a) E. Beniash , J. Aizenberg , L. Addadi , S. Weiner , Proc. R. Soc. London B-Biol. Sci. 1997 , 264 , 461 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Taking Advantage of Disorder: Amorphous Calcium Carbonate and Its Roles in Biomineralization</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Addadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Raz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weiner</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.200300381</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="959" to="970" />
+			<date type="published" when="2003-06-16">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Addadi , S. Raz , S. Weiner , Adv. Mater. 2003 , 15 , 959 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Cover Picture</title>
+		<author>
+			<persName><forename type="first">Bernd</forename><surname>Hasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Ehrenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><forename type="middle">C</forename><surname>Marxen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wilhelm</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Epple</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/1521-3765(20001016)6:20&lt;3657::aid-chem3657&gt;3.0.co;2-f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry - A European Journal</title>
+		<title level="j" type="abbrev">Chem. Eur. J.</title>
+		<idno type="ISSN">0947-6539</idno>
+		<idno type="ISSNe">1521-3765</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="3657" to="3657" />
+			<date type="published" when="2000-10-16">2000</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Hasse , H. Ehrenberg , J. C. Marxen , W. Becker , M. Epple , Chem.-Eur. J. 2000 , 6 , 3679 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Anisotropic lattice distortions in biogenic aragonite</title>
+		<author>
+			<persName><forename type="first">Boaz</forename><surname>Pokroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">P</forename><surname>Quintana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El'ad</forename><forename type="middle">N</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Berner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emil</forename><surname>Zolotoyabko</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat1263</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="900" to="902" />
+			<date type="published" when="2004-11-14">2004</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">a) B. Pokroy , J. P. Quintana , E. N. Caspi , A. Berner , E. Zolotoyabko , Nat. Mater. 2004 , 3 , 900 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Anisotropic lattice distortions in the mollusk-made aragonite: A widespread phenomenon</title>
+		<author>
+			<persName><forename type="first">Boaz</forename><surname>Pokroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Fitch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">P</forename><surname>Quintana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El’ad</forename><forename type="middle">N</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emil</forename><surname>Zolotoyabko</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsb.2005.10.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Structural Biology</title>
+		<title level="j" type="abbrev">Journal of Structural Biology</title>
+		<idno type="ISSN">1047-8477</idno>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="145" to="150" />
+			<date type="published" when="2006-02">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Pokroy , A. N. Fitch , P. L. Lee , J. P. Quintana , E. N. Caspi , E. Zolotoyabko , J. Struct. Biol. 2006 , 153 , 145 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The Microstructure of Biogenic Calcite: A View by High‐Resolution Synchrotron Powder Diffraction</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pokroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fitch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zolotoyabko</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.200600714</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="2363" to="2368" />
+			<date type="published" when="2006-09-12">2006 , 18 , 2363</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Pokroy , A. Fitch , E. Zolotoyabko , Adv. Mater. 2006 , 18 , 2363 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The Microstructure of Biogenic Calcite: A View by High‐Resolution Synchrotron Powder Diffraction</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pokroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Fitch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zolotoyabko</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.200600714</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="2363" to="2368" />
+			<date type="published" when="2006-09-12">2006 , 18 , 2363</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Pokroy , A. N. Fitch , E. Zolotoyabko , Adv. Mater. 2006 , 18 , 2363 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Nanostructure of Biogenic Calcite Crystals: A View by Small-Angle X-Ray Scattering</title>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Gilow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emil</forename><surname>Zolotoyabko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oskar</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Fratzl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Aichmayer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cg200136t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crystal Growth &amp; Design</title>
+		<title level="j" type="abbrev">Crystal Growth &amp; Design</title>
+		<idno type="ISSN">1528-7483</idno>
+		<idno type="ISSNe">1528-7505</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2054" to="2058" />
+			<date type="published" when="2011-05-10">2011 , 11 , 2054</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Gilow , E. Zolotoyabko , O. Paris , P. Fratzl , B. Aichmayer , Cryst. Growth Des. 2011 , 11 , 2054 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Nano-cluster composite structure of calcitic sponge spicules—A case study of basic characteristics of biominerals</title>
+		<author>
+			<persName><forename type="first">Ingo</forename><surname>Sethmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruth</forename><surname>Hinrichs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gert</forename><surname>Wörheide</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Putnis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jinorgbio.2005.10.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Inorganic Biochemistry</title>
+		<title level="j" type="abbrev">Journal of Inorganic Biochemistry</title>
+		<idno type="ISSN">0162-0134</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="88" to="96" />
+			<date type="published" when="2006-01">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Sethmann , R. Hinrichs , G. Worheide , A. Putnis , J. Inorg. Biochem. 2006 , 100 , 88 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Multiscale structure of sheet nacre</title>
+		<author>
+			<persName><forename type="first">Marthe</forename><surname>Rousseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evelyne</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Stempflé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcel</forename><surname>Brendlé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Loïc</forename><surname>Franke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Guette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roger</forename><surname>Naslain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xavier</forename><surname>Bourrat</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biomaterials.2005.03.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<title level="j" type="abbrev">Biomaterials</title>
+		<idno type="ISSN">0142-9612</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">31</biblScope>
+			<biblScope unit="page" from="6254" to="6262" />
+			<date type="published" when="2005-11">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Rousseau , E. Lopez , P. Stempfl e , M. Brendle , L. Franke , A. Guette , R. Naslain , X. Bourrat , Biomaterials 2005 , 26 , 6254 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Calcite Prisms from Mollusk Shells (&lt;i&gt;Atrina Rigida&lt;/i&gt;): Swiss‐cheese‐like Organic–Inorganic Single‐crystal Composites</title>
+		<author>
+			<persName><forename type="first">Hanying</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huolin</forename><forename type="middle">L</forename><surname>Xin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Miki</forename><forename type="middle">E</forename><surname>Kunitake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ellen</forename><forename type="middle">C</forename><surname>Keene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lara</forename><forename type="middle">A</forename><surname>Estroff</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adfm.201002709</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Functional Materials</title>
+		<title level="j" type="abbrev">Adv Funct Materials</title>
+		<idno type="ISSN">1616-301X</idno>
+		<idno type="ISSNe">1616-3028</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2028" to="2034" />
+			<date type="published" when="2011-04-14">2011. 2028</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Y. Li , H. L. Xin , M. E. Kunitake , E. C. Keene , D. A. Muller , L. A. Estroff , Cryst. Growth Des. 2011 , 21 , 2028 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Biomimetic CaCO&lt;sub&gt;3&lt;/sub&gt; Mineralization using Designer Molecules and Interfaces</title>
+		<author>
+			<persName><forename type="first">Nico</forename><forename type="middle">A J M</forename><surname>Sommerdijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gijsbertus</forename><forename type="middle">De</forename><surname>With</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr078259o</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<title level="j" type="abbrev">Chem. Rev.</title>
+		<idno type="ISSN">0009-2665</idno>
+		<idno type="ISSNe">1520-6890</idno>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="4499" to="4550" />
+			<date type="published" when="2008-10-21">2008</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. A. J. M. Sommerdijk , G. de With , Chem. Rev. 2008 , 108 , 4499 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Higher‐Order Organization by Mesoscale Self‐Assembly and Transformation of Hybrid Nanostructures</title>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Cölfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200200562</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="2350" to="2365" />
+			<date type="published" when="2003-05-28">2003. 2350</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Colfen , S. Mann , Angew. Chem.-Int. Ed. 2003 , 42 , 2350 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A Systematic Examination of the Morphogenesis of Calcium Carbonate in the Presence of a Double-Hydrophilic Block Copolymer</title>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Cölfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Limin</forename><surname>Qi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/1521-3765(20010105)7:1&lt;106::aid-chem106&gt;3.3.co;2-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry</title>
+		<title level="j" type="abbrev">Chem. Eur. J.</title>
+		<idno type="ISSN">0947-6539</idno>
+		<idno type="ISSNe">1521-3765</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="106" to="116" />
+			<date type="published" when="2001-01-05">2001</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Colfen , L. M. Qi , Chem.-Eur. J. 2001 , 7 , 106 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Mesocrystals: Inorganic Superstructures Made by Highly Parallel Crystallization and Controlled Alignment</title>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Cölfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Antonietti</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.200500496</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">35</biblScope>
+			<biblScope unit="page" from="5576" to="5591" />
+			<date type="published" when="2005-09">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Colfen , M. Antonietti , Angew. Chem.-Int. Ed. 2005 , 44 , 5576 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Visualizing the 3D Internal Structure of Calcite Single Crystals Grown in Agarose Hydrogels</title>
+		<author>
+			<persName><forename type="first">Hanying</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huolin</forename><forename type="middle">L</forename><surname>Xin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lara</forename><forename type="middle">A</forename><surname>Estroff</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1178583</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">326</biblScope>
+			<biblScope unit="issue">5957</biblScope>
+			<biblScope unit="page" from="1244" to="1247" />
+			<date type="published" when="1244">2009. 1244</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Y. Li , H. L. Xin , D. A. Muller , L. A. Estroff , Science 2009 , 326 , 1244 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Calcite Growth in Hydrogels: Assessing the Mechanism of Polymer‐Network Incorporation into Single Crystals</title>
+		<author>
+			<persName><forename type="first">Hanying</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lara</forename><forename type="middle">A</forename><surname>Estroff</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.200801498</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="470" to="473" />
+			<date type="published" when="2009-01-14">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Y. Li , L. A. Estroff , Adv. Mater. 2009 , 21 , 470 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Hydrogels Coupled with Self-Assembled Monolayers: An in Vitro Matrix To Study Calcite Biomineralization</title>
+		<author>
+			<persName><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lara</forename><forename type="middle">A</forename><surname>Estroff</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja067901d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="5480" to="5483" />
+			<date type="published" when="2007-04-06">2007</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Y. Li , L. A. Estroff , J. Am. Chem. Soc. 2007 , 129 , 5480 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Nacre Protein Fragment Templates Lamellar Aragonite Growth</title>
+		<author>
+			<persName><forename type="first">Rebecca</forename><forename type="middle">A</forename><surname>Metzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">Spencer</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">E</forename><surname>Killian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dong</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tyler</forename><forename type="middle">H</forename><surname>Churchill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Narayana</forename><forename type="middle">P</forename><surname>Appathurai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><forename type="middle">N</forename><surname>Coppersmith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">U P A</forename><surname>Gilbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja909735y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="6329" to="6334" />
+			<date type="published" when="2010-04-16">2010</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. A. Metzler , J. S. Evans , C. E. Killian , D. Zhou , T. H. Churchill , N. P. Appathurai , S. N. Coppersmith , P. U. P. A. Gilbert , J. Am. Chem. Soc. 2010 , 132 , 6329 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Bio‐Inspired Synthesis and Mechanical Properties of Calcite–Polymer Particle Composites</title>
+		<author>
+			<persName><forename type="first">Yi‐yeoun</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luis</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabien</forename><surname>Maillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">J</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fiona</forename><forename type="middle">C</forename><surname>Meldrum</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.200903743</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="2082" to="2086" />
+			<date type="published" when="2010-05-03">2010. 2082</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">a) Y. Y. Kim , L. Ribeiro , F. Maillot , O. Ward , S. J. Eichhorn , F. C. Meldrum , Adv. Mater. 2010 , 22 , 2082 ;</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Template‐Directed Control of Crystal Morphologies</title>
+		<author>
+			<persName><forename type="first">Fiona</forename><forename type="middle">C</forename><surname>Meldrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabine</forename><surname>Ludwigs</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/mabi.200600191</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Macromolecular Bioscience</title>
+		<title level="j" type="abbrev">Macromolecular Bioscience</title>
+		<idno type="ISSN">1616-5187</idno>
+		<idno type="ISSNe">1616-5195</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="152" to="162" />
+			<date type="published" when="2007-02-12">2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. C. Meldrum , S. Ludwigs , Macromol. Biosci. 2007 , 7 , 152 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Mesoporous Calcite by Polymer Templating</title>
+		<author>
+			<persName><forename type="first">Miles</forename><forename type="middle">G</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nadine</forename><surname>Nassif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans</forename><forename type="middle">G</forename><surname>Börner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Antonietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Cölfen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cg700899s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crystal Growth &amp; Design</title>
+		<title level="j" type="abbrev">Crystal Growth &amp; Design</title>
+		<idno type="ISSN">1528-7483</idno>
+		<idno type="ISSNe">1528-7505</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1792" to="1794" />
+			<date type="published" when="1792">2008 , 8 , 1792</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. G. Page , N. Nassif , H. G. Borner , M. Antonietti , H. Colfen , Cryst. Growth Des. 2008 , 8 , 1792 .</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

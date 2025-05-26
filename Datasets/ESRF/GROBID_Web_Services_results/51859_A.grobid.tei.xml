@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report on the proposal entitled « Evidence for spatial correlation in radiation induced na nostructured SiC using SAXS&quot;</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Report on the proposal entitled « Evidence for spatial correlation in radiation induced na nostructured SiC using SAXS&quot;</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F02DA63045D68450CFEC665B0561F783</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:37+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>As pointed out in the proposal, the aim of this work was to study long range correlation in materials induced by irradiation. To measure to the correlation function or more precisely the Fourier transform of this correlation function (i.e the structure factor), SAXS measurements were performed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SAXS results</head><p>Figure <ref type="figure">1</ref> displays the variation of the intensity versus the scattering vector modulus of q noticed q on SiC samples irradiated at different fluences. On this graph, no clear evolution of the intensity appears. From this analysis, it seems that the contrast between amorphous domains produced under irradiation and pristine SiC domains is not sufficient to extract information.</p><p>0.1 1 1E7 1E8 1E9 1E10 1E11 0.004 0.005 0.006 0.007 0.008 0.009 0.010 0.011 0.012 1 2 3 4 5 I 0 /I q 2 (A -2</p><p>) I (a.u.)</p><formula xml:id="formula_0">q (A -1 ) pristine 5e11cm -2 5e12 cm -2 1e13 cm -2 2e13 cm -2 7e13 cm -2</formula><p>SiC irradiated Au 2 MeV @RT Fig . <ref type="figure">1</ref> : Evolution of the collected intensity on D2AM collected on SiC samples irradiated by 2 MeV Au ions at different fluences. In the insert, The Ornstein Zernike representation of the collected intensity versus q is plotted.</p><p>To assess this point, The Ornstein Zernike plot is displayed on the insert of Figure <ref type="figure">1</ref>. It appears that this plot is not a straight line as expected.</p><p>This last point implies that the transmitted intensity collected using the SAXS technique is not corrected. A part of the incident beam may scattered by the edges of the hole of the silicon wafer. The diffuse intensity resulting from this scattering may be of the same order of magnitude than the transmitted beam blurring the signal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GISAXS results</head><p>To overcome this problem, we performed GISAXS measurements. The main interest of this technique lies on the fact that the scattering beam is collected in reflection geometry. To collected data in GISAXS geometry, the incident angle was fixed at 0.3° during the entire collect. The X ray penetration depth associated with this incident angle is equal to 200 nanometers which is the thickness of the irradiated SiC layer.</p><p>Figure <ref type="figure">2</ref> displays the evolution of the GISAXS signal collected on the pristine and the most irradiated samples.</p><p>Figure <ref type="figure">2</ref>: Scattering intensity collected on the pristine (left graph)and most irradiated (right graph) SiC layer deposited on a (100)Si wafer as a function of the components of the scattering vector q, qy and qz.</p><p>Despite the intensity collected on different samples are quite different, it remains up to now difficult to extract a structure factor form these graphs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>To distinct techniques were used to track a possible correlation between different amorphous tracks induced by irradiation in SIC as pointed out by many authors. Based on recent publication <ref type="bibr">(Kluth et al, PRL 101, 175503, 2008)</ref>, we deposited tapped SiC layers of 200 nanometers thick on (100)Si wafers. We irradiated these layers with Au 2 MeV ions in order to induce an amorphization of the SiC layer avoiding any implantation of Au ions in the layer.</p><p>In order to track a possible correlation between amorphous domains created by displacement cascades, we performed:</p><p>• SAXS measurements on these layers. The diffuse scattering due to Si edges blurred the transmitted signal as displayed on figure 1. • GISAXS measurements. Despite the variation of the collected intensity appears to be different on the pristine and most irradiated sample, the sinal has clearly not be analyzed to extract a structure factor.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

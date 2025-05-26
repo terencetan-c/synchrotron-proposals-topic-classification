@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Investigation of light-induced structural changes in single mesostructured polyelectrolyte-surfactant microparticles Experiment number: SC 4508</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-07-10">10 July 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Martin</forename><surname>Rosenthal</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Nicolas</forename><surname>Martin</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Pr</roleName><forename type="first">M</forename><surname>Robert</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Richardson</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Chemistry</orgName>
+								<orgName type="institution">University of Bristol</orgName>
+								<address>
+									<settlement>Bristol</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">School of Physics</orgName>
+								<orgName type="institution">University of Bristol</orgName>
+								<address>
+									<settlement>Bristol</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Investigation of light-induced structural changes in single mesostructured polyelectrolyte-surfactant microparticles Experiment number: SC 4508</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-07-10">10 July 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5A80E57B37E97C61EE604A11549B455C</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T12:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Abstract</head><p>A novel photo-responsive material was recently developed in the form of micro-particles produced by the spontaneous self-assembly in water of poly(sodium acrylate) (PAA) and a light-sensitive surfactant 1 (azobenzene trimethylammonium bromide, azoTAB, Fig. <ref type="figure" target="#fig_0">1a</ref>). We previously reported unusal dynamic morphological transformations of the particles towards isotropic droplets under UV or hexagonal platelets under blue light 1 (Fig. <ref type="figure" target="#fig_0">1b</ref>), but the associated structural re-organisations remained elusive. In this report, we show that the high intensity flux of X-ray synchrotron radiation combined with the micro-focus set-up at ID13 allowed to determine with great precision the near-surface mesostructure of the particles. μSAXS demonstrated that the dried particles consisted of a lamellar structure that was parallel to the surface, and melted into an amorphous state under UV. In comparison, the hydrated particles consisted of cylindrical micelles of azoTAB arranged in a hexagonal array and parallel to the underlying surface.The loss of Bragg reflections under in situ UV light confirmed the amorphisation of the particles. Significantly, structural reorganisations of the surfactant micelles under blue light were also evidenced for the first time and supported the hypothesis of a re-orientation of the cylindrical micelles from parallel to perpendicular to the surface. Overall, μSAXS experiments appeared to be vital to characterize the near-surface structure of the microparticles exposed to light.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental details</head><p>Microparticles suspensions were prepared in water by mixing PAA and azoTAB at 5mM, and loaded in a quartz capillary tube. After ~30min, the supernatant was removed and replaced with a freshly made suspension. This operation was repeated 5 times to accumulate enough material on the wall of the tube. For measurements in the dry state, the supernatant was removed and the tube left to dry for ~24h. The tube was mounted vertically and 2D spatial scans acquired over regions of 300×100 μm in steps of 10 μm to probe the near-surface structure by using a micro-focussed beam (λ = 0.95372456 Å, Q range: ~0.05-2.6 Å -1 , frame time = 0.025 s , pixel size: 7.5 10 -5 m, detector size: 2070×2167 pixels). In situ UV or blue irradiation was performed for ~1h with LEDs (λ = 365 or 450 nm, ~5 cm from the sample, angle close to 0°). The data was accessed by recompiling the hdf5 library with the lz4 filter enabled to produce uncompressed versions of the scattered intensity data. This was processed further using home-made IDL procedures to read and display the intensity images of the 2D scans or to regroup to intensity vs Q. Sample-detector calibration was done using silver behenate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>1/ Structure and light-induced near-surface structural re-arrangements of dried azoTAB:PAA particles. μSAXS performed at varying distances from the tube wall revealed that dark-adapted dry azoTAB:PAA exhibited a lamellar structure that was parallel to the underlying surface, as suggested by the vertical alignment of the Bragg reflection peaks on the 2D pattern (Fig. <ref type="figure" target="#fig_1">2a</ref>). The Q-value of the Bragg peak was 0.176 Å -<ref type="foot" target="#foot_0">foot_0</ref> (Fig. <ref type="figure" target="#fig_1">2d</ref>), associated to a lamellar spacing of 3.6 nm, consistent with the formation of azoTAB bilayers also observed by AFM (Fig. <ref type="figure" target="#fig_1">2e</ref>,<ref type="figure">f</ref>). Significantly, under UV light, the Bragg reflections disappeared (Fig. <ref type="figure" target="#fig_1">2b</ref>,<ref type="figure">d</ref>), which supported the melting of the lamellar structure into an amorphous phase upon azoTAB trans-cis isomerisation (Fig. <ref type="figure" target="#fig_1">2g</ref>). Reversibly, irradiation under blue light restored the lamellar structure (Fig. <ref type="figure" target="#fig_1">2c</ref>,<ref type="figure">d</ref>), as expected from the cis-trans back-isomerisation of azoTAB, with a measured Q-value of 0.178Å -1 . Overall, μSAXS was crucial to reveal the parallel alignement of azoTAB bilayers with respect to the underlying surface (at a distance &lt; ~30 μm) and to demonstrate the UV-induced order-disorder phase transition. 2/ Structure and light-induced near-surface structural re-arrangements of hydrated azoTAB:PAA particles. Measurements were repeated on hydrated azoTAB:PAA particles. 2D patterns acquired on the dark-adapated sample close to the surface of the tube exhibited a well-defined hexagonal symmetry (Fig. <ref type="figure" target="#fig_2">3a</ref>), attributed to cylindrical micelles of azoTAB arranged in a hexagonal array and parallel to the underlying surface (Fig. <ref type="figure" target="#fig_2">3e</ref>). The unit cell parameter of the hexagonal array was 4.1 nm (Fig. <ref type="figure" target="#fig_2">3d</ref>), in excellent agreement with the value previously reported for bulk azoTAB:PAA material. <ref type="bibr">1</ref> The amorphisation of the particles under UV light was evidenced by the disappearance of the Bragg reflections (Fig. <ref type="figure" target="#fig_2">3b</ref>,<ref type="figure">d</ref>). Significantly, irradiation under blue light resulted in the near-surface re-orientation of the micelles from parallel to perpendicular to the tube wall, as demonstrated by the close-to-horizontal alignment of the Bragg reflection peak (Fig. <ref type="figure" target="#fig_2">3c-e</ref>). This result therefore gave us a clear demonstration of the light-induced near-surface structural re-organizations occurring in azoTAB:PAA particles. The μ-focus set-up at ID13 was here vital to probe the lightcontrolled specific orientations with respect to the underlying surface (at a distance &lt; ~30 μm). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions and future work</head><p>Overall, μSAXS experiments performed on beamline ID13 at ESRF allowed us to decipher the light-driven near-surface (&lt; ~30 μm) structural re-arrangements of azoTAB:PAA microparticles, in the dry and hydrated states, observations that have never been reported before. In the dry state, the lamellar structure parallel to the underlying surface observed in the dark transformed to an amorphous phase upon trans-cis azoTAB photoisomerisation, and was reversibly re-formed under blue light. In the hydrated state, the particles consisted of hexagonally packed cylindrical micelles of azoTAB parallel to the surface that converted to an amorphous state under UV. μSAXS further demonstrated the re-orientation of the cylindrical micelles from parallel to perpendicular to the surface under blue light, a unique result consistent with birefringence studies. Overall, μ-focussed synchrotron SAXS appeared vital to probe the near-surface mesostructure of the lightresponsive micro-particles. The structures reported were only observed up to a distance of ~30 μm from the tube surface, therefore requiring the μSAXS set-up on ID13. These results could bring insight into the design of adaptive materials based on azobenzene photo-mechanics. AFM and birefringence studies, as well as in silico modelling, are now being carried out to complete the work for publication.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">References</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1. a, Chemical structure of azoTAB. b, Morphological changes of hydrated azoTAB:PAA microparticles by optical microscopy: transformation to hexagonal platelets (blue) or liquid-like droplets (UV).</figDesc><graphic coords="2,33.95,423.85,238.20,94.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2. a-c, 2D scattering patterns of dried azoTAB:PAA at 0-10μm distance from the surface in the dark (a), and under UV (b) or blue light (c) irradiaiton. d, Corresponding Q-profiles. e, Proposed lamellar structure for the dried material. f, 3D AFM images of the lamellar structure in the dark (top) and the amoprhisation observed under UV (bottom).</figDesc><graphic coords="3,55.80,154.20,483.70,89.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3. a-c, 2D scattering patterns of hydrated azoTAB:PAA at 0-10μm distance from the surface in the dark (a), and under UV (b) or blue light (c). d, Corresponding Q-profiles. e, Proposed hexagonal structure for the hydrated material, where the azoTAB cylindrical micelles are either aligned with (dark) or perpendicular to (blue) the underlying surface.</figDesc><graphic coords="3,62.65,454.80,470.05,89.30" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>Martin, N. et al. Sci. Rep. 7, 41327 (2017).</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

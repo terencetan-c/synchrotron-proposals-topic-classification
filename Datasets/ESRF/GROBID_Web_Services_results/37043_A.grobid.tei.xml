@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SXRMS imaging of magnetic properties in patterned structures</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Carsten</forename><surname>Tieg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Mr Evgeny Sirotkin</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Feodor</forename><surname>Ogrin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dr Guillaume Beutier</orgName>
+								<orgName type="laboratory">SRS Daresbury Laboratory</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><forename type="first">Gerrit</forename><surname>Van Der Laan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Diamond Light Source</orgName>
+								<address>
+									<settlement>Oxfordshire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SXRMS imaging of magnetic properties in patterned structures</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">33920D0A491FBB6F2EE28EA08AC94B24</idno>
+					<note type="submission">from: 13/12/06 to: 17/12/06</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In our experiment HE-2518 in December 2006 we performed soft x-ray resonant magnetic scattering (SXRMS) on NiFe patterned dots, in reflection geometry, at the Ni L 3 edge using circularly polarized radiation from ID08. The response from different samples was measured in two dimensions (q x -q y ) using a soft x-ray CCD camera mounted directly onto the UHV diffractometer. We studied the magnetization state at various stages of the switching process under applied magnetic field. We expected to obtain diffraction patterns for samples with different geometric parameters, such as diameter and centre-to-centre separations at various stages of the magnetization reversal.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Following the pilot measurements (HE-2221), we constructed and set up a specifically designed magnet allowing application of magnetic fields parallel to both the plane of the sample and the incedence plane. The magnet was controlled by the software available on the controll line, so that the experiments were carried out in the continous regime, in which the application of the field followed a specific sequence of field points representing different magnetisation states of the sample.</p><p>Figure <ref type="figure">2a</ref> shows a typical diffraction pattern measured on a hexagonal array of 260 nm diameter NiFe dots with a thickness of 25 nm. In order to extract the magnetic contribution we used the following procedure. For each measurement at specific value of the field we also took a diffraction image of the sample in two saturated states, negative and positive. The difference of the later two played the role of a normalised 'background', which was subtracted from the diffraction maps at each point of the field. Each single image was measured over ~ 4 s, with the maximum of the signal level acceptable for CCD. Overall we have measured the field depndence of reflectivity for 4 samples with approximately 40 points of interest (magnetic states) per each hysteresis loop. To average the random variation of the signal (instability of the beam) the loop measurements were repeated over 10 times per each sample.</p><p>Figure <ref type="figure">2</ref> shows a cross-section of the diffraction pattern measured at the point of interest and the saturated fields. This figure also demonstrates a resultant crossection after subtracting the normalised background. As was determined from the preliminary analysis the field variation of the crossection amplitude follows a similar hysteretic dependence (figure <ref type="figure">3a</ref>) as determined by Magneto-optic Kerr effect (MOKE). There is also evidence of variation of the pattern itself. The later however can be less prominant due to the fact that depending on the magnetic structure the maximum of variation can coinside with the 2 nd and 3 rd order peaks with less prominent amplitudes. Figure <ref type="figure">3b</ref> shows half of a normalised hysteretic dependence of all (measuremeble) peaks extracted from all the diffraction patterns measured for sample 4. For this sample it is evident that both, specular and first order peaks follow the same dependence, however the second and third order peaks significantly deviates from this curve. This dependence is unfortunately much noisy, so the simulation of the effect is much obscured. The variation of the pattern with the field is currently analysed with simulation of the magnetic states and their respective reflectivity pattern. We have also performed measurments with X-ray photo-emmission microscopy, which will be used for simulation and reconstruction of the magnetic states with SXRMS. It should be noted that although the experiments were completed as proposed, we came across to two major obsticles, which greatly complicated the forgoing simulation work and the analysis of the data. Firstly, the instability of the signal. It was found that the the amplitude of the detected pattern changes significantly with time. This variation is not uniform, and is likely of some mechanical nature. In all cases during a long measurement routine we observed a 'jittering' effect as well as a reduction of amplitude of the signal. Figure <ref type="figure">3c</ref> shows how the signal measured for a fixed integrated area of one peak changed with time during the measurements. Given the fact that the analysys very much depends on the comparison between different peaks the instability of the beam significantly increases the complexity of reconstruction of the magnetic states. Secondly, to a very great surprise, we have found that all samples fabricated on polished silicon substrates did not show any difraction (although the quality of the surface and optical reflection was the best optimised specifically for these experiments). The x-ray scattering showed only specular reflection with large difuse broadenning. Another set of samples on SiO 2 substrates, which was of less superier quality and with not well defined magnetic vortex state, has shown a typical hexagonal pattern as normally have been observed for these structures. We speculate that the length scale of surface roughness of the silicon substrates maybe of the order of wavelength of the source, thus leading to increased defuse scatter ovepowering the intensity of the diffraction peaks. 2 1 3 4 5</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 .</head><label>1</label><figDesc>Fig 1. Magnet set-up inside the diffraction chamber of ID08.</figDesc><graphic coords="1,425.10,440.70,130.07,97.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Fig. 3. a) Intensity of the specular reflection peak measured as function applied field (2min measurement). b) Normalised intensity of specular, 1 st order and 2 nd order peaks from all measurements on sample 4. c) Charge and magnetic intensities variation as function of time during all field measurments on the sample.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>Fig. 2. a) Diffraction reflectivity pattern as detected on CCD (shown in log scale) b) Crossection through peaks 1, 2, 3. c) Extracted magnetic cross-section through peaks 4,2,5.</figDesc><graphic coords="2,238.08,19.86,153.84,135.42" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

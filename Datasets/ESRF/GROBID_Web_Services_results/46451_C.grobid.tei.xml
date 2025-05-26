@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-03-08">8 Mar 2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics (E17)</orgName>
+								<orgName type="institution">Technische Universität München</orgName>
+								<address>
+									<postCode>85748</postCode>
+									<settlement>Garching</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Dierolf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics (E17)</orgName>
+								<orgName type="institution">Technische Universität München</orgName>
+								<address>
+									<postCode>85748</postCode>
+									<settlement>Garching</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pierre</forename><surname>Thibault</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics (E17)</orgName>
+								<orgName type="institution">Technische Universität München</orgName>
+								<address>
+									<postCode>85748</postCode>
+									<settlement>Garching</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics (E17)</orgName>
+								<orgName type="institution">Technische Universität München</orgName>
+								<address>
+									<postCode>85748</postCode>
+									<settlement>Garching</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2012-03-08">8 Mar 2012</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2D80C7A1B50C96078D726FADC5F528F2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report: 1. Objectives</head><p>This beamtime is the second half of a joint measurement run started in March 2010 (see proposal MI-1085). It was originally planned that the previous beamtime would be used to characterize and optimize 2D ptychography and to carry out tomographic reconstructions. Because these objectives were not completely reached during the March run, the original idea of combining ptychography with a laminography setup could not yet be realized during this run. The revised objectives for this beamtime were set to achieving highresolution, high-sensitivity tomography using ptychography at ID22.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Measurements performed 2.1 Limitations of ptychography with a broad energy bandwidth</head><p>In order to optimize the collection of projection data, first measurements were done in 2D scanning geometry on a well-defined lithographic Siemens star test pattern (XRadia Inc., model X50-30-2 with an increased thickness of 700 nm gold, smallest features have a size of 50 nm). In particular, the effects of the broad energy bandwidth onto the reconstruction quality when scanning at out-of-focus positions was explored, as the expanded size of the beam in these cases would allow to cover larger field-of-views with reasonable amounts of scan points.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Ptychographic nanotomography on a nanoporous gold sample</head><p>The bulk of this beamtime was spent on acquiring high-resolution data for tomographic reconstruction of a nanoporous gold sample. Unlike during the failed attempt of the March beamtime, strong scattering could be observed. A complete tomography scan, covering 180 degrees in 120 steps was performed on this sample, taking in total about 12 hours to complete.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Holotomography on nanoporous gold and bone</head><p>For the last part of the experiment, the setup was brought back to its usual configuration to perform propagation-based phase-contrast tomography on the nanoporous gold sample, as well as an ovine bone sample. As the same specimens were also investigated with ptychographic tomography this will allow for a direct comparison of the two techniques in terms of spatial and density resolution. Analysis of holotomography data sets is still pending.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head><p>The investigation in 2D on the limitations of pink beam ptychography have been merged with results from the March beamtime, and a publication is currently being prepared (see report for proposal MI-1085).</p><p>Still under scrutiny is the nanoporous gold tomographic dataset, which may still have chances of yielding a high-quality volume reconstruction. It should be noted that we now know that the sample preparation was faulty: the dealloying process did not complete properly, thus producing only a nanoporous "crust" around the undisturbed Ag-Au alloy. Figure <ref type="figure" target="#fig_0">1</ref> shows some of the measured diffraction patterns, as well as one preliminary reconstruction using only the diffraction data measured without beamstop. Reconstruction from the complete dataset is still a challenge: data with and without beamstop have to be combined in the reconstruction procedure (and not merely stitched since drift can easily introduce a shift between the probe positions of the scans), and the detector point-spread-function has to be characterized and taken into account. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Outlook</head><p>Important progress has been made within the MI-1082 and MI-1085 proposals, enough to claim the feasibility of pink beam ptychography with a hard X-ray nanofocus setup. Coherent flux and stability appear to be sufficient for high-resolution applications. The main hurdle to a more straightforward application of the technique is undoubtedly the FreLon camera. First, its read-out overhead substantially limits the scanning speed in these type of experiments. Second, its broad point-spread-function degrades the reconstructed images (compare experimental report for MI-1085). And third, due to its insufficient dynamic range it is not possible to fully exploit the coherent flux available at the beamline which would be required get the highest possible resolutions in the reconstructions.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (a-b) Diffraction patterns outside the sample, at the position given by the red circle in (e), without (resp. with) beamstop. (c-d) Diffraction patterns through the nanoporous sample (blue circle in (e)), without (resp. with) beamstop. (e) Phase part of the reconstruction of one projection of the nanoporous gold sample, using only the diffraction patterns without beamstop.</figDesc><graphic coords="2,44.00,324.30,506.20,253.10" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

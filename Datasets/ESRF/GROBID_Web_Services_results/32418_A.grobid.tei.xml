@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Coherent Scattering and Reconstruction of Nanoporous Structures and Nanoparticles</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Sc</surname></persName>
+						</author>
+						<title level="a" type="main">Coherent Scattering and Reconstruction of Nanoporous Structures and Nanoparticles</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8532FFBCA48D068F4956CFAB9BA78EDF</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T19:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Local contact(s):</head><p>A. Robert </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>We performed a coherent x-ray imaging experiment for the determination of structures on nanometer length scales. The investigated samples ranged from Ni structures to assemblies of colloidal particles deposited on thin silicon-nitride membranes. In order to position the small structures in the beam via the Ni fluorescence signal we temporarily changed the energy to 8.39 keV, i.e., slightly above the Ni K edge. For the imaging experiment an X-ray energy of 8.31 keV slightly below the Ni K edge was employed. A partially coherent xray beam was produced by a pair of polished roller blade slits with a 10 x 10 m 2 opening. The parasitic Fraunhofer scattering from these slits was partially blocked by a guard slit (also roller blade slits) further downstream. Approximately 2.6 . 10 8 photons/s were illuminating the samples. We measured a value of the Fraunhofer fringe visibility of ca. 30 % -40 % which ensured us that the x-ray beam is sufficiently coherent to perform imaging experiments. A princeton direct illumination ccd camera was positioned 3.75 m downstream of the sample. From the q-range covered we estimate a spatial resolution of approximately 50 nm. A beamstop of 2 mm diameter was placed in front of the ccd.</p><p>Fig. <ref type="figure">1</ref> shows a typical ccd image (exposure time 200 seconds) recorded from the scattering of the Nickel structures. In this case the structure mirrors the letter H (the inset shows the corresponding SEM picture) with an overall size of 4 x 4 m 2 . The height of the Nickel structures is 300 nm and the size of the individual bars is 400 nm. We estimate that the oversampling ratio is around 6. Due to the high symmetry of the object the scattering intensity is mainly distributed along two perpendicular directions in reciprocal space. Around the beam stop parasitic scattering from the guard slits is visible preventing the use of smaller beam stops.</p><p>The missing forward data caused by the beam stop is one of the central problems in coherent imaging in the SAXS regime. If the area of missing data is sufficiently small than modified phase retrieval algorithms are able to reconstruct an image successfully <ref type="bibr">[1]</ref>. However, the missing data area in our experiment is too large for this approach and so we decided to paste a calculated diffraction pattern in the missing data area, like e.g. done in <ref type="bibr">[2]</ref>. With this we can employ the HIO phase retrieval algorithm and Fig. <ref type="figure">2</ref> shows an example of a reconstructed image. Depending on the exact shape of the support the quality of the reconstruction and the amount of noise varies, however the main features of the Ni structure can usually be reconstructed. Further Nickel samples have been measured (lattice structures of different spacings, different letters) and the analysis is ongoing.</p><p>Figure <ref type="figure" target="#fig_2">3</ref> shows as a further example a ccd image recorded from the scattering of a 800 nm large assembly of colloidal particles. Unfortunately, the parasitic scattering is even stronger here as can be seen from the large areas of missing data. Nevertheless, a reconstruction similar to the one outlined above will be done on this data.</p><p>In summary, we successfully performed coherent imaging experiments on samples providing nanometer structures. A first successful reconstruction has been presented. The need for effective suppression of parasitic scattering is apparent and will be a major point for further investigations. 50 100 150 200 250 50 100 150 200 250 5 6 7 8 9 10 11 12 13 x 10 5 4 m Figure 2: Reconstructed image of the Nickel structure. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): O. Leupold*, T. Autenrieth*, W. Roseker*, C. Gutt*, G. Grübel*, I. Vartaniants* Hasylab/DESY, Notkestrasse 85, D-22603 Hamburg, Germany</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :Figure 2 :</head><label>12</label><figDesc>Figure 1: Scattering image of a Nickel structure. The SEM image is shown in the inset.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Scattering image of an assembly of colloidal particles. The SEM picture is shown in the inset.</figDesc><graphic coords="5,120.28,63.24,355.92,284.16" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

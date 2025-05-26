@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C64BC29A723F9F9EF4C237222ADF52FD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T12:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The goal of the BioSAXS experiment with number MX-1912 was to study the protein KAP1 in solution. KAP1 or Krüppel associated protein 1, is a multidomain protein that has been linked to the development and differentiation of many adult cell types as well as many other fundamental cellular processes including gene silencing, transcription regulation and DNA damage repair <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. It acts like a scaffold protein recruiting many different proteins and enzymes to influence the organization of chromatin structure. Because of that, we are interested in finding out the three dimensional structure of KAP1 and understanding the molecular interactions between KAP1 and the proteins it recruits.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data acquisition</head><p>The data were recorded at the ESRF BM29 over a q range of 0.025-5 nm -1 and beam wavelength of 0.992 Å. Protein samples were exposed under flow through a capillary at a rate of 10 or 8 µL•s -1 with 10 individual frames collected and averaged to give the final scattering profile. The first measurements clearly indicated that buffer containing high salt and glycerol stabilized the protein and protected it from radiation damage, so all subsequent measurements were done in that buffer. The dilution series was done diluting the protein in buffer (a). The blank for each measurement was the corresponding flow through from protein concentration. Scattering from this black alone was collected before and after each sample to correct for fluctuations in beam intensity and to clean the capillary between samples. The temperature was always 20° C and the viscosity was set to low. We used 100% of the beam transmission. Four variants of KAP1 of different lengths were measured: The concentration series ranged from 7 to 0.1 mg/ml.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>Images were analyzed using the ATSAS package <ref type="bibr" target="#b2">[3]</ref>. PRIMUS <ref type="bibr" target="#b3">[4]</ref> and GNOM <ref type="bibr" target="#b4">[5]</ref> were used to obtain Guinier plots and compute pair-distribution functions, respectively. Scattering curves for the different concentrations coincided for most of the measured q range but showed signs of aggregation at very low q values. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Conclusions</head><p>Preliminary analysis of the data collected shows that KAP1 is elongated. Structural information obtained by SAXS, in combination with our ultracentrifugation and light scattering data, would be very useful to validate the 3D models and assess the sample</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Typical scattering curve showing signs of aggregation at low q values.</figDesc><graphic coords="1,178.69,482.19,232.00,200.65" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>heterogeneity and suitability to perform further crystallographic and electron microscopy experiments. The next step is to apply for more beam time to be able to perform size exclusion chromatography (SEC) before the SAXS measurement, to perhaps improve the measurement at low q values. Please see the application for the next shift.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">KAP1 Protein: An Enigmatic Master Regulator of the Genome</title>
+		<author>
+			<persName><forename type="first">Sushma</forename><surname>Iyengar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peggy</forename><forename type="middle">J</forename><surname>Farnham</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.r111.252569</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page" from="26267" to="26276" />
+			<date type="published" when="2011-07">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iyengar, S. and P.J. Farnham, KAP1 protein: an enigmatic master regulator of the genome. J Biol Chem, 2011. 286(30): p. 26267-76.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">KAPtain in charge of multiple missions: Emerging roles of KAP1</title>
+		<author>
+			<persName><forename type="first">Chun-Ting</forename><forename type="middle">T</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Ann</surname></persName>
+		</author>
+		<idno type="DOI">10.4331/wjbc.v5.i3.308</idno>
+	</analytic>
+	<monogr>
+		<title level="j">World Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">WJBC</title>
+		<idno type="ISSN">1949-8454</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">308</biblScope>
+			<date type="published" when="2014">2014</date>
+			<publisher>Baishideng Publishing Group Inc.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng, C.T., C.Y. Kuo, and D.K. Ann, KAPtain in charge of multiple missions: Emerging roles of KAP1. World J Biol Chem, 2014. 5(3): p. 308-20.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">New developments in the&lt;i&gt;ATSAS&lt;/i&gt;program package for small-angle scattering data analysis</title>
+		<author>
+			<persName><forename type="first">Maxim</forename><forename type="middle">V</forename><surname>Petoukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Franke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">V</forename><surname>Shkumatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giancarlo</forename><surname>Tria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexey</forename><forename type="middle">G</forename><surname>Kikhney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michal</forename><surname>Gajda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Gorba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haydyn</forename><forename type="middle">D T</forename><surname>Mertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petr</forename><forename type="middle">V</forename><surname>Konarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitri</forename><forename type="middle">I</forename><surname>Svergun</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889812007662</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="342" to="350" />
+			<date type="published" when="2012-03-15">2012</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note>Pt 2</note>
+	<note type="raw_reference">Petoukhov, M.V., et al., New developments in the ATSAS program package for small- angle scattering data analysis. J Appl Crystallogr, 2012. 45(Pt 2): p. 342-350.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;PRIMUS&lt;/i&gt;: a Windows PC-based system for small-angle scattering data analysis</title>
+		<author>
+			<persName><forename type="first">Petr</forename><forename type="middle">V</forename><surname>Konarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">V</forename><surname>Volkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anna</forename><forename type="middle">V</forename><surname>Sokolova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><forename type="middle">H J</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitri</forename><forename type="middle">I</forename><surname>Svergun</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889803012779</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1277" to="1282" />
+			<date type="published" when="2003-09-08">2003</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Konarev, P.V., et al., PRIMUS: a Windows PC-based system for small-angle scattering data analysis. Journal of Applied Crystallography, 2003. 36: p. 1277-1282.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Determination of the regularization parameter in indirect-transform methods using perceptual criteria</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Svergun</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889892001663</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="495" to="503" />
+			<date type="published" when="1992-08-01">1992</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Svergun, D.I., Determination of the Regularization Parameter in Indirect-Transform Methods Using Perceptual Criteria. Journal of Applied Crystallography, 1992. 25: p. 495-503.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

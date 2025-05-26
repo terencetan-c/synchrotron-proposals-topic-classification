@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">742FAFA8FFDA8897DD575C92D1F78DB5</idno>
+					<note type="submission">Once completed, the report should be submitted electronically to the User Office via the User</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T12:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><ref type="url" target="https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do">https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports supporting requests for additional beam time</head><p>Reports can be submitted independently of new proposals -it is necessary simply to indicate the number of the report(s) supporting a new proposal on the proposal form.</p><p>The Review Committees reserve the right to reject new proposals from groups who have not reported on the use of beam time allocated previously.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports on experiments relating to long term projects</head><p>Proposers awarded beam time for a long term project are required to submit an interim report at the end of each year, irrespective of the number of shifts of beam time they have used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Published papers</head><p>All users must give proper credit to ESRF staff members and proper mention to ESRF facilities which were essential for the results described in any ensuing publication. Further, they are obliged to send to the Joint ESRF/ ILL library the complete reference and the abstract of all papers appearing in print, and resulting from the use of the ESRF.</p><p>Should you wish to make more general comments on the experiment, please note them on the User Evaluation Form, and send both the Report and the Evaluation Form to the User Office.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deadlines for submission of Experimental Reports</head><p>-1st March for experiments carried out up until June of the previous year; -1st September for experiments carried out up until January of the same year.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instructions for preparing your Report</head><p>• fill in a separate form for each project or series of measurements.</p><p>• type your report, in English.</p><p>• include the reference number of the proposal to which the report refers.</p><p>• make sure that the text, tables and figures fit into the space available.</p><p>• if your work is published or is in press, you may prefer to paste in the abstract, and add full reference details. If the abstract is in a language other than English, please include an English translation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment title:</head><p>Real-time radiography of the primary spray break-up using single-and multi-bunch exposures</p><p>Experiment number: MA 3479 Beamline: ID 19 Date of experiment: from: 14/05/2017 to: 16/05/2017 Date of report: 08/09/2017 Shifts: 6 Local contact(s): Margie Olbinado Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Dr. Lukas Helfen, Karlsruhe Institute of Technology* Aleksei Ershov, Karlsruhe Institute of Technology* Richard Welss, University of Erlangen-Nuremberg* Alexander Durst, University of Erlangen-Nuremberg* Report (Proposal Ref. No. 53754):</p><p>The aim of this first measurement campaign was to provide information about the breakup mechanisms, especially the velocity distribution, in the near-nozzle region. Thereby it is desirable to achive a high spatial as well as temporal resolution during the whole spray event. Typically a spray event lasts approximately 2-10 ms. The first measurement campaign took place when the storage ring was run in the 16 bunch filling mode. This leads to a time between bunches of 176 ns. This campaign was used to figure out the right scintillator material for the different cameras used and the right propagation distance.</p><p>For the evaluation of the velocity distributions, two different approaches are used: Autocorrelation and optical flow. For the autocorrelation, multiple exposed images are required. Therefore the images are exposed with several x-ray bunches within one camera frame. This technique enables capturing the whole spray event with a image framerate in the kHz magnitude, evaluating velocities using the MHz frequency of the single bunches.</p><p>To retrieve the velocity distribution, the following algorithm is used: Due to the multiple exposures, the resulting images show each spray structure several times. The movement of the structures is computed using autocorrelation. After the background image is subtracted to improve contrast, the image is divided into tiles and the cross correlation of every tile and the original image is computed. The resulting image shows several local maxima in the correlation coefficient, according to the number of exposures. The first and highest maximum thereby represents the original position of the tile. To determine the velocity, the distance between the first and second maximum is divided by the time between two x-ray bursts. To make sure that only spray structures and no image artefacts are evaluated, a lowest acceptable correlation coefficient is defined.</p><p>Figure <ref type="figure">1</ref> shows the basic working principle of the described autocorrelation evaluation algorithm. The required multiple exposed images for the autocorrelation were recorded using a Photron Fastcam SA-Z high speed camera. This camera enables framerates up to 2100 kHz. With reasonable resolutions (384x408 pixels) still 100 kHz are possible. The number of recorded frames is only limited by the camera memory (up to 128 GB, no restriction in practical use). Hence several whole spray events can be captured before reading out the memory. Here a framerate of 20 kHz was used, which is the maximum framerate that still allows the full spatial resolution of 1024x1024 pixels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1: Working principle of the autocorrelation evaluation algorithm</head><p>The relatively low framerate, compared to the other camera (Shimadzu HPV-X) used, is not enough to use the optical flow algorithm. This algorithm tracks structures between two subsequent images. Therefore, the movement and also the deformation of the spray structures must not be too high. Together with the high expected velocities at the nozzle exit (around 210 m/s according to Bernoullis law for 150 bar injection pressure), this means that very high framerates are required. The Shimadzu HyperVision HPV-X ultra high speed camera enables framerates up to 5000 kHz (200 ns interframing time) at a fixed resolution of 400x250 pixels. Due to the image storage directly on the chip, an image sequence is limited to 128 pictures. After that recording is stopped and the camera memory has to be read out. This means a time of approximately 25 µs can be recorded. Moreover, two different scintillator materials have been compared: LuAG:Ce and LYSO:Ce. The LuAG:Ce material is fitting the spectral sensitivity of the Photron SA-Z camera very well but leads to a smearing of the resulting images due to its high decay time. LYSO:Ce has a very short decay time, giving good and sharp images with the Shimadzu HPV-X. Unfortunately, its emission maximum at 420 nm doesn't fit the spectral sensitivity of the photron SA-Z, leading to images with very poor contrast and signal-to-noise ratio.</p><p>The evaluated images from the optical flow and the autocorrelation approach are displayed in Figure <ref type="figure" target="#fig_0">2</ref>. The images clearly show, that the optical flow algorithm with the Shimadzu HPV-X camera is working well and that clear velocity distributions can be computed. As the Shimadzu HPV-X only is capable of recording 25 µs, 80 repetitions are necessary to record the whole 2 ms of a spray event. In contrast the Photron SA-Z is capable of recording the whole spray event with one repetition. However, Figure <ref type="figure" target="#fig_0">2</ref> shows the poor quality of the evaluated velocities. This is mainly due to the high decay time of the LuAG:Ce scintillator smearing the image and the lack of sensitivity of the Photron SA-Z with the 420 nm emission maximum of the LYSO:Ce scintillator. To overcome these difficulties we plan to use a high speed image intensifier for the Photron SA-Z. For example the model HighSpeed IRO from LAVISION is suitable for this application. It allows to shift its spectral sensitivity towards smaller wavelength and enables the use of the very fast LYSO:Ce scintillator with the Photron SA-Z.</p><p>Background corrected image Divided into 24 by 24 tiles Cross correlation to retrieve displacement Correlation coefficient average velocity LuAG:Ce average velocity LYSO:Ce</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Results from the optical flow (left, 100 bar injection pressure, LYSO:Ce Scintillator) and the autocorrelation evaluation (right, 150 bar injection pressure) for the LuAG:Ce and the LYSO:Ce scintillator</figDesc><graphic coords="3,265.20,436.80,138.37,185.92" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

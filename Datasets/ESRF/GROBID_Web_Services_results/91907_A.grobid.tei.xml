@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">43469C8078A0AE81592C803248F2A5A6</idno>
+					<note type="submission">Once completed, the report should be submitted electronically to the User Office via the User</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><ref type="url" target="https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do">https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports supporting requests for additional beam time</head><p>Reports can be submitted independently of new proposals -it is necessary simply to indicate the number of the report(s) supporting a new proposal on the proposal form.</p><p>The Review Committees reserve the right to reject new proposals from groups who have not reported on the use of beam time allocated previously.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports on experiments relating to long term projects</head><p>Proposers awarded beam time for a long term project are required to submit an interim report at the end of each year, irrespective of the number of shifts of beam time they have used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Published papers</head><p>All users must give proper credit to ESRF staff members and proper mention to ESRF facilities which were essential for the results described in any ensuing publication. Further, they are obliged to send to the Joint ESRF/ ILL library the complete reference and the abstract of all papers appearing in print, and resulting from the use of the ESRF.</p><p>Should you wish to make more general comments on the experiment, please note them on the User Evaluation Form, and send both the Report and the Evaluation Form to the User Office.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deadlines for submission of Experimental Reports</head><p>-1st March for experiments carried out up until June of the previous year; -1st September for experiments carried out up until January of the same year.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instructions for preparing your Report</head><p>• fill in a separate form for each project or series of measurements.</p><p>• type your report, in English.</p><p>• include the reference number of the proposal to which the report refers.</p><p>• make sure that the text, tables and figures fit into the space available.</p><p>• if your work is published or is in press, you may prefer to paste in the abstract, and add full reference details. If the abstract is in a language other than English, please include an English translation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment number: MX2120</head><p>Beamline: For the allocated beamtime at CM01 beamline, we were able to collect a decent dataset (3482 movies) for ligand bound form of Kainate receptor using the Krios Cryo-Electron Microscope. With the help of the local contact (Eaazhisai Kandiah), we loaded 7 grids in the grid loader (prepared and tested at Maastricht university with Dr. Peter Peters lab) containing ligand bound protein in different conditions. According to priority, we first tested grid #3 and found grid squares with good ice thickness and particle distribution. We chose 8 grid squares with intermittent ice thickness and marked the holes to be in each to be imaged. The following parameters were adjusted using grid hole of each square:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CM01</head><p>Magnification: 130,000; pixel size: 1.067; spot size: 5; dose rate: 11.22е -/p/s, 9.2е -/Ȧ 2 ; total dose: 45.99е -/Ȧ 2 ; fractions (# frames): 40; exposure time: 5s; images per hole: 2; amplitude contrast: 10%; drift correction was set once per grid square and autodefocus was set once every 3 rd grid hole; Energy filter was set to 20еV and the data was collected in super resolution counting mode. The data collection was monitored using the ExiMX interface; data processing (motion correction and CTF estimation) was done simultaneously as the data was collected as shown in Figure <ref type="figure">1</ref>(a). In addition, data collection statistics was performed by the system to measure the resolution distribution across movies, average motion per frame and astigmatism as shown in Figure <ref type="figure">1</ref>(b). Unfortunately, due to Gain reference issues with Gatan detector a few hours of data collection were lost twice. In total, 3482 movies were collected, out of which 3042 were good and 440 were bad containing gain reference issues and drift in movies. Processed and raw data was transferred from the system to the harddisks using Rsync command line. Data processing is being carried at home institute using softwares like CryoSPARC version2 and Relion3 beta. The processed movies were imported in the softwares, good micrographs were separated from the bad ones by checking individual micrographs. Approximately 1000 particles were picked manually from few micrographs, followed by particle extraction and 2D classification. Then, these particles were used as template to optimize the autopick and extract particles from all micrographs, and go for 2D classification. Further processing is undergoing, but from intial steps of classification we observed some oritentation bias and hence, it would be necessary to obtain more micrographs to obtain sufficient side views to build high resolution structure of kainate receptor. Figure <ref type="figure">2</ref> shows a glimpse of processing of movies.</p><p>Figure2: Data processing of motion corrected and CTF estimated movies</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>for Cell Science, S. P. Pune University, Pune-411007, India Report:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Figure1: (a) Data collection with simultaneous processing; (b) Data collection statistics</figDesc><graphic coords="3,86.40,69.36,265.68,227.04" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

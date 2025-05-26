@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DC90B62620F7545A8A8368FFB707F2BD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: Differential phase contrast tomography of biological specimens in aqueous solution using a shearing interferometer Experiment number: Beamline: ID19 Date of experiment: from: 21 June 2006 to: 25 June 2006 Date of report: 20 August 2007 Shifts: 12 Local contact(s): Peter Cloetens Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Franz Pfeiffer* (Paul Scherrer Institut), Christian David* (Paul Scherrer Institut), Oliver Bunk* (Paul Scherrer Institut), Christian Kottler* (Paul Scherrer Institut), Martin Bech* (Niels Bohr Institut)</p><p>Report:</p><p>Here we report on significant advances of a method for grating based hard x-ray phase tomography <ref type="bibr" target="#b0">[Weitkamp et al 2005]</ref>, which were achieved during the experiment MI-825. More precisely, we describe the combination of three particular improvements concerning (i) the application of gratings with higher contrast made by a novel fabrication process, (ii) a high precision and high speed setup for the phase stepping procedure, and (iii) the application of an improved tomographic phase reconstruction algorithm.</p><p>Figure <ref type="figure">1</ref>: Schematic of the setup for x-ray phase tomography using a grating interferometer}. For each projection a series of at least four images is recorded while one of the gratings (G1) is scanned along the xdirection.</p><p>The imaging experiments were carried out at the beamline ID19 while the tumor implantation was performed at the BioMedical Facility of the European Synchrotron Radiation Facility (ESRF, Grenoble). A monochromatic x-ray beam of 24.9 keV (λ = 0.498 Å) was used for the measurements. For the acquisition of a full tomographic data set, the object was rotated around the tomographic rotation axis and images were recorded for each projection angle. To both increase the positioning accuracy of the grating during the phase stepping scan and to decrease the overhead time due to motor movements, a piezo-driven translation stage with an active feedback loop was used for this experiment. While we have applied the method described above to numerous specimens, proving it to be of potential interest for a range of applications, we can here only report on one in detail. This example particularly reflects the potential for high sensitivity x-ray phase tomography in a biomedical context. The specimen we used was a rat brain bearing a gliosarcoma, fixed in a 4 % formalin solution.</p><p>Figure <ref type="figure" target="#fig_1">2</ref> shows a three dimensional rendering of the reconstructed volume data set. Instead of using the integrated phase projections as input for the filtered backprojection tomographic reconstruction algorithm, we reconstructed the specimen directly from the differential phase contrast projections <ref type="bibr" target="#b0">[Faris et al 1988</ref><ref type="bibr" target="#b0">, Pfeiffer et al 2007]</ref>. This procedure yields fewer artifacts in the reconstruction, since the line-wise integration, which has previously been used to calculate the phase projections from the differential phase contrast images, often causes line artifacts.</p><p>Figure <ref type="figure" target="#fig_2">3</ref> shows slices through the specimen, revealing two interesting findings. The first observation, supported by what can be seen in the tomographic image slice through the brain region containing the rat's cerebellum (Fig. <ref type="figure" target="#fig_2">3a</ref>), concerns the contrast between the brain's white and gray matter. Although such differentiation is usually hardly possible based on x-ray CT scans, our method clearly resolves these small density differences in the brain tissue structure. Based on the standard deviation of the gray values in background (formalin) regions of the reconstructed tomographic slices we deduce a measurement sensitivity for the real part of the refractive index of 3.0 x 10 -10 . This corresponds to an electron density sensitivity of 0.27 e/nm 3 and a mass density sensitivity of approximately 0.8 mg/cm 3 for aqueous specimens. For comparison, a corresponding tomographic slice through the conventional reconstruction based on the absorption projections is shown in Fig. <ref type="figure" target="#fig_2">3c</ref>. Importantly, both results (Fig. <ref type="figure" target="#fig_2">3a</ref> &amp; <ref type="figure" target="#fig_2">3c</ref>) have been obtained from the same data set, i.e., with the same exposure time.</p><p>The second observation, which confirms the enhanced tissue sensitivity of the method, is shown in Fig. <ref type="figure" target="#fig_2">3b</ref>. It displays a tomographic slice through a region in the brain, which contains pathologic tissue, i.e., a brain tumor. Figure <ref type="figure" target="#fig_2">3b</ref> shows clearly the presence of a 9L gliosarcoma in the right caudate nucleus of the brain. The boundaries between the tumor and the healthy tissues is clearly defined. Moreover, the intra-tumoral heterogeneity can be seen with patches of various grey level in the tumor itself. This probably corresponds to the presence of both necrotic and viable (with a high cellularity) areas as defined for that model. It has to be noted that our technique reveals the difference between corpus callosum and caudate nucleus. In summary we have demonstrated how an improved grating based phase contrast tomography setup yields images of biomedical specimens with unprecedented soft tissue sensitivity at synchrotron x-ray sources. In particular we have shown that this x-ray method can be used to discern between subtle details of the tissue structure of animal brains, an application field which until now has almost exclusively been reserved for other, e.g., MRI techniques. While the results can be applied immediately for biomedical studies at synchrotron x-ray sources, they are potentially interesting from a clinical point of view, since a similar approach can be implemented with more readily available x-ray sources, such as standard x-ray tubes <ref type="bibr" target="#b0">[Pfeiffer et al 2007]</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Post Mortem three-dimensional image obtained on a rat brain bearing a 9L gliosarcoma. The volume data set was reconstructed from 721 high sensitivity differential phase contrast projections measured at a synchrotron x-ray source.</figDesc><graphic coords="3,119.04,36.84,357.30,263.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Phase and attenuation based tomography results. (a) Phase tomography slice through the rat's cerebellum showing a clear contrast between the white and gray brain matter. (b) Slice through a region of the brain containing a tumor (indicated by the arrows is the tumor's 'pushing front', the border between the tumor invaded and healthy brain tissue). (c,d) Corresponding slices through the absorption based reconstruction of the specimen. All images are displayed on a linear gray scale corresponding to +/-σ, where σ is the standard deviation of the pixel gray values in the image.</figDesc><graphic coords="4,123.18,50.76,349.02,349.08" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Phase retrieval and differential phase-contrast imaging with low-brilliance x-ray sources</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Faris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rl ;</forename><surname>Byer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weitkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C ;</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kottler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C ;</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weitkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Stampanonim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ziegler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Physics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="6296" to="6304" />
+			<date type="published" when="1988">1988. 2006. 2007. 2005</date>
+		</imprint>
+	</monogr>
+	<note>Faris et al 1988 Pfeiffer et al 2006 Appl Opt Pfeiffer et al 2007 Hard X-ray phase tomography with low-brilliance sources Phys Rev Lett Weitkamp et al 2005 Optics Express</note>
+	<note type="raw_reference">References: [Faris et al 1988] Faris GW and Byer RL 1988 3-dimensional beam-deflection optical tomography of a supersonic jet Appl Opt 27 5202-5206 [Pfeiffer et al 2006] Pfeiffer F, Weitkamp T, Bunk O and David C 2006 Phase retrieval and differential phase-contrast imaging with low-brilliance x-ray sources Nature Physics 2 258-261 [Pfeiffer et al 2007] Pfeiffer F, Kottler C, Bunk O and David C 2007 Hard X-ray phase tomography with low-brilliance sources Phys Rev Lett 98 108105 [Weitkamp et al 2005] Weitkamp T, Diaz A, David C, Pfeiffer F, StampanoniM, Cloetens P and Ziegler E 2005 X-ray phase imaging with a grating interferometer Optics Express 13 6296-6304</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Revealing the mechanism of passive transport in lipid bilayers via phonon-mediated nanometre-scale density fluctuations</title>
+				<funder ref="#_SFpu6Bn">
+					<orgName type="full">Agence Nationale de la Recherche</orgName>
+					<orgName type="abbreviated">ANR</orgName>
+				</funder>
+				<funder ref="#_WaxN2p7">
+					<orgName type="full">Russian Foundation for Basic Research</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Grenoble, France</orgName>
+				</funder>
+				<funder ref="#_wzzvyaj">
+					<orgName type="full">Ministry of Education and Science of the Russian Federation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">US Department of Energy, Office of Science, Office of Basic Energy Sciences</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-05-12">12 May 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mikhail</forename><surname>Zhernenkov</surname></persName>
+							<idno type="ORCID">0000-0003-3604-0672</idno>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">National Synchrotron Light Source II</orgName>
+								<orgName type="institution" key="instit2">Brookhaven National Laboratory</orgName>
+								<address>
+									<postCode>11973</postCode>
+									<settlement>Upton</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dima</forename><surname>Bolmatov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">National Synchrotron Light Source II</orgName>
+								<orgName type="institution" key="instit2">Brookhaven National Laboratory</orgName>
+								<address>
+									<postCode>11973</postCode>
+									<settlement>Upton</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dmitry</forename><surname>Soloviov</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Frank Laboratory of Neutron Physics</orgName>
+								<orgName type="institution">Joint Institute for Nuclear Research</orgName>
+								<address>
+									<postCode>141980</postCode>
+									<settlement>Dubna</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Moscow Institute of Physics and Technology</orgName>
+								<address>
+									<postCode>141700</postCode>
+									<settlement>Dolgoprudny</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kirill</forename><surname>Zhernenkov</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institut Nanosciences et Cryoge ´nie</orgName>
+								<address>
+									<addrLine>Commissariat a `l&apos;Energie Atomique</addrLine>
+									<postCode>38054</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Boris</forename><forename type="middle">P</forename><surname>Toperverg</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">Petersburg Nuclear Physics Institute</orgName>
+								<address>
+									<postCode>188300</postCode>
+									<settlement>Gatchina</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">Institut Laue Langevin</orgName>
+								<address>
+									<addrLine>6, rue Jules Horowitz</addrLine>
+									<postCode>38042</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alessandro</forename><surname>Cunsolo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">National Synchrotron Light Source II</orgName>
+								<orgName type="institution" key="instit2">Brookhaven National Laboratory</orgName>
+								<address>
+									<postCode>11973</postCode>
+									<settlement>Upton</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexey</forename><surname>Bosak</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="laboratory">European Synchrotron Radiation Facility</orgName>
+								<address>
+									<postCode>38000</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yong</forename><forename type="middle">Q</forename><surname>Cai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">National Synchrotron Light Source II</orgName>
+								<orgName type="institution" key="instit2">Brookhaven National Laboratory</orgName>
+								<address>
+									<postCode>11973</postCode>
+									<settlement>Upton</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Revealing the mechanism of passive transport in lipid bilayers via phonon-mediated nanometre-scale density fluctuations</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Nature Communications</title>
+						<title level="j" type="abbrev">Nat Commun</title>
+						<idno type="eISSN">2041-1723</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2016-05-12">12 May 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">92EB63E1FB8A0904BA9394D974987FFA</idno>
+					<idno type="DOI">10.1038/ncomms11575</idno>
+					<note type="submission">Received 23 Dec 2015 | Accepted 10 Apr 2016 |</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The passive transport of molecules through a cell membrane relies on thermal motions of the lipids. However, the nature of transmembrane transport and the precise mechanism remain elusive and call for a comprehensive study of phonon excitations. Here we report a high resolution inelastic X-ray scattering study of the in-plane phonon excitations in 1,2-dipalmitoyl-sn-glycero-3-phosphocholine above and below the main transition temperature. In the gel phase, for the first time, we observe low-frequency transverse modes, which exhibit a phonon gap when the lipid transitions into the fluid phase. We argue that the phonon gap signifies the formation of short-lived nanometre-scale lipid clusters and transient pores, which facilitate the passive molecular transport across the bilayer plane. Our findings suggest that the phononic motion of the hydrocarbon tails provides an effective mechanism of passive transport, and illustrate the importance of the collective dynamics of biomembranes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A biological membrane serves as a selective barrier between the internal compartment of the cell and the cell's surroundings. Because it mediates a variety of processes (such as transport of small molecules, permeation of ions, protein budding and trafficking, and signal transduction), its structure and composition are necessarily complex. Biological membranes are dynamic, fluid systems whose constituents are able to move within the membrane's plane <ref type="bibr" target="#b0">1</ref> . One of the membrane's main constituents is the lipid, which has long been established as the basis for the membrane's structure. Because of their polar head groups and two hydrophobic hydrocarbon tails, lipids spontaneously form bilayers in aqueous environments. Such a lipid bilayer provides both a stable enclosure for the cell contents and the fluidity and mobility required for the cell to carry out its functions, including passive transport of molecules needed to support the biological functions. Examples of such passive transport include proton translocation, the permeation of small polar molecules such as water <ref type="bibr" target="#b1">2</ref> or molecules that can dissolve in lipids, like oxygen and carbon dioxide <ref type="bibr" target="#b2">3</ref> . It has been experimentally shown that many factors, such as solute nature, molecule type and size or membrane thickness define the permeability process <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref> ; however, the exact mechanism of such transport still remains unknown. Different models (such as the solubility-diffusion model, transient pore model or packing defect model, to name a few) that take into account solute hydrophobicity, molecular size and shape, together with membrane fluidity and packing density were proposed to explain the passive transport mechanism. However inconsistencies between the different models and experimental data still persist <ref type="bibr" target="#b6">7</ref> . Remarkably, all of the proposed models to describe the permeability process through a cell membrane depend on thermally activated vibrations of the lipids in the membrane, which in turn depend on the membrane composition. Although the current understanding of the membrane structure is fairly mature <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> a robust model for the collective dynamics of lipids is still at its infancy. Therefore, in order to gain a deeper insight into these energy-transfer phenomena across the lipid membrane a systematic and comprehensive study of lipid dynamics is required.</p><p>During the past decade, many incoherent dynamic phenomena, such as the ultra-fast rotational and vibrational spectra <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> and diffusion processes in the plane of the membrane <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref> have gained increasing attention. In addition, extensive efforts have been dedicated to molecular dynamics simulation of collective (coherent) chain dynamics <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref> . Still, despite considerable interest and potential wide impact, experimental studies of the fast picosecond collective dynamics in cell membranes have been sporadic. In recent years, there have only been a few experiments utilizing inelastic X-ray (IXS) <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref> and inelastic neutron scattering (INS) <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31</ref> , where the longitudinal phonon modes and their evolution as a function of temperature were observed. IXS and INS are complementary techniques in studying collective lipid dynamics. INS normally provides superior energy resolution and induce no beam damage on a sample; however, it suffers from kinematic constrains limiting its accessible dynamic range. In INS experiments, the sample must be deuterated in order to remove the large incoherent scattering from the hydrogen atoms in the sample. On the other hand, the IXS scattering cross-section is inherently coherent, so the deuteration of lipids is not required and, apart from the limited energy resolution, the method is virtually free from kinematic limitations. It is important to mention that the selective deuteration of lipid's acyl chains is undesirable since the substitution of hydrogen with deuterium notably changes lipid's physical properties. For example, the main transition temperature of 1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC) reduces by B5 °C in case of DPPC-d62 deuteration <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33</ref> . It is noteworthy that the dynamics of the fully hydrated DPPC membrane is particularly interesting, since this lipid is a major constituent of the pulmonary surfactant, through which oxygen must penetrate before it can reach the lung tissue <ref type="bibr" target="#b33">34</ref> . The pulmonary surfactant is a mixture of phospholipids and proteins containing B40% DPPC, a powerful surfactant molecule, which reduces the surface tension to nearly zero <ref type="bibr" target="#b34">35</ref> facilitating oxygen transport. Therefore, studying the thermally induced ultra-fast vibrations of DPPC is crucial for understanding the oxygen permeation, in particular, and, more generally, the nature of transmembrane small molecule passive transport <ref type="bibr" target="#b6">7</ref> .</p><p>In this work, we report an IXS study of the in-plane phonon excitations in fully hydrated DPPC above and below the main transition temperature (T m ¼ 41 °C). We provide clear evidence for the high-frequency longitudinal phonon modes previously predicted by molecular dynamics simulations in the L b' (gel) phase <ref type="bibr" target="#b22">23</ref> , and for their apparent softening upon the DPPC lipid transition into the L a (fluid) phase. We also provide compelling evidence for an in-plane transverse acoustic modes that, to the best of our knowledge, have not been reported before in the literature. The explanation of the transverse modes in DPPC lipid is given within the framework of the phonon theory of liquids <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref> . Ultimately, we discuss and explain the importance of the observed low-frequency phononic band gap in the context of solute diffusion in lipid bilayers, which highlights the crucial role of phonons for the passive transmembrane transport.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Experimental details. The geometry of the IXS experiment is presented in Fig. <ref type="figure">1a</ref>: the orientation of the scattering vector Q is kept within the membrane's plane to ensure that the probed collective dynamics of lipids is preferentially occurring in the lateral plane. As it was shown previously, in an IXS experiment, the major contribution to the measured phonons stems from the collective excitations of lipid tails <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31</ref> . In addition, in such experiments, the peak in the S(Q) is observed at the position corresponding to the tail-to-tail distance (not head-to-head distance), which can be considered as an independent proof that the major contribution to the measured phonons come from the tails, not the heads groups. The main phase transition temperature of DPPC is 41 °C with the pre-transition to a metastable ripple phase, P b' , occurring at 35 °C. Therefore we performed the IXS measurements at 20 and 45 °C at ambient pressure to ensure that the metastable P b' phase was avoided. Selected IXS spectra for different Q-values for the measurements performed at 20 and 45 °C are presented in Fig. <ref type="figure">2</ref> together with the total fit (red solid curves) and its individual damped harmonic oscillator (DHO) components.</p><p>IXS spectra fitting. An IXS spectrum from a liquid or disordered material is often dominated by the central elastic line and weaker inelastic excitations that appear as 'shoulders'. Positive and negative energies correspond to the creation and annihilation of propagating modes, for example, phonon, respectively, whose intensities are governed by the detailed balance factor <ref type="bibr" target="#b38">39</ref> . To extract the energy and the width of phonon excitations, experimental data were fitted utilizing a standard procedure <ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref> , that is, employing a model, which includes two inelastic terms, or modes, represented by two DHO profiles convoluted with the resolution function (RF) (see Methods section for details). Each DHO excitation has three varying parameters: o(Q), G(Q) and I(Q), which represent the excitation energy, width and intensity, respectively. The other variables are the experimental background level and the intensity S(Q,0) of the central peak, whose measured shape coincides with the RF, which contains all spurious and geometrical factors affecting the measurement. The latter has been measured prior the current experiment and found to be close to the Voight function. Hence, in the fitting procedure the contribution of the central peak was described by varying a single parameter, that is, the amplitude S(Q,0), at each value of Q (see Fig. <ref type="figure">1b</ref>). As a result, in the present experiment, the static structure along with processes related to slow molecular motions (for example, diffusion, relaxation and so on) unresolved with respect to the energy transfer are taken into account via a term proportional to d(o) and thus the measured central peak has an intensity S(Q,0), hereafter quoted as elastic intensity. As can be seen from Fig. <ref type="figure" target="#fig_1">3</ref>, the IXS data cannot be fitted by only one excitation for the majority of the data. For example, at 20 °C, the IXS data cannot be fitted without the transverse excitation, which emerges at :oo2.5 meV (see Fig. <ref type="figure" target="#fig_1">3b</ref>); whereas at 45 °C (see Fig. <ref type="figure" target="#fig_1">3a</ref>), the transverse excitation is heavily damped and the best fit is achieved just by summing the RF with the longitudinal excitation only. Although the main region of interest lays at Qo15 nm À 1 revealing features of collective excitation dynamics, at Q-values above the peak of the structure factor the model with two DHOs also describes well the experimental data. One should note that at high Q-values excitations become heavily overdamped hence totally decaying within a single oscillation in time. Moreover, excitation frequencies and damping parameters acquire large error bars (see, below) indicating that the number of fitting parameters can be reduced, for example, via fixing o(Q) ¼ 0, and thus assuming purely relaxational or diffusional motions. This, indeed, reduces error bars for the damping</p><formula xml:id="formula_0">T = 45 °C T = 20 °C 17.03 nm -1</formula><p>19.96 nm -1</p><p>22.86 nm -1 25.77 nm -1</p><p>3.89 nm -1 17.03 nm -1 3.89 nm -1 6.83 nm -1 19.96 nm -1 6.83 nm -1 9.74 nm -1 22.86 nm -1 9.74 nm -1 12.67 nm -1 25.77 nm -1 12.67 nm <ref type="bibr">-1</ref> Intensity (a. Incident beam Incident beam S c a tt e re d b e a m Q II b a 3.5 4.0 3.0 2.5 2.0 1.5 1.0 0.5 0.0 10 12 14 16 18 20 Q (nm -1 ) T = 45 °C Intensity, 10 3 (counts) Figure 1 | Geometry of IXS experiment and DPPC structure factor. (a) In-plane scattering geometry used at the IXS beamline (ID28) at ESRF. The incident and scattered beams remain within the lipid membrane plane and thus the momentum transfer vector Q lies parallel to the sample surface. (b) S(Q,0) as measured showing the chain correlation peak for 45 °C. ESRF, European Synchrotron Radiation Facility.</p><p>parameters. However, neither the expectation value nor w 2 would improve while simultaneously reducing fit quality. Therefore, we emphasize that the data cannot be satisfactorily described with a single Lorentzian function, but rather require at least two modes: either both of the non-propagating type (one purely relaxational and the other propagating with very large damping) or, alternatively, two overdamped modes. The latter model has the advantage that all data sets can be described in the same manner providing a direct comparison between fitting parameters at different temperatures over the whole range of Q.</p><p>A more detailed statistical analysis of the IXS data at Q ¼ 3.89 nm À 1 at both temperatures is presented in Fig. <ref type="figure" target="#fig_2">4a-d</ref>. As can be seen from Fig. <ref type="figure" target="#fig_2">4c</ref>,<ref type="figure">d</ref>, the data in fluid phase can be fitted with one DHO phonon branch only (longitudinal modes) and that the addition of the second branch does not improve the fit quality: the reduced w 2 change (from 1.50 to 1.48) is negligible had the second excitation been added to the model. Also, during the least squares fitting, irrespective of the starting parameters, the second DHO excitation tends to vanish, indicative of its inapplicability to the model. Conversely, in gel phase (Fig. <ref type="figure" target="#fig_2">4a</ref>,<ref type="figure">b</ref>), the fit improves dramatically (the reduced w 2 changes from 2.07 to 1.04) when the second (transverse) excitation is added. Also, upon including a longitudinal excitation only (Fig. <ref type="figure" target="#fig_2">4a</ref>), the residual curve exhibits the characteristic shape with two humps symmetrically located about zero energy transfer implying the deficiency of the second phonon excitation in the model.</p><p>The propagating nature of the observed transverse modes is unambiguously evidenced in Fig. <ref type="figure" target="#fig_1">3c</ref> (at 20 °C, Q ¼ 9.74 nm À 1 ) where a hump at :oE3.2 meV is clearly seen. The o(Q) dispersion curves for both 20 and 45 °C measurements obtained as a result of the fitting procedures described above are presented in Fig. <ref type="figure" target="#fig_4">5a</ref>. The DHO model fit to the IXS data revealed two phonon branches (longitudinal and transverse) both at low and high temperatures.</p><p>Longitudinal phonons. In Fig. <ref type="figure" target="#fig_4">5a</ref>, the behaviour of the longitudinal phonon dispersions is linear at low Q and its slope defines the high-frequency sound speed in the DPPC lipid for a given temperature. The speed of sound was estimated to be 2,532 ± 190 m s À 1 and 2,241 ± 437 m s À 1 for 20 and 45 °C, respectively. This result is in agreement with the molecular dynamics simulation of DPPC lipid <ref type="bibr" target="#b22">23</ref> and the previously reported <ref type="bibr" target="#b26">27</ref> values for a similar lipid, 1,2-dilauroyl-sn-glycero-3phosphocholine (DLPC), measured by IXS. The obtained values of the speed of sound are lower than the high-frequency sound speed in bulk water at room temperature, which is 3,200 m s À 1 (ref. 43). The minimum in the longitudinal dispersion, at Q min E15.4 nm À 1 for 20 °C and at Q min E14.2 nm À 1 for 45 °C, corresponds to the boundary of the quasi-Brillouin zone of a two-dimensional lipid, which can be understood to correspond to the mean distance d between the hydrocarbon chains of DPPC. This distance also corresponds to the first peak in the static structure factor S(Q,0) measured during the experiment (Fig. <ref type="figure">1b</ref>). The Q min -values of the dispersion minimum (or the position of the chain correlation peak) provide a rough estimate of the areas per lipid molecule in both phases using a simplified equation: <ref type="bibr" target="#b43">44</ref> A L ¼ 2.64(9d/8) <ref type="bibr" target="#b1">2</ref> , where d ¼ 2p/Q min , which yields A L ¼ 55.6 ± 1 Å 2 and 65.4 ± 1 Å 2 for 20 and 45 °C, respectively. These areas per molecule are in agreement with the ones obtained by coarse grained molecular dynamic simulation <ref type="bibr" target="#b44">45</ref> and more precise measurements <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47</ref> . Not unexpectedly, similar longitudinal phonon dispersions have been reported for deuterated 1,2-dimyristoyl-sn-glycero-3-phosphocholine (DMPC) using INS <ref type="bibr" target="#b29">30</ref> . However, our results reveal that the minimum in the longitudinal dispersion relation is deeper in the fluid phase, which is supportive of previous IXS measurements <ref type="bibr" target="#b26">27</ref> but in contradiction with INS ones <ref type="bibr" target="#b29">30</ref> . The inconsistency of the results measured by INS can possibly be attributed to the uncontemplated effects due to the selective deuteration of hydrocarbon tails used for the neutron scattering experiment.</p><p>Transverse phonons. Sound propagates well in lipid membranes in the form of the longitudinal phonons described above. What is not obvious, though, is whether transverse phonons also occur in disordered systems such as lipid membranes. Because each phonon mode is responsible for the sound propagation and heat transfer, it is important to know how many modes occur in a lipid membrane of interest. In contrast to longitudinal phonons routinely observed in lipids, high-frequency transverse modes 14 4 3 2 1 0 4.0 3.5 3.0 2.5 2.0 1.5 1.0 0.5 0.0 0 0 5 10 15 20 30 25 12 8 6 2 0 5 5 10 10 15 15 20 20 25 25 30 30 have not been experimentally observed in such systems so far. Recently, weakly dispersive transverse phonon modes were observed in DMPC membrane in the presence of ethanol. These modes were conferred as 'out-of-plane', or propagating along the lipid tails, and were attributed to the influence of ethanol molecules on the bilayer <ref type="bibr" target="#b28">29</ref> since prior experimental and computational data for pure DMPC showed no sign of such transverse modes. In contrast, in this work we clearly observe high-frequency in-plane propagating transverse phonon modes in DPPC lipid membrane, similar to that observed in water and other liquids <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> . These modes should be clearly distinguished from the 'out-of-plane' modes described in ref. 29.  In Fig. <ref type="figure" target="#fig_4">5a</ref> transverse phonon modes are shown for both 20 and 45 °C. Transverse phonons behave similarly to longitudinal modes, exhibiting insignificant softening upon crossing the DPPC phase transition with a corresponding shift of Q min -value of the dispersion minimum to a smaller Q, revealing the increase of the mean distance d between hydrocarbon chains of DPPC in the L a phase. The speed of sound estimated is 582 ± 12 m s À 1 for 20 °C and does not change noticeably within the experimental errors with the temperature rise. Recently, MD simulations of the thermal vibrations in DMPC lipid revealed surprisingly rich landscape of phonon excitations, which includes a longitudinal and a transverse acoustic modes, three optical branches with energies exceeding 10 meV, and an optical-like localized non-dispersive mode at about 6 meV (ref. 50). The good agreement between the longitudinal and the transverse excitations obtained by MD simulation <ref type="bibr" target="#b49">50</ref> and in our work suggests that previous oversimplified interpretation of the IXS spectra may not be appropriate.</p><formula xml:id="formula_1">Q (nm -1 ) R R Q (nm -1 ) Q (nm -</formula><p>Remarkably, at the high temperature, we also observe the low-Q phononic band gap, which can be identified as the disappearance of the transverse phonons at Qo5 nm À 1 . The phonon gap is indicated by the double arrow in Fig. <ref type="figure" target="#fig_4">5a</ref>. This phenomenon can be explained in the framework of the recently developed phonon theory of liquids <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref> , which predicts that transverse phononic gaps appear in disordered materials with increasing temperature. The first experimental evidence for such phononic gaps using IXS along with the theoretical explanation supported by MD simulations was shown for liquid Ar <ref type="bibr" target="#b47">48</ref> . As can be seen further, the appearance of the phononic band gaps leads to important implications for membrane dynamics and passive membrane transport.</p><p>As shown before <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b47">48</ref> , the emergence of the phononic gaps is associated with diffusion and relaxation processes occurring in the lipid membrane. This point is of particular relevance, since the emergence of low-frequency phononic gaps (see Fig. <ref type="figure" target="#fig_4">5a</ref>) implies that low-frequency wave-packets (long-wavelength limit) cannot propagate in a hybrid system (lipid membrane/water) due to the long-range structural disorder. In turn, the loss of long-range pair correlations activates diffusion processes at higher rates. This reveals two intrinsically different mechanisms of sound propagation and heat transfer in lipid membranes. The first mechanism is characterized by the short and intermediate length scales and is governed primarily by phononic excitations. The other mechanism is originated from highly diffusive dynamics due to heavily damped phonons at long-length scales. The cutoff value Q gap at which the phononic gap occurs is related to the characteristic length-scale of a local 'order', or clustering, beyond which the long-range propagation of phonons is impaired. Such local 'clustering' can be attributed to the partial chain ordering in the lipid bilayer in a planar direction which is also characterized by the increased surface density of lipid molecules, the signature of the L b' -like arrangement (see Fig. <ref type="figure" target="#fig_5">6</ref>). From the transverse phonon branch at 45 °C (see Fig. <ref type="figure" target="#fig_4">5a</ref>) one can estimate that the characteristic size of a local ordering, or a cluster, d gap ¼ 2p/Q gap is B1.1-1.6 nm, or of the order of several lipids across. Beyond d gap the lipid molecules arrangement is disordered and does not support the in-plane transverse sound propagation, which is consistent with the L a phase. Importantly, the observed clustering cannot be considered as a coexistence of the L a and L b' phases: since the IXS measures ultra-fast lipid dynamics (on the picosecond time scale), such local ordering should be considered as short time phonon-triggered density fluctuations. Consistently, low-Q phononic gaps were not observed in the L b' -DPPC, where the packing of the lipid acyl chains is much tighter and transverse phonon propagating mode is supported throughout measured Q-range. Such picosecond clustering was previously observed in liquid Sn and Ga <ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52</ref> and ascribed to transverse phonon localization on nanometre-length scales. Specifically, the cluster size was estimated 0.4-0.5 nm and 0.8-1.0 nm for Ga and Sn, respectively <ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52</ref> .</p><p>To gain a deeper insight into the origin of the acoustic modes propagating throughout the membrane, in Fig. <ref type="figure" target="#fig_4">5b</ref> we report the damping ratio R ¼ o(Q)/G(Q) (dimensionless value) at both temperatures. It is worth recalling that the condition R ¼ 1 marks the crossover between the overdamped (Ro1) and underdamped (R41) regime of acoustic propagation. In the former regime, the density fluctuation is so strongly damped that it dies-off before experiencing a single oscillation and thus the mode essentially acquires a diffusive, rather than oscillatory, character. On a more formal ground, one may recognize that in the strongly overdamped regime (R)1) the mode can be well described by a real-valued (merely dissipative) eigenvalue, while in the underdamped regime an imaginary (oscillatory) part emerges. The oscillatory character of the transverse perturbation is provided by shear restoring forces that in a liquid are weaker and much shorter lasting than in solids. Generally, R is a measure of the number of oscillations exhibited by the vibrational mode before it becomes damped off. A damped acoustic wave is described by a function, which has the general form:</p><formula xml:id="formula_2">F t ð Þ ¼ Ae À G Q ð Þt e À io Q ð Þt<label>ð1Þ</label></formula><p>with the eigenvalue G(Q) À io(Q) being complex, where A is a complex constant, t is the time, G(Q) is the damping coefficient, which determines the damping amplitude and o(Q) is the oscillatory frequency. For example, in a perfect crystal, G(Q)-0 and the acoustic sound waves are long-lived, so R-N. In this respect, the comparison shown in Fig. <ref type="figure" target="#fig_4">5b</ref> is surprising. In particular, one readily notices that, at lower temperature, the transverse modes become increasingly solid-like at intermediate Q range where R reaches a clear maximum. At the same time, the longitudinal modes become more damped, reflecting the increasing difficulty of the system in supporting the high wavevector acoustic sound wave. In this Q-range, shear restoring forces cause the transverse waves to experience, within their lifetime, a number of oscillations even larger than the longitudinal modes. The situation is completely reversed in the L a phase, where not only damping effects cause both transverse and longitudinal modes to become critically damped (RE1) at high Q, but a clear gap prevents the shear mode from propagating over a large distance (see dispersion curve in Fig. <ref type="figure" target="#fig_4">5a</ref>).</p><p>Our observation of the phononic gaps sheds light on the mechanism of the transmembrane solute diffusion. There has been much experimental evidence that the increased lipid packing reduces the diffusion across the membrane. For example, reducing the temperature across the lipid main transition or adding cholesterol leads to increased surface density and decreases the solute partitioning into the membrane <ref type="bibr" target="#b52">53</ref> . Different explanations of the solute diffusion were proposed based on MD simulations. One model by Lieb and Stein proposed that solutes diffuse by ultra-fast 'hopping', or 'rattling' from void to void within the acyl chain region <ref type="bibr" target="#b53">54,</ref><ref type="bibr" target="#b54">55</ref> . Another suggestion was that the partition coefficient strongly depends on the local chain ordering within the bilayer, which leads to the solute exclusion within the region of highly ordered chain packing <ref type="bibr" target="#b52">53,</ref><ref type="bibr" target="#b55">56</ref> . Our experimental observations suggest that in the L a phase, the thermally triggered density fluctuations promote short-time localization of the regions, or clusters, with highly ordered lipid chains within the membrane (similar to the L b' phase), which in turn directly mediates the diffusion at longer length scales due to heavily damped phonons. Such local chain packing is short-living (on the picosecond time scale) and is localized on the scale of d gap , where the concentration of a solute can be potentially reduced. On the other hand, long-range disorder, where the transverse phonon propagation is impaired, can be a signature of short-lived volume voids (notice the rarefied lipid regions surrounding the DPPC clusters in Fig. <ref type="figure" target="#fig_5">6</ref>) that facilitate the diffusion of small solute molecules via 'hops' from one free volume void to another <ref type="bibr" target="#b55">56</ref> .</p><p>The phononic landscape of biomembranes appears to be very rich <ref type="bibr" target="#b49">50</ref> and is still largely unexplored experimentally. The precise experimental determination of each phonon branch (be it acoustic or optical) using IXS remains very challenging for various reasons. For example, in our work, the study was done with an energy resolution of B1.7 meV, which, in combination with the Pseudo-Voigt line shape of the RF, hampered a more quantitative detection of low energy propagating transverse modes. Also, a relatively low Q-resolution (B1.5 nm À 1 ) makes it hard to determine the parameters (Q gap , o gap ) of the phononic gaps precisely. The development of new IXS spectrometers with higher energy and Q resolutions with sharper resolution line shape <ref type="bibr" target="#b56">57</ref>, therefore, offers great opportunities to improve our understanding of the collective dynamics and the role it plays in the passive transport and other biological functions of biomembranes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Here, we reveal for the first time, the existence of propagating transverse phonon modes in DPPC lipid membrane. Remarkably, we observe phononic gaps in the transverse phonon dispersion and evidence gap opening with increasing temperature. This result confirms the theoretical prediction <ref type="bibr" target="#b37">38</ref> that transverse phononic gaps appear in disordered materials over heat production due to the phonons interaction. Such band gaps are related to the diffusion and relaxation processes occurring in the lipid membrane. According to the phonon theory of liquids <ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref> , the band gap emerges when the transverse phonon propagation is no longer supported due to the increasing lipid chain disorder on long-length scales. For short and intermediate length scales, the band gap is an evidence of short-lived (on the picosecond time scale) local lipid clustering in lipid membranes. Such clustering (local chain ordering) supports the hypothesis that the local chain ordering may play an important role in solute diffusion by mediating the entropic expulsion (exclusion) of the solute from the inter-chain regions of the lipid membrane <ref type="bibr" target="#b52">53</ref> . On the other hand, lipid chain disorder on long-length scale can potentially be an evidence for short-lived volume voids. Thermally triggered void formation can account for the abnormally fast diffusion of small solutes via hopping between voids <ref type="bibr" target="#b53">54</ref> . The universal phonon-triggered mechanism may possibly help shed light on other permeation properties, such as the anomalously high proton permeability of lipid bilayers, which cannot be explained just in the framework of solubility-diffusion mechanism <ref type="bibr" target="#b57">58</ref> . The formation of water wires, or fingers inside the short-lived voids (or transient defects) that are mediated by phonons and the heat transfer in the lipid bilayer can account for proton translocation along such hydrogen-bonded water chains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>DPPC lipid preparation and deposition. DPPC was purchased from Avanti Polar Lipids (Alabaster, AL) and used without further purification. An amount of 20 mg ml À 1 stock solution of DPPC was prepared in a mixture of 3:2 hexane/2-propanol. Single crystal synthetic diamond substrate (4.5 Â 4.5 mm 2 , 0.5 mm thick, (100) face orientation, purchased from Element Six Ltd. Ascot, UK) was cleaned with the consecutive rinses of chloroform, methanol and deionized water and then UV/ozone etched for 20 min before lipids deposition. DPPC solution was spin coated on the diamond substrate and spun for 60 s at 300 r.p.m., subsequently the speed was increased to 600 r.p.m. for another 60 s. The rotational frequency had been chosen such that no tossing of lipid solution from the substrate was observed <ref type="bibr" target="#b58">59</ref> . The sample was dried subsequently in a vacuum oven at room temperature for 18 h to remove the remaining traces of solvent. As a result, well oriented DPPC multilayer containing up to a thousand bilayers was formed. The sample was measured at two temperatures: 20 °C (L b' phase) and 45 °C (L a phase) at the relative humidity of 97-98%. It should be noted, that a lipid sample prepared by the spin coating may exhibit imperfections, which in turn may affect the phonon spectra of disordered materials, like lipid membranes. Nevertheless, this can be easily observed by analyzing the phonon branches. For example, large clusters, aggregates or other forms of defects at micron-scale or larger (which are expected due to the spin-coating procedure) can be observed on the phonon spectra as absence of phonon excitations within the Q-range equal or less than 2p/Q, which is of the order of 10 À 3 -10 À 4 nm À 1 , far below the resolution of any IXS spectrometer. Therefore, such defects cannot be seen in our experiment and they have no effect on the results presented in this work.</p><p>Inelastic X-ray scattering experiment. The IXS scattering experiment was performed at the ID28 beamline at the European Synchrotron Radiation Facility, Grenoble, France. The spectrometer was operated at 21.747 keV incident energy, providing an energy resolution having a Pseudo-Voigt profile with full-width at half-maximum B1.7 meV and a beam focus of B250 Â 80 mm 2 (H Â V, full-width at half-maximum). Further details of the experimental setup can be found elsewhere <ref type="bibr" target="#b39">40</ref> . The DPPC multilayer sample was placed inside a humidity chamber where the sample temperature and the relative humidity can be precisely controlled. The scattering geometry used during the experiment is shown in Fig. <ref type="figure">1a</ref>. X-ray beam impinges on the DPPC-covered diamond substrate at a very shallow angle (B3 mrad) in order to optimize the scattering volume. The advantage of using a single-crystal diamond substrate is the absence of phonon-related scattering in the (Q, :o) region of interest due to the very high sound velocities of diamond, as well as the absence of significant absorption. The scattering intensity is collected in the plane, parallel to the sample surface. Under these conditions, the scattering vector Q remains essentially within the DPPC lipid multilayer plane and, thus, only in-plane dynamics is probed. In this experiment a very wide Q range from 2.47 to 27.29 nm À 1 was covered. A single IXS scan included 97 energy points with an exposure time of 90 s per point. The total data acquisition time for a given temperature (shown in Fig. <ref type="figure">2</ref>) was B34 h. To cover Q range indicated above, 18 Q-values were measured at two different angles of the IXS spectrometer's detector arm. During the experiment, in order to mitigate the beam damage the sample was continuously scanned across the beam. Possible beam damage was examined both visually (by looking at the sample under a microscope) and by comparing the IXS scans for the same crystal analyser at the beginning and at the end of the experiment. In Fig. <ref type="figure" target="#fig_6">7</ref>, one can see the comparison of the raw IXS scans at 45 °C for Q ¼ 3.89 nm À 3 at the beginning of the measurement and at the end. The total duration of the sample's exposure to the X-ray beam was B34 h. Neither significant deterioration of the sample nor the degradation of the IXS spectra quality was observed.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 |Figure 1 |</head><label>21</label><figDesc>Figure 2 | IXS spectra of DPPC. (a) IXS spectra measured at T ¼ 45 °C in the fluid phase and at (b) T ¼ 20 °C in the gel phase. The experimental data (black squares) with error bars signifying 1 s.d. are reported together with the best least squares fit (red solid curves) using a DHO model with two excitations. The DHO models are presented after convolution with the IXS spectrometer RF (denoted by the dashed blue line). Low-and high-frequency DHO are denoted by the green and magenta solid curves, respectively. The corresponding Q values are shown in each plot.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 |</head><label>3</label><figDesc>Figure 3 | Propagating transverse excitations. Experimental data, the fitting curve and excitations from Fig. 2 for Q ¼ 3.89 nm À 1 multiplied by (:o) 2 for 45 °C (a) and 20 °C (b), respectively. In a, the experimental data are well described by the sum of the RF and a single, longitudinal excitation only. In contrast, in b, the double blue arrow indicates excessive intensity in the experimental data above the RF þ longitudinal mode, which can only be accounted for by the addition of the emerging transverse excitation with an inelastic shift below 2.5 meV. (c) Q ¼ 9.74 nm À 1 for 20 °C: longitudinal modes dominate the intensity at :o E10 meV and the propagating transverse excitation is clearly seen as a hump at :oE3.2 meV. The error bars represent 1 s.d.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>TFigure 4 |</head><label>4</label><figDesc>Figure 4 | Statistical analysis of the IXS spectra at Q ¼ 3.89 nm À 1 . (a-d) The best model fits of the IXS scans at 20 °C (a,b) and 45 °C (c,d) at Q ¼ 3.89 nm À 1 with one (longitudinal) and two (longitudinal and transverse) DHO excitations, respectively. The residuals are shown by blue dash-dotted curves. The resulting reduced w 2 is indicated in each panel. The error bars represent one s.d.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 |</head><label>5</label><figDesc>Figure 5 | Phonon dispersion curves and damping ratios. (a) o(Q) dispersion curves obtained using the DHO modelling. Filled and open symbols correspond to dispersions curves for 20 and 45 °C, respectively. Emergence of high-frequency transverse phonon gap at high temperature is indicated by the arrow. The solid lines are shown to guide eyes only. The dashed lines extrapolate the longitudinal phonon dispersions to Q ¼ 0. (b) The values of the damping ratio R ¼ o(Q)/G(Q) of the longitudinal and transverse branches are reported as a function of Q, at 20 °C. The solid lines through the symbols are guide to eyes. The inset displays R for the 45 °C. Since the R values for transverse phonons at 45 °C shows no specific trend (scattered near 1) the solid line was omitted. Errors bars represent 1 s.e.m.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 |</head><label>6</label><figDesc>Figure 6 | Formation of local DPPC clusters and pores. The schematic representation of the lipid bilayer transition from the L b' to L a phase. In the L b' phase the lipids are tightly packed and thus the transverse phonons are supported over large distances. When the temperature is increased beyond T m and the lipid bilayer undergoes the phase transition to L a phase, the molecular arrangement is mostly disordered. However, due to thermal fluctuations, the local short-lived (on the order of a picosecond) lipid clustering with a size of B1.1-1.6 nm (or of the order of several lipids across) is triggered. The lipids, participating in the formation of these nanometre-sized clusters are schematically indicated by dark purple colour. The rarified regions around the dark purple DPPC clusters indicate the formation of transient pores on longer length scales.</figDesc><graphic coords="6,129.65,570.85,336.14,90.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 |</head><label>7</label><figDesc>Figure 7 | Assessment of the X-ray beam damage of DPPC. The comparison of the raw IXS scans (T ¼ 45 °C, Q ¼ 3.89 nm À 1 ) at the beginning and at the end of the measurement with the total duration of the sample's exposure to the X-ray beam of B34 h. The error bars represent 1 s.d.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATURE COMMUNICATIONS | 7:11575 | DOI: 10.1038/ncomms11575 | www.nature.com/naturecommunications</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The work at the <rs type="institution" subtype="infrastructure">National Synchrotron Light Source-II</rs>, <rs type="institution">Brookhaven National Laboratory</rs>, was supported by the <rs type="funder">US Department of Energy, Office of Science, Office of Basic Energy Sciences</rs>, under Contract No. DE-SC0012704. These experiments were performed on the ID28 beamline at the <rs type="institution" subtype="infrastructure">European Synchrotron Radiation Facility (ESRF)</rs>, <rs type="funder">Grenoble, France</rs>. We are grateful to the supporting staff at <rs type="institution">ESRF</rs> for providing assistance in using beamline ID28. The part of the work was supported via French <rs type="funder">ANR</rs>-<rs type="projectName">MAGFIN</rs> project. The work was partially supported by the <rs type="funder">Russian Foundation for Basic Research</rs> (Research projects <rs type="grantNumber">13-04-91320</rs> and <rs type="grantNumber">13-02-01460A</rs>) and by the <rs type="programName">MIPT 5Top100 program</rs> of the <rs type="funder">Ministry of Education and Science of the Russian Federation</rs>. M.Z. thanks <rs type="person">Elaine DiMasi</rs> for fruitful discussion.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_SFpu6Bn">
+					<orgName type="project" subtype="full">MAGFIN</orgName>
+				</org>
+				<org type="funding" xml:id="_WaxN2p7">
+					<idno type="grant-number">13-04-91320</idno>
+				</org>
+				<org type="funding" xml:id="_wzzvyaj">
+					<idno type="grant-number">13-02-01460A</idno>
+					<orgName type="program" subtype="full">MIPT 5Top100 program</orgName>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">National Synchrotron Light Source-II</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">European Synchrotron Radiation Facility (ESRF)</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">ESRF</orgName>
+					<orgName type="full" lang="en">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="fr">Source Européenne de Rayonnement Synchrotron</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data availability. The data that support the findings of this study are available from the corresponding author upon request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Competing financial interests: The authors declare no competing financial interests. This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ref type="url" target="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reprints and permission</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Alberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Biology of the Cell</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>th edn (Garland Science</note>
+	<note type="raw_reference">Alberts, B. et al. Molecular Biology of the Cell 4th edn (Garland Science, 2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The Cell: A Molecular Approach. 2nd edn</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cooper</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Sinauer Associates</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cooper, G. The Cell: A Molecular Approach. 2nd edn (Sinauer Associates, 2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Carbon Dioxide Transport through Membranes</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Missner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philipp</forename><surname>Kügler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sapar</forename><forename type="middle">M</forename><surname>Saparov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">C</forename><surname>Mathai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">L</forename><surname>Zeidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Pohl</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m800096200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="issue">37</biblScope>
+			<biblScope unit="page" from="25340" to="25347" />
+			<date type="published" when="2008-09">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Missner, A. et al. Dioxide transport through membranes. J. Biol. Chem. 283, 25340-25347 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Chapter 1 Charles Ernest Overton&apos;s Concept of a Cell Membrane</title>
+		<author>
+			<persName><forename type="first">Arnost</forename><surname>Kleinzeller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0070-2161(08)61039-4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Current Topics in Membranes</title>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Deamer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Kleinzeller</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Fam-Brough</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="1" to="22" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kleinzeller, A. in Membrane Permeability: 100 Years Since Ernest Overton. (eds Deamer, D., Kleinzeller, A. &amp; Fam-brough, D. M.) 1-18 (Academic Press, 1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">RNA Catalysis in Model Protocell Vesicles</title>
+		<author>
+			<persName><forename type="first">Irene</forename><forename type="middle">A</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kourosh</forename><surname>Salehi-Ashtiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jack</forename><forename type="middle">W</forename><surname>Szostak</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja051784p</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">38</biblScope>
+			<biblScope unit="page" from="13213" to="13219" />
+			<date type="published" when="2005-08-31">2005</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, I. A. et al. RNA catalysis in model protocell vesicles. J. Am. Chem. Soc. 127, 13213-13219 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Template-directed synthesis of a genetic polymer in a model protocell</title>
+		<author>
+			<persName><forename type="first">Sheref</forename><forename type="middle">S</forename><surname>Mansy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><forename type="middle">P</forename><surname>Schrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mathangi</forename><surname>Krishnamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvia</forename><surname>Tobé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Douglas</forename><forename type="middle">A</forename><surname>Treco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jack</forename><forename type="middle">W</forename><surname>Szostak</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature07018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">454</biblScope>
+			<biblScope unit="issue">7200</biblScope>
+			<biblScope unit="page" from="122" to="125" />
+			<date type="published" when="2008-06-04">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mansy, S. S. et al. Template-directed synthesis of a genetic polymer in a model protocell. Nature 454, 122-125 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Membrane Transport in Primitive Cells</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Mansy</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/cshperspect.a002188</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harbor Perspectives in Biology</title>
+		<title level="j" type="abbrev">Cold Spring Harbor Perspectives in Biology</title>
+		<idno type="ISSNe">1943-0264</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="a002188" to="a002188" />
+			<date type="published" when="2010-04-21">2010</date>
+			<publisher>Cold Spring Harbor Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mansy, S. S. Membrane transport in primitive cells. Cold Spring Harb. Perspect. Biol. 2, a002188 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Structure of lipid bilayers</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">F</forename><surname>Nagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephanie</forename><surname>Tristram-Nagle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0304-4157(00)00016-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimica et Biophysica Acta (BBA) - Reviews on Biomembranes</title>
+		<title level="j" type="abbrev">Biochimica et Biophysica Acta (BBA) - Reviews on Biomembranes</title>
+		<idno type="ISSN">0304-4157</idno>
+		<imprint>
+			<biblScope unit="volume">1469</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="159" to="195" />
+			<date type="published" when="2000-11">2000</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagle, J. &amp; Tristram-Nagle, S. Structure of lipid bilayers. Biochim. Biophys. Acta 1469, 159-195 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Lipid Rafts As a Membrane-Organizing Principle</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Lingwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kai</forename><surname>Simons</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1174621</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">327</biblScope>
+			<biblScope unit="issue">5961</biblScope>
+			<biblScope unit="page" from="46" to="50" />
+			<date type="published" when="2010-01">2010</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lingwood, D. &amp; Simons, K. Lipid rafts as a membrane-organizing principle. Science 327, 46-50 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The State of Lipid Rafts: From Model Membranes to Cells</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Edidin</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.biophys.32.110601.142439</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Biophysics and Biomolecular Structure</title>
+		<title level="j" type="abbrev">Annu. Rev. Biophys. Biomol. Struct.</title>
+		<idno type="ISSN">1056-8700</idno>
+		<idno type="ISSNe">1545-4266</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="257" to="283" />
+			<date type="published" when="2003-06">2003</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edidin, M. The state of lipid rafts: from model membranes to cells. Annu. Rev. Biophys. Biomol. Struct. 32, 257-283 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Comparing Lipid Membranes in Different Environments</title>
+		<author>
+			<persName><forename type="first">Kiyotaka</forename><surname>Akabori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">F</forename><surname>Nagle</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn501499t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="3123" to="3127" />
+			<date type="published" when="2014-04-14">2014</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akabori, K. &amp; Nagle, J. F. Comparing lipid membranes in different environments. ACS Nano 8, 3123-3127 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Molecular View of Phase Coexistence in Lipid Monolayers</title>
+		<author>
+			<persName><forename type="first">Svetlana</forename><surname>Baoukina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eduardo</forename><surname>Mendez-Villuendas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Peter</forename><surname>Tieleman</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja304792p</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">42</biblScope>
+			<biblScope unit="page" from="17543" to="17553" />
+			<date type="published" when="2012-10-12">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baoukina, S. et al. Molecular view of phase co-existence in lipid monolayers. J. Am. Chem. Soc. 134, 17543-17553 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Lateral mobility of proteins in liquid membranes revisited</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gambin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lopez-Esparza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reffay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sierecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Gov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Genest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Urbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0511026103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2098" to="2102" />
+			<date type="published" when="2006-02-06">2006</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gambin, Y. et al. Lateral mobility of proteins in liquid membranes revisited. Proc. Natl Acad. Sci. USA 103, 2098 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Spatial Distribution of Lipid Headgroups and Water Molecules at Membrane/Water Interfaces Visualized by Three-Dimensional Scanning Force Microscopy</title>
+		<author>
+			<persName><forename type="first">Hitoshi</forename><surname>Asakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shunsuke</forename><surname>Yoshioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ken-Ichi</forename><surname>Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takeshi</forename><surname>Fukuma</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn303229j</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="9013" to="9020" />
+			<date type="published" when="2012-10-02">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Asakawa, H. et al. Spatial distribution of lipid headgroups and water molecules at membrane/water interfaces visualized by three-dimensional scanning force microscopy. ACS Nano 6, 9013-9020 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Rotation of Lipids in Membranes: Molecular Dynamics Simulation, 31P Spin-Lattice Relaxation, and Rigid-Body Dynamics</title>
+		<author>
+			<persName><forename type="first">Jeffery</forename><forename type="middle">B</forename><surname>Klauda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mary</forename><forename type="middle">F</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alfred</forename><forename type="middle">G</forename><surname>Redfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><forename type="middle">R</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">W</forename><surname>Pastor</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.107.121806</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3074" to="3083" />
+			<date type="published" when="2008-04">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klauda, J. B. et al. Rotation of lipids in membranes: molecular dynamics simulation, 31 P spin-lattice relaxation, and rigid-body dynamics. Biophys. J. 94, 3074-3083 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Interfacial Water Facilitates Energy Transfer by Inducing Extended Vibrations in Membrane Lipids</title>
+		<author>
+			<persName><forename type="first">Alireza</forename><surname>Mashaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Partovi-Azar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tayebeh</forename><surname>Jadidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nasser</forename><surname>Nafari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keivan</forename><surname>Esfarjani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philipp</forename><surname>Maass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Reza Rahimi</forename><surname>Tabar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huib</forename><forename type="middle">J</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mischa</forename><surname>Bonn</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp302478a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<title level="j" type="abbrev">J. Phys. Chem. B</title>
+		<idno type="ISSN">1520-6106</idno>
+		<idno type="ISSNe">1520-5207</idno>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="6455" to="6460" />
+			<date type="published" when="2012-05-25">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mashaghi, A. et al. Interfacial water facilitates energy transfer by inducing extended vibrations in membrane lipids. J. Phys. Chem. B 116, 6455-6460 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Structural Inhomogeneity of Interfacial Water at Lipid Monolayers Revealed by Surface-Specific Vibrational Pump−Probe Spectroscopy</title>
+		<author>
+			<persName><forename type="first">Mischa</forename><surname>Bonn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huib</forename><forename type="middle">J</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Avishek</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susumu</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria</forename><surname>Sovago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Kramer</forename><surname>Campen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja106194u</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">42</biblScope>
+			<biblScope unit="page" from="14971" to="14978" />
+			<date type="published" when="2010-09-30">2010</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bonn, H. J. et al. Structural inhomogeneity of interfacial water at lipid monolayers revealed by surface-specific vibrational pump-probe spectroscopy. J. Am. Chem. Soc. 132, 14971-14978 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Coupled Diffusion in Lipid Bilayers upon Close Approach</title>
+		<author>
+			<persName><forename type="first">Sander</forename><surname>Pronk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>Lindahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">M</forename><surname>Kasson</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja508803d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="708" to="714" />
+			<date type="published" when="2015-01-06">2015</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pronk, S. et al. Coupled diffusion in lipid bilayers upon close approach. J. Am. Chem. Soc. 137, 708-714 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Lateral Diffusion in Lipid Membranes through Collective Flows</title>
+		<author>
+			<persName><forename type="first">Emma</forename><surname>Falck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomasz</forename><surname>Róg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikko</forename><surname>Karttunen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilpo</forename><surname>Vattulainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja7103558</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="44" to="45" />
+			<date type="published" when="2008">2008</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Falck, E. et al. Lateral diffusion in lipid membranes through collective flows. J. Am. Chem. Soc. 130, 44-45 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A molecular-dynamics study of lipid bilayers: Effects of the hydrocarbon chain length on permeability</title>
+		<author>
+			<persName><forename type="first">Taisuke</forename><surname>Sugii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shu</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoichiro</forename><surname>Matsumoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2102900</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<idno type="ISSN">0021-9606</idno>
+		<idno type="ISSNe">1089-7690</idno>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">184714</biblScope>
+			<date type="published" when="2005-11-08">2005</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sugii, T. et al. Molecular-dynamics study of lipid bilayers: effects of the hydrocarbon chain length on permeability. J. Chem. Phys. 123, 184714 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Molecular Mechanism of Long-Range Diffusion in Phospholipid Membranes Studied by Quasielastic Neutron Scattering</title>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Busch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Smuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luis</forename><forename type="middle">Carlos</forename><surname>Pardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Unruh</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja907581s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3232" to="3233" />
+			<date type="published" when="2010-02-17">2010</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Busch, S. et al. Molecular mechanism of long-range diffusion in phospholipid membranes studied by quasielastic neutron scattering. J. Am. Chem. Soc. 132, 3232-3233 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Nontrivial Behavior of Water in the Vicinity and Inside Lipid Bilayers As Probed by Molecular Dynamics Simulations</title>
+		<author>
+			<persName><forename type="first">Nikolay</forename><forename type="middle">A</forename><surname>Krylov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">M</forename><surname>Pentkovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><forename type="middle">G</forename><surname>Efremov</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn4042392</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="9428" to="9442" />
+			<date type="published" when="2013-09-30">2013</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krylov, N. A. et al. Nontrivial behavior of water in the vicinity and inside lipid bilayers as probed by molecular dynamics simulations. ACS Nano 7, 9428-9442 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Short Wavelength Collective Dynamics in Phospholipid Bilayers: A Molecular Dynamics Study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tarek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tobias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Klein</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.87.238101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page">238101</biblScope>
+			<date type="published" when="2001-11-14">2001</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tarek, M. et al. Short wavelength collective dynamics in phospholipid bilayers: a molecular dynamics study. Phys. Rev. Lett. 87, 238101 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics simulations of phospholipid bilayers with cholesterol</title>
+		<author>
+			<persName><forename type="first">¨</forename><surname>Hofsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="2192" to="2206" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hofsa ¨, C. et al. Molecular dynamics simulations of phospholipid bilayers with cholesterol. Biophys. J. 84, 2192-2206 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Short-Range Order and Collective Dynamics of DMPC Bilayers: A Comparison between Molecular Dynamics Simulations, X-Ray, and Neutron Scattering Experiments</title>
+		<author>
+			<persName><forename type="first">Jochen</forename><forename type="middle">S</forename><surname>Hub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maikel</forename><forename type="middle">C</forename><surname>Rheinstädter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><forename type="middle">L</forename><surname>De Groot</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.107.104885</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3156" to="3168" />
+			<date type="published" when="2007-11">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hub, J. S. et al. Short-range order and collective dynamics of DMPC bilayers: a comparison between molecular dynamics simulations, X-ray, and neutron scattering experiments. Biophys. J. 93, 3156-3168 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Collective Dynamics in Lipid Membranes: From Pore Formation to Flip-Flops</title>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">A</forename><surname>Gurtovenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilpo</forename><surname>Vattulainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-60761-314-5_5</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Biomembrane Frontiers</title>
+		<imprint>
+			<publisher>Humana Press</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="121" to="139" />
+		</imprint>
+	</monogr>
+	<note>(ed. Faller, R.</note>
+	<note type="raw_reference">Gurtovenko, A. A. &amp; Vattulainen, I. in Biomembrane Frontiers: Nanostructures, Models, and the Design of Life. (ed. Faller, R.) (Humana Press, Springer Science þ Business Media, LLC, 2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Collective Dynamics in Fully Hydrated Phospholipid Bilayers Studied by Inelastic X-Ray Scattering</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Bellisent-Funel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sette</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.86.740</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="740" to="743" />
+			<date type="published" when="2001-01-22">2001</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, S. H. et al. Collective dynamics in fully hydrated phospholipid bilayers studied by inelastic X-ray scattering. Phys. Rev. Lett. 86, 740-743 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Collective Chain Dynamics in Lipid Bilayers by Inelastic X-Ray Scattering</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">M</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Poe-Jou</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harald</forename><surname>Sinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ercan</forename><forename type="middle">E</forename><surname>Alp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sow-Hsin</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huey</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0006-3495(03)75105-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="3767" to="3776" />
+			<date type="published" when="2003-06">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weiss, T. et al. Collective chain dynamics in lipid bilayers by inelastic X-ray scattering. Biophys. J. 84, 3767-3776 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Ethanol enhances collective dynamics of lipid membranes</title>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">D</forename><surname>Kaye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karin</forename><surname>Schmalzl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valeria</forename><forename type="middle">Conti</forename><surname>Nibali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mounir</forename><surname>Tarek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maikel</forename><forename type="middle">C</forename><surname>Rheinstädter</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.83.050907</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">50907</biblScope>
+			<date type="published" when="2011-05-25">2011</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaye, M. D. et al. Ethanol enhances collective dynamics of lipid membranes. Phys. Rev. E 83, 050907 (R) (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Collective Dynamics of Lipid Membranes Studied by Inelastic Neutron Scattering</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Rheinstädter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ollinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fragneto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Demmel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Salditt</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.93.108107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">108107</biblScope>
+			<date type="published" when="2004-09-03">2004</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rheinsta ¨dter, M. C. et al. Collective dynamics of lipid membranes studied by inelastic neutron scattering. Phys. Rev. Lett. 93, 108107 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Exploring the collective dynamics of lipid membranes with inelastic neutron scattering</title>
+		<author>
+			<persName><forename type="first">Maikel</forename><forename type="middle">C</forename><surname>Rheinstädter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tilo</forename><surname>Seydel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Häußler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<idno type="DOI">10.1116/1.2167979</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Vacuum Science &amp; Technology A: Vacuum, Surfaces, and Films</title>
+		<idno type="ISSN">0734-2101</idno>
+		<idno type="ISSNe">1520-8559</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1191" to="1196" />
+			<date type="published" when="2006-06-21">2006</date>
+			<publisher>American Vacuum Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rheinsta ¨dter, M. C. et al. Exploring the collective dynamics of lipid membranes with inelastic neutron scattering. J. Vac. Sci. Technol. A 24, 1191-1196 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Critical Behaviour in DOPC/DPPC/Cholesterol Mixtures: Static 2H NMR Line Shapes Near the Critical Point</title>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">H</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Miranda</forename><forename type="middle">L</forename><surname>Schmidt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2014.03.037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1970" to="1978" />
+			<date type="published" when="2014-05">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis, J. H. &amp; Schmidt, M. L. Critical behaviour in DOPC/DPPC/cholesterol mixtures: static (2)H NMR line shapes near the critical point. Biophys. J. 106, 1970-1978 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Characterization and Control of Lipid Layer Fluidity in Hybrid Bilayer Membranes</title>
+		<author>
+			<persName><forename type="first">Neil</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lee</forename><forename type="middle">J</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">C</forename><surname>Stephenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kimberly</forename><forename type="middle">A</forename><surname>Briggman</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja066588c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2094" to="2100" />
+			<date type="published" when="2007-01-31">2007</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anderson, N. A. et al. Characterization and control of lipid layer fluidity in hybrid bilayer membranes. J. Am. Chem. Soc. 129, 2094-2100 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The surfactant system and lung phospholipid biochemistry</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Rooney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Rev. Respir. Dis</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="439" to="360" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rooney, S. A. The surfactant system and lung phospholipid biochemistry. Am. Rev. Respir. Dis. 131, 439-360 (1985).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">In-Plane Correlations in a Polymer-Supported Lipid Membrane Measured by Off-Specular Neutron Scattering</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">S</forename><surname>Jablin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikhail</forename><surname>Zhernenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Boris</forename><forename type="middle">P</forename><surname>Toperverg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manish</forename><surname>Dubey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hillary</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajay</forename><surname>Vidyasagar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ryan</forename><surname>Toomey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><forename type="middle">J</forename><surname>Hurd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jaroslaw</forename><surname>Majewski</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.106.138101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">138101</biblScope>
+			<date type="published" when="2011-03-28">2011</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jablin, M. S. et al. In-plane correlations in a polymer-supported lipid membrane measured by off-specular neutron scattering. Phys. Rev. Lett. 106, 138101 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Unified phonon-based approach to the thermodynamics of solid, liquid and gas states</title>
+		<author>
+			<persName><forename type="first">Dima</forename><surname>Bolmatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitry</forename><surname>Zav’yalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikhail</forename><surname>Zhernenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edvard</forename><forename type="middle">T</forename><surname>Musaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yong</forename><forename type="middle">Q</forename><surname>Cai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aop.2015.09.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Physics</title>
+		<title level="j" type="abbrev">Annals of Physics</title>
+		<idno type="ISSN">0003-4916</idno>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="221" to="242" />
+			<date type="published" when="2015-12">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bolmatov, D. et al. Unified phonon-based approach to the thermodynamics of solid, liquid and gas states. Ann. Phys. 363, 221-242 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The phonon theory of liquid thermodynamics</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bolmatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Brazhkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Trachenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep00421</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">421</biblScope>
+			<date type="published" when="2012-05-24">2012</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bolmatov, D. et al. The phonon theory of liquid thermodynamics. Sci. Rep. 2, 421 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Thermally triggered phononic gaps in liquids at THz scale</title>
+		<author>
+			<persName><forename type="first">Dima</forename><surname>Bolmatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikhail</forename><surname>Zhernenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitry</forename><surname>Zav’yalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stanislav</forename><surname>Stoupin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Cunsolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yong</forename><forename type="middle">Q</forename><surname>Cai</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep19469</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">19469</biblScope>
+			<date type="published" when="2016-01-14">2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bolmatov, D. et al. Thermally triggered phononic gaps in liquids at THz scale. Sci. Rep. 6, 19469 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Neutron and X-ray Spectroscopy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krisch</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/1-4020-3337-0</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Neutron and X-ray Spectroscopy</title>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Hippert</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Geissler</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hodeau</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Lelievre-Berna</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J.-R</forename><surname>Regnard</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer Netherlands</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sette, F. &amp; Krisch, M. in Neutron and X-ray Spectroscopy. (eds Hippert, F., Geissler, E., Hodeau, J. L., Lelievre-Berna, E. &amp; Regnard, J.-R.) (Springer, 2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sette</surname></persName>
+		</author>
+		<title level="m">Light Scattering in Solids IX Novel Materials and Techniques</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Cardona</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Merlin</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krisch, M. &amp; Sette, F. in Light Scattering in Solids IX Novel Materials and Techniques. (eds Cardona, M. &amp; Merlin, R.) (Springer-Verlag, 2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Neutron Scattering with a Triple-Axis Spectrometer</title>
+		<author>
+			<persName><forename type="first">Gen</forename><surname>Shirane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">M</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">M</forename><surname>Tranquada</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/cbo9780511534881</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Neutron Scattering with a Triple-Axis Spectrometer: Basic Techniques</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2002-02-21">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shirane, G., Shapiro, S. M. &amp; Tranquada, J. M. Neutron Scattering with a Triple-Axis Spectrometer: Basic Techniques (Cambridge University Press, 2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Dynamics of Soft Matter</title>
+		<idno type="DOI">10.1007/978-1-4614-0727-0</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Dynamics of Soft Matter: Neutron Applications</title>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Garcia Sakai</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Alba-Simionesco</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer US</publisher>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garcia Sakai, V., Alba-Simionesco, C. &amp; Chen, S. H. (eds.) Dynamics of Soft Matter: Neutron Applications (Springer Science þ Business Media LLC (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Transition from&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:mi mathvariant=&quot;italic&quot;&gt;Normal&lt;/mml:mi&gt;&lt;/mml:math&gt;to&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:mi mathvariant=&quot;italic&quot;&gt;Fast&lt;/mml:mi&gt;&lt;/mml:math&gt;Sound in Liquid Water</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ruocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Masciovecchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verbeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bergmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.77.83</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="83" to="86" />
+			<date type="published" when="1996-07-01">1996</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sette, F. et al. Transition from normal to fast sound in liquid water. Phys. Rev. Lett. 77, 83-86 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Short Range Order of Hydrocarbon Chains in Fluid Phospholipid Bilayers Studied by X-Ray Diffraction from Highly Oriented Membranes</title>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Spaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0006-3495(03)74589-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1576" to="1584" />
+			<date type="published" when="2003-09">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spaar, A. &amp; Salditt, T. Short range order of hydrocarbon chains in fluid phospholipid bilayers studied by X-Ray diffraction from highly oriented membranes. Biophys. J. 85, 1576-1584 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Curvature effects on lipid packing and dynamics in liposomes revealed by coarse grained molecular dynamics simulations</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Jelger</forename><surname>Risselada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Siewert</forename><forename type="middle">J</forename><surname>Marrink</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b818782g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<title level="j" type="abbrev">Phys. Chem. Chem. Phys.</title>
+		<idno type="ISSN">1463-9076</idno>
+		<idno type="ISSNe">1463-9084</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">2056</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Risselada, H. J. &amp; Marrink, S. J. Curvature effects on lipid packing and dynamics in liposomes revealed by coarse grained molecular dynamics simulations. Phys. Chem. Chem. Phys. 11, 2056-2067 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Closer Look at Structure of Fully Hydrated Fluid Phase DPPC Bilayers</title>
+		<author>
+			<persName><forename type="first">Norbert</forename><surname>Kučerka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephanie</forename><surname>Tristram-Nagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">F</forename><surname>Nagle</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.106.086017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="L83" to="L85" />
+			<date type="published" when="2006-06">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kucerka, N. et al. Closer look at structure of fully hydrated fluid phase DPPC bilayers. Biophys. J. Biophys. Lett. 90, L83-L85 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Lipid Bilayer Structure Determined by the Simultaneous Analysis of Neutron and X-Ray Scattering Data</title>
+		<author>
+			<persName><forename type="first">Norbert</forename><surname>Kučerka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">F</forename><surname>Nagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">N</forename><surname>Sachs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><forename type="middle">E</forename><surname>Feller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeremy</forename><surname>Pencer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Katsaras</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.108.132662</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2356" to="2367" />
+			<date type="published" when="2008-09">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kucerka, N. et al. Lipid bilayer structure determined by the simultaneous analysis of neutron and X-ray scattering data. Biophys. J. 95, 2356-2367 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Revealing the Mechanism of the Viscous-to-Elastic Crossover in Liquids</title>
+		<author>
+			<persName><forename type="first">Dima</forename><surname>Bolmatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikhail</forename><surname>Zhernenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitry</forename><surname>Zav’yalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stanislav</forename><surname>Stoupin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yong</forename><forename type="middle">Q</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Cunsolo</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpclett.5b01338</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry Letters</title>
+		<title level="j" type="abbrev">J. Phys. Chem. Lett.</title>
+		<idno type="ISSN">1948-7185</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3048" to="3053" />
+			<date type="published" when="2015-07-22">2015</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bolmatov, D. et al. Revealing the mechanism of the viscous-to-elastic crossover in liquids. J. Phys. Chem. Lett. 6, 3048-3053 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Mixing of Longitudinal and Transverse Dynamics in Liquid Water</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sampoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ruocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sette</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.79.1678</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1678" to="1681" />
+			<date type="published" when="1997-09-01">1997</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sampoli, M. et al. Mixing of longitudinal and transverse dynamics in liquid water. Phys. Rev. Lett. 79, 1678 (1997).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics simulation of short-wavelength collective dynamics of phospholipid membranes</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Nibali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. E</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page">50301</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nibali, V. C. et al. Molecular dynamics simulation of short-wavelength collective dynamics of phospholipid membranes. Phys. Rev. E 89, 050301 (R) (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Transverse Acoustic Excitations in Liquid Ga</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Inui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kajihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ichitsubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-C</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsutsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Q R</forename><surname>Baron</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.102.105502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">105502</biblScope>
+			<date type="published" when="2009-03-13">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hosokawa, S. et al. Transverse acoustic excitations in liquid Ga. Phys. Rev. Lett. 102, 105502 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Transverse excitations in liquid Sn</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hosokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Munejiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Inui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kajihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-C</forename><surname>Pilgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohmasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsutsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Q R</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shimojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hoshino</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/25/11/112101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Condensed Matter</title>
+		<title level="j" type="abbrev">J. Phys.: Condens. Matter</title>
+		<idno type="ISSN">0953-8984</idno>
+		<idno type="ISSNe">1361-648X</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">112101</biblScope>
+			<date type="published" when="2013-02-04">2013</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hosokawa, S. et al. Transverse excitations in liquid Sn. J. Phys. Condens. Matter 25, 112101 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Solute partitioning into chain molecule interphases: Monolayers, bilayer membranes, and micelles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Marqusee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ken</forename><forename type="middle">A</forename><surname>Dill</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.451621</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<idno type="ISSN">0021-9606</idno>
+		<idno type="ISSNe">1089-7690</idno>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="434" to="444" />
+			<date type="published" when="1986-07-01">1986</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marqusee, J. A. &amp; Dill, K. A. Solute partitioning into chain molecule interphases: monolayers, bilayer membranes, and micelles. J. Chem. Phys. 85, 434 (1986).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Leib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Stein</surname></persName>
+		</author>
+		<title level="m">Transport and Diffusion Across Cell Membranes</title>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Stein</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1986">1986</date>
+			<biblScope unit="page" from="69" to="112" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leib, W. R. &amp; Stein, W. D. in Transport and Diffusion Across Cell Membranes. (ed. Stein, W. D.) 69-112 (Academic Press, 1986).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Mechanism of Solute Diffusion through Lipid Bilayer Membranes by Molecular Dynamics Simulation</title>
+		<author>
+			<persName><forename type="first">Donna</forename><surname>Bassolino-Klimas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Howard</forename><forename type="middle">E</forename><surname>Alper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Terry</forename><forename type="middle">R</forename><surname>Stouch</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00119a028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="4118" to="4129" />
+			<date type="published" when="1995-04">1995</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bassolino-Klimas, D. et al. Mechanism of solute diffusion through lipid bilayer membranes by molecular dynamics simulation. J. Am. Chem. Soc. 117, 4118-4129 (1995).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Liposomal drug transport: A molecular perspective from molecular dynamics simulations in lipid bilayers</title>
+		<author>
+			<persName><forename type="first">Tian-Xiang</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bradley</forename><forename type="middle">D</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addr.2006.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Drug Delivery Reviews</title>
+		<title level="j" type="abbrev">Advanced Drug Delivery Reviews</title>
+		<idno type="ISSN">0169-409X</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">12-13</biblScope>
+			<biblScope unit="page" from="1357" to="1378" />
+			<date type="published" when="2006-11">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiang, T.-X. &amp; Anderson, B. D. Liposomal drug transport: a molecular perspective from molecular dynamics simulations in lipid bilayers. Adv. Drug Deliv. Rev. 58, 1357-1378 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The Ultrahigh Resolution IXS Beamline of NSLS-II: Recent Advances and Scientific Opportunities</title>
+		<author>
+			<persName><forename type="first">Yong</forename><forename type="middle">Q</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Coburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cunsolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Keister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Honnicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">R</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Kodituwakku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Stetsko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suvorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hiraoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Tsuei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Wille</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/425/20/202001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Conference Series</title>
+		<title level="j" type="abbrev">J. Phys.: Conf. Ser.</title>
+		<idno type="ISSN">1742-6588</idno>
+		<idno type="ISSNe">1742-6596</idno>
+		<imprint>
+			<biblScope unit="volume">425</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page">202001</biblScope>
+			<date type="published" when="2013-03-22">2013</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cai, Y. Q. et al. The ultrahigh resolution IXS beamline of NSLS-II: recent advances and scientific opportunities. J. Phys. Conf. Ser. 425, 202001 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Chapter 4 Membrane Permeability Barriers to Ionic and Polar Solutes</title>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Paula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">W</forename><surname>Deamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0070-2161(08)61042-4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Current Topics in Membranes</title>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Deamer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Kleinzeller</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Fambrough</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="77" to="95" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paula, S. &amp; Deamer, D. W. in Membrane Permeability: 100 Years Since Ernest Overton. (eds Deamer, D., Kleinzeller, A. &amp; Fambrough, D. M.) 77-95 (Academic Press, 1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Preparation of Solid-Supported Lipid Bilayers by Spin-Coating</title>
+		<author>
+			<persName><forename type="first">Ulrike</forename><surname>Mennicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la025863f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="8172" to="8177" />
+			<date type="published" when="2002-08-30">2002</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mennicke, U. &amp; Salditt, T. Preparation of solid-supported lipid bilayers by spin-coating. Langmuir 18, 8172-8177 (2002).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

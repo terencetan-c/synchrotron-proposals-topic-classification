@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Delineating antimicrobial peptide activity on live E.coli on multiple length and time scales</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-10-01">01 Oct 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Theyencheri</forename><surname>Narayanan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Georg</forename><surname>Pabst</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Uni</forename><surname>Graz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Narayanan</forename><surname>Theyencheri</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Karl</forename><surname>Lohner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lisa</forename><surname>Marx</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Enrico</forename><forename type="middle">Federico</forename><surname>Semeraro</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Austria</surname></persName>
+						</author>
+						<title level="a" type="main">Delineating antimicrobial peptide activity on live E.coli on multiple length and time scales</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-10-01">01 Oct 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9C338AD059FB24C7FAC96097086D40D2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>LS-2869</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Following our proof-of-principle experiments (LS2513) we studied the real-time response of Escherichia coli (ATCC 25922) to the lactoferricin-derived antimicrobial peptides (AMPs) LF11-324 (PFFWRIRIRR-NH2), LF11-215 (FWRIRIRR-NH2) and O-LF11-215 (octanoyl-FWRIRIRR-NH2) using time-resolved USAXS/SAXS at ID02. Measurements were performed with sample-to-detector distances of 30.8 and 3.0 m, covering a q-range of 0.001-2.5 nm -1 . Two-dimensional scattering patterns were acquired on a Rayonix MX170 detector, normalized to absolute scale, and azimuthally averaged to obtain the corresponding onedimensional USAXS/SAXS profiles. The normalized cumulative background from the buffer, sample cell, and instrument were subtracted to obtain the final I(q). Bacteria were harvested in the experimental growth phase. For endstate measurements bacterial samples (ncell∼10 9 CFU/ml) were incubated with peptides in buffer for 1 hr at 37°C and directly measured in a quartz capillaries of 2 mm diameter (37°C), mounted on a flow-through setup in order to maximize the precision of the background subtraction. Time-resolved experiments were instead performed with a stopped-flow rapid mixing device (SFM-3/4 Biologic, Seyssinet-Pariset, France), with 50 ms mixing of bacterial and peptides stock suspensions (37°C), and enabling data acquisition after a kinetic time of about 2.5 ms. A total of 50 frames was recorded for each experiment with an exposure time of 0.05 s and a logarithmic time-spacing ranging from 17.5 ms to about 10 min. Radiation damage tests were performed on reference systems prior to setting this X-ray exposure times. The scattering intensities were further corrected for sedimentation and background scattering from the stopped-flow cell. Additional reference SANS and TEM data of neat bacteria (initial state) and endstates were used to constrain data analysis applying a previously developed multiscale model <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. In order to couple scattering experiments to AMP susceptibility assays, it is important to scale peptide concentrations appropriately. Firstly, because SAXS/SANS experiments require up to 10 4 times higher bacterial concentrations than standard growthinhibition experiments. Secondly, because the total number of AMPs partitioning into bacteria (and hence also their antimicrobial activity) depends on cell concentration in a nontrivial manner <ref type="bibr" target="#b2">(3)</ref>. We consequently determined the MICs of all here-studied AMPs as a function of cell number density prior to scattering experiments;</p><p>Figure <ref type="figure" target="#fig_0">1</ref> shows the results of these static measurements. Small-angle scattering (SAS) patterns of initial and end states showed distinct differences. In particular, we observed a decrease of intensity at very low q-values (as approximation of forward scattering), and a faster intensity decay at high q for the end state, coupled to a loss of two intensity wiggles at q∼0.1nm -1 and q∼0.3nm -1 (see also Figure <ref type="figure" target="#fig_0">1A</ref>).</p><p>Membrane ruffling, mainly originating from increased fluctuations of cytoplasmic membranes clearly seen by TEM, can be modeled by changing the average distance between inner and outer membranes and its fluctuation (Figure <ref type="figure" target="#fig_0">1B</ref>). Consistent with previous reports (4), we also observed an overall shrinking of bacterial size. This correlates with a loss of periplasmic or cytosolic material. Both effects explain the changes in USAXS intensity at very low qvalues.</p><p>The scattering shoulder in USAXS/SAXS data at q∼0.07nm -1 originates from positional correlations between LPS oligosaccharide cores. Its smearing out in the presence of peptide consequently indicates a loss of LPS packing correlations, either because of a decrease of the number of LPS molecules on the outer surface or due to increased membrane roughness or waviness. Modeling scattering data revealed an additional contribution, which we could associate with the help of TEM to the formation of outer membrane vesicles (OMVs), having an average diameter of ~30 nm (Figure <ref type="figure" target="#fig_0">1A</ref> and <ref type="figure">B</ref>). SAS is not sensitive to macromolecules and aggregates thereof inside the cell (2). Finally, O-LF11-215 led to additional effects. First of all, O-LF11-215, because of its increased hydrophobicity, forms aggregates in buffer as clearly shown by SAXS. In particular, incubating O-LF11-215 with bacteria at concentrations needed for SAS experiments led to the formation of macroscopic aggregates, which impeded the measurements of end states by SAS. TEM experiments, however, showed the formation of extramembranous tubes (Figure <ref type="figure" target="#fig_0">1C</ref>).</p><p>In the next step we used the initial and end-state values obtained for the adjustable parameters as constraints allowed us to fit kinetic scattering data. A close examination of the results obtained for the three LF11s (Figure <ref type="figure" target="#fig_1">2</ref>) allowed to discern AMP concentration-independent parameters: (LPS packing parameter, pLPS; ntermembranes distance, ΔOM; fluctuations of the intermembrane distance, σOM, and scattering length density (SLD) of the proteoglycan layer, ρPG) from AMP concentration-dependent parameters (SLD of cytoplasm, ρCP; SLD of periplasm, ρPP; and minor radius of the elipsoid used to fit the size of bacteria, R).</p><p>Here, we focus on LF11-324 and AMP concentration-independent parameters; data for other peptides are reported in <ref type="bibr" target="#b4">(5)</ref>. The packing of LPS started to decrease at Δt∼10s after mixing (Figure <ref type="figure" target="#fig_1">2A</ref>). Changes of ΔOM, σOM, and ρPG in turn are largely decoupled from this remodeling of the outer membrane, with a common onset of 2-10 min after peptide addition (Figure <ref type="figure" target="#fig_1">2D-F</ref>). AMP concentrationdependent parameters instead showed an increasing delay of changes upon decreasing the amount of administered peptide (Figure <ref type="figure" target="#fig_1">2B</ref> and <ref type="figure">C</ref>). In particular, ρPP exhibited a pronounced increase already at Δt∼3s at highest peptide concentration shifting to Δt∼2 min at the presently lowest studied peptide concentration. The onset times of decrease of ρCP do not appear to be directly correlated with these changes, but also shifted progressively to later times with decreasing AMPs. Because of the dominant contribution of low-molecular-weight molecules and ions to both ρCP and ρPP (2), we surmise that these changes are due to a leakage of inner and outer membranes. Briefly, the cytoplasmic content diffuses first in the periplasmic space and, simultaneously, material from the periplasm leaks out of the cell. This process leads to the rather simultaneous decrease of ρCP and increase of ρPP. Because of differences in the individual onsets of these trends at a given AMP concentration, we can only associate a time range for the beginning of permeation of the cytoplasmic membrane: 3-10 s at [P]=1.2×MIC, 10-20 s at [P]=0.7×MIC, and 50-120 s at [P]=0.3×MIC. Despite these differences, and as noted above, ρCP (and ρPP) reached the same final values for all three AMP concentrations. Finally, the drop of R started at 20-50 s for [P]=1.2×MIC and 0.7×MIC, and &gt;10 min for [P]=0.3×MIC (Figure <ref type="figure" target="#fig_1">2C</ref>).</p><p>A particularly striking result for the end states is that the peptide-induced effects are similar and independent of peptide concentration (Figures <ref type="figure" target="#fig_0">1</ref> and <ref type="figure" target="#fig_1">2</ref>). That is, even at growth-inhibited fractions of just 1%, we observed much the same cellular permeabilization and structural changes of the bacterial ultrastructure as at quasi fully growth-inhibited E. coli. Thus damage of the cell envelope emerges as a collateral effect of AMP activity that does not kill the bacteria. This implies that the impairment of the membrane barrier is a necessary but not sufficient condition for microbial killing by lactoferricins. The most efficient AMP studied exceeds others in both speed of permeabilizing membranes and lowest intracellular peptide concentration needed to inhibit bacterial growth. The latter quantitiy we determined from partitioning assays; for details, see <ref type="bibr" target="#b4">(5)</ref>. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Overview of combined X-ray scattering and electron-microscopy measurements. (A) Mapping the main structural changes in E. coli ATCC 25922 (green symbols) upon 1 hr incubation with LF11-324 (red symbols) as observed by (ultra) small-angle X-ray scattering (USAXS/SAXS) and transmission electron microscopy (TEM). Scattering data of E. coli ATCC 25922 and have been obtained at 10-fold higher sample concentration, leading to the observed offset of scattered intensities. Black lines are the best fits using a previously developed multiscale model (2). OMV: outer membrane vesicle formation; CWD: cell-wall damaging; SNR: phase separation of the nucleoid region. Error bars are given by the experimental error of the measurements. (B) TEM examples of membrane detachment and OMV formation due to LF11-324, and respective ensemble results from scattering data analysis for the distance distribution between inner and outer membranes. (C) Bacteria upon 1 hr incubation with O-LF11-215, showing the formation of tube-like protrusions.</figDesc><graphic coords="2,41.55,55.00,286.55,320.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: Kinetics of the bacterial structural response upon addition of peptide. (A-F) Kinetics of the bacterial structural response to attack by LF11-324; results for three different peptide concentrations are shown. Lipopolysaccharide (LPS) packing (A); cytoplasm and periplasm scattering length density (SLD) (B); minor radius of the cell (C); intermembrane distance (∼ periplasm thickness) (D) and its deviation (E); and peptidoglycan SLD (F). (G-I) Bacterial response to O-LF11-215 at two concentrations. LPS packing (G); cytoplasm and periplasm SLDs (H); and minor ellipsoidal radius of the cell (I). Thick gray bands mark the degree of confidence from bacterial systems w/o peptides (see Table 1 and Semeraro et al., 2021b), except for (C) and (I), where they refer to the average of the current cell radii at Δt=0.0175s. Fluctuations of initial values can be due to biological diversity. The vertical gray grid (A, D-F) indicates the time range of local (A) and macroscopic (D-F) cell-wall damage. Note that this range does not depend on peptide concentration. Colored lines in (B) mark the concentrationdependent lower boundary for the onsets of leakage. Results at Δt=1 hr refer to end states, when available. Error bars are given by the associated standard deviations of the adjustable parameters obtained from the analysis of scattering curves.</figDesc><graphic coords="3,43.55,49.45,411.00,309.04" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;In vivo&lt;/i&gt;analysis of the&lt;i&gt;Escherichia coli&lt;/i&gt;ultrastructure by small-angle scattering</title>
+		<author>
+			<persName><forename type="first">Enrico</forename><forename type="middle">F</forename><surname>Semeraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juliette</forename><forename type="middle">M</forename><surname>Devos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lionel</forename><surname>Porcar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Trevor</forename><surname>Forsyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Theyencheri</forename><surname>Narayanan</surname></persName>
+			<idno type="ORCID">0000-0003-1957-1041</idno>
+		</author>
+		<idno type="DOI">10.1107/s2052252517013008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IUCrJ</title>
+		<title level="j" type="abbrev">IUCrJ</title>
+		<idno type="ISSNe">2052-2525</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="751" to="757" />
+			<date type="published" when="2017-09-26">2017</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Semeraro, E. F., J. M. Devos, L. Porcar, V. T. Forsyth, and T. Narayanan. 2017. In vivo analysis of the Escherichia coli ultrastructure by small-angle scattering. IUCrJ 4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Evolution of the analytical scattering model of live &lt;i&gt;Escherichia coli&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Enrico</forename><forename type="middle">F</forename><surname>Semeraro</surname></persName>
+			<idno type="ORCID">0000-0002-6096-1108</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Lisa</forename><surname>Marx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Mandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moritz</forename><forename type="middle">P K</forename><surname>Frewein</surname></persName>
+			<idno type="ORCID">0000-0002-0329-5305</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Haden</forename><forename type="middle">L</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvain</forename><surname>Prévost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Bergler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Lohner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Pabst</surname></persName>
+			<idno type="ORCID">0000-0003-1967-1536</idno>
+		</author>
+		<idno type="DOI">10.1107/s1600576721000169</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="473" to="485" />
+			<date type="published" when="2021-03-03">2021</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Semeraro, E. F., L. Marx, J. Mandl, M. P. K. Frewein, H. L. Scott, S. Prévost, H. Bergler, K. Lohner, and G. Pabst. 2021. Evolution of the analytical scattering model of live Escherichia coli. J Appl Crystallogr 54:473-485.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Bridging the Antimicrobial Activity of Two Lactoferricin Derivatives in E. coli and Lipid-Only Membranes</title>
+		<author>
+			<persName><forename type="first">Lisa</forename><surname>Marx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Enrico</forename><forename type="middle">F</forename><surname>Semeraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Mandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Kremser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moritz</forename><forename type="middle">P</forename><surname>Frewein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nermina</forename><surname>Malanovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Lohner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Pabst</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmedt.2021.625975</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Medical Technology</title>
+		<title level="j" type="abbrev">Front. Med. Technol.</title>
+		<idno type="ISSNe">2673-3129</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">625975</biblScope>
+			<date type="published" when="2021-02-24">2021</date>
+			<publisher>Frontiers Media SA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marx, L., E. F. Semeraro, J. Mandl, J. Kremser, M. P. Frewein, N. Malanovic, K. Lohner, and G. Pabst. 2021. Bridging the Antimicrobial Activity of Two Lactoferricin Derivatives in E. coli and Lipid-Only Membranes. Front. Med. Technol. 3:625975.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Real-time attack on single &lt;i&gt;Escherichia coli&lt;/i&gt; cells by the human antimicrobial peptide LL-37</title>
+		<author>
+			<persName><forename type="first">Kem</forename><forename type="middle">A</forename><surname>Sochacki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenneth</forename><forename type="middle">J</forename><surname>Barns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Bucki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">C</forename><surname>Weisshaar</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1101130108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="77" to="E81" />
+			<date type="published" when="2011-04-04">2011</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sochacki, K. A., K. J. Barns, R. Bucki, and J. C. Weisshaar. 2011. Real-time attack on single Escherichia coli cells by the human antimicrobial peptide LL-37. Proc. Natl. Acad. Sci. USA 108:E77-E81.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Lactoferricins impair the cytosolic membrane of Escherichia coli within a few seconds and accumulate inside the cell</title>
+		<author>
+			<persName><forename type="first">Enrico</forename><forename type="middle">F</forename><surname>Semeraro</surname></persName>
+			<idno type="ORCID">0000-0002-6096-1108</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Lisa</forename><surname>Marx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Mandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilse</forename><surname>Letofsky-Papst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudia</forename><surname>Mayrhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moritz</forename><forename type="middle">Pk</forename><surname>Frewein</surname></persName>
+			<idno type="ORCID">0000-0002-0329-5305</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Haden</forename><forename type="middle">L</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvain</forename><surname>Prévost</surname></persName>
+			<idno type="ORCID">0000-0002-6008-1987</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Bergler</surname></persName>
+			<idno type="ORCID">0000-0002-7724-309X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Lohner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Pabst</surname></persName>
+			<idno type="ORCID">0000-0003-1967-1536</idno>
+		</author>
+		<idno type="DOI">10.7554/elife.72850</idno>
+	</analytic>
+	<monogr>
+		<title level="j">eLife</title>
+		<idno type="ISSNe">2050-084X</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2022-06-07">2022</date>
+			<publisher>eLife Sciences Publications, Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note>Elife 11:e72850</note>
+	<note type="raw_reference">Semeraro, E. F., L. Marx, J. Mandl, I. Letofsky-Papst, C. Mayrhofer, M. P. Frewein, H. L. Scott, S. Prévost, H. Bergler, K. Lohner, and G. Pabst. 7.6.2022. Lactoferricins impair the cytosolic membrane of Escherichia coli within a few seconds and accumulate inside the cell. Elife 11:e72850.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

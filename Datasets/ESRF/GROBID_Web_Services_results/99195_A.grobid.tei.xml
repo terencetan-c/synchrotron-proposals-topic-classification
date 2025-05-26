@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Understanding the role of microstructural repeatability in the functional fatigue behavior of shape memory alloys</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-08-25">25 Aug 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jon</forename><surname>Wright</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wolfgang</forename><surname>Ludwig</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sangwon</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wenxi</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adam</forename><surname>Creuziger</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">U.S. National Institute of Standards and Technology</orgName>
+								<address>
+									<addrLine>3 ESRF</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ashley</forename><surname>Bucsek</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Michigan</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Understanding the role of microstructural repeatability in the functional fatigue behavior of shape memory alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-08-25">25 Aug 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">89FD72DF69E567C1C3834C6ED8BCB0DF</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preliminary Report:</head><p>Motivation: The aim of this experiment was to investigate the micromechanical origins of functional fatigue in materials that undergo a reversible martensitic phase transformation. Martensitic phase transformation is a diffusionless solid-to-solid phase transformation between a high-symmetry (austenite) and a low-symmetry (martensite) phase. It is the enabling mechanism behind the novel behaviors of a wide diversity of materials, including shape memory alloys. These behaviors have inspired energy conversion, energy harvesting, and actuator technologies <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>, but fundamental knowledge gaps regarding functional fatigue-changes to the material during cyclic loading in a way that diminishes its exploitative properties-continue to be a major barrier <ref type="bibr" target="#b2">[3]</ref>. Functional fatigue stems from permanent defects (e.g., dislocations) that form as a result of the forward and reverse martensitic phase transformation. The motivation for this experiment was to understand the microstructural origins of functional fatigue, specifically, grain-specific increases in dislocation density accumulation during stress-induced martensitic phase transformation cycling. This work included testing a new hypothesis: Functional fatigue is sensitive to how repeatable the martensitic phase transformation is from cycle to cycle, i.e., the "microstructural repeatability."</p><p>Experiment Overview: In this experiment, coarse-grained copper-aluminum-nickel (CuAlNi) shape memory alloys were loaded in tension using the Nanox load frame <ref type="bibr" target="#b3">[4]</ref> while the microstructural evolution was measured across different length scales using a combination of 3D X-ray diffraction (3DXRD), diffraction contrast tomography (DCT), and X-ray topo-tomography (XRTT) on beamline ID11 at the ESRF. CuAlNi is an ideal material system for this fundamental study, because the martensitic microstructures are known to be relatively large (&gt; 1 μm), making them resolvable using XRTT. This combination of techniques, pioneered by Wolfgang Ludwig at the ESRF, has been used to spatially resolve three-dimensional (3D) morphological changes, or deformation, occurring inside individual grains <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. In the past, this approach was used to investigate slip bands. Here, we use this approach to study martensitic phase transformation. Specifically, we applied this approach to understanding the microstructural origins of functional fatigue by (1) spatially resolving the 3D morphology of stress-induced martensite structures, (2) spatially resolving the resultant, vestigial dislocation/defects structures left over after the martensitic phase transformation was reversed, and (3) repeating this procedure for multiple mechanical cycles. In this way, these functional fatigue related microstructure changes could be correlated with the repeatability of the martensitic phase transformation, as stated in our hypothesis.</p><p>Results: Preliminary results are shown in Fig. <ref type="figure" target="#fig_0">1</ref> and Fig. <ref type="figure" target="#fig_1">2</ref>. These figures show images from the XRTT reconstructions during in-situ mechanical loading. (Note: XRTT spatially resolves grain morphologies in 3D, so these reconstructions can actually be rotated and investigated in 3D.) Fig. <ref type="figure" target="#fig_0">1</ref> demonstrates the utility of XRTT to study martensitic phase transformations, and in particular to study the microstructural origins of functional fatigue. The black lines going through the grain in the top and bottom images are the martensite domains when the material was at peak load and the grain was partially transformed. Notice that the morphology of the martensite domains is very similar (though not exactly the same) between cycles 1 and 2. Also note that, when the sample is unloaded between cycles 1 and 2, the grain shows signs of damage where the martensite domains were previously occurring. This damage can be signatures of slip, dislocations, and/or retained martensite-questions that will be answered in the future using the DCT and 3DXRD data. These measurements will be used to understand how the reversible martensitic phase transformation inflicts damage to the microstructure, and how this damage accumulation changes, or is influenced by, the repeatability of the transformation as stated in our hypothesis.</p><p>Fig. <ref type="figure" target="#fig_1">2</ref> shows another example of the XRTT results on a different grain. Note: This grain actually neighbors the grain shown in Fig. <ref type="figure" target="#fig_0">1</ref>, which will allow us to study the influence of grain boundaries on the martensite morphology and functional fatigue. Fig. <ref type="figure" target="#fig_1">2</ref> shows, again, how the morphology of the martensite is similar between cycles 1 and 2, and how the reversible martensitic phase transformation creates vestigial damage leftover in the grain.</p><p>Current and Future Plans: The results presented above are preliminary. Currently, we are analyzing the 3DXRD and DCT data in addition to processing the rest of the XRTT measurements. The 3DXRD data will provide phase fraction information for each grain throughout loading so that we can differentiate between accumulated dislocation density and retained martensite in the unloaded XRTT data sets. The DCT data will also provide 3D information of all of the grains in the sample, which will provide boundary conditions for the grains that were investigated with XRTT and can be used to model the stress state just before martensitic phase transformation via finite element analysis. Finally, new image processing techniques to remove detector artifacts and emphasize morphological features in the XRTT will be developed.</p><p>Finally, future work includes extending these new techniques (e.g., XRTT only has three prior publications <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>) to studying martensitic phase transformation in nickel-titanium (NiTi) shape memory alloys. NiTi shape memory alloys, or Nitinol as they are referred to in industry, are the most prolific and widely used shape memory material with expansive, continuously burgeoning application fields including biomedical and aerospace. Unlike CuAlNi, which undergoes a cubic-to-orthogonal martensitic phase transformation, NiTi undergoes a cubic-to-monoclinic martensitic phase transformation. The increased disparity in symmetry between the austenite (cubic) and martensite (monoclinic) phases in NiTi leads to much more complex martensite morphologies, and, as a result, many more open questions. Using the technique development from this first 3DXRD+DCT+XRTT experiment on ID11 on CuAlNi, we plan to extend this approach to investigate functional fatigue and variant prediction in NiTi in a future beamtime proposal.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. X-ray topotomography measurements showing a grain that is partially transformed, unloaded, and then partially transformed again.</figDesc><graphic coords="2,406.33,38.79,160.23,431.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. X-ray topotomography measurements showing a pristine, unloaded grain that is subsequently partially transformed, unloaded, and partially transformed again, and then unloaded again.</figDesc><graphic coords="2,49.24,645.14,503.92,123.36" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Energy Conversion by Phase Transformation in the Small-Temperature-Difference Regime</title>
+		<author>
+			<persName><forename type="first">Ashley</forename><forename type="middle">N</forename><surname>Bucsek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Nunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bharat</forename><surname>Jalan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">D</forename><surname>James</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-matsci-082019-021824</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Materials Research</title>
+		<title level="j" type="abbrev">Annu. Rev. Mater. Res.</title>
+		<idno type="ISSN">1531-7331</idno>
+		<idno type="ISSNe">1545-4118</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="283" to="318" />
+			<date type="published" when="2020-07-01">2020</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.N. Bucsek, W. Nunn, B. Jalan, R.D. James, Energy Conversion by Phase Transformation in the Small- Temperature-Difference Regime, Annu. Rev. Mater. Res. 50 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Direct Conversion of Heat to Electricity Using First-Order Phase Transformations in Ferroelectrics</title>
+		<author>
+			<persName><forename type="first">Ashley</forename><surname>Bucsek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Nunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bharat</forename><surname>Jalan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">D</forename><surname>James</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevapplied.12.034043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Applied</title>
+		<title level="j" type="abbrev">Phys. Rev. Applied</title>
+		<idno type="ISSNe">2331-7019</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34043</biblScope>
+			<date type="published" when="2019-09-23">2019</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Bucsek, W. Nunn, B. Jalan, R.D. James, Direct conversion of heat to electricity using first-order phase transformations in ferroelectrics, Phys. Rev. Appl. 12 (2019) 034043.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Structural and functional fatigue of NiTi shape memory alloys</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hornbogen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yawny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heckmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wagner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2003.10.327</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2003.10.327" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: A</title>
+		<idno type="ISSN">0921-5093</idno>
+		<imprint>
+			<biblScope unit="volume">378</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="24" to="33" />
+			<date type="published" when="2004-07">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Eggeler, E. Hornbogen, A. Yawny, A. Heckmann, M. Wagner, Structural and functional fatigue of NiTi shape memory alloys, Mater. Sci. Eng. A. 378 (2004) 24-33. https://doi.org/10.1016/j.msea.2003.10.327.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Nanox: a miniature mechanical stress rig designed for near-field X-ray diffraction imaging techniques</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gueninchault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Proudhon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ludwig</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600577516013850</idno>
+		<ptr target="https://doi.org/10.1107/S1600577516013850" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSNe">1600-5775</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1474" to="1483" />
+			<date type="published" when="2016-10-18">2016</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Gueninchault, H. Proudhon, W. Ludwig, Nanox: a miniature mechanical stress rig designed for near- field X-ray diffraction imaging techniques, J. Synchrotron Radiat. 23 (2016) 1474-1483. https://doi.org/10.1107/S1600577516013850.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Three-dimensional imaging of crystal defects by `topo-tomography&apos;</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Härtwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baruchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hamelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bastie</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s002188980101086x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="602" to="607" />
+			<date type="published" when="2001-09-25">2001</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Ludwig, P. Cloetens, J. Härtwig, J. Baruchel, B. Hamelin, P. Bastie, Three-dimensional imaging of crystal defects bytopo-tomography&apos;, J. Appl. Crystallogr. 34 (2001) 602-607.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Incipient Bulk Polycrystal Plasticity Observed by Synchrotron In-Situ Topotomography</title>
+		<author>
+			<persName><forename type="first">Henry</forename><surname>Proudhon</surname></persName>
+			<idno type="ORCID">0000-0002-4075-5577</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Guéninchault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Forest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Ludwig</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma11102018</idno>
+		<ptr target="https://doi.org/10.3390/ma11102018" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<title level="j" type="abbrev">Materials</title>
+		<idno type="ISSNe">1996-1944</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">2018</biblScope>
+			<date type="published" when="2018-10-18">2018</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Proudhon, N. Guéninchault, S. Forest, W. Ludwig, Incipient Bulk Polycrystal Plasticity Observed by Synchrotron In-Situ Topotomography, Materials. 11 (2018). https://doi.org/10.3390/ma11102018.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Observation of bulk plasticity in a polycrystalline titanium alloy by diffraction contrast tomography and topotomography</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Stinville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Echlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Valle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Proudhon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchar.2022.111891</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Characterization</title>
+		<title level="j" type="abbrev">Materials Characterization</title>
+		<idno type="ISSN">1044-5803</idno>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page">111891</biblScope>
+			<date type="published" when="2022-06">2022</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Stinville, W. Ludwig, P. Callahan, M. Echlin, V. Valle, T. Pollock, H. Proudhon, Observation of bulk plasticity in a polycrystalline titanium alloy by diffraction contrast tomography and topotomography, Mater. Charact. 188 (2022) 111891.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

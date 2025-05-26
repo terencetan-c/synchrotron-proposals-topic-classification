@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EAB69F6D02371DF847A44E2F9BAEA7B0</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The first try was made in November 2020 but the beamsize was not sufficiently small. Then COVID made it difficult to reprogram a close-by date. Finally, later in May 2021 -once the KB mirrors have been repolished -the beamsize could be made sufficiently small horizontally but not vertically as was originally intended. And we obtained a 125 nm width as shown on Figure <ref type="figure">1</ref>.</p><p>A 15 µm long cross-section profile was successfully recorded on APD sample number 28016 with 25 nm steps. At each step, we record the 60s long µLaue spectra on a 4096x4096 CCD camera placed at #300 mm. At each step, the same 8 diffraction peaks without harmonics may be seen (see Figure <ref type="figure">2</ref>), out of which only the 4 most intense peaks are kept to ensure a good signal-to-noise ratio.</p><p>We logically made the assumption that the strain is biaxial along the growth axis cc= <ref type="bibr">[211]</ref>.</p><p>Applying the techniques described in <ref type="bibr" target="#b0">[1]</ref>, and since this time the growth axis is along axis X see Figure <ref type="figure">3</ref>, the slope of the variation of the x position of peaks as a function of x is</p><formula xml:id="formula_0">Slope =( 1+ϵ bb 1+ ϵ cc -1)≈-(1+<label>1</label></formula><formula xml:id="formula_1">A ) ϵ cc =(1+ A) ϵ bb where ε cc /ε bb = -2 ν 1-ν =-A with ν=0.323 [2]</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>is the</head><p>Poisson ratio along the cc=[211] direction, and bb=[-1,1,1] direction. Thus, we were able to determine the local strain inside our sample as a function of depth (see Figure <ref type="figure">4</ref>). We see that the in-plane strain ε bb increases in a linear way inside the substrate before switching to an exponential growth in the last 2 microns. This very clearly shows that the substrate possesses an in-plane lattice adaptation to the compressive layer with a 4 10 -4 in-plane adaptation, while no such adaptation is present in the tensile case (see <ref type="bibr" target="#b0">[1]</ref>). This clearly constitutes our first remarkable result. On the layer side, we have at first deposited a 2.0 µm thick layer that possesses a Cd gradient. We see that the part that is in contact with the substrate presents a -2.4 10 -4 (compressive) in-plane strain while at the other side, we have a 3.1 10 -4 (tensile) strain, with a strain evolution that appears quite linear. This clearly constitutes our second remarkable result. Figure 1: Beam size deduced from the derivative of the Hg fluorescence Figure 4: Strains as measured by fitting the peak positions as a function of depth Figure 3: experimental setup</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Experiment title: Study of both the strain relaxation dynamics and dislocation generation using 100 nm-Laue 2D mapping on state-of-the-art avalanche photodiode IR detectors Names and affiliations of applicants (* indicates experimentalists): Xavier BIQUARD*, CEA-Grenoble, IRIG/DEPHY/MEM/NRS Philippe BALLET, CEA-Grenoble, LETI/DPFT/SMTP/LMP Report:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :Figure 1 :Figure 4 :</head><label>214</label><figDesc>Figure 2: Recorded CCD image showing the 8 diffraction peak (red circle) among 15 peaks (top half only) that have no harmonics with their Miller indexes</figDesc><graphic coords="3,317.90,51.45,245.15,245.15" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Submicronic Laue diffraction to determine in-depth strain in very closely matched complex HgCdTe/CdZnTe heterostructures with a 10&lt;sup&gt;−5&lt;/sup&gt; resolution</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Biquard</surname></persName>
+			<idno type="ORCID">0000-0002-7948-1833</idno>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ballet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tuaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Jouneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rieutord</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600577520013211</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSNe">1600-5775</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="181" to="187" />
+			<date type="published" when="2021-01-01">2021</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Biquard et al., J. Synchrotron Radiation 28, 181 (2021)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Handling the study of Multi-Word Expressions from beginning to end via an online collaborative annotation platform: ACCOLÉ</title>
+		<author>
+			<persName><forename type="first">Emmanuelle</forename><surname>Esperança-Rodier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fiorella</forename><surname>Albasini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francis</forename><surname>Brunet-Manquat</surname></persName>
+		</author>
+		<idno type="DOI">10.26615/978-954-452-080-9_023</idno>
+		<ptr target="https://tel.archives-ouvertes.fr/tel-01822798" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference EUROPHRAS 2022 (short papers, posters and MUMTTT workshop contributions)</title>
+		<meeting>the International Conference EUROPHRAS 2022 (short papers, posters and MUMTTT workshop contributions)</meeting>
+		<imprint>
+			<publisher>Incoma Ltd. Shoumen, Bulgaria</publisher>
+			<date type="published" when="2017-12">Dec. 2017</date>
+			<biblScope unit="page" from="190" to="197" />
+		</imprint>
+		<respStmt>
+			<orgName>University Grenoble Alpes</orgName>
+		</respStmt>
+	</monogr>
+	<note>Ph.D. thesis</note>
+	<note type="raw_reference">A. Tuaz, Ph.D. thesis, University Grenoble Alpes, available online at: https://tel.archives-ouvertes.fr/tel-01822798, (Dec. 2017).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

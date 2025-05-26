@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental report : proposal ID : 20150778 (SOLEIL) / MA-2879 (ESRF)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Experimental report : proposal ID : 20150778 (SOLEIL) / MA-2879 (ESRF)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E2945003E364014EF77C36A901345BEB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T12:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>HKL-dependence of strain, orientation, and lattice expansion in the nitride layer at the surface of a Ni-5%Ti polycrystal.</p><p>The aim of the experiment on surface-nitrided NiTi alloy was to complement the study published in 2015 by Fonovic et al [ref 1]. In the article, only one graph of lattice parameter versus depth was presented (or more precisely, a graph of unit cell volume versus depth), out of a set of Laue microdiffraction data with a much greater wealth of information. In particular depth profiles of the three components of lattice rotations and the five components of deviatoric strain (unit cell shape with three angles and two aspect ratios) are of interest, as well as the dependence of these profiles with respect to grain orientation. From the point of view of developing the instrument and the analysis of Laue microdiffraction data, this system is also interesting as a test case close to the "low crystalline quality / high orientation gradients" limit of the technique.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The experiment was split into two runs.</p><p>The February 2016 run was used for DAXM measurements (3D Laue microdiffraction) on a topview sample provided by M. Fonovic (under the supervision of A. Leineweber). On the crosssection sample, we had observed very large intra-grain lattice rotations between substrate and nitride, and were wondering if this rotation versus depth profile was already present on the top-view sample. Good-quality DAXM data were collected on several grains of the top-view sample. Our postdoc Loïc Renversade improved our code for DAXM reconstruction to include spot-energydependent wire-edge-transparency effects and obtained for example the results shown in figure <ref type="figure" target="#fig_0">1</ref>. This figure shows that lattice rotations are indeed already present in the top view sample. The analysis of the other grains is still in progress. The April 2016 run was carried out with the assistance of Christian Schimpf from Freiberg technical university. Several grains of the cross-section sample were depth-profiled using the combination of a fixed "top" 2D detector and a movable "side" fluorescence detector. The "side" detector was positioned so as to collect one of the Laue spots and measure its photon energy. Good-quality data were collected, this time allowing measurement of the depth profiles up to the last micron near the surface. Analysis is still in progress. Differential analysis of the depth-profile is being used to improve depth resolution. Curiously certain grain orientations manage to preserve most of their lattice orientation and good crystalline quality up to the top of the nitrided surface, in contrast with other orientations where nitridation causes major orientation gradients, not only along depth and but also along directions parallel to the nitrided layer.</p><p>The difficulties encountered with "beam-tails-induced parasitic Laue spots" in the second part of the experiment were instrumental in our later decision to send our KB mirrors for repair during the ESRF upgrade, and to modify the environment of the KB mirrors so as to reduce future irradiation damage. Indeed, low-intensity millimeter-range x-ray beam tails caused by mirror contamination make it difficult to investigate the damaged regions of a grain near the grain boundaries : the broad low-intensity signal that comes from the region probed by the micro-beam is superimposed with a sharp high-intensity spot that comes from the well-crystallized grain center hit by the beam tails. ref 1 : Fonović, M., <ref type="bibr">Leineweber, A., Robach, O. Jägle, E. A., Mittemeijer, E. J., Metal. Mater. Trans. A 46, 4115-4131, 2015, experiment 32-02-749 (ESRF) / 20121238 (SOLEIL)</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1 : 3D reconstruction of a Laue diffraction spot from a surface-nitrided grain of Ni-5%Ti (top-view sample) (a) Laue pattern, (b) zoom on one spot (c) zoom on the same spot after partial masking of the diffracted beam by the tungsten wire, (d) iso-intensity surface of the spot versus depth. (e) the three components of lattice rotations versus depth, as deduced from the depthreconstruction of two Laue spots. Strong orientation gradients are observed, which were induced by surface nitridation (unit cell volume expansion).</figDesc><graphic coords="1,56.70,443.05,288.00,234.70" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

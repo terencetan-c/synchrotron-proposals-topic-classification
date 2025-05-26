@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Operando XRD/PDF-CT to study novel alloying anodes for Na-ion batteries</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Gavin</forename><surname>Vaughan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonas</forename><surname>Sottmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Wragg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amund</forename><surname>Ruud</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Øystein</forename><surname>Fjellvåg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Operando XRD/PDF-CT to study novel alloying anodes for Na-ion batteries</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A90BCC361DF9E36B27CC7D256453CD09</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The experiment aimed to study battery cycling of bismuth molybdate and vanadate against sodium. The experiment was successful in terms of data collection, with four cells measured under working conditions in the new version of the Oslo/ID15 battery XRD-CT sample container (figure 1 left panel). Making the sample container from quartz significantly eased the process of tomographic reconstruction compared to the original Teflon walls. The glassy carbon contact rods were also a major improvement (compared with the previous aluminium rods), ensuring a flat platform for the electrode and good electrical contact as well as a clear starting point for measurements. The second cell measured (Bi molybdate vs Li) cycled much faster than expected as it was difficult to determine the small mass of electrode material (0.1-0.3 mg) with the balance available in the electrochemistry. This may mean that the data are not useful due to insufficient time resolution. A 7-place balance would be useful in future. Around 40 post mortem capillary samples were also measured as references, giving high quality PDF data.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The new (Python based) data processing programs being developed at ID15 worked well and all tomographic reconstructions were completed shortly after the experiment. PDF conversion scripts have just been completed (the data shown in fig. <ref type="figure" target="#fig_0">1</ref> used an early version of the script which could only average voxels over a square within the circular tomogram).</p><p>Preliminary data analysis on the first operando dataset indicates that we will be able to extract information from the data using both Rietveld and PDF methods. The right panel of figure <ref type="figure" target="#fig_0">1</ref> shows PDFs from the start and end of the first sodiation of bismuth molybdate along with a sample PDF of "Super-P" carbon, the other main component of the anode material. The main features due to "Super-P" at ca 1.5 and 2.4 Å are easily picked out in the operando data, giving a reference indicating the reliability of the PDF conversion. In the sodiated PDF peaks at ca. 3.1 and 3.4 Å correspond to Na-Bi distances in Na 3 Bi, while 5.1 and 5.5 Å peaks fit with the Bi-Bi contacts. The PDF of the initial bismuth molybdate has strong peaks at around 4 Å related to the Mo-Bi distances and other peaks at shorter radial distances which clearly fit with the Mo-O and Bi-O bond lengths. We can also see from PDFs over a longer radial range (not shown) the transition from crystalline bismuth molybdate to amorphous Na 3 Bi/sodium molybdate with no PDF peaks beyond 10 Å. Rietveld analysis of the same dataset has allowed us to determine phase fractions of the crystalline and, unexpectedly, some amorphous phases using the methods described in our earlier paper for Bismuth sulfide <ref type="bibr" target="#b0">1</ref> .</p><p>Figure <ref type="figure">2</ref> Rietveld fit for bismuth molybdate (left) and phase fractions from Rietveld QPA for the intial part of the first sodiation of bismuth molybdate (right)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The new XRD/PDF-CT battery sample holder (left); Example PDF data for bismuth molybdate vs sodium, first sodiation, first pass PDF conversion (right).</figDesc><graphic coords="3,95.65,165.64,404.05,215.45" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We expect to have the final version of the PDF data soon and will be able to complete the data processing.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Versatile electrochemical cell for Li/Na-ion batteries and high-throughput setup for combined &lt;i&gt;operando&lt;/i&gt; X-ray diffraction and absorption spectroscopy</title>
+		<author>
+			<persName><forename type="first">Jonas</forename><surname>Sottmann</surname></persName>
+			<idno type="ORCID">0000-0001-8816-9270</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><surname>Homs-Regojo</surname></persName>
+			<idno type="ORCID">0000-0001-5335-2702</idno>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">S</forename><surname>Wragg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helmer</forename><surname>Fjellvåg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Serena</forename><surname>Margadonna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hermann</forename><surname>Emerich</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s160057671601428x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1972" to="1981" />
+			<date type="published" when="2016-10-27">2016</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sottmann, J.; Homs-Regojo, R.; Wragg, D. S.; Fjellvag, H.; Margadonna, S.; Emerich, H., Versatile electrochemical cell for Li/Na-ion batteries and high-throughput setup for combined operando X-ray diffraction and absorption spectroscopy. J. Appl. Cryst. 2016, 49 (6).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

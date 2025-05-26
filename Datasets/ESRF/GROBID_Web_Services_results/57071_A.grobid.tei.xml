@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3E2DB89EF79695EE86A155BB91065E85</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This experiment was designed as part of the research towards understanding the effect of phase transformation in Ti-6Al-4V on residual stress evolution. The main aim was to obtain a thorough understanding of the phase transformation in Ti-6Al-4V alloy subjected to rapid heating and cooling phenomena. Initial simulation and measurements had suggested that the peak cooling rates may be in the range 200-800 °Cs-1.</p><p>Heating and cooling rate was designed similar to the Plasma Transferred Arc cladding (PTA) process which has been recently used as an Additive Manufacturing technology. The manufacturing process involves a fast heating process; from room temperature up to melting point (≈1600 °C) for Ti-6Al-4V alloy followed by a very fast cooling process as the layer (part) is exposed to ambient temperature right after deposition is completed. For both heating and cooling processes the thermal conductivity of the Ti-6Al-4V alloy was used to calculate the heating and cooling time.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Instron Electro-Thermal Mechanical Testing (ETMT) is capable of achieving heating and cooling rates of up to 250 °C/s and 100 °C/s respectively. Therefore, it is a viable option to investigate the phase transformation in metal alloys. As recommended in the test rig manual, "miniature" test specimens were designed and made out of the metal alloy (Ti-6Al-4V) from the original stock of the material which was used for the PTA process at WMG, University of Warwick. The same tensile samples were also made by another additive manufacturing process; Selective Laser Melting (SLM) to look at any possible effect of manufacturing process on the phase transformation phenomenon.</p><p>In order to achieve high temporal-resolution of the data, a relatively large gauge volume of approximately 0.5 × 0.5 mm2 (width × height) was used.</p><p>Experiment title: Physical simulation of Plasma Transfer Arc cladding (PTA) for Additive Manufacturing Experiment number: ME-1388 Beamline: ID11 Date of experiment: from: 11/12/2015 to: 12/12/2015 Date of report: 30/08/2016 Shifts: 3 Local contact(s): Vadim Dyadkin Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Hadi Moztarzadeh* (main proposer) Dr Darren J Hughes* Dr Neil Raath* Prof Richard J Dashwood Dr Gregory Gibbons</p><p>We used a rapid heating to simulate the arc-welding process. The peak was just below melting temperature of the titanium alloys (melting temperature: Tm ≈ 1600 °C), followed by controlled cooling. Initial simulation and measurements had suggested that the peak cooling rates may be in the range 200-800 °Cs-1, however we mainly used a heating rate of ~200 °Cs-1 due to the limitation of the ETMT test rig at ESRF. Althoug, some other cooling rates were also attempted, however the results were not analysed due to the problem we had already identified in the experimenatl process which was the problem in the load cell.</p><p>To give more details on the experiment performed, we first identified/calibrated the temperature agains the current on the ETMT to have a clear overview of the thermal cycles we used. Then we used a range of current to achieve the thermal cycles we intended. Starting from 70 A in ~10 sec, we could achive up to temperature of ~1250 °C and then increased the current up to 80 A again in ~10 sec to achieve a tempertaure of ~1450 °C. Increasing the current to above 80 A caused the sample to be melted. When we recognised the thermal history of the heating and cooling processes, we considered three cycles to simulate the heating/cooling processes as it occurs in the PTA process. In fact, dueing PTA deposition, one layer is deposited and being cooled down (timimg depends on the process parameter definition and a range of different cooling time has been investigated), and then the next layer is deposited. According to the dilution concept, the previous layer is heated again and re-melted to some extent. Therefore, the ETMT was set to do at least three cycles of heating and cooling for each of the current ranges we defined for the process as described in Figure <ref type="figure">1</ref> for 70 A current.</p><p>Figure <ref type="figure">1</ref> -Three heating/cooling cycles according to the current The experiment investigated the phase change induced stresses to be detected in a load-controlled situation while the samples undergo thermo-mechanical processing regime. However, the displacement of the ETMT was irregular under load-controlled condition. The experiments were thus performed under a fixedposition. Position-controlled experiment could provide phase change details, however it did not allow the phase change induced to be detected. We therefore request to repeat the experiment, however the ETMT requires a service before next experiment.</p><p>Current: 0 A 10 Sec Current: 70 A 10 Sec Current: 0 A 10 Sec Current: 70 A 10 Sec Current: 0 A 10 Sec Current: 70 A 10 Sec Current: 0 A</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

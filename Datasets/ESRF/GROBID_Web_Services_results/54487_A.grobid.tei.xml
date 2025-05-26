@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Strain fluctuations in strained-silicon-on-insulator (SOI) lines using coherent diffraction</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-02-28">28 February 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Strain fluctuations in strained-silicon-on-insulator (SOI) lines using coherent diffraction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-02-28">28 February 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">13000028181F0CA6598CD1762AB3ACDB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:00+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Names and affiliations of applicants (* indicates experimentalists):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>This experiment was a success, allowing to measure the strain and tilts (along 2 directions) on several strained silicon-on-insulator lines or layers. The available flux was such that we could not measure smaller layers (down to 10 nm) in a reasonable amount of time to yield quantitative results (the k-map process has a minimum speed at which the piezo motor must move, so a 'slow' map would have to be used).</p><p>This will however become possible with the addition of a Kirkpatrick-Baez mirror, which combined with a pink beam will allow a 100x increase in flux, allowing quick data collection in a single pass (instead of 20-30 angles in monochromatic mode).</p><p>An article will be written on the results for the sSOI layers &amp; lines.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objective</head><p>The electronic properties of semiconductor nanostructures are strongly influenced by their strain state -a fact which is exploited particularly in micro-electronics, as the mobility of charge carrier can be enhanced by a factor up to x2,5 in the case of strained silicon-on-insulator <ref type="bibr" target="#b0">[1]</ref>. As the size of functional nano-structures is reduced, the ability to map strain at the nanoscale has become essential.</p><p>While transmission electron microscopy allows measuring strain maps on single objects, it involves destroying the sample and cannot map a large number of nano-structures. Recently, X-ray Coherent Diffraction Imaging has been used for the quantitative determination of strain in nanostructures down to around 100 nm.</p><p>The goal of this experiment was to study strain fluctuations in strained silicon-on-insulator lines of thickness down to a few 10's of nm, as used in silicon-on-insulator nano-structures. We used the same method we previously demonstrated <ref type="bibr" target="#b1">[2]</ref>, on 70 nm-thick lines taking advantage of the photon flux increase after the upgrade of beamline id01.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Method</head><p>In previous experiments <ref type="bibr" target="#b1">[2]</ref> we found that significant damage could occur to the silicon/silicon oxide interface due to the high photon flux (10^5 photons/s/nm^2). Furthermore, the vertical beam size was smaller than originally expected due to the improved beamline optics, with an FWHM of 104 nm in the vertical direction (and ~250-300 nm horizontal), using the full illumination (300x300µm^2) of the Fresnel-zone-plate ('coherent' illumination corresponding to 60x250 µm^2).</p><p>From these characteristics, we opted to rather use the full, partially coherent illumination, and combine this with the fast diffraction mapping possible on id01 (so-called "k-map"), using the continuous scan mode of the piezo stage combined with the maxipix fast readout. A few coherent images using small illumination were also taken (not shown in this report), to allow later reconstruction of the local strain as demonstrated in <ref type="bibr" target="#b1">[2]</ref>.</p><p>The following samples were studied: • first we evaluated the experimental stability using a test sample (with vertical nanowires for which the horizontal and vertical drift is easily followed) during the first day -it turned out that the stability can be improved by diffracting in the horizontal plane (with horizontal piezo stage and vertical sample) • a thick [600 nm] strained Ge bridge-this was used as a test sample-for this sample we use k-maps and different tilt angles to determine both the 2theta angle as well as the misorientation of the Ge layer. Data collection for this took 6 hours. See figure <ref type="figure">1</ref>.</p><p>• Strained silicon-on-insulator lines with a width of 225 nm and thickness 70 nm. Local strain state along such a line was already reported in <ref type="bibr" target="#b1">[2]</ref>. In this experiment, we followed individual lines along 90 µm, at two different positions on the sample. This was done using a slow scan along the line, allowing to collect enough information to later reconstruct the inhomogeneous strain at each position of the line. See figure <ref type="figure">2</ref>.</p><p>• Strained silicon-on-insulator layer of thickness 70 nm. For this layer we measured the diffraction using a fast-mapping, on an area of 90x90µm^2 using 0.5µm steps, with 0.03s/point. This was collected on two different positions on the sample. See figure <ref type="figure" target="#fig_1">3</ref>. • Strained silicon-on-insulator lines of width 110 nm and thickness 70 nm. We measured diffraction using a fast-mapping, on an area of 90 (along the lines) x 20 (perpendicular to the lines) µm^2 using 0.5µm (vertically) x 100 nm steps, with 0.05s/point. See figure <ref type="figure" target="#fig_2">4</ref>.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :Figure 1 :</head><label>21</label><figDesc>Figure 2: deformation along a strained silicon-oninsulator line: (top) tilt angle (°) value in the scattering plane as a function of the position along the line (µm). (bottom) relative fluctuation of the 2theta angle along the line. Both fluctuations were followed along 90 µm Figure 1: Strain map (ε zz ) of a Germanium bridge.The map size is 40x40nm^2, with a 250 nm resolution. The Ge Bridge is stressed in tension, resulting in a lower (-0.45%) c-parameter (direction perpendicular to the bridge).</figDesc><graphic coords="2,36.80,294.80,258.10,214.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: deformation on a 90x90 µm^2 area of a strained silicon-on-insulator layer of thickness 70 nm. The map represents the tilt angle (°) value perpendicular to the scattering plane. The lines are due to the induced strain in the sSOI fabrication process (vertical lines are also present, appearing by mapping the tilt in the scattering plane, as in Figure 2(top)).</figDesc><graphic coords="3,300.40,39.60,257.50,190.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: diffraction map for a sample with strained silicon-on-insulator lines with thickness 70 nm, width 110 nm and a vertical period of ~500 nm. The fast map was recorded with 0.05s/point, and a 500x100 nm^2 resolution. The diffraction image was recorded in each point, which will allow to reconstruct the strain and tilt at each position on the sample. The lines are almost horizontal, their apparent non-homogeneity is due to the fact that different parts of the lines are diffracting at different rotation angles.</figDesc><graphic coords="3,25.80,32.20,297.20,222.10" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Elastic relaxation in patterned and implanted strained silicon on insulator</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baudot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Andrieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rieutord</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eymery</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3137200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">114302</biblScope>
+			<date type="published" when="2009-06-01">2009</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Baudot, S., F. Andrieu, F. Rieutord, and J. Eymery, J. Appl. Phys. 105 (2009),114302</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mastroprieto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page">215502</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Mastroprieto et al. Phys. Rev. Lett 111 (2014), 215502</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

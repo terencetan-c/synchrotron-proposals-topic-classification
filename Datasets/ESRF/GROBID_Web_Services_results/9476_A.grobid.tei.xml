@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="1929">2 9 AOUT 1997</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Heinz</forename><surname>Graafsma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Korsunsky</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Webster</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mechanical</orgName>
+								<orgName type="department" key="dep2">Materials and Manufacturing Engineering</orgName>
+								<orgName type="institution">University of Newcastle</orgName>
+								<address>
+									<postCode>NE1 7RU</postCode>
+									<settlement>Newcastle upon Tyne</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Metallurgy</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>Pembroke St</addrLine>
+									<postCode>CB2 342</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Telford Research Institute for Structures &amp; Materials University of Salford Salford</orgName>
+								<address>
+									<postCode>M5 4WT</postCode>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="1929">2 9 AOUT 1997</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">ED2CC221F35072E3720CD7E6FD276CD8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Introduction A number of experiments have exploited the very high energies of the ID1 1 beamline to provide engineering measurements of internal strain via shifts in Bragg peaks. However, the technique is in its infancy and the capabilities and the limitations of the beamline had not been explored in a systematic way previously. The aim of this experiment was to test out the capabilities of both the existing hardware and the software for making accurate and reliable strain measurements in the transmission geometry using applications of interest to the aerospace industry as test cases. Our results show that very high strain (lo-5Oustrain) and lateral spatial (-20um) resolutions can be achieved, but that analysis routines providing on-line access to the evaluated strains are vitally important if the full capabilities of the instrument are to be exploited. We have made significant progress to this end.</p><p>Experiments Test samples considered in this experiment included (1) a lOxlOxlOmm Al cube sample comprising two 5mm peened plate sections with their peened surfaces brought into contact (to avoid surface effects), and (2) a smooth-surface quenched 14xl4xlOOmm MMC bar (Al2124 matrix with 20~01% SIC particle reinforcement). Specimens were viewed in profile (edge-on) and translated perpendicular to the beam. The present sampling geometry allows excellent lateral spatial resolution (down to lOurn), while in the beam direction, the whole transmission length was illuminated with 90keV photons. In both cases data were acquired using an X-ray image intensifier providing 0-64000 intensity readings over an array of 1242x1152 pixels. The image intensifier acquires complete diffraction rings which at high X-ray energies mean that . the vertical diameter provides a measure of the in-plane stress in the samples, and the horizontal diameter the strain normal to the surface. Specimen 1 has very steep gradients of internal strain near the two peened surfaces. The strain field has already been measured on BM16, as well as at lower resolution using neutron diffraction. Step scans were carried out using different sampling volumes and counting times, moving across the sample in 20pm steps near the two peened surfaces, and in large steps (up to 500pm) further away. Specimen 2 has a characteristic parabolic distribution of macroscopic strain (-ve at core, +ve near surface) and has very fine grain size. It was subjected to plastic bending and unload. Once again, a comparison with earlier neutron measurements could be made. The results were used to develop and test new analysis procedures, to assess the minimum count statistics that could be analysed successfully, the degree to which principal stress directions could be evaluated, and the extent and magnitude of factors which might distort the results. Elastic strains are typically very small (lOO-2000nstrain) so that very small shifts in peak position must be traced (1 pixel-1000~strain) in the presence of distortions introduced by detectors and experimental geometries. Furthermore, very small sampling volumes (0.0 l-lmm3) has two important implications: very large amounts of data must be acquired very quickly if strain maps of reasonable dimensions are to be produced, and the inherently speckly nature of that data (which no longer gives a powder pattern) must be taken into account. Repeat measurements were made using different count times (lOO-0.2secs) and different sampling volumes. Peaks could be located to an accuracy of 0.02 pixels (-20@rain) provided the peak signal was greater than -500 counts using azimuthal rebinning with up to 160 pixels (i.e. averaging over f 0.08 radians) to improve the counting statistics. Speckled patterns require significant averaging, otherwise 'bright spots' lead to large scatter in peak locations (-3000pstrain). Variation due to motor position drift were found to be negligible.</p><p>The figures above are chosen to reflect the amount of information collected by the method. Strains of various orientations are plotted in the bar sample before and after plastic bending. These very encouraging results show significant improvement over the neutron data quality. Our experience clearly indicates that further development of strain scanning into an engineering analysis tool (which could then be made available to other visiting scientists and industry) can only be achieved by developing on-line processing techniques, which are vital for making intelligent decisions on the measurement strategy.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

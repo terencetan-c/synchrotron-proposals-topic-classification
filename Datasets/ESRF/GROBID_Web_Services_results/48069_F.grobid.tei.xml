@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Thickness evolution of the twin structure and shear strain in LSMO films</title>
+				<funder ref="#_m92nGYu #_P5Wb46u">
+					<orgName type="full">Spanish MEC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">José</forename><surname>Santiso</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lluis</forename><surname>Balcells</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zorica</forename><surname>Konstantinovic</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jaume</forename><surname>Roqueta</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Pilar</forename><surname>Ferrer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alberto</forename><surname>Pomar</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamín</forename><surname>Martínez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Felip</forename><surname>Sandiumenge</surname></persName>
+						</author>
+						<title level="a" type="main">Thickness evolution of the twin structure and shear strain in LSMO films</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">575997D06F548B7E59D22D6345C597A0</idno>
+					<idno type="DOI">10.1039/c0xx00000x</idno>
+					<note type="submission">Received (in XXX, XXX) Xth XXXXXXXXX 20XX, Accepted Xth XXXXXXXXX 20XX</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>X-ray diffraction analysis and orientation contrast scanning electron microscopy imaging of La 0.7 Sr 0.3 MnO 3 epitaxial layers grown on (001)-SrTiO 3 substrates have been used to track the shear strain and twin domain period as a function of the thickness of the films, t. To this end, the diffraction by a periodically modulated twinned structure is analyzed in detail. In contrast with current equilibrium models, here we demonstrate the occurrence of a critical thickness, t t ~ 2.0 -2.5 nm, for twin formation in rhombohedral perovskite films. The absence of twinning below t t is explained by the formation of a monoclinic interfacial phase presumably driven by electronic interactions between film and substrate not taken into account in theoretical models. Above t t , twin domains develop concomitantly with the build-up of misfit shear strains associated with the formation of the rhombohedral structure. At a thickness ~10 nm, the in-plane and out-of-plane shear strain components exhibit similar values, as imposed by the rhombohedral symmetry. However, upon increasing the film thickness, both strain components are found to follow divergent trajectories indicating a progressive perturbation of the octahedral framework which allows the in-plane lattice parameters to remain fully strained within the explored thickness range (up to 475 nm). Despite these structural perturbations, the twin size follows a t 1/2 dependence as predicted for homogeneous films by equilibrium models.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Domain walls in ferroic materials are receiving a renewed interest in nanoscience and nanotechnology owing to their distinctive properties compared to those of the bulk ordered state. <ref type="bibr" target="#b2">1</ref> Examples include conduction through 71º domain walls in BiFeO 3 films, <ref type="bibr" target="#b3">2</ref> electrical polarization in non-polar CaTiO 3 , <ref type="bibr" target="#b2">1</ref> or superconductivity in insulating WO 3 . <ref type="bibr" target="#b2">1</ref> The reason why the properties of domain walls are so important is that the smaller the volume of the device, such as a thin film, the larger the relative contribution of surfaces and interfaces to its overall structural and physical behavior. Thus, device applications where the active element are the domain walls, rather than the domains, can be envisaged. <ref type="bibr" target="#b4">3</ref> Therefore, understanding the factors governing their density, orientation and spatial distribution opens new perspectives towards the development of novel functionalities in nanostructured ferroic systems. Bulk La 0.7 Sr 0.3 MnO 3 (LSMO) is a rhombohedral perovskite derived from the undistorted cubic structure by compression of the [111] direction. The lattice misfit of the rhombohedral structure relative to a cubic substrate can be divided into two contributions: (i) A shear misfit strain c = tanf = 6.4 10 -3 (f = a rh -90º is the shear or rhombohedral angle, a rh = 90.37º <ref type="bibr" target="#b5">4</ref> is the rhombohedral angle; the twin angle is given by 2f), and (ii) The conventional lattice parameter misfit strain given by e = (a STOa)/a = 6.2 10 -3 , where a STO = 3.905 Å and a = 3.881 Å <ref type="bibr" target="#b5">4</ref> are the substrate and film lattice parameters, respectively (a rh and a are referred to the distorted pseudocubic perovskite unit cell). In ferroelastic materials, <ref type="bibr" target="#b6">5</ref> like LSMO, <ref type="bibr" target="#b7">6</ref> domain wall orientations are derived from the spontaneous strain compatibility criterion 50 originally proposed for ferroelectric crystals. <ref type="bibr" target="#b8">7</ref> For planar walls coinciding with low index crystallographic planes, their orientations can be derived from pure symmetry arguments; in plain: those point group symmetry planes lost in the transition are possible domain walls in the ferroelastic phase. Thus, for 55 rhombohedral LSMO (-3m) derived from the parent cubic phase (m3m), the allowed domain wall orientations are {100} and {110}. <ref type="bibr" target="#b9">8</ref> However, epitaxial growth on a cubic substrate [cf. (001)-SrTiO 3 (STO)], promotes the selection of only (100) and (010) domain wall orientations perpendicular to the substrate 60 interface. <ref type="bibr" target="#b10">9</ref> This behavior suggests that the leading driving force for domain formation in epitaxial films is the accommodation of the shear misfit strain.</p><p>It is well established that in free standing thin films the domain period grows as the square root of the film thickness. <ref type="bibr">10</ref> This 65 implies a rapid increase of the number density of domains at small film thicknesses, i.e. when the size of the device is within the nanoscale. The potential of domain structures for elastic energy relaxation in epitaxial films was first recognized in 1976 by Roitburd, <ref type="bibr" target="#b12">11</ref> and since then numerous theoretical works have 70 focused on the determination of equilibrium domain configurations in epitaxial films of various symmetries. As a general rule it is found that, similarly to free standing films, the square root law also holds for elastically strained epitaxial films. At variance with lattice parameter misfit relaxation by interfacial 75 dislocations, which is associated with a critical thickness above which the stored elastic energy overwhelms the dislocation array formation energy, <ref type="bibr" target="#b13">12</ref> in rhombohedral films there is no critical thickness for domain formation. <ref type="bibr" target="#b10">9,</ref><ref type="bibr" target="#b14">13</ref> However, at the interface, coherence with the cubic substrate prevents from the development of eigenstrains (stress free self-strains) associated with the spontaneous symmetry reduction of the film upon the ferroelastic transition. As a result, an exponential decay of the domain period is predicted below a characteristic length D t = E W /Gc 2 where E W is the domain wall energy, G is the shear modulus and c is the shear mismatch strain between the rhombohedral domains and the cubic substrate. An estimation gives D t ~ 3 nm for LSMO/STO. <ref type="bibr" target="#b10">9</ref> A critical point in modeling epitaxial domain configurations appears to be the definition of the actual interface structure, i.e. the mechanisms governing the structural coherence. In these models interfacial strains associated with domain development are relaxed by the introduction of virtual arrays of interfacial dislocations (so-called coherency defect approach <ref type="bibr" target="#b16">14</ref> ), while the conventional lattice parameter misfit strain is allowed to relax by classical interfacial dislocation mechanisms. Octahedral frameworks of correlated oxides like LSMO exhibit, however, inherent octahedral tilting <ref type="bibr" target="#b17">15</ref> and electronic <ref type="bibr" target="#b18">16,</ref><ref type="bibr" target="#b19">17</ref> degrees of freedom that provide efficient strain relaxation at a lower energy cost than dislocation mechanisms. <ref type="bibr" target="#b20">18</ref> Electronic degrees of freedom become particularly relevant at the LSMO -STO interface owing to the need to cancel its polar discontinuity <ref type="bibr" target="#b19">17</ref> and the potential influence of the Mn oxidation state and selective orbital occupancy <ref type="bibr" target="#b21">19</ref> on the in-plane dimensions of the unit cell. <ref type="bibr" target="#b20">18</ref> Altogether, such effects draw a radically new misfit relaxation scenario that easily bypasses energetically costly plastic deformation mechanisms.</p><p>In this work we have grown LSMO films on STO substrates and followed the evolution of the shear strain from the early stages of strain relaxation up to 475 nm. In contrast with theoretical predictions, we determine a critical thickness, t t , for twin formation at ~ 2.5 nm. The critical thickness results from a charge enrichment driven monoclinic distortion which cancels the shear component of the misfit strain. <ref type="bibr" target="#b20">18</ref> This interfacial electronic and structural transformation suppresses the ferromagnetic order and appears intimately related to the formation of the magnetically dead layer. <ref type="bibr" target="#b20">18</ref> Above t t , the fully in-plane strained rhombohedral phase condenses at ~10 nm. Above this thickness up to 475 nm the in-plane and perpendicular shear strain components evolve independently indicating a progressive departure from the rhombohedral symmetry. Despite this behavior, however, the thickness dependence of the twin domain period follows a t 1/2 law as theoretically predicted for homogeneous epitaxial films.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental</head><p>LSMO/STO films with thicknesses ranging between 2 nm and 475 nm were grown by RF magnetron sputtering from a LSMO stoichiometric ceramic target. Substrates were treated before deposition in order to obtain clean and smooth surfaces with a unique TiO 2 atomic termination. The process includes a cleaning stage in an ultrasonic bath with milliQ water and annealing at 1000 ºC in air for 2h. After annealing, the substrate morphology exhibited the typical morphology of terraces and steps with a height corresponding to the STO unit cell (a ~ 0.4 nm). Deposition was performed at 900 ºC in an oxygen pressure p = 0.19 mbar. The films were in situ annealed at 900 ºC at an oxygen pressure of 466 mbars for 1 h to improve their magnetic and structural properties. <ref type="bibr" target="#b22">20</ref> The surface morphology was characterized by Atomic Force Microscopy (AFM) working in tapping mode (Molecular Imaging PicoSPM and Cervantes from Nanotec Electronica). 65 Film thicknesses were determined by X-ray reflectometry. The structure of the films was systematically investigated by high resolution X-ray diffraction (XRD) using a diffractometer equipped with a four angle goniometer and a conventional Cu tube, and primary optics consisting of a parabolic mirror and a 4 <ref type="formula">70</ref>x Ge(220) crystal asymmetric monochromator (X'Pert Pro MRD -Panalytical, Almelo, Netherland). The lateral (in-plane) correlation of the twin structure was determined either by reciprocal space mapping around of 00L reflections (taking the zaxis as the direction perpendicular to the film), or by performing 75 Q x horizontal scans along a direction parallel to the [100] in-plane substrate axis, at Q z values corresponding to the 00L (L=1,2,3) LSMO reflections (as referred to the pseudocubic perovskite cell). In-plane 2q/w -f area scans were measured in the same XRD equipment around different HK0 reflections by using a non-80 monochromatic primary beam with an incidence angle of 0.5º, and a parallel plate collimator of 0.27º acceptance angle for the in-plane diffracted beam. The structure of the thinnest films was determined using a 6 circle diffractometer at the BM25 (SpLine) at the European Synchrotron Radiation Facility (ESRF), with an 85 incident energy E = 14.5 KeV (l= 0.856 Å) and a fixed incidence angle of 0.5º slightly above the critical angle of 0.2º. High temperature diffraction experiments on 003 LSMO reflections were carried out on one of the thick samples (120 nm) up to 850 ºC in air atmosphere in order to investigate the temperature 90 dependence of twin domain tilt by using a DHS1100 non-ambient chamber (Anton Paar GmbH, Graz, Austria). Twin patterns were directly observed using orientation contrast (OC, also referred to as channeling contrast) from electron backscattered (EBS) images obtained in a field emission scanning electron microscope 95 (QUANTA FEI 200 FEG-ESEM). Details on the principles governing OC in EBS images can be found elsewhere. <ref type="bibr" target="#b23">21</ref> The twin contrast was observed to be extremely sensitive to small deviations of the film normal from the electron beam path, and was accordingly optimized in each case to obtain sharp images 100 for quantitative processing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Film morphology and twin microstructure 105 Fig. <ref type="figure" target="#fig_0">1</ref> shows AFM images of the surface morphologies of two films with thicknesses 30 nm (a) and 140 nm (b), respectively. As it is observed in the image the thicker film (b) shows a clear corrugation along the [100] and [010] directions. This corrugation 110 arises from the tilting of (001) planes caused by the twin structure giving rise to the observed striped-like contrast. The topographic profile across the surface of the thick film in the direction parallel to the steps (arrowed line in the image) shows a triangular shape with average height of 0.5 nm, which corresponds to an out-of-115 plane twin angle, 2f┴ = 1.2º, about the same order than that calculated from the rhombohedral angle reported in the literature for the bulk phase, a rh = 90.37º, 8 2f= a rh -90º) = 0.74º. Unit-cell high steps typical for a layer-by-layer growth mechanism, also visible in the image, are not affected by the twin structure. For thinner film shown in (a), the AFM surface morphology does not reveal any significant corrugation and only terrace steps were observed.</p><p>Before focusing on our results, we present a short description of the twin geometry in rhombohedral epitaxial films to assist the discussions given below. ). We refer hereafter to these angles as 2f┴ and 2f║, respectively (f┴ and f║are the out-of-plane and in-plane components of the misfit shear strain). In the rhombohedral structure octahedral tilts about the three cubic &lt;100&gt; basis vectors are identical which results in the constraint that (f┴ = f║). <ref type="bibr" target="#b25">22</ref> Note that the couple B/B' is a (010)-mirror image of the couple A/A', and C/C' and D/D' correspond to 90º rotations of A/A' and B/B', respectively. Fig. <ref type="figure" target="#fig_5">2</ref> shows the thickness evolution of the twin pattern between 1.9 nm and 80 nm as observed by OC-SEM imaging. The image corresponding to the thinner sample of 1.9 nm lacks any signature of twining [see Fig. <ref type="figure" target="#fig_5">2(a)</ref>]. Films thicker than 2.5 nm [see Fig.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2(b)-(f)] show already a clear twin contrast manifested as alternating bright/dark ribbons aligned with the [100] and [010]</head><p>directions. The twin spacing, L/2 (L is the modulation period) increases with thickness from about 10 nm for the 2.5 nm thick 40 film (b) to 60nm in the 80 nm thick film (f). It can be also observed that the two domain wall orientations, (100) and (010), are arranged in colonies forming a patchwork-like mesostructure. The size of these colonies also increases as the films grow thicker. Since orientation contrast in OC-SEM images arises from a combination of channeling effects along atomic columns and coherent back-scattering across crystallographic planes, it is not surprising that the slight tilt between e.g. A and C' domains [cf. Fig. <ref type="figure" target="#fig_0">1(b)</ref>] will not give rise to a large contrast compared to that arising from the misorientation between e.g. domain A and its twin mate A'. This effect generates four main contrast levels, as clearly observed in some experimental images (depending on the orientation of the film relative to the electron beam), particularly that corresponding to the 2.5 nm and 17 nm thick films shown in (b) and (d), respectively. Notably, these results allow us to 55 identify a critical thickness t t ~ 2 -2.5 nm at which twin domains start to nucleate within a non-twinned matrix. Below t t the images present instead a speckled contrast which previous studies suggest to correspond to two epitaxial orientations of a monoclinic phase with its unique axis lying on the interface. <ref type="bibr">18 60</ref> The driving force for the formation of such an interfacial monoclinic phase is likely to be a cooperative effect of charge enrichment and the need to relieve the shear and lattice parameter misfit. <ref type="bibr" target="#b20">18</ref> 65</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diffraction from periodically twinned films</head><p>A detailed evaluation of the structural distortions accompanying the thickness evolution of the twin pattern may be obtained by XRD analysis of the films. As it is known from previous work on 70 LSMO epitaxial films, <ref type="bibr" target="#b26">23</ref> special care must be taken in the interpretation of the profile analysis due to the coexistence of different orientation states arranged in (100)/(010) periodic twin patterns, which generates two contributions in diffraction profiles: (i) A twinning contribution with split Bragg peaks 75 resulting from the coexistence of tilted domains related by a lattice rotation 2f about the [100] and [010] directions, and (ii) satellite fringes arising from the well-defined periodicity of the ±c shear modulation along [100] and [010]. These contributions depend on twin domain modulation periodicity with respect to the 80 X-ray coherence length. In fact, the relative weight of each contribution is thought to vary with film thickness (twin period thereof), the order of the 00L reflection and the width of the twin period distribution. Accordingly, it is observed that thinner films containing smaller twin domains, exhibit an average intense 85 reflection along with nth order satellite peaks provided their size distribution is narrow enough. Conversely, Bragg peak splitting dominates the diffraction patterns of thicker films featuring larger twin domains (or a broader distribution of twin domain sizes). To illustrate the effect of Bragg splitting we will first analyze the 90 reciprocal space of thick films with larger size twin domain structure before unveiling the features of thinner films.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Twin domain arrangement in thick LSMO films</head><p>Fig. <ref type="figure">3</ref>(a) shows reciprocal space measurements of the different 95 H03 reflections (H=0,1,2,3) for a thick LSMO film (t = 475nm) with large size twin domains (&gt; 100 nm lateral size), along with a description of the expected arrangement in the reciprocal space of symmetric 003 and asymmetric 303 reflections for A/A' twin domains (b). The splitting angles DQ i = f i =2(a i -90˚), along the 100 unit cell basis vectors i = 1, 2, 3 provide a direct measure of the shear strain state as schematically shown in the inset. The relation between the in-plane and out-of-plane components of the shear strain referred to above and f i is as follows: f 3 = f║, and f 1 and f 2 correspond to f┴ components associated with (100) and (010) 105 twin planes, respectively. In the experimental maps the 003 reflection shows three film reflections at the same Q z = 0.597 rlu, one central at Q x =0 rlu and two split in Q x = ±0.0085 rlu. The 103, 203 and 303 reflections show the same two split reflections at the same Q z value than previous one. The magnitude of Q x 110 splitting is the same for all them and is perfectly centered in the Q x position of their corresponding STO substrate H03 reflection (at Q z value = 0.591 rlu). However, the central reflection, at the same Q x of the substrate is progressively split in Q z proportional to the H value. This observation is consistent with the twin 115 scheme depicted in Fig. <ref type="figure">3(b)</ref>. As previously described in Fig. <ref type="figure" target="#fig_0">1(c</ref>) the c* LSMO directions corresponding to the A and A' domains are tilted away from the [001]* STO axis in opposite directions within the (010) plane, while their a* vectors remain parallel. This makes symmetric 00L reflections to split in two components one for each domain, as observed in the maps. The same occurs for any H0L reflection and the magnitude of the splitting in Q x is the same for any H value (and increases with L) because is basically related to f 2 (rotation in the (010) plane perpendicular to b*).</p><p>Similarly, their corresponding 0KL reflections are split in Q x , but also shifted in Q z because of the shear angle f 1 (rotation in the 10 (100) plane perpendicular to a*). In this case both A and A' domains are shifted in the same Q z direction. The magnitude of the Q z shift is proportional to K value and sign, and is related to f f (see inset in Fig. <ref type="figure">3</ref>). Their corresponding splitting in Q x is also dependent on the K value, being coincident at K=-3 (common 0-33 reflection for A and A' domains). The combination of the four sets of twin domains (A, B, C, D), with even probability, defines six different H0L / 0KL reflections with splitting along Q x , Q y and Q z , like the one depicted in the right panel in Fig. <ref type="figure">3</ref>(b), being their Q x splitting dependent only on L, and their Q z dependent on K 20 value, while the Q y splitting depends both in K and L values. Note that the particular optics of the X-ray diffractometer used in these measurements does not provide sufficient resolution along Q y (Cu tube long fine focus source with axial beam divergence only controlled by Soller slits). Therefore, the experimental maps contain a projection of the reflections split in Q y . This makes the projection of the H03 reflections to appear as four spots in the maps (only three in the 003 map).</p><p>Temperature dependence of the twined structure 30   In order to ascertain whether twin domains form during film growth or during the cooling step, Fig. <ref type="figure">4(a)</ref> shows examples of three reciprocal space maps corresponding to a 120 nm thick film obtained at 26ºC, 400ºC and 800ºC around the 003 reflection illustrating the progressive reduction of the splitting. The temperature dependence of the twin angle up to 800ºC is depicted in Fig. <ref type="figure">4(b)</ref>. Extrapolation to the film deposition temperature, 900ºC, gives 0.01º which, in contrast with previous reports, <ref type="bibr" target="#b27">24</ref> indicates that, within experimental accuracy, the films grow with negligible shear distortion. Moreover, a determination of lattice 40 parameters indicated that at 800ºC the films still exhibit a clear tetragonal distortion: c = 3.908 Å and a = 3.937 Å, which comes from the expitaxial strain. The extrapolation to the growth temperature indicate still a large degree of tetragonal distortion. Therefore ferroelastic domains develop during cooling within an elastically strained state imposed by the cubic substrate. Hence, the selection of only those twin planes perpendicular to the substrate does not allow for the complete relaxation of the 3D shear strain state associated with the development of rhombohedral phase. Consequently residual shear strains are expected to build up within the films, as will be analyzed in detail in section C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dependence of diffraction features on film thickness</head><p>The dependence of the relative weight of each contribution on The periodicity of the modulated structure is calculated from DQ x to be L ~ 66 nm. For film thicknesses 25 nm (see Fig. <ref type="figure">5d</ref>) only a weak shoulder could be observed at both sides of the central zeroorder peak as a result of the inherent peak broadening, although 90 still an approximate value of L ~ 60 nm was extracted in agreement with direct OC-SEM observations. Generally, information about the domain tilt below 38 nm is obscured by the domain size contribution. However, exceptionally in some thinner samples the splitting was associated to Bragg 95 contribution, rather than to their domain size, very likely because of a broader distribution of domain sizes blurring the satellite appearance. For the film with thickness of 9 nm no diffuse signal was observed for this type of measurement (Fig. <ref type="figure">5e</ref>), therefore, neither twin tilt angle nor twin spacing could be extracted.</p><note type="other">100</note><p>In order to contrast our experimental results with theory, a kinematical two-beam approximation was used to simulate diffraction patterns as function of the lateral period of the twinned structure, L. <ref type="bibr" target="#b28">25</ref> The simulation was performed for an ideal 2D twinned crystal model in Q x Q z space with a constant 105 rhombohedral shear angle of 0.5º and a constant vertical component of the diffraction vector. A quasiperiodic sequence of symmetric triangular waves with constant angle and variable period was used to displace atom positions in the z direction (perpendicular to the film) from the perfect cubic configuration. 110 Fig. <ref type="figure">6</ref> shows intensity maps obtained from simulated Q x scans for the different 00L (L=1, 2 and 3) reflections. As experimentally observed, when the twin modulation is smaller than a certain value (L &lt; 30 nm) the XRD patterns show a central peak along with nth order satellites dominated by the modulation 115 contribution (same splitting for any 00L), while the larger the domains (L &gt; 100 nm) the more dominant the pattern exhibiting only two tilted Bragg domains (splitting increasing with 00L). The intermediate region where both contributions may coexist is shifted towards smaller lateral modulation upon increasing the L value. Therefore, there might be a region of lateral modulation values where it is possible to obtain Q x scans with predominant satellites for low L values, whereas they may show dominant Bragg peaks for larger L scans, as experimentally observed in the L-scans in Fig. <ref type="figure">5</ref> (b) for L=146 nm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In-plane diffraction analysis</head><p>Experimentally, by using a Cu tube X-ray source and standard four-angle goniometers it is not possible to obtain any additional information of the twinned structure of very thin films for symmetrical 00L reflections because of the weak signal from the very small analyzed film volume and the small coherence length of the beam in the projected in-plane direction (in relation to the probed correlation length of the sample). To overcome this difficulty we performed XRD scans employing an in-plane diffraction geometry with both grazing incident and diffracted 20 beams. In this geometry the penetration depth in the substrate is substantially reduced, and the signal coming from the outermost surface is enhanced. Besides, the larger coherence length of the beam along its longitudinal direction makes the projected coherence length suitable to probe larger correlated areas in the 25 film. <ref type="bibr" target="#b29">26</ref>  Together, the even population of A/A' and B/B' domains generates a triple peak for all H00 and 0K0 reflections, and four peaks for the HH0 reflections Both 100 and 200 reflections were 40 scanned at F= 0º, whereas 110 area scans were centered at F= 45º. As expected, no significant differences were observed between area scans obtained along equivalent F ± 90º azimuths. For the whole set of samples, average positions of all in-plane reflections appeared centered on the substrate (HK0) positions, which is an indication of the perfect in-plane registry of the film and substrate structures. As in previously described out-of-plane measurements the in-plane XRD configuration revealed different regions depending on film thickness. In the thicker sample (140 nm) both 100 and 200 reflections show clear splitting along the 50 F-axis, giving rise to a triple peak. No variation in the 2q positions is observed for the peaks. At the employed grazing incidence (0.5º), no significant contribution is expected from the STO substrate since penetration depth at this grazing incidence is reduced to a few tenths of nanometers. Both 100 and 200 55 reflections show the same DFsplitting about ±0.53º, which is more than twice the value measured for out-of-plane reflections (±0.23º) in the same film. This indicates that epitaxial LSMO structure deviates from that corresponding to the rhombohedral bulk phase with equal shear angle distortion along any &lt;100&gt; 60 direction. Similarly, for HH0 reflections, the (100) twin plane causes splitting along Q x , whereas the (010) twin plane induces the same splitting along Q y . Altogether, they split in four peaks, as it is observed in the (110) reflection area scan. In this case the peaks show two different values of 2q and F angles. On the other 65 hand, the film with 9.4 nm thickness shows clear 1 st and 2 nd order satellite peaks along F axis. Note that in this case the DF splitting of the 100 reflection is twice that of the (200) one. This is consistent with a splitting due to twin periodicity with common DQ y for any H00 reflection. Satellites up to 2 nd order were also 70 observed associated to the 110 reflection giving rise to a symmetric crossed "X" pattern. A twin periodicity of L=38.9 nm was extracted for this sample, while no traces of twin periodicity could be detected in corresponding out-of-plane measurements. The arrangement of satellite reflections coming from the twin 75 size periodicity is also depicted in the scheme in Fig. <ref type="figure" target="#fig_2">7(b)</ref>. Films with intermediate thickness between 140 and 9.4 nm show more complex patterns which combine both contributions. Still for some samples it was possible to extract twin angles from the more intense 200 reflection. Thinner films with 3.4 and 2.5 nm 80 still show weak satellite peaks associated to the intense 200 and 110 reflections, and values for twin periodicity of 25.6 and 25.4 nm were extracted for both samples, respectively. The thinnest sample of 1.9 nm did not show any evidence of twin periodicity, in agreement with OC-SEM images (Fig. <ref type="figure" target="#fig_5">2a</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>85</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interfacial layer, evolution of the shear strain and twin domain period</head><p>According to linear elasticity, the total elastic energy of the film 90 can be written as the sum of the shear and lattice parameter misfit contributions: E = E(c) + E(e), where: 27 E(c ) = (1/2)Gc 2 t and E(c) = 2[(1+n)/(1-n)]Gc 2 t, E being defined as the energy per unit interface area, n ~ 0.33 the Poisson's ratio (see below) and G ~ 68.2 GPa is the shear modulus. <ref type="bibr" target="#b31">28</ref> This yields elastic energies per 95 unit film thickness E(c)/t ≈ 1.4 MPa and E(e)/t ≈ 10 MPa, i.e., despite the close similarity between the normal and shear strains, the energetic contribution of the latter one is significantly larger. Current models assume that E(c) and E(e) are cancelled independently by twinning on (100) and (010) planes 100 perpendicular to the substrate and a square grid of misfit dislocations, respectively. On this basis, theory predicts that there is no theoretical critical thickness for twin formation, i.e., E(c c is expected to be relieved from the initial growth stages, <ref type="bibr" target="#b10">9</ref> while the e contribution should be totally relaxed at a critical 105 thickness of ~10nm, <ref type="bibr" target="#b32">29</ref> in strong contrast with this investigation and previous reports . <ref type="bibr" target="#b33">30</ref> Deviations from theory predictions arise from the fact that the deformation behavior of a perovskite-type ABO 3 octahedral framework does not necessarily follow linear elasticity, but may be strongly affected by the interplay of 110 electronic and octahedral-tilting degrees of freedom. <ref type="bibr" target="#b20">18</ref> governing the relative strength between the B -O -B bond angles bridging adjacent octahedra and the B -O bonds forming the octahedra. <ref type="bibr" target="#b35">31</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thickness dependence of the shear strain 115</head><p>The thickness evolution of the in-plane (f║) and out-of-plane (f┴) shear angles is shown in Fig. <ref type="figure">8</ref>. It can be seen that both values tend to converge at ~ 10 nm. Above this thickness the divergence between the main components of the shear strain indicates that the average structure departs again from the rhombohedral symmetry. This is a rather surprising result as it indicates that strictly speaking the canonical rhombohedral phase is only stable in a narrow range of film thickness and in a fully strained state. According to the analysis of geometrical relations in rhombohedral perovskites by Megaw and Darlington, <ref type="bibr" target="#b36">32</ref> to a first approximation the shear components are related to the in-10 plane (a) and out-of-plane (g) octahedral tilt angles as f║~ (1/3)g 2 and f┴ ~ (1/3)a 2 , respectively. 33 Therefore, the observed divergence between the main shear strain components in fact reflects a perturbation of the octahedral tilt pattern as illustrated by octahedral models included in Fig. <ref type="figure">8</ref>, with an increase in the octahedral rotation angle g upon thickness increase while a,b octahedral rotation angles are reduced. It is interesting to note that according to a half-loop nucleation mechanism <ref type="bibr" target="#b13">12</ref> the critical thickness for misfit strain relaxation is calculated to be ~ 10 nm, <ref type="bibr" target="#b32">29</ref> i.e., the thickness at which the 20 elastically strained rhombohedral phase is stabilized. Thus, the fact that the perturbation of the octahedral framework appears at a film thickness at which the stored elastic energy equals the energy associated with the formation of misfit dislocations, strongly points that the driving force for the modification of the octahedral tilt pattern is the need to relax the elastic energy stored in the tensilely strained rhombohedral phase. In this thickness regime, the films grow far from the interface and therefore one can expect that these distortions are not influenced by substratefilm electronic interactions. Hence, upon relieving the elastic energy stored in Mn -O bonds, the MnO 6 octahedra very likely evolve to a rigid unit behavior. Since on a pure rigid octahedra basis, the in-plane lattice parameter is determined by octahedral tilts a and g , as a = a 0 cosacosg, 34 the trajectory followed by f║and f┴ reflects a combined octahedral tilting mechanism whereby the elastic strain of the equatorial octahedral Mn -O bonds is relaxed while simultaneously keeping the in-plane lattice parameters fully matched with those of the substrate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thickness dependence of the twin domain period</head><p>40 Fig. <ref type="figure">9</ref> presents the twin size (L/2) dependence on t 1/2 as derived from direct inspection of OC-SEM images and from the twin modulation satellites obtained from rsm's. The plot shows that L/2 increases as the square root of the film thickness, t 1/2 . This behavior is consistent with predictions from thermodynamic modeling of ferroelastic domains in epitaxial systems: 10 L/2 = (kD t t) 1/2 , where k is a numerical constant, and D t = E W /Ge t 2 is an elastic length-scale parameter, 35 E W , G and e t being the elastic energy density per unit area of the domain wall, the shear modulus and the transformation misfit strain associated to the 50 cubic prototype → ferroelastic phase transition, respectively. Noticing that the elastic strain energy density per unit area stored in a slab of material with thickness d under a strain e t is E W = ½ Ge t 2 d, one finds d = 2D t . The length-scale parameter D t thus corresponds to the half-thickness of an elastically strained slab of 55 material centered on a plane strain source (cf. the twin wall), which those models associate with the domain wall halfthickness. <ref type="bibr">35</ref> For the film -substrate interface, an elastic length-scale parameter with the same form as D has been derived, which 60 determines the film thickness, t t , at which the effect of coherency with the substrate on the development of the twin structure vanishes. <ref type="bibr" target="#b10">9</ref> For t &gt; t t Farag et al. find the expected L/2 ~ t 1/2 dependence with k = 3.84{(1n)/(2n)} 1/2 , while for t &lt; t t , L/2 would exponentially increase as the thickness decreases up to 65 ∞ at the interface. <ref type="bibr" target="#b10">9</ref> For a domain wall energy E W = 3mJ/m 2 one obtains D t ~ 3 nm, 9 similar to our experimentally determined critical thickness for twin nucleation t t ~ 2 nm -2.5 nm. However, despite the similarity between the values obtained for D t and t t , their origin and physical meaning is notably different:</p><note type="other">70</note><p>While the calculation of D t mechanism of the shear strain through a coherency defect approach, <ref type="bibr" target="#b16">14</ref> which allows twin domains to nucleate just ahead from the film-substrate interface with the twin size exponentially decaying down to a minimum equilibrium value at D t , above 75 which the L/2 ~ t 1/2 dependence is established, the observed t t indicates a thickness at which twins nucleate within an nontwinned matrix of reduced symmetry. Thus, twins nucleate as soon as shear strains start to built up as a result of the progressive formation of the rhombohedral phase. The transition between the 80 interfacial monoclinic phase and the rhombohedral one is gradual and strictly the latter does not condense until a thickness of ~ 10 nm in a fully elastically strained state. The structural trajectory up to 10 nm appears governed by the interplay of electronic degrees of freedom. <ref type="bibr" target="#b20">18</ref> Charge enrichment 85 at the interface (see Refs. 18 and 36) induces a dilation of the MnO 6 octahedra (the ionic radius of high-spin Mn 3+ is 0.645 Å vs 0.530 Å for Mn 4+ ), <ref type="bibr" target="#b38">37</ref> and according to phase diagram studies of the La 1-x Sr x MnO 3 solid solution, <ref type="bibr" target="#b39">38</ref> the stabilization of the monoclinic structure, which accommodates both, lattice 90 parameter and shear misfit components, presumably at a lower elastic energy cost than that associated with the rhombohedral phase. Above t t ~ 2 nm -2.5 nm, the electronic energy gained by removing the orbital degeneracy within the Mn 3+/4+ O 6 coordination environment becomes progressively exceeded by the 95 elastic energy opposing a similar expansion of the equatorial Mn -O distances, until the tensilely strained rhombohedral phase condenses at a thickness of ~ 10 nm. However, despite this marked thickness dependence of the film structure, we observe a clear L/2 ~ t 1/2 dependence which suggests that the E W /G ratio is 100 not significantly affected by the observed lattice distortions. Moreover, since the twin structure is formed during cooling, after the growth of the film is completed, it is homogeneously developed within the volume of the films.</p><p>105</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>A detailed analysis of the relative contributions of Bragg splitting (associated to the relative misorientation between coexisting ferroelastic orientational states) and modulation satellites (arising from the periodicity of the modulated twinned structure) as a 110 function of film thickness and diffraction geometry, has been used to investigate the evolution of the shear strain state of epitaxial LSMO/STO films. Contrary to commonly accepted epitaxial growth models, we identify a transient strain state which persists up to the larger thickness explored in this work, 475 nm, 115 more than one order of magnitude larger than the theoretical critical thickness for plastic relaxation by misfit dislocations.</p><p>During the initial growth stages, structural coherence with the substrate is mediated by the formation of a monoclinic form of LSMO which cancels the shear contribution to the misfit strain.</p><p>The vertical extent of this monoclinic interfacial phase sets up a critical thickness for twin formation, t t ~ 2 nm -2.5 nm. This critical thickness has profound implications on the functional performance of the films as ferromagnetic order and metallic behavior are degraded within the monoclinic phase for t &lt; t t . For t &gt; t t the film progressively evolves towards the canonical rhombohedral form of LSMO, which under the present growth conditions is stabilized at a thickness ~ 10nm. Further growth is accompanied by a progressive departure from the rhombohedral symmetry as revealed by the divergent trajectories followed by the in-plane and out-of-plane components of the shear strain. This perturbation of the octahedral framework responds to a mechanism whereby the in-plane lattice parameters remain fully strained at a lower energy penalty than that associated with the formation of a grid of misfit dislocations.</p><p>20 High temperature X-ray diffraction experiments have shown that at 900ºC LSMO nucleates in its cubic phase. Therefore, twin domains (only (100) and (010) ones) develop during the postgrowth cooling step under the constraint of the cubic substrate. For t &gt; t t the twin spacing increases as ~t1/2 , as predicted from equilibrium models based on homogeneous structures, suggesting that the E W /G ratio is not significantly affected by the evolution of the structural distortions of the films. Tel: +34 93 5801853; E-mail: felip@icmab.es c SpLine (BM25), ESRF, Grenoble, France; E-mail: p.ferrerescorihuela@diamond.ac.uk d Instituto de Ciencia de Materiales de Madrid ICMM-CSIC, Madrid, Spain 50 ‡ Footnotes should appear here. These might include comments relevant to but not central to the matter under discussion, limited experimental and spectral data, and crystallographic data.</p><p>This journal is © The Royal Society of Chemistry [year]   equality between the rhombohedral shear components along a, b and c. Thus, a divergence between the shear components constitutes a fingerprint of the inequality between the octahedral tilt components. 34 A. M. Glazer, Acta Cryst. B, 1972, 28, 3384. 35 I. A. Lukyanchuk, A. Schilling, J. M. Gregg, G. Catalan, and J. F.   033A'). The inset illustrates the relation between Bragg splitting and the shear strain components f i along the three main directions. Note that f 3 = f║, and f 1 and f 2 correspond to f┴ components associated with (100) and (010) twin planes, respectively. 65 Fig. 4 (a) Reciprocal space maps of the 003 reflection for a LSMO film of 120 nm measured at different temperatures. For this reflection the observed splitting in Q x is only related to the twin domain tilt angle and decreases with temperature. (b) Twin 70 angles for the different temperatures. 475nm (a), 140 nm (b), 38 nm (c) 25 nm (d) and 9 nm (e). Rocking curves show clear thickness fringes in agreement with their thickness except for the thicker films. H scans show an intense zero-order peak along with satellites. The origin of satellites is discussed in the text. When satellites of different L 80 coincide in their H coordinate the splitting is related to the twin lateral size distribution, and in-plane modulations of L=146, 66 and 60 nm were extracted for (b), (c) and (d), respectively. The thinner film (e) does not show any feature. When H splitting increases with L, as in (a) and (b), the intensity maxima are 85 related to the Bragg reflections with a domain tilt angle a of 0.4º and 0.23º for (a) and (b), respectively. Note that in (b) there is a coexistence of both contributions depending on the 00L reflection. 90 Fig. 6 Intensity maps obtained from simulation of Q x scans of an ideal rhombohedral LSMO film (STO substrate not included) as a function of twin domain periodicity, L, for the three 001, 002 and 003 reflections. For large domain periodicity (L &gt; 100 nm) the Q x scans reveal mainly L-dependent Bragg splitting associated with 95 the imposed 0.5º twin angle. While for small domains (L &lt; 30 nm) the scans show a central peak along with satellites, equivalent for all 00L, coming from the lateral modulation. Note that the region with coexisting contributions depends on the L value. 100 Fig. 7 (a) In-plane 2q-F area scans of 100, 200, and 110 reflections of LSMO epitaxial films of different thicknesses. All scans correspond to 3º span in both 2q and F angles, and were centered in the ideal positions of cubic primitive cell with a = 105 3.905 Å. (b) Scheme of the expected reflections for the in-plane reciprocal space cut and corresponding h00 and hk0 reflections for each of the four non-equivalent twin domains, in the case that there is no contribution of twin size periodicity (clear Bragg peaks appear due to in-plane twin angle) and when twin 110 modulation is dominant (satellites peaks up to 2nd order are depicted). The squared areas correspond to the measured 2q-F area scans. plane (f┴) shear angles as measured from the 200 and 002 reflections, respectively. Octahedral models viewed along [001] (upper scheme) and [-110] (lower scheme) illustrating the effect of octahedral tilting about the c-axis (g) and about the a and baxes (a and b), respectively. The epitaxial relation with the  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure captions</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 (</head><label>1</label><figDesc>c) shows eight non-equivalent twin domain orientations generated by considering the orientational degeneracy of a rhombohedral lattice epitaxially 10 grown on a (001)-oriented cubic substrate with superimposed twining on the (100) and (010) planes. The domains are coupled by a common twin plane as A/A' and B/B' (sharing (100) and a common b-axis parallel to [010] STO , and C/C' and D/D' (sharing (010) and a common a-axis parallel to [100] STO . Fig. 1(d) shows stereographic projections of the unit cell basis &lt;100&gt; vectors and &lt;100&gt;* reciprocal space vectors for each individual domain. As a guide, in the A/A' twin set the epitaxial relation [010] A,A' ║[010] STO , a* A,A' ║ [100] STO , forces the common [001] A,A' direction to be slightly offset from the [001] STO normal 20 direction along the (100) (twin) plane; the corresponding reciprocal space vectors c* A and c* A' (as well as the in-plane b* A and b* A' ones) are split perpendicularly to the twin plane. In the canonical (bulk) rhombohedral LSMO phase, c* A ^ c* A' = b* A ^ b* A' define the twin angle given by 2( rh -90º</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>55film thickness is illustrated in Fig.5. Panels on the left side are high resolution Q z scans (rocking curves) around the 002 reflections and panels on the right side correspond to Q x scans about 00L reflections (L=1,2,3) for films with thicknesses t = 475 nm (a), t = 140 nm (b), t = 38 nm (c) t = 25 nm (d) and t = 9 nm 60 (e). The Q z scans show a narrow STO peak at 2q = 46.5º and a broader LSMO one around 47.0º. The thinner films (38 nm, 25 nm and 9 nm) show clear thickness fringes corresponding to a vertical correlation length in consistency with the thickness values determined from X-ray reflectometry. Horizontal Q x scans 65 of the thicker film of 475 nm (a) show a central peak along with broad lateral peaks exhibiting larger DQ x splitting values as L increases. This is in agreement with the behavior expected for Bragg reflections arising from the tilted twin domains, as described previously, sustaining an (out-of-plane) angle of 2f ┴ = 70 0.8º. However, the film with 146 nm thickness (b) shows narrow 1 st and 2 nd order satellite peaks associated to the (001) reflection, whereas (002) and (003) reflections show broad lateral peaks at increasing distances from the central peak as L increases. The dependence of the Q x coordinate on the order of the reflection is a 75 clear signature of twin splitting, while the appearance of satellite peaks up to 2 nd order at L = 1 reflects the structural modulation along[100]. The spacing between the satellite peaks yields a modulation wavelength which corresponds to a twin period L=146 nm, while the spacing between the broader twinned peaks 80 at L = 2 and L = 3 yield a twin angle of 2f ┴ = 0.46º. For the film with 38 nm thickness (c) we only observed an intense zero-order central reflection along with 1st order satellite peaks. In this case DQ x ~ 0.0011 rlu, is independent of the L values, a clear indication that in this thickness range the structural modulation 85 constitutes the only visible contribution to the diffraction pattern.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 7 (</head><label>7</label><figDesc>schemes shown in Fig. 7(b). Twin domains A/A' sharing (100) planes present common a* direction (same Q x and Q y ) and both contribute to the central reflection along [100], whereas their corresponding b* splits along [010] because of the shear in-plane angle of the rhombohedral distortion (same Q y , two different ±Q x ), see Fig. 7(a). The coexistence of B/B' twin domains with common (010) twin plane gives rise to a double peak along [100]. Together, the even population of A/A' and B/B' domains generates a triple peak for all H00 and 0K0 reflections, and four peaks for the HH0 reflections Both 100 and 200 reflections were</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>18 10</head><label>18</label></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>25 Fig. 1</head><label>251</label><figDesc>Fig. 1 AFM topographic images of 30 nm (a) and 140 nm (b) thick LSMO films. The image in (b) includes a topographic profile along the direction parallel to the steps (arrowed line). (c) Schematics showing the eight possible twin domain orientations 30</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 2</head><label>2</label><figDesc>Fig.2Orientation Contrast (OC)-SEM images corresponding to films with thicknesses of (a) 2 nm, (b) 2.5 nm (c) 7.8 nm, (d) 17 nm, (e) 39 nm and (f) 80 nm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 3 65 Fig. 4</head><label>3654</label><figDesc>Fig. 3 (a) Reciprocal space maps of different H03 reflections (H=0,1,2,3) for a 475 nm thick film with equal probability of biaxial twinning parallel to [100] and [010] directions. Note that splitting along Q z is proportional to H value, while along Q x is constant for all L=3 reflections. (b) Corresponding reconstruction of the reciprocal space. A/A' twin domains (with common (100) twin plane) produces a splitting of their corresponding H0L reflections (only 003 and 303, for simplicity) along Q x (independent of H value), while maintaining Q y and Q z values of the undistorted primitive cell, indicated by the small black spots. Their corresponding 0KL reflections are also split in Q x (not in Q y ) and shifted in Q z proportional to the K value and sign (showing a single common 033 reflection). Alltogether the coexistence of even amounts of the eight A/A', B/B' C/C' and D/D' twin domains define six different H0L reflections split in Q x , Q y and Q z , as shown in the scheme on the right panel (five reflections for 303 because of the coincidence of 033 A and 60</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 5 90 Fig. 6 100 Fig. 7</head><label>59061007</label><figDesc>Fig. 5 High-resolution rocking curves (L scan) around (002) reflection (left) and H scans (right) around 00L (L=1,2,3) LSMO reflections for epitaxial LSMO/STO films of different thickness: 75</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 5 Fig. 9</head><label>859</label><figDesc>Fig. 8 Thickness dependence of the in-plane (f║) and out-of-115</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><figDesc>4020 -4000 -3980 -3960 -3940 -3920 -3900 -3880 -3860Qx*10000(rlu)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="10,84.95,476.71,417.38,195.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="17,88.43,374.95,442.82,163.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="19,135.23,199.15,312.26,284.30" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>This journal is © The Royal Society of Chemistry[year]   </p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>This journal is © The Royal Society of Chemistry [year]Journal Name, [year], [vol], 00-00 | 5</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>This journal is © The Royal Society of Chemistry [year]Journal Name, [year], [vol], 00-00 | 7</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>This journal is © The Royal Society of Chemistry [year]Journal Name, [year], [vol], 00-00 | 9</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements 30</head><p>We thank <rs type="person">J. Bassas</rs> (<rs type="affiliation">SCT, Universitat de Barcelona</rs>) for support in X-ray diffraction experiments and <rs type="person">V. Holý</rs> (<rs type="affiliation">Charles University, Prague</rs>) for his contributions to the simulation of XRD data. This research was supported by <rs type="funder">Spanish MEC</rs> (<rs type="grantNumber">MAT2009-08024</rs> and <rs type="grantNumber">MAT2011-29081</rs>), CONSOLIDER</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_m92nGYu">
+					<idno type="grant-number">MAT2009-08024</idno>
+				</org>
+				<org type="funding" xml:id="_P5Wb46u">
+					<idno type="grant-number">MAT2011-29081</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notes and references</head><p>In contrast with current equilibrium models, we demonstrate the occurrence of a critical thickness, t t ~ 2.0 -2.5 nm, for twin formation in rhombohedral La 0.7 Sr 0.3 MnO 3 epitaxial perovskite films grown on (001)-SrTiO 3 substrates by means of X-ray diffraction analysis and orientation contrast scanning electron microscopy imaging. The absence of twinning below t t is explained by the formation of a monoclinic interfacial phase presumably driven by electronic interactions between film and substrate. Above t t , twin domains develop concomitantly with the build-up of misfit shear strains associated with the formation of the rhombohedral structure. At a thickness ~10 nm, the in-plane and out-of-plane shear strain components exhibit similar values, as imposed by the rhombohedral symmetry. However, upon increasing the film thickness (up to 475 nm), both strain components are found to follow divergent trajectories indicating a progressive perturbation of the octahedral framework, which allows the in-plane lattice parameters to remain fully strained. Despite these structural perturbations, the twin size follows the predicted t 1/2 dependence as for homogeneous films.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">fdata-02-00041-g0001.tif</title>
+		<author>
+			<orgName type="collaboration">FEDER program</orgName>
+		</author>
+		<idno type="DOI">10.3389/fdata.2019.00041.s003</idno>
+		<idno>CSD2007-00041 and CSD2008-00023</idno>
+		<imprint>
+			<date>null</date>
+			<publisher>Frontiers Media SA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CSD2007-00041 and CSD2008-00023), and FEDER program.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">a few words of thanks</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">K</forename></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctv2zjz7b8.3</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Spanish American Women&apos;s Use of the Word</title>
+		<imprint>
+			<publisher>University of Arizona Press</publisher>
+			<date type="published" when="2022-10-18" />
+			<biblScope unit="page" from="ix" to="x" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. K. thanks the Spanish MEC for the financial support through the RyC program.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Domain boundary engineering</title>
+		<author>
+			<persName><forename type="first">Ekhard</forename><surname>Salje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huali</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01411590902936138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phase Transitions</title>
+		<title level="j" type="abbrev">Phase Transitions</title>
+		<idno type="ISSN">0141-1594</idno>
+		<idno type="ISSNe">1029-0338</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="452" to="469" />
+			<date type="published" when="2009-06">2009. 2010</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note>and references therein and references therein</note>
+	<note type="raw_reference">E. Salje and H. L. Zhang, Phase Transit. 2009, 82, 452; and references therein; E. K. H. Salje, Chem. Phys. Chem., 2010, 11, 940 and references therein.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Conduction through 71° Domain Walls in&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;BiFeO&lt;/mml:mi&gt;&lt;mml:mn&gt;3&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:math&gt;Thin Films</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Farokhipoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Noheda</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.107.127601</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<date type="published" when="2011-09-14">2011, 107, 127601</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Farokhipoor and B. Noheda, Phys. Rev. Lett., 2011, 107, 127601.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Domain wall nanoelectronics</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Catalan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Scott</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/revmodphys.84.119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Reviews of Modern Physics</title>
+		<title level="j" type="abbrev">Rev. Mod. Phys.</title>
+		<idno type="ISSN">0034-6861</idno>
+		<idno type="ISSNe">1539-0756</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="119" to="156" />
+			<date type="published" when="2012-02-03">2012</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Catalan, J. Seidel, R. Ramesh and J. F. Scott, Rev. Mod. Phys., 60 2012, 84, 119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Radaelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">8265</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. G. Radaelli et al., Phys. Rev. B, 1997, 56, 8265.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Domain-wall orientations in ferroelastics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sapriel</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.12.5128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0556-2805</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="5128" to="5140" />
+			<date type="published" when="1975-12-01">1975</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Sapriel, Phys. Rev., 1975, 12, 5128.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Twinned microstructure of La&lt;sub&gt;1—&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;Sr&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;MnO&lt;sub&gt;3&lt;/sub&gt;solid solutions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Déchamps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>De Leon Guevara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pinsard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Revcolevschi</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01418610008212044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Magazine A</title>
+		<title level="j" type="abbrev">Philosophical Magazine A</title>
+		<idno type="ISSN">0141-8610</idno>
+		<idno type="ISSNe">1460-6992</idno>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="119" to="127" />
+			<date type="published" when="2000-01">2000</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Déchamps, A. M. de Leon Guevara, L. Pinsard and A. Revskolevschi, Philos. Mag. A, 2000, 80, 119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Orientation of Domain Walls in Twinned Ferroelectric Crystals</title>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Fousek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Václav</forename><surname>Janovec</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1657018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="135" to="142" />
+			<date type="published" when="1969-01-01">1969</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Fousek and V. Janovec, J. Appl. Phys., 1969, 40, 135.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Domain microstructure related to lattice distortion in La1-x Pbx MnO3</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sandiumenge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pinol</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/095008397179363</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Magazine Letters</title>
+		<title level="j" type="abbrev">Philosophical Magazine Letters</title>
+		<idno type="ISSN">0950-0839</idno>
+		<idno type="ISSNe">1362-3036</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="41" to="48" />
+			<date type="published" when="1997-07">1997</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Sandiumenge, S.Piñol and S. Galí, Philos. Mag. Lett., 1997, 76, 41.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Modeling of twinning in epitaxial (001)-oriented La0.67Sr0.33MnO3 thin films</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Farag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bobeth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pompe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Romanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Speck</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1914950</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">113516</biblScope>
+			<date type="published" when="2005-05-26">2005</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Farag, M. Bobeth , W. Pompe, A. E. Romanov, and J. S. Speck, J. Appl. Phys., 2005, 97, 113516.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Ch</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kittel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev</title>
+		<imprint>
+			<biblScope unit="page">965</biblScope>
+			<date type="published" when="1946">1946</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">10 Ch. Kittel, Phys. Rev., 1946, 70, 965.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Equilibrium structure of epitaxial layers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Roytburd</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pssa.2210370141</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physica Status Solidi (a)</title>
+		<title level="j" type="abbrev">Phys. Stat. Sol. (a)</title>
+		<idno type="ISSN">0031-8965</idno>
+		<idno type="ISSNe">1521-396X</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="329" to="339" />
+			<date type="published" when="1976-09-16">1976</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Roytburd, Phys. Status Solidi A, 1976, 37, 329.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Misfit strain and misfit dislocations in lattice mismatched epitaxial layers and other systems</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Harker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Cowley</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01418619708223740</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Magazine A</title>
+		<title level="j" type="abbrev">Philosophical Magazine A</title>
+		<idno type="ISSN">0141-8610</idno>
+		<idno type="ISSNe">1460-6992</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1461" to="1515" />
+			<date type="published" when="1997-06">1997</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. C. Jain, A. H. Harker, and R. A. Cowley, Philos. Mag. A, 1997, 75, 1461.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Domain pattern formation in epitaxial rhombohedral ferroelectric films. II. Interfacial defects and energetics</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Romanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lefevre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Speck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pompe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Streiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Foster</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.366636</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2754" to="2765" />
+			<date type="published" when="1998-03-01" />
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Romanov, M. J. Lefevre, W. Pompe, S. K. Streiffer, and C. M. 75</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Foster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">2754</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foster, J. Appl. Phys., 1998, 83, 2754.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Domain configurations due to multiple misfit relaxation mechanisms in epitaxial ferroelectric thin films. III. Interfacial defects and domain misorientations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Speck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Daykin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Romanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pompe</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.360267</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1696" to="1706" />
+			<date type="published" when="1995-08-01">1995</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. S. Speck, A. C. Daykin, A. Seifert, A. E. Romanov, and W. Pompe, J. Appl. Phys., 1995, 78, 1696.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">High-Temperature Magnetic Insulating Phase in Ultrathin&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;La&lt;/mml:mi&gt;&lt;mml:mn&gt;0.67&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;Sr&lt;/mml:mi&gt;&lt;mml:mn&gt;0.33&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;MnO&lt;/mml:mi&gt;&lt;mml:mn&gt;3&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:math&gt;Films</title>
+		<author>
+			<persName><forename type="first">Hans</forename><surname>Boschker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jaap</forename><surname>Kautz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evert</forename><forename type="middle">P</forename><surname>Houwman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolter</forename><surname>Siemons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dave</forename><forename type="middle">H A</forename><surname>Blank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Huijben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gertjan</forename><surname>Koster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arturas</forename><surname>Vailionis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guus</forename><surname>Rijnders</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.109.157207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">157207</biblScope>
+			<date type="published" when="2012-10-12">2012</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Boschker, J. Kautz, E. P. Houwman, W. Siemons, D. H. A. Blank, M. Huijben, G. Koster, A. Vailionis, and G. Rijnders, Phys. Rev. 80 Lett., 2012, 109, 157207.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Interface Effects in Perovskite Thin Films</title>
+		<author>
+			<persName><forename type="first">Marie-Bernadette</forename><surname>Lepetit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><surname>Mercey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Simon</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.108.087202</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">87202</biblScope>
+			<date type="published" when="2012-02-22">2012</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.-B. Lepetit, B. Mercey, and Ch. Simon, Phys. Rev. Lett., 2012, 108, 087202.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Interfaces in {100} epitaxial heterostructures of perovskite oxides</title>
+		<author>
+			<persName><forename type="first">J-L</forename><surname>Maurice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Imhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Contour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Colliex</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14786430600640460</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Magazine</title>
+		<title level="j" type="abbrev">Philosophical Magazine</title>
+		<idno type="ISSN">1478-6435</idno>
+		<idno type="ISSNe">1478-6443</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="2127" to="2146" />
+			<date type="published" when="2006-05-21">2006</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. L.Maurice, D. Imhoff, J. P. Contour, and C. Colliex, Phil. Mag. A, 2006, 86, 2127.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sandiumenge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Santiso</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Balcells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Konstantinovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roqueta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pomar</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Martínez</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1206.6680v2</idno>
+		<imprint/>
+	</monogr>
+	<note>condmat.mtrl-sci</note>
+	<note type="raw_reference">F. Sandiumenge, J. Santiso, Ll. Balcells, Z. Konstantinovic, J. Roqueta, A. Pomar, and B. Martínez, arXiv:1206.6680v2 [cond- mat.mtrl-sci].</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Erratum: Evidence of Orbital Reconstruction at Interfaces in Ultrathin&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;La&lt;/mml:mi&gt;&lt;mml:mn&gt;0.67&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;Sr&lt;/mml:mi&gt;&lt;mml:mn&gt;0.33&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;MnO&lt;/mml:mi&gt;&lt;mml:mn&gt;3&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:math&gt;Films [Phys. Rev. Lett.&lt;b&gt;100&lt;/b&gt;, 137401 (2008)]</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tebano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aruta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Medaglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Balestrino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Sidorenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">De</forename><surname>Renzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ghiringhelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Braicovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bisogni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Brookes</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.103.079902</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">79902</biblScope>
+			<date type="published" when="2008">2008. 137401. 2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note>Phys. Rev. Lett. E)</note>
+	<note type="raw_reference">A. Tebano, C. Aruta, S. Sanna, P. G. Medaglia, G. Balestrino , A. A. Sidorenko, R. De Renzi, G. Ghiringhelli, L. Braicovich, V. Bisogni 90 and N. B. Brookes, Phys. Rev. Lett., 2008, 100, 137401; and erratum Phys. Rev. Lett., 2009, 103, 079902(E).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Self-organization processes in highly epitaxial La2/3Sr1/3MnO3 thin films grown on SrTiO3 (001) substrates</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Konstantinović</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Santiso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Colson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Forget</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ll</forename><forename type="middle">L</forename><surname>Balcells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Martínez</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3093862</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">63919</biblScope>
+			<date type="published" when="2009-03-15">2009</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Konstantinović, J. Santiso, D. Colson, A. Forget, Ll. Balcells, and B. Martínez, J. Appl. Phys., 2009, 105, 063919.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The application of electron backscatter diffraction and orientation contrast imaging in the SEM to textural problems in rocks</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">J</forename><surname>Prior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><forename type="middle">P</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Brenker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Cheadle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Austin</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gloria</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Peruzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Graham</forename><surname>Potts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steve</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Spiess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nick</forename><forename type="middle">E</forename><surname>Timms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pat</forename><surname>Trimby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lena</forename><surname>Zetterstrom</surname></persName>
+		</author>
+		<idno type="DOI">10.2138/am-1999-11-1204</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Mineralogist</title>
+		<title level="j" type="abbrev">American Mineralogist</title>
+		<idno type="ISSN">0003-004X</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">11-12</biblScope>
+			<biblScope unit="page" from="1741" to="1759" />
+			<date type="published" when="1999-12-01" />
+			<publisher>Mineralogical Society of America</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. J. Prior, A. P. Boyle, F. Brenker, M. C. Cheadle, A. Day, G. 95</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Peruzzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Potts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Spiess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Timms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trimby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Zetterstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Miner</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">1741</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lopez, L. Peruzzo, G. J. Potts, S. Reddy, R. Spiess, N. E. Timms, P. Trimby, J. Wheeler, and L. Zetterstrom, Am. Miner., 1999, 84, 1741.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Domain patterns in epitaxial rhombohedral ferroelectric films. I. Geometry and experiments</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Streiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Romanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lefevre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Speck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pompe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Bai</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.366632</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2742" to="2753" />
+			<date type="published" when="1998-03-01">1998</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. K. Streiffer, C. B. Parker, A. E. Romanov, M. J. Lefevre, L. Zhao, J. S. Speck, W. Pompe, C. M. Foster, and G. R. Bai., J. Appl. Phys., 1998, 83, 2742.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Formation and Thickness Evolution of Periodic Twin Domains in Manganite Films Grown on&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;SrTiO&lt;/mml:mi&gt;&lt;mml:mn&gt;3&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;mml:mo stretchy=&quot;false&quot;&gt;(&lt;/mml:mo&gt;&lt;mml:mn&gt;001&lt;/mml:mn&gt;&lt;mml:mo stretchy=&quot;false&quot;&gt;)&lt;/mml:mo&gt;&lt;/mml:math&gt;Substrates</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Gebhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vigliante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wochner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Razavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-U</forename><surname>Habermeier</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.98.096101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">96101</biblScope>
+			<date type="published" when="2007-02-27">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. Gebhardt, N. V. Kasper, A. Vigliante, P. Wochner, H. Dosch, F. S. Razavi, and H.-U. Habermeier. Phys. Rev. Lett., 2007, 98, 096101.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Rhombohedral LSMO films – a unique case of ferroelastic domain formation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Farag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bobeth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pompe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Romanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Speck</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pssa.200510006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">physica status solidi (a)</title>
+		<title level="j" type="abbrev">Physica Status Solidi (a)</title>
+		<idno type="ISSN">1862-6300</idno>
+		<idno type="ISSNe">1862-6319</idno>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="202" to="R244" />
+			<date type="published" when="2005-02-18">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Farag, M. Bobeth, W. Pompe, A. E. Romanov, and J. S. Speck, phys. stat. sol. (a), 2005, 202, R44.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">X-Ray Scattering by Artificially Lateral Semiconductor Nanostructures</title>
+		<author>
+			<persName><forename type="first">Ullrich</forename><surname>Pietsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Václav</forename><surname>Holý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tilo</forename><surname>Baumbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4757-4050-9_12</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advanced Texts in Physics</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer New York</publisher>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page" from="279" to="316" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. Pietsch, V. Holý and T. Baumbach, High-Resolution X-Ray 105 Scattering: From Thin Films to Lateral Nanostructures (Springer- Verlag, New York, 2004)</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Coherence phenomena in x-ray diffuse scattering on organic multilayers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stömmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pietsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/29/12/034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<title level="j" type="abbrev">J. Phys. D: Appl. Phys.</title>
+		<idno type="ISSN">0022-3727</idno>
+		<idno type="ISSNe">1361-6463</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3161" to="3165" />
+			<date type="published" when="1996-12-14">1996</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Stömmer and U. Pietsch, J. Phys. D: Appl. Phys., 1996, 29, 3161.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Domain Patterns in (111) Oriented Tetragonal Ferroelectric Films</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Romanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vojta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pompe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lefevre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Speck</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(sici)1521-396x(199903)172:1&lt;225::aid-pssa225&gt;3.3.co;2-u</idno>
+	</analytic>
+	<monogr>
+		<title level="j">physica status solidi (a)</title>
+		<title level="j" type="abbrev">phys. stat. sol. (a)</title>
+		<idno type="ISSN">0031-8965</idno>
+		<idno type="ISSNe">1521-396X</idno>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="225" to="253" />
+			<date type="published" when="1999-03">1999</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. E. Romanov, A. Vojta, W. Pompe, M. J. Lefevre, J. S. Speck, phys. stat. sol. (a), 1999, 172, 225.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Darling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Migliori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Moshopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stuart</forename><forename type="middle">A</forename><surname>Trugman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Neumeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sarrao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">5093</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. W. Darling, A. Migliori, E. G. Moshopoulou, Stuart A. Trugman, J. J. Neumeier, J. L. Sarrao, A. R. Bishop, and J. D. Thompson, Phys. Rev. B, 1998, 57, 5093.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Strain Relaxation of Self-nanostructured Solution Derived La&lt;sub&gt;0.7&lt;/sub&gt;Sr&lt;sub&gt;0.3&lt;/sub&gt;MnO&lt;sub&gt;3&lt;/sub&gt; Films</title>
+		<author>
+			<persName><forename type="first">Patricia</forename><surname>Abellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandiumenge</forename><surname>Felip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cesar</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Jose</forename><surname>Casanove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Teresa</forename><surname>Puig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xavier</forename><surname>Obradors</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/proc-1174-v04-12</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Proceedings</title>
+		<title level="j" type="abbrev">MRS Proc.</title>
+		<idno type="ISSN">0272-9172</idno>
+		<idno type="ISSNe">1946-4274</idno>
+		<imprint>
+			<biblScope unit="volume">1174</biblScope>
+			<biblScope unit="page" from="1174" to="V1174" />
+			<date type="published" when="2009">2009</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Abellán, F. Sandiumenge, C. Moreno, M. -J. Casanove, T. Puig and X. Obradors, MRS Proceedings, 2009, 1174 , 1174-V04-12. In 115 Ref. 27 an erroneous estimation of the critical thickness for plastic relaxation of ~ 50 nm is given. Those authors mistook the equilibrium dislocation spacing for complete relaxation for the critical thickness.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Strain relaxation in the epitaxy of La&lt;sub&gt;2/3&lt;/sub&gt;Sr&lt;sub&gt;1/3&lt;/sub&gt;MnO&lt;sub&gt;3&lt;/sub&gt;grown by pulsed-laser deposition on SrTiO&lt;sub&gt;3&lt;/sub&gt;(001)</title>
+		<author>
+			<persName><forename type="first">J-L</forename><surname>Maurice††</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pailloux‡‡</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barthélémy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Imhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lyonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rocher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Contour</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14786430310001603436</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Magazine</title>
+		<title level="j" type="abbrev">Philosophical Magazine</title>
+		<idno type="ISSN">1478-6435</idno>
+		<idno type="ISSNe">1478-6443</idno>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="3201" to="3224" />
+			<date type="published" when="2003-10" />
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-L. Maurice, F. Pailloux, A. Barthélémy, O. Durand, D. Imhoff, R.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lyonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Rocher</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Contour</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Mag. A</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">3201</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lyonnet, A. Rocher and J.-P. Contour, Philos. Mag. A, 2003, 83, 3201.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Distortions of framework structures</title>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">T</forename><surname>Dove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manoj</forename><surname>Gambhir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenton</forename><forename type="middle">D</forename><surname>Hammonds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Volker</forename><surname>Heine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandra</forename><forename type="middle">K A</forename><surname>Pryde</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01411599608242398</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phase Transitions</title>
+		<title level="j" type="abbrev">Phase Transitions</title>
+		<idno type="ISSN">0141-1594</idno>
+		<idno type="ISSNe">1029-0338</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="121" to="143" />
+			<date type="published" when="1996-08-15">1996</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. T. Dove, M. Gambhir, K. D. Hammonds, and A. K. A. Pryde, Phase Transitions, 1996, 58, 121.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Geometrical and structural relations in the rhombohedral perovskites</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Megaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N W</forename><surname>Darlington</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0567739475000332</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section A</title>
+		<title level="j" type="abbrev">Acta Cryst A</title>
+		<idno type="ISSN">0567-7394</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="161" to="173" />
+			<date type="published" when="2009">2009</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note>w, about the [111] direction. 32 This is a direct consequence of the Scott</note>
+	<note type="raw_reference">H. D. Megaw and C. N. W. Darlington, Acta Cryst. A, 1975, 31, 161. 125 33 In the pseudocubic representation of the rhombohedral structure the octahedral tilt components about the a, b and c axes, obey a=b=g, and octahedral tilts can be represented by a unique rotation angle, w, about the [111] direction. 32 This is a direct consequence of the Scott, Phys. Rev. B, 2009, 79, 144111.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Mn Valency at La&lt;sub&gt;0.7&lt;/sub&gt;Sr&lt;sub&gt;0.3&lt;/sub&gt;MnO&lt;sub&gt;3&lt;/sub&gt;/SrTiO&lt;sub&gt;3&lt;/sub&gt; (0 0 1) Thin Film Interfaces</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Riedl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Gemming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathrin</forename><surname>Dörr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martina</forename><surname>Luysberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Wetzig</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s1431927609090229</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microscopy and Microanalysis</title>
+		<title level="j" type="abbrev">Microsc Microanal</title>
+		<idno type="ISSN">1431-9276</idno>
+		<idno type="ISSNe">1435-8115</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="213" to="221" />
+			<date type="published" when="2009-05-22">2009. 213. 2010</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note>Phys. Rev. Lett.</note>
+	<note type="raw_reference">T. Riedl, T. Gemming, K. Dörr, M. Luysberg, and K. Wetzig, Microsc. Microanal., 2009, 15, 213; J.-S. Lee, D. A. Arena, P. Yu, C. S. Nelson, R. Fan, C. J. Kinane, S. Langridge, M. D. Rossell, R. Ramesh, and C.-C. Kao, Phys. Rev. Lett., 2010, 105, 257204. 10</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Revised effective ionic radii and systematic studies of interatomic distances in halides and chalcogenides</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Shannon</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0567739476001551</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section A</title>
+		<title level="j" type="abbrev">Acta Cryst A</title>
+		<idno type="ISSN">0567-7394</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="751" to="767" />
+			<date type="published" when="1976-09-01">1976</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. D. Shannon, Acta Cryst. A, 1976, 32, 751.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Layered CMR Manganites: Structure, Properties, and Unconventional Magnetism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Argyriou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Jorgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Hinks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bader</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/proc-453-343</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Proceedings</title>
+		<title level="j" type="abbrev">MRS Proc.</title>
+		<idno type="ISSN">0272-9172</idno>
+		<idno type="ISSNe">1946-4274</idno>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="page">6172</biblScope>
+			<date type="published" when="1996">1996</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. F. Mitchell, D. N. Argyriou, C. D. Potter, D. G. Hinks, J. D. Jorgensen, and S. D. Bader, Phys. Rev. B, 1996, 54, 6172.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

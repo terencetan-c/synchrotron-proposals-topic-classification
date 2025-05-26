@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Iron localisation and speciation in the parasite Toxoplasma gondii</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-09-05">05/09/2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Hiram</forename><surname>Castillo</surname></persName>
+							<email>hiram.castillo_michel@esrf.fr</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Glasgow</orgName>
+								<orgName type="institution" key="instit2">University of Glasgow</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Clare</forename><surname>Harding</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Glasgow</orgName>
+								<orgName type="institution" key="instit2">University of Glasgow</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dana</forename><surname>Aghabi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Glasgow</orgName>
+								<orgName type="institution" key="instit2">University of Glasgow</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Iron localisation and speciation in the parasite Toxoplasma gondii</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-09-05">05/09/2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">098E1D1A9BAAC1920DB3630C8CFDBDA7</idno>
+					<note type="submission">from: 28/03/2023 to: 01/04/2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>LS-3200</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction and Aims</head><p>Toxoplasma gondii is an obligate intracellular apicomplexan parasite that can infect all warm-blooded species. Infection is of significant clinical and veterinary relevance worldwide, having both economic and public health consequences. Toxoplasma is arguably the most successful pathogen in the world, infecting 30% of the population worldwide. In immunocompetent individuals, infection is asymptomatic, however, the disease is dangerous in immunocompromised individuals and to the developing foetus, resulting in congenital defects or miscarriages.</p><p>Iron is an essential nutrient for almost all organisms. Iron acquisition systems of many bacteria are important for pathogenesis <ref type="bibr" target="#b8">8,</ref><ref type="bibr" target="#b17">17</ref> . Moreover, the virulence of several parasites is modulated by host iron levels. For example, low iron due to anaemia can reduce the severity of malaria <ref type="bibr" target="#b3">3</ref> . Iron is an essential nutrient for the survival of T. gondii, as haem and iron-sulphur biosynthesis pathways are essential <ref type="bibr" target="#b4">4</ref> , strongly suggesting the importance of iron in T. gondii's metabolism. Moreover, depletion of iron using iron chelators has been shown to restrict parasite replication of both Toxoplasma in vitro and in vivo <ref type="bibr">5,</ref><ref type="bibr" target="#b6">6,</ref><ref type="bibr" target="#b7">7,</ref><ref type="bibr" target="#b11">11,</ref><ref type="bibr" target="#b12">12</ref> .</p><p>Toxoplasma must acquire iron from the host cell it is infecting. However, the mechanisms of iron uptake, as well as subcellular transport of iron have not been previously studied in Toxoplasma gondii. We have recently shown that an iron transporter (VIT) is required for iron storage in Toxoplasma, disruption of this transporter makes the cells hypersensitive to excess iron and prevents virulence of the parasite 1 . However, although iron uptake and storage are required for Toxoplasma, the mechanism of iron uptake remains unknown. Previous studies in the related eukaryotic parasite, Plasmodium, identified a transporter, named ZIPCO which is believed to be involved in the uptake of iron <ref type="bibr" target="#b14">14</ref> . ZIPCO contains an eight transmembrane domains and belongs to the ZIP protein family, which has been linked to the transport of iron, and possibly zinc. Toxoplasma gondii has a homologue of this gene, and is predicted to be essential <ref type="bibr" target="#b16">16</ref> and to localise to the plasma membrane of the parasites <ref type="bibr" target="#b19">19</ref> . However, the role of ZIPCO has not yet been investigated T. gondii.</p><p>As ZIPCO is predicted to be essential for parasite survival, we have generated a cell line which allows for inducible knockdown of this major iron transporter. We also generated a parasite cell line which overexpresses this transporter (unpublished results). However, much remains unknown about how the parasite acquires iron and transports it. The proposal therefore aimed at mapping the localisation of iron in wildtype parasites as well as our transporter mutants at a subcellular resolution. We also aimed at determining the speciation of iron within the wildtype parasite as well as the effect of the mutant iron transporter on the distribution of iron.</p><p>Although parasite host modulation in the context of iron is not well studied in T. gondii, infection of macrophages by the intravacuolar parasite Leishmania impairs macrophage iron homeostasis. Intracellular Leishmania donovani manipulate iron uptake mechanisms by macrophages by directly scavenge iron from the labile iron pool (LIP) of macrophages, enabling the parasite to utilize it for it's intracellular growth <ref type="bibr" target="#b18">18</ref> . Leishmania amazonesis has been shown to increase the LIP by downregulating ferroporti <ref type="bibr" target="#b18">18</ref> . Studies have also previously shown that host cell LIP is upregulated following Plasmodium infection 2 . In contrast, infection of macrophages with the intervacuolar bacterium Salmonella typhimurium, led to upregulation of ferroportin <ref type="bibr" target="#b11">11</ref> , reducing the LIP and preventing bacterial growth <ref type="bibr" target="#b9">9</ref> . Many bacteria and eukaryotic pathogens acquire iron from the host in the form of transferrin <ref type="bibr" target="#b13">13</ref> . Overexpressing transferrin receptor (TfR1) has been shown to increase the LIP <ref type="bibr" target="#b15">15</ref> . Studies have previously shown that TfR1 expression is upregulated in cells infected with Toxoplasma gondii. Moreover, host cell LIP has also been shown to increase following Plasmodium infection 2 . Furthermore, the bacterial pathogen Francisella tularenis causes an upregulation of TFR1, which increases the macrophage LIP and is critical for its survival and intracellular proliferation. In contrast, Salmonella typhimurium does not require TFR1 expression for successful intracellular survival and Salmonella-infected macrophages maintain their LIP at normal levels <ref type="bibr" target="#b10">10</ref> . These data suggest that intracellular pathogens modulate host iron in distinct ways. Our work in the lab has found that infection leads to changes in iron acquisition proteins in host macrophages (unpublished results). However, little is known about how Toxoplasma modulates iron in the host cell. The proposal therefore also aimed at mapping iron in infected and uninfected macrophages in order to examine changes in iron quantity and/or distribution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental Techniques</head><p>We requested 12 shifts on ID21 to analyse 10 samples. The samples were the following:</p><p>• Uninfected Bone Marrow Derived Macrophage's (BMDMs)</p><p>• BMDMs infected with wildtype T. gondii • BMDMs infected with T.gondii overexpressing the major iron transporter ZIPCO • Uninfected RAW murine macrophages 24h • RAW murine macrophages infected with wildtype T. gondii • Extracellular wildtype T. gondii • Extracellular wildtype T. gondii pretreated with ferric ammonium citrate • Extracellular T. gondii overexpressing the major iron transporter ZIPCO • T. gondii where the major iron transporter has not been knocked down • T. gondii where the major iron transporte, ZIPCO, has been knocked down</p><p>For each sample we aimed to obtain one coarse map at 2 x 2 µm, 1 fine map at 300 nm resolution (approx. 3 h) and then about 100 scans for XANES (approx. 2 h) on selected samples. In infected cells, XANES were taken from the background, intracellular parasites, extracellular parasites as well as the host cell. This aimed to give us the resolution needed to map our element of interest (primarily iron) at a subcellular resolution, and to determine the valence of iron, in both infected host cells and in the parasite.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>We successfully obtained approx. 800 XANES spectra, across all samples (including background scans). We also obtained 213 MAPS (at various resolutions). At the highest resolution we are able to localise iron within the parasite (Fig. <ref type="figure">1A</ref>) and to distinguish parasites inside host cells (Fig. <ref type="figure">1B</ref>) and see the localisation of iron within these cells.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1 .Iron localisation in extracellular parasites (A) and infected macrophage (B). Scale bar 5 uM</head><p>Using our transporter mutant, we were able to quantify iron from parasites and demonstrate for the first time that depletion of ZIPCO lead to undetectable levels of iron within the parasites (Fig. <ref type="figure" target="#fig_0">2A</ref>). We quantified this, and found that parasites which lack the iron transporter have no detectable iron levels, while wildtype parasites contain approximately 200 pM iron (Fig. <ref type="figure" target="#fig_0">2B</ref>).</p><p>We were also successful in examining the valence of iron within the parasite. Although more detailed analysis will be performed, we can see that parasite spectra cluster more closely with Fe-oxalate than the Fe-foil standard on a PCA plot (Fig. <ref type="figure" target="#fig_1">3</ref>).  We can see more detail that parasites lacking iron cluster apart from wildtype parasites and parasites treated with excess iron. (Fig. <ref type="figure" target="#fig_3">4</ref>).</p><p>The valence of parasite iron is also clearly distinct from host cell iron stores (Fig. <ref type="figure" target="#fig_2">5</ref>). This matches with predictions made from the parasite genomes, including the lack of ability of parasites to store iron within Fe 3+ ferritin cages.</p><p>We also find that although BMDMs infected with wildtype T. gondii (red) cluster close together with uninfected BMDMs (green), BMDMs infected with parasites that overexpress the major iron transporter ZIPCO (blue), cluster distinctly to BMDMs uninfected/infected with wildtype Toxoplasma (Fig. <ref type="figure">6</ref>)</p><p>Figure <ref type="figure">6</ref>: Principal component analysis (PCA) plot demonstrating that BMDMs infected with parasites that overexpress the major iron transporter ZIPCO (blue), cluster distinctly from uninfected BMDMs (green) and BMDMs infected with wildtype Toxoplasma (red), who overlap.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions and Significance</head><p>In conclusion, the main findings of this study supports that T. gondii acquires iron through the action of the ZIPCO transporter. For the first time, we show that in the absence of ZIPCO, Toxoplasma have significantly less iron compared to wildtype parasites. We also find that parasites that were pretreated with iron, cluster distinctly from wildtype parasites. There was also a clear difference in clustering between BMDMs that were infected with wildtype parasites and BMDMs that were infected with T. gondii that overexpressed ZIPCO, suggesting that parasites that overexpress this iron transporter may be playing a role in modulating the host cell iron following infection. Further analysis on this data is required to understand the mechanisms of parasite host modulation in the context of iron in more detail.</p><p>The results obtained from this proposed study are very important and central to apicomplexan metal biology. It is currently not known how the parasite takes up iron and how it modules the host cell iron following infection. The results obtained from our first visit to the ESRF in 2022 allow us, for the first time, to start to understand the mechanisms by which T. gondii acquires iron from the host, and how the parasite modulates iron in the host cell at a subcellular resolution. As iron is critical for both the parasite as well as the immune response, it is important to understanding this battle for this essential metal. Further understanding this has the potential to suggest novel strategies for the control of these parasites.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Depletion of the proposed iron transporter leads to undetectable levels of iron within the parasites. Each points represents a single parasite. Scale bar 5 uM.</figDesc><graphic coords="4,34.00,407.12,295.65,171.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. PCA plot of various parasite samples and Fe-foil and Fe-oxalate standard controls showing parasite spectra (in blue and red) clustering more closely with Fe-oxalate (orange) than the Fe-foil standard (green).</figDesc><graphic coords="4,91.30,629.76,206.05,170.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Normalised XANES spectra of host (blue), parasite (red) and control spectra (green and orange).</figDesc><graphic coords="5,62.60,346.37,249.65,175.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. PCA plot of various parasite samples showing clear distinction between parasites without iron (blue), normal parasites (red and green) and parasites treated with excess iron (orange).</figDesc><graphic coords="5,69.30,83.55,243.15,195.10" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Voltage References</title>
+		<author>
+			<persName><surname>References</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/9780470547038.ch3</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Voltage References</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">References</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The vacuolar iron transporter mediates iron detoxification in Toxoplasma gondii</title>
+		<author>
+			<persName><forename type="first">Dana</forename><surname>Aghabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Megan</forename><surname>Sloan</surname></persName>
+			<idno type="ORCID">0000-0001-7659-4069</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Grace</forename><surname>Gill</surname></persName>
+			<idno type="ORCID">0009-0006-6237-5563</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Elena</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olga</forename><surname>Antipova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhicheng</forename><surname>Dou</surname></persName>
+			<idno type="ORCID">0000-0003-1887-1181</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Alfredo</forename><forename type="middle">J</forename><surname>Guerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vern</forename><forename type="middle">B</forename><surname>Carruthers</surname></persName>
+			<idno type="ORCID">0000-0001-6859-8895</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Clare</forename><forename type="middle">R</forename><surname>Harding</surname></persName>
+			<idno type="ORCID">0000-0002-8428-0374</idno>
+		</author>
+		<idno type="DOI">10.1038/s41467-023-39436-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2023-06-20">2023</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aghabi, D. et al. (2023) &apos;The vacuolar iron transporter mediates iron detoxification in Toxoplasma gondii&apos;, Nature Communications, 14(1). doi:10.1038/s41467-023-39436-y.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Parasite maturation and host serum iron influence the labile iron pool of erythrocyte stage&lt;i&gt;Plasmodium falciparum&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Martha</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nancy</forename><forename type="middle">C</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raj</forename><surname>Kasthuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carla</forename><surname>Cerami Hand</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/bjh.12234</idno>
+		<ptr target="https://doi.org/10.1111/bjh.12234" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Haematology</title>
+		<title level="j" type="abbrev">Br J Haematol</title>
+		<idno type="ISSN">0007-1048</idno>
+		<idno type="ISSNe">1365-2141</idno>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="262" to="269" />
+			<date type="published" when="2013-02-08">2013</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clark, M., Fisher, N. C., Kasthuri, R., &amp; Cerami Hand, C. (2013). Parasite maturation and host serum iron influence the labile iron pool of erythrocyte stage Plasmodium falciparum. British journal of haematology, 161(2), 262-269. https://doi.org/10.1111/bjh.12234</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Influence of host iron status on Plasmodium falciparum infection</title>
+		<author>
+			<persName><forename type="first">Martha</forename><forename type="middle">A</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Morgan</forename><forename type="middle">M</forename><surname>Goheen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carla</forename><surname>Cerami</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphar.2014.00084</idno>
+		<ptr target="https://doi.org/10.3389/fphar.2014.00084" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Pharmacology</title>
+		<title level="j" type="abbrev">Front. Pharmacol.</title>
+		<idno type="ISSNe">1663-9812</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2014-05-06">2014</date>
+			<publisher>Frontiers Media SA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clark, M., Goheen, M., &amp; Cerami, C. (2014). Influence of host iron status on Plasmodium falciparum infection. Frontiers In Pharmacology, 5. https://doi.org/10.3389/fphar.2014.00084</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Parasites FeS Up: Iron-Sulfur Cluster Biogenesis in Eukaryotic Pathogens</title>
+		<author>
+			<persName><forename type="first">Teegan</forename><forename type="middle">A</forename><surname>Dellibovi-Ragheb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jolyn</forename><forename type="middle">E</forename><surname>Gisselberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sean</forename><forename type="middle">T</forename><surname>Prigge</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1003227</idno>
+		<ptr target="https://doi.org/10.1371/journal.ppat.1003227" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathogens</title>
+		<title level="j" type="abbrev">PLoS Pathog</title>
+		<idno type="ISSNe">1553-7374</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">e1003227</biblScope>
+			<date type="published" when="2013-04-04">2013</date>
+			<publisher>Public Library of Science (PLoS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dellibovi-Ragheb, T., Gisselberg, J., &amp; Prigge, S. (2013). Parasites FeS Up: Iron-Sulfur Cluster Biogenesis in Eukaryotic Pathogens. Plos Pathogens, 9(4), e1003227. https://doi.org/10.1371/journal.ppat.1003227</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Antimalarial Iron Chelator, FBS0701, Shows Asexual and Gametocyte Plasmodium falciparum Activity and Single Oral Dose Cure in a Murine Malaria Model</title>
+		<author>
+			<persName><forename type="first">Patricia</forename><surname>Ferrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abhai</forename><forename type="middle">K</forename><surname>Tripathi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martha</forename><forename type="middle">A</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carla</forename><forename type="middle">Cerami</forename><surname>Hand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hugh</forename><forename type="middle">Young</forename><surname>Rienhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">J</forename><surname>Sullivan</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0037171</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0037171" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<title level="j" type="abbrev">PLoS ONE</title>
+		<idno type="ISSNe">1932-6203</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">e37171</biblScope>
+			<date type="published" when="2012-05-21">2012</date>
+			<publisher>Public Library of Science (PLoS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferrer, P., Tripathi, A., Clark, M., Hand, C., Rienhoff, H., &amp; Sullivan, D. (2012). Antimalarial Iron Chelator, FBS0701, Shows Asexual and Gametocyte Plasmodium falciparum Activity and Single Oral Dose Cure in a Murine Malaria Model. Plos ONE, 7(5), e37171. https://doi.org/10.1371/journal.pone.0037171</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Transferrin receptor induction in Toxoplasma gondii-infected HFF is associated with increased iron-responsive protein 1 activity and is mediated by secreted factors</title>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Gail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uwe</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Bohne</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00436-004-1209-2</idno>
+		<ptr target="https://doi.org/10.1007/s00436-004-1209-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology Research</title>
+		<title level="j" type="abbrev">Parasitol Res</title>
+		<idno type="ISSN">0932-0113</idno>
+		<idno type="ISSNe">1432-1955</idno>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="233" to="239" />
+			<date type="published" when="2004-09-01">2004</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gail, M., Gross, U., &amp; Bohne, W. (2004). Transferrin receptor induction in Toxoplasma gondii-infected HFF is associated with increased iron-responsive protein 1 activity and is mediated by secreted factors. Parasitology Research, 94(3), 233-239. https://doi.org/10.1007/s00436-004-1209-2</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of deferoxamine alone and combined with pyrimethamine on acute toxoplasmosis in mice</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Mahmoud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Egyptian Society of Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="791" to="803" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mahmoud M. S. (1999). Effect of deferoxamine alone and combined with pyrimethamine on acute toxoplasmosis in mice. Journal of the Egyptian Society of Parasitology, 29(3), 791-803.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The struggle for iron - a metal at the host-pathogen interface</title>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Nairz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Schroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Sonnweber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Günter</forename><surname>Weiss</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1462-5822.2010.01529.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1462-5822.2010.01529.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Cellular Microbiology</title>
+		<idno type="ISSN">1462-5814</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1691" to="1702" />
+			<date type="published" when="2010-10-21">2010</date>
+			<publisher>Hindawi Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nairz, M., Schroll, A., Sonnweber, T., &amp; Weiss, G. (2010). The struggle for iron -a metal at the host- pathogen interface. Cellular Microbiology, 12(12), 1691-1702. https://doi.org/10.1111/j.1462- 5822.2010.01529.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The co-ordinated regulation of iron homeostasis in murine macrophages limits the availability of iron for intracellular&lt;i&gt;Salmonella typhimurium&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Nairz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Igor</forename><surname>Theurl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Ludwiczek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Milan</forename><surname>Theurl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabine</forename><forename type="middle">M</forename><surname>Mair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gernot</forename><surname>Fritsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Günter</forename><surname>Weiss</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1462-5822.2007.00942.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1462-5822.2007.00942.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Cellular Microbiology</title>
+		<idno type="ISSN">1462-5814</idno>
+		<idno type="ISSNe">1462-5822</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2126" to="2140" />
+			<date type="published" when="2007-09">2007</date>
+			<publisher>Hindawi Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nairz, M., Theurl, I., Ludwiczek, S., Theurl, M., Mair, S. M., Fritsche, G., &amp; Weiss, G. (2007). The co- ordinated regulation of iron homeostasis in murine macrophages limits the availability of iron for intracellular Salmonella typhimurium. Cellular microbiology, 9(9), 2126-2140. https://doi.org/10.1111/j.1462- 5822.2007.00942.x</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Modulation of iron homeostasis in macrophages by bacterial intracellular pathogens</title>
+		<author>
+			<persName><forename type="first">Xin</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Batcha</forename><surname>Tamilselvam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">J</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Daefler</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2180-10-64</idno>
+		<ptr target="https://doi.org/10.1186/1471-2180-10-64" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiology</title>
+		<title level="j" type="abbrev">BMC Microbiol</title>
+		<idno type="ISSNe">1471-2180</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">64</biblScope>
+			<date type="published" when="2010-02-25">2010</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pan, X., Tamilselvam, B., Hansen, E. J., &amp; Daefler, S. (2010). Modulation of iron homeostasis in macrophages by bacterial intracellular pathogens. BMC microbiology, 10, 64. https://doi.org/10.1186/1471- 2180-10-64</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Host-mediated regulation of superinfection in malaria</title>
+		<author>
+			<persName><forename type="first">Silvia</forename><surname>Portugal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Céline</forename><surname>Carret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Recker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">E</forename><surname>Armitage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lígia</forename><forename type="middle">A</forename><surname>Gonçalves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabrina</forename><surname>Epiphanio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cindy</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><forename type="middle">I</forename><surname>Newbold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hal</forename><surname>Drakesmith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria</forename><forename type="middle">M</forename><surname>Mota</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nm.2368</idno>
+		<ptr target="https://doi.org/10.1038/nm.2368" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Medicine</title>
+		<title level="j" type="abbrev">Nat Med</title>
+		<idno type="ISSN">1078-8956</idno>
+		<idno type="ISSNe">1546-170X</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="732" to="737" />
+			<date type="published" when="2011-05-15">2011</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Portugal, S., Carret, C., Recker, M., Armitage, A., Gonçalves, L., &amp; Epiphanio, S. et al. (2011). Host- mediated regulation of superinfection in malaria. Nature Medicine, 17(6), 732-737. https://doi.org/10.1038/nm.2368</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Plasmodium Falciparum: Inhibition of in Vitro Growth by Desferrioxamine</title>
+		<author>
+			<persName><forename type="first">Carmen</forename><surname>Raventos-Suarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simeon</forename><surname>Pollack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronald</forename><forename type="middle">L</forename><surname>Nagel</surname></persName>
+		</author>
+		<idno type="DOI">10.4269/ajtmh.1982.31.919</idno>
+		<ptr target="https://doi.org/10.4269/ajtmh.1982.31.919" />
+	</analytic>
+	<monogr>
+		<title level="j">The American Journal of Tropical Medicine and Hygiene</title>
+		<idno type="ISSN">0002-9637</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="919" to="922" />
+			<date type="published" when="1982-09">1982</date>
+			<publisher>American Society of Tropical Medicine and Hygiene</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raventos-Suarez, C., Pollack, S., &amp; Nagel, R. (1982). Plasmodium Falciparum: Inhibition of in Vitro Growth by Desferrioxamine. The American Journal Of Tropical Medicine And Hygiene, 31(5), 919-922. https://doi.org/10.4269/ajtmh.1982.31.919</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Transferrin: Endocytosis and Cell Signaling in Parasitic Protozoa</title>
+		<author>
+			<persName><forename type="first">Magda</forename><surname>Reyes-López</surname></persName>
+			<idno type="ORCID">0000-0002-5471-6667</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Carolina</forename><surname>Piña-Vázquez</surname></persName>
+			<idno type="ORCID">0000-0001-5972-8547</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jesús</forename><surname>Serrano-Luna</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2015/641392</idno>
+		<ptr target="https://doi.org/10.1155/2015/641392" />
+	</analytic>
+	<monogr>
+		<title level="j">BioMed Research International</title>
+		<title level="j" type="abbrev">BioMed Research International</title>
+		<idno type="ISSN">2314-6133</idno>
+		<idno type="ISSNe">2314-6141</idno>
+		<imprint>
+			<biblScope unit="volume">2015</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2015">2015. 2015</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reyes-López, M., Piña-Vázquez, C., &amp; Serrano-Luna, J. (2015). Transferrin: Endocytosis and Cell Signaling in Parasitic Protozoa. Biomed Research International, 2015, 1-12. https://doi.org/10.1155/2015/641392</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">&lt;scp&gt;ZIPCO&lt;/scp&gt;, a putative metal ion transporter, is crucial for &lt;i&gt;Plasmodium&lt;/i&gt; liver‐stage development</title>
+		<author>
+			<persName><forename type="first">Tejram</forename><surname>Sahu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bertrand</forename><surname>Boisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Céline</forename><surname>Lacroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuel</forename><surname>Bischoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Quentin</forename><surname>Richier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pauline</forename><surname>Formaglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabine</forename><surname>Thiberge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Irina</forename><surname>Dobrescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Ménard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patricia</forename><surname>Baldacci</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/emmm.201403868</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Molecular Medicine</title>
+		<title level="j" type="abbrev">EMBO Mol Med</title>
+		<idno type="ISSN">1757-4676</idno>
+		<idno type="ISSNe">1757-4684</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1387" to="1397" />
+			<date type="published" when="2014-09-25">2014</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sahu, T., Boisson, B., Lacroix, C., Bischoff, E., Richier, Q., Formaglio, P., Thiberge, S., Dobrescu, I., Ménard, R., &amp; Baldacci, P. (2014). ZIPCO, a putative metal ion transporter, is crucial for Plasmodium liver- stage development. EMBO molecular medicine, 6(11), 1387-1397.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Library of Apicomplexan Metabolic Pathways: a manually curated database for metabolic pathways of apicomplexan parasites</title>
+		<author>
+			<persName><forename type="first">Achchuthan</forename><surname>Shanmugasundram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Faviel</forename><forename type="middle">F</forename><surname>Gonzalez-Galarza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">M</forename><surname>Wastling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olga</forename><surname>Vasieva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">R</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gks1139</idno>
+		<ptr target="https://doi.org/10.1093/nar/gks1139" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<idno type="ISSN">0305-1048</idno>
+		<idno type="ISSNe">1362-4962</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">D1</biblScope>
+			<biblScope unit="page" from="D706" to="D713" />
+			<date type="published" when="2012-11-26">2012</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shanmugasundram, A., Gonzalez-Galarza, F., Wastling, J., Vasieva, O., &amp; Jones, A. (2012). Library of Apicomplexan Metabolic Pathways: a manually curated database for metabolic pathways of apicomplexan parasites. Nucleic Acids Research, 41(D1), D706-D713. https://doi.org/10.1093/nar/gks1139</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A Genome-wide CRISPR Screen in Toxoplasma Identifies Essential Apicomplexan Genes</title>
+		<author>
+			<persName><forename type="first">Saima</forename><forename type="middle">M</forename><surname>Sidik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diego</forename><surname>Huet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Suresh</forename><forename type="middle">M</forename><surname>Ganesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">My-Hang</forename><surname>Huynh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Armiyaw</forename><forename type="middle">S</forename><surname>Nasamu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prathapan</forename><surname>Thiru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeroen</forename><forename type="middle">P J</forename><surname>Saeij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vern</forename><forename type="middle">B</forename><surname>Carruthers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacquin</forename><forename type="middle">C</forename><surname>Niles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Lourido</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2016.08.019</idno>
+		<ptr target="https://doi.org/10.1016/j.cell.2016.08.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<title level="j" type="abbrev">Cell</title>
+		<idno type="ISSN">0092-8674</idno>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1423" to="1435.e12" />
+			<date type="published" when="2016-09">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sidik, S., Huet, D., Ganesan, S., Huynh, M., Wang, T., &amp; Nasamu, A. et al. (2016). A Genome-wide CRISPR Screen in Toxoplasma Identifies Essential Apicomplexan Genes. Cell, 166(6), 1423-1435.e12. https://doi.org/10.1016/j.cell.2016.08.019</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The Battle for Iron between Bacterial Pathogens and Their Vertebrate Hosts</title>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">P</forename><surname>Skaar</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1000949</idno>
+		<ptr target="https://doi.org/10.1371/journal.ppat.1000949" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathogens</title>
+		<title level="j" type="abbrev">PLoS Pathog</title>
+		<idno type="ISSNe">1553-7374</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">e1000949</biblScope>
+			<date type="published" when="2010-08-12">2010</date>
+			<publisher>Public Library of Science (PLoS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Skaar, E. (2010). The Battle for Iron between Bacterial Pathogens and Their Vertebrate Hosts. Plos Pathogens, 6(8), e1000949. https://doi.org/10.1371/journal.ppat.1000949</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Leishmania-Mediated Inhibition of Iron Export Promotes Parasite Replication in Macrophages</title>
+		<author>
+			<persName><forename type="first">Rym</forename><surname>Ben-Othman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">R</forename><surname>Flannery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Danilo</forename><forename type="middle">C</forename><surname>Miguel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diane</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jerry</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Norma</forename><forename type="middle">W</forename><surname>Andrews</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1003901</idno>
+		<ptr target="https://doi.org/10.1371/journal.ppat.1003901" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathogens</title>
+		<title level="j" type="abbrev">PLoS Pathog</title>
+		<idno type="ISSNe">1553-7374</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">e1003901</biblScope>
+			<date type="published" when="2014-01-30">2014</date>
+			<publisher>Public Library of Science (PLoS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ben-Othman, R., Flannery, A. R., Miguel, D. C., Ward, D. M., Kaplan, J., &amp; Andrews, N. W. (2014). Leishmania-mediated inhibition of iron export promotes parasite replication in macrophages. PLoS pathogens, 10(1), e1003901. https://doi.org/10.1371/journal.ppat.1003901</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A Comprehensive Subcellular Atlas of the Toxoplasma Proteome via hyperLOPIT Provides Spatial Context for Protein Functions</title>
+		<author>
+			<persName><forename type="first">Konstantin</forename><surname>Barylyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ludek</forename><surname>Koreny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huiling</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Butterworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><forename type="middle">M</forename><surname>Crook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Imen</forename><surname>Lassadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vipul</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eelco</forename><surname>Tromer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Mourier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><forename type="middle">J</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lisa</forename><forename type="middle">M</forename><surname>Breckels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arnab</forename><surname>Pain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathryn</forename><forename type="middle">S</forename><surname>Lilley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ross</forename><forename type="middle">F</forename><surname>Waller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chom.2020.09.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host &amp; Microbe</title>
+		<title level="j" type="abbrev">Cell Host &amp; Microbe</title>
+		<idno type="ISSN">1931-3128</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="752" to="766.e9" />
+			<date type="published" when="2020-11">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barylyuk, K. et al. (2020) &apos;A comprehensive subcellular atlas of the Toxoplasma proteome via hyperlopit provides spatial context for protein functions&apos;, Cell Host &amp; Microbe, 28(5). doi:10.1016/j.chom.2020.09.011.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

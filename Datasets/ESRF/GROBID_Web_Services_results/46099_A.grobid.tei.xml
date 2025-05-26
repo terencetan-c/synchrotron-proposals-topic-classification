@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Combined Surface Plasmon Resonance and X-ray Absorption Spectroscopy</title>
+				<funder ref="#_bRx6239">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_5ZkNxnn">
+					<orgName type="full">Consejo Superior de Investigaciones Científicas</orgName>
+				</funder>
+				<funder ref="#_h4KbF2N">
+					<orgName type="full">Comunidad de Madrid</orgName>
+				</funder>
+				<funder ref="#_esz6uWN">
+					<orgName type="full">Spanish Spanish Ministerio de Economia y Competitividad</orgName>
+					<orgName type="abbreviated">MEC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Combined Surface Plasmon Resonance and X-ray Absorption Spectroscopy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B5890F8C236D91E253B7BFF303FBE0DC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We present here an experimental set-up for the simultaneous measurement of surface plasmon resonance (SPR) and X-ray absorption spectroscopy (XAS) on metallic thin films in a synchrotron beamline. The system allows measuring in situ and in real time the effect of X-ray irradiation on the SPR curves to explore the interaction of X-rays with the matter. It is also possible to record XAS spectra when exciting SPR in order to detect the changes in the electronic configuration of thin films induced by the excitation of surface plasmons.</p><p>Combined experiments recording simultaneously SPR and XAS curves while scanning different parameters can be carried out. The relative variations in the SPR and XAS spectra that can be detected with this set-up ranges from 10 -3 to 10 -5 , depending on the particular experiment.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Surface plasmon resonance (SPR) is a physical outstanding property of metallic thin films consisting in a collective oscillation of conduction electrons at metal-dielectric interface <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3]</ref>. SPR can be excited with visible light. In this case, the electric field of the light at the interface results increased several orders of magnitude, with many applications in sensoring <ref type="bibr" target="#b3">[4]</ref>, biomedicine <ref type="bibr" target="#b4">[5]</ref> or optoelectronics <ref type="bibr" target="#b1">[2]</ref>. Moreover, the features of SPR are extremely sensitive to modifications in the properties or morphology of the metallic film and the surrounding dielectric. Thus, SPR spectroscopy is commonly used as probe to study in-situ the growth or modification of dielectric materials <ref type="bibr" target="#b5">[6]</ref>. Similarly, X-ray absorption spectroscopy (XAS) is an invaluable technique that provides detailed information of the electronic structure of materials <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. It is also known that X-rays induce modifications in many kinds of materials. Therefore, the combination of both techniques may be used to study the interaction between electromagnetic radiation and matter by using one of the beams to modify the material and the other as a probe. In spite of the very different energy ranges of SPR and XAS processes (~eV for SPR and ~KeV for XAS), both deal with excitation of electrons at about the Fermi level. Since SPR alters the electronic population of the metallic film at the Fermi level, this should be reflected in the XAS spectra. Similarly, when electrons are pumped to the Fermi level by X-ray absorption we may expect variations in the SPR spectra. Given that SPR is very sensitive to any modification of the dielectric medium close to the metallic film, it can be used also to study the permanent effects induced by Xray on a large variety of materials like glasses, crystalline oxides or organic matter.</p><p>The combination of both techniques is technologically challenging. The fact that SPR is usually performed with the Kretschmann-Raether <ref type="bibr" target="#b0">[1]</ref> configuration where the sample rotates during the measurements arise difficulties to align properly both laser and X-ray beams. We have designed and tested a SPR system compatible with a XAS beamline. The device has been mounted at the Spline BM25 beamline at European Synchrotron Radiation Facility (ESRF) in Grenoble, France, and is now available for experiments. We describe here the set-up and its capabilities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Experimental set-up</head><p>The setup was mounted on the branch A of the CRG BM25-SpLine Beamline at the ESRF <ref type="bibr">[9,</ref><ref type="bibr" target="#b8">10]</ref>. This beamline is split into two branches A and B, each of them fully equipped with focusing optics and experimental stations that are operated independently. Branch A enables the performance of X-Ray Absorption Spectroscopy and High Resolution Powder Diffraction measurements. This branch is located on the soft edge of the D25 bending magnet with a critical energy of 9.7 keV and energy resolution of ΔΕ/Ε=1.5x10 -4 . The X-ray energy ranges between 5 and 45 keV and the flux is of the order of 10 13 photons/s. The beam spot size can be changed in all the energy range between 300x100 μm 2 and 40x10 mm 2 in the horizontal and vertical direction, respectively. The position and dimension of the focused beam are kept constant during a ~ 1 keV energy scan, which represents standard conditions for Extended X-ray Absorption Fine Structure (EXAFS) measurement. The XAS system is arranged onto an optical table for optimum placement and alignment of the environmental sample and the detection equipment components.</p><p>The motors cover all degrees of freedom, three translation stages (X, Y, Z) and three rotation stages for centring the sample. The precision of such rocking cradle motors is 0.001º and can tilt the sample stage within a range of ±15 º along the directions parallel and perpendicular to the incident beam. While the beamline can be operated in both transmission and fluorescence modes, only this later is used in our new set-up. A gas ionization chamber working in the low-pressure range (from OKEN) is placed for monitoring the incoming beam intensity, I 0 . Fluorescence is detected with a nitrogen cooled 13-element Si(Li) detector from e2v Scientific Instruments. The low temperature of the Si(Li) and FET ensemble also diminishes leakage current and electronic noise. The Si(Li) fluorescence detector allows to perform fluorescence measurements in a range between 3 and 30 keV. The energy resolution at 6 µs peaking time is around 140 eV in every crystal. The detector is fully equipped with translation and rotation motors to optimize its position, reducing in this way the solid angle for elastic diffuse scattering contributions. Figure <ref type="figure" target="#fig_0">1a</ref> show a scheme of the SPR set-up and s 1b and 1c displays pictures of the system mounted on the beamline. Elongated Photodiode X-Ray beam XYZ Stage XZ Stage a b c Ionization chamber Fluorescence Detector Laser Linear Polarizer Beam Splitter Optical chopper Lock-in Amplifier Reference in Photodiode Elongated Photodiode X-Ray beam XYZ Stage XZ Stage a b c Ionization chamber Figure 1. (a) Scheme of the device for SPR and XAS measurements. (b) lateral and (c) top view photographs of the SPR device mounted in the experimental hutch of the beamline.</p><p>The SPR system follows the Kretschmann-Raether configuration <ref type="bibr" target="#b0">[1]</ref>. The SPR system is mounted onto the optical table with translation and rotation motors of the XAS detection system. This enables positioning the whole SPR device system precisely with respect to the X-ray beam. Excitation is performed with a HeNe (632.8 nm) linearly polarised laser that is power stabilized (CW 0.5 mW); other lasers are available. The laser is mounted on a cradle equipped with yaw and pitch movements that allows orienting the beam on the sample. A beam splitter deflects about 5% of the laser intensity to a photodetector to monitor fluctuations in laser intensity during the experiments. These fluctuations along several hours resulted below 0.05%. Beyond the beam splitter, the laser beam is modulated with an optical chopper working at 479 Hz. The sample, consisting on a thin metallic film (typically 50nm Au or Ag) grown on a glass substrate plus possible overlayers of dielectric materials, is fixed to a triangular (or semicircular) glass prism using gel index matching for a good coupling. Sample and prism are mounted on top of a rotating motor placed over a XZ translation stage. To avoid moving the detector during the measurements, the reflected light is collected with an elongated photodiode working in photocurrent mode. The photodiode signal is registered with a lock-in amplifier using the optical chopper as reference. All the elements that comprise the SPR device (motors, laser monitor and lock-in amplifier signals) are integrated and synchronized in the software for the control of X-ray. To avoid the X-ray passing through the optical prism to reach the laser cavity, the laser and X-ray beams are slightly tilted (~10º). As an example, for 14KeV X-rays, about 0.1% of the radiation is transmitted through 5mm of silica. This small fraction have significant effects in the instrumentation due to the high intensity of synchrotron radiation, We observed that without tilting both beams, the X-ray photons reaching the laser induced thermal fluctuations leading to variations in laser intensity of the order of 0.5%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Beam alignment</head><p>SPR spectroscopy in the Kretschmann-Raether configuration is performed by collecting the reflected light as a function of the incident angle by rotating the sample (rocking curve) <ref type="bibr" target="#b0">[1]</ref>. In this configuration, only the points along the rotation axis remain in the same position when the sample rotates (see figure <ref type="figure" target="#fig_1">2</ref>). If the laser spot on the sample is not on this rotation axis, its position on the sample will be displaced during the scan. This is not a serious problem in standard SPR experiments with homogeneous samples. However, for our experiments, if the laser and X-ray beam are aligned out of the rotation axis they will become misaligned as the sample rotates, reaching different points at the sample surface, as illustrated in figure <ref type="figure" target="#fig_1">2</ref>. Thus, it is crucial to ensure that the laser spot illuminates the sample surface over the rotation axis. This can be achieved simply with two lasers. If they are properly aligned over the rotation axis no misalignment will take place when the sample is rotated. To avoid misalignment, circular prisms are preferable since for triangular prisms the refraction at the prism surface will induce a certain horizontal deviation of the laser beam dependent on the incident angle. For 1cm side triangular silica (n=1.52) prisms, when scanning the incidence angle in a range of 10 deg, the spot will move about ~0.6 mm.</p><p>Once the laser is properly aligned over the film surface, the X-ray beam must be aligned over the same position. This is performed by moving the whole SPR system with respect to the X-ray beam using the translation stage. It is not possible to observe directly the X-ray beam (experimental hutch must be closed before opening the beam). The alignment is then performed using a material sensitive to X-rays as a photosensitive paper placed at the sample position and checking after irradiation that the laser spot beam matches the spot induced by the X-rays. Actually, hard X-rays irradiation induces darkening of some glasses <ref type="bibr" target="#b9">[11]</ref>, so the spot that is visible after few minutes irradiation can be also used to check the proper alignment.</p><p>Once the laser and X-ray beam are aligned, we can reach different regions of the sample using the sample Z translation stage of the sample. Laser and X-rays beam will remain aligned over a different point of the sample but, since the displacement is vertical, this new point will still be in the rotation axis. With this system it is possible to change from one sample to another without modifying the alignment. respectively. If both beams are coincident at the rotation axis (case 1), they will remain aligned after the rotation of the prism (dashed prism). If the beams are initially not coincident at the rotation axis (case 2), both beams will intersect prism surface at different points after the rotation of the prism.</p><p>To improve the quality of the measurements, it is important to ensure that the spot of the excitation system is larger that the probe one. To study the effect of X-ray irradiation on the SPR curve, the X-ray spot must be larger than that of the laser, so the SPR spectrum is collected from a region fully illuminated with X-rays. In a similar way, to study the effect of SPR excitation on the XAS spectrum, the spot of the X-ray beam must be smaller than the laser spot, to collect XAS spectra from a region where SPR is excited.</p><p>6/11</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>We present now some examples of experimetns carried out with the sep-up to illustrate its capablitites.</p><p>Figure <ref type="figure" target="#fig_2">3a</ref> shows two consecutive SPR spectra for 50nm Au film grown onto a glass substrate measured with the SPR device in the experimental hutch. The difference between the spectra collected in the same conditions without X-ray irradiation (figure <ref type="figure" target="#fig_2">3b</ref>) results of the order of 10 -3 for the region of the spectrum with highest slope and of the order of 10 -4 for the rest of the spectrum. With this equipment we can clearly detect relative differences below 0.1% with single scans. This resolution is improved upon scans accumulation (scans in figure <ref type="figure" target="#fig_2">3</ref> takes half an hour each one). We also found no drift in the resonance position for ten consecutive scans up to a resolution of 0.01º which is the minimum shift of the resonance we could detect with this set-up.</p><p>38 40 42 44 46 48 50 0.00 0.25 0.50 0.75 1.00 First scan Second scan Normalized reflectivity Incidence angle (deg) 42.4 42.6 42.8 43.0 43.2 0.0 0.1 0.2 0.3 0.4 First scan Second scan Diff (x50) Reflectivity (arb. units) Incidence angle (deg) a b 38 40 42 44 46 48 50 0.00 0.25 0.50 0.75 1.00 First scan Second scan Normalized reflectivity Incidence angle (deg) 42.4 42.6 42.8 43.0 43.2 0.0 0.1 0.2 0.3 0.4 First scan Second scan Diff (x50) Reflectivity (arb. units) Incidence angle (deg) Figure <ref type="figure" target="#fig_3">4</ref> illustrates the effect of X-ray irradiation (E=11.95 KeV, above the Au L3 edge) on the SPR spectra for Au films grown onto glass. For sodalime substrates (figure <ref type="figure" target="#fig_3">4a</ref>), X-rays induce a decrease in the intensity of the reflected beam for the whole curve. The effect was found to be accumulative upon several scans. This effect is not related to SRP but to the darkening of the glass substrate upon X-ray irradiation observable with the naked eye after few minutes. The laser beam travels along the glass substrate and it is partially absorbed reducing its intensity. It is well known that hard X-ray irradiation induces the appearance of colour centres in sodalime glasses <ref type="bibr" target="#b9">[11,</ref><ref type="bibr" target="#b10">12,</ref><ref type="bibr" target="#b11">13]</ref>. These colour centres are commonly associated to the presence of network formers or modifiers (as Na or K in sodalime and B in the borosilicates) changing their coordination and oxidising state upon irradiation and leading to the formation of colour centres responsible of the glass darkening <ref type="bibr" target="#b12">[14]</ref>. Besides the darkening, the X-rays induce a shift toward lower angles (0.02º) of the resonance as figure <ref type="figure" target="#fig_3">4a</ref> inset shows. This modification, due to a decrease of the substrate real refractive index of 0.001, is clearly resolved with the set-up. Fixing the incidence angle at a certain value and switching on and off the X-rays (figure <ref type="figure" target="#fig_3">4b</ref>) we may obtain the time dependence of the colour centres formation and elimination that can be followed in real time to study the dynamics of the process. We found the kinetics of the process to be strongly dependent on the X-ray energy. Actually the darkening is not observable for the transition metals K-edge enegies (6-9 KeV).</p><p>For silica substrates (figure <ref type="figure" target="#fig_3">4c</ref>) we observed no significant variations in the reflectivity under X-ray irradiation up to a resolution of 0.1%. However, the spectra recorded upon X-ray irradiation resulted shifted 0.02º toward lower angles as figure <ref type="figure" target="#fig_3">4d</ref> shows corresponding to an increase of the real part of refractive index of 0.001 induced by the irradiation <ref type="bibr" target="#b13">[15,</ref><ref type="bibr" target="#b14">16]</ref>. Therefore, the system allows monitoring changes induced by X-ray irradiation in both the real and imaginary part of the refractive index and the kinetics of the process with great accuracy. 8/11</p><p>The system can be also used to study the effect of X-ray irradiation on dielectric layers grown on top of the metallic film. Figure <ref type="figure" target="#fig_4">5</ref> shows the SPR spectra for a 5 nm Co-Phthalocyanine (CoPc) layer over 50 nm Au film deposited onto a glassy substrate <ref type="bibr" target="#b15">[17]</ref>. Upon irradiation with X-rays at the Co K-edge (7.720 KeV) we observe a decrease of the intensity and a shift toward lower angles (about 0.2º) at the resonance which is related to the damage induced by the X-rays on the CoPc film. The same experiment was repeated in a sample with identical glass and Au film but without CoPc film that did not show this phenomenology confirming that it is due to modifications of the CoPc film. The setup allows also studying X-ray irradiation effects that are instantaneous and reversible as those related to variations of the electronic configuration of the material induced by X-ray absorption. To achieve the best possible resolution and separate the instantaneous effects to the permanent ones above described, we use the configuration illustrated in figure <ref type="figure" target="#fig_5">6a</ref>. In this case the laser reaches the sample without any modulation while the X-rays are modulated with a chopper. The signal induced by the reflected laser beam at the photodiode is collected with the lock-in amplifier using as reference that of the chopper. Since the laser is not modulated, in absence of X-rays the signal at the lock-in is zero. If the X-rays induce any instantaneous and reversible modification of the material, the reflected beam will exhibit a component with the frequency of the chopper that will be detected by the lock-in. We used this set-up to study possible electronic effects for a Au film grown onto silica when irradiating with X-rays at the Au L3 edge (11914 eV). As shown in figure <ref type="figure" target="#fig_5">6b</ref> there is no detectable effect up to a relative value of 10 -5 of the SPR signal, which is the sensitivity of the setup (the background value is independent of the X-ray irradiation). This result is consisting with calculations on the conduction electron density in Au at the Fermi level. Considering the X-ray photon flux (10 13 photons/cm 2 ) and the lifetime and the photo-excited electrons in Au, the change in electron density at the Fermi level upon X-ray irradiation is of the order 10 -7 to 10 -8 , too small to be detected here. Nevertheless, the achieved resolution (10 -5 ) can be enough to observe changes in other materials with reduced density of electrons at the Fermi level as shown below. Elongated Photodiode X-Ray beam XYZ Stage XZ Stage Ionization chamber 38 40 42 44 46 48 50 0.0 0.2 0.4 0.6 0.8 1.0 SPR Spectrum LIA signal X10000 Normalized Reflectivity Angle (deg) Fluorescence Detector Laser Linear Polarizer Beam Splitter Optical chopper Lock-in Amplifier Reference in Photodiode Elongated Photodiode X-Ray beam XYZ Stage XZ Stage Ionization chamber Figure 6. (left) Configuration used to detect instantaneous changes induced by the X-rays on the SPR curve; (right) a SPR curve for 45 nm Au film on sodalime glass and the signal detected by the lock-in amplifier in this configuration (multiplied x 10000).</p><p>The system also allows recording XAS spectra upon excitation of SPR. Figure <ref type="figure" target="#fig_6">7a</ref> shows X-ray absorption near edge structure (XANES) spectra measured at the Au L3edge with and without exciting SPR for a 50 nm Au film. In this case, no difference is found up to a resolution of 10 -3 which is the noise level for the integration time we used (1 hour per spectrum).</p><p>It is also possible to carry out combined experiments measuring simultaneously X-ray absorption and SPR excitation while scanning time, X-rays energy, or incidence angle. For instance, we can measure XAS spectra upon excitation of SPR and collect simultaneously the photodiode signal as a function of X-rays energy. To illustrate this procedure (figure <ref type="figure" target="#fig_6">7b</ref>), we recorded simultaneously the XAS signal and the SPR reflectivity at resonance for a bilayer (5nm Fe Oxide / 50 nm Au / glass) while scanning the X-ray energy across the Fe K edge (7112 eV). There is a slight decrease in the SPR signal when the energy crosses the Fe K-edge. This feature is related to the X-ray absorption of the Fe oxide film although the mechanism is uncertain: it could be due to a change in the electron population or associated with the increase of temperature.</p><p>10/11 In summary, we have developed a set-up joining surface plasmon resonance and X-ray absorption spectroscopy. With this set-up, SPR spectra can be used to explore the interaction of X-rays with the matter.</p><p>Similarly, XAS can be used to study modifications of the electronic configuration induced by the excitation of the SPR. The versatile system allows measuring simultaneously SPR excitation and X-ray absorption while scanning different parameters. The resolution of the measurements is of the order of 10 -3 to 10 -5 depending on the particular experiment. This set-up is available for experiments at the ESRF beamline BM25A -SpLine <ref type="bibr" target="#b16">[18]</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Photodiode</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2Illustration of the possible misalignment of the laser and the X-ray beams. After the rotation of the prism, the X-ray beam and the laser illuminate the surface of the prism at the blue empty circle and at the red filled circle,</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3 (a) Consecutive spectra obtained with the SPR device shown in figure 1; the curves overlap and are not distinguished in the graph. (b) A detail of the resonance region and their difference (multiplied x50).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (a) SPR curves for 50 nm Au film onto sodalime glass before and during irradiation with 11.952 KeV X-rays (b) time evolution of the reflective at an incident angle of 44º as a function of time during and after X-ray irradiation. (c) SPR curves for 50nm Au film onto silica before and during irradiation with 11.952 KeV X-rays and (d) a detail of the resonance region.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. (a) SPR spectrum of a 5nm Co-Phthalocyanine /50 nm Au deposited on a glassy substrate and (b) detail of the resonance region before and during irradiation with X-rays at the Co K edge (7.720 KeV).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Photodiode</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. (a) XAS spectra measured at the Au L3 edge on a 50 nm Au film with and without excitation of SPR. (b) (black)XAS spectra measured a t the Fe Kedge on a 5nm Fe Oxide / 50 nm Au film on a glass substrate upon excitation of SPR and (red) the variation in the reflectivity of the SPR curve at the resonance during the energy scan.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors acknowledge <rs type="person">F. Galvez</rs> for assistance during the experiments and <rs type="person">J. de la Venta</rs> for a critical reading of the manuscript. This work has been supported by the <rs type="funder">Spanish Spanish Ministerio de Economia y Competitividad (MEC)</rs> through the project <rs type="grantNumber">FIS-2008-06249and MAT2009-14578-C03-02</rs> and <rs type="funder">Comunidad de Madrid</rs>, project <rs type="projectName">NANOBIOMAGNET</rs> (<rs type="grantNumber">S2009/MAT-1726</rs>). A. Serrano thanks the <rs type="grantName">CSIC for JAE-Predoctoral fellowship</rs>. <rs type="person">C. Monton</rs> acknowledges <rs type="projectName">AFOSR</rs> project number <rs type="grantNumber">FA 9550-10-1-0409</rs>. We acknowledge the <rs type="institution" subtype="infrastructure">European Synchrotron Radiation Facility for provision of synchrotron radiation</rs> facilities and the <rs type="institution">MEC</rs> and <rs type="funder">Consejo Superior de Investigaciones Científicas</rs> for financial support (<rs type="grantNumber">PE-2010 6 0E 013</rs>) and for provision of synchrotron radiation facilities and we would like to thank the <rs type="institution">BM25-SpLine</rs> staff for the technical support.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_esz6uWN">
+					<idno type="grant-number">FIS-2008-06249and MAT2009-14578-C03-02</idno>
+				</org>
+				<org type="funded-project" xml:id="_h4KbF2N">
+					<idno type="grant-number">S2009/MAT-1726</idno>
+					<orgName type="grant-name">CSIC for JAE-Predoctoral fellowship</orgName>
+					<orgName type="project" subtype="full">NANOBIOMAGNET</orgName>
+				</org>
+				<org type="funded-project" xml:id="_5ZkNxnn">
+					<idno type="grant-number">FA 9550-10-1-0409</idno>
+					<orgName type="project" subtype="full">AFOSR</orgName>
+				</org>
+				<org type="funding" xml:id="_bRx6239">
+					<idno type="grant-number">PE-2010 6 0E 013</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">European Synchrotron Radiation Facility for provision of synchrotron radiation</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Surface plasmons on smooth surfaces</title>
+		<author>
+			<persName><forename type="first">Heinz</forename><surname>Raether</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bfb0048319</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Springer Tracts in Modern Physics</title>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="page" from="4" to="39" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Raether, Surface Plasmons on smooth and rouge surfaces and on gratings. ed. Springer-Verlag 1988</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">ED: Zufluss- oder Abflussstörung?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Maier</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11298-013-1041-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">CME</title>
+		<title level="j" type="abbrev">CME</title>
+		<idno type="ISSN">1614-371X</idno>
+		<idno type="ISSNe">1614-3744</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1" to="1" />
+			<date type="published" when="2006">2006</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. A. Maier, Plasmonics, ed. Springer-Verlag 2006</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Kik Surface Plasmon Nanophotonics ed</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brongersma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<publisher>Springer-Verlag</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Brongersma and P. G. Kik Surface Plasmon Nanophotonics ed. Springer-Verlag 1988.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Surface plasmon resonance sensors: review</title>
+		<author>
+			<persName><forename type="first">Jiřı́</forename><surname>Homola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sinclair</forename><forename type="middle">S</forename><surname>Yee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Günter</forename><surname>Gauglitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0925-4005(98)00321-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors and Actuators B: Chemical</title>
+		<title level="j" type="abbrev">Sensors and Actuators B: Chemical</title>
+		<idno type="ISSN">0925-4005</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="3" to="15" />
+			<date type="published" when="1999-01-25">1999</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J Homola, S. S. Yee and G. Gauglitz, Sensors and Act. B: Chem. 54, (1999) 3.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Low-cost optical instrumentation for biomedical measurements</title>
+		<author>
+			<persName><forename type="first">Yordan</forename><surname>Kostov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Govind</forename><surname>Rao</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1319859</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<idno type="ISSN">0034-6748</idno>
+		<idno type="ISSNe">1089-7623</idno>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="4361" to="4374" />
+			<date type="published" when="2000-12-01">2000</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Kostov, G, Rao Rev. Sci. Instrum. 71, 4361 (2000)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">INTERFACES AND THIN FILMS AS SEEN BY BOUND ELECTROMAGNETIC WAVES</title>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Knoll</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.physchem.49.1.569</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Physical Chemistry</title>
+		<title level="j" type="abbrev">Annu. Rev. Phys. Chem.</title>
+		<idno type="ISSN">0066-426X</idno>
+		<idno type="ISSNe">1545-1593</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="569" to="638" />
+			<date type="published" when="1998-10">1998</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Knoll, Annu. Rev. Phys. Chem. 49 (1998) 569</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Koningsberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prins</surname></persName>
+		</author>
+		<title level="m">X-ray absorption: Principles, applications, techniques of EXAFS, SEXAFS and XANES</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley and Sons Inc</publisher>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. C. Koningsberger, R. Prins, X-ray absorption: Principles, applications, techniques of EXAFS, SEXAFS and XANES (1987) ed. John Wiley and Sons Inc.,New York, NY</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">X-ray absorption spectroscopy (EXAFS and XANES) at surfaces</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Norman</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3719/19/18/006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics C: Solid State Physics</title>
+		<title level="j" type="abbrev">J. Phys. C: Solid State Phys.</title>
+		<idno type="ISSN">0022-3719</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="3273" to="3311" />
+			<date type="published" when="1986-06-30">1986</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Norman, J. Phys. C: Solid State Phys. 19 (1986) 3273</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Optical design of the general-purpose Spanish X-ray beamline for absorption and diffraction</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Castro</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049597019079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="657" to="660" />
+			<date type="published" when="1998-05-01">1998</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G.R. Castro, J. Synchrotron Rad. 5 (1998) 657</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A Kinetic Interpretation of the Coloring of Glass by X-Rays</title>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Livingston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carl</forename><forename type="middle">E</forename><surname>Nurnberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/j150367a012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry</title>
+		<title level="j" type="abbrev">J. Phys. Chem.</title>
+		<idno type="ISSN">0092-7325</idno>
+		<idno type="ISSNe">1541-5740</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1011" to="1020" />
+			<date type="published" when="1935-07-01">1935</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Livingston, C. E. Nurnberger J. Phys. Chem., 39 (1935), 1011</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Further Studies on the Kinetics of the Coloring of Glass by X-rays</title>
+		<author>
+			<persName><forename type="first">Carl</forename><forename type="middle">E</forename><surname>Nurnberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert.</forename><surname>Livingston</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/j150383a006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry</title>
+		<title level="j" type="abbrev">J. Phys. Chem.</title>
+		<idno type="ISSN">0092-7325</idno>
+		<idno type="ISSNe">1541-5740</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="691" to="697" />
+			<date type="published" when="1937-05">1937</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. E. Nurnberger, R. Livingston, J. Phys. Chem., , 41 (1937), 691</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Optical Properties and Structure of Defects in Silica Glass</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">L</forename><surname>Griscom</surname></persName>
+		</author>
+		<idno type="DOI">10.2109/jcersj.99.923</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Ceramic Society of Japan</title>
+		<title level="j" type="abbrev">J. Ceram. Soc. Japan</title>
+		<idno type="ISSN">0914-5400</idno>
+		<idno type="ISSNe">1882-1022</idno>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">1154</biblScope>
+			<biblScope unit="page" from="923" to="942" />
+			<date type="published" when="1191">1191</date>
+			<publisher>Ceramic Society of Japan</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. L Griscom, J. Ceram. Soc. Japan, 99 (1191) 923</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">X-ray induced nonbridging oxygen hole center in soda-lime silicate glass</title>
+		<author>
+			<persName><forename type="first">Jiawei</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xinji</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wen</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jian</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhydene.2009.03.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Hydrogen Energy</title>
+		<title level="j" type="abbrev">International Journal of Hydrogen Energy</title>
+		<idno type="ISSN">0360-3199</idno>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3988" to="3991" />
+			<date type="published" when="2009-05">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Shenga, X. Yang, W. Dong, J. Zhang, Intern. J. Hydrogen Energy 34 (2009) 3988</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Radiation effects In Optical and properties of glass</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Friebele</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<publisher>Westerville</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. J. Friebele. Radiation effects In Optical and properties of glass. New York: Westerville; 1991.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Generation and conversion of electronic defects in calcium carbonates by UV/Vis light</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bartoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stößer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nofz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0969-8043(00)00044-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Radiation and Isotopes</title>
+		<title level="j" type="abbrev">Applied Radiation and Isotopes</title>
+		<idno type="ISSN">0969-8043</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1099" to="1105" />
+			<date type="published" when="2000-05">2000</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Bartoll , M. Nofz M, R. Stober Phys. Chem. Glasses 41 (2000) 140</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Comparison of organic thin films deposited by supersonic molecular-beam epitaxy and organic molecular-beam epitaxy: The case of titanyl phthalocyanine</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Walzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Toccoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pallaoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Iannotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.susc.2006.02.039</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surface Science</title>
+		<title level="j" type="abbrev">Surface Science</title>
+		<idno type="ISSN">0039-6028</idno>
+		<imprint>
+			<biblScope unit="volume">600</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2064" to="2069" />
+			<date type="published" when="2006-05" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">The metal-organic CoPc film was deposited by sublimation using a Knudsen cell integrated into an Organic Molecular Beam Epitaxy system with a base pressure of 10 -10 Torr.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">New beamline set to open up new research horizons</title>
+		<author>
+			<persName><forename type="first">Axel</forename><surname>Kaprolat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gianluca</forename><surname>Iori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Lausi</surname></persName>
+		</author>
+		<idno type="DOI">10.56181/wjdt7794</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EU Research</title>
+		<title level="j" type="abbrev">EU RES</title>
+		<idno type="ISSN">2752-4728</idno>
+		<idno type="ISSNe">2752-4736</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">Autumn 2022</biblScope>
+			<biblScope unit="page" from="78" to="80" />
+			<date type="published" when="2022-10" />
+			<publisher>Blazon Publishing and Media Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Researchers interested in submitting a proposal may contact the scientist in charge of the beamline G. R. Castro at castro@esrf.eu for more details.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

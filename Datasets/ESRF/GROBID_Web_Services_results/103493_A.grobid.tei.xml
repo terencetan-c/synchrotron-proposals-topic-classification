@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">First High-Pressure Exploration of the Fluorine-Nitrogen System Experiment number: CH-6640</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Wright</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">(University of Edinburgh)* Umbertoluca Ranieri (University of Edinburgh)* Akun Liang (University of Edinburgh)* James Spender (University of Edinburgh</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dominique</forename><surname>Laniel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">(University of Edinburgh)* Umbertoluca Ranieri (University of Edinburgh)* Akun Liang (University of Edinburgh)* James Spender (University of Edinburgh</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">First High-Pressure Exploration of the Fluorine-Nitrogen System Experiment number: CH-6640</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8F19A64FC840621858DB47269639FC6C</idno>
+					<note type="submission">from: June 23 2023 to: June 26 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this proposal was to investigate the fluorine-nitrogen system up to 130 GPa in laser-heated diamond anvil cells (DACs) and observe the formation of the first pressure-formed polynitrogen cation. Previously employed successfully during preliminary experiments, CoF3 was used as the fluorine reservoir and loaded along with molecular nitrogen (N2). All samples were characterized by single-crystal X-ray diffraction (SCXRD). The goals were: i) the investigation of the fluorine-nitrogen system at pressures up to 130 GPa, ii) the synthesis of novel FxNy solids with polynitrogen cations as well as potential CoxNyFz solids, iii) the determination of their crystal structure by employing in-situ synchrotron SC-XRD and, iv) establishing the produced compounds' equation of state and find out if they are recoverable to atmospheric pressure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>BX90-type DACs with culets of 250 to 120 μm were prepared. CoF3 was loaded along with molecular nitrogen, acting as a reagent as well as a pressure transmitting medium. Pressures were measured based on the equation of state of gold; 1 a small Au chip having been placed inside the sample cavity. As planned, the samples were precompressed to pressures between 10 and 70 GPa and laser-heated to temperatures above 2000 K at our laboratory in CSEC (Edinburgh). These samples were brought to ID11 for single-crystal X-ray diffraction measurements of the synthesized phases.</p><p>Over the whole investigated pressure range, our preliminary analysis revealed only two phases besides the precursors: the previously found Co2F3 compound and a CoF2 solid with the fluorite-type structure (PdF2), both shown in Figure <ref type="figure" target="#fig_0">1</ref>. Although the latter had not been detected during our preliminary measurements, it has been reported by Barreda-Argüeso et al. <ref type="bibr" target="#b1">2</ref> Interestingly, they only found PdF2-type CoF2 when compressing CoF2 in non-hydrostatic conditions. This is a curious observation since laser-heating is thought to locally relieve strain in the heated and recrystallized crystals. In any case, the formation of CoF2 is another strong indication that fluorine is being released from CoF3 (e.g. 2CoF3 → 2CoF2 + F2). High-precision maps of the samples' experimental chambers were performed, but, puzzlingly no sign of a NxFy, CoxFyNz or the known CF4 solid 3 was observed. This seems to suggest that the released fluorine either forms a new phase that is amorphous or poorly crystalline, or that it might react with the Re gasket. A more in-depth data analysis will be necessary to get a better grasp of fluorine's behavior. Still, it appears that chemically insulating not only the diamonds, but the gasket as well, is a necessity. Moreover, perhaps that materials proven to be effective at containing fluorine, such as Teflon, would be good contenders as chemical insulators. After being unable to distinguish the desired phases, the DACs were decompressed and the equation of state of CoF2 and Co2F3 obtained. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Crystal structure of a) PdF2-type CoF2 and b) Co2F3.</figDesc><graphic coords="2,101.52,202.32,397.20,160.56" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>We would like to emphasize how well the ID11 beamline was working. In particular, a new procedure allowing to put on the center of rotation a submicron-sized single-crystal was developped and implemented by Jonathan Wright. The method uses the Friedel pairs of the desired single-crystal to perform the centering macro. We tested extensively this new approach, which proved to work remarkably well. This macro, currently nonexistant on any other beamline-whether at the <rs type="institution" subtype="infrastructure">ESRF</rs> or elsewhere-significantly increases our efficiency and a truly welcome addition.</p></div>
+			</div>
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">ESRF</orgName>
+					<orgName type="full" lang="en">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="fr">Source Européenne de Rayonnement Synchrotron</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Equations of state of six metals above&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;94&lt;/mml:mn&gt;&lt;mml:mspace width=&quot;0.3em&quot;/&gt;&lt;mml:mi mathvariant=&quot;normal&quot;&gt;GPa&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;</title>
+		<author>
+			<persName><forename type="first">Agnès</forename><surname>Dewaele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Loubeyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohamed</forename><surname>Mezouar</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.70.094112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2004-09-22">2004</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dewaele, A., Loubeyre, P. &amp; Mezouar, M. Equations of state of six metals above 94 GPa. Phys. Rev. B -Condens. Matter Mater. Phys. 70, 1-8 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Pressure-induced phase-transition sequence in CoF&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:msub&gt;&lt;mml:mrow/&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:math&gt;: An experimental and first-principles study on the crystal, vibrational, and electronic properties</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Barreda-Argüeso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>López-Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Sanz-Ortiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Aguado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Valiente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nataf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baudelet</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.88.214108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page">214108</biblScope>
+			<date type="published" when="2013-12-19">2013</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barreda-Argüeso, J. A. et al. Pressure-induced phase-transition sequence in CoF2: An experimental and first-principles study on the crystal, vibrational, and electronic properties. Phys. Rev. B 88, 214108 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A reentrant phase transition and a novel polymorph revealed in high-pressure investigations of CF4 up to 46.5 GPa</title>
+		<author>
+			<persName><forename type="first">Dominique</forename><surname>Laniel</surname></persName>
+			<idno type="ORCID">0000-0002-6889-9820</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Timofey</forename><surname>Fedotenko</surname></persName>
+			<idno type="ORCID">0000-0002-4602-2059</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Bjoern</forename><surname>Winkler</surname></persName>
+			<idno type="ORCID">0000-0001-8029-478X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Alena</forename><surname>Aslandukova</surname></persName>
+			<idno type="ORCID">0000-0002-4730-4197</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><surname>Aslandukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georgios</forename><surname>Aprilis</surname></persName>
+			<idno type="ORCID">0000-0002-0020-9125</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Stella</forename><surname>Chariton</surname></persName>
+			<idno type="ORCID">0000-0001-5522-0498</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Victor</forename><surname>Milman</surname></persName>
+			<idno type="ORCID">0000-0003-2258-1347</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Vitali</forename><surname>Prakapenka</surname></persName>
+			<idno type="ORCID">0000-0001-9270-2330</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Leonid</forename><surname>Dubrovinsky</surname></persName>
+			<idno type="ORCID">0000-0002-3717-7585</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Natalia</forename><surname>Dubrovinskaia</surname></persName>
+			<idno type="ORCID">0000-0002-8256-5675</idno>
+		</author>
+		<idno type="DOI">10.1063/5.0079402</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<idno type="ISSN">0021-9606</idno>
+		<idno type="ISSNe">1089-7690</idno>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">44503</biblScope>
+			<date type="published" when="2022-01-24">2022</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laniel, D. et al. A reentrant phase transition and a novel polymorph revealed in high-pressure investigations of CF4 up to 46.5 GPa. J. Chem. Phys. 156, 044503 (2022).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

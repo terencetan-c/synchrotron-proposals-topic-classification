@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report on 2801 771 TIME-RESOLVED X-RAY DIFFRACTION AND ELECTROCHEMICAL STUDIES ON CULTURAL HERITAGE ALLOYS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Warwick</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Analytical Chemistry</orgName>
+								<orgName type="institution">Ghent University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Schotte</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Analytical Chemistry</orgName>
+								<orgName type="institution">Ghent University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><forename type="middle">J C</forename><surname>Jones</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Warwick</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Report on 2801 771 TIME-RESOLVED X-RAY DIFFRACTION AND ELECTROCHEMICAL STUDIES ON CULTURAL HERITAGE ALLOYS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">947EA04E344D899F8C5B07C1244FDD02</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Twenty four separate experiments relating to the conservation and protection of heritage metal alloys were carried out over 15 shifts using reflection powder diffraction with the Mar CCD 165 as detector. Most experiments involved time-lapse sequences taken in-situ from an environmental cell (eCell). Over 1000 images were obtained. There were five basic types of experiment: time-resolved studies of electrochemical treatment of corroded copper surfaces, time resolved measurements of the stability of carboxylate coatings on lead during exposure to acetic acid vapour, time resolved measurements of the interaction of copper surfaces with corrosive droplets, and a preliminary sequence of analyses of corrosion products on a set of 2 millennium old coins. A new macro and some timing electronics supplied by the beam line enabled us to synchronize the data taking on the Mar with the timing output from the eCell electronics for the first time. Further development of our software esaProject has enabled the image sets to be processed as a batch. Preliminary interpretation of the data reveals new information on the chemistry involved in the production of simulated corrosion layers (droplet experiments), demonstrates that the carbolyxate coating significantly retards the attack of acetic acid on lead (a major problem in heritage lead conservation), and confirms previous data on parallel electrochemical and XRD measurements taken during the treatment of copper surfaces coated with chlorides.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview</head><p>This report covers our second allocation of beam time on XMaS. In the application for beam time, the focus of this work was the electrochemical study of corrosion, passivation and cleaning of real heterogeneous metal alloy surfaces such as are found in museum artefacts, but are also widespread in modern technology. We had already developed a fully automated electrochemical cell (eCell) for the purpose of time resolved studies of corrosion, passivation and coating of real metal surfaces. This had been successfully applied to heritage metals in studies aimed at understanding the fundamental processes, and also qualifying procedures which may be used in simple sensors for monitoring e.g. safe storage and treatment of marine artefacts.</p><p>Following our first experiments on XMaS <ref type="bibr">(March 2006)</ref> it became clear that the techniques used to produce simulated corrosion layers were not fully understood. We therefore added experiments to examine the chemistry involved to this visit. These were based on the novel technique of reacting a clean metal surface with a droplet of corrosive agent and taking a sequence of Mar images in real time:. A Mar Image and analysed area from 2000 year old coin "A" recovered from the harbour at Caesarea drop of fluid was placed centrally on the inside of the Kapton cell window, and with gentle handling, remained in place when the window was attached to the eCell. When the beam was on and the acquisition system programmed, the metal sample was remotely raised into contact with the droplet, squashing it against the window, and distributing it over the metal. The timing system initiated the capture of a sequence of Mar images to produce a time-resolved set. These experiments worked extremely well, and allowed the course of the reactions to be followed from the first contact with the metal.</p><p>Complete data sets were obtained for the removal of copper hydroxychlorides (atacamite, paratacamite) by soaking in dilute sodium sesquicarbonate (a favoured conservation treatment) show that the corrosion potential apparently stabilizes well before the chlorides are removed, making it unreliable as a monitoring parameter. This is due to the formation of a cuprite layer beneath the original corrosion crust during the soaking process. The hydroxychloride corrosion becomes "chemically detached" from the surface, but remains in place until it falls off under gravity. The XRD shows some initial decrease in the hydroxychloride levels on the surface (complementary to the rise in the level of complex copper ions and colloidal suspension we see in the fluid with XAS), but a residue which is resistant to removal still remains. Correlation of these experiments with those in the last paragraph showed clear differences in behaviour due to different recipes for producing the corrosion layer. These were specifically related the existence or otherwise of a cuprite layer already underneath the chloride layer, prior to the soaking process, and formed during the initial corrosion reaction.</p><p>Analysis of the coins from areas of different colours showed a complex combination of corrosion products which is still being unravelled. This preliminary work will underpin the development of an analytical and conservation strategy (using further XRD, XAS and other techniques including neutron microtomography (beam time approved at SINQ).</p><p>We also extended the operation of eCell to cover exposure of surfaces to corrosive vapour. This was necessary in order to extend the work on lead carboxylate coatings done in our first visit (to appear in ESRF highlights Jan 2007). The deposition of the coating was measured as before, but with higher time resolution, and simultaneous electrochemical monitoring in eCell. The coated surfaces were then returned to eCell and exposed to a controlled atmosphere of acetic acid at high RH. The RH was stabilized using salt solution in the bottom of the cell, and the source of acetic acid was a droplet typically of 10-25 micro-litres deposited on the inside of the cell window. This evaporated almost at once. Coated surfaces were up to 7 times more resistant to attack than uncoated ones, but broke down rapidly once corrosion commenced. This technique will be refined in future experiments.</p><p>Analysis of the coins from areas of different colours showed a complex combination of corrosion products which is still being unravelled. This preliminary work will underpin the development of an analytical and conservation strategy (using further XRD, XAS and other techniques including neutron microtomography (beam time approved at SINQ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions and future work</head><p>Growing confidence with the beam line equipment, and the excellent synchronization with the cell operation which is now achievable allowed us to extend the operation of eCell so that the "e" now stands for "environmental" rather than just "electrochemical". In addition to spectroelectrochemistry, we were able to monitor reactions of metal surfaces with single droplets and with corrosive gas. Immediate development for esaProject includes the display of the Mar time-lapse images (processed or raw) as movies. We intend to further refine the multipurpose environment concept of eCell in future XMaS experiments if beam time is granted.</p><p>We would like to thank Laurence Bouchenoire (beamline scientist) for her help and enthusiasm, David Paul (beamline scientist) for advice on the beamline optics, and the electronics/software groups at ESRF for the macro and interface box which turned synchronization from "hit and miss" to "right on the button".</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>It should be possible to produce 4 or 5 publications from the two beam time allocations, and the preliminary work has already been presented at CHS 2006 (Ghent, December 2006), "Looking Forward to the Past" (Strategic meeting) Tate Modern (London, Nov 2006), SR2A (Berlin, Sept 2006), Diamond users meeting (July 2006), and other venues, and accepted for CSSIM (Cairo, 2007) and Conservation Science 2007 (Milan).</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Parametric Down-Conversion of X-Rays into Visible Wavelengths</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Marco</forename><surname>Moretti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sharon</forename><surname>Shwartz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aviad</forename><surname>Schori</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Denis</forename><surname>Borodin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christina</forename><surname>Bömer</surname></persName>
+						</author>
+						<title level="a" type="main">Parametric Down-Conversion of X-Rays into Visible Wavelengths</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7EF8A4F6C3156C4AEC268DB250C7F13C</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report: Proposal Ref. No 39091</head><p>In this report we describe the main results of the experiment on parametric down-conversion of x-rays into visible wavelengths performed at beamline ID-20.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Problems/issues:</head><p>-We could not measure coincidence between the x-ray and the visible signals since we measured a delay of about 800 nsec between the APD and the visible detector. This delay is larger than the maximal delay compensation of the coincidence measurments.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The objective of this proposal was to demonstrate for the first time the phenomenon of parametric downconversion (PDC) of x-rays into visible light. In this process, a pump beam at x-ray wavelengths interacts with the vacuum field in a crystal to generate correlated x-ray and visible photons. This process can be viewed as a nonlinear scattering process, where the pump beam together with the two generated beams satisfies energy conservation and momentum conservation. Since this type of non-linear x-ray-visible process is dependent on the location of the valence electrons, it can be further developed into new atomic scale resolution techniques for the study of chemical bonds and of microscopic properties of the interaction of visible light with matter. Another possibility is the generation of entangled photon pairs with one x-ray photon and one visible photon. These photons may be used for new quantum imaging techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods:</head><p>The experimental setup is shown in Fig. <ref type="figure">1</ref>. The nonlinear media was a high quality diamond crystal ( &lt;100&gt; orientation, 4x4x0.8mm dimensions). All beamline controllers and detectors data were recorded using the SPEC software. The control of the coincidence electronics was implemeted using MATLAB programs, which we developed for this experiment. SMA cables suitable for fast pulses were used. New visible bandpass filters were used to attenuate the fluorescence at visible wavelengths by 6 orders of magnitude. The visible optics box was mounted on an additional 2θ arm.</p><p>Exeprimental procedure: We used a beam at 9 keV at the Bragg angle of the diamond crystal. We reduced the optical background by blocking light sources inside the experimental hutch. We measured the background noise of the x-ray and optical detectors. We moved the crystal and the two detectors to the phase matching positions. We used the analyzer and slits to suppress the Compton background and the tail of the elastic at the x-ray detector. We measured the PDC signal at different reflections and idler energies by scanning the angle of the crystal and the energy of the analyzer. We measured the visible fluorsecence spectrum by using different color filters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary of results:</head><p>The rocking curves of the x-ray signal of the PDC are shown in Fig. <ref type="figure" target="#fig_2">2</ref>. Fig. <ref type="figure" target="#fig_2">2a-2c</ref> show the count rate as a function of the angle of the crystal with respect to the Bragg angle idler energies at 30 eV , 4.99 eV, and 1.916 eV, respectively, and for the (400) atomic planes. Fig. <ref type="figure" target="#fig_2">2d</ref> shows the count rate as a function of the crystal angle with respect to the Bragg angle for an idler at 2.066 eV and for the (220) atomic planes. The wide peaks in Fig. <ref type="figure" target="#fig_2">2a</ref>-2c are the PDC signals.</p><p>We checked that when we increase the detuning of the crystal angle from the Bragg peak, the efficiency of the PDC signal decreases, as is expected by the theory. The results of the PDC analyzer scan measurements of the x-ray signal are shown in Fig. <ref type="figure" target="#fig_1">3</ref>. Fig. <ref type="figure" target="#fig_1">3a</ref> shows the count rate as a function of the analyzer energy for an idler energy at 1.916 eV and for the (400) atomic planes. Fig. <ref type="figure" target="#fig_1">3b</ref> shows the count rate as a function of the analyzer energy for an idler at 2.066 eV and for the (220) atomic planes. The wide peaks in Fig. <ref type="figure" target="#fig_1">3a</ref> and 3b are the PDC signals.</p><p>In conclusion, we have measured the x-ray signal of the PDC with sub-eV seperation from the elastic for the the first time. High levels of fluorescence prevented the direct measurement of the visible photons. Due to the large delay between of the x-ray APD ACE electronics it was not possible to measure the effect with coincidence electronics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future &amp; perspective:</head><p>We intend to repeat this experiment with an improved configuration of detection scheme. A sync signal of the synchrotron pulse will also be used to determine the delay between the 2 detectors and achieve absolute time measurements. The slits on the x-ray 2θ arm will be used to optimize the SNR of the x-ray signal and the elastic tail.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>1</head><figDesc>Fig.1: experimental setup</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 3 :</head><label>3</label><figDesc>Fig 3: Analyzer scans of: (a) (400) reflection, 647 nm idler. (b) (220) transmission, 600 nm idler.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig 2 :</head><label>2</label><figDesc>Fig 2: Rocking curves of: (a) (400) reflection, 30 eV idler. (b) (400) reflection, 4.99 eV idler. (c) (400) reflection, 647 nm idler. (d) (220) transmission, 600 nm idler.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

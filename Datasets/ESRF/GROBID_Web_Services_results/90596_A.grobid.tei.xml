@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5EBA0C79FCA4CD55D45218D40897F679</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>All users must give proper credit to ESRF staff members and proper mention to ESRF facilities which were essential for the results described in any ensuing publication. Further, they are obliged to send to the Joint ESRF/ ILL library the complete reference and the abstract of all papers appearing in print, and resulting from the use of the ESRF.</p><p>Should you wish to make more general comments on the experiment, please note them on the User Evaluation Form, and send both the Report and the Evaluation Form to the User Office.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deadlines for submission of Experimental Reports</head><p>-1st March for experiments carried out up until June of the previous year; -1st September for experiments carried out up until January of the same year.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instructions for preparing your Report</head><p>• fill in a separate form for each project or series of measurements.</p><p>• type your report, in English.</p><p>• include the reference number of the proposal to which the report refers.</p><p>• make sure that the text, tables and figures fit into the space available.</p><p>• if your work is published or is in press, you may prefer to paste in the abstract, and add full reference details. If the abstract is in a language other than English, please include an English translation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: Dosimetric analysis of the dose enhancement in Microbeam Radiation Therapy Experiment number: MD-1197 Beamline: ID17 Date of experiment: from: 10 September 2018 to: 11 September 2018 Date of report: 14/09/2018 Shifts: 9 Local contact(s):</p><p>Herwig Requardt ( email: requardt@esrf.fr ) Alberto Bravin ( email: bravin@esrf.fr )</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Received at ESRF:</head><p>Names and affiliations of applicants (* indicates experimentalists):</p><p>Jenny Spiga -Warwick University Jonathan Duffy -Warwick University Sam Manger -Warwick University Local contacts: Alberto Bravin -ESRF Herwig Requardt -ESRF In-loco experimentalist: Paolo Pellicioli -ESRF</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of our experiment was to carry out an exhaustive dosimetric analysis of the dose enhancement in Microbeam Radiation Therapy when the sample is loaded with heavy metallic atoms such as iodine and gadolinium. This study is a follow up of a recent experiment conducted at the ID17 imaging hutch in April 2018 with the use of monochromatic beams of different energies (30 to 140 keV). The experiment lasted a full day.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>The experiment took place in the MRT hutch of the ID 17 beamline. Different energies and contrast agent concentrations have been considered (Gadolinium 10 mg/ml and 20 mg/ml, Iodine 10 mg/ml and 20 mg/ml). The phantom employed, with dimension of 6 x 5 x 6 cm, was developed at the University Hospital of Coventry and Warwickshire in the UK, and allowed the insertion of Gafchromic® films and contrast agents. It consisted of a plexiglass parallelepiped carved to make a compartment to be filled with the metallic compounds. Inside the cavity, a system of slits allowed the insertion of Gafchromic® films to make the dosimetric measurement. We used EBT3 films for the broad beam irradiations, and HD-V2 films for the microbeam irradiations. The reason for this is that the two films have different sensitivity dose ranges. HD-V2 films (sensitivity 10-400 Gy) are ideal for the MRT peaks and valleys measurements for which a high entrance dose is requested. On the other hand, EBT3 films, which are widely used in clinics, have a lower sensitivity dose range (0.1-20 Gy) and make a good dosimeter for broad beam irradiations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Film Calibration</head><p>In order to use our custom made phantom, we needed the conversion of the calibration curves at 2 cm for a reference phantom. To do so, we evaluated the output factors, obtained as the dose at 2 cm depth in our phantom divided by the dose at 2cm depth in the reference cubic solid water phantom. Knowing such parameter allowed us to convert the dose and obtain a new value relating to our specific phantom, so we could have a dose value falling in the films calibration range. To conduct the initial film calibration, we employed a 18 x 18 x 18 cm 3 solid water reference phantom and we irradiated it with a 2 x 2 cm 2 beam. We collected the dose at 2 cm depth in different irradiations, delivering a dose of 3-5-10-15-20 Gy for EBT3 films (first set) and 50-100-150-200-250 Gy for HD-V2 films (second set). The diverse entrance doses are due to the different dose sensitivity ranges.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Irradiation of UK phantom filled with water</head><p>Having obtained the calibration curves for the two types of films, we began the irradiation of the UK phantom.</p><p>We started with the irradiation of EBT3 films with a broad beam of 2x2 cm 2 . We inserted the films in different slots at three different depths in the phantom, i.e. 0.7 cm, 3.4 cm and 5.7 cm. For each depth, to make sure we fell inside the sensitivity range of the films, we pre-calculated output factors using Monte Carlo simulations.</p><p>The irradiation was made in water with an entrance dose of 15 Gy. We then irradiated two sets of HD-V2 films, the first to determine the microbeams' peak dose (using an entrance dose of 150 Gy), and the second to measure the valley dose. This second set required much higher peak entrance dose (5000 Gy) for the valley dose to remain inside the sensitivity range. The expected dose in the valley was about 75-105-120 Gy. We selected 51 microbeams, with a primary slit horizontal gap equal to 15.307. The films were inserted inside two thin (2mm) slabs of PMMA previously sealed together to avoid water coming in. We tried to irradiate HD-V2 films directly in water, but the films were destroyed by the liquid as the active layer detached. On the other hand, it was possible to irradiate EBT3 films directly in water as they have a double protective layer and are water resistant (we conducted an irradiation with a dose of 15 Gy).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Irradiation of UK phantom filled with gadolinium 10 mg/ml</head><p>We then started to conduct the measurements filling our phantom with Gadolinium at a concentration of 10 mg/ml. We started with a broad beam irradiation of EBT3 films as we did when the phantom was filled with water (this time with an entrance dose of 10 Gy), and proceeded with the same sets of measurements as before (HD-V2 films for microbeams' peaks (150 Gy), HD-V2 films for microbeams' valleys (5000 Gy) and EBT3 for broad beam irradiation positioning the films directly inside the liquid (7 Gy)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other phantom irradiations</head><p>Other irradiations of the UK phantom were performed in the same way as before, filling it with iodine 10 mg/ml, gadolinium 20 mg/ml and iodine 20 mg/ml, and using entrance doses of 15 Gy for broad beam irradiation with EBT3 films covered in plexiglass, 150 Gy for microbeam irradiations of peaks with HD-V2 films, 5000 Gy for microbeams irradiation of valley with HD-V2 films and 7 Gy for broad beam irradiations with EBT3 films directed placed in the liquid.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Films reading</head><p>We couldn't read the films as they require few days to stabilise, but we scanned them with the instruments available at the beamline. We couldn't use the microscope to read the microbeams though, and we acquired the films' images at the University of Warwick (an example can be seen in Fig. <ref type="figure" target="#fig_1">1</ref>). In order to analyse them we require do develop some MATLAB routines that are being created, so the results are not yet available.</p><p>The local contacts at the beamline were keen on giving their scientific opinion, who gave some input for interesting discussions on what to investigate next. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 -</head><label>1</label><figDesc>Fig. 1 -Example of Gafchromic film HD-V2 irradiated with microbeams. Image aquired with a microscope available at the University of Warwick.</figDesc><graphic coords="3,34.00,547.41,237.69,175.85" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

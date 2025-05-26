@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure analysis of a dimeric cryptochrome by cryo-EM Experiment number: MX2337</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kandiah</forename><surname>Eaazhisai</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Elmar</forename><surname>Behrmann</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Gayathri</forename><surname>Jeyasankar</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Cologne Dr. Eva Wolf</orgName>
+								<address>
+									<settlement>University Mainz</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Cologne</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structure analysis of a dimeric cryptochrome by cryo-EM Experiment number: MX2337</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">49A278584FF2366067D41DDE1F382D8F</idno>
+					<note type="submission">from: 21.10.2020 to: 23.10.2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The beam-line allocation of Wednesday 21 st of October till Friday 23 rd of October 2020 yielded a total of 10,779 exposure frame-movies. Initially, we tried to follow the processing pipeline we had established for the data collected in-house. This yielded a total of ~2.4 million particles from 10,759 high quality summed and doseweighted micrographs. With the compute infrastructure available to us in late 2020, we had to divide this particle set into twenty equally sized groups and process each subset of particles individually in Relion3.1 at the stage of 2D classification. 2D classification confirmed the high accuracy of crYOLO used for identifying particle coordinates, as ~2 million remained in the high-quality dataset. However, 2D classes predominantly showed top views of the dimer with as little as 10% front views and no side views present. Resulting 3D reconstructions did not reach high resolutions and were strongly anisotropic showing elongated features in the z direction. At this point, we relocated our laboratory to a different institute in another city -which together with the ongoing pandemic resulted in a forced break that lasted almost half a year. Hoping that we would have benn able to continue working on the project, and hoping that -given the high amount of particle images -we refrained from submitting a report with the aforementioned results. Recently, we could finally install a HPC GPU node at our new institute (equipped with a dual A100 GPU) allowing us to re-process the ESRF dataset from experiment MX2337. In order to avoid potential bias due to the previously used selection and classification strategy we employed cryoSPARC this time for the 3D reconstruction. Limiting total motion of the movies to 20 pixels, maximum in-frame motion to 2 pixels, and the CTF fit to better than 7.5 Å resulted in a subset of 8,619 micrographs that were further processed. Using the blob picker implemented we created an initial selection of putative particles that was then subjected to</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>unsupervised 2D classification into 50 classes. 9 of those showed clear top and front views of the protein, though regretfully no parameters could be found that unveiled side views of the dimer. Using these classes as templates, close to 4 million putative particles were identified in the dataset, of which ~1.5 million were part of 2D classes that showed distinct protein features (Figure <ref type="figure" target="#fig_0">1</ref>). Different from our preceding approach, we could observe both front and top views in the dataset. However, side views were not observed in the 2D class averages. Classes marked with the blue outline were selected for further processing steps.</p><p>To increase processing speed, we re-extracted the particles in the selected classes with re-centering and binning from the original 0.65 Å/px sampling rate to a sampling rate of 1.06 Å/px. As expected, an initial 3D model calculated ab-initio from these particles showed the same dimer as observed before. Heterogeneous 3D refinement specifying 5 classes using the same initial model as the starting point revealed a single garbage class that accounts for 222,316 particles and contains a significant amount of clearly artificial particles. Recombining the remaining 4 classes and using non-uniform 3D refinement yielded a 3D reconstruction at a nominal resolution of 3.5 Å (Figure <ref type="figure" target="#fig_1">2</ref>). Again, the resulting structure was strongly anisotropic, showing side-chain features in the x/y-plane but strongly distorted in the z-plane. The viewing distribution shows particles distributed either at a narrow band of the 'poles' of the plot or together with a narrow populated region at an azimuth of π/2. While the powerful GPU architecture allowed us to test various approaches to further investigate the data (i.e. omitting the 2D classification and sorting directly in 3D), we did not find any strategy that overcame the strong anisotropy.</p><p>Hence, we are preparing cryo-samples employing UltrAUfoil grids that will hopefully enable us to collect a dataset at a tilt of 40 degrees to overcome the limited views due to the preferential orientation of the protein.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure1: Particles are either oriented in front or top view direction. Different from our preceding approach, we could observe both front and top views in the dataset. However, side views were not observed in the 2D class averages. Classes marked with the blue outline were selected for further processing steps.</figDesc><graphic coords="2,34.34,105.03,354.43,176.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: The resulting structure is strongly anisotropic. (A) Perpendicular slices through the volume and (B) surface representation in front and top view orientation of one of the most promising results in 3D refinement. Despite the presence of two perpendicular view directions in the dataset, the resulting structure is strongly anisotropic, although (C) the overall resolution is good. (D) A plot of the view directions reveals a severe bias towards a single azimuth (the second peak is due to the C2 symmetry) and a single elevation band.</figDesc><graphic coords="2,34.34,441.39,391.46,173.70" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

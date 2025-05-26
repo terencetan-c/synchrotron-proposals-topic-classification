@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Application of Synchrotron X-ray Microtomography for Visualizing Bacterial Biofilms 3D Microstructure in Porous Media</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">S</forename><surname>Rolland Du Roscoat</surname></persName>
+							<email>sabine.rollandduroscoat@3sr-grenoble.fr</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire 3SR</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 5521</orgName>
+								<orgName type="institution" key="instit1">Universite ´Joseph Fourier de Grenoble</orgName>
+								<orgName type="institution" key="instit2">Grenoble- INP</orgName>
+								<address>
+									<addrLine>Domaine Universitaire</addrLine>
+									<postCode>BP53 38041 Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">European Synchrotron Radiation Facility</orgName>
+								<address>
+									<addrLine>ID 19</addrLine>
+									<postBox>BP 220</postBox>
+									<postCode>38043 Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">M F</forename><surname>Martins</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory" key="lab1">Laboratoire d&apos;Etudes des Transferts en Hydrologie et Environnement (LTHE)</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5564</orgName>
+								<orgName type="institution" key="instit1">CNRS-Universite ´Joseph Fourier de Grenoble</orgName>
+								<orgName type="institution" key="instit2">Grenoble-INP</orgName>
+								<address>
+									<postCode>Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Se</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory" key="lab1">Laboratoire des Ecoulements Ge ´ophysiques et Industriels (LEGI)</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 5519</orgName>
+								<orgName type="institution" key="instit1">Universite ´Joseph Fourier de Grenoble</orgName>
+								<orgName type="institution" key="instit2">Grenoble-INP</orgName>
+								<address>
+									<postCode>Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Vince</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory" key="lab1">Laboratoire d&apos;Etudes des Transferts en Hydrologie et Environnement (LTHE)</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5564</orgName>
+								<orgName type="institution" key="instit1">CNRS-Universite ´Joseph Fourier de Grenoble</orgName>
+								<orgName type="institution" key="instit2">Grenoble-INP</orgName>
+								<address>
+									<postCode>Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Latil</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire 3SR</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 5521</orgName>
+								<orgName type="institution" key="instit1">Universite ´Joseph Fourier de Grenoble</orgName>
+								<orgName type="institution" key="instit2">Grenoble- INP</orgName>
+								<address>
+									<addrLine>Domaine Universitaire</addrLine>
+									<postCode>BP53 38041 Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Geindreau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire 3SR</orgName>
+								<orgName type="laboratory" key="lab2">UMR CNRS 5521</orgName>
+								<orgName type="institution" key="instit1">Universite ´Joseph Fourier de Grenoble</orgName>
+								<orgName type="institution" key="instit2">Grenoble- INP</orgName>
+								<address>
+									<addrLine>Domaine Universitaire</addrLine>
+									<postCode>BP53 38041 Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Application of Synchrotron X-ray Microtomography for Visualizing Bacterial Biofilms 3D Microstructure in Porous Media</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">26C49803C83F20DA65C53FFA9194605E</idno>
+					<idno type="DOI">10.1002/bit.25168/abstract</idno>
+					<note type="submission">Received 16 July 2013; Revision received 25 October 2013; Accepted 26 November 2013 Accepted manuscript online 30 November 2013; Article first published online 27 December 2013 in Wiley Online Library</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>biofilm</term>
+					<term>microtomography</term>
+					<term>biofilter</term>
+					<term>porous media</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The development of reliable models to accurately predict biofilm growth in porous media relies on a good knowledge of the temporal evolution of biofilms structure within the porous network. Since little is known on the true 3D structure of biofilms developed in porous media, this work aimed at developing a new experimental protocol to visualize the 3D microstructure of bacterial biofilms in porous media. The main originality of the proposed procedure lies on the combination of the more recent advances in synchrotron microtomography (Paganin mode) and of a new contrast agent (1-chloronaphtalene) that has never been applied to biofilm visualization. It is shown that the proposed methodology takes advantage of the contrasting properties of 1-chloronaphtalene to prevent some limitations observed with more classical contrast agents. A quantitative analysis of the microstructural properties (volume fractions and specific surface area) of bacterial biofilms developed in columns of clay beads is also proposed on the basis of the obtained 3D images.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Bacterial biofilms can be found everywhere and especially in natural porous media, such as soils and sediments <ref type="bibr" target="#b13">(Monrozier et al., 1993)</ref>. The growth of microorganisms can affect the physical and chemical properties of these media and can also promote or reduce organic matter degradation and pollution dispersion <ref type="bibr" target="#b0">(Baptist et al., 2008;</ref><ref type="bibr" target="#b7">Guiné et al., 2003</ref><ref type="bibr" target="#b7">Guiné et al., , 2007;;</ref><ref type="bibr" target="#b11">Martins et al., 1997)</ref>. Biofilms in porous media are fundamental in the field of engineering sciences. They are currently used for in situ soil bioremediation, aquifer protection or assisted oil recovery. In the frame of (bio) chemical engineering, biofilms grown in granular porous media (called biofilters) are widely used to treat domestic or industrial liquid effluents. The development of reliable models <ref type="bibr" target="#b3">(Brovelli et al., 2009)</ref> to describe and manage such systems requires a good knowledge of the evolving biofilm microstructure at the pore scale <ref type="bibr" target="#b5">(Devinny and Ramesh, 2005;</ref><ref type="bibr" target="#b15">Stoodley et al., 1994;</ref><ref type="bibr" target="#b2">Blanco et al., 2011)</ref>. However, at the scale of a few pores, there exist very few reliable data on biofilm distribution and structural properties <ref type="bibr" target="#b4">(Davit et al., 2011)</ref>. Indeed visualizing and quantifying accurately the microstructure of bacterial biofilms (volume fraction or specific surface area) in porous media still remains a challenge. In that scientific field, X-ray microtomography is a quite new method, which allows getting 3D images of the porous medium inner structure. Applying such techniques for imaging biofilms raises two main difficulties: (i) the preservation of biofilm properties: to avoid biofilm drying and therefore any shape modification, it has to be maintained in wet conditions during the scan, with the difficulty that irradiating liquid phases with synchrotron sources may cause degasification of the liquid phase and blur data reconstruction; (ii) the principle of X-ray microtomography relies on the difference in X-ray absorption of the sample constituents, which mainly depends for given experimental conditions (X-ray energy) on the atomic number and density of these constituents. In the case of biofilters, the main difficulty lies in the distinction between the biofilm and the aqueous phase, which are chemically very close. To overcome these difficulties, classical approaches consist in using chemical contrasting agents. Efficient contrast agents must not diffuse within the microporous biofilm. Two main strategies have been proposed: (i) the first one consists in visualizing one or both phases of close X-ray absorption coefficients using one or more contrast agents (e.g., <ref type="bibr" target="#b4">Davit et al., 2011)</ref> and (ii) the second one consists in visualizing only the interface between the two phases (e.g., <ref type="bibr" target="#b8">Iltis et al., 2011)</ref>. For the first strategy, barium sulfate is commonly used as a contrast agent: barium is introduced as highly concentrated (&gt;0,33 g/mL) BaSO 4 suspensions, behaving like pastes, to contrast the liquid phase alone or in combination with a biofilm contrasting agent, such as potassium iodide <ref type="bibr" target="#b4">(Davit et al., 2011)</ref>. The second strategy <ref type="bibr" target="#b8">(Iltis et al., 2011)</ref> consists in the discrete coating of the biofilm surface using silver microspheres. Although promising, both approaches were shown to suffer from important limitations such as fast sedimentation and heterogeneous distribution of barium or the uncontrolled deposition of silver spheres at the biofilm surface. In the latter case, <ref type="bibr" target="#b8">Iltis et al. (2011)</ref> stated indeed that the biofilm-liquid interface is deduced from a cloud of points corresponding to the microspheres location. Therefore, the description of this interface strongly depends on the quality of the biofilm coverage by these microspheres: some refined features of the biofilm surface can then be missed. In the case of barium sulfate <ref type="bibr" target="#b4">(Davit et al., 2011)</ref>, sedimentation constraints make necessary the use of highly concentrated suspensions, which thus behave like a paste. The full and homogenous filling of the pore network is not ensured (especially in the finest pores and at the beads connections). Consequently, alternative contrast agents are needed to better characterize these zones and to improve biofilm visualization and modeling.</p><p>The objective of this study was to develop a synchrotronbased procedure to improve the visualization of biofilms developed in porous media in order to characterize their microstructure using X-ray microtomography. A new procedure is proposed to visualize bacterial biofilms in porous media at the scale of a few pores. The originality of this work lies in the application of a new contrast agent unused to date for biofilm visualization, in combination with the application of the more recent developments in the reconstruction of 3D images obtained by synchrotron microtomography.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>The Model Biofilm Forming Bacteria Pseudomonas putida strain DSM 6521 was used as model biofilm-forming bacterium. This bacterium is known to easily form biofilms and to degrade a wide range of organic contaminants <ref type="bibr" target="#b9">(Karrabi et al., 2011)</ref>. The bacterial cells were grown overnight at 30 C until late exponential phase in liquid Luria Bertani (LB) medium <ref type="bibr" target="#b12">(Martins et al., 2013)</ref> supplemented with ampicillin (100 mg/mL) for cell selection. The biofilm was allowed to develop for 13 days in the porous media.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mini-Biofilter</head><p>The mini-biofilters are glass columns (XK 13 GC Healthcare Ltd, London) of 10 mm inner diameter, 15 mm outer diameter, and 20 cm long. They are filled with Biolite 1 beads that is porous clay beads of 3 mm in diameter <ref type="bibr" target="#b9">(Karrabi et al., 2011)</ref> commonly used as solid carriers in biofiltration industry. At the end of the filling, the granular porous medium is blocked between two length adaptors. Autoclavable teflon tubes were used to connect the columns to growth medium reservoirs through peristaltic pump tubings. The full system was previously autoclaved at 120 C for 20 min before inoculation with the model bacterium. A preliminary injection of an axenic culture of P. putida was performed to inoculate the biofilter and then a constant flux of bacteriafree growth medium was set in the column in an open circuit. Air inlet was filtered at 0.2 mm in order to avoid microbial contamination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Growing Bacterial Biofilms</head><p>After overnight growth at 30 C in LB medium, 500 mL of cells suspension were injected in closed circuit in the sterile mini-biofilters for 24 h using a peristaltic pump (Gilson Minipuls 3) in order to inoculate the model bacterium in the porous medium. The mini-biofilters were kept at 23 C and continuously supplied with 1/10 diluted LB liquid medium at a flow rate set to 20 mL/h (equivalent to a Darcy flow with a superficial velocity of 16 cm/h) with the peristaltic pump connected to 2 L LB reservoirs. The liquid medium was continuously aerated by stirring at 200 rpm, in order to maintain a constant oxygen oxygenation (which level was measured once at 6 mg/L with an O 2 electrode [InPro 6800 O2 sensor, Mettler Toledo] in the stirred growth medium tank) Growth medium tanks were refilled every 24-48 h with diluted fresh LB medium, which was found to facilitated biofilm formation inside the packed beads as compared to the undiluted LB medium (data not shown).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Contrast Agents</head><p>1-Chloronaphtalene (90% pur., ACROS-Organics, Strasbourg, France) was used as a new contrast agent <ref type="bibr" target="#b6">(Flin et al., 2003)</ref>. It has never been used for visualizing biofilms, to our knowledge. It presents the advantage of being chemically different from bacterial biofilms and immiscible with water. The BaSO 4 (99%, Chimieplus, Lyon, France) contrast agent was also used for the sake of comparison. The concentration of BaSO 4 used in our study was 0.33 g/mL as used in <ref type="bibr" target="#b4">Davit et al. (2011)</ref>. For comparing images obtained with the two contrast agents, the mini-biofilters were first saturated with 1-chloronaphtalene and scanned by microtomography as described above. Without removing the mini-biofilter from the microtomograph stage, 1-chloronaphtalene was drained off, and the column was then saturated again with BaSO 4 and scanned again in order to reconstruct 3D images of the same zones of the mini-biofilters. The two contrast agents were compared on the basis of two image analysis criteria: (i) the homogeneity of the contrast agent distribution and (ii) the easiness of biofilm/liquid phase separation with segmentation techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synchrotron X-Ray Microtomography (SXRM) Applied to Mini-Biofilters</head><p>The mini-biofilter was placed on a high precision rotationtranslation stage that permits the accurate alignment (AE0.1 mm) of the three main components: beam, sample, and detector. The samples were irradiated with a parallel and monochromatic X-ray beam. The X-ray energy was set to 52 keV because of the high X-ray absorbency of clay beads and of the thickness of the glass tube. To limit the effect of degasification of the liquid phase during data acquisition and therefore any shape modification, we used the "fast tomography mode," which allows the recording of 2,500 radiographs over 180 in less than 2 min. The beam transmitted through the sample is converted by a scintillator into visible light that propagates through optics to the FReLoN camera <ref type="bibr" target="#b10">(Labiche et al., 2007)</ref>. The obtained pixel size depends on the combination of the optics and the pixel size of the detector. According to the objectives of the study, the datasets were acquired at a pixel size of 5 mm, which allows the simultaneous visualization of the whole inner structure of the mini-biofilter, the clay beads and the biofilm. In such conditions, the imaged volume is roughly 10 mm Â 10 mm Â 5 mm. The obtained set of radiographs is used to reconstruct the 3D biofilter microstructure using a filter back projection algorithm <ref type="bibr" target="#b1">(Baruchel et al., 2000)</ref>. The recorded signal, that is the radiographs, which depends on the sample/detector distance constitutes the input of the reconstruction algorithm and defines as a consequence the synchrotron X-ray modes. In general, two modes are possible in this case: (i) microtomography in absorption mode <ref type="bibr" target="#b1">(Baruchel et al., 2000)</ref>: this mode is experimentally obtained by setting the camera as close as possible of the sample. It reveals the sample microstructure provided that the sample constituents present significant differences in terms of absorption. This is the case for example when phases present different densities as clay beads and water phase. (ii) Microtomography using phase retrieval approaches <ref type="bibr" target="#b14">(Sanchez et al., 2012)</ref>. Classically propagation-based phase contrast imaging techniques require the recording of several scans with different sample-detector distances. The phase retrieval is done by combining these images. Recent advances in reconstruction algorithms <ref type="bibr" target="#b13">(Paganin et al., 2002;</ref><ref type="bibr" target="#b14">Sanchez et al., 2012)</ref> allow processing the phase retrieval using a single propagation distance. This mode is experimentally obtained by setting the camera far from the sample (about 1 m).</p><p>Generally, this mode is 100-1,000 times more sensitive than the absorption mode and allows revealing phases that are chemically close such as biofilms (dominantly composed of water) and aqueous phases. In both cases, the reconstructed magnitudes represent the spatial distribution (3D cartography) of the chemical composition of the studied sample, which is represented on the images as gray levels. In our particular case, at the energy of 52 keV, the images were acquired in Paganin mode in order to increase the contrast between 1-chloronaphtalene and the biofilm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biofilm Microstructural Analysis Based on 3D Images</head><p>To obtain quantitative parameters describing the local microstructure of the mini-biofilter, the three main phases of the colonized porous medium (clay beads, liquid phase, and biofilm) had to be separated in order to get a new 3D dataset in which each constituent is represented by a single gray level. This crucial step called segmentation was achieved using semi-automatic segmentation tools provided by VGStudiomax©. For that, a seed point is manually chosen. New voxels are added to this region provided they are connected to this region and fulfill a criteria based on gray level of the voxels. This criterion ensured the homogeneity of the segmented region. The segmented datasets were then used to evaluate microstructural parameters such as volume fractions (biofilm fraction, initial void fraction, final void fraction) and specific surface area, which play crucial roles on all porous media effective properties (permeability, dispersion, diffusion, or mass transfer) involved in macroscopic models <ref type="bibr" target="#b9">(Karrabi et al., 2011)</ref>.</p><p>The biofilm fraction is defined as the ratio of the biofilm volume and the total porous medium volume. These quantities can be estimated on segmented datasets by counting the voxels belonging to the considered phase, and the total number of voxels, respectively. The specific surface area, defined as the ratio between the surface of the considered phase and the sample volume, can be estimated on digital images using stereological tools <ref type="bibr" target="#b16">(Underwood, 1969)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Two-dimensional images of the colonized mini-biofilter obtained with 1-chloronaphtalene or barium sulfate are shown in Figure <ref type="figure" target="#fig_0">1</ref>. In these two images, the same glass tube, clay beads, aqueous phase (contrast agent), and biofilm can be observed. Figure <ref type="figure" target="#fig_0">1a</ref> and b shows strong differences in terms of spatial homogeneity of the two contrast agents. The 1-chloronaphtalene liquid phase appears very homogeneous and easy to separate from the biofilm as the edges of the biofilm contours appear sharp on the images. This is confirmed by the evolution of the gray-level profile (Fig. <ref type="figure" target="#fig_0">1c</ref>) measured along the line in the images obtained with both contrast agents. Contrarily to 1-chloronaphtalene (Fig. <ref type="figure" target="#fig_0">1a</ref>), the barium sulfate suspension appears strongly heterogeneous both in the bulk and at the interface of the pores (Fig. <ref type="figure" target="#fig_0">1b</ref>). This contrast agent was already heterogeneous when it was introduced into the mini-biofilters, indicating that its heterogeneity cannot be attributed to any residual 1-chloronaphtalene. The heterogeneous aspect of the barium sulfate suspension comes from (i) the extremely low solubility of barium sulfate which thus precipitates and (ii) its heterogeneous aggregation and sedimentation in the complex pore network of the porous media. Some of the heterogeneous areas are surrounded by a pink line in Figure <ref type="figure" target="#fig_0">1b</ref>. Furthermore, with barium sulfate, the edges of the bacterial biofilm are not always sharp and the borders appear difficult to define. Moreover, some parts of the liquid phase visualized with barium sulfate present similar gray levels as the biofilm (cf. yellow squares in Fig. <ref type="figure" target="#fig_0">1b</ref>), which makes impossible the use of automatic thresholding techniques. This is confirmed by the evolution of the gray level (Fig. <ref type="figure" target="#fig_0">1 c</ref>) along the black line in Figure <ref type="figure" target="#fig_0">1b</ref>.</p><p>The analysis of biofilm microstructure was conducted only with 3D datasets acquired with 1-chloronaphtalene. The analysis was not performed on barium sulfate datasets because of the difficulties to define accurately the shape of the biolfim as shown above. Furthermore, in some rare cases, the experimental procedure (water and 1-chloronaphtalene removal by biofilter drainage) induced the migration of biofilm fragments, thus limiting the quantification of images acquired with barium sulfate.</p><p>The presented results were obtained on parallelepipedic volume of 5.460 Â 5.460 Â 5.137 mm 3 extracted in the center of the 3D datasets. Three-dimensional datasets were recorded at seven different heights along the mini-biofilter. Figure <ref type="figure" target="#fig_1">2</ref> shows 3D views of three of these datasets chosen at the bottom, the middle, and the top of the biofilter. On the center of Figure <ref type="figure" target="#fig_1">2</ref>, we can observe the clay beads in gray and the biofilm in purple. On the right side, the biofilm is shown alone. This illustrates the homogeneity of the clay beads phase and the spatial variability of the biofilm phase in terms of volume fraction and shape. The bacterial biofilm appears localized in areas that are close to contact areas between beads. Although drainage effects preceding the introduction of 1-chloronaphtalene cannot be totally excluded, this may probably be due to the preferential development of the biofilm in these dead zones where the effect of flow circulation is weaker <ref type="bibr" target="#b17">(Yazdi and Ardekani, 2012)</ref>. In each 3D dataset, the bead volume fraction, biofilm fraction, and interfacial area were evaluated using the tools and techniques described in the previous section. Figure <ref type="figure">3</ref> shows the obtained volume fractions and specific surface areas for different heights along the mini-biofilter. It can be noticed that the pore volume fraction in each analyzed volume is about 0.4. This value is larger than the theoretical porosity of 0.35 obtained in a medium filled with packed beads. In the present case, the large value of the porosity can be explained by three reasons: (i) the initial arrangement of the beads might not be fully compact; (ii) the beads are not perfect spheres (Fig. <ref type="figure" target="#fig_1">2</ref>); and (iii) the ratio between the diameter of the beads and the inner diameter of the biofilter which is not small enough (around 3.3) in order to avoid boundary effects (i.e., to have a good scale separation). The evolution of the biofilm volume fraction as a function of the biofilter's height (Fig. <ref type="figure">3a</ref>) showed as expected that there was a higher biofilm mass at the bottom of the column, which is the nutrients entry. This is consistent with measurements performed on larger biofilters operated in similar flow conditions <ref type="bibr" target="#b9">(Karrabi et al., 2011)</ref>. The vertical evolution of the specific surface area along the biofilter (Fig. <ref type="figure">3b</ref>) is close to the evolution of the volume fraction, with a higher specific surface area at the bottom of the column where the biofilm preferentially developed. This vertical distribution is in agreement with our visual observations: the microstructure of the biofilm is more complex at the bottom than at the top part of the column. This is in agreement with the results of <ref type="bibr" target="#b9">Karrabi et al. (2011)</ref> who showed a relationship between permeability and biofilm volume. They exhibited a behavior which could not be explained by a simplified distribution of the biofilm around beads and a Kozeny formulation.</p><p>All these results point out that the proposed methodology is quite promising in order to quantify biofilm microstructure in porous media. However, in order to get more representative data that can be used in macroscopic models, such analysis has to be carried out in biofilters of larger diameter or with smaller beads. Moreover, these experiments should be reproduced under several growth conditions in order to ensure a statistical relevance of the analysis and to check the influence of drainage on biofilm repartition. Our results are in agreement with the trends obtained using indirect measurements of biofilm microstructure, thus validating the experimental protocol developed in the present study.</p><p>To conclude, a new experimental protocol was proposed to visualize the 3D microstructure of bacterial biofilms developed in mini-biofilters. The originality of the procedure relies on the combination of a contrast agent (1-chloronphtalene) newly applied to visualize biofilms and of the more recent advances in synchrotron microtomography (Paganin mode). It was shown that the proposed methodology prevented drawbacks (fast sedimentation, heterogeneous distribution of barium, etc.) encountered with classical contrast agents. Moreover, a quantitative analysis of the microstructural properties of biofilms such as the volume fractions and specific surface area was performed on the 3D images: the general trends observed were found to be consistent with indirect measurements. This work provides new insights in bacterial biofilms 3D microstructure measurement and demonstrates the efficiency of SXRM for visualizing complex microstructure in porous media. Thanks are due to David Lejon and Aurélien Desaunay for their technical help. We also gratefully acknowledge ESRF and CNRS for their scientific and financial support through the respective projects: SC3088 "3D characterisation of bacteria biofilm microstructure in porous media using synchrotron X-Ray microtomography" and PEPS 2009 "Caractérisation et quantification de l'évolution de la (micro) structure tridimensionnelle de biofilms en milieux poreux par microtomographie aux rayons X "</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Comparison of images obtained with two contrast agents: (a) 1-chloronaphtalene; (b) barium sulfate. Some of the inhomogeneous aggregates have been surrounded in dashed pink. Some of the areas where thresholding techniques fail to identify the biofilm are yellow-squared (c) evolution of gray level along a line for each contrast agent.</figDesc><graphic coords="4,81.69,58.05,420.68,287.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. 3D spatial repartition of the biofilm as a function of biofilter height H (represented volume: 5.460 Â 5.460 Â 5.137 mm 3 ). Gray: beads, pink: biofilm.</figDesc><graphic coords="5,131.36,58.05,341.44,285.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,87.70,58.05,408.68,286.53" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Biotechnology and Bioengineering, Vol. 111, No. 6, June, 2014   </p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Rolland du Roscoat et al.: mCT of bacterial biofilm in porous media</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Biotechnology and Bioengineering</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Tannin impacts on microbial diversity and the functioning of alpine soils: a multidisciplinary approach</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baptist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Clement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gallet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guillemin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jmf</forename><forename type="middle">M F</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shahnavaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Choler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Geremia</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1462-2920.2007.01504.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Microbiology</title>
+		<title level="j" type="abbrev">Environmental Microbiology</title>
+		<idno type="ISSN">1462-2912</idno>
+		<idno type="ISSNe">1462-2920</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="799" to="809" />
+			<date type="published" when="2008-01-25">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baptist F, Singer L, Clement JC, Gallet C, Guillemin R, Martins JMF, Sage L, Shavanaz B, Choller P, Geremia R. 2008. Tannin impacts on microbial diversity and the functioning of Alpine soils. A multidisciplinary approach. Environ Microbiol 10:799-809.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">X-ray tomography in material science</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baruchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Buffière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maire</forename><forename type="middle">E</forename><surname>Peix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Hermes Science</publisher>
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baruchel J, Buffière JY, Maire E, Peix G. 2000. X-ray tomography in material science. Paris: Hermes Science.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">New Tool To Monitor Biofilm Growth in Industrial Process Waters</title>
+		<author>
+			<persName><forename type="first">Angeles</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Esperanza</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elena</forename><surname>Fuente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Negro</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ie101422m</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial &amp; Engineering Chemistry Research</title>
+		<title level="j" type="abbrev">Ind. Eng. Chem. Res.</title>
+		<idno type="ISSN">0888-5885</idno>
+		<idno type="ISSNe">1520-5045</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="5766" to="5773" />
+			<date type="published" when="2011-03-25">2011</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blanco A, Torres E, Fuente E, Negro C. 2011. New tool to monitor biofilm growth in industrial process waters. Ind Eng Chem Res 50:5766-5773.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Bioclogging in porous media: Model development and sensitivity to initial conditions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brovelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Malaguerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Barry</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.envsoft.2008.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Modelling &amp; Software</title>
+		<title level="j" type="abbrev">Environmental Modelling &amp; Software</title>
+		<idno type="ISSN">1364-8152</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="611" to="626" />
+			<date type="published" when="2009-05">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brovelli A, Malaguerra F, Barry DA. 2009. Bioclogging in porous media: Model development and sensitivity to initial conditions. Environ Model Soft 24:611-626.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Imaging biofilm in porous media using X-ray computed microtomography</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Davit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Iltis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Debenest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Veran-Tissoires</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wildenschild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gerino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Quintard</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2818.2010.03432.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Microscopy</title>
+		<idno type="ISSN">0022-2720</idno>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="25" />
+			<date type="published" when="2011">2011</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davit Y, Iltis G, Debenest G, Veran-Tissoires S, Wildenschild D, Gerino M, Quintard M. 2011. Imaging biofilm in porous media using X-ray computed microtomography, J Microsc 242:15-25.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A phenomenological review of biofilter models</title>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">S</forename><surname>Devinny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ramesh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cej.2005.03.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Engineering Journal</title>
+		<title level="j" type="abbrev">Chemical Engineering Journal</title>
+		<idno type="ISSN">1385-8947</idno>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="187" to="196" />
+			<date type="published" when="2005-10">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Devinny JS, Ramesh J. 2005. A phenomenological review of biofilter models. Chem Eng J 113:187-196.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Full three-dimensional modelling of curvature-dependent snow metamorphism: first results and comparison with experimental tomographic data</title>
+		<author>
+			<persName><forename type="first">Fr</forename><forename type="middle">D Ric</forename><surname>Flin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Bruno</forename><surname>Brzoska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><surname>Lesaffre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Cile</forename><surname>Col ou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Romeu</forename><forename type="middle">Andr</forename><surname>Pieritz</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/36/10a/310</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<title level="j" type="abbrev">J. Phys. D: Appl. Phys.</title>
+		<idno type="ISSN">0022-3727</idno>
+		<idno type="ISSNe">1361-6463</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">10A</biblScope>
+			<biblScope unit="page" from="A49" to="A54" />
+			<date type="published" when="2003-04-22">2003</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flin F, Browska JB, Lesaffre B, Coleou C, Pierritz R. 2003. Full three- dimensional modelling of curvature-dependent snow metamorphism: first results and comparison with experimental tomographic data. J Appl Phys D 36:A49-A54.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of cultivation and experimental conditions on the surface reactivity of the metal-resistant bacteria Cupriavidus metallidurans CH34 to protons, cadmium and zinc</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Guiné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jmf</forename><forename type="middle">M F</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Causse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Gaudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Spadini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemgeo.2006.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Geology</title>
+		<title level="j" type="abbrev">Chemical Geology</title>
+		<idno type="ISSN">0009-2541</idno>
+		<imprint>
+			<biblScope unit="volume">236</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="266" to="280" />
+			<date type="published" when="2003">2003. 2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>Facilitated transport of heavy metals by bacterial colloids in sand columns Chem Geol</note>
+	<note type="raw_reference">Guiné V, Martins JMF, Gaudet JP. 2003. Facilitated transport of heavy metals by bacterial colloids in sand columns. J Phys IV 107:593- 596. Guiné V, Martins JMF, Causse B, Durand A, Spadini L. 2007. Effect of cultivation and experimental conditions on the surface reactivity of the metal-resistant bacteria Cupriavidus metallidurans CH34 to protons, cadmium and zinc. Chem Geol 236:266-280.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Imaging biofilm architecture within porous media using synchrotron‐based X‐ray computed microtomography</title>
+		<author>
+			<persName><forename type="first">Gabriel</forename><forename type="middle">C</forename><surname>Iltis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ryan</forename><forename type="middle">T</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Danielle</forename><forename type="middle">P</forename><surname>Jansik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">D</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dorthe</forename><surname>Wildenschild</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2010wr009410</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Water Resources Research</title>
+		<title level="j" type="abbrev">Water Resources Research</title>
+		<idno type="ISSN">0043-1397</idno>
+		<idno type="ISSNe">1944-7973</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2011-02">2011</date>
+			<publisher>American Geophysical Union (AGU)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iltis G, Armstrong RT, Jansik DP, Wood BD, Wildenschild D. 2011. Imaging biofilm architecture within porous media using synchrotron-based X- ray computed microtomography. Water Resour Res 47:1-5.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Investigation of hydrodynamic/biomass growth coupling in a pilot scale granular bioreactor at low pore Reynolds number</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karrabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Séchet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Morra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cartellier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Geindreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jmf</forename><forename type="middle">M F</forename><surname>Martins</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ces.2011.01.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Engineering Science</title>
+		<title level="j" type="abbrev">Chemical Engineering Science</title>
+		<idno type="ISSN">0009-2509</idno>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1765" to="1782" />
+			<date type="published" when="2011-04">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karrabi M, Séchet P, Morra C, Cartelier A, Geindreau C, Martins JMF. 2011. Investigation of hydrodynamics/biofilm growth coupling in a pilot scale granular bioreactor at low pore Reynolds number. Chem Eng Sci 66:1765-1782.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Invited article: The fast readout low noise camera as a versatile x-ray detector for time resolved dispersive extended x-ray absorption fine structure and diffraction studies of dynamic problems in materials science, chemistry, and catalysis</title>
+		<author>
+			<persName><forename type="first">Jean-Claude</forename><surname>Labiche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Mathon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sakura</forename><surname>Pascarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">A</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gemma</forename><forename type="middle">Guilera</forename><surname>Ferre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Caroline</forename><surname>Curfs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gavin</forename><surname>Vaughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alejandro</forename><surname>Homs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">Fernandez</forename><surname>Carreiras</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2783112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<idno type="ISSN">0034-6748</idno>
+		<idno type="ISSNe">1089-7623</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="91301" to="091311" />
+			<date type="published" when="2007-09-01">2007</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Labiche JC, Mathon O, Pasarelli S, Guilera-Ferre G, Curfs C, Vaughan G, Homs A, Carreira-Fernandes D. 2007. The Fast read out low noise camera as a versatile X-ray detector for time resolved dispersive extended X-ray absorption fine structure and diffraction studies of dynamic problems in material science, review of scientific instrument. 091301- 091311.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microbial response to repeated applications of low concentrations of pentachlorophenol in an alfisol under pasture</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jocteur Monrozier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chalamet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bardin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0045-6535(97)00245-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemosphere</title>
+		<title level="j" type="abbrev">Chemosphere</title>
+		<idno type="ISSN">0045-6535</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1637" to="1650" />
+			<date type="published" when="1997-10">1997</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martins JM, Monrozier LJ, Chalamet A, Bardin R. 1997. Microbial response to repeated applications of low concentrations of pentachlorophenol in an Alfisol under pasture, Chemosphere 35:1637-1650.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Role of macropore flow in the transport of Escherichia coli cells in undisturbed cores of a brown leached soil</title>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">M F</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Samer</forename><surname>Majdalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elsa</forename><surname>Vitorge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aurélien</forename><surname>Desaunay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aline</forename><surname>Navel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Véronique</forename><surname>Guiné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">François</forename><surname>Daïan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erwann</forename><surname>Vince</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hervé</forename><surname>Denis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">Paul</forename><surname>Gaudet</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c2em30586k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci.: Processes Impacts</title>
+		<title level="j" type="abbrev">Environ. Sci.: Processes Impacts</title>
+		<idno type="ISSN">2050-7887</idno>
+		<idno type="ISSNe">2050-7895</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="347" to="356" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martins JMF, Majdalani S, Vitorge E, Desaunay A, Navel A, Guiné V, Daïan JF, Vince E, Denis H, Gaudet JP. 2013. Importance of macropore flow for the transport of Escherichia coli cells in undisturbed cores of a brown leached soil. Environ Sci Processes Impacts 15:347-356.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Distribution of micro-organisms and fate of xenobiotic molecules Figure 3. 3D quantification of the microstructure as a function of biofilters height H: (a) volume fraction and (b) specific surface area. The values circled in red correspond to the three images shown Figure 2. in unsaturated soil environments</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Monrozier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Guez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chalamet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bardin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Gaudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paganin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Gureyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Wilkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="33" to="40" />
+			<date type="published" when="1993">1993. 2002</date>
+		</imprint>
+	</monogr>
+	<note>J Microsc</note>
+	<note type="raw_reference">Monrozier LJ, Guez P, Chalamet A, Bardin R, Martins JM, Gaudet JP. 1993. Distribution of micro-organisms and fate of xenobiotic molecules Figure 3. 3D quantification of the microstructure as a function of biofilters height H: (a) volume fraction and (b) specific surface area. The values circled in red correspond to the three images shown Figure 2. in unsaturated soil environments. Sci Total Environ 136:121- 133. Paganin D, Mayo SC, Gureyev TE, Miller PR, Wilkins SW. 2002. Simultaneous phase and amplitude extraction from a single defocused image of a homogeneous object. J Microsc 206:33-40.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Three-Dimensional Synchrotron Virtual Paleohistology: A New Insight into the World of Fossil Bone Microstructures</title>
+		<author>
+			<persName><forename type="first">Sophie</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Per</forename><forename type="middle">E</forename><surname>Ahlberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katherine</forename><forename type="middle">M</forename><surname>Trinajstic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Mirone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Tafforeau</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s1431927612001079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microscopy and Microanalysis</title>
+		<title level="j" type="abbrev">Microsc Microanal</title>
+		<idno type="ISSN">1431-9276</idno>
+		<idno type="ISSNe">1435-8115</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1095" to="1105" />
+			<date type="published" when="2012-10">2012</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanchez S, Ahlberg P, Trinajstic K, Mirone A, Tafforeau P. 2012. Three dimensional synchrotron virtual paleohistology, 2012: A new insight into the word of fossil bone microstructures. Microsc Microanal 19:1095-1105.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Liquid Flow in Biofilm Systems</title>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Stoodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>Debeer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zbigniew</forename><surname>Lewandowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aem.60.8.2711-2716.1994</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied and Environmental Microbiology</title>
+		<title level="j" type="abbrev">Appl Environ Microbiol</title>
+		<idno type="ISSN">0099-2240</idno>
+		<idno type="ISSNe">1098-5336</idno>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2711" to="2716" />
+			<date type="published" when="1994-08">1994</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stoodley P, deBeer D, Lewandowski Z. 1994. Liquid flow in biofilm systems. Appl Environ Microbiol 60:2711-2716.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Mathematical Foundations of Quantitative Stereology</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Underwood</surname></persName>
+		</author>
+		<idno type="DOI">10.1520/stp36841s</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Stereology and Quantitative Metallography</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>ASTM International100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959</publisher>
+			<date type="published" when="1969">1969</date>
+			<biblScope unit="page" from="3" to="38" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Underwood EE. 1969. Quantitative stereology. Cambridge: Addison Wesley.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Bacterial aggregation and biofilm formation in a vortical flow</title>
+		<author>
+			<persName><forename type="first">Shahrzad</forename><surname>Yazdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arezoo</forename><forename type="middle">M</forename><surname>Ardekani</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4771407</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomicrofluidics</title>
+		<idno type="ISSNe">1932-1058</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">44114</biblScope>
+			<date type="published" when="2012-12-01">2012</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yazdi S, Ardekani AM. 2012. Bacterial aggregation and biofilm formation in a vertical flow. Biomicrofluidics 6:044114.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

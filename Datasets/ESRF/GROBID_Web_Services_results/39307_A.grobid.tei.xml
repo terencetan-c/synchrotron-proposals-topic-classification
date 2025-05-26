@@ -1,0 +1,2790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structural Insights into Substrate Recognition and Product Expulsion in CTX-M Enzymes</title>
+				<funder>
+					<orgName type="full">INRA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministère de l&apos;Education Nationale, de l&apos;Enseignement Supérieur et de la Recherche (Paris, France</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2010-05-07">7 May 2010</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Julien</forename><surname>Delmas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">CHU Clermont-Ferrand</orgName>
+								<address>
+									<addrLine>Laboratoire de Bactériologie Clermont-Ferrand</addrLine>
+									<postCode>F-63003</postCode>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Clermont Université</orgName>
+								<orgName type="institution" key="instit2">Université d&apos;Auvergne</orgName>
+								<address>
+									<addrLine>Evolution des bactéries pathogènes et susceptibilité de l&apos;hôte</addrLine>
+									<postBox>BP 10448</postBox>
+									<postCode>2526 F-63000</postCode>
+									<settlement>Clermont-Ferrand 1</settlement>
+									<region>JE</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Leyssene</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">CHU Clermont-Ferrand</orgName>
+								<address>
+									<addrLine>Laboratoire de Bactériologie Clermont-Ferrand</addrLine>
+									<postCode>F-63003</postCode>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Damien</forename><surname>Dubois</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">CHU Clermont-Ferrand</orgName>
+								<address>
+									<addrLine>Laboratoire de Bactériologie Clermont-Ferrand</addrLine>
+									<postCode>F-63003</postCode>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Clermont Université</orgName>
+								<orgName type="institution" key="instit2">Université d&apos;Auvergne</orgName>
+								<address>
+									<addrLine>Evolution des bactéries pathogènes et susceptibilité de l&apos;hôte</addrLine>
+									<postBox>BP 10448</postBox>
+									<postCode>2526 F-63000</postCode>
+									<settlement>Clermont-Ferrand 1</settlement>
+									<region>JE</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Catherine</forename><surname>Birck</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Département de Génomique et Biologie Structurales</orgName>
+								<orgName type="laboratory">Laboratoire de Bactériologie</orgName>
+								<orgName type="institution" key="instit1">IGBMC CNRS</orgName>
+								<orgName type="institution" key="instit2">INSERM/ULP</orgName>
+								<address>
+									<addrLine>67404 Illkirch CU 28 place H. Dunant</addrLine>
+									<postCode>63001</postCode>
+									<settlement>Strasbourg Clermont-Ferrand</settlement>
+									<country>France France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emilie</forename><surname>Vazeille</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Clermont Université</orgName>
+								<orgName type="institution" key="instit2">Université d&apos;Auvergne</orgName>
+								<address>
+									<addrLine>Evolution des bactéries pathogènes et susceptibilité de l&apos;hôte</addrLine>
+									<postBox>BP 10448</postBox>
+									<postCode>2526 F-63000</postCode>
+									<settlement>Clermont-Ferrand 1</settlement>
+									<region>JE</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Frédéric</forename><surname>Robin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">CHU Clermont-Ferrand</orgName>
+								<address>
+									<addrLine>Laboratoire de Bactériologie Clermont-Ferrand</addrLine>
+									<postCode>F-63003</postCode>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Clermont Université</orgName>
+								<orgName type="institution" key="instit2">Université d&apos;Auvergne</orgName>
+								<address>
+									<addrLine>Evolution des bactéries pathogènes et susceptibilité de l&apos;hôte</addrLine>
+									<postBox>BP 10448</postBox>
+									<postCode>2526 F-63000</postCode>
+									<settlement>Clermont-Ferrand 1</settlement>
+									<region>JE</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Richard</forename><surname>Bonnet</surname></persName>
+							<email>rbonnet@chu-clermontferrand.fr.</email>
+							<affiliation key="aff0">
+								<orgName type="institution">CHU Clermont-Ferrand</orgName>
+								<address>
+									<addrLine>Laboratoire de Bactériologie Clermont-Ferrand</addrLine>
+									<postCode>F-63003</postCode>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Clermont Université</orgName>
+								<orgName type="institution" key="instit2">Université d&apos;Auvergne</orgName>
+								<address>
+									<addrLine>Evolution des bactéries pathogènes et susceptibilité de l&apos;hôte</addrLine>
+									<postBox>BP 10448</postBox>
+									<postCode>2526 F-63000</postCode>
+									<settlement>Clermont-Ferrand 1</settlement>
+									<region>JE</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structural Insights into Substrate Recognition and Product Expulsion in CTX-M Enzymes</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Molecular Biology</title>
+						<title level="j" type="abbrev">Journal of Molecular Biology</title>
+						<idno type="ISSN">0022-2836</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">400</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="108" to="120"/>
+							<date type="published" when="2010-05-07">7 May 2010</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F66C7B507CD635D99D1AD0327AB03F99</idno>
+					<idno type="DOI">10.1016/j.jmb.2010.04.062</idno>
+					<note type="submission">Received 24 March 2010; received in revised form 28 April 2010; accepted 29 April 2010</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>β-lactamases</term>
+					<term>antibiotic resistance</term>
+					<term>extended-spectrum cephalosporins</term>
+					<term>X-ray crystallography</term>
+					<term>catalytic reaction ESBL, extended-spectrum β-lactamase</term>
+					<term>SMD, steered molecular dynamics</term>
+					<term>MEP, molecular electrostatic potential</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Lactamase-mediated resistance to β-lactam antibiotics poses a major threat to our antibiotic armamentarium. Among β-lactamases, a significant threat comes from enzymes that hydrolyze extended-spectrum cephalosporins such as cefotaxime. Among the enzymes that exhibit this phenotype, the CTX-M family is found worldwide. These enzymes have a small active site, which makes it difficult to explain how they hydrolyze the bulky extended-spectrum cephalosporins into the binding site. We investigated noncovalent substrate recognition and product release in CTX-M enzymes using steered molecular dynamics simulation and X-ray diffraction. An arginine residue located far from the binding site favors the capture and tracking of substrates during entrance into the catalytic pocket. We show that the accommodation of extended-spectrum cephalosporins by CTX-M enzymes induced subtle changes in the active site and established a high density of electrostatic interactions. Interestingly, the product of the catalytic reaction initiates its own release because of steric hindrances and electrostatic repulsions. This suggests that there exists a general mechanism for product release for all members of the β-lactamase family and probably for most carboxypeptidases.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Production of β-lactamases is the predominant cause of resistance to β-lactam antibiotics in Gramnegative bacteria. β-Lactamases are grouped into four classes (classes A-D) on the basis of amino acid sequences. <ref type="bibr" target="#b0">1</ref> Except for class B metalloenzymes, βlactamases belong to the family of serine-reactive hydrolases. <ref type="bibr" target="#b1">2</ref> The hydrolytic process mediated by these enzymes has been widely documented notably in studies of β-lactamases. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> They act via a covalent intermediate. <ref type="bibr" target="#b12">13</ref> In β-lactamases, the acyl-enzyme intermediate is formed between the β-lactam moiety and the conserved active-site serine residue. The acyl-enzyme intermediate is then hydrolyzed by a reactive water molecule. Finally, the product of hydrolysis is released, and the active site is regenerated for the next turnover.</p><p>Early β-lactam antibiotics, such as penicillins and first-generation cephalosporins, are efficiently hydrolyzed by β-lactamases such as TEM-1, TEM-2, or SHV-1. <ref type="bibr" target="#b13">14</ref> Extended-spectrum cephalosporins, such as cefotaxime and ceftazidime, have been developed to get around this resistance mechanism. These molecules escape most β-lactamases by the introduction of bulky C7β aminothiazoloxyimino amide side chains (Fig. <ref type="figure" target="#fig_0">1</ref>) that make them inherently less susceptible to β-lactamases. <ref type="bibr" target="#b14">15</ref> However, the therapeutic use of these β-lactams, which are increasingly efficient and resistant to βlactamases, has been accompanied by the appearance of a great diversity of β-lactamases exhibiting an extended spectrum.</p><p>The evolution of β-lactamases observed in clinical strains has been the focus of numerous reviews. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref> Class A extended-spectrum β-lactamases (ESBLs) are most frequently encountered in clinical isolates. These enzymes lead to treatment problems in many clinical settings and significantly increase mortality. <ref type="bibr" target="#b21">22</ref> First observed in 1983, the class A ESBLs derived initially from the wellknown restricted-spectrum β-lactamases TEM-1, TEM-2, and SHV-1 by one to four point mutations, which extended their hydrolytic spectrum to extended-spectrum cephalosporins. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> These TEMtype and SHV-type ESBLs had a major ecological success during the 1980s and the 1990s. More than 100 variants have been characterized in bacteria isolated mainly from immunocompromised patients who developed hospital-acquired infections during their stay in intensive care units. <ref type="bibr" target="#b16">17</ref> These enzymes have been widely investigated in kinetics/modeling, sitedirected site saturation mutagenesis, random mutagenesis, and crystallography studies. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref> It emerged from these investigations that TEM-type and SHV-type ESBLs harbor one major substitution (position 238, 164, or 179) in key elements of the binding site: the Ω loop and the β-strand β3. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b20">21</ref> These substitutions induced a clear displacement of the Ω loop or the β-strand β3, widening the opening to the binding site and potentially facilitating binding of bulky cephalosporin antibiotics. However, β-lactams have never been crystallized in complex with TEM-type or SHV-type ESBLs.</p><p>A new subgroup of class A ESBLs, called CTX-M enzymes, emerged in 2000 and is now the most prevalent ESBL worldwide. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b31">32</ref> They are implicated in hospital-acquired and community-acquired infections <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref> and have been observed in highly virulent bacteria such as neonatal meningitidis, Escherichia coli, or Vibrio cholerae. <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> Consequently, the CTX-M family warrants attention for the future design of novel antibiotics or inhibitors. They differ from most β-lactamases by increased hydrolytic activity against cefotaxime. <ref type="bibr" target="#b15">16</ref> Accordingly, CTX-M enzymes have unique amino acid sequences, with 70% or higher identity within the subgroup, yet exhibit only 40% or less identity with other class A βlactamases, indicating that their ability to hydrolyze extended-spectrum cephalosporins is an intrinsic enzymatic property of the subgroup and not the result of point mutations. <ref type="bibr" target="#b15">16</ref> CTX-M enzymes have been studied by site-directed mutagenesis, <ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref> which revealed the involvement of both residues Ser237 and Arg276 in extended-spectrum activity. An important step in the understanding of catalytic mechanism was the determination of the crystal structures of CTX-M-9, CTX-M-14, CTX-M-16, CTX-M-27, and CTX-M-44 (also designated as Toho-1). These enzymes have been crystallized as apoenzymes or in covalent complexes with β-lactams (Toho-1), or as transition-state analogs (CTX-M-9), which represent the enzyme as it progresses from its acylation transition state to its acyl-enzyme state to the deacylation transition state. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref> These investigations showed that two key catalytic residues, Lys73 and Glu166, change conformations along the reaction coordinate. However, there is no evidence that these changes in conformation are implicated in extended-spectrum activity. A shift of the Ω loop has also been observed in the acylenzyme structure of the Toho-1 mutant E166A in complex with cefotaxime. <ref type="bibr" target="#b45">46</ref> However, opinions on the involvement of this shift in extended-spectrum activity differ because substitution E166A, which was introduced in the enzyme to capture cefotaxime in the form of acyl enzyme, itself induced a shift of the Ω loop. The mechanism of accommodation of the extended-spectrum cephalosporin cefotaxime in the small binding site of CTX-M is therefore still not elucidated.</p><p>Class A β-lactamases have been described as "perfect enzymes," and part of their proficiency probably arises from being able to distinguish between substrates and products. <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b46">47</ref> However, the structures of the Michaelis complex and productenzyme complexes have been determined neither for CTX-M enzymes nor for other class A enzymes. The corresponding catalytic steps are critical. Substrate recognition determines the efficiency of acylation. Product release determines the absence of inhibition by the product, which is a key behavior of βlactamases. Although efforts to capture the crystal structures of the Michaelis complex and enzymeproduct complexes have proven to be mechanistically illuminating and provide clues for rational drug design, <ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref> the structural aspects of the early and late steps of catalytic processes are often left uninvestigated because of the inherent difficulties involved.</p><p>Steered molecular dynamics (SMD) is a novel approach of molecular modeling to investigating the biochemical processes occurring at a microsecond or second timescale and, therefore, are not accessible to either experimental methods or conventional molecular dynamics simulations. SMD adopts a similar approach to atomic force microscopy <ref type="bibr" target="#b51">52,</ref><ref type="bibr" target="#b52">53</ref> for the investigation of protein-ligand interactions by means of computational simulations. A time-dependent external force, which simulates the force probe in atomic force microscopy, is applied to the ligand to facilitate its unbinding/binding with the protein.</p><p>From the accelerated movement of the ligand, SMD simulation can examine the response of proteins to the association or dissociation of ligands. Although still under development, SMD has already been used in a few studies to investigate ligand binding/ unbinding, ligand diffusion, and the elastic properties of biomolecular systems. <ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref> Unfortunately, the results were rarely validated by experimental methods and never validated by the experimental determination of structures.</p><p>In this work, we investigated substrate recognition and product release in CTX-M enzymes, using SMD and crystallography, to extend our understanding of binding and unbinding processes in enzymes of major therapeutic interest. SMD and crystal structures revealed corresponding insights for substrate trapping, recognition, and product expulsion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SMD simulations of substrate entrance into the CTX-M-9 binding site</head><p>During the early steps of cefotaxime accommodation, SMD simulations brought to light electrostatic interactions between the C4 carboxyl group and the C3 methyl acetate group of cefotaxime and Arg276 guanidinium functions unexpectedly because this residue is located at the surface of the enzyme far from the binding site (Fig. <ref type="figure" target="#fig_1">2a</ref> and <ref type="figure">b</ref>). These interactions were associated with a low pulling force, suggesting that they favored the entrance of cefotaxime into the binding site. The entry of cefotaxime continued, and hydrogen bonds with Ser237 hydroxyl function were established (Fig. <ref type="figure" target="#fig_1">2b</ref>). Finally, cefotaxime was positioned in the binding site, and established electrostatic interactions were conserved in the acyl-enzyme structures of CTX-Ms. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b45">46</ref> Cefotaxime C4 carboxylate function interacted with Ser130, Thr235, and Ser237 side chains (Fig. <ref type="figure" target="#fig_1">2c</ref>). The C7β amide function of cefotaxime interacted with the O atom of Ser237 and the side chains of Asn132 and Asn104. These canonical interactions were not conserved in the SMD simulation performed with the CTX-M-9 mutant Arg276Gly, suggesting that Arg276 helps the trapping and insertion of cefotaxime in the binding pocket.</p><p>Interestingly, the accommodation of cefotaxime into the binding site was accompanied by an enlargement of the binding site between Asn170 and Asp240. The distance between C α atoms of these residues increased as a result of cefotaxime binding (7.3 ± 0.4 Å versus 6.3 ± 0.3 Å) (Fig. <ref type="figure" target="#fig_2">3</ref>). This shift broke the hydrogen bond between the O atoms and the N atoms of residues 170 and 240, which is conserved in all crystal structures of class A βlactamases. This widening of the active site may be specific for cefotaxime binding, which would explain how this molecule is accommodated into the small binding site of CTX-M.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trapping of substrates in the crystal structure of CTX-M-9 S70G</head><p>To confirm the molecular modeling results, we undertook the capture of two intact β-lactams-the bulky cephalosporin cefotaxime and the small substrate benzylpenicillin-in the binding site of the CTX-M-9 mutant S70G. This mutant did not exhibit significant hydrolytic activity against benzylpenicillin and cefotaxime (k cat b 0.1 s -1 ), as expected, because Ser70 is responsible for the nucleophilic attack against the carbonyl carbon of β-lactams, which forms a covalent bond with the substrate, resulting in the acyl enzyme.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overall crystal structures</head><p>The crystal structures of CTX-M-9 S70G alone (3HRE) and in complex with intact β-lactams (3HLW and 3HVF) were determined at high resolution (Table <ref type="table" target="#tab_0">1</ref>). Two monomers were observed in the crystallographic asymmetric unit. The final R work and R free values of the refined structures varied from 14.8% to 16.0% and from 18.1% to 19.9%, respectively. Electronic density maps confirmed the presence of Ser70Gly substitution. The root-mean-square deviation (RMSD) for C α active-site atoms was 0.21 Å between the monomers of the mutant S70G and the parental enzyme (2P74). No significant displacement of the major elements of binding, such as β-strand β3 and the Ω loop, was observed. The substitution Ser70Gly did not therefore modify the shape of the catalytic pocket significantly.</p><p>The electron density for ligands was clearly defined in the complexed structures. Following refinement, a simulated annealing omit map of the area surrounding the ligands was calculated and showed an unambiguous positive difference density for the compounds when contoured at 2σ (Fig. <ref type="figure" target="#fig_3">4</ref>; Fig. <ref type="figure" target="#fig_0">S1</ref>). The ligands exhibited identical or similar occupancies in each monomer of the asymmetric unit. Two electron densities were compatible with cefotaxime in the vicinity of the binding site: one was located in the catalytic pocket, and the other was located at the entrance of the binding site. The RMSDs of the C β positions between the complexed structures and the apoenzyme varied from 0.08 Å to 0.18 Å, suggesting that β-lactam insertion did not induce dramatic modifications to the enzyme.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of cefotaxime molecule located at the entrance of the binding site</head><p>Surprisingly, a molecule of cefotaxime was observed at the entrance of the binding site, in the vicinity of residues 276, 274, 104, and 105. The C4 carboxylate function of cefotaxime shared an ionic bond with the Arg276 side chain (2.8 Å; Fig. <ref type="figure" target="#fig_4">5c</ref>). The interaction observed between Arg276 and cefotaxime emphasized the role of Arg276 in the capture of cefotaxime from the solvent during the early step of the catalytic process, as suggested by SMD experiments.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Binding site modification induced by substrate accommodation</head><p>The overlay of the apoenzyme with the cefotaximecomplexed structure revealed a shift of 0.40 Å and 0.54 Å of the C α atoms of Asn170 and Asp240, respectively (Fig. <ref type="figure" target="#fig_5">6</ref>; Fig. <ref type="figure" target="#fig_1">S2</ref>). This shift increased the 0.8-Å distance between both residues, breaking the conserved hydrogen bond between residues 170 and 240 in the cefotaxime/enzyme complex, as previously observed in SMD experiments. This change in conformation was not observed for the structure in complex with benzylpenicillin. The hydrogen bonds between the other key residues of the binding site were similar in the two crystal structures (Table <ref type="table" target="#tab_0">S1</ref>). Cefotaxime accommodation therefore induced a change in conformation in the binding pocket in the vicinity of residues Asn170 and Asp240, which are located on key structural elements: the Ω loop and βstrand β3, respectively.</p><p>Another interesting difference between the penicillin complex and the cefotaxime complex was observed in the upper part of the binding site, in the vicinity of residue 105. The Tyr105 side chain shifted toward the dihydrothiazole ring of cefotaxime (Fig. <ref type="figure" target="#fig_1">S2</ref>). The center of the Tyr105 aromatic ring was at 3.5 Å from the C2 atom of cefotaxime, whereas the  The opening of the binding site in CTX-M-9 in complex with cefotaxime is visualized by the increase in distance between the C α atoms of residues Asn170 and Asp240.</p><p>corresponding distance was 5 Å for benzylpenicillin. This interaction between the Tyr105 side chain and cefotaxime looked like π-stacking or a strong van der Waals interaction.</p><p>Overall, the Ω loop and β-strand β3 separated in the vicinity of residues 240 and 170 for the accommodation of the bulky C7β methoxyimino substituent of cefotaxime, and the loop harboring Tyr105 closed the other side of the binding site to favor interactions with the dihydrothiazole ring of the substrate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of the interactions between the binding site and intact β-lactams</head><p>We compared the interactions of cefotaxime and benzylpenicillin with the CTX-M-9 binding site. Electrostatic interactions, previously identified as critical for hydrolytic activity, <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b59">60</ref> were observed for both substrates (Fig. <ref type="figure" target="#fig_4">5a</ref> and <ref type="figure">b</ref>). The oxygen atom of the β-lactam rings was located in an oxyanion hole formed by Ser70N and Ser237N; C6/C7 amide function of substrates interacted with the residues at positions 104, 132, and 237, and C3/C4 carboxylate functions interacted with residues 130, 234, and 235.</p><p>However, the C4 carboxylate function of cefotaxime shared an additional hydrogen bond with Ser237O γ . The C4 carboxylate function of cefotaxime therefore shared electrostatic interactions with four residues of the catalytic pocket and with only three residues for the C3 carboxylate function of benzylpenicillin. This difference is explained by the conformation of the carboxylate function, which is harbored by the sp2 carbon atom (planar conformation) in cefotaxime and by the sp3 carbon atom (tetrahedral conformation) in benzylpenicillin (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>The benzyl ring of benzylpenicillin and the aminothiazol ring of cefotaxime were accommodated in close proximity to β-strand β3. The plane of both aromatic rings was parallel with β-strand β3 and established a π-stacking-like interaction with the peptide bond of residues 238 and 240. The aminothiazol ring of cefotaxime established an additional hydrogen bond with Asp240O δ1 , and the methyl group of the methoxyimino group of cefotaxime was positioned at a hydrogen-bond distance of Pro167O (3.1 Å). <ref type="bibr" target="#b60">61</ref> Overall, enzymesubstrate interactions were notably more numerous for cefotaxime than for benzylpenicillin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SMD simulations of product release from the CTX-M-9 binding site</head><p>The release of hydrolyzed cefotaxime was then investigated by SMD simulations. Cefotaxime C8 carboxylate function, which results from the hydrolysis of the β-lactam ring, slightly moved away from the oxyanion hole because of ionic interaction with the Lys73 side chain. Interestingly, the dihydrothiazole ring of cefotaxime rotated 180°over the β3 strand because of an electrostatic repulsion between the C4 and the C8 carboxylate functions of the compound (Fig. <ref type="figure" target="#fig_6">7a</ref>). This rotation disrupted interactions with residues Thr235 and Ser237, and coincided with the start of the expulsion of the hydrolyzed molecule from the binding site. The release of cefotaxime continued, and the Asn104 side chain established a hydrogen bond with the C8 carboxylate function (Fig. <ref type="figure" target="#fig_6">7b</ref>). This interaction was associated with a major decrease in applied force, suggesting that it favors the expulsion of the compound. Accordingly, the SMD simulation performed under the same conditions with the mutant Asn104Gly showed a significant increase in the area under the curve for applied force (AUC F = 12,668 pN ps versus 9764 pN ps; p b 0.01).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystal structure of CTX-M-9 in complex with hydrolyzed β-lactams</head><p>To confirm the result obtained by molecular modeling, we crystallized the hydrolyzed forms of both cefotaxime and benzylpenicillin in complex with CTX-M-9 S70G. Only the hydrolyzed form of benzylpenicillin was trapped in a crystal structure. Its resolution was 1.5 Ǻ. Figure <ref type="figure" target="#fig_7">8</ref> shows the CTX-M-9 S70G active site in complex with intact and hydrolyzed benzylpenicillin. The thiazolidine ring of the hydrolyzed product rotated 70°, as observed in SMD experiments (Fig. <ref type="figure" target="#fig_2">S3</ref>). Consequently, the product of the catalytic reaction lost electrostatic interactions between its C3 carboxylate function and residues Ser130 and Lys234.</p><p>Another feature was C8 carboxylate function, which replaced the carbonyl function of the βlactam ring. Its first oxygen atom was within hydrogen-bond distances of Ser70N and Ser237N (Fig. <ref type="figure" target="#fig_8">9</ref>; Table <ref type="table" target="#tab_0">S1</ref>). The second interacted with Lys73N ζ , as observed in a previous SMD experiment during the early steps of product release. The overlay of CTX-M-9 S70G structure with CTX-M-9 apoenzyme (2P74) revealed steric hindrance between the second oxygen atom of the C8 carboxylate function and the Ser70 side chain (0.7-1.3 Å from Ser70O γ ; Fig. <ref type="figure" target="#fig_3">S4</ref>). This steric hindrance and the loss of electrostatic interactions could be the key elements in product release. The structural elements involved in this process are conserved in all product-enzyme interactions of serine-reactive β-lactamases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our aim was to capture snapshots of CTX-M βlactamases during the early and late steps of the catalytic reaction to understand their extendedspectrum activity and to provide structural data for inhibitor discovery. The high-resolution crystal structures associated with SMD simulations explain how the bulky β-lactam cefotaxime is accommodated by the small active site of CTX-M enzyme and the mechanism responsible for product release, which is probably conserved in serine-reactive β-lactamases and closely related enzymes such as serine-reactive peptidases. Overall, these data show the mechanisms that distinguish between substrates and products, a key factor of catalytic efficiency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Capture of substrates from solvent</head><p>Residue Arg276 is conserved in all CTX-M enzymes. The Arg276 side chain is located at the surface of the protein and exhibits numerous different conformations from one crystal structure to another, suggesting that this residue is very mobile. Arg276 in CTX-M-9 S70G is too far from the binding site to share a direct hydrogen bond with the substrates inserted in the binding site, as observed with Toho-1 enzyme. Although the involvement of Arg276 in the catalytic process is well established in CTX-Ms, the role of Arg276 enzyme is not well understood. SMD simulations suggested that Arg276 acts as a mobile electrostatic arm that tracts cefotaxime from the solvent to the binding site. The process of tracking involved direct electrostatic interactions of Arg276 with the C3 acetyl group of  cefotaxime and with C4 carboxylate function, which is conserved in β-lactamases. Accordingly, the CTX-M-9 S70G crystal structure in complex with cefotaxime showed direct electrostatic interactions between Arg276 and the C4 carboxylate function of the substrate located at the entrance to the binding site. The C4 and C3 substituents form a strong negative molecular electrostatic potential (MEP) (Fig. <ref type="figure" target="#fig_4">S5</ref>), which can be targeted by the positively charged group of residue Arg276. Our results suggest, therefore, that Arg276 favors the capture and tracking of substrates during the entrance process in the catalytic pocket and can explain the decrease in activity against cefotaxime of the CTX-M enzymes mutated at position 276. <ref type="bibr" target="#b40">41</ref> Cefpirome, which differs from cefotaxime in terms of the C3 substituent and a higher K m value for CTX-M enzymes, exhibits a different MEP because of its C3 positively charged substituent. Likewise, ceftazidime, which is a poor substrate of CTX-M enzyme, <ref type="bibr" target="#b15">16</ref> exhibits a MEP close to that of cefpirome (Fig. <ref type="figure" target="#fig_4">S5</ref>). The MEP and therefore the C3 substituent of cefotaxime could be involved in the hydrolytic efficiency of CTX-M against cefotaxime because they favor the efficient capture of the molecule from the solvent. The C2 substituents of benzylpenicillin are not positively charged, consistent with the K m value of this ligand (Fig. <ref type="figure" target="#fig_4">S5</ref>).</p><p>β-Lactams are nonribosomal peptides that mimic the D-alanyl-D-alanine motif of the peptidoglycan substrate of D-Ala-D-Ala carboxypeptidases and can inhibit these enzymes. The D-Ala-D-Ala carboxypeptidase of Streptomyces lividans (Streptomyces strain R61) is the prototype of D-Ala-D-Ala carboxypeptidase B. <ref type="bibr" target="#b1">2</ref> The structures of this enzyme noncovalently complexed with a fragment of peptidoglycan and a peptidoglycan-mimetic penicillin show that the carboxylic group of these molecules interacts with Arg285, which is located in the roof of the binding site. <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b61">62</ref> Likewise, arginines 250 and 248 in oxacillinase OXA-10 and E. coli PBP5, respectively, are located in the same area as Arg276 in CTX-Ms (Fig. <ref type="figure" target="#fig_5">S6</ref>). The side chains of these four residues, Arg285, Arg250, Arg248, and Arg276, are located near the area where the C3 group of cephalosporins could lodge (Fig. <ref type="figure" target="#fig_5">S6</ref>). These arginine residues may therefore be functional analogs. The mechanism of substrate entrance assisted by an arginine, reported here for CTX-M-9, may be common to other serinereactive peptidases and also to other enzymes such as D-amino acid oxidase, in which the mobile and positively charged group of the arginine side chain is involved in substrate capture. <ref type="bibr" target="#b62">63</ref> Binding of cefotaxime in the CTX-M active site SMD and the crystal structures showed an enlargement of the catalytic pocket when cefotaxime was accommodated into the CTX-M binding site. The Ω loop (residues 160-181) and β-strand β3 (residues 229-240), which are walls of the catalytic pocket, drew apart in the vicinity of residues 170 and 240. The shift caused the rupture of the hydrogen bond between residues 170 and 240. This bond is observed in the crystal structure of the apoenzyme CTX-M-9 S70G in complex with benzylpenicillin and in the crystal structure of the acyl enzyme of the Toho-1 E166A mutant in complex with cefotaxime. This hydrogen bond connects domains α and α/β of β-lactamases and is conserved in the crystal structure of all other crystal structures of class A βlactamases, including TEM-type/SHV-type ESBLs. In these latter ESBLs, substitution of residue 238 induces displacement of β-strand β3, which widens the opening to the binding site even in the absence of the substrate. In CTX-M enzymes, the bulky substrate cefotaxime induced a change in conformation. Structural elements specific for CTX-M enzymes, such as the absence of a hydrogen bond in the Ω loop between residues Phe160 and Thr181 and the unusually high number of Gly residues in the β3 strand of CTX-M enzymes, <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b59">60</ref> can explain this unusual flexibility of the catalytic pocket to accommodate cefotaxime. Unlike cefotaxime, benzylpenicillin induced no significant change in the catalytic pocket. The large size of cefotaxime explains this difference in behavior.</p><p>Another important difference is the high density of electrostatic interactions shared by the catalytic pocket with cefotaxime. In comparison with benzylpenicillin, three additional connections with residues Ser237, Asp240, and Pro167 are observed at both ends of the molecule. In addition, the shift of Tyr105 favored close contact with the six-member ring of cefotaxime. These interactions probably play a significant role in the initiation of the catalytic pocket opening and stabilize the bulky molecule cefotaxime.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of Ser274Arg substitution on the substrate accommodation of cefotaxime</head><p>Toho-1 is a CTX-M-type β-lactamase that has been crystallized as acyl enzyme in complex with cefotaxime. <ref type="bibr" target="#b45">46</ref> The C7 aminothiazol methoxyimino group of cefotaxime is rotated 180°in comparison with our Michaelis complex (Fig. <ref type="figure" target="#fig_6">S7</ref>). The comparison of the two structures suggests that this difference is due to the replacement of serine at position 274, which is observed in most CTX-M enzymes, by an arginine in Toho-1. The Arg274 side chain points toward the binding site in close proximity to β-strand β3 and can promote the rotation of the C7 aminothiazol methoxyimino groups of cefotaxime.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Product release from the CTX-M binding site</head><p>During the hydrolytic process, the carbonyl function of β-lactams is replaced by the C8 carboxylate function. The superposition of CTX-M-9 apoenzyme with CTX-M-9 S70G in complex with hydrolyzed penicillin revealed that this C8 substituent is only 0.7-1.3 Å away from the Ser70 side chain of apoenzyme. This would prevent the formation of a stable complex between the apoenzyme and the product of the catalytic reaction and would favor the release of the product from its binding to the oxyanion hole. This is supported by the enzymeproduct structure of the D-Ala-D-Ala carboxypeptidase of S. lividans, in which the structural analog of the C8 carboxylate function is out of the oxyanion hole. Our SMD simulations and the corresponding crystal structure suggest that this release from the oxyanion hole may also be assisted by the electrostatic interactions between the C8 carboxylate function and residues Lys73 and Ser130.</p><p>In both SMD simulations and CTX-M-9 S70G crystal structure in complex with hydrolyzed penicillin, the C4-carboxylate-harboring ring of the hydrolyzed molecule rotates in relation to the intact molecule in the Michaelis complex. This rotation is explained by an electrostatic repulsion between the C8 carboxylate function and the C4 carboxylate function of the hydrolyzed β-lactam. Consequently, the molecule loses most electrostatic interactions with a key electropositive region of the CTX-M-9 binding site (Ser130, Lys234, Thr235, and Ser237). This rotation has also previously been observed with hydrolyzed cephalothin in the crystal structure of AmpC. <ref type="bibr" target="#b2">3</ref> This movement, which has now been shown to take place in both class A and class C βlactamases despite the great differences between these β-lactamase families, is probably common to serine-reactive β-lactamases. Likewise, the structures of the D-Ala-D-Ala carboxypeptidase of S. lividans, noncovalently complexed with a fragment of a cell-wall precursor in both enzyme-substrate and enzyme-product forms, also show a 110°r otation of the carboxylate group resulting from substrate hydrolysis compared to the Michaelis complex. <ref type="bibr" target="#b48">49</ref> The conformational change in peptide product leads to the loss of hydrogen bonds with the oxyanion hole. The mechanism of product release is probably therefore similar to that in other serinereactive peptidases, as it is chemically encoded by the differences in structure between substrates and products: hydrolysis of the substrate forms a second and repulsive carboxylate, inducing a dramatic rotation of one of the two carboxylate groups, wrenching apart what used to be key interactions and thereby releasing the product.</p><p>SMD simulation is a useful tool for exploring the catalytic process SMD simulation is based on the application of external force to the ligand in order to accelerate its unbinding/binding with proteins. However, in reality, the encounter between the enzyme and the substrate and the release of the product are diffusional processes. Despite this, most results obtained from SMD simulations are in agreement with the crystal structures. The implication of Arg276 in the entry of cefotaxime, the opening of the binding site induced by cefotaxime, and the rotations of carboxylate groups after hydrolysis of the substrate were observed with both types of experiments. To our best knowledge, this is the first time that SMD results have been extensively confirmed by structural data obtained with an experimental method. SMD, in combination with crystallography, is a useful tool for exploring catalytic processes because it completes crystallographic data with a dynamic view of the enzymatic process.</p><p>In summary, three key points emerge from our experiments. The cefotaximase CTX-Ms, which have a small active site, recognize the cefotaxime molecule because of the flexibility of their active site and an extensive network of electrostatic interactions. We highlight the role of arginyl residues in the capture of ligands. We also propose a mechanism of product release in which the structure of the products induces their own expulsion from the active site. These results can help in the discovery of inhibitors and in the design of β-lactam antibiotics that escape β-lactamases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enzyme expression and purification</head><p>Substitution of the active serine (Ser70) by an inactive Gly residue was performed in CTX-M-9 by site-directed mutagenesis using a CTX-M-9-producing pET-9a-based expression vector. DNA sequence was checked by gene sequencing. The mutated protein, designated CTX-M-9 S70G, was expressed in E. coli BL21(DE3) (Novagene), as previously described. <ref type="bibr" target="#b43">44</ref> Briefly, E. coli was inoculated in 2× YT medium (Qbiogene, Irvine, CA) supplemented with 30 μg/mL kanamycin for aerobic growth at 37 °C up to an A 600 of 0.8. Expression was induced for 36 h at 30 °C with 0.2 mM isopropyl-β-D-thiogalactopyranoside (Sigma Chemical Co., St. Louis, MO). Bacteria were harvested with 20 mM 4-morpholineethanesulfonic acid-NaOH (pH 6.0). Cell pellet was disrupted by one cycle of freezing and thawing, followed by sonication. After centrifugation (10,000g for 10 min and 18,000g for 60 min at 4 °C), the clarified supernatant was loaded onto an ion-exchange CM-Fast Flow column [100 mL (Amersham Pharmacia Biotech, Orsay, France) equilibrated with 4-morpholineethanesulfonic acid-NaOH 20 mM (pH 6.0)]. Proteins were eluted with a linear NaCl gradient (0-150 mM). The β-lactamase-containing elution peak was loaded on a gelfiltration Superose 12 column (25 mL; Amersham Pharmacia Biotech) and eluted with a 5 mM Tris-HCl (pH 7.0) and 50 mM NaCl buffer. The protein was concentrated by ultrafiltration to 10 mg/mL for crystallization. The protein concentration was estimated by the Bio-Rad protein assay (Bio-Rad, Richmond, CA). Homogeneity was estimated to be more than 98% by SDS-PAGE.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystallization</head><p>Crystals of CTX-M-9 S70G were obtained by vapor diffusion in hanging drops, using microseeding techniques. An equal volume of 1.2 M potassium phosphate buffer (pH 8.2) was added to a solution of 10 mg/mL protein in 5 mM Tris-HCl (pH 7.0) and 50 mM NaCl, as previously described. <ref type="bibr" target="#b5">6</ref> Crystals appeared within 24-48 h of equilibration at 20 °C and were soaked overnight at 20 °C with hydrolyzed and native β-lactams in 1.2 M potassium phosphate buffer (pH 8.2). Benzylpenicillin (Panpharma) and cefotaxime (Aventis) were used at a concentration of 50 mM. Hydrolyzed β-lactams were obtained by a 24-h incubation with CTX-M-9 at 30 °C and were used at 50 mM. Crystals were cryoprotected with 30% sucrose in 1.2 M potassium phosphate (pH 8.2) and flash frozen in liquid nitrogen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data collection and structure determination</head><p>Data were collected on beamline ID23-1 of the European Synchrotron Radiation Facility (Grenoble, France). Reflections were indexed, integrated, and scaled using the HKL software package. <ref type="bibr" target="#b63">64</ref> The crystals belonged to space group P2 1 , with two molecules in the asymmetric unit. Phases were calculated by molecular replacement with the program MolRep <ref type="bibr" target="#b64">65</ref> of the CCP4 package, <ref type="bibr" target="#b65">66</ref> using the apoenzyme structure of CTX-M-9, <ref type="bibr" target="#b3">4</ref> with water molecules and ions removed. The structures were refined with the program Refmac5 67 of the CCP4 package and with Coot. <ref type="bibr" target="#b67">68</ref> Cross-validation was used throughout, and 5% of the data was used for R free calculation. The stereochemical quality of the models was monitored with the PROCHECK program, <ref type="bibr" target="#b68">69</ref> and the figures were generated by PyMOL. <ref type="bibr" target="#b69">70</ref> Among the residues, 91.3-91.9%, excluding proline and glycine, were in the favored region, and 7.3-7.8% were in the allowed region of the Ramachandran plot. <ref type="bibr" target="#b70">71</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular modeling</head><p>The starting structure for simulations was taken from the ultra-high X-ray structure of CTX-M-9. <ref type="bibr" target="#b3">4</ref> The GROMACS package <ref type="bibr" target="#b71">72</ref> and the geometric and charge parameters of the OPLSAA force field were used to carry out all energy minimizations and molecular dynamics simulations. Topology and RESP charges of β-lactams were obtained from ab initio calculations using GAMESS (HF/6-31G⁎ theory level) with RED-II software, as recommended. <ref type="bibr" target="#b72">73,</ref><ref type="bibr" target="#b73">74</ref> The complexes were immersed in cubic boxes filled with TIP3P water molecules. The system was manipulated with VMD. <ref type="bibr" target="#b74">75</ref> Molecular electrostatic maps were determined with VEGA ZZ 2.3.1. The system was minimized using the steepest-descents algorithm to a tolerance of 100 kJ/(mol nm). Solvent molecules were then heated to 300 K using a 4.2-ps molecular dynamics simulation. Following equilibration, the protein was relaxed and heated to 300 K using a 30-ps molecular dynamics simulation. The dynamic simulation of the system was carried out for 300 ps under normal pressure (1 bar) and room temperature (300 K). All covalent bond lengths were constrained by the SHAKE algorithm with a relative tolerance of 10 -4 , allowing for a time step of 2 fs. The electrostatic interactions were calculated using the particle-mesh Ewald method.</p><p>In subsequent SMD simulations, cefotaxime was brought in and out of the binding pocket through putative entrance and exit pathways by an external force. The pulling velocity was applied to the center of mass of cefotaxime and set at 0.007 nm/ps. The spring force constant was assigned as 1000 kJ/mol/nm 2 . Entrance and exit pathways were initially determined on the basis of the criterion that the substrate passes through the putative entrances and exits with the smallest collision with protein residues. The force applied to pull the ligand was estimated for each pathway by AUC F versus time (pN ps). Wilcoxon test was used to compare the different AUC F values. Differences were considered statistically significant when p b 0.01. Entrance and exit pathways that required the lowest force were further analyzed. <ref type="bibr" target="#b55">56</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accession numbers</head><p>Coordinates and structure factors have been deposited in the Protein Data Bank with accession numbers 3HRE, 3HLW, and 3HVF.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Structures of the intact and hydrolyzed β-lactam antibiotics benzylpenicillin and cefotaxime.</figDesc><graphic coords="2,82.60,88.44,436.64,309.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Snapshots of the relative positions of cefotaxime and the CTX-M-9 enzyme throughout the SMD simulation along the pathway that passes by the top of the active site. (a) Time, 60 ps: the Arg276 guanidinium group established hydrogen bonds with the C4 carboxyl group of cefotaxime. (b) Time, 140 ps; the Arg276 guanidinium group established hydrogen bonds with the C4 carboxyl group and the C3 methyl acetate group of cefotaxime. (c) Time, 220 ps; cefotaxime is accommodated into the binding site. The hydrogen bonds are shown in purple dotted lines. Carbon atoms are shown in yellow for the protein or in green for the adduct; oxygen atoms are shown in red, and nitrogen atoms are shown in blue.</figDesc><graphic coords="3,76.25,542.78,436.64,167.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Superimposition of snapshots of the beginning (carbon atoms for the CTX-M-9 enzyme are shown in cyan) and the end of the SMD simulation (carbon atoms for the CTX-M-9 enzyme are shown in yellow). A shift of the β3 strand is observed when cefotaxime (green) is accommodated into the binding site.</figDesc><graphic coords="4,73.64,468.74,209.84,241.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Stereo views of active-site electron density for the CTX-M-9 complex structure with benzylpenicillin (a), cefotaxime (b), and hydrolyzed benzylpenicillin (c), and for the CTX-M-9 apoenzyme (d). Monomer A is represented for each complex. The 2F o -F c electronic density of the refined model of CTX-M-9, contoured at 1σ, is shown in blue, and the simulated-annealing omit electron density of the ligand, contoured at 2σ, is shown in red. Carbon atoms are shown in green for the protein or in yellow for the adduct; oxygen atoms are shown in red, and nitrogen atoms are shown in blue.</figDesc><graphic coords="5,76.25,448.50,436.64,271.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Key polar interactions observed with crystallographic structures between CTX-M-9 and benzylpenicillin (a), cefotaxime in the binding site (b), and cefotaxime at the entrance of the binding site (c). Carbon atoms are shown in green for the protein or in yellow for the adduct; oxygen atoms are shown in red, and nitrogen atoms are shown in blue.</figDesc><graphic coords="6,318.22,465.45,209.84,184.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig.6. Superimposition of the crystallographic structure of the CTX-M-9 S70G apoenzyme with its complex structure containing cefotaxime. Carbon atoms are shown in cyan for the apoenzyme CTX-M-9 S70 and in green for the complex with cefotaxime. Oxygen atoms are shown in red, and nitrogen atoms are shown in blue. The broken lines indicate atoms that are located within hydrogenbond distance (the interaction between the methoxyimino group of cefotaxime and residue Pro167 is shown in red). The opening of the binding site in CTX-M-9 in complex with cefotaxime is visualized by the increase in distance between the C α atoms of residues Asn170 and Asp240.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Snapshots of the relative positions of hydrolyzed cefotaxime and the CTX-M-9 enzyme throughout the SMD simulation along the pathway that passes by the bottom of the binding site. (a) Time, 77 ps. (b) Time, 89 ps. Carbon atoms are shown in yellow for the protein or in green for the adduct; oxygen atoms are shown in red, and nitrogen atoms are shown in blue.</figDesc><graphic coords="7,311.87,331.20,209.84,368.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Superimposition of CTX-M-9 S70G structures in complex with native and hydrolyzed benzylpenicillin. Carbon atoms are shown in yellow for CTX-M-9 S70G in complex with native benzylpenicillin and in magenta for the complex structure with hydrolyzed benzylpenicillin; oxygen atoms are shown in red, and nitrogen atoms are shown in blue. The arrow shows the rotation of the fivemember ring harboring the C3 carboxylate function.</figDesc><graphic coords="8,73.76,393.51,209.48,296.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Key polar interactions observed with crystallographic structures between CTX-M-9 and hydrolyzed benzylpenicillin. Carbon atoms are shown in green for the protein or in yellow for the adduct; oxygen atoms are shown in red, and nitrogen atoms are shown in blue.</figDesc><graphic coords="8,318.22,88.44,209.84,178.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Data collection and refinement statistics</figDesc><table><row><cell></cell><cell></cell><cell>CTX-M-9 S70G/</cell><cell>CTX-M-9 S70G/</cell><cell>CTX-M-9S70G/hydrolyzed</cell></row><row><cell></cell><cell>CTX-M-9 S70G</cell><cell>cefotaxime</cell><cell>benzylpenicillin</cell><cell>benzylpenicillin</cell></row><row><cell>Data collection</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Space group</cell><cell>P2 1</cell><cell>P2 1</cell><cell>P2 1</cell><cell>P2 1</cell></row><row><cell>Cell dimensions</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>a, b, c (Å)</cell><cell>45.07, 106.29, 47.54</cell><cell>45.10, 106.56, 47.50</cell><cell>45.21, 106.78, 47.65</cell><cell>45.22, 106.94, 47.83</cell></row><row><cell>α, β, γ (°) Resolution (Å)</cell><cell>90.00, 102.17, 90.00 50-1.40 (l.45-1.40) a</cell><cell>90.00, 101.92, 90.00 50-1.50 (1.55-1.50)</cell><cell>90.00, 101.69, 90.00 50-1.35 (1.40-1.35)</cell><cell>90.00, 106.76, 90.00 50-1.50 (1.55-1.50)</cell></row><row><cell>R merge</cell><cell>0.047 (0.180)</cell><cell>0.059 (0.064)</cell><cell>0.055 (0.241)</cell><cell>0.073 (0.231)</cell></row><row><cell>〈I〉/〈σ(I)〉</cell><cell>22.4 (5.4)</cell><cell>13.6 (11.5)</cell><cell>13.1 (2.1)</cell><cell>13.4 (3.5)</cell></row><row><cell>Completeness (%)</cell><cell>96.2 (91)</cell><cell>89.0 (99.6)</cell><cell>98.5 (90.5)</cell><cell>99.8 (99.4)</cell></row><row><cell>Redundancy</cell><cell>4.9 (4.8)</cell><cell>3.6 (3.9)</cell><cell>3.0 (2.5)</cell><cell>4.0 (3.9)</cell></row><row><cell>Refinement</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Resolution (Å)</cell><cell>42.6-1.5</cell><cell>5.0-1.5</cell><cell>34.1-1.5</cell><cell>34.2-1.5</cell></row><row><cell>Number of reflections</cell><cell>74,760</cell><cell>59,132</cell><cell>70,141</cell><cell>70,690</cell></row><row><cell>R work /R free</cell><cell>0.156/0.184</cell><cell>0.160/0.199</cell><cell>0.148/0.181</cell><cell>0.146/0.176</cell></row><row><cell>Number of atoms</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Protein</cell><cell>4059</cell><cell>4023</cell><cell>4078</cell><cell>4052</cell></row><row><cell>Ligand/ion</cell><cell>15</cell><cell>120</cell><cell>139</cell><cell>48</cell></row><row><cell>Water</cell><cell>938</cell><cell>671</cell><cell>690</cell><cell>793</cell></row><row><cell>B-factors</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Protein</cell><cell>18.3</cell><cell>10.0</cell><cell>9.5</cell><cell>8.8</cell></row><row><cell>Ligand/ion</cell><cell>10.9</cell><cell>16.2</cell><cell>10.8</cell><cell>10.4</cell></row><row><cell>Water</cell><cell>23.1</cell><cell>24.5</cell><cell>22.9</cell><cell>22.9</cell></row><row><cell>RMSD</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Bond lengths (Å)</cell><cell>0.008</cell><cell>0.009</cell><cell>0.014</cell><cell>0.012</cell></row><row><cell>Bond angles (°)</cell><cell>1.536</cell><cell>1.892</cell><cell>1.238</cell><cell>1.989</cell></row></table><note><p>a Values in parentheses are for the highest-resolution shell. One crystal was used for each data set.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Structural Insights into CTX-M Enzymes</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported, in part, by a grant from <rs type="funder">INRA</rs> and <rs type="funder">Ministère de l'Education Nationale, de l'Enseignement Supérieur et de la Recherche (Paris, France</rs>). We thank <rs type="person">Rolande Perroux</rs> and <rs type="person">Marlene Jan</rs> for technical assistance.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Data</head><p>Supplementary data associated with this article can be found, in the online version, at doi:10.1016/ j.jmb.2010.04.062</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A standard numbering scheme for the class A &lt;i&gt;β&lt;/i&gt;-lactamases</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Ambler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F W</forename><surname>Coulson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frère</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ghuysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Joris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Forsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Levesque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tiraby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Waley</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj2760269</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Journal</title>
+		<idno type="ISSN">0264-6021</idno>
+		<idno type="ISSNe">1470-8728</idno>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="269" to="270" />
+			<date type="published" when="1991-05-15">1991</date>
+			<publisher>Portland Press Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ambler, R. P., Coulson, A. F., Frere, J. M., Ghuysen, J. M., Joris, B., Forsman, M. et al. (1991). A standard numbering scheme for the class A beta-lactamases. Biochem. J. 276, 269-270.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">MEROPS: the peptidase database</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Rawlings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Kok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Barrett</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkm954</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<title level="j" type="abbrev">Nucleic Acids Research</title>
+		<idno type="ISSN">0305-1048</idno>
+		<idno type="ISSNe">1362-4962</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">Database</biblScope>
+			<biblScope unit="page" from="D320" to="D325" />
+			<date type="published" when="2008">2008</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rawlings, N. D., Morton, F. R., Kok, C. Y., Kong, J. &amp; Barrett, A. J. (2008). MEROPS: the peptidase database. Nucleic Acids Res. 36, 320-325.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Structural Milestones in the Reaction Pathway of an Amide Hydrolase</title>
+		<author>
+			<persName><forename type="first">Beth</forename><forename type="middle">M</forename><surname>Beadle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Indi</forename><surname>Trehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pamela</forename><forename type="middle">J</forename><surname>Focia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0969-2126(02)00725-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<title level="j" type="abbrev">Structure</title>
+		<idno type="ISSN">0969-2126</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="413" to="424" />
+			<date type="published" when="2002-03">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beadle, B. M., Trehan, I., Focia, P. J. &amp; Shoichet, B. K. (2002). Structural milestones in the reaction pathway of an amide hydrolase: substrate, acyl, and product complexes of cephalothin with AmpC beta-lactamase. Structure, 10, 413-424.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Acylation Mechanism of CTX-M β-Lactamase at 0.88 Å Resolution</title>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Bonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja0712064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="5378" to="5380" />
+			<date type="published" when="2007-04-05">2007</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Y., Bonnet, R. &amp; Shoichet, B. K. (2007). The acylation mechanism of CTX-M beta-lactamase at 0.88 Å resolution. J. Am. Chem. Soc. 129, 5378-5380.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The Deacylation Mechanism of AmpC β-Lactamase at Ultrahigh Resolution</title>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Minasov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomer</forename><forename type="middle">A</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Prati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja056806m</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2970" to="2976" />
+			<date type="published" when="2006-02-09">2006</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Y., Minasov, G., Roth, T. A., Prati, F. &amp; Shoichet, B. K. (2006). The deacylation mechanism of AmpC beta-lactamase at ultrahigh resolution. J. Am. Chem. Soc. 128, 2970-2976.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Structure, Function, and Inhibition along the Reaction Coordinate of CTX-M β-Lactamases</title>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><surname>Shoichet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Bonnet</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja042850a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="5423" to="5434" />
+			<date type="published" when="2005-03-25">2005</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Y., Shoichet, B. &amp; Bonnet, R. (2005). Structure, function, and inhibition along the reaction coordinate of CTX-M beta-lactamases. J. Am. Chem. Soc. 127, 5423-5434.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effectiveness of Tetrahedral Adducts as Transition-State Analogs and Inhibitors of the Class C β-Lactamase of &lt;i&gt;Enterobacter cloacae&lt;/i&gt; P99</title>
+		<author>
+			<persName><forename type="first">Kieran</forename><surname>Curley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Pratt</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja9634942</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1529" to="1538" />
+			<date type="published" when="1997-02-01">1997</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Curley, C. P. &amp; Pratt, R. F. (1997). Effectiveness of tetrahedral adducts as transition-state analogs and inhibitors of the class C β-lactamase of Enterobacter cloacae P99. J. Am. Chem. Soc. 119, 1529-1538.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An Ultrahigh Resolution Structure of TEM-1 β-Lactamase Suggests a Role for Glu166 as the General Base in Acylation</title>
+		<author>
+			<persName><forename type="first">George</forename><surname>Minasov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaojun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja0259640</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="5333" to="5340" />
+			<date type="published" when="2002-04-20">2002</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Minasov, G., Wang, X. &amp; Shoichet, B. K. (2002). An ultrahigh resolution structure of TEM-1 beta-lacta- mase suggests a role for Glu166 as the general base in acylation. J. Am. Chem. Soc. 124, 5333-5340.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Structure of an extended-spectrum class A β-lactamase from Proteus vulgaris K1</title>
+		<author>
+			<persName><forename type="first">Michiyoshi</forename><surname>Nukaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kayoko</forename><surname>Mayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregg</forename><forename type="middle">V</forename><surname>Crichlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Knox</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/jmbi.2002.5420</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="109" to="117" />
+			<date type="published" when="2002-03">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nukaga, M., Mayama, K., Crichlow, G. V. &amp; Knox, J. R. (2002). Structure of an extended-spectrum class A beta-lactamase from Proteus vulgaris K1. J. Mol. Biol. 317, 109-117.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">REFINED CRYSTAL STRUCTURE OF BETA-LACTAMASE FROM CITROBACTER FREUNDII INDICATES A MECHANISM FOR BETA-LACTAM HYDROLYSIS</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Oefner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>D'arcy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Winkler</surname></persName>
+		</author>
+		<idno type="DOI">10.2210/pdb1fr6/pdb</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">343</biblScope>
+			<biblScope unit="page" from="284" to="288" />
+			<date type="published" when="1990">1990</date>
+			<publisher>Worldwide Protein Data Bank</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oefner, C., D&apos;Arcy, A., Daly, J. J., Gubernator, K., Charnas, R. L., Heinze, I. et al. (1990). Refined crystal structure of beta-lactamase from Citrobacter freundii indicates a mechanism for beta-lactam hydrolysis. Nature, 343, 284-288.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The 1.4 Å Crystal Structure of the Class D β-Lactamase OXA-1 Complexed with Doripenem</title>
+		<author>
+			<persName><forename type="first">Kyle</forename><forename type="middle">D</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mary</forename><forename type="middle">E</forename><surname>Karpen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">A</forename><surname>Bonomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rachel</forename><forename type="middle">A</forename><surname>Powers</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi901690r</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<title level="j" type="abbrev">Biochemistry</title>
+		<idno type="ISSN">0006-2960</idno>
+		<idno type="ISSNe">1520-4995</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">50</biblScope>
+			<biblScope unit="page" from="11840" to="11847" />
+			<date type="published" when="2009-11-24">2009</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schneider, K. D., Karpen, M. E., Bonomo, R. A., Leonard, D. A. &amp; Powers, R. A. (2009). The 1.4 Å crystal structure of the class D beta-lactamase OXA- 1 complexed with doripenem. Biochemistry, 48, 11480-11487.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The enigmatic catalytic mechanism of active-site serine β-lactamases</title>
+		<author>
+			<persName><forename type="first">Moreno</forename><surname>Galleni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Josette</forename><surname>Lamotte-Brasseur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xavier</forename><surname>Raquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Dubus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Didier</forename><surname>Monnaie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Knox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Marie</forename><surname>Frère</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0006-2952(94)00502-d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Pharmacology</title>
+		<title level="j" type="abbrev">Biochemical Pharmacology</title>
+		<idno type="ISSN">0006-2952</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1171" to="1178" />
+			<date type="published" when="1995-05">1995</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Galleni, M., Lamotte-Brasseur, J., Raquet, X, Dubus, A., Monnaie, D., Knox, J. R. &amp; Frère, J. M. (1995). The enigmatic catalytic mechanism of active-site serine beta-lactamases. Biochem. Pharmacol. 49, 1171-1178.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Catalytic properties of class A β-lactamases: efficiency and diversity</title>
+		<author>
+			<persName><forename type="first">André</forename><surname>Matagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Josette</forename><surname>Lamotte-Brasseur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Marie</forename><surname>Frère</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj3300581</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Journal</title>
+		<idno type="ISSN">0264-6021</idno>
+		<idno type="ISSNe">1470-8728</idno>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="581" to="598" />
+			<date type="published" when="1998-03-01">1998</date>
+			<publisher>Portland Press Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matagne, A., Lamotte-Brasseur, J. &amp; Frere, J. M. (1998). Catalytic properties of class A beta-lacta- mases: efficiency and diversity. Biochem. J. 330, 581-598.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The β-lactamase cycle: a tale of selective pressure and bacterial ingenuity</title>
+		<author>
+			<persName><forename type="first">André</forename><surname>Matagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Dubus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moreno</forename><surname>Galleni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Marie</forename><surname>Frère</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/a705983c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Natural Product Reports</title>
+		<title level="j" type="abbrev">Nat. Prod. Rep.</title>
+		<idno type="ISSN">0265-0568</idno>
+		<idno type="ISSNe">1460-4752</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="1999">1999</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matagne, A., Dubus, A., Galleni, M. &amp; Frère, J. M. (1999). The beta-lactamase cycle: a tale of selective pressure and bacterial ingenuity. Nat. Prod. Rep. 19, 1-19.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Recognition and Resistance in TEM β-Lactamase</title>
+		<author>
+			<persName><forename type="first">Xiaojun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Minasov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jesús</forename><surname>Blázquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emilia</forename><surname>Caselli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Prati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi034242y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<title level="j" type="abbrev">Biochemistry</title>
+		<idno type="ISSN">0006-2960</idno>
+		<idno type="ISSNe">1520-4995</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="8434" to="8444" />
+			<date type="published" when="2003-06-24">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X., Minasov, G., Blazquez, J., Caselli, E., Prati, F. &amp; Shoichet, B. K. (2003). Recognition and resistance in TEM beta-lactamase. Biochemistry, 42, 8434-8444.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Growing Group of Extended-Spectrum β-Lactamases: the CTX-M Enzymes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bonnet</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aac.48.1.1-14.2004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial Agents and Chemotherapy</title>
+		<title level="j" type="abbrev">Antimicrob Agents Chemother</title>
+		<idno type="ISSN">0066-4804</idno>
+		<idno type="ISSNe">1098-6596</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2004-01">2004</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bonnet, R. (2004). Growing group of extended- spectrum beta-lactamases: the CTX-M enzymes. Antimicrob. Agents Chemother. 48, 1-14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Extended-Spectrum β-Lactamases in the 21st Century: Characterization, Epidemiology, and Detection of This Important Resistance Threat</title>
+		<author>
+			<persName><forename type="first">Patricia</forename><forename type="middle">A</forename><surname>Bradford</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/cmr.14.4.933-951.2001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Microbiology Reviews</title>
+		<title level="j" type="abbrev">Clin Microbiol Rev</title>
+		<idno type="ISSN">0893-8512</idno>
+		<idno type="ISSNe">1098-6618</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="933" to="951" />
+			<date type="published" when="2001-10">2001</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bradford, P. A. (2001). Extended-spectrum β-lacta- mases in the 21st century: characterization, epidemi- ology, and detection of this important resistance threat. Clin. Microbiol. Rev. 14, 933-951.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">β-Lactamases of Increasing Clinical Importance</title>
+		<author>
+			<persName><forename type="first">Karen</forename><surname>Bush</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1381612805666230112183102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Pharmaceutical Design</title>
+		<title level="j" type="abbrev">CPD</title>
+		<idno type="ISSN">1381-6128</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="839" to="845" />
+			<date type="published" when="1999-11">1999</date>
+			<publisher>Bentham Science Publishers Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bush, K. (1999). Beta-lactamases of increasing clinical importance. Curr. Pharm. Des. 5, 839-845.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">EXTENDED-SPECTRUM β-LACTAMASES AND OTHER ENZYMES PROVIDING RESISTANCE TO OXYIMINO-β-LACTAMS</title>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">A</forename><surname>Jacoby</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0891-5520(05)70395-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infectious Disease Clinics of North America</title>
+		<title level="j" type="abbrev">Infectious Disease Clinics of North America</title>
+		<idno type="ISSN">0891-5520</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="875" to="887" />
+			<date type="published" when="1997-12">1997</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacoby, G. A. (1997). Extended-spectrum beta-lacta- mases and other enzymes providing resistance to oxyimino-beta-lactams. Infect. Dis. Clin. North Am. 11, 875-887.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Extended-spectrum and inhibitor-resistant TEM-type beta-lactamases: mutations, specificity, and three-dimensional structure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Knox</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aac.39.12.2593</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial Agents and Chemotherapy</title>
+		<title level="j" type="abbrev">Antimicrob Agents Chemother</title>
+		<idno type="ISSN">0066-4804</idno>
+		<idno type="ISSNe">1098-6596</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2593" to="2601" />
+			<date type="published" when="1995-12">1995</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Knox, J. R. (1995). Extended-spectrum and inhibitor- resistant TEM-type β-lactamases: mutations, specific- ity, and three-dimensional structure. Antimicrob. Agents Chemother. 39, 2593-2601.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">SHV-Type β-Lactamases</title>
+		<author>
+			<persName><forename type="first">Leonidas</forename><forename type="middle">S</forename><surname>Tzouvelekis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">A</forename><surname>Bonomo</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1381612805666230112183734</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Pharmaceutical Design</title>
+		<title level="j" type="abbrev">CPD</title>
+		<idno type="ISSN">1381-6128</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="847" to="864" />
+			<date type="published" when="1999-11">1999</date>
+			<publisher>Bentham Science Publishers Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tzouvelekis, L. S. &amp; Bonomo, R. A. (1999). SHV-type beta-lactamases. Curr. Pharm. Des. 5, 847-864.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Antibiotic Therapy for Klebsiella pneumoniae Bacteremia: Implications of Production of Extended-Spectrum -Lactamases</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-C</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Von Gottberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohapatra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Casellas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mulazimoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trenholme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Klugman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Bonomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Wagener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Mccormack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/420816</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Infectious Diseases</title>
+		<title level="j" type="abbrev">Clinical Infectious Diseases</title>
+		<idno type="ISSN">1058-4838</idno>
+		<idno type="ISSNe">1537-6591</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="37" />
+			<date type="published" when="2004-07-01">2004</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paterson, D. L., Ko, W. C., Von Gottberg, A., Mohapatra, S., Casellas, J. M., Goossens, H. et al. (2004). Antibiotic therapy for Klebsiella pneumoniae bacteremia: implications of production of extended- spectrum beta-lactamases. Clin. Infect. Dis. 39, 31-37.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Structural and Biochemical Evidence That a TEM-1 β-Lactamase N170G Active Site Mutant Acts via Substrate-assisted Catalysis</title>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">G</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sreejesh</forename><surname>Shanker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V Venkataram</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><surname>Palzkill</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m109.053819</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="issue">48</biblScope>
+			<biblScope unit="page" from="33703" to="33712" />
+			<date type="published" when="2009-11">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown, N. G., Shanker, S., Prasad, B. V. &amp; Palzkill, T. (2009). Structural and biochemical evidence that a TEM-1 beta-lactamase N170G active site mutant acts via substrate-assisted catalysis. J. Biol. Chem. 284, 33703-33712.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Selection and Characterization of Amino Acid Substitutions at Residues 237-240 of TEM-1 β-Lactamase with Altered Substrate Specificity for Aztreonam and Ceftazidime</title>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Cantu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wanzhi</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><surname>Palzkill</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.271.37.22538</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="issue">37</biblScope>
+			<biblScope unit="page" from="22538" to="22545" />
+			<date type="published" when="1996-09">1996</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cantu, C., III, Huang, W. &amp; Palzkill, T. (1996). Selection and characterization of amino acid substitu- tions at residues 237-240 of TEM-1 beta-lactamase with altered substrate specificity for aztreonam and ceftazidime. J. Biol. Chem. 271, 22538-22545.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Role of Residue 238 of TEM-1 β-Lactamase in the Hydrolysis of Extended-spectrum Antibiotics</title>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Cantu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><surname>Palzkill</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.273.41.26603</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="26603" to="26609" />
+			<date type="published" when="1998-10">1998</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cantu, C., III &amp; Palzkill, T. (1998). The role of residue 238 of TEM-1 beta-lactamase in the hydrolysis of extended-spectrum antibiotics. J. Biol. Chem. 273, 26603-26609.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Amino Acid Sequence Determinants of β-Lactamase Structure and Activity</title>
+		<author>
+			<persName><forename type="first">Wanzhi</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joseph</forename><surname>Petrosino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">S</forename><surname>Shenkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><surname>Palzkill</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/jmbi.1996.0279</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">258</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="688" to="703" />
+			<date type="published" when="1996-05">1996</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, W., Petrosino, J., Hirsch, M., Shenkin, P. S. &amp; Palzkill, T. (1996). Amino acid sequence determinants of beta-lactamase structure and activity. J. Mol. Biol. 258, 688-703.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Molecular analysis of beta-lactamase structure and function</title>
+		<author>
+			<persName><forename type="first">Fahd</forename><forename type="middle">K</forename><surname>Majiduddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Isabel</forename><forename type="middle">C</forename><surname>Materon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">G</forename><surname>Palzkill</surname></persName>
+		</author>
+		<idno type="DOI">10.1078/1438-4221-00198</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Medical Microbiology</title>
+		<title level="j" type="abbrev">International Journal of Medical Microbiology</title>
+		<idno type="ISSN">1438-4221</idno>
+		<imprint>
+			<biblScope unit="volume">292</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="127" to="137" />
+			<date type="published" when="2002">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Majiduddin, F. K., Materon, I. C. &amp; Palzkill, T. G. (2002). Molecular analysis of beta-lactamase structure and function. Int. J. Med. Microbiol. 292, 127-137.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Systematic mutagenesis of the active site omega loop of TEM-1 beta-lactamase</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Petrosino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Palzkill</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/jb.178.7.1821-1828.1996</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Bacteriology</title>
+		<title level="j" type="abbrev">J Bacteriol</title>
+		<idno type="ISSN">0021-9193</idno>
+		<idno type="ISSNe">1098-5530</idno>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1821" to="1828" />
+			<date type="published" when="1996-04">1996</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petrosino, J. F. &amp; Palzkill, T. (1996). Systematic mutagenesis of the active site omega loop of TEM-1 beta-lactamase. J. Bacteriol. 178, 1821-1828.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Role of Ser-238 and Lys-240 in the hydrolysis of third-generation cephalosporins by SHV-type beta-lactamases probed by site-directed mutagenesis and three-dimensional modeling.</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Huletsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Knox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Levesque</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0021-9258(18)53748-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="3690" to="3697" />
+			<date type="published" when="1993-02">1993</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huletsky, A., Knox, J. R. &amp; Levesque, R. C. (1993). Role of Ser-238 and Lys-240 in the hydrolysis of third- generation cephalosporins by SHV-type beta-lacta- mases probed by site-directed mutagenesis and three- dimensional modeling. J. Biol. Chem. 268, 3690-3697.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The Structural Bases of Antibiotic Resistance in the Clinically Derived Mutant β-Lactamases TEM-30, TEM-32, and TEM-34</title>
+		<author>
+			<persName><forename type="first">Xiaojun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Minasov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m204212200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="issue">35</biblScope>
+			<biblScope unit="page" from="32149" to="32156" />
+			<date type="published" when="2002-08">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X., Minasov, G. &amp; Shoichet, B. K. (2002). The structural bases of antibiotic resistance in the clinically derived mutant beta-lactamases TEM-30, TEM-32, and TEM-34. J. Biol. Chem. 277, 32149-32156.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Evolution of an Antibiotic Resistance Enzyme Constrained by Stability and Activity Trade-offs</title>
+		<author>
+			<persName><forename type="first">Xiaojun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Minasov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0022-2836(02)00400-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="85" to="95" />
+			<date type="published" when="2002-06">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, X., Minasov, G. &amp; Shoichet, B. K. (2002). Evolution of an antibiotic resistance enzyme con- strained by stability and activity trade-offs. J. Mol. Biol. 320, 85-95.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The CTX-M β-lactamase pandemic</title>
+		<author>
+			<persName><forename type="first">Rafael</forename><surname>Cantón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Teresa</forename><forename type="middle">M</forename><surname>Coque</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mib.2006.08.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Microbiology</title>
+		<title level="j" type="abbrev">Current Opinion in Microbiology</title>
+		<idno type="ISSN">1369-5274</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="466" to="475" />
+			<date type="published" when="2006-10">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Canton, R. &amp; Coque, T. M. (2006). The CTX-M beta- lactamase pandemic. Curr. Opin. Microbiol. 9, 466-475.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Extended-Spectrum β-Lactamase-Producing &lt;i&gt;Enterobacteriaceae&lt;/i&gt; in Community and Private Health Care Centers</title>
+		<author>
+			<persName><forename type="first">Corinne</forename><surname>Arpin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Véronique</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laure</forename><surname>Coulange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Catherine</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Isabelle</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patrick</forename><surname>Noury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frédéric</forename><surname>Grobost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Philippe</forename><surname>Brochet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacqueline</forename><surname>Jullin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brigitte</forename><surname>Dutilh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gilberte</forename><surname>Larribet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Isabelle</forename><surname>Lagrange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudine</forename><surname>Quentin</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aac.47.11.3506-3514.2003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial Agents and Chemotherapy</title>
+		<title level="j" type="abbrev">Antimicrob Agents Chemother</title>
+		<idno type="ISSN">0066-4804</idno>
+		<idno type="ISSNe">1098-6596</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3506" to="3514" />
+			<date type="published" when="2003-11">2003</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arpin, C., Dubois, V., Coulange, L., Andre, C., Fischer, I., Noury, P. et al. (2003). Extended-spectrum beta-lactamase-producing Enterobacteriaceae in com- munity and private health care centers. Antimicrob. Agents Chemother. 47, 3506-3514.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">CTX-M β-lactamase–producing&lt;i&gt;Escherichia coli&lt;/i&gt;in Long-term Care Facilities, France</title>
+		<author>
+			<persName><forename type="first">Najiby</forename><surname>Kassis-Chikhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sophie</forename><surname>Vimont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karine</forename><surname>Asselat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christophe</forename><surname>Trivalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bérédia</forename><surname>Minassian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Sengelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valérie</forename><surname>Gautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Danièle</forename><surname>Mathieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elisabeth</forename><surname>Dussaix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Arlet</surname></persName>
+		</author>
+		<idno type="DOI">10.3201/eid1009.030969</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Emerging Infectious Diseases</title>
+		<title level="j" type="abbrev">Emerg. Infect. Dis.</title>
+		<idno type="ISSN">1080-6040</idno>
+		<idno type="ISSNe">1080-6059</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1697" to="1698" />
+			<date type="published" when="2004-09">2004</date>
+			<publisher>Centers for Disease Control and Prevention (CDC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kassis-Chikhani, N., Vimont, S., Asselat, K., Trivalle, C., Minassian, B., Sengelin, C. et al. (2004). CTX-M beta-lactamase-producing Escherichia coli in long- term care facilities, France. Emerg. Infect. Dis. 10, 1697-1698.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Emergence and Spread of Three Clonally Related Virulent Isolates of CTX-M-15-Producing &lt;i&gt;Escherichia coli&lt;/i&gt; with Variable Resistance to Aminoglycosides and Tetracycline in a French Geriatric Hospital</title>
+		<author>
+			<persName><forename type="first">Véronique</forename><surname>Leflon-Guibout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cécile</forename><surname>Jurand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stéphane</forename><surname>Bonacorsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Florence</forename><surname>Espinasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie</forename><forename type="middle">Claude</forename><surname>Guelfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Françoise</forename><surname>Duportail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Beate</forename><surname>Heym</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edouard</forename><surname>Bingen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Hélène</forename><surname>Nicolas-Chanoine</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aac.48.10.3736-3742.2004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial Agents and Chemotherapy</title>
+		<title level="j" type="abbrev">Antimicrob Agents Chemother</title>
+		<idno type="ISSN">0066-4804</idno>
+		<idno type="ISSNe">1098-6596</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3736" to="3742" />
+			<date type="published" when="2004-10">2004</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leflon-Guibout, V., Jurand, C., Bonacorsi, S., Espi- nasse, F., Guelfi, M. C., Duportail, F. et al. (2004). Emergence and spread of three clonally related virulent isolates of CTX-M-15-producing Escherichia coli with variable resistance to aminoglycosides and tetracycline in a French geriatric hospital. Antimicrob. Agents Chemother. 48, 3736-3742.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">CTX-M β-Lactamase Production and Virulence of&lt;i&gt;Escherichia coli&lt;/i&gt;K1</title>
+		<author>
+			<persName><forename type="first">Damien</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nemani</forename><forename type="middle">V</forename><surname>Prasadarao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rahul</forename><surname>Mittal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurent</forename><surname>Bret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie</forename><surname>Roujou-Gris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Bonnet</surname></persName>
+		</author>
+		<idno type="DOI">10.3201/eid1512.090928</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Emerging Infectious Diseases</title>
+		<title level="j" type="abbrev">Emerg. Infect. Dis.</title>
+		<idno type="ISSN">1080-6040</idno>
+		<idno type="ISSNe">1080-6059</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1988" to="1990" />
+			<date type="published" when="2009-12">2009</date>
+			<publisher>Centers for Disease Control and Prevention (CDC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dubois, D., Prasadarao, N. V., Mittal, R., Bret, L., Roujou-Gris, M. &amp; Bonnet, R. (2009). CTX-M beta- lactamase production and virulence of Escherichia coli K1. Emerg. Infect. Dis. 15, 1988-1990.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Cefotaximases (CTX-M-ases), an expanding family of extended-spectrum β-lactamases</title>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Walther-Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Niels</forename><surname>Høiby</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/w03-111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Journal of Microbiology</title>
+		<title level="j" type="abbrev">Can. J. Microbiol.</title>
+		<idno type="ISSN">0008-4166</idno>
+		<idno type="ISSNe">1480-3275</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="137" to="165" />
+			<date type="published" when="2004-03-01">2004</date>
+			<publisher>Canadian Science Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Walther-Rasmussen, J. &amp; Hoiby, N. (2004). Cefotax- imases (CTX-M-ases), an expanding family of extend- ed-spectrum beta-lactamases. Can. J. Microbiol. 50, 137-165.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effect of substitution of Asn for Arg-276 in the cefotaxime-hydrolyzing class A Î²-lactamase CTX-M-4</title>
+		<author>
+			<persName><forename type="first">Maria</forename><surname>Gazouli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">J</forename><surname>Legakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leonidas</forename><forename type="middle">S</forename><surname>Tzouvelekis</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1574-6968.1998.tb13331.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiology Letters</title>
+		<idno type="ISSN">0378-1097</idno>
+		<idno type="ISSNe">1574-6968</idno>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="289" to="293" />
+			<date type="published" when="1998-12">1998</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gazouli, M., Legakis, N. J. &amp; Tzouvelekis, L. S. (1998). Effect of substitution of Asn for Arg-276 in the cefotaxime-hydrolyzing class A beta-lactamase CTX- M-4. FEMS Microbiol. Lett. 169, 289-293.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Sequence of the Gene Encoding a Plasmid-Mediated Cefotaxime-Hydrolyzing Class A β-Lactamase (CTX-M-4): Involvement of Serine 237 in Cephalosporin Hydrolysis</title>
+		<author>
+			<persName><forename type="first">Maria</forename><surname>Gazouli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eva</forename><surname>Tzelepi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergei</forename><forename type="middle">V</forename><surname>Sidorenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leonidas</forename><forename type="middle">S</forename><surname>Tzouvelekis</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aac.42.5.1259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial Agents and Chemotherapy</title>
+		<title level="j" type="abbrev">Antimicrob Agents Chemother</title>
+		<idno type="ISSN">0066-4804</idno>
+		<idno type="ISSNe">1098-6596</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1259" to="1262" />
+			<date type="published" when="1998-05">1998</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gazouli, M., Tzelepi, E., Sidorenko, S. V. &amp; Tzouvelekis, L. S. (1998). Sequence of the gene encoding a plasmid-mediated cefotaxime-hydrolyz- ing class A beta-lactamase (CTX-M-4): involvement of serine 237 in cephalosporin hydrolysis. Antimicrob. Agents Chemother. 42, 1259-1262.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Crystal Structure of Extended-Spectrum β-Lactamase Toho-1: Insights into the Molecular Mechanism for Catalytic Reaction and Substrate Specificity Expansion&lt;sup&gt;,&lt;/sup&gt;</title>
+		<author>
+			<persName><forename type="first">Akiko</forename><forename type="middle">Shimizu</forename><surname>Ibuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshikazu</forename><surname>Ishii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moreno</forename><surname>Galleni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masaji</forename><surname>Ishiguro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keizo</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Marie</forename><surname>Frère</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroshi</forename><surname>Matsuzawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroshi</forename><surname>Sakai</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi0342822</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<title level="j" type="abbrev">Biochemistry</title>
+		<idno type="ISSN">0006-2960</idno>
+		<idno type="ISSNe">1520-4995</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">36</biblScope>
+			<biblScope unit="page" from="10634" to="10643" />
+			<date type="published" when="2003-08-21">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ibuka, A. S., Ishii, Y., Galleni, M., Ishiguro, M., Yamaguchi, K., Frere, J. M. et al. (2003). Crystal structure of extended-spectrum beta-lactamase Toho-1: insights into the molecular mechanism for catalytic reaction and substrate specificity expansion. Biochemistry, 42, 10634-10643.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Structure-function studies of arginine at position 276 in CTX-M -lactamases</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Perez-Llarena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cartelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beceiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Villanueva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bou</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jac/dkn031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Antimicrobial Chemotherapy</title>
+		<title level="j" type="abbrev">Journal of Antimicrobial Chemotherapy</title>
+		<idno type="ISSN">0305-7453</idno>
+		<idno type="ISSNe">1460-2091</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="792" to="797" />
+			<date type="published" when="2008-02-04">2008</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perez-Llarena, F. J., Cartelle, M., Mallo, S., Beceiro, A., Perez, A., Villanueva, R. et al. (2008). Structure- function studies of arginine at position 276 in CTX- M beta-lactamases. J. Antimicrob. Chemother. 61, 792-797.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Prediction of the Evolution of Ceftazidime Resistance in Extended-Spectrum β-Lactamase CTX-M-9</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Delmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Robin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mongaret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bonnet</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aac.50.2.731-738.2006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial Agents and Chemotherapy</title>
+		<title level="j" type="abbrev">Antimicrob Agents Chemother</title>
+		<idno type="ISSN">0066-4804</idno>
+		<idno type="ISSNe">1098-6596</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="731" to="738" />
+			<date type="published" when="2006-02">2006</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delmas, J., Robin, F., Carvalho, F., Mongaret, C. &amp; Bonnet, R. (2006). Prediction of the evolution of ceftazidime resistance in extended-spectrum beta- lactamase CTX-M-9. Antimicrob. Agents Chemother. 50, 731-738.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Mutational Events in Cefotaximase Extended-Spectrum β-Lactamases of the CTX-M-1 Cluster Involved in Ceftazidime Resistance</title>
+		<author>
+			<persName><forename type="first">Ângela</forename><surname>Novais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rafael</forename><surname>Cantón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Teresa</forename><forename type="middle">M</forename><surname>Coque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrés</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fernando</forename><surname>Baquero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><forename type="middle">Carlos</forename><surname>Galán</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aac.01658-07</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial Agents and Chemotherapy</title>
+		<title level="j" type="abbrev">Antimicrob Agents Chemother</title>
+		<idno type="ISSN">0066-4804</idno>
+		<idno type="ISSNe">1098-6596</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2377" to="2382" />
+			<date type="published" when="2008-07">2008</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Novais, A., Canton, R., Coque, T. M., Moya, A., Baquero, F. &amp; Galan, J. C. (2008). Mutational events in cefotaximase extended-spectrum beta-lactamases of the CTX-M-1 cluster involved in ceftazidime resistance. Antimicrob. Agents Chemother. 52, 2377-2382.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Atomic Resolution Structures of CTX-M β-Lactamases: Extended Spectrum Activities from Increased Mobility and Decreased Stability</title>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Delmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacques</forename><surname>Sirot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><surname>Shoichet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Bonnet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmb.2005.02.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="349" to="362" />
+			<date type="published" when="2005-04">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Y., Delmas, J., Sirot, J., Shoichet, B. &amp; Bonnet, R. (2005). Atomic resolution structures of CTX-M beta- lactamases: extended spectrum activities from in- creased mobility and decreased stability. J. Mol. Biol. 348, 349-362.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Structure and Dynamics of CTX-M Enzymes Reveal Insights into Substrate Accommodation by Extended-spectrum β-Lactamases</title>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Delmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Prati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frédéric</forename><surname>Robin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Bonnet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmb.2007.10.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="192" to="201" />
+			<date type="published" when="2008-01">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delmas, J., Chen, Y., Prati, F., Robin, F., Shoichet, B. K. &amp; Bonnet, R. (2008). Structure and dynamics of CTX- M enzymes reveal insights into substrate accommo- dation by extended-spectrum beta-lactamases. J. Mol. Biol. 375, 192-201.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Acyl-intermediate Structures of the Extended-spectrum Class A β-Lactamase, Toho-1, in Complex with Cefotaxime, Cephalothin, and Benzylpenicillin</title>
+		<author>
+			<persName><forename type="first">Tatsuro</forename><surname>Shimamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Akiko</forename><surname>Ibuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shinya</forename><surname>Fushinobu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takayoshi</forename><surname>Wakagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masaji</forename><surname>Ishiguro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshikazu</forename><surname>Ishii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroshi</forename><surname>Matsuzawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m207884200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="issue">48</biblScope>
+			<biblScope unit="page" from="46601" to="46608" />
+			<date type="published" when="2002-11">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shimamura, T., Ibuka, A., Fushinobu, S., Wakagi, T., Ishiguro, M., Ishii, Y. &amp; Matsuzawa, H. (2002). Acyl- intermediate structures of the extended-spectrum class A beta-lactamase, Toho-1, in complex with cefotaxime, cephalothin, and benzylpenicillin. J. Biol. Chem. 277, 46601-46608.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;β&lt;/i&gt;-Lactamases as fully efficient enzymes. Determination of all the rate constants in the acyl-enzyme mechanism</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Waley</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj2680808a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical Journal</title>
+		<idno type="ISSN">0264-6021</idno>
+		<idno type="ISSNe">1470-8728</idno>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="808" to="808" />
+			<date type="published" when="1990-06-15">1990</date>
+			<publisher>Portland Press Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christensen, H., Martin, M. T. &amp; Waley, S. G. (1990). Beta-lactamases as fully efficient enzymes. Determi- nation of all the rate constants in the acyl-enzyme mechanism. Biochem. J. 266, 853-861.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Structural Basis for Imipenem Inhibition of Class C β-Lactamases</title>
+		<author>
+			<persName><forename type="first">Beth</forename><forename type="middle">M</forename><surname>Beadle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">K</forename><surname>Shoichet</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/aac.46.12.3978-3980.2002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrobial Agents and Chemotherapy</title>
+		<title level="j" type="abbrev">Antimicrob Agents Chemother</title>
+		<idno type="ISSN">0066-4804</idno>
+		<idno type="ISSNe">1098-6596</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3978" to="3980" />
+			<date type="published" when="2002-12">2002</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beadle, B. M. &amp; Shoichet, B. K. (2002). Structural basis for imipenem inhibition of class C beta-lactamases. Antimicrob. Agents Chemother. 46, 3978-3980.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Structures of Two Kinetic Intermediates Reveal Species Specificity of Penicillin-binding Proteins</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Mcdonough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">W</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">R</forename><surname>Silvaggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Pratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Knox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Judith</forename><forename type="middle">A</forename><surname>Kelly</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0022-2836(02)00742-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="111" to="122" />
+			<date type="published" when="2002-09">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McDonough, M. A., Anderson, J. W., Silvaggi, N. R., Pratt, R. F., Knox, J. R. &amp; Kelly, J. A. (2002). Structures of two kinetic intermediates reveal species specificity of penicillin-binding proteins. J. Mol. Biol. 322, 111-122.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">New genes in the 170 region of the Bacillus subtilis genome encode DNA gyrase subunits, a thioredoxin, a xylanase and an amino acid transporter</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-D</forename><surname>Entian</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/13500872-142-11-3097</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<title level="j" type="abbrev">Microbiology</title>
+		<idno type="ISSN">1350-0872</idno>
+		<idno type="ISSNe">1465-2080</idno>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3097" to="3101" />
+			<date type="published" when="1996-11-01">1996</date>
+			<publisher>Microbiology Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rose, M. &amp; Entian, K. D. (1996). New genes in the 170 degrees region of the Bacillus subtilis genome encode DNA gyrase subunits, a thioredoxin, a xylanase and an amino acid transporter. Microbiology, 142, 3097-3101.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">INTERACTION OF FACTOR XIII ACTIVATION PEPTIDE WITH ALPHA-THROMBIN: CRYSTAL STRUCTURE OF THE ENZYME-SUBSTRATE COMPLEX</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sadasivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Yee</surname></persName>
+		</author>
+		<idno type="DOI">10.2210/pdb1de7/pdb</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="36942" to="36948" />
+			<date type="published" when="2000">2000</date>
+			<publisher>Worldwide Protein Data Bank</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sadasivan, C. &amp; Yee, V. C. (2000). Interaction of the factor XIII activation peptide with alpha-thrombin. Crystal structure of its enzyme-substrate analog complex. J. Biol. Chem. 275, 36942-36948.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Atomic Force Microscope</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Binnig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Quate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Gerber</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.56.930</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="930" to="933" />
+			<date type="published" when="1986-03-03">1986</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Binning, G., Quate, C. F. &amp; Gerber, C. (1986). Atomic force microscope. Phys. Rev. Lett. 56, 930-933.</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Adhesion Forces Between Individual Ligand-Receptor Pairs</title>
+		<author>
+			<persName><forename type="first">Ernst-Ludwig</forename><surname>Florin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><forename type="middle">T</forename><surname>Moy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hermann</forename><forename type="middle">E</forename><surname>Gaub</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.8153628</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="issue">5157</biblScope>
+			<biblScope unit="page" from="415" to="417" />
+			<date type="published" when="1994-04-15">1994</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Florin, E. L., Moy, V. T. &amp; Gaub, H. E. (1994). Adhesion forces between individual ligand-receptor pairs. Science, 264, 415-417.</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Structural Insights into How the MIDAS Ion Stabilizes Integrin Binding to an RGD Peptide under Force</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mu</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Schulten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Viola</forename><surname>Vogel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.str.2004.09.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<title level="j" type="abbrev">Structure</title>
+		<idno type="ISSN">0969-2126</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2049" to="2058" />
+			<date type="published" when="2004-11">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Craig, D., Gao, M., Schulten, K. &amp; Vogel, V. (2004). Structural insights into how the MIDAS ion stabilizes integrin binding to an RGD peptide under force. Structure, 12, 2049-2058.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Ligand Binding: Molecular Mechanics Calculation of the Streptavidin-Biotin Rupture Force</title>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Grubmüller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Berthold</forename><surname>Heymann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Tavan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.271.5251.997</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="issue">5251</biblScope>
+			<biblScope unit="page" from="997" to="999" />
+			<date type="published" when="1996-02-16">1996</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grubmuller, H., Heymann, B. &amp; Tavan, P. (1996). Ligand binding: molecular mechanics calculation of the streptavidin-biotin rupture force. Science, 271, 997-999.</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Steered molecular dynamics and mechanical functions of proteins</title>
+		<author>
+			<persName><forename type="first">Barry</forename><surname>Isralewitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mu</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Schulten</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0959-440x(00)00194-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Structural Biology</title>
+		<title level="j" type="abbrev">Current Opinion in Structural Biology</title>
+		<idno type="ISSN">0959-440X</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="224" to="230" />
+			<date type="published" when="2001-04">2001</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Isralewitz, B., Gao, M. &amp; Schulten, K. (2001). Steered molecular dynamics and mechanical functions of proteins. Curr. Opin. Struct. Biol. 11, 224-230.</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">POSSIBLE PATHWAY(S) OF TESTOSTERONE EGRESS FROM THE ACTIVE SITE OF CYTOCHROME P450 2B1: A STEERED MOLECULAR DYNAMICS SIMULATION</title>
+		<author>
+			<persName><forename type="first">Weihua</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hong</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emily</forename><forename type="middle">E</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frauke</forename><surname>Gräter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Halpert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoming</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jianhua</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hualiang</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1124/dmd.105.004200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Metabolism and Disposition</title>
+		<title level="j" type="abbrev">Drug Metabolism and Disposition</title>
+		<idno type="ISSN">0090-9556</idno>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="910" to="919" />
+			<date type="published" when="2005-07">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li, W., Liu, H., Scott, E. E., Grater, F., Halpert, J. R., Luo, X. et al. (2005). Possible pathway(s) of testoster- one egress from the active site of cytochrome P450 2B1: a steered molecular dynamics simulation. Drug Metab. Dispos. 33, 910-919.</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Force-based Analysis of Multidimensional Energy Landscapes: Application of Dynamic Force Spectroscopy and Steered Molecular Dynamics Simulations to an Antibody Fragment–Peptide Complex</title>
+		<author>
+			<persName><forename type="first">Julia</forename><surname>Morfill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kerstin</forename><surname>Blank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uta</forename><surname>Steinbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elias</forename><forename type="middle">M</forename><surname>Puchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Null-</forename><forename type="middle">E</forename><surname>Gottschalk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hermann</forename><forename type="middle">E</forename><surname>Gaub</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmb.2008.06.065</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">381</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1253" to="1266" />
+			<date type="published" when="2008-09">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morfill, J., Neumann, J., Blank, K., Steinbach, U., Puchner, E. M., Gottschalk, K. E. &amp; Gaub, H. E. (2008). Force-based analysis of multidimensional energy landscapes: application of dynamic force spectrosco- py and steered molecular dynamics simulations to an antibody fragment-peptide complex. J. Mol. Biol. 381, 1253-1266.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">How Does Huperzine A Enter and Leave the Binding Gorge of Acetylcholinesterase? Steered Molecular Dynamics Simulations</title>
+		<author>
+			<persName><forename type="first">Yechun</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jianhua</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaomin</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Israel</forename><surname>Silman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joel</forename><forename type="middle">L</forename><surname>Sussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kaixian</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hualiang</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja029775t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">37</biblScope>
+			<biblScope unit="page" from="11340" to="11349" />
+			<date type="published" when="2003-08-19">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, Y., Shen, J., Luo, X., Silman, I., Sussman, J. L., Chen, K. &amp; Jiang, H. (2003). How does huperzine A enter and leave the binding gorge of acetylcholines- terase? Steered molecular dynamics simulations. J. Am. Chem. Soc. 125, 11340-11349.</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Crystal structure of the E166A mutant of extended-spectrum β-lactamase toho-1 at 1.8 Å resolution 1 1Edited by R. Huber</title>
+		<author>
+			<persName><forename type="first">Akiko</forename><surname>Ibuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ayako</forename><surname>Taguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masaji</forename><surname>Ishiguro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shinya</forename><surname>Fushinobu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshikazu</forename><surname>Ishii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shigehiro</forename><surname>Kamitori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenji</forename><surname>Okuyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keizo</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michiko</forename><surname>Konno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroshi</forename><surname>Matsuzawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/jmbi.1998.2432</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2079" to="2087" />
+			<date type="published" when="1999-02">1999</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ibuka, A., Taguchi, A., Ishiguro, M., Fushinobu, S., Ishii, Y., Kamitori, S. et al. (1999). Crystal structure of the E166A mutant of extended-spectrum beta-lacta- mase Toho-1 at 1.8 Å resolution. J. Mol. Biol. 285, 2079-2087.</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">C–H⋯O and other weak hydrogen bonds. From crystal engineering to virtual screening</title>
+		<author>
+			<persName><forename type="first">Gautam</forename><forename type="middle">R</forename><surname>Desiraju</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b504372g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Communications</title>
+		<title level="j" type="abbrev">Chem. Commun.</title>
+		<idno type="ISSN">1359-7345</idno>
+		<idno type="ISSNe">1364-548X</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">2995</biblScope>
+			<date type="published" when="2005">2005</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note>C-H⋯O and other weak hydrogen bonds</note>
+	<note type="raw_reference">Desiraju, G. R. (2005). C-H⋯O and other weak hydrogen bonds. From crystal engineering to virtual screening. Chem. Commun. 28, 2995-3001.</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Crystal Structures of Complexes between the R61 DD-peptidase and Peptidoglycan-mimetic β-Lactams: A Non-covalent Complex with a “Perfect Penicillin”</title>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">R</forename><surname>Silvaggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helen</forename><forename type="middle">R</forename><surname>Josephine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><forename type="middle">P</forename><surname>Kuzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rajesh</forename><surname>Nagarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Pratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Judith</forename><forename type="middle">A</forename><surname>Kelly</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmb.2004.10.076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="521" to="533" />
+			<date type="published" when="2005-01">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silvaggi, N. R., Josephine, H. R., Kuzin, A. P., Nagarajan, R., Pratt, R. F. &amp; Kelly, J. A. (2005). Crystal structures of complexes between the R61 DD-pepti- dase and peptidoglycan-mimetic beta-lactams: a non- covalent complex with a &quot;perfect penicillin&quot;. J. Mol. Biol. 345, 521-533.</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Role of Arginine 285 in the Active Site of Rhodotorula gracilis d-Amino Acid Oxidase</title>
+		<author>
+			<persName><forename type="first">Gianluca</forename><surname>Molla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Porrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Viviana</forename><surname>Job</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Motteran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cristina</forename><surname>Vegezzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefano</forename><surname>Campaner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mirella</forename><forename type="middle">S</forename><surname>Pilone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Loredano</forename><surname>Pollegioni</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m908193199</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="issue">32</biblScope>
+			<biblScope unit="page" from="24715" to="24721" />
+			<date type="published" when="2000-08">2000</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Molla, G., Porrini, D., Job, V., Motteran, L., Vegezzi, C., Campaner, S. et al. (2000). Role of arginine 285 in the active site of Rhodotorula gracilis D-amino acid oxidase. A site-directed mutagenesis study. J. Biol. Chem. 275, 24715-24721.</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">[20] Processing of X-ray diffraction data collected in oscillation mode</title>
+		<author>
+			<persName><forename type="first">Zbyszek</forename><surname>Otwinowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wladek</forename><surname>Minor</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0076-6879(97)76066-x</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Methods in Enzymology</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="307" to="326" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Otwinowski, Z. &amp; Minor, W. (1997). Processing of X- ray diffraction data collected in oscillation mode. Methods Enzymol. 276, 307-326.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">An approach to multi-copy search in molecular replacement</title>
+		<author>
+			<persName><forename type="first">Alexei</forename><surname>Vagin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexei</forename><surname>Teplyakov</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444900013780</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1622" to="1624" />
+			<date type="published" when="2000-12-01">2000</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vagin, A. &amp; Teplyakov, A. (2000). An approach to multi-copy search in molecular replacement. Acta Crystallogr. Sect. D, 56, 1622-1624.</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The &lt;i&gt;CCP&lt;/i&gt;4 molecular-graphics project</title>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><surname>Potterton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stuart</forename><surname>Mcnicholas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eugene</forename><surname>Krissinel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Cowtan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Noble</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444902015391</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1955" to="1957" />
+			<date type="published" when="2002-10-21">2002</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Potterton, E., McNicholas, S., Krissinel, E., Cowtan, K. &amp; Noble, M. (2002). The CCP4 molecular-graphics project. Acta Crystallogr. Sect. D, 58, 1955-1957.</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Fisher&apos;s information in maximum-likelihood macromolecular crystallographic refinement</title>
+		<author>
+			<persName><forename type="first">Roberto</forename><forename type="middle">A</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrey</forename><forename type="middle">A</forename><surname>Lebedev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Garib</forename><forename type="middle">N</forename><surname>Murshudov</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444903018675</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2114" to="2124" />
+			<date type="published" when="2003-11-27">2003</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steiner, R. A., Lebedev, A. A. &amp; Murshudov, G. N. (2003). Fisher&apos;s information in maximum-likelihood macromolecular crystallographic refinement. Acta Crystallogr. Sect. D, 59, 2114-2124.</note>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;Coot&lt;/i&gt;: model-building tools for molecular graphics</title>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Emsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Cowtan</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0907444904019158</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section D Biological Crystallography</title>
+		<title level="j" type="abbrev">Acta Crystallogr D Biol Crystallogr</title>
+		<idno type="ISSN">0907-4449</idno>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2126" to="2132" />
+			<date type="published" when="2004-11-26">2004</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Emsley, P. &amp; Cowtan, K. (2004). Coot: model-building tools for molecular graphics. Acta Crystallogr. Sect. D, 60, 2126-2132.</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Main-chain Bond Lengths and Bond Angles in Protein Structures</title>
+		<author>
+			<persName><forename type="first">Roman</forename><forename type="middle">A</forename><surname>Laskowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">S</forename><surname>Moss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Janet</forename><forename type="middle">M</forename><surname>Thornton</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/jmbi.1993.1351</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1049" to="1067" />
+			<date type="published" when="1993-06">1993</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laskowski, R. A., Moss, D. S. &amp; Thornton, J. M. (1993). Main-chain bond lengths and bond angles in protein structures. J. Mol. Biol. 231, 1049-1067.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Problem definition study of subsidence caused by geopressured geothermal resource development</title>
+		<idno type="DOI">10.2172/6426738</idno>
+		<ptr target="www.pymol.org" />
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<pubPlace>Delano Scientific LLC, Palo Alto, CA, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delano, W. L. (2002). The PyMOL Molecular Graphics System, Delano Scientific LLC, Palo Alto, CA, USA. www.pymol.org</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Structure validation by Cα geometry: ϕ,ψ and Cβ deviation</title>
+		<author>
+			<persName><forename type="first">Simon</forename><forename type="middle">C</forename><surname>Lovell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ian</forename><forename type="middle">W</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Bryan</forename><surname>Arendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">I W</forename><surname>De Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Michael</forename><surname>Word</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">G</forename><surname>Prisant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jane</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">C</forename><surname>Richardson</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/prot.10286</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Structure, Function, and Bioinformatics</title>
+		<title level="j" type="abbrev">Proteins</title>
+		<idno type="ISSN">0887-3585</idno>
+		<idno type="ISSNe">1097-0134</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="437" to="450" />
+			<date type="published" when="2003-01-08">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lovell, S. C., Davis, I. W., Arendall, W. B., III, de Bakker, P. I., Word, J. M., Prisant, M. G. et al. (2003). Structure validation by Calpha geometry: phi,psi and Cbeta deviation. Proteins, 50, 437-450.</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">GROMACS 3.0: a package for molecular simulation and trajectory analysis</title>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>Lindahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Berk</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Van Der Spoel</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s008940100045</idno>
+		<idno>GROMACS 3.0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Modeling</title>
+		<title level="j" type="abbrev">J Mol Model</title>
+		<idno type="ISSN">1610-2940</idno>
+		<idno type="ISSNe">0948-5023</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="306" to="317" />
+			<date type="published" when="2001-08">2001</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lindahl, E., Hess, B. &amp; van der Spoel, D. (2001). GROMACS 3.0: a package for molecular simulation and trajectory analysis. J. Mol. Model. 7, 306-317.</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Application of RESP charges to calculate conformational energies, hydrogen bond energies, and free energies of solvation</title>
+		<author>
+			<persName><forename type="first">Wendy</forename><forename type="middle">D</forename><surname>Cornell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Piotr</forename><surname>Cieplak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">I</forename><surname>Bayly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">A</forename><surname>Kollman</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00074a030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="9620" to="9631" />
+			<date type="published" when="1993-10-01">1993</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cornell, W. D., Cieplak, P., Bayly, C. I. &amp; Kollman, P. A. (1993). Application of RESP charges to calculate conformational energies, hydrogen bond energies, and free energies of solvation. J. Am. Chem. Soc. 115, 9620-9631.</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">General atomic and molecular electronic structure system</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">W</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kim</forename><forename type="middle">K</forename><surname>Baldridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jerry</forename><forename type="middle">A</forename><surname>Boatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">T</forename><surname>Elbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">S</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">H</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shiro</forename><surname>Koseki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nikita</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kiet</forename><forename type="middle">A</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shujun</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Theresa</forename><forename type="middle">L</forename><surname>Windus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Dupuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">A</forename><surname>Montgomery</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcc.540141112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational Chemistry</title>
+		<title level="j" type="abbrev">J Comput Chem</title>
+		<idno type="ISSN">0192-8651</idno>
+		<idno type="ISSNe">1096-987X</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1347" to="1363" />
+			<date type="published" when="2004">2004</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmidt, M. W., Baldridge, K. K., Boatz, J. A., Elbert, S. T., Gordon, M. S., Jensen, J. H. et al. (2004). General atomic and molecular electronic structure system. J. Comput. Chem. 14, 1347-1363.</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">VMD: Visual molecular dynamics</title>
+		<author>
+			<persName><forename type="first">William</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Dalke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Schulten</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0263-7855(96)00018-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Graphics</title>
+		<title level="j" type="abbrev">Journal of Molecular Graphics</title>
+		<idno type="ISSN">0263-7855</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="38" />
+			<date type="published" when="1996-02">1996</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Humphrey, W., Dalke, A. &amp; Schulten, K. (1996). VMD: Visual Molecular Dynamic. J. Mol. Graphics, 14, 33-38.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

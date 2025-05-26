@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">In situ microtomography investigation of metal powder compacts during sintering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Olivier</forename><surname>Lame</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut National Polytechnique de Grenoble</orgName>
+								<orgName type="laboratory" key="lab1">Laboratoire G e enie Physique et M e ecanique des Mat e eriaux</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5010</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<postBox>BP 46</postBox>
+									<postCode>38402</postCode>
+									<settlement>Saint Martin dÕH e eres Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Bellet</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut National Polytechnique de Grenoble</orgName>
+								<orgName type="laboratory" key="lab1">Laboratoire G e enie Physique et M e ecanique des Mat e eriaux</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5010</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<postBox>BP 46</postBox>
+									<postCode>38402</postCode>
+									<settlement>Saint Martin dÕH e eres Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><forename type="middle">Di</forename><surname>Michiel</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">ESRF</orgName>
+								<address>
+									<postBox>BP 220</postBox>
+									<postCode>F-38043</postCode>
+									<settlement>Grenoble Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Didier</forename><surname>Bouvard</surname></persName>
+							<email>didier.bouvard@inpg.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institut National Polytechnique de Grenoble</orgName>
+								<orgName type="laboratory" key="lab1">Laboratoire G e enie Physique et M e ecanique des Mat e eriaux</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5010</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<postBox>BP 46</postBox>
+									<postCode>38402</postCode>
+									<settlement>Saint Martin dÕH e eres Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">In situ microtomography investigation of metal powder compacts during sintering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0EE4B1D489142372509A892B6EE46AE9</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Sintering</term>
+					<term>Metallic powder</term>
+					<term>Tomography</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The mechanisms involved in shape changes arising during sintering of complex materials like iron-based systems are still poorly understood. New information can be obtained by use of advanced techniques such as microtomography. In this study, the microstructural evolution of a Distaloy AE powder compact and of loose copper powder is investigated during a thermal cycle at the European Synchrotron in Grenoble (France). Both materials are sintered in a furnace set in front of a high-energy X-ray source in 30-45 keV range. At various steps of sintering, hundreds of radiographs are taken with different orientations of the specimen. From these images the 3D microstructure is reconstructed. This nondestructive method provides the 3D microstructural evolution of the material during sintering. Local and statistical information can be obtained and will be used in the future for modelling the sintering process. Special attention is given to the anisotropy induced by prior compaction and to its evolution through sintering.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Despite a consistent research activity for decades, several questions remain open in the field of metal powder sintering, in particular with regard to the processing of industrial powders with complex composition and morphology. Typical examples concern the evolution of defects due to packing faults or to inclusions, the role of particle rearrangement in the densification process, the causes of anisotropic shrinkage of powder compacts dur-ing sintering. Traditional observation techniques such as scanning electron microscopy, that show images of grinded cross-sections of previously sintered specimens, do not provide relevant information for investigating these types of problems. Significant advances in the understanding of the phenomena occurring during sintering can certainly arise from bulk images of a powder in the course of sintering. This expectation is no longer utopian thanks to the rapid development of noninvasive 3D imaging techniques, such as X-ray tomography, for application in materials science <ref type="bibr" target="#b0">[1]</ref>.</p><p>The present paper deals with the use of X-ray micro-tomography to investigate sintering of metal powder. The synchrotron radiation microtomography has recently opened the way to quantitative three-dimensional characterisation of materials at the micrometric scale <ref type="bibr" target="#b1">[2]</ref>. X-ray absorption tomography consists in recording radiographies of a specimen in different angular settings and next reconstructing the spatial distribution of the linear attenuation coefficient within the specimen. This technique has been successfully used to obtain, with micrometric resolution and in a non-destructive way, pertinent information for miscellaneous classes of materials such as foams, bones, metals, etc. In particular, Gendron et al. recently obtained interesting data relative to glass bead packings that had been sintered for various times <ref type="bibr" target="#b2">[3]</ref>. Indeed, analysing very absorbing materials such as copper or steel, in a short time is more difficult. For this purpose, the so-called ''fast-microtomography'' with high Xray energy has been recently developed on the ID15 beamline of ESRF. It provides a full microtomography in about one minute with a X-ray energy range roughly in between 40 and 60 keV. The work presented here constitutes one of the first applications of this technique.</p><p>The objective of this paper is to show that the non-invasive 3D investigation of the microstructure of sintered metal powder can provide useful information about the sintering process. Two materials have been investigated, a loose copper powder and steel powder compact. An assembly of copper particles inside a quartz capillary was used to investigate sintering of a material with a low relative density. Steel compacts have been obtained by pressing into a close die commercial Distaloy AE powder in the same conditions as they are used to shape components for automotive applications. We first shortly describe the instrumental device used for micro-tomography, then we present and discuss the preliminary results obtained successively on copper powder and on a steel compact.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Equipment</head><p>Micro-tomography experiments were carried out on the high energy beamline ID15 at the European Synchrotron Radiation Facility (ESRF) in Grenoble, France, where the X-ray energy is ranging from 30 to 500 keV. The schematic view of the micro-tomography set-up is shown in Fig. <ref type="figure" target="#fig_0">1</ref>. The X-ray white beam is generated by a 7 poles 1.84 Tesla wiggler and filtered with 0.2 mm Cu to remove low energy photons and avoid beam hardening artifacts. A fast shutter is used to get short exposure times. The sample is mounted on translation and rotation stages in order to align it about the X-ray beam before the measurement and to rotate it during the measurement. Images are collected using a CCD ESRF Frelon camera coupled with a fluorescent screen.</p><p>The X-ray energy used here ranges from about 40 to 60 keV allowing to cross 1 mm thick steel sample with typical transmission ratio of about 40%. The scintillator is a fluorescent screen which transforms the X-ray into visible light. Finally a 1024 Â 1024 CCD ESRF Frelon camera is used to catch the light emitted by the scintillator. With the described set-up, the spatial resolution is about 2.5 lm.</p><p>Recent efforts devoted to decrease the microtomography acquisition time opened the way to ''fast tomography'' enabling to follow rapid phenomena continuously. The micro-tomographies were recorded by taking 750 radiographies at different angles covering an range of 180°with an exposure time of 0.075 s for each one. In these conditions, a tomography can be achieved every 2 min.</p><p>The furnace located in front of the X-ray beam shutter is composed of an horizontal ceramic cylinder surrounded by a resistive wire, with a hole drilled at the bottom for introduction of the sample. Each cap includes a thin, X-ray transparent window. A flow of a mixture of helium and hydrogen (4 at.%) is introduced inside the furnace to prevent the oxidation of the particles during sintering. The maximum heating and cooling rate is 50 K min À1 but the sample can eventually be pulled out quickly for quenching before recording a tomography.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Copper powder</head><p>A packing of spherical copper particles with a diameter between 85 and 125 lm has been first investigated as a model material. Particle and pore sizes were well adapted to the spatial resolution of the measurement device. No prior compaction was performed so that the material was isotropic.</p><p>Copper powder has been poured in a 1 mm-diameter, 20 mm-height quartz capillary. Since the quartz has a much lower density than copper, the capillary can be considered as transparent to the Xrays (except for some small phase contrast effects) and then does not induce any artefact. The capillary is glued on an alumina stick. The glue is a ceramic that supports temperatures up to 1500 °C. The sample was introduced into the furnace specially designed for this study. The thermal cycle imposed to the powder is reported in Fig. <ref type="figure" target="#fig_1">2</ref>. Several microtomographies were successively recorded before, during and after the sintering. Four reconstructed slices representing nearly the same section of the sample at four different moments of the thermal cycle are shown in Fig. <ref type="figure" target="#fig_2">3</ref>. It is clearly observed that the material strongly evolves during sintering. The particles get closer to each other as interparticle necks grow up and the porosity is reduced. The main evolution occurs between 1000 and 1050 °C.</p><p>The densification and neck growth are better observed in the magnified images shown in Fig. <ref type="figure" target="#fig_3">4</ref>. Between room temperature and 1000 °C, no significant shrinkage is observed but the neck formation induces small displacements and rotations of the particles that lead to local rearrangements of particle packing. This can be verified in particular by observing particles appearing and disappearing from the section of analysis. As a consequence of rearrangement some pores decrease in size whereas other ones are enlarged. After sintering up to 1050 °C, interparticle necks have largely grown up and the particles can no longer be clearly distinguished. Most pores vanished but some of them remain large. This heterogenous densification is a consequence of the randomness of the initial packing and of particle rearrangement in the initial stage of sintering. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Distaloy compacts</head><p>The second material investigated in the present work is H€ o ogan€ a as Distaloy AE powder, composed of iron particles with prediffused elements (1.5 wt.% Cu, 0.5 wt.% Mo and 4 wt.% Ni), mixed with 0.6 wt.% graphite. Particle size is between 45 and 150 lm. The experimental procedure consists first in a double-action compaction of the powder in a rigid die up to an axial stress of 400 MPa, so that the density reaches a value of 6.7 g/cm 3 (i.e. 0.85 in relative density). The compact is then sintered in the previously described furnace with a flow of hydrogen-helium mixture. The thermal cycle is composed of a heating at 30 °C min À1 from room temperature up to 1110 °C, followed by an isothermal stage of 15 min and cooling at 30 °C min À1 .</p><p>Two micro-tomographies were recorded at room temperature respectively before and after sintering. The reconstructed slices of the same sample area are reported in Fig. <ref type="figure" target="#fig_4">5</ref> where the solid phase is white and the pores are black. At the opposite of copper particles case, the sintering of a dense green material such as compacted Distaloy, very little densification occurs, of the order of 1%. However this densification is anisotropic due to prior die pressing. By comparing the two reconstructed slices of Fig. <ref type="figure" target="#fig_4">5</ref>, one can deduce that the shrinkage was equal to 1.2% and 0.4%, respectively along the direction of compaction and in the perpendicular direction. These values are consistent with values deduced from dilatometric measurements <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>.</p><p>In Fig. <ref type="figure" target="#fig_4">5</ref>(a), two categories of pores can be identified, large pores stemming from the initial particle packing and small pores located at the interfaces between particles. These interfaces have apparently a thickness of the order of the resolution of the measure, i.e. a few microns, but they are probably thinner and are discernible probably because of phase contrast. It seems that the direction of visible interfaces is preferentially horizontal, i.e. perpendicular to the direction of compaction. This should be a consequence of anisotropic deformation during die pressing.  After sintering (Fig. <ref type="figure" target="#fig_4">5(b)</ref>) the large pores have apparently not changed neither in size nor in shape, whereas the small pores have disappeared. These results suggest that, for this kind of materials, the sintering process involves the welding of interparticle contacts formed during compaction without significant evolution of particle arrangement nor interparticle porosity. Indeed, other important microstructural changes arise during sintering, which are related with the diffusion of alloying elements and with the formation of steel phases, but they cannot be observed with the technique presented here.</p><p>Fig. <ref type="figure" target="#fig_5">6</ref> shows the first in-situ microtomography experiment performed very recently along a sintering cycle. A Distaloy sample compacted at 400 MPa has been sintered in the furnace previously described. On the contrary to prior results, the microtomographies were performed without quenching the sample, so that the images show the microstructure at high temperature during sintering. From these pictures the local evolution of the microstructure can be observed. The small pores located at the interparticle interfaces are progressively eliminated, which confirms the previous results. Also the formation of new contact areas and the disappearance of larger pores are detected. A deeper, quantitative analysis of these images is in progress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>In this study two materials have been investigated, copper powder and steel powder compact. Concerning copper powders, it has been proved that meaningful information concerning the beginning of interparticle neck growth, the rearrangement of particles and possible heterogeneous densification resulting in residual pores in the sintered material could be obtained from microtomography imaging. To draw statistical information from 3D images, quantitative analysis is required, which is a heavy task, currently under progress. This discussion will thus be focused on steel compact since preliminary observation can already give a novel insight into sintering mechanisms.</p><p>One of the most significant results obtained in the present work is to give some clues about the origin of anisotropic shrinkage, which is classically observed during sintering of powder compacts. This phenomenon is very important since in powder metallurgy a major issue is to control the final shape of sintered parts in order to reduce or even avoid subsequent machining. This topic has been largely discussed in the literature <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. Although it is clear that anisotropic shrinkage is related with the anisotropic structure induced by die pressing, the resultant effects are very different depending on the material. Two opposite behaviours have been reported.</p><p>An anisotropy characterised by a lower shrinkage in the direction of compaction has been observed on iron-nickel alloy <ref type="bibr" target="#b6">[7]</ref>, ceramic <ref type="bibr" target="#b7">[8]</ref> or glass <ref type="bibr" target="#b8">[9]</ref>. To explain this phenomenon, Bouvard and Zavaliangos <ref type="bibr" target="#b9">[10]</ref> performed a numerical simulation of the compaction and sintering of a 2D periodic arrangement of particles. After compaction, the axial contacts, which support higher forces, are of course larger. Then, assuming that the main densification mechanism during sintering was grain boundary diffusion, the authors found that the initial difference in contact size resulted in an anisotropic sintering with lower shrinkage in the compaction direction.</p><p>However other authors observed the opposite effect with certain metal powders that had been strongly deformed during compaction and show very little shrinkage during sintering <ref type="bibr" target="#b10">[11]</ref>. Kuroki <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref> proposed an explanation based on an experimental correlation between the elastic springback of iron compacts after die pressing and the shrinkage during sintering. Due to the mechanical history underwent by the material during compaction, unloading and ejection, this springback is much larger in the direction of compaction than in the transverse ones. According to Kuroki, the anisotropic shrinkage would be due to the closing of cavities formed at interparticle contacts during the springback. Since the axial sprinkback is larger, the cavities at the interfaces normal to the direction of compaction should be coarser. A special device was used by Kuroki to measure the average thickness of these interfaces, that was estimated as 0.6 lm for iron powder compacted in conditions close to the ones used in the present study.</p><p>Figs. 5 and 6 globally argue in favour of Kur-okiÕs ideas since it confirms that the interfaces normal to direction of compaction are thicker than the perpendicular ones and disappear during sintering. Moreover, assuming that the shrinkage in the direction of compaction (1.2%) is only due to the closing of the interfaces, a rough calculation of interface thickness can be obtained by dividing this shrinkage by the linear density of interfaces estimated from Fig. <ref type="figure" target="#fig_4">5(a)</ref>. A value of 0.7 lm is found, which is coherent with the value given by Kuroki. This analysis should certainly be pursued and refined, but it already suggests that a detailed 3D investigation of the microstructural changes of steel compacts through sintering could provide substantial information to clarify the problem of shrinkage anisotropy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>This paper presents a non-invasive 3D investigation of microstructural changes of metal powders during sintering. The chosen experimental procedure used high X-ray energy combined with fast micro-tomography. Two different materials have been investigated, a loose copper powder and a steel powder compact. Concerning copper pow-der, neck formation and particle rearrangement have been clearly observed. Subsequent quantitative analysis should be realised to obtain relevant statistical information that could help better understanding important features of the sintering process, such as the formation of residual pores. Moreover, such information could provide input data or validation data for the numerical simulation of the sintering. Concerning steel compacts, the anisotropic distribution of the interfaces between particles after compaction and the disappearance of these interfaces during sintering have been shown. This observation gave new arguments for analysing the possible causes of anisotropic shrinkage during sintering.</p><p>Following the evolution of the microstructure continuously during sintering is of course even more fruitful for both applications. We have shown that it was possible to perform real in situ experiments, i.e. experiments including micro-tomographies in the course of sintering, without quenching of the sample. For this purpose, the time between two successive 3D image recordings has been reduced to 2 min. Also, a special furnace working with reducing atmosphere and compatible with micro-tomography measurement (X-ray transparent windows, 180°rotation of the sample) has been successfully tested. The quantitative analysis of the obtained data will certainly give new clues to better understanding the sintering mechanisms.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Schematic view of the set-up for micro-tomography on ID15 beamline at ESRF.</figDesc><graphic coords="2,287.87,90.26,212.76,109.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Cu powder sample thermal history.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. 2D reconstructions (virtual slices) perpendicular to the cylindrical axis showing Cu particles at different stages of the sintering process reported in Fig. 2.</figDesc><graphic coords="4,89.96,90.26,368.64,110.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Magnified parts (in the square) of the reconstructed slices of Fig. 3.</figDesc><graphic coords="4,92.79,254.20,362.88,93.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Two reconstructed slices of compacted Distaloy sample (a) before and (b) after sintering. The direction of prior compaction is along the vertical direction in the paper plane.</figDesc><graphic coords="5,102.05,90.26,333.72,203.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. In situ follow-up of the local microstructure evolution of a Distaloy compact during sintering.</figDesc><graphic coords="6,104.13,90.26,340.20,384.77" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors warmly thank <rs type="person">J. Merino</rs>, <rs type="person">A. Dallery</rs> and <rs type="person">B. Gorge</rs> for their help in the development of the furnace used in this work and <rs type="person">G. Kapelski</rs> and <rs type="person">J.M. Missiaen</rs> for fruitful discussions.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baruchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Buffi E Ere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Merle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Peix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xray</forename><surname>Tomography</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science</title>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Hermes</note>
+	<note type="raw_reference">J. Baruchel, J.Y. Buffi e ere, E. Maire, P. Merle, G. Peix, X- ray Tomography in Materials Science, Hermes, Paris, 2000.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Observation of microstructure and damage in materials by phase sensitive radiography and tomography</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pateyron-Salomé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Buffière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Peix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baruchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peyrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schlenker</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.364374</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="5878" to="5886" />
+			<date type="published" when="1997-05-01">1997</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Cloetens, M. Pateyron-Salom e e, J.Y. Buffi e ere, G. Peix, J. Baruchel, F. Peyrin, M. Schlenker, J. Appl. Phys. 81 (1997) 5878.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Premi e ere images de lÕ e evolution morphologique 3D dÕune poudre en cours de frittage</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gendron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Magat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Heintz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bordere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Colloque sur les innovations dans les mat e eriaux fritt e es</title>
+		<meeting><address><addrLine>Poitiers</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>Soci e et e e Franc ßaise de M e etallurgie et Mat e eriaux</note>
+	<note type="raw_reference">D. Gendron, J. Magat, D. Bernard, J.M. Heintz, S. Bordere, Premi e ere images de lÕ e evolution morphologique 3D dÕune poudre en cours de frittage, Colloque sur les innovations dans les mat e eriaux fritt e es, Soci e et e e Franc ßaise de M e etallurgie et Mat e eriaux, Poitiers, 2001.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Anisotropic shrinkage and gravity induced creep during sintering of steel powder compacts</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bouvard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wiedemann</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/pom.2002.45.2.181</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Metallurgy</title>
+		<title level="j" type="abbrev">Powder Metallurgy</title>
+		<idno type="ISSN">0032-5899</idno>
+		<idno type="ISSNe">1743-2901</idno>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="185" />
+			<date type="published" when="2002-07">2002</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Lame, D. Bouvard, H. Wiedemann, Powder Met. 45 (2) (2002) 181.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Following the progress of sintering in steel powder compacts through original experiments</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bordère</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Denux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bouvard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0921-5093(03)00594-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: A</title>
+		<idno type="ISSN">0921-5093</idno>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="126" to="133" />
+			<date type="published" when="2003-12" />
+			<publisher>Elsevier BV</publisher>
+			<pubPlace>Orlando (USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Lame, S. Bord e ere, D. Denux, D. Bouvard, Following the progress of sintering by measuring viscosity and electrical resistivity variations, Proc. of the 2002 World Congress on Powder Metallurgy &amp; Particulate Materials, Orlando (USA), Vol. 11, p. 4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Anisotropic densification during sintering of glass powder compacts</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Boccaccini</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00455626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Science Letters</title>
+		<title level="j" type="abbrev">J Mater Sci Lett</title>
+		<idno type="ISSN">0261-8028</idno>
+		<idno type="ISSNe">1573-4811</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="943" to="945" />
+			<date type="published" when="1993">1993</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.R. Boccaccini, J. Mater. Sci. Lett. 12 (1993) 943.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Compaction‐Induced Anisotropy in Internal Structure of Ceramic Powder</title>
+		<author>
+			<persName><forename type="first">Susumu</forename><surname>Shima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohamed</forename><forename type="middle">A E</forename><surname>Saleh</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1151-2916.1993.tb03755.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Ceramic Society</title>
+		<title level="j" type="abbrev">Journal of the American Ceramic Society</title>
+		<idno type="ISSN">0002-7820</idno>
+		<idno type="ISSNe">1551-2916</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1303" to="1307" />
+			<date type="published" when="1993-05">1993</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Shima, M.A.E. Saled, J. Am. Ceram. Soc. 76 (5) (1993) 1303.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Anisotropic Shrinkage and Thermal Expansion During Sintering of Cylindrical Nickel and Iron Compacts</title>
+		<author>
+			<persName><forename type="first">Yoshimoto</forename><surname>Wanibe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nobuyuki</forename><surname>Fujitsuna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takashi</forename><surname>Itoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroyasu</forename><surname>Yokoyama</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/pom.1989.32.3.191</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Metallurgy</title>
+		<title level="j" type="abbrev">Powder Metallurgy</title>
+		<idno type="ISSN">0032-5899</idno>
+		<idno type="ISSNe">1743-2901</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="191" to="194" />
+			<date type="published" when="1989-01">1989</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Wanibe, N. Fujitsuna, T. Itoh, H. Yokoyama, Powder Met. 32 (1989) 191.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Anisotropic shrinkage of cordierite-type glass powder cylindrical compacts</title>
+		<author>
+			<persName><forename type="first">Hans</forename><forename type="middle">Eckart</forename><surname>Exner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><forename type="middle">A</forename><surname>Giess</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/jmr.1988.0122</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Research</title>
+		<title level="j" type="abbrev">J. Mater. Res.</title>
+		<idno type="ISSN">0884-2914</idno>
+		<idno type="ISSNe">2044-5326</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="122" to="125" />
+			<date type="published" when="1988-02">1988</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.E. Exner, E.A. Giess, J. Mater. Res. 3 (1988) 122.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bouvard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zavaliangos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Powder Met</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Bouvard, A. Zavaliangos, Int. J. Powder Met. 36 (7) (2000) 58.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Meeting Reports</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cyunczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/pom.1979.22.3.162</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Metallurgy</title>
+		<title level="j" type="abbrev">Powder Metallurgy</title>
+		<idno type="ISSN">0032-5899</idno>
+		<idno type="ISSNe">1743-2901</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="162" to="162" />
+			<date type="published" when="1979-01">1979</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Cyunczyk, Powder Metal. Int. 11 (4) (1979) 162.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Anisotropic Spring-Back and Shrinkage of Iron Powder Compact</title>
+		<author>
+			<persName><forename type="first">Hidenori</forename><surname>Kuroki</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/kem.29-31.365</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Key Engineering Materials</title>
+		<title level="j" type="abbrev">KEM</title>
+		<idno type="ISSNe">1662-9795</idno>
+		<imprint>
+			<biblScope unit="volume">29-31</biblScope>
+			<biblScope unit="page" from="365" to="372" />
+			<date type="published" when="1989">1989</date>
+			<publisher>Trans Tech Publications, Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Kuroki, Key Ing. Mater. 29 (1989) 365.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mechanism of Anisotropic Dimensional Changes During Sintering of Metal Powder Compact</title>
+		<author>
+			<persName><forename type="first">Hidenori</forename><surname>Kuroki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masahiro</forename><surname>Hiraishi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4899-0933-6_6</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Science of Sintering</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer US</publisher>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="page" from="91" to="98" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Kuroki, M. Hiraishi, in: Science of Sintering, Plenum, New York, NY, 1989, p. 91.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

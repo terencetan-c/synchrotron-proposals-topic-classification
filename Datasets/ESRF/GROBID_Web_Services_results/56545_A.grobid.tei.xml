@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local contact(s)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-09-07">07/09/2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rita</forename><surname>Graceffa</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Oliva</forename><surname>Saldanha</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Viktor</forename><surname>Schroeder</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christiane</forename><surname>Ranke</surname></persName>
+						</author>
+						<title level="a" type="main">Local contact(s)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-09-07">07/09/2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">57E207C91CBB835850334859C1058501</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>LS-2407</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In situ measurements of the dynamical changes in hemoglobin structure induced by mechanical stress</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Motivation: The goal of the experiment was to dynamically investigate the nanostructure of intracellular components in bovine red blood cells (RBC). The cells were probed by scanning x-ray diffraction using the micro-focussed beam <ref type="bibr" target="#b0">1</ref> of the micro-branch (EH II) of ID13 while flowing continuously in microfluidic channels. They were exposed to the x-rays for less than 3 milliseconds, greatly minimizing radiation damage, and thus avoiding one of the biggest problems in cell experiments using x-rays.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental setup and data collection:</head><p>A suspension of glutaraldehyde fixed bovine RBC (10% packed cell volume, PCV) was injected into a microfluidic device fabricated in-house from PDMS and a quartz glass capillary of 200 µm outer diameter and 10 µm wall thickness (Figure <ref type="figure">1A</ref>) <ref type="bibr" target="#b1">2</ref> . The stream of cell suspension was hydrodynamically focused by flow of buffer from two lateral inlets in the PDMS region (see Figure <ref type="figure">1B</ref>). Subsequently the cells travelled through the quartz capillary, where data were collected. Thus, background scattering obscurring the signal was minimized. The x-rays had an energy of 12.6 keV and the beam dimensions were 8 µm x 9 µm at the sample position. We used the Eiger 4M, single-photon counting pixel detector (Dectris, Baden, CH) to record the SAXS patterns. As a scanning strategy we chose 5 µm steps arranged in "stripes" perpendicular to the main flow direction (see dark field representation in Figure <ref type="figure">1A</ref>) positioned in different distances from the "cross area" of the device. After localizing the capillary in the beam path by this procedure, for each "stripe" 100 frames of 0.1 s exposure time were recorded at the central position of the capillary, first for mere buffer flow (as a background measurement) and then for the cell suspension. Figure <ref type="figure">1C</ref> shows a typical azimuthally integrated SAXS signal recorded by this method after background subtraction, recorded 5 mm downstream of the cross center. The flow velocity in the main channel was 3 mm/s and considering the beam size of 8 µm, the travelling time in front of the beam was smaller than 3ms, ensuring minization of the radiation damage. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>We are currently in the process of analysis the data. However, the first results look promising concerning our experimental strategy and data collection method. During the beamtime, the support from the staff of ID13 tremendously helped to meet our requirements especially with respect to beam size, Q-range and computational necessities. From this experiment, we have demonstrated that imaging cells in flow by x-ray methods is feasible and the accessible time scales range from milliseconds to seconds, depending on the channel length, and we obtain good quality data (Figure <ref type="figure">1C</ref>). In addition, the obtained signal is comparable to the bulk data when normalized to the respective integrated intensities and protein concentration (Figure <ref type="figure">1C</ref>). Thus, we demonstrated the feasibility of a new method to investigate dynamics of cells at high spatial resolution and in close-to-physiological conditions. We chose to study bovine RBCs as a biologically relevant system and also as a model system for suspension cells in general. RBCs are more monodisperse than most other cells, facilitating the averaging over several cells. Furthermore they are comparably simple, anucleate cells and can be isolated and handled in a straight-forward way. From a methods development perspective, the advantage is that they are well characterized, helping us to benchmark our results against other, existing techniques. We expect that our study will open up new possibilities for x-ray studies on cells. towards implementation of the above method to study intact RBC undergoing mechanical stress.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure1.</head><figDesc>Figure1. A) Sketch of the PDMS-capillary device used for the experiment. A quartz capillary was inserted on the PDMS device. 10% PCV bovine RBC suspension was imaged by x-ray diffraction while flowing in the quartz capillary with a velocity of 3 mm/s. Scans with 5 µm steps in direction perpendicular to the main flow direction were performed to localize the RBC stream. Here, typical dark field data (i.e. the total integrated scattering intensity) for positions 5 and 15 mm downstream the cross center are illustrated. The comparison reveals a broadening of the RBC stream while the suspension flows. B) Visible light bright field microscopy picture of the dashed area of Figure1A. The suspension flows in the PDMS device section, focused by two lateral buffer streams. C) Integrated, background corrected data of the bovine RBC stream, recorded 5 mm downstream the cross center. 100 frames of 0.1 s have been averaged.</figDesc><graphic coords="2,297.90,220.90,203.37,141.63" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Dynamics of intermediate filament assembly followed in micro-flow by small angle X-ray scattering</title>
+		<author>
+			<persName><forename type="first">Martha</forename><forename type="middle">Elisabeth</forename><surname>Brennich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens-Friedrich</forename><surname>Nolting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Dammann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernd</forename><surname>Nöding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Bauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harald</forename><surname>Herrmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Pfohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c0lc00319k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">708</biblScope>
+			<date type="published" when="2011">2011</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martha E. Brennich, Jens-F. Nolting, Christian Dammann, Bernd Nöding, Susanne Bauch, Harald Herrmann, Thomas Pfohl and Sarah Köster, Lab on a Chip 11 (2011) 708-716.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Supplemental Information 4: Hodum et al. unpublished data</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Saldanha</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.4519/supp-4</idno>
+		<imprint>
+			<date>null</date>
+			<publisher>PeerJ</publisher>
+		</imprint>
+	</monogr>
+	<note>unpublished</note>
+	<note type="raw_reference">O. Saldanha et al., unpublished.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

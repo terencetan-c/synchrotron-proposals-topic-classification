@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Françoise</forename><surname>Peyrin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 5515</orgName>
+								<orgName type="institution" key="instit1">Anne-Marie LAVAL-JEANTET* CREATIS</orgName>
+								<orgName type="institution" key="instit2">CNRS Research Unit</orgName>
+								<orgName type="institution" key="instit3">INSERM</orgName>
+								<address>
+									<postBox>INSA 502</postBox>
+									<postCode>69621</postCode>
+									<settlement>Villeurbanne Cedex</settlement>
+									<country key="FR">FRANCE</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Murielle</forename><surname>Salome-Pateyron</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 5515</orgName>
+								<orgName type="institution" key="instit1">Anne-Marie LAVAL-JEANTET* CREATIS</orgName>
+								<orgName type="institution" key="instit2">CNRS Research Unit</orgName>
+								<orgName type="institution" key="instit3">INSERM</orgName>
+								<address>
+									<postBox>INSA 502</postBox>
+									<postCode>69621</postCode>
+									<settlement>Villeurbanne Cedex</settlement>
+									<country key="FR">FRANCE</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michel</forename><surname>Amiel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 5515</orgName>
+								<orgName type="institution" key="instit1">Anne-Marie LAVAL-JEANTET* CREATIS</orgName>
+								<orgName type="institution" key="instit2">CNRS Research Unit</orgName>
+								<orgName type="institution" key="instit3">INSERM</orgName>
+								<address>
+									<postBox>INSA 502</postBox>
+									<postCode>69621</postCode>
+									<settlement>Villeurbanne Cedex</settlement>
+									<country key="FR">FRANCE</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gérard</forename><surname>Gimenez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 5515</orgName>
+								<orgName type="institution" key="instit1">Anne-Marie LAVAL-JEANTET* CREATIS</orgName>
+								<orgName type="institution" key="instit2">CNRS Research Unit</orgName>
+								<orgName type="institution" key="instit3">INSERM</orgName>
+								<address>
+									<postBox>INSA 502</postBox>
+									<postCode>69621</postCode>
+									<settlement>Villeurbanne Cedex</settlement>
+									<country key="FR">FRANCE</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3BBE4B375FA2E070CF927FE8C09A2799</idno>
+					<note type="submission">Received at ESRF:</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>samples using synchrotrons radiation LS382</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>A series of eleven human vertebrae samples from people of different ages was imaged using 3D computed microtomography trabecular bone structure with aging.</p><p>The CMT setup included a single crystal (CMT) in order to study the evolution of monochromator, a rotation / translation stage to scan the sample through the beam and a 2D detector. The detector consisted in a Gd202S:Tb screen converting X-rays to light, light optics and the FRELON CCD camera (1024 x 1024 square elements of 19 pm) developed by the ESRF Detector Group. Due to optical magnification, the final pixel size was 6.65 ~m. 900 projections (1024 x 1024 pixels) of each sample were acquired over 180 degrees and corrected for flat field. A filtered back projection algorithm was used to reconstruct 3D images of the samples from the data set (see figure <ref type="figure">1</ref>). Due to the large amount of data to be processed, reconstructions are still in progress.</p><p>Image processing tools were developed to extract structural parameters quantifying trabecular bone architecture from the 3D images. Images were first binarized using a global threshold. Parameters conventional used in histomorphometry (e.g. bone volume fraction, surface to volume ratio, trabecular thickness, trabecular number) and connectivity parameters (e.g. number of nodes, number of free ends) derived from the skeletonized version of the images were then calculated and averaged over a series of consecutive 2D slices. This study showed the great variability of the parameters within the sample and the need for truly 3D analysis. We are currently working on extending conventional parameters to the third dimension.</p><p>The influence of spatial resolution on the structural parameters was studied by undersampling the initial 3D images by an increasing factor (2 to 32). Decreasing the spatial resolution allowed to simulate an imaging system with limited spatial resolution (e.g. conventional CT scanner). Histomorphometric and topological parameters were found to be strongly dependent on spatial resolution, particularly beyond 100 pm which corresponds to trabeculae mean thickness.</p><p>As soon as reconstructions are completed, the correlation between structural parameters b) 72-year-old female Figure <ref type="figure">1</ref>: 3D images of human vertebrae samples of different ages.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

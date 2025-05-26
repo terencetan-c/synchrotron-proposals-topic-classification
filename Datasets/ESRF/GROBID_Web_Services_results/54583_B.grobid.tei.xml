@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-06-10">10 June. 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">W</forename><surname>Ludwig</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centre des Matériaux MINES ParisTech</orgName>
+								<orgName type="department" key="dep2">Centre des Matériaux MINES ParisTech</orgName>
+								<orgName type="institution" key="instit1">PSL University Nicolas Guéninchault*</orgName>
+								<orgName type="institution" key="instit2">PSL University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Henry</forename><surname>Proudhon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centre des Matériaux MINES ParisTech</orgName>
+								<orgName type="department" key="dep2">Centre des Matériaux MINES ParisTech</orgName>
+								<orgName type="institution" key="instit1">PSL University Nicolas Guéninchault*</orgName>
+								<orgName type="institution" key="instit2">PSL University</orgName>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-06-10">10 June. 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7FA8CEDAB39DC2EDD504D715E4107112</idno>
+					<note type="submission">from: 12/11/2014 to: 17/11/2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The MA2285 experiment was arried out in November 2014 at the ESRF, Grenoble. The main goal of that experiment was to validate a new in situ device (Nanox) specifically designed for combined DCT and topotomography experiments and to use it to study incipient plasticity in a binary Al-Li alloy. The in situ device operation was successful as well as its integration within the beamline control system. The topo-tomography results showed for the first time individual slip system activation in the bulk of a polycrystalline sample. Results of this experiments have been published in Journal of Synchrotron Radiation 23 (6), 1474-1483. ESRF Experiment Report Form July 1999 1 In-situ devices for synchrotron diffraction X-ray imaging 1.1 Needs for in-situ devices</p><p>The materials behavior under mechanical loading has long been studied by observations. While it is relatively easy to measure physical quantities such as local stresses, strain damage at the surface, providing the evolution of such quantities within the bulk is very challenging. For volume studies, the first way is to perform post-mortem analysis. After beeing sollicitated, the sample is prepared for observations with microscopes (SEM as an example), and then observed, making it unavailable for further sollicitations. In that case, numerous samples and observations are needed, to get a statistical value. Using non-destructive measurements like X-ray imaging allows scientists to study the evolution of the observed physical quantitiy as a function of the applied mechanical load. But 3D imaging, requires to rotate the sample during the acquisition, so coupling with in-situ testing can be difficult, in particular due to space constraints. In the following sections, an innovative designs are proposed for such experiments.</p><p>1.2 Nanox: a tensile rig dedicated to 3D diffraction imaging Hard X-ray synchrotron beamlines impose severe space constraints, the space around the sample being crowded by detectors, cameras, rotation and translation stages. Geometrical constraints are even more severe for some diffraction experiments where the sample needs to be very close to the detector (DCT), or needs to be tilted (topotomography). Our present works targets tensile metallic specimen, with a cross section typically below 1 mm 2 . Requirements were as follow:</p><p>• tension load up to 500 N;</p><p>• tensile cyclic load at several 10 Hz;</p><p>• load mesurement better than 0.5 N;</p><p>• observation point of the specimen must be located in the center of the 3DXRD diffraction (i.e. 60 mm height from the base plate);</p><p>• ID11 Frelon detector may approach the rotation center as close as possible (≤ 3 mm);</p><p>• allow 360 • rotation for submicronic tomographic acquisition.</p><p>A specifically modified piezoelectric actuator (from DSM, USA) was used to fullfil the space constraint from the detector and the 360 • rotation, capable of 500 microns travel up to 650 N. Dog bone samples held in place by two cylindrical pins providing an autoalignement feature with the steel instrumented shaft. A cylindrical quartz tube is used as the load frame and takes place in a preload system, designed to align the sample, and for a convient mounting/unmounting sample procedure. The main benefit of using a 1 mm thick quartz tube is its constant absorption around the 360 • turn, allowing accurate tomographic reconstructions. With the present design (see Fig. <ref type="figure" target="#fig_0">1</ref>), a Frelon camera (a near field detector) can be as close as 2.5 mm to the center of rotation (0.5 mm from the quartz tube), to perform high quality PCT and/or DCT scans. No load cell for tension testing exist that could fit into the load frame so in this design the loading axis was instrumented with a full Wheatstone bridge of semi conductor strain gages (Texense, France). The strain gages signal is amplified and conditionned (tunable gain) to lead a 0-10 V signal over 12 bits. The custom load cell can be calibrated on the force range 0-500 N using a usual electromecanical tension machine thanks to machined adaptor parts. Measured load precision and repetability is 0.2 N. Finally the Nanox device was tested successfully for DCT and topotomography imaging with a binary Al-Li alloy, which allow fast scans due to its low average Z number of 12.73 (high flux thanks to low absorption).</p><p>2 Application to an in-situ topotomography experiment on a Al-Li polycrystal</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Experimental setup</head><p>With a large source to detector distance (about 94 m), the ID11 beamline is perfectly suited for topographic experiments. An Al-Li 2.5% wt sample with a 0.8 mm wide cross section was mounted in Nanox, itself mounted on a 6 degrees of freedom (3 translations and 3 rotations) diffractometer, which allows for convenient Bragg imaging experiment. The energy was set to 41.8 keV, delivered by a double bent crystal monochromator. We first performed a DCT scan recorded by a 2048×2048 high resolution detector with 3600 projections. The benefit of performing a DCT scan before the topotomography is twofold: on the first hand one can know the overall crystalline structure, which can be convenient for the data analysis and the simulation. And on the other hand, by knowing the exact orientation of each grain, it is then possible to automatically choose the "best" grain to scan, and the associated tilting values.</p><p>To perform this experiment, a DCT scan was first carried out to reveal the polycrystalline structure, and orientations of the different grains. 3 bulk grains, in the middle of the gage length, were choosen, tilts were calculated and each grain was scanned in topotomography. At this point, the sample was iteratively loaded, then a PCT scan was performed to later evaluate the deformation by DVC (at some steps, far-field and near field DCT scans were performed). The load was linearly applied to the sample, and during each loadramp, topographs at a given ω were acquired (see Fig. <ref type="figure" target="#fig_1">2</ref>). Values of tilting and Bragg angles are given in the Tab. 1. The experiment protocol is summarized in Fig. <ref type="figure" target="#fig_0">15</ref>.</p><p>To prepare a well recrystallized microstructure virgin of any plastic deformation with the appropriate grain size, the material (an ingot) was plastically deformed up to 42%, then recrystallized 20 min at 455 • C. Samples were then machined in the recrystallized ingot, and aged 4 hours at 100</p><p>• C. hkl plane θ lower tilt upper tilt grain 4 (220) 6.155 -4.80 12.9 grain 11 (200) 4.33 2.14 16.64 grain 18 (220) 6.155 0.571 11.10 Tab. 1: Values of tilting angles for each grain in degrees. ESRF Experiment Report Form July 1999</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Results</head><p>Recorded topographs were corrected for a constant background (additive dark current of the CCD) and subject to an approximate flatfield correction to account for inhomogeneous illumination (incoming beam) and non-uniformities in the pixel response (local variations of the gain of the scintillator and CCD chip). All the results shown here are comparisons between two sample states: before being loaded, and after several loadramps. DVC of reconstruted PCT volume is ongoing to compute the strain applied to the sample. The comparison of two topographs on Fig. <ref type="figure" target="#fig_2">3</ref> shows that in the deformed state, lines corresponding to octahedral slip systems appear. Strain localization takes place along these lines, where lattice rotations modify the local Bragg condition, leading to modifications in the recorded topograph. The broadening of the rocking curve presented in Fig. <ref type="figure" target="#fig_3">4</ref> clearly shows these lattice rotations into the grain. As seen in Fig. <ref type="figure" target="#fig_3">4</ref>, in the first scan the grain is well defined by its own main orientation, while after applying several loadramps a strong mosacity appears, increasing with the value of the applied load. The main difference with Fig. <ref type="figure" target="#fig_2">3</ref> lies in the fact that topographs give spatial information of these intragranular modifications.</p><p>-6.35 -6.3 -6.25 -6.2 -6.15 -6.1 -6.05 -6 -5.95 -5.9 0.98 </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Schematics and CAD rendering of Nanox.</figDesc><graphic coords="1,311.53,531.52,242.27,171.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: Experimental protocol of combined DCT/topotomography to study early stage of plasticity in a polycrystaline Al-Li2.5% wt tensile specimen</figDesc><graphic coords="3,32.32,523.58,537.73,166.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 :</head><label>3</label><figDesc>Fig. 3: Topographs of grain 4 before (on the left) and after (on the right) loading the sample, taken at ω = 164 •</figDesc><graphic coords="4,32.32,214.81,258.76,221.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 :</head><label>4</label><figDesc>Fig.4: Rocking curve for grain 4 of two topographs taken at ω = 30 • , before and after loading.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

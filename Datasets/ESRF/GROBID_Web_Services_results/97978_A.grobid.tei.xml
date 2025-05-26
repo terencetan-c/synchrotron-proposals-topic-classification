@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Ptychography for Phase Retrieval in Nuclear Resonant Scattering</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-02-14">14 February, 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Dimitrios</forename><surname>Bessas</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Ralf</forename><surname>Röhlsberger</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Guido</forename><surname>Pd</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Meier</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Christina</forename><surname>Brandt</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Lars</forename><surname>Bocklage</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Desy</forename><surname>Hamburg</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sven</forename><surname>Velten</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Leon</forename><surname>Merten Lohse</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ankita</forename><surname>Negi</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Planck Institute for the Structure and Dynamics of Matter</orgName>
+								<orgName type="institution" key="instit1">(University of Jena</orgName>
+								<orgName type="institution" key="instit2">DESY Hamburg</orgName>
+								<address>
+									<settlement>Hamburg</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">University of Hamburg</orgName>
+								<orgName type="institution" key="instit2">(University of Göttingen</orgName>
+								<orgName type="institution" key="instit3">DESY Hamburg</orgName>
+								<orgName type="institution" key="instit4">(University of Hamburg</orgName>
+								<orgName type="institution" key="instit5">DESY Hamburg</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Ptychography for Phase Retrieval in Nuclear Resonant Scattering</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-02-14">14 February, 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E2DE24358C696DC95EF2791C07BCA358</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>In this experiment we investigated the resonant interaction of X-rays from the synchrotron Mössbauer source (SMS) at ID-18 with samples containing 57 Fe Mössbauer nuclei. Our purpose is to develop a "Ptychographylike" phase retrieval technique for nuclear resonance spectroscopy (NRS), so that we can retrieve the energy spectra and phase response of samples from their measured temporal beat patterns in a model independent way. To do this, we needed to take measurements of the sample such that it is moves laterally in discrete but overlapping steps with respect to the illuminating beam from the Synchrotron passing through a "mask" (FeBO3 crystal from the SMS in this case). For stability purposes, we kept out FeBO3 crystal at rest and moved our sample with respect to it by mounting it on a Mössbauer drive. Using a multiple-event time digitizer (Fastcom MCS6A) based data acquisition system developed by us at DESY, we collected 2-dimensional spectra for each sample-mask set as shown in Fig <ref type="figure" target="#fig_0">1 (a)</ref> and <ref type="figure" target="#fig_0">1 (b)</ref>.</p><p>The experiment went as planned and we were able to collect brilliant statistics for our 2D-spectra. This was important because a typically relevant factor in the stability of the ptychography technique is whether the measurement sets that make up the 2D-spectra have sufficient illumination area overlap between them. But defining the quality and sufficiency of this overlap in terms of the required statistics is difficult. Using this data, we hope to investigate the question -is having few measurements, each having very good statistics (and hence low signal to noise ratio), better than having measurements at multiple velocities but with low statistics each? Our aim is to optimise how much data is to be collected to reach the best possible quality of the retrieval.</p><p>The beamline was operated in the 16-bunch mode to give us long time spectra since it is important for the resolution of the energy spectra. We used the sinusoidal mode to control the MB drive (Fig <ref type="figure" target="#fig_0">1 (c</ref>))-since in earlier experiments at DESY PETRA III -P01 we found it to be the most stable mode with minimal noise level which was uniform across all channels of the MCS6A.</p><p>Since we want to calibrate the technique, we took the standard sample of 2.5 μm 57 Fe-foil magnetised in directions (i) parallel and (ii) perpendicular to the incoming beam polarisation and collected 2D spectra. For our third measurement, we changed the foil magnetisation to an intermediate (iii) 45° rotated geometry. This would help us check how the computational model handles features introduced due to beam polarisation effects. For our second sample, we used an unmagnetised Tm 57 FeO3 crystal, and measured it with its crystal axis aligned (i) parallel and (ii) perpendicular to the direction of the polarisation of the incoming beam. From the 2D spectra it looks like the contrast of the Fe-foil is quite high compared to the Tm 57 FeO3 crystal. How much it affects the phase retrieval will be investigated. To further calibrate the technique, we measured data for a third non-enriched sample ( 56 Fe-foil of thickness 25 μm). This gives us a spectra which is noisier and with less statistics. We want to test the limitations of the statistics from an enriched and a non-enriched sample on the final result. Another aim of the experiment was to investigate if a masking function with more "features" helps or worsens the quality and stability of the phase retrieval. The SMS source is perfect for testing this because it has a multiline spectra at room temperature which then merges into a single line as the FeBO3 crystal is heated to its Neel's temperature. Therefore, for all our samples, we took two sets of measurements -(i) with the crystal at the room temperature and (ii) with the crystal at 75 °C (slightly below its Neel's temperature because we wanted the illumination passing through the mask function to be energetically broad enough to give good overlap for Ptychography). Note that we have used the same samples as the ones we measured before at P01 in DESY. We had used a reflection-geometry version of the current where the nuclear reflection spectrum of a resonant 57 Fe embedded cavity acted as our illuminating mask. Therefore, now we have 3 different datasets for the same samples, which is hopefully enough to compare the effect of the shape of the mask on the phase retrieval. We also took Mössbauer energy spectra of the samples directly from the source in order to determine and compare our retrieved results with the true Mössbauer spectra.</p><p>On the second working day of our beamtime, we had some problems with the Function generator (DFG-100) in our setup not working properly. Thankfully, it was resolved in a few hours. The Synchrotron beam was stable with no major incidence except that during the day the intensity would fluctuate from time to time and the high resolution monochromator had to be adjusted. The beamline staff was readily available for help with the experiment specific modifications (example -the heating of the SMS crystal) and improvements of the setup at beamline ID18. The results from the collected data will be published after the analysis is finished and the involved ESRF staff will be included as co-authors. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: 2.5 μm 57 Fe-foil with (a) B " "⃗ ||𝜎 ⃗ (b) B " "⃗ ||π " "⃗ illuminated by SMS at 75°C. Even before any analysis of the 2D spectra, one can see the temporal change with the Mossbauer drive detuning of the X-ray emission that is resonant to the 14.4 keV transition of 57 Fe via NRS. (d) The beam coming from the SMS (along k "⃗ ) is π " "⃗ polarised.</figDesc><graphic coords="2,219.00,544.16,201.54,145.50" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

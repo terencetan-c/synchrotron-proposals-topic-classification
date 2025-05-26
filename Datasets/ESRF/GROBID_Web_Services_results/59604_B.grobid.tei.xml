@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Antimicrobial peptide activity on live E. coli</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Theyencheri</forename><surname>Narayanan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Enrico</forename><surname>Federico</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Drew</forename><surname>Marquardt</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Theyencheri Narayanan* (ESRF) Karl Lohner (University of Graz</orgName>
+								<address>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Michael Pachler* (University of Graz</orgName>
+								<address>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">(University of Graz</orgName>
+								<address>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Georg Pabst* (University of Graz</orgName>
+								<address>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Antimicrobial peptide activity on live E. coli</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6935CBA669F50C88E7CD8508CB647B2D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>LS-2513</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We performed proof-of-principle USAXS/SAXS experiments at ID02 on the activity of the antimicrobial peptide O-LF11-215 (octanoyl-FWRIRIRR-NH 2 ) on live E. coli (K-12 wild-type). Bacteria were harvested in the experimental growth phase and concentrated to an optical density OD = 4 prior to experiment. Mixing with the peptide was performed either manually or using the stopped-flow apparatus available at ID02. This allowed us to measure both slow as well as fast reaction kinetics. The applied peptide concentration was just above the previously determined minimum inhibitory concentration (MIC = 7.8 µg/mL). Three sample-todetector distances were used (31 m, 3 m and 1.5 m) in order to cover q-ranges corresponding to positional correlations between a few µm to the sub-nm regime.</p><p>Analysis of the manually mixed samples showed that most of the peptide activity was already passed after about 2 minutes (time to mix peptides with bacteria and transfer into measurement capillary). We consequently mainly focussed on fast time-resolved experiments using the stopped-flow apparatus. This allowed us to measure the kinetics with a minimum wait time of 15 ms after mixing. The framing was set to an exposure time of 2 ms and a hold time of 2 s after each exposure in order to avoid radiation damage. Control experiments on E. coli in the absence of peptide were performed in order to make sure that the observed effects are related to the peptide activity and are not an artefact of the stopped-flow experiment.</p><p>Data showed a characteristic modulation of the scattered intensity in the USAXS regime (Fig. <ref type="figure">1</ref>) due to the well-defined (low polydispersity) E. coli size, in particular the cell's diameter, consistent with a previous report (1). The position of the first minimum of the intensity modulation in the USAXS regime is a measure of the overall diameter of the bacteria, but is also related to the scattering contrast (2).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In a first step we therefore evaluated the shift of this position as a function of AMP kinetics (Fig. <ref type="figure" target="#fig_1">2</ref>). This analysis showed a bimodal behaviour, suggesting a rapid increase of bacterial size within the first ~ 40 s after administration of the peptide, followed by a slower decay to about the original bacterial size. Alternatively, the changes might be also due a peptide induced modification of the scattering contrast, or be a combination of both effects. The observed shifts are, however, highly specific to the peptide as demonstrated by a control experiment using PGLa (GMASKAGAUAGKIAKVAWKAL-NH 2 ), a frequently studied AMP derived from the African clawed frog Xenopus laevis [see, e.g. ( <ref type="formula">4</ref>)]. In this case the initial increase was much faster (~2 s) and followed by an exponential-like decay with a half time on the order of 10 s (Fig. <ref type="figure" target="#fig_1">2</ref>). Focusing on the O-LF11-215 induced effects in the SAXS regime, we observed, within 40 s of the experiment, a rapid change/loss of intensity at q-vectors around 0.1 nm -1 (Fig. <ref type="figure" target="#fig_0">1</ref>, <ref type="figure">inset</ref>). This corresponds roughly to distances in the range of the separation between the inner membrane (IM) and outer membrane (OM) of the bacterial cell wall. We therefore analysed selected time-frames the USAXS/SAXS with the global model for E. coli ultrastructure reported recently (1) (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>Using a slab model for the scattering density profile we focussed particularly on the overall E. coli radius r E.coli , approximating the bacterial shape with ellipsoids, as well as the distance  OM/IM between the inner and outer membrane. Results, listed in Tab. 1 show that the inner and outer membrane separate significantly within the first 40 s after peptide addition. A separation of OM and IM is consistent with previous electron microscopy data <ref type="bibr" target="#b2">(3)</ref>. Our analysis further indicated that the scattering length density (SLD) of the cytoplasma decreased by 3-4% during the first 40 s of the experiment. This would be in line with a partial loss of the barrier function of the cell envelope. However, this analysis is ambiguous at present due to cross-correlations between the many adjustable parameters of the E. coli ultrastructure model <ref type="bibr" target="#b0">(1)</ref>. A particular problematic factor appears to be the presence of flagella and fimbriae in E. coli K-12, which both contribute to the overall scattered intensity <ref type="bibr" target="#b0">(1)</ref>. Future studies, should therefore focus on flagella and fimbriae-free E.coli strains and should also be combined with microbiological assays for peptide induced leakage of cell content in order to put constraints on the global analysis model. For example such experiments may first overexpress green fluorescent protein (GFP) in the cytoplasma and then study its release upon interaction with AMPs [see, e.g. ( <ref type="formula">5</ref>)]. In summary, our preliminary data provides clear evidence (i) that we are able to detect peptide-specific changes to E. coli ultrastructure using ID02 and (ii) that these changes occur on the millisecond to second time scale, which is much faster than anticipated from previous non-scattering experiments. Time-resolved USAXS/SAXS experiments at ID02 are consequently highly promising to pursue further.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Preliminary USAXS/SAXS experiments on the mode of action of the antimicrobial peptide O-LF11-215 on live E. coli. Panel A shows TEM data from untreated (top, corresponding length scales are indicated) and treated E. coli (bottom), adapted from (3). TEM shows that the peptide induced a shedding of aggregates (tubular protrusions) and separation of the outer and inner membrane. Panel B shows combined USAXS/SAXS data of E. coli at selected time points before and after rapid mixing with O-LF11-215. Solid lines correspond to preliminary fits using a global model (1), results are reported in Tab. 1. The inset shows the intensity change in the SAXS regime.</figDesc><graphic coords="2,67.05,36.85,461.22,272.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Shift of the first minimum occurring in the USAXS regime after mixing with O-LF11-215 and PGLa.</figDesc><graphic coords="2,126.40,507.83,342.53,263.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Preliminary analysis of O-LF11-215 induced changes in overall E.coli size and distance between the inner and outer membrane</figDesc><table><row><cell>Time (s)</cell><cell>r E.coli (nm)</cell><cell> OM/IM (nm)</cell></row><row><cell>0</cell><cell>~ 912</cell><cell>~ 25.9</cell></row><row><cell>0.015</cell><cell>~ 882</cell><cell>~ 25.9</cell></row><row><cell>40</cell><cell>~ 928</cell><cell>~ 28.7</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;In vivo&lt;/i&gt;analysis of the&lt;i&gt;Escherichia coli&lt;/i&gt;ultrastructure by small-angle scattering</title>
+		<author>
+			<persName><forename type="first">Enrico</forename><forename type="middle">F</forename><surname>Semeraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juliette</forename><forename type="middle">M</forename><surname>Devos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lionel</forename><surname>Porcar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Trevor</forename><surname>Forsyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Theyencheri</forename><surname>Narayanan</surname></persName>
+			<idno type="ORCID">0000-0003-1957-1041</idno>
+		</author>
+		<idno type="DOI">10.1107/s2052252517013008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IUCrJ</title>
+		<title level="j" type="abbrev">IUCrJ</title>
+		<idno type="ISSNe">2052-2525</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="751" to="757" />
+			<date type="published" when="2017-09-26">2017</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Semeraro, E. F., J. M. Devos, L. Porcar, V. T. Forsyth, and T. Narayanan. 2017. In vivo analysis of the Escherichia coli ultrastructure by small-angle scattering. IUCrJ 4.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Glatter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kratky</surname></persName>
+		</author>
+		<title level="m">Small Angle X-ray Scattering</title>
+		<meeting><address><addrLine>London, UK.</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glatter, O., and O. Kratky, editors. 1982. Small Angle X-ray Scattering. Academic Press, London, UK.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Studies on Lactoferricin-derived Escherichia coli Membrane-active Peptides Reveal Differences in the Mechanism of N-Acylated Versus Nonacylated Peptides</title>
+		<author>
+			<persName><forename type="first">Dagmar</forename><surname>Zweytick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Günter</forename><surname>Deutsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jörg</forename><surname>Andrä</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvie</forename><forename type="middle">E</forename><surname>Blondelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ekkehard</forename><surname>Vollmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Jerala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Lohner</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m110.195412</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="21266" to="21276" />
+			<date type="published" when="2011-06">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zweytick, D., G. Deutsch, J. Andrä, S. E. Blondelle, E. Vollmer, R. Jerala, and K. Lohner. 2011. Studies on Lactoferricin-derived Escherichia coli membrane-active peptides reveal differences in the mechanism of N-acylated versus nonacylated peptides. Journal of Biological Chemistry 286:21266-21276.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Membrane Thickening by the Antimicrobial Peptide PGLa</title>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Pabst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><forename type="middle">L</forename><surname>Grage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabine</forename><surname>Danner-Pongratz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weiguo</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><forename type="middle">S</forename><surname>Ulrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Lohner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Hickel</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.108.141630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="5779" to="5788" />
+			<date type="published" when="2008-12">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pabst, G., S. L. Grage, S. Danner-Pongratz, W. Jing, A. S. Ulrich, A. Watts, K. Lohner, and A. Hickel. 2008. Membrane thickening by the antimicrobial peptide PGLa. Biophys J 95:5779-5788.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Yar1 Protects the Ribosomal Protein Rps3 from Aggregation</title>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valentin</forename><surname>Mitterer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Niederhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tamsyn</forename><surname>Stanborough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Murat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerald</forename><surname>Rechberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Bergler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dieter</forename><surname>Kressler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brigitte</forename><surname>Pertschy</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m112.365791</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="21806" to="21815" />
+			<date type="published" when="2012-06">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koch, B., V. Mitterer, J. Niederhauser, T. Stanborough, G. Murat, G. Rechberger, H. Bergler, D. Kressler, and B. Pertschy. 2012. Yar1 Protects the Ribosomal Protein Rps3 from Aggregation*. J Biol Chem 287:21806-21815.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

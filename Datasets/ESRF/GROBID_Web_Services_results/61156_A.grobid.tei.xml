@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microfocused X-ray Diffraction Study of Crystallization in Droplets Experiment number: CH 4928</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Michael</forename><surname>Sztucki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Leeds</orgName>
+								<address>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Levenstein</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Leeds</orgName>
+								<address>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Meldrum</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Leeds</orgName>
+								<address>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microfocused X-ray Diffraction Study of Crystallization in Droplets Experiment number: CH 4928</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">559918DB633370F5E34DF520763F3BEF</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T12:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>During beamtime CH4928, we further developed the technique of droplet microfluidics-coupled X-ray diffraction (DMC-XRD) for in situ analysis of crystallization. Using this technique, crystals growing in water-in-oil (w/o) droplets can be analysed as they pass by windows that correspond to particular residence times in a microfluidic device. By focusing the X-ray beam at these points and taking a series of high framerate exposures, we can isolate diffraction incidents from the background signal of the oil scattering and gain information about the state of crystal growth at each location. This provides us with a picture of the crystallization pathway of the material, in this case, calcium carbonate (CaCO3). Improvements on the device design and chemical conditions were made based on the results of our previous beam-time (CH4555). These include a hydrophobic surface treatment and the inclusion of an additional aqueous input, which together, help to limit fouling of the channel walls. Also, the addition of nanoparticles of calcite (CaCO3) and other nucleating particles in the source solutions increased the nucleation rate and ensured that the entire crystallisation pathway was completed within the residence time of the chip (2-6 min depending on the flow rates utilised). This beam-time comprehensively demonstrated of the method at ID13, where this will now allow us (and others) to study crystallization pathways using synchrotron WAXS.</p><p>Microfluidic devices were mounted in the microfocus hutch of ID13, where they were aligned using the inline microscope and attached to syringe pumps with standard HPLC fittings (Fig. <ref type="figure" target="#fig_0">1a</ref>). CaCl2 and Na2CO3 solutions were then pumped into the device to produce droplets with a final CaCO3 concentration of 50 mM. Immediately after the solutions meet, amorphous calcium carbonate (ACC) forms within the droplets (Fig. <ref type="figure" target="#fig_0">1b</ref>) and remains stable throughout the device. However, when small nanoparticles of the CaCO3 polymorph calcite or bio-glass fragments are added with the source solutions, they induce crystals to nucleate from the ACC. The occurrence of nucleation is easily detected with diffraction from the resultant crystals, where crystals can be first detected after ~5 and ~15 seconds of mixing with nanocalcite and bio-glass, respectively. As expected, 'seeding' crystallization with pre-formed crystals is the most efficient way to increase the nucleation rate. However, bio-glass was shown to be almost as effective as nanoparticles of calcite and orders of magnitude faster than without any nucleantwhich can take upwards of 30 min. After nucleation, crystals continue to grow and deplete the ACC within the droplets until it is exhausted (Fig. <ref type="figure" target="#fig_0">1c</ref>), where the increase in the intensity and number of crystalline diffraction spots and the decrease of scattering from ACC can be observed from the XRD patterns (Fig. <ref type="figure" target="#fig_1">2</ref>). Then using a Matlab script we have developed, we can run through all the frames collected during a single exposure, eliminate oil frames, subtract the background and finally add up all of the crystalline diffraction into a single composite 2D diffraction pattern (Fig. <ref type="figure" target="#fig_2">3</ref>). In summary, this beam-time allowed us to perfect the technique of DMC-XRD and data analysis (paper in preparation). We are therefore now in a position to use this hard-won expertise to study crystallization mechanisms. We hope to continue our partnership with ID13 to further develop and adapt the technique for analysing new processes and aiding more researchers.   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: (a) The device mounted at ID13. (b) View through the analysis window of the device, showing the T-junction and a droplet (outlined with white dotted line) containing ACC precipitate. (c) The evolution of crystallization observed within droplets containing nucleants.</figDesc><graphic coords="2,76.45,307.90,442.50,233.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: Representative time-resolved XRD patterns observed in the device; crystal diffraction spots are circled.</figDesc><graphic coords="2,72.25,564.70,450.85,197.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 :</head><label>3</label><figDesc>Fig. 3: (Left) A composite 2D diffraction pattern containing all the crystal hits from a 10 second exposure. (Right) The corresponding 1D diffraction pattern integrated along the radius up to the yellow circle. This contains 9 peaks that correspond to the indicated calcite reflections.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

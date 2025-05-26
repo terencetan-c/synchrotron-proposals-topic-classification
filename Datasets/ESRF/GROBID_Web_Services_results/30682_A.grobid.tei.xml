@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The influence of sample properties on heterodyne mixing in XPCS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2005-08-30">August 30, 2005</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Aymeric</forename><surname>Robert</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Fendt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Experimentelle Physik Ia</orgName>
+								<orgName type="institution">Universität Dortmund</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tilo</forename><surname>Seydel</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institut Laue-Langevin (ILL)</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Henning</forename><surname>Sternemann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Experimentelle Physik Ia</orgName>
+								<orgName type="institution">Universität Dortmund</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Metin</forename><surname>Tolan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Experimentelle Physik Ia</orgName>
+								<orgName type="institution">Universität Dortmund</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kaveh</forename><surname>Shokuie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Experimentelle Physik Ia</orgName>
+								<orgName type="institution">Universität Dortmund</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Simone</forename><surname>Streit</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Experimentelle Physik Ia</orgName>
+								<orgName type="institution">Universität Dortmund</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The influence of sample properties on heterodyne mixing in XPCS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2005-08-30">August 30, 2005</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A4183C804519D314BC60C2A17E55884A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of the experiment was to study the influence of sample properties on the presence of so-called 'intrinsic heterodyning' in X-ray photon correlation spectroscopy (XPCS), i. e., the coherent mixing of the specular scattering with the fluctuating diffuse scattering signal. In XPCS, one measures the autocorrelation function of the scattered intensity, yielding the second-order correlation of the surface's scattering function <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>.</p><p>The measured function consists mainly of two parts: the homodyne and the heterodyne part, i. e., g 2 ( q, τ ) ∝ Ae -2Γτ cos 2 (ωτ ) + BI r e -Γτ cos(ωτ ).</p><p>The heterodyne part is proportional to the first-order correlation function and to the intensity of a 'reference signal' I r , thus showing a cosine behaviour. The homodyne part ist proportional to the absolute square of the first-order correlation function, yielding cos 2 . In the case of intrinsic heterodyning, the only source that can function as a reference signal is the static specular scattering from the mean surface.</p><p>In the case of low-viscosity liquids, which is considered here, one expects propagating 'capillary waves' on the liquid's surface which account for the cosine behaviour of the correlation function. Examples of such systems that have been measured successfully using surface-XPCS are water, n-hexane and ethanol.</p><p>When measuring water, one most often observes an almost purely heterodyne signal (easily recognised due to its cosine form) <ref type="bibr" target="#b1">[2]</ref>. Hexane, on the other hand, shows a purely homodyne correlation function (cos 2 behaviour). Both systems are comparable in viscosity (∼ 1cp and ∼ 0.5cp), leaving the surface tension as the most significant difference in mechanical properties (∼ 73dyn/cm and ∼ 19dyn/cm). Since water and hexane are immiscible, ethanol was chosen as 'replacement' for hexane. Ethanol has a very low viscosity (∼ 1.5cp) as well and a surface tension that is almost as low as that of hexane (∼ 22dyn/cm), while it is fully miscible with water at any ratio. This important property enables 'tuning' the surface tension of the sample just by changing the water fraction in the system.</p><p>During the experiment, we first verified the setup by measuring water, which showed a purely heterodyne function as observed previously. The measured correlation functions can be understood both qualitatively and quantitatively just from the liquid's macroscopic mechanical properties, leaving the wave vector transfer q and the effective resolution ∆q of the setup as only fit parameters <ref type="bibr" target="#b3">[4]</ref>. In a second step, we could then prove that ethanol shows indeed a purely homodyne correlation function (like hexane). These functions could again be successfully calculated from the liquid's properties.</p><p>During the experiment, we found that a sample with 25% water still showed homodyne behaviour, while a sample with 50% water already showed heterodyning (see fig. <ref type="figure" target="#fig_2">1(a</ref>) and 1(b)). This is surprising,</p><p>1 1.005 1.01 1.015 1.02 1.025 1.03 1.035 1e-06 1e-05 1e-04 0.001 Contrast [a.u.] τ [s]</p><p>25% water, 6°C, q || =2.96•10 -6 Å -1 fit baseline (a) Homodyne correlation function of a mixture containing 25% water.  erodyne is clearly visible. For visual orientation, the 'ideal' baseline is plotted as well; due to beamline instabilities (i. e., additional oscillations in the autocorrelation function) the baseline actually is not horizontal, which is taken into account in the fits.</p><p>since both systems still have a quite low surface tension (∼ 24 and ∼ 29dyn/cm). A mixture containing 40% water (∼ 26dyn/cm) showed 'mixed' correlation functions (i. e., with both significant heterodyne and homodyne parts). Since the measured 'heterodyning fraction' was not constant, but showed a rather large variance between consecutive measurements, we assume that the system was 'jumping' between states with the autocorrelator averaging the behaviour. Also, a slight q dependence could be noticed in the sense that the system showed no heterodyning at all for very low q values. It has therefore been successfully shown that the occurrence of intrinsic heterodyning may also be a property of the sample system. This result is very important for the understanding of XPCS data taken from low-viscosity systems, since theory so far failed to explain this behaviour. Our study is the first systematic investigation of the matter.</p><p>One should note that the method of calculating the correlation functions used here (and for previous experiments) is still partly 'phenomenological' in the sense that both the effective resolution and (more important) the 'heterodying fraction' of the function are arbitrary fit parameters without sufficient theoretical basis. The theoretical question under which conditions a system shows heterodyne or homodyne behaviour and if 'mixed' states are possible has only recently been addressed <ref type="bibr" target="#b2">[3]</ref>. The purpose of the experiment was to collect first experimental data of this surprising effect. Preliminary 'rigorous' calculations show at least qualitative agreement with the observed behaviour. To further investigate this new phenomenon, more experiments will be necessary. References</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Measured heterodyning fractions, depending on ethanol-water ratio. The dashed line is a guide to the eyes only.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 :</head><label>1</label><figDesc>Figure1: Autocorrelation functions of water-ethanol mixtures. The crossover from homodyne to heterodyne is clearly visible. For visual orientation, the 'ideal' baseline is plotted as well; due to beamline instabilities (i. e., additional oscillations in the autocorrelation function) the baseline actually is not horizontal, which is taken into account in the fits.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Capillary waves in slow motion</title>
+		<author>
+			<persName><forename type="first">Tilo</forename><surname>Seydel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Metin</forename><surname>Tolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerhard</forename><surname>Grübel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Werner</forename><surname>Press</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.63.073409</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<idno type="ISSNe">1095-3795</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">73409</biblScope>
+			<date type="published" when="2001-01-31">2001</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Seydel, A. Madsen, M. Tolan, G. Grübel and W. Press: Capillary waves in slow motion. Phys. Rev. B 63, 073409 (2001)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Erratum: Observation of Heterodyne Mixing in Surface X-Ray Photon Correlation Spectroscopy Experiments [Phys. Rev. Lett.&lt;b&gt;91&lt;/b&gt;, 076104 (2003)]</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ghaderi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chamard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Seydel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sprung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grübel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sinha</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.91.179902</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page">76104</biblScope>
+			<date type="published" when="2003-10-24">2003</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Gutt, T. Ghaderi, V. Chamard, A. Madsen, T. Seydel, M. Tolan, M. Sprung, G. Grübel and S. K. Sinha: Observation of Heterodyne Mixing in Surface X-ray Photon Correlation Spectroscopy Experiments. Phys. Rev. Lett. 91, 076104 (2003)</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ghaderi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sinha</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>to be published</note>
+	<note type="raw_reference">T. Ghaderi, C. Gutt, S. Sinha; to be published</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Synchr. Rad</title>
+		<imprint/>
+	</monogr>
+	<note>accepted</note>
+	<note type="raw_reference">A. Madsen et al.; J. Synchr. Rad., accepted</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

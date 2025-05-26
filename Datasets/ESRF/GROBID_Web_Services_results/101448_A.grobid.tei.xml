@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reconstruction of the heart muscle fiber network and conduction system: scaling up to large animal hearts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Ls-3111</surname></persName>
+						</author>
+						<title level="a" type="main">Reconstruction of the heart muscle fiber network and conduction system: scaling up to large animal hearts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8B7FA7E98B948E1EB7210544D40AD460</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Local contact(s): BROCHE, Ludovic Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): 1) *FROHN, Jasper 2) *BÖDDEKER, Frederik 3) *BRUNS, Hendrik 4) *CZAJKA, Titus 5) REICHARDT, Marius 6) SALDITT, Tim Affiliation of all applicants: Georg-August University of Goettingen Institut fuer Roentgenphysik, Friedrich-Hund-Platz 1, Germany</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Goal: The goal of the beamtime was to aquire whole heart tomography data, from which the three-dimensional (3d) network of muscle fibers in physilogically relevant conditions can be reconstructed. To this end, we used propagation-based phase-contrast tomography with optimized recording parameters and phase retrieval. The resulting 3d vector field of myofibril orientation (analysis on progress) represents a valuable resource for heart physiology and cardiac modeling.</p><p>Measurement: 9 whole mouse hearts embedded in a phosphate buffer solution, were successfully imaged in a low resolution configuration (voxel size = 1.625 µm³) in 3D using X-ray phase-contrast tomography. Tomograms were acquired in a stitching acquisition scheme resulting in ~20 tomograms per heart. During the acquisition of the tomograms, the formation of air bubbles in the buffer solution due to the X-ray intensity was the major technical challenge. However, same excellent data sets were acquired after finetuning of acquisition parameters and degasing of samples. In addition, the best prepared samples were imaged in 3d in a high resolution configuration (voxel size = 0.65 µm³), resulting in ~120 tomograms per whole heart.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis:</head><p>Using low and high-resolution phase-contrast tomography we are able to determine the architecture of a whole mouse heart in phosphate buffer solution. In this hydrated state the structural artefact due to the sample preparation are minimized. The contrast and resolution of the obtained tomograms is sufficient to visualize the orientation of the heart muscle fibers (Fig. <ref type="figure" target="#fig_1">1</ref>(a)&amp; (b)) and to calculate the 3d vector field of the myofibril orientation. To this end, the 3d structure tensor of the entire heart was calculated. Near the ventricle, the fibre orientation is aligned with the longitudinal axis of the heart. These fibres are then surrounded by in-plane rotating fibres, see figure <ref type="figure" target="#fig_1">(1c)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>We were able to obtain high quality tomograms in terms of image contrast and resolution in a physiological relevant state (murine heart in PBS solution). The sample preparation of the hydrated hearts was optimized to minimize the creation of air bubbles within the buffer solution during the X-ray scans. The phase retrieval step was improved using sophisticated phase retrieval algorithms from the holotomotoolbox <ref type="bibr">(Lohse et.al (2020), JoSR)</ref>. To this end, we are able to reconstruct and analyse the 3d structure of the cardiomyocytes chains in the entire organ. The analyses is still ongoing, however, preliminary results are presented in Fig. <ref type="figure" target="#fig_1">1</ref>. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 :</head><label>1</label><figDesc>Fig.1: Reconstruction of a murine heart, from data acquired at ID19 in the low resolution configuration . (a) An exemplary 2d slice of the reconstructed 3d volume, the short-axis-view. Even in the low resolution configuration the structure and orientation of the cardiomyocytes is revealed. (b) Digital zoom into the red marked area. (c) 2d streamline plot of the calculated 3d structure tensor field of the same exemplary 2d slice as in (a) visualizes the orientation of the muscle fibers. (d) 3d rendering of the entire mouse heart obtained by stitching 20 low resolution tomograms.</figDesc><graphic coords="2,34.00,188.65,532.95,511.25" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

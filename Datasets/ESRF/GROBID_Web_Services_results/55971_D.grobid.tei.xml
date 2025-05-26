@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Measurement and modeling of micro residual stresses in zirconium crystals in three dimension</title>
+				<funder ref="#_JUtwxWH">
+					<orgName type="full">Canadian Natural Sciences and Engineering Research Council</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-11-20">20 November 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Abdulla</forename><surname>Alawadi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical and Materials Engineering</orgName>
+								<orgName type="institution">Western University</orgName>
+								<address>
+									<addrLine>Spencer Engineering Building</addrLine>
+									<postCode>N6A 5B9</postCode>
+									<settlement>London</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+							<email>hamid.abdolvand@uwo.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical and Materials Engineering</orgName>
+								<orgName type="institution">Western University</orgName>
+								<address>
+									<addrLine>Spencer Engineering Building</addrLine>
+									<postCode>N6A 5B9</postCode>
+									<settlement>London</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Measurement and modeling of micro residual stresses in zirconium crystals in three dimension</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of the Mechanics and Physics of Solids</title>
+						<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+						<idno type="ISSN">0022-5096</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">135</biblScope>
+							<biblScope unit="page">103799</biblScope>
+							<date type="published" when="2019-11-20">20 November 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0EF06A21D2BF8FF42E995438F11860C5</idno>
+					<idno type="DOI">10.1016/j.jmps.2019.103799</idno>
+					<note type="submission">Received 26 June 2019 Revised 8 November 2019 Accepted 19 November 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Three-dimensional synchrotron X-ray diffraction Grain-average stress Hexagonal close-packed crystal Size effects Texture effects</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The performance of the zirconium alloys used in nuclear reactors can be affected by the state of the residual stresses that develop during manufacturing of the reactor core components. In this paper, residual stresses within individual grains of a textured α-zirconium polycrystal are studied. For this purpose, three-dimensional synchrotron X-ray diffraction is used to measure elastic strain tensor, center-of-mass (COM), orientation, and stress tensor of more than 11,0 0 0 grains in a zirconium sample. The grain measured COMs and orientations are used to reconstruct the 3D microstructure of the sample using the weighted Voronoi tessellation technique. The microstructure is subsequently imported into Abaqus to simulate the experiment using a crystal plasticity finite element model. The state of the thermal residual stresses that develop during slow cooling from 700 °C, and those that develop after unloading from 1.2% applied tensile strain are discussed. It is shown that both thermal and mechanical micro residual stresses, and their variations within a grain, are correlated with grain size. Also, due to strong anisotropy of the single crystal, residual stresses are significantly affected by the configuration of local grain neighborhood.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Zirconium (Zr) and its alloys have been widely used in the core of nuclear reactors due to their good mechanical properties and high neutron transparency. The most common form of Zr is the α-phase which has hexagonal close-packed (HCP) crystal structure with high elastic, thermal, and plastic anisotropy. One of the main challenges of using Zr in light or heavy water reactors is its susceptibility to formation of zirconium hydrides. During the normal operation of a nuclear reactor, hydrogen from water can diffuse into the Zr lattice. At lower temperatures, the solubility limit of hydrogen in Zr reduces, resulting in the formation of a brittle phase known as zirconium hydride. This phase has a very low fracture toughness, affecting the lif e-span of reactor core components. It has been suggested that formation of hydrides is affected by the state of stresses at the grain boundaries and their variations within a grain <ref type="bibr" target="#b39">( Perovic et al., 1992 )</ref>. More importantly, it has been suggested that grain-level thermal residual stresses that develop during manufacturing of zirconium nuclear pressure tubes can affect the diffusion of hydrogen and formation of hydrides in pressure tubes <ref type="bibr" target="#b29">( Judge, et al., 2018 )</ref>. As such, this paper focuses on characterizing such localized stresses in α-Zr crystals.</p><p>Different diffraction techniques are used to measure stresses in Zr-alloys. For example, neutron diffraction was used to measure the evolution of internal lattice strains during uni-axial deformation experiments conducted on Zircaloy-2 sam-Table <ref type="table">1</ref> Chemical composition of the CPZr sample <ref type="bibr" target="#b21">( Gong et al., 2015 )</ref>. <ref type="bibr">Num</ref>bers are given in ppm. Zr C Hf Fe Cr N O H Balance 250 2500 200 200 100 1000 10</p><p>ples <ref type="bibr" target="#b47">( Xu, et al., 2008 )</ref>. In this experiment, the average stress within families of grains, that diffract an incident beam, was measured. Such measurements are valuable as the effects of load partitioning on deformation mechanism at the meso-scale can be studied; however, stress development within individual grains cannot be measured due to resolution limits of the method. A few experimental techniques are currently available for measuring grain-level stresses. Laue micro-diffraction is one of those techniques, which was used, for example, to measure lattice curvature in a fatigued copper sample <ref type="bibr" target="#b25">( Irastorza-Landa et al., 2017 )</ref>; however, in Laue micro-diffraction technique, only a few grains can be examined. Three-dimensional synchrotron X-ray diffraction (3D-XRD) is another technique that provides grain-level stress tensor <ref type="bibr">( Lauridesen et al., 20 0 0 ;</ref><ref type="bibr" target="#b26">Jakobsen et al., 2006 ;</ref><ref type="bibr" target="#b28">Johnson et al., 2008 ;</ref><ref type="bibr" target="#b24">Hurley et al., 2018 )</ref>. With 3D-XRD, the center-of-mass position (COM), relative volume, average orientation, average elastic strain, and stress of individual grains in a polycrystal can be measured. For instance, this technique was used to measure the evolution of stress in twin and parent pairs in Zircaloy-2 <ref type="bibr">( Abdolvand et al., 2015a , b )</ref> and magnesium alloys <ref type="bibr" target="#b13">( Aydiner et al., 2009 ;</ref><ref type="bibr">Abdolvand et al., 2015 )</ref>. Furthermore, 3D-XRD was recently used to study deformation-induced grain orientation spread and the possible effects of grain-grain interactions on the activation of various slip systems in steel and zirconium <ref type="bibr" target="#b38">( Oddershede et al., 2015 ;</ref><ref type="bibr" target="#b45">Winther et al., 2017 ;</ref><ref type="bibr">Abdolvand et al., 2018 )</ref>. With 3D-XRD it is possible to measure average stresses of many grains, but at the expense of losing information about stress variations within individual grains. For capturing such variations, high resolution electron backscatter diffraction (HR-EBSD) can be used. HR-EBSD has been used to study residual stress field close to grain boundaries <ref type="bibr" target="#b48">( Zhang et al., 2018 ;</ref><ref type="bibr" target="#b27">Jiang et al., 2015 ;</ref><ref type="bibr" target="#b43">Tong et al., 2015 ;</ref><ref type="bibr" target="#b8">Abdolvand and Wilkinson, 2016 )</ref>; however, due to low penetration depth of electrons, such variations can only be measured at the sample surface. Various numerical techniques have been used to simulate stress development in polycrystals at different length scales. For simulating meso-scale stresses, crystal plasticity has been employed in various frameworks including, finite element <ref type="bibr" target="#b11">( Ardeljan et al., 2014 ;</ref><ref type="bibr" target="#b17">Enshiro and Dunne, 2015 ;</ref><ref type="bibr" target="#b16">Cheng and Ghosh, 2017 )</ref>, self-consistent <ref type="bibr" target="#b35">( Lebensohn and Tome, 1993 ;</ref><ref type="bibr" target="#b44">Wang et al., 2010 ;</ref><ref type="bibr" target="#b46">Xiazi et al., 2015 )</ref>, and fast Fourier transformation <ref type="bibr" target="#b31">( Kumar et al., 2016 ;</ref><ref type="bibr" target="#b32">Kumar et al., 2019 ;</ref><ref type="bibr" target="#b34">Lebensohn and Needleman, 2016 )</ref>. Crystal plasticity is a set of constitutive equations that describes plastic deformation by the movement of dislocations on a slip plane in the slip direction <ref type="bibr" target="#b12">( Asaro, 1983 )</ref>. This technique has been successfully used for modelling plastic deformation by slip <ref type="bibr" target="#b41">( Shahba and Ghosh, 2016 ;</ref><ref type="bibr" target="#b23">Guan et al., 2017 )</ref> and twinning <ref type="bibr">( Abdolvand et al., 2018 ;</ref><ref type="bibr" target="#b0">Abdolvand and</ref><ref type="bibr">Daymond, 2013a, 2013b ;</ref><ref type="bibr" target="#b15">Cheng and Ghosh, 2015 )</ref>. Also, it has been used to model damage nucleation at or close to grain boundaries <ref type="bibr" target="#b14">( Bieler et al., 2009 ;</ref><ref type="bibr" target="#b42">Su et al., 2016 )</ref>, and to model non-Schmid effects in nickel based superalloys <ref type="bibr" target="#b30">( Keshavarz et al., 2016 )</ref>. Advances in the field have led to the development of strain gradient CPFE models to study formation of slip bands and capture non-local effects <ref type="bibr" target="#b20">( Forest et al., 2002 ;</ref><ref type="bibr" target="#b37">Ma et al., 2006 ;</ref><ref type="bibr" target="#b18">Erinosho and Dunne, 2014 )</ref>.</p><p>In this study, the state of the residual stresses in Zr crystals are investigated using CPFE numerical modeling and 3D-XRD experimental measurement. Firstly, the steps required for extracting grains stress and strain tensors, COMs, orientations, and volumes using 3D-XRD are described. Several codes are developed to reconstruct grain shapes based on their measured COMs, and relative volumes. The simulated microstructure is subsequently imported into a CPFE model to simulate thermal and mechanical residual stresses. The results of the CPFE model are compared against measured values to understand the nature and origin of such stresses. The effects of sample texture on the reported trends are subsequently studied.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Sample</head><p>A large bar of CPZr with the composition shown in Table <ref type="table">1</ref> was first annealed at 700 °C in an Argon gas environment to prevent oxide layer formation and then air cooled to relieve residual stresses from manufacturing. A dog-bone sample was then cut from the bar such that the sample tensile axis coincided with the original bar diameter. To reduce the effects of machining, the sample was then mechanically polished down to 40 0 0 grit followed by polishing with colloidal silica solution. To reduce the effects of the surface damage on the quality of the collected diffraction patterns, the sample was finally electro-polished for 45 s at 25 V in a solution of 10% perchloric acid and 90% methanol at -30 °C. An example of the EBSD map measured for the sample is shown in Fig. <ref type="figure" target="#fig_0">1</ref> a. The coordinate system used in this paper is shown in Fig. <ref type="figure" target="#fig_0">1</ref> b where the z -axis coincides with the original bar diameter and the loading direction, the x -axis points into the sample thickness along the incident X-ray beam direction, and the y -axis is given by the cross product of the other two which coincided with the longitudinal axis of the original bar. The 3D-XRD measured pole figure of the sample is shown in Fig. <ref type="figure" target="#fig_0">1 c</ref>. The (0 0 02) pole figure shows that most of the grains have their c -axis oriented towards the x -axis with lesser grains oriented towards the z -axis. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">3D-XRD experiment</head><p>The experiment was conducted at the ID-11 of the European Synchrotron Radiation Facility (ESRF), Grenoble, France. The sample was mounted on an Admet tensile rig that applies load uniaxially. The macroscopic applied load was measured by a load cell attached to the tensile rig while the macroscopic strain was measured using two different methods: (a) by tracking two silver wires glued to the sample and determining their precise position using the incident x-ray beam and (b) by digital image correlation tracking changes in the position of the wires using optical images. The sample was deformed under strain-control at an applied strain rate of 2.64 × 10 -5 s -1 . Diffraction measurements were conducted at four different steps: preload, onset of plasticity ( ε = 0 . 59% ), maximum applied strain of ε = 1 . 2% , and finally unload. For the preload step, the sample was firstly aligned to ensure that the whole cross section would be immersed in the X-ray beam throughout the rotation steps; then, it was pre-loaded to 7 MPa for collecting diffraction patterns. For the next two steps, the sample was initially deformed to the prescribed strains. For the last step, the sample was unloaded to 10 MPa using the same strain rate. At each measurement step, after aligning the sample, the center of the probed volume was re-calculated by determining the current position of the silver wires and applying the necessary movements in the z-direction to follow the same volume. The first and last steps are the two steps where thermal and mechanical residual stresses were measured, respectively, while the middle two steps were used to ensure that evolution of stress at the grain level was captured in the CPFE model.</p><p>At each loading step, diffraction patterns were acquired using a monochromatic X-ray beam with the energy of 78.39 keV. In order to measure the state of the deformation in 3D, the sample was rotated about the z -axis. The sample and the loading stage were firstly rotated from -234.5 to -125.5 °, and then from -54.5 to 54.5 °both with the rotation step of 0.25 °The exposure time for collecting diffraction images with 2048 × 2048 pixels was 0.25 s for each rotation step. Once diffraction patterns were measured for one layer, the sample was moved along the z -axis by 25 μm so that measurement for the next layer could be conducted. This process was repeated until 15 layers of the sample were probed, i.e. a 0.375 mm length of the sample gauge was covered. The post-processing of the measured data was mainly done by the use of ImageD11 and the subroutines embedded into Fable ( <ref type="url" target="https://sourceforge.net/p/fable/wiki/Home/">https://sourceforge.net/p/fable/wiki/Home/</ref> ). Full description of this procedure is given in <ref type="bibr">Abdolvand et al. (2018)</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Crystal plasticity simulations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Input model</head><p>The measured COMs and relative volumes of the grains were used to simulate grain shapes and import the simulated microstructure into the Abaqus finite element solver. This was done by calculating the "real" physical volume of each grain in the scanned volume, assuming that grains are space-filling, and no grain was missed during the analysis of the 3D-XRD data. With these assumptions, the 3D-XRD measured relative volumes can be multiplied by the dimensions of the probed volume to get the "real" volume of each grain. Grain volumes and the measured COMs were subsequently used to simulate grain shapes using the weighted Voronoi tessellation technique described in <ref type="bibr">( Abdolvand et al., 2015 )</ref>.</p><p>Surface stresses may develop during machining, mechanical polishing, or mounting of the sample on the tensile rig. To avoid such effects, grains located within 100 μm of the free surfaces were removed, i.e. a subset of grains were imported into the Abaqus FE solver. These grains are located in the center of the probed volume and fall into a cube of 200 μm side, meshed with a step size of 4 μm, and has 50 × 50 × 50 elements that cover 1038 grains as shown in Fig <ref type="figure" target="#fig_1">2 a</ref>. The same cube was also meshed using step size of 5 and 17 μm to check the convergence of the FE results. These three models are called S4, S5, and S17, respectively. The simulation cube was then discretized using C3D8 elements. At this stage, the position of each element in the cube was substituted into Eq. ( <ref type="formula">1</ref>) for grain assignment <ref type="bibr">( Abdolvand et al., 2015 )</ref>:</p><formula xml:id="formula_0">C i = X ∈ R d X -s i 2 -w 2 i &lt; X -s j 2 -w 2 j , i = j (1)</formula><p>where X is the position vector of the element in the cube, s i is the position vector of the seed point of the grain i , and w i is the radius of the same grain. For determining the seed point of each grain, Eq. ( <ref type="formula">1</ref>) is solved in two steps. In the first step, s i is replaced by the measured COM i of the grain G i . This result in a new COM b for G i which does not necessarily coincide with the actual measured COM i . In the second iteration, s i is set equal to 2COM b -COM i . It is shown that the second iteration provides a much better estimation of grain boundaries <ref type="bibr" target="#b36">( Lyckegaard et al., 2011 )</ref>. The model with its corresponding texture is illustrated in Fig 2 . Comparison of the pole figures for the simulated cube ( Fig. <ref type="figure" target="#fig_1">2 b</ref>) with those measured experimentally for the larger probed volume ( Fig. <ref type="figure" target="#fig_0">1 c</ref>) indicate that the overall texture is well captured in the CPFE model. Further, In Fig. <ref type="figure" target="#fig_1">2 c</ref>, the relative volume of each grain in the simulated microstructure is compared to those measured. Results for a second case where Voronoi tessellation is used is also shown. For this case the weight function ( w i and w j ) in Eq. ( <ref type="formula">1</ref>) was simply set to zero and grains COMs were used as seed points. It can be seen that the relative volume from weighed Voronoi are much closer to those measured experimentally.</p><p>For simulating the experiment, the model was firstly cooled down to room temperature in the absence of any external load (zero net force in all directions) to simulate the development of thermal residual stresses during heat treatment. In the second step, the sample was deformed at the same strain rate that was used in the experiment. Periodic boundary conditions were applied on each of the surfaces of the simulation cube following the method described in <ref type="bibr" target="#b3">( Abdolvand et al., 2011 )</ref>. A tensile elongation was applied along the z -axis, while in the transverse x and y axes the contraction was left free, and the model was allowed to relax to zero transverse net force.</p><p>A crystal plasticity user material (UMAT) subroutine for the Abaqus finite element solver that was developed by <ref type="bibr" target="#b3">Abdolvand et al. (2011)</ref> was used for simulating deformation of each grain. A brief description of the key equations used in the subroutine is given here; comprehensive explanations are given elsewhere <ref type="bibr" target="#b3">( Abdolvand et al., 2011 )</ref>. At the beginning of each time increment, Abaqus FE solver provides strain and time increment data into the UMAT, in which the new state of stress, solution dependent state variables, and the Jacobian matrix ( ∂ σ ∂ ε ) are calculated. The total strain increment ( ɛ ) can be decomposed to the elastic ( ɛ el ) and plastic ( ɛ pl ) parts. For the CPZr sample used in this study, the c -axis of the HCP crystals are mostly in compression, and since the deformation is applied to small strains, the effects of twinning are ignored; hence, the plastic strain rate can be calculated from the slip rate ( ˙</p><formula xml:id="formula_1">γ α ): ˙ ε pl = N spl α=1 P α ˙ γ α P α = sym ( S α ) where S α = d α n α (2)</formula><p>In which P α is the symmetric part of the Schmid tensor ( S α ) for the slip system α, d α is the direction of the slip and n α is the normal to the slip plane. The slip rate of the slip system α is calculated using Eq. (3) <ref type="bibr" target="#b12">( Asaro, 1983 )</ref></p><formula xml:id="formula_2">: ˙ γ α = ˙ γ 0 τ α g α n sign τ α g α (3)</formula><p>where ˙ γ 0 is a reference shear strain rate, and n is a constant that controls rate dependency. The value of ˙ γ 0 and n are provided in Table <ref type="table">3</ref> . τ α and g α are the resolve shear stress on the slip system α and the current strength of this system, respectively. At room temperature, plastic deformation of CPZr is mostly controlled by prism 11 2 0 , basal 11 2 0 , and pyramidal 11 2 3 slip systems <ref type="bibr" target="#b47">( Xu et al., 2008 ;</ref><ref type="bibr" target="#b3">Abdolvand et al., 2011 )</ref>. The CRSS values used in this study are 82 MPa, 109 MPa, and 287 MPa, respectively, with no further hardening. These CRSS values were established by scaling down those reported by <ref type="bibr" target="#b21">Gong et al. (2015)</ref> from micro-cantilever testing of the same batch of CPZr to allow for a change in strain rate and the stress relaxation occurring during the 3D-XRD experiment. This model is called "relaxed model". In addition, a second set of crystal parameters was used to study the effects of displacement-hold and crystal hardening on the calculated residual stresses for the unload step. These parameters were extracted by <ref type="bibr" target="#b3">Abdolvand et al. (2011)</ref> for α-Zr and are provided in the supplementary file (Table <ref type="table">S1</ref>). This model is called "displacement-hold". In the supplementary file, it is shown that the difference between the "relaxed" model and "displacement-hold" model for thermal and mechanical residual stresses are negligible. Hence, in all simulations presented in this paper, the first set of parameters are used with the "relaxed model".</p><p>The shear stress acting on each slip system can be calculated from the Kirchoff stress ( ) through the following equation:</p><formula xml:id="formula_3">τ α = P α : (4)</formula><p>The Jaumann rate of Kirchoff stress ( ) is related to the elastic part of the rate of deformation ( ˙ D el ) and the elastic stiffness tensor ( C ) as:</p><formula xml:id="formula_4">= C : ˙ D el where = ˙ -˙ el + ˙ el (5)</formula><p>where ˙ el is the elastic part of the spin tensor. The deformation and the rotation rates are correlated to the symmetric and asymmetric parts of the velocity gradient ( L ) as:</p><formula xml:id="formula_5">˙ D el + ˙ D pl + ˙ el + ˙ pl = sym ( L ) + asym ( L ) (6)</formula><p>and the plastic part of the rotation increment is correlated to the plastic shear rate and asymmetric part of the Schmid tensor ( W α ):</p><formula xml:id="formula_6">˙ pl = N spl α=1 W α ˙ γ α (7)</formula><p>The elastic modulus of the single crystal CPZr used in this study is the one determined by <ref type="bibr" target="#b19">Fisher and Renken (1964)</ref> : C 11 = = 143.5 GPa, C 33 = = 164.9 GPa, C 12 = = 72.5 GPa, C 13 = = 65.4, GPa, and C 44 = = 32.1 GPa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head><p>In the following sections, stresses and strains are given in the global coordinate system shown in Fig. <ref type="figure" target="#fig_0">1</ref> b where x, y, and z coincide with the X-ray beam (11), transverse (22), and the loading (33) directions, respectively. σ H is used to represent hydrostatic stress. In calculating propensities from the 3D-XRD experiments, the measured volume fraction of grains are taken into account to provide a like-to-like comparison with the obtained values from CPFE simulations. Also, in all of the relevant figures, β represents the angle between the Basal plane normal and the loading direction. Neighboring grains are identified after meshing the volume and a grain neighbor is defined as the one that shares at least one element surface with another grain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">3D-XRD vs. CPFE results</head><p>The macroscopic stress-strain curve for CPZr is shown in Fig. <ref type="figure" target="#fig_1">2 d</ref>. In this figure, the continuous stress strain curve that was measured non-stop is compared against the one measured during 3D-XRD experiment. For each applied strain, there are three stresses that were measured during the 3D-XRD experiment; these three values correspond to the initial measured stress at a given strain, the stress measured after the sample alignment (~30 min hold at that strain level) and right before the start of diffraction measurement, and the stress measured at the end of the measurement. For the preload and unload steps, the last two stresses coincide with the initial measured stresses as there was no evident stress relaxation. The initial measured stresses are close to the ones measured during continuous experiment, although they are slightly higher as the strain rate during the 3D-XRD experiment (2.64 × 10 -5 s -1 ) was a little higher than that of the continuous experiment (1 × 10 -5 s -1 ). The macroscopic stresses measured at the end of the each loading step are very close to the stresses determined from the 3D-XRD measurements using the weighted volume average of the stresses measured for each grain. Further, it is shown in Fig. <ref type="figure" target="#fig_1">2</ref> d that CPFE results, at macro-level, are converged for S5 and S4 models. The results of model S4, however, is used throughout this paper as more elements are assigned to each grain. Further analysis of calculated stresses for each grain indicate that grain average stresses are converged for both model S5 and S4; however, to capture "true" stresses at the grain boundaries, it is necessary to use higher mesh densities or special element types as discussed by <ref type="bibr" target="#b22">( Gonzalez et al., 2014 )</ref>. As such, for the analysis of stress variations, e.g. stress range, all elements located at the grain boundaries are removed and only the IPs located within grain interiors are used.</p><p>The total number of indexed grains obtained at each loading step and number of peaks assigned to each grains are shown in Table <ref type="table" target="#tab_1">2</ref> . Since the sample was deformed to small strains, there is only a small reduction in the number of peaks per grain. This is also reflected in the estimated errors for the COM and stresses measured for each grain. The distribution of the measured stresses and orientations for each loading step are shown in Fig. <ref type="figure" target="#fig_2">3</ref> , where each grain is represented by a sphere with a volume proportional to the measured volume of the grain. It is shown in Fig. <ref type="figure" target="#fig_2">3</ref> a that most of the grains have their c -axis perpendicular to the loading direction. This means that basal and prism are the two main active slip systems.</p><p>Further, σ 33 stresses measured at the onset of plasticity and applied stress of 1.2% are generally varying between 100 and 400 MPa, while those measured at the preload and unload vary between -200 and 200 MPa. Since hydrogen diffusion in Zr lattice depends on the state of the hydrostatic stresses, the variation of σ H at the preload and unload are provided in Fig. <ref type="figure" target="#fig_2">3</ref> f, and g.</p><p>The distribution of the grain measured residual stresses as a function of the angle ( β) between the sample z -axis and the crystal c -axis for σ 33 and σ 11 at the preload step are shown in Fig. <ref type="figure" target="#fig_3">4</ref> a and b, respectively. The grain to grain variations in residual stresses are large, despite the anneal and slow cool. Measured stresses vary between -200 and + 200 MPa with an overall standard deviation of 52 MPa. Averaging stresses (by grain volume) within each 5 °bin in angle β reveals an underlying trend of more σ 33 tensile stress for grains with the c -axis aligned close to the sample z -axis, and a gradual decrease into a slight compressive stress for grains with c -axis near 90 °to the z -axis. CPFE results shown in Fig. <ref type="figure" target="#fig_3">4 d-f</ref> indicate that such trends are due to anisotropy of the coefficient of thermal expansion (CTE) for the HCP crystal which is larger along the c -axis ( α c = = 10.1 × 10 -6 K -1 ) than normal to it ( α a = = 5.3 × 10 -6 K -1 ). The thermal residual stresses develop as a result of the grain-grain interaction and anisotropy in the elastic modulus and thermal coefficient of expansion.</p><p>The volume averaged of 3D-XRD results for the unload step, given in Table <ref type="table" target="#tab_1">2</ref> , confirm that there is no external loading on the sample. The obvious comparison to make is with the initial state where grains with c -axis within ~15 °of the z -axis exhibited tensile residual stress on average of ~50 MPa, but in some cases in excess of 150 <ref type="bibr">MPa ( Fig 4 a)</ref>. By comparison the residual stresses at the end of the test after the tensile deformation are significantly reduced for these hard oriented grains ( Fig. <ref type="figure" target="#fig_3">4 c</ref>) for which the average stress is close to zero, though individual grains have stresses distributed between + 100 MPa and -100 MPa. Grains with high β have a slightly compressive σ 33 , which is similar to the condition before the load-unload cycle. CPFE simulation at unload is shown in Fig. <ref type="figure" target="#fig_3">4</ref> g-i where a good agreement between CPFE simulation and 3D-XRD measurement was achieved. In the both preload and unload steps, most grains have grain-average stress of zero. In the unload step, the bar graphs broaden to overall standard deviation of 80.4 MPa reflecting the effects of plastic deformation that occurred in the crystals at 1.2% applied strain. Further analysis of the results show that at the preload and unload, the hydrostatic stress varies between ±200 MPa with the overall standard deviation of 44.9 MPa and 52.8 MPa, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Effects of grain size</head><p>In Fig. <ref type="figure" target="#fig_4">5</ref> , the grain-average stress obtained from CPFE and 3D-XRD in the preload and unload steps are plotted against the measured diameters of the grains. In this figure, "o" represents the grain-average stress and grains are grouped based on their diameters using 5 μm increments. To calculate the average of stress for each group, shown with an "X", the absolute value of grain-average stresses are used, and the plotted line is fitted using the "X" values. It can be seen that in all scatter plots, the slope of the fitted line is negative. This indicates that, on average, bigger grains are more likely to experience lower grain-average stresses; however, it does not imply that big grains have lower "local" stresses (see Section 5.2 ). Also, as the diameter increases, stress range for each group decreases. For example, σ H at preload for grains with dimeter of 10 μm vary between ±200 MPa, but at 60 μm, this range is ±50 MPa. Similar trends were captured at the unload step. The same trends  are captured in CPFE results; however, the slopes of the fitted line obtained from CPFE are lower than those obtained from 3D-XRD. One of the factors that affect this slope is the number of grains contributed in each population. In the CPFE model, not all measured grains are simulated, hence, the effects of the grain-grain interactions are underestimated, especially for the grains at the model surface. This is further discussed in Section 5.2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p>Since stress variation within grains can be extracted from CPFE simulations, in this section, the effects of grain size and grain neighborhood on the development of localized stresses and their effects on the observed trends for grain-average stresses will be discussed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Size effects</head><p>CPFE results are used to investigate the variation of stress across individual grains. Two grains that have different diameters are compared. The first grain is the grain number 4329, one of the bigger grains in the simulated population. It has a diameter of 54.5 μm with 8528 integration points (IP). The second grain, grain 3144, is a smaller grain that has a diameter of 28.2 μm and 1520 IPs. Both grains are compared in terms of stress variation within the grain, at the preload and unload steps ( Fig. <ref type="figure">6</ref> a-f and Table <ref type="table" target="#tab_2">4</ref> ). In this paper, stress range refers to the difference between the highest and lowest calculated stresses from IPs of a grain. For the calculation of stress range, IPs located at the grain boundaries are removed from the analysis. Full width at half maximum (FWHM) of stress is calculated using stresses at each IP. Stress range is an indication of localized stress fields close to grain boundaries while FWHM represent general stress variation within the grain. In Table <ref type="table" target="#tab_2">4</ref> ,  it is shown that FWHM of stress components as well as stress range for the bigger grain is generally higher than those of smaller grain, particularly for the unload step. This indicates that the bigger grain can accommodate the sharp stress variations from one side of the grain to another and reduce the stresses from the grain boundaries towards grain interiors; however, for the smaller grain, the effects of stress variations at the grain boundaries is not overcome by the grain size. Such effects can better be seen by dividing the calculated FWHM to the stress range to highlight the ratio between stress variations to stress localization. These two grains represent an example of many grain combinations that are tested, yet similar trends are observed. The variation of FWHM, stress range, and their corresponding ratio as a function of grain size for all of the simulated grains are shown in Fig. <ref type="figure">6 g-l</ref>. It can be seen that FWHM of σ 11 and σ H is weakly correlated with the grain size; however, stress range is significantly affected by the grain size, i.e., bigger grains have higher stress range. This is significant because higher stress gradients may accelerate diffusion of hydrogen atoms <ref type="bibr" target="#b40">( Puls, 2012 ;</ref><ref type="bibr" target="#b0">Abdolvand, 2019 )</ref>. Such sharp stresses at the grain boundaries are caused by the bigger grain having more neighbors, i.e. grain 4239 has 33 neighbors compared to the 19 neighbors of grain 3144.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Effects of neighboring grains</head><p>Localized stresses close to grain boundaries and grain-average stresses are very much affected by the grain neighborhood. The effects of grain neighborhood on two different sets of grains are studied here; in the first set, grains are located at the surface of the CPFE model and are called "surface grains". In the second set, the selected grains have no element at the model surface, and are called "interior grains". Grain 2309, which lies on the surface of the simulated cube, is examined. This grain has 616 integration points, and 8 of its neighbors are present in the simulated cube, while in the actual specimen it has more neighbors. Fig. <ref type="figure" target="#fig_5">7</ref> shows that there is a significant difference between the values calculated by CPFE and those measured with 3D-XRD at the preload step. This is due to missing neighbors and the lack of capturing the "true" grain-Fig. <ref type="figure">6</ref>. Grain-average stresses and stress variations for σ 11 and σ H : Results for grain 4329 and 3144 are shown in the first and second rows, respectively. The calculated full width of half max (FWHM), stress range, and the ratio of FWHM to stress range of (g-i) σ 11 and (i-l) σ H . grain interaction. Such interactions controls how thermal residual stresses develop. These results reveals the importance of materials microstructure in the analysis of residual stresses for anisotropic materials.</p><p>Two interior grains with nearly similar diameters were selected for further analysis. The choice of two grains was to only focus on grain neighborhood effects and to minimize the possible size effects. The first grain is grain 5732 which has a diameter of 41 μm, 21 neighbors, and 4232 integration points. The second grain is grain 3492 which has a diameter of  The first two columns are from the preload step and the last two are from the unload step. 47 μm, 28 neighbors, and 6336 integration points. It is shown in Fig. <ref type="figure" target="#fig_6">8</ref> that for both cases, the calculated average stresses from CPFE are in much better agreement with the measured ones.</p><p>As shown in Fig. <ref type="figure" target="#fig_6">8</ref> and Table <ref type="table" target="#tab_3">5</ref> , the stress range and FWHM for σ 33 and σ H at preload are higher for the grain with more neighbors (3492). This indicates that higher stresses have developed at the vicinity of grain boundaries. Similarly, for unload step, the grain with more neighbors has higher stresses at the grain boundaries. For this step, in addition to the thermal and elastic anisotropy, stresses are affected by the plastic anisotropy. Higher number of neighbors increases the possibility of having higher misorientation angle with the neighboring grains, resulting in the possibility of having higher stresses developed close to the grain boundaries. The distribution of misorientation between the two investigated grains and their neighbors are shown in Fig. <ref type="figure" target="#fig_7">9</ref> a and b. Both total and basal plane normal misorientations are plotted. Grain 5732 has a maximum misorientation of 67 °with its neighbors, while grain 3492 has a maximum misorientation of 90 °which confirms the effects of higher misorientations on the development of higher localized stresses.</p><p>In Fig. <ref type="figure" target="#fig_7">9</ref> c and d, the calculated hydrostatic ( σ H ) and VonMises ( σ VM ) stresses of each element located at the vicinity of the grain boundary of grain 3492 is plotted. Each point represents the stress averaged over eight integration points of the element, and the values on the x -axis represent the misorientation of the element with the elements of the immediate neighboring grains. Some elements have more than one neighbor, e.g. triple points, therefore, have multiple points on the plot. Generally, there is a significant variation in the magnitude of the stresses, even for the elements of the same grain boundary. Two parameters affect such variations: the type of grain boundary and the grain-neighbor misorientation. To separate the effects of these two parameters, a simple bicrystal model was made where the only variable was the orientation of the front crystal (see Fig. <ref type="figure" target="#fig_7">9</ref> ). Only the heat treatment step was simulated by reducing the temperature from 700 °C to the room temperature and applying symmetry boundary conditions on all surfaces to have zero net macroscopic stresses. One crystal was kept at a fixed orientation, while the c -axis of the front crystal was rotated to increase the misorientation from 0 °to 90 °with 15 °increments. The stresses at the center of the grain boundaries at each misorientation are used to generate the lines shown in Fig. <ref type="figure" target="#fig_7">9 c</ref> and <ref type="figure">d</ref>. The trend line shows that the magnitude of the stresses at the grain boundary simply increase with misorientation. However, the large variation observed in the "real" polycrystal highlights the effects of grain boundary geometry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Effects of texture</head><p>In the previous sections it was shown that grain-grain interactions control the development of thermal residual stresses, particularly those that develop at the vicinity of grain boundaries. Such interactions can be affected by the macro-texture and the combination of the neighboring grains. As such, the effects of macro-texture on the development of thermal residual stresses are discussed in this section. The CPFE input model and applied boundary conditions are kept the same; however, to generate a random macro-texture, random orientations are assigned to each grain. This texture is shown in Fig. <ref type="figure" target="#fig_8">10 a</ref>. In comparison to the original "textured" model, grain shapes are conserved, but not grain orientations.</p><p>In Fig. <ref type="figure" target="#fig_8">10 b-d</ref>, the distributions of grain-average residual stresses for the "random" and "textured" models are shown and compared. The "textured" model has more grains with zero grain-average stress than the "random" model indicating that the grains of the "random" model are more stressed. The most significant difference is seen in σ 22 . In the "textured" model, the specimen is textured such that the c -axis of the crystals are oriented towards the x -and z -axis, making the ( <ref type="formula">22</ref>) direction elastically and thermally the "softest" direction. Hence, for the textured model, the misorientation variation among the neighboring grains is minimum in the 22 direction. The "random" model has a wider σ 22 distribution because the crystals c-axes are randomly distributed along all three directions increasing the mismatch in thermal and elastic properties of neighboring grains, and thus developing a wider distribution of grain-average stresses.</p><p>In Fig. <ref type="figure" target="#fig_8">10</ref> e and f, grain-average σ 33 and σ H for the "random" model are respectively plotted against grain diameters. Similar to those presented in Section 4.2 , lines are fitted using the absolute values of σ 33 and σ H . It is interesting to see that similar trends are observed for the "random" model. The slope of the fitted lines in Fig. <ref type="figure" target="#fig_8">10</ref> e and f are all negative, similar to those calculated in Fig. <ref type="figure" target="#fig_4">5</ref> e and f. It can be concluded that for the smaller grains, the localized forces resulting from the grain-grain interactions and strain compatibilities are the dominant factor in controlling the magnitude of the grain-average stresses. For the bigger grains, the grain area is big enough to counteract such localized forces. To further investigate this, the calculated stresses for the two previously discussed grains, grains 3144 and 3492, are analyzed and the results are summarized in Table <ref type="table" target="#tab_4">6</ref> . Results from both "random" and "textured" model are provided. The grain-average stress, FWHM, and the stress range from the "random" model are higher than those of "textured" model which further reinforces our conclusion that the grains of a non-textured specimen have higher grain-average stress than a textured specimen. Also, grain-average stress of grain 3144 in the "random" model is increased significantly, comparing to grain 3492. The volume of Grain 3492 is about four time bigger than grain 3144. This further highlights the conclusion that the grain-average stress of smaller grains are more affected by the localized forces.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>Three-dimensional synchrotron X-ray diffraction was used to measure the state of the residual stresses in the grains of a textured zirconium polycrystal. Thermal residual stresses developed during heat treatment at 700 °C and mechanical residual stresses developed after deforming the sample to 1.2% tensile strain and unloading to nearly zero macroscopic stress. The measured center of mass, orientations, and volumes of grains were used to reconstruct 3D grain shapes using weighted Voronoi tessellation and import into a CPFE model. The results of the CPFE simulations were compared to those from the 3D-XRD measurement. It is concluded that: i. Thermal residual stresses are significant in α-Zr even after stress relieving and recrystallization. This is due to the thermal and elastic anisotropy of the HCP crystal. ii. It is shown that grain-average residual stresses at the preload and unload vary between ±200 MPa for normal stresses, with an overall standard deviation of 69 MPa and 80 MPa, respectively. Similarly, it is shown that the hydrostatic stresses at the preload and unload vary between ± 200 MPa with a standard deviation of 43 MPa and 53 MPa, respectively. This is important as hydrogen embrittlement of zirconium alloys is affected by the state of hydrostatic stresses. iii. A model was built using the same grains of the original "textured" model, yet with "random" macro-texture. It is shown that the grain-average stresses in the "textured" model have a smaller distribution than those of the "random" model. iv. In smaller grains, the value of the grain-average residual stresses are mainly controlled by the localized forces from grain-grain interactions. v. The grain-average residual stresses of bigger grains are lower than smaller grains as the area of the bigger grains are high enough to counteract the effects of the localized forces developed due to grain-neighbor interactions. vi. As a result of grain neighborhood, stress range within a grain is generally increase with grain size. vii. After unloading the specimen from 1.2% applied strain, the variations of the grain-average stress increase due to the plasticity that occur at the grain scale.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 .</head><label>1</label><figDesc>Fig 1. (a) An EBSD map of the undeformed sample with the color legend given in the right hand side of the figure. Colors are coded with respect to inverse pole figure z. (b) The sample used in 3D-XRD experiment with the lab coordinate system shown in the bottom of the picture; z -axis is the loading direction and the sample gauge length is 20 mm. (c) The (0 0 02) and ( 1 1 00 ) measured pole figures from 3D-XRD. Scales are given in multiples of random distribution. (d) Test set-up.</figDesc><graphic coords="3,45.24,55.27,450.48,516.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. (a) The modelled microstructure that was imported into a finite element solver for simulating 1038 grains. Random colors are assigned to elements to distinguish different grains. (b) The corresponding pole figure of the modelled microstructure. (c) Comparison between the measured volumes of the grains and the simulated ones using Voronoi and weighted Voronoi tessellation. (d) Comparison between the average stress-strain curves calculated for each model with the experimentally measured ones.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Measured stresses and orientations from 3D-XRD experiment: (a) the misorientation between the basal plane normals and the loading direction ( β) for preload. Stress in the loading direction at the (b) onset of plasticity (c) applied strain of 1.2%, (d) preload and (e) unload. Hydrostatic stresses at the (f) preload and (g) unload steps.</figDesc><graphic coords="8,105.54,80.16,337.92,552.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Grain measured residual stresses as a function of the angle between the basal plane normals ( β) and the loading direction: (a) σ 33 and (b) σ 11 at the preload and (c) σ 33 at the unload. The size of each circile is proportional to the measured volume for each grain. (d) -(i): Comparison between σ 11 , σ 22 , and σ 33 obtained from CPFE and 3D-XRD for the preload and unload steps.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Grain average σ 33 and σ H as a function of grain diameters: Results from 3D-XRD are shown in the top row and those from CPFE are shown in the bottom row. The first two columns are from preload step and the last two are from unload. The absolute value of the measured and calculated data are used for data fitting.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Comparison between CPFE and 3D-XRD results for the surface grain 2309: (a) σ 11 , (b) σ 22 , and (c) σ 33.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Grain-average stresses and stress variations for σ 22 and σ H : Results for grain 5732 and 3492 are shown in the top and bottom rows, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. The distribution of misorientation of (a) grain 5732 and (b) grain 3492 with their neighbors. CPFE results for grain 3492: the variation of (c) σ H and (d) σ VM for the element located at the grain boundaries as a function of basal plane misorientation with the immediate neighboring grain. The lines shown in (c) and (d) are for the ideal bi-crystal model shown in the middle. .</figDesc><graphic coords="13,215.45,195.32,107.07,88.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. (a) The pole figure of the CPFE model with a "random" texture. Grain-average residual stresses from "random" and "original" model: (b), σ 11 , (c) σ 22 , and (d) σ 33 . Grain-average residual stresses as a function of grain dimeter from "random" model: (e) σ 33 and (f) σ H . The absolute of the calculated data are used for data fitting in (e) and (f).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Details of the 3D-XRD experiment.</figDesc><table><row><cell>Step</cell><cell>Applied</cell><cell>Measured</cell><cell>Number</cell><cell>Average</cell><cell cols="2">Average error for</cell><cell></cell><cell cols="6">Grain weighted-average stress with estimated errors</cell></row><row><cell></cell><cell>strain</cell><cell>macro</cell><cell>of grains</cell><cell>Number</cell><cell cols="3">measured positions (μm)</cell><cell>(MPa)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>(%)</cell><cell>stress</cell><cell></cell><cell>of peaks</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>(MPa)</cell><cell></cell><cell>per grain</cell><cell>x c</cell><cell>y c</cell><cell>z c</cell><cell>σ xx</cell><cell>σ yy</cell><cell>σ zz</cell><cell>σ xy</cell><cell>σ xz</cell><cell>σ yz</cell></row><row><cell>Preload</cell><cell>0.0</cell><cell>7</cell><cell>11,247</cell><cell>102</cell><cell>±5.4</cell><cell>±3.2</cell><cell>±1.4</cell><cell>-20</cell><cell>8</cell><cell>2</cell><cell>-1</cell><cell>-2</cell><cell>2</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>±27</cell><cell>±19</cell><cell>±16</cell><cell>±4</cell><cell>±5</cell><cell>±7</cell></row><row><cell>Onset of</cell><cell>0.59</cell><cell>258</cell><cell>10,677</cell><cell>102</cell><cell>±5.5</cell><cell>±3.3</cell><cell>±1.4</cell><cell>-23</cell><cell>11</cell><cell>249</cell><cell>-2</cell><cell>2</cell><cell>1</cell></row><row><cell>plasticity</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>±27</cell><cell>±20</cell><cell>±17</cell><cell>±4</cell><cell>±5</cell><cell>±7</cell></row><row><cell>Plastic</cell><cell>1.2</cell><cell>270</cell><cell>8869</cell><cell>99</cell><cell>±6.7</cell><cell>±4.0</cell><cell>±1.7</cell><cell>-24</cell><cell>13</cell><cell>264</cell><cell>-2</cell><cell>2</cell><cell>2</cell></row><row><cell>zone</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>±33</cell><cell>±24</cell><cell>±20</cell><cell>±5</cell><cell>±7</cell><cell>±8</cell></row><row><cell>Unload</cell><cell>NA</cell><cell>10</cell><cell>9013</cell><cell>98</cell><cell>±6.7</cell><cell>±4.0</cell><cell>±1.7</cell><cell>-28</cell><cell>9</cell><cell>2</cell><cell>0</cell><cell>-2</cell><cell>1</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>±33</cell><cell>±24</cell><cell>±21</cell><cell>±5</cell><cell>±7</cell><cell>±8</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Table 3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="5">single crystal parameters used for S4, S5, and S17</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>models.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>n</cell><cell>˙ γ 0 (s -1 )</cell><cell cols="2">CRSS (GPa)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Prism</cell><cell>20</cell><cell>3.5 × 10 -4</cell><cell>0.082</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Basal</cell><cell>20</cell><cell>3.5 × 10 -4</cell><cell>0.109</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Pyramidal</cell><cell>20</cell><cell>1.0 × 10 -4</cell><cell>0.287</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4</head><label>4</label><figDesc>Grain 4329 and 3144 stress values.</figDesc><table><row><cell></cell><cell>Preload</cell><cell></cell><cell></cell><cell></cell><cell>Unload</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>σ 11</cell><cell>σ 22</cell><cell>σ 33</cell><cell>σ H</cell><cell>σ 11</cell><cell>σ 22</cell><cell>σ 33</cell><cell>σ H</cell></row><row><cell>Grain 4329 (with 8528 IPs)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>FWHM (MPa)</cell><cell>69.9</cell><cell>34.5</cell><cell>52.5</cell><cell>31.4</cell><cell>106.4</cell><cell>105.9</cell><cell>69.6</cell><cell>65.6</cell></row><row><cell>Stress range (MPa)</cell><cell>247.1</cell><cell>153.9</cell><cell>254.4</cell><cell>155.2</cell><cell>520.4</cell><cell>334.4</cell><cell>323.8</cell><cell>254.8</cell></row><row><cell>FWHM/ Stress range (%)</cell><cell>28.2</cell><cell>22.4</cell><cell>20.6</cell><cell>20.2</cell><cell>20.4</cell><cell>31.6</cell><cell>21.5</cell><cell>25.7</cell></row><row><cell>Grain 3144 (with 1520 IPs)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>FWHM (MPa)</cell><cell>86.1</cell><cell>34.6</cell><cell>53.2</cell><cell>30.0</cell><cell>88.8</cell><cell>93.4</cell><cell>64.4</cell><cell>69.5</cell></row><row><cell>Stress range (MPa)</cell><cell>181.6</cell><cell>99.6</cell><cell>140.9</cell><cell>101.8</cell><cell>280.9</cell><cell>265.0</cell><cell>242.9</cell><cell>202.8</cell></row><row><cell>FWHM/ Stress range (%)</cell><cell>47.4</cell><cell>34.7</cell><cell>37.7</cell><cell>29.5</cell><cell>31.6</cell><cell>35.2</cell><cell>26.5</cell><cell>34.3</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 5</head><label>5</label><figDesc>Grain 5732 and 3492 stress values.</figDesc><table><row><cell></cell><cell>Preload</cell><cell></cell><cell></cell><cell></cell><cell>Unload</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>σ 11</cell><cell>σ 22</cell><cell>σ 33</cell><cell>σ H</cell><cell>σ 11</cell><cell>σ 22</cell><cell>σ 33</cell><cell>σ H</cell></row><row><cell cols="4">Grain 5732 (with 4232 IPs and 21 neighbors)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>FWHM (MPa)</cell><cell>42.0</cell><cell>22.6</cell><cell>51.8</cell><cell>29.3</cell><cell>109.9</cell><cell>65.9</cell><cell>76.6</cell><cell>62.7</cell></row><row><cell>Stress range (MPa)</cell><cell>226.7</cell><cell>91.6</cell><cell>170.7</cell><cell>114.8</cell><cell>395.4</cell><cell>306.5</cell><cell>257.7</cell><cell>253.7</cell></row><row><cell cols="4">Grain 3492 (with 6336 IPs and 28 neighbors)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>FWHM (MPa)</cell><cell>56.8</cell><cell>39.4</cell><cell>52.3</cell><cell>36.5</cell><cell>149.6</cell><cell>102.7</cell><cell>79.1</cell><cell>85.1</cell></row><row><cell>Stress range (MPa)</cell><cell>229.8</cell><cell>191.6</cell><cell>285.2</cell><cell>177.6</cell><cell>585.8</cell><cell>402.4</cell><cell>389.7</cell><cell>349.4</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 6</head><label>6</label><figDesc>Stress Values for grain 3144 and grain 3492.</figDesc><table><row><cell></cell><cell cols="3">"Original" Model (Textured)</cell><cell></cell><cell cols="4">"Random" Model (Random Texture)</cell></row><row><cell></cell><cell>σ 11</cell><cell>σ 22</cell><cell>σ 33</cell><cell>σ H</cell><cell>σ 11</cell><cell>σ 22</cell><cell>σ 33</cell><cell>σ H</cell></row><row><cell cols="3">Grain 3144 (with 1520 IPs)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Grain-average</cell><cell>18.9</cell><cell>0</cell><cell>-34.1</cell><cell>-5.1</cell><cell>37.7</cell><cell>106</cell><cell>33.0</cell><cell>59.0</cell></row><row><cell>FWHM</cell><cell>86.1</cell><cell>34.6</cell><cell>53.2</cell><cell>30.0</cell><cell>102.6</cell><cell>103.7</cell><cell>46.8</cell><cell>64.8</cell></row><row><cell>Stress range</cell><cell>181.6</cell><cell>99.6</cell><cell>140.9</cell><cell>101.8</cell><cell>250.9</cell><cell>252.4</cell><cell>164.9</cell><cell>160.1</cell></row><row><cell cols="3">Grain 3492 (with 6336 IPs)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Grain-average</cell><cell>26.5</cell><cell>-3.5</cell><cell>25.3</cell><cell>16.09</cell><cell>38.8</cell><cell>-13</cell><cell>40.66</cell><cell>22.2</cell></row><row><cell>FWHM</cell><cell>56.8</cell><cell>39.4</cell><cell>52.3</cell><cell>36.5</cell><cell>73.6</cell><cell>69.8</cell><cell>73.5</cell><cell>59.2</cell></row><row><cell>Stress range</cell><cell>229.8</cell><cell>191.6</cell><cell>285.2</cell><cell>177.6</cell><cell>304.9</cell><cell>300.5</cell><cell>293.1</cell><cell>246.7</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgement</head><p>The authors acknowledge the <rs type="institution" subtype="infrastructure">ESRF</rs> for allocating beam-time for experiment MA-2492. This work was supported by a <rs type="grantName">Discovery Grant (DEMAS)</rs> from the <rs type="funder">Canadian Natural Sciences and Engineering Research Council</rs> .</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_JUtwxWH">
+					<orgName type="grant-name">Discovery Grant (DEMAS)</orgName>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">ESRF</orgName>
+					<orgName type="full" lang="en">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="fr">Source Européenne de Rayonnement Synchrotron</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary materials</head><p>Supplementary material associated with this article can be found, in the online version, at doi: 10.1016/j.jmps.2019. 103799 .</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Progressive modelling and experimentation of hydrogen diffusion and precipitation in anisotropic polycrystals</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+			<idno type="ORCID">0000-0003-4384-111X</idno>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2018.12.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="39" to="61" />
+			<date type="published" when="2019-05">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H. , 2019. Progressive modelling and experimentation of hydrogen diffusion and precipitation in anisotropic polycrystals. Int. J. Plast. 39-61 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Multi-scale modeling and experimental study of twin inception and propagation in hexagonal close-packed materials using a crystal plasticity finite element approach—Part I: Average behavior</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">R</forename><surname>Daymond</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2012.10.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="783" to="802" />
+			<date type="published" when="2013-03">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H. , Daymond, M.R. , 2013a. Multi-scale modeling and experimental study of twin inception and propagation in hexagonal close-packed materials using a crystal plasticity finite element approach-Part I: average behavior. J. Mech. Phys. Solids 783-802 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Multi-scale modeling and experimental study of twin inception and propagation in hexagonal close-packed materials using a crystal plasticity finite element approach; part II: Local behavior</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">R</forename><surname>Daymond</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2012.10.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="803" to="818" />
+			<date type="published" when="2013-03">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H. , Daymond, M.R. , 2013b. Multi-scale modeling and experimental study of twin inception and propagation in hexagonal close-packed materials using a crystal plasticity finite element approach; part II: local behavior. J. Mech. Phys. Solids 61 (3), 803-818 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Incorporation of twinning into a crystal plasticity finite element model: Evolution of lattice strains and texture in Zircaloy-2</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">R</forename><surname>Daymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><surname>Mareau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2011.04.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1721" to="1738" />
+			<date type="published" when="2011-11">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H. , Daymond, M.R. , Mareau, C. , 2011. Incorporation of twinning into a crystal plasticity finite element model: evolution of lattice strains and texture in Zircaloy-2. Int. J. Plast. 1721-1738 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">On the deformation twinning of Mg AZ31B: A three-dimensional synchrotron X-ray diffraction experiment and crystal plasticity finite element model</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+			<idno type="ORCID">0000-0003-4384-111X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marta</forename><surname>Majkut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jette</forename><surname>Oddershede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Søren</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ulrich</forename><surname>Lienert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bradley</forename><forename type="middle">J</forename><surname>Diak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philip</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">R</forename><surname>Daymond</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2015.03.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="77" to="97" />
+			<date type="published" when="2015-07">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H. , et al. , 2015. On the deformation twinning of Mg AZ31B: a three-dimensional synchrotron X-ray diffraction experiment and crystal plasticity finite element model. Int. J. Plast. 77-97 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Study of 3-D stress development in parent and twin pairs of a hexagonal close-packed polycrystal: Part I – in-situ three-dimensional synchrotron X-ray diffraction measurement</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marta</forename><surname>Majkut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jette</forename><surname>Oddershede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">P</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">R</forename><surname>Daymond</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.04.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="246" to="255" />
+			<date type="published" when="2015-07">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H. , et al. , 2015a. Study of 3-D stress development in parent and twin pairs of a hexagonal close-packed polycrystal: part I -in-situ three-di- mensional synchrotron X-ray diffraction measurement. Acta Mater. 246-255 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Study of 3-D stress development in parent and twin pairs of a hexagonal close-packed polycrystal: Part II – crystal plasticity finite element modeling</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marta</forename><surname>Majkut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jette</forename><surname>Oddershede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">P</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">R</forename><surname>Daymond</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.04.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="235" to="245" />
+			<date type="published" when="2015-07">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H. , et al. , 2015b. Study of 3-D stress development in parent and twin pairs of a hexagonal close-packed polycrystal: part ii -crystal plasticity finite element modeling. Acta Mater. 245, 235 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Nucleation and growth of &lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; altimg=&quot;si2.gif&quot; overflow=&quot;scroll&quot;&gt;&lt;mml:mrow&gt;&lt;mml:mo&gt;{&lt;/mml:mo&gt;&lt;mml:mn&gt;11&lt;/mml:mn&gt;&lt;mml:mover accent=&quot;true&quot;&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;mml:mo&gt;¯&lt;/mml:mo&gt;&lt;/mml:mover&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;mml:mo&gt;}&lt;/mml:mo&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt; twins in titanium: Elastic energy and stress fields at the vicinity of twins</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omid</forename><surname>Sedaghat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi</forename><surname>Guo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mtla.2018.06.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materialia</title>
+		<title level="j" type="abbrev">Materialia</title>
+		<idno type="ISSN">2589-1529</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="58" to="62" />
+			<date type="published" when="2018-10">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H., Sedaghat, O., Guo, Y., 2018. Nucleation and growth of {112 ¯2} twins in titanium: Elastic energy and stress fields at the vicinity of twins. Materialia 2, 58-62. doi: 10.1016/j.mtla.2018.06.012 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Assessment of residual stress fields at deformation twin tips and the surrounding environments</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+			<idno type="ORCID">0000-0003-4384-111X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Angus</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+			<idno type="ORCID">0000-0002-8801-4102</idno>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.11.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="219" to="231" />
+			<date type="published" when="2016-02">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H. , Wilkinson, A.J. , 2016. Assessment of residual stress fields at deformation twin tips and the surrounding environments. Acta Mater. 219-231 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Strong grain neighbour effects in polycrystals</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+			<idno type="ORCID">0000-0003-4384-111X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Wright</surname></persName>
+			<idno type="ORCID">0000-0002-8217-0884</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Angus</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+			<idno type="ORCID">0000-0002-8801-4102</idno>
+		</author>
+		<idno type="DOI">10.1038/s41467-017-02213-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date type="published" when="2018-01-12">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H., Wright, J., Wilkinson, A.J., 2018. Strong grain neighbour effects in polycrystals. Nat. Commun. 9, 171. doi: 10.1038/s41467-017-02213-9 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">On the state of deformation in a polycrystalline material in three-dimension: Elastic strains, lattice rotations, and deformation mechanisms</title>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+			<idno type="ORCID">0000-0003-4384-111X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">P</forename><surname>Wright</surname></persName>
+			<idno type="ORCID">0000-0002-8217-0884</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Angus</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+			<idno type="ORCID">0000-0002-8801-4102</idno>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2018.03.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="145" to="163" />
+			<date type="published" when="2018-07">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdolvand, H., Wright, J., Wilkinson, A., 2018. On the state of deformation in a polycrystalline material in three-dimension: Elastic strains, lattice rotations, and deformationmechanisms. International Journal of Plasticity 106, 145-163. doi: 10.1016/j.ijplas.2018.03.006 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A dislocation density based crystal plasticity finite element model: Application to a two-phase polycrystalline HCP/BCC composites</title>
+		<author>
+			<persName><forename type="first">Milan</forename><surname>Ardeljan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Irene</forename><forename type="middle">J</forename><surname>Beyerlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marko</forename><surname>Knezevic</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2014.01.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="16" to="31" />
+			<date type="published" when="2014-05">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ardeljan, M. , Beyerlein, I.J. , Knezevic, M. , 2014. A dislocation density based crystal plasticity finite element model: application to a two-phase polycrystalline HCP/BCC composites. J. Mech. Phys. Solids 16-31 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Crystal Plasticity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Asaro</surname></persName>
+		</author>
+		<idno type="DOI">10.1115/1.3167205</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Mechanics</title>
+		<idno type="ISSN">0021-8936</idno>
+		<idno type="ISSNe">1528-9036</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4b</biblScope>
+			<biblScope unit="page" from="921" to="934" />
+			<date type="published" when="1983-12-01">1983</date>
+			<publisher>ASME International</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Asaro, R.J. , 1983. Crystal plasticity. J. Appl. Mech. 50, 921-934 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evolution of stress in individual grains and twins in a magnesium alloy aggregate</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Aydıner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Bernier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Clausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Lienert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Tomé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.80.024113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2009-07-21">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aydiner, C. , et al. , 2009. Evolution of stress in individual grains and twins in a magnesium alloy aggregate. Phys. Rev. B 80 (2) .</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The role of heterogeneous deformation on damage nucleation at grain boundaries in single phase metals</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Bieler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Eisenlohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Roters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Crimp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2008.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1655" to="1683" />
+			<date type="published" when="2009-09">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bieler, T.R. , et al. , 2009. The role of heterogeneous deformation on damage nucleation at grain boundaries in single phase metals. Int. J. Plast. 1655-1683 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A crystal plasticity FE model for deformation with twin nucleation in magnesium alloys</title>
+		<author>
+			<persName><forename type="first">Jiahao</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Somnath</forename><surname>Ghosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2014.10.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="148" to="170" />
+			<date type="published" when="2015-04">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng, J. , Ghosh, S. , 2015. A crystal plasticity Fe model for deformation with twin nucleation in magnesium alloys. Int. J. Plast. 148-170 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Crystal plasticity finite element modeling of discrete twin evolution in polycrystalline magnesium</title>
+		<author>
+			<persName><forename type="first">Jiahao</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Somnath</forename><surname>Ghosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2016.12.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="512" to="538" />
+			<date type="published" when="2017-02">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng, J. , Ghosh, S. , 2017. Crystal plasticity finite element modeling of discrete twin evolution in polycrystalline magnesium. J. Mech. Phys. Solids 512-538 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Strain localization and failure in irradiated zircaloy with crystal plasticity</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Enshiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Dunne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Plast</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="170" to="194" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enshiro, T.O. , Dunne, F.P. , 2015. Strain localization and failure in irradiated zircaloy with crystal plasticity. Int. J. Plast. 71, 170-194 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Lattice strain distributions due to elastic distortions and GND development in polycrystals</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Erinosho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P E</forename><surname>Dunne</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2014.02.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="62" to="86" />
+			<date type="published" when="2014-07">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erinosho, T.O. , Dunne, F.P. , 2014. Lattice strain distributions due to elastic distortions and GND development in polycrystals. J. Mech. Phys. Solids 62-86 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Single-Crystal Elastic Moduli and the hcp → bcc Transformation in Ti, Zr, and Hf</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Renken</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrev.135.a482</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review</title>
+		<title level="j" type="abbrev">Phys. Rev.</title>
+		<idno type="ISSN">0031-899X</idno>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">2A</biblScope>
+			<biblScope unit="page" from="A482" to="A494" />
+			<date type="published" when="1964-07-20">1964</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fisher, E.S. , Renken, C.J. , 1964. Single-Crystal elastic moduli and the HCP → BCC transformation in Ti, Zr, and Hf. Phys. Rev. 135 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Strain Gradient Crystal Plasticity: Thermomechanical Formulations and Applications</title>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Forest,</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rainer</forename><surname>Sievert,</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elias</forename><forename type="middle">C</forename><surname>Aifantis,</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/jmbm.2002.13.3-4.219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanical Behavior of Materials</title>
+		<idno type="ISSN">0334-8938</idno>
+		<idno type="ISSNe">2191-0243</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="219" to="232" />
+			<date type="published" when="2002-08">2002</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Forest, S. , Sievert, R. , Aifantis, E.C. , 2002. Strain gradient crystal plasticity: thermomechanical formulations and applications. J. Mech. Behav. Mater. 13, 219-232 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">〈a〉 Prismatic, 〈a〉 basal, and 〈c+a〉 slip strengths of commercially pure Zr by micro-cantilever tests</title>
+		<author>
+			<persName><forename type="first">Jicheng</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Benjamin Britton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mitchell</forename><forename type="middle">A</forename><surname>Cuddihy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fionn</forename><forename type="middle">P E</forename><surname>Dunne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angus</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.06.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="249" to="257" />
+			<date type="published" when="2015-09">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gong, J. , et al. , 2015. &lt; a&gt; Prismatic, &lt; a&gt; basal, and &lt; c+a&gt; slip strengths of commercially pure Zr by micro-cantilever tests. Acta Mater. 249-257 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Modelling the effect of elastic and plastic anisotropies on stresses at grain boundaries</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Simonovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Quinta Da Fonseca</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2014.03.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="49" to="63" />
+			<date type="published" when="2014-10">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gonzalez, D., Simonovski, I., Withers, P.J., Quinta da Fonseca, J., 2014. Modelling the effect of elastic and plastic anisotropies on stresses at grain boundaries. Int. J. Plast. 61, 49-63. doi: 10.1016/j.ijplas.2014.03.012 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Crystal plasticity modelling and HR-DIC measurement of slip activation and strain localization in single and oligo-crystal Ni alloys under fatigue</title>
+		<author>
+			<persName><forename type="first">Yongjun</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bo</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jinwen</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Ben</forename><surname>Britton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fionn</forename><forename type="middle">P E</forename><surname>Dunne</surname></persName>
+			<idno type="ORCID">0000-0002-4295-3948</idno>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2016.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="70" to="88" />
+			<date type="published" when="2017-01">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guan, Y. , et al. , 2017. Crystal plasticity modelling and HR-DIC measurement of slip activation and strain localization in single and oligo-crystal Ni alloys under fatigue. Int. J. Plast. 70-88 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">In situ grain fracture mechanics during uniaxial compaction of granular solids</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Hurley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Pagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Akin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Herbold</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2017.12.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="273" to="290" />
+			<date type="published" when="2018-03">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hurley, R.C. , et al. , 2018. In situ grain fracture mechanics during uniaxial compaction of granular solids. J. Mech. Phys. Solids 112, 273-290 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Laue micro-diffraction and crystal plasticity finite element simulations to reveal a vein structure in fatigued Cu</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Irastorza-Landa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Grilli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Van Swygenhoven</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2017.04.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="157" to="171" />
+			<date type="published" when="2017-07">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Irastorza-Landa, A. , Grilli, N. , Van Swygenhoven, H. , 2017. Laue micro-diffraction and crystal plasticity finite element simulations to reveal a vein structure in fatigued Cu. J. Mech. Phys. Solids 157-171 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Direct observation of strain in bulk subgrains and dislocation walls by high angular resolution three-dimensional X-ray diffraction</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jakobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Lienert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Almer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Poulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pantleon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2006.12.168</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: A</title>
+		<idno type="ISSN">0921-5093</idno>
+		<imprint>
+			<biblScope unit="volume">483-484</biblScope>
+			<biblScope unit="page" from="641" to="643" />
+			<date type="published" when="2006">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jakobsen, B. , et al. , 2006. Direct observation of strain in bulk subgrains and dislocation walls by high angular resolution three-dimensional X-ray diffraction. Mater. Sci. Eng. A 641-643 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">On the mechanistic basis of fatigue crack nucleation in Ni superalloy containing inclusions using high resolution electron backscatter diffraction</title>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jie</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tiantian</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fionn</forename><forename type="middle">P E</forename><surname>Dunne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Ben</forename><surname>Britton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.06.035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="367" to="379" />
+			<date type="published" when="2015-09">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jiang, J. , et al. , 2015. On the mechanistic basis of fatigue crack nucleation in Ni superalloy containing inclusions using high resolution electron backscatter diffraction. Acta Mater. 97, 367-379 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">X-ray diffraction contrast tomography: a novel technique for three-dimensional grain mapping of polycrystals. II. The combined case</title>
+		<author>
+			<persName><forename type="first">Greg</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcelo</forename><forename type="middle">Goncalves</forename><surname>Honnicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Ludwig</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889808001726</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="310" to="318" />
+			<date type="published" when="2008-03-08">2008</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnson, G. , et al. , 2008. X-ray diffraction contrast tomography: a novel technique for three-dimensional grain mapping of polycrystals. II. The combined case. J. Appl. Crystallogr. 310-318 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">ADOPTING TRANSMISSION KIKUCHI DIFFRACTION TO CHARACTERIZE GRAIN STRUCTURE AND TEXTURE OF ZR-2.5NB CANDU PRESSURE TUBES</title>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">David</forename><surname>Judge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenjing</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clinton</forename><surname>Mayhew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Buyers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Grant</forename><forename type="middle">A</forename><surname>Bickel</surname></persName>
+		</author>
+		<idno type="DOI">10.12943/cnr.2017.00010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">CNL Nuclear Review</title>
+		<title level="j" type="abbrev">CNL Nuclear Review</title>
+		<idno type="ISSN">2369-6923</idno>
+		<idno type="ISSNe">2369-6931</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2018">2018</date>
+			<publisher>Canadian Nuclear Laboratories Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Judge, C.D. , et al. , 2018. Adopting transmission kikuchi diffraction to characterize Zr-2.5Nb CANDU pressure tubes. CNL Nucl. Rev. 7 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A non-Schmid crystal plasticity finite element approach to multi-scale modeling of nickel-based superalloys</title>
+		<author>
+			<persName><forename type="first">Shahriyar</forename><surname>Keshavarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Somnath</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">C E</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">A</forename><surname>Langer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.05.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="106" to="115" />
+			<date type="published" when="2016-08">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keshavarz, S. , Ghosh, S. , Reid, A.C. , Langer, S.A. , 2016. A non-Schmid crystal plasticity finite element approach to multi-scale modeling of nickel-based superalloys. Acta Mater. 106-115 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Effect of local stress fields on twin characteristics in HCP metals</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Beyerlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Tome</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="143" to="154" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar, M.A. , Beyerlein, I.J. , Tome, C.N. , 2016. Effect of local stress fields on twin characteristics in HCP metals. Acta Mater. 116, 143-154 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Characterizing the role of adjoining twins at grain boundaries in hexagonal close packed materials</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Capolungo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mccabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Tome</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar, M.A. , Capolungo, L. , McCabe, R. , Tome, C.N. , 2019. Characterizing the role of adjoining twins at grain boundaries in hexagonal close packed materials. Sci. Rep. 9 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Kinetics of individual grains during recrystallization</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Lauridsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Juul</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Poulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Lienert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1359-6462(00)00430-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Materialia</title>
+		<title level="j" type="abbrev">Scripta Materialia</title>
+		<idno type="ISSN">1359-6462</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="561" to="566" />
+			<date type="published" when="2000-08" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lauridesen, E.M. , Juul, D.J. , Poulsen, H. , Lienert, U. , 20 0 0. Kinetics of individual grains during recrystallization. Scr. Mater. 561-566 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Numerical implementation of non-local polycrystal plasticity using fast Fourier transforms</title>
+		<author>
+			<persName><forename type="first">Ricardo</forename><forename type="middle">A</forename><surname>Lebensohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Needleman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2016.03.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="333" to="351" />
+			<date type="published" when="2016-12">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lebensohn, R.A. , Needleman, A. , 2016. Numerical implementation of non-local polycrystal plasticity using fast Fourier transforms. J. Mech. Phys. Solids 97, 333-351 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A self-consistent anisotropic approach for the simulation of plastic deformation and texture development of polycrystals: Application to zirconium alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lebensohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Tomé</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0956-7151(93)90130-k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metallurgica et Materialia</title>
+		<title level="j" type="abbrev">Acta Metallurgica et Materialia</title>
+		<idno type="ISSN">0956-7151</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2611" to="2624" />
+			<date type="published" when="1993-09">1993</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lebensohn, R.A. , Tome, C.N. , 1993. A self-consistent anisotropic approach for the simulation of plastic deformation and texture development of polycrystals: application to zirconium alloys. Acta Metall. Mater. 41 (9), 2611-2624 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">On the Use of Laguerre Tessellations for Representations of 3D Grain Structures</title>
+		<author>
+			<persName><forename type="first">Allan</forename><surname>Lyckegaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erik</forename><forename type="middle">Mejdal</forename><surname>Lauridsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">Warren</forename><surname>Fonda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henning</forename><forename type="middle">Friis</forename><surname>Poulsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.201000258</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<title level="j" type="abbrev">Adv Eng Mater</title>
+		<idno type="ISSN">1438-1656</idno>
+		<idno type="ISSNe">1527-2648</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="165" to="170" />
+			<date type="published" when="2011">2011</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lyckegaard, A. , et al. , 2011. On the use of laguerre tessellations for representations of 3D grain structures. Adv. Eng. Mater. 165-170 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A dislocation density based constitutive model for crystal plasticity FEM including geometrically necessary dislocations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Roters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2006.01.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2169" to="2179" />
+			<date type="published" when="2006-05">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ma, A. , Roters, F. , Raabe, D. , 2006. A dislocation density based constitutive model for crystal plasticity FEM including geometrically necessary dislocations. Acta Mater. 2169-2179 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Deformation-induced orientation spread in individual bulk grains of an interstitial-free steel</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oddershede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beaudoin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Winther</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2014.11.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="301" to="313" />
+			<date type="published" when="2015-02">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oddershede, J. , Wright, J.P. , Beaudoin, A. , Winther, G. , 2015. Deformation-induced orientation spread in individual bulk grains of an interstitial-free steel. Acta Mater 301-313 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The influence of prior deformation on hydride precipitation in zircaloy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Perovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Weatherly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Macewen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0956-7151(92)90310-b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metallurgica et Materialia</title>
+		<title level="j" type="abbrev">Acta Metallurgica et Materialia</title>
+		<idno type="ISSN">0956-7151</idno>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="363" to="372" />
+			<date type="published" when="1992-02">1992</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perovic, V. , Wheatherly, G.C. , MacEwen, S.R. , Leger, M. , 1992. The influence of prior deformation on hydride precipitation on Zircaloy. Acta Metall. Mater. 363-372 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Properties of Bulk Zirconium Hydrides</title>
+		<author>
+			<persName><forename type="first">Manfred</forename><forename type="middle">P</forename><surname>Puls</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4471-4195-2_2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Engineering Materials</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer London</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="7" to="52" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Puls, M.P. , 2012. The Effect of Hydrogen and Hydrides on the Integrity of Zirconium Alloy Components. Springer, London .</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Crystal plasticity FE modeling of Ti alloys for a range of strain-rates. Part I: A unified constitutive model and flow rule</title>
+		<author>
+			<persName><forename type="first">Ahmad</forename><surname>Shahba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Somnath</forename><surname>Ghosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2016.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="48" to="68" />
+			<date type="published" when="2016-12">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shahba, A. , Ghosh, S. , 2016. Crystal plasticity fe modeling of Ti alloys for a range of strain-rates. Part I: a unified constitutive model and flow rule. Int. J. Plast. 4 8-6 8 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Quantifying deformation processes near grain boundaries in α titanium using nanoindentation and crystal plasticity modeling</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Su</surname></persName>
+			<idno type="ORCID">0000-0002-3904-4786</idno>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zambaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mercier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Eisenlohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Bieler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Crimp</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2016.08.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="170" to="186" />
+			<date type="published" when="2016-11">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Su, Y. , et al. , 2016. Quantifying deformation processes near grain boundaries in α titanium using nanoindentation and crystal plasticity modeling. Int. J. Plast. 170-186 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The effect of pattern overlap on the accuracy of high resolution electron backscatter diffraction measurements</title>
+		<author>
+			<persName><forename type="first">Vivian</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angus</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Ben</forename><surname>Britton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ultramic.2015.04.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ultramicroscopy</title>
+		<title level="j" type="abbrev">Ultramicroscopy</title>
+		<idno type="ISSN">0304-3991</idno>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="62" to="73" />
+			<date type="published" when="2015-08">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tong, V. , Jiang, J. , Wilkinson, A.J. , Britton, T.B. , 2015. The effect of pattern overlap on the accuracy of high resolution electron backscatter diffraction mea- surements. Ultramicroscopy 155, 62-73 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A finite strain elastic–viscoplastic self-consistent model for polycrystalline materials</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Tomé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmps.2010.01.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Mechanics and Physics of Solids</title>
+		<title level="j" type="abbrev">Journal of the Mechanics and Physics of Solids</title>
+		<idno type="ISSN">0022-5096</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="594" to="612" />
+			<date type="published" when="2010-04">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, H. , Wu, P.D. , Tome, C.N. , Huang, Y. , 2010. A finite strain elastic-viscoplastic self-consistent model for polycrystalline materials. J. Mech. Phys. Solids 58, 594-612 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Grain interaction mechanisms leading to intragranular orientation spread in tensile deformed bulk grains of interstitial-free steel</title>
+		<author>
+			<persName><forename type="first">Grethe</forename><surname>Winther</surname></persName>
+			<idno type="ORCID">0000-0002-4178-3449</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">P</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Søren</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jette</forename><surname>Oddershede</surname></persName>
+			<idno type="ORCID">0000-0003-2319-7419</idno>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2016.10.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="108" to="125" />
+			<date type="published" when="2017-01">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Winther, G. , Wright, J.P. , Schmidt, S. , Oddershede, J. , 2017. Grain interaction mechanisms leading to intragranular orientation spread in tensile deformed bulk grains of interstitial-free steel. Int. J. Plast. 108-125 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A self-consistent plasticity theory for modeling the thermo-mechanical properties of irradiated FCC metallic polycrystals</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xiazi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Phys. Solids</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiazi, X. , et al. , 2015. A self-consistent plasticity theory for modeling the thermo-mechanical properties of irradiated FCC metallic polycrystals. J. Mech. Phys. Solids 78, 1-16 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Development of internal strains in textured Zircaloy-2 during uni-axial deformation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Daymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Rogge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Oliver</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2007.11.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: A</title>
+		<idno type="ISSN">0921-5093</idno>
+		<imprint>
+			<biblScope unit="volume">488</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="172" to="185" />
+			<date type="published" when="2008-08">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, F. , et al. , 2008. Development of internal strains in textured Zircaloy-2 during uni-axial deformation. Mater. Sci. Eng. A 172-185 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Quantitative investigation of micro slip and localization in polycrystalline materials under uniaxial tension</title>
+		<author>
+			<persName><forename type="first">Zhen</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Lunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hamidreza</forename><surname>Abdolvand</surname></persName>
+			<idno type="ORCID">0000-0003-4384-111X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Angus</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+			<idno type="ORCID">0000-0002-8801-4102</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Preuss</surname></persName>
+			<idno type="ORCID">0000-0003-3806-0415</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Fionn</forename><forename type="middle">P E</forename><surname>Dunne</surname></persName>
+			<idno type="ORCID">0000-0002-4295-3948</idno>
+		</author>
+		<idno type="DOI">10.1016/j.ijplas.2018.04.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Plasticity</title>
+		<title level="j" type="abbrev">International Journal of Plasticity</title>
+		<idno type="ISSN">0749-6419</idno>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="88" to="106" />
+			<date type="published" when="2018-09">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, Z. , et al. , 2018. Quantitative investigation of micro slip and localization in polycrystalline materials under uniaxial tension. Int. J. Plast. 108, 88-106 .</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

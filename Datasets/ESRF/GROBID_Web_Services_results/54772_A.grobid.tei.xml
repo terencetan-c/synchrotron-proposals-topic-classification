@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Parametric Down-Conversion of X-Rays into Visible Wavelengths</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sharon</forename><surname>Shwartz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aviad</forename><surname>Schori</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shimon</forename><surname>Yudovich</surname></persName>
+						</author>
+						<title level="a" type="main">Parametric Down-Conversion of X-Rays into Visible Wavelengths</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CDB81D73048FDC8C5551FB125E78FB9F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report: Proposal Ref. No 34969</head><p>In this report we describe the main results of the experiment on Parametric Down-Conversion of X-Rays into Visible Wavelengths performed at beam-line ID-20 of the ESRF.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Problems/issues:</head><p>-The fast coincidence card, which is essential for the performance of coincidence measurments at time resolution of ps scale, had a damaged channel. The alternative plan using a digitizer for the coincidence measurments presented time reslution on the ns scale was not adequate. -The positioning of the visible lens was limited due to other equipment in the hatch.</p><p>-It was not possible to use the (311) diffraction order of the analyzer crystal in the experimental hatch. This limiation reduced the measured signal. -High count rates of fluorescence at visible wavelengths were measured.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The objective of this beam-time proposal was to demonstrate for the first time the phenomenon of parametric down conversion (PDC) of X-rays into visible light. In this process, a pump beam at x-ray wavelengths interacts with the vacuum field in a crystal to generate correlated x-ray and visible photons. This process can be viewed as a nonlinear scattering process where the pump beam together with the two generated beams satisfies energy conservation and momentum conservation.</p><p>Methods: All beamline controllers and detectors data were recorded using the SPEC software. The control of the Linear stage and coincidence electronics were implemeted using MATLAB programs, which we developed for this experiment. SMA cables suitable for fast pulses were used. Mechanical adjustments for Mounting the Linear stage and the diamond holder were performed by the ESRF staff at the beamline. The experimental system is shown is Fig. <ref type="figure" target="#fig_0">1</ref>, where the incident optics scheme is shown in  Summary of results: Due to a damaged channel in the fast coincidence card, it was not possible to observe the effect. Si (311) or Si (644) Monochromator Mirror (height adjustment) OH2 EH2 (room used for experiment) EH1 (unused room) Collimating mirror Si (111) Monochromator OH1 To experiment (sample) 150 µm slits (vertical and horizontal) The Rocking Curve of the diamond crystal ( (220) orientation, 4x4x1.5mm dimensions) was obtained by the ESRF beamline staff. Fig. 2.a (Left side) rocking curve of the crystal where the full width at half maximum is 17 µrad. We attempted to measure the parametric down-conversion effect by scanning over the θ, 2θ, analyzer energy, and the position of the visible detector.</p><p>Measurements were performed at a detuning energy matching the idler (visible) wavelengths at 550 and at 650 nm (2.25 eV and 2.066 eV respectivelly) and at the maximal detuning angle from Bragg where PDC phase matching conditions are still valid to allow for optimal signalto-noise ratio. The results of the measurement of the relative visible fluorescence as a function of the wavelength are shown in Fig. <ref type="figure">2b</ref> (right side). The conclusion is that the fluorescence count rates decrease at longer wavelengths. Therefore, we will measure the effect at wavelenghts which are longer than 550 nm. Further characterizations of the visivle fluorescence was not possible because of the high fluouresence count rates and the damaged coincidence card.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future &amp;perspective:</head><p>We intend to repeat this experiment with an improved configuration of the experimental hatch. The whole experiment will be performed in the horizontal plane. The incident power will be monitored by a gas detector allowing the calculation of the overall efficiency of the process. To achieve a better rejection of the elastic scattering we will use a 5 bounce Si(220) analyzer crystal analyzer. This will also allow the use of a lower order Si(311) or Si(331) incident monochromator, which should increase the count rate of the signal.</p><p>An additional 2θ arm of EH1 hutch will allow precise positioning of the visible detector by using the SPEC software. This includes the anguler control of the detector instead of the linear control in this experiment, as well as increased positoning resolution. We will use low-pass filters and additional band pass filters to attenuate the fluorescence at visible wavelengthsby 6 orders of magnitude, while transmitting more than 90% at the filter wavelengths.</p><p>The fast coincidecne card, which arrived damaged to the beamline, will present time resolution of about 30 ps, which will improve the experimental signal-to-noise ratio. A sync signal of the synchrotron pulse will also be used to determine the delay between the 2 detectors and achieve absolute time measurements.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>a and the detection scheme is shown in Fig. 1.b.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -The experimental setup Figure 1.a -Incident optics scheme, Figure 1.b -X-ray signal detection scheme</figDesc><graphic coords="2,34.58,536.42,380.88,177.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure</head><figDesc>Figure 2.a -Diamond (220) Rocking curve Figure 2.b -Diamond (220) Fluorescence</figDesc><graphic coords="3,34.82,117.86,526.80,216.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

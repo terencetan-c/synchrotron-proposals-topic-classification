@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Peak broadening of HCP alloys-MA361</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Simm</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Manchester Materials Science Centre</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>Grosvenor Street</addrLine>
+									<postCode>M1 7HS</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Manchester Materials Science Centre</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>Grosvenor Street</addrLine>
+									<postCode>M1 7HS</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Quinta Da Fonseca</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Manchester Materials Science Centre</orgName>
+								<orgName type="institution">The University of Manchester</orgName>
+								<address>
+									<addrLine>Grosvenor Street</addrLine>
+									<postCode>M1 7HS</postCode>
+									<settlement>Manchester</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Peak broadening of HCP alloys-MA361</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B39D1BBDEA2E5F7A8A9CF6C9611AD284</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Diffraction peak profile analysis methods were investigated in two titanium alloys: Ti-6Al-4V and commercially pure titanium. A comparison of different methods found that the Warren-Averbach method in its logarithmic form found by fitting individual Fourier coefficients gave the best representation of the alloys. The broadening anisotropy, why full-width divided by g varies for different texture components and planes, was investigated. It was shown that the standard method to consider all grains as behaving the same was unable to explain the observed changes. The changes can instead be explained, and errors reduced, by adopting an approach that uses a polycrystal plasticity</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>model. However, if the approach is used to just calculate changes in the contrast factor, it can only partly explain changes in broadening. Instead, factors such as variations in the dislocation density and crystallite size in different texture components, the amount of dislocations that are mobile and the amount of edge and screw dislocations, needs consideration. In the case shown here the method could replicate the full-width results at low strains but failed at higher strains because prismatic and pyramidal &lt;a&gt; produced an additional broadening. The influence of twinning was considered and it was shown that twinning introduces an additional broadening in the planes corresponding to its new orientation, which also causes a change the asymmetry of the peak. <ref type="bibr">Simm et al. (2014)</ref> and Simm <ref type="bibr" target="#b17">(2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>More details can be found in</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Materials and Method</head><p>To investigate HCP metals, the two-phase titanium alloy Ti-6Al-4V and a single phase commercially pure titanium alloy (CP-Ti) were used. The microstructure of Ti6Al4V consists of a majority  hexagonal phase and a cubic  phase of less than 10% (figure <ref type="figure" target="#fig_0">1</ref>). The  phase consists of a primary phase with equiaxed grains of 15 µm and a secondary phase that consists of needles of around 1 µm thickness. The secondary  and  phase are situated around the grain boundaries. CP-Ti has a grain size of ~30 µm and has a hexagonal crystal structure; the alloy is prone to deform by twinning in contrast to Ti6Al4V which is not expected to.</p><p>The samples were deformed by uni-axial tension at a strain rate of 1mm/min to different engineering strains up to a maximum of 8%. Diffraction patterns were obtained using ID31, at the ESRF in Grenoble France, from square rods of 0.8 mm wide and 30 mm long of the alloy. A beam-energy of 31.1 keV and a wavelength of 0.39827 Åm was used to scan the samples in 2, between 0 (k=0) and 38 (k=1.63 Åm), with a step size of 0.003. To account for instrumental broadening a LaB6 sample with dimensions similar to the titanium samples was measured. Measurements were made in two different directions: the transverse direction, when the diffraction vector is perpendicular to the tensile direction, and the axial direction, when they are parallel. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Results: A comparison of DPPA Methods</head><p>The diffraction patterns were used to evaluate a number of DPPA methods: a fullwidth method; a method that attributes size and strain broadening to the Lorentzian and Gaussian integral breadth of a Voigt <ref type="bibr">(Halder &amp; Wagner 1966)</ref> It is found that in general the parameters calculated using the different methods qualitatively agree with the expectations of how the titanium alloys deform: with more applied strain the dislocation density increases and the size of a coherent region of the alloy decreases from the formation of dislocation boundaries.</p><p>In order to compare different methods, the Taylor equation (Equation <ref type="formula">1</ref>), which relates dislocation density (ρ) to flow stress (σ), is used. The equation has shown to be valid for a wide range of metals irrespective of the dislocation structure that develops or the crystal structure (Mecking and Kocks 1981, <ref type="bibr">Conrad 1981)</ref>.</p><formula xml:id="formula_0">𝜎 = 𝜎 0 + 𝛼′𝐺𝑀𝑏√𝜌 (1)</formula><p>Where, G is the shear modulus, M the Taylor factor taken as 3.1, b the magnitude of the Burgers vector of dislocations and σ0 is the friction stress, or the yield stress of an annealed sample. The value α' is a constant that is found to change depending on the material studied. For titanium it has been found ( <ref type="bibr">Biswas 1973</ref><ref type="bibr">, Conrad 1981</ref>) that the value of α' are independent of interstitial content, temperature, dislocation structure or grain size and vary between 0.34 and 0.9. Hence, if we plot the square-root of the dislocation density obtained by DPPA against the stress divided by G.M.b we can obtain the parameters α' and σ0 for each of the methods. This is done in Figure <ref type="figure" target="#fig_0">1</ref> for the Warren-Averbach method using the individual FCs as done by Warren and Averbach (named here log-INDI). A summary of these fits for the different methods is provided in Table <ref type="table">1</ref>. From the table it can be seen that the logarithmic forms of the Warren-Averbach method and the Variance method provide the best correlation with the expected results. But in contrast, the alternative method and the linear Warren-Averbach method do not provide a good correlation. It should also be noted that although the Variance method is strictly speaking a single peak method, the results obtained here were from the average of many peaks. There are two reasons why the use of the Variance method on a single peak is difficult: (1) Not knowing the value of the contrast factor (discussed in more detail below), and (2) the error in determining the value for one peak can be large, averaging over multiple peaks reduces this considerably.</p><p>Our conclusion based on determination of crystal size changes, changes in the dipole character, M <ref type="bibr">(Wilkens 1976)</ref>, the contrast factor, along with the changes in the dislocation density shown here, is that the LogINDI method is the best all round method to define the deformation of a metal. It is worth noting that unlike other alloys the plastic state cannot be determined in Ti6Al-4V by hardness measurements (Figure <ref type="figure" target="#fig_0">1</ref>). It is also very difficult to perform these methods using a laboratory X-ray, because the symmetry of the HCP structure alongside the BCC structure make it very difficult to separate different peaks. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHOD</head><p>LOGindi LINindi LOGall ALT individ. Variance α' 0.49 1.35 0.76 8.70 0.40 0.54 σ0 870 610 820 -620 880 879 α' (σ0 set to 880 MPa) 0.45 0.53 0.57 0.91 0.40 0.54 Expected α' 0.34 -0.9</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Results: Peak Broadening Anisotropy</head><p>The results were only measured at two different directions; however, a great number of peaks were measured, which represent families of different orientation. Therefore, to display changes in the broadening the variable x is used:</p><formula xml:id="formula_1">(12)</formula><p>where, l is the 'l' indices of a peak (hkil) and 'a' the lattice parameter. The variable x can be seen as the closeness a peak is to being a basal plane (x=0), or a prismatic plane (x~1.6). The variable can be used because the size broadening is small: demonstrated by the fact that the full-width divided by g varies relatively smoothly with x (Figure <ref type="figure" target="#fig_3">3</ref>).</p><p>The variable x is used because it allows us to look at different texture components (effectively different x values) and is also used in the approach of Ungar and colleagues (Dragomir and Ungar 2002), which will be caused the Homogeneous Approach.  The changes in full-width in the axial and transverse direction at 1% and 5% applied strain is shown in Figure <ref type="figure" target="#fig_3">3</ref>. At both strains there is a difference in the broadening in the two measurement directions, however at 5% strain and large x-values this difference is significant. If the Homogeneous Approach is used to explain the broadening anisotropy (why different peaks broaden by different amounts) there are no combination of slip systems that could give the q-values found, particularly the transverse ones. The approach would predict a dominance of &lt;a&gt; slip (particularly prismatic and pyramidal) to explain the q-values obtained. However, the value of the contrast factor, for prismatic and pyramidal &lt;a&gt;, falls with x to a value of zero at the basal plane (x~1.6); however, the full-width from x~0.8 onwards increases at 8%</p><p>strain. Hence, the approach can explain the q-values by &lt;a&gt; slip but not describe the increase in full-width at 5% for high x-values. The approach would also not be able to explain why there was a difference in broadening in the two directions.</p><p>To try to understand the cause of the observed broadening anisotropy, and the problems with the Homogenous approach, a polycrystal plasticity model was used. A polycrystal plasticity model that uses the Schmid factor is used <ref type="bibr">(Sachs 1928</ref>). This approach is simple but is often used in HCP metals particularly at low strains because of the symmetry <ref type="bibr">(Zaefferer 2003</ref><ref type="bibr">, Bridier et al., 2005</ref><ref type="bibr">, Battaini et al., 2007</ref><ref type="bibr">, Liu and Hansen 1995)</ref>. In the model used, the slip activity () of a slip system (l) is found by resolving the stress onto the slip system, the larger the resolved stress the more active the slip system. Different slip systems have different ease with which they are activated, and this is accounted for by variations in the critically resolved shear stress (τCRSS) of the different slip systems. We apply this approach using the expected slip systems in titanium, and two different sets of CRSS value found for Ti-6Al-4V <ref type="bibr">(Yapici et al., 2006</ref><ref type="bibr">, Fundenberger et al., 1997</ref><ref type="bibr">, Philippe et al., 1995)</ref>. The activity of different slip systems from the model is shown in Figure <ref type="figure" target="#fig_4">4</ref>, and the predicted fullwidth using the program ANIZC <ref type="bibr" target="#b4">(Borbely et al. 2003</ref>) to give the predictions in Figure <ref type="figure" target="#fig_3">3</ref>. It can be seen that at 1% the models provide a reasonable explanation of the broadening anisotropy and explain somewhat why the full-width of the transverse peaks are larger. However, at 5% strain the model fails completely. To investigate the cause of the difference a Warren-Averbach analysis was done on 3 different peaks in the two directions, and is shown in Figure <ref type="figure" target="#fig_5">5</ref>. The dislocation density obtained shows a similar behaviour to the predictions of Figure <ref type="figure" target="#fig_3">3</ref>. Since the predicted full-width is proportional to the square-root of the contrast factor and dislocation density the WA analysis is suggesting that the problem is not with the predictions but that there is an additional broadening in the transverse direction at high x-values caused by the activity of prismatic and pyramidal &lt;a&gt; slip. Whether, this is a pure size broadening or a change in the dipole character is not clear. Ti-CP was measured to consider the influence of twinning on peak profile analysis.</p><p>We found a similar peak-broadening anisotropy to that found for Ti6Al4V. However, we did find a noticeable difference in the asymmetry of diffraction peaks, as shown in Figure <ref type="figure" target="#fig_6">6</ref>.ASY is defined as the full-width of right-hand side of peak minus full-width of left side of peak and then divided by the full-width of the right side. For Ti-6Al-4V, the value of ASY is positive in the axial direction with a smaller magnitude at the highest and lowest x values. Whereas for Ti-CP in the axial direction, the ASY value is approximately zero for most peaks and at high and low x is negative. In the transverse direction, the ASY value of Ti-6Al-4V is negative for most peaks, but has a zero or positive value at high x. However, for Ti-CP the ASY value is positive for most peaks, it is almost zero from x=0 to x=0.8 after which it increases gradually. In general, the magnitude of ASY value falls with strain.</p><p>Broadening due to twin boundaries can cause changes in the asymmetry of a peak <ref type="bibr">(Balogh et al. 2006)</ref>. However, the large size of twins <ref type="bibr">(Glavicic et al. 2004</ref>) may mean the amount of twin boundaries is too low to have a significant contribution. In addition, it is not clear whether this description could explain the different changes in asymmetry in the two directions and with x. Particularly as the boundaries would affect broadening in both the parent grain and the twinned grain, and from the predictions of twin activity with x (Figure <ref type="figure" target="#fig_6">6</ref>) we may then expect an increase in asymmetry in the axial direction. Differences in the intergranular strains in twinned and non-twinned regions could explain the differences in asymmetry between the two titanium alloys. The intergranular strains in twinned regions may also be different to non-twinned regions due to the way they are formed <ref type="bibr" target="#b6">(Brown et al. 2005)</ref>. That the changes in the predicted amount of twin grains increases in the transverse direction with x (Figure <ref type="figure" target="#fig_6">6</ref>) would support this. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The microstructure of Ti-6Al-4V, which consists of a majority of primary HCP α, with secondary α and BCC β on the boundaries of the primary α. Right, the instrumental broadening profile.</figDesc><graphic coords="2,90.00,302.40,198.36,152.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>; the variance method (Borbely and Groma 2001); the Williamson-Hall method (Williamson &amp; Hall 1953, Ungar and Borbely 1996); the alternative method (van Berkum et al. 1994); and variations of the Warren-Averbach method (Warren 1969). The following variants of the Warren-Averbach (WA) methods are used:  log-INDI-uses the log form of the Warren-Averbach method (equation 2.40) and Fourier coefficients with distinct values of L are fitted separately  log-ALL-uses the log form of the Warren-Averbach method and all the Fourier coefficients are fitted together  lin-INDI-uses the linear form of the Warren-Averbach method and Fourier coefficients with distinct values of L are fitted separately  individual-the same as log-INDI but peaks of the same family are used and the contrast factor is not used</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 ,</head><label>2</label><figDesc>Figure 2, Table 1, The change in parameters α' and σ0 for Ti6Al4V (found from fitting data to equation 1), used to show how the dislocation density changes with flow stress, for different DPPA methods. These parameters are determined in 2 ways, (1) allowing both parameters to change, and (2) only allowing α' to change. The expected values are compared with TEM data (Biswas et al 1973, Conrad 1981).</figDesc><graphic coords="4,90.00,361.80,206.04,117.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Measured full-width values of Ti-6Al-4V at applied strains of 1% and 5% plotted against x (left) and those predicted using a Schmid factor polycrystal model (right).</figDesc><graphic coords="5,90.00,352.68,200.88,131.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. The predicted slip activity of the different slip systems at different x values in Ti-6Al-4V using model A, in the axial (left) and transverse (middle) directions. The total slip activity at different x values for model A and model B is shown on the right.</figDesc><graphic coords="5,90.00,521.28,348.72,138.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. The change in dislocation density (left), reciprocal of crystallite size (middle) and dipole character, M, (right) found from the WA method plotted against x for axial and transverse directions at 1% and 5% strain.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 ,</head><label>6</label><figDesc>Figure 6, the asymmetry of diffraction peaks in Ti6Al4V (left), Ti-CP (middle) and predictions of twin activity (right).</figDesc><graphic coords="8,90.00,279.00,135.12,84.96" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Stacking faults and twin boundaries in fcc crystals determined by x-ray diffraction profile analysis</title>
+		<author>
+			<persName><forename type="first">Levente</forename><surname>Balogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gábor</forename><surname>Ribárik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tamás</forename><surname>Ungár</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2216195</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2006-07-15">023512</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Balogh L, Ribárik G, Ungár T; &apos;Stacking faults and twin boundaries in fcc crystals determined by x-ray diffraction profile analysis&apos;; Journal of Applied Physics; 100; 023512;</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Orientation Effect on Mechanical Properties of Commercially Pure Titanium at Room Temperature</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Battaini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Pereloma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C H J</forename><forename type="middle">H J</forename><surname>Davies</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-006-9040-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical and Materials Transactions A</title>
+		<title level="j" type="abbrev">Metall Mater Trans A</title>
+		<idno type="ISSN">1073-5623</idno>
+		<idno type="ISSNe">1543-1940</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="276" to="285" />
+			<date type="published" when="2007-02" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Battaini M, Pereloma E V, Davies C H J; Metal. And Mat. Trans. A; 38A; 276-285;</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">An Optimized Bracing System for Distributed Lateral Loads</title>
+		<author>
+			<persName><forename type="first">Benjamin</forename><surname>Jacot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Corentin</forename><surname>Fivet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mitchell</forename><surname>Shope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dimitrios</forename><surname>Pagonakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Ochsendorf</surname></persName>
+		</author>
+		<idno type="DOI">10.5176/2301-394x_ace17.117</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Annual International Conference on Architecture and Civil Engineering (ACE 2017)</title>
+		<imprint>
+			<publisher>Global Science &amp; Technology Forum (GSTF)</publisher>
+			<date type="published" when="2017-05-08" />
+			<biblScope unit="page" from="366" to="374" />
+		</imprint>
+		<respStmt>
+			<orgName>Massachusetts Institute of Technology;</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+	<note type="raw_reference">Biswas C P; PhD thesis; Massachusetts Institute of Technology;</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Variance method for the evaluation of particle size and dislocation density from x-ray Bragg peaks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borbély</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Groma</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1404134</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1772" to="1774" />
+			<date type="published" when="1772">1772</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borbely A, Groma I; &apos;Variance method for the evaluation of particle size and dislocation density from x-ray Bragg peaks&apos;; Applied Physics Letters; Vol 79; Number 12; 1772;</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Computer program&lt;i&gt;ANIZC&lt;/i&gt;for the calculation of diffraction contrast factors of dislocations in elastically anisotropic cubic, hexagonal and trigonal crystals</title>
+		<author>
+			<persName><forename type="first">András</forename><surname>Borbély</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juliana</forename><surname>Dragomir-Cernatescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gábor</forename><surname>Ribárik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tamás</forename><surname>Ungár</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889802021581</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="160" to="162" />
+			<date type="published" when="2003-01-21">2003</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borbely A, Dragomir-Cernatescu J, Ribarik G, Ungar T; &apos;Computer program ANIZC for the calculation of diffraction contrast factors of dislocations in elastically anisotropic cubic, hexagonal and trigonal crystals&apos;; J. Appl. Cryst.; 36; 160-162; (2003)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Analysis of the different slip systems activated by tension in a α/β titanium alloy in relation with local crystallographic orientation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bridier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Villechaise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J; Acta</forename><surname>Mendez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2004.09.040</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="555" to="567" />
+			<date type="published" when="2005-02" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bridier F, Villechaise P, Mendez J; Acta Mater.; 53; 555-567;</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Internal strain and texture evolution during deformation twinning in magnesium</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Agnew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A M</forename><surname>Bourke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Holden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Tomé</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2005.02.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: A</title>
+		<idno type="ISSN">0921-5093</idno>
+		<imprint>
+			<biblScope unit="volume">399</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2005-06">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown D W, Agnew S R, Bourke M A M, Holden T M, Vogel S C, Tome L C N; Mater. Sci. Eng. A; 399; 1-12; (2005)</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of interstitial solutes on the strength and ductility of titanium</title>
+		<author>
+			<persName><forename type="first">Hans</forename><surname>Conrad</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0079-6425(81)90001-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Materials Science</title>
+		<title level="j" type="abbrev">Progress in Materials Science</title>
+		<idno type="ISSN">0079-6425</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2-4</biblScope>
+			<biblScope unit="page" from="123" to="403" />
+			<date type="published" when="1981-01" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Conrad H; Progress in Materials Science; 26; 123-40;</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Contrast factors of dislocations in the hexagonal crystal system</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Dragomir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ungár</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889802009536</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="556" to="564" />
+			<date type="published" when="2002-09-18">2002</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dragomir I, Ungar T; &apos;Contrast factors of dislocations in hexagonal crystal system&apos;; J. Appl. Cryst; 35; 556-564; (2002)</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Modelling and prediction of mechanical properties for materials with hexagonal symmetry (zinc, titanium and zirconium alloys)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Fundenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Philippe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Esling</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1359-6454(97)00099-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4041" to="4055" />
+			<date type="published" when="1997-10" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fundenberger J J, Philippe M J, Wagner F, Esling C; Acta mater.; Vol. 45, no. 10; 4041- 4055;</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">X-ray line-broadening analysis of deformation mechanisms during rolling of commercial-purity titanium</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Glavicic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Salem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S L;</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2003.10.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="647" to="655" />
+			<date type="published" when="2004-02" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glavicic M G, Salem AA, Semiatin S L; Acta Materialia; 52; 647-655;</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Analysis of the Broadening of Powder Pattern Peaks using Variance, Integral Breadth, and Fourier Coefficients of the Line Profile</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Halder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C N J</forename><forename type="middle">N J</forename><surname>Wagner</surname></persName>
+		</author>
+		<idno type="DOI">10.1154/s037603080000344x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in X-ray Analysis</title>
+		<title level="j" type="abbrev">Adv. x-ray anal.</title>
+		<idno type="ISSN">0376-0308</idno>
+		<idno type="ISSNe">2631-3626</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="91" to="102" />
+			<date type="published" when="1965" />
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Halder N C, Wagner C N J; Adv. X-ray Anal.; 9; 91-102;</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Deformation microstructure and orientation of f.c.c. crystals</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pssa.2211490113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physica Status Solidi (a)</title>
+		<title level="j" type="abbrev">Phys. Stat. Sol. (a)</title>
+		<idno type="ISSN">0031-8965</idno>
+		<idno type="ISSNe">1521-396X</idno>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="187" to="199" />
+			<date type="published" when="1995-05-16" />
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu Q, Hansen N; Phys. Stat. sol. (a); 149; 187;</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Kinetics of flow and strain-hardening</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mecking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">F</forename><surname>Kocks</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0001-6160(81)90112-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metallurgica</title>
+		<title level="j" type="abbrev">Acta Metallurgica</title>
+		<idno type="ISSN">0001-6160</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1865" to="1875" />
+			<date type="published" when="1865">1865</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mecking H, Kocks U F; Acta Metall; 29; 1865;</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Modelling of texture evolution for materials of hexagonal symmetry—II. application to zirconium and titanium α or near α alloys</title>
+		<author>
+			<persName><forename type="first">M J</forename><forename type="middle">J</forename><surname>Philippe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Serghat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Houtte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Esling</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0956-7151(94)00329-g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metallurgica et Materialia</title>
+		<title level="j" type="abbrev">Acta Metallurgica et Materialia</title>
+		<idno type="ISSN">0956-7151</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1619" to="1630" />
+			<date type="published" when="1995-04" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Philippe M J, Serghat M, Van Houtte P, Esling C; Acta metal. Mater.; Vol. 43, No. 4; 1619-1630;</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">VDI-Career Center – die Karriereplattform des VDI</title>
+		<author>
+			<persName><forename type="first">G Z;</forename><surname>Sachs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vdi</surname></persName>
+		</author>
+		<idno type="DOI">10.51202/0042-1758-2022-12-38-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">VDI nachrichten</title>
+		<title level="j" type="abbrev">VDI nachrichten</title>
+		<idno type="ISSN">0042-1758</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="38" to="38" />
+			<date type="published" when="2022">12</date>
+			<publisher>VDI Verlag GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sachs, G Z; VDI; 12; 734;</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Simm</surname></persName>
+		</author>
+		<imprint/>
+		<respStmt>
+			<orgName>University of Manchester</orgName>
+		</respStmt>
+	</monogr>
+	<note>PhD thesis</note>
+	<note type="raw_reference">Simm, T. H.; PhD thesis; University of Manchester;</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Peak broadening anisotropy in deformed face-centred cubic and hexagonal close-packed alloys</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Simm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Quinta Da Fonseca</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576714015751</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1535" to="1551" />
+			<date type="published" when="2014-08-16" />
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simm, T. H., Withers, P. J., &amp; Quinta Da Fonseca, J.; &apos;Peak broadening anisotropy in deformed face-centred cubic and hexagonal close-packed alloys&apos;; Journal of Applied Crystallography; 47(5); 1535-1551;</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The effect of dislocation contrast on x-ray line broadening: A new approach to line profile analysis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ungár</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borbély</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.117951</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="3173" to="3175" />
+			<date type="published" when="1996-11-18">1996</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ungar T, Borbely A; &apos;The effect of dislocation contrast on x-ray line broadening: A new approach to line profile analysis&apos;; Appl. Phys. Lett.; 69; 21; (1996)</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Applicabilities of the Warren–Averbach analysis and an alternative analysis for separation of size and strain broadening</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G M</forename><surname>Van Berkum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Vermeulen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Delhez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>De Keijser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Mittemeijer</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889893010568</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="345" to="357" />
+			<date type="published" when="1994-06-01">1994</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van Berkum J G M, Vermeulen A C, Delhez R, de Keijser T H, Mittemeijer E J; &apos;Applicabilities of the Warren-Averbach Analysis and an Alternative Analysis for Separation of Size and Strain Broadening&apos;; J. Appl. Cryst; 27; 345-357; (1994)</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">B E; 'x-Ray</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Diffraction</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Addison-Wesley</publisher>
+		</imprint>
+	</monogr>
+	<note>Reading</note>
+	<note type="raw_reference">Warren B E; &apos;X-Ray Diffraction&apos;; Addison-Wesley; Reading;</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Broadening of X‐ray diffraction lines of crystals containing dislocation distributions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wilkens</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/crat.19760111108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Kristall und Technik</title>
+		<title level="j" type="abbrev">Cryst Res and Technol</title>
+		<idno type="ISSN">0023-4753</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1159" to="1169" />
+			<date type="published" when="1976-01" />
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilkens M; Broadening of X-Ray Diffraction Lines of Crystals Containing Dislocation Distributions&apos;; Kristall und Technik; 11; 1159-1169;</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">X-ray line broadening from filed aluminium and wolfram</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Hall</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0001-6160(53)90006-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metallurgica</title>
+		<title level="j" type="abbrev">Acta Metallurgica</title>
+		<idno type="ISSN">0001-6160</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="31" />
+			<date type="published" when="1953-01" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williamson G K, Hall W H; Acta. Metall.; 1; 22-31;</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Mechanical twinning and texture evolution in severely deformed Ti–6Al–4V at high temperatures</title>
+		<author>
+			<persName><forename type="first">Guney</forename><forename type="middle">Guven</forename><surname>Yapici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ibrahim</forename><surname>Karaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhi-Ping</forename><surname>Luo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2006.04.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<title level="j" type="abbrev">Acta Materialia</title>
+		<idno type="ISSN">1359-6454</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="3755" to="3771" />
+			<date type="published" when="2006-08" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yapici G G, Karaman I, Luo Z P; Acta Mater.; 54; 3755-3771;</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A study of active deformation systems in titanium alloys: dependence on alloy composition and correlation with deformation texture</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zaefferer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0921-5093(02)00421-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<title level="j" type="abbrev">Materials Science and Engineering: A</title>
+		<idno type="ISSN">0921-5093</idno>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="20" to="30" />
+			<date type="published" when="2003-03" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zaefferer S; Materials Science and Engineering; A344; 20-30;</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

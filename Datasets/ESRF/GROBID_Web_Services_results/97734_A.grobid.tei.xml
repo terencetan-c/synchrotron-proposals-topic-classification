@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analysis of SEC-SAXS data via EFA deconvolution and Scatter</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MyJove Corporation</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-01-28">2021-01-28</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Tully</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nicolas</forename><surname>Tarbouriech</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">P</forename><surname>Rambo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stephanie</forename><surname>Hutin</surname></persName>
+						</author>
+						<title level="a" type="main">Analysis of SEC-SAXS data via EFA deconvolution and Scatter</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Visualized Experiments</title>
+						<title level="j" type="abbrev">JoVE</title>
+						<idno type="eISSN">1940-087X</idno>
+						<imprint>
+							<publisher>MyJove Corporation</publisher>
+							<biblScope unit="issue">167</biblScope>
+							<date type="published" when="2021-01-28" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">9A4AFFBB7DE20A8BA030EC8A1EB5C16F</idno>
+					<idno type="DOI">10.3791/61578</idno>
+					<note type="submission">from: 11 June2021 to: 12June 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>SAXS structure of SARS-CoV-2 virulence factor Nsp1: a step forward to unveil its pathogenic mechanism</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head><p>The data was collected by the Local Contact, Mark Tully.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A total of three samples were analysed in the BM19, however it was only possible to obtained good dataset for only the full-length native protein. SAXS data were collected at the ESRF BioSAXS beamline BM29 <ref type="bibr" target="#b0">[1]</ref>. An inline HPLC system (Shimadzu) was used <ref type="bibr" target="#b1">[2]</ref> coupled directly to the BM29 in vacuum. The sample was loaded into vials and automatically injected onto the SEC, Superdex 200 10/300 GL (GE Healthcare), equilibrated with the corresponding buffer at room temperature via an integrated syringe system SAXS data were collected using X-rays of wavelength of 0.9919 Å and a sample-to-detector distance of 2.81 m corresponding to q ranges of 0.08-4.5 nm -1 . About 1200 frames (at 2 sec/frame) were collected for each sample, where q is the magnitude of the scattering vector given by q = 4π/λ sin (θ), with 2θ the scattering angle.</p><p>The beamlines integrated automated processing pipeline integrated each individual frame <ref type="bibr" target="#b2">[3]</ref> before buffer subtraction and primary data processing was carried out using Scatter IV <ref type="bibr" target="#b1">[2]</ref>. The SEC-SAXS was unable to completely separate the protein from the aggregates leading to overlapping peaks. To determine the number of distinct scatterers and extract the individual components the program BioXTAS RAW, which encompasses a single value decomposition (SVD) with evolving factor analysis (EFA) tool was used <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b1">2]</ref>.</p><p>Full-length native protein was analysed by SAXS in order to confirm the different oligomeric states obtained by SEC. Therefore, the sample carried forward for in-depth analysis was the native condition using SEC elution. The protein show similar SAXS scattering profiles and the Guinier plots of each scattering profile provide a linear fit for a monodisperse solution (Fig. <ref type="figure">1A</ref>), and the radius of gyration (Rg) was calculated from this approximation, given a Rg 24.56 Å, and a I 0 = 18. The Kratky plot, shows that the protein is correctly folded and it shows the main peak position for globular particles (Fig. <ref type="figure">1B</ref>). Based on the pair distance distribution function [P(r)] determined by the indirect Fourier transform from the scattering profile curves using GNOM [21], it was possible to determine the molecular mass of the sample and compare it with the calculated theoretical molecular mass determined from the known sequence. Pair-distance, P(r), distribution function, shows a single maximum at a Dmaximum of 78 Å, is the largest non-negative value that supports a smooth distribution function (Fig. <ref type="figure">2</ref>). Fig. <ref type="figure">1</ref>. A. Log 10 SAXS intensity versus scattering vector, q. Plotted range represents the positive only data within the specified q-range. B.Dimensionless Kratky plot. Cross-hair marks the Guinier-Kratky point (1.732, 1.1), the main peak position for globular particles. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Pair-distance, P(r), distribution function. Maximum dimension, dmax, is the largest non-negative value that supports a smooth distribution function.</figDesc><graphic coords="2,180.50,452.33,241.55,204.34" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Upgraded ESRF BM29 beamline for SAXS on macromolecules in solution</title>
+		<author>
+			<persName><forename type="first">Petra</forename><surname>Pernot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Round</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ray</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alejandro</forename><surname>De Maria Antolinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><surname>Gobbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elspeth</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Huet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jerôme</forename><surname>Kieffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Lentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Muriel</forename><surname>Mattenet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Morawe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Mueller-Dieckmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Staffan</forename><surname>Ohlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Werner</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Surr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pascal</forename><surname>Theveneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Louiza</forename><surname>Zerrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sean</forename><surname>Mcsweeney</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049513010431</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="660" to="664" />
+			<date type="published" when="2013-05-18">2013</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pernot, P., Round, A., Barrett, R., De Maria Antolinos, A., Gobbo, A., Gordon, E., Huet, J., Kieffer, J., Lentini, M., Mattenet, M., Morawe, C., Mueller-Dieckmann, C., Ohlsson, S., Schmid, W., Surr, J., Theveneau, P., Zerrad, L. &amp; McSweeney, S. (2013). J. Synchrotron Rad. 20, 660-664.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Analysis of SEC-SAXS data via EFA deconvolution and Scatter</title>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Tully</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Tarbouriech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">P</forename><surname>Rambo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephanie</forename><surname>Hutin</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/61578</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Visualized Experiments</title>
+		<title level="j" type="abbrev">JoVE</title>
+		<idno type="ISSNe">1940-087X</idno>
+		<imprint>
+			<biblScope unit="issue">167</biblScope>
+			<biblScope unit="page">61578</biblScope>
+			<date type="published" when="2021-01-28">2021</date>
+			<publisher>MyJove Corporation</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tully, M. D., Tarbouriech, N., Rambo, R. P., Hutin, S. Analysis of SEC-SAXS data via EFA deconvolution and Scatter. (2021) J. Vis. Exp. (167), e61578, doi:10.3791/61578.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Online data analysis at the ESRF bioSAXS beamline, BM29</title>
+		<author>
+			<persName><forename type="first">Martha</forename><forename type="middle">Elisabeth</forename><surname>Brennich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jérôme</forename><surname>Kieffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Bonamis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alejandro</forename><surname>De Maria Antolinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephanie</forename><surname>Hutin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petra</forename><surname>Pernot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Round</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576715024462</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="203" to="212" />
+			<date type="published" when="2016-02-01">2016</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brennich, M. E., Kieffer, J., Bonamis, G., De Maria Antolinos, A., Hutin, S., Pernot, P. &amp; Round, A. (2016). J. Appl. Cryst. 49, 203-212.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Domain Movements upon Activation of Phenylalanine Hydroxylase Characterized by Crystallography and Chromatography-Coupled Small-Angle X-ray Scattering</title>
+		<author>
+			<persName><forename type="first">Steve</forename><forename type="middle">P</forename><surname>Meisburger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">B</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Crystal</forename><forename type="middle">A</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shengnan</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">F</forename><surname>Fitzpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nozomi</forename><surname>Ando</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jacs.6b01563</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="6506" to="6516" />
+			<date type="published" when="2016-05-12">2016. 2016</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meisburger, S. P., Taylor, A.B, Khan, C.A., Zhang, S., Fitzpatrick, P.F., Ando, N. (2016) Domain Movements upon Activation of Phenylalanine Hydroxylase Characterized by Crystallography and Chromatography-Coupled Small-Angle X-ray Scattering. (2016) JACS 138, 6506-6516.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

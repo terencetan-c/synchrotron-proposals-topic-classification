@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure determination of Leukotriene A 4 Hydrolase</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mr</forename><forename type="middle">Andy</forename><surname>Thompson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dep. Molecular Biology</orgName>
+								<orgName type="institution">Stockholm University</orgName>
+								<address>
+									<addrLine>Sweden Dr Par Nordlund*, Idem. Dr Jesper Haeggstrom</addrLine>
+									<settlement>Dr Marjolein Thunnissen</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Dep Med. Biochem. &amp;Biophys</orgName>
+								<orgName type="institution">Karolinska Institute</orgName>
+								<address>
+									<settlement>Stockholm</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structure determination of Leukotriene A 4 Hydrolase</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4705ACBA84F3AF47D1483541D6BE6948</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The purpose of the experiment was to solve the structure of Leukotriene A, hydrolase, an enzyme important in inflamation, by using the MAD technique. The MAD experiments were going to be performed on either Se-Met substituted LTA, hydrolase or on heavy metal substituted enzyme crystals. The crystals belong to spacegroup P3 with cell-dimensions a=b=140.2&amp; c= 85A. There are two monomers of each 68 Kda. in the asymmetric unit.</p><p>The Se-Met substituted LTA, hydrolase crystals were unfortunately too small to collect reliable data on. Therefore it was decided to use native crystals which were soaked in heavy atom derivative solutions. After some searching a crystal containing Yb diffracted well enough to be used in the experiment. From the scanning the Liii edge of Yb it was shown that there was a good signal, however since we were using a CCD detector which was not very sensitive for the longer wavelengths and the crystals diffracted only weakly, the experiment had to be performed on the Lii edge which is at lower wavelength but the anomalous signal is not as big as for the Liii edge.</p><p>On the Lii edge, three dataset were collected, first on the peak (PK), then on the point of inflection (PI), and finally on the remote hard edge (RE). Since the crystal was very long it was possible to translate the crystal such that for each dataset a fresh part was exposed. For each wavelength, 2 x 60" of data were collected with 180" difference between the two sets. The data was processed using DEN20 and the merging and scaling and subsequent calculation of Patterson functions were performed with programs from the CCP4 package (see table 1 for the statistics).</p><p>Anomalous difference Patterson functions to 4.5A calculated with data from the different datasets gave some mixed information. The Pattersons for the RE set were very clear and gives an indication that there are several sites to which the Yb atom is bound. From the Harker section a first site was identified and subsequently used for preliminary phasing. For the heavy atom refinement and phasing both MLPHARE and SHARP were used, but the phasing power was not sufficient for obtainint the structure of the enzyme.</p><p>Recently we recollected MAD data on the L(III) edge of Yb at beamline X25 of the NSLS. Since the data were collected recently we are still analysing them. Unfortunately, this has been complicated by the fact that there are apparently different and mutually exclusive sites in the two MAD datasets from ESRF and NSLS. A further complication is that neither of these MAD datasets is isomorphous to the native dataset. Using either dataset alone does not give enough phase information for the structure determination. We are still testing different heavy atom refinement schemes in SHARP in order to be able to abstract useable phase-information. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Statistics data-collection and processing.</figDesc><table><row><cell>Dataset</cell><cell>PK</cell><cell>PI</cell><cell>RE</cell></row><row><cell>Wavelength</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Observations</cell><cell>62863</cell><cell>64068</cell><cell>66730</cell></row><row><cell>Indep. refl.</cell><cell>17791</cell><cell>18086</cell><cell>22629</cell></row><row><cell>Anomalous pairs</cell><cell>17091</cell><cell>17209</cell><cell>18495</cell></row><row><cell>Resolution</cell><cell>3.8A</cell><cell>3.gA</cell><cell>3.5A</cell></row><row><cell>R merge</cell><cell>10.3%</cell><cell>7.9%</cell><cell>9.2%</cell></row><row><cell>R mom*</cell><cell>10.2%</cell><cell>7.3%</cell><cell>7.6%</cell></row><row><cell>Completeness</cell><cell>97.2%</cell><cell>98.7%</cell><cell>97.9%</cell></row><row><cell>Rscal to PI</cell><cell>18.0%</cell><cell></cell><cell>11.2%</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local environment of xenon implanted in uranium dioxide</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2002-12-17">17 december 2002</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Bm</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Francesco</forename><forename type="middle">D '</forename><surname>Acapito</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Michel</forename><surname>Ripert</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Gaelle</forename><surname>Carlot</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Francesco</forename><surname>D'acapito</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Philippe</forename><surname>Garcia</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Philippe</forename><surname>Martin</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Thierry</forename><surname>Petit</surname></persName>
+						</author>
+						<title level="a" type="main">Local environment of xenon implanted in uranium dioxide</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2002-12-17">17 december 2002</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0E19BFCE4349F8B10FA0355A8784F543</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T16:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>We have collected XANES spectra and when structural oscillations are present, EXAFS spectra at the xenon K edge in fluorescence mode at 4 K. In order to interpret our results and test FEFF8.20 XANES calculations, a reference sample was used. The sample is a silicon single crystal implanted at a xenon fluence of 10 17 ions.cm -2 , as described by Faracci et al. <ref type="bibr" target="#b0">[1]</ref>. These authors have demonstrated that under these implantation conditions, xenon atoms form over pressured bubbles.</p><p>At 4 K, xenon precipitates into a cubic face centred crystal with a cell parameter a=6.20 Å. In this structure the two fist coordination shells of Xe atoms comprise 12 Xe atoms at 4.38 Å and 6 Xe atoms at 6.20 Å. The experimental and calculated XANES spectra (calculated using the FEFF8.20 <ref type="bibr" target="#b1">[2]</ref> code, as explained below) along with the k 2 Fourier transform with best fit results are shown in figures 1 and 2 respectively. D C B A FEFF Experimental A.U. Energy (eV) 0 2 4 6 8 0.00 0.02 0.04 0.06 0.08 0.10 0.12 Figure 2 Experimental Fit |χ(R)| (Å -3 ) R (Å)</p><p>The fitting procedure was performed using version 8.20 of the FEFF code. The phase and amplitude were calculated using the IFEFFIT software <ref type="bibr" target="#b2">[3]</ref>. The best fit results shown in figure <ref type="figure">2</ref> are interpreted as follows:</p><p>• the first peak is described with 2 different shells: 0.7 ± 0.1 Si atoms at 3.63 ± 0.02 Å with σ 2 = 0.020 ± 0,003 Å 2 and 5.3 ± 0.5. Xe atoms at 4.31 ± 0.02 Å with σ 2 = 0.025 Å -2 .</p><p>• The second peak corresponds to the second coordination shell of solid Xe with 3 ± 0.5 Xe atoms at 6.20 ± 0.02 Å with σ 2 = 0.007 Å -2 . The result of the fitting process reveals that Xe does indeed precipitate to form bubbles. However, the number of neighbours required to fit the spectrum is half that expected for pure solid xenon. This could indicate that Xe atoms located at the surface of these bubbles have a significant contribution. If this is the case, then it follows that the bubbles are on a nanometric scale. The Xe-Si shell is a consequence of the bubble-solid interface. Using the values determined in the EXAFS refinement, the XANES spectra were calculated for pure solid Xe with a=6.20 Å. The results are shown in figure <ref type="figure">1</ref> which shows a very good agreement between experimental and simulated data. The main four components labelled (A,B,C and D) are very well reproduced, confirming that FEFF8.20 can be used to interpret the XANES spectra of xenon implanted in UO 2 pellets. In order to simulate the effect of pressure on XANES spectra, different FEFF calculations were applied to decreasing cell parameters. The 4 components remain but a shift appears towards higher energy values.</p><p>The UO 2 samples studied were implanted in such a way that a quasi-unform xenon concentration exists at the samples' surface (depth range: 0-200nm). The xenon concentration is approximately 2 atomic percent. Unfortunately, due to experimental difficulties, only six UO 2 samples were analysed. In figure <ref type="figure">3</ref>  A.U. Energy (eV) As implanted in UO 2 As implanted in silicium 0 20 40 60 80 100 120 140 1.0 Figure 4 A.U.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Energy (eV)</head><p>As implanted in UO 2 30 minutes at 1000°C</p><p>The most notable changes in the spectra were obtained for samples annealed for 30 minutes at 1000°C as is seen in figure <ref type="figure">4</ref>. No new component is present. However the annealed sample spectrum is smoothed and one can note the presence of an incipient EXAFS oscillation. This would appear to indicate that the position of Xe atoms in the UO 2 matrix remains unchanged thus ruling out Xe precipitation. XANES calculations are in progress in order to characterise the local environment of Xe in the UO 2 samples studied.</p><p>This experiment has revealed that no bubble precipitation has occurred in our samples. The annealing conditions studied (1000°C, 30min hold time) did produce a partial reorganisation of the crystal structure, as revealed by the smoothed spectrum in figure 4. However, higher temperatures and hold times appear to be required to bring about longer range xenon movement which in turn would lead to bubble precipitation. The aim of our experiments is to characterise the behaviour of xenon atoms in sintered UO 2 samples as a function of annealing conditions. In particular, the conditions required for xenon bubble precipitation to occur along with the pressure inside the bubbles and the fraction of gas which is still available for release from the fuel is of the utmost importance with regard to the behaviour of spent fuels under long term storage conditions. These experiments have been successful in showing that XANES/EXAFS is ideally suited for accessing such data. A journal publication is currently under preparation and additional beam time will be necessary in order to demonstrate the full potential of this technique.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Figure 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Figure 3</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Xe bubbles in si observed by extended x-ray-absorption fine-structure spectroscopy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Faraci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Pennisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">A</forename><surname>Terrasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mobilio</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.38.13468</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="13468" to="13471" />
+			<date type="published" when="1988-12-15">1988</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Faraci, A.R. Pennisi, And A. Terrasi, Phys. Rev. B 38 (1988) 13468.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Parallel calculation of electron multiple scattering using Lanczos algorithms</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Ankudinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Bouldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Rehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sims</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hung</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.65.104107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<idno type="ISSNe">1095-3795</idno>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">104107</biblScope>
+			<date type="published" when="2002-02-27">2002</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.L. Ankudinov, C.E. Bouldin, J.J. Rehr, J. Sims, And H. Hung, Phys. Rev. B 65 (2002) 104107.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;IFEFFIT&lt;/i&gt; : interactive XAFS analysis and &lt;i&gt;FEFF&lt;/i&gt; fitting</title>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Newville</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049500016964</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="322" to="324" />
+			<date type="published" when="2001-03-01">2001</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Newville, J. Sync. Radiat. 8 (2001) 322.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

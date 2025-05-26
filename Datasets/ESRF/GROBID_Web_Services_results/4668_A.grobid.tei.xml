@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local contact(s): Received at ESRF</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pekka</forename><surname>Suortti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Buslaps</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Geneviève</forename><surname>Loupias</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hani</forename><surname>Kouba</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><surname>Bellin</surname></persName>
+						</author>
+						<title level="a" type="main">Local contact(s): Received at ESRF</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">11F80642F100E1299B804E76FD2DD3DF</idno>
+					<note type="submission">from: June 8, 1995 to: june 17, 1995 so.o~.~c,</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>3D momentum density map of CoSi2 single crystal</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of the experiment performed on CoSi2 was to reconstruct the three dimensional electronic density in momentum space, with resulting measured directional Compton profiles (DCP), i.e. measured with the scattering vector aligned along with particular crystallographic directions in the samples (singles crystals). The experiment has been performed with the scattering angle settled at 1610 and the synchrotrons radiation has been monochromatized at 58 keV. We have measured 9 DCPS using three samples of similar thicknesses and respectively [100], <ref type="bibr">[110] and [111]</ref> cut. The data sets have been corrected for energy dependent effects such as photoelectric absorption in the sample, the analyser and the air (photon path between analyser and detector) by using a local correction program (P. Fajardo, T. Buslaps, ESRF). Due to the flatness of the core profile in momentum space, it is easy to subtract its contribution, evaluated using the QSCF method (collaboration with A. Issolah, Tizi-Ouzou), from the total measured DCP in order to get the valence DCP of interest alone. Experimental valence profiles are normalized to the number of valence electrons per unit cell in CoSi2.</p><p>At a first step, it is appropriate to compare the anisotropic profiles. Many of the systematic errors inherent in both theory and experiment can be removed when one directional profile is subtracted from another. Another point is the multiple scattering : in an inelastic scattering experiment, the photon may scatter more than once in the sample and multiple scattered photons are detected at same time than the one-scattered photon. This multiple scattering contribution, depending hardly of the sample shape and thickess, has to be removed from total experimental DCP in order to get accurate information. A way to avoid the multiple scattering correction is to use difference profiles of DCP measured with samples of same thicknesses, shapes and orientation under the beam. This is the case with DCPS measured along [100], [110] and [1 11] directions.</p><p>On figure <ref type="figure">1</ref> is reported the experimental anisotropic profile (anisotropy between [100] and [1 11] directions) together with theoretical results (LMTO calculations performed by Thomas Jarlborg, Institute of Physics, University of Geneva).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>P z (a.u.)</head><p>We can notice a good qualitative agreement between measured and theoretical anisotropy, even if the features of the theoretical anisotropy are more pronounced than the experimental one. The collaboration with Thomas Jarlborg is in progress to improve theoretical calculations. These results have been shown at the 1995'ESRF users meeting : Electronic density study of CoSi2, H. Kouba, Ch. Benin an G. Loupias.</p><p>The second step which is the most ambitious is to reconstruct the 3D map of the electronic density in momentum space. Because we have no way to experimentally discriminate the photons scattered more than one time, both elastically and inelastically, this parasitic Compton profile is simulated by the Monte-Carlo method (collaboration with J. Felsteiner, Israel). This map is under construction, using the method of spherical harmonics.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

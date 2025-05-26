@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Strain and composition in SiGe FDSOI p-MOSFET patterns</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>05/11/2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nils</forename><surname>Blanc</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nathalie</forename><surname>Boudet</surname></persName>
+						</author>
+						<title level="a" type="main">Strain and composition in SiGe FDSOI p-MOSFET patterns</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">05/11/2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D74A6FE33240E1985C5584AD2E20F601</idno>
+					<note type="submission">from: 2 nd to: 7 th March 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>20161348 02-02-849 (ESRF) BM02 -D2AM</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Objective &amp; expected results (less than 10 lines):</head><p>We proposed to analyze by anomalous diffraction at the Ge K absorption edge (11.104 keV) the strain and Ge-composition profiles inside thin SiGe pattern channels involved in FD-SOI technology in order to provide a quantitative description of relaxation &amp; alloying resulting from the condensation process elaboration technique of these materials. The identification of relaxations mechanisms, not clear with the actual understanding, is necessary to propose a solution to maintain the strain at a high level in order to optimize hole mobility and current gain in state-of-the-art pMOSFET devices, which are already at the industrial development level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and the conclusions of the study (main part):</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental description:</head><p>The samples have been obtained by the condensation process mastered by ST Microelectronics and CEA Leti and with patterns defined by the DIVA mask. Four types of samples and 5 patterns have been measured for 3 reflections (to measure anisotropy) as summarized in the following table. The etching of the patterns has been realized so that the (115) planes are parallel to the lines. (1-15) planes are therefore perpendicular to the lines.</p><p>The Ge K-edge calibration has been done using using a Ge foil (lambda=1.11667 A). We used a 7x8 XPAD detector with 130 µm pixel size.</p><p>For anomalous measurements, we measured 12 energies centered on 11.103 keV stored in the array _nrj: -0.1, -0.02, -0.01, -0.005, -0.002, -0.001, 0, +0.001, +0.002, +0.005, +0.001, +0.002.</p><p>To perform anomalous measurements, we first align Bragg angles and determine positions on the samples. Then we scan Bragg angle eta around a given (h,k,l) reflection by using the macro:</p><p>def Escan_dscan_eta ' if ($# != 7) { eprint "Usage: Escan_dscan_eta H K L deta0 deta1 intervals time" exit } for(__i=0;__i&lt;=11;__i++) { moveE _vnrj[__i] ubr $1 $2 $3 sleep(15) dscan eta $4 $5 $6 $7 }</p><p>Examples: -A2 (ii) (-1 1 5): setmode 2 0 3 2; freeze 0 90 0; Escan_dscan_eta -0.99719 0.98195 5.0202 -.5 .2 70 10 -A2 (ii) (0 0 4): setmode 2 0 4 3; freeze 0 90 90; Escan_dscan_eta 0.0027485 -0.013109 4.0063 -.5 .2 70 10 ROIs are defined on the 2D detector to integrate the intensity of the SiGe signal. The intensity of the Si Bragg peak (and related background) is minimized by positioning the detector.</p><p>The full data analysis is still under development and we plan to publish a paper on this work. Gaétan Girard (PhD student) adapted the Python's code of Vincent Favre-Nicolin to extract the composition of the layer. We will not present in this report the full results, but an example of the method with the sample (iv), the zone A2 (lines of 130 nm spaced by 110 nm) and the (115) reflection.</p><p>As detailed in <ref type="bibr" target="#b0">[1]</ref>, the measured intensity can be written as the sum of "normal" and "anomal" contributions (the structure factor summation is schematized in the figure below):</p><p>The scattered amplitude around the (115) reflections along the H and L directions is extracted with the MAD method: the total structure factor is represented in red and the partial structure factors for Ge is represented in blue and in green for Si.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Samples: -(i) Q615074P02UL (20 nm SiGe) -(ii) Q615074-P01UL (20 nm SiGe with SiNx) -(iii) DIVA_SLOT1_UL (11 nm SiGe, without SiNx) -(iv) Q615074P09UL (bilayer see below) Patterns: Lines: (samples) measured reflection list Width (nm) Spacer (nm) A2: (i) 004, 115, 1-15, (ii) 004, 115, 1-15, (iii) 004, 115, 1-15, (iv) 004, 115, 1-15 130 110 C1: (i?), (ii), 004, 115, 1-15 500 500 C2: (i) 004, 115, 1-15, (ii) 004, 115, 1-15, (iii) 004, 115, 1ii) 004, 115 250 250 D2: (iv) 004, 115 500 500 D6: (ii) 004, 115 5000 5000</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,39.25,48.00,495.25,264.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,39.25,345.00,415.75,312.25" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Ge composition can be deduced as a map in reciprocal coordinates. In this example, the mean Ge concentration is about 24 % and its distribution must be analyzed quantitatively.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">La responsabilité de la puissance publique en France et en Allemagne. Étude de droit comparé</title>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Jacquemet-Gauché</surname></persName>
+		</author>
+		<idno type="DOI">10.4000/trajectoires.711</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trajectoires</title>
+		<title level="j" type="abbrev">trajectoires</title>
+		<idno type="ISSNe">1961-9057</idno>
+		<imprint>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="1999-10">Oct. 1999</date>
+			<publisher>OpenEdition</publisher>
+			<pubPlace>Grenoble, France</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Université Joseph Fourier</orgName>
+		</respStmt>
+	</monogr>
+	<note>Développement de la Diffraction Anomale Dispersive Publication(s): -This work has not been published yet</note>
+	<note type="raw_reference">Développement de la Diffraction Anomale Dispersive, Application à l&apos;étude de Structures Modulées Inorganiques et de Macromolécules Biologiques, thèse Vincent Favre-Nicolin, Oct. 1999, Université Joseph Fourier Grenoble, France. Justification and comments about the use of beam time (5 lines max.): Very successful experiment with publishable data. Publication(s): -This work has not been published yet.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

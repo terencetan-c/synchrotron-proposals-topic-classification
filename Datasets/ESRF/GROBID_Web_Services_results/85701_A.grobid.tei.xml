@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">In situ nanodamage and strain interactions: threedimensional multiscale in situ laminography experiments and simulations Experiment number: ma3777</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>02/20</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jussi-Petteri</forename><surname>Suuronen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Thilo</forename><surname>Morgeneyer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mines</forename><surname>Paristech</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Heikki</forename><surname>Suhonen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrei</forename><surname>Shkarin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Simon</forename><surname>Haaga</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Daniel</forename><surname>Pino Munoz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Mines ParisTech</roleName><forename type="first">Daniel</forename><surname>Hänschke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universitiy of Helsinki</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">In situ nanodamage and strain interactions: threedimensional multiscale in situ laminography experiments and simulations Experiment number: ma3777</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">02/20</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">22CF3E6B3BE6841AFB806101184A2B17</idno>
+					<note type="submission">from: 08/12/2017 to: 13/12/2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the frame of ma3777 we imaged in situ the behavior of thin, notched Al sheets under mechanical load via X-ray nanolaminography at ID16B. This reveals the mechanisms of void nucleation up to crack propagation in the investigated materials for high stress triaxiality conditions ahead of a severe notch.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>1. Low-resolution laminography scans have been acquired successfully for 2198T8R-and 2196Mn Al alloys in situ at different loading steps up to the failure of the material. At every loading step for each specimen a low resolution scan has been acquired with 240 nm voxel size. 2. Fast reconstruction of the acquired projection data was performed via single-distance phase retrieval <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3]</ref> (integrated in our reconstruction library and pipeline (UFO-KIT) available as open-source code <ref type="bibr" target="#b3">[4,</ref><ref type="bibr">5]</ref>) which enabled us to precisely select a number of ROIs for high-resolution imaging. 3. Based on the reconstructed 3D data of the low resolution scans, particular Region of Interests (ROIs)</p><p>have been selected to be investigated into more detail. In subsequent high-resolution scans with 100nm effective pixel size at different ROIs, the microstructure evolution could be observed on-line at such spatial resolutions. 4. Additionally, we acquired correlative surface data via visible light microscopy. This will provide macroscopic surface information on local loading conditions.</p><p>We made a test of one additional scan with 25nm pixel size, but the resolution for this particular scan is not significantly increased probably due to the sphere of confusion (excentricity and wobble) of the current nanolaminography setup (mechanical bearing specified at ~ 100 nm run-out). All data has been processed using a newly developed single-distance phase retrieval algorithm for cone beam projection microscopy (adopted version of quasiparticle phase retrieval <ref type="bibr">[1, 2 ,3]</ref>) and laminography reconstruction. Before reconstruction the phase retrieval parameters have been carefully optimized. The image quality has been compared to multi distance phase retrieval acquired during ma2787. It turned out that single-distance artefacts can be accepted in order to achieve a higher throughput or aiming towards higher temporal resolution. These artefacts and the worse signal-to-noise ration observed for single-distance measurements we expect to improve strongly, due to increased flux delivered by ID16b after the EBS upgrade. During ma3777 still multi distance scans have been acquired, since the impact of single-distance phase retrieval was not investigated clear enough at this point of time.</p><p>A publication dedicated to single-distance phase retrieval for cone-beam based microscopy for in situ 3D imaging is in preparation <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. A patent for the dedicated in situ loading device [6] submitted through the CNRS is pending. The 3D images obtained allow for the evaluation of the distribution and number of secondary phase particles. Furthermore, the mechanisms of crack initiation (e.g. delamination, particle cracking) in the vicinity of such particles can be observed in situ and described which is shown in Fig. <ref type="figure" target="#fig_0">1</ref> for the case of Mn-containing 2196 aluminium alloy. These information will be used in our future finite-element analysis modeling efforts to predict damage initiation and progression under various stress triaxiality and stress level conditions <ref type="bibr">[7,</ref><ref type="bibr" target="#b5">8,</ref><ref type="bibr" target="#b6">9,</ref><ref type="bibr" target="#b7">10]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Loading directions</head><p>Direction of crack propagation</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Hierarchical single-distance laminography scans for the case of a 2196 Mn-containing aluminium alloy. (a)-(c) Overview scans showing the damage with respect to the notch tip position: (a) Distribution of secondary particles (notch opening d=0.19 mm), (b) crack initiation at secondary particles (notch opening d=0.47mm), (c) early stage of crack propagation (notch opening d=0.71mm). (d)-(f) High resolution scans showing the chosen ROI (determined based on the former low resolution scans) at 100 nm voxel size allowing novel insight into the damage mechanisms. Scale bars correspond to 50 µm.</figDesc><graphic coords="2,34.00,260.05,532.95,355.15" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Single-distance phase retrieval at large phase shifts</title>
+		<author>
+			<persName><forename type="first">Julian</forename><surname>Moosmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ralf</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tilo</forename><surname>Baumbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1364/oe.19.012066</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Optics Express</title>
+		<title level="j" type="abbrev">Opt. Express</title>
+		<idno type="ISSNe">1094-4087</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">12066</biblScope>
+			<date type="published" when="2011-06-07">2011</date>
+			<publisher>Optica Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Julian Moosmann, Ralf Hofmann, and Tilo Baumbach, &quot;Single-distance phase retrieval at large phase shifts,&quot; Opt. Express 19, 12066-12073 (2011)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Hierarchically guided in situ nanolaminography for the visualisation of damage nucleation in alloy sheets</title>
+		<author>
+			<persName><forename type="first">Mathias</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thilo</forename><forename type="middle">F</forename><surname>Morgeneyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heikki</forename><surname>Suhonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ante</forename><surname>Buljac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Hild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jussi-Petteri</forename><surname>Suuronen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tilo</forename><surname>Baumbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Hänschke</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-022-27035-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2023-01-19" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note>oral presentation submitted to XRM conference 2020</note>
+	<note type="raw_reference">Mathias Hurst, Lukas Helfen, Thilo Morgeneyer, Xiang Kong, Heikki Suhonen, Jussi-Petteri Suuronen, Steffen Hahn, Peter Cloetens, Daniel Hänschke , Tilo Baumbach, &quot;Single-distance phase retrieval for in situ X-ray nanolaminography&quot;, oral presentation submitted to XRM conference 2020</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Hierarchically guided in situ nanolaminography for the visualisation of damage nucleation in alloy sheets</title>
+		<author>
+			<persName><forename type="first">Mathias</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thilo</forename><forename type="middle">F</forename><surname>Morgeneyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heikki</forename><surname>Suhonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ante</forename><surname>Buljac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Hild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jussi-Petteri</forename><surname>Suuronen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tilo</forename><surname>Baumbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Hänschke</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-022-27035-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2023-01-19" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note>manuscript under preparation</note>
+	<note type="raw_reference">Mathias Hurst, Lukas Helfen, Thilo Morgeneyer, Xiang Kong, Heikki Suhonen, Jussi-Petteri Suuronen, Steffen Hahn, Peter Cloetens, Daniel Hänschke , Tilo Baumbach, &quot;Single-distance phase retrieval for in situ X-ray projection microscopy&quot;, manuscript under preparation</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Real-time image-content-based beamline control for smart 4D X-ray imaging</title>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Vogelgesang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomas</forename><surname>Farago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thilo</forename><forename type="middle">F</forename><surname>Morgeneyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomy</forename><surname>Dos Santos Rolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anton</forename><surname>Myagotin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tilo</forename><surname>Baumbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600577516010195</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSNe">1600-5775</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1254" to="1263" />
+			<date type="published" when="2016-07-28">2016</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthias Vogelgesang, Tomas Farago, Thilo F. Morgeneyer, Lukas Helfen, Tomy dos Santos Rolo, Anton Myagotin, Tilo Baumbach, &quot;Real-time image-content-based beamline control for smart 4D X-ray imaging&quot;, J. Synchrotron Rad. 23, 1254-1263 (2016)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">In situ observation of damage evolution in alloy sheet materials via synchrotron micro-and nanolaminography</title>
+		<author>
+			<persName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Thilo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Morgeneyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shkarin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Buljac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Suhonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suuronen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Baumbach</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>oral presentation submitted to ICAA conference 2020</note>
+	<note type="raw_reference">Lukas Helfen, Thilo F. Morgeneyer, M. Hurst, A. Shkarin, X. Kong, A. Buljac, F. Hild, H. Suhonen, J.P. Suuronen, T. Baumbach, &quot;In situ observation of damage evolution in alloy sheet materials via synchrotron micro-and nanolaminography&quot;, oral presentation submitted to ICAA conference 2020</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Numerical validation framework for micromechanical simulations based on synchrotron 3D imaging</title>
+		<author>
+			<persName><forename type="first">Ante</forename><surname>Buljac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Modesar</forename><surname>Shakoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Neggers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Bernacki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre-Olivier</forename><surname>Bouchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thilo</forename><forename type="middle">F</forename><surname>Morgeneyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Hild</surname></persName>
+			<idno type="ORCID">0000-0001-5553-0066</idno>
+		</author>
+		<idno type="DOI">10.1007/s00466-016-1357-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Mechanics</title>
+		<title level="j" type="abbrev">Comput Mech</title>
+		<idno type="ISSN">0178-7675</idno>
+		<idno type="ISSNe">1432-0924</idno>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="419" to="441" />
+			<date type="published" when="2016-11-26">2016</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ante Buljac, Modesar Shakoor, Jan Neggers, Marc Bernacki, Pierre-Olivier Bouchard, Lukas Helfen, Thilo F. Morgeneyer, François Hild, &quot;Numerical validation framework for micromechanical simulations based on synchrotron 3D imaging&quot;, Comput Mech 59, 419-441 (2016). doi:10.1007/s00466-016-1357-0</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">On the choice of boundary conditions for micromechanical simulations based on 3D imaging</title>
+		<author>
+			<persName><forename type="first">Modesar</forename><surname>Shakoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ante</forename><surname>Buljac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Neggers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Hild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thilo</forename><forename type="middle">F</forename><surname>Morgeneyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Bernacki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre-Olivier</forename><surname>Bouchard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijsolstr.2017.02.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Solids and Structures</title>
+		<title level="j" type="abbrev">International Journal of Solids and Structures</title>
+		<idno type="ISSN">0020-7683</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="83" to="96" />
+			<date type="published" when="2017-05">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Modesar Shakoor, Ante Buljac, Jan Neggers, François Hild, Thilo F. Morgeneyer, Lukas Helfen, Marc Bernacki, Pierre-Olivier Bouchard, &quot;On the choice of boundary conditions for micromechanical simulations based on 3D imaging&quot;, International Journal of Solids and Structures 112, 83-96 (2017), doi: 10.1016/j.ijsolstr.2017.02.018</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Recent advances in finite element modelling of ductile fracture at mesoscale</title>
+		<author>
+			<persName><forename type="first">P-O</forename><surname>Bouchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Victor</forename><forename type="middle">Trejo</forename><surname>Navas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Modesar</forename><surname>Shakoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thilo</forename><surname>Morgeneyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ante</forename><surname>Buljac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Hild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Bernacki</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.promfg.2018.07.167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Manufacturing</title>
+		<title level="j" type="abbrev">Procedia Manufacturing</title>
+		<idno type="ISSN">2351-9789</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="39" to="45" />
+			<date type="published" when="2018">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P.-O. Bouchard, Victor Trejo Navas, Modesar Shakoor, Thilo Morgeneyer, Ante Buljac, Lukas Helfen, François Hild, Marc Bernacki, &quot;Recent advances in finite element modelling of ductile fracture at mesoscale&quot;, Procedia Manufacturing 15, 39-45 (2018)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

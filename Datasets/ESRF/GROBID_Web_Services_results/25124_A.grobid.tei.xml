@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D1536AA334A2943C6E712B77BDD2D797</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this experiment, we perform X-ray tomographic analysis on samples cut from polycrystalline tantalum targets previously shocked by a high-velocity impact at shockpressures of about 10GPa. Pores are generated in stages by shock-induced damage in the metal. The stages of pore growth include nucleation, growth and coalescence, finally leading up to spall perpendicular to the impact axis in the target. The stage of the recovered sample depends on the shock-pressure.</p><p>The purpose in this study is to examine porosity and pore volume distributions from each of the cut samples.</p><p>This study is the continuation of the experiment ME-208, in which these 3 targets were damaged at 3 different shock-pressures: 13GPa, 8.7GPa, 6GPa. For this quantitative and qualitative analysis, we increased the number of samples in each of the three targets as shown in Figure <ref type="figure">1</ref>. Thus, samples from each target form little parallelepipeds of the optimal section area of 600µm x 600µm.</p><p>X-ray tomographic analysis of the samples was carried out at beamline ID15 A at the ESRF. The experiment used a Frelon CCD camera and a new beamline set up devised by Marco Di Michel et al.. These measurements required an energy of 65 KeV. Before the microtomography analysis, a preliminary X-ray radiography of each parallelepiped was performed (Fig. <ref type="figure">2</ref>). It results in a projected view of the damage and shows the best position to choose for each sample with respect to the beam.</p><p>Once the tomography is performed, 2D virtual slices of height ε = 3.162 µm (the voxel size) are reconstructed out of the projected data, with the ESRF's filtered retro-projection algorithm. This set of slices is then used to construct a 3D representation of the density (void and metal) in the material. Each slice is then transformed into a binary image by a suitable filtering and thresholding procedure, as shown in Figure <ref type="figure">3</ref>. Given the occurrence of local contrast and gray level variations from one slice to the other, an appropriate threshold for each slice is determined by eye, comparing the original gray images to the binary ones in order to insure that no small pores are missing.</p><p>The (x, y, z) coordinates of the pores (voids) were collected to built the distribution of pore sizes using the Hoshen-Kopelman algorithm <ref type="bibr" target="#b0">[1]</ref>. This relatioship can thus be described with a curve according to the procedure developed in reference <ref type="bibr" target="#b1">[2]</ref> for each sample (Fig. <ref type="figure">4</ref>).</p><p>In summary, in this experiment, statistical fluctuations on experimental data were reduced and an exponential binning of the observed pore population is carried out. The binned distributions are then fitted to a 4-parameter model with 2 power-law regimes <ref type="bibr" target="#b1">[2]</ref>. The motivation for this statistical model is that the population of small pores should have experienced almost no coalescence events so that distinct distributions should apply for small and for large pores, respectively. The binning procedure is non-trivial.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In practice, the pore volume distribution is represented by the couples (v i , P i ) for i ≥ 1,</p><formula xml:id="formula_0">with v i = [2 i-1 (2 i -1)] 1/2 and ( ) , 2 1 1 2 2 1 ∑ - ≤ ≤ - = i i j i I i j N V K P</formula><p>where N(j) is the number of clusters with j voxels ; where the normalization by 2 i indicates that an average over the volume classes entering the bin is taken; and where V I is the above-defined intrinsic damaged volume (the correction factor K is expressed in ref. <ref type="bibr" target="#b1">[2]</ref>). The binned pore volume distributions for the five samples are displayed in Fig. <ref type="figure" target="#fig_2">4</ref> (in logarithmic scale) with binomial standard error bars for all samples. The model fitted for Ta1039D is displayed as an example. The volumes are expressed in numbers of voxels. Therefore, our analysis of the pore volume distribution shows a power-law relationship with two distinct regimes which we interpret to be the growth and coalescence. Fig.2 Preliminary radiography of tantalum sample.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig.1 Samples cut out from an impacted, half-cut, disk-shaped target</figDesc><graphic coords="2,78.00,312.60,210.36,89.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3</head><label>3</label><figDesc>Fig.3 2D and 3D representations. One slice before (a) and after (b) filtering and thresholding steps (pores are black), and (c) 3D visualisation of pores reconstructed into sample.</figDesc><graphic coords="2,78.48,465.12,289.20,221.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Pore volume distribution for the samples Ta1039 A, B, C, D, E and the fit curve for sample Ta1039D</figDesc><graphic coords="3,78.48,74.88,307.08,210.60" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Finally, micro-tomography damage analysis offers the possibility to carry out similar analyses on laser-impacted metals at higher strain rates, greater than 10 7 s -1 .</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Percolation and cluster distribution. I. Cluster multiple labeling technique and critical concentration algorithm</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoshen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kopelman</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.14.3438</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0556-2805</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3438" to="3445" />
+			<date type="published" when="1976-10-15">1976</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Hoshen and R. Kopelman. Percolation and Cluster Distribution. i. Cluster Multiple Labelling Technique and Critical Concentration Algorithm. Phys. Rev. B, 14(8):3438 (1976).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">X‐ray Microtomography Analysis of Dynamic Damage in Tantalum</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bontaz‐carion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-P</forename><forename type="middle">‐p. </forename><surname>Pellegrini</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200600058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<title level="j" type="abbrev">Adv Eng Mater</title>
+		<idno type="ISSN">1438-1656</idno>
+		<idno type="ISSNe">1527-2648</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="480" to="486" />
+			<date type="published" when="2006-06">2006</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note>This reference paper is attached to this report</note>
+	<note type="raw_reference">J. Bontaz-Carion, Y.-P. Pellegrini, X-ray Microtomography Analysis of Dynamic Damage in Tantalum. Adv. Eng. Mater., 8(6) 480, (2006). This reference paper is attached to this report.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

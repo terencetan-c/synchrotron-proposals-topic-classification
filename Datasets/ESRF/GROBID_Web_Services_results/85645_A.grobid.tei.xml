@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5ABFC81FC06A31C8F073AA1B82E42649</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Beamline allocation allowed to validate an XPCT protocol and use it as a fast virtual histology tool (ca 3 minutes acquisition per mouse brain or human cortical sample), relevant for various neurological alterations. Brain sample from transgenic animals and patients with neurodegenerative diseases were imaged with a polychromatic "pink" incident X-ray beam of 26 keV energy. Tomographic reconstructions were performed using the singledistance phase-retrieval approach ("Paganin" method) with PyHST2 software, the δ / β ratio being set to 1000, yielding an isotropic voxel size of 6.5 µm.</p><p>So far, the ouputs of these experiments are the following:</p><p>-whole-brain myelin mapping in white-matter injury models Preliminary observations were presented at the European Molecular Imaging Meeting <ref type="bibr" target="#b0">[1]</ref> and, after validating original tools for visualisation and analysis of white-matter tracts, quantitative results were published in Biomedical Optics Express <ref type="bibr" target="#b1">[2]</ref>.</p><p>-3D morphologies of amyloid-β plaques in Alzheimer's disease models Preliminary observations were presented at the European Molecular Imaging Meeting <ref type="bibr" target="#b2">[3]</ref> and, after validating original tools for segmentation and analysis of plaque morphologies, quantitative results were published in Biomedical Optics Express <ref type="bibr" target="#b3">[4]</ref>.</p><p>In particular, we demontrated that the white-matter contrast is related to a mismatch of refractive indices between myelin and surrounding tissue, occurring after the removal of water by ethanol. Indeed, we used brain clearing, a technique that removes lipids (and hence the myelin sheath) to render the brain translucent to light before ethanol dehydration, and observed a loss of white-matter tract contrast after lipid removal in both human (Fig. <ref type="figure">3(B)</ref>) and mouse brains (Fig. <ref type="figure">3</ref>(D)), suggesting a role of myelin in contrast generation.</p><p>To go further in the analysis of XPCT data, we explored reconstructing the orientation of brain fibers to shed light on brain structural connectivity. A Diffusion Tensor Imaging-like algorithm was used, based on digital gradient analysis to detect fiber orientation, and a custom analysis tool was developed (by NOVITOM). Visual examination of brain-wide connectivity maps showed good agreement between the XPCT-derived maps and MRI-based maps.</p><p>As for the detection of amyloid-β (Aβ) plaques, we went beyond previous pioneer reports of Aβ detection with XPCT by : i) studying a complete experimental group (10 brains in total vs 1-2 samples); ii) comparing 3 different strains (vs. a single one); iii) and providing access to multiple morphometric parameters (while previous reports were confined to plaque number, volume and sphericity).</p><p>We showed that a new class of 3D parameters, with distribution easily measured on multiple plaques can be obtained, and we provided basic examples of how to handle this set of parameters: e.g., building correlation matrices or searching for spatial patterns.</p><p>Visualization showing the distribution of mean breadth values on APP/PS1 hippocampus <ref type="url" target="https://opticapublishing.figshare.com/s/b67dc8e839059e885974">https://opticapublishing.figshare.com/s/b67dc8e839059e885974</ref> </p><p>An additional contribution consisted in building and sharing a "biologist-friendly" analysis workflow, by assembling multiple Fiji plugins: segmentation editor, Trainable Weka Segmentation 3D, MorphoLibJ, 3D ImageJ Suite <ref type="bibr" target="#b4">[5]</ref>. We were especially interested in the ability of the workflow to correctly detect a significant proportion of Aβ plaques with very different appearances and morphologies.</p><p>We will use these newly developed tools to segment and analyze vascular amyloid deposits which are clearly detected in human brain tissue of familial and sporadic Alzheimer patients (green arrows).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Hugo</head><figDesc>Names and affiliations of applicants(* indicates experimentalists): Marlène Wiart, CarMeN Laboratory* Fabien Chauveau, Lyon Neuroscience Research Center* Coralie Gislard, Lyon Neuroscience Research Center* Weerd, Molecular Imaging Laboratories Leiden (MILL)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,106.90,133.44,387.16,250.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,91.88,480.58,417.19,274.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,34.00,188.64,533.00,231.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,39.40,567.53,310.45,223.49" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fast virtual histology of unstained mouse brains using in-line X-ray phase tomography</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rositi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Desestret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T-H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-P</forename><surname>Berner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Frindel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nighoghossian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Berthezène</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peyrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rousseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wiart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">10th European Molecular Imaging Meeting (EMIM)</title>
+		<meeting><address><addrLine>Tuebingen, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-03">Mar. 2015</date>
+		</imprint>
+	</monogr>
+	<note>oral presentation by Marlène Wiart</note>
+	<note type="raw_reference">Rositi H, Desestret V, Chauveau F, Cho T-H, Weber L, Ong E, Berner L-P, Olivier C, Langer M, Frindel C, Nighoghossian N, Berthezène Y, Peyrin F, Rousseau D, Wiart M. Fast virtual histology of unstained mouse brains using in-line X-ray phase tomography. In: 10th European Molecular Imaging Meeting (EMIM), Tuebingen, Germany. Mar. 2015. [oral presentation by Marlène Wiart]</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Brain virtual histology with X-ray phase-contrast tomography Part I: whole-brain myelin mapping in white-matter injury models</title>
+		<author>
+			<persName><forename type="first">Matthieu</forename><surname>Chourrout</surname></persName>
+			<idno type="ORCID">0000-0002-2282-6976</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hugo</forename><surname>Rositi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elodie</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Violaine</forename><surname>Hubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><surname>Paccalet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Louis</forename><surname>Foucault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Awen</forename><surname>Autret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Fayard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cécile</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Radu</forename><surname>Bolbos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Françoise</forename><surname>Peyrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claire</forename><surname>Crola-Da-Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Meyronet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Raineteau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Héléne</forename><surname>Elleaume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuel</forename><surname>Brun</surname></persName>
+			<idno type="ORCID">0000-0002-0332-4903</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Fabien</forename><surname>Chauveau</surname></persName>
+			<idno type="ORCID">0000-0002-4177-741X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marlene</forename><surname>Wiart</surname></persName>
+			<idno type="ORCID">0000-0003-0326-7002</idno>
+		</author>
+		<idno type="DOI">10.1364/boe.438832</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomedical Optics Express</title>
+		<title level="j" type="abbrev">Biomed. Opt. Express</title>
+		<idno type="ISSN">2156-7085</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">1620</biblScope>
+			<date type="published" when="2022-02-23" />
+			<publisher>Optica Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chourrout M, Rositi H, Ong E, Hubert V, Paccalet A, Foucault L, Autret A, Fayard B, Olivier C, Bolbos R, Peyrin F, Crola-da-Silva C, Meyronet D, Raineteau O, Elleaume H, Brun E, Chauveau F, Wiart M. Brain virtual histology with X-ray phase-contrast tomography. Part I: whole-brain myelin mapping in white-matter injury models, Biomed. Opt. Express 2022:13, 1620-1639. DOI : 10.1364/BOE.438832</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Virtual histology of animal and human brains with Alzheimer&apos;s disease</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boutin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meyronet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rositi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Elleame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peyrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wiart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">13th European Molecular Imaging Meeting (EMIM)</title>
+		<meeting><address><addrLine>San Sebastian, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-03">Mar. 2018</date>
+		</imprint>
+	</monogr>
+	<note>oral presentation by Fabien Chauveau</note>
+	<note type="raw_reference">Chauveau F, Boutin H, Meyronet D, Rositi H, Olivier C, Elleame H, Brun E, Peyrin F, Wiart M. Virtual histology of animal and human brains with Alzheimer&apos;s disease. In: 13th European Molecular Imaging Meeting (EMIM), San Sebastian, Spain. Mar. 2018. [oral presentation by Fabien Chauveau]</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Brain virtual histology with X-ray phase-contrast tomography Part II: 3D morphologies of amyloid-β plaques in Alzheimer’s disease models</title>
+		<author>
+			<persName><forename type="first">Matthieu</forename><surname>Chourrout</surname></persName>
+			<idno type="ORCID">0000-0002-2282-6976</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Margaux</forename><surname>Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlie</forename><surname>Boisvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Coralie</forename><surname>Gislard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Legland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ignacio</forename><surname>Arganda-Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cécile</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Françoise</forename><surname>Peyrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hervé</forename><surname>Boutin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Rama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thierry</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Meyronet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuel</forename><surname>Brun</surname></persName>
+			<idno type="ORCID">0000-0002-0332-4903</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hugo</forename><surname>Rositi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marlène</forename><surname>Wiart</surname></persName>
+			<idno type="ORCID">0000-0003-0326-7002</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Fabien</forename><surname>Chauveau</surname></persName>
+			<idno type="ORCID">0000-0002-4177-741X</idno>
+		</author>
+		<idno type="DOI">10.1364/boe.438890</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomedical Optics Express</title>
+		<title level="j" type="abbrev">Biomed. Opt. Express</title>
+		<idno type="ISSN">2156-7085</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">1640</biblScope>
+			<date type="published" when="2022-02-23" />
+			<publisher>Optica Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chourrout M, Roux M, Boisvert C, Gislard C, Legland D, Arganda-Carreras I, Olivier C, Peyrin F, Boutin H, Rama N, Baron T, Meyronet D, Brun E, Rositi H, Wiart M, Chauveau F. Brain virtual histology with X-ray phase-contrast tomography. Part II: 3D morphologies of amyloid-β plaques in Alzheimer&apos;s disease models. Biomed. Opt. Express 2022:13, 1640-1653. DOI : 10.1364/BOE.438890</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">A Fiji pipeline to segment 3D objects and retrieve shape parameters in biomedical images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chourrout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gislard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arganda-Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Legland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rositi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wiart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chauveau</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.4584752</idno>
+		<imprint>
+			<date type="published" when="2021-03">March 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chourrout M, Roux M, Gislard C, Arganda-Carreras I, Legland D, Rositi H, Wiart M, Chauveau F. A Fiji pipeline to segment 3D objects and retrieve shape parameters in biomedical images. March 2021. DOI : 10.5281/zenodo.4584752</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

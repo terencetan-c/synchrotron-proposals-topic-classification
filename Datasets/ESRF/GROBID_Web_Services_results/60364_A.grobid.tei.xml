@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8B41FB76D71946930661473E20557B13</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This is the report for ch4782; this beam time was compensation for the loss of time on ch4455 so this manuscript serves as a report for both beam times. CH4782 was awarded in November 2016 so our analysis is ongoing however some results are presented below. This includes a study of 3D printed Pd/C catalysts as well as the development of a fast XRD-CT collection algorithm. Both pieces of work are being prepared for publication, though as stated above some analysis is still outstanding.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XRD-CT of printed catalysts</head><p>XRD-CT was used to study the distribution and final form of 3D printed Pd/C catalysts manufactured by 3D fibre deposition. Different approaches to preparation were taken including the following (1) printing carbon structures followed by impregnation; (2) direct printing (simultaneous co printing of catalyst precursor and support material) using polymer and ceramic binder; (3) direct printing using polymer binder. Figure <ref type="figure" target="#fig_0">1</ref> shows the formation of crystalline Pd upon firing. The results revealed that after calcination the direct printing method generally leads to more homogenous distribution of the catalysts though in the case of the ceramic binder we find there are localised hot spots of metallic Pd with high crystallinity as well as numerous impurity phases. The carbon support maintains an amorphous and highly porous microstructure throughout as can be imaged by conventional high resolution -CT (not presented here). The XRD-CT images were obtained in comparatively short time frames using fast imaging methods we have developed (see below for further details). A comparison to medium resolution -CT is presented in figure <ref type="figure">2</ref> where the fitting of the XRD-CT data yielded maps as shown in figure <ref type="figure">S3</ref> which shows the distribution of various phases in the post calcined samples obtained through Rietveld fitting (see also figure <ref type="figure">S4</ref>). The combination of XRD-CT and -CT allowed us to look at and understand the microstructure and chemistry of the printed structures and gives us information on the physical state of the catalyst. Specifically we were able to refine the binder recipe to enable more controlled printing. Figure <ref type="figure">2</ref> Top, Pd distribution has found by XRD-CT with distributions of Fe, cristobalite and an unidentified phase overlaid in red, green and blue respectively. The unidentified phase is derived from the fitted intensity to the peak labelled Pk1. In the image selected regions have been circled with corresponding colours highlighting the respective phases and additionally white circles highlighting selected Pd rich regions. Bottom, the locations of these circles have also been shown on the -CT image. Clearly, the hot spots in the -CT image can be seen to correspond not only to Pd rich regions but also in many cases to the location of the impurity phases. The red circle contains an Fe rich region. It can be clearly seen in the -CT image is outside the range displayed in the XRD-CT map. Nevertheless, the Fe diffraction from this region is so strong that induces an artefact in the XRD-CT data manifesting in a blurring of this signal locally; this can also be seen in figure <ref type="figure">S2</ref>. Right, diffraction patterns from selected red, green and blue pixels. The tick marks indicate model diffraction peak positions (fcc Pd  white ticks; fcc Fe  red ticks; cristobalite  green ticks).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure S3</head><p>Normalised scale factors or peak intensities for fitted phases and peaks in the post calcined direct print Pd/C catalyst as determined through quantitative analysis of XRD-CT data. The distributions have been normalised to a maximum where the maximum is set as the mean (intensity) + 2.5 * std (intensity). Note, C distribution has been determined from Pk2 intensity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure S4</head><p>Rietveld and peak fit to a selected mean diffraction pattern. In this case the selected pattern is a mean pattern from 'spotty' regions within the post calcined direct print Pd/C catalyst XRD-CT.</p><p>Here, the calculated model (red line) is calculated from palladium, quartz, cristobalite, iron and microcline crystal models with additional peaks including a broad peak at 2.5088° 2 to describe the carbon; the thick blue line shows the contribution of palladium in this model. The model was refined against all diffraction patterns in the post calcined direct print Pd/C catalyst. The</p><p>2Th Degrees 9.5 9 8.5 8 7.5 7 6.5 6 5.5 5 4.5 4 3.5 3 2.5 2 Counts 0.3 0.28 0.26 0.24 0.22 0.2 0.18 0.16 0.14 0.12 0.1 0.08 0.06 0.04 0.02 0 2.279527 2.5088 4.194056 4.290826 4.387596 8.575 Palladium 27.50 % Quartz low 7.58 % Cristobalite low 22.42 % Iron 13.93 % Microcline (intermediate) 28.56 %</p><p>Finally we report a new XRD-CT data collection which allows for XRD-CT collected with sub minute resolution. This opens us the possibility of not only higher time resolution studies but now makes 3D XRD-CT feasible in a realistic time frame. From the perspective of our interests this allows imaging of entire catalytic beds under operating conditions. We have demonstrated this in looking at the behaviour a Ni/ CeO2 -ZrO2 / Al2O3 catalyst when using this catalyst for the partial oxidation of methane. The manuscript associated with this work is at an advanced stage of preparation and we hope to publish shortly. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Left, summed XRD-CT diffraction patterns for slices measured before, during and after firing. Right, the corresponding XRD-CT maps fpr Pd; simply derived by summing over the 2th range which covers the first fcc Pd peak. Arrows indicate the position of the first three fcc Pd peaks. The XRD-CT maps are presented with a common intensity scale.</figDesc><graphic coords="2,72.00,140.19,451.30,204.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 5</head><label>5</label><figDesc>Figure 5 Volume rendering of the scale factors data volume of Ni, NiO, Ni 2 Al 2 O 4 , CeO 2 , ZrO 2 and Pd (phase distribution volumes) as obtained from the Rietveld analysis of the 3D-XRD-CT data collected at 800 °C under 20% H 2 /he flow.</figDesc><graphic coords="4,109.40,208.37,376.50,210.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="1,72.00,439.42,421.50,325.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,72.00,72.00,318.86,298.40" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

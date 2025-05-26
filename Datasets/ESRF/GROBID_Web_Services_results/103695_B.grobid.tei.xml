@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Nanoimaging of pellistors on extended length scale with multi-probe ptychographic tomography</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>DESY</roleName><forename type="first">Tang</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mikhail</forename><surname>Lyubomirskiy</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Desy</forename><surname>Ken</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>DESY</roleName><forename type="first">Vidar</forename><surname>Falch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Maik</forename><surname>Kahnt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Max</forename><surname>Iv</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Lund University Runqing Yang</orgName>
+								<address>
+									<settlement>Pablo Villanueva Perez</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Lund University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Nanoimaging of pellistors on extended length scale with multi-probe ptychographic tomography</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">38C271ED092A610E83A7AEE2AF59E615</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Multi-beam ptychography (MBP) is, for the first time, implemented at ID-13, ESRF. The experimental setup is integrated into the hutch on machine day (Fig 1. a). We characterize the lens array (Fig 1. b) with Siemens star, and the focal spot for a single lens array can achieve 265nm(V) x 310nm(H), as Fig 2 shows.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This experiment aims to unravel the 3D structure of Rh-based ceramic pellistors using MBP tomography. However, because of the detector saturation problem, we had to attenuate the beam and use multiple exposures at a single scan position. This increased each projection's time to approximately 30 min (7427 steps). Because of this, it was not feasible to collect a full tomogram dataset with 1309 projections, which would take 27 shifts.</p><p>Therefore, we collected a projection of the pellistor and checked experimental conditions for other 2D samples with the sub-mm field of view.</p><p>We successfully reconstructed several 2D samples (e.g., Pellistor, Siemens star, Microchip, gold particles on Si3N4 membrane) during the beamtime with 3x2 and 3x4 beams. Fig. <ref type="figure" target="#fig_1">3</ref> shows the reconstructed phase of the Siemens star with 3x2 beams. Fig. <ref type="figure">4</ref> shows the reconstructed gold particles on the Si3N4 membrane with 3x4 beams. Each scan covers a 130 m x 100 m area with 0.1s exposure time. Fig 4. Reconstructed gold particles on the Si3N4 membrane with 3x4 beams</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>Thanks to Manfred and ID13 beamline scientists' help, we successfully integrated the MBP setup at ID13 and for the first time performed MBP with unprecedented energy of 20 with a 3x4 lens array. However, we did not reach the main goal due to the increased time needed per projection, due to technical difficulty with detector acquisition. All in all, according to our reconstruction result, MBP offers a great opportunity to increase sample size and to speed up scan acquisition in hard X-ray nano-tomography.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig</head><figDesc>Fig 1. a) Experimental Setup; b) Lens Array Fig 2. Focal spots of the single lens array without phase plate</figDesc><graphic coords="2,111.12,520.69,136.42,181.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 3 .</head><label>3</label><figDesc>Fig 3. Reconstructed Siemens Star with 2x3 beams</figDesc><graphic coords="3,39.40,148.14,189.05,215.14" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

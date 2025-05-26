@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report on SAXS measurements of Arginine and Lysine Decamers at BM29</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Giulio</forename><surname>Tesei</surname></persName>
+							<email>giulio.tesei@teokem.lu.se</email>
+							<affiliation key="aff0">
+								<orgName type="department">Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>POB 124</addrLine>
+									<postCode>SE221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carolina</forename><surname>Cragnell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>POB 124</addrLine>
+									<postCode>SE221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marie</forename><surname>Skepö</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>POB 124</addrLine>
+									<postCode>SE221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mikael</forename><surname>Lund</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>POB 124</addrLine>
+									<postCode>SE221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Report on SAXS measurements of Arginine and Lysine Decamers at BM29</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">74BE5D16977966140667250319ECE798</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The goal of this study is to elucidate the difference in the intermolecular interactions between two small, homogeneous peptides, namely deca-arginine (R10) and deca-lysine (K10).</p><p>Oligoarginines and oligolysines are cationic antimicrobial peptides that generate membrane failure.</p><p>Despite their similarities, oligo-arginines of 6 to 14 amino acids readily translocate across lipid bilayers while oligo-lysines do not. The difference in the interaction of R10 and K10 with lipid bilayer can be analyzed by looking into the following aspects: <ref type="bibr" target="#b0">1</ref> • peptide-peptide interactions and cooperative action;</p><p>• peptide-lipid head group interaction and extent of surface adsorption;</p><p>• pore formation and stabilization;</p><p>• charge regulation in the membrane core.</p><p>We focus on peptide-peptide interactions between R10 and K10 in aqueous solution. Both peptides are fully charged random coils (Figure <ref type="figure" target="#fig_0">1</ref>), however cation-cation contact pairing between guanidinium (Gdm) moieties 2,3 of arginine side chains (Figure <ref type="figure" target="#fig_1">2</ref>) can potentially lead to a net attraction between R10 chains and ultimately to the formation of aggregates. 0.0 0.5 1.0 1.5 2.0 2.5 3.0 r / nm 0 2 4 6 8 10 12 g(r) CE-CE, lysine CZ-CZ, arginine The seemingly counterintuitive like-charge Gdm-Gdm attraction may be instrumental to the formation and stabilization of transmembrane pores and may determine a cooperative action in the translocation process. <ref type="bibr" target="#b3">4</ref> Preliminary atomistic Molecular Dynamics (MD) simulations showed the presence of a metastable dimeric state in which two R10 chains are hooked to each other by means of Gdm-Gdm stacking interactions and two salt bridges formed between terminal carboxyl groups and Gdm moieties (Figure <ref type="figure" target="#fig_2">3</ref>). In order to investigate the interplay between repulsive/attractive electrostatic and van der Waals interactions, in September 2015 we performed SAXS-measurements at BM29 on R10 and K10 in different solution conditions differing in peptide concentration, salt concentration and type of salt.</p><p>The salt solutions have concentration 10, 100, 300 mM and we used both NaCl and GdmCl.</p><p>The former simply screens the electrostatic interactions while GdmCl is is a monomeric proxy of arginine which may compete with the internal Gdm-Gdm stacking and weaken the postulated net attraction between R10 chains.</p><p>Our results show that electrostatic repulsions are the dominant interactions between K10 chains in aqueous environment (right panels in Figures <ref type="figure">4</ref>, <ref type="figure">5</ref>). Efficient screening is achieved only at 300 mM ionic strength both in NaCl and GdnCl solutions (right panels in Figure <ref type="figure">6</ref>).</p><p>On the other hand, in R10 solutions repulsive and attractive interactions counteract at all salt conditions (left panels in Figures <ref type="figure">4</ref>, <ref type="figure">5</ref>, <ref type="figure">6</ref>). Interestingly, attractive interactions become dominant at low ionic strength where the collected SAXS spectra suggest the presence of R10 aggregates (left panels in Figure <ref type="figure">4</ref>).</p><p>The experimental observations support a dimeric state characterized by a strong electrostatic interaction as observed in MD simulations.</p><p>By comparing our results on the more concentrated R10 solutions in NaCl and GdmCl 300 mM (left panels in Figure <ref type="figure">6</ref>), it can be inferred that Gdm ions do compete with intermolecular attractive arginine-arginine interactions diminishing the strength of the attraction between R10 chains.</p><p>From our SAXS experiment we observe qualitative differences in the interactions between R10 and K10 chains that can be interpreted on the basis of MD simulation results. However the quality of our SAXS data was affected by two major problems:</p><p>• capillary fouling presumably due to peptide adsorption on the wall and radiation damage (measurements are performed with 2 s exposure time);</p><p>• inaccuracy of our concentration measurements performed with the NanoDrop2000 spectrophotometer at 214 nm.</p><p>We are planning to improve the accuracy of our concentration measurements in order to collect new SAXS data that could be used for quantitative studies (e.g. to determine the aggregation number of R10 in concentrated solutions).</p><p>To our knowledge this study has not been published before, and it is a step towards a more thorough understanding of the role of arginine in peptide-peptide and peptide-biomembrane interactions.</p><p>We are grateful to Dr. Petra Pernot at ESRF, Grenoble for providing assistance in using beamline BM29. 0 0.2 0.4 0.6 0.8 1 1.2 1 2 3 4 I(q)/c q / nm -1 R10 100mM GdmCl 2.80 g/l 5.50 g/l 6.58 g/l 10.6 g/l 13.2 g/l 25.7 g/l 45.1 g/l 51.6 g/l 0 0.2 0.4 0.6 0.8 1 1.2 I(q)/c R10 100mM NaCl 4.61 g/l 11.2 g/l 34.6 (40.3) g/l 1 2 3 4 0 0.2 0.4 0.6 0.8 1 1.2 I(q)/c q / nm -1 K10 100mM GdmCl 4.01 g/l 7.92 g/l 8.32 g/l 16.7 g/l 31.4 g/l 33.3 g/l 0 0.2 0.4 0.6 0.8 1 1.2 I(q)/c K10 100mM NaCl 7.91 g/l 28.7 g/l </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Probability distributions of the radius of gyration (R g ) of R10 and K10 obtained from MD simulations using the AMBER ff03W force field as proposed by Best et al. and the TIP4P/2005 water model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Radial distribution functions between carbon atoms directly bonded to the side chain nitrogen atoms of lysine (CE) and arginine (CZ) in K10 and R10, respectively. The first peak in the red curve corresponds to Gdm-Gdm stacking interactions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: R10 dimer observed in MD simulations using the AMBER ff03W force field as proposed by Best et al. and the TIP4P/2005 water model. The two terminal residues of each peptide are explicitly shown while the blue and green ribbons represent the rest of the two bound chains.</figDesc><graphic coords="3,142.20,264.60,327.60,161.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :Figure 5 :Figure 6 :</head><label>456</label><figDesc>Figure 4: Small-angle X-ray scattering experiments on R10 and K10 concentration series in Tris buffer pH 7.8 at 293.15 K. (a) Concentration normalized scattered intensity I(q)/c as a function of the scattering vector, q, for solutions 10 mM NaCl/GdmCl.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Cell‐penetrating peptides: 20 years later, where do we stand?</title>
+		<author>
+			<persName><forename type="first">Chérine</forename><surname>Bechara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandrine</forename><surname>Sagan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.febslet.2013.04.031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Letters</title>
+		<title level="j" type="abbrev">FEBS Letters</title>
+		<idno type="ISSN">0014-5793</idno>
+		<idno type="ISSNe">1873-3468</idno>
+		<imprint>
+			<biblScope unit="volume">587</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1693" to="1702" />
+			<date type="published" when="2013-05-10">2013</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bechara, C.; Sagan, S. Cell-penetrating peptides: 20 years later, where do we stand? FEBS Letters 2013, 587, 1693 -1702.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Cation-cation contact pairing in water: Guanidinium</title>
+		<author>
+			<persName><forename type="first">Orion</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alice</forename><forename type="middle">H</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">C</forename><surname>Dallinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacob</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kaitlin</forename><forename type="middle">C</forename><surname>Duffey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronald</forename><forename type="middle">C</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Prendergast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Saykally</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4813281</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<idno type="ISSN">0021-9606</idno>
+		<idno type="ISSNe">1089-7690</idno>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">139</biblScope>
+			<date type="published" when="2013-07-19">2013</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shih, O.; England, A. H.; Dallinger, G. C.; Smith, J. W.; Duffey, K. C.; Cohen, R. C.; Prendergast, D.; Saykally, R. J. Cation-cation contact pairing in water: Guanidinium. The Journal of Chemical Physics 2013, 139 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Like-Charge Guanidinium Pairing from Molecular Dynamics and Ab Initio Calculations</title>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Vazdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiři</forename><surname>Vymětal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Heyda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiři</forename><surname>Vondrášek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Jungwirth</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp203519p</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry A</title>
+		<title level="j" type="abbrev">J. Phys. Chem. A</title>
+		<idno type="ISSN">1089-5639</idno>
+		<idno type="ISSNe">1520-5215</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="11193" to="11201" />
+			<date type="published" when="2011-07-01">2011</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vazdar, M.; Vymtal, J.; Heyda, J.; Vondrek, J.; Jungwirth, P. Like-Charge Guanidinium Pairing from Molecular Dynamics and Ab Initio Calculations. The Journal of Physical Chemistry A 2011, 115, 11193-11201.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Effect of arginine-rich cell penetrating peptides on membrane pore formation and life-times: a molecular simulation study</title>
+		<author>
+			<persName><forename type="first">Delin</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Forsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikael</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clifford</forename><forename type="middle">E</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4cp02211d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<title level="j" type="abbrev">Phys. Chem. Chem. Phys.</title>
+		<idno type="ISSN">1463-9076</idno>
+		<idno type="ISSNe">1463-9084</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">38</biblScope>
+			<biblScope unit="page" from="20785" to="20795" />
+			<date type="published" when="2014">2014</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, D.; Forsman, J.; Lund, M.; Woodward, C. E. Effect of arginine-rich cell penetrating peptides on membrane pore formation and life-times: a molecular simulation study. Phys. Chem. Chem. Phys. 2014, 16, 20785-20795.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

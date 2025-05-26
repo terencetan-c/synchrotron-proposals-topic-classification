@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Coherent X-ray Diffraction Imaging on Soft Surfaces</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">A</forename><surname>Madsen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">-Philippe</forename><surname>Fontaine</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Synchrotron SOLEIL</orgName>
+								<orgName type="institution">-Jean DAILLANT*, LIONS</orgName>
+								<address>
+									<addrLine>L&apos;Orme des Merisier</addrLine>
+									<postCode>BP48 91192</postCode>
+									<settlement>Gif sur Yvette Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">CEA Saclay</orgName>
+								<address>
+									<postCode>91191</postCode>
+									<settlement>Gif sur Yvette Cedex</settlement>
+									<country>France. -</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">Guillaume BROTONS*</orgName>
+								<orgName type="institution" key="instit2">LPEC</orgName>
+								<orgName type="institution" key="instit3">Université du Maine</orgName>
+								<address>
+									<addrLine>Avenue Olivier Messiaen</addrLine>
+									<postCode>72085</postCode>
+									<settlement>Le Mans cedex 9</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Coherent X-ray Diffraction Imaging on Soft Surfaces</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E865838C10C55DBFFCF28EB932A960AA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The idea of the submitted proposal was to apply the new technique of Coherent X-ray Diffraction (CXD) imaging technique to soft surfaces as an in-situ, non destructive technique. The principle of CXD imaging is to oversample the coherent diffraction pattern scattered by an object illuminated by a coherent x-ray beam. The image of the object is then numerically reconstructed using usually Gershberg &amp; Saxton algorithm based on iterative direct and reverse Fourier transform between reciprocal and real space in order to recover the scattered phase loss during a scattering experiment <ref type="bibr" target="#b0">[1]</ref>. As a first experiment on soft interfaces, we have measured coherent diffraction pattern at the ID10C beamline for two kinds of soft surfaces. The first one was of a tiny PDMS droplet on a silicon wafer. Using this high viscosity Silicone Oil (PDMS, viscosity 100000CSt), the spreading may take hours days or months in a predictable way <ref type="bibr">[2]</ref>. We thus obtain isolated objects on a surface with a controlled shape which can be visualized by optical microscopy for further comparison with reconstructed profiles. A second system was diblock (A-B) copolymer films. Upon annealing above their glass transition temperature, such films selforganize into alternating layers of blocks A and B. In the top layer, holes or islands appear depending on the amount of copolymer on the surface and the annealing time. Such a system is also easily visualized using optical microscopy and atomic force microscope for further comparison. For this experiment the wavelength for the x-ray incoming beam was fixed to 0.150nm (8keV). The beam was focussed using Beryllium lenses at a point 0.2m before the sample were 7µm×7µm slits were placed in order to select the coherent part of the beam. The sample (silicon wafers) was fixed on the diffractometer which is used to fix the incidence angle. The incident angle on the sample was varied between 0.05deg to 0.98deg. Two kinds of detectors were used: a point detector which can be scanned in y and z direction and a CCD camera (22µm pixel size). Both are placed far away from the sample at 3.47m (far field). Typical acquisition time for the CCD camera to register a coherent diffraction pattern is 200sec.</p><p>Many lessons have been drawn from these first CXD experiments on soft surfaces, concerning the experiment itself and the way it should be carried out in order to obtain valuable CXD spectra for reconstruction.  The 2D CXD spectra of figure <ref type="figure" target="#fig_0">1</ref> show that the experimental geometry enables the measurement of speckles which are very sensitive to the shape and morphologies of the layers deposited on the substrates. Indeed, the spectra obtained for the single PDMS droplet deposited on a bare silicon wafer is very different from the one obtained for the diblock copolymer layers exhibiting holes in the last layer. Moreover, spectra measured for different diblock copolymer layers (with small or large holes, with islands ...) have demonstrated the sensitivity of CXD to the surface morphology (not shown here). In the case of PDMS droplet desposited at the surface of a bare silicon wafer, these experiments have shown that the quality of the substrate in term of surface roughness is extremely important since a roughness usually considered as low (0.4nm) leads to complex speckles where sometimes the specular reflection is hardly distinguished from the speckle itself. The bare substrate speckle of figure <ref type="figure" target="#fig_0">1</ref> was obtained using a high quality optically polished thick silicon block to 0.2nm. Using such subtrates, well defined specular reflections with a low level of speckle due to roughness could be obtained as shown in the vertical cut of figure 2 (fringes due to slit diffraction are still present, demonstrating the importance of beam cleaning). Using such a substrate, we were able to measure speckle patterns around the specular reflection that were different from the ones obtained for the bare substrate. Several difficulties were identified. 1) First, it was rather difficult to put the droplet (lateral size a few ten of microns) in the beam since no microscope was available on the diffractometer. The droplet was deposited and localized roughly using using the tip used to deposit it. This problem is now solved since a microscope is available in situ on the ID10C beamline.</p><p>2) As it can be seen on the figure 2, the incident beam shape is also very important to obtain valuable data. Indeed in figure <ref type="figure">2</ref>, one can see that the interferences fringess due to the diffraction by the last slit before the sample reflect in the speckle. Such oscillations have to be taken into account in the modelling of the coherent diffraction through the illumination function. Such approach is under study. However for further experiments we have to use guard slits in order to use a cleaner incoming coherent x-ray beam on the sample. Two qualitative differences can be noticed between the two speckles of figure 2. The interference period appears very high for the bare substrate and lower for the droplet. The overall slopes are also very different in the two speckles since it is flat for the bare subtrate and became linearly decreasing in logarithmic scale for the droplet These features confirm that we were able to measure in theses test experiment valuable speckle with are currently under modelization and reconstruction.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>figure 1 :</head><label>1</label><figDesc>figure 1: Coherent x-ray diffraction pattern obtained for a bare substrate (silicon wafer), for holes in diblock copolymer thin layers and tiny droplets. Bottom right, picture of the droplet under investigation obtained by optical microscopy.</figDesc><graphic coords="2,36.88,67.31,257.74,194.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>figure 2: 1-D coherent diffraction spectra of the bare substrate and for a tiny droplet. (vertical cut in up and bottom left images of figure 1)</figDesc><graphic coords="2,300.50,67.07,258.22,194.62" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>ID10C Date of experiment: from: 06/12/2006 to: 12/12/2006</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Extending the methodology of X-ray crystallography to allow imaging of micrometre-sized non-crystalline specimens</title>
+		<author>
+			<persName><forename type="first">Jianwei</forename><surname>Miao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pambos</forename><surname>Charalambous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Janos</forename><surname>Kirz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Sayre</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/22498</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">400</biblScope>
+			<biblScope unit="issue">6742</biblScope>
+			<biblScope unit="page" from="342" to="344" />
+			<date type="published" when="1999-07">1999</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Miao, P. Charalambous, J. Kirz, D. Sayre, Nature, 400, (1999) 342.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

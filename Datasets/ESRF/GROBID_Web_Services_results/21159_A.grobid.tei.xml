@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multiscale determination of structural and transport properties of porous C/C composite preforms during Chemical Vapor Infiltration</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">P</forename><surname>Tafforeau</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr. (now Pr</roleName><forename type="first">Vignoles</forename><surname>Gerard</surname></persName>
+							<email>bernard@icmcb.u-bordeaux.fr</email>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Cloetens</forename><surname>Peter</surname></persName>
+							<email>cloetens@esrf.fr</email>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Bernard</forename><surname>Dominique</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Chimie de la Matiere</orgName>
+								<orgName type="institution">Université de Bordeaux</orgName>
+								<address>
+									<addrLine>3, Allée La Boëtie 6 rue Jules Horowitz B.P. 220</addrLine>
+									<postCode>F-33600 F-38043</postCode>
+									<settlement>PESSAC Grenoble Cedex</settlement>
+									<country>France /</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Condensee de Bordeaux/ICMCB- UPR CNRS 9048</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multiscale determination of structural and transport properties of porous C/C composite preforms during Chemical Vapor Infiltration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B33F9831E7D87FACF8E9089F20DAF742</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>ME-289</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>A long-term aim of LCTS is the modeling of C/C composites. C/C composites are constituted of a fibrous architecture that is progressively filled by a carbon matrix by Chemical Vapor Infiltration (CVI). These fibrous architectures, or preforms, are commonly made of complex arrangements of layered patterns such as woven fabrics, felts, mats, etc. . . held together by needlings or interlocking patterns in the perpendicular direction. A rational study of the influence of the precise arrangement of these patterns on the infiltrability (that is, the ability to reach a high final matrix density by CVI) urges to combine structural and transport information at at least two scales: (i) the fibre (and micropore) scale (one fibre diameter is roughly 7 µm), and (ii) the weave (and macropore) scale (3 to 4 mm). Infiltrability may be characterized through the evaluation of transport properties such as permeability , diffusivity, and Knudsen (rarefied gas) diffusivity, as well as the pore radius distribution and the specific surface. We proposed to perform a two-scale assessment of several structural and transport properties for different kinds of preforms, taking advantage of the excellent spatial resolution available at ESRF and the unique holotomography capabilities. The aims of this study were: -A complete 3D visualisation and characterisation of the pore space at two resolutions (including the fibre diameter resolution) in different carbon fibre preform architectures.</p><p>-Comparison with other analyses carried out on the same samples (BET, Hg porosimetry, optical micrographs, permeation and diffusion measures).</p><p>-Comparison between different CVI conditions is expected to help understand the relevant issues for optimisation.</p><p>-A 3D computer model of pore structure as a starting point for numerical computation of transport properties and a validation tool for densification simulations.</p><p>All of these objectives were fulfilled, by combining results of the ME-289 experiment and of the subsequent IN-593 experiments, as briefly listed below. The further details are available in the quoted references.</p><p>-High-resolution, high-quality images of C/C composites were obtained at 0.7 µm resolution <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5]</ref>. Phase-contrast images were successfully processed, with a sufficiently good fluid/matrix labeling for posterior computations. -Holotomographic images were obtained and successfully processed <ref type="bibr" target="#b0">[1]</ref>, however it was not possible to use systematically this method for fibre bundles perpendicular to the tomographic rotation axis <ref type="bibr" target="#b11">[11]</ref> . -Comparison of the geometrical properties with other methods (BET, Hg porosimetry, etc.) has proved successful [2,4,5] -The high-resolution images were taken as a base for several effective transfer properties computations: o Heat and mass transfer <ref type="bibr" target="#b6">[7]</ref> o Nonisothermal rarefied gas transfer (i.e. "thermal transpiration") [3,8] -Modelling of CVI, featuring gas transfer, chemical reaction, and pore morphology evolution <ref type="bibr" target="#b5">[6]</ref>, has been implemented and applied on the X-ray CT images, at fibre scale <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b11">11,</ref><ref type="bibr" target="#b12">12]</ref> and tow scale <ref type="bibr" target="#b10">[10]</ref>. The results compare favorably with experiments and allow a rational approach of infiltrability.</p><p>More work is ongoing, principally on the basis of IN-593 experiments.</p><p>Publications, in published time order :</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Direct 3D microscale imaging of carbon–carbon composites with computed holotomography</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Coindreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cloetens</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0168-583x(02)01693-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms</title>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Amenitsch</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Baruchel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Boscherini</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Goedkoop</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename></persName>
+		</editor>
+		<idno type="ISSN">0168-583X</idno>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="308" to="314" />
+			<date type="published" when="2003-01">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">&quot; Direct 3D microscale imaging of C/C composites with computed holotomography&quot;, O. COINDREAU, P. CLOETENS, and G. L. VIGNOLES, &quot;Proc. E-MRS 2002 Symposium I on Synchrotron Radiation and Materials Science&quot;, H. Amenitsch , J. Baruchel, F. Boscherini, J. B. Goedkoop and S. Heun eds., Nuclear Instruments and Methods in Physics Research B, vol. 200 (2003), pp. 295-302.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Computing Structural and Transport Properties of C/C Composites from 3D Tomographic Images.</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Coindreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerard</forename><surname>Vignoles</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/msf.455-456.751</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science Forum</title>
+		<title level="j" type="abbrev">MSF</title>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Martins</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Fortunato</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Ferreira</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Dias Eds</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Mater</surname></persName>
+		</editor>
+		<idno type="ISSNe">1662-9752</idno>
+		<imprint>
+			<biblScope unit="volume">455-456</biblScope>
+			<biblScope unit="issue">456</biblScope>
+			<biblScope unit="page" from="751" to="754" />
+			<date type="published" when="2004-05-15">2004</date>
+			<publisher>Trans Tech Publications, Ltd.</publisher>
+			<pubPlace>Zurich</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Advanced Materials Forum II</note>
+	<note type="raw_reference">&quot; Computing Structural and Transport Properties of C/C Composites from 3D Tomographic Images&quot; , O. COINDREAU and G. L .VIGNOLES, &quot; Advanced Materials Forum II &quot; , R. Martins, E. Fortunato, I. Ferreira and C. Dias eds., Mater. Sci. Forum vol. 455-456, Trans. Tech. Publications, Zurich (2004), pp . 751-754.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Preux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Charrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dubroca</surname></persName>
+		</author>
+		<title level="m">Influence of porous media geometry on rarefied non-isothermal gas transport</title>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Bennacer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Mohamad</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">El</forename><surname>Ganaoui</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Sicard</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Paris, France</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lavoisier</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="447" to="452" />
+		</imprint>
+	</monogr>
+	<note>Progress in Computational Heat and Mass Transfer</note>
+	<note type="raw_reference">&quot; Influence of porous media geometry on rarefied non-isothermal gas transport &quot;, C. PREUX, G. L. VIGNOLES, P. CHARRIER and B. DUBROCA, &quot; Progress in Computational Heat and Mass Transfer &quot;, R. Bennacer, A. A. Mohamad, M. El Ganaoui and J. Sicard eds., Lavoisier, Paris, France (2005), vol. 1, pp. 447-452.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Assessment of Geometrical and Transport Properties of a Fibrous C/C Composite Preform Using x-ray Computerized Micro-tomography: Part I. Image Acquisition and Geometrical Properties</title>
+		<author>
+			<persName><forename type="first">Olivia</forename><surname>Coindreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gérard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/jmr.2005.0311</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Research</title>
+		<title level="j" type="abbrev">J. Mater. Res.</title>
+		<idno type="ISSN">0884-2914</idno>
+		<idno type="ISSNe">2044-5326</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2328" to="2339" />
+			<date type="published" when="2005-09">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">&quot; Assessment of structural and transport properties in fibrous C/C composite preforms as digitized by X-ray CMT. Part I : Image acquisition and geometrical properties&quot;, O. COINDREAU and G. L. VIGNOLES, J. Mater. Res. vol. 20 (2005), pp. 2328-2339.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Multiscale X‐Ray CMT of C/C Composite Preforms: A Tool for Properties Assessment</title>
+		<author>
+			<persName><forename type="first">Olivia</forename><surname>Coindreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean‐marc</forename><surname>Goyhénèche</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781118407844.ch7</idno>
+		<editor>N. P. Bansal, J. P. Singh and W. M. Kriven eds., Ceram. Trans. 175</editor>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>Wiley</publisher>
+			<biblScope unit="page" from="77" to="84" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Advances in Ceramic-Matrix Composites XI</note>
+	<note type="raw_reference">&quot; Multiscale X-ray CMT of C/C composites : a tool for properties assessment&quot;, O. COINDREAU, G. L. VIGNOLES, and J.-M. GOYHENECHE, in &quot;Advances in Ceramic-Matrix Composites XI&quot;, N. P. Bansal, J. P. Singh and W. M. Kriven eds., Ceram. Trans. 175, Wiley, New York, (2005), pp. 77-84.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Modelling of the CVI Processes</title>
+		<author>
+			<persName><forename type="first">Gerard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/3-908158-06-0.97</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Science and Technology</title>
+		<meeting><address><addrLine>Zürich</addrLine></address></meeting>
+		<imprint>
+			<publisher>Trans Tech Publications Ltd.</publisher>
+			<date type="published" when="2006-10-01">2006</date>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="97" to="106" />
+		</imprint>
+	</monogr>
+	<note>Modelling of CVI Processes</note>
+	<note type="raw_reference">&quot; Modelling of CVI Processes&quot;, G. L. VIGNOLES, in &quot; Advanced Fibrous Inorganic Composites V &quot;, P. Vicenzini ed., Adv. Sci. Technol. vol. 50, Trans Tech Publications, Zürich, (2006), pp. 97-106.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Assessment of geometrical and transport properties of a fibrous C/C composite preform as digitized by x-ray computerized microtomography: Part II. Heat and gas transport properties</title>
+		<author>
+			<persName><forename type="first">Gerard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivia</forename><surname>Coindreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Azita</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominique</forename><surname>Bernard</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/jmr.2007.0216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Research</title>
+		<title level="j" type="abbrev">J. Mater. Res.</title>
+		<idno type="ISSN">0884-2914</idno>
+		<idno type="ISSNe">2044-5326</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1537" to="1550" />
+			<date type="published" when="2007-06">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">&quot; Assessment of structural and transport properties in fibrous C/C composite preforms as digitized by X-ray CMT. Part II : Heat and gas transport&quot;, G. L. VIGNOLES, O. COINDREAU, A. AHMADI and D. BERNARD, J. Mater. Res. vol. 22 n°6 (2007), pp. 1537-1550.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Rarefied Pure Gas Transport in Non-isothermal Porous Media: Validation and Tests of the Model</title>
+		<author>
+			<persName><forename type="first">Gérard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Charrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christophe</forename><surname>Preux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bruno</forename><surname>Dubroca</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11242-008-9223-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transport in Porous Media</title>
+		<title level="j" type="abbrev">Transp Porous Med</title>
+		<idno type="ISSN">0169-3913</idno>
+		<idno type="ISSNe">1573-1634</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="295" to="317" />
+			<date type="published" when="2008-04-02">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">&quot; Rarefied pure gas transport in non-isothermal porous media: Validation and tests of the model&quot;, G. L. VIGNOLES, C. PREUX, P. CHARRIER and B. DUBROCA, Transp. In Porous Media vol. 75 (2008), pp. 295-317.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Fibre-scale Modeling of C/C Processing by Chemical Vapour Infiltration using Xray CMT Images and Random Walkers</title>
+		<author>
+			<persName><forename type="first">Gerard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Germain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivia</forename><surname>Coindreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christianne</forename><surname>Mulat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Ros</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/1.3207733</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ECS Transactions</title>
+		<title level="j" type="abbrev">ECS Trans.</title>
+		<idno type="ISSN">1938-5862</idno>
+		<idno type="ISSNe">1938-6737</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1275" to="1284" />
+			<date type="published" when="2009-09-25" />
+			<publisher>The Electrochemical Society</publisher>
+			<pubPlace>Vienna</pubPlace>
+		</imprint>
+	</monogr>
+	<note>ICVD</note>
+	<note type="raw_reference">&quot; Fibre-scale modelling of C/C processing by Chemical Vapour Infiltration using X-ray CMT images and random walkers &quot;, G. L. VIGNOLES, C. GERMAIN, O. COINDREAU, C. MULAT, W. ROS, ICVD XVII &amp; EuroCVD 17, Vienna, 4-9</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Multiscale Simulation and Optimization of an Atomic Layer Deposition Process in a Nanoporous Material</title>
+		<author>
+			<persName><forename type="first">Vivek</forename><surname>Dwivedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raymond</forename><forename type="middle">A</forename><surname>Adomaitis</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/1.3207582</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ECS Transactions</title>
+		<title level="j" type="abbrev">ECS Trans.</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Octobre 2009</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Swihart</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Barreca</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Adomaitis</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Wörkhoff</surname></persName>
+		</editor>
+		<idno type="ISSN">1938-5862</idno>
+		<idno type="ISSNe">1938-6737</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="115" to="122" />
+			<date type="published" when="2009-09-25">2009</date>
+			<publisher>The Electrochemical Society</publisher>
+			<pubPlace>Pennington, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Octobre 2009, M. T. Swihart, D. Barreca, R. A. Adomaitis and K. Wörkhoff, eds., ECS Transactions vol. 25 no. 8, The Electrochemical Society, Pennington, NJ, (2009), pp. 1275-1284.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Modelling Infiltration of Fibre Preforms From X-Ray Tomography Data</title>
+		<author>
+			<persName><forename type="first">Gerard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Ros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ivan</forename><surname>Szelengowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christianne</forename><surname>Mulat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Germain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Donias</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/ast.71.108</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Science and Technology</title>
+		<editor>
+			<persName><forename type="first">W</forename><surname>Krenkel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Lamon</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Trans Tech Publications Ltd</publisher>
+			<date type="published" when="2010-10-27">2010</date>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="108" to="117" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">&quot; Modelling Chemical Vapour Infiltration in C/C composites : numerical tools based on µ-CT images&quot;, G. L. VIGNOLES, O. COINDREAU, W. ROS, I. SZELENGOWICZ, C. MULAT, C. GERMAIN, M. DONIAS, &quot;HT-CMC 7 -7th Intl. Conf. On High-Temperature Ceramic-Matrix Composites », W. Krenkel &amp; J. Lamon eds. (2010), pp. 598-606</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Benefits of X-ray CMT for the modelling of C/C composites</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mulat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Germain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Coindreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lachaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Also in Virtual Journal &quot;Materials Views</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="178" to="185" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Advanced Engineering Materials</note>
+	<note type="raw_reference">&quot; Benefits of X-ray CMT for the modelling of C/C composites&quot;, G. L. VIGNOLES, C. MULAT, C. GERMAIN, O. COINDREAU, and J. LACHAUD, Advanced Engineering Materials (2011), vol. 13, pp. 178-185. Also in Virtual Journal &quot;Materials Views&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Modelling Infiltration of Fibre Preforms From X-Ray Tomography Data</title>
+		<author>
+			<persName><forename type="first">Gerard</forename><forename type="middle">L</forename><surname>Vignoles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Ros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ivan</forename><surname>Szelengowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christianne</forename><surname>Mulat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Germain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Donias</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/ast.71.108</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Science and Technology</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Vicenzini</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Ferrar</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Trans Tech Publications Ltd</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="108" to="117" />
+		</imprint>
+	</monogr>
+	<note>12th International Ceramics Congress Part J</note>
+	<note type="raw_reference">&quot; Modeling of infiltration of fiber preforms based on X-ray tomographic imaging&quot;, G. L. VIGNOLES, C. GERMAIN, C. MULAT, O. COINDREAU, W. ROS, &quot;12th International Ceramics Congress Part J.&quot;, P. Vicenzini, M. Ferrar and M. Singh eds., Adv. Sci. Technol (2011) vol. 71, pp. 108-117.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

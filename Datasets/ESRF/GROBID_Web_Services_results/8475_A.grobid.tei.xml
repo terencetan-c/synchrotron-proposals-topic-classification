@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Local contact(s)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">H</forename><surname>Graafsma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MI164 Received at ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Heunen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MI164 Received at ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Esrf</forename><forename type="middle">H</forename><surname>Graafsma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MI164 Received at ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Esrf</forename><forename type="middle">S</forename><surname>Scheres</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MI164 Received at ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Esrf</forename><forename type="middle">A</forename><surname>Puig-Molina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MI164 Received at ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Esrf</forename><forename type="middle">A</forename><surname>Kvick</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">MI164 Received at ESRF</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Local contact(s)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">20AE06B2D29860B0CAB97FC4105F318A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Using a CCD and image intensifier set-up for time resolved studies in the field of pertur-. . bation crystallography, especially for crystals in electric fields</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The induced changes in a sample when it is perturbed by an electric field are very small, in the order of AI/I=O.l%. To decrease the measuring time, a broad-energy band pass0) for synchrotron radiation was developed. With this method, only one single reflection can be studied at a time. To study multiple reflections and diffuse scattering at the same time, a new method, based on a CCD camera, was tested. The frequency of the applied electric field on a piezoelectric AgGaSz crystal is 33Hz. Due to this frequency, it is still not possible to synchronize a ccd-camera with the used electric field frequency.</p><p>To solve this problem a chopper is used, in such a way that there will be X-rays on the sample, and collecting data when the electric field is positive. Then the same experiment was performed with the X-rays on the sample when the electric field was negative. The set-up was fairly simple, starting with two pairs of slits, a home-build chopper, a fast X-ray shutter, a 4-circle diffractometer and finishing with an image intensifier and a Princeton CCD camera. So the chalenging task was the synchronisation of the electric field with the chopper. The electric field was applied to the crystal in a two step mode (+ and -field). The home-build chopper chopped the incomming monochromatic X-ray beam and was at the same time the signal provider, by means of a photo diode in transmission mode, for the electric field. It was observed that the electric field was switched far more than the initial 33Hz. The cause of this turned out to be noise on the signal cables going to the electric field switch box. The noise could be pinpointed to the used photo diode, and its amplification electronics, and 'pull-up/ pull-down' of various converting NIM to TTL (and visa versa) electronics. Some grounding problems were also detected. Furthermore, the home-build chopper was not in a 'phase locked loop' and therefore the electric field was not exactly 33Hz due to jitter.</p><p>Data was collected for the AgGaSz crystal to test this method. For the data collection the following issue's were considered:</p><p>l Scanning method l Total number of frames for + and -field l Exposure time l Correction for the beam decay during the experiment An energy of 40 keV was used with AE/E=2x10d4. A step scan had to be used since, if the crystal was turned continuosly, different parts of the Bragg peaks would be sampled for the + and -field. After a range of steps the ccd camera was read-out. The exposure time per step was taken so that no saturation of the ccd camera could take place. This resulted that for each step an exposure (of about 3 seconds) was performed. Correction for the beam decay was solved by taking frames in the order of (+ --+)n so, when averaging over al the frames the + and -field exposures should have the same I 0 (assuming linear beam decay). Note that for one + or -field read-out frame, several frames for each step of the crystal rotation was accumulated to one single frame for the corresponding E-field state.</p><p>When the + and -field frames where accumulated for an E-field of 0 V/m the difference between the + and -field frames were not 0. This non-zero effect is probably caused by very small movements of the beam, which can be observed in a step scan. Furthermore, the step scan method is very time consuming and therefore an other sampling method has to be used or developed. However when the electric field is non-zero, a small change in the integated intensity can be observed. Figure <ref type="figure" target="#fig_0">1</ref> shows the difference between the + and -field accumulated frames for one observed reflection of AgGaSz. We gained a better insight in the problems and solutions to the synchronisation if ccd camera with an electric field. We could use our newly gained knowledge to understand and perform better the recent experiment done at ID9 (Study of Crystals in Electric Fields using Laue Diffraction).</p><p>(1) H. Graafsma, G.W.J.C. Heunen and C. Schulze. J. Appl. Cryst. In Press <ref type="bibr">(1997)</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Difference plot of + and -field for a AgGaSz reflections with an E-field of 0.6x106V/m.</figDesc><graphic coords="2,59.52,351.20,382.32,192.24" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>09/06/97 to: 19/06/97 28/02/98</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

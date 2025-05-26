@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A new inelastic scattering technique: Parametric down conversion of x-rays into ultraviolet in metals</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sharon</forename><surname>Shwartz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Denis</forename><surname>Borodin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aviad</forename><surname>Schori</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christina</forename><surname>Bömer</surname></persName>
+						</author>
+						<title level="a" type="main">A new inelastic scattering technique: Parametric down conversion of x-rays into ultraviolet in metals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7840F3338A227A51F0968C92A39B948E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>25</term>
+					<term>10</term>
+					<term>17</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this report we describe the main results of the experiment on Parametric Down-Conversion of x-rays into ultraviolet, performed at the ID-20 ESRF beamline.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The objective of this beamtime proposal was to demonstrate the effect of parametric down-conversion (PDC) of x-rays into ultraviolet in metals. During the process of PDC the input photon (pump) interacts with the vacuum field within nonlinear crystal to generate to correlated photons so the energy and momentum are conserved (phase-matching conditions). The two outcome photons are called signal and idler.</p><p>The calculations of Lindhard functions show resonant behavior of linear susceptibility near the Fermi energy. Since the efficiency of the PDC process is defined by second order nonlinear susceptibility at signal frequency which, in turn, depends on linear susceptibility at idler and pump frequency, we expected the same resonant behavior of PDC when the idler energy is in the vicinity of the Fermi energy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods:</head><p>All beamline motors were controlled using SPEC software. The scattered photons are collected by a 2D detector with properly chosen region-of-interest (ROI).</p><p>The experimental setup is shown in Fig. <ref type="figure" target="#fig_0">1</ref>. The 2D detector and the crystal are positioned in accord with the phase-matching conditions. The receiving optics includes a slit to limit the acceptance angle to choose a specific scattering direction. After the slit, the analyzer is used to select the specific energy that we are interested in (signal energy). We also chose a region of interest (ROI) for the image on the camera. represents the reciprocal lattice vector.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary of results:</head><p>We started with an aluminum crystal where we used the (111) reflection for the phase matching. The full width at the half maximum (FWHM) of the Bragg rocking curve was about 0.14 deg. We did not find any evidence of PDC.</p><p>Only later we realize that the reason we did not see any PDC was the malfunction of the analyzer motor -it was moving in the opposite direction, i.e. towards higher energies. However, at the moment we thought that it is impossible to observe the effect with the current setup. After inspecting the aluminum crystal visually we found symptoms of radiation damage so we decided to change the sample to another aluminum crystal and did not find any evidences of PDC presence and we decided to switch the sample to diamond crystal in which for sure we saw PDC. Important to note, that later during the experiment when the analyzer problem had been solved we returned to the aluminum crystal and we did measure PDC signal. However, due to the lack of time we had left and the fact that the signal was very weak, we decided to stick with the diamond crystal.</p><p>We decided to investigate the band structure of diamond using PDC. Fig. <ref type="figure" target="#fig_1">2</ref> shows an example of a signal rocking curve. The peak at about -0.02 deg corresponds to the elastic peak and the broad peak around 0.04 deg corresponds to the PDC signal. The shift from the exact phase matching (naught in the graph) is explained by dynamical theory (coupled wave equations) and we also see it in our simulations. Next we perform the rocking curve measurement for different idler energies. The results of such series of measurement can be represented as a map shown on Fig. 3. We can see that the signal has a very pronounced increase around idler energy 6 eV. This might be an indication of the optical response near the bandgap of the diamond crystal (5.5 eV). We repeated such spectral measurement as described above for ( <ref type="formula">111</ref>) and ( <ref type="formula">220</ref>) planes of diamond.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions &amp; future:</head><p>In the current experiment we performed spectral PDC measurement in diamond. We observed a strong energy dependence of the efficiency of the PDC signal near the bandgap of diamond. We note that the results are highly depended on the choice of the ROI and that we currently analyze data. These results will contribute to the development of an atomic scale resolution nonlinear spectroscopy technique based upon the effect of PDC.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Schematics of the setup and phase-matching diagram. k r represents wave vector, the indices p, s, and i stand for pump, signal, and idler respectively. G r</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig.2 Example of a PDC rocking curve. Naught represents the exact phase-matching conditions. In this measurement the reflection was (111), the idler energy was 6 eV, and the offset from the Bragg angle 25 mdeg.</figDesc><graphic coords="4,90.95,72.95,414.75,222.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig.3Map of rocking curves versus idler energy. We clearly can see the elastic peak at -0.02 deg that gets stronger towards lower idler energies, i.e. closer to pump energy. We see that the signal undergoes a rise in the area of 6 eV. Color bar indicates the count rate.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,90.95,491.32,414.75,264.75" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

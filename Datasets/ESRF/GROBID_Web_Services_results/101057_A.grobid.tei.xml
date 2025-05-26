@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental report -MA5413</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pedro</forename><forename type="middle">Damas</forename><surname>Resende</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wolfgang</forename><surname>Ludwig</surname></persName>
+						</author>
+						<title level="a" type="main">Experimental report -MA5413</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0F4192BB4858E4494E0C874E1628D00D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This experiment was devoted to understanding the initial stages of strain localization in Ni superalloys (Ni-SA). At the first beamtime related to this project (MA5180) we aimed at the observation of Stress Assisted Grain Boundary Oxidation (SAGBO) to allow capturing the entire damage process until sample failure. Here the combination of 2D characterization techniques such as High-Resolution Digital Image Correlation (HR-DIC), EBSD, and Laser Scanning Confocal Microscopy (LSCM) at the surface level, and 3D bulk characterization techniques such as Diffraction Contrast Tomography (DCT), Phase Contrast Tomography (PCT), Topotomography (TT) and scanning 3DXRD (s-3DXRD) have been used for an ex-situ study of strain localization in a sample pre-deformed to about 2% plastic strain. The referred combination of techniques will allow us to correlate the results regarding the localization phenomena from 2D techniques, as well as in 3D results obtained at ID11. The experimental procedure can be summarized as follows.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>i. DCT and TT on a sample previously characterized by EBSD, HR-DIC and LSCM where the localization was measured at the surface of the sample. ii. DCT and PCT in samples mounted at the Nanox loading device during in-situ SAGBO tests at 650 C. These samples are currently under characterization using higher resolution surface techniques at ICA, Albi.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>i) DCT and TT characterization of sample previously analysed by LSCM, EBSD and HR-DIC</head><p>We initially measured a sample that was prepared by the team of D. Texier at ICA, Albi. The sample was characterized by EBSD, LSCM and HR-DIC using the referred higher resolution techniques. It was initially measured in the undeformed state as a reference for the HR-DIC algorithm, both by EBSD and LSCM. The same procedure was repeated twice with intermediate steps of mechanical loading at 25 o C. Based on these high resolution observations, a region of interest was defined for the subsequent observations at ID11. Two different grains of interest were defined to be observed by DCT and TT. The initial DCT grain map was used as input for the subsequent alignment and Topotomo "zoom-in" characterization of the two grains of interest, highlighted in Figure <ref type="figure" target="#fig_0">1</ref>, in order to gain insights on volumetric nature and 3D arrangement of strain localization (work in progress).  The TT reconstruction (work in progress) for such grains will allow us to correlate the results obtained in 2D characterization techniques and observe the internal structure of the grain and the strain localization in the bulk of each grain. In figure <ref type="figure" target="#fig_2">3</ref> we present different views of the TT projections obtained for grain 1 in figures 1 and 2. In the TT slices it is already possible to distinguish the twin boundaries seen on grain 1 (fig. <ref type="figure" target="#fig_0">1</ref>), as well as the presence of slip traces within the grain.</p><p>ii)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In-situ SAGBO tests</head><p>A second batch of samples has undergone the reverse path of characterization: they were initially mechanically loaded at ID11 using the Nanox device and then sent for the high-resolution surface characterization at ICA.</p><p>These samples were mounted in the Nanox and the central part of their gage length was grain mapped by DCT at room temperature. Further on, they were monitored by PCT during in-situ loading at 650 o C. Figure <ref type="figure" target="#fig_3">4</ref> shows the typical experimental setup for this type of experiment. Controlling the loading rate for this kind of experiment is of utmost importance, as localization is dependent on the strain rate at which the sample is loaded. In that part we faced experimental difficulties with the software regulation loopit was the first time we used the BLISS regulation framework with the PI E753 controller of the Nanox device. Some samples were lost due to unexpected high loading rates and overloads when switching between load control and constant strain rate operation modes. Fundamentally, we could still capture the initiation stages properly, even though monitoring the steps of crack formation, coalescence and propagation was not possible due to this unexpected behaviour of the machine. Together with the BLISS software team at ESRF this behaviour was recently corrected, and the device can now be reliably switched between the different operation modes.</p><p>As a result from our previous experiment, suitable microstructures were chosen to enable the calculation of the internal displacement fields using Digital Volume Correlation (DVC) to be confronted to the HR-DIC results in terms of identification of strain localization. Figure <ref type="figure" target="#fig_4">5</ref> depicts an example of a microstructure where the internal contrast is enhanced by having a second phase precipitated inside the grains of the material, together with a smaller grain size compared to the first samples we measured during the MA5180 campaign. This combination enables better spatial distribution of the source of contrast, as well as better statistics as we considerably increased the number of grains contained at the cross section of the sample. The images were taken using an effective pixel size of 0.63 µm. The reconstruction involved steps of PCA decomposition for the flat-field correction and projection alignment that were developed as needed after our previous experiment (see MA5180 report).   From figure 6 (c) and (d) it is possible to note that the displacement fields calculated by DVC correlate well with grain boundaries within the sample. Further analysis is still needed for this dataset, but this preliminary result is an indication of the robustness of this method.   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -EBSD map of the undeformed state. These grains have quite different relative orientation of the activated slip systems with respect to the surface of the sample. Figure 2 depicts the formation of slip bands and localized deformation represented by the kernel average misorientation (KAM) angle within the grains.</figDesc><graphic coords="2,184.90,401.62,242.19,270.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 -</head><label>2</label><figDesc>Figure 2 -KAM (EBSD) map after 2 steps of mechanical loading.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 -</head><label>3</label><figDesc>Figure 3 -TT projections of grain 1 (figures 1 and 2) at three different omega rotation angles during the TT scan. Red dashed lines materialize the projection of the (111) plane in this grain.</figDesc><graphic coords="3,72.00,139.57,468.00,162.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 -</head><label>4</label><figDesc>Figure 4 -Experimental setup used to capture the onset of strain localization at high temperature.</figDesc><graphic coords="3,125.70,507.83,360.59,177.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 -</head><label>5</label><figDesc>Figure 5 -Details of the microstructure enhanced for DVC, acquired by PCT.</figDesc><graphic coords="4,88.40,408.72,435.14,272.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6</head><label>6</label><figDesc>Figure 6 shows (a) a DCT map reconstruction (horizontal dimension is 0.55 mm), (b) the initial PCT volume rendered in 3D, (c) the voxel error derived from DVC analysis, and (d) the displacement magnitude for each voxel of the sub volume used to run DVC.</figDesc><graphic coords="5,118.23,124.68,375.55,263.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 -</head><label>6</label><figDesc>Figure 6 -(a) DCT slice, (b) PCT rendering of the initial state of the sample, (c) DVC residual map, and (d) displacement fields determined by DVC.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7</head><label>7</label><figDesc>Figure7shows the volume rendering of one sample at different time steps of the SAGBO test. In (a) it is possible to see a sample with smooth surfaces due to the fabrication process and sample preparation. In figure7(b) the sample had already started presenting signs of strain localization, slip band development, and crack initiation. In figure7(c) the cracks were further grown into the volume. This test was interrupted at this point and the sample was sent to the ICA lab for further surface characterization using high resolution techniques such as LSCM. Figure8presents a detailed view of the third step in figure7notice the visibility of crystallographic slip traces on the sample surface.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 -</head><label>7</label><figDesc>Figure 7 -Different time steps of a SAGBO test.</figDesc><graphic coords="6,72.00,72.00,512.50,301.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 -</head><label>8</label><figDesc>Figure 8 -Detailed view of the last time step presented in Figure 4 (c).</figDesc><graphic coords="7,78.75,72.00,453.79,514.55" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

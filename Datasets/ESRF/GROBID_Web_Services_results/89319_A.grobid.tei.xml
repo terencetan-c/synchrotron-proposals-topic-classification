@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure of the tail tip complex of phage T5</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Grégory</forename><surname>Effantin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute for Structural Biology Romain Linares*</orgName>
+								<orgName type="department" key="dep2">Institute for Structural Biology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cécile</forename><surname>Breyton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute for Structural Biology Romain Linares*</orgName>
+								<orgName type="department" key="dep2">Institute for Structural Biology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structure of the tail tip complex of phage T5</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5C0A612E84153F5BA0DB8984761533E6</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We are working on bacteriophage T5, a virus infecting Escherichia coli (Fig. <ref type="figure">1</ref>). The T5 virion is made of a capsid containing the viral DNA and a tail, a large protein complex involved in virus adsorption to the bacterial host, perforation of the cell wall and safe channeling of the viral DNA from capsid to the host cytoplasm. We are currently working on the Tail Tip Complex (TTC), the extremity of the tail that bears the receptor binding protein and that drastically changes conformation, to perforate the cell-wall. The first step is to determine its structure before the interaction with the receptor.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data collection was successful, with 3208 images aquired during the 3-days allocated. We had to screen many grids to get one with the right ice thickness, even though we had checked that grids should have been ok on one of 12. This grid resulted from a rather dirty sample (Fig. <ref type="figure" target="#fig_1">2</ref>). Collected images were of good quality, except for 421 images that were either too close to focus or had too thick ice. From the good images, 10550 particles were manually picked with helix boxer and treated with Relion. The first 2D class show data to 4Å resolution (Fig. <ref type="figure" target="#fig_2">3</ref>), suggestive of a 3D structure to better resolution. 3D reconstruction, centered on the cone of the TTC, located just under the collar from which the Lfibers start, shows a map of extremely good quality, to a resolution of 3.48Å after three fold symmetry averaging. Structures of individual proteins determined by crystallography fit remarquably well (Fig. <ref type="figure" target="#fig_3">4</ref>). For those proteins of unknown structure, the map is of sufficiently good quality to trace the chain and determine the structures de novo. From the same images, but changing the position of the center of the box used for picking the particles, structure of the fiber will also be possible to determine, probably to lower resolution. In blue, ribbon representation of the structure of the monomer of pb6 (fitting is not straightforward here because the pb6 ring is truncated), in pink, yellow and magenta, ribbon representation of the monomer of pb9 fitted in the density of pb9 hexamer. Map quality is good enough to trace i-pb3 trimer (below pb9), ii-p140 trimer, between pb9 and pb6 and iii-p132 and/or parts of pb1 forming the collar surrounding p140… A lot of fun ahead!</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Negative stain electron microscope of phage T5. Diameter of the capsid: 90 nm. The distal part of the tail forms the Tail Tip Complex, which is complosed of the cone and the straight fiber, at the extremity of which is located the Receptor Binding Protein (RBP).</figDesc><graphic coords="1,29.74,341.34,102.90,187.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Typical collected image, showing the tails of phage T5. Left: raw image, right: circled dark gray: T5 TTC; dark gray arrows: protein contaminant; white arrows: vesicle contaminants; yellow arrows: ice contamination.</figDesc><graphic coords="1,239.54,621.69,198.35,192.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3 : 2D classes of the manually picked particles. The first two lines of classes, containing the majority of the particles (8710 particles).</figDesc><graphic coords="2,34.34,74.19,527.35,158.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure4: 3D structure of the upper part of the TTC. In blue, ribbon representation of the structure of the monomer of pb6 (fitting is not straightforward here because the pb6 ring is truncated), in pink, yellow and magenta, ribbon representation of the monomer of pb9 fitted in the density of pb9 hexamer. Map quality is good enough to trace i-pb3 trimer (below pb9), ii-p140 trimer, between pb9 and pb6 and iii-p132 and/or parts of pb1 forming the collar surrounding p140… A lot of fun ahead!</figDesc><graphic coords="2,34.34,382.94,201.15,276.75" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

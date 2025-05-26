@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Heterogeneous and Anisotropic Dynamics of a 2D Gel</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Physical Society (APS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-03-09">9 MARCH 2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">D</forename><surname>Orsi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Physics Department</orgName>
+								<orgName type="institution">Parma University</orgName>
+								<address>
+									<postCode>I-43124</postCode>
+									<settlement>Parma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><surname>Cristofolini</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Physics Department</orgName>
+								<orgName type="institution">Parma University</orgName>
+								<address>
+									<postCode>I-43124</postCode>
+									<settlement>Parma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Baldi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Physics Department</orgName>
+								<orgName type="institution">Parma University</orgName>
+								<address>
+									<postCode>I-43124</postCode>
+									<settlement>Parma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">CNR-IMEM Institute</orgName>
+								<address>
+									<postCode>I-43124</postCode>
+									<settlement>Parma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Madsen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">European Synchrotron Radiation Facility</orgName>
+								<address>
+									<addrLine>B.P. 220 4 European X-Ray Free Electron Laser Albert-Einstein-Ring 19</addrLine>
+									<postCode>F-38043 D-22761</postCode>
+									<settlement>Grenoble Hamburg</settlement>
+									<country>France Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Heterogeneous and Anisotropic Dynamics of a 2D Gel</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Physical Review Letters</title>
+						<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+						<idno type="ISSN">0031-9007</idno>
+						<idno type="eISSN">1079-7114</idno>
+						<imprint>
+							<publisher>American Physical Society (APS)</publisher>
+							<biblScope unit="volume">108</biblScope>
+							<biblScope unit="issue">10</biblScope>
+							<date type="published" when="2012-03-09">9 MARCH 2012</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DE8DFF6FD78FFF356E1477A5517C7D54</idno>
+					<idno type="DOI">10.1103/physrevlett.108.105701</idno>
+					<note type="submission">Received 10 October 2011;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:22+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report x-ray photon correlation spectroscopy (XPCS) results on bidimensional (2D) gels formed by a Langmuir monolayer of gold nanoparticles. The system allows an experimental determination of the fourth order time correlation function, which is compared to the usual second order correlation function and to the mechanical response measured on macroscopic scale. The observed dynamics is anisotropic, heterogeneous and superdiffusive on the nanoscale. Different time scales, associated with fast heterogeneous dynamics inside 2D cages and slower motion of larger parts of the film, can be identified from the correlation functions. The XPCS results are discussed in view of other experimental results and models of three-dimensional gel dynamics.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Many of the diverse properties of soft materials originate from their complex structures and dynamics characterized by multiple length and time scales. A wide variety of technologies, from paints to food science and from oil recovery to personal care products, depend crucially on understanding the dynamics of complex interfacial systems. Gels and their dynamics have been widely studied in 3D bulk configurations <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>; however, dimensionality is known to be quantitatively important in arrested systems: e.g., hard spheres caging occurs in three dimensions at a volume fraction È 3D RCP ' 60%-64%, while in two dimensions the random close packing is attained at an area fraction È 2D RCP ' 82% <ref type="bibr" target="#b3">[4]</ref>. The effect of dimensionality on the glass transition process in frictionless colloids has been investigated in numerical simulations <ref type="bibr" target="#b4">[5]</ref>, within the mode coupling approach <ref type="bibr" target="#b5">[6]</ref>, and in experiments on granular materials <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. Heterogeneous dynamics of micron sized beads confined in two dimensions and interacting through complex interparticle potentials, either attractive or repulsive, have recently been studied by means of video microscopy and particle tracking techniques <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. Both simulations and theory suggest that the behavior is not significantly different in two and three dimensions. This is surprising as dimensionality usually plays a decisive role in phase transitions. However, this point still lacks a definite experimental confirmation and, as a matter of fact, a recent comparison between surface and bulk dynamics in a repulsive colloidal suspension evidenced heterogeneous ballistic motion parallel to the surface while the dynamics in the direction perpendicular to the surface was much slower and apparently diffusive <ref type="bibr" target="#b10">[11]</ref>.</p><p>Here we report the first study by x-ray photon correlation spectroscopy (XPCS) <ref type="bibr" target="#b11">[12]</ref> of interfacial dynamics in a strictly two-dimensional system formed by a Langmuir monolayer of weakly attractive nanoparticles at the airwater interface. We compare the microscopic dynamics probed with XPCS and the mechanical moduli measured by interfacial shear rheometry (ISR, see Refs. <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>) on the same samples. Typically, dynamical heterogeneity is identified by calculating the variance of the two-times correlation function Cðt 1 ; t 2 Þ. Here, we provide the first experimental determination-by XPCS-of the fourth order correlation function g ð4Þ ðt; Þ <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> giving direct information about the lifetime of dynamical heterogeneity upon approaching dynamical arrest.</p><p>Gold nanoparticles of 70 A ˚diameter, stabilized by dodecanethiol coating, were produced by Ruggeri and coworkers (Pisa University) following the literature <ref type="bibr" target="#b17">[18]</ref>, and thoroughly characterized by dynamic light scattering and electron microscopy, both in transmission and in scanning (SEM) geometry. At the air/water interface the particles possess a weakly attractive interaction potential due to hydrophobic interactions. Uniform Langmuir monolayers are prepared through successive slow compressionexpansion cycles at constant temperature, following the method given in Ref. <ref type="bibr" target="#b18">[19]</ref>. The fraction (È) of surface covered by the film is usually deduced from the dispersed aliquot. The determination of È is crucial <ref type="bibr" target="#b19">[20]</ref>; therefore in this work it was double checked by in situ nullellipsometry and by SEM imaging of monolayers transferred onto a solid substrate. The three independent determinations of È coincide, as reported in <ref type="bibr" target="#b20">[21]</ref>, within an errorbar of roughly AE4%. A typical SEM image is shown in the top panel of Fig. <ref type="figure" target="#fig_2">1</ref>. It evidences structural heterogeneity, with clusters and holes of different sizes ranging from a few tens of nm to several microns. The distribution of hole sizes, shown in the inset, is strongly asymmetrical and compatible with a Levy distribution <ref type="bibr" target="#b21">[22]</ref> characterized by an algebraic tail with exponent À3. No crystalline phase PRL 108, 105701 (2012) P H Y S I C A L R E V I E W L E T T E R S week ending 9 MARCH 2012 0031-9007=12=108(10)=105701(5) 105701-1 Ó 2012 American Physical Society was detected neither by x-ray diffraction nor by SEM. The measurements and sample preparation was always performed following the same protocol in order to eliminate uncertainties due to different states of sample aging.</p><p>The mechanical properties were characterized on the macro-scale by ISR <ref type="bibr" target="#b12">[13]</ref>. As commonly found in many gel systems the loss factor tan ¼ G 00 =G 0 is constant over the measured concentration range, while the complex shear modulus G Ã rapidly increases with increasing concentration, and can be modeled as a power law <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24]</ref>. In the present case È 0 ¼ 0:27ð1Þ, close to the concentration at which the gel forms, and the exponent is z ¼ 0:65ð1Þ, which is smaller than 2.4 observed in protein gels <ref type="bibr" target="#b24">[25]</ref> and 4.0 found in carbon black gels <ref type="bibr" target="#b25">[26]</ref>. The difference is probably due to the reduced dimensionality of the present system.</p><formula xml:id="formula_0">G Ã / ð ÈÀÈ 0 È 0 Þ z [21,</formula><p>XPCS experiments were performed using partially coherent x rays at the Tro ¨ika beam line ID10A of the European Synchrotron Radiation Facility. A single bounce Si(111) crystal monochromator is used to select 8.06 keV radiation and the transversely coherent beam is defined by slit blades with carefully polished cylindrical edges. A set of guard slits placed just upstream of the sample blocks parasitic scattering due to diffraction from the beamdefining slits. A MAXIPIX detector <ref type="bibr" target="#b26">[27]</ref> is used to collect speckle images close to the specular reflected beam; expressed as a function of q, the range from 0:002 # A À1 to 0:03 # A À1 was covered. Focusing on the slow dynamics, speckle patterns were collected at time intervals of 0:01-0:2 s. The measurements were performed at constant temperature (18 C) and increasing surface pressure, ranging from 10 up to 30 mN=m, by means of the apparatus sketched in Fig. <ref type="figure" target="#fig_2">1</ref>. The signals from individual detector pixels were grouped in the analysis in order to provide a q-sensitive map of the dynamics and increase the signal-tonoise ratio.</p><p>Intensity auto correlation functions are calculated in the usual way: g ð2Þ ðq; tÞ ¼ hIðq;t 1 ÞIðq;t 1 þtÞi hIðq;t 1 Þi 2 and are reported in Fig. <ref type="figure" target="#fig_1">2</ref>(a) for È ¼ 69% and q ? ¼ 0:005 # A À1 . They can be modeled as</p><formula xml:id="formula_1">g ð2Þ ðq; tÞ ¼ A þ e À2ðt=Þ (<label>1</label></formula><formula xml:id="formula_2">)</formula><p>where A is the baseline, is the contrast, the relaxation time and the compression coefficient, determining the shape of the relaxation. The shape can be taken as a signature of the interactions present in the system; e.g., one expects ¼ 1 for Brownian motion while ¼ 1:5 is often found in colloidal gels <ref type="bibr" target="#b27">[28]</ref>. We find ¼ 1:5ð1Þ for all the concentrations studied here. Figure <ref type="figure" target="#fig_1">2</ref>(b) shows the q dependence of the relaxation times obtained from fits of Eq. ( <ref type="formula" target="#formula_1">1</ref>) to the correlation functions taken at various concentrations È. Different kinds of dynamics can usually be distinguished by the relation between and q: in the present case, at all concentrations, a power law % q Àn is found with exponent n ' 0:8ð1Þ (continuous lines in the</p><p>10 -2 10 0 10 2 0 0.2 0.4 0.6 0.8 1 1.2 time t (s) (g (2) -A) / β (a) q // = 0.004 Å -1 q // = 0.009 Å -1 q // = 0.015 Å -1 10 -3 10 -2 10 -1 10 0 10 1 10 2 q // (Å -1 ) Relaxation time, τ (s) (b)  PRL 108, 105701 (2012) P H Y S I C A L R E V I E W L E T T E R S week ending 9 MARCH 2012 105701-2 figure).</p><formula xml:id="formula_3">Φ = 35% Φ = 69% Φ = 77% Φ = 88% G' (mN/m)</formula><p>A similar behavior has been found in a variety of arrested systems <ref type="bibr" target="#b0">[1]</ref>, e.g., in oil nanoemulsion <ref type="bibr" target="#b28">[29]</ref>, in aqueous colloidal polystyrene gels <ref type="bibr" target="#b29">[30]</ref>, and recently also by us in molecular layers of polymers <ref type="bibr" target="#b30">[31]</ref>. In Fig. <ref type="figure" target="#fig_1">2(c</ref>) the dependence of on È is shown, measured at constant momentum transfer (q ¼ 0:015 # A À1 ), and compared with the 2D storage shear modulus G 0 measured by ISR on the same film: they share roughly the same power law dependence on È represented by the continuous line.</p><p>The relation between microscopic fluctuations () and a macroscopic response function (G 0 ) was predicted within the Bouchaud-Pitard model <ref type="bibr" target="#b31">[32]</ref>. This model assumes the dynamics to be governed by micro-collapses of the gel, resulting in the formation of force dipoles, which affect the surrounding particles by inducing a strain field. With the further assumptions that the collapses occur randomly in space and time, the stochastic equations of motion for the strain field can be solved analytically. In the slow-collapse regime, the resulting intermediate scattering function has a compressed shape with ¼ 1:5, while the relaxation time is proportional to the macroscopic elastic modulus of the gel and inversely proportional to the momentum q. Our findings confirm all the model predictions.</p><p>Figure <ref type="figure" target="#fig_3">3</ref>(a) displays the q map of the relaxation times obtained by fitting g ð2Þ with Eq. ( <ref type="formula" target="#formula_1">1</ref>). The dynamics is clearly hallmarked by the anisotropic dependence of on the exchanged momentum, where depends only on the surface parallel component q k (horizontal direction in the map) and not on the vertical component q ? . This picture holds for all the concentrations studied, proving that the nanoparticle dynamics is confined within the air-water interfacial plane.</p><p>The correlation functions characterize dynamics within a given time window, whose short-time limit is mainly determined by the amount of scattered intensity and by the detector speed. Any faster dynamics will reduce the contrast of the correlation function to less than the Siegert factor ($ 0:2 in the present setup). Information on fast motion, if present, can be obtained by studying the missing contrast and its q-dependence. In this case the contrast follows a pseudo Debye-Waller law <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref>: ¼ 0 expðÀ q 2 a 2 3 Þ, indicating that at least parts of the missing contrast is due to a faster rattling motion characterized by the localization length a. The fits are displayed in Fig. <ref type="figure" target="#fig_3">3(b)</ref>. The inset shows the variation of a: with growing È it decreases to reach a limiting value of 50 A ˚, comparable to the mean particle radius. The extrapolation of to q k ¼ 0 never reaches the Siegert factor, suggesting that several fast dynamical modes contribute to reducing the contrast. For instance, more mobile particles with mean square displacements larger than 1=q min ' 250 # A <ref type="bibr" target="#b33">[34]</ref> could be present.</p><p>With several populations of particles moving distinctly, the presence of dynamical heterogeneity in the fast dynamics is implied and can be further characterized by higher order correlation functions. In Fig. <ref type="figure" target="#fig_3">3(c</ref>) we report the normalized two times correlation function Cðt</p><formula xml:id="formula_4">1 ; t 2 Þ ¼ Iðt 1 Þ Ã Iðt 2 Þ [36] measured at q k ¼ 0:009 # A À1 , T ¼ 18 C</formula><p>and È ¼ 69%. Its variance , calculated as in Ref. <ref type="bibr" target="#b36">[37]</ref>, is shown in Fig. <ref type="figure" target="#fig_3">3(d)</ref>: it features a broad maximum around c ¼ 0:5-1 s, which is an evidence of dynamical heterogeneity. Thanks to the good quality of the data it is possible to bring the analysis one step further and calculate the 4 times correlation function g ð4Þ defined as</p><formula xml:id="formula_5">g ð4Þ ðt; Þ ¼ hCðt 1 ; t 1 þ ÞCðt 1 þ t; t 1 þ t þ Þi t 1 ¼ hIðt 1 ÞIðt 1 þ ÞIðt 1 þ tÞIðt 1 þ t þ Þi t 1 : (2)</formula><p>The first lag time ¼ jt 1 À t 2 j, indicated by the lighter stripe in Fig. <ref type="figure" target="#fig_3">3(c</ref>), identifies the subdiagonal of matrix C along which g ð4Þ is calculated. The second lag time, t, corresponds to the separation between two instants of the selected subdiagonal. Averages are performed over initial time t 1 . We choose ¼ c because the variance analysis suggests that on this time scale the heterogeneous dynamics is most pronounced. PRL 108, 105701 (2012) P H Y S I C A L R E V I E W L E T T E R S week ending 9 MARCH 2012 105701-3</p><p>Figure <ref type="figure">4</ref>(a) reports g ð4Þ , for q k ¼ 0:009 # A À1 and ¼ c , and compares it with the usual 2nd order correlation function g ð2Þ . Both functions display a full decay during the time scales accessible in the experiment but the functional form of g ð4Þ appears to be characterized by a peak located at Ã . This observation holds for all concentrations studied, as shown in 4(b). We take Ã as a measure of the time scale of dynamical heterogeneity and track its dependence on q as shown in 4(d). In accordance with the previous discussion concerning the ''missing contrast'' it is found that Ã &lt; for all q and for all concentrations studied. In addition the q dependencies of Ã and appear to be similar ($ q À1 k ) even if the two time scales originate from different dynamics. Although akin observations have been made before, see, e.g., Ref. <ref type="bibr" target="#b14">[15]</ref>, a deeper understanding of this ''scaling behavior'' is still missing. No q ? dependence of the variance or of Ã was observed, indicating that all the observed dynamics (fast and slow) and the heterogeneous behavior are surface phenomena of 2D nature.</p><p>For the highest concentration g ð4Þ has a larger amplitude ( Ã ) as observed in 4(b), which in turn appears at slower times. In the analogy between temperature and packing fraction, this behavior is in accordance with predictions of numerical simulations <ref type="bibr" target="#b37">[38]</ref>. A similar behavior was also found in the variance measured by XPCS <ref type="bibr" target="#b15">[16]</ref> and photon correlation imaging <ref type="bibr" target="#b38">[39]</ref> in 3D systems. Here, the decreased mobility is followed by an increase in the range of spatial and temporal correlations between particles, in agreement with the general assumption that dynamical arrest is related to the development of heterogeneities.</p><p>Within the statistical uncertainty, no clear q dependence could be detected in Ã , as shown in Fig. <ref type="figure">4(c)</ref>. This suggests that a hierarchy of different length scales is involved in the heterogeneous behavior, and possibly the fast, nonlocalized population could be modeled as Levy flights <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>, similarly to other systems presenting dynamical heterogeneity <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b30">31]</ref>.</p><p>In conclusion, we present the first XPCS experiment on a Langmuir monolayer (2D gel) displaying anisotropic and heterogeneous dynamical behavior. The data quality allows a rare experimental characterization of the dynamics by calculating the fourth order temporal correlation function g ð4Þ . The anisotropic dynamics occurs on different time-and length-scales: fast collective heterogeneous rearrangements characterized by Ã are responsible for the peak in g ð4Þ , but are too fast to be directly seen in g ð2Þ , where they only appear as reductions of the contrast. Part of the missing contrast can be accounted for using a Debye-Waller model to describe fast rattling on the nanoscale but the data also indicate that fast diffusivelike motion is present. g ð2Þ tracks a much slower ergodicity restoring dynamics characterized by the relaxation time . Both fast and slow motions are anisotropic and confined to the surface plane (2D) and have similar dependencies on q, and on the coverage fraction È. Finally, we note that the relaxation time scales with È similarly to the 2D mechanical response measured by ISR. This, together with the non-Brownian character of the ergodicity restoring dynamics, is in good agreement with the model proposed by Bouchaud and Pitard <ref type="bibr" target="#b31">[32]</ref>.</p><p>The ESRF is acknowledged for provision of beam time, O. Konovalov (ESRF) for access to the Langmuir through, G. Ruggeri and A. Pucci (Pisa) for preparing the nanoparticles, F. Pincella (Parma) for help with the experiments, R. Leheny (John Hopkins) and P. Cicuta (Cambridge) for useful comments and discussions.</p><p>10 -1 10 0 10 1 10 2 10 3 0 1 2 3 x 10 -4 time t (s) g (4) /β 2 1 1.02 1.04 1.06</p><p>1.08 g (2)   (t) g (2) (t) g (4) (t, τ C ) (a)</p><p>10 -2 10 -1 10 0 10 1 10 2 10 3 0 0.5 1 1.5 2 2.5 3 3.5 x 10 -4 g (4) / β 2 time t (s) Φ=69% Φ=88% (b) 0 0.005 0.01 0.015 0.02 0 0.5 1 1.5 2 2.5 x 10 -4 q || (Å -1 ) χ* Φ=69% Φ=88% (c) 10 -3 10 -2 10 -2 10 -1 10 0 10 1 10 2 q || (Å -1 ) τ, τ* (s) τ* -Φ=69% τ* -Φ=88% τ -Φ=69% τ -Φ=88% (d)</p><p>FIG. <ref type="figure">4</ref> (color online). (a) Comparison between g ð4Þ and g ð2Þ both measured at È ¼ 88% and q k ¼ 0:009 # A À1 . Lines are guides to the eye. (b) Normalized g ð4Þ for different values of È and q k ¼ 0:009 # A À1 . Lines are guides to the eye. (c) Intensity Ã of the peak of g ð4Þ as a function of q k , calculated for È ¼ 69% and È ¼ 88%; dashed lines represent their averages. (d) q k dependence of characteristic times Ã (empty symbols) and of (filled symbols) for the values of È indicated. They all follow an approximate $q À1 k scaling law (lines).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG. 2 (</head><label>2</label><figDesc>FIG. 2 (color online). (a) Scaled correlation functions g ð2Þ for selected q k values (lines are fit to the data) from a Langmuir film at È ¼ 69%. (b) Relaxation times for different surface concentrations È. Continuous lines are fits to the power law discussed in the text. (c) Relaxation times versus surface concentration È at q ¼ 0:015 # A À1 (squares, left scale) and shear modulus G 0 measured by ISR (circles, right scale). The continuous line is the power law fit described in the text.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 1 (</head><label>1</label><figDesc>FIG.1(color online). Top: a typical SEM image of a monolayer with È ¼ 50% transferred onto a solid substrate. Inset: distribution of holes on a log scale, and its best fit with the Levy distribution (continuous line). Bottom: sketch of the setup used for XPCS experiment on a Langmuir monolayer.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG. 3 (</head><label>3</label><figDesc>FIG. 3 (color online). (a) q map of relaxation times measured at È ¼ 69% along different directions in reciprocal space: q k and q ? are, respectively, parallel and perpendicular to the water surface. Solid lines are isochrones. (b) contrast as a function of squared momentum q 2 k , for different values of È. Dashed lines are Debye-Waller fits. Inset: localization length at different values of È. The continuous line is a guide to the eye. (c) Two times correlation function for È ¼ 69%, T ¼ 18 C and q k ¼ 0:009 # A À1 . The lighter stripe represents the range over which g ð4Þ is calculated, as described in the text. The arrow indicates the time of Eq. (2). (d) Normalized variance of the two-times correlation function reported in panel c; the continuous line is a guide to the eye.</figDesc><graphic coords="3,341.15,169.73,91.34,91.58" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Slow dynamics in glassy soft matter</title>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurence</forename><surname>Ramos</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/17/6/r01</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Condensed Matter</title>
+		<title level="j" type="abbrev">J. Phys.: Condens. Matter</title>
+		<idno type="ISSN">0953-8984</idno>
+		<idno type="ISSNe">1361-648X</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="R253" to="R285" />
+			<date type="published" when="2005-01-29">2005</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Cipelletti and L. Ramos, J. Phys. Condens. Matter 17, R253 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Insights into phase transition kinetics from colloid science</title>
+		<author>
+			<persName><forename type="first">Valerie</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henk</forename><forename type="middle">N W</forename><surname>Lekkerkerker</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/416811a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">416</biblScope>
+			<biblScope unit="issue">6883</biblScope>
+			<biblScope unit="page" from="811" to="815" />
+			<date type="published" when="2002-04">2002</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. J. Anderson and H. N. W. Lekkerkerker, Nature (London) 416, 811 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Gelation of particles with short-range attraction</title>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emanuela</forename><surname>Zaccarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Ciulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">B</forename><surname>Schofield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Sciortino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06931</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="issue">7194</biblScope>
+			<biblScope unit="page" from="499" to="503" />
+			<date type="published" when="2008-05">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. J. Lu, E. Zaccarelli, F. Ciulla, A. B. Schofield, F. Sciortino, and D. A. Weitz, Nature (London) 453, 499 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Random close packing of hard spheres and disks</title>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">G</forename><surname>Berryman</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreva.27.1053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review A</title>
+		<title level="j" type="abbrev">Phys. Rev. A</title>
+		<idno type="ISSN">0556-2791</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1053" to="1061" />
+			<date type="published" when="1983-02-01">1983</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. G. Berryman, Phys. Rev. A 27, 1053 (1983).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Random Packings of Frictionless Particles</title>
+		<author>
+			<persName><forename type="first">Corey</forename><forename type="middle">S</forename><surname>O'hern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">A</forename><surname>Langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sidney</forename><forename type="middle">R</forename><surname>Nagel</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.88.075507</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">75507</biblScope>
+			<date type="published" when="2002-01-31">2002</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. S. O&apos;Hern, S. A. Langer, A. J. Liu, and S. R. Nagel, Phys. Rev. Lett. 88, 075507 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Dynamic glass transition in two dimensions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Maret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sperl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wittmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.76.011508</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">11508</biblScope>
+			<date type="published" when="2007-07-20">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Bayer, J. M. Brader, F. Ebert, M. Fuchs, E. Lange, G. Maret, R. Schilling, M. Sperl, and J. P. Wittmer, Phys. Rev. E 76, 011508 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Measurement of growing dynamical length scales and prediction of the jamming transition in a granular material</title>
+		<author>
+			<persName><forename type="first">Aaron</forename><forename type="middle">S</forename><surname>Keys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><forename type="middle">R</forename><surname>Abate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sharon</forename><forename type="middle">C</forename><surname>Glotzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Douglas</forename><forename type="middle">J</forename><surname>Durian</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphys572</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Physics</title>
+		<title level="j" type="abbrev">Nature Phys</title>
+		<idno type="ISSN">1745-2473</idno>
+		<idno type="ISSNe">1745-2481</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="260" to="264" />
+			<date type="published" when="2007-03-25">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. S. Keys, A. R. Abate, S. C. Glotzer, and D. J. Durian, Nature Phys. 3, 260 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Dynamical Heterogeneity Close to the Jamming Transition in a Sheared Granular Material</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Dauchot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Biroli</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.95.265701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page">265701</biblScope>
+			<date type="published" when="2005-12-27">2005</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Dauchot, G. Marty, and G. Biroli, Phys. Rev. Lett. 95, 265701 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Observation of the Disorder-Induced Crystal-to-Glass Transition</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Yunker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zexin</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Yodh</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.104.015701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">15701</biblScope>
+			<date type="published" when="2010-01-08">2010</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. J. Yunker, Z. Zhang, and A. G. Yodh, Phys. Rev. Lett. 104, 015701 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Cooperative Rearrangement Regions and Dynamical Heterogeneities in Colloidal Glasses with Attractive Versus Repulsive Interactions</title>
+		<author>
+			<persName><forename type="first">Zexin</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">J</forename><surname>Yunker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Piotr</forename><surname>Habdas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Yodh</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.107.208303</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page">208303</biblScope>
+			<date type="published" when="2011-11-08">2011</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Zhang, P. J. Yunker, P. Habdas, and A. G. Yodh, Phys. Rev. Lett. 107, 208303 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Two-Dimensional Heterogeneous Dynamics at the Surface of a Colloidal Suspension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Autenrieth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-M</forename><surname>Stadler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Leupold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chushkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grübel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gutt</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.102.145701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">145701</biblScope>
+			<date type="published" when="2009-04-10">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Duri, T. Autenrieth, L.-M. Stadler, O. Leupold, Y. Chushkin, G. Gru ¨bel, and C. Gutt, Phys. Rev. Lett. 102, 145701 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Soft Matter Characterization</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gru ¨bel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robert</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4020-4465-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft-Matter Characterization</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Springer Netherlands</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Gru ¨bel, A. Madsen, and A. Robert, Soft-Matter Characterization (Borsali-Pecora, Springer, 2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">An Interfacial Stress Rheometer To Study Rheological Transitions in Monolayers at the Air−Water Interface</title>
+		<author>
+			<persName><forename type="first">Carlton</forename><forename type="middle">F</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerald</forename><forename type="middle">G</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Curtis</forename><forename type="middle">W</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Channing</forename><forename type="middle">R</forename><surname>Robertson</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la980465r</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2450" to="2459" />
+			<date type="published" when="1999-03-01">1999</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. F. Brooks, G. G. Fuller, C. W. Frank, and C. R. Robertson, Langmuir 15, 2450 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Equilibrium and out-of-equilibrium dynamics in a molecular layer of azopolymer floating on water studied by Interfacial Shear Rheology</title>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigi</forename><surname>Cristofolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><forename type="middle">P</forename><surname>Fontana</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jnoncrysol.2010.06.057</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Non-Crystalline Solids</title>
+		<title level="j" type="abbrev">Journal of Non-Crystalline Solids</title>
+		<idno type="ISSN">0022-3093</idno>
+		<imprint>
+			<biblScope unit="volume">357</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="580" to="586" />
+			<date type="published" when="2011-01">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Orsi, L. Cristofolini, and M. P. Fontana, J. Non-Cryst. Solids 357, 580 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Ultra-long range correlations of the dynamics of jammed soft matter</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maccarrone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brambilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Pravaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ciccotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-M</forename><surname>Fromental</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pashkovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sessoms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Trappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c0sm00155d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page">5514</biblScope>
+			<date type="published" when="2010">2010</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Maccarrone et al., Soft Matter 6, 5514 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Beyond simple exponential correlation functions and equilibrium dynamics in x-ray photon correlation spectroscopy</title>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Leheny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hongyu</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Sprung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Orsolya</forename><surname>Czakkel</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1367-2630/12/5/055001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">New Journal of Physics</title>
+		<title level="j" type="abbrev">New J. Phys.</title>
+		<idno type="ISSNe">1367-2630</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">055001</biblScope>
+			<date type="published" when="2010-05-13">2010</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Madsen, R. L. Leheny, H. Guo, M. Sprung, and O. Czakkel, New J. Phys. 12, 055001 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Time-dependent, four-point density correlation function description of dynamical heterogeneity and decoupling in supercooled liquids</title>
+		<author>
+			<persName><forename type="first">Sharon</forename><forename type="middle">C</forename><surname>Glotzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">N</forename><surname>Novikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">B</forename><surname>Schrøder</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.480541</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<idno type="ISSN">0021-9606</idno>
+		<idno type="ISSNe">1089-7690</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="509" to="512" />
+			<date type="published" when="2000-01-08">2000</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. C. Glotzer, V. N. Novikov, and T. B. Schrøder, J. Chem. Phys. 112, 509 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Synthesis and Characterization of Carboxylate-Modified Gold Nanoparticle Powders Dispersible in Water</title>
+		<author>
+			<persName><forename type="first">Sihai</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keisaku</forename><surname>Kimura</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la9812828</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1075" to="1082" />
+			<date type="published" when="1999-01-28">1999</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Chen and K. Kimura, Langmuir 15, 1075 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Two-dimensional arrangement of octadecylamine-functionalized gold nanoparticles using the LB technique</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0957-4484/11/2/311</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanotechnology</title>
+		<title level="j" type="abbrev">Nanotechnology</title>
+		<idno type="ISSN">0957-4484</idno>
+		<idno type="ISSNe">1361-6528</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="108" to="111" />
+			<date type="published" when="2000-06-01">2000</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Y. Chen, J. R. Li, and L. Jiang, Nanotechnology 11, 108 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">On measuring colloidal volume fractions</title>
+		<author>
+			<persName><forename type="first">Wilson</forename><forename type="middle">C K</forename><surname>Poon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">R</forename><surname>Weeks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Patrick</forename><surname>Royall</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c1sm06083j</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="21" to="30" />
+			<date type="published" when="2012">2012</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. C. K. Poon, E. R. Weeks, and C. P. Royall, Soft Matter 8, 21 (2012)</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">On the relation between hierarchical morphology and mechanical properties of a colloidal 2D gel system</title>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giacomo</forename><surname>Baldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pietro</forename><surname>Cicuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigi</forename><surname>Cristofolini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfa.2012.01.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids and Surfaces A: Physicochemical and Engineering Aspects</title>
+		<title level="j" type="abbrev">Colloids and Surfaces A: Physicochemical and Engineering Aspects</title>
+		<idno type="ISSN">0927-7757</idno>
+		<imprint>
+			<biblScope unit="volume">413</biblScope>
+			<biblScope unit="page" from="71" to="77" />
+			<date type="published" when="2012-11">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Orsi, G. Baldi, P. Cicuta, and L. Cristofolini, Colloids Surf. A (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V</forename><surname>Gnedenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Kolmogorov</surname></persName>
+		</author>
+		<title level="m">Limit Distributions for Sums of Independent Random Variables</title>
+		<meeting><address><addrLine>Reading, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Addison-Wesley</publisher>
+			<date type="published" when="1954">1954</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. V. Gnedenko and A. N. Kolmogorov, Limit Distributions for Sums of Independent Random Variables (Addison-Wesley, Reading, MA, 1954).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Gelation and critical phenomena</title>
+		<author>
+			<persName><forename type="first">Dietrich</forename><surname>Stauffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Coniglio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mireille</forename><surname>Adam</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/3-540-11471-8_4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Polymer Science</title>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="1982">1982</date>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="103" to="158" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Stauffer, A. Coniglio, and M. Adam, Adv. Polym. Sci. 44, 103 (1982).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Analysis of Linear Viscoelasticity of a Crosslinking Polymer at the Gel Point</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Henning</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francois</forename><surname>Chambon</surname></persName>
+		</author>
+		<idno type="DOI">10.1122/1.549853</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Rheology</title>
+		<title level="j" type="abbrev">Journal of Rheology</title>
+		<idno type="ISSN">0148-6055</idno>
+		<idno type="ISSNe">1520-8516</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="367" to="382" />
+			<date type="published" when="1986-04">1986</date>
+			<publisher>Society of Rheology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. H. Winter and F. Chambon, J. Rheol. 30, 367 (1986).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Passive Microrheology of Solvent-Induced Fibrillar Protein Networks</title>
+		<author>
+			<persName><forename type="first">Adam</forename><forename type="middle">M</forename><surname>Corrigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Athene</forename><forename type="middle">M</forename><surname>Donald</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la804208q</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="8599" to="8605" />
+			<date type="published" when="2009-04-03">2009</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. M. Corrigan and A. M. Donald, Langmuir 25, 8599 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Jamming phase diagram for attractive particles</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Trappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Segre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35081021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">411</biblScope>
+			<biblScope unit="issue">6839</biblScope>
+			<biblScope unit="page" from="772" to="775" />
+			<date type="published" when="2001-06">2001</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Trappe, V. Prasad, L. Cipelletti, P. N. Segre, and D. A. Weitz, Nature (London) 411, 772 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">MAXIPIX, a fast readout photon-counting X-ray area detector for synchrotron applications</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ponchut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rigal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clément</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Homs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petitdemange</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1748-0221/6/01/c01069</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Instrumentation</title>
+		<title level="j" type="abbrev">J. Inst.</title>
+		<idno type="ISSNe">1748-0221</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="C01069" to="C01069" />
+			<date type="published" when="2011-01-11">2011</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Ponchut, J. M. Rigal, J. Clement, E. Papillon, A. Homs, and S. Petitdemange, JINST 6, C01069 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Slow dynamics and aging in colloidal gels studied by x-ray photon correlation spectroscopy</title>
+		<author>
+			<persName><forename type="first">Andrei</forename><surname>Fluerasu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdellatif</forename><surname>Moussaïd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Schofield</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.76.010401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">10401</biblScope>
+			<date type="published" when="2007-07-02">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Fluerasu, A. Moussaı ¨d, A. Madsen, and A. Schofield, Phys. Rev. E 76, 010401 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Slow, nondiffusive dynamics in concentrated nanoemulsions</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Wilking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Harden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Leheny</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.75.041401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">41401</biblScope>
+			<date type="published" when="2007-04-02">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Guo, J. N. Wilking, D. Liang, T. G. Mason, J. L. Harden, and R. L. Leheny, Phys. Rev. E 75, 041401 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Universal Aging Features in the Restructuring of Fractal Colloidal Gels</title>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.84.2275</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2275" to="2278" />
+			<date type="published" when="2000-03-06">2000</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Cipelletti, S. Manley, R. C. Ball, and D. A. Weitz, Phys. Rev. Lett. 84, 2275 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Slow dynamics in an azopolymer molecular layer studied by x-ray photon correlation spectroscopy</title>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigi</forename><surname>Cristofolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><forename type="middle">P</forename><surname>Fontana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emanuele</forename><surname>Pontecorvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Caronna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrei</forename><surname>Fluerasu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Federico</forename><surname>Zontone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.82.031804</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">31804</biblScope>
+			<date type="published" when="2010-09-23">2010</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Orsi, L. Cristofolini, M. P. Fontana, E. Pontecorvo, C. Caronna, A. Fluerasu, F. Zontone, and A. Madsen, Phys. Rev. E 82, 031804 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Anomalous dynamical light scattering in soft glassy gels</title>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Bouchaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pitard</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s101890170005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The European Physical Journal E</title>
+		<idno type="ISSN">1292-8941</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="231" to="236" />
+			<date type="published" when="2001-11">2001</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. P. Bouchaud and E. Pitard, Eur. Phys. J. E 6, 231 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Evolution of Particle-Scale Dynamics in an Aging Clay Suspension</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bandyopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yardimci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Sessoms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Borthwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G J</forename><surname>Mochrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Harden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Leheny</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.93.228302</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">228302</biblScope>
+			<date type="published" when="2004-11-23">2004</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Bandyopadhyay, D. Liang, H. Yardimci, D. A. Sessoms, M. A. Borthwick, S. Mochrie, J. L. Harden, and R. L. Leheny, Phys. Rev. Lett. 93, 228302 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Gel formation and aging in weakly attractive nanocolloid suspensions at intermediate concentrations</title>
+		<author>
+			<persName><forename type="first">Hongyu</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">L</forename><surname>Harden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Leheny</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3653380</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<idno type="ISSN">0021-9606</idno>
+		<idno type="ISSNe">1089-7690</idno>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">154903</biblScope>
+			<date type="published" when="2011-10-21">2011</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Guo, S. Ramakrishnan, J. L. Harden, and R. L. Leheny, J. Chem. Phys. 135, 154903 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Evolution of dynamics and structure during formation of a cross-linked polymer gel</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Czakkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1209/0295-5075/95/28001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EPL (Europhysics Letters)</title>
+		<title level="j" type="abbrev">EPL</title>
+		<idno type="ISSN">0295-5075</idno>
+		<idno type="ISSNe">1286-4854</idno>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">28001</biblScope>
+			<date type="published" when="2011-06-27">2011</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Czakkel and A. Madsen, Europhys. Lett. 95, 28001 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Coherent X-Ray Study of Fluctuations during Domain Coarsening</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Sandy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Lurio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Stephenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G J</forename><surname>Mochrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mcnulty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sutton</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.81.5832</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="5832" to="5835" />
+			<date type="published" when="1998-12-28">1998</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Malik, A. R. Sandy, L. B. Lurio, G. B. Stephenson, S. G. J. Mochrie, I. McNulty, and M. Sutton, Phys. Rev. Lett. 81, 5832 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Length scale dependence of dynamical heterogeneity in a colloidal fractal gel</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<idno type="DOI">10.1209/epl/i2006-10357-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Europhysics Letters (EPL)</title>
+		<title level="j" type="abbrev">Europhys. Lett.</title>
+		<idno type="ISSN">0295-5075</idno>
+		<idno type="ISSNe">1286-4854</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="972" to="978" />
+			<date type="published" when="2006-12">2006</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Duri and L. Cipelletti, Europhys. Lett. 76, 972 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Dynamic Heterogeneity in Amorphous Materials</title>
+		<author>
+			<persName><forename type="first">Ludovic</forename><surname>Berthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physics.4.42</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physics</title>
+		<title level="j" type="abbrev">Physics</title>
+		<idno type="ISSNe">1943-2879</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">42</biblScope>
+			<date type="published" when="2011-05-31">2011</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Berthier, Physics 4, 42 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Resolving Long-Range Spatial Correlations in Jammed Colloidal Systems Using Photon Correlation Imaging</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Sessoms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Trappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.102.085702</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">85702</biblScope>
+			<date type="published" when="2009-02-23">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Duri, D. Sessoms, V. Trappe, and L. Cipelletti, Phys. Rev. Lett. 102, 085702 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Transport and scaling in quenched two- and three-dimensional Lévy quasicrystals</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Buonsante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vezzani</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.84.021105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">21105</biblScope>
+			<date type="published" when="2011-08-04">2011</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Buonsante, R. Burioni, and A. Vezzani, Phys. Rev. E 84, 021105 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Super-diffusion around the rigidity transition: Lévy and the Lilliputians</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lechenault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Candelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Dauchot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Bouchaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Biroli</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c000802h</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">3059</biblScope>
+			<date type="published" when="2010">2010</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Lechenault, R. Candelier, O. Dauchot, J.-P. Bouchaud, and G. Biroli, Soft Matter 6, 3059 (2010).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

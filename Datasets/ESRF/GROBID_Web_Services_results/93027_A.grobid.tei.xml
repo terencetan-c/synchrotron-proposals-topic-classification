@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D96200711B3085EC16CF8112DC69B8A2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report of CM01 microscope use -mx2167</head><p>We were lucky to be granted 3 days of data collection during the June of 2019. We came with grids that were pre-screened in the IBS-Glacios microscope. During the pre-screening, we confirmed that the holes with the preferred ice thickness present high density of the reconstituted in nanodiscs pentameric receptors (~500 usable particles per hole), but we also observed an anisotropic distribution of the particles, in favor of the top views. The grids were mounted and screened on site in order to select the best-looking regions and set up an automated data collection. The data collection started on the first day in the afternoon, using standard parameters (130k magnification, 8 second images with a total dose of ~40 e/Å2, 3 images per hole and pixel size of ~0.87 Å/pix) and went smoothly to completion on the last day, wielding more than 7000 micrographs. The high number of movies was necessary in order to identify a sufficient number of the rare particles on side views, which, in turn, is crucial for a high-resolution reconstruction. Drift-corrected micrographs were synced to the workstation in our lab and all steps down to 2D classification were performed repetitively as images accumulated. The high density of particles was confirmed by the amount of usable particles that ended into 2D class averages that represent pentameric receptors (out of the 2 million autopicked particles, about 1.7 millions ended up in good classes).</p><p>Typical micrographs of the current sample (left) compared to a typical micrograph of detergentsolubilized receptors (right).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>However, these initial rounds of classification also showed that we estimated wrongly the anisotropy of the particle distribution, since in the 2D class averages there is a clear dominance of the top views. These very anisotropy lead to poor reconstructions where the receptors were clearly distorted and deformed (appearing to be "compressed" on the long axis). We could partially overcome this problem after removing most (or even all) of the particles that are in the classes of the top views, in order to achieve a more even distribution. Our best reconstruction so far was done performing a refinement only with particles from classes that represent side views. This reconstruction has a nominal resolution of 3.4 Å, but the density in some regions, and especially in the pore, is rather poor and most likely limited by the low number of particles used. Our goal, regarding this dataset, was dual and in the context of our future time-resolved experiments where the sample will be frozen at different time points after mixing with a ligand. This procedure will require a huge number of datasets, and thus we need a system where we can achieve high resolution reconstructions with minimal datasets (by drastically increasing the number of particles per image). In this respect, on one hand we aimed to prove that grids prepared with receptors embedded in nanodiscs are superior to grids prepared with samples of detergent-solubilized receptors due to their 10-fold higher number of per image useful particles. Of course, we needed additionally a proof-of-concept high-resolution reconstruction of receptors embedded in nanodiscs. Thus, our dual goal was partially achieved here, mainly perturbed by the anisotropy of the particles. We are currently working on this very problem, in order to overcome the preferential orientation issues of nanodiscs-embedded receptors.</p><p>We are thankful for the excellent support of the CM01 staff, and for the stability/quality of the microscope itself!</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Top panel: 2D class averages from the initial classification, showing mainly top views. Bottom: 2D class averages (left) from the classification of filtered particles selected after excluding all classes representing top views that led to the 3D map of the best so far reconstruction (right, also showing the angular distribution of the filtered particles used for this reconstruction).</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

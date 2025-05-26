@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Study and development of diffracting elements for the realization of a gamma-ray lens for nuclear astrophysics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Buslaps</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Nicolas</forename><surname>Barrière</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Pierre</forename><surname>Bastie</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gilles</forename><surname>Roudill</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Nikolai</forename><surname>Abrosimov</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Spectrométrie Physique</orgName>
+								<orgName type="institution">CESR</orgName>
+								<address>
+									<settlement>Toulouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">UJF</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">CESR</orgName>
+								<address>
+									<settlement>Toulouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Julien Rousselle* CESR</orgName>
+								<address>
+									<settlement>Toulouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">IKZ</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Pr Peter von Ballmoos CESR</orgName>
+								<orgName type="institution">Dr Pierre Courtois ILL</orgName>
+								<address>
+									<settlement>Grenoble Toulouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Study and development of diffracting elements for the realization of a gamma-ray lens for nuclear astrophysics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EC62469EFE9E8553798F5BCBA98D63F7</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>A Laue lens focuses gamma rays using Bragg diffraction in the volume of crystals (Laue geometry). Crystal tiles are positioned in concentric rings such that they diffract incident radiation onto a common focal spot <ref type="bibr" target="#b0">[1]</ref>. In a given ring, all crystals are identical and diffract a given energy. To cover a large energy bandpass, each ring must diffract an energy band large enough to overlap partially the energy band diffracted by the neighbouring rings. For us, this constraint implies a mosaic spread between 30 arcsec and 2 arcmin.</p><p>To build an efficient Laue lens the crystals composing the rings must be efficient for the diffraction. But our lenses are designed to work in large bandpasses, approximativeley from 100 keV up to 1 MeV, depending on the project (our latter project was called the Gamma-Ray Imager (GRI) <ref type="bibr" target="#b1">[2]</ref> and was based on a Laue lens made of about 28000 crystal slabs (15mm x 15mm) in germanium, silicon-germanium, and copper to focus radiation from 250 keV up to 950 keV for the first diffraction order). That's why we need a large variety of 'usable' crystals in order to use each of them only in the energy range where it is the most efficient. This experiment was the fourth performed in the framework of the development of a Laue lens for a space borne gamma-ray telescope (after ME-1203, MA-173 and MA-476). The beam energy was selected using two bent Ge 311 crystals. Samples were hold by a sucking plate designed on purpose to hold up to 4 pieces of 15 x 15 mm 2 without inducing strains and allowing fast changes. Sample holder was set on the first tower (the closest from the optical hutch). We used a Ge detector to record the rocking curves. Our objectives were threefold for this experiment:</p><p>1. Despite diffraction in mosaic crystals is known and modelled since almost one century, we observe regularly that diffraction at high energy in a given crystal is less efficient that measurements at lower energy could have let hope. It means that parameters extracted from Darwin's model fit to the data are not re-usable at a different energy. This problem has been noticed with Cu and Au mosaic crystals.</p><p>During this experiment, we measured various good quality samples (2 Cu, 2 Ag, 1 Au, 1 Rh, 1 GaAs) at energies 150, 200, 300, 400, 500, 600 and 700 keV, which should give us enough data to understand this deviation in Darwin's model. 2. Our collaboration have been developing crystals having curved diffraction planes as an alternative to mosaic crystals because they are more efficient to diffract: disregarding the absorption through the crystal, their diffraction efficiency can reach 100% instead of 50 % for the mosaic crystals. During this experiment we had to characterize 5 pieces of Si 1-x Ge x gradient crystals (x varying along the growth axis) extracted from a single ingot recently produced at IKZ (Berlin, Germany). We took benefit from the fact the beamline was tuned to change easily the beam energy to measure each sample at various energies (150, 200, 300, 400, 500, 600 keV). This allows us the exploration of a large range of the theory since both the energy and the curvature of the diffracting planes vary. 3. We keep looking for efficient crystals, following three main themes <ref type="bibr" target="#b2">[3]</ref> -Crystals that cleave (it would greatly ease their accurate orientation of the lens frame).</p><p>-Crystals for high energies, typically high Z pure crystals (Pb, Au, Rh, Ag, …) -Crystals having curved diffracting planes to give us an alternative to SiGe gradient crystals, especially at high energy where Si has not a high enough electron density to be efficient. Thus we measured numerous samples of GaAs, InP, CaF2, CdZnTe, Au, Ag, Pb, and Rh crystals at the best suited energy between 150 and 700 keV depending on the crystal, its thickness and its mosaicity. All these samples were before oriented and pre-characterized using the hard X-ray diffractometer of the monochromator group of ILL. Finally we measured a new kind of crystal having curved diffracting planes: a piece of Si wafer having one of its face grooved <ref type="bibr" target="#b3">[4]</ref>. The grooves induce a release of the superficial strains implying an elastic but permanent convex curvature. This method is interesting because it could be applicable on other perfect crystals such as Ge for instance.</p><p>The experiment has been globally very successful, with more than 1000 usable rocking curves recorded in six days. Our highlight came from the last sample measured, the Si bend by the surface treatment. At 150 keV a diffraction efficiency of 92% has been recorded in a bandpass of 14 arcsec, which is very close from the theoretically expected value demonstrating that the grooving produces a very pure curvature of the crystalline planes. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1 : Rocking curves recorded on the grooved Si crystal at 150 keV. The diffraction efficiency reach 92%, which means that the reflectivity is 67% (the beam crosseda thickness of 10 mm).</figDesc><graphic coords="2,62.16,381.68,249.84,208.80" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">R and D progress on second-generation crystals for Laue lens applications</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Barrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Von Ballmoos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Courtois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Abrosimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Buslaps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Camus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Halloin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jentschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Knödlseder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Roudil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Serre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Skinner</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.733993</idno>
+	</analytic>
+	<monogr>
+		<title level="m">SPIE Proceedings</title>
+		<imprint>
+			<publisher>SPIE</publisher>
+			<date type="published" when="2007-09-13">2007</date>
+			<biblScope unit="volume">6688</biblScope>
+			<biblScope unit="page">66880O</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barrière et al., R&amp;D progress on second-generation crystals for Laue lens applications. proc. SPIE 6688, pp.66880O (2007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">GRI: focusing on the evolving violent universe</title>
+		<author>
+			<persName><forename type="first">Jürgen</forename><surname>Knödlseder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Von Ballmoos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Filippo</forename><surname>Frontera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angela</forename><surname>Bazzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Finn</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Margarida</forename><surname>Hernanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cornelia</forename><surname>Wunderer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10686-008-9119-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Astronomy</title>
+		<title level="j" type="abbrev">Exp Astron</title>
+		<idno type="ISSN">0922-6435</idno>
+		<idno type="ISSNe">1572-9508</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="121" to="138" />
+			<date type="published" when="2009">2009</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Knödlseder, et al., GRI: focusing on the evolving violent universe. Experimental Astronomy, 23(1):121-138 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Experimental and theoretical study of the diffraction properties of various crystals for the realization of a soft gamma-ray Laue lens</title>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Barrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Rousselle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Von Ballmoos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nikolai</forename><forename type="middle">V</forename><surname>Abrosimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Courtois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Bastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thierry</forename><surname>Camus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Jentschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">N</forename><surname>Kurlov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenzo</forename><surname>Natalucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gilles</forename><surname>Roudil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolai</forename><surname>Frisch Brejnholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Denis</forename><surname>Serre</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889809023218</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="834" to="845" />
+			<date type="published" when="2009-08-01">2009</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">Barrière et al., Experimental and theoretical study of the diffraction properties of various crystals for the realization of a soft gamma-ray Laue lens, J. of Applied Crystalography 49 (2009), in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Experimental Study for the Feasibility of a Crystalline Undulator</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bellucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Biryukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu.</forename><forename type="middle">A</forename><surname>Chesnokov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dabagov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giannini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Guidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu.</forename><forename type="middle">M</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Kotov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Maisheev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Malagù</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Martinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Petrunin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Skorobogatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stefancich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vincenzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.90.034801</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34801</biblScope>
+			<date type="published" when="2003-01-23">2003</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Bellucci, et al. Experimental Study for the Feasibility of a Crystalline Undulator. Physical Review Letters, 90(3):034801 (2003).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

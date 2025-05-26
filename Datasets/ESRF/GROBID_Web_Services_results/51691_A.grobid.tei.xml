@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pawel</forename><surname>Kwasniewski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">MINT</orgName>
+								<orgName type="institution" key="instit1">IMMM</orgName>
+								<orgName type="institution" key="instit2">Université du Maine Brice Calvignac</orgName>
+								<orgName type="institution" key="instit3">Université d&apos;Angers</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Beuvier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">MINT</orgName>
+								<orgName type="institution" key="instit1">IMMM</orgName>
+								<orgName type="institution" key="instit2">Université du Maine Brice Calvignac</orgName>
+								<orgName type="institution" key="instit3">Université d&apos;Angers</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alain</forename><surname>Gibaud</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">MINT</orgName>
+								<orgName type="institution" key="instit1">IMMM</orgName>
+								<orgName type="institution" key="instit2">Université du Maine Brice Calvignac</orgName>
+								<orgName type="institution" key="instit3">Université d&apos;Angers</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elvia</forename><surname>Chavez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">MINT</orgName>
+								<orgName type="institution" key="instit1">IMMM</orgName>
+								<orgName type="institution" key="instit2">Université du Maine Brice Calvignac</orgName>
+								<orgName type="institution" key="instit3">Université d&apos;Angers</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5B12E98307D7C3A2A0757D7B823299EC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A successful implementation of in situ X-ray scattering analysis of synthetized particle materials in silicon/glass microreactors is reported. Calcium carbonate (CaCO 3 ) as a model material was precipitated inside the microchannels through the counter-injection of two aqueous solutions, containing carbonate ions and calcium ions, respectively. The synthesized calcite particles were analyzed in situ in aqueous media by combining Small Angle X-ray Scattering (SAXS) and Wide Angle X-ray Scattering (WAXS) techniques at the ESRF ID02 beam line. At high wavevector transfer, WAXS patterns clearly exhibit different scattering features: broad scattering signals originating from the solvent and the glass lid of the chip, and narrow diffraction peaks coming from CaCO 3 particles precipitated rapidly inside the microchannel. At low wavevector transfer, SAXS reveals the rhombohedral morphology of the calcite particles together with their micrometer size without any strong background, neither from the chip nor from the water. This study demonstrates that silicon/glass chips are potentially powerful tools for in situ SAXS/WAXS analysis and are promising for studying the structure and morphology of materials in non-conventional conditions like geological materials under high pressure and high temperature. This work will be published in Lab on a chip with the title : "Implementation of in situ SAXS/WAXS characterization into silicon/glass microreactors".</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Optically transparent integrated microfluidic devices are widely used in biology, <ref type="bibr" target="#b0">1</ref> chemistry, <ref type="bibr" target="#b1">2</ref> and material science <ref type="bibr" target="#b2">3</ref> mainly because optical in situ characterization, such as microscopic observations, <ref type="bibr" target="#b3">4</ref> dynamic light scattering, <ref type="bibr" target="#b4">5</ref> or light spectroscopy (UV-vis, <ref type="bibr" target="#b5">6</ref> Raman, 7 photoluminescence 8 ), can be easily performed inside microchannels. Additionally, thanks to the advancement of synchrotron sources, Small-Angle and Wide-Angle X-ray scattering (SAXS/WAXS) studies utilizing microfluidic devices are more and more used, notably to characterize the morphology and the structure of proteins, <ref type="bibr" target="#b8">9</ref> nucleic acids, <ref type="bibr" target="#b9">10</ref> biomacromolecules, <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> or inorganic nanoparticles. <ref type="bibr" target="#b12">13</ref> Amongst the transparent microfluidics systems, most of them are fabricated from silicone elastomers (such as polydimethylsiloxane PDMS). As silicone elastomers are permeable to water vapor, they are sometimes replaced by rigid thermoplastics including cyclic olefin homopolymer (COP), polystyrene (PS), or poly-methyl methacrylate (PMMA). These polymers have high transparency and low fluorescence over a wide visible spectral range. These microreactors often make excellent prototypes but they have limited operating pressure and temperature ranges, as well as poor chemical compatibility with most of the organic solvents.</p><p>Alternative experimental setups can overcome some of the above difficulties, in particular under high pressure and temperature, by considering glass or sapphire capillaries. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> Their high compatibility with many organic solvents and their good resistance to aggressive chemicals extend the scope of fluids that can be used. However, glass tubings suffer from low design flexibility and exhibit poor heat transfers. Additionally, it is extremely difficult to design fancy mixing devices in a glass capillary.</p><p>The development of on-chip silicon-glass microsystems has addressed the optimization of both the experimental approaches towards the use of a large panel of fluids and solvents, as well as the extent of the operating conditions of these micro systems at high temperature and high pressure. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> The use of top borosilicate glass wafers anodically bonded to silicon also provides the optical access. <ref type="bibr" target="#b18">19</ref> Moreover, advanced microfabrication techniques can be easily used from silicon and glass wafers, providing for a wide range of designs, from two dimensional layouts extruded in the third dimension to fully three dimensional structures. This design flexibility allows for the precise manipulation of hydrodynamics and has greatly facilitated the in situ observation of chemical reactions with the possibility to study minute quantities of fluids while ensuring high temperature, high pressure capabilities to enlarge the field of applications, such as phase diagram investigations, <ref type="bibr" target="#b19">20</ref> fuel conversion, <ref type="bibr" target="#b20">21</ref> nanomaterials synthesis <ref type="bibr" target="#b21">22</ref> , <ref type="bibr" target="#b22">23</ref> or chemistry. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> However, literature concerning the use of silicon/glass chips with X-ray scattering techniques is rather scarce, especially in the case of SAXS/WAXS experiments. The requirement of a small beam size (in the micron range) and high intensity are among the main limiting factors, while the optimum experimental conditions can be certainly provided at synchrotron beam lines. X-ray scattering experiments coupled to silicon-glass microreactors for studying the in situ formation of crystallized particles is thus the main concern of this paper. Although amorphous glasses cannot be considered as being the perfect materials for X-ray scattering at wide angle, <ref type="bibr" target="#b25">26</ref> they offer here the optical access to check the results of the SAXS and WAXS analyses concerning the particle structure and morphology. Indeed, this double diagnostic optical/X-ray appears as the essential preliminary mean to anticipate the feasibility of X-ray scattering on future blind silicon-silicon systems. The ID02 beam line at ESRF (Grenoble -France) allows for simultaneous SAXS and WAXS measurements with a good spatial resolution.</p><p>To examine the feasibility of using silicon/glass microreactors, we have chosen the calcium carbonate (CaCO 3 ) as a model material to investigate the structure and the morphology of the crystallized microparticles. Calcium carbonate is interesting because it is abundant in biominerals or geological formations and largely used in numerous domains due to its wide use as an additive supporting product in paints, plastics or paper or as smart microcarriers in biomedical applications.</p><p>Among the CaCO 3 polymorphs, vaterite exhibits generally a spherical morphology. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> Aragonite looks like needles and is well known to precipitate only at temperature above around 40°C. <ref type="bibr" target="#b28">29</ref> Finally, calcite has a trigonal crystal system with a c R3 space group and exhibit various polygonal morphologies. The majority of the calcite crystals adopt a randomly oriented rhombohedral form with angles between the faces close to α = 76°. <ref type="bibr" target="#b29">30</ref> Additionally, CaCO 3 exhibits low solubility. At 25°C, the solubility constants are K sp = 10 -6.4 , 10 -7.9 , 10 -8.3 and 10 -8.5 for the amorphous calcium carbonate (ACC), <ref type="bibr" target="#b30">31</ref> vaterite, aragonite and calcite, <ref type="bibr" target="#b31">32</ref> respectively. CaCO 3 can thus precipitate easily by mixing two aqueous solutions of very low concentrations, one containing the carbonate ions CO <ref type="bibr">3 2-</ref>and the other the calcium ions Ca 2+ , as previously reported. <ref type="bibr" target="#b32">33</ref> , <ref type="bibr" target="#b33">34</ref> , <ref type="bibr" target="#b34">35</ref> Without any additive reagent, calcite and vaterite are mostly obtained in synthesis performed at ambient temperature, whereas aragonite appears at higher temperatures (T &gt; 40°C). <ref type="bibr" target="#b33">34</ref> The following sections briefly describe the silicon/glass microreactor used in this study, before</p><p>showing and discussing the SAXS and WAXS results obtained during the counter-injection of the two aqueous solutions to form calcium carbonate in the resulting continuous mixing flow. It is worth noticing that the various experimental parameters (concentration, temperature, pH, mixing efficiency, residence time, etc.) involved during the precipitation of the different polymorphs of CaCO 3 have already been investigated in the literature. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35</ref> Therefore the present concern is only focused on the intrinsic capabilities of the in situ SAXS and WAXS analyses to distinguish the structure and morphology of the particles inside a microchannel of a silicon-glass microreactor, not on the inherent challenges of using microfluidic devices to control the nucleation and growth of these crystals. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental approach and techniques</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Microfluidic device fabrication</head><p>The silicon-glass microreactors were fabricated <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b17">18</ref> through the patterning of the commercial silicon wafers (photolithography + wet etching), which were subsequently anodically bonded to commercial Pyrex 7740 wafers to provide the optical access to the patterned channels from the corresponding microreactor glass part. Our present design consists of two inlet microchannels merging at a Tjunction feeding a larger main channel of interest (Figure <ref type="figure" target="#fig_0">1-a</ref>). The dimensions of the chip were 8 cm by 2 cm for a total thickness of 750 µm including 500 µm of silicon and a 250 µm Pyrex lid. The microchannels (220 µm deep) were obtained by chemical etching of silicon, leading to a trapezoidal cross section exhibiting a width ranging from 240 µm at the bottom to 700 µm at the top for the main channel (Figure <ref type="figure" target="#fig_0">1-b</ref>). Reagents were introduced into two 10 mL syringes and co-injected using a syringe pump (Model 101, KD Scientific) through silica capillaries epoxy-glued to the two inlet channels. The microreactors were mounted vertically along the main channel whose axis corresponds to the z-axis in our experimental orthonormal basis (see Figure <ref type="figure" target="#fig_0">1-c</ref>). In the following, z = 0 denotes the bottom part of the inlet and main channel, while the x and y axes refer to the transverse and colinear directions of the X-ray beam, respectively (Figures <ref type="figure" target="#fig_0">1-c</ref> and <ref type="figure" target="#fig_0">1-b</ref>). M², which is far higher than the solubility constants K sp of CaCO 3 . The two aqueous solutions were flown in opposite directions inside the inlet channels and mixed at the T-junction. Given that the flow regime was laminar (Re ~ 2.5 in our conditions), each of the two solutions filled half of the microchannel cross-section and the mixing -driven by diffusion -occurred at the interface, leading to the formation of CaCO 3 particles within the interdiffusion zone (see schematic Figure <ref type="figure" target="#fig_0">1-c</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Precipitation of</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">SAXS and WAXS analysis</head><p>SAXS and WAXS measurements were collected at the ID02 beam line (ERSF) at energy of 12.490 keV with a beam size of 50 µm x 50 µm cross-section. The SAXS and WAXS images were recorded using 2D image-intensified CCD camera detectors. The sample-to-detector distances were set to 10 cm and 10 m for the WAXS and SAXS detectors, respectively. The magnitudes of the wavevector transfer q r were ranges from 10 nm -1 to 45 nm -1 for WAXS and from 0.008 nm -1 to 0.2 nm -1 for SAXS. All measurements were dark subtracted. The very high flux used at ID02 combined to the high sensitivity of each CCD detector allowed for fast acquisition of less than 200 ms per image.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">X-ray mapping image of the microreactor</head><p>The use of silicon-glass microreactors for in situ X-ray analysis can be affected by the absorption and the scattering of the microsystems itself. These two parameters are of paramount importance to discriminate the signals coming from the flowing fluids from the ones from the microreactor. We first started with the mapping image of the microchannel using the difference of the X-ray beam absorption when crossing or not the channel. The absorption depends mainly on the photoelectric absorption of photons by the material, thereby decreasing the intensity of both the transmitted and the diffracted X-rays. Considering a narrow beam (50 µm x 50 µm cross-section) of mono energetic photons at a wavelength λ 0 , with an incident intensity I 0 , penetrating a layer of thickness y, and finally emerging with an intensity I, the transmission T can be defined as : 36</p><formula xml:id="formula_0">) / exp( ) . . exp( ) ( / ) ( ) ( 0 0 0 0 a y y µ I I T λ ρ λ λ λ - = - = = (1)</formula><p>with µ being the photoabsorption cross section, ρ the layer density and λ a the attenuation length. For the photon energy of 12.490 keV (used in this work), Si a λ ~ 257.4 µm for silicon and glass a λ ~ 487.9 µm for glass. <ref type="bibr" target="#b35">36</ref> Due to the large penetration depth of X-rays in these materials, relatively thick microsystems (in the order of a few hundreds of micrometers) could be used. To localize the T-junction inside the chip, the channel was imaged using scanning X-rays in transmission along the y axis (Figure <ref type="figure" target="#fig_4">2-a</ref>). Such a X-ray radiography of the microreactor has the advantage to be more quantitative than optical microscopy in transmission. In particular the X-ray imaging provides access to the depth of the channel. Indeed, for a silicon/glass bilayer system, the transmission is defined as:  (right axis). Nevertheless, this reconstruction does not give the true profile of the channel as the measured profile is the convolution of the direct beam profile with the true profile of the channel. In this case the beam cross-section size was not small enough to approximate the direct beam to a delta function. The depth profile of the channel is thus smeared out by the instrumental resolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">SAXS and WAXS experiments using Si/glass microreactors</head><p>In addition to the X-ray transmission mapping, the capabilities of silicon/glass microsystems for Xray analysis were checked by performing two types of in situ scattering experiments: SAXS at small wavevector transfer values q &lt; 10 nm -1 and WAXS for q &gt; 10 nm -1 . We now address the interest of silicon/glass microreactors for in situ WAXS and SAXS analysis considering, in the following study, the particular position x = 0, z = 1 mm for the axis of the illuminated channel volume by the X-ray beam of 50 µm x 50 µm cross-section. The related results obtained from the WAXS and SAXS signals at several positions along the channel z-axis are discussed in S1.</p><p>SAXS signals originate from electron density heterogeneities at the mesoscale. It is indeed straightforward to show that homogenous materials, such as glass and silicon, do not produce any signal in the SAXS region, except at very small q, yielding only a low background signal. Note that the channel being etched, it is very likely that the inner surface of the channel is rough at the mesoscale so that even though silicon is homogeneous in nature it can yield a weak signal in SAXS experiments. Such a signal is however clearly position-dependent of the incident X-ray beam.</p><p>In the WAXS region, silicon wafers that are almost perfect single crystals with a cubic symmetry can only scatter when they are oriented in such a way that the Bragg law of reflection is satisfied. On the contrary glass exhibits a strong diffuse ring at q ~ 15 nm -1 corresponding to a d-spacing of 0.43 nm in the Bragg's law, related to its amorphous glassy state. <ref type="bibr" target="#b25">26</ref> In scattering experiments carried out in microfluidic devices, the measured signal is always the sum of the scattering by the investigated material particles to which are added the contributions of the We now highlight the results measured in situ by WAXS before commenting the ones achieved by SAXS, using the 20 µL.min -1 constant flow rate. As mentioned above, all the following sections deal with the single x = 0, z = 1 mm X-ray beam position, while S1 is focussed on the supplementary results at several positions along the z-axis. In addition we note that the in situ SAXS analysis was performed simultaneously to the WAXS analysis. However, in the present study, we failed to monitor the early stages of the calcite formation through the initial precipitates of amorphous calcium carbonate (ACC). We recall that the channel was filled with water at the very beginning of the aqueous solution injection and, as soon as the two solutions are mixed, a drastic change occurred in the scattering signal. However, it was always difficult to identify the precise moment at which the particles of interest are present in the illuminated volume since it was not possible to control either the initial number of ACC nanoparticles or the growing process of the calcite particles in the interdiffusion zone. The selected SAXS and WAXS images were thus recorded only after a finite delaytypically ~ 1 minute -from the injection starting time of the reagents solutions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1">WAXS -access to the particle structure</head><p>A typical example of the two-dimensional WAXS image is given in Figure <ref type="figure">3</ref> and red curves, respectively, in Figure <ref type="figure">3-c</ref>). The observations of several isolated diffraction spots (marked by circles and indexed in Figure <ref type="figure">3-a</ref>) are then clearly due to the presence of individual, oriented calcite microcrystals. These peaks are very narrow in width, showing that these particles are in the order of a few micrometers in size. The absence of rings in WAXS images confirms that no vaterite was formed since this variety is composed of randomly agglomerated nanocrystallites. <ref type="bibr" target="#b26">27</ref> From Figure <ref type="figure">3</ref>-b, it is very clear that the measured signal is dominated by both the two broad peaks (blue curve in Figure <ref type="figure">3-c</ref>) of the 220 µm thick channel water, and also more significantly by the intense signal (black curve in Figure <ref type="figure">3-c</ref>) coming from the 250 µm thick glass lid of the microfluidic system, the large width originating from the amorphous state of glass. <ref type="bibr" target="#b25">26</ref> The high intensity comes from the high electron density of the glass (ρ glass = 713 e -.nm -3 assuming ρ = 2.2 g.cm -3 ) compared to the one of water (ρ H2O = 324 e -.nm -3 assuming ρ = 1.0 g.cm -3 ). The intensity of the Bragg peaks (red curve in Figure <ref type="figure">3-c</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2">SAXS -access to the particle morphology</head><p>The SAXS image shown in Figure <ref type="figure">4</ref>-a was taken at the same place and the same time as the WAXS image of Figure <ref type="figure">3</ref> edge of size a along the x axis and its related scattered intensity in the (q x , q z ) plane. In red is shown the scattered intensity of the rhomboedron of calcite in a 3 dimensional view with an isocontour equal to I max /400. I max is the intensity at the center of the plane (q x = 0 and q z = 0). The dimensions of the rhomboedron is a = 2 µm (along x), b = 1.5 µm and c = 1 µm (in the xz-plane).</p><p>Indeed, a zoom (Figure <ref type="figure">4</ref>-b) reveals that these streaks exhibit a pattern of fringes (the so-called Kiessig fringes) due to the micrometer size of these calcite crystals. The fringe periodicity ∆q is inversely proportional to the distance size Λ = 2π/ ∆q from two crystal facets being normal to the chosen crystal direction. In agreement with this formula, we can deduce that the periodicities of the selected streaks s 1 , s 2 and s 3 in Figures <ref type="figure">4-a</ref> and <ref type="figure">4</ref>-b correspond to calcite particles of typical sizes Λ 1 = 1.9 µm, Λ 2 = 3.7 µm ανδ Λ 3 = 4.3 µm, respectively.</p><p>The above observations can be understood from the expected rhombohedral structure of the calcite.</p><p>Indeed, the scattering intensity of a single rhombohedron can be generally expressed as: x q q q q q q q q q + = -+ + -+ = = where q x , q y , q z , are the components of the wavevector tranfer q r along the x-, y-and z-axis respectively.</p><formula xml:id="formula_1">( )                   - = 2 . ² sinc . 2 . ² sinc . 2 . ² sinc ². ². ) ( 3 2 1 0 q c q b q a V q I sol ρ ρ r<label>(</label></formula><p>It can be seen that the intensity at q y = 0, i.e., in the plane of the detector, couples q x and q z components as the different facets of the rhombohedron are not perpendicular to each other. Note also that we assume here that one of the facets lies parallel to the bottom of the channel of the microsystem. This assumption is likely to be incorrect as the channel surface is rough. Nevertheless, the shape of the Crystal Truncation Rods and the periodicity of the Kiessig Fringes obtained in the simulation results shown in Figure <ref type="figure">4-c</ref> Finally, these typical particle sizes are in good agreement with those obtained from optical microscopic observations after mixing the aqueous solutions ([CaCl 2 ] = 0.010 M and [Na 2 CO 3 ] = 0.010 M) for ~ 1h at a flow rate of 20 µL.min -1 and after drying the channel for 1h at ambient temperature. Indeed, in Figure <ref type="figure" target="#fig_11">5</ref>-a and 5-b, the microscopic images were focused either on the silicon side or on the glass side of the channel. For most of the particles of CaCO 3 , the sizes are clearly below 10 µm, particularly when they are in contact with silicon. It is thus of great interest to assert optically that the sizes determined above from the periodicity of the streaks on the SAXS images are similar to the sizes of the remaining particles visible on the microscopic images of the dried microreactor, although the optical resolution is limited. This final optical control well confirms that the presence of micrometric rhombohedra of calcite have been easily detected by SAXS as soon as there are precipitated and attached to the walls inside the microchannel. The black squares show the position and the dimension of the X-ray beam where the SAXS and the WAXS analysis were done at the beginning of the crystallization process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions and outlook</head><p>Silicon/glass microreactors have proven to be suitable devices for in situ X-ray scattered studies. By coinjecting two aqueous solutions in a T-junction, containing Ca 2+ ions and CO 3 2-ions, respectively, we clearly highlight the formation of rhombohedra of calcite inside the microchannel. The shape of the formed particles and their micrometric size were revealed by SAXS and the calcite crystallographic structure was confirmed by WAXS. A control a posteriori of the morphology of the particles was here possible due to the optically transparent glass lid. The design of a blind silicon/silicon microreactor is now in progress: (i) to avoid the large diffusion of the glass lid in the WAXS region and (ii) to open avenues towards the X-ray studies of material behaviors in non-conventional, high-pressure, high-temperature media on chips, such as, for example, the ones providing (processing) hydrothermal and solvothermal syntheses, or the ones mimicking the geological aquifer formations during the CO 2 injection and storage.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 (</head><label>1</label><figDesc>Fig. 1 (a) General view of the silicon/Pyrex microreactor. (b) Typical sizes of the channel crosssection of the microreactor. (c) Schematic illustration of the T-junction part (red insert in (a)) showing the counter flow injection of the two solutions in the horizontal inlet channels and their mixing flow in the vertical main channel where the calcium carbonate precipitates in the interdiffusion zone. The x, y and z are defined in (b) and (c).</figDesc><graphic coords="5,175.80,43.20,243.72,226.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>CaCO 3 inside the channelTwo glass syringes, containing aqueous solutions of calcium chloride ([CaCl 2 ] = 0.010 M) and sodium carbonate ([Na 2 CO 3 ] = 0.010 M), respectively, were connected to the silica capillaries. The two fluids were injected at constant flow rates into the microreactor at ambient temperature and pressure. In this study, the selected flow rate was 20 µL.min -1 , leading to a flow velocity in the main channel of 5.2 mm.s -1 . The precipitation of CaCO 3 crystals occurs as soon as the product of the concentrations of Ca 2+ and CO3  2-becomes larger than the solubility constant of the CaCO 3 phase. Choosing [Ca 2+ ] = [CO 3 2-] = 0.010 M as a typical reagent concentration leads to [Ca 2+ ].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 (</head><label>2</label><figDesc>Fig. 2(a) X-ray transmission imaging of the T-junction part of the empty chip. (b) Scanning profile of the transmission T (%) (left axis -black curve) and related silicon thickness in µm (right axis -blue curve) along the yellow dotted line of (a) (see text for detail).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>coefficients of silicon and glass respectively, and y Si and y glass their respective thicknesses. With λ a Si = 257.4 µm and λ a glass = 487.9 µm, the calculated transmission is T ~ 8.6% outside the channel for which y Si = 500 µm and y glass = 250 µm and T ~ 20.1% in the middle of the channel where y Si = 280 µm. These values are close to those obtained from Figures 2-a</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>and 2 -</head><label>2</label><figDesc>b where the sample was translated vertically and horizontally every 25 µm to scan a mapping image of the T-junction. At each position, the acquisition time was 200 µs. As a typical result, the transmission profile at z = 2 mm is shown as a black curve in Figure2-b (left axis). From the transmission profile, it is then possible to reconstruct its depth profile, as shown by the blue curve</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>solvent sample and the microfluidic device components. It is therefore mandatory to measure the WAXS and SAXS background signals at fixed z-position, of the empty chip in a first step (background due to the chip components), and then the chip filled with pure water in a second step (background due to the chip component + water mimicking the solvent sample). Subsequently, the 2 aqueous solutions (Na 2 CO 3 0.010 M and CaCl 2 0.010 M) are co-injected into the microreactor and Xray scattering analysis can be carried out at selected z-positions, x = 0 and different working times, thus subtracting the corresponding chip + water background signal. Finally, optical microscopy observations of the microreactor are made after stopping the aqueous solutions flows and drying the channels (typically 2 hours after the starting time of the aqueous solution injections at constant flow rate). The size of the CaCO 3 particles attached to the main channel can be then optically controlled.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>-a, leading to the intensity profile of the azimuthal averaging plotted in Figure 3-b (grey curve). Similarly, the WAXS images of the empty chip and the chip filled with water lead to the intensity profiles plotted in black and blue curves, respectively, in Figure 3-b. The subtraction of the scattered intensities coming from the [particle+solvent+microsystem], the [microsystem+water] and the microsystem itself provides the pure scattered intensity signals of the microdevice, the water and the CaCO 3 crystallites (black, blue</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><figDesc>Fig. 3 (a) Example of an in situ WAXS image taken at x = 0 and z = 1 mm from the channel entrance and just after starting the injection of the 2 aqueous solutions (10 mM reagent). Indexed black, white, and blue circles: diffraction spots of oriented microcrystals [(-114) (black), (-120) or (110) (white), and (-126), (116) or (2-16) (blue)] of calcite. (b) Profile after azimuthal averaging of the (chip+solutions+particles) (grey), the chip+water (blue), and the chip alone (black) two-dimensional WAXS images. (c) Scattering from chip (black), water (blue) and CaCO 3 particles (red). The purples lines on the bottom axis of (c) are Bragg peaks of powder of calcite (see text for details).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><figDesc>Fig. 4 (a) Example of an in situ SAXS image taken in similar conditions to Fig. 3. s1, s2 and s3): crystal truncation rods of oriented microcrystals of calcite. The observation of several streaks (denoted s1, s2 and s3) are attributed to the presence of individual, oriented microcrystals of calcite that were precipitated on the microreactors walls. These streaks are known as crystal truncation rods. (b) Zoom of the inserted tireted part of the SAXS image (a) to reveal the streak periodicity due to to the micrometer size of the calcite crystals. (c) Scheme (not to scale) showing the rhomboedron with</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><figDesc>volume with α the characteristic angle between the edges. 0 ρ is the electron density of the calcite rhombohedron and sol ρ is the electron density of the solvent. By orienting the rhombohedron such as shown in Figure4-c, i.e. the edge of size a is along the x-axis and the edge of size c is in the xz-plane, we can demonstrate that:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><figDesc>, reproduce fairly well the experimental observations assuming a rhombohedron with edges of size a = 2.0 µm (along x), b = 1.5 µm and c = 1.0 µm, with α = 76°.In addition, simulations shown in S6 illustrate the importance of the orientation of the rhombohedron to change the scattered intensity.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Optical images obtained after mixing the aqueous solutions ([CaCl 2 ] = 0.010 M and [Na 2 CO 3 ] = 0.010 M) for around 1h at a flow rate of 20µL.min -1 and after drying the chip for 1h at ambient temperature (a) focused at the silicon side of the channel, (b) focused at the glass side of the channel.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>from: 24/06/2013 to: 28/06/2013</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Cells on chips</title>
+		<author>
+			<persName><forename type="first">Jamil</forename><surname>El-Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">K</forename><surname>Sorger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klavs</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature05063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">442</biblScope>
+			<biblScope unit="issue">7101</biblScope>
+			<biblScope unit="page" from="403" to="411" />
+			<date type="published" when="2006-07-26">2006</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. El-Ali, P. K. Sorger and K. F. Jensen, Nature, 2006, 442, 403-411.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microchemical systems for continuous-flow synthesis</title>
+		<author>
+			<persName><forename type="first">Ryan</forename><forename type="middle">L</forename><surname>Hartman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klavs</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b906343a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page">2495</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. L. Hartman and K. F. Jensen, Lab Chip, 2009, 9, 2495-2507.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Synthesis of micro and nanostructures in microfluidic systems</title>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Marre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klavs</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b821324k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Society Reviews</title>
+		<title level="j" type="abbrev">Chem. Soc. Rev.</title>
+		<idno type="ISSN">0306-0012</idno>
+		<idno type="ISSNe">1460-4744</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">1183</biblScope>
+			<date type="published" when="2010">2010</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Marre and K. F. Jensen, Chem Soc Rev, 2010, 39, 1183-1202.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microfluidic diagnostic technologies for global public health</title>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Yager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thayne</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elain</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kristen</forename><surname>Helton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kjell</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Milton</forename><forename type="middle">R</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernhard</forename><forename type="middle">H</forename><surname>Weigl</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature05064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">442</biblScope>
+			<biblScope unit="issue">7101</biblScope>
+			<biblScope unit="page" from="412" to="418" />
+			<date type="published" when="2006-07-26">2006</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Yager, T. Edwards, E. Fu, K. Helton, K. Nelson, M. R. Tam and B. H. Weigl, Nature, 2006, 442, 412-418.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microfluidics with on-line dynamic light scattering for size measurements</title>
+		<author>
+			<persName><forename type="first">Fanny</forename><surname>Destremaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Baptiste</forename><surname>Salmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ling</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Paul</forename><surname>Chapel</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b906514h</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">3289</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Destremaut, J. B. Salmon, L. Qi and J. P. Chapel, Lab Chip, 2009, 9, 3289-3296.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Simultaneous Optical Monitoring of the Overgrowth Modes of Individual Asymmetric Hybrid Nanoparticles</title>
+		<author>
+			<persName><forename type="first">Young</forename><forename type="middle">In</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eunhye</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Inhee</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Suseung</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyeon</forename><forename type="middle">Don</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kihoon</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yeonho</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Taewook</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jongheop</forename><surname>Yi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.201008097</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="4633" to="4636" />
+			<date type="published" when="2011-04-14">2011</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. I. Yang, E. Jeong, I. Choi, S. Lee, H. D. Song, K. Kim, Y. Choi, T. Kang and J. Yi, Angew Chem Int Edit, 2011, 50, 4633-4636.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Microfluidic approach for studying CO2 solubility in water and brine using confocal Raman spectroscopy</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aymonier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lecoutre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Garrabos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marre</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cplett.2012.09.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Physics Letters</title>
+		<title level="j" type="abbrev">Chemical Physics Letters</title>
+		<idno type="ISSN">0009-2614</idno>
+		<imprint>
+			<biblScope unit="volume">551</biblScope>
+			<biblScope unit="page" from="139" to="143" />
+			<date type="published" when="2012-11">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Liu, C. Aymonier, C. Lecoutre, Y. Garrabos and S. Marre, Chem Phys Lett, 2012, 551, 139-143.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A stable droplet reactor for high temperature nanocrystal synthesis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nightingale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Krishnadasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berhanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Drury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Valsami-Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Demello</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c0lc00507j</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1221" to="1227" />
+			<date type="published" when="2011">2011</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. M. Nightingale, S. H. Krishnadasan, D. Berhanu, X. Niu, C. Drury, R. McIntyre, E. Valsami-Jones and J. C. deMello, Lab Chip, 2011, 11, 1221-1227.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">High-Throughput Small Angle X-ray Scattering from Proteins in Solution Using a Microfluidic Front-End</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Nørgaard</forename><surname>Toft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bente</forename><surname>Vestergaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Søren</forename><forename type="middle">S</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Detlef</forename><surname>Snakenborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mads</forename><forename type="middle">G</forename><surname>Jeppesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jes</forename><forename type="middle">K</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lise</forename><surname>Arleth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jörg</forename><forename type="middle">P</forename><surname>Kutter</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac800011y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Chemistry</title>
+		<title level="j" type="abbrev">Anal. Chem.</title>
+		<idno type="ISSN">0003-2700</idno>
+		<idno type="ISSNe">1520-6882</idno>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3648" to="3654" />
+			<date type="published" when="2008-04-19">2008</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. N. Toft, B. Vestergaard, S. S. Nielsen, D. Snakenborg, M. G. Jeppesen, J. K. Jacobsen, L. Arleth and J. P. Kutter, Anal Chem, 2008, 80, 3648-3654.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Highly Packed and Oriented DNA Mesophases Identified Using in Situ Microfluidic X-ray Microdiffraction</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Pfohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Otten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rolf</forename><surname>Dootz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernd</forename><surname>Struth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heather</forename><forename type="middle">M</forename><surname>Evans</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bm070317s</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomacromolecules</title>
+		<title level="j" type="abbrev">Biomacromolecules</title>
+		<idno type="ISSN">1525-7797</idno>
+		<idno type="ISSNe">1526-4602</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2167" to="2172" />
+			<date type="published" when="2007-06-19">2007</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Pfohl, A. Otten, S. Koster, R. Dootz, B. Struth and H. M. Evans, Biomacromolecules, 2007, 8, 2167-2172.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Dynamics of intermediate filament assembly followed in micro-flow by small angle X-ray scattering</title>
+		<author>
+			<persName><forename type="first">Martha</forename><forename type="middle">Elisabeth</forename><surname>Brennich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens-Friedrich</forename><surname>Nolting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Dammann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernd</forename><surname>Nöding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Bauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harald</forename><surname>Herrmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Pfohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c0lc00319k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">708</biblScope>
+			<date type="published" when="2011">2011</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. E. Brennich, J. F. Nolting, C. Dammann, B. Noding, S. Bauch, H. Herrmann, T. Pfohl and S. Koster, Lab Chip, 2011, 11, 708-716.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microfluidic chips for the crystallization of biomacromolecules by counter-diffusion and on-chip crystal X-ray analysis</title>
+		<author>
+			<persName><forename type="first">Kaouthar</forename><surname>Dhouib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chantal</forename><surname>Khan Malek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wilhelm</forename><surname>Pfleging</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><surname>Gauthier-Manuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><surname>Duffait</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gaël</forename><surname>Thuillier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rosaria</forename><surname>Ferrigno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lilian</forename><surname>Jacquamet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeremy</forename><surname>Ohana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Luc</forename><surname>Ferrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><surname>Théobald-Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Giegé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><surname>Lorber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claude</forename><surname>Sauter</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b819362b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">1412</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Dhouib, C. K. Malek, W. Pfleging, B. Gauthier-Manuel, R. Duffait, G. Thuillier, R. Ferrigno, L. Jacquamet, J. Ohana, J. L. Ferrer, A. Theobald- Dietrich, R. Giege, B. Lorber and C. Sauter, Lab Chip, 2009, 9, 1412-1421.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Small-angle X-ray scattering in droplet-based microfluidics</title>
+		<author>
+			<persName><forename type="first">Ralf</forename><surname>Stehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guenter</forename><surname>Goerigk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>Wallacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Ballauff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Seiffert</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3lc41291a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">1529</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Stehle, G. Goerigk, D. Wallacher, M. Ballauff and S. Seiffert, Lab Chip, 2013, 13, 1529-1537.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Experimental setup for&lt;i&gt;in situ&lt;/i&gt;X-ray SAXS/WAXS/PDF studies of the formation and growth of nanoparticles in near- and supercritical fluids</title>
+		<author>
+			<persName><forename type="first">Jacob</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Bremholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoffer</forename><surname>Tyrsted</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><surname>Pauw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kirsten</forename><forename type="middle">Marie Ø</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jakob</forename><surname>Eltzholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mogens</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bo</forename><forename type="middle">B</forename><surname>Iversen</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889810014688</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="729" to="736" />
+			<date type="published" when="2010-05-22">2010</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Becker, M. Bremholm, C. Tyrsted, B. Pauw, K. M. O. Jensen, J. Eltzholt, M. Christensen and B. B. Iversen, J Appl Crystallogr, 2010, 43, 729-736.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Time-resolved SAXS study of the effect of a double hydrophilic block-copolymer on the formation of CaCO3 from a supersaturated salt solution</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bolze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pontoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ballauff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Narayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cölfen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jcis.2004.04.029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Colloid and Interface Science</title>
+		<title level="j" type="abbrev">Journal of Colloid and Interface Science</title>
+		<idno type="ISSN">0021-9797</idno>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="84" to="94" />
+			<date type="published" when="2004-09">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Bolze, D. Pontoni, M. Ballauff, T. Narayanan and H. Colfen, J Colloid Interf Sci, 2004, 277, 84-94.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Coupling in situ synchrotron radiation with ex situ spectroscopy characterizations to study the formation of Ba1−xSrxTiO3 nanoparticles in supercritical fluids</title>
+		<author>
+			<persName><forename type="first">Gilles</forename><surname>Philippot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kirsten</forename><forename type="middle">M Ø</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mogens</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Catherine</forename><surname>Elissalde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Maglione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bo</forename><forename type="middle">B</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cyril</forename><surname>Aymonier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.supflu.2013.12.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Supercritical Fluids</title>
+		<title level="j" type="abbrev">The Journal of Supercritical Fluids</title>
+		<idno type="ISSN">0896-8446</idno>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="111" to="117" />
+			<date type="published" when="2014-03">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Philippot, K. M. O. Jensen, M. Christensen, C. Elissalde, M. Maglione, B. B. Iversen and C. Aymonier, J Supercrit Fluid, 2014, 87, 111-117.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Design and Packaging of Microreactors for High Pressure and High Temperature Applications</title>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Marre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Adamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Soubir</forename><surname>Basak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cyril</forename><surname>Aymonier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klavs</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ie101346u</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial &amp; Engineering Chemistry Research</title>
+		<title level="j" type="abbrev">Ind. Eng. Chem. Res.</title>
+		<idno type="ISSN">0888-5885</idno>
+		<idno type="ISSNe">1520-5045</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="11310" to="11320" />
+			<date type="published" when="2010-11-17">2010</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Marre, A. Adamo, S. Basak, C. Aymonier and K. F. Jensen, Ind Eng Chem Res, 2010, 49, 11310-11320.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Supercritical microfluidics: Opportunities in flow-through chemistry and materials science</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Roig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aymonier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.supflu.2011.11.029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Supercritical Fluids</title>
+		<title level="j" type="abbrev">The Journal of Supercritical Fluids</title>
+		<idno type="ISSN">0896-8446</idno>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="251" to="264" />
+			<date type="published" when="2012-06">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Marre, Y. Roig and C. Aymonier, J Supercrit Fluid, 2012, 66, 251-264.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Control and detection of chemical reactions in microfluidic systems</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Demello</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature05062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">442</biblScope>
+			<biblScope unit="issue">7101</biblScope>
+			<biblScope unit="page" from="394" to="402" />
+			<date type="published" when="2006-07">2006</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. J. deMello, Nature, 2006, 442, 394-402.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A microfluidic approach for investigating multicomponent system thermodynamics at high pressures and temperatures</title>
+		<author>
+			<persName><forename type="first">Bruno</forename><surname>Pinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stéphane</forename><surname>Girardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frédéric</forename><surname>Bazer-Bachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ghislain</forename><surname>Bergeot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Marre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cyril</forename><surname>Aymonier</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4lc00505h</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">3843</biblScope>
+			<date type="published" when="2014-07-18">2014</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Pinho, S. Girardon, F. Bazer-Bachi, G. Bergeot, S. Marre and C. Aymonier, Lab Chip, 2014, 14, 3843-3849.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Silicon-Based Microchemical Systems: Characteristics and Applications</title>
+		<author>
+			<persName><forename type="first">Klavs</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/mrs2006.23</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bulletin</title>
+		<title level="j" type="abbrev">MRS Bull.</title>
+		<idno type="ISSN">0883-7694</idno>
+		<idno type="ISSNe">1938-1425</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="101" to="107" />
+			<date type="published" when="2006-02">2006</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. F. Jensen, Mrs Bull, 2006, 31, 101-107.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Supercritical Continuous‐Microflow Synthesis of Narrow Size Distribution Quantum Dots</title>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Marre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jongnam</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jane</forename><surname>Rempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moungi</forename><forename type="middle">G</forename><surname>Bawendi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klavs</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.200801579</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="4830" to="4834" />
+			<date type="published" when="2008-12-16">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Marre, J. Park, J. Rempel, J. Guan, M. G. Bawendi and K. F. Jensen, Adv Mater, 2008, 20, 4830-+.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Microfluidic supercritical antisolvent continuous processing and direct spray-coating of poly(3-hexylthiophene) nanoparticles for OFET devices</title>
+		<author>
+			<persName><forename type="first">Ricardo</forename><surname>Couto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvain</forename><surname>Chambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cyril</forename><surname>Aymonier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmanuel</forename><surname>Mignard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bertrand</forename><surname>Pavageau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arnaud</forename><surname>Erriguible</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Marre</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4cc07878k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Communications</title>
+		<title level="j" type="abbrev">Chem. Commun.</title>
+		<idno type="ISSN">1359-7345</idno>
+		<idno type="ISSNe">1364-548X</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1008" to="1011" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Couto, S. Chambon, C. Aymonier, E. Mignard, B. Pavageau, A. Erriguible and S. Marre, Chem Commun, 2015, 51, 1008-1011.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Deciding Whether To Go with the Flow: Evaluating the Merits of Flow Reactors for Synthesis</title>
+		<author>
+			<persName><forename type="first">Ryan</forename><forename type="middle">L</forename><surname>Hartman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">P</forename><surname>Mcmullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klavs</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.201004637</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">33</biblScope>
+			<biblScope unit="page" from="7502" to="7519" />
+			<date type="published" when="2011-06-27">2011</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. L. Hartman, J. P. McMullen and K. F. Jensen, Angew Chem Int Edit, 2011, 50, 7502-7519.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Tools for chemical synthesis in microsystems</title>
+		<author>
+			<persName><forename type="first">Klavs</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brandon</forename><forename type="middle">J</forename><surname>Reizman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">G</forename><surname>Newman</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4lc00330f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="3206" to="3212" />
+			<date type="published" when="2014">2014</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. F. Jensen, B. J. Reizman and S. G. Newman, Lab Chip, 2014, 14, 3206-3212.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Warren</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jace.2015.98.issue-10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Ceram Soc</title>
+		<idno type="ISSN">0002-7820</idno>
+		<idno type="ISSNe">1551-2916</idno>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="5" to="10" />
+			<date type="published" when="1992">1992</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. E. Warren, J Am Ceram Soc, 1992, 75, 5-10.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Synthesis of hollow vaterite CaCO3 microspheres in supercritical carbon dioxide medium</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Beuvier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brice</forename><surname>Calvignac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gaëtan Jean-Robert</forename><surname>Delcroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">My</forename><forename type="middle">Kien</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stéphanie</forename><surname>Kodjikian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Delorme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-François</forename><surname>Bardeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Gibaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Boury</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c1jm10770d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Chemistry</title>
+		<title level="j" type="abbrev">J. Mater. Chem.</title>
+		<idno type="ISSN">0959-9428</idno>
+		<idno type="ISSNe">1364-5501</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page">9757</biblScope>
+			<date type="published" when="2011">2011</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Beuvier, B. Calvignac, G. E. J. R. Delcroix, M. K. Tran, S. Kodjikian, N. Delorme, J. F. Bardeau, A. Gibaud and F. Boury, J Mater Chem, 2011, 21, 9757-9761.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A C</forename><surname>Panduro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beuvier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hassani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Calvignac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gibaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="881" to="889" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. A. C. Panduro, T. Beuvier, M. F. Martinez, L. Hassani, B. Calvignac, F. Boury and A. Gibaud, J Appl Crystallogr, 2012, 45, 881-889.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Polymorphism Studied by Lattice Phonon Raman Spectroscopy and Statistical Mixture Analysis Method. Application to Calcium Carbonate Polymorphs during Batch Crystallization</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carteret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dandeu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moussaoui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Muhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Humbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Plasari</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cg800368u</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crystal Growth &amp; Design</title>
+		<title level="j" type="abbrev">Crystal Growth &amp; Design</title>
+		<idno type="ISSN">1528-7483</idno>
+		<idno type="ISSNe">1528-7505</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="807" to="812" />
+			<date type="published" when="2009">2009</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Carteret, A. Dandeu, S. Moussaoui, H. Muhr, B. Humbert and E. Plasari, Cryst Growth Des, 2009, 9, 807-812.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Template Adaptability Is Key in the Oriented Crystallization of CaCO&lt;sub&gt;3&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">Daniela</forename><forename type="middle">C</forename><surname>Popescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maarten</forename><forename type="middle">M J</forename><surname>Smulders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benoît</forename><forename type="middle">P</forename><surname>Pichon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Natalia</forename><surname>Chebotareva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seo-Young</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Otto</forename><forename type="middle">L J</forename><surname>Van Asselen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rint</forename><forename type="middle">P</forename><surname>Sijbesma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elaine</forename><surname>Dimasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nico</forename><forename type="middle">A J M</forename><surname>Sommerdijk</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja075875t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">45</biblScope>
+			<biblScope unit="page" from="14058" to="14067" />
+			<date type="published" when="2007-10-18">2007</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. C. Popescu, M. M. J. Smulders, B. P. Pichon, N. Chebotareva, S. Y. Kwak, O. L. J. van Asselen, R. P. Sijbesma, E. DiMasi and N. A. J. M. Sommerdijk, J Am Chem Soc, 2007, 129, 14058-14067.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Solubility of amorphous calcium carbonate</title>
+		<author>
+			<persName><forename type="first">Ljerka</forename><surname>Brečević</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arne</forename><forename type="middle">Erik</forename><surname>Nielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-0248(89)90168-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Crystal Growth</title>
+		<title level="j" type="abbrev">Journal of Crystal Growth</title>
+		<idno type="ISSN">0022-0248</idno>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="504" to="510" />
+			<date type="published" when="1989-11">1989</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Brečević and A. E. Nielsen, Journal of Crystal Growth, 1989, 98, 504-510.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The solubilities of calcite, aragonite and vaterite in CO2-H2O solutions between 0 and 90°C, and an evaluation of the aqueous model for the system CaCO3-CO2-H2O</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Niel</forename><surname>Plummer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eurybiades</forename><surname>Busenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0016-7037(82)90056-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta</title>
+		<title level="j" type="abbrev">Geochimica et Cosmochimica Acta</title>
+		<idno type="ISSN">0016-7037</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1011" to="1040" />
+			<date type="published" when="1982-06">1982</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. N. Plummer and E. Busenberg, Geochimica et Cosmochimica Acta, 1982, 46, 1011-1040.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Screening of Biomineralization Using Microfluidics</title>
+		<author>
+			<persName><forename type="first">Huabing</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bozhi</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Phillip</forename><forename type="middle">S</forename><surname>Dobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Khedidja</forename><surname>Mosbahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Glidle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nikolaj</forename><surname>Gadegaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andy</forename><surname>Freer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">M</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maggie</forename><surname>Cusack</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac801980b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Chemistry</title>
+		<title level="j" type="abbrev">Anal. Chem.</title>
+		<idno type="ISSN">0003-2700</idno>
+		<idno type="ISSNe">1520-6882</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="473" to="478" />
+			<date type="published" when="2009">2009</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. B. Yin, B. Z. Ji, P. S. Dobson, K. Mosbahi, A. Glidle, N. Gadegaard, A. Freer, J. M. Cooper and M. Cusack, Anal Chem, 2009, 81, 473-478.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Calcium carbonate polymorph control using droplet-based microfluidics</title>
+		<author>
+			<persName><forename type="first">Alexandra</forename><surname>Yashina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fiona</forename><surname>Meldrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Demello</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3683162</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomicrofluidics</title>
+		<idno type="ISSNe">1932-1058</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2012-04-06">2012</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Yashina, F. Meldrum and A. deMello, Biomicrofluidics, 2012, 6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Pore-Scale Study of Transverse Mixing Induced CaCO&lt;sub&gt;3&lt;/sub&gt;Precipitation and Permeability Reduction in a Model Subsurface Sedimentary System</title>
+		<author>
+			<persName><forename type="first">Changyong</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Dehoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nancy</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mart</forename><surname>Oostrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">W</forename><surname>Wietsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><forename type="middle">J</forename><surname>Valocchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bruce</forename><forename type="middle">W</forename><surname>Fouke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">J</forename><surname>Werth</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/es1019788</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Science &amp; Technology</title>
+		<title level="j" type="abbrev">Environ. Sci. Technol.</title>
+		<idno type="ISSN">0013-936X</idno>
+		<idno type="ISSNe">1520-5851</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="7833" to="7838" />
+			<date type="published" when="2010-08-30">2010</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Y. Zhang, K. Dehoff, N. Hess, M. Oostrom, T. W. Wietsma, A. J. Valocchi, B. W. Fouke and C. J. Werth, Environ Sci Technol, 2010, 44, 7833-7838.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">X-Ray Interactions: Photoabsorption, Scattering, Transmission, and Reflection at E = 50-30,000 eV, Z = 1-92</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Henke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gullikson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/adnd.1993.1013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Atomic Data and Nuclear Data Tables</title>
+		<title level="j" type="abbrev">Atomic Data and Nuclear Data Tables</title>
+		<idno type="ISSN">0092-640X</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="342" />
+			<date type="published" when="1993-07">1993</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. L. Henke, E. M. Gullikson and J. C. Davis, Atom Data Nucl Data, 1993, 54, 181-342.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

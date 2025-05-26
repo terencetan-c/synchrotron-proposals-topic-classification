@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Focusing Properties of Crossed Wedged Multilayer Laue Lenses</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Mi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Adam</forename><surname>Kubec</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Materials Science</orgName>
+								<orgName type="institution">Technische Universität Dresden</orgName>
+								<address>
+									<postCode>01062</postCode>
+									<settlement>Dresden</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Fraunhofer IWS Dresden</orgName>
+								<address>
+									<addrLine>Winterbergstr. 28</addrLine>
+									<postCode>01277</postCode>
+									<settlement>Dresden</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kathleen</forename><surname>Melzer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Materials Science</orgName>
+								<orgName type="institution">Technische Universität Dresden</orgName>
+								<address>
+									<postCode>01062</postCode>
+									<settlement>Dresden</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Fraunhofer IWS Dresden</orgName>
+								<address>
+									<addrLine>Winterbergstr. 28</addrLine>
+									<postCode>01277</postCode>
+									<settlement>Dresden</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sven</forename><surname>Niese</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">AXO DRESDEN GmbH</orgName>
+								<address>
+									<addrLine>Gasanstaltstr. 8b</addrLine>
+									<postCode>01237</postCode>
+									<settlement>Dresden</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stefan</forename><surname>Braun</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Fraunhofer IWS Dresden</orgName>
+								<address>
+									<addrLine>Winterbergstr. 28</addrLine>
+									<postCode>01277</postCode>
+									<settlement>Dresden</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Structural Physics</orgName>
+								<orgName type="institution">Technische Universität Dresden</orgName>
+								<address>
+									<postCode>01062</postCode>
+									<settlement>Dresden</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Focusing Properties of Crossed Wedged Multilayer Laue Lenses</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9F04A92B38D52DF413B1DA66161B68C0</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Multilayer Laue lenses (MLL) are one of the most promising approaches for hard x-ray optics to achieve high efficiency focusing <ref type="bibr" target="#b0">[1]</ref>. Theoretical work was done to find optimal geometries for subnanometer spot sizes <ref type="bibr" target="#b1">[2]</ref>. First steps were conducted in order to obtain spot sizes significantly below 10 nm by producing the necessary wedged geometry to obtain layer interfaces aligned individually to fulfill their respective Bragg condition <ref type="bibr" target="#b2">[3]</ref>. However the manufacturing process depositing a steep layer thickness gradient on a substrate is not trivial. Recently, we proposed to deposit a stress layer on a flat MLL to elastically bend the structure to obtain a wedged geometry <ref type="bibr" target="#b3">[4]</ref>. This allows the adaption to the particular energy of a particular MLL independently of the used multilayer. We have tested pairs of crossed MLLs with a stress layer for point focusing at the ESRF beam line ID 13. The multilayer was deposited using magnetron sputter deposition on a commercially available flat 6" Silicon substrate. Subsequently pieces of about 5 mm × 80 µm were extracted and Focused Ion Beam milling was applied to shape the lens element to a flat MLL. An additional stress layer can be deposited afterwards on one side to obtain a wedged geometry. Two MLLs with matched focal lengths have to be arranged in close proximity and perpendicularly to each other to enable point focusing. The device can be installed in an existing x-ray microscopy setup.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Single flat vs. wedged Multilayer Laue Lens characterization</head><p>Several lenses with varying geometry were made from the identical deposition. The design of the multilayer is according to Table <ref type="table" target="#tab_0">1</ref>. The difference in local diffraction efficiency is shown for a flat MLL in tilted geometry and a wedged MLL in Figure <ref type="figure" target="#fig_0">1</ref>. Both lenses have the same outer dimensions. For the flat MLL only one dark band of extinction is visible on the lens. This corresponds to a specific d-spacing, which is tilted according to its Bragg condition. In the diffraction pattern, only the area representing the corresponding part shows significant intensity. The transmission through the wedged MLL is much more homogenous; similarly the diffraction pattern representing the lens shows nearly the same intensity for all d-spacings. Only the lowest part of the diffraction pattern representing a section with a very significant zone-layer placement error is dark due to the highly oscillating phase. The zone-placement error was known after the deposition and the area was truncated for focusing experiments. The comparison of diffraction patterns shows the significant difference expected between a flat and a wedged MLL, which were made from the same deposition. Hence, the proposed method produces a wedged geometry for the whole area and aperture of the lens. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crossed flat and wedged Multilayer Laue Lens characterization with Ptychography:</head><p>The MLLs were mounted into the existing optics setup at ID13. Most of the coarse alignment of each MLL was done using a PCO high resolution CCD camera. Precision alignment of the pinhole, the crossed MLL, and the slits was done with a MAXIPIX pixel detector in the far field. Far field diffraction patterns of overlapping regions of a test sample (Siemens star) were acquired by that detector. This information was used to reconstruct information about phase and amplitude of sample and the illumination of the sample using ptychography <ref type="bibr" target="#b4">[5]</ref>. Results are the caustic and properties of the focal spot. For a flat MLL in tilted geometry the smallest focus size determined was 33 nm × 28 nm (FWHM) for an aperture of 23 µm × 23 µm (see Figure <ref type="figure" target="#fig_1">2</ref>), which is nearly diffraction limited. Side lobes are present due to the existing zone-placement error of the multilayer. For the wedged MLL using an aperture of 15 µm × 15 µm, we obtained a diffraction limited focal spot size of 43 nm × 44 nm without any major distortion. The measured efficiency for the crossed MLL is 19.8 % for the system and thus 44.5 % for a single MLL; this is nearly the maximum efficiency expected for this geometry at 10.5 keV. The reconstructed and propagated focus is shown in Figure <ref type="figure" target="#fig_2">3</ref>. A further increase of the illuminated region on the lens up to 30 × 30 µm² results in a slight decrease of the focal size for both lenses; on the other hand the intensity of side lobes caused by imperfections of the deposition increases.    Between a) and b) fast and slow scanning axes were switched in order to estimate the influence of the sample movement in a particular direction on the measurement. Though time constraints limited a proper settlement of all axes leading to some distortions; no evidence for further side lobes is visible and sharp contrast edges were obtained in both, horizontal and vertical scanning direction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Transmission trough and diffraction of a tilted flat and a wedged MLL with thicknesses in beam direction of 8 µm acquired by a PCO high resolution camera placed approx. 20 mm behind the line focus. In contrast to the flat MLL, the transmission and diffraction is nearly homogenous across the aperture of the wedged MLL.</figDesc><graphic coords="2,170.46,289.86,258.24,224.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: a) Intensity of the reconstructed wave field in the focal plane for the crossed flat MLL in tilted geometry. b) Beam profile in horizontal direction. c) Beam profile in vertical direction.</figDesc><graphic coords="3,83.40,77.34,428.64,141.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: a) Intensity of the reconstructed wave field in the focal plane for the crossed wedged MLL. b) Beam profile in horizontal direction. c) Beam profile in vertical direction.</figDesc><graphic coords="3,83.70,271.56,428.16,141.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: a) STXM image of the inner region of the Siemens star test sample. Fast scanning axis: horizontal. b) Same image with exchanged slow and fast axes. c) Ptychographic reconstruction of the same region of the sample.</figDesc><graphic coords="3,83.52,480.42,428.40,122.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figures 4 a</head><label>4</label><figDesc>Figures 4 a) and b) show the results of scanning transmission X-ray microscopy (STXM) measurements; the signal was acquired by a PIN diode. The Siemens star test pattern has 50 nm lines and spaces at the center.Between a) and b) fast and slow scanning axes were switched in order to estimate the influence of the sample movement in a particular direction on the measurement. Though time constraints limited a proper settlement of all axes leading to some distortions; no evidence for further side lobes is visible and sharp contrast edges were obtained in both, horizontal and vertical scanning direction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Design</figDesc><table><row><cell cols="2">of the multilayer</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Energy</cell><cell>Focal length</cell><cell>Thickness</cell><cell>Zones</cell><cell>Smallest zone width</cell></row><row><cell>10.5 keV</cell><cell>6.7 mm</cell><cell>53 µm</cell><cell>850-7850</cell><cell>5 nm</cell></row></table></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We tested MLLs, which were fabricated using the proposed method to obtain the wedged geometry by depositing a stress layer. A nearly homogenous diffraction of such a lens in comparison to an otherwise identical flat MLL in tilted geometry is shown. A pair of pre-assembled crossed wedged MLLs was able to generate a nearly diffraction limited focus with a size of 43 nm × 44 nm and an efficiency of 20 %; this is nearly the maximum achievable efficiency for this energy.We conducted STXM measurements with these lenses, where the smallest features of the test sample consisting of 50 nm lines and spaces are visible. We did not use the whole aperture of the lens due to a known zone placement error, which was caused by a drift in the multilayer deposition process. These errors need to be reduced to a tolerable level in future. To our knowledge, this is the first experiment showing point focusing with MLLs that have an improved geometry, where all layers are tilted with respect to their individual Bragg condition.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Multilayer Laue lenses as high-resolution x-ray optics</title>
+		<author>
+			<persName><forename type="first">Joerg</forename><surname>Maser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">B</forename><surname>Stephenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenbing</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><surname>Macrander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyon</forename><forename type="middle">C</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chian</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ray</forename><surname>Conley</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.560046</idno>
+	</analytic>
+	<monogr>
+		<title level="m">SPIE Proceedings</title>
+		<imprint>
+			<publisher>SPIE</publisher>
+			<date type="published" when="2004-11-04">2004</date>
+			<biblScope unit="volume">5539</biblScope>
+			<biblScope unit="page">185</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maser, Joerg, et al. &quot;Multilayer Laue lenses as high-resolution x-ray optics.&quot; Optical Science and Technology, the SPIE 49th Annual Meeting. International Society for Optics and Photonics, 2004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Takagi-Taupin description of x-ray dynamical diffraction from diffractive optics with large numerical aperture</title>
+		<author>
+			<persName><forename type="first">Hanfei</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jörg</forename><surname>Maser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><surname>Macrander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qun</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Brian</forename><surname>Stephenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyon</forename><forename type="middle">Chol</forename><surname>Kang</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.76.115438</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">1098-0121</idno>
+		<idno type="ISSNe">1550-235X</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">115438</biblScope>
+			<date type="published" when="2007-09-27">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yan, Hanfei, et al. &quot;Takagi-Taupin description of x-ray dynamical diffraction from diffractive optics with large numerical aperture.&quot; Physical Review B 76.11 (2007): 115438.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Wedged multilayer Laue lens</title>
+		<author>
+			<persName><forename type="first">Ray</forename><surname>Conley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chian</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cameron</forename><forename type="middle">M</forename><surname>Kewish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><forename type="middle">T</forename><surname>Macrander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hanfei</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyon</forename><forename type="middle">Chol</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jörg</forename><surname>Maser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Brian</forename><surname>Stephenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2924209</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<idno type="ISSN">0034-6748</idno>
+		<idno type="ISSNe">1089-7623</idno>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">53104</biblScope>
+			<date type="published" when="2008-05-01">2008</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Conley, Ray, et al. &quot;Wedged multilayer Laue lens.&quot; Review of Scientific Instruments 79.5 (2008): 053104.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fabrication of customizable wedged multilayer Laue lenses by adding a stress layer</title>
+		<author>
+			<persName><forename type="first">Sven</forename><surname>Niese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Krüger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Kubec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Laas</surname></persName>
+			<idno type="ORCID">0000-0001-5818-8155</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Gawlitza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathleen</forename><surname>Melzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ehrenfried</forename><surname>Zschech</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tsf.2014.02.095</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<title level="j" type="abbrev">Thin Solid Films</title>
+		<idno type="ISSN">0040-6090</idno>
+		<imprint>
+			<biblScope unit="volume">571</biblScope>
+			<biblScope unit="page" from="321" to="324" />
+			<date type="published" when="2014-11">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Niese, Sven, et al. &quot;Fabrication of customizable wedged multilayer Laue lenses by adding a stress layer.&quot; Thin Solid Films (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Full optical characterization of coherent x-ray nanobeams by ptychographic imaging</title>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Hönig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Hoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<idno type="DOI">10.1364/oe.19.016324</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Optics Express</title>
+		<title level="j" type="abbrev">Opt. Express</title>
+		<idno type="ISSNe">1094-4087</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page">16324</biblScope>
+			<date type="published" when="2011-08-10">2011</date>
+			<publisher>Optica Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hönig, Susanne, et al. &quot;Full optical characterization of coherent x-ray nanobeams by ptychographic imaging.&quot; Optics Express 19.17 (2011): 16324-16329.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Determination of crystallite size distributions (CSDs) of growing methane hydrates by a diffraction technique Experiment number</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-02-27">27 Feb 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Simon</forename><forename type="middle">Arthur</forename><surname>Kimber</surname></persName>
+							<email>kimber@esrf.fr</email>
+						</author>
+						<author>
+							<persName><surname>John</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof. Dr</roleName><forename type="first">Werner</forename><forename type="middle">F</forename><surname>Kuhs</surname></persName>
+							<email>wkuhs1@gwdg.de</email>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">-Ing</forename><surname>Klein</surname></persName>
+							<email>hklein@gwdg.d</email>
+						</author>
+						<title level="a" type="main">Determination of crystallite size distributions (CSDs) of growing methane hydrates by a diffraction technique Experiment number</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-02-27">27 Feb 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DDEFFE9ACA0A8E99A1A8C5D1AC21BC64</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this experiment was the development of a method for the quantitative analysis of crystalite size distributions (CSD's) based on diffraction images from 2D detectors -for future applications in gas hydrate research and beyond. Test cases were samples of gas hydrates (GH) and water ice in various stages of the growth process from liquid water as well as the transformation from ice into GH. Our Fast X-Ray Crystallite Size Determination ("FXRCSD") method requires the measurement of a standard material (LaB 6 NIST powder) for calibration and the investigation of the lateral intensity distribution of the incident beam. This calibration has to be done for each measurement setup. The intensity distribution of the beam was detected with high resolution x-ray sensitive film. Two days of beam time were lost due to a motor problem -see Evaluation form. The measurement setup (sample and beamsize) was configured in a way that spotty diffraction rings are produced. The sample is rotated stepwise around the ω axis for a few degrees (3°) in small steps (0.01° or 0.02°) while taking an image at each step. All images have been taken with the Pixium4700, corrected for the detector gain using the provided image 'gaincorrcoeff.edf' and have been normalized to a beam current of 175 mA. Not all samples are fully analyzed yet -this report is preliminary and mainly serves to support a follow-up proposal. Calibration: To control the number of reflecting grains of the LaB 6 sample (comprimising peak overlap and crystallite statistics) the powder was diluted on site with starch. For the measurement the sample was filled in a 0.8 mm Kapton® capillary and compacted. The sample was rocked 2° in ω with a step size of 0.005°. The exposure time was 5 sec and the beam sizes set to 0.1 x 0.1 mm and 0.3 x 0.3 mm. Fig. <ref type="figure">1</ref> shows one frame of the calibration measurement. The total number of grains detected for the beam size 0.1 x 0.1 are roughly around 500 and for a beam size 0.3 x 0.3 around 3000, which in both cases is not quite at the optimum (≈ 1000); this shows us that we have to improve the dilution of the standard powder. This difficultiy has been compensated and the error was sufficiently limeted with time consuming, manual sorting of the data. The result after analyzing the data with our Python programs 00Peak and OmegaStep are shown in Fig. <ref type="figure">2</ref>; it shows the ln(Intensity) distribution of the LaB 6 standard collected during this beam time and the ln(volume) distribution data obtained with our in-house scanning electron microscope. Both distributions can be described in good proximity by the Gaussian probability density function and provide one scaling factor for the CSD measurements. The lateral beam homogeneity was successfully measured with a high resolution x-ray sensitive film for all beam size settings. The preliminary results of this measurements is, that the beam is homogenous and no big influence on the CSD is to be expected. A fully quantitative CSD</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>analysis will involve the mathematical deconvolution of the beam profile from the measured crystallite intensities (assuming a statistical distribution of the crystallite sizes across the beam) -this is underway.  quartz sand matrix were successfully formed inside a custom AN Salamatin &amp; WF Kuhs (2013) J.Phys.Chem. C 117(16): 8443-8457. Initial ice material: Gas hydrates are commonly grown from fine, polycrystalline water ice [1] and it is conceivable that the topology and crystal size of starting material may influence a CSD of newly formed clathrates. We have investigated this possibility during this beam time by measuring CSDs of two types of starting ice powders produced either spraying or brushing water nebula in to liquid N 2 . The ID15B results (Fig. <ref type="figure" target="#fig_3">3</ref>) are consistent with results from P02.1 [2] and show the ice crystal CSDs to be on average about an order of magnitude smaller than the ones of GH. It is quite noteable that with our FXRCSD method we can reliably determine CSDs in the µm-range for a weak scatterer like ice. CSDs of in-situ growing GH inside a pressure cell: Not foreseen initially but attempted in a trial: Xenon hydrates in designed pressure cell mounted on the sample stage of the beamline ID15B. The experimental setup is shown in the followup proposal. Xenon hydrates were formed at a constant temperature of 3 °C and a pressure ranging from 2 to 6 bar. The cooling of the cell was achieved using a Peltier module. The device is able to maintain the temperature stable to within ± 0.1 °C over periods of many hours and to hold a pressure up to 100 bar. The gas hydrates formation can be interrupted at any time by dropping the pressure to the stability limit and therefore the CSDs of xenon hydrates at different steps of formation can be measured. First CSDs from the same sample of xenon hydrate formed in-situ inside the pressure cell were obtained after 15s, 120s and 250s of the reaction time. The evolution of crystallites sizes from few µm to a few tens of µm indicates a rapid initial growth and some coarsening of hydrate crystals. This is in perfect agreement with microtomographic experiments using the same pressure cell and formation protocol on TOMCAT/SLS. CSD measurements beautifully complement the tomographic images in that they provide quantitative information on CSD, which are much harder to obtain form tomography and certainly are statistically less relevant. The knowledge of the crystallites sizes and their evolution is of considerable importance in order to better understand the microstructure of gas hydrates in sediments and understand the nucleation and growth mechanisms; a corresponding first account is in preparation for Geophysical Research Letters. [1] A Falenty, [2] K Nützmann Master Thesis (Uni Göttingen)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>References:</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 above: Intensity distribution of all analyzed rocking curves (light red) of one sample measure at ID15B and the corresponding size distribution (dark red) measured with the REM .</figDesc><graphic coords="2,259.02,63.96,306.98,187.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 left: Spotty diffraction pattern of the LaBB</figDesc><graphic coords="2,36.00,63.96,216.72,250.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>6 standard. Each individual spot is detected and its rocking curve (see also Fig.1) analysed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 :</head><label>3</label><figDesc>Fig. 3: CSD of ice (starting material for GH production) measured on ID15B (d in µm).The crystal sizes (median 1.4 µm) are much smaller than the size of the ice spheres.</figDesc><graphic coords="2,364.02,352.26,192.53,152.88" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

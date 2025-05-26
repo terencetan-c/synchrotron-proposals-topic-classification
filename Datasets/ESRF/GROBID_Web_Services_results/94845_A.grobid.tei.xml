@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY ESRF User Office</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<affiliation key="aff0">
+								<address>
+									<addrLine>CS 40220 71 avenue des Martyrs</addrLine>
+									<postCode>F-38043 38000 GRENOBLE</postCode>
+									<settlement>GRENOBLE Cedex 9</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY ESRF User Office</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D5C485F0251405F793EBD2A860515BDB</idno>
+					<idno type="DOI">10.1101/2020.08.05.238287v1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body/>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report for Cryo-EM time at ESRF 15-17 July 2020</head><p>Summary: This project aims to determine, for the first time, a 3D structure of the SARM1 (sterile α and HEAT/armadillo motif-containing protein) ring octamer. Using SEC-MALS and negative-stain EM, we have discovered <ref type="bibr" target="#b0">(Sporny et al., 2019</ref>) that SARM1, a protein that executes axonal degeneration, forms an octamer ring structure. Using X-ray crystallography, we further found that the SARM1 octamer is arranged around tandem SAM domains. This arrangement was not described before in other SAM proteins, but is reminiscent of the apoptosome and inflammasome -well known ring-like oligomers that like SARM1may lead to cell death. In these CryoEM experiments we aim to reveal how the catalytic TIR domain is kept auto-inhibited in homeostasis, and what might activate SARM1 under metabolic and oxidative stress. But the most fascinating question is whether there a particular functional relevance for the ring arrangement of SARM1, considering its resemblance to the other degenerative complexes, that is, apoptosome and inflammasome, and in light of the recently discovered interplay between SARM1 and the inflammasome.</p><p>Prior to the July 2020 Krios ESRF session: We had a three-day Krios session in November 2019 and two more in Feb 2020, from which we were able to generate a 2.88A resolution 3D reconstruction of intact, GraFix-ed SARM1. We applied for the July. 2020 Krios session in order to collect a high-resolution data set of a NAD+ complexed SARM1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>July. 15-17 2020 ESRF Krios data collection session report</head><p>In this session, grids that were already in CM01 were measured by Dr. Michael Hons, a collaborator of this project, who screened through several grids that varied in protein concentration and ice thickness. Data collection and results were excellent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Processing report</head><p>We have used cryoSPARC v2 for CTF correction, particle picking, iterative 2D classification, and 3D abinitio reconstructions and refinement. Of the 400,000 particles that were used for 3D reconstruction, 200,000 are eventually used for the reconstructing of one homogenous model. The 3D model resolution is 2.7A. This allows us to position all the secondary structure elements and most side chains. Most importantly, the NAD+ is clearly seen in a newly discovered inhibitory allosteric site.</p><p>Based on these results and the results that we have collected in the previous two Krios sessions, we wrote a manuscript who is submitted for publication and now available on-line in BioRxiv <ref type="url" target="https://www.biorxiv.org/content/10.1101/2020.08.05.238287v1">https://www.biorxiv.org/content/10.1101/2020.08.05.238287v1</ref> </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Structural Evidence for an Octameric Ring Arrangement of SARM1</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Sporny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><surname>Guez-Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Lebendiker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valeria</forename><surname>Ulisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allison</forename><surname>Volf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carsten</forename><surname>Mim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michail</forename><forename type="middle">N</forename><surname>Isupov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yarden</forename><surname>Opatowsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmb.2019.06.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<title level="j" type="abbrev">Journal of Molecular Biology</title>
+		<idno type="ISSN">0022-2836</idno>
+		<imprint>
+			<biblScope unit="volume">431</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="3591" to="3605" />
+			<date type="published" when="2019-09">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sporny, M., Guez-Haddad, J., Lebendiker, M., Ulisse, V., Volf, A., Mim, C., Isupov, M.N., and Opatowsky, Y. (2019). Structural Evidence for an Octameric Ring Arrangement of SARM1. J Mol Biol.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

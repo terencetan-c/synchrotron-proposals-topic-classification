@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Operando XAFS with proton exchange membrane fuel cell</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Carmelo</forename><surname>Prestipino</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof. Dr</roleName><forename type="first">W</forename><surname>Grünert</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Maurits</forename><surname>Van Den Berg</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><surname>Petrova</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">O</forename><forename type="middle">P</forename><surname>Tkachenko</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Zelinsky</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Lehrstuhl fur Technische Chemie</orgName>
+								<orgName type="institution">Ruhr- Universitat Bochum</orgName>
+								<address>
+									<addrLine>Universitatsstr. 150</addrLine>
+									<postCode>D-44789</postCode>
+									<settlement>Bochum</settlement>
+									<country>Germany;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Organic Chemistry</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Operando XAFS with proton exchange membrane fuel cell</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">131D852CD9C2FF8D195C42FFD4EC109A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In recent years, the study of electrocatalysts for proton-exchange membrane fuel cells (PEMFC) has been strongly promoted by the use of XAS <ref type="bibr" target="#b0">[1]</ref>. The wealth of information on the metal particles accesssible by XAS has in particular triggered considerable effort to measure XAS data under conditions as close as possible to realistic reaction regimes. While this goal was first approached with electrochemical cells, in which the working electrode was combined with a conventional counter electrode via a separator e.g. a nafion membrane, XAS studies with real proton-exchange membrane (PEM) fuel cells had to cope with the problem that state-of-the-art membrane-electrode assemblies (MEAs) contain significant amounts of platinum both in cathode and anode. Therefore, in earlier cells for transmission XAS the catalyst in the beam path was removed from the counter electrode <ref type="bibr" target="#b1">[2]</ref> or non-Pt counter electrodes were used (e.g. <ref type="bibr" target="#b2">[3]</ref>), which causes serious interference with the reaction regime. Meanwhile, fluorescence detection, which is mandatory for minority components, has been also extended to the measurement of Pt spectra <ref type="bibr" target="#b3">[4]</ref>. However, due to the very small thickness of catalyst layers and membrane, one has to expect significant contributions from the counter electrode platinum at the typical angles of primary beam incidence (around 45 °). Therefore, the cells proposed so far, work with Pd counter electrodes as well <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>.. We have therefore developed and built a new cell construction in which the incoming X-ray hits the electrode at a very small angle, which permits to exclude contributions from the counter electrode effectively. The cell has been derived by introducing relatively small modifications to a standard test cell used in the industry for the characterization of newly developed MEAs in research labs, which makes sure that the electrochemical performance of the catalyst is measured under state-of-the-art conditions. The modifications concern in particular the thinning of the flowfield wall in a narrow section to allow entrance of the beam into one of the gas channels, where it is lead to the point of interest. Above this point, the upper wall of the flowfield is thinned as well, and the collector and end plates are perforated to allow collecting the fluorescence signal. The first operando testing of this cell with two MEAs, monitoring the state of the Pt/C (A) and Pt-Co/C (B) cathodes (anodes -Pt/C) was the goal of the beam time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental</head><p>The measurements were carried out at BM29. The complex gas feeding system, consisting of a mass-flow controller unit, a moistening unit, the cell, which is included in an electrical measurement circuit with an electronic load and a supporting voltage, and a dryer unit for the exhaust gases, was installed without problems. The beam adjustment with this system is a challenge, but the provisions included in our construction as leads for finding the measurement channel in the (entirely closed) cell construction turned out to be practical, and with the help of Dr. Prestipino, the intensity could be successfully optimized for the Pt/C cathode (MEA A). For each state of this MEA, the PtL III and L II XANES were measured in order to allow assessments of the dband filling. For most states (initial state in inert gas, initial state under feed, after stabilization and every second point of the polarization curve (cf. Fig. <ref type="figure" target="#fig_1">2</ref>)), the PtL III EXAFS was measured as well, with acceptable signal/noise level. After submitting the feed, the MEA was stabilized at a current density of 0.5 A/cm 2 for 8 h, then its state was investigated at open-cirquit voltage and along the polarization curve in steps of 0.2 A/cm 2 . With this setup, it was possible to measure meaningful PtL III spectra, although not with very high quality. At 0.8 A/cm 2 , however, strong fluctuations of the signal started so that measurements were completely impossible. We interpreted the fluctuations as being due to formation and movement of water droplets in the gas diffusion layer, which is passed by the beam at a small angle. Increasing the oxygen flux dosed on the cathode (the H 2 anode flux as well) indeed solved the problem so that the series could be successfully finished. With the Pt-Co/C MEA (B), only L III XANES and EXAFS were measured with Pt, and studies at the Co edge were attempted. It was, however, found that the brilliance of the station was not sufficient to get satisfactory CoK spectra (the Co concentration being just 0.02 mg/cm 2 ; Pt -0.18 mg/cm 2 ). With long accumulation times, XANES could be registered in rather mediocre quality, but there was no way for EXAFS. As elemental concentrations in this range are typical for leached alloy MEAs, it was concluded that a horizontally focused beamline would be necessary for measurements of this type.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Figure <ref type="figure">1</ref> shows the polarization curve measured with MEA A at a gas pressure of 1.5 bar. It is compared with curves measured for the same type of MEA with the same gas flows, but pressures of 1 and 2 bar in the laboratories of Umicore &amp;Co KG. These curves bracket our experimental curve well, except for the high current densities where our curve deviates to higher voltages -apparently a consequence of the enhanced gas flows applied to avoid the condensation of water (see above). Obviously, our cell (and the whole equipment) behaves like stateof-the-art test equipment.</p><p>0,0 0,2 0,4 0,6 0,8 1,0 0,5 0,6 0,7 0,8 0,9 1,0</p><p>Figure <ref type="figure" target="#fig_1">2</ref> gives an impression on the quality of the data from MEA A. The initial spectrum (in inert gas) and a spectrum at 0.5 mA/cm 2 is compared to the transmission spectrum and that of a Pt foil.</p><p>There is a reliable tendency up to ca. 14 Å -1 , which allows a clear evaluation of the first shell (not shown) while information on higher shells is doubtful. Due to the high Pt concentration in this cathode, the data had to be treated with a self-absorption correction, for which the initial cathode had to be measured in transmission as well (taking a half-MEA provided by Umicore). The comparison of the spectra shows that the structural properties of the catalyst were not changed significantly during the experiment.</p><p>Standard test cell, gas pressures -2 bar Standard test cell, gas pressures -1 bar Figure 1: Polarization curves measured with a MEA containing a Pt/C cathode (0.4 mg Pt/cm 2 ). Comparison with data from a standard setup, obtained at different gas pressures). Spectroscopic cell, gas pressures -1.5 bar Pt/C cathode Current density, A/cm 2 Voltage, V</p><p>The XANES data measured with this MEA show, however, that changes occur in the electronic structure (d-band filling) depending on the conditions (Figure <ref type="figure" target="#fig_2">3</ref>). The Pt d-band occupancy was derived from the difference between L 3 and L 2 edge XANES using the formalism proposed in refs. <ref type="bibr" target="#b6">[7]</ref> and <ref type="bibr" target="#b7">[8]</ref>. In the inset of Fig. <ref type="figure" target="#fig_2">3</ref>, the percentage change relative to bulk Pt is shown. A significant drop can be seen between the initial state (in air) and the state after stabilization, probably because of the removal of some oxidized (maybe even chemisorbed) species. With increasing current density, the erence to bulk Pt increases again. The effect is rather small, between 3.3 and 4.2 %, causing the number of unfilled d states (Pt -1.60) to increase just from 1.65 to 1.67. However, the absence of significant scatter in the series shows that the method can differentiate these minute changes. In a subsequent measurement at open circuit, the d-band vacancies remained at the previous level (Fig. <ref type="figure" target="#fig_2">3</ref>, inset) which suggests that the changes are not related to the changes in electrode potential. Rather, we track here irreversible changes in the structure of the metal particles which are probably too small to be reflected in the geometrical quantities accessible via EXAFS at least at the level achieved in this beamtime.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>diff</head><p>The measurements with the Pt-Co/C cathode (MEA B), though not providing publishable data, gave a strong hint on significant changes of the cathode during the measurements. There were changes in the Pt spectra, although not to ace reliably with the present data, and there was a strong increase of the CoK white line indicating an oxidation, probably a leaching of Co. We intend to study this phenomenon in a subsequent beamtime, for which we will have to find, however, a horizontally focused beamline. tr Despite these problems, we would like to state that the data obtained in this beamtime are the first proof of principle of our cell and an important step in its further development and utilization.  L III ini stab. 0.1 0.2 0.3 0.4 0.5 OCV d-Band vacancy change, relative to bulk Pt, %</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: PtL III EXAFS of a Pt/C cathode (0.4 mg Pt/cm 2 ) measured in the spectroscopic cell under inert gas and operando at 0.5 mA/ cm 2 .Comparison with initial spectrum in transmission (half-MEA) and with Pt foil</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Pt L III and L II XANES of Pt foil and of a Pt/C cathode (0.4 mg Pt/cm 2 ) at different current densities (fluorescence measurements, corrected for self absorption). Inset: Assessment of d-band occupancy -percentage decrease relative to bulk Pt.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>from: 28/10/2009 to: 03/11/2009 25/01/10 resubmitted 27/05/12</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">X-ray Absorption Spectroscopy of Low Temperature Fuel Cell Catalysts</title>
+		<author>
+			<persName><forename type="first">Andrea</forename><forename type="middle">E</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abigail</forename><surname>Rose</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr020708r</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<title level="j" type="abbrev">Chem. Rev.</title>
+		<idno type="ISSN">0009-2665</idno>
+		<idno type="ISSNe">1520-6890</idno>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4613" to="4636" />
+			<date type="published" when="2004-08-10">2004</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.E. Russell, A. Rose, Chem. Rev. 104 (2004) 4613-4635.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">In-situ XAFS fuel cell measurements of a carbon-supported Pt–Ru anode electrocatalyst in hydrogen and direct methanol operation</title>
+		<author>
+			<persName><forename type="first">Christina</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathalie</forename><surname>Martz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thorsten</forename><surname>Buhrmester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joachim</forename><surname>Scherer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hartmut</forename><surname>Fuess</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b204293b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<title level="j" type="abbrev">Phys. Chem. Chem. Phys.</title>
+		<idno type="ISSN">1463-9076</idno>
+		<idno type="ISSNe">1463-9084</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3555" to="3557" />
+			<date type="published" when="2002-07-03">2002</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Roth, N. Martz, T. Buhrmester, J. Scherer, H. Fuess, PCCP 4 (2002) 3555-3557.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A PEM fuel cell for in situ XAS studies</title>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J K</forename><surname>Wiltshire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">R</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abigail</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">P</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">P</forename><surname>Hogarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Thompsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><forename type="middle">E</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.electacta.2005.05.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochimica Acta</title>
+		<title level="j" type="abbrev">Electrochimica Acta</title>
+		<idno type="ISSN">0013-4686</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">25-26</biblScope>
+			<biblScope unit="page" from="5208" to="5217" />
+			<date type="published" when="2005-09">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.J.K. Wiltshire, C.R. King, A. Rose, P.B. Wells, M.P. Hogarth, D. Thompsett, and A. E. Russell., Electrochimica Acta 50 (2005) 5208-5217.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Development of an In‐Situ Cell for X‐ray Absorption Measurements During Fuel Cell Operation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Benker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mazurek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Scheiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fuess</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200500122</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<title level="j" type="abbrev">Adv Eng Mater</title>
+		<idno type="ISSN">1438-1656</idno>
+		<idno type="ISSNe">1527-2648</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="952" to="956" />
+			<date type="published" when="2005-10">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Roth, N. Benker, M. Mazurek, F. Scheiba, H. Fuess, Adv. Eng. Mat. 7 (2005) 952-956.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Performance of a fuel cell optimized for&lt;i&gt;in situ&lt;/i&gt;X-ray absorption experiments</title>
+		<author>
+			<persName><forename type="first">Emiliano</forename><surname>Principi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Di Cicco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agnieszka</forename><surname>Witkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><surname>Marassi</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049507013593</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="276" to="281" />
+			<date type="published" when="2007-04-11">2007</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Principi, A. Di Cicco, A. Witkowska, R. Marassi, J. Synchrotron Rad. 14 (2007) 276-281.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An XAS experimental approach to study low Pt content electrocatalysts operating in PEM fuel cells</title>
+		<author>
+			<persName><forename type="first">Emiliano</forename><surname>Principi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agnieszka</forename><surname>Witkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sonia</forename><surname>Dsoke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><surname>Marassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Di Cicco</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b915086b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<title level="j" type="abbrev">Phys. Chem. Chem. Phys.</title>
+		<idno type="ISSN">1463-9076</idno>
+		<idno type="ISSNe">1463-9084</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page">9987</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Principi, A. Witkowska, S. Dsoke, R. Marassi, A. Di Cicco, Phys. Chem. Chem. Phys. 11 (2009) 9987-9995.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">X-ray absorption studies of some platinum oxides</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Mansour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Sayers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Cook</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Shannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Katzer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/j150653a022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry</title>
+		<title level="j" type="abbrev">J. Phys. Chem.</title>
+		<idno type="ISSN">0022-3654</idno>
+		<idno type="ISSNe">1541-5740</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1778" to="1781" />
+			<date type="published" when="1984-04">1984</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.N. Mansour, J.W. Cook Jr., D.E. Sayers, J. Phys. Chem. 89 (1984) 462-469.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Architecture of Bimetallic Pt&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;Co&lt;sub&gt;1−&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt; Electrocatalysts for Oxygen Reduction Reaction As Investigated by X-ray Absorption Spectroscopy</title>
+		<author>
+			<persName><forename type="first">Feng-Ju</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Loka</forename><forename type="middle">Subramanyam</forename><surname>Sarma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hung-Lung</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Din-Goa</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cheng-An</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jyh-Fu</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bing-Joe</forename><surname>Hwang</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp903105e</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<title level="j" type="abbrev">J. Phys. Chem. C</title>
+		<idno type="ISSN">1932-7447</idno>
+		<idno type="ISSNe">1932-7455</idno>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">29</biblScope>
+			<biblScope unit="page" from="12674" to="12681" />
+			<date type="published" when="2009-06-12">2009</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F.Y. Lai, L.S. Sarma, H.L. Chou, D.G. Liu, C.A. Hsieh, J.F. Lee, B.J. Hwang, J. Phys. Chem. C 113 (2009) 12674-12681.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

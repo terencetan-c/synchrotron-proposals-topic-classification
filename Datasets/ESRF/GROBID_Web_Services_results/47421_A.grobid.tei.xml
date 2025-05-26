@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experiment title: Calibration on a beam line with POLAR, a satellite based astrophysical experiment to measure the polarization of gamma ray burst (GRB) photons</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-01-20">20 Jan 2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Thomas</forename><surname>Buslaps</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Silvio</forename><surname>Orsi</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><forename type="first">Vialle</forename><surname>Jean-Pierre</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Nicolas</forename><surname>Produit</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">DPNC</orgName>
+								<orgName type="institution">Universite de Genève</orgName>
+								<address>
+									<addrLine>24 quai Ernest Ansermet</addrLine>
+									<postCode>1205</postCode>
+									<settlement>Geneva</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">LAPP</orgName>
+								<orgName type="institution">CNRS -IN2P3</orgName>
+								<address>
+									<postBox>BP 110</postBox>
+									<postCode>74941</postCode>
+									<settlement>Chemin de Bellevue Annecy-Le-Vieux Cedex</settlement>
+									<country key="FR">FRANCE</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">ISDC -University of Geneva</orgName>
+								<orgName type="institution" key="instit2">ISDC</orgName>
+								<address>
+									<addrLine>16 chemin d Ecogia</addrLine>
+									<postCode>1290</postCode>
+									<settlement>Versoix</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Dr Hajdas Wojciech (*)</orgName>
+								<orgName type="institution" key="instit2">Paul Scherrer Institut</orgName>
+								<address>
+									<addrLine>ODRA 120</addrLine>
+									<postCode>5232</postCode>
+									<settlement>Villigen</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Experiment title: Calibration on a beam line with POLAR, a satellite based astrophysical experiment to measure the polarization of gamma ray burst (GRB) photons</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2012-01-20">20 Jan 2012</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3862B45D3A23DF455C3F5DF6DEFD252D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:50+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>POLAR <ref type="bibr" target="#b0">[1]</ref> is a novel compact space-borne Compton polarimeter conceived for a precise measurement of hard X-ray polarization and optimized for the detection of Gamma-Ray Burst (GRB) photons in the energy range 50-500 keV. The flight model will consist of 25 modules, each built with an array of 8x8 plastic scintillator bars, and read-out by one multi-anode photomultiplier (MAPM). We have performed a systematic calibration of six modular units of POLAR with high energy polarized X-rays over a wide energy range (122keV-511keV) with a high-energy 100% polarized synchroton radiation source at the beam line ID15 at ESRF. A custom read-out electronics system allows to trigger independently on all channels and to store data via I2C/USB on a computer. The setup is an improved and larger version of the setup used in 2009 for the experiment MI-996 on the same beam line in ESRF <ref type="bibr" target="#b1">[2]</ref>. The detector is placed on a tilt stage (allowed rotations: ±45° around the beam axis), fixed on a translating table. The experiment consists of recording all pairs of bars that show a coincident energy deposition &gt; 5 keV; one is the Compton scattering of the incoming photon, the other is the interaction by Compton or photoelectric effect of the secondary photon, usually in another region of the detector. The distribution of the azimuthal scattering angle ξ is referred to as modulation curve, which can be described with the following function: C M (ξ)= A cos 2(ξ-C)+B. The angle of polarization (C) and the modulation factor (µ=A/B) are obtained from the fit, while the degree of linear polarization is Π=µ/µ 100 , where µ 100 is the response of the instrument to a fully polarized photon flux.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The experiment:</head><p>We have performed in ESRF a characterization and calibration of 6 modular units of POLAR with synchrotron radiation using the experimental setup shown in figure <ref type="figure">1</ref>. In order to be able to calibrate the POLAR detector with unpolarized γ-rays from radioactive sources once returned to our home institute, during the beam test all energy levels (except 200 keV) were chosen in order to reproduce the same energies of available radioactive sources: 122, 200, 288, 356 and 511 keV. The new read-out electronics system allowed us to reach a good alignment of the detector on the beam in few minutes (~2 hours in 2009). For each energy level we performed a complete scan of the detector, where 5,000 triggers were collected in the center of each bar (20,000 triggers for energies of 356 and 511 keV) for both horizontal and vertical polarization (e.g. 0° and 90°). The detector was rotated along the beam axis (x axis) in order to achieve both horizontal and vertical polarization. Each of these scans provides a uniform illumination of the detector with monochromatic X-rays, reproduced later with Monte Carlo simulations. Scans at 3 different energies for off-axis beams (4 different angles for each energy) were also performed in order to study the response of the detector to sources not placed at the zenith of POLAR. This study is fundamental since statistically the majority of GRBs in space will be located off-axis, and is a validation of the localization procedure, currently based solely on Monte Carlo simulations <ref type="bibr" target="#b2">[3]</ref>. The data taking has proceeded smoothly with shifts over 24 hours for the whole period, and a total of about 11 GB of raw data have been collected, equivalent to more than 50 million triggers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1: The detector is placed on a tilt, atop a large translating table. The experimental setup is shown in a CAD representation (left) and in a photo taken during the installation of the experiment (right).</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>A first analysis of the collected data shows that POLAR has excellent polarimetric capabilities, confirming the results of the previous experiment with synchrotron radiation at ESRF <ref type="bibr" target="#b1">[2]</ref>. Figure <ref type="figure" target="#fig_0">2</ref> shows the modulation curves for two sample runs during the experiment, where the modulation factor exceeds 50% for the selected set of analysis parameters. Figure <ref type="figure" target="#fig_1">3</ref> shows the pattern of recorded hits in one module during a run with uniform illumination of the detector. As expected by geometry, most of the hits are located in the center of the module. There is good agreement between the experimental data and Monte Carlo simulations, performed with a GEANT4 package. Furthermore, the new electronics read-out system showed very good performances during the test.</p><p>The work described here will the subject of one or more scientific papers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prospects for the future:</head><p>In December 2011 the POLAR collaboration received funding from the PRODEX office of the European Space Agency to build two qualification models and one flight model of POLAR. These three models need to undergo a campaign of qualification test and one of performance test, including measurements with highenergy synchrotron radiation. For this reason we applied for a Long Term Project at ESRF in January 2012.</p><p>During the next experiments the device under test will be a full detector, consisting of 25 modular units. The read-out electronics was greately improved in 2011, which allowed to have independent triggers on all channels. The next version of the electronics, currently under production, will be faster thanks to the LVDS connection (currently I2C) between the electronics subsystems of POLAR. This will allow a considerable increase in statistics during future experiments.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Response of the POLAR detector to a fully polarized photon beam of 356 keV with horizontal (left) and vertical (right) polarization compared to the orientation of the detector. Both plots are obtained from a preliminary data analysis and show modulation factors larger than 50% at the chosen energy.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Typical pattern of recorded hit in one of the modules. Each bar in the histogram corresponds to one read-out channel, and the height of the bar is proportional to the recorded hits in the bar.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">POLAR, a compact detector for gamma-ray bursts photon polarization measurements</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Produit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Barao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deluit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hajdas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leluc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Vialle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wigger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2005.05.066</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">550</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="616" to="625" />
+			<date type="published" when="2005-09">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Produit et al., &quot;POLAR, a compact detector for gamma-ray bursts photon polarization measurements&quot;, Nucl. Instrum. Meth. A, 550, 616 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Response of the Compton polarimeter POLAR to polarized hard X-rays</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hajdas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Honkimäki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lamanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lechanoine-Leluc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Marcinkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Produit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Suarez-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rybka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Vialle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2011.04.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">648</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="139" to="154" />
+			<date type="published" when="2011-08">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Orsi et al., &quot;Response of the Compton Polarimeter POLAR to Polarized Hard X-Rays&quot;, Nucl. Instr. Meth. A 648 (2011) 139-154.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A method to localize GRBs using POLAR</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Suarez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Instrum. Meth. A</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page" from="624" to="634" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Suarez et al., &quot;A method to localize GRBs using POLAR&quot;, Nucl. Instrum. Meth. A, 624 (2010) 624- 634.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

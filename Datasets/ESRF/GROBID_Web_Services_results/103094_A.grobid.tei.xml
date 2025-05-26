@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental Report: HC-5170 Electronic-magnetic phase separation in an axion insulator candidate</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Experimental Report: HC-5170 Electronic-magnetic phase separation in an axion insulator candidate</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1295ABEBBC21F473DD1B7E0FC0ED1998</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Description of experiment</head><p>The combination of perpendicular glide planes in Eu5In2Sb6 creates a potential for topological band crossings, and endows the non-collinear magnetic structure with an Ising-like net magnetic moment. Using resonant elastic x-ray scattering (REXS / PETRAIII, DIAMOND), we had previously evidenced a phase separation between net-magnetized and compensated antiferro-magnetic regimes. The goal of this project is to perform the same REXS experiment, but with a nano-focused beam, to resolve this phenomenon in real space. According the highly specific experimental plan set our proposal, we tuned the beam to the Eu L2 edge (7.6 keV) and searched for magnetic scattering. Unfortunately, we encountered several technical and software limitations that made the experiment hardly feasible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Difficulties</head><p>ID01 is not commonly used for magnetic scattering (REXS) studies, which means that certain capabilities, while technically feasible, were not yet implemented at the time of our experiment:</p><p>• Most problematically, the transfer line of the lHe dewar exerted a large torque on the cryostat pipe, which corresponds to the 𝜽-axis of the diffractometer. 𝜽-rotations/scans, which were crucial to locate Bragg peaks, were therefore not reproducible. • Up to the last day of the experiment, higher harmonic radiation was not well suppressed.</p><p>This produced spurious half-integer charge-scattering peaks, which may have shadowed first-order magnetic scattering. • Maximizing the structure factor in our scattering geometry requires vertical linear (LV) polarization. Although the phase plate setup worked and was nominally tuned to LV, a polarization analyzer to characterize the quality of the resulting beam was not available. • For energy scans (to search for the L-edge resonance), the spacings of the two undulators and the monochromator should be scanned simultaneously, but this was not yet implemented. We attempted to set up manual workaround commands, but these frequently crashed due to synchronization problems. • An instrument model, needed to create an orientation (UB) matrix in Bliss was not implemented.</p><p>Consequently, it was also not possible to perform "fix-Q" energy scans of candidate peaks.</p><p>A great advantage in this project is that we know the ideal scattering geometry from our previous REXS experiments. However, the signal-to-noise ratio may be small, especially before the photon energy is optimized (see. Fig. <ref type="figure" target="#fig_1">2</ref>). Locating these weak peaks is the key challenge, especially since the peaks are extremely narrow (~0.005° FWHM). The procedure must be first to create a reliable UB matrix, so as to be able to locate magnetic Bragg positions with high accuracy and confidence. At this position, a fix-Q energy scan would then be performed to find the maximum of the magnetic resonance and optimize signal-tonoise. The magnetic origin of candidate peaks can also be quickly confirmed by briefly warming the sample to 20 K. Once a magnetic reflection has been confirmed, the scanning/mapping REXS experiment itself would be very fast and straightforward.  The raw detector images show that the peak did indeed disappear when warming above the ordering temperature. Unfortunately, we lost this peak during and improvised "fix-Q energy scan" macro, because the 𝜃 rotation was not reproducible. Given that we have to count 10 seconds for appreciable signal/noise (before optimizing the photon energy), it is extremely difficult to find such a narrow peak (without a UB matrix). Consider, for example, that for a small uncertainty of 1 deg. in 𝜃, one would have to visually inspect ca. 1000 detector images recorded over ~3 hrs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Deviations from original proposal</head><p>We did not deviate from the original proposal but did not get far in our experimental plan, due to technical and software limitations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Achievements</head><p>Due to the difficulties described above, this experimental session failed. Notably, we did on two instances find candidate magnetic peaks, and confirmed that they disappeared upon warming. In both instances, we lost these positions during a energy/𝜃-scans (fix-Q not implemented, 𝜃 axis losing steps).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion and Outlook</head><p>None of the issues above rule out a successful study at ID01. In fact, the higher-harmonic contamination was resolved on the last day of the experiment. The UB matrix (hkl mode) and fix-Q energy scans and three-motor simultaneous scans (without synchronization errors) were implemented shortly after the beamtime. We will be able bring our own polarization analyzer setup for the next beamtime (it has been previously tested on ID01). We have also discussed with the beamline staff to possibility to reinforce the sample stage or to connect the existing cryostat via a rotating baffle, so as to relieve torques on the cryostat. In summary, once reproducible 𝜽 scans in our instrumental geometry have been confirmed at the instrument, a second attempt would seem very promising. Notably, a successful study would also broaden the beamline portfolio and its visibility to the REXS community. We would like to acknowledge the hard work and the competence of the beamline staff. We are very grateful for their enthusiasm to make our experiment work.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Sample holder with oriented single crystals mounted in reflection geometry.</figDesc><graphic coords="1,78.35,652.06,135.65,131.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 :</head><label>2</label><figDesc>Fig.2: Candidate peak for resonant magnetic scattering observed at (6,0,0.5). The peak appeared with FWHM ~ 0.005 deg. (similar to the charge scattering), with max. ca. 20% signal/noise (counting 10 sec). The raw detector images show that the peak did indeed disappear when warming above the ordering temperature. Unfortunately, we lost this peak during and improvised "fix-Q energy scan" macro, because the 𝜃 rotation was not reproducible. Given that we have to count 10 seconds for appreciable signal/noise (before optimizing the photon energy), it is extremely difficult to find such a narrow peak (without a UB matrix). Consider, for example, that for a small uncertainty of 1 deg. in 𝜃, one would have to visually inspect ca. 1000 detector images recorded over ~3 hrs.</figDesc><graphic coords="2,78.35,57.15,351.55,139.50" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

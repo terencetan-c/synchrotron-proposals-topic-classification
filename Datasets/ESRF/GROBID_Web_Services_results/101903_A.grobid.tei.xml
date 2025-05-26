@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5201171EEF4082541193AF65C282FA6A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MX2438 six months report</head><p>The Serial (SSX): Southampton, Essex, Exeter, KCL Block Allocation Group (BAG) has had access to a serial experiment in January 2023 and has successfully used ID29 during commissioning / first user operation. The two groups from Essex and Southampton have experience in serial data collection at Synchrotron sites (I24, Diamond Light Source) and an XFELs (SACLA, Japan and PAL, Korea). The two other groups from Exeter and KCL / Stockholm University have extensive experience with micro-ED experiments. The KCL group has previous SSX experience with the TapeDrive system available at DESY. We describe the first experience with using the ID29 serial setup during commissioning / friendly user time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Beamline performance</head><p>The beamline operated at an energy of 11.56 keV, with a focus of 2 x 4 micrometers. A smaller focus and a higher energy are anticipated; a smaller focus (e.g. 1.5 micron squared) and higher energy (e.g. 23 keV) would be preferable as gains from photoelectron escape would be expected. Higher repetition rates in data collection are also to be expected in future, but the repetition rates had not limited present experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Collection</head><p>We have tried three operation modes: fixed target chip, foil and tape drive. We found the setup for fixed target and foil extremely convenient, as the changing of chips and foils was seamless and easy for the users using the magnetic tool. The auto-centering for the chip, though in testing mode, was equally simple; however, centering failed in cases because fiducials were not visible to the optical camera (e.g. when covered by liquid), making centering of the chip not fail-safe. Especially the foil data collection is elegant as it is extremely fast and very easy to prepare, and low on sample demand. There were various discussions whether radiation damage would adversely affect data collection of neighboring points, which needs experimental verification when this mode is to be used more generallywe would be interested to provide samples / experimental help for this. The third mode tested was tape drive, but this was at an early stage and not successful; we look forward to the next beamtime for testing this mode. It stands to reason that in order to do dynamic studies, this mode will be enabling and thus is essential.</p><p>Data collection was nicely integrated into MxCUBE, though several aspects are still in development. Still, the installation that is there is already very good. A more clear display of hits and indexed patterns is an urgent requirement; an elegant installation now exists at DLS. It might also be beneficial if the system would automatically save some of the camera images of the target in addition to the diffraction data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data processing</head><p>As a standard, data are processed with CrystFel. We found a good installation of the software and were able to use this efficiently; though the beamline scientists provided excessive support and processed most of the data for us during the beamtime.</p><p>We tested using DIALS/xia2 to process serial data from the beamline; we thank you for support and access for installation with our software. Data processing from the Jungfrau detector initially posed several challenges for DIALS, as a standard DIALS install did not support reading the data in the format generated, requiring the use of a custom developer install. However, we were able to mostly resolve the issues towards the end of the experiment, and we are continuing development in this area. To help data processing, writing out standardized (NXmx) metadata into the image files would be most helpful for the developers and would enable DIALS to support processing this kind of data as standard. We are happy to continue working with the beamline team in this area.</p><p>Overall, the data processing was slow, with real-time feedback for experiments being an issue. This inhibits an efficient experimental protocol when at the beamline and would require multiple visits for a single project to achieve a successful outcome.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Note on user mode:</head><p>Serial work generally requires more people on site than other crystallographic experiments; we regularly travel with groups of up to twelve scientists to such an experiment, that typically include a team for sample preparation, a second team for data collection, and a third for data processing and structure analysis. The user office must consider revising the strategy for access to these experiments as long as they are still not routine. We did split our 9 shifts into two separate beamtimes, which allowed six users to be reimbursed, but had to travel with eight people to cover all bases. We suggest allowing for four reimbursed users for a 24 hrs shift.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Southampton:</head><p>We tested Pdx1 crystals <ref type="bibr">(unit cell dimensions 178,178, 115, 90, 90, 90)</ref> and obtained data at the resolution of between 1.8 and 2.2 A. Pdx1 has an R3 unit cell with a cell ambiguity, and the software CrystFel ambigator was used successfully to resolve this. The data were comparable to other sources, in particular they were similar in quality to I24 data we had collected earlier.</p><p>We tested substrate complexes, and analysis is ongoing, but the first maps looked promising. We performed equilibrium soaks to produce intermediates and did a comparison of foil vs fixed target modes. We assume we can prepare and collect time-course data on intermediate formation at the next ID29 experiment, using a tape-drive set-up.</p><p>Finally, we tested crystals grown in batch and from microfluidic droplets, which we develop in the laboratory, and performed comparison of these conditions. For this we used lysozyme and Pdx1 samples. Analysis is on-going.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Exeter:</head><p>The Exeter team tested GmhA from Burkholderia pseudomallei, using the foil approach. This worked very well as the protein proved highly suitable for the ID29 serial beamline as we could readily prepare large numbers of suitable crystals. Using the foil, we have been able to obtain complete datasets at good resolutions, with a quality that is clearly comparable to single crystals.</p><p>We attempted a time-resolved study, adding the substrate to our enzyme to the crystals and pipetting into the foils. The fastest time-point that we could measure is 2-8 minutes. Given the turnover rate of the (mutant) enzyme of one turnover every 30 seconds, we hoped this in the crystal this might be sufficient. In the data we observed an excellent structure of the product. This provides us with useful information on the likely timepoints that will be necessary to obtain snapshots in the catalytic process for this enzyme. We hope that a future visit, using a tape drive, will allow us to collect at the time resolutions required.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Essex:</head><p>We tested the dye-decolourising peroxidases, DtpB and DtpAa. DtpB was used as a control, and we recorded one foil, from which we successfully obtained a structure. For DtpAa we tested three samples in foils, namely just the crystal slurry, the crystal slurry following addition of hydrogen peroxide, and the crystal slurry with addition of 5% Tween20. While the crystal slurry gave a good structure, the sample after peroxide addition gave a good number of indexable hits but requires further analysis. Addition of Tween20 was performed in order to test whether this would improve dispersion of the crystal slurry, as an aid in future sample preparation for tape drive experiments. We needed to establish whether addition of Tween20 affected the data quality or would induce changes in the structure of DtpAa, which was shown not to be the case. We further tested two DtpAa samples on chips, again with and without addition of peroxide. While the first gave good data, the second sample showed a low hit rate, not sufficient for structure determination. Finally, DtpAa was tested on the tape drive, but this experiment could not be successfully concluded because of problems with the set-up.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>KCL / Stockholm University:</head><p>We collected on Aspergillus flavus urate oxidase crystals with fixed target and foil setups. Pure wtUOX was not available in time for beamtime therefore used its K10M variant. As a preliminary test we collected data on the UOX K10M -8AZA complex, and we are pleased with data quality. Frames were processed at the beamline using CrystFEL to approx. 2.15 A and good statistics. Although Dials did not work during our allocated time, James Beilsten-Edmands (DLS) was later able to process the same dataset with this package with comparable statistics. We additionally collected various aerobic datasets on the UOX K10M -5PMUA complex (UOX-bound MUA reacts with O2 from air to generate the radiation sensitive 5PMUA peroxide adduct) using the foil and fixed-target setup. Maps reveal very little sign for the peroxide moiety. This could be due to either significant radiation damage or limited peroxide formation using the UOX K10M variant under the conditions employed. We will be able to properly compare results from our previous from experiments performed on P11 (DESY) using the TapeDrive once we repeat the experiment using wtUOX.</p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Southampton, Essex, Exeter, KCL Serial BAG</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

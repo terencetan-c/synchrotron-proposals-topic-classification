@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Nanoscale structural response of ganglioside‐containing aggregates to the interaction with sialidase</title>
+				<funder>
+					<orgName type="full">ESRF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2011-01-07">2011-01-07</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Elena</forename><surname>Del Favero</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Paola</forename><surname>Brocca</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Simona</forename><surname>Motta</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Valeria</forename><surname>Rondelli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sandro</forename><surname>Sonnino</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><surname>Cantu′</surname></persName>
+						</author>
+						<title level="a" type="main">Nanoscale structural response of ganglioside‐containing aggregates to the interaction with sialidase</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Neurochemistry</title>
+						<title level="j" type="abbrev">Journal of Neurochemistry</title>
+						<idno type="ISSN">0022-3042</idno>
+						<idno type="eISSN">1471-4159</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">116</biblScope>
+							<biblScope unit="issue">5</biblScope>
+							<biblScope unit="page" from="833" to="839"/>
+							<date type="published" when="2011-01-07" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">41C2E30D6A603B95731E46C8958BD0CA</idno>
+					<idno type="DOI">10.1111/j.1471-4159.2010.07031.x</idno>
+					<note type="submission">Received August 6, 2010; revised manuscript received September 20, 2010; accepted September 21, 2010.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>C 12 PC, dodecylphosphocholine</term>
+					<term>DMPC, dimirystoylphosphatidylcholine</term>
+					<term>SANS, small angle neutron scattering</term>
+					<term>SAXS, small angle X-ray scattering GD1a ganglioside micelles, mixed phospholipidganglioside aggregates, sialidase, small-angle neutron scattering, small-angle X-ray scattering</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>It is well known that ganglioside aggregates curvature strongly depends on headgroup structure, as their amphiphilic balance is crucially affected by steric, hydration and charge interactions. A lot of information has been collected throughout the years on the packing properties of gangliosides, in monocomponent and multicomponent colloidal aggregates, with stationary composition, that is, when the system finds its optimal structure at the moment of lipid dissolution in aqueous solution <ref type="bibr" target="#b23">(Sonnino et al. 1994)</ref>. The biochemical motivation underlying the structural studies on simple model micellar systems claims that gangliosides, once in a true membrane and preferentially distributed into enriched domains, play a strong structural role in connection to their packing properties, clearly different from those of phospholipids. Sometimes this hypothesis has been criticized, by observing that, in mixing with other lipids, the packing geometry of single species should be washed out by averaging <ref type="bibr" target="#b18">(Kuypers et al. 1984)</ref>. On the other side, often the single-species packing geometry, if anomalous with respect to the cylindrical flatland seed (conical, anisotropic, environment-sensitive), has been found to confer peculiar properties to the aggregate surface, like bi-or tri-dimensional motifs, local saddle geometry, protrusions or invaginations, or local leakiness or floppiness of the membrane (Sonnino</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>clearly predictable how the aggregate structure can respond to a post-aggregation chemical modification of the headgroup caused by an enzymatic reaction.</p><p>The aim of this study was to directly follow the structural change in model aggregates, induced by on-line molecular modification of already-packed gangliosides, namely the one brought about by a sialidase enzyme, acting on the ganglioside GD1a and leading to the lower-curvature aggregating GM1, completing the molecular digestion in short times. This ensures that the characteristic times of chemical (min) and structural (h) rearrangement can be clearly decoupled. We used four ganglioside-containing model systems, displaying different substrate fragmentation and different surface average density of ganglioside headgroups, namely (i) pure ganglioside micelles, (ii) mixed micelles with dodecylphosphocholine (C 12 PC) in excess ganglioside (0.75 : 0.25) and (iii) in excess surfactant (0.25 : 0.75) mole ratio, and (iv) mixed ganglioside : dimirystoylphosphatidylcholine (DMPC) locally bilayer structures in excess phospholipid (0.25 : 0.75). Each time, we selected the appropriate enzyme-substrate ratio to attain the maximum visibility of the ongoing reaction on the particle collection, within one order of magnitude around the 1 : 1 proportion. We applied small-angle X-ray (SAXS) and neutron (SANS) scattering techniques, being sensitive to different structural aspects of the aggregates on the lengthscales of the mesostructure (nano-lengths, 1-100 nm, size and shape, contrast profile, interaggregate average distance) and followed their time evolution throughout.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials</head><p>Gangliosides GD1a, prepared as sodium salts, was extracted, purified, and chemically characterized as described in the paper of <ref type="bibr" target="#b24">Tettamanti et al. (1973)</ref> and <ref type="bibr" target="#b22">Sonnino et al. (1990)</ref>. DMPC and C 12 PC were purchased from Avanti Polar Lipids Inc. (Alabaster, AL, USA) and used without further purification. Sialidase was expressed in Escherichia coli strain DH5a and used after purification. This enzyme releases a-glycosidically linked and terminally positioned sialic acids from sialosyl-glycoconjugates, thus transforming GD1a in GM1 whatever the aggregated structure, as assessed by TLC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation</head><p>Pure GD1a micellar solutions were obtained by just dissolving the ganglioside powder in aqueous solution. To prepare the mixed systems GD1a : C 12 PC and GD1a : DMPC, each lipid was completely dissolved in the appropriate organic solvent, mixed in exact proportion, dried under vacuum and then hydrated to the final concentration. Samples were prepared either in pure H 2 O, redistilled on a glass apparatus, or pure D 2 O (Sigma-Aldrich Co., Milano, Italy; for neutron scattering experiments), in the 2-5 mg/mL range of concentration. The aggregation properties of gangliosides are the same in H 2 O and in D 2 O. When needed, NaCl was added, to a final 100 mM concentration, to shield Coulomb interactions among charged aggregates. Sialidase, in a mole fraction range consistent with the one assessed for biological activity, was added to the solution directly in the measurement cells.</p><p>Small angle X-ray and neutron scattering measurements SAXS experiments were performed on the ID02 high-brilliance beamline at the ESRF synchrotron facility (Grenoble, France). SANS experiments were performed on the PAXE beamline at the LLB nuclear reactor source Orphe `e (Saclay, France). The same samples were observed prior and after sialidase addition, that occurred directly in the measuring cell, with appropriate mixing of components. Spectra report the intensity I(q) of the excess scattered radiation as a function of the momentum transfer q, in linear or logarithmic scale.</p><p>Data analysis was carried out under the hypothesis that I(q) can be factorized as I(q) P(q) x S(q), where P(q) is the form factor and S(q) is the static structure factor. P(q) is connected to the size, the shape and the contrast profile of the particles in solution. Briefly, it has a maximum value at q = 0 and progressively fades as q increases with an oscillating behaviour depending on the particle features <ref type="bibr" target="#b20">(Pedersen 2002)</ref>. In the present work, the form factors of core-shell ellipsoids of revolution (pure-ganglioside and mixed ganglioside : surfactant micelles) and locally bilayer structures (ganglioside : DMPC) have been used. S(q) accounts for interparticle interactions <ref type="bibr" target="#b17">(Klein 2002</ref>). In the case of repulsive interactions, like the electrostatic ones, S(q) displays a first peak that is most evident for strongly interacting particles. As interactions vanish, for example because salt is added to the solution, or because the particle charge decreases, this peak levels off, the whole S(q) assuming a constant value [S(q) = 1] in the absence of interactions (See Fig. <ref type="figure" target="#fig_0">S1</ref> in supporting information for an example).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Sialidase and pure ganglioside micelles: fragmented closely packed substrate Figure <ref type="figure" target="#fig_0">1</ref> compares SANS spectra obtained on GD1a micelles before enzyme addition and on the same solution at the end of the enzymatic reaction. At the final point, all of the GD1a has been turned into GM1, that is, the external sialic acid has been removed from all of the monomers. The structure peak has nearly disappeared, indicating a loss of intermicellar interactions. Similar measurements have been performed in the absence of intermicellar interactions on GT1b micelles (see Fig. <ref type="figure">S2</ref> in supporting information). The quite long acquisition times of the SANS technique, tens of minutes, allows only the starting and final micelles to be looked at. Instead, SAXS experiments can be performed, at highbrilliance beamlines, with very short acquisition times, tenths of second. So the aggregate evolution can be followed along the enzymatic reaction, once the enzyme-substrate ratio is chosen in a suitable range to allow for optimal visibility. These features allowed recovering the sequence of spectra reported in Fig. <ref type="figure">2</ref>, collected on-line on ganglioside micelles while undergoing the sialidase action. From top (GD1a micelles) to bottom (digested GD1a micelles), measurements were taken at different delays from sialidase addition, from few seconds to several hours, illustrating the aggregate evolution. The system corresponding to the bottom spectrum is chemically GM1. The fit of the initial and final SANS and SAXS spectra, in terms of the form factor of the micelles, reveals that the contrast profile and the mass of the micelles have changed, but the aggregation number has remained the same as the starting one, namely N agg = 226.</p><p>Sialidase and mixed ganglioside + spacer-amphiphile micelles: decrease in surface packing in highly fragmented system SAXS measurements have been performed also on mixed micelles, where GD1a ganglioside headgroups are diluted on the aggregate surface by a spacer amphiphile, the singlechain surfactant C 12 PC, in the topologically limiting conditions 3 : 1 and 1 : 3 mole fractions, corresponding to the monomers of the majority compound being sufficient to completely isolate minority molecules from each other, in principle. As before, mixed micelles were observed as prepared, and then followed on-line while being subjected to the enzyme action. Spectra were taken at different delays from sialidase addition directly in the measuring cell, from few seconds to several hours. The micellar parameters at the beginning and at the end of the enzymatic reaction are reported in Table <ref type="table" target="#tab_0">1</ref>. In the case of prevailing ganglioside, a slight but detectable change is seen in the aggregation number. In the case of prevailing surfactant, the initial and final micelles have the same number composition. Nonetheless, Fig. <ref type="figure" target="#fig_1">3</ref> reports the nearly superimposed initial and final spectra, together with an intermediate one, that is clearly shifted to higher q values.</p><formula xml:id="formula_0">q (/nm) Intensity 0.1 1 0.0 0.1 0.2 0.3</formula><p>Fig. <ref type="figure">2</ref> Effect of sialidase on GD1a micelles. On-line collection of SAXS spectra of ganglioside micelles (c = 0.5% bw, 100 mM NaCl) after the addition of sialidase at different delays: the intensity at low q progressively decreases, whereas the minimum position shifts to higher q (insert). Chemically, the starting system is GD1a and the final is GM1. The cartoon represents micelles before and after digestion.   Ó 2011 The Authors Journal of Neurochemistry Ó 2011 International Society for Neurochemistry, J. Neurochem. (2011) 116, 833-839</p><p>Sialidase and ganglioside + spacer-lipid large aggregate: decrease in surface packing in bilayer-type large aggregates SAXS measurements have been performed also on mixed aggregates, where GD1a ganglioside headgroups are diluted on a locally bilayer structure by a spacer lipid, namely the phospholipid DMPC, in a 1 : 3 mole fraction. Fig. <ref type="figure" target="#fig_2">4</ref> reports the corresponding spectra (typical of the bilayer local structure) collected at different delays from sialidase addition, according to the same procedure as before. The time evolution is clearly composed of two regimes, the first completing in rather short times as compared with the second one. The first regime consists of a rapid decrease in the total scattered intensity, by roughly one order of magnitude at low q (left panel in Fig. <ref type="figure" target="#fig_2">4</ref>). Then, a slow recovery follows, taking more than 10-fold time to complete, to nearly the same absolute values as the initial ones (central panel in Fig. <ref type="figure" target="#fig_2">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In framing the discussion on the structural role of 'anomalously packing' molecules in membranes, one basic question concerns the effectiveness of such molecules to modulate the membrane unevenness in connection to its physical properties. Gangliosides are in the number of such molecules, playing a role in the membrane mechanics both in 'static' aspects, like local curvature, and in dynamic parameters, like elasticity. Different gangliosides display clearly different packing properties, so they could have a different influence on membrane mechanics. For sure, they are found in membrane regions with different morphology <ref type="bibr" target="#b16">(Janich and Corbeil 2007)</ref>, and draw different surface motifs <ref type="bibr" target="#b1">(Bordi et al. 1999</ref>). The question is, then, to what extent an in-situ molecular change, because of the action of an enzyme and affecting a collection of 'collaborative' lipids, is able to induce a structural change in the aggregate, and how a modification in molecular properties can be exploited, if reinforced or smoothed. The answer is not trivial, as many effects are to be considered, including surface orientation, trapping, fencing, decoration, making prediction difficult. Administration of sialidase to cells has been observed to reduce caveolae and caveolar endocytosis, but the system is too complex to clearly assign individual roles to different cell membrane components <ref type="bibr" target="#b21">(Singh et al. 2010)</ref>. Also the kinetics of the process is of importance, as the aggregated state poses unavoidable constraints to single-monomer translational and rotational motions. In the two-dimensional model of the monolayer, for example, the action of the enzyme sphingomyelinase was followed by microscopy methods, producing ceramide directly on the aggregated system organized in domains. It was found that, on one hand, the morphology of SMase-generated ceramide separated domains is not reproducible with SM-Cer mixtures <ref type="bibr" target="#b14">(Hartel et al. 2005)</ref>. On the other hand, the shape of domains depends on the velocity of Cer formation, relaxing to a final morphology with time <ref type="bibr" target="#b10">(Fanani et al. 2009)</ref>.</p><p>The present experiments are based on non-invasive scattering methods, observing the kinetics of gangliosideaggregate restructuring following sialidase-enzyme action in a bulk solution. initial 16 min. Central panel: scattered intensity slower re-increase to the final value. Right panel: the cartoon sketches the three hypotheses mentioned in the text.</p><p>Sialidase and pure ganglioside micelles On the basis of stationary ganglioside micelles, one would expect that 226-monomers GD1a micelles, once chemically digested by sialidase, should structurally respond, over convenient times, by transforming into 301-monomers GM1 micelles. So, the question should be, how long are the structural-reaction times, being the chemical-reaction times of the order of 20 min, in the chosen experimental conditions, and the typical monomer-exchange time for gangliosides of the order of few hours <ref type="bibr" target="#b6">(Cantu' et al. 1991)</ref>.</p><p>Rather, the experimental results of Figs 1 and 2 clearly tell a different story. The micellar aggregation number does not change. In fact, the comparison between the two SANS spectra in Fig. <ref type="figure" target="#fig_0">1</ref> shows that, as of course tested by TLC, the terminal sialic acid of GD1a has been removed from the original micelles, as the structure-factor peak has almost disappeared. The interaction-peak erosion is caused by both the removal of charged groups from the micelles and the increase of the ionic strength of the medium brought about by the free sialic-acid groups in solution. Careful inspection of the spectra and data fit show that the structure peak is still there, as indeed also GM1-containing aggregates are charged, and shows that the interparticle distance is the same, that is, the number of micelles per unit volume is the same, and thus the aggregation number has not changed. The original GD1a micelles have just been mowed by sialidase, as illustrated by the cartoons of Fig. <ref type="figure">2</ref>, and the aggregate acts as a packing trap for the produced GM1 monomers. The same information comes, of course, but independently, from the fit of the form factor of the micelles prior to and after enzyme digestion. After the rapid micellar mass reduction at constant aggregation number, corresponding to the enzyme chemical action, no further change in the aggregate physical properties is observed over much longer times (one day) consistent with structural rearrangement processes, like monomer exchange, of the order of few hours. Although unpredictable, this result is not completely unexpected on the basis of previous findings on the packing properties of GM1. In fact, while dictating the aggregate morphology to satisfy their packing requirements, GM1 monomers are then forced, within the crowded hydrophilic region of the aggregate itself, to resist to rearrangement <ref type="bibr">(Cantu `et al. 2000a,b;</ref><ref type="bibr" target="#b5">Brocca et al. 2007)</ref>. It is known that, under collective forcing, GM1 can stand a 200-monomers packing geometry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sialidase and mixed ganglioside + spacer-amphiphile micelles</head><p>The mixed-aggregate models were then chosen to reduce the hydrophilic collective trapping, as the huge and charged sugar headgroups are diluted on the surface by the smaller zwitterionic headgroups of C 12 PC and DMPC.</p><p>Mixing with C 12 PC guarantees substrate fragmentation (micellar arrangement) while acting as a spacer on the aggregate surface. Furthermore, being a single-chain amphi-phile, C 12 PC is fast-exchanging, that is, it can easily hop in and out from the micelle, eventually chaperoning also some ganglioside trafficking. The results reported in Table <ref type="table" target="#tab_0">1</ref>, in fact, indicate that in the case of prevailing ganglioside, a slight but sensible increase in the aggregation number follows the enzymatic reaction, in line with the standard packing properties of GM1 as compared with GD1a. The time required for structural rearrangement is of the order of 1 h and rearrangement involves both C 12 PC and ganglioside trafficking. The average parameters of the intermediate aggregate are also reported in the table, corresponding to a 6-min delay from sialidase addition (when the enzymatic reaction itself is not over, yet), illustrating a situation smoothly changing from the initial to the final one.</p><p>Table <ref type="table" target="#tab_0">1</ref> also reports results corresponding to the case of mixed micelles with prevailing C 12 PC, that seem to be insensitive, for what concerns the aggregation properties, to the sialidase action. The same number of ganglioside monomers is hosted within the mainly C 12 PC mixed micelle, irrespective whether GD1a or GM1. This is not unreasonable, as the mole fraction ganglioside:C 12 PC = 1 : 3 is enough, in principle, to completely isolate ganglioside molecules from each other, leaving on the thick surface of the aggregate enough room to place either protruding headgroups. It is known that the thickness of mixed ganglioside-phospholipid hydrophilic layer can be used to modulate the packing, playing, for example, the umbrella effect. The spectra corresponding to the initial (GD1a : C 12 PC) and final (GM1 : C 12 PC) mixed micelles, reported in Fig. <ref type="figure" target="#fig_1">3</ref>, are nearly superimposed, as the very low number of ganglioside molecules per aggregate undergoing the enzymatic digestion, prevents the visually impressive change of Fig. <ref type="figure">2</ref> to be observed. Only small differences are seen, corresponding to the 60 GD1a monomers being transformed into GM1, as reported in the table. Interestingly, the structure peak remains almost unchanged in position and in height, revealing that both the interparticle distance and the equivalent charge are the same. This indicates that the loss of external-sialic acid charge through digestion is compensated by extra-dissociation of the internal one (the only one left, at the end), to the optimum value of 50 electronic charges per micelle. This corresponds to nearly all of the ganglioside molecules in the mixed micelle being dissociated, indicating that they are efficiently kept apart from each other by the surrounding C 12 PC monomers <ref type="bibr">(Cantu `et al. 2000a,b;</ref><ref type="bibr">b)</ref>. But an interesting piece of information comes from the intermediate spectrum, also shown in Fig. <ref type="figure" target="#fig_1">3</ref>, revealing that a transient important structural response occurs along the chemical transformation. It corresponds to 4-min delay from sialidase addition, and it is off the smooth route connecting the two extreme states. It cannot be reconstructed by any appropriate mixing of the limiting states, neither. The aggregate structure is temporarily destabilized while ongoing enzymatic reaction. The threespectra sequence could be fitted, for example, by hypothe-sizing a temporary emission/escape of a significative amount of only C 12 PC monomers from the mixed micelle (30-40%), followed, at the end of the reaction, by full recovery. This fragmentation might or not induce a shift in the structure-peak position, a shift that is anyway not seen in the experimental intermediate spectrum. The temporary decrease in the peak height, rather, suggests that some obstacle to ionic dissociation of the inner-sialic could occur, maybe connected to monomer shielding in the intermediate-aggregate, preventing counterion escape. This shielding has been observed to occur in aggregates containing both GD1a and GM1 <ref type="bibr" target="#b12">(Greenshields et al. 2009)</ref>, preventing antibody binding.</p><p>Another most interesting possibility, giving rise to the intermediate spectrum appearance of Fig. <ref type="figure" target="#fig_1">3</ref>, is a transient surface remixing of components, temporarily altering the contrast profile of the micelle. A random/non-random redistribution could be forced, or allowed, by releasing or activating structural trapping.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sialidase and ganglioside + spacer-lipid large aggregate</head><p>The structure destabilization is most evident in mixed aggregates with DMPC, as shown in Fig. <ref type="figure" target="#fig_2">4</ref>. The 90% loss in scattered intensity occurring in short times, a duration compatible with the enzyme chemical action, is clearly the dominating effect, whereas the bilayer-type cross local structure is not strongly affected, on the average. Again, fragmentation could be at the basis of the observed behaviour, induced by curvature-generating contours activated by the ongoing enzyme action. In the place of fragmentation, surface redistribution of components, collecting ganglioside molecules in spots rather than along lines, could induce punctuation. Sedimentation could not be excluded, as well, connected to a delay in the inner sialic dissociation, reducing interaggregate repulsion. It is interesting to notice that, whatever the process at the basis of the rapid structure destabilization (overlapping the strict chemical reaction), self-healing occurs on longer times, as shown in Fig. <ref type="figure" target="#fig_2">4</ref>, that is, the system slowly recovers its coarse-grain structural properties, once chemical digestion is over, but with a new ganglioside composition.</p><p>As an overall indication, the results obtained on the different ganglioside-containing systems assign to molecular trapping an important role in aggregate organization and superstructure, meanwhile attributing to local chemical modification, like sialidase digestion, a putative structural task in unlocking freezed configurations. The role of local trapping, and of dynamical arrest, reminding glasses, is increasingly addressed to occur in organized structures, so that positional or orientational relaxation is prevented. Trapping can contribute to the pseudo-stabilization of a structure, until the occurrence of an event, like the interaction with a protein, or with an enzyme, coming from outside, relieves the trapping towards a next configuration. Like fencing, it can prevent near molecules from direct contact, like substrate and membrane-protein, a situation that can be dramatically changed if substrate digestion itself alters the mechanical properties of the domain. Also small membrane domains can be kinetically trapped <ref type="bibr" target="#b11">(Frolov et al. 2006)</ref>. In this respect, the case of the membrane sialidase Neu3 could be an example, acting on microdomain-lipids from the side and provoking an important structural response in cells (Da <ref type="bibr" target="#b9">Silva et al. 2005)</ref>. The membrane region can undergo remodelling in a different route or in a range of different routes, through a fast-responding structure destabilization, with even a third-dimension response, like membrane deformation, through the hydrophilic-hydrophobic coupling, a feature that is found to occur also in proteins. <ref type="bibr" target="#b19">(Luo et al. 2006)</ref>. The fast structure destabilization can be exploited 'as such' or by other membrane components. Finally, we recall that the ganglioside GM3 is able to realize an 'immobilized' surface on top of a fluid core, namely a solid-disordered phase, likely due to trapping of headgroups <ref type="bibr" target="#b4">(Brocca et al. 2005)</ref>.</p><p>Neutron and X-ray reflectivity measurements are in progress to follow sialidase action on single adhering or floating bilayer, with specific composition and asymmetric distribution of components, being sensitive to the crosssectional structure, a parameter that is not accessible with morphology-sensitive techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>We directly followed the structural change in different model aggregates, induced by in situ molecular modification of already-packed gangliosides, namely the one brought about by a sialidase, acting on the ganglioside GD1a and leading to the lower-curvature-aggregating GM1.</p><p>We found that, while chemically undergoing the enzymatic action in both cases, the aggregated structure could be either very stable, in single component systems, or structurally responsive, in mixed model systems. Moreover, while in progress, the sialidase-ganglioside interaction seems to define a time lag where the system is structurally off the smooth route between the initial and the final states. We hypothesize that, in this time lag, the local structure could be very sensitive to the environment and eventually readdressed to a specific final structural fate.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig.1SANS spectra of ganglioside micelles, c = 2.7 mM, no added salt, before (full triangles, GD1a micelles) and after (open triangles, digested GD1a micelles) incubation with sialidase. Both axes are in linear scale. Chemically, the starting system is GD1a and the final is GM1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3</head><label>3</label><figDesc>Fig.3Effect of sialidase on mixed GD1a : C 12 PC micelles with prevailing C 12 PC. SAXS spectra collected at different delays from sialidase addition (overall concentration = 0.5% bw, 0 mM NaCl). Initial (t = 0) and final (t = 75 min) spectra are nearly superimposed while the 4-min-delay spectrum is shifted. The cartoon illustrates the mixing/ demixing hypothesis.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4</head><label>4</label><figDesc>Fig.4Effect of sialidase on GD1a : DMPC mixed aggregates. Evolution of SAXS spectra of the mixed system GD1a : DMPC = 1 : 3 molar ratio (overall concentration = 0.5% bw, 0 mM NaCl) after the addition of sialidase. Left panel: scattered intensity decrease over the</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Structural parameters of mixed ganglioside : C 12 PC micelles in 0.75 : 0.25 and 0.25 : 0.75 mole ratio, at different delays from sialidase addition. Number of ganglioside and surfactant monomers per micelle (N gang and N C12PC ) and hydrodynamic radius of the aggregate (R H )</figDesc><table><row><cell></cell><cell>N gang</cell><cell>N C12PC</cell><cell>R H (nm)</cell></row><row><cell cols="2">GD1a : C 12 PC 0.75 : 0.25</cell><cell></cell><cell></cell></row><row><cell>t = 0</cell><cell>165</cell><cell>55</cell><cell>5.04</cell></row><row><cell>t = 6 min</cell><cell>170</cell><cell>55</cell><cell>4.92</cell></row><row><cell>t = 75 min</cell><cell>176</cell><cell>60</cell><cell>4.96</cell></row><row><cell cols="2">GD1a : C 12 PC 0.25 : 0.75</cell><cell></cell><cell></cell></row><row><cell>t = 0</cell><cell>60</cell><cell>165</cell><cell>4.2</cell></row><row><cell>t = 75 min</cell><cell>60</cell><cell>165</cell><cell>4.2</cell></row><row><cell>0.01</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Intensity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>0.001</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>0.6</cell><cell>1.2</cell><cell>1.8</cell></row><row><cell></cell><cell></cell><cell>q (/nm)</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank the beamline scientists and local contacts at <rs type="institution">LLB</rs> and <rs type="funder">ESRF</rs>, and especially <rs type="person">Jose Teixeira</rs> and <rs type="person">Theyencheri Narayanan</rs>, for their precious assistance. We thank <rs type="person">Silvia Perego</rs> for the TLC assays. We thank <rs type="person">Mario Corti</rs> for discussion and support.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting information</head><p>Additional Supporting Information may be found in the online version of this article: Figure <ref type="figure">S1</ref>. SAXS spectrum of mixed micelles GD1a : C12PC = 3 : 1 molar ratio (total concentration = 0.5% bw) in pure water (symbols).</p><p>Figure <ref type="table">S2</ref>. SANS spectra of GT1b-ganglioside micelles, c = 1 mM, in 100 mM NaCl, before (full squares, GT1b micelles) and after (open squares, digested GT1b micelles) incubation with sialidase.</p><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer-reviewed and may be re-organized for online delivery, but are not copy-edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Induction of neuron‐like tubes and liposome networks by cooperative effect of gangliosides and phospholipids</title>
+		<author>
+			<persName><forename type="first">Kazunari</forename><surname>Akiyoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ayako</forename><surname>Itaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shin-Ichiro </forename><forename type="middle">M</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Naoaki</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenichi</forename><surname>Yoshikawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0014-5793(02)03743-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Letters</title>
+		<title level="j" type="abbrev">FEBS Letters</title>
+		<idno type="ISSN">0014-5793</idno>
+		<idno type="ISSNe">1873-3468</idno>
+		<imprint>
+			<biblScope unit="volume">534</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="33" to="38" />
+			<date type="published" when="2003">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akiyoshi K., Itaya A., Nomura S.-I. M., Ono N. and Yoshikawa K. (2003) Induction of neuron-like tubes and liposome networks by cooperative effect of gangliosides and phospholipids. FEBS Lett. 534, 33-38.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Interactions of mono- and di-sialogangliosides with phospholipids in mixed monolayers at air-water interface</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Luca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cametti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Naglieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Misasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sorice</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0927-7765(99)00009-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids and Surfaces B: Biointerfaces</title>
+		<title level="j" type="abbrev">Colloids and Surfaces B: Biointerfaces</title>
+		<idno type="ISSN">0927-7765</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="135" to="142" />
+			<date type="published" when="1999-04">1999</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bordi F., De Luca F., Cametti F., Naglieri A., Misasi R. and Sorice M. (1999) Interactions of mono-and di-sialogangliosides with phos- pholipids in mixed monolayers at air-water interface. Coll. Surf. B 13, 135-142.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Cubic phases of gangliosides in water: Possible role of the conformational bistability of the headgroup</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boretta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cantù</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Corti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Del Favero</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0378-4371(96)00406-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physica A: Statistical Mechanics and its Applications</title>
+		<title level="j" type="abbrev">Physica A: Statistical Mechanics and its Applications</title>
+		<idno type="ISSN">0378-4371</idno>
+		<imprint>
+			<biblScope unit="volume">236</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="162" to="176" />
+			<date type="published" when="1997-02">1997</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boretta M., Cantu `L., Corti M. and Del Favero E. (1997) Cubic phases of gangliosides in water: possible role of the confor- mational bistability of the headgroup. Physica A 236, 162- 176.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Shape Fluctuations of Large Unilamellar Lipid Vesicles Observed by Laser Light Scattering: Influence of the Small-Scale Structure</title>
+		<author>
+			<persName><forename type="first">Paola</forename><surname>Brocca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Cantù</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Corti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elena</forename><surname>Del Favero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simona</forename><surname>Motta</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la035374v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2141" to="2148" />
+			<date type="published" when="2004-02-06">2004</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brocca P., Cantu `L., Corti M., Del Favero E. and Motta S. (2004) Shape fluctuations of large unilamellar vesicles observed by laser light scattering: influence of the small-scale structure. Langmuir 20, 2141-2148.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Headgroup and chain melting transition in dispersed bilayers of GM3 ganglioside</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brocca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cantù</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Del Favero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Motta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tunesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Zemb</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfa.2005.02.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids and Surfaces A: Physicochemical and Engineering Aspects</title>
+		<title level="j" type="abbrev">Colloids and Surfaces A: Physicochemical and Engineering Aspects</title>
+		<idno type="ISSN">0927-7757</idno>
+		<imprint>
+			<biblScope unit="volume">259</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="125" to="133" />
+			<date type="published" when="2005-05">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brocca P., Cantu `L., Del Favero E., Dubois M., Motta S., Tunesi S. and Zemb T. (2005) Head-group and chain melting transition in dispersed bilayers of GM3 ganglioside. Coll. Surf. A 259, 125- 133.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Intermicellar Interactions May Induce Anomalous Size Behavior in Micelles Carrying out Bulky Heads with Multiple Spatial Arrangements</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brocca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cantù</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Corti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Del Favero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raudino</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la0630864</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="3067" to="3074" />
+			<date type="published" when="2007-02-07">2007</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brocca P., Cantu `L., Corti M., Del Favero E. and Raudino A. (2007) Intermicellar interactions may induce anomalous size behaviour in micelles carrying out bulky heads with multiple spatial arrange- ments. Langmuir 23, 3067-3074.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Direct measurement of the formation time of mixed micelles</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cantu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Corti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Salina</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/j100168a048</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry</title>
+		<title level="j" type="abbrev">J. Phys. Chem.</title>
+		<idno type="ISSN">0022-3654</idno>
+		<idno type="ISSNe">1541-5740</idno>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="5981" to="5983" />
+			<date type="published" when="1991-07">1991</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cantu&apos; L., Corti M. and Salina P. (1991) Direct measurement of the formation time of mixed micelles. J. Phys. Chem. 95, 5981.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">a) Bistable molecular selfassembly</title>
+		<author>
+			<persName><forename type="first">`</forename><forename type="middle">L</forename><surname>Cantu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Corti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Del</forename><surname>Favero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Raudino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Coll. Int. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="13" to="18" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cantu `L., Corti M., Del Favero E. and Raudino A. (2000a) Bistable molecular selfassembly. Curr. Opin. Coll. Int. Sci. 5, 13-18.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Phase transition at the surface of mixed micelles of the ganglioside GM1 and dodecylphosphocholine</title>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Cantù</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Corti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elena</forename><forename type="middle">Del</forename><surname>Favero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Raudino</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/12/8a/342</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Condensed Matter</title>
+		<title level="j" type="abbrev">J. Phys.: Condens. Matter</title>
+		<idno type="ISSN">0953-8984</idno>
+		<idno type="ISSNe">1361-648X</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8A</biblScope>
+			<biblScope unit="page" from="A321" to="A325" />
+			<date type="published" when="2000-02-17">2000b</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cantu `L., Corti M., Del Favero E. and Raudino A. (2000b) Phase transition at the surface of mixed micelles of the ganglioside GM1 and dodecylphosphocholine. J. Phys. Condensed Matter 12, A321-A325.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Asymmetric membrane ganglioside sialidase activity specifies axonal fate</title>
+		<author>
+			<persName><forename type="first">Da</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Abad-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="606" to="615" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Da Silva J. S., Hasegawa T., Miyagi T., Dotti C. G. and Abad-Rodriguez J. (2005) Asymmetric membrane ganglioside sialidase activity specifies axonal fate. Nat. Neurosci. 8, 606-615.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Sphingomyelinase-Induced Domain Shape Relaxation Driven by Out-of-Equilibrium Changes of Composition</title>
+		<author>
+			<persName><forename type="first">Maria</forename><forename type="middle">Laura</forename><surname>Fanani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luisina</forename><surname>De Tullio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steffen</forename><surname>Hartel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jorge</forename><surname>Jara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bruno</forename><surname>Maggio</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.108.141499</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="67" to="76" />
+			<date type="published" when="2009-01">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fanani M. L., De Tullio L., Hartel S., Jara J. and Maggio B. (2009) Sphingomyelinase-induced domain shape relaxation driven by out- of-equilibrium changes of composition. Biophys. J. 96, 67-76.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">“Entropic Traps” in the Kinetics of Phase Separation in Multicomponent Membranes Stabilize Nanodomains</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A J</forename><surname>Frolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Chizmadzhev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zimmerberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.105.068502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="189" to="205" />
+			<date type="published" when="2006-07">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frolov V. A. J., Chizmadzev Y. A., Cohen F. S. and Zimmerberg J. (2006) &apos;&apos;Entropic traps&apos;&apos; in the kinetics of phase separation in multicomponent membranes stabilize nanodomains. Biophys. J. 91, 189-205.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The neuropathic potential of anti-GM1 autoantibodies is regulated by the local glycolipid environment in mice</title>
+		<author>
+			<persName><forename type="first">Kay</forename><forename type="middle">N</forename><surname>Greenshields</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><forename type="middle">K</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Femke</forename><forename type="middle">M P</forename><surname>Zitman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Rinaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathryn</forename><forename type="middle">M</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><surname>O’leary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luke</forename><forename type="middle">H</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alistair</forename><surname>Easton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><surname>Roxburgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Pediani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Koichi</forename><surname>Furukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keiko</forename><surname>Furukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carl</forename><forename type="middle">S</forename><surname>Goodyear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jaap</forename><forename type="middle">J</forename><surname>Plomp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hugh</forename><forename type="middle">J</forename><surname>Willison</surname></persName>
+		</author>
+		<idno type="DOI">10.1172/jci37338</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Investigation</title>
+		<title level="j" type="abbrev">J. Clin. Invest.</title>
+		<idno type="ISSN">0021-9738</idno>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="595" to="610" />
+			<date type="published" when="2009-03-02">2009</date>
+			<publisher>American Society for Clinical Investigation</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greenshields K. N., Halstead S. K., Zitman F. M. P. et al. (2009) The neuropathic potential of anti-GM1 autoantibodies is regulated by the local glycolipid environment in mice. J. Clin. Invest. 119, 595- 610.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Bending Mechanics and Molecular Organization in Biological Membranes</title>
+		<author>
+			<persName><forename type="first">Jay</forename><forename type="middle">T</forename><surname>Groves</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.physchem.56.092503.141216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Physical Chemistry</title>
+		<title level="j" type="abbrev">Annu. Rev. Phys. Chem.</title>
+		<idno type="ISSN">0066-426X</idno>
+		<idno type="ISSNe">1545-1593</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="697" to="717" />
+			<date type="published" when="2007-05-01">2007</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Groves J. T. (2007) Bending mechanics and molecular organization in biological membranes. Annu. Rev. Phys. Chem. 58, 697-717.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Shape Transitions and Lattice Structuring of Ceramide-Enriched Domains Generated by Sphingomyelinase in Lipid Monolayers</title>
+		<author>
+			<persName><forename type="first">Steffen</forename><surname>Härtel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">María</forename><surname>Laura Fanani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bruno</forename><surname>Maggio</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.104.048959</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="287" to="304" />
+			<date type="published" when="2005-01">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hartel S., Fanani M. L. and Maggio B. (2005) Shape transitions and lattice structuring of ceramide-enriched domains generated by sphingomyelinase in lipid monolayers. Biophys. J. 88, 287-304.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Curvature-induced accumulation of anisotropic membrane components and raft formation in cylindrical membrane protrusions</title>
+		<author>
+			<persName><forename type="first">Aleš</forename><surname>Iglič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henry</forename><surname>Hägerstrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Veranič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Plemenitaš</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Veronika</forename><surname>Kralj-Iglič</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jtbi.2005.09.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Theoretical Biology</title>
+		<title level="j" type="abbrev">Journal of Theoretical Biology</title>
+		<idno type="ISSN">0022-5193</idno>
+		<imprint>
+			<biblScope unit="volume">240</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="368" to="373" />
+			<date type="published" when="2006-06">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iglic A., Hagerstrand H., Veranic P., Plemenitas A. and Kralj-Iglic V. (2006) Curvature-induced accumulation of anisotropic membrane components and raft formation in cylindrical membrane protru- sions. J. Theor. Biol. 240, 368-373.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">GM&lt;sub&gt;1&lt;/sub&gt; and GM&lt;sub&gt;3&lt;/sub&gt; gangliosides highlight distinct lipid microdomains within the apical domain of epithelial cells</title>
+		<author>
+			<persName><forename type="first">Peggy</forename><surname>Janich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Denis</forename><surname>Corbeil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.febslet.2007.03.065</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Letters</title>
+		<title level="j" type="abbrev">FEBS Letters</title>
+		<idno type="ISSN">0014-5793</idno>
+		<idno type="ISSNe">1873-3468</idno>
+		<imprint>
+			<biblScope unit="volume">581</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1783" to="1787" />
+			<date type="published" when="2007-04-04">2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Janich P. and Corbeil D. (2007) GM1 and GM3 gangliosides highlight distinct lipid microdomains within the apical domain of epithelial cells. FEBS Lett. 581, 1783-1787.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Interacting colloidal suspensions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neutrons, X-rays and Light: Scattering Methods Applied to Soft Condensed Matter</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Lindner</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Zemb</forename><surname>Th</surname></persName>
+		</editor>
+		<meeting><address><addrLine>North-Holland, Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier Science B.V</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="351" to="379" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klein R. (2002) Interacting colloidal suspensions, in Neutrons, X-rays and Light: Scattering Methods Applied to Soft Condensed Matter (Lindner P. and Zemb Th., eds), pp. 351-379. Elsevier Science B.V., North-Holland, Amsterdam.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Shape changes in human erythrocytes induced by replacement of the native phosphatidylcholine with species containing various fatty acids.</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Kuypers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Roelofsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Berendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Op Den Kamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Van Deenen</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.99.6.2260</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of cell biology</title>
+		<idno type="ISSN">0021-9525</idno>
+		<idno type="ISSNe">1540-8140</idno>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2260" to="2267" />
+			<date type="published" when="1984-12-01">1984</date>
+			<publisher>Rockefeller University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuypers F. A., Roelofsen B., Berendsen W., Op Den Kamp J. A. F. and Van Deenen L. L. M. (1984) Shape changes in human herytrocytes induced by replacement of the native phosphatidyl- choline with species containing various fatty acids. J. Cell Biol. 99, 2260-2267.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Dynamic Distance Disorder in Proteins Is Caused by Trapping</title>
+		<author>
+			<persName><forename type="first">Guobin</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ioan</forename><surname>Andricioaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Sunney</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Karplus</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp057497p</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<title level="j" type="abbrev">J. Phys. Chem. B</title>
+		<idno type="ISSN">1520-6106</idno>
+		<idno type="ISSNe">1520-5207</idno>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="9363" to="9367" />
+			<date type="published" when="2006-04-21">2006</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luo G., Andricioaei I., Xie X. S. and Karplus M. (2006) Dynamic distance disorder in proteins is caused by trapping. J. Phys. Chem. B. 110, 9363-9367.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Analysis of Small-Angle Scattering Data of Complex Biological Systems</title>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">Cramer</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lise</forename><surname>Arleth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-443-29116-6.00020-5</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Neutrons, X-rays, and Light</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Lindner</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Zemb</forename><surname>Th</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="475" to="495" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pedersen J. S. (2002) Modelling angle scattering of small-data from colloids and polymer systems, in Neutrons, X-rays and Light: Scattering Methods Applied to Soft Condensed Matter (Lindner P. and Zemb Th., eds), pp. 391-420. Elsevier Science B.V., Amsterdam.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Gangliosides and β1-Integrin Are Required for Caveolae and Membrane Domains</title>
+		<author>
+			<persName><forename type="first">Raman</forename><forename type="middle">Deep</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">L</forename><surname>Marks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eileen</forename><forename type="middle">L</forename><surname>Holicky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christine</forename><forename type="middle">L</forename><surname>Wheatley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tatiana</forename><surname>Kaptzan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Satoshi</forename><forename type="middle">B</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Toshihide</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kun</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">E</forename><surname>Pagano</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1600-0854.2009.01022.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<idno type="ISSN">1398-9219</idno>
+		<idno type="ISSNe">1600-0854</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="348" to="360" />
+			<date type="published" when="2010-03">2010</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Singh R. D., Marks D. L., Holicky E. L., Wheatley C. L., Kaptzan T., Sato S. B., Kobayashi T., Ling K. and Pagano R. E. (2010) Gan- gliosides and b1-integrin are required for caveolae and membrane domains. Traffic 11, 348-360.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Aggregation properties of GM3 ganglioside (II3Neu5AcLacCer) in aqueous solutions</title>
+		<author>
+			<persName><forename type="first">Sandro</forename><surname>Sonnico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Cantu'</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Domenico</forename><surname>Acquotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Corti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guido</forename><surname>Tettamanti</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0009-3084(90)90119-c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry and Physics of Lipids</title>
+		<title level="j" type="abbrev">Chemistry and Physics of Lipids</title>
+		<idno type="ISSN">0009-3084</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="231" to="241" />
+			<date type="published" when="1990-02">1990</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sonnino S., Cantu&apos; L., Acquotti D., Corti M. and Tettamanti G. (1990) Aggregation properties of GM3 ganglioside (II3Neu5AcLacCer) in aqueous solutions. Chem. Phys. Lipids 52, 231.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Aggregative properties of gangliosides in solution</title>
+		<author>
+			<persName><forename type="first">Sandro</forename><surname>Sonnino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Cantù</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Corti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Domenico</forename><surname>Acquotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bruno</forename><surname>Venerando</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0009-3084(94)02304-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry and Physics of Lipids</title>
+		<title level="j" type="abbrev">Chemistry and Physics of Lipids</title>
+		<idno type="ISSN">0009-3084</idno>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="21" to="45" />
+			<date type="published" when="1994-05">1994</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sonnino S., Cantu `L., Corti M., Acquotti D. and Venerando B. (1994) Aggregative properties of gangliosides in solution. Chem. Phys. Lipids 71, 21-45.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A new procedure for the extraction, purification and fractionation of brain gangliosides</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tettamanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bonali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marchesini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zambotti</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0005-2760(73)90055-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimica et Biophysica Acta (BBA) - Lipids and Lipid Metabolism</title>
+		<title level="j" type="abbrev">Biochimica et Biophysica Acta (BBA) - Lipids and Lipid Metabolism</title>
+		<idno type="ISSN">0005-2760</idno>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="160" to="170" />
+			<date type="published" when="1973-01">1973</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tettamanti G., Bonali F., Marchesini S. and Zambotti V. (1973) A new procedure for the extraction, purification and fractionation of brain gangliosides. Biochim. Biophys. Acta 296, 160.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

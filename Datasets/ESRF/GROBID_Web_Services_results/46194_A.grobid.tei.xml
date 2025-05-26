@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">In situ coherent x-ray diffraction study of the dynamics of dislocations appearing in semiconductor pillars during indentation Experiment number: HS4278</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Cornelius</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jacques -Esrf</forename><surname>France</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dina</forename><surname>Carbone -Esrf</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Davide</forename><surname>Altamura -Cnr Italy</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ludovic</forename><surname>Thilly -Phymat</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Poitiers</forename><surname>France</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><surname>Thomas -Im2np</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marseilles</forename><surname>France</surname></persName>
+						</author>
+						<title level="a" type="main">In situ coherent x-ray diffraction study of the dynamics of dislocations appearing in semiconductor pillars during indentation Experiment number: HS4278</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">02C34567820A8E3B79129655E47395FB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>25</term>
+					<term>08</term>
+					<term>11</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The goal of the experiment was to make a coherent x-ray diffraction study of InSb pillars, 2µm in diameter and 6µm high, during indentation with an AFM tip. The pillars were fabricated by focus ion beam from a bulk InSb (213) substrate, and were positioned at the center of a large crater of 150um in diameter. 10 pillars were available on the same sample, all having the same size. We did not have time to study the GaAs pillars we had for the experiment.</p><p>For this experiment the new micro-diffractometer available on ID01 with high precision of the sample stages and the stability of sample was greatly beneficial. An AFM tip was used for indentation, with steps of a few tens of nanometers. A 7keV beam was used and Fresnel Zone Plates (FZP) inserted to focus the beam. Coherence was achieved by using slits before the FZP to match the transversal coherence length of the beam at the end-station. Detection was performed by the Maxipix pixel detector.</p><p>The 202 Bragg reflection was measured from the pillars in the virgin state. At the energy used, the incidence angle was 3 degrees and the exit angle 45 degrees. The sample layout (pillar positions, sample orientation, dimension of the crater) and the energy of the x-ray beam were accurately defined beforehand to allow the measurement of the diffraction signal, avoiding shadowing from the AFM tip, substrate contribution far from the pillar. Finding the pillars in the diffraction geometry by scanning the sample was possible, but took a large amount of time, due to the presence of the substrate signal and to the large area of the crater. Figure <ref type="figure" target="#fig_0">1</ref> shows diffraction maps where the crater and the pillar are clearly visible.</p><p>To overcome this problem, the fast scan that is currently implemented at ID01 will be greatly beneficial for the next experiment. Once the pillar found, the reflection did not display speckles under coherent illumination, which was a signature of absence of defects in the as-prepared state, and very promising for the detection of the first dislocation events. Unfortunately, the alignment of the AFM tip on the pillar was trickier than expected on this very asymetric reflection. In general this alignment is rather easy when looking at a specular reflection as the shadow of the tip and its mirror image in the diffraction map allow a precise determination of its position above the structure of interest. Here, without this possibility, the alignment was done by extrapolation of the position of the tip from geometrical consideration. More specifically we imaged the tip in the diffraction maps far from the pillar and measured the distance between tip and sample surface in the same position. However, the 1 micron uncertainty of this alignment led to the destruction of the very brittle InSb pillars. This was shown by post-experiment SEM images (see images below).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BEFORE AFTER</head><p>Thus, unfortunately, the recorded data are not usable.</p><p>Nevertheless, this experiment was very important for the optimisation of the experimental conditions necessary for the success of the next measurements. Firstly, it pointed out the need for a more efficient alignment tool of the AFM tip. The installation of a high resolution optical microscope looking at the sample and AFM tip from the side and not only from the top, as it is now, is planned for future experiments at ID01. Secondly, it gave a strong motivation for the implementation of the fast scanning option, which has been consequently developed at the beamline, and that will make it possible to perform this very interesting experiment in the near future.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: The craters and pillars are found on the 202 asymetric reflection by diffraction mapping.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

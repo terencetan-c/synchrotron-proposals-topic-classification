@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2001-08">August 2001</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Magnetostrictive</forename><surname>Exafs</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><surname>Mathon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Pascarelli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Pettifer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">R J</forename><surname>Gibbs</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Warwick</orgName>
+								<address>
+									<postCode>CV4 7AL</postCode>
+									<settlement>Coventry</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Sheffield</orgName>
+								<address>
+									<region>Sheffield, UK</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2001-08">August 2001</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">088885CCB30CD34275B2472167BBB19B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T16:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The planned experiment was to attempt to measure the differential displacement of atoms when subject to magnetostrictive strain. This strain is the magnetic analogue of the electric piezoelectric effect. There is usually an average strain displacement of atoms in the direction of the magnetization, and if this is parallel to the electric field of the photon then the displacement will be sensed in the polarization dependant EXAFS. When the field is perpendicular to the electric field vector then an average contraction will be sensed. The measurement thus uses linearly polarized radiation, and the magnetization is then moved in a plane perpendicular to the photon propagation direction. Another way of describing this measurement is the extended magnetic linear dichroism. Our focus is in the extended regime where the changes to be seen are structural in origin, rather than the more common near edge magnetic linear dichroism which is thought to be more electronic in origin. This measurement is representative of a whole class of experiments which can be envisioned in which the sensitivity of EXAFS to differential changes is exploited. All differential changes can profit from modulation techniques to overcome the systematic drift problems inherent in any current synchrotron radiation spectroscopy experiment. The magnitude of the strain for our sample is 10 -4 which means we are attempting to detect atom movements of typically 0.0002c This is a order of magnitude smaller change than anything claimed to date. We recognized that the main problem is drift in the energy scale. For this reason we chose to use ID24, which is a dispersive x-ray spectrometer, and as such should have no moving parts. Theoretically, the only possible movement should come from the position of the electron orbit in the ring, or possible temperature drifts in the crystal monochromator. In practice, other drifts have been observed occasionally, especially associated with a change of focus. At present the beam-line staff have no clear explanation for this. Nevertheless, if differential measurements are to be made then the drift problem can be minimized by making measurements on a time scale which reduces the drift derived differences to below those expected from the magnetostrictive effect. The transducer used was a wheel containing the magnets which could be rotated under the power of compressed air at speeds between 1 and 70Hz. On a scale of a few seconds the cycle time of the wheel remained constant to 1 part in 1000, but over a longer period, drifts of temperature and lubrication caused the cycle time to drift by over 10%. This means that the cycle time of the wheel had to be checked periodically. The measurement is phase sensitive and so the phase is derived from the timing of a synchronization pulse from the wheel and the cycle time. The cycle time was measured simultaneously with the measurement of the absorption and if a drift was detected then the subsequent programmable delays were reset and the measurement continued. The logic circuit is shown in Fig. <ref type="figure">1</ref>.</p><p>Fig1. Diagram of the timing circuit for triggering the Princeton Camera with the timing signal from the magnetostrictive wheel.</p><p>Pulses (NIM) come from the discriminator connected to the wheel optical sensor, and provided the computer is not busy, they pass to the first programmable delay D1, provided by half of a Stanford DG535. This delay is used to set the overall phasing of the measurements. The discriminator also feeds a VTC6 counter timer which records the cycle time of the wheel (not shown). The output of D1 then triggers four other delays (D3-D6) housed in two further DG535s and these produce timing pulses for the four quadrants of the wheel where measurements are to be made. The outputs from these delays are combined in an OR gate. The final stage of the circuit produces the commands to trigger the camera in a sequence designed to avoid saturation of the CCD. The measurement itself will take approximately 2msecs, and for a cycle time of 40msecs (say) then the camera is idle for 32msecs, and in addition the camera may be idle for a longer time waiting for the computer to complete the read, display the results, and store the data. As a shutter is not used, (not fast enough), the camera is being exposed all of the time and this can cause saturation, and overspill of the charge collection</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wheel</head><p>Discriminator D1 (Phase)</p><formula xml:id="formula_0">D3 D4 D5 D6 &amp; OR1 Computer Inhibit OR2 D7 D8</formula><p>Camera buckets. Thus a three pulse sequence per phase of measurement is used. The first pulse shifts out the overfilled stripe of the camera, the second pulse removes the overspill, and the third stripe is the actual measurement. There are 18 stripes in total, and in principle measurements can be made on stripes 3,6,9,12,15,and 18. Thus we have a redundancy of two stripes. Fig 2 . is an oscilloscope trace of the timing sequence which was successfully accomplished. It should be noted that the system is entirely under the control of the computer. The entire pulse sequence is fully adjustable via the computer writing the appropriate delays to the Stanford programmable delay boxes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig 2.</head><p>Oscilloscope traces from the timing circuit. The central trace is the timing signal from the rotating wheel. The top trace is the timing pulses derived from the single timing pulse of the wheel. Three pulses per quadrant of the wheel. The bottom trace is the actual pulse sequence sent to the camera. It can be seen that an 18 pulse sequence is sent followed by a period of silence whilst the camera is read by the computer, and the computer completes its filing and calculational tasks.</p><p>Prior to the experiment, we spent several days assembling and testing the component parts of the hardware, and in defining the specifications of the software, but the measurement period itself was spent as follows.</p><p>Our experiment was scheduled to begin on a Wednesday, following a machine day on a Tuesday. Unfortunately, only limited setting up could be performed on the Tuesday as the previous users had to dismantle their equipment and other diagnostic tests had to be run. Wednesday was spent checking out the timing circuitry, and Thursday was mostly spent conditioning the pulses necessary to trigger the camera.</p><p>Problems were encountered at this point in getting the timing of the camera to behave properly, but these problems were not ironed out until mid-day Friday. Unfortunately it was not possible to continue the program development and adjustment as the BLISS staff member was exhausted and needed the weekend to recover.</p><p>We then decided to swap to a second, simpler, but slower jig for rotating the magnetization vector whereby the magnets were rotated using a stepper motor. This could rotate the magnetic field by 90 0 in less than 200msec. An XMCD program was adapted for our purpose and this was used to collect data for the rest of the measurement period.</p><p>We are happy to announce that we have observed a differential signal which accumulated over a 1.5hour scan. The phasing of the magnet was shifted by 90 degrees and the measurement repeated. The signal inverted as expected. Measurements were also performed on an iron sample, which showed a much reduced effect as expected, and a null measurement was performed whereby the magnet was not rotated at all. This, as expected showed no effect at all. The noise levels in this latter measurement approached 2 X 10 -5 . The size of the differential EXAFS measurement is of the order of 1 X 10 -4 . This is the correct order of magnitude to observe this signal, and we believe this is the first observation of this magnetostrictive EXAFS signal. It is also the first time that differences of distance of the order of 10 -4 Å have been seen via this technique.</p><p>Fig . <ref type="figure">3</ref> shows the differential absorption, for the magnetisation parallel (black) and perpendicular (red) to the linearly polarised electric field of the photon beam. The absorption edge occurs at channel 120 and channel 1200 occurs approx 210eV above the edge.</p><p>Since our much cruder differential measurement yielded a successful result it implies that drifts in the energy axis, on the particular day that these measurements were performed were less than 0.01eV on a 4.5 second scale. This is a considerable improvement on the measurement which took place on BM29 two years ago, where scans taken 30minutes apart were subtracted without success, but it is intermediate in time scale between the BM29 attempt and that originally proposed and attempted in the first part of our measurement period. This is not to say that these measurements could not have taken place on a conventional step scanning spectrometer in the stepper mode, but would have taken considerably longer than 1.5hours to achieve the same statistics.</p><p>The measurements were actually carried out by R.F. Pettifer (Warwick), O. Mathon and S. Pascarelli (ESRF), M.D. Cooke (Durham), and P. Neilsen (Warwick). In addition, we wish to acknowledge the assistance of R. Weigel, W. Schmidt, M-C. Domingues, P. Pinel, S. Pasternakas well as other colleagues who allowed us to borrow various pieces of equipment. M. Borowski is also acknowledged for helpful discussions at the time of the BM29 experiment which led to this proposal.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,34.05,150.29,385.44,297.72" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

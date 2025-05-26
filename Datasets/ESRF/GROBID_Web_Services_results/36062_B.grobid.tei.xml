@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Low temperature equation of state of uranium: a probe for electronic structure instability</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2009-02-10">10/02/2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><surname>Hanfland</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Occelli</forename><surname>Florent</surname></persName>
+						</author>
+						<title level="a" type="main">Low temperature equation of state of uranium: a probe for electronic structure instability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2009-02-10">10/02/2009</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">89D1241D0E1D298F22844B6D147B8F97</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T19:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>HS-3236</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this experiment was to perform the measurement of -U equation of state (EoS) under quasi-hydrostatic conditions, at ambient and low temperature. In fact, previous measurements performed under non-hydrostatic compression at 300K gave a bulk modulus (104 GPa) 30% lower than the bulk modulus predicted by ab initio calculations at 0K (136 GPa) <ref type="bibr" target="#b0">[1]</ref>. This finding suggests that -U is a very challenging system for DFT calculations, but needed to be confirmed by more precise data (under quasi-hydrostatic compression <ref type="bibr" target="#b1">[2]</ref>), and temperature effect on the bulk modulus needed to be clearly elucidated.</p><p>We have prepeared two diamond anvil cells, loaded with U, ruby and Au (both pressure markers) embedded in helium pressure transmitting medium. These cells have been prepeared in a glove box in helium atmosphere to prevent the oxydation of uranium. We have used angle-dispersive X-ray diffraction (=0.4155 Å) with a MAR imaging plate. Pressure was primarily estimated from ruby luminescence signal with an updated pressure calibration <ref type="bibr" target="#b2">[3]</ref>. Unfortunately, the pressure reached in both runs has been limited by early failure of the diamond anvils at 300K, at respectively 18 GPa and 60 GPa for runs 1 and 2. Failure of the anvils is a well-kown phenomenon for diamond anvil cells when used with helium pressure medium <ref type="bibr" target="#b3">[4]</ref>. These failures prevented us from performing the low temperature EoS measurement which was planned after the 300K measurement. The current results has thus only preliminary; we are planning to finish this project in the following monthes using beamtime allowed for other projects at the ESRF.</p><p>The X-ray diffraction data proved that uranium was purely metallic (no oxydation). The MAR imaging plates have been circularly integrated with the Fit2D program and LeBail refinement has been performed using the GSAS package. Figure <ref type="figure">1</ref> summarizes the P-V data measured during this experiment. These points can be fitted with a Vinet EoS, with the following parameters: V 0 =82.75 Å 3 , K 0 =115 GPa, K' 0 =5.43. The experiment vs. theory discrepancy is thus reduced (17% difference in bulk modulus K 0 ) but remains larger than for transition metals <ref type="bibr" target="#b2">[3]</ref>. It can be noted that it is a general trend that DFT calculations overestimate bulk modulus <ref type="bibr" target="#b2">[3]</ref>.</p></div>		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lebihan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">134102</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. LeBihan et al., Phys. Rev. B 67, 134102, 2003</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Pressurizing conditions in helium-pressure-transmitting medium</title>
+		<author>
+			<persName><forename type="first">Agnès</forename><surname>Dewaele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Loubeyre</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/08957950701659627</idno>
+	</analytic>
+	<monogr>
+		<title level="j">High Pressure Research</title>
+		<title level="j" type="abbrev">High Pressure Research</title>
+		<idno type="ISSN">0895-7959</idno>
+		<idno type="ISSNe">1477-2299</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="419" to="429" />
+			<date type="published" when="2007-12">2007</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Dewaele and P. Loubeyre,High Press. Res. 27, 419-429, 2007</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dewaele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Dewaele et al., Phys. Rev. B 78, 104102, 1-13, 2008</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dewaele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Dewaele et al., J. Appl. Phys, 99, 104906,1-6, 2006.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

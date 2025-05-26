@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report SAXS measurements of the flexible protein Histatin 5 at BM29</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Carolina</forename><surname>Cragnell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>POB 124</addrLine>
+									<postCode>SE--221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dominique</forename><surname>Durand</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Laboratory</orgName>
+								<orgName type="institution">Universite Paris--Sud</orgName>
+								<address>
+									<addrLine>11 --IBBMC Bât 430</addrLine>
+									<postCode>F --91405</postCode>
+									<settlement>ORSAY Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bernard</forename><surname>Cabane</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratoire PMMH</orgName>
+								<orgName type="institution">ESPCI</orgName>
+								<address>
+									<addrLine>10 Rue Vauquelin F --75231 PARIS Cedex 5</addrLine>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marie</forename><surname>Skepö</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>POB 124</addrLine>
+									<postCode>SE--221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Report SAXS measurements of the flexible protein Histatin 5 at BM29</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4A8E9D07304F5184B04899A19E078C70</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The goal of this project is to study intrinsically disordered proteins (IDPs) and relate their structure and function in solution with the adsorbed state. For this purpose we are using combined theoretical and experimental approach and the aim of the project is twofold: (1) to develop a coarse--grained model for IDPs based on experimental results which can be used for modelling complex mixtures as saliva, and (ii) achieve an understanding of the behaviour of salivary proteins and to connect the structure and function in solution with adsorbed state. Histatin is a small peptide of 24 amino acids with a net charge of +5e at pH 7 as shown in Figure <ref type="figure" target="#fig_0">1</ref>. In the oral cavity, pH can vary between 4--8 during consumption etc. and as visible in Figure <ref type="figure" target="#fig_0">1</ref>, it clearly affects the net charge of the protein. Hence, it is reasonable to believe that this variance in net charge in combination with varying salivary solution conditions as monovalent and divalent salts have large effects on the electrostatic interactions in the system. In June 2013 we performed SAXS--measurements at BM29 for Histatin 5 for different solution conditions as varying protein concentration, pH, salt concentration and valency. The results for monovalent salt and pH were very promising and the SAXS--experiments clearly show that electrostatic interactions are of importance. For divalent salt, further measurements need to be performed. For proteins solution at physiological salt concentrations, were the electrostatic interactions are screened, simulation programs as "Flexible--meccano" can be utilized. Generation of 1000 conformations were performed using this program, 2 and the population--weighted amino acid specific potentials are derived from a compilation of non-secondary structural elements of high--resolution X--ray crystallographic protein structures. The peptide chain is constructed by using the selected {φ/ψ} pairs to sequentially connect peptide planes." The preliminary results indicate that the protein is fully unfolded without structured elements and behaves like a polymer chain and the averaged curve is in excellent agreement with the experimental curve, see Figure <ref type="figure" target="#fig_2">3</ref>. This results are in line with Monte Carlo simulations using the in--house simulation package Molsim. <ref type="bibr">3</ref> In this model the flexible chainlike protein is represented by a freely jointed chain of hard spheres beads connected by harmonic bonds, where a bead is negatively charged, positively charged, or uncharged. <ref type="bibr">4--6</ref> The nature of each bead was identified from the amino acid sequence, and it is assumed that an amino acid is protonated at pH &gt; pKa and deprotonated at pH &lt; pKa. The charge distribution of the protein was obtained using Faunus. 1 A bead radius of 2 Å provides a realistic contact separation between the charges and represents an accurate description of the Coulomb interaction. The counterions to the charged amino acids and the monovalent salt were treated explicitly. In this report, results are declared for protein concentration 4.7 mg/ml and pH≈7, but agreement between simulations and SAXS measurements are shown for all protein concentrations. Comparison between simulations and scattering data for the monomeric protein indicates that at low salt concentrations, the net charge of the protein determines the electrostatic interactions and that the protein can be modelled as a chain with smeared charge density see Figure <ref type="figure" target="#fig_3">4</ref> (upper). At higher salt concentrations, the heterogeneity of the charge distribution needs to be taken into account, see Figure <ref type="figure" target="#fig_3">4</ref> (lower). The protein concentration is 4.7 mg/ml and pH 7.</p><p>To the authors knowledge this has not been published before, and it is a step toward a more thoroughly understanding of the behaviour of flexible proteins. The software available today for evaluating SAXS--data cannot take intermolecular interactions into account. The next step is to validate the hypothesis that the protein can be treated with a homogenous charge distribution at low salt concentrations, and with a heterogeneous charge distribution at high salt concentrations, and generalize it to be applicable for flexible proteins as a group of proteins. For that purpose we need to extend our experimental studies by performing more SAXS measurements at different solution conditions and protein concentrations, especially the effect of divalent ions, and to develop our simulation program further with respect of analysing scattering data. The SAXS measurements will be complemented with CRYO--TEM and NMR to confirm the size, size distribution, structure and conformation of the proteins/aggregates.</p><p>1. M. Lund, B. Persson and M. Trulsson, Biol. Med. 3:1 (2008). 2. V. Ozenne and e. al., Bioinformatics 28, 1463 (2012). 3. P. Linse, (MOLSIM Lund University, Sweden, 2013). 4. C. H. J. Evers, M. Skepö and M. Lund, In preparation (2011). 5. M. Skepö, The Journal of Chemical Physics. 129 (18), 185101 (2008). 6. M. Skepö, P. Linse and T. Arnebrant, The Journal of Physical Chemistry. 110 (24), 12141--12148 (2006).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Titration curve for Histatin 5 obtained from Monte Carlo simulations using the inhouse simulation package Faunus. 1</figDesc><graphic coords="1,198.30,397.47,198.39,144.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Snapshot of the protein solution using Flexible Meccano. 2</figDesc><graphic coords="2,167.22,79.70,245.56,169.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Intensity curve obtained from SAXS experiments at BM29 and simulation results using Flexible Meccano.</figDesc><graphic coords="2,180.60,296.94,218.25,173.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. SAXS--measurements performed in Grenoble for Histatin 5 at low and high salt concentrations, upper and lower figure respectively.The protein concentration is 4.7 mg/ml and pH 7.</figDesc><graphic coords="3,127.43,404.96,340.13,234.70" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

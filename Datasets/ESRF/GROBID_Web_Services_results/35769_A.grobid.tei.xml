@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Templating crystallization of main-chain LC polymers in thin films</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kristina</forename><surname>Kvashnina</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wim</forename><surname>Bras</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Denis</forename><forename type="middle">V</forename><surname>Anokhin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Chimie des Surfaces et Interfaces</orgName>
+								<orgName type="institution">CNRS UPR9069</orgName>
+								<address>
+									<addrLine>15, rue Jean Starcky</addrLine>
+									<postBox>BP 2488</postBox>
+									<postCode>68057</postCode>
+									<settlement>Mulhouse CEDEX</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Rosenthal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Matthieu</forename><surname>Defaux</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Chimie des Surfaces et Interfaces</orgName>
+								<orgName type="institution">CNRS UPR9069</orgName>
+								<address>
+									<addrLine>15, rue Jean Starcky</addrLine>
+									<postBox>BP 2488</postBox>
+									<postCode>68057</postCode>
+									<settlement>Mulhouse CEDEX</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Houssam</forename><surname>Hamie</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Chimie des Surfaces et Interfaces</orgName>
+								<orgName type="institution">CNRS UPR9069</orgName>
+								<address>
+									<addrLine>15, rue Jean Starcky</addrLine>
+									<postBox>BP 2488</postBox>
+									<postCode>68057</postCode>
+									<settlement>Mulhouse CEDEX</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Bondar</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratoire de Physique des Polymères</orgName>
+								<orgName type="institution">Université Libre de Bruxelles</orgName>
+								<address>
+									<addrLine>Bld. du Triomphe</addrLine>
+									<postCode>CP-223 B-1050</postCode>
+									<settlement>Brussels</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Templating crystallization of main-chain LC polymers in thin films</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">864E9C39FD5FB9FD59A06D4EB708D0C2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>In the last years, important efforts were devoted to fabrication of materials organized on multiple scales by means of self-assembly. In particular, controlling the structure of thin films and surfaces at spatial scales ranging from angstroms to centimeters was found crucial <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. The main objective of this project is to spatially control the crystallization process for main-chain liquid crystalline (LC) polymers confined in thin deposited films (thickness &lt; 1.0 µm). In this case, the LC-phase (hexagonal columnar mesophase) naturally imposes a strong spatial confinement condition on polymer chains: they become squeezed within cylinders of about 1 nm in diameter. Moreover, the chains fully disentangle, with their axes being ordered on a 2D hexagonal lattice. In this project, the stages of the structure formation in thin polymer films such as the isotropic-LC transition and mesophase-assisted crystallization was studied as a function of temperature, film thickness, as well as the nature of the substrate. The object chosen for this study is poly(diethyl siloxane), PDES. The structure of this polymer in bulk was studied in the past <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>, however, the structure of thin films of PDES was never addressed. We observed by optical microscopy lamellar ribbons of several hundred µm having the aspect of long needles. Besides the "needles", we were able to identify new morphological features of the films at room temperature, which is cylindrites with a diameter of several hundred microns.</p><p>The studied sample of PDES is characterized by M w of 573 Kg/mol, and a polydispersity of 1.46. Oriented samples for X-ray diffraction experiments were obtained by extruding the material in the LC phase with a home-built mini-extruder resulting in 0.7 mm diameter fibers. The measurements were carried out at room temperature (in mesomophic state) and at -25°C (in crystalline state). The thin films were prepared by spin-coating a PDES solution in toluene on glass, silicon wafer or PTFE-rubbed silicon to obtain films with a thickness of several hundred nm.</p><p>X-ray fiber diffraction measurements show that PDES is nicely oriented in the mesophase by extrusion (Fig. <ref type="figure" target="#fig_0">1A</ref>). The diffraction pattern of the fiber shows a sharp peak on the equator at 8.01 Å. A second peak, although very weak, is visible at 4.64 Å. The halo usually attributed to disordered alkyl side chains is observed on the meridian at 4.24 Å. There are no reflections revealing order along the chain axis. Note that the ring close to the beamstop is due to the Kapton tape used to hold the sample in the beam. The positions of A B the peaks is similar to those previously reported by Tsvankin et al. for a cross-linked PDES [5,7]. There are no reflections related to the c-axis. The structure can be assigned to a hexagonal or a monoclinic lattice. The 2D X-ray pattern measured at -40°C corresponding to the crystalline phase is given in Figure 1B. It shows a large number of sharp reflections which can be attributed to two coexisting crystalline polymorphs (α 2 and β 2 ) and indexed to the following unit cells: (α 2 ) a = 8.15 Å, b = 8.92 Å, c = 4.71 Å, α = β = 90°, γ = 62°; (β 2 ) a = 8.25 Å, b = 8.1 Å, c = 4.95 Å, α = γ = 90°, β = 104°. The parameters obtained for the monoclinic lattice of the α 2 phase are in good correlation to the one proposed by Tsvankin et al. <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b7">8]</ref> while for the β 2 -phase we observed a monoclinic lattice, like Inomata et al. <ref type="bibr" target="#b5">[6]</ref>.</p><p>In thin films, we were able to isolate and orient lamellar ribbons using a PTFE-rubbed glass prepared ass described elsewhere <ref type="bibr" target="#b7">[8]</ref>. AFM allows observing orientation of lamellar ribbons, which is parallel to the rubbing direction, i.e. parallel to the PTFE chains. Although no diffraction intensity was recorded at normal incidence, nicely oriented diffraction patterns were obtained when the beam was parallel to the plane of the substrate. Since the geometry is in this case similar to that of a grazing incidence setup, only half of the pattern is observable. For example, a clear signature of a hexagonal mesophase is received when the beam is perpendicular to the rubbing direction (Fig <ref type="figure" target="#fig_1">2C</ref>): all the observed diffraction spots having the same intensity and are separated by 60°. Therefore the polymer chains are lying in the plane of the substrate perpendicular to lamellar axis. When the beam is directed along the lamellar axis, the pattern is identical to that of a PDES fiber rotated by 90°.</p><p>In order to get insights into the structure of cylindrites, we prepared a sample on a glass substrate, in which the needles were almost absent and cylindrites have a diameter comparable to the size of the X-ray beam. A classical pattern of a hexagonal mesophase (six spots pattern with spots of equivalent intensity and separated by 60°) is obtained at normal incidence (Fig 2A ), which indicates that the chains have homeotropic alignment, i.e. are standing upright. This conclusion is confirmed by measurements with the X-ray beam parallel to the substrate plane, for which the diffraction pattern exhibits only two broad equatorial peaks. A meridional peak at the same characteristic distance is also observed, and is probably due to the presence of some amount of lamellar ribbons.</p><p>Studies of the film crystallization allowed us to observe an interesting behaviour that we identified as epitaxial crystal growth on the mesophase. In the pattern obtained upon crystallization in the direction parallel to the chains (Fig <ref type="figure" target="#fig_1">2D</ref>), two different polymorphs can be clearly discriminated. The separation of the peaks is much clearer that in the case of a fiber pattern (cf. Fig1B). The single crystal-like structures pertinent to two polymorphs have different orientations : four orientations for α 2 -phase and two-for the β 2 -phase. The appearance of these orientations is directly related to the mechanism of the crystal growth, which proceeds epitaxially on the parent hexagonal mesophase.</p><p>In conclusion, PDES thin films present two different morphological features: cylindrites composed of homeotropically-aligned chains and lamellar ribbons containing chains lying in the plane of the substrate and perpendicular to the needle axis. Both features have the same structure identified as a hexagonal mesophase. Upon crystallization of the samples, we observed two crystalline polymorphs previously identified in the case of PDES fibers. Crystallization of lamellar ribbons proceeds via epitaxial growth on the parent mesophase. A B C D</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 X</head><label>1</label><figDesc>Fig.1 X-ray patterns of PDES fibers at room temperature (A) and at -25°C (B).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 (</head><label>2</label><figDesc>Fig.2 (A,B) X-ray diffraction patterns of a PDES cylindrite formed in a thin film. The patterns are recorded at normal incidence at room temperature and-25°C, respectively. (C,D): the same as (A,B) but on PDES lamellar ribbons in the direction perpendicular to rubbing.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Self-assembled Films of Prussian Blue and Analogues: Optical and Electrochemical Properties and Application as Ion-Sieving Membranes</title>
+		<author>
+			<persName><forename type="first">Mario</forename><surname>Pyrasch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Toutianoush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wanqin</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Judit</forename><surname>Schnepf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernd</forename><surname>Tieke</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm021230a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<title level="j" type="abbrev">Chem. Mater.</title>
+		<idno type="ISSN">0897-4756</idno>
+		<idno type="ISSNe">1520-5002</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="245" to="254" />
+			<date type="published" when="2003">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pyrasch M., et al. Chem. Mater. 15, 245-254 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Humidity sensors based on mesoporous silica thin films synthesised by block copolymers</title>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Bearzotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johnny</forename><forename type="middle">Mio</forename><surname>Bertolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Plinio</forename><surname>Innocenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paolo</forename><surname>Falcaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Enrico</forename><surname>Traversa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0955-2219(03)00521-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the European Ceramic Society</title>
+		<title level="j" type="abbrev">Journal of the European Ceramic Society</title>
+		<idno type="ISSN">0955-2219</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1969" to="1972" />
+			<date type="published" when="2004-01">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bearzotti A., et al. J. Eur. Cer. Soc. 24 1969-1972 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Self-Organized Discotic Liquid Crystals for High-Efficiency Organic Photovoltaics</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schmidt-Mende</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fechtenkötter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Müllen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Moons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Friend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.293.5532.1119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">293</biblScope>
+			<biblScope unit="issue">5532</biblScope>
+			<biblScope unit="page" from="1119" to="1122" />
+			<date type="published" when="2001-08-10">2001</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schmidt-Mende, L., et al. Science 293, 1119-1122 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Organic Thin Film Transistors for Large Area Electronics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Dimitrakopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R L</forename><surname>Malenfant</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/1521-4095(20020116)14:2&lt;99::aid-adma99&gt;3.0.co;2-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Adv. Mater.</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="99" to="117" />
+			<date type="published" when="2001">2001</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dimitrakopoulos, C.D. ; Malenfant, P.R.L. Adv. Mater. 14, 99-117 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Structure and phase transitions in poly(diethylsiloxane)</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ya. Tsvankin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Papkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Zhukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu.</forename><forename type="middle">K</forename><surname>Godovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Svistunov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Zhdanov</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pol.1985.170230409</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Polymer Science: Polymer Chemistry Edition</title>
+		<title level="j" type="abbrev">J. Polym. Sci. Polym. Chem. Ed.</title>
+		<idno type="ISSN">0360-6376</idno>
+		<idno type="ISSNe">1542-9369</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1043" to="1056" />
+			<date type="published" when="1985-04">1985</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsvankin, D. YA. ; Papkov, V.S. et al J. Polym. Sc. 1985, 23, 1043.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An X-Ray Diffraction Study on Crystalline and Mesomorphic Structures of Poly(diethylsiloxane)</title>
+		<author>
+			<persName><forename type="first">Katsuhiro</forename><surname>Inomata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazami</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takuhei</forename><surname>Nose</surname></persName>
+		</author>
+		<idno type="DOI">10.1295/polymj.32.1044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Polymer Journal</title>
+		<title level="j" type="abbrev">Polym J</title>
+		<idno type="ISSN">0032-3896</idno>
+		<idno type="ISSNe">1349-0540</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1044" to="1048" />
+			<date type="published" when="2000-12">2000</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Inomata, K. ; Yamamoto, K. ; Nose, T. Polym. J. 2000, 32, 1044.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Thermotropic Mesophases in Element-Organic Polymers</title>
+		<author>
+			<persName><forename type="first">Yu.</forename><forename type="middle">K</forename><surname>Godovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Papkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9783112484647-005</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Speciality Polymers / Polymer Physics</title>
+		<imprint>
+			<publisher>De Gruyter</publisher>
+			<date type="published" when="1989-12-31">1989</date>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="129" to="180" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Godovsky, Yu. K. ; Papkov, V.S. Adv. Polym. Sc. 1989, 88, 129.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Highly oriented thin films of poly(tetrafluoroethylene) as a substrate for oriented growth of materials</title>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">Claude</forename><surname>Wittmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/352414a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">352</biblScope>
+			<biblScope unit="issue">6334</biblScope>
+			<biblScope unit="page" from="414" to="417" />
+			<date type="published" when="1991-08">1991</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wittman, J.-C. ; Smith, P. Nature 1991, 352, 414.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

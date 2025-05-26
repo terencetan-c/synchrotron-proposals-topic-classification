@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C6A8B8DC86D5B1CE08BB890B584CEDC2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiment title: Residual stress-free Laser Additive Manufacturing Experiment number: MA 5229 Beamline: Date of experiment: from: 27/06/2022 to: 03/07/2022 Date of report: 12/09/2022 Shifts: Local contact(s): HONKIMAKI Veijo Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): PhD student Didi Yang* [1] Dr Yunhui Chen* [1] Professor Philip J Withers [1] Dr Matthew J Roy [2] Professor Iain Todd [3]</p><p>[1] School of Materials, University of Manchester, United Kingdom.</p><p>[2] School of Engineering, University of Manchester Manchester, United Kingdom.</p><p>[3] Department of Engineering Materials, University of Sheffield, United Kingdom.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Research Background:</p><p>Laser Powder Bed Fusion (L-PBF) is a technology with a large number of potential applications for aerospace, energy, and biomedical sectors. The adoption of this manufacturing technique has been hampered by the poor performance of certain components, originating from appreciable residual stresses introduced by solidification cycling. For steels that display the phenomena (e.g. M300 steel), a volume expansion associated with displacive phase transformations (martensitic transformation) provides a potential solution to mitigate residual stress development during initial manufacturing. Herein synchrotron X-ray diffraction in ID31 is used to perform a three-step XRD study to understand the complex relationship between residual stress development and phase transformations in this manufacturing process. Both ex-situ and in-situ synchrotron XRD on steels manufactured by L-PBF to elucidate and quantify the mechanism of residual stress reduction by phase transformations. So, a three-step study using synchrotron XRD is completed: (1) mapping the residual stress of as-built samples under different scanning speeds;</p><p>(2)mapping the residual stress of pre-heat samples, to investigate how the cooling rate can modify the residual stress by manipulating the martensite phase volume fraction and the martensite phase transformation process;</p><p>(3) study the phase transformation in-situ under very fast heating cooling rates.</p><p>The large amount of XRD data collected is still under analysis. More work will be finished and published at the end of 2022.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment completed:</head><p>For the no-preheat printing, there are 4 samples fabricated with the same parameters. A total of eight thick cuboid samples were removed from the baseplate and half of the samples were sliced into 2 mm thickness samples. The choice of 2 mm is based on the pre-test in March 2022, a trade-off between the fast cooling rate and enough material for induction heating. The other half of the thick samples were just removed from the baseplate to study residual stress relief during the removal of the baseplate. The as-built thin sample (2 mm) and one thick sample (10 mm) were left still attached to the baseplate, for the residual stress mapping. The pre-heat samples were manufactured using a relatively small baseplate.</p><p>During the residual stress measurement process, the pencil beam (with a beam energy of 75 KeV) was used for the experiment. L-PBF samples are printed layer-by-layer, which might cause residual stress to varying in different layers. So, a relatively small beam size (70*120 µm) was selected when mapping the residual stress distribution. However, in the in-situ fast heating/cooling experiment, only one position was monitored throughout the cycle. So a macroscopically uniform area was preferred using a beam size of 172*172 µm.</p><p>As shown in Figure <ref type="figure">1</ref> a), the diffraction signal (Debye-Scherrer patterns) was be collected by a PILATU3X detector. The induction furnace (the black box with an induction loop) allows a fast heating rate of ~100 °C/s and a cooling rate of ~20 °C/s. The induction loop is made of a Cooper pipe and keeps cooling with water flowing inside. During the experiment, the blue pipe was used to deliver Argon flow. There are different Argon flow rates for the heating and cooling process. A low flow rate was used during heating just to prevent the samples oxidizing in air. By contrast during the cooling process, an extra large flow (~40 bar) was employed to flush the surface of the sample and accelerate the cooling rate. The extra flow is controlled by an automatic valve, which is synchronous with the cooling control program. Based on the pre-test in March, the induction loop was located at the same height as the thermocouple, which makes sure the induction furnace worked well.</p><p>The loop was 2 mm lower than the beam (the observation point), ensuring the diffraction signal was not blocked by the loop.</p><p>For residual stress mapping, a larger motor in the y direction was used, and continuous scanning used to accelerate the scanning speed. The experimental setup is shown in Figure <ref type="figure">1 b</ref>). The mapping is based on the central position of the samples, which is determined by coarse scanning in y direction and gives redundancy in every edge. A coarse scanning scheme was applied to the whole sample with fine scanning in the edge area, where a larger residual stress gradient might be expected.</p><p>Because of the large penetration of synchrotron X-rays, identifying the stress free lattice spacing d0 is a challenge in contrast to lab XRD. (d-spacing of stress-free samples). In this project, comb samples and powders were both used to determine the d0. In order to calibrate the temperature, a pure iron sheet of the same geometry was heated and cooled in the induction furnace.</p><p>Preliminary result and future work plan:</p><p>The profile peaks, (position, intensity, and full width at half-maximum) of the SXRD data are being evaluated, allowing quantification of both the extent and temperature of the phase transformation and the induced plasticity and residual stresses. An interesting result is shown in Figure <ref type="figure">2</ref>, two samples cut from one as-built M300 sample show a very different Austenite reversion temperature. That indicates the L-PBF samples are not uniform, which should be considered carefully during the residual stress mapping analysis.</p><p>The integrated d-spacing distribution of the as-built samples under 800 mm/s scanning speed is shown in Figure <ref type="figure">3</ref>. The d-spacing near the surface area is different and shows fluctuation. The fine scanning data near the edge area is being analysed in order to map the residual strains there. Subsequently we will cake and analyse the full Debye Scherrer cone to determine the residual stress in different orientations.</p><p>A very large amount of data was collected. Currenetly the residual stress distributions for all the as-built and preheated samples are being calculated and compared to understand the influence of scanning speed and cooling rate. Following this, the in-situ data will analysed to study the mechanism of residual stress reduction by phase transformations. Figure 2 The phase transformation recorded during the fast heating process in different samples cut from one as-built L-PBF M300 under fabricated at 800 mm/s scanning speed. a) sample #1; b) sample #2; Figure 2 Integrated d-spacing distribution for the as-built samples under 800 mm/s laser scanning speed a) b) a) b)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 Figure 2 Figure 2</head><label>122</label><figDesc>Figure 1 Experimental setup for a) in-situ fast heating cooling test; b) residual stress mapping</figDesc><graphic coords="4,305.28,36.72,186.00,139.44" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

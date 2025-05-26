@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ESRF Experiment Description</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-06-21">21/06/2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Remi</forename><surname>Tucoulou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Zuerich Institute of Geochemistry and Petrology Clausiusstrasse</orgName>
+								<orgName type="laboratory">Laboratory ETH</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Petitgirard</forename><surname>Sylvain</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Zuerich Institute of Geochemistry and Petrology Clausiusstrasse</orgName>
+								<orgName type="laboratory">Laboratory ETH</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sossi</forename><surname>Paolo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Zuerich Institute of Geochemistry and Petrology Clausiusstrasse</orgName>
+								<orgName type="laboratory">Laboratory ETH</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Girani</forename><surname>Alice</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Zuerich Institute of Geochemistry and Petrology Clausiusstrasse</orgName>
+								<orgName type="laboratory">Laboratory ETH</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ESRF Experiment Description</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-06-21">21/06/2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">66422CC052FDF38A7E5B7C985736F5B6</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Scientific Background Iron plays a key role in understanding the Earth's composition, formation and evolution through time. Because of its three possible valence states (Fe 2+ , Fe 3+ and Fe 0 ) and its abundance, iron controls the oxygen fugacity (fO2) in the Earth's mantle but also strongly influences the density of silicate melts because of its mildly incompatible behavior that results in its enrichment in liquids relative to solids. During the early Earth's formation, wholesale melting of its mantle could have occurred due to large planetary impacts such as the Moon-forming impact <ref type="bibr" target="#b0">[1,</ref><ref type="bibr">2]</ref> and melt may have accumulated at the core-mantle boundary, facilitating the formation of a basal magma ocean <ref type="bibr">[3]</ref>. The presence of a magma ocean may have facilitated the formation of the different terrestrial reservoirs; core, mantle and crust, as well as the segregation of elements depending on their speciation and chemical affinity. Recently, Mössbauer spectroscopy was used to show that fO2 can change in silicate magma as a function of pressure [4] due to differences in the relative compressibility of Fe 2+ and Fe 3+ -bearing melt components, described as follows:</p><p>FeO (liq) +1/4 O2 = FeO1.5 (liq) <ref type="bibr" target="#b0">(1)</ref> However, these experiments were limited in pressure up to 24 GPa, and performed on compositions (i.e., andesite melt) that are not relevant for the deep mantle. The relative compressibility of oxide components in silicate melts leads to structural changes as a function of pressure (e.g., <ref type="bibr">[5]</ref>). At equilibrium, differences in molar volumes ( ) of the FeO and FeO1.5 components with pressure (P) impact upon their stability, with the resultant change in Gibbs Free Energy of formation (ΔGo) described by:</p><p>(2) Therefore, during this beamtime our aim was to investigate peridotitic compositions with pure Fe 2+ and 68% Fe 3+ to estimate the change in fO2 with depth by the determination of the absorption and therefore the absorbance in order to calculate the density changes between different redox state of melts at high pressure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedure</head><p>On the beamline, we performed data collection on pure ferrous-(PM10-05) and 68% ferric-(PM10-02) peridotitic glass, as confirmed by synchrotron Mössbauer spectroscopy at ID18, immersed in a methanol:ethanol mixture, at high pressure. To generate high pressure, we used our own BX90 DACs equipped with radial openings allowing measurements through the beryllium gasket. Pressure was monitored with ruby fluorescence at low pressures (P&lt;10 GPa), and Raman spectra for diamond were collected offline for high pressures (P &gt;10 GPa). At each pressure step, we collected 2D absorption maps in two orientations: through the Be-gasket and through the diamonds up to 71 GPa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preliminary results</head><p>X-ray absorption data were collected using a sub-micron beam size at 9 keV. We performed experiments at high pressure in diamond anvil cells (DACs) on two peridotitic glasses: PM10-05 and PM10-02, based on the composition of KLB-1 and synthesized under different redox conditions. During the experiments we collected 2D-maps in two orientations: i) through the diamonds to obtain the path length (x) of the X-rays through the sample and ii) through the Beryllium gasket in order to measure the X-ray attenuation of the glass under pressure (Fig. <ref type="figure" target="#fig_0">1</ref>). The correlation between the X-ray attenuation and the path length of the sample obtained from both maps provides the absorbance (μHP) of the sample. As shown in Fig. <ref type="figure">2</ref>, μHP increases from low pressure to high pressure in both Fe 2+ and 68% Fe 3+ peridotitic glass. However, the slope is different in the two samples. Indeed, even if both samples show a similar absorbance at low pressure, increasing pressure the two curves start to diverge significantly one each other. Different value of absorbance (μHP) led to a different density's evolution between Fe 2+ and Fe 3+ (Fig. <ref type="figure">2 B</ref>). Indeed, our results show that, at low pressure, the density of peridotitic glass with 68% Fe 3+ is slightly lower than that of peridotitic glass with 100% Fe 2+ . However, the density of the oxidised sample increases more rapidly with pressure, such that its density is higher than that of the reduced counterpart above 10 GPa. This indicates a higher compressibility of the Fe 3+ -rich glass at high pressures, as also inferred from iron force constants <ref type="bibr">[6]</ref>. Hence, the fO2 (relative to IW) of a peridotitic liquid with constant Fe 3+ /Fe 2+ is expected to decrease with pressure in magma oceans, in accord with previous studies <ref type="bibr">[4,</ref><ref type="bibr">7]</ref>. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: A) Map through the diamonds from which the sample´s dimensions are determined. B) Absorption map through the beryllium gasket</figDesc><graphic coords="2,137.35,320.27,176.80,177.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Fig 2. A) Absorbance (μHP) evolution of pure-ferrous-(Fe 2+ ) and 68% ferric (Fe 3+ )-peridotitic glass. Two dashed lines are shown to guide the reader. B) Pressure-induced density change of both 57 Fe peridotitic glasses. The density of the oxidised sample increases more rapidly with pressure compared to the reduced counterpart.</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A B</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Jacobsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">508</biblScope>
+			<biblScope unit="page" from="708" to="712" />
+			<date type="published" when="2001">2014. 2001. 2007</date>
+		</imprint>
+	</monogr>
+	<note>Nature</note>
+	<note type="raw_reference">Jacobsen et al., (2014) Nature, 508, 84-87 [2] Canup et al., (2001) Nature, 412, 708-712 [3] Labrosse et al., (2007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Figure 3: Risk of bias summary (Abreu et al., 2017; Afshar et al., 2010; Ai, 2020; Bolasco et al., 2011; Cai et al., 2022; Chen, Zhao &amp; Huang, 2019; Dai &amp; Ma, 2021; Deng, 2011; Dong et al., 2011; Fakhrpour et al., 2020; Fang et al., 2023; Feng et al., 2020; Frih et al., 2017; Hristea et al., 2016; Jeong et al., 2019; Kozlowska et al., 2023; Leng, 2012; Li et al., 2008; Li &amp; Feng, 2020; Liao et al., 2016; Limwannata et al., 2021; Lu, 2022; Martin-Alemañy et al., 2020, 2016, 2022; Sezer et al., 2014; Shi et al., 2021; Su et al., 2022; Sun, Sun &amp; Yang, 2022a; Tabibi et al., 2023; Tan et al., 2015; Tayebi, Ramezani &amp; Kashef, 2018; Vijaya et al., 2019; Wang &amp; Liu, 2021; Wang, 2018; Wang et al., 2019; Wang, 2019; Wang et al., 2023; Wei, 2020; Wen et al., 2022; Wilund et al., 2010; Xu et al., 2022; Xu &amp; Fang, 2016; Yan, Zhao &amp; Peng, 2022; Yang et al., 2021; Yao et al., 2020; Yu &amp; Cao, 2018; Zeng et al., 2020; Zhou, 2020; Zhou et al., 2016; Zhu et al., 2020).</title>
+		<author>
+			<persName><forename type="first">Armstrong</forename></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.19053/fig-3</idno>
+		<idno>Nature Comms. 11</idno>
+	</analytic>
+	<monogr>
+		<title level="m">GRL, 49, e2022GL098451</title>
+		<imprint>
+			<publisher>PeerJ</publisher>
+			<date type="published" when="1991">2019. 1991. 2021. 2020. 2007</date>
+			<biblScope unit="volume">450</biblScope>
+			<biblScope unit="page" from="82" to="92" />
+		</imprint>
+	</monogr>
+	<note>CMP</note>
+	<note type="raw_reference">Nature, 450, 866-869 [4] Armstrong et al., (2019) Science, 365, 903-906 [5] Kress &amp; Carmichael (1991) CMP, 108, 82- 92 [6] Ni et al. (2021), GRL, 49, e2022GL098451, [7] Deng et al. (2020), Nature Comms. 11, 2007.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

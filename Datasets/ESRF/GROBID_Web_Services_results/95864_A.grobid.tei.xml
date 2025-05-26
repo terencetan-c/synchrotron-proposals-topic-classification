@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">75889999161593E470DC50A803722A8F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment title:</head><p>Biomimetic approach to develop a novel environmentalfriendly cement inspired by mason bee nests </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The objective of this beamtime was to characterize the microstructure of the nest of endangered bee species (Megachile pyrenaica). Different from the standard hives, those bees build nests which are hard as a rock and remain in place for a year until it is naturally destroyed. Therefore, our idea is to use the biomimetic approach to research new bioinspired building materials from those mason bee nests. We also wish to understand the impact of the nest architecture design on CO2 exchange, ventilation, and thermoregulation. Additionally, this study may contribute to saving this endangered bee species.</p><p>The studies included experiments of near-field ptychographic X-ray Computed Tomography (nf-PXCT)</p><p>of capillaries of about 200 microns-diameter filled with pieces of the nest. Initially, we wanted to prepare a smaller pillar of the samples with FIB/SEM, but since the sample is not conducting and we did not have access to an ion-beam FIB, we had to adapt the sample preparation strategy. In the end, it was positive to do so since we could investigate a larger volume of the sample, which is very heterogeneous and complex and we could have missed details if done otherwise. The pixel size we used was 150 nm and the estimated resolution is about ~400 nm. Since their structures contain materials of different sizes and even big ones, that resolution was sufficient (figure <ref type="figure" target="#fig_2">1</ref>). On top of this, our goal was also to determine the composition of the nest by measuring the electron and mass densities of the different components directly from the reconstructed 3D images, since nf-PXCT is highly quantitative for this, which justifies its need in this study.</p><p>We could scan 5 samples during the 3 days of beamtime, which was performed during the lockdown. At least I could partially be at the beamline, but the local contact made most of the work and even came on the weekend when I could not come. So, I would like to thank him a lot. Some problems with the piezo controlling the settings of the first multilayer mirror of the beamline was not working so well, so we lost a bit of time with repeats of parts of the experiments, but nothing crucial. Each 2D scan took about 30 seconds and each tomographic scan took about 9 hours with some overhead. Additionally, at each injection, we had problems with the coherence of the beam, forcing us to put a routine to wait a bit after the injections before starting acquiring again. Despite this, we could still get good results.</p><p>About 1000 projections were acquired and the phase retrieval was performed using the software Ptypy (<ref type="url" target="https://ptycho.github.io/ptypy/">https://ptycho.github.io/ptypy/</ref> ) using the GPUs of the ESRF cluster. The tomography data processing and reconstruction were performed using our python suite Toupy (<ref type="url" target="https://toupy.readthedocs.io/en/latest/">https://toupy.readthedocs.io/en/latest/</ref>), which is open-source and available to the community in my GitHub (<ref type="url" target="https://github.com/jcesardasilva/toupy">https://github.com/jcesardasilva/toupy</ref> ).</p><p>Additonally, Toupy was used to remove unphysical phase vortices appearing during the phase retrieval, which allows us to get the proper quantification we need of the gray level of the images.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants (* indicates experimentalists):*DA SILVA, Julio Cesar, Laboratory CNRS -Institut Neel HAZEMANN, Jean-Louis, Laboratory CNRS -Institut Neel</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Figure 1 displays two phasecontrast projections obtained with Ptypy of 2 nests coming from different regions and possibility with different compositions. After the tomographic reconstruction, we are now trying to understand why the bees in different regions build nests with slightly different compositions, possibly due to the availability of the resources, but how they know what to do remains to be understood yet. Complementary studies with micro tomography will be performed at BM05 beamline.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -nf-PXCT 2D projections, after phase retrieval with Ptypy, of two samples from 2 nests coming from two different regions. (Left) The exterior part of the nest which shows rocks of different sizes and composition. (Right) The exterior part of another next shows rocks with more rectangular shapes and less variety of sizes than the first one. One can also notice the range of phase shifts in both cases is about 20 radians, which is consistent.</figDesc><graphic coords="3,73.43,450.81,233.06,261.40" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

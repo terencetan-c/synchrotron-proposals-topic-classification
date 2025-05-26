@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experiment number: ME 757</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2004-02-26">26 February 2004</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Ing</forename><forename type="middle">J S</forename><surname>Micha</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patrice</forename><surname>Gergaud</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Olivier</forename><surname>Thomas</surname></persName>
+						</author>
+						<title level="a" type="main">Experiment number: ME 757</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2004-02-26">26 February 2004</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">373BA7850E546F047F9D249752029FDB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T15:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This experiment is associated with the French research network STRESSNET, aimed at a detailed understanding of mechanical stresses in nanostructures. Within STRESSNET different samples will be fabricated: blanket Cu films capped with Si x N y and capped lines with different aspect ratios. The width ranges from 0.3 µm to 3 µm and the thickness is about 0.5 µm. Previous experiments in lab showed the occurrence of two main texture components : &lt;111&gt; and &lt;002&gt;. The experimental procedure has been as follows: the line arrays have been cycled in temperature under vacuum between room temperature and 500 °C at a heating rate of about 5-10°C/min. Every 60°C, three 111 peaks owing to the &lt;111&gt; texture component have been recorded in the θ/2θ mode, in order to follow two different in-plane azimuths: along the lines and perpendicular to the lines. Additional isothermal experiments have also been performed at temperatures selected in the plastic regime in order to investigate stress relaxation mechanisms. The position of the Bragg peaks have been plotted as a function of sin 2 ψ to determine stresses. Here ψ is the angle between the surface normal and the normal to the diffracting planes.</p><p>To perform these experiments we used the Multitechnique goniometer together with the heating stage available at BM32. Since the thermal cycles are the result of a competition between strain rate and plastic deformation rate they are very sensitive to the heating rate. It is therefore very important to be able to monitor Bragg peaks for very short times. Unfortunately, the use of a NaI detector and the goniometer configuration (no Euler circle), leads to very long counting time and large goniometer rotations. For instance, one stress measurement at a given temperature took at least 45 min and two cycles between RT and 500°C took not less than 30 hours!!! This had the following consequences: -We limited our measurements to the &lt;111&gt; texture components. Of course the strong elastic anisotropy of Cu should induce large stress in homogeneity between the &lt;111&gt; and the &lt;002&gt; texture component and thus may have a large influence on the results. -This long measurement time is not compatible with strain relaxation rate observed in previous works for Cu. This was the case for the larger lines (3 µm). As a consequence, only the 0.3 µm lines were clearly investigated because their behavior are mainly thermoelastic (see below).</p><p>-Finally, in addition to strain measurements, we expected to analyze the Bragg peak widths in order to get information about inhomogeneous strain fields. For some selected diffraction peaks several orders of diffraction (e.g. 111 and 222) could be analyzed in order to separate different contributions (size, microstrain). Once more, the long measurement time did not allow for the measurements of the second order.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The main results are the following (figure <ref type="figure">1</ref>). They have been obtained on the 0.3 µm lines. They showed a pure thermoelastic behavior of the lines. This is confirmed by FE simulations.</p><p>-0.8 -0.4 0.0 0.4 0 100 200 300 400 500 600 Temperature (°C) Strain (%) ε1 ε2 ε3 -1500 -1000 -500 0 500 1000 0 100 200 300 400 500 600 Temperature (°C) Stress (MPa) σ1 σ2 σ3</p><p>a ) b ) Figure <ref type="figure">1</ref> : a) Experimental strains measured by X-ray diffraction on BM32 : along the normal to the surface ε 3 , parallel to the surface and perpendicular to the lines ε 2 and along the lines ε 1 ; b) Experimental stresses determined from the above strains along the normal to the surface σ 3 , parallel to the surface and perpendicular to the lines σ 2 and along the lines σ 1 .</p><p>Finite elements calculations : Finite elements calculations have been performed using ANSYS code for these 0.3 µm width Cu lines, assuming a thermoelastic behavior of the copper. The results are shown in figure <ref type="figure">9</ref>. They are in good agreement with the experimental values for strains. In peculiar, we find these very low strain levels in the directions perpendicular to the lines (X 2 and X 3 ), and a very strong strain variation along the lines (X 1 ). For the stresses, we find the same evolutions than for the experimental data. Nevertheless, the calculated stress variations are lower than those determined experimentally. This could be explained by the large elastic anisotropy of the copper (A=3) which is not yet taken into account in these simulations and by the occurrence of the &lt;002&gt; texture component which has not been measured during these shifts. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Calculated strains with FE method (ANSYS) a) along the lines ε 1 , b) along the normal to the surface ε 3 and parallel to the surface and perpendicular to the lines ε 2 and c) Stresses deduced by FE method (ANSYS).</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

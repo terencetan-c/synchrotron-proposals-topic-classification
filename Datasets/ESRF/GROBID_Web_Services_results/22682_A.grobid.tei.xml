@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2003-05-21">May 21, 2003</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Silvia</forename><surname>Capelli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory for Crystallography</orgName>
+								<orgName type="institution">University of Bayreuth</orgName>
+								<address>
+									<settlement>Ger- many</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Hs</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory for Crystallography</orgName>
+								<orgName type="institution">University of Bayreuth</orgName>
+								<address>
+									<settlement>Ger- many</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sander</forename><surname>Van Smaalen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory for Crystallography</orgName>
+								<orgName type="institution">University of Bayreuth</orgName>
+								<address>
+									<settlement>Ger- many</settlement>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2003-05-21">May 21, 2003</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D927E2421CCB8BC9253DF51061083390</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Report: Hexagonal 2H-NbSe 2 has a phase transition at 35K <ref type="bibr" target="#b0">[1]</ref> towards a charge density wave (CDW) state. The lattice becomes modulated, which produces incommensurate satellite reflections in X-ray diffraction experiments. The intention of our experiment at beamline BM01A was to measure the intensities of a sufficient number of Bragg reflections, including satellites, at a temperature below the phase transition, in order to determine the modulated crystal structure in the CDW state. For this purpose the MAR345 imaging plate system at BM01A was used together with a He-cryojet which allows cooling down to at least 15K. A plate-like crystal that had been tested before on a diffractometer with a point detector was used for the experiment. Three data sets were recorded. The first one served as test to determine optimum exposure times and rotation stepwidths (∆φ). Since the intensity difference between main reflections and satellites is enormous, two different data sets were necessary. For data set I an exposure time of 5s/frame, a Pt-foil as attenuator, and a ∆φ of 2 • was chosen to cover the intensities of main reflections, while avoiding over-exposure. Another data set was necessary for the much weaker satellite intensities. For data set II the parameters 300s/frame and ∆φ = 2 • with no attenuator were selected. Several problems were encountered during this experiment, as they were caused by the He-cryojet system. Lack of experience with this new cooling system made several readjustments of the apparatus necessary during the data collection. The flow rate of the He stream also had to be readjusted several times and afterwards appeared to have been set to too high values, leading to unexpected interruptions of the experiment.</p><p>Ice formation also had some impact on the data collection. The experiment had to be watched continuously and the ice had to be removed manually in irregular intervals several times. Standard procedures of data processing of area detector data could not be used, because of areas shaded by the cooling system. The shaded areas did collect a continuous background, that was of comparable intensity as parts of the background in the nonshaded areas of the images. This made an automatic exclusion of the shaded regions from data analysis with the available software (Denzo <ref type="bibr" target="#b1">[2]</ref>, XDS <ref type="bibr" target="#b2">[3]</ref>) impossible. To remove the shaded area from indexing and integration, the procedure of data processing was modified using the program XDS. The background file of XDS was transformed to a standard pixel image format. Employing a commercial program for image editing, the intensities in the shaded areas were set to zero, after which the image was transformed back to the XDS format. Ice had to be removed manually resulting in slight movements of the crystal. Hence, for the data analysis each run had to be divided into several parts with different orientiation matrices. This precluded a continuous integration of intensities for the two data sets and introduced additional sources of error. The intensities of data set I could be integrated, but, as expected, none of the satellite intensities was larger than 3σ. The main reflections were tested for their quality by refinement of the known basic structure of NbSe 2 . The internal R-value gave 7.6%, the refinement led to R = 17.1%. The displacement parameters had the tendency to become negative, which is ascribed to lacking absorption correction. We could not find a computer program allowing the use of ψ-scans for the absorption correction of image plate data. Such a software is presently being written by us. We were not successful in attempts to integrate data set II. An orientation matrix was found that reflected the unit cell of NbSe 2 , but inspection of the images showed no match between calculated and observed positions. Several reasons for this failure can be envisaged. One is that XDS does not properly handle the over-saturated main reflections, but also twinning of the crystal cannot be excluded. The experiment has been successful in so far as good Bragg reflections, including CDW satellites, have been observed. However, the data quality is not sufficient to reach the goal of determining the incommensurately modulated structure of the CDW state in 2H-NbSe 2 . This poor data quality is due to unforeseen experimental diffculties with the He-cryojet system, that now have been understood, and that can be avoided in future experiments. The problem of the treatment of shaded areas in data analysis is solved, and we expect to complete software for absorption correction in the near future.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Moncton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Axe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Disalvo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="734" to="737" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moncton D.E., Axe J.D. &amp; DiSalvo F.J. (1975) Phys. Rev. Lett. 34, 734-737</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">[20] Processing of X-ray diffraction data collected in oscillation mode</title>
+		<author>
+			<persName><forename type="first">Zbyszek</forename><surname>Otwinowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wladek</forename><surname>Minor</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0076-6879(97)76066-x</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Methods in Enzymology</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Carter</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Jr</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Sweet</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="307" to="326" />
+		</imprint>
+	</monogr>
+	<note>Methods in Enzmology</note>
+	<note type="raw_reference">Otwinowski Z. &amp; Minor W. (1997), Methods in Enzmology, Vol. 276: Macromolecular Crystallography, part A, p.307-326, C.W.Carter, Jr &amp; R.M.Sweet, Eds., Academic Press</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kabsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889893005588</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="795" to="800" />
+			<date type="published" when="1993-12-01">1993</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kabsch W. J. (1993) Appl. Cryst. 26, 795-800</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

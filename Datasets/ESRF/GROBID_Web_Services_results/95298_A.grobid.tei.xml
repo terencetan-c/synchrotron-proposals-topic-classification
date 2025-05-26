@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Edoardo</forename><surname>Zatterin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Cedric CORLEY-WICIAK</orgName>
+								<orgName type="institution" key="instit2">IHP -Leibniz Institute for Innovations for High Performance Microelectronics</orgName>
+								<address>
+									<settlement>Frankfurt Oder</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Carsten RICHTER</orgName>
+								<orgName type="department" key="dep2">IKZ -Leibniz Institut für Kristallzüchtung</orgName>
+								<orgName type="institution">Costanza Lucia MANGANELLI</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>IHP</roleName><forename type="first">Marvin</forename><surname>Zoellner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Giovanni</forename><surname>Capellini</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">IHP; Yujia LIU</orgName>
+								<orgName type="institution" key="instit2">IKZ Wolfram LANGHEINRICH</orgName>
+								<orgName type="institution" key="instit3">Infineon Technologies Dresden GmbH&amp;Co.KG</orgName>
+								<address>
+									<settlement>Dresden</settlement>
+									<country>Germany Malte</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">NEUL</orgName>
+								<orgName type="institution" key="instit2">RWTH Aachen University</orgName>
+								<address>
+									<settlement>Aachen</settlement>
+									<region>Lars</region>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">SCHREIBER</orgName>
+								<address>
+									<settlement>RWTH Aachen</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">Universita di Roma Tre Dipartimento di Scienze</orgName>
+								<address>
+									<settlement>Roma</settlement>
+									<country>Italy; IHP</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0013575B7D3925A4630BC46677AC60ED</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:22+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of this proposal was to characterize the local strain and tilt fluctuations within epitaxial Si0.7Ge0.3 / 10 nm Si / Si0.7Ge0.3 heterostructures (Fig. <ref type="figure">1</ref>) for housing of spin qubits. The layers were grown by reduced pressure chemical vapor deposition (RP-CVD) and qubit devices ("QuBus") consisting of TiN electrodes on a SiO2 barrier layer were fabricated on the sample surface by optical lithography in a CMOS compatible foundry process. Additionally, Ni markers were deposited to help identify and track the devices by X-ray fluorescence. To map the strain distribution around the QuBus within the 10 nm thin strained Si quantum well (QW), a spatially resolved, non-destructive technique with high lattice sensitivity is needed. <ref type="bibr" target="#b0">[1]</ref> Thus, in-situ nano-beam scanning X-ray diffraction microscopy (SXDM), in particular quicK MAPping (KMAP) at ID01, is the technique of choice for this research. <ref type="bibr" target="#b1">[2]</ref> To observe the fluctuations relevant for real qubit devices, measurements were planned both at room temperature (RT) and at cryogenic temperature T close to the qubit operation point (&lt; 2 K). <ref type="bibr" target="#b2">[3]</ref> Fluctuations of strain due to the electrodes are expected to strongly influence the spin qubit performance. <ref type="bibr" target="#b0">[1]</ref> At low T, the strain distribution will be different compared to RT because of thermal contraction. <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref> Fig. <ref type="figure">1</ref>: Layer stack of the samples for this beamtime A series of five samples with electrodes with different thicknesses of TiN and/or SiO2 and varying process parameters was to be investigated by KMAP to obtain feedback for optimizing the qubit fabrication towards minimized spatial fluctuations of strain.</p><p>During the experiment, the X-ray energy was set to 10.0 keV. The focussing optics for the beam consisted of Fresnel Zone Plate (FZP), Beam Stop (BS) and Order Sorting Aperature (OSA). The focal distance was determined as 145.18 mm. The piezo scanners were placed below the OSA to scan the beam rather than the sample in order to perform mappings on samples in the cryostat. An energy resolved X-ray fluorescence detector was mounted to measure fluorescence signals simultaneously to the diffraction. The fluorescence from the Ni markers and the TiN electrodes was expected to be detected at the K-edges of Ni and Ti respectively, however it was not measureable at the detector settings corresponding to these energies. It was only possible to detect both signals together in the integrated fluorescence signal, which was still suitable for tracking the QuBus during the measurement (Fig. <ref type="figure" target="#fig_0">2 a</ref>).  For the measurements at low T, the sample was placed in a liquid He flow cryostat. In all highly resolved mappings with the cryostat, irregular spatial undulations appear along the slow scan axis. This can be observed both in the region around a QuBus (Fig. <ref type="figure" target="#fig_0">2 c</ref>) and on a "blank" area far away from the electrodes (Fig. <ref type="figure" target="#fig_0">2 d</ref>). These fluctuations seemingly occur on timescale of several seconds. They are assumed to be caused by either a temperature instability of the sample due to erroneous parameters in the PID feedback loop for the temperature control system or by mechanical vibrations in the croystat. It is not possible to separate these undulations from the real features of the sample, thus a useful analysis of the measurements at low T is not viable. After this instability of the cryostat was discovered, it was decided to forego cryogenic measurements during this experiment since there was insufficient beam time remaining to identify the cause of the instability, determine a solution and still collect useful data afterwards. Instead the remaining beam time was allocated to measuring additional samples at RT. The failed measurements at low T required ca. 2 shifts, including setup, cooldown and removal of the cryostat and the connected components as well as the alignment of the sample and attempted measurements. Various other problems during this experiment also caused loss of beam time:</p><p> MUSST card: First one, then both "cnt" inputs, which were required for recording the signals of fluorescence detector and beam intensity monitor respectively, stopped functioning. The issue could be solved, but this required ca. 1.5 shifts.  Beam loss: Occured twice, once briefly and for several hours due to power failure. Together the two beam losses cost ca. 0.5 shifts.</p><p> Center of rotation (COR): Depending on the azimuthal angle Φ , the COR seemingly moved its position. The spatial drift in both x-and y-direction with the sample rocking angle η varied with Φ.</p><p>The drift in the direction within the scattering plane could be compensated by adjusting the sample height but in not the orthogonal direction. The reason for this issue is still unkown. The increased alignment overhead cost ca. 1 shift  Loss of alignment: The alignment was lost on multiple occasions due to a cause which was unknown at the time. During the last day, it was discovered that movements of the FZP in fzpx (x-coordinate) were not reproducible. Movement of the FZP along fzpx lead to loss of alignment. The repeated losses cost ca. 1 shift In total, three samples were investigated at RT only during this beam time. For each sample, around a QuBus three KMAPs were recorded for three different Bragg reflections from the {3 3 5} family of planes. By overlapping the KMAPs for the different reflections it will be possible to determine the 3D lattice parameters in both in the thin Si QW and the thick Si0.7Ge0.3 buffer. This will allow for independent, model-free calculations of 3D strains and tilts in both layers. A preliminary analysis of two succesful measurements on one sample already demonstrates that the strain fields around the electrodes are resolved by KMAP. Thus in conclusion, the measurements at RT functioned as planned and provide useful data. A comparison of the strain maps for the three different samples will provide information as to which parameters are most relevant for minimizing strain fluctuations in an epitaxial heterostructure for housing spin qubits. However, due to various issues, in particular the instability of the cryostat, the planned measurements at croygenic temperatures could not be carried out. Since the local strain fluctuations at low T are of particular relevance for qubits, it is of high interest to re-attempt a similar experiment during a later beam time.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: (a) Map of the integrated fluorescence signal over a QuBus at RT; (b) Map of the 3 3 5 Bragg diffraction signal from the Si QW at RT; (c) Map of 3 3 5 diffraction signal from the Si QW at T = 2 K.; (d) Map of the Si QW diffraction signal over an area of blank heterostructure at T = 2 KThe measurements at RT were performed without the cryostat. KMAPs were measured around the QuBus for three Bragg reflections from the {3 3 5} family of planes. The TiN electrodes are well resolved in the diffraction signal from the Si QW (Fig.2 b). As part of a preliminary analysis of the data, quantiatitative strain maps could be calculated for the Si QW from KMAPs of the 3 3 5 and -3 -3 5 reflection measured on the same sample. The strain maps (Fig.3a and b) show well-resolved local strain gradients around the TiN electrodes.</figDesc><graphic coords="2,35.63,174.84,529.68,120.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 :</head><label>3</label><figDesc>Fig. 3: (a) Map of the strain in the Si QW in [0 0 1] direction around a QuBus; (b) Map of the strain in the Si QW in [1 1 0] direction. The strains were calculated from two KMAPs of the 3 3 5 and -3 -3 5 Bragg reflections measured in the same spatial region at RT.</figDesc><graphic coords="2,34.00,406.08,297.30,151.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="1,34.00,542.60,224.00,223.60" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Electrode-induced lattice distortions in GaAs multi-quantum-dot arrays</title>
+		<author>
+			<persName><forename type="first">Anastasios</forename><surname>Pateras</surname></persName>
+			<idno type="ORCID">0000-0001-5642-7669</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jérôme</forename><surname>Carnis</surname></persName>
+			<idno type="ORCID">0000-0001-7270-6211</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Uditendu</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Ingrid</forename><surname>Richard</surname></persName>
+			<idno type="ORCID">0000-0002-8172-3141</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Leake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><forename type="middle">U</forename><surname>Schülli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Reichl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Werner</forename><surname>Wegscheider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><forename type="middle">Pablo</forename><surname>Dehollain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lieven</forename><forename type="middle">M K</forename><surname>Vandersypen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">G</forename><surname>Evans</surname></persName>
+			<idno type="ORCID">0000-0003-0421-6792</idno>
+		</author>
+		<idno type="DOI">10.1557/jmr.2019.61</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Research</title>
+		<title level="j" type="abbrev">J. Mater. Res.</title>
+		<idno type="ISSN">0884-2914</idno>
+		<idno type="ISSNe">2044-5326</idno>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">08</biblScope>
+			<biblScope unit="page" from="1291" to="1301" />
+			<date type="published" when="2019-03-06">2019</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Pateras et al. J. Mater. Res. 34(8). pp. 1291-1301. 2019;</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Imaging of strain and lattice orientation by quick scanning X-ray microscopy combined with three-dimensional reciprocal space mapping</title>
+		<author>
+			<persName><forename type="first">Gilbert</forename><forename type="middle">André</forename><surname>Chahine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Ingrid</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><forename type="middle">Arturo</forename><surname>Homs-Regojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thu</forename><forename type="middle">Nhi</forename><surname>Tran-Caliste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dina</forename><surname>Carbone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><forename type="middle">Louis Robert</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raphael</forename><surname>Grifone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Boesecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Katzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ioan</forename><surname>Costina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hamid</forename><surname>Djazouli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><forename type="middle">Urs</forename><surname>Schülli</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576714004506</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="762" to="769" />
+			<date type="published" when="2014-03-28">2014</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. A. Chahine et al. J. Appl. Cryst. 47, pp. 762-769. 2014;</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A programmable two-qubit quantum processor in silicon</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G J</forename><surname>Philips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kawakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Scarlino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Veldhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Savage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Lagally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Friesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Coppersmith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M K</forename><surname>Vandersypen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature25766</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">555</biblScope>
+			<biblScope unit="issue">7698</biblScope>
+			<biblScope unit="page" from="633" to="637" />
+			<date type="published" when="2018-02-14">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. F. Watson et al. Nature. 555(7698), pp. 633-637. 2018;</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Thermal expansion of germanium and silicon at low temperatures</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Mccammon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>White</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14786436508224956</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Magazine</title>
+		<title level="j" type="abbrev">Philosophical Magazine</title>
+		<idno type="ISSN">0031-8086</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">115</biblScope>
+			<biblScope unit="page" from="157" to="163" />
+			<date type="published" when="1965-07">1965</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. H. Carr, R. D. McCammon and G. K. White. Philos. Mag., 12(115), pp. 157-163. 1965;</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Platinum?A thermal expansion reference material</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Kirby</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00534223</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Thermophysics</title>
+		<title level="j" type="abbrev">Int J Thermophys</title>
+		<idno type="ISSN">0195-928X</idno>
+		<idno type="ISSNe">1572-9567</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="679" to="685" />
+			<date type="published" when="1991-07">1991</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. K. Kirby. Int. J. Thermophys., 12(4), pp. 680-685. 1991</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

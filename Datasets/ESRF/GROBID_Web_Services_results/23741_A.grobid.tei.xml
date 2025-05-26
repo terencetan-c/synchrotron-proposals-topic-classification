@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spatial high-resolution mapping of three-dimensional lattice tilt misorientation in wafers for electronic devices</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Petra</forename><surname>Pernot</surname></persName>
+						</author>
+						<title level="a" type="main">Spatial high-resolution mapping of three-dimensional lattice tilt misorientation in wafers for electronic devices</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">525CBF57AF6907F762FB729C9936EFBF</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Names and aliations of applicants (* indicates experimentalists):</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>We have recently developed the method named synchrotron area diractometry (alias rocking curve imaging), which combines x-ray diractometry and x-ray diraction topography <ref type="bibr" target="#b0">[1]</ref>. By recording digital topographs at a series of dierent rotation angles along the rocking curve of a crystalline sample, it allows to quantitatively characterize the homogeneity of the crystalline lattice and the spatial distribution of defects inside the sample. The aim of experiment MI-608 was to test further improvements of the method on a series of GaAs wafers. Ingots of GaAs grown by the LEC method sometimes contain macrodefects which extend along the main ingot axis and perturb the perfection of a large number of wafers cut from the same ingot. While some information on the shape and size of these defects can be gained in the laboratory by etching and optical inspection of the wafer surface, X-ray diraction is a much more appropriate technique to study the nature of the defects: It is non-destructive and can be used to quantify the degree of misorientation (both in-plane (twist) and out-of-plane (tilt)) of the crystal lattice in the perturbed region with respect to the surrounding matrix. This information is crucial from an application point of view, since only a certain amount of tilt and twist can be tolerated without perturbing the functioning of the microelectronic devices that are to be grown on top of the wafer. For this experiment, eight GaAs wafers had been cut at various heights from two dierent ingots. For each sample, the adjacent wafer from the same ingot was etched, and an optical microscope image of the defect structure at the surface was available for initial orientation and for comparison with the X-ray results. An X-ray energy of 9 keV was used, together with a FReLoN-2000 camera with 7 micron pixel size optics. For each sample, area diractometry scans were performed at three dierent reections in Bragg geometry. Thanks to recent advances in our analysis software, the scans could be preliminarily analyzed \in real time" during the experiment. The results were represented as maps of peak intensity, angular peak position and rocking curve half width. A typical result is shown in Fig. <ref type="figure" target="#fig_0">1</ref>. In this way, we could both visualize the defect shapes and quantify the lattice misorientation. The information available from the three scans of each sample are combined into a three-dimensional misorientation picture for each defect along the lines discussed in <ref type="bibr" target="#b2">[2]</ref>. Additionally, recent advances in our data evaluation method have made it possible to carry out two more types of analysis: By combining two scans measured at the same reection in dierent azimuths, one can experimentally distinguish between lattice misorientations and changes in Bragg angles (strain). A preliminary analysis has shown that strain values are indeed mostly very small (some 10 5 ), and that variations in peak positions are thus predominantly due to lattice tilts. Similarly, by combining yet another set of scans in two dierent azimuths and applying an elasticity theory calculation, one can quantify the density of dislocations lines crossing the sample surface. A rst evaluation of this type has been nished and shows very promising results. A complete analysis is under way and will be published shortly in a comprehensive paper.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Results of area diractometry scans on a GaAs wafer, measured at the 004-reection: Map of local Bragg peak position (left) and rocking curve FWHMs (right). Both scales are in degrees; axes are in units of pixels (7 m).</figDesc><graphic coords="2,41.70,42.43,255.12,182.23" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baumbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pernot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">L ubbert, D., Baumbach, T., H artwig, J., Boller, E., and Pernot, E.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Subject index</title>
+		<idno type="DOI">10.1016/s0065-2296(00)32035-3</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Botanical Research</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2000-04">Apr. 2000</date>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="521" to="527" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nucl. Instr. Meth. B 160, 4 (Apr. 2000), 521{527.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Synchrotron area diffractometry as a tool for spatial high-resolution three-dimensional lattice misorientation mapping</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mikul k</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>L bbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Koryt r</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pernot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baumbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0022-3727/36/10a/315</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<title level="j" type="abbrev">J. Phys. D: Appl. Phys.</title>
+		<idno type="ISSN">0022-3727</idno>
+		<idno type="ISSNe">1361-6463</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">10A</biblScope>
+			<biblScope unit="page" from="A74" to="A78" />
+			<date type="published" when="2003-04-22" />
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mikul k, P., L ubbert, D., Koryt ar, D., Pernot, P., and Baumbach, T.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Author index with titles</title>
+		<idno type="DOI">10.1088/0022-3727/36/24/m01</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<title level="j" type="abbrev">J. Phys. D: Appl. Phys.</title>
+		<idno type="ISSN">0022-3727</idno>
+		<idno type="ISSNe">1361-6463</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="3205" to="3227" />
+			<date type="published" when="2003-12-08">2003</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">J. Phys. D: Appl. Phys. (2003), in press.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SC4011 PROGRESS REPORT -25/02/2015 CXDI OF BONE: NEW PERSPECTIVES FOR NANOSCALE MINERAL ANALYSIS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">A</forename><surname>Gourrier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire Interdisciplinaire de Physique</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5588</orgName>
+								<orgName type="institution">CNRS Université Grenoble Alpes</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><surname>Chushkin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">European Synchrotron Radiation Facility</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Verezhak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire Interdisciplinaire de Physique</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5588</orgName>
+								<orgName type="institution">CNRS Université Grenoble Alpes</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Plazanet</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Laboratoire Interdisciplinaire de Physique</orgName>
+								<orgName type="laboratory" key="lab2">UMR 5588</orgName>
+								<orgName type="institution">CNRS Université Grenoble Alpes</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SC4011 PROGRESS REPORT -25/02/2015 CXDI OF BONE: NEW PERSPECTIVES FOR NANOSCALE MINERAL ANALYSIS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C9A42C7B820DE9414552B4ACA6DCC269</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:27+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General considerations:</head><p>The aim of the proposal was to perform coherent diffraction imaging (CXDI) measurements on bone samples in order to assess changes in electron density of the tissue with a resolution &lt; 30 nm. To this date, CXDI results have only been reported once on fish bone <ref type="bibr" target="#b0">[1]</ref> (to the best of our knowledge) which demonstrated the feasibility of the method, albeit on a poorly mineralized tissue. Other measurements taking advantage of coherent X-ray beams have also been reported on collagen <ref type="bibr" target="#b1">[2]</ref> and bone <ref type="bibr" target="#b2">[3]</ref>, although the latest was ptychography which differs in both the measurement type and phase reconstruction with respect to CXDI (scanning vs full-field). Our goal was to find out whether or not we could visualize individual fibrils and observe some mineral density differences within the experimental resolution limit which was expected to be ~ 30 nm.</p><p>Due to the complexity of this new type of experiment for our group, we decided to simplify as much as possible the sample type to be used to have a better chance to interpret the data. Thus, rather than going straight for human or animal bone as initially planned, we decided to carry out a first series of test on dentin, which is similar in tissue composition (collagen microfibrils mineralized by nanometer size calcium phosphate crystals of apatitic type) and geometry. In dentin, a classical model is to represent tubes of ~ 2 µm in diameter, typically separated by a distance of 10-20 µm apart with a gradient of mineral density in between. Thus dentin provides an ideal sample to test the sensitivity of CXDI. The important point to consider in our choice of sample, is that should the experiment succed on dentin, the application to bone would be very straightforward.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation:</head><p>The sample preparation proved very challenging due to the requirements:  dehydrated samples to avoid any kind of movement during measurement due to dehydration or radiation damage and avoid a diffusion background  samples smaller than the coherence region of the beam, i.e. (4 µm) 3   We established a new protocol involving a first step of microtomy resulting in thin sections of 4 µm in thickness and areas of (10-500 µm) 2 wide from which smaller regions of 4 x 4 µm 2 could be cut. Two options were tested for this later step: cutting using a focused ion beam (FIB) and with a UV laser cutter. Additionally, we ground small blocks of dentin. We successfully managed to measure samples from each preparation method deposited on Si 3 N 4 membranes. The result of the FIB cutting procedure is illustrated in Fig. <ref type="figure" target="#fig_0">1</ref>.</p><p>Although we succeeded in preparing the samples, we believe that this will remain an important challenge to any group aiming to perform CXDI measurements on biological samples. An important goal for ESRF would be to achieve such reconstructions on samples of ~ (10 µm) 3 (see discussion section). E.g. cutting regions of 4 x 4 µm 2 of the bone sections with the UV laser cutter is more or less the limit of what can be achieved, such that &lt; 1/10 samples cut in this way could be used for measurement. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurements:</head><p>We found that the scattering power of our samples was very high as compared to other biological samples scanned previously on ID10, such that the exposure time was limited to 25 s typically (20-60 s overall). This allowed limiting the acquisition to 1 shift/sample including alignment. The speckle size (defined by sample structure and geometry) was typically found to be between 3-5 pixels for the smaller ones, such that a good sampling in reciprocal space could be achieved by rotating the sample with 0.25 degree/step (in some cases, we used 0.5 and even 1 degree/step but the reconstruction was worse).</p><p>It should be pointed out that the sample selection was, in all cases, based on the examination of the 2D diffraction pattern (q-range information, speckle size, dynamic range etc...).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>Selected 2D diffraction patterns and corresponding reconstructions (orthogonal slices) are shown in Fig. <ref type="figure" target="#fig_1">2</ref>. They illustrate the nature of the differences encountered in terms of q-range extent (much higher in the selected laser sample than the two others) and speckle size (larger in the grinded sample). As a general rule, so far, we found the reconstruction process to be more successful for the samples cut with the UV laser cutter. This is only an illustration of work in progress and we expect that significant improvement will be made in the coming months. Nevertheless, a couple of observations are worthwhile mentioning: 1) we observe a significant fraction of porosity (in dark) within our samples which dimensions typically fall within 1-3 pixels, i.e. 28 -84 nm. This could be correlated with our TEM observations. The contrast between tissue and porosity is relatively high, such that we are currently processing the data to obtain a 3D rendering of this nanoscale porosity which appears in the form of tubes. Such small dimensions have been reported from SEM measurements but their 3D organization has never been studied before (again, to the best of our knowledge). This opens very interesting opportunities as the functional role of such nanoporosity is not very well known if at all (it could involve fluid mechanosensing <ref type="bibr" target="#b2">[3]</ref>).</p><p>2) despite of the resolution achieved (voxel size (28 nm) 3 ), we were not yet able to identify electron density changes within the tissue (in light-dark grey). In particular, we do not see clear signature of collagen microfibrils (~ 100 µm in diameter) nor of the classical repeat of 67-70 nm of collagen fibrillar organization. We have already started refining the data treatment process, but this will take more time.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig.1: SEM images of human dentin sample: a) ultramicrotomy 4 µm thin cut, b) zoom of the red square, c) cut transverse to the nanoporosity, d) sample after FIB cutting showing individual cubes of 4 µm 3 geometry.</figDesc><graphic coords="2,56.70,241.20,230.90,173.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 :</head><label>2</label><figDesc>Fig.2: CXDI speckles patterns (left) and 3 orthogonal cuts of the 3D reconstructed object (left) of 3 samples prepared by UV-laser cutter (att1), grinding and FIB.</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion:</head><p>In this experiment, we have demonstrated the potential of CXDI for fully mineralized collagen tissues. We achieved a spatial resolution sufficient to distinguish nanoporosity of ~ 28 nm which somewhat proves that our resolution is close to the voxel size of the reconstruction. A first publication is currently considered.</p><p>We now wish to extend those measurements to bone which should be relatively straightforward but we will first focus on the nanoscale porosity which has also been shown to exist (ubiquitous feature of bone-like tissues ?).</p><p>As previously mentioned, a first, important limitation for the study of mineralized tissue is the accessible sample size for CXDI measurements at ID10: (4 µm) 3 . For both sample preparation aspects and scientific ones, we believe that samples of ~ (10 µm) 3 would be much more relevant, which represents roughly a factor of 2 improvement with respect to current measuring conditions. This mainly relies on the detector characteristics and particularly the pixel size which, ultimately, defines the diffracted speckle size that can be measured. Also important is the spatial resolution of the reconstructed volume which depends on the accessible q-range. For this a large detector should be used. At present, a Maxipix detector was used with a pixel size of 55 x 55 µm 2 . Such characteristics are already quite high, but the use of an e.g. Eiger detector, could provide a significant improvement. It would be interesting to have the possibility to access such detectors through, e.g. the detector pool of the ESRF.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nanoscale Imaging of Mineral Crystals inside Biological Composite Materials Using X-Ray Diffraction Microscopy</title>
+		<author>
+			<persName><forename type="first">Huaidong</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Damien</forename><surname>Ramunno-Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Changyong</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bagrat</forename><surname>Amirbekian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshiki</forename><surname>Kohmura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshinori</forename><surname>Nishino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yukio</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tetsuya</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jianwei</forename><surname>Miao</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.100.038103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">38103</biblScope>
+			<date type="published" when="2008-01-24">2008</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Jiang, D. Ramunno-Johnson, C. Song, B. Amirbekian, Y. Kohmura, Y. Nishino, Y. Takahashi, T. Ishikawa and J. Miao (2008). Nanoscale Imaging of Mineral Crystals inside Biological Composite Materials Using X-Ray Diffraction Microscopy. PRL 100, 038103.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Collagen imaged by Coherent X-ray Diffraction: towards a complementary tool to conventional scanning SAXS</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Berenguer De La Cuesta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Bean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mccallion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bozec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Terrill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">K</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys.: Conf. Ser</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page">12004</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Berenguer de la Cuesta, R.J. Bean, C. McCallion, K. Wallace, L. Bozec, J.C. Hiller, N.J. Terrill, I.K. Robinson (2010). Collagen imaged by Coherent X-ray Diffraction: towards a complementary tool to conventional scanning SAXS. J. Phys.: Conf. Ser. 247, 012004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">3D variations in human crown dentin tubule orientation: A phase-contrast microtomography study</title>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Zaslansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Zabler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Fratzl</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dental.2009.09.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dental Materials</title>
+		<title level="j" type="abbrev">Dental Materials</title>
+		<idno type="ISSN">0109-5641</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="e1" to="e10" />
+			<date type="published" when="2010-01">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Zaslansky, S. Zabler., P. Fratzl (2010). 3D variations in human crown dentin tubule orientation: A phase-contrast microtomography study. Dental Mater. 26, e1-e10.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

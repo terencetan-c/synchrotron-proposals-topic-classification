@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report on MX-998 experiment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Report on MX-998 experiment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">34F9051229678ECED951837D28D2CD76</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Our main project and the topic of the proposal were crystallographic studies of human RNase H2. We also collected data from bacterial Holliday junction resolvase RuvC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Human RNase H2</head><p>RNases H are divided into two main classes called type 1 and 2. The preferred substrate of type 1 enzymes is an RNA/DNA hybrid with one strand containing a minimum of four consecutive ribonucleotides, while type 2 enzymes require only one ribonucleotide for cleavage to occur. Eukaryotic type 2 RNases H are composed of three subunits <ref type="bibr" target="#b0">[1]</ref>. They have been first identified in S. cerevisae and are called RNase H2A (catalytic subunit), RNase H2B and RNase H2C (auxiliary subunits) The exact role of auxiliary subunits in the activity of RNase H2 is not known. It has been shown that mutations in any of the three subunits of human enzyme result in Aicardi-Goutières syndrome (AGS), an autosomal recessive genetic disorder with symptoms similar to in utero viral infection that severely affects the nervous system <ref type="bibr" target="#b1">[2]</ref>. How RNase H2 deficiency leads to AGS is not clear.</p><p>We obtained crystals of human RNase H2 A/B/C complex in the form of thin needles. They belong to P1 spacegroup and the initial X-ray diffraction experiments produced patterns to only 7 Å resolution. In order to improve the diffraction we performed a dehydration procedure by gradually increasing the precipitant concentration. This improved the resolution to around 4,5 Å at a conventional synchrotron beamline. By using the microfocus beamline (23-2) we were able to collect a 3,1 Å dataset. Application of helical data collection was also essential to overcome the radiation damage problem and allowed us to collect a complete dataset. Since our efforts to solve the structure with Molecular Replacement method and available structures of archaeal RNases H2 failed, we produced selenomethionine-labeled protein and grew its crystals. We collected a 3,5 Å SAD dataset from these crystals at 14-4 beamline. The crystal belong to P1 spacegroup, but the dimensions of the unit cell are different from the native crystal. So far, our attempts to solve the structure using these data have failed. It is possible that too many methionines present in the strcture are disordered to obtain phase information (see below).</p><p>While we were working on the SeMet crystals, a structure of mouse RNase H2 complex was published <ref type="bibr" target="#b2">[3]</ref>. The two proteins are closely related with around 80% identity of catalytic subunits. We solved the structure of human protein based on the 3.1 Å native dataset and using the mouse protein as a search model in Molecular Replacement. The asymmetric unit contains six A/B/C complexes of human RNase H2. The refinement and analysis of the structure is now underway and it is very tedious given the large number of residues in the asymmetric unit. The preliminary analysis of the structure shows that human RNase H2 adopts a structure very similar to the mouse enzyme with large parts of subunits B and C disordered. The catalytic subunit A adopts a structure very similar to other known monomeric RNases H2. It contains two domains -the catalytic and the C-terminal one. The key element of the catalytic domain is the central β-sheet flanked by α-helices. The active site is composed of carboxylates located in the C-termini of the first strand and fourth strands of the central β-sheet. The B and C subunits adopt a structure of the highly intertwined dimer. At its center there are two mixed β-sheets and both B and C subunits contribute to the formation of each sheet. The interactions with the catalytic</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>subunit are mainly mediated by protein C and the B/C binding site is away from the nucleic acid substrate interface. This suggests that the role of the auxiliary subunits is not to influence the catalytic activity of the enzyme but to bring along other interacting proteins. We are now in the process of finishing the refinement of the structure and designing biochemical experiments to complement it.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RuvC</head><p>Genetic recombination mediates the replacement and rearrangement of DNA sequences. It is used to rearrange the genes between chromosomes and consequently generate genetic diversity and promote evolution. It also serves to protect genetic information when used to repair the DNA damage such as doublestrand breaks <ref type="bibr" target="#b3">[4]</ref>. The obligatory intermediate in this process is a four-way DNA strcture called Holliday junction. In bacteria these junctions are resolved by a protein called RuvC. It is a 19 kDa dimeric endonuclease that requires divalent metal ions for activity. It resolves Holliday junctions by cleaving symmetrically two strands of the same polarity. Substrate binding does not depend on the DNA sequence, but the cleavage is specific and occurs only at (A/T)TT↓(G/C) cognate sequence <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. Apo protein structure of RuvC has been reported <ref type="bibr" target="#b6">[7]</ref> and it revealed a dimeric structure with the two active sites within 30 Å from each other. The fold of RuvC is very similar to that of RNases H and other members of retroviral integrase superfamily.</p><p>We have solved the structure of bacterial RuvC in apo form and in complex with a synthetic Holliday junction, but in the complex the DNA was bound non-catalytically. In crystallization trials we also obtained another crystal forms that produced only very weak diffraction at synchrotron sources. We hoped that this crystal form might contain a catalytic complex of RuvC, so we performed a very careful optimization of the cryoprotection conditions and devised a crystal dehydration protocol. This treatment already improved the diffraction but in order to obtain usable data we used microfocus beamline 23-2. Even though the crystals grow in the form of thick rods (up to 0.2 mm in width) the combination of a small and very bright beam of 23-2 with the helical data collection to circumvent the radiation damage problem produced much better data than other beamlines. After testing of a large number of crystals we found one from which we collected a 3,8 Å data set. The structure was solved by molecular replacement and it corresponds to a catalytic RuvC-Holliday junction complex. Even at the relatively low resolution at which the structure was solved, the electron density for the substrate is very clear. The protein is mostly traced as a poly-alanine model.</p><p>The structure reveals that the DNA in the complex is in an unfolded 2-fold symmetrical conformation. The DNA conformation can be described as a square planar conformation in which, upon binding to the protein two arms containing the cleavage site are pulled downwards from the plane and two other arms pushed upwards. The junction has the same two-fold symmetry as the protein dimer. The base pairing at the Holliday exchange point appears to be maintained and the scissile phosphate is located 1 nt from the branch point towards the 3'-end of the cleaved strand. Substrate binding, DNA conformation and the site of cleavage are very different in RuvC compared to to published complex structures of two phage resolvases Endo I and Endo VII <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>. Our structure is also the first one for a substrate complex of a resolvase which is specific for four-way junctions.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ribonuclease H: the enzymes in eukaryotes</title>
+		<author>
+			<persName><forename type="first">Susana</forename><forename type="middle">M</forename><surname>Cerritelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Crouch</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1742-4658.2009.06908.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The FEBS Journal</title>
+		<title level="j" type="abbrev">The FEBS Journal</title>
+		<idno type="ISSN">1742-464X</idno>
+		<idno type="ISSNe">1742-4658</idno>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1494" to="1505" />
+			<date type="published" when="2009-02-25">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cerritelli, S.M. and R.J. Crouch, Ribonuclease H: the enzymes in eukaryotes. FEBS J, 2009. 276(6): p. 1494-505.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mutations in genes encoding ribonuclease H2 subunits cause Aicardi-Goutieres syndrome and mimic congenital viral brain infection</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Crow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Genet</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="910" to="916" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crow, Y.J., et al., Mutations in genes encoding ribonuclease H2 subunits cause Aicardi-Goutieres syndrome and mimic congenital viral brain infection. Nat Genet, 2006. 38(8): p. 910-6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The structure of the mammalian RNase H2 complex provides insight into RNA:DNA hybrid processing to prevent immune dysfunction</title>
+		<author>
+			<persName><forename type="first">Nadine</forename><forename type="middle">Musa</forename><surname>Shaban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fred</forename><forename type="middle">W</forename><surname>Perrino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Hollis</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fasebj.24.1_supplement.645.5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The FASEB Journal</title>
+		<title level="j" type="abbrev">The FASEB Journal</title>
+		<idno type="ISSN">0892-6638</idno>
+		<idno type="ISSNe">1530-6860</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">S1</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shaban, N.M., et al., The structure of the mammalian RNase H2 complex provides insight into RNA:DNA hybrid processing to prevent immune dysfunction. J Biol Chem, 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">ENZYMES AND MOLECULAR MECHANISMS OF GENETIC RECOMBINATION</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">C</forename><surname>West</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.bi.61.070192.003131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Biochemistry</title>
+		<title level="j" type="abbrev">Annu. Rev. Biochem.</title>
+		<idno type="ISSN">0066-4154</idno>
+		<idno type="ISSNe">1545-4509</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="603" to="640" />
+			<date type="published" when="1992-06">1992</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">West, S.C., Enzymes and molecular mechanisms of genetic recombination. Annu Rev Biochem, 1992. 61: p. 603-40.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The RuvC protein dimer resolves Holliday junctions by a dual incision mechanism that involves base-specific contacts</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cosstick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>West</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/emboj/16.6.1464</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The EMBO Journal</title>
+		<idno type="ISSNe">1460-2075</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1464" to="1472" />
+			<date type="published" when="1997-03-15">1997</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shah, R., R. Cosstick, and S.C. West, The RuvC protein dimer resolves Holliday junctions by a dual incision mechanism that involves base-specific contacts. Embo J, 1997. 16(6): p. 1464-72.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Analysis of Substrate Specificity of the RuvC Holliday Junction Resolvase with Synthetic Holliday Junctions</title>
+		<author>
+			<persName><forename type="first">Toshio</forename><surname>Shida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroshi</forename><surname>Iwasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Atsushi</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshimasa</forename><surname>Kyogoku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hideo</forename><surname>Shinagawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.271.42.26105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="issue">42</biblScope>
+			<biblScope unit="page" from="26105" to="26109" />
+			<date type="published" when="1996-10">1996</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shida, T., et al., Analysis of substrate specificity of the RuvC holliday junction resolvase with synthetic Holliday junctions. J Biol Chem, 1996. 271(42): p. 26105-9.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Atomic structure of the RuvC resolvase: A holliday junction-specific endonuclease from E. coli</title>
+		<author>
+			<persName><forename type="first">Mariko</forename><surname>Ariyoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitry</forename><forename type="middle">G</forename><surname>Vassylyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroshi</forename><surname>Iwasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haruki</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hideo</forename><surname>Shinagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kosuke</forename><surname>Morikawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0092-8674(94)90280-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<title level="j" type="abbrev">Cell</title>
+		<idno type="ISSN">0092-8674</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1063" to="1072" />
+			<date type="published" when="1994-09">1994</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ariyoshi, M., et al., Atomic structure of the RuvC resolvase: a holliday junction- specific endonuclease from E. coli. Cell, 1994. 78(6): p. 1063-72.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Crystal structure of T4 endonuclease VII resolving a Holliday junction</title>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Biertümpfel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dietrich</forename><surname>Suck</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06152</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">449</biblScope>
+			<biblScope unit="issue">7162</biblScope>
+			<biblScope unit="page" from="616" to="620" />
+			<date type="published" when="2007-09-16">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Biertumpfel, C., W. Yang, and D. Suck, Crystal structure of T4 endonuclease VII resolving a Holliday junction. Nature, 2007. 449(7162): p. 616-20.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The structural basis of Holliday junction resolution by T7 endonuclease I</title>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">M</forename><surname>Hadden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne-Cécile</forename><surname>Déclais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">B</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">M J</forename><surname>Lilley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><forename type="middle">E V</forename><surname>Phillips</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06158</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">449</biblScope>
+			<biblScope unit="issue">7162</biblScope>
+			<biblScope unit="page" from="621" to="624" />
+			<date type="published" when="2007-09-16">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hadden, J.M., et al., The structural basis of Holliday junction resolution by T7 endonuclease I. Nature, 2007. 449(7162): p. 621-4.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

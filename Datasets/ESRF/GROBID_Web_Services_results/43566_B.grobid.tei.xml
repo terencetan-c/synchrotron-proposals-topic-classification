@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8C82945AC551CAE6F1F18F67813D05EE</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>_IN_705</head><p>This study is the continuation of experiment ME-566. Indeed, in this report we propose to analyse laser-impact metals at higher strain rates (&gt;10 7 s -1 ). In addition, in experiment IN705 we perform X-ray tomographic analyses on samples cut from lasershocked, monocrystalline tantalum targets. Tomography was carried out on the damaged samples at beamline ID19. One of then was analyzed more specifically. These results were compared to molecular dynamics calculations. These results have been presented at two conferences [2],[3], in a recent student thesis [4] and will be presented in future publications.</p><p>The sample was cut to an optimal cross-sectional size of about 250 µm*250 µm. Measurements were carried out using an energy of 52 KeV. We have produced virtual images using a voxel size of 0.7 µm 3 , resulting in heterogeneous slices. Because we focus on the evolution of small pores in the early stage of damage formation, we underestimate large spall (which occurs later and upon rupture) compared to small pores.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Figure <ref type="figure" target="#fig_0">1</ref> illustrates the analysis process. This segmentation transforms the original slice into a binary image.</p><p>The 3D representation of the damaged volume is displayed in Figure <ref type="figure">2</ref> and shows that spall and pores are ellipsiodal in shape. As a preliminary control, we had cut a part of this target to verify the damage. This is the reason that we see only the second part of the ellipsoidal spall. The shock is oriented and propagates along the X-axis. Damage propagation occurs along a perpendicular axis (Y-axis). At a small scale (Fig. <ref type="figure" target="#fig_2">3</ref>), isolated pores are also seen to be ellipsoidal.</p><p>With these results, we examine the spatial distribution of voids according to the J. Hoshen and R. Kolpelman algorithm <ref type="bibr" target="#b4">[5]</ref> and like previous experiment (ME-566).</p><p>Molecular dynamics (MD) calculations are used to predict the response of the singlecrystals to laser-shock. In Figure <ref type="figure">4</ref> we compare calculated curves with experimental results.</p><p>At 69 ps, we observed that the calculated curve is stable and doesn't change after this time. Then, we compare this state to the stage of our sample from the recovered-target. The slopes determined from the experimental curves (1.5 and 2.5) are in close agreement with those determined by molecular dynamics (1.4 and 2). These distribution laws correspond to growth and coalescence phases.</p><p>Thus, the characterisation of 2 phases of ductile damage is possible with X-ray microtomography at the ESRF. Moreover, analyses of more samples are necessary to confirm the distribution laws established here.  shock→ shock↑ shock→ Figure n°3 Figure n°4 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 0 1 2 3 4 5 6 log (volum e ) log (cluster's number/volume) experiment al curve (slices 1-1550 ) Fig.4: Curves of binned pore size distribution -comparison between experimental and MD calculation results. Slope~1.5 Slope~4 Slope~1.4 Slope~2.5 Slope~2 69 ps : time when the distribution is stabilized</p><note type="other">Figure n°1 Figure n°2</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 X</head><label>1</label><figDesc>Fig.1 X-Ray radiography of spalled monocrystalline tantalum sample and an example of one slice that has been reconstructed and treated.</figDesc><graphic coords="2,78.84,89.04,360.00,270.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 :Fig. 4 :</head><label>24</label><figDesc>Fig.2: 3D representations of pores.</figDesc><graphic coords="2,87.84,441.84,186.96,244.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig 3 :</head><label>3</label><figDesc>Fig 3: Ellipsoidal shape of pores</figDesc><graphic coords="3,78.84,116.64,215.76,126.24" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors are grateful to <rs type="person">J. Adrien</rs> (<rs type="affiliation">Université de Lyon, INSA-Lyon, MATEIS CNRS UMR 5510, 69621 Villeurbanne, France</rs>) for his help with the binarisation of the microtomography.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">X‐ray Microtomography Analysis of Dynamic Damage in Tantalum</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bontaz‐carion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-P</forename><forename type="middle">‐p. </forename><surname>Pellegrini</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200600058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<title level="j" type="abbrev">Adv Eng Mater</title>
+		<idno type="ISSN">1438-1656</idno>
+		<idno type="ISSNe">1527-2648</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="480" to="486" />
+			<date type="published" when="2006-06">2006</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.Bontaz-Carion, Y.-P.Pellegrini, X-ray Microtomography Analysis of Dynamic Damage in Tantalum. Adv. Eng. Mater., 8(6) 480, (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Experimental and numerical study of the tantalum single crystal spallation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Soulard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bontaz-Carion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Cuq-Lelandais</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjb/e2012-30269-9</idno>
+		<idno>24-28/05</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The European Physical Journal B</title>
+		<title level="j" type="abbrev">Eur. Phys. J. B</title>
+		<idno type="ISSN">1434-6028</idno>
+		<idno type="ISSNe">1434-6036</idno>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2010">2010</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Soulard, J. Bontaz-Carion, J.P Cuq Lelandais &amp; al., Experimental study and molecular dynamics simulation of the tantalum single crystal spallation induced by a laser shock. 8th International Conference &quot;New Models and Hydrocodes for Shock Wave Processes in Condensed Matter&quot; (24-28/05/2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Multiscale exploration in spall dynamic damage of ductile metals</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bontaz-Carion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Soulard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Manczur</surname></persName>
+		</author>
+		<idno>6-10/07</idno>
+	</analytic>
+	<monogr>
+		<title level="m">3D IMS Conference -France</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.Bontaz-Carion, L. Soulard, P. Manczur &amp; al., Multiscale exploration in spall dynamic damage of ductile metals, in 3D IMS Conference -France, (6-10/07/2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Cuq-Lelandais</surname></persName>
+		</author>
+		<title level="m">Etude du comportement dynamique de matériaux sous choc laser subpicoseconde, thèse ENSMA (Futuroscope</title>
+		<imprint>
+			<date type="published" when="2010">10/12/2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-P.Cuq-Lelandais, Etude du comportement dynamique de matériaux sous choc laser sub- picoseconde, thèse ENSMA (Futuroscope) (10/12/2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Percolation and cluster distribution. I. Cluster multiple labeling technique and critical concentration algorithm</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoshen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kopelman</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.14.3438</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0556-2805</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3438" to="3445" />
+			<date type="published" when="1976-10-15">1976</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.Hoshen and R. Kolpelman, Phys. Rev. B14(8) (1976) 3438.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

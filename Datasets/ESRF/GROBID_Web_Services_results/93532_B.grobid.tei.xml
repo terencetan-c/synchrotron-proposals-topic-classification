@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scanning X-Ray Diffraction Microscopy of a 6-GHz Surface Acoustic Wave</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Physical Society (APS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-02-14">14 February 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Michael</forename><surname>Hanke</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Ashurbekov</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Eduardo</forename><surname>Zatterin</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">ESRF</orgName>
+								<address>
+									<addrLine>European Synchrotron 71 Ave Martyrs</addrLine>
+									<postCode>F-38000</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Msall</surname></persName>
+							<idno type="ORCID">0000-0002-2768-0064</idno>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">Bowdoin College</orgName>
+								<address>
+									<postCode>04011</postCode>
+									<settlement>Brunswick</settlement>
+									<region>Maine</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Hellemann</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">P</forename><forename type="middle">V</forename><surname>Santos</surname></persName>
+							<idno type="ORCID">0000-0002-0218-8030</idno>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">T</forename><forename type="middle">U</forename><surname>Schulli</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">ESRF</orgName>
+								<address>
+									<addrLine>European Synchrotron 71 Ave Martyrs</addrLine>
+									<postCode>F-38000</postCode>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Stefan</forename><surname>Ludwig</surname></persName>
+							<idno type="ORCID">0000-0002-0978-7458</idno>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Paul-Drude-Institut für Festkörperelektronik</orgName>
+								<orgName type="department" key="dep2">Leibniz-Institut im Forschungsverbund Berlin e.V</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Paul-Drude-Institut</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Paul-Drude-Institut</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Paul-Drude-Institut</orgName>
+								<address>
+									<addrLine>Hausvogteiplatz 5-7</addrLine>
+									<postCode>10117</postCode>
+									<settlement>Berlin</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scanning X-Ray Diffraction Microscopy of a 6-GHz Surface Acoustic Wave</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Physical Review Applied</title>
+						<title level="j" type="abbrev">Phys. Rev. Applied</title>
+						<idno type="eISSN">2331-7019</idno>
+						<imprint>
+							<publisher>American Physical Society (APS)</publisher>
+							<biblScope unit="volume">19</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<date type="published" when="2023-02-14">14 February 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">53A9E5B20E6D8005AE2F8AB4A48C8B6D</idno>
+					<idno type="DOI">10.1103/physrevapplied.19.024038</idno>
+					<note type="submission">Received 13 July 2022; revised 23 August 2022; accepted 17 January 2023;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>As a direct result out of the granted beamtime we have received the following publication. A pdf is attached on the following pages.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>Synchrotron-based scanning x-ray diffraction microscopy (SXDM) is a nondestructive tool to directly measure the local strain distribution of nanoscale devices <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> and to explore nanoscale strain dynamics operando <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. In the past, it was applied to visualize and probe the time-resolved dynamics of surface acoustic waves (SAWs) at relatively long wavelengths <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>.</p><p>SAWs, already studied in 1885 by Lord Rayleigh <ref type="bibr" target="#b12">[13]</ref>, are infamous for being the most destructive seismic waves originated by earthquakes. SAWs of much smaller wavelengths are important components of integrated circuits serving as miniature radio-frequency (rf) filters <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>, sensors <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>, or for microcontrolling fluids <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b18">19]</ref>. While these devices already in the market are based on SAWs with wavelengths beyond a few micrometers, SAWs at submicrometer wavelengths are required for alternative applications in quantum technology <ref type="bibr" target="#b19">[20]</ref>, for instance, for high-quality cavities of phonons with energies beyond approximately 10 µeV <ref type="bibr" target="#b20">[21]</ref>. Such localized phonons could be used as coherent on-chip interconnects between quantum bits or as components of hybrid quantum bits <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>.</p><p>Methods often used to characterize SAWs at lower frequencies include electrical rf reflection or transmission measurements <ref type="bibr" target="#b20">[21]</ref>, laser interferometry <ref type="bibr" target="#b23">[24]</ref>, or atomic force microscopy <ref type="bibr" target="#b24">[25]</ref>. For high-frequency SAWs with submicrometer wavelengths, the electrical measurements * hanke@pdi-berlin.de † ludwig@pdi-berlin.de suffer from impedance matching problems and the typically small amplitudes of high-frequency SAWs. While laser interferometry has an insufficient lateral resolution <ref type="bibr" target="#b23">[24]</ref> at wavelengths well below λ &lt; 1 µm, atomic force microscopy, in principle, has the necessary lateral and vertical resolution needed for imaging rf standing SAW (SSAW) modes. However, none of the above methods can provide a full characterization of a SAW. In contrast, SXDM can not resolve only rf SSAWs but is sensitive to all components of the three-dimensional local strain field, the essence of a SAW. At the ID01 beamline of the European Synchrotron Radiation Facility (ESRF) <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref>, we perform SXDM measurements mapping the local strain field of a SSAW realized on a GaAs wafer at a phonon wavelength of λ 500 nm corresponding to a frequency near f = 6 GHz. Comparing our findings with the theory of Rayleigh waves <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b22">23]</ref> we demonstrate a remarkable agreement between the measured lattice distortions and theory predictions, which includes a characteristic phase shift between the longitudinal versus transversal SAW components.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. SETUP AND EXPERIMENTAL TECHNIQUES</head><p>Our SSAWs are confined in acoustic microcavities aligned along the 110 direction on a GaAs (001) surface. The cavities, designed for quantum applications based on the coherent interaction between electrons and phonons <ref type="bibr" target="#b22">[23]</ref>, are shaped by two mirror-symmetric focusing interdigital transducers (IDTs), cf. Fig. <ref type="figure" target="#fig_0">1</ref>(a) <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b23">24]</ref>. To generate a SSAW, we modulate the right-hand-side IDT gates with an electrical rf signal, while the finger gates of the left-hand-side IDT are grounded, such that it functions as a passive Bragg mirror. In Fig. <ref type="figure" target="#fig_0">1</ref>(b) we present a typical large-scale scanning SXDM image of the cavity including a SSAW mode at f SAW = 5.690 GHz. The color scale depicts the intensity caused by diffusive scattering collected near the GaAs(004) reflection but excluding the intensity maximum. It expresses the local strain distribution perpendicular to the surface within the GaAs crystal. (Here, the strain includes local tilts of the surface.) Evident strain patterns below the evaporated metal gates allow an easy orientation on the surface. The SSAW appears as a horizontal stripe of enhanced strain (brighter color) centered between the IDTs. The region of maximal strain (red color) below the driven IDT is the source of the excited SSAW mode. Various additional speckles and stripes of high strain point to defects near the surface. The SXDM setup is sketched in Fig. <ref type="figure" target="#fig_9">2(a)</ref>. It shows the x-y-z piezoelectric scanning stage, which in turn is fixed to a moveable hexapod serving for controlling the orientation and rough position of the sample mounted to the piezo stage. Using a Fresnel zone plate, an x-ray beam with an energy of 10.185 keV is focused onto the sample at a focal length of 20 mm, a lateral spot size of (30 nm) 2 , and a primary intensity of 5 × 10 9 photons per second.</p><formula xml:id="formula_0">q 335 k i k f z [110] [001] (a) D i 4 B D f O SAW x I F K x y k i k f (b) piezo stage FZP OSA l i FIG. 2.</formula><p>Experimental setup (a) and coplanar scattering geometry (b). X-ray focusing is achieved by a combination of a 300 µm gold Fresnel zone plate (FZP) with an outermost zone width of 20 nm and an order sorting aperture (OSA). Samples are mounted on a piezo scanning stage for precise three-dimensional translations, while a hexapod on a rotation axis underneath (not shown) provides macroscopic sample translations and three orthogonal rotation axes (ϕ, χ , and η). The scattered intensity is recorded by a two-dimensional (2D) MAXIPIX detector. In order to maximize the spatial resolution we decided for a strongly asymmetric scattering geometry with nearly normal incidence, where l i indicates the penetration length of the x-ray photons, cf. Appendix C.</p><p>A Rayleigh wave is expected to cause periodic crystal displacements in its propagation direction parallel to the surface, in our setup along 110 (x axis) and perpendicular to the surface, along 001 (z axis). The penetration depth of a Rayleigh wave is comparable to its wavelength, here λ 500 nm. In order to probe the related modulations of the diffraction vector δq in these two directions, we select the asymmetric (335) reflection of GaAs as q 335 is composed of similar components q x = 4.713 Å -1 and q z = 5.557 Å -1 . The resulting diffraction geometry is co-planar, such that the scattering plane spanned by the incoming and diffracted wave vectors k i,f is orthogonal to the crystal surface. The incidence of the x rays is for q 335 almost vertical with α i = 85.2 • , cf. Fig. <ref type="figure" target="#fig_9">2(b</ref>). This enables a high lateral resolution near 30 nm due to a small beam footprint. It also leads to a small exit angle of α f = 4.6 • , which causes a noticeable damping of the scattered x rays due to their path through the crystal almost parallel to the surface. This damping and the extinction depth of the incoming x rays in GaAs of l ext 4.6 µm, both, cause a reduction of the contribution to δq as the distance to the surface, i.e., -z increases.</p><p>The planar screen sketched in Fig. <ref type="figure" target="#fig_9">2</ref>(a) shows a detector frame, which displays a reflection in reciprocal space measuring an individual spot on the surface of the fixed sample. The reflection is distorted and broadened according to the imaging function of the focused x-ray beam, including a minor contribution due to the mapping of a spherical diffraction pattern onto a planar screen. This distortion of the x-ray beam does not affect a relative shift of the reflection because of the δq caused by a SSAW.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>024038-2</head><p>C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m</p><p>To obtain the complete three-dimensional (3D) reflection, we measure a rocking curve by varying the Bragg angle B , cf. Fig. <ref type="figure" target="#fig_9">2</ref>(b), by ±0.2 • , which corresponds to η in Fig. <ref type="figure" target="#fig_9">2(a)</ref>. Rocking curve measurements are essential to probe different areas in reciprocal space. If using a point detector, e.g., a scintillator counter, one probes for a fixed sample and detector position just one point in reciprocal space. Here we use instead a 2D detector, which provides (again for a fixed sample and detector position) 2D information in reciprocal space. Accessing 3D data in reciprocal space requires an additional degree of freedom, realized here by rocking the sample in real space (varying η). This corresponds to a movement of the imaging plane in reciprocal space. Repeating this for different positions in the x-y plane yields a five-dimensional (5D) composite data set consisting of two dimensions in real and three in reciprocal space. It is composed of 3D images of the time-averaged intensity of the GaAs(335) reflection, while the 2D scan in real space provides its spatial variations. Applying a SSAW results in time-periodic spatial variations δq of the scattering vector, modulating the position of the reflection. Practically, the SSAW induced δq is small compared to the width of the undisturbed broadened reflection. Moreover, our measurement averages in time over many SSAW periods and we expect δq t 0 for moderate SSAW powers within a linear response regime. To nevertheless analyze the effect of the SSAW, we fit the 3D scattered intensity around the GaAs(335) reciprocal lattice point (the reflection peak) with three orthogonal Gaussians and determine their individual standard deviations σ x , σ y , and σ z .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS AND DISCUSSION</head><p>In Fig. <ref type="figure" target="#fig_2">3</ref>(a) we present the components σ i (x, y) with i = x, y, z for a high-resolution SXDM scan of the center of the cavity. The average values of σ x and σ y are similar while that of σ z is smaller. This distortion is a consequence of the imaging function of the focused x-ray beam, see Sec. II. This leads to a distortion of the unperturbed reflection, which can be seen in the two inserts at the top of Fig. <ref type="figure" target="#fig_2">3(a)</ref>. The strong signals below the Ti/Al gates indicate distortions of the GaAs lattice, which likely occurred during cool down after the evaporation of the metals at an elevated temperature. This is an interesting observation in itself but not a topic of this paper. In addition, in the central region between the gates (highlighted by a pair of dashed lines) periodic oscillations of σ x,z (x) appear. They have a period of λ/2 = 251.6 nm and disappear if no SSAW is generated. As expected for Rayleigh waves, no such oscillations occur for σ y .</p><p>For an analysis we model the SSAW near the center of the cavity as a superposition of a Rayleigh wave propagating in x direction and its reflection from a Bragg mirror. We consider the nonvanishing components of a Rayleigh wave, the longitudinal compression wave in x direction and the transversal shear wave in z direction. Assuming fixed ends for both relevant strain directions the SSAW is characterized by the displacement field</p><formula xml:id="formula_1">u(x, z, t) = -2 χ(z) ζ(z) cos(ωt) sin(ωt) sin(kx). (<label>1</label></formula><formula xml:id="formula_2">)</formula><p>1 µm</p><formula xml:id="formula_3">(a) 35.6 28.8 -1 V (µm )</formula><p>5.39 36.4 29. <ref type="bibr" target="#b7">8</ref> 5.75</p><formula xml:id="formula_4">V y x y V z V x -1 100 µm Gq z Gq x q y Gq y -2 -1 0 1 2</formula><p>x (µm) 024038-3 C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m</p><p>In Appendix B we discuss alternative reflection conditions. The functions χ(z) = 2Ce -r kz cos( i kz + ϕ) and ζ(z) = 2C|γ |e -r kz cos( i kz + ϕ + θ) with material-dependent parameters = r + i i , γ = |γ |e -iθ , and k = 2π/λ describe the penetration of the Rayleigh wave by about one wavelength into GaAs <ref type="bibr" target="#b22">[23]</ref>. The constant C is proportional to the amplitude of the SSAW. A straightforward calculation based on infinitesimal strain theory, cf. Appendices A and B, yields the time-averaged modulation, δq, of the diffraction vector caused by an individual scattering event as a function of x and z</p><formula xml:id="formula_5">δq 2 x t = 2q 2 x χ(z)k cos(kx) + q x q z ∂χ(z) ∂z sin(kx) 2 δq 2 z t = 2q 2 z q z q x ζ(z)k cos(kx) + ∂ζ(z) ∂z sin(kx) 2 .</formula><p>(</p><formula xml:id="formula_6">)<label>2</label></formula><p>In Appendix D we numerically sum up the contributions of all scattered photons to the actual reflection to simulate σ x,z (x). Here we present an instructive and simplifying approximation, cf. Appendix C, which predicts identical results as our numerical simulation in the phases of σ x,z and the ratio σ x /σ z while the prefactor C differs by &lt;10%. The SSAW causes an additional local broadening of the unperturbed reflection by a tiny amount σ x,z (C)/σ x,z (0) -1 ∼ 5 × 10 -3 . Such a small perturbation motivates us to apply an incoherent model of statistically independent contributions of individual scattering events to the broadening of the reflection. Then, the measured variances can be expressed as</p><formula xml:id="formula_7">σ 2 i = (σ 0 ) 2 i + δσ 2 i</formula><p>, where (σ 0 ) i indicates the standard deviations of the unperturbed beam and δσ i the small contributions of the SSAW. Because of δσ 2 i σ 2 i we can further express the sum of the contributions of all scattering events along the path of the incident x-ray beam as δσ 2 i = δq 2 i t . Integration along the incident beam finally results in the model curves for the SSAW contributions, δσ 2</p><p>x,z , plotted as dashed lines in Fig. <ref type="figure" target="#fig_2">3</ref>(b) using the amplitude C = 25 pm as the only fit parameter. The vertical line near x = -1 µm helps visualizing a phase shift between δσ 2</p><p>x and δσ 2 z . The corresponding experimental results are presented as solid lines, where we subtracted (σ 0 ) 2 i using (σ 0 ) x = 29.1 µm -1 and (σ 0 ) z = 5.5 µm -1 from the undisturbed reflections. It is remarkable that our model data confirm the measured phase shift. For the chosen value of C the model agrees with the observed δσ x , while the measured δσ z is an order of magnitude smaller compared to the prediction. We attribute this deviation to limitations in the quantitative analysis of the amplitude of the measured δσ z , related with the finite resolution of the x-ray scan, such that only a few points are detected across the narrow width (σ 0 ) z of the reflection <ref type="bibr">[29]</ref>. Note, that the accuracy of the amplitude of σ x as well as the phases of both components are not affected by these limitations, which could be avoided in an optimized future SXDM experiment with an increased resolution in the z direction. Given the absence of fit parameters the agreement between measured and model data regarding phase shift is remarkable good.</p><p>So far we focus on the strain field of the SSAW. However, the SXDM measurements are also suited for characterizing the cavity modes. Larger area surface scans as the one shown in Fig. <ref type="figure" target="#fig_0">1(b</ref>) give an overview of a mode's geometry. In Fig. <ref type="figure" target="#fig_4">4</ref>(a) we present the frequency dependence, σ z (f SAW ), within 5.58 GHz ≤ f SAW ≤ 5.81 GHz determined from high-resolution surface scans as in Fig. <ref type="figure" target="#fig_2">3</ref>   </p><formula xml:id="formula_8">Q i = f i / β i A i (arb. units) f i -f 1 (MHz)<label>(b)</label></formula><formula xml:id="formula_9">Lorentzians i A i β i f SAW /((f 2 SAW -f 2 i ) 2 + (β i f SAW ) 2</formula><p>). (b) Fit parameters used for the model curve in (a): quality factors Q i = f i /β i (circles), amplitudes A i (squares), and resonance frequencies f if 1 (triangles) as a function of the resonance index number, which we set to i = 1 at the lowest frequency measured cavity mode.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>024038-4</head><p>C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m</p><p>method for determining the true spectrum of the a rf-SAW cavity with a striking resolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. SUMMARY AND OUTLOOK</head><p>We present the first direct imaging study of the threedimensional strain field of a rf SSAW at a frequency near 6 GHz. Even for studies of SAWs of comparable frequency, this goes far beyond what alternative methods can provide, which are at most sensitive to the displacements perpendicular to the surface. Based on our quantitative extraction of strain (with a precision of δq/q 5 × 10 -7 ) through Bragg diffraction at the GaAs(335) reflection with a lateral resolution of 30 nm we are able to show a match of the strain field generated by the SSAW as well as its transversal and longitudinal surface displacements with the theory of Rayleigh waves. Our measurements reveal-in agreement with the model-a relative phase shift between the components of the reflection broadening along the propagation direction and perpendicular to the surface. Beyond, we demonstrate the capability of scanning x-ray diffraction microscopy to fully characterize a SSAW and its generating cavity. Our results pave the way towards alternative applications in future quantum technologies, where the complete knowledge of the three-dimensional local strain field of cavity phonons including their phases will be crucial. An example is the coupling between a coherent phonon field and a solid-state quantum bit, which sensitively depends on the local amplitude and phase of the strain-field components.</p><p>For applications in quantum technology the roomtemperature characterization of a SSAW with a relatively large amplitude needs to be scaled to the few phonon regime at cryogenic temperatures. This, however, should be a straight-forward task as long as the room-temperature measurements remain within the linear-response regime regarding the SSAW amplitude. The equipment for SXDM measurements at cryogenic temperatures is in development at the ESRF.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGMENT</head><p>The authors thank C. David and F. Koch from the Paul Scherrer Institut for providing an exceptionally good focusing optics for the x-ray beam, W. Anders and A. Tahraoui for the fabrication of the SSAW cavities, A. Kuznetsov for support with preliminary S-parameter measurements, S. Fölsch for an internal review of the manuscript and C. Bäuerle for providing us with a rf generator in Grenoble. We highly appreciate beamtime access through project MA-4449 at the ID01 beamline of the European Synchrotron Radiation Facility. This work is financially supported by the Deutsche Forschungsgemeinschaft through grants SA 598/15-1 and LU 819/11-1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONTRIBUTIONS OF THE AUTHORS</head><p>M. Hanke, S. Ludwig, and P. Santos planned the project. M.E. Msall, P. Santos, J. Hellemann, and S. Ludwig designed the rf focusing IDTs and cavities; N. Ashurbekov and S. Ludwig prepared the samples for the SXDM measurements; N. Ashurbekov and P. Santos characterized the electrical rf properties of the IDTs; E. Zatterin and T.U. Schulli performed the SXDM measurements (locally) in online sessions in collaboration with N. Ashurbekov, M. Hanke, and S. Ludwig (online). E. Zatterin processed and analyzed the raw data. M. Hanke and S. Ludwig developed the model, performed numerical calculations as well as further data analysis and prepared the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX A: MODULATION OF THE DIFFRACTION VECTOR BY A DISPLACEMENT FIELD</head><p>In the following we derive the modulation δq(x, z) caused by a SSAW of the scattering vector q of the GaAs(335) reflection used in our SXDM experiment. As in the main paper, we define the x axis to be parallel to the propagation direction <ref type="bibr">[110]</ref> and the z axis to be directed in [001], which points inside the crystal perpendicular to the (001) surface. In this notation, the diffraction vector is</p><formula xml:id="formula_10">q = q x q z = 2π 1/a x 1/a z = 2π a 3 √ 2 -5 , (<label>A1</label></formula><formula xml:id="formula_11">)</formula><p>with the lattice constant of GaAs a = 5.6533 Å, while q y = 0. The reciprocal of q, a = (a x , a z ) T = a( √ 2/6, -1/5) T , is normal to the Bragg planes and its absolute value of 1.7 Å is twice the distance between adjacent Bragg planes.</p><p>To determine the modulation of the diffraction vector caused by the displacement field of the SSAW we apply the concept of infinitesimal strain theory. We are interested in the variation δq = qq corresponding to a variation δa = aa. In Fig. <ref type="figure" target="#fig_6">5</ref> we sketch the connection between the displacement vector field u of the SSAW and the vector a. The displacement field shifts and tilts the Bragg planes such that a → a . From the sketch we can immediately see that δu = u 2u 1 = aa = δa. 024038-5 C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m</p><p>To determine the variation δq of the diffraction vector it is convenient to start from its total differential</p><formula xml:id="formula_12">dq = ∂q ∂x dx + ∂q ∂z dz. (A2)</formula><p>Assuming constant strain on the lengthscale of |a| (infinitesimal strain theory), we can replace dx → a x and dz → a z and write</p><formula xml:id="formula_13">δq = ∂q ∂x a x + ∂q ∂z a z . (A3)</formula><p>Inserting the components q x,z from Eq. (A1) while using ∂u i /∂j = ∂a i /∂j (because δu = δa) we find</p><formula xml:id="formula_14">δq x = -q x u xx + q x q z u xz δq z = -q z u zz + q z q x u zx , (<label>A4</label></formula><formula xml:id="formula_15">)</formula><p>where we introduce the notation u ij = ∂u i /∂j .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX B: STANDING RAYLEIGH WAVES ON A GaAs WAFER</head><p>SAWs on a homogeneous crystal are Rayleigh waves, which can be described as a combination of a compression wave in the propagation direction and a shear wave perpendicular to the surface. The corresponding displacements of a Rayleigh wave can be written as</p><formula xml:id="formula_16">u = u x u z = χ(z) sin(ωt -kx) -ζ(z) cos(ωt -kx) . (<label>B1</label></formula><formula xml:id="formula_17">)</formula><p>For GaAs the functions χ(z) and ζ(z), which describe the penetration of the SAW into the crystal, are <ref type="bibr" target="#b22">[23]</ref> χ = 2Ce -r kz cos ( i kz + ϕ) , A standing wave can be described as the superposition of a left-moving and a right-moving wave of equal amplitudes and frequencies, where their phase differences depend on the reflection conditions at the ends of the cavity. Since the SAW penetrates into the Bragg mirror, it is convenient to introduce an effective cavity length L eff , which exceeds the distance between the innermost mirror gates L. In the main paper, we determine L eff = 56 µm from the frequency separation of the modes, which corresponds to a penetration depth of δL ≡ (L eff -L)/ 2 6λ.</p><formula xml:id="formula_18">ζ = 2C|γ |e -r kz cos ( i kz + ϕ + θ) , (B2) with = r + i i 0.5 + 0.48i, γ = |γ |e -iθ 1.345e -4.</formula><p>Our cavity is mirror symmetric, cf. Fig. <ref type="figure" target="#fig_0">1</ref>(a). As a consequence, the standing wave modes of the cavity alternate in being mirror versus point symmetric (corresponding to even versus odd parity) in respect to the center of the cavity. Further, we can describe the reflection conditions in terms of open or fixed ends. For λ L eff , as is the case for our cavity, the mode number 2L eff /λ is large and, hence, the choice of open versus fixed ends is irrelevant for the observed standing-wave modes. However, the phase difference between the two SSAW-induced strain components, e.g., δσ x versus δσ z depends on whether the two components u x and u z have the same or opposite parity. (In respect to the center of a mirror-symmetric cavity, u x and u z have identical parity for equal reflection conditions or opposite parity, if u x and u z have opposite reflection conditions.) This leaves us with two choices, which result in qualitatively different standing Rayleigh waves: either u x and u z have equal reflection conditions (both ends fixed or both ends open) or u x and u z have opposite reflection conditions (u x has fixed ends and u z open ends or vice versa).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">SSAW with fixed ends for u x and for u z</head><p>In the main paper, we consider the case of equal reflection conditions, say fixed ends for both SAW components u x and u z . The corresponding standing wave has the form</p><formula xml:id="formula_19">u = -2 χ(z) ζ(z) cos(ωt) sin(ωt) sin(kx). (B3)</formula><p>The strain field of the SSAW for fixed ends only described by the partial derivatives of the displacements is</p><formula xml:id="formula_20">u xx = -2χ k cos(ωt) cos(kx), u xz = -2 ∂χ ∂z cos(ωt) sin(kx), u zx = -2ζ k sin(ωt) cos(kx), u zz = -2 ∂ζ ∂z sin(ωt) sin(kx).<label>(B4)</label></formula><p>Inserting Eq. (B4) into Eq. (A4), we find the local variations of the diffraction vector caused by the SSAW</p><formula xml:id="formula_21">δq x = 2q x χ(z)k cos(kx) + q x q z ∂χ(z) ∂z sin(kx) cos(ωt), δq z = 2q z q z q x ζ(z)k cos(kx) + ∂ζ(z) ∂z sin(kx) sin(ωt). (B5)</formula><p>Taking the time average of the square of Eq. (B5) yields Eq. ( <ref type="formula" target="#formula_6">2</ref>) in the main paper. By inserting Eq. (B2) these 024038-6</p><p>C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m</p><p>variations can be written in the explicit form</p><formula xml:id="formula_22">δq x = 2q x kχ(z) cos(kx) - q x q z r + i tan( i kz + φ) sin(kx) cos(ωt), δq z = 2q z kζ(z) q z q x cos(kx) - r + i tan( i kz + φ + θ) sin(kx) sin(ωt).</formula><p>(B6)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">SSAW with fixed ends for u x and open ends for u z</head><p>Next we perform the same calculation as in Appendix B 1 but assuming a standing Rayleigh wave with fixed ends for u x and open ends for u z . It has the form</p><formula xml:id="formula_23">u(r, t) = -2 χ(z) ζ(z) sin(kx) cos(kx) cos(ωt). (B7)</formula><p>The strain field of the SSAW is described by the partial derivatives of the displacements (B8)</p><formula xml:id="formula_24">u xx = -2χ k cos(ωt) cos(kx),</formula><p>Inserting Eq. (B8) into Eq. (A4) we find δq x = 2q x χ(z)k cos(kx) + q x q z ∂χ(z) ∂z sin(kx) cos(ωt),</p><formula xml:id="formula_25">δq z = 2q z ∂ζ(z) ∂z cos(kx) - q z q x ζ(z)k sin(kx) cos(ωt). (B9)</formula><p>The component δq x is identical as for two fixed ends, while δq z is shifted in phase, both along the x axis and in time. By inserting Eq. (B2) these variations can be written in the explicit form δq x = 2q x kχ(z) cos(kx) -q x q z r + i tan( i kz + φ) sin(kx) cos(ωt), δq z = -2q z kζ(z) q z q x sin(kx) + r + i tan( i kz + φ + θ) cos(kx) cos(ωt).</p><p>(B10)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX C: MODEL USED IN THE MAIN PAPER</head><p>In our SXDM measurements we probe the standard deviations σ x,z of the broadened reflection q in reciprocal space. Following the model outlined in the main paper, the contribution of the strain field of the SSAW can be expressed as σ 2</p><p>x,z = δq 2 x,z t , which can be easily calculated analytically starting from Eq. (B6) for equal reflection conditions or from Eq. (B10) for opposite reflection conditions of u x versus u z . Our last step is adding up all contributions to the actually measured reflection by numerically integrating along the incident beam of photons.</p><p>In GaAs, the absorption length of x rays at the energy of 10.185 keV is l abs 55 µm. In comparison, the extinction depth of the x-ray beam for the (335)-reflection is much smaller because of the Bragg reflection, l ext 6.6 µm. As sketched in Fig. <ref type="figure" target="#fig_9">2</ref>(b) of the main paper, a photon of the xray beam penetrates into the crystal until it is randomly scattered at a penetration length l i = z/ sin α i 1.004z. Then the photon travels for the distance l o = z/ sin α f 12.5z before it leaves the crystal. For such a diffraction process at a given depth z(l i ) below the surface the effects of extinction and absorption can be combined in a damping factor β(z) = e -[l i /l ext +(l i +l o )/l abs ] .</p><p>( C 1 )</p><p>For our λ 500 nm we find β(z) e -0.2z/λ . The contribution of a diffraction at z = 500 nm to the reflection is therefore reduced by approximately 18%. The SSAW itself decays much faster, namely within one wavelength below the surface, according to χ (λ)/χ (0) -0.05 and ζ (λ)/ζ (0) 0.1. To simulate our experiment we integrate δq 2 x,z (x z , z) t along the incident beam trajectory. This integration is particularly relevant because of the oscillating behavior of χ(z) and ζ(z) for z ≤ λ. Using x z = x(z = 0) + z/ tan α i x(z = 0) + 0.084z and including the depth-dependent attenuation we arrive at our prediction for the contribution of the SSAW to the shape of the reflection</p><formula xml:id="formula_26">δσ 2 x,z = ∞ 0 dz δq 2 x,z (x z , z) t β(z) ∞ 0 dzβ(z) . (<label>C 2 )</label></formula><p>To determine the model curves in Fig. <ref type="figure" target="#fig_2">3</ref>(d) we compute this integral numerically inserting δq x,z from Eq. (B6), which applies for equal reflection conditions of both components of the SSAW.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>024038-7</head><p>C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m C li c k t o b u y N O W ! P D F -X C hange V ie w e r w w w .d o c u-tra c k .c o m By applying Eq. (C2) we incoherently add up the contributions to the Bragg reflections of infinitesimal volume elements along the incident x-ray beam. This incoherent approach might be questioned, as the penetration depth of the SSAW and the nominal longitudinal x-ray coherence length of about 800 nm <ref type="bibr" target="#b3">[4]</ref> are similar. However, the photon coherence is much more reduced by the lateral focusing of the x-ray beam, which by orders of magnitude dominates the broadening of the reflections and, thus, justifies our incoherent model.</p><p>In Fig. <ref type="figure" target="#fig_10">6</ref> we compare the two cases of equal versus different reflection conditions of the x and z components of the SSAW, by insertion of Eq. (B6) versus Eq. (B10) into Eq. (C2). Because we vary the reflection condition for the z component of the SAW while keeping it unchanged for the x component, we find two model curves for δσ 2 z with opposite phase but only one model curve for δσ 2</p><p>x . Note, that the phase relation between the components is fixed while we choose the overall phase for best agreement with the measured data (solid lines). Our measured data are clearly better described by the combination of equal reflection conditions, e.g., both ends fixed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX D: NUMERICAL SIMULATION OF THE SXDM EXPERIMENT</head><p>We test our model described above by comparing its results to numerical simulations of the SXDM experiment. Experimentally we find, that the projections of the unperturbed three-dimensional reflection to the q x , q y , and q z axes of reciprocal space are well described by Gaussian distributions ∝ e -(q i /2(σ 0 ) i ) 2 . The displacement field of the SSAW causes variations of q(x, z). Hence, the reflections of individual scattering events correspond to Gaussian reflections of the same shape but slightly shifted according to</p><formula xml:id="formula_27">A i (x, z, t) ∝ β(z)e -((q i -δq i (x,z,t))/2(σ 0 ) i ) 2 , (D1)</formula><p>where δq i (x, z, t) has to be inserted from Eq. (B6) or Eq. (B10), depending on the reflection conditions and β(z) is the damping factor introduced in Eq. (C1) above. Following the actual experiment, we next determine the shape of the actual reflection by numerically integrating over z (along the incident beam) and then over time</p><formula xml:id="formula_28">α i (z) ∝ 2π/ω t=0 dt ∞ z=0 dzA i (x, z, t). (D2)</formula><p>Finally, we numerically determine the variances σ 2 i and, for a direct comparison with our approximate model above,</p><formula xml:id="formula_29">δσ 2 i = σ 2 i -(σ 0 ) 2 i .</formula><p>The numerical results resemble our approximate model results one to one in the phase difference between σ 2</p><p>x and σ 2 z and the ratio σ x /σ z , while the prefactor C differs by &lt;10%. This good agreement between the direct numerical calculation and our analytical approximation is expected, because of the small modifications of the undisturbed reflection by the displacement field of the SSAW.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX E: DISPLACEMENT AMPLITUDES OF THE SSAW-CLASSICAL REGIME</head><p>The displacement amplitudes of the SSAW at the surface are U x = 2Cχ(0) 0.8C and U z = 2C|γ |ζ(0) 1.75C, cf. Eq. ( <ref type="formula" target="#formula_1">1</ref>), where we use χ(0) 0.4, ζ(0) 0.65 and |γ | 1.345. Fitting our model described above to our measurements presented in Fig. <ref type="figure" target="#fig_2">3</ref> we find C 25 pm, corresponding to displacement amplitudes at the surface of U x 20 pm and U z 44 pm.</p><p>From our measurements presented in Figs. 1(b) and 3 we can estimate the mode area as A 56 µm 2 . This allows us to further estimate the displacement that a single phonon captured inside the cavity would cause, C 0 = f λ/HA, where the material constant H = 28.2 × 10 10 N/m 2 for GaAs <ref type="bibr" target="#b22">[23]</ref>. Using λ = 503.2 nm and f 5.675 GHz we find C 0 0.138 fm. With C = N ph C 0 we can finally estimate the number of phonons contributing to our SSAW, which is N ph ∼ 10 10 . This large number of phonons clarifies that our measurements are probing the classical regime of SSAWs.</p><p>The resolution limit of our method makes such a large amplitude necessary. Another limiting factor is the small energy of our resonant phonons, which is about 3 orders of magnitude smaller compared to that of the dominant roomtemperature thermal phonons. Nevertheless, as long as the measured SSAW is not distorted by nonlinear effects, we 024038-8 [29] Related to the narrow width δσ z of the reflection, cf.</p><p>Fig. <ref type="figure" target="#fig_2">3</ref>(a), the Gauss curves in z directions are fitted to very few, albeit accurate, measurement points. Such a situation can result in a systematic numerical error, which, here, limits the resolution of δσ 2 z . The resolution might be improved in a future synchrotron campaign. The phase of δσ 2 z (x) is determined from the periodic oscillation of the signal as a function of x and is much more accurate than the amplitude of this oscillation. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>024038-10</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1 .</head><label>1</label><figDesc>FIG. 1. (a) Optical micrograph of the SAW cavity consisting of two focusing IDTs with a pitch of 250 nm (not resolved) and additional guard gates in the center. The Ti/Al/Ti (10/30/ 10 nm) gates (including the IDTs), which are fabricated by electron-beam lithography, are depicted by a lighter tone on the GaAs surface with a darker color. (b) The color scale depicts, within the highlighted rectangular region in (a), the diffusely scattered intensity of the symmetric GaAs(004) reflection of a SXDM measurement. Dark-blue corresponds to the intensity of the unstrained crystal, red depicts enhanced intensity due to strain. The data are assembled of successively measured individual scans within apparent 5 × 5 µm 2 squares. The scanning sequence of these squares (up → down → up . . .) yields a superimposed imaging artefact of vertical stripes. The metal gates including the IDTs are clearly visible. A rf excitation of IDT2 at 5.690 GHz causes lattice distortions in the GaAs substrate underneath (red), which excites a SSAW inside the cavity along 110 seen as a horizontal light-blue stripe.</figDesc><graphic coords="3,69.15,52.27,210.86,64.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 3 .</head><label>3</label><figDesc>FIG. 3. (a) The upper plots show two orthogonal projections of an exemplary GaAs(335) reflection. The undisturbed widths are (σ 0 ) x = 29.1 µm -1 and (σ 0 ) z = 5.5 µm -1 . The color scales of the lower plots depict the standard deviations, σ x , σ y , and σ z of Gaussians fitted to the reflection along the respective directions, while we scan the center of the cavity inside the square in Fig. 1(b). In addition to the strain beneath four adjacent gates, σ x and σ z are enhanced along vertical stripes with the period of λ/2 = 251.6 nm, which indicate a SSAW. σ y shows no such periodic signal. The different signal-to-noise ratios for σ x and σ z are related to the geometry of the resolution element in reciprocal space. (b) Contributions of the SSAW, δσ 2 x (x) and δσ 2 z (x), to the variances averaged along y within the regions indicated by horizontal dashed lines in (a). The solid lines are the measurements, the dashed lines (blue) are model predictions for C = 25 pm. The model line of σ z is reduced by one order of magnitude. A vertical solid line facilitates the comparison of the phases between δσ 2x (x) and δσ 2 z (x).</figDesc><graphic coords="4,62.61,497.92,90.43,90.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>in the center of the cavity. The almost equidistant maxima correspond to the cavity modes. The mode spacing of δf 25 MHz corresponds to an effective cavity length of L eff = c/2δf 56 µm, which exceeds the distance between the innermost Bragg mirror fingers by 6 µm (where we use c = λf 500 nm × 5.68 GHz 2840 m/s). The strong decrease of the peak amplitude towards the highest frequency of 5.81 GHz indicates the high-frequency end of the stop band of the Bragg mirrors. The solid line is a fit of a sum of Lorentz curves with the fit parameters plotted in Fig. 4(b). The Q factor (triangles) of the cavity reaches 750, corresponding to a phonon life time of approximately 20 ns, but decreases towards the edge of the stop band. The squares indicate the approximate area below each peak, which is proportional to the energy stored in the corresponding mode. It has a maximum around f = 5.68 GHz. SXDM provides a direct</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIG. 4 .</head><label>4</label><figDesc>FIG. 4. (a) Variance of δσ z along line scans as shown in Fig. 3 as a function of frequency; σ (δσ z ) is proportional to the amplitude of the SAW. The solid line is the sum ofLorentzians i A i β i f SAW /((f 2 SAWf 2 i ) 2 + (β i f SAW ) 2). (b) Fit parameters used for the model curve in (a): quality factors Q i = f i /β i (circles), amplitudes A i (squares), and resonance frequencies f if 1 (triangles) as a function of the resonance index number, which we set to i = 1 at the lowest frequency measured cavity mode.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>FIG. 5 .</head><label>5</label><figDesc>FIG.5. Vectors a, a connecting adjacent Bragg planes, and displacements u 1 and u 2 of adjacent Bragg planes. The Bragg planes, which without strain are orthogonal to a, are shifted by u 1 and u 2 and tilted, such that they become orthogonal to a .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><figDesc>182i = -0.68 + 1.16i, and ϕ 1.05. Directly at the surface χ(z) and ζ(z) are both positive, which results in a retrograde elliptical motion of surface elements for a propagating Rayleigh wave.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>u xz = - 2</head><label>2</label><figDesc>∂χ ∂z cos(ωt) sin(kx), u zx = 2ζ k cos(ωt) sin(kx), u zz = -2 ∂ζ ∂z cos(ωt) cos(kx).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>FIG. 6 .</head><label>6</label><figDesc>FIG. 6. Identical measured data as in Fig. 3(d) of the main paper (solid lines, black). Dashed lines (blue) are model curves for fixed ends for both SSAW components, as in Fig. 3(d) of the main paper. The dot-dashed line (red) is the corresponding model curve but using open ends for the z component of the SSAW. Its phase is shifted by π compared to the case of fixed ends. Model lines of σ z are reduced by a factor 10.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><figDesc>SSAW of a single phonon corresponds to our measurements but scaled down to the amplitude C 0 .Schülli, Coherent nanoscale x-ray probe for crystal interrogation at ID01 ESRF-The European Synchrotron, Mater. Des. 119, 470 (2017).</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">In(Ga)As/GaAs(001) quantum dot molecules probed by nanofocus high resolution x-ray diffraction with 100 nm resolution</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dubslaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu.</forename><forename type="middle">I</forename><surname>Mazur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zh.</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Salamo</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3593960</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page">213105</biblScope>
+			<date type="published" when="2011-05-23">2011</date>
+			<publisher>AIP Publishing</publisher>
+			<pubPlace>In(Ga)As</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Dubslaff, M. Hanke, M. Burghammer, S. Schöder, R. Hoppe, C. G. Schroer, Y. I. Mazur, Z. M. Wang, J. H. Lee, and G. J. Salamo, In(Ga)As/GaAs(001) quantum dot molecules probed by nanofocus high resolution x-ray diffraction with 100 nm resolution, Appl. Phys. Lett. 98, 213105 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Structure and Composition of Isolated Core-Shell&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:mrow&gt;&lt;mml:mo stretchy=&quot;false&quot;&gt;(&lt;/mml:mo&gt;&lt;mml:mi&gt;In&lt;/mml:mi&gt;&lt;mml:mo&gt;,&lt;/mml:mo&gt;&lt;mml:mi&gt;Ga&lt;/mml:mi&gt;&lt;mml:mo stretchy=&quot;false&quot;&gt;)&lt;/mml:mo&gt;&lt;mml:mi mathvariant=&quot;normal&quot;&gt;N&lt;/mml:mi&gt;&lt;mml:mo&gt;/&lt;/mml:mo&gt;&lt;mml:mi&gt;GaN&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;Rods Based on Nanofocus X-Ray Diffraction and Scanning Transmission Electron Microscopy</title>
+		<author>
+			<persName><forename type="first">Thilo</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Hanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lars</forename><surname>Nicolai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zongzhe</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Niehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Achim</forename><surname>Trampert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maik</forename><surname>Kahnt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerald</forename><surname>Falkenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jana</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hao</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hergo-Heinrich</forename><surname>Wehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Waag</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevapplied.7.024033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Applied</title>
+		<title level="j" type="abbrev">Phys. Rev. Applied</title>
+		<idno type="ISSNe">2331-7019</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">24033</biblScope>
+			<date type="published" when="2017-02-28">2017</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Krause, M. Hanke, L. Nicolai, Z. Cheng, M. Niehle, A. Trampert, M. Kahnt, G. Falkenberg, C. G. Schroer, J. Hart- mann, H. Zhou, H.-H. Wehmann, and A. Waag, Structure and Composition of Isolated Core-Shell (In, Ga)N/GaN Rods Based on Nanofocus X-Ray Diffraction and Scan- ning Transmission Electron Microscopy, Phys. Rev. Appl. 7, 024033 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Determination of indium content of GaAs/(In,Ga)As/(GaAs) core-shell(-shell) nanowires by x-ray diffraction and nano x-ray fluorescence</title>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Al Hassan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Küpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bahrami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Salomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tahraoui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Geelhaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pietsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevmaterials.2.014604</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Materials</title>
+		<title level="j" type="abbrev">Phys. Rev. Materials</title>
+		<idno type="ISSNe">2475-9953</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">14604</biblScope>
+			<date type="published" when="2018-01-19">2018</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Al Hassan, R. B. Lewis, H. Küpers, W.-H. Lin, D. Bahrami, T. Krause, D. Salomon, A. Tahraoui, M. Hanke, L. Geelhaar, and U. Pietsch, Determination of indium content of GaAs/(In,Ga)As/(GaAs) core-shell(- shell) nanowires by x-ray diffraction and nano x-ray fluo- rescence, Phys. Rev. Mater. 2, 014604 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Nanodiffraction beamline ID01/ESRF: a microscope for imaging strain and structure</title>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Leake</surname></persName>
+			<idno type="ORCID">0000-0003-1640-0386</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Gilbert</forename><forename type="middle">A</forename><surname>Chahine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hamid</forename><surname>Djazouli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carsten</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Hilhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lucien</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Ingrid</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Morawe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raymond</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lin</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><forename type="middle">A</forename><surname>Homs-Regojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Favre-Nicolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Boesecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><forename type="middle">U</forename><surname>Schülli</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s160057751900078x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSNe">1600-5775</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="571" to="584" />
+			<date type="published" when="2019-02-22">2019</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. J. Leake, G. A. Chahine, H. Djazouli, T. Zhou, C. Richter, J. Hilhorst, L. Petit, M.-I. Richard, C. Morawe, R. Barrett, L. Zhang, R. A. Homs-Regojo, V. Favre-Nicolin, P. Boesecke, and T. U. Schülli, The Nanodiffraction beam- line ID01/ESRF: A microscope for imaging strain and structure, J. Synchrotron Rad. 26, 571 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Coherent X-ray Imaging of CO-Adsorption-Induced Structural Changes in Pt Nanoparticles: Implications for Catalysis</title>
+		<author>
+			<persName><forename type="first">Manuel</forename><surname>Abuin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Young</forename><forename type="middle">Yong</forename><surname>Kim</surname></persName>
+			<idno type="ORCID">0000-0001-6102-9518</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Henning</forename><surname>Runge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Satishkumar</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Maier</surname></persName>
+			<idno type="ORCID">0000-0002-5647-8359</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitry</forename><surname>Dzhigaev</surname></persName>
+			<idno type="ORCID">0000-0001-8398-9480</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sergey</forename><surname>Lazarev</surname></persName>
+			<idno type="ORCID">0000-0002-7230-3559</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Gelisio</surname></persName>
+			<idno type="ORCID">0000-0001-7832-6201</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Seitz</surname></persName>
+			<idno type="ORCID">0000-0002-8151-9933</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Ingrid</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vedran</forename><surname>Vonk</surname></persName>
+			<idno type="ORCID">0000-0001-9854-1101</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">F</forename><surname>Keller</surname></persName>
+			<idno type="ORCID">0000-0002-3770-6344</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Ivan</forename><forename type="middle">A</forename><surname>Vartanyants</surname></persName>
+			<idno type="ORCID">0000-0002-0340-8234</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Stierle</surname></persName>
+			<idno type="ORCID">0000-0002-0303-6282</idno>
+		</author>
+		<idno type="DOI">10.1021/acsanm.9b00764</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Applied Nano Materials</title>
+		<title level="j" type="abbrev">ACS Appl. Nano Mater.</title>
+		<idno type="ISSN">2574-0970</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4818" to="4824" />
+			<date type="published" when="2019-07-26">2019</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Abuin, Y. Y. Kim, H. Runge, S. Kulkarni, S. Maier, D. Dzhigaev, S. Lazarev, L. Gelisio, C. Seitz, M.-I. Richard, T. Zhou, V. Vonk, T. F. Keller, I. A. Vartanyants, and A. Stierle, Coherent x-ray imaging of CO-adsorption-induced structural changes in Pt nanoparticles: Implications for catalysis, ACS Appl. Nano Mater. 2, 4818 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Scanning X-ray nanodiffraction from ferroelectric domains in strained K&lt;sub&gt;0.75&lt;/sub&gt;Na&lt;sub&gt;0.25&lt;/sub&gt;NbO&lt;sub&gt;3&lt;/sub&gt; epitaxial films grown on (110) TbScO&lt;sub&gt;3&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Schmidbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Hanke</surname></persName>
+			<idno type="ORCID">0000-0001-6398-6370</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><surname>Kwasniewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dorothee</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leonard</forename><surname>Von Helden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Feldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">John</forename><surname>Leake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jutta</forename><surname>Schwarzkopf</surname></persName>
+			<idno type="ORCID">0000-0002-8919-3608</idno>
+		</author>
+		<idno type="DOI">10.1107/s1600576717000905</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="519" to="524" />
+			<date type="published" when="2017-02-17">2017</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Schmidbauer, M. Hanke, A. Kwasniewski, D. Braun, L. von Helden, C. Feldt, S. J. Leake, and J. Schwarzkopf, Scanning x-ray nanodiffraction from ferroelectric domains in strained K 0.75 Na 0.25 NbO 3 epitaxial films grown on (110) TbScO 3 , J. Appl. Cryst. 50, 519 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">X-ray imaging and diffraction from surface phonons on GaAs</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Streibl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Metzger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G C</forename><surname>Haubrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wixforth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peisl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mazuelas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Härtwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baruchel</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.124797</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1709" to="1711" />
+			<date type="published" when="1999-09-20">1999</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Sauer, M. Streibl, T. H. Metzger, A. G. C. Haubrich, S. Manus, A. Wixforth, J. Peisl, A. Mazuelas, J. Härtwig, and J. Baruchel, X-ray imaging and diffraction from surface phonons on GaAs, Appl. Phys. Lett. 75, 1709 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Time and phase control of x-rays in stroboscopic diffraction experiments</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zolotoyabko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Quintana</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1425386</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<idno type="ISSN">0034-6748</idno>
+		<idno type="ISSNe">1089-7623</idno>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1643" to="1645" />
+			<date type="published" when="2002-03-01">2002</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Zolotoyabko and J. P. Quintana, Time and phase control of x-rays in stroboscopic diffraction experiments, Rev. Sci. Instrum. 73, 1643 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Spin–phonon interactions in silicon carbide addressed by Gaussian acoustics</title>
+		<author>
+			<persName><forename type="first">Samuel</forename><forename type="middle">J</forename><surname>Whiteley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gary</forename><surname>Wolfowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">P</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><surname>Bourassa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">He</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meng</forename><surname>Ye</surname></persName>
+			<idno type="ORCID">0000-0003-2814-6071</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Gerwin</forename><surname>Koolstra</surname></persName>
+			<idno type="ORCID">0000-0002-6574-5789</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><forename type="middle">J</forename><surname>Satzinger</surname></persName>
+			<idno type="ORCID">0000-0001-5865-0813</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">V</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Joseph</forename><surname>Heremans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Cleland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">I</forename><surname>Schuster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giulia</forename><surname>Galli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">D</forename><surname>Awschalom</surname></persName>
+			<idno type="ORCID">0000-0002-8591-2687</idno>
+		</author>
+		<idno type="DOI">10.1038/s41567-019-0420-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Physics</title>
+		<title level="j" type="abbrev">Nat. Phys.</title>
+		<idno type="ISSN">1745-2473</idno>
+		<idno type="ISSNe">1745-2481</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="490" to="495" />
+			<date type="published" when="2019-02-11">2019</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. J. Whiteley, G. Wolfowicz, C. P. Anderson, A. Bourassa, H. Ma, M. Ye, G. Koolstra, K. J. Satzinger, M. V. Holt, F. J. Heremans, A. N. Cleland, D. I. Schuster, G. Galli, and D. D. Awschalom, Spin-phonon interactions in silicon carbide addressed by Gaussian acoustics, Nat. Phys. 15, 490 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">X-ray diffraction on the X-cut of a Ca3TaGa3Si2O14 single crystal modulated by a surface acoustic wave</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Irzhak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Roshchupkin</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4884875</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">244903</biblScope>
+			<date type="published" when="2014-06-23">2014</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Irzhak and D. Roshchupkin, X-ray diffraction on the x-cut of a Ca 3 TaGa 3 Si 2 O 14 single crystal modulated by a surface acoustic wave, J. Appl. Phys. 115, 244903 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Surface acoustic wave amplification by direct current-voltage supplied to graphene film</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Insepov</surname></persName>
+			<idno type="ORCID">0000-0002-8079-6293</idno>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Emelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kononenko</surname></persName>
+			<idno type="ORCID">0000-0001-7202-6128</idno>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Roshchupkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Tnyshtykbayev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Baigarin</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4906033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">23505</biblScope>
+			<date type="published" when="2015-01-12">2015</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Z. Insepov, E. Emelin, O. Kononenko, D. V. Roshchupkin, K. B. Tnyshtykbayev, and K. A. Baigarin, Surface acous- tic wave amplification by direct current-voltage supplied to graphene film, Appl. Phys. Lett. 106, 023505 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Standing surface acoustic waves in &lt;i&gt;LiNbO&lt;/i&gt;3 studied by time resolved X-ray diffraction at Petra III</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reusch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schülein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bömer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Osterhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beerlink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Krenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wixforth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Salditt</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4816801</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AIP Advances</title>
+		<idno type="ISSNe">2158-3226</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">72127</biblScope>
+			<date type="published" when="2013-07-01">2013</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Reusch, F. Schülein, C. Bömer, M. Osterhoff, A. Beer- link, H. J. Krenner, A. Wixforth, and T. Salditt, Standing surface acoustic waves in LiNbO 3 studied by time resolved X-ray diffraction at PETRAIII, AIP Adv. 3, 072127 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">On Waves Propagated along the Plane Surface of an Elastic Solid</title>
+		<author>
+			<persName><forename type="first">Lord</forename><surname>Rayleigh</surname></persName>
+		</author>
+		<idno type="DOI">10.1112/plms/s1-17.1.4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the London Mathematical Society</title>
+		<title level="j" type="abbrev">Proceedings of the London Mathematical Society</title>
+		<idno type="ISSN">0024-6115</idno>
+		<imprint>
+			<biblScope unit="volume">s1-17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="11" />
+			<date type="published" when="1885-11">1885</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Rayleigh, On waves propagated along the plane sur- face of an elastic solid, Proc. Lond. Math. Soc. s1-17, 4 (1885).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Acoustic Wave Filter Technology–A Review</title>
+		<author>
+			<persName><forename type="first">Clemens</forename><forename type="middle">C W</forename><surname>Ruppel</surname></persName>
+			<idno type="ORCID">0000-0002-4491-1039</idno>
+		</author>
+		<idno type="DOI">10.1109/tuffc.2017.2690905</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control</title>
+		<title level="j" type="abbrev">IEEE Trans. Ultrason., Ferroelect., Freq. Contr.</title>
+		<idno type="ISSN">0885-3010</idno>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1390" to="1400" />
+			<date type="published" when="2017-09">2017</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. C. W. Ruppel, Acoustic wave filter technology-a review, IEEE Trans. Ultrason. Ferroelectr. Freq. Control 64, 1390 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The 5G Effect on RF Filter Technologies</title>
+		<author>
+			<persName><forename type="first">Steven</forename><surname>Mahon</surname></persName>
+			<idno type="ORCID">0000-0003-1089-2500</idno>
+		</author>
+		<idno type="DOI">10.1109/tsm.2017.2757879</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Semiconductor Manufacturing</title>
+		<title level="j" type="abbrev">IEEE Trans. Semicond. Manufact.</title>
+		<idno type="ISSN">0894-6507</idno>
+		<idno type="ISSNe">1558-2345</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="494" to="499" />
+			<date type="published" when="2017-11">2017</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Mahon, The 5G effect on rf filter technologies, IEEE Trans. Semicond. Manuf. 30, 494 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Wireless physical SAW sensors for automotive applications</title>
+		<author>
+			<persName><forename type="first">Victor</forename><surname>Kalinin</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ultsym.2011.0053</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2011 IEEE International Ultrasonics Symposium</title>
+		<meeting><address><addrLine>Orlando</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011-10">2011</date>
+			<biblScope unit="page">212</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Kalinin, in 2011 IEEE Int. Ultrason. Symp. (IEEE, Orlando, 2011), p. 212.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">SAW Sensors for Chemical Vapors and Gases</title>
+		<author>
+			<persName><forename type="first">Jagannath</forename><surname>Devkota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Ohodnicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Greve</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s17040801</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<title level="j" type="abbrev">Sensors</title>
+		<idno type="ISSNe">1424-8220</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">801</biblScope>
+			<date type="published" when="2017-04-08">2017</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Devkota, P. R. Ohodnicki, and D. W. Greve, SAW sensors for chemical vapors and gases, Sensors 17, 801 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Acoustically Driven Programmable Microfluidics for Biological and Chemical Applications</title>
+		<author>
+			<persName><forename type="first">Achim</forename><surname>Wixforth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jala.2006.08.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JALA: Journal of the Association for Laboratory Automation</title>
+		<title level="j" type="abbrev">JALA: Journal of the Association for Laboratory Automation</title>
+		<idno type="ISSN">1535-5535</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="399" to="405" />
+			<date type="published" when="2006-12">2006</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Wixforth, Acoustically driven programmable microflu- idics for biological and chemical applications, J. Lab. Autom. 11, 399 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Surface acoustic wave microfluidics</title>
+		<author>
+			<persName><forename type="first">Xiaoyun</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peng</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sz-Chin Steven</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zackary</forename><forename type="middle">S</forename><surname>Stratton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nitesh</forename><surname>Nama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Slotcavage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaole</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jinjie</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Costanzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tony</forename><forename type="middle">Jun</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3lc50361e</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab on a Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">3626</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Ding, P. Li, S.-C. S. Lin, Z. S. Stratton, N. Nama, F. Guo, D. Slotcavage, X. Mao, J. Shi, F. Costanzo, and T. J. Huang, Surface acoustic wave microfluidics, Lab Chip 13, 3626 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The 2019 surface acoustic waves roadmap</title>
+		<author>
+			<persName><forename type="first">Per</forename><surname>Delsing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">N</forename><surname>Cleland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">J A</forename><surname>Schuetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Knörzer</surname></persName>
+			<idno type="ORCID">0000-0002-7318-3018</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Géza</forename><surname>Giedke</surname></persName>
+			<idno type="ORCID">0000-0002-9676-5686</idno>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Ignacio</forename><surname>Cirac</surname></persName>
+			<idno type="ORCID">0000-0003-3359-1743</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kartik</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcelo</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Krishna</forename><forename type="middle">Coimbatore</forename><surname>Balram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Bäuerle</surname></persName>
+			<idno type="ORCID">0000-0001-7393-0346</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tristan</forename><surname>Meunier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">J B</forename><surname>Ford</surname></persName>
+			<idno type="ORCID">0000-0002-4557-3721</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Paulo</forename><forename type="middle">V</forename><surname>Santos</surname></persName>
+			<idno type="ORCID">0000-0002-0218-8030</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Edgar</forename><surname>Cerda-Méndez</surname></persName>
+			<idno type="ORCID">0000-0002-6479-6664</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hailin</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0001-7614-2003</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hubert</forename><forename type="middle">J</forename><surname>Krenner</surname></persName>
+			<idno type="ORCID">0000-0002-0696-456X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Emeline</forename><forename type="middle">D S</forename><surname>Nysten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Weiß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoff</forename><forename type="middle">R</forename><surname>Nash</surname></persName>
+			<idno type="ORCID">0000-0002-5321-4163</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Thevenard</surname></persName>
+			<idno type="ORCID">0000-0002-4723-2955</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Catherine</forename><surname>Gourdon</surname></persName>
+			<idno type="ORCID">0000-0001-9901-1399</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Pauline</forename><surname>Rovillain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Max</forename><surname>Marangolo</surname></persName>
+			<idno type="ORCID">0000-0001-6211-8168</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Yves</forename><surname>Duquesne</surname></persName>
+			<idno type="ORCID">0000-0001-9156-8758</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Gerhard</forename><surname>Fischerauer</surname></persName>
+			<idno type="ORCID">0000-0003-2000-4730</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Werner</forename><surname>Ruile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Reiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Paschke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmytro</forename><surname>Denysenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>Volkmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Achim</forename><surname>Wixforth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henrik</forename><surname>Bruus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Wiklund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Reboud</surname></persName>
+			<idno type="ORCID">0000-0002-6879-8405</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">M</forename><surname>Cooper</surname></persName>
+			<idno type="ORCID">0000-0002-2358-1050</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Yongqing</forename><surname>Fu</surname></persName>
+			<idno type="ORCID">0000-0001-9797-4036</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Manuel</forename><forename type="middle">S</forename><surname>Brugger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Florian</forename><surname>Rehfeldt</surname></persName>
+			<idno type="ORCID">0000-0001-9086-3835</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Westerhausen</surname></persName>
+			<idno type="ORCID">0000-0001-7103-7060</idno>
+		</author>
+		<idno type="DOI">10.1088/1361-6463/ab1b04</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics D: Applied Physics</title>
+		<title level="j" type="abbrev">J. Phys. D: Appl. Phys.</title>
+		<idno type="ISSN">0022-3727</idno>
+		<idno type="ISSNe">1361-6463</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">35</biblScope>
+			<biblScope unit="page">353001</biblScope>
+			<date type="published" when="2019-07-03">2019</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Delsing, et al., The 2019 surface acoustic waves roadmap, J. Phys. D: Appl. Phys. 52, 353001 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Ultrahigh-frequency surface acoustic wave generation for acoustic charge transport in silicon</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Büyükköse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vratzov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Der Veen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Van Der Wiel</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4774388</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13112</biblScope>
+			<date type="published" when="2013-01-07">2013</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Büyükköse, B. Vratzov, J. van der Veen, P. V. Santos, and W. G. van der Wiel, Ultrahigh-frequency surface acous- tic wave generation for acoustic charge transport in silicon, Appl. Phys. Lett. 102, 013112 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Characterization of Qubit Dephasing by Landau-Zener-Stückelberg-Majorana Interferometry</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Forster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Manus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hänggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wegscheider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kohler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ludwig</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.112.116803</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">116803</biblScope>
+			<date type="published" when="2014-03-19">2014</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Forster, G. Petersen, S. Manus, P. Hänggi, D. Schuh, W. Wegscheider, S. Kohler, and S. Ludwig, Characterization of Qubit Dephasing by Landau-Zener-Stückelberg-Majorana Interferometry, Phys. Rev. Lett. 112, 116803 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Universal Quantum Transducers Based on Surface Acoustic Waves</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J A</forename><surname>Schuetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Kessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giedke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M K</forename><surname>Vandersypen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Lukin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Cirac</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevx.5.031031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review X</title>
+		<title level="j" type="abbrev">Phys. Rev. X</title>
+		<idno type="ISSNe">2160-3308</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">31031</biblScope>
+			<date type="published" when="2015-09-10">2015</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. J. A. Schuetz, E. M. Kessler, G. Giedke, L. M. K. Van- dersypen, M. D. Lukin, and J. I. Cirac, Universal Quantum Transducers Based on Surface Acoustic Waves, Phys. Rev. X 5, 031031 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Acoustic Field for the Control of Electronic Excitations in Semiconductor Nanostructures</title>
+		<author>
+			<persName><forename type="first">Paulo</forename><forename type="middle">V</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Madeleine</forename><surname>Msall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Ludwig</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ultsym.2018.8579769</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2018 IEEE International Ultrasonics Symposium (IUS)</title>
+		<meeting><address><addrLine>Kobe</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2018-10">2018. 2018</date>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. V. Santos, M. E. Msall, and S. Ludwig, 2018 IEEE Int. Ultrason. Symp. (IEEE, Kobe, 2018), p. 1.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Determining Amplitudes of Standing Surface Acoustic Waves via Atomic Force Microscopy</title>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Hellemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Filipp</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Madeleine</forename><surname>Msall</surname></persName>
+			<idno type="ORCID">0000-0002-2768-0064</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Paulo</forename><forename type="middle">V</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Ludwig</surname></persName>
+			<idno type="ORCID">0000-0002-0978-7458</idno>
+		</author>
+		<idno type="DOI">10.1103/physrevapplied.17.044024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Applied</title>
+		<title level="j" type="abbrev">Phys. Rev. Applied</title>
+		<idno type="ISSNe">2331-7019</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">44024</biblScope>
+			<date type="published" when="2022-04-13">2022</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Hellemann, F. Müller, M. Msall, P. V. Santos, and S. Lud- wig, Determining Amplitudes of Standing Surface Acoustic Waves via Atomic Force Microscopy, Phys. Rev. Appl. 17, 044024 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Imaging of strain and lattice orientation by quick scanning X-ray microscopy combined with three-dimensional reciprocal space mapping</title>
+		<author>
+			<persName><forename type="first">Gilbert</forename><forename type="middle">André</forename><surname>Chahine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Ingrid</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><forename type="middle">Arturo</forename><surname>Homs-Regojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thu</forename><forename type="middle">Nhi</forename><surname>Tran-Caliste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dina</forename><surname>Carbone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><forename type="middle">Louis Robert</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raphael</forename><surname>Grifone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Boesecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Katzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ioan</forename><surname>Costina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hamid</forename><surname>Djazouli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><forename type="middle">Urs</forename><surname>Schülli</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576714004506</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="762" to="769" />
+			<date type="published" when="2014-03-28">2014</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. A. Chahine, M.-I. Richard, R. A. Homs-Regojo, T. N. Tran-Caliste, D. Carbone, V. L. R. Jacques, R. Gri- fone, P. Boesecke, J. Katzer, I. Costina, H. Djazouli, T. Schroeder, and T. U. Schülli, Imaging of strain and lattice orientation by quick scanning x-ray microscopy combined with three-dimensional reciprocal space mapping, J. Appl. Crystallogr. 47, 762 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Strain and lattice orientation distribution in SiN/Ge complementary metal–oxide–semiconductor compatible light emitting microstructures by quick x-ray nano-diffraction microscopy</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Chahine</surname></persName>
+			<idno type="ORCID">0000-0003-2550-2325</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Zoellner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-I</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zaumseil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Capellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">U</forename><surname>Schülli</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4909529</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">71902</biblScope>
+			<date type="published" when="2015-02-16">2015</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. A. Chahine, M. H. Zoellner, M.-I. Richard, S. Guha, C. Reich, P. Zaumseil, G. Capellini, T. Schroeder, and T. U. Schülli, Strain and lattice orientation distribution in SiN/Ge complementary metal-oxide-semiconductor com- patible light emitting microstructures by quick x-ray nano- diffraction microscopy, Appl. Phys. Lett. 106, 071902 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Coherent nanoscale X-ray probe for crystal interrogation at ID01, ESRF – The European Synchrotron</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Leake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Favre-Nicolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zatterin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-I</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chahine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boesecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Djazouli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">U</forename><surname>Schülli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2017.01.092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials &amp; Design</title>
+		<title level="j" type="abbrev">Materials &amp; Design</title>
+		<idno type="ISSN">0264-1275</idno>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="470" to="471" />
+			<date type="published" when="2017-04" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Leake, V. Favre-Nicolin, E. Zatterin, M.-I. Richard, S. Fernandez, G. Chahine, T. Zhou, P. Boesecke, H. Djazouli,</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

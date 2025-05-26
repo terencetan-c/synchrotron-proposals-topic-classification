@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Statistical study of the mechanical deformation of nanocrystals</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Steven</forename><surname>Leake</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Beutier</forename><surname>Guillaume</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Comby</forename><surname>Solène</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Verdier</forename><surname>Marc</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Volpi</forename><surname>Fabien</surname></persName>
+						</author>
+						<title level="a" type="main">Statistical study of the mechanical deformation of nanocrystals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9E294D14E0453D3196441A51A4D0E3DD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T12:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The purpose of the experiment was to perform a statistical study of the microstructure of gold nanocrystals before and after nanoindentation. We used the high throughput of ID01 for Coherent X-ray Diffraction (CXD) measurements and of the nanoindentation facility of our lab, also based in Grenoble, to measure a large number of crystals by CXD before and after ex situ nanoindentation, during the same experimental run.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The experiment went almost as initially planned and was very successful.</p><p>The gold nanocrystals were prepared by solid state dewetting of a gold thin film on a sapphire substrate. The substrates were covered with a patterned mask in order to obtain well isolated crystals aligned on a square lattice (Figure <ref type="figure" target="#fig_0">1</ref>). The large separation is needed for the CXD measurements because the focused beam has weak but large tails that can cause the measurement to fail by illuminating nearby crystals. The template is used to identify the crystals individually during the nanoindentation and the CXD measurements. SEM prior to the experiment allowed do identified the best crystals, i.e. the ones that display a shape as close as possible to the Winterbottom equilibrium shape. This characteristic is important to ease the modelling, and allows to select a set of crystals with external shapes as similar as possible, in order to make statistics.</p><p>We prepared 2 substrates hosting slightly different types of crystals: they were obtained by dewetting films of different thickness (45 nm and 60 nm), leading to nanocrystals with slightly different average sizes. The influence of the size on the mechanical behaviour is an open debate in the community.</p><p>As initially planned, a large number of crystals on both substrates were sequentially measured in their initial state, then indented in our lab, then measured again at ID01. The full list of crystals is given in appendix. The beamtime was fully used, by measuring one of the samples while indenting the other one. In addition, due to the larger through-put of CXD than nano-indentation, a large number of crystals were measured only by CXD, for future investigation of their mechanical response: the initial microstructure is relevant to understand it. Characterisation of the final microstructure, if needed, can be done later (beamtime will be required).</p><p>Different parameters of indentation were used. Some crystals were loaded with a "flat punch" and others were properly indented with a "cube corner" tip (Figure <ref type="figure" target="#fig_1">2</ref>). In all cases, the load-displacement curves, which characterize globally the mechanical test, were recorded, and the crystals were loaded/indented at various load levels and depths. The CXD experiment was performed with the standard set-up, i.e. at 8 keV with Fresnel Zone Plate focusing (the sample was placed 1 mm out of focus in order to match the beam size with the crystals size). The vicinity of the 111 Bragg reflection was measured in 3D by rocking the sample and recording the diffraction pattern with the Maxipix4 detector. Sufficient oversampling in the 3 dimensions was ensured by the detector to sample distance (~1m) and the rocking curve step size (0.005°).</p><p>We intend to recover real space images of the crystals by using phase retrieval algorithms. The phase of the real space reconstruction provides an image of lattice displacement field, from which the strain and the crystal defects can de deduced. The analysis is in progress, but will take time due to the large amount of data and the poor automation of the "reconstruction" process. In cases when the real space reconstruction fails, a reciprocal space analysis can already provide qualitative information on the microstructure of the crystal, before and after indentation. We provide below an example of data with its real space reconstruction, for a crystal which has been loaded by a flat punch. The force-displacement curve suggests a reversible (elastic) load (Figure <ref type="figure" target="#fig_2">3</ref>), but the diffraction data proves that the load induced stacking faults in the {111} planes (Figure <ref type="figure" target="#fig_3">4</ref>) that were not detected by the nanoindenter. This example demonstrates the high sensitivity of CXD to crystal defects, to a level that even top-of-the-art mechanical apparatus cannot challenge.  0 0.02 0.04 0.06 0.08 0.1 0 1 2 3 4 5 6 7 Load (mN) Depth (nm) While the analysis is still in progress, we can already draw the following general conclusions:</p><p>• We established a reliable procedure to investigate the effect of mechanical loading on the microstructure of nanocrystals. • The method is high throughput, because both techniques (CDI and nanoindentation) are high throughput and both located in Grenoble.</p><p>• The large number of crystals measured in this run will provide interesting mechanical information, but probably deserve more measurements in order to improve the statistical validity of study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX</head><p>Full list of the nanocrystals measured by CXD during this experiment, with their corresponding mechanical tests.</p><p>Nano-indentation CXD scans first pop-in SAMPLE CRYSTAL Indenter SAMPLE "45 nm" 1,3 702 669 520 Flat Punch 0.4 reversible 23 75 1,4 753 758 330 Cube Corner 0.06 reversible 29 78 1,5 744 697 364 Cube Corner 0.03 reversible 31 80 1,6 711 720 44 1,7 460 46 2,3 Flat Punch 0.91 0.91 300.05 31.46 18 72 2,4 669 651 620 37 &amp; 38 83 2,7 316 48 3,2 353 367 205 Flat Punch 0.1 reversible 18 97 3,6 53 3,8 55 4,3 739 748 414 Cube Corner 0.0091 0.0091 4 5.6 25 89 4,4 758 748 266 27 4,7 330 57 5,2 763 790 348 Cube Corner 0.0093 0.0093 8.6 5 20 87 21 5,4 758 734 330 Cube Corner 0.0078 0.0078 6.52 4.33 35 85 5,6 59 6,5 790 781 270 Cube Corner 0.0157 0.0157 17.21 6.92 33 92 6,6 62 6,8 65 7,4 702 702 385 40 &amp; 41 94 7,7 263 67 8,4 697 683 390 69 8,8 71 9,7 248 78 10,2 744 720 400 82 10,4 749 739 365 80 10,6 84 11,5 762 725 73 12,6 75 13,2 772 776 353 90 Nano-indentation CXD scans first pop-in SAMPLE CRYSTAL Indenter SAMPLE "60 nm" 7,2 1070 1100 320 26 54 8,2 880 950 527 Flat Punch 0.1 reversible 29 23 2,3 900 940 603 38 7,3 970 970 416 Cube Corner 0.005 0.005 1.89 3.07 35 29 8,3 860 1040 450 Cube Corner 33 10,3 860 865 550 Cube Corner 0.0056 0.0056 3.95 3.259 31 26 11,3 860 860 590 89 7,4 950 1060 390 43 62 10,4 1049 1065 330 Cube Corner 0.0074 0.0074 4.868 4.113 46 32 3,5 1170 1150 267 Flat Punch 0.46 0.46 73.46 11.19 53 4,5 1050 1000 355 Flat Punch 0.04 0.04 1.35 9.8 52 7,5 1000 820 480 Cube Corner 0.0094 0.0094 8.73 4.88 51 38 10,5 1210 1300 230 Cube Corner 0.006 0.006 1.5 5.3 49 35 4,6 950 1090 55 57 5,6 1000 850 478 Cube Corner 0.008 0.008 2.65 6.65 57 42 8,6 820 975 490 Cube Corner 0.008 0.008 5.49 5.24 60 1,7 1070 1160 281 73 4,7 850 840 588 68 5,7 1040 1170 315 65 75 6,7 860 795 593 63 5,8 960 1000 431 75 11,8 990 1300 265 92 4,9 920 820 485 77 6,10 813 930 612 85 8,10 980 880 420 Cube Corner 0.014 reversible 79 46 10,10 1020 930 435 81 1,11 1200 820 350 77 3,11 87 7,11 990 1000 607 81 99+ 5,12 69 2,13 1140 1160 346 60 6,13 1040 1030 360 64 CRYSTAL SIZE (SEM&amp;AFM) Lx (nm) Ly (nm) Lz (nm) Maximal force (mN) Force at (mN) Length of (nm) Displacement before (nm) scan before (file "45nm") scan after (file "45nm_2") CRYSTAL SIZE (SEM&amp;AFM) Lx (nm) Ly (nm) Lz (nm) Maximal force (mN) Force at (mN) Length of (nm) Displacement before (nm) scan before (file "60nm") scan after (file "60nm_2")</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: typical SEM view of the nanocrystals.</figDesc><graphic coords="2,34.00,42.80,527.30,395.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Example of nanoindentation with a cube corner tip.</figDesc><graphic coords="3,201.10,45.90,176.40,186.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>1µmFigure 3 :</head><label>3</label><figDesc>Figure 3: Reversible indentation of gold nanocrystal with a flat punch. The load-depth curve does not display any discontinuity (a sign of dislocation avalanches) and suggests a reversible mechanical behaviour. The SEM images of the crystal before (left) and after (right) indentation are identical.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure4: Projection of the CXD patterns along the 111 growth axis, before and after flat-punch loading, and the corresponding real-space reconstructions (x-y cuts and x-z cuts). The scale in the real space images is in nm. The colour encodes the phase, whose jumps reveal the presence of crystal defects. The phase origin is irrelevant.</figDesc><graphic coords="5,21.50,431.20,291.10,218.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,34.00,395.00,527.30,159.50" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>from: 30/09/2016 to: 05/10/2016</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Magnetic tomography of a new type of domain walls</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Flora</forename><surname>Yakhou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Alexis Wartelle (Institut Jean Lamour / ESRF)</orgName>
+								<address>
+									<addrLine>Marisel Di Pietro Martinez</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Feodor Ogrin</orgName>
+								<orgName type="laboratory">Gerrit van</orgName>
+								<orgName type="institution" key="instit1">Laan (Diamond Light Source) * Katie Lewis (University of Exeter</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<orgName type="institution" key="instit3">Nicolas Rougemaille (Institut Néel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>SIMaP</roleName><forename type="first">Guillaume</forename><surname>Beutier</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Max-Planck-Institute for Chemical Physics of Solids)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Magnetic tomography of a new type of domain walls</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B3C25AA054D8DC7A1E48D636D9BEF39C</idno>
+					<note type="submission">from: 21.02.2023 to: 27.02.2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Samples were thus prepared by growing a 300 nm thick layer of permalloy by magnetron sputtering at ~400°C on a SiN membrane. The back side of the latter had previous been covered with a thick Au-Ti multilayer designed to be opaque to soft X-rays. 4 devices were etched in the permalloy layer, and FTH masks milled by FIB in the Au-Ti multilayer in front of the permalloy samples. One of them is shown in Figure <ref type="figure" target="#fig_2">3</ref>. The sample was mounted on the sample stage of the FTH chamber of ID32. The X-ray beam was tuned to the Fe L3 edge and filtered for coherence by a set of pinholes upstream the samples. The coherent scattering patterns were recorded on the Dhyana95 sCMOS camera, which had previously been sent back to the manufacturer to solve the condensation issue. The reconditionned camera worked better than during previous experiments, but it was not perfect. Stains started to appear after 4 days of beamtime. A bake-out in situ was necessary before continuing with the last 2 days. Moreover, some burns were visible on the chip.</p><p>Compared to the previously existing set-up, we used 2 days to optimise a procedure to combine data with and without beamstop: special care was taken to reject harmonics, allowing to use a strong attuator (a 2.5 µm thick zinc film) for the measurement of the direct beam. This improved set-up to make quantitative measures, whereas approximations were needed without the direct beam measurements. For instance, the charge image now shows similar contrast to SEM (Figure <ref type="figure" target="#fig_2">3</ref>).</p><p>First the 4 devices were imaged in normal incidence, to try to identify those with the most interesting magnetic textures. Two of them were particularly interesting. Device "C", a 5 µm x 1 µm bar, showed a diamond structure (Figure <ref type="figure" target="#fig_3">4</ref>) already seen experimentally in epitaxial Fe islands <ref type="bibr" target="#b2">[3]</ref> and predicted numerically for the permalloy strips in certain circonstances.-Device "D", on which we focused the rest of the measurement, displayed a contrast simoilar to the expected one for Landau doamin wall in normal incidence (Figure <ref type="figure" target="#fig_4">5</ref>). Measurements at several tilt angles at 2 orthogonal azimuths were taken, but several issues with the camera (in particular the stains) prevented us from aquiring a full data set for tomography. However, some of the individual images are of excellent quality and my be used for comparison with numerical models.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Micromagnetic configuration of a Landau domain wall in a 200 nm wide, 60 nm thick permalloy strip. (a-c) XY cross section views of a Landau DW at different heights [(a) z = 60 nm, (b) z = 30 nm, (c) z = 0 nm] illustrating the 3 internal degrees of freedom the (clockwise) chirality (white arrows), the polarity of the Bloch wall (yellow arrows) and the direction of the Néel caps (magenta arrows) for the bottom (z = 0 nm) and top (z = 60 nm) surfaces. (d) Cross section view along the dashed white line shown in (b). In all images, X, Y and Z stand for the length, width and thickness of the strip, respectively. The red/ blue color code gives the amplitude of the magnetisation component along Y. Taken from [1].</figDesc><graphic coords="2,34.00,42.80,532.95,389.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Micromagnetic configuration in a 5 µm x 1 µm 240 nm thick permalloy bar. Similarly to the Landau domain wall in continuous strips, the core starts on one hand of the bar and emerges on the other end.</figDesc><graphic coords="2,34.00,584.25,532.95,133.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Left: SEM view of device "D", a 4 µm x 1 µm permalloy bar. The circular aperture in the Au/Ti mask on the back side of the membrane is visible. Right: FTH view of the charge part of devide "D".</figDesc><graphic coords="3,38.50,84.50,260.80,257.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Magnetic (left) and charge (right) images of device "C".</figDesc><graphic coords="4,34.00,42.80,532.95,213.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Magnetic and charge images of device "D" in normal incidence and at 40° of tilt.</figDesc><graphic coords="4,34.00,303.35,532.95,370.05" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Third type of domain wall in soft magnetic nanostrips</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">D</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Fruchart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pizzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-C</forename><surname>Toussaint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rougemaille</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep12417</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">12417</biblScope>
+			<date type="published" when="2015-07-23">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nguyen et al., Scientific Reports 5 :12417 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">di Maria, Most Rev. Pietro, (1865–1937)</title>
+		<author>
+			<persName><forename type="first">Pietro</forename><surname>Di</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Martinez</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ww/9780199540884.013.u208610</idno>
+		<idno type="arXiv">arXiv:2212.10183</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B, accepted</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Di Pietro Martinez et al, Phys. Rev. B, accepted, arXiv:2212.10183 (2023)</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Micromagnetic study of flux-closure states in Fe dots using quantitative Lorentz microscopy</title>
+		<author>
+			<persName><forename type="first">Aurélien</forename><surname>Masseboeuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Fruchart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabien</forename><surname>Cheynis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicolas</forename><surname>Rougemaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Christophe</forename><surname>Toussaint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Marty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pascale</forename><surname>Bayle-Guillemaud</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ultramic.2012.02.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ultramicroscopy</title>
+		<title level="j" type="abbrev">Ultramicroscopy</title>
+		<idno type="ISSN">0304-3991</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="26" to="34" />
+			<date type="published" when="2012-04">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masseboeuf et al, Ultramicroscopy 115, 26-34 (2012).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

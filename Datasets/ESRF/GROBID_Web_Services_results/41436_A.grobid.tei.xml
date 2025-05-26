@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BB8F4B3D7C35E0649C6AF5E60821AB8D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">INTRODUCTION</head><p>The experiment is an international collaboration project between the INAF/IASF-Bologna/Palermo, the University of Ferrara (I), the Dep. de Física da Universidade de Coimbra (PT) and the ESRF (F). The aim of this project is to optimize the design of CZT/CdTe pixel detectors for hard X and soft γ-ray astrophysics for performing high sensitivity polarimetric measurements together with spectroscopy, imaging and timing in the 100 keV-1 MeV range. In fact, polarimetry has been recognized as a very important observational parameter for high energy astrophysics (&gt;100 keV), as confirmed also by very recent and important results obtained from SPI/INTEGRAL data on the polarisation of the Crab pulsar <ref type="bibr" target="#b0">[1]</ref>. Therefore, the capability of to perform accurate polarimetric measurement of high energy cosmic sources should really be included in proposals for future space missions. This idea was borne several years ago <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref> with a view to implementation in a new generation of wide field telescope for high energy all sky survey and transient sources such as GRB's <ref type="bibr" target="#b3">[4]</ref>, but it has also become very appealing in the last three years in the development of a new telescope mission concept based on Laue focussing techniques for the next call for mission ideas in the ESA Cosmic Vision 225-2025 plan framework after a first submission in June 2006 <ref type="bibr" target="#b4">[5]</ref>. Therefore, the possibility to realize the experiment described below will be critical in order to define the best design of CZT pixel detectors for both Laue lens focal plane and wide field monitors in order to obtain the best performance as Compton scattering hard X-and soft γ-ray polarimeters. As part of the design process, a sophisticated Monte Carlo simulation code based on the GEANT4 program has been developed <ref type="bibr" target="#b5">[6]</ref>, with which an extensive polarimetric study was performed in order to evaluate the response and performance of the detection plane to the type and level of linearly polarised radiation expected from different hard X and soft gamma ray astrophysical sources <ref type="bibr" target="#b6">[7]</ref>. The present proposal represents the prosecution of a study that our collaboration have started in July 2002 with a first experiment (POLCA/MI-592) at the ERSF-ID 15 beamline. These tests have mainly allowed to compare and calibrate the simulation code with measurements results on a three small 4×4 pixel CdTe crystals that were tested under a ~100 % polarised beam at 100,300,400 keV <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>. Encouraged by these results, we have developed a new larger CZT pixel detector with the aim to obtain more detailed information about the dependence of the polarisation modulation factor on incoming energy in the range 100-1000 keV and on the effect of Laue diffraction by Cu crystal on the photon polarisation status (POLCA II/MI-854, February 2007). The new proposal is based on a refurbished and improved version of the POLCA II detection system and is oriented to the study of some aspects related to scattering polarimetry with square pixel detector that was not the in the target of previous experiments: (a) Sensitivity of the detector to the level of the beam polarisation (i.e. the minimum percentage of photon polarisation that the detector is able to detect) as function of energy (100-1000 keV); (b) Modulation of the Q factor as a function of the azimuthal angle between the detector plane axis and the polarisation plane; (c) Systematic effects produced by the beam incident angle with respect to the detector plane. These results, compared with MC simulations, will allow us to be more confident in the evaluation of the achievable sensitivity to polarisation levels of high energy cosmic source emissions of instruments based on this technology and provide us with fundamental information to compare the achievable polarimetric performance with other detectors/instruments <ref type="bibr" target="#b9">[10]</ref>.</p><p>POLarimetry with Cadmium telluride Array (POLCA) III MI-966 4/12</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">COMPTON SCATTERING POLARIMETRY</head><p>The polarimetric performance of a focal plane detector is based on the fundamental concepts associated with polarized Compton interactions. The Compton scattering of polarized photons generates a non uniformity in the angular distribution. After undergoing Compton scattering, the polarized photons' new direction depends on the orientation of its polarization vector before the interaction. If these polarized photons go through a new interaction inside the detector, the statistical distribution of the relative positions of the two interactions (double event) allows us to infer the degree and polarization direction of the incident radiation. The Klein-Nishina cross-section for linearly polarized photons gives us an azimuthal dependency for the scattered photons:</p><formula xml:id="formula_0">                   2 2 2 2 0 cos sin 2 ' ' ' 2 E E E E E E r d d ,</formula><p>(1) where r0 is the classical electron radius, E and E' are the energies of the incoming and outgoing photons respectively,  the Compton scatter angle and  is the angle between the scattering plane (defined by the incoming and outgoing photon directions) and incident polarization plane (defined by the polarization vector and the direction of the incoming photon). As can be seen from ( <ref type="formula">1</ref>), after fixing all other parameters the probability varies with the azimuthal angle . The cross-section reaches a maximum when  = 90°, that corresponds to the direction perpendicular to the initial polarization vector direction. However this relative difference is maximized for an angle M, dependent on the incident photon energy. For soft gamma and hard X-rays (100-1000 keV) the M value is about 90°.</p><p>The polarimetric performance of an instrument can be evaluated by analyzing the distribution of double events through the polarimetric modulation factor, Q. This is obtained by integrating the Compton polarimetric differential cross section formula given by (1) over the solid angles defined by the physical geometry of the detection plane and for a pixel detector can be written as:</p><formula xml:id="formula_1">y y N N N N Q x x    .</formula><p>(2) Here we obtain Q through the orthogonal x-and y-axis directions defined over the detector plane, to a polarized beam whose electric vector points in the y direction. Nx and Ny are the number of counts in each of the orthogonal directions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">INCLINED BEAM EFFECTS</head><p>In general, it is assumed that the direction of the photons emitted by polarized sources is orthogonal with respect to the detection plane of the observation instrument. However, an offaxis source might generate a modulation of the Compton double event distribution that is not due to the incident beam polarization. As shown in Fig. <ref type="figure">1</ref>, the incoming photons crossing the irradiated pixels surface will not be scattered uniformly inside these pixels. Preferentially they will be scattered closer or inside the first order pixels laying in the horizontal projection of the photon propagation direction. Consequently, the double event distribution will be affected by this asymmetry. This effect becomes more significant as the tilt angle Θ increases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5/12</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head></head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Central Pixels First Order Pixels</head><p>First Order Pixels Fig. <ref type="figure">1</ref>. Schematic view of central pixels irradiation by a polarised inclined beam at angle Θ with respect to the detector optical axis. In this case photons crossing the irradiated pixels surface will not be scattered uniformly inside this pixels. Preferentially they will be scattered closer or inside the first order pixels laying in the horizontal projection of the photon propagation direction. Consequently the double event distribution will be affected by this asymmetry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Experimental Setup</head><p>In order to evaluate the CdZnTe pixel detector performance as scattering polarimeter for an off-axis polarized gamma-ray source, we tested a CZT polarimeter prototype under a ~100% polarized beam at the ID (Insertion Device) 15A beamline of the ESRF (Fig. <ref type="figure" target="#fig_0">2</ref>). The experimental system was composed of four functional subsystems: the synchrotron beamline optical system, the CdZnTe detection system, the shaping and coincidence electronic system and the control and data acquisition workstation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.2</head><p>The synchrotron beamline optical system The ID 15A beamline optical system is composed of a set of diffracting crystals (Si(111), Si(311) or Si(331) ) that tune the energy of the monochromatic photon beam between 100 keV and up to 1 MeV, with a beam spot of about 500 μm diameter and a linearly polarized component at the beam centre greater than 99 %.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">The CdZnTe detection system</head><p>The detector employed in this experiment was based on an IMARAD 5 mm thick CdZnTe with segmented anodes to obtain a total of 16×16 pixels, each with 2.5×2.5 mm 2 area. Due to limitations in our back-end electronics (only 128 channels available) only a continuous square matrix of 11×11 pixels has been connected for a total sensitive area of ~7.5 cm 2 . The CdZnTe unit and the readout ASIC (Application-Specific Integrated Circuit) supplied by eV Products, PA, USA, were mounted on a supporting layer where were implemented the bias circuit and the connectors for the back-end electronics (Fig. <ref type="figure" target="#fig_1">3</ref>). These devices sensitivity varies in function of the energy band selectable gain: 1.2 up to 7.2 mV/keV and a peaking time variable between 0.6 and 4 µs. The detector system was mounted on a computer-controlled 3-axis and rotation positioning system provided by the ESRF.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">The shaping and coincidence electronic subsystems</head><p>The signals were processed by a custom multiparametric system consisting of 128 independent channels with filters, coincidence logic and ADC (Analog-to-Digital Converter) units. When operating in coincidence mode, all signals exceeding the lower energy threshold occurring in the same coincidence time window (2 μs) are analyzed as generated by the same event. The typical irradiated pixel count rate was about 10 4 counts/s. (right) Schematics of tests with polarization vector angle change. The beam polarization vector is represented at 0º, horizontally oriented relative to the experimental hutch reference frame. The detector was rotated around the beam axis (Z axis) by: 5°, 10°, 20°, 30°, 40° and 45° in order to simulate different polarization vector orientations during an observation of a cosmic ray source.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">The data acquisition unit</head><p>This unit was based on a commercial data acquisition card PXI DAQ-6533 provided by National Instruments connected to a personal computer and controlled by a LABVIEW application. For each event we obtained information about the number of hits, the triggered pixels and the energy deposited in each hit. The recorded data is analysed off-line by an IDL (Interactive Data Language) s/w custom tool which allows the selection of single, double and multiple events (photons undergoing at least three interactions in the detection plane). There are several effects that under certain conditions might introduce significant errors in the measurement of the modulation factor Q. Although the effects due to the quantization of possible scatter angles are always present in square pixelized detectors, laboratory nonpolarized radioactive source measurements and Monte Carlo non-polarized beam simulations show that for CdTe and CZT the dominant source of error is the non-uniformity in pixel response, that may vary by more than 25% for a significant fraction of the pixels <ref type="bibr" target="#b10">[11]</ref>, <ref type="bibr" target="#b11">[12]</ref>. In order to minimise the systematic errors in the Q modulation factor evaluation we must consider two main effects: the non-uniformity of the detection efficiency of the pixels that compose the 11×11 CdZnTe matrix and the alignment accuracy of the beam with respect to the irradiated pixel centre.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7/12</head><p>Before each measurement we performed a complete scan of all the detector pixels. The matrix obtained from the single events recorded in each pixel was used to correct the non uniformities inherent in the response of the detector pixels. We calculate the true double event counts Ntrue for each pixel by: max</p><formula xml:id="formula_2">N N N N non pol true  , (<label>3</label></formula><formula xml:id="formula_3">)</formula><p>where Npol is the number of double events detected (that depend on the beam polarization), Nnon are the number of single events of the response map obtained when the pixel is directly irradiated and Nmax is maximum value among all the matrix pixels Nnon <ref type="bibr" target="#b1">[2]</ref>. By applying this method to the pixels around the irradiated pixel, the error introduced by the non-uniformity of the detector matrix response is minimized thereby improving the precision of the modulation factor evaluation. The photon beam was aligned in the x-y plane with respect to 4 central pixels (2×2), whose efficiency response was corrected as described above, by displacing the mechanical system until the weighted counts barycentre of these pixels aligned with the geometric centre of the 2×2 matrix. This allowed us to determine the offset of the beam with respect to the centre of the detector within 0.2 mm in both directions. The centre of the target pixel was reached by moving the detector in both directions by steps equals to the pixel pitch (2.5 ±0.05 mm) plus a fixed offset (1.125 mm). Taking into account that the pixel pitch is 2.5 mm and the beam spot diameter was set to 0.5 mm, a negligible systematic error on the Q factor evaluation is expected due to the alignment accuracy of the beam with respect to the target pixel centre. The irradiated pixel was chosen in order to optimise the uniformity of the response of the area defined by the pixels around the target. Previous tests showed that the pixel labelled as 186 (Fig. <ref type="figure" target="#fig_2">4</ref>) was that which allowed best uniformity polarization measurements with a maximum pixel area around for Compton events to be detected. Since this pixel has only up to four order pixels along positive y, we considered only up to four order pixels in the remaining direction to avoid additional sources asymmetries. In practice, only a 9×9 matrix was taken into account all through the results presented herein. Furthermore, taking into account the mechanical tolerance of both the detector mounting inside the shielding container (0.05 mm) and the container mounting on the ESRF roto/translator system (0.05 mm) we estimated an error within 5′ in the perpendicularity between the detector plane and the beam impinging direction. As demonstrated in <ref type="bibr" target="#b10">[11]</ref> and later by the presented results this error does not significantly affect the modulation factor evaluation. After this procedure the detector central pixel was irradiated by the polarized beam forming different inclination angles with the optical detector axis: 0°, 0.5º, 1º, 1.5º, 2°, 3º, 4º, 5° and 10°. These measurements at different tilt angles were then repeated for different energies (200 keV, 300 keV, 400 keV and 511 keV) and polarization vector directions parallel to the detector plane axis: x and y. Then the modulation of the Q factor as a function of the angle Θ was calculated from the double event distributions obtained from each measurement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">RESULTS ANALYSIS</head><p>As can be seen in Figure <ref type="figure" target="#fig_2">4</ref>, at 300 keV the beam inclination generates an asymmetric component in the double event distributions for all the hit relative distances, around the irradiated pixel, in the direction of the projection of the beam. Since the effect of beam inclination projects along the positive x direction, the pixels to the right of the irradiated pixel show a higher number of detected double events, for a beam tilt of 10º. Figure <ref type="figure">5</ref> shows this asymmetry more explicitly by expressing the number of double 8/12 events as function of photon azimuthal scattering angle. Due to the beam inclination some of the photons irradiating the central pixel's surface cross these pixels without interacting with the material and penetrate adjacent pixels (first order pixels) and undergo a first interaction therein (Fig. <ref type="figure">1</ref>). For a beam whose polarization vector lies orthogonally to the beam projection generated by its inclination, the contributions of polarization modulation and beam inclination are added and the distribution is evidently asymmetric. Obviously, for a beam whose polarization vector is parallel to the beam projection the two contributions are opposite and tend to cancel each other. When calculating the Q modulation factor these asymmetry effects due to beam inclination on double event distributions are better understood. The experimental and simulated modulation factor obtained for this prototype as a function of the energy for an orthogonal beam is represented in Fig. <ref type="figure">6</ref>. For energies higher than 550 keV, a secondary synchrotron beam (due to a gap in the beam collimator shield) was projected onto the CdZnTe active and passive surface area which generated fake single, double and multiple events, reducing the proportion of true double events recorded and consequently reducing the calculated Q factor. In the same figure is shown the measured modulation component produced by the non-uniformity of the response of pixelized matrix due to imperfections in the material. In Fig. <ref type="figure">7</ref> and Fig. <ref type="figure">8</ref> are plotted the Q factors as a function of the tilt angle. Up to 2º tilt angle the Q factor is not significantly affected by the beam inclination. However from 3º up to 10º tilt angles, the Q factor dramatically increases when polarization and inclination add their effects and decreases when these effects partially cancel each other. These results confirm previous simulation studies performed by a Monte Carlo simulation program based on GEANT4 <ref type="bibr" target="#b10">[11]</ref>. Both experimental and simulation results show that during an observation period onboard a gamma-ray satellite, it is essential that polarized sources are no more than 2º off-axis in order that polarization measurements are not affected.</p><p>9/12 0 2000 4000 6000 8000 10000 12000 14000 0 50 100 150 200 250 300 350 400 Azimuthal Angle (º) Double Events Polarization along y Polarization along x Tilt = 0º 0 20000 40000 60000 80000 100000 120000 140000 160000 0 50 100 150 200 250 300 350 400</p><p>Azimuthal Angle (º)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Double Events</head><p>Polarization along y Polarization along x Tilt = 10º Fig. <ref type="figure">5</ref>. Double events as a function of the scattering azimuthal angle obtained for a ~100% polarized 300 keV beam along x and along y when (top) the beam is on-axis and when (bottom) the beam is off-axis by 10º. In the case of a tilted beam the horizontal projection of the photon propagation direction lays along positive x direction (azimuthal angle ~ 0º), that is in fact the angular direction for which significant number double events are recorded.</p><p>This study shows the importance of a pointing system with accuracy better than 1° for an instrument designed for polarimetry. This accuracy should be sufficient so that double event distributions can be read directly with no further need of correction methods. It must be pointed out that for a Laue lens optics the diffraction Bragg angle (i.e. the angle of impinging photons respect to the detector plane) is always much less than 1°. Furthermore, previous theoretical studies together with experimental work has confirmed that the polarization status of a beam is not changed after Laue diffraction at small angles (&lt;1°) <ref type="bibr" target="#b12">[13]</ref>- <ref type="bibr" target="#b14">[15]</ref>. 10/12 -0.5 -0.4 -0.3 -0.2 -0.1 0 0.1 0.2 0.3 0.4 0.5 0 2 4 6 8 1 0 1 2 Gamma-Ray Beam Tilt (°) Q M odulation Factor 300 keV 400 keV 511 keV 0.3 0.4 0.5 0.6 0.7 0.8 0.9 0 2 4 6 8 1 0 1 2 Gamma-Ray Beam Tilt (°) Q M odulation Factor 200 keV 300 keV 400 keV 511 keV Fig. 7. (left) Q factor as a function of the tilt angle of the ESRF 100% polarized beam for several energies. In this case the polarization vector is parallel to x-axis; (right) Q factor as a function of the tilt angle of the ESRF 100% polarized beam for several energies. In this case the polarization vector is parallel to y-axis</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">SENSITIVITY TO BEAM POLARISATION DEGREE</head><p>After the correction procedures the CZT matrix prototype was irradiated with the polarized 400 keV monochromatic beam by centring it in an internal pixel. First we start with a polarization level of about 100%, afterwards other measurements were performed for 80%, 65%, and 50%. As already mentioned, as the polarization level was lowered the beam flux was lower and the observation time needed was exponentially longer. For polarization levels lower than 50% the time needed for each measurement was not compatible with the beam time available at the ESRF. Through the modulation obtained in the double event distribution around the irradiated pixel it was possible to calculate a modulation factor Q for each polarization level. Fig. <ref type="figure">8</ref> shows a linear relation between the polarization level of the beam and the measured Q factor -different from the Q factor of an instrument, which is the Q obtained for 100% polarized emission. At least, down to 50% this CZT prototype showed a good sensitivity to the degree of beam polarization. In future experiments we hope to have enough time available to go further down in polarization degree, down to the lowest polarization levels expected in the main gamma and X-ray celestial sources.</p><p>40 50 60 70 80 90 100 0.10 0.15 0.20 0.25 0.30 0.35</p><p>Measured Modulation (Q) Polarization Level (%) Fig. <ref type="figure">8</ref>. By varying the polarization of a 400 keV ESRF ID15 photon beam from 100% to 50%, a modulation Q factor was obtained by the analysis of the Compton event distributions generated in a CZT pixelized detector prototype. The results show a good linearity in the polarimetric response of the CZT prototype detector to the level of polarization of the gamma-ray beam.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">PIXEL VECTOR POLARISATION VECTOR ORIENTATION RESPECT TO PIXELS</head><p>Another source of polarization measurement systematic effects arises from the discretization inherent to the size of the voxels of a pixelized polarimeter. This effect becomes very 11/12 important with square pixels when the polarization vector does not align with either of the two main axes of the pixelized matrix and when the double event distribution around a central pixel spreads only over a few pixels away from the central pixel. In order to study the accuracy of the polarization angle determination when the polarization angle is not parallel or perpendicular to the sides of the CZT matrix, the same setup was used. As before a central pixel was irradiated, however this time the support ring of the detector prototype was rotated by 5°, 10°, 20°, 30°, 40° and 45°. These measurements were performed for 100% polarized monochromatic beams at 300 keV and 511 keV. Fig. <ref type="figure">9</ref> Double events maps obtained for a set of 100% polarized beams by varying the polarization vector direction at: 0º, 10º, 20°, 30º, 40 and 45º. The 511 keV monochromatic beam irradiated the central pixel of the CZT prototype pixel matrix in black. Fig. <ref type="figure">9</ref> shows the double event distributions obtained for a 511 keV monochromatic beam with several polarization vector angles ranging from 0° to 45°. As can be seen for a polarization vector of 0° the double events are not 360° uniformly distributed around the irradiated pixel. A higher number of Compton photos were detected in the direction defined by top-center-bottom of the matrix (vertical direction inside the experimental hutch). This confirms the horizontal polarization inside the experimental hutch. When the CZT matrix is rotated 0º, 10º, 20°, 30º, 40 and 45º by the mechanical of Fig. <ref type="figure" target="#fig_0">2</ref> (right) the projection of the polarization vector in the detector surface is also rotated by the same amount. It is noticeable that the yellow regions of Fig. <ref type="figure" target="#fig_0">2</ref> maps, those that register more double events, rotate according to the polarization vector angle. It is possible to optimize the modulation Q factor by changing the amplitude of the radial bin of the double events considered in the Q factor calculation (Fig. <ref type="figure">10</ref>). Fig. <ref type="figure">9</ref>. Double events maps obtained for a 100% polarized beam by rotating the polarization vector angle, φ, of: 0º, 10º, 20°, 30º, 40 and 45 with respect to the detector sides axis. The 511 keV monochromatic beam was directed to a CZT matrix central pixel, in black at the centre. A dashed ellipse was fitted to the double event distribution. Note that the major ellipse axis is oriented with the pixels that recorded more Compton photons. The minor axis is perpendicular and is aligned with the incoming beam polarization vector direction.</p><p>12/12 Fig. <ref type="figure">10</ref>. Modulation Q factor as a function of the radial bin aperture angle for a fully polarized 300 keV gammaray beam and 0º polarization vector.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">CONCLUSION</head><p>We showed that the beam inclination can give rise to significant changes of the modulation Q factor calculated for beam inclinations greater than 2°, confirming previous results obtained by MonteCarlo studies. This means that in the case of a focusing instrument whose focal plane detector is designed for polarimetric measurements, the inclination of the impinging photons respect to the detector axis shall fit within 2º inclination angle. This will allow a direct double event distribution analysis with no need of complex correction methods. However, in general the required pointing accuracy of a next Laue lens telescope should be better than 1°, therefore the polarimetric performance of the instruments will not be affected. Furthermore, This experiment showed that a CZT pixelized matrix is potentially able to discriminate a gamma-ray level of polarization lower than 50% (minimum useful polarization available at ESRF). Although square pixels introduce systematic effects on the modulation of double event distribution when irradiating a central pixel, it was also shown that through appropriate analysis tools and correction methods a 9×9 planar squared pixelized matrix is able to measure polarized beam vector angles, ranging from 0º to 45º with respect to the CZT detector axes, within an angular range of a few degrees. Obviously, better performances are expected from higher pixelization level polarimeters than the 9×9 pixel prototype, such as the focal plane detectors that are being projected for future gamma-ray telescope missions.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. (left) Schematic view of the experimental setup where the polarization vector is represented and the tilt angle Θ. Measurements included polarization vector parallel both to x and y as well as Θ rotation in x and y;(right) Schematics of tests with polarization vector angle change. The beam polarization vector is represented at 0º, horizontally oriented relative to the experimental hutch reference frame. The detector was rotated around the beam axis (Z axis) by: 5°, 10°, 20°, 30°, 40° and 45° in order to simulate different polarization vector orientations during an observation of a cosmic ray source.</figDesc><graphic coords="6,100.44,71.34,198.54,163.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Setup inside the experimental hutch of the ID15A beam line at the ESRF. The large ring rotates around directions parallel to the beam axis.In its center we placed the CZT pixelized prototype detector (zoom). The column where the ring was mounted could be rotated to the right or to the left in order to simulate the tilt of the incoming beam.</figDesc><graphic coords="6,107.28,507.12,179.32,143.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc>Fig.4. Double event counts distribution maps obtained by irradiating CZT pixel number 186 (labeled x) with a ~100% polarized 300 keV beam. The central pixel was irradiated orthogonally (0°) and at an angle Θ = 10°, with respect to the detector optical axis. Two pixels at the extreme right were off. In some rows there are 12 active pixels due to the fact that the readout electronics handle a total of 128 channels .</figDesc><graphic coords="8,170.40,331.86,124.51,139.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 .Fig. 7 .</head><label>67</label><figDesc>Fig.6. The Q factor as function of the energy for a 5 mm CdZnTe prototype when irradiated by a monochromatic ~99% polarized photon beam. Monte Carlo simulation results obtained in similar conditions are shown for comparison. The modulation generated by the non-uniformity of matrix pixels response is also represented (triangle). The simulated residual modulation obtained for an unpolarized beam in the same energy range was lower than 0.01<ref type="bibr" target="#b10">[11]</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="11,118.53,381.99,359.28,242.64" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Dean et al.,</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Dean</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/bg-2018-282-rc2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page" from="11" to="83" />
+			<date type="published" when="2008">2008</date>
+			<publisher>Copernicus GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.J. Dean, et al., Science, 321, pp. 11-83 (2008)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">CIPHER: coded imager and polarimeter for high-energy radiation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bertuccio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sampietro</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0168-9002(00)00283-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">448</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="525" to="530" />
+			<date type="published" when="2000-07">2000</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Caroli, et al., Nucl. Instr. and Meth. Section A, 448, pp 525-530 (2000);</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Cipher, A Polarimeter Telescope Concept for Hard X-Ray Astronomy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Siffert</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/b:expa.0000028172.78709.1e</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Astronomy</title>
+		<title level="j" type="abbrev">Experimental Astronomy</title>
+		<idno type="ISSN">0922-6435</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="65" />
+			<date type="published" when="2003">2003</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Curado da Silva, et al., Experimental Astronomy, 15, pp. 45-65 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. on Nucl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="383" to="388" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Curado da Silva., et al. IEEE Trans. on Nucl. Sci., 53, pp. 383-388 (2006)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Gri-Gamma Ray</forename><surname>The</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Imager</surname></persName>
+		</author>
+		<ptr target="http://gri.cesr.fr/documents.html" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">The GRI-Gamma Ray Imager: http://gri.cesr.fr/documents.html;</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">&lt;title&gt;Monte Carlo polarimetric simulations of a hard x-ray energy telescope&lt;/title&gt;</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ezio</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Siffert</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.454233</idno>
+	</analytic>
+	<monogr>
+		<title level="m">SPIE Proceedings</title>
+		<imprint>
+			<publisher>SPIE</publisher>
+			<date type="published" when="2002-01-31">2002</date>
+			<biblScope unit="volume">4497</biblScope>
+			<biblScope unit="page" from="70" to="78" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Curado da Silva, et al., SPIE Proceedings, 4497, pp 70-78 (2002);</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>J. Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>L. Hills</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1005027107614</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<idno type="ISSN">0038-6308</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">3/4</biblScope>
+			<biblScope unit="page" from="309" to="388" />
+			<date type="published" when="1997">1997</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Lei, A. J. Dean and G. L. Hills, Space Science Reviews, 82, pp. 309-388 (1997);</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Nucl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1198" to="1203" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Curado da Silva, et al., IEEE Trans. Nucl. Sci., 50, nº 4, pag. 1198-1203 (2003);</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A study of prototype CdTe hard X- and γ-ray detectors</title>
+		<author>
+			<persName><forename type="first">Ezio</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Natalia</forename><surname>Auricchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ariano</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Filomena</forename><surname>Schiavone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giulio</forename><surname>Ventura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rui</forename><forename type="middle">M Curado</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Siffert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Makram</forename><surname>Hage-Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gianfranco</forename><surname>Taiocchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2003.08.061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">513</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="350" to="356" />
+			<date type="published" when="2003-11">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Caroli, et al., Nucl. Instr. and Meth. Section A, 513, pp 350-356 (2003);</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE NSS Conference Record</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2545" to="2550" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.M Curado da Silva, et al., IEEE NSS Conference Record, 4, pp 2545 -2550 (2007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Nucl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1198" to="1203" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Curado da Silva, et al., IEEE Trans. Nucl. Sci., 50, nº 4, pp. 1198-1203 (2003);</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Polarisation measurements with a CdTe pixel array detector for Laue hard X-ray focusing telescopes</title>
+		<author>
+			<persName><forename type="first">Ezio</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rui</forename><forename type="middle">M Curado</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Pisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Filippo</forename><surname>Frontera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matilde</forename><forename type="middle">T D</forename><surname>Castanheira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefano</forename><forename type="middle">Del</forename><surname>Sordo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10686-006-9048-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Astronomy</title>
+		<title level="j" type="abbrev">Exp Astron</title>
+		<idno type="ISSN">0922-6435</idno>
+		<idno type="ISSNe">1572-9508</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="353" to="364" />
+			<date type="published" when="2005-12">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Caroli, et al., Experimental Astronomy, 20, pp 353-364, (2005)</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Figure 1: A depiction of the experimental set up and testing procedures.</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ventura</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.18302/fig-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Internal Report IASF</title>
+		<imprint>
+			<biblScope unit="volume">444</biblScope>
+			<date type="published" when="2006">2006</date>
+			<publisher>PeerJ</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Ventura, et al., &quot;POLCA2 (POLarimetry with CZT Arrays): experimental set-up, calibration procedures and results&quot; Internal Report IASF/BO n. 444/2006</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">2007 IEEE Nuclear science symposium conference record</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Curado Da Silva</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/nssmic.2007.4436632</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2007 IEEE Nuclear Science Symposium Conference Record</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2007">2007. 2007</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">2545</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Curado da Silva, R.M, et al., IEEE Nuclear Science Symposium Conf. Rec., 2007. Volume 4, p 2545 (2007)</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">European Synchrotron Radiation Facility (ESRF)</title>
+		<author>
+			<persName><surname>Esrf</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-349-94186-5_458</idno>
+		<ptr target="www.esrf.fr/exp_facilities/ID15A/" />
+	</analytic>
+	<monogr>
+		<title level="m">The Grants Register 2018</title>
+		<meeting><address><addrLine>Grenoble</addrLine></address></meeting>
+		<imprint>
+			<publisher>Palgrave Macmillan UK</publisher>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="page" from="317" to="318" />
+		</imprint>
+	</monogr>
+	<note>ID15 Handbook</note>
+	<note type="raw_reference">ESRF, &quot;ID15 Handbook&quot;, European Synchrotron Research Facility, Grenoble, (1997). Also available at the ESRF web page www.esrf.fr/exp_facilities/ID15A/.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

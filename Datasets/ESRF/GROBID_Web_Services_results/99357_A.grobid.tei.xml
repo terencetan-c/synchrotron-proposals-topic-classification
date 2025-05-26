@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Imaging the magnetisation vector field by Fourier Transform Holography</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Flora</forename><surname>Yakhou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Alexis Wartelle (SIMaP/ESRF)</orgName>
+								<address>
+									<addrLine>Marisel Di Pietro Martinez</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Gerrit van der Laan (Diamond Light Source) Feodor Ogrin</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>SIMaP</roleName><forename type="first">Guillaume</forename><surname>Beutier</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Max-Planck-Institute for Chemical Physics of Solids)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Imaging the magnetisation vector field by Fourier Transform Holography</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E8EE5F2FBB08A11B71445781C4498492</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The purpose of these experiment is to develop a new 3D and vectorial tomography technique for magnetism, based on Fourier-transform holography (FTH). FTH is now a well established technique for magnetic imaging in 2D, in which a projection of the magnetisation vector along the beam axis is measured. In FTH, a reference wave is used to encode the phase of the object of interest. The reference wave is created by drilling a smal aperture traversing the sample support. Small circular holes are the usual choice for the reference, but other shapes can be used. Slits are convenient and allow tilting the sample to measure various projections of the magnetisation (Figure <ref type="figure">1</ref>). By using a pair of orthogonal slits, we can tilt the sample around 2 axes and measure a set of projections probing all 3 three components of the magnetisation. A 3D and vectorial image of the magnetisation can then be computed [1].</p><p>Figure <ref type="figure">1</ref>: Principle of dual-axis magnetic tomography by Fourier-transform <ref type="bibr" target="#b0">[2]</ref>.</p><p>During MI-1384, we did not have enough time to record sufficient data for a 3D reconstruction, because:</p><p>-we tested several samples to find a magnetic texture interesting for 3D reconstruction -the sCMOS camera used to record the data was progressively stained by water droplet, corrupting the holograms, which in turn compromised the quality of the reconstructed direct-space images.</p><p>For this continuation experiment, we chose to focus on teardrop-shape samples in permalloy, because micromagnetic simulation suggested that they should host a complex 3D magnetic texture spanning all orientations of the magnetic moment (Figure <ref type="figure" target="#fig_0">2</ref>). In addition, these samples are expected to be suitale for the excitation of Winter magnons, i.e. spin waves propagating in a domain wall. Here a well-defined domain wall links the central core to the tip apex. These Winter magnons could be probed by FTH in a pump-probe experiment. 5 devices were prepared in a single sample. We focused on one of them (Figure 3&amp;Figure 4).  We were able to measure 2 sets of projections for 2 orthogonal azimuths of the sample ( Figure <ref type="figure" target="#fig_4">5&amp;Figure 6</ref>). We have therefore a complete dataset for a 3D reconstruction. However, the stain problem on the sCMOS camera remained a problem, such that the quality of the final dataset seems insufficient to allow a 3D reconstruction. This is still under investigation.  The magneti texture looks interesting and quite different from the simulations. As predicted, the magnetisation curls around a central vortex core, which is linked by a domain wall to the tip apex. However, the domain displays a series of segments of magnetisation alternating up and down. Our recent simulations show that this structure could be stabilised by a moderate perpendicular magnetic anisotropy (5.10⁴ J/m³). Mx 0 1000 2000 x (nm) 0 500 1000 1500 2000 2500 y (nm) -8 -6 -4 -2 0 2 4 6 8 10 5 Mz 0 1000 2000 x (nm) 0 500 1000 1500 2000 2500 y (nm) -2 0 2 4 6</p><p>As said above, the data were more and more contaminated by dark spots due to water condensing on the detector chip. Its origin remains unclear. The work-around startegy was to interrupt the experiment to "bake" the chip at 30-40 °C for a few hours. This procedure allowed to get rid of most of the stains. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Expected magnetic texture (red arrows) of the teardrop sample. The grey colourscale encodes the horizontal component of the magnetisation.</figDesc><graphic coords="2,167.30,194.65,266.40,179.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: SEM view (back side) of the device (sample+references) measured by FTH.</figDesc><graphic coords="3,34.00,42.80,532.95,399.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: SEM view (front side) of the teardrop measured by FTH.</figDesc><graphic coords="4,34.00,42.80,532.95,399.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Projections of the magnetic texture at azimuth 0°."t" is the tilt angle.</figDesc><graphic coords="5,82.75,42.80,435.45,721.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 6 :</head><label>6</label><figDesc>Figure 6: Projections of the magnetic texture at phi=90°. "t" is the tilt angle.</figDesc><graphic coords="6,66.85,42.80,467.25,356.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 7 :</head><label>7</label><figDesc>Figure 7: Micromagnetic simulation of a permalloy teardrop with perpendicular magnetic anisotry. Left: Mx component (in-plane horizontal); right: Mz component (out-of-plane).</figDesc><graphic coords="6,360.35,517.25,108.90,152.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 :</head><label>8</label><figDesc>Figure 8: Zoom on a scattering pattern showing the contamination (dark spots) of the holograms.</figDesc><graphic coords="7,34.00,98.00,528.45,416.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="1,34.00,642.85,532.95,112.10" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">di Maria, Most Rev. Pietro, (1865–1937)</title>
+		<author>
+			<persName><forename type="first">Pietro</forename><surname>Di</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Martinez</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ww/9780199540884.013.u208610</idno>
+		<idno type="arXiv">arXiv:2212.10183</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B, accepted</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Di Pietro Martinez et al, Phys. Rev. B, accepted, arXiv:2212.10183 (2023)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Bloch Wall Excitation. Application to Nuclear Resonance in a Bloch Wall</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Winter</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrev.124.452</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review</title>
+		<title level="j" type="abbrev">Phys. Rev.</title>
+		<idno type="ISSN">0031-899X</idno>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="452" to="459" />
+			<date type="published" when="1961-10-15">1961</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.M. Winter, Phys. Rev. 124, 452 (1961).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">809E0497595527C2D826DDA8ED27A316</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We had our first beamtime less than a month ago and the data analysis is still ongoing. The goal of the beamtime was to establish best practices for radiation-damage-free SSX data collection, investigating a number of model systems. We had proposed to vary the horizontal and vertical spacing between X-ray exposures to establish to what extent unexposed crystals are affected by stray X-rays, photoelectrons or other diffusing radicals. Unfortunately, no X-ray chopper was available which meant that 4 X-ray exposures took place for each detector readout ("aka sub-sampling 4"). It was fortunate that we had brought our large (2 x 2 cm) SOS chip for sample presentation. This made it feasible to collect a decent number of images per chip even when using 100 um spacing between X-ray exposures (translating to 400 um between detector images). The smallest distance was 19 um. Data analysis is complicated by the fact that the detector is exceptionally noisy and the detector frame geometry representation is unusual. Moreover, it seems that the chip was not mounted perpendicularly to the X-ray axis. This prevents a simple detector distance optimization (it varies over the chip) and results in either low indexing rate and/or large pixel deviations. We are still working on solving this issue.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We also collected SSX data of crystals embedded in LCP using our HVE injector. Often injection is compromised by triboelectric charging of the sample medium as it passes through HVE nozzle, resulting in the jet becomimg electrically charged to one polarity and the nozzle to the opposite polarity. Consequently the emerging jet is attracted electrostatically back towards the nozzle and can slap back against the tip of the HVE nozzle, leaving a viscous blob that disrupts the jet. To prevent this we had brought a newly designed catcher that worked beautifully, pulling the jet downwards. However, very strong air turbulence (air draft) in the hutch caused the jet to vibrate like a piano string and so precluded full jet stabilization.</p><p>We only used 6 of our 9 shifts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Beamline performance (500 words)</head><p>We had not realized that the beamline is operating in user assisted commissioning mode; a better communication of the current feasibility and issues would have been highly appreciated. For example, the consequences of "sub-sampling 4" were not explained upfront; we learned about this by pure coincidence and would not have used the beamtime had we known this. The quality of the detector data does not live up to the quality expected (and found elsewhere) of a Jungfrau detector. Why this is so not clear. We are spending more time trying to index thaumatin data collected at ID29 than at any XFEL beamline we have used to date. This is unexpected. The drafts in the experimental hutch are unacceptable for jet-based data collection.</p><p>With the ESRF adaption of the small SOS chip, a lot of the original advantages got lost.Currently the laser system is being installed. In view of the many difficulties that we have encountered during our beamtime (including detector stability/ gain switching issues, network issues, ...) I would have thought that a focus on basic performance would be more beneficial.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

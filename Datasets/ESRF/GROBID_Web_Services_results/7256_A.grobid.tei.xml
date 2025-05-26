@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">&quot;Dispersive Diffraction&quot; setup</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Mi</surname></persName>
+						</author>
+						<title level="a" type="main">&quot;Dispersive Diffraction&quot; setup</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F181B04E7E2D2114AAB9C4DE16B3314C</idno>
+					<note type="submission">ID24 from: feb 96 to: feb 96</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>15 M</term>
+					<term>Hagelstein, A</term>
+					<term>SanMiguel</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head><p>Report:</p><p>Diffraction Anomalous Fine Structure (DAFS) spectroscopy provides in the same experiment information on the local environment of the anomalous atom through X-ray absorption process and long-range order information through diffraction process. Hence it provides site selective and chemical selective structura1 information. As this technique implies data collection of several Bragg peaks (the number may vary from 10 to 100) at a couple of hundreds of wavelengths, this technique is very time consuming. One way to improve the data acquisition speed is to work with a large bandwidth (typically AE = 1 keV) x-ray beam, and collect the diffracted intensities on an image plate detector. The goal of this proposal was not to check the feasibility of DAFS experiments using an energy dispersive optics, as this has been already proved in previous experiments, but to explore the possibility to extract quantitative data out of these dispersive diffraction (DD) images.</p><p>The samples were As organic compounds (H2(As,+P~J0~-, CsN302H6+). By combining absorption and diffraction we want to determine the As concentration in the lattice, that is at the origin of the non-linear optical properties of these samples. Every image contains approximately 20 Bragg reflections, and the bandwidth was AE = 800eV around the K absorption edge of As. In the process of extracting the angular integrated intensities we have identified and further solved a number of problems:</p><p>(i) Image corrections. Images were collected with a large area detector (image plate-IP). The flat field (or image detector variable reading speed) and pixel array distortion corrections can be performed with the standard ESRF software package FIT2D.</p><p>(ii) Bragg peak integration and background subtraction. Each image is taken by rotating the sample perpendicularly to the beam direction (W'), in order to fully account for the Bragg peaks. In DAFS images a large signal-to-noise ratio is crucial, and hence the exposure time has to be reduced to a minimum. In this experiment every image was collected in 100 sec. For these images, background level varies linearly from one side to the other of the cage and can be easily subtracted.</p><p>(iii) Energy calibration. The Bragg reflections appear in the images as an inclined line because of the dispersive configuration, and the pixel-to-energy relation can be considered as linear. The energy calibration is performed by introducing some "finger" slits right after the monochromator that act as energy markers. The Bragg reflections appear now as a discrete set of points (the number of fingers), each one related to a given energy. By repeating the same experiment with a reference sample we can obtained the value of the energy for each one of the "fingers".</p><p>(iv) Sample mosaic effects. Opposite to standard absorption experiments, sample mosaic plays an important role on the feasibility of the DD experiments, as the energy resolution of the diffracted peaks is directly related to the sample mosaic. This effect has been clearly seen in the images taken with the "finger" slits, and an example is shown in fig. <ref type="figure">1</ref>.</p><p>(v) Intensitv normalization. Due to the optics, the energy variation of the intensity of the incoming beam (10) exhibits dips and time instabilities, which are hardly present in the Bragg peaks. Because of the diffraction geometry, the IO and the Bragg reflections measurements can not be performed consecutively, in a time scale where 10 fluctuations are relevant. In addition the scattered beam contains information on the sample mosaic, and the intensity correction of the diffracted images by the measured 10 is not trivial. However we have partially solved this problem by considering the effective 10 as an overall fitting parameter in the refinement program.</p><p>In figure <ref type="figure">2</ref> we have produced the result of the refinement for 2 reflections, that show the, feasibility of the method, though there is still work to be done mainly concerning the experimental tests for more suitable image plates detectors. Refinement of As content taking into account all reflections is underway.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

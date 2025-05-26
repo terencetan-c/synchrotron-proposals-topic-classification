@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structural studies of the helicase/primase complex from Herpes simplex virus</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Hons</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Konstantin</forename><surname>Boyko</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Research Center of Biotechnology</orgName>
+								<orgName type="institution">RAS</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Michael Hons*</orgName>
+								<orgName type="institution" key="instit2">EMBL Grenoble</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structural studies of the helicase/primase complex from Herpes simplex virus</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C13F2EAD262E39D6B6962491B7992B5A</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Herpes simplex virus (HSV) encodes seven proteins necessary for viral DNA synthesis, including a helicase/primase complex -UL5/UL8/UL52. Despite the high interest, all the attempts to obtain the detailed structure of this complex have been unsuccessful to date. The aim of this project is to use cryo-EM technique to reveal the structure of the helicase/primase complex and to clarify the details of interaction of proteins within. Unfortunatelly, we have lost our sample grids during the transportation to ESRF. We were able to prepare new grids (Lacey) on-spot courtesy of ESRF, based on our preliminary estimated sample preparation protocol. Using these grids Cryo-EM data were finally collected at the ESRF instrument equipped with K2 detector and processed as described further.</p><p>Table 1. Data acquisition and processing statistics Data Acquisition Microscope parameters Magnification 130000x Nominal defocus range, μm [-0.5, -2.6] Defocus step, μm 0.2 Exposure Time, s 7 Total dose, e -/Å 2 41.4 Dose per frame, e -/Å 2 1.03 Voltage, kV 300 Initial data parameters Pixel size, Å 1.053 Number of frames 4148 Frame rate 40 Data processing Used software Motion correction WARP 1.0.7 CTF estimation WARP 1.0.7 Particle picking WARP 1.0.7 Resolution Total number of particles for classification 238000 Total number of particles for final refinement 55600 Resolution (FSC 0.143 ), Å 6.5 * Classification and refinement cryoSPARC 2.12.4 Local resolution estimation cryoSPARC 2.12.4 * According to cryoSPARC</p><p>Example of a good image obtained from GridSquare_15446072 is shown on Fig. <ref type="figure" target="#fig_0">1a</ref>. Obtained images were processed as described in Table <ref type="table">1</ref>. Fig. 1b. Example of images excluded from data processing pipeline (GridSquare_15446072) containing crystal ice or carbon.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data processing</head><p>The raw data was pre-processed using WARP <ref type="bibr">(Tegunov D. et al., 2019)</ref>. The standard neural network BoxNet2Mask_20180918 was retrained using three consecutive rounds based on a training sample of 50 images. The dataset had a large proportion of unsuitable for further processing images, which contain areas of crystalline ice and carbon (Fig. <ref type="figure">1b</ref>) and were manually excluded at the pre-processing stage. Images for which it was not possible to approximate the CTF were also excluded from processing. Statistics are presented in Table <ref type="table">2</ref>. Distribution of defocus values, astigmatism as well as resolution estimation for 2773 selected images are shown on Fig. <ref type="figure" target="#fig_1">2</ref>.</p><p>Table 2. Data pre-processing statistics Grid Square Quality, % All images Good images (after retraining) Particles (after retraining) Avg. particles per image (after retraining) GridSquare_15445564 Carbon / crystalline ice 70 274 87 6566 80 GridSquare_15445584 Carbon / crystalline ice 40 290 181 4598 30 GridSquare_15445996 Carbon / crystalline ice 20 238 181 17825 100 GridSquare_15446000 Carbon 20 301 231 20018 90 GridSquare_15446006 Carbon 10 42 38 1885 50 GridSquare_15446072 Carbon / crystalline ice 20 346 287 25567 90 GridSquare_15446076 Carbon / crystalline ice 40 324 182 18051 100 GridSquare_15446078 Carbon / crystalline ice 50 231 121 11689 100 GridSquare_15446082 Carbon 40 200 114 5860 50 GridSquare_15446084 Carbon / crystalline ice 30 282 192 21976 110 GridSquare_15446088 Carbon / crystalline ice 50 303 152 13535 90 GridSquare_15446092 Carbon / crystalline ice 20 331 256 23664 90 GridSquare_15446094 Carbon / crystalline ice 20 279 218 21108 100 GridSquare_15446096 Carbon 30 219 164 12439 80 GridSquare_15446103 Carbon 10 275 243 24533 100 GridSquare_15446105 Carbon 40 213 126 8264 70 Total or Average 30 4148 2773 ~238000 80</p><p>2D classification of about 238 000 picked by WARP particles from 2773 selected images was made with cryoSPARC v2 in two stages (Fig. <ref type="figure" target="#fig_2">3</ref>) with the following ab-initio reconstruction and 3D classification (Heterogeneous refinement) to assign selected 2D projections to appropriate 3D structures and finally get rid of false positive particles. Subsequently, refinement procedure was made for each of subsets of particles. This leaded to electornic densities for the protein complex with an average resolution about 6.5Å (Fig. <ref type="figure" target="#fig_3">4</ref>,5).</p><p>To summarise, data analysis revealed two problems: 1. The sample has preferential orientations (Fig. <ref type="figure" target="#fig_3">4</ref>, bottom view), which limiting us to get all the needed views and thus impeding from structure reconstruction (major problem). 2. It seems that there is a problem of abundancy of part of the structure (Fig. <ref type="figure" target="#fig_2">3</ref>,5)a flexible part (minor problem).</p><p>Despite these facts, we are planing to improve the sample preparation protocol to eliminate preferential orientaions of the particles (detergents, other types of grids, etc). We are also going to try a helicase-primase complex with inhibitor, which might fix the complex in one state. We are positive that those actions could lead to improved grids, which can be used in a new Cryo-EM experiment at ESRF.    </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1a .</head><label>1a</label><figDesc>Fig. 1a. Helicase-primase complex' particles are highlighted by blue circles.</figDesc><graphic coords="2,39.00,162.25,514.20,310.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Major dataset parameters estimated per partical by WARP.</figDesc><graphic coords="4,34.55,104.30,526.10,404.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Class-averages of last stages of the 2D classification.</figDesc><graphic coords="4,33.95,561.95,527.30,156.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Final electron density for the helicase-primase complex. Top -two views rotated by 90˚. Bottomorientation distribution.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. FSC curves and local resolution analysis.</figDesc><graphic coords="5,39.10,532.80,252.00,232.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,114.10,36.85,367.00,139.05" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

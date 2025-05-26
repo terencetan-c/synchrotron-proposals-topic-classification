@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Testing the universal P,T,B behavior of the first order valence transition in YbInCu4 Experiment number: HC-4916</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>06/10/2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">O</forename><surname>Mathon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Torchio</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><surname>Duc</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire National des Champs Magnétiques Intenses</orgName>
+								<orgName type="institution">LNCMI</orgName>
+								<address>
+									<addrLine>143 avenue de Rangueil FR - 31400 TOULOUSE Cedex 04 B. Galaup</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratoire National des Champs Magnétiques Intenses</orgName>
+								<orgName type="institution">LNCMI</orgName>
+								<address>
+									<addrLine>143 avenue de Rangueil FR - 31400 TOULOUSE Cedex 04 E. Mijiti</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Strohm</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire National des Champs Magnétiques Intenses</orgName>
+								<orgName type="institution">LNCMI</orgName>
+								<address>
+									<addrLine>143 avenue de Rangueil FR - 31400 TOULOUSE Cedex 04 B. Galaup</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratoire National des Champs Magnétiques Intenses</orgName>
+								<orgName type="institution">LNCMI</orgName>
+								<address>
+									<addrLine>143 avenue de Rangueil FR - 31400 TOULOUSE Cedex 04 E. Mijiti</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">DESY Department of Photon Science</orgName>
+								<orgName type="laboratory">Laboratoire National des Champs Magnétiques Intenses</orgName>
+								<orgName type="institution">LNCMI</orgName>
+								<address>
+									<addrLine>143 avenue de Rangueil FR - 31400 Notkestrasse 85</addrLine>
+									<postCode>DE -22607</postCode>
+									<settlement>TOULOUSE Cedex 04 HAMBURG</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Testing the universal P,T,B behavior of the first order valence transition in YbInCu4 Experiment number: HC-4916</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">06/10/2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F943E8FA78786357BFFFD838A82CCC9D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The objective of experiment HC4916 was to: i) re-commission various aspects of the pulsed high magnetic field setup after the EBS upgrade, ii) to benchmark pulsed field XAS under high pressure in YbInCu4 where the pressure dependent first order valence transition is well studied with laboratory techniques including resistivity and magnetization, and iii) to test the universal P,T,B behaviour reported in the literature by an observation of the Yb-valence through XAS.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Datasets: For each pressure, we first located TV(B=0), marked as yellow points in Fig. <ref type="figure" target="#fig_0">1</ref>. At ambient pressure this allowed us to check for beam heating and adjust the incident intensity. At Pruby =0.58 GPa and 1 GPa, TV(B=0) was used to confirm the pressure. We then acquired field dependent absorption spectra at various temperatures for ambient pressure, 0.58 GPa, and 1 GPa in magnetic fields reaching up to 30T. Preliminary analysis: In order to obtain a first overview and trace the critical field BV(T) of the first order valence transition we employed singular value decomposition to separate the full dataset at each pressure into a reference spectrum (representing the highest valence in the respective dataset) and difference spectra. The amplitude of these difference spectra was then traced as a function of temperature and field. Subsequently, the location and width of the valence transition was determined by fitting these dependencies with a logistic function. This method has the advantage that it does not rely on fits and modelling of Yb 2+ and Yb 3+ contributions in the XANES region. On the downside one difficulty is to connect the reference spectra of differnt datasets with each other, and to absolute values for the Yb valence. Results: Fig 1) shows the measured critical fields as a function of temperature for a) ambient pressure, b) 0.58 GPa, and c) 1 GPa. Fig 2) shows the cell (a,b), sample (c,d), and (d) the measured critical temperatures TV(B=0) as a function of applied pressure compared to values reported in the literature. This enabled us to confirm proper operation of the miniature plastic diamond anvil cell at cryogenic temperatures. This working proof also helps to validate more complicated datasets previously obtained on ErCo2 (HC-3784) and SmB6 (HC-4012, HC-4723).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: B-T phase diagram of YbInCu4 at different pressures a) 0GPa, b) 0.58 GPa, c) 1 GPa. Error bars: observed width of the transition from logistic fit. Dashed lines: expected phase boundary from the literature.</figDesc><graphic coords="1,34.00,524.24,533.00,156.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 2 ):</head><label>2</label><figDesc>Fig 2): Working proof of miniature plastic turnbuckle cell. a) cell. b) gasket assembly, c) polished single crystal in composite gasket with thin diamond windows, d) map of measured absorption contrast. e) critical temperature TV(B=0) as a function of applied pressure compared with literature.</figDesc><graphic coords="2,34.00,147.24,533.00,133.85" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Conclusions:We obtained a complete dataset to test the universal P,T,B behaviour of YbInCu4. A first preliminary analysis shows that the critical fields BV(T) as a function of temperature are in good qualitative agreement with data and the universal P,T,B behaviour reported in the literature, but there are quantitative discrepancies. The transition fields appear to be generally higher than (even at ambient pressure, which makes an incorrect pressure determination unlikely as the cause). Furthermore, the width of the transition decreases with temperature and appears to be significantly wider compared to resistivity measurements for all but the lowest temperatures. In our measurements, there still seems to be a detectable increase of valence in the field dependences above TV(B=0). A possible explanation of these discrepancies would be that the fields reached in this experiment drive the Yb valence above the ambient temperature-ambient pressure value and thus make our reference for each dataset unsuitable. We plan investigate this possibility and to refine the data treatment in order to separate the spectral components of Yb 2+ and Yb 3+ and to also explore other approaches including modelling before drawing conclusions. Even though we had obtained XMCD under pressure in pulsed fields before the upgrade, we did not succeed to measure XMCD of sufficient quality to directly relate the transition to the the magnetic energy gain in this experiment. This was due to a lack of time to improve on the signal to noise ratio. We suspect two main reasons for this limitation: i) a combination of sample inhomogeneities and vibrations during the magnetic field pulse. ii) minute beam instabilities revealed through a combination of spatial frequencies of the x-ray optics, the reduced source size, and short exposure times.We thank the local contacts and ID24 staff for their excellent support during this successful experiment.</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

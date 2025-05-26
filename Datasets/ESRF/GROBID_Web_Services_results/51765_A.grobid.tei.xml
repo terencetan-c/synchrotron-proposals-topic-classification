@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">50DFD1201DB04A45DBD3B9EBC4CEB063</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We planned to perform an experiment entitled 'Probing structural dynamics of photoactive yellow protein (PYP) using the site-specific heavy atom labeling scheme' at ID09B beamline. We tried to label iodine atoms on the surface cysteines in a PYP mutant. However, we failed to obtain a homogenous PYP sample, because its active site of Cys69 which binds to the p-coumaric acid chromophore competes with the surface cysteines during the iodine labeling reaction. Hence, we chose to prepare a sperm whale myoglobin mutant (swMb), which contains two cysteine mutations (D60C/K102C) on the surface, instead of PYP protein to test heavy atom labeling scheme. Iodine labeled swMb mutant was successfully labeled, dialyzed against 100 mM NaPi, pH 7.0 buffer, and concentrated to 8 mM. In order to investigate reaction kinetics and to extract intermediates, we collected scattering signal at following 19 time points ; -10us, 10ns,  31.6ns, 100ns, 316ns, 1us, 3.16us, 5.62us,  10us, 17.8us, 31.6us, 56.2us, 100us, 178us,  316us, 562us, 1ms, 1.78ms, and 3.16ms.</p><p>We used a typical pump-probe setup installed at ID09B for the experiment. The reaction was initiated by 532 nm wavelength laser pulse (150uJ power, 1mJ/mm2 energy density). Then, the reactions were probed by hard X-ray pulse (E photon = 18.0 keV) with FReLoN CCD detector. The difference curves were obtained by subtracting diffraction signal at negative time delay, -10us, from each curve at positive time delay, and by radial integration of 2D images. The difference curves showed a distinctive different feature between the scattering patterns of iodine labeled swMb mutant and</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment title:</head><p>Probing structural dynamics of photoactive yellow protein using the site-specific heavy atom labeling scheme that of non-labeled swMb mutant (Figure <ref type="figure" target="#fig_0">1</ref>). We presume this slight variation is due to the scattering contribution from two iodine atoms which are labeled to surface cysteine.</p><p>We further analyzed the data by using singular value decomposition (SVD) and principal component (PC) analysis in order to extract the kinetic components and structural dynamics from the measured difference scattering curves (Figure <ref type="figure" target="#fig_1">2</ref>). Comparison between PCs of iodine labeled swMb K102C-D60C mutant (102-60-MPI) and PCs of swMb K102C-D60C mutant (102-60) shows different features especially in the third PC. This result strongly supports that the two iodine atoms on the surface of swMb mutant contribute and alter the scattering patterns. We hope that this method can be used to amplify the structural information in the difference scattering patterns. In conclusion, we collected and analyzed time-resolved X-ray solution scattering data for iodine labeled swMb mutant at several time delays and investigated the applicability of heavy atom labeling method. Our findings will provide additional structural information for refining the calculated structure from 1D scattering curve by accumulating a series of 1D scattering curves derived from the heavy atom labeling scheme through multiple sets of labeling sites.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Comparison between Myoglobin mutant (black) and iodine labelled myoglobin mutant (red) at several time delays. We confirmed that the signals are different from each other.</figDesc><graphic coords="1,279.00,492.20,273.91,242.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Comparison between principle componant (PC) data obtained from myoglobin mutant without iodine (red) and iodine-labeled samples (blue).</figDesc><graphic coords="2,36.00,170.40,522.95,255.85" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

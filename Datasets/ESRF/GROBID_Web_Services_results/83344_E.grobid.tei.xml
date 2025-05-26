@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Validation of spectral CT compared to monochromatic SR CT : application to human knees</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Herwig</forename><surname>Requardt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alberto</forename><surname>Mittone</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><surname>Felipe Perez-Juste</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Abascal</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">UMR 5515</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">CREATIS</orgName>
+								<address>
+									<addrLine>Lyon Francoise Peyrin</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">UMR 5515</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">CREATIS</orgName>
+								<address>
+									<region>Lyon Christine Chappard</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory" key="lab1">UMR 7052</orgName>
+								<orgName type="laboratory" key="lab2">Laboratoire de Recherches Orthopédiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>Paris Cécile Olivier</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="laboratory">UMR 5515</orgName>
+								<orgName type="institution" key="instit1">ESRF</orgName>
+								<orgName type="institution" key="instit2">Grenoble Simon Rit</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">CREATIS</orgName>
+								<address>
+									<region>Lyon</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Validation of spectral CT compared to monochromatic SR CT : application to human knees</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">79CF525E994557EDCF88F65D483BE15E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The goal of this experiment was twofold: i) to acquire monochromatic images of both tissue characterization phantoms and biological samples, which will provide a unique gold standard methodology to assess and validate spectral computed tomography (SCT) scanners for different applications, and ii) to explore the contribution of SCT to assess osteoarthritis (OA) in comparison with convectional CT.</p><p>We selected tissue characterization phantoms (GAMMEX RMI 467, CIRS 062) made of plastic inserts which are surrogates for human tissues and are widely used by the CT community data, and inserts containing standard clinically used contrast agents (iodine and gadolinium). Biological samples were human excised knees (n=5) taken from l'Institut d'Anatomie Paris Descartes and were provided by the B2OA (Bioingéniérie et Bioimagerie ostéo-articulaire) CNRS 7052, Université Paris Diderot.</p><p>SR CT imaging was performed on beamline ID17 due to the availability of a setup for monochromatic imaging at large FOV (~9cm). We used the 2k Frelon camera (45 μm pixel size; FOV: 9 cm) with FOV extended to 16 cm using the half acquisition method (same resolution, but double of projections and reconstruction over 360 degrees). We acquired monochromatic images of phantoms at different energies ranging from 30 keV to 120 keV, in 10 keV steps, and at two energies around the K-edge of contrast materials. Knee samples were scanned at only three different energies (55, 75 and 100 keV) due to the higher attenuation of knees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phantom results</head><p>SR has been first compared to the manufacturer stoichiometry for each insert. All images were reconstructed with a 4x4 binning. In order to obtain reference values, a cylindrical ROI with a 24 mm diameter was selected for each insert and energy. The 30 keV energy was discarded because many pixels had a low signal. There seems to be a systematic underestimation by a couple of percent, which we are investigating (figure <ref type="figure" target="#fig_0">1</ref>). The next step is to repeat the analysis with SCT data and compare all results. These analyses are very relevant to provide necessary feedback to improve SCT scanners and reference SR data will be made available to increase the impact. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Knee results</head><p>Since the beam height was around 5mm, we had to stack about 17 stacks of scans with an overlap to cover a sufficiently large region of interest around the knee joint. All scans were reconstructed and aligned to obtain the 3D image of the full ROI. Some scans had to be excluded due to problems in sample conditioning resulting in 4 exploitable data sets.</p><p>These results brought us a proof of concept that X-rays energy-based imaging could provide extra information on the cartilage with respect to standard CT (preliminary results to be published). We observed different details of the cartilage structure such as defects, surface irregularity and fibrillation, and microcalcifications. Deep and superficial zones of the cartilage corresponding to different orientation of the collagen fibers and different mechanical behaviors are distinguished. We can see on the images also details of bony structure such as osteophytes and subchondral bone cysts. The results are illustrated in figure <ref type="figure" target="#fig_1">2</ref>. These results show the unique, great potential of X-ray energy-based imaging for imaging cartilage integrity but additional data sets should be acquired. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Left: Reconstructed image for one of the phantom configurations. Right: Percentage of the relative average difference of the mean in each insert for CIRS phantom inserts.</figDesc><graphic coords="3,52.90,99.10,140.05,140.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Reconstructed images from a control and OA patient.</figDesc><graphic coords="3,286.96,506.36,230.89,219.80" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

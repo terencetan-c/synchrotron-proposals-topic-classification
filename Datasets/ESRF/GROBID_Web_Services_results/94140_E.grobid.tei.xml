@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0E0625C9510258843C6E83D8550545E0</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>During this session, the contrast agent and in vivo imaging protocol established in Experimental Session 2 was applied to a larger number of animals to derive anatomical parameters of mouse cerebrospinal fluid (CSF) space in vivo. Cabling for electrocardiogram, breathing sensor, thermometer as well as tubing for body heater and infusion pump were managed using a drag chain, allowing for full 360° rotation of the setup.</p><p>Mouse body temperature was monitored by a dedicated person outside the hutch during the animal mounting process, as large changes in positioning, heating element contact and heat insulation occur during the procedure. This allowed for minimal delays in temperature adjustment, leading to much more tightly controlled body temperature and greatly increased survival rate of the animals compared to the pilot study.</p><p>SRµCT images were acquired using monochromatic beam at a photon energy slightly above the K-edge of the chosen X-ray contrast agent (37 keV for Ba) and with an effective pixel size of 6.2 µm for a full-width scan of the skull. A short exposure time of 5 ms was chosen to minimize motion artifacts and to capture sufficient projections per cardiac or respiratory cycle. An initial short fly scan with 2000 projections was acquired and reconstructed quickly to confirm positioning of the field of view, proper mounting and health status of the animal. Additional anaesthetics were administered if an elevation in heart rate was observed on the electrocardiogram. For the full scan, 60 000 projections with a full 360° rotation were then acquired while simultaneously recording cardiac and respiratory cycles for retrospective gating.</p><p>Mice were injected into the ventricle with 5 µl barium nanoparticle-based X-ray contrast agent (ExiTron nano 12000) at 0.5 µl/min. This experiment was repeated until fully complete scans of three male and three female live mice were acquired, which required a total of 10 animals. Multiple gated reconstructions of the same acquisition were made for time points in the cardiac cycle in 10 ms intervals, corresponding to the acquisition time of a single projection. This allowed capturing heart beat-induced periodic motions in the trachea and surrounding soft tissue. Analysis of the smaller pulsative motion of the CSF spaces, which is hypothesized to drive CSF flow behavior, was complicated by motion and streak artifacts. Reduction in these artifacts might be achieved by reductions of non-periodic motions or improvements in gating strategy (Fig. <ref type="figure" target="#fig_1">1</ref>), such as prospective gating.</p><p>In order to improve the physiological accuracy of the data and avoid artificially increasing the intracranial pressure, slower contrast agent injection rates of 0.1 µl/min would be required. As injection prior to transfer to the hutch would exceed the time permissible under anaesthesia, a cannula was implanted into the lateral ventricles and used for contrast agent injection during the scan. Technical challenges nevertheless increased experimental time required, which revealed a need for real-time anaesthesia adjustment via remote-controlled injection or inhalation anaesthesia. Artificial ventilation via tracheotomy was used, in addition, to induce a regular breathing frequency, which would allow for combined cardiac and respiratory gating. Artificial ventilation successfully stabilized both cardiac and respiratory frequencies, but it was not possible to induce equal frequencies for both. Separate gating is therefore still necessary, barring further developments.</p><p>As infusion and tracheotomy were technically more challenging to perform and could only be performed by a limited number of members in the user team, the second night shift could not be used for in vivo experiments due to exhaustion. During this time, cadavers of mice previously scanned in vivo were scanned post-mortem after transcardial perfusion, to measure the changes in anatomy induced by death and fixation. A B</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Three experimental sessions were scheduled for this experiment for use of the beam:  Experimental Session 1 (10-12 Dec 2020): Remote access post-mortem imaging  Experimental Session 2 (12-13 Oct 2021): Pilot in vivo experiment </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. SRµCT slices showing contrast agent-filled cerebral aqueduct, illustrating the effect of cardiac gating on the strength of the observed artifacts. A: Reconstruction with retrospective cardiac gating. B: Reconstruction using randomized projections within the cardiac cycle. Scale bars: 2 mm.</figDesc><graphic coords="3,33.95,478.80,257.05,241.10" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

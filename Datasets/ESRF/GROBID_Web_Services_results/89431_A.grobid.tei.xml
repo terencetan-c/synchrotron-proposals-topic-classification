@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Report on SAXS measurements of Histatin 5 at BM29 (MX-2035)</title>
+				<funder ref="#_5qm5e8h">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><surname>Jephthah</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>Post Office Box 124</addrLine>
+									<postCode>S-221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Skepö</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Theoretical Chemistry</orgName>
+								<orgName type="institution">Lund University</orgName>
+								<address>
+									<addrLine>Post Office Box 124</addrLine>
+									<postCode>S-221 00</postCode>
+									<settlement>Lund</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Report on SAXS measurements of Histatin 5 at BM29 (MX-2035)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">83CA120289C5246DEEFE823604223C02</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Intrinsically disordered proteins (IDPs) are well-known for possessing no tertiary structure, as well as little or no secondary structure. Nevertheless, temperature-induced structural changes are expected, although IDPs do not necessarily change in the same way as globular proteins do. Because of their large conformational ensemble, IDPs are difficult to study experimentally, and while it is possible to obtain average structures from e.g. small-angle Xray scattering (SAXS) and nuclear magnetic resonance (NMR) experiments, complementary simulations are often needed to obtain a holistic understanding of the conformational properties of IDPs. Unfortunately, simulations are far from perfect and are often parameterized for specific purposes, and are thus not suitable for more general usage. For example, molecular dynamics (MD) force fields used for simulations of globular proteins have been shown to sample too compact conformations when used for simulating IDPs. Similarly, investigations performed by our group has shown that different simulation methods give different trends when performing simulations of the same IDP, Histatin 5 (Hst5), at different temperatures.</p><p>Hst5 is a short cationic intrinsically disordered saliva protein. In the saliva, Hst5 is 1 known for its candidacidal properties that are useful for protecting against yeast infections (thrush) in the mouth. Additionally, Hst5 is known to behave as a typical polyampholytic IDP at room temperature, and is thus often used as a model IDP in both experiments and simulations. 0 2 4 6 8 10 12 14 16 18 283 293 310 323 R g (Å) T (K) (a) MD(A3) MD(A4) MD(C3) MC(IW) NMR SAXS 8 9 10 11 12 13 14 15 16 17 273 283 293 303 313 323 333 R g (Å) T (K) (b) NMR SAXS MD(A3) MD(A4) MD(C3) MC(IW) </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Because</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Form factors (a-e) and normalized Kratky plots (f-i) of Hst5 from SAXS experiments (gray) compared to the corresponding curves from simulations at four different temperatures.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: The radius of gyration as a function of the temperature for Hst5 from six different methods. (a) Histograms to emphasize differences between the methods. (b) Trends in radius of gyration with temperature for the six methods.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>The radius of gyration of Hst5 as a function of temperature was obtained from SAXS, NMR, and simulations, and is shown in Figure <ref type="figure">2</ref>. To obtain the radius of gyration from the SAXS measurements, the curves were analyzed using PRIMUS and the Guinier approximation with qR g (max) &lt; 0.8. As seen in the figure, the SAXS results were inconclusive, but the NMR results suggested a slight collapse of the conformational average with increasing temperature. Although all methods (save <rs type="projectName">MD</rs>(<rs type="grantNumber">A3</rs>)) provided similar values of the radius of gyration at 20 • C, they did not agree at any other temperature. In the end, the entire study concluded that the currently available simulation methods used for simulating IDPs are not suitable for studying temperature effects in IDPs.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_5qm5e8h">
+					<idno type="grant-number">A3</idno>
+					<orgName type="project" subtype="full">MD</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Temperature Dependence of Intrinsically Disordered Proteins in Simulations: What are We Missing?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jephthah</surname></persName>
+			<idno type="ORCID">0000-0003-4287-506X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Staby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Kragelund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Skepö</surname></persName>
+			<idno type="ORCID">0000-0002-8639-9993</idno>
+		</author>
+		<idno type="DOI">10.1021/acs.jctc.8b01281</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Chemical Theory and Computation</title>
+		<title level="j" type="abbrev">J. Chem. Theory Comput.</title>
+		<idno type="ISSN">1549-9618</idno>
+		<idno type="ISSNe">1549-9626</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2672" to="2683" />
+			<date type="published" when="2019-03-13">2019</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jephthah, S.; Staby, L.; Kragelund, B.; Skep, M. Temperature Dependence of Intrinsi- cally Disordered Proteins in Simulations: What are We Missing? Journal of chemical theory and computation 2019, 15, 2672-2683.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Coarse‐grained modeling of the intrinsically disordered protein Histatin 5 in solution: Monte Carlo simulations in combination with SAXS</title>
+		<author>
+			<persName><forename type="first">Carolina</forename><surname>Cragnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominique</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><surname>Cabane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie</forename><surname>Skepö</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/prot.25025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proteins: Structure, Function, and Bioinformatics</title>
+		<title level="j" type="abbrev">Proteins</title>
+		<idno type="ISSN">0887-3585</idno>
+		<idno type="ISSNe">1097-0134</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="777" to="791" />
+			<date type="published" when="2016-03-16">2016</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cragnell, C.; Durand, D.; Cabane, B.; Skepö, M. Coarse-grained modelling of the intrin- sically disordered protein Histatin 5 in solution: Monte Carlo simulations in combination with SAXS. Proteins: Struct., Funct., Bioinf. 2016, 84, 777-791.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Molecular Dynamics Simulations of Intrinsically Disordered Proteins: Force Field Evaluation and Comparison with Experiment</title>
+		<author>
+			<persName><forename type="first">João</forename><surname>Henriques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carolina</forename><surname>Cragnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie</forename><surname>Skepö</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ct501178z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Chemical Theory and Computation</title>
+		<title level="j" type="abbrev">J. Chem. Theory Comput.</title>
+		<idno type="ISSN">1549-9618</idno>
+		<idno type="ISSNe">1549-9626</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="3420" to="3431" />
+			<date type="published" when="2015-06-30">2015</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henriques, J.; Cragnell, C.; Skepö, M. Molecular dynamics simulations of intrinsically disordered proteins: force field evaluation and comparison with experiment. J. Chem. Theory Comput. 2015, 11, 3420-3431.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

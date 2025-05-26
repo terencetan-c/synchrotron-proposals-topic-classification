@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental report on HC 2846 campaign</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Experimental report on HC 2846 campaign</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">37E341CC1F71F32A39F13E83BC4929C5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We performed surface X-ray scattering on Pt(111) electrode while doing electrochemical deposition and dissolution of Pd thin films. Our goal was to investigate the mechanism of such deposition, especially the first atomic layer that is behaving differently from bulk deposition. Therefore, we developed and successfully tested during this campaign a new electrochemical cell that is allowing simultaneously in situ surface X-ray diffraction and high quality electrochemical kinetic measurements. By interfacing our electrochemical setup (potentiostat) with beamline equipments, we were able to synchronize electrochemical and X-ray measurements.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>.</p><p>Figure <ref type="figure" target="#fig_0">1</ref> presents the typical voltammogram of the Pt(111) surface in the Pd deposition solution. Crystal is initially put in contact with the solution at 0.8 V where no deposition. Then, the applied potential is swiped down. Peak C is indeed a wide potential area with a very small current. It corresponds to the deposition 20 % of one Pd atomic layer. Peak A is better defined. Its charge corresponds to 80 % of one Pd atomic layer. Both peak A and peak C are at potentials higher than the Nernst potential of Pd deposition (at 0.435 V). Therefore, they are called Under Potential Deposition (UPD).</p><p>Peak B is associated with bulk deposition of Pd and peak B' to the corresponding dissolution. Peaks A' and A" are associated with UPD dissolution with 1/3 of charge for A' and 2/3 for A". So we see that for the first atomic layer (UPD), deposition and dissolution booth presents two steeps but with different charges, suggesting different underlying mechanisms.</p><p>We performed two kinds of X-ray measurements, in order to elucidate underlying mechanisms: (a) complete surface characterization at fixed electrochemical potential and (b) diffracted signal recording at fixed positions in reciprocal space while changing electrochemical potential.</p><p>Complete characterizations consist in recording specular and several non-specular crystal truncation rods (CTR) . We did this at several potentials, one corresponding to the "free" surface of the electrode (0.8 V), between peak C and peak A (0.575 V), with full UPD (0.5 V) and between peak A' and peak A" (0.625 V). Figure <ref type="figure" target="#fig_1">2</ref> shows one non-specular CTR. It is sensitive to ordered structure at the surface of the Pt(111) substrate. One can see significant changes, especially at the position in the middle of the two Bragg peaks (( <ref type="formula">110</ref>) and ( <ref type="formula">113</ref>)). This position, called anti-Bragg has the highest sensitivity to the surface. Signature of UPD is very different from free Pt(111) surface. Also, fraction of UPD obtained during deposition and dissolution are different, confirming that deposition and dissolution mechanisms are different. Quantitative analyses are underway.</p><p>X-ray measurements while changing potential were done in anti-Bragg position (both on the specular CTR and on one non-specular CTR): Figure <ref type="figure" target="#fig_2">3</ref> shows the diffracted signal while linearly sweeping the potential. For instance, one can see that peak C (Epoch=60000 s) doesn't modify the diffracted signal, suggesting that is not associated to the formation of ordered structure. In opposite, between peaks A' and A" (Epoch=65000 s), signal is changing, reflecting and evolution in the ordered structure present at the surface of <ref type="bibr">Pt(111)</ref>. Figure <ref type="figure" target="#fig_3">4</ref> shows synchronous measurements of diffracted signal and electrochemical currents of transient states. For instance, for partial dissolution (Epoch=72000 s, potential step from full UPD to potential between peaks A' and A"), the electrochemical current associated with dissolution is quickly back to zero (~200 s) while diffracted signal needs nearly 800 s to stabilized, suggesting a slow structural reorganization not associated with an electrochemical charge transfer. We are still working on interpretations.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Annex: experimental setup</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 Cyclic voltammogram of Pt(111) electrode in Pd deposition solution measured on the D2AM beamline with the new electrochemical cell. Scan rate 0.1 mV.s -1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 (11) CTR of Pd deposition and dissolution on Pt(111).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Diffracted signal (black) in anti-Bragg position (1 1 1.5) while performing a complete cycle of electrochemical deposition and dissolution of Pd (red: applied potential, blue: deposition/dissolution current).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FinallyFigure 4</head><label>4</label><figDesc>Figure 4 Same as figure 3 but with potential steps.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5</head><label>5</label><figDesc>Figure 5 Hanging meniscus configuration used with the new electrochemical cell. Pt(111) crystal is at the bottom of the droplet.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6</head><label>6</label><figDesc>Figure 6 Electrochemical cell</figDesc><graphic coords="4,107.80,190.94,264.24,198.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7</head><label>7</label><figDesc>Figure 7 Electrochemical cell installed inside CRG-D2AM goniometer</figDesc><graphic coords="4,170.46,435.87,291.30,218.30" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

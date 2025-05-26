@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Proposal MX-2129 «Maturation of yeast small ribosomal subunits: role of the ribosomal protein Rps20 in late assembly events investigated by cryo-EM » (Célia Plisson-Chastang) Beam Line CM01 Dates : 26-29 Oct. 2018</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Proposal MX-2129 «Maturation of yeast small ribosomal subunits: role of the ribosomal protein Rps20 in late assembly events investigated by cryo-EM » (Célia Plisson-Chastang) Beam Line CM01 Dates : 26-29 Oct. 2018</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EE23BC40E9CCF258CA4DD0B7885A97D7</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:27+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The 9 shifts attributed to our proposal allowed to collect 6,480 stacks of frames (25 frames/stack), which were realigned « on the fly » at ESRF using MotionCor2. We transfered (via rsync) the 6,480 realigned images as well as the raw, unaligned data onto our university computing cluster, Calmip (<ref type="url" target="https://www.calmip.univ-toulouse.fr/">https://www.calmip.univ-toulouse.fr/</ref>). On the fly frames realignment and rsync transfer allowed us to start processing realigned images right after the end of data collection.</p><p>Ctf estimation was performed with Ctffind4 ; bad images and images with resolution lower than 4 Å were discarded, leaving a total of 6,041 images suitable for further processing. Using Relion 2.1, an initial dataset of 645,109 particles was picked, which was then cleaned-up by a round of 2D classification and sorting, leaving 344,959 particles for further processing. Global and focused 3D classifications were then performed, which allowed to obtain several 3D structural classes of pre-40S particles with resolutions ranging from 3.8 to 3.1 Å.Two of them, hereafter termed C1-and C2-S20DLoop (see illustration below), were solved to 3.6 and 3.8 Å, respectively. Combined to functional analyses, these structures allowed us to reveal how ribosomal protein Rps20 orchestrates communication between two multi-step maturation events across the pre-40S subunit. This cryo-EM work represent a major revision for a scientific article, currently re-submitted to Nature Communications. ESRF facility and people are acknowledged in this article.</p><p>We would like to say here one more time how grateful we are to our local contacts, Gregory Effantin and Isai Kandiah, as well as all ESRF people we were in contact with from the start of this proposal, for their great competence and professionalism.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body/>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

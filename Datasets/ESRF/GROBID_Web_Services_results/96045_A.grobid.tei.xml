@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4AEF8465D6BE772DCB55DCBA5C89CBE4</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Eloi Pineda* Departament de Física, Universitat Politècnica de Catalunya, Barcelona Max Frey* and Nico Neuber* Universität des Saarlandes, Lehrstuhl für Metallische Werkstoffe Beatrice Ruta* CNRS Researcher, Light Matter Institute, UMR5306, Lyon 1 University</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>We measured samples of Pd-based and Au-based metallic glasses while applying continous heating/cooling ramps. The main objectives of the experiment were: 1) to prove that the supercooled liquid dynamics of metallic glass-forming melts can be resolved during constant heating experiments and, taking profit of this strategy, 2) to investigate the liquid-liquid transition of Au51.6Ag5.8 Pd2.4Cu20.2Ga6.7Si13.3 (NGL6) and related alloys.</p><p>The experiment was successful. The intensity time correlation function 𝑔𝑔 2 (𝑞𝑞, 𝑡𝑡) = 1 + 𝑎𝑎|𝑔𝑔 1 (𝑞𝑞, 𝑡𝑡)| 2 while applying temperature ramps at constant rate can be modelled taking into account two contributions. Firstly the decorrelation due to the thermal expansion of the furnace-sample system. This decorrelation is similar to the one expected for a drift (or collective velocity) of the scattering particles:</p><formula xml:id="formula_0">|𝑔𝑔 1 (𝑞𝑞, 𝑡𝑡)| 2 ∝exp[-(𝜀𝜀ṫ𝑡) 2 ],</formula><p>with 𝜀𝜀̇ proportional to the collective velocity. This type of decorrelation is clearly observed in the time correlation functions obtained at low temperatures. Applying the usual analysis of fitting to a KWW funciton:</p><formula xml:id="formula_1">|𝑔𝑔 1 (𝑞𝑞, 𝑡𝑡)| 2 =exp�-2(𝑡𝑡 𝜏𝜏 ⁄ ) 𝛽𝛽 �</formula><p>, the collective drift due to the movement of the whole system during the temperature ramp is characterized by an exponent 𝛽𝛽=2. Fig. <ref type="figure" target="#fig_1">1</ref> shows this type of reponse at low temperatures, where the intrinsic dynamics of the material are much longer than the decorrelation produced by thermal expansion, and only this latter contribution can be observed. At higher temperatures, as soon as the intrinsic dynamics become of the same timescale (or shorter) than the experimental decorrelation, they start to be visible and the XPCS signal can be modelled considering</p><formula xml:id="formula_2">|𝑔𝑔 1 (𝑞𝑞, 𝑡𝑡)| 2 ∝ exp�-2(𝑡𝑡 𝜏𝜏 ′ ⁄ ) 𝛽𝛽 ′ �exp[-(𝜀𝜀ṫ𝑡) 2 ]</formula><p>, where 𝜏𝜏 ′ and 𝛽𝛽 ′ are now describing the timescale and shape of the microscopic relaxation dynamics. Fig. <ref type="figure" target="#fig_2">2</ref> shows the the evolution of temperature in the supercooled liquid region of one of the tested samples.</p><p>The data of the different metallic melts measured in the experiment is still under analysis. For the NGL6 alloy, preliminary analysis show that the supercooled liquid relaxation dynamics can be well resolved showing a change in fragility, presumably associated to a fragilestrong viscous behaviour, at the expected temperature range as seen in Fig. <ref type="figure" target="#fig_3">3</ref>.</p><p>The amount of data collected using this strategy of measuring XPCS signal during temperature ramps is very large, the anlysis is challenging and new python routines are being developed to make the procedures more automatic. This report will be updated in the future with further results.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants (* indicates experimentalists):</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Relaxation time and stretching KWW exponent of the Pt 42.5 Cu 27 Ni 9.5 P 21 glass at low temperatures.</figDesc><graphic coords="2,347.88,456.12,184.49,198.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Relaxation time and stretching KWW exponent of the Pt 42.5 Cu 27 Ni 9.5 P 21 supercooled liquid.</figDesc><graphic coords="3,346.08,36.90,187.99,198.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Dynamics during glass transition and supercooled liquid regions of the NGL6 alloy obtained from XPCS and VFT behaviours (dashed lines) considering two different fragilities.</figDesc><graphic coords="3,328.14,303.00,224.30,140.64" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

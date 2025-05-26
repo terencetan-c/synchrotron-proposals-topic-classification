@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Revealing the origin of structural colour in Heliconius Butterflies Experiment number: LS2451</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-09-08">8 th September 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Revealing the origin of structural colour in Heliconius Butterflies Experiment number: LS2451</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-09-08">8 th September 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0E3D3B7FD543369CAE7D250F54D2A61F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Local contact(s):</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dr Sylvain Prevost</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>We had three days of beam time on ID02 at ESRF to study the structural colour underlying Heliconius butterflies. These specimens were caught from the wild and span a large geographical area; from central America down through the Darian gap and into Ecuador, with strong variation in the strength of the overall structural colour. We collected over 20,000 more measurements from multiple points on the Butterfly wings. These measurements focused on the structural colour region of the wings, which are predominantly blue (see figure <ref type="figure" target="#fig_1">1</ref>). One of the team, Adam Washington, wrote a utility to enable routine scanning, this generates code to run ID02. This is freely available for other users of this beamline. 1 We received excellent support from Dr. Prevost and Dr.</p><p>Narayanan who gave us great advice in using a cylindrical beamstop. This greatly helped in the analysis of the data. As the samples are in different orientations and our sampling of the structure varies, we were able to use the symmetry and correct for the differences in orientation and the collapse the data into a single quadrant.</p><p>We then used a big data type approach to compare the scattering patterns for all the data and using, a princial component based analysis, could group them into geographic clusters based on their structure. Importantly, this is done with no a priori knowledge about the species or where they are from in terms of latitude. This approach seems very powerful and grouped the butterflies based on their latitude with no human input as to how to sort the scattering patterns.</p><p>This novel approach allows us to correlate the genetic information we have on each individual species and identify the different structural types at work in the wings and evaluate relative similarities and differences between the 26 subspecies we studied during LS 2451. This is shown in figure <ref type="figure" target="#fig_2">2</ref>. This work, along with further studies, will hopefully allow us to pinpoint the genetic instructions used to control and regulate the structural colour architecture. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Received at ESRF: Names and affiliations of applicants (* indicates experimentalists): Dr Andrew Parnell (University of Sheffield)* Professor Patrick Fairclough (University of Sheffield) Dr Adam Washington (University of Sheffield)* Dr Nicola Nadeau (University of Sheffield)* Miss Emma Curran (University of Sheffield)*</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. A Heliconius erato cyrbia forewing showing the dorsal side, with a strongly iridescent structural blue.</figDesc><graphic coords="1,40.05,540.20,193.80,195.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Mapping the connectivity of Heliconius butterflies solely on a principle component based analysis. The thickness of the lines between two samples corresponds to their similarity.</figDesc><graphic coords="2,34.00,246.13,508.80,422.40" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

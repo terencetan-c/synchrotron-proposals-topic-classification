@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A002B81D3ED44CFB4E62399C93FA8A82</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HC2548 STATIC MEASUREMENTS</head><p>We had large intensities (but low coherence!). Results from circular averages of the measured intensity around the (1/2 1/2 1/2) superstructure peak were used to estimate Tc and to observe the critical scattering. These averages were fitted in the usual manner: a lorentzian-squared behaviour for the smaller q-values and a near-lorentzian shape for diffuse scattering: I(q)=A/(1+(q/q0) 2 ) 2 +S(0)/(1+(q) 1.967 ) Data used provides very precise estimates of the transition temperatures and comparing the results obtained show a very high sample stability in a 24 hours period. S(0) corresponds to the susceptibilty. As S(0)α(|T-Tc|/Tc)^-1.241, S(0)</p><p>-.806 is linear in temperature (see Fig. <ref type="figure">1</ref> and 2 showing</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>stability of the results)</head><p>The high stability of the results ensures that no significant change in local sample composition occurs and that the Zn evaporation is negligible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>THE DYNAMICS OBSERVED</head><p>For each temperature, we have time series, usually 40,000 frames, and the period was either 0.05 s or 0.02s. The Yuryi's (ID10) python program was used, with three different sets of q-vectors.</p><p>I conclude here: -For very small angles, there is usually a large pretransitional peak, which is strongly temperature dependent. Though the stability was of the order of a few mK, this peak is not fully stable and its variations for t&gt;20-30s makes impossible to distinguish a fluctuation time from temperature instabilities. No reliable result is thus obtained for q&lt;0.0005 Å -1 (it is a ~5pixels radius).</p><p>-For larger angles, no fluctations are observed for q&gt;0.00515 Å -1 (too fast for the minimum 0.02 s measuring time). It was checked for large time series and a large number of pixels that the correlation function was essentially 1. Shorter measuring times are necessary.</p><p>-We have reliable measurements in a one order of magnitude range of q (From 0.0005 to 0.005Å -1 ).</p><p>The correlations, after averaging on time and on pixels and after normalization are written: Fig 1: Fit of S(0) -0.806 12:00 Monday. The linear fit yields Tc=336.016(18)°C</p><formula xml:id="formula_0">(q,t)=1++*exp(-t/(q))</formula><p>Only for larger angles the prepeak contribution is small, and it is in this region that we obtain the low value~0.015-0.02, ~0.1-0.2 is due to anisotropic parasitic scattering. In Figure <ref type="figure" target="#fig_2">3</ref> are shown the correlation functions observed at 336.025°C for the largest angles. The fluctuation time  is well estimated, and we also check the remarquable stability of the beamline.</p><p>We have 13 temperatures, and we obtain a set of τ(q,Τ). The results are gathered in Figure <ref type="figure">4</ref>. In the same figure, the result of fits with the equation: (q,T)=  (T)/(1+(q/q0) 2 ) are plotted</p><p>This equation provides an estimate of 0(T) for the various temperatures. In  Fig. 4-The fluctuation times vs q at various temperatures (notice the logarithmic axes)</p><p>This estimate of zyields (=0.631) z=1.99( <ref type="formula">13</ref>), which agrees with the theoretical value (z~2.03), with a poor precision.</p><p>-We can have a better coherence, and reduce the noise from pre-peaks by closing slits horizontally.</p><p>-We can have a better management of the prepeak intensity (dependent on the BM2 experiment) -We have to better the exploration of the reciprocal lattice in the vicinity of the Bragg position by slightly moving the detector apart: with a small misorientation, some q-values have a larger set of pixels. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 2 :</head><label>2</label><figDesc>Fig 2: Fit of S(0) -.806 around 6:00 Thuesday: the linear fit yields 336.017(5)°C</figDesc><graphic coords="1,299.20,188.50,200.90,135.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Figure 5, 0(T) is plotted versus T-Tc. The errors are clearly overestimated, but fitting yields the exponent z=1.253(84).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Observed correlations at 336.025°C for five larger q-values</figDesc><graphic coords="2,134.80,149.30,331.00,205.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 -</head><label>5</label><figDesc>Fig. 5-The temperature variations of 0(T) vs T-Tc. The fit corresponds to z=1.253</figDesc><graphic coords="3,133.60,76.60,328.40,207.10" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structural studies on the helicase domain of human Upf1 by X-ray crystallography</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2005-08-15">15 August 2005</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Gordon</forename><surname>Leonard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Molecular and Cell Biology</orgName>
+								<orgName type="laboratory">Laboratory of Macromolecular Structure</orgName>
+								<address>
+									<addrLine>61 Biopolis Drive</addrLine>
+									<postCode>138673</postCode>
+									<settlement>Proteos</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhihong</forename><surname>Cheng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Molecular and Cell Biology</orgName>
+								<orgName type="laboratory">Laboratory of Macromolecular Structure</orgName>
+								<address>
+									<addrLine>61 Biopolis Drive</addrLine>
+									<postCode>138673</postCode>
+									<settlement>Proteos</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Haiwei</forename><surname>Song</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Molecular and Cell Biology</orgName>
+								<orgName type="laboratory">Laboratory of Macromolecular Structure</orgName>
+								<address>
+									<addrLine>61 Biopolis Drive</addrLine>
+									<postCode>138673</postCode>
+									<settlement>Proteos</settlement>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structural studies on the helicase domain of human Upf1 by X-ray crystallography</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2005-08-15">15 August 2005</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">857067E6C5CB90030472143DDA3E8BD6</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Nonsense-mediated mRNA decay (NMD) is a cellular quality control mechanism that promotes rapid decay of nonsense-containing mRNAs. The NMD pathway is conserved in all eukaryotic organisms that have been studied <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. The key players in the NMD pathway were initially identified by genetic screens in S. Cerevisiae (Upf1,-2, -3) and C.elegans (SMG2, -3, -4). Human homologs of these proteins have also been characterized (named as hUpf1, -2, 3). These proteins are highly conserved from yeast to humans <ref type="bibr" target="#b2">[3]</ref>. These three proteins form a surveillance complex that is essential for NMD <ref type="bibr" target="#b3">[4]</ref>. Among them, Upf1 is a cytoplasmic protein with ATP-dependent RNA helicase activity and belongs to superfamily group I helicases <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. In addition to working in concert with Upf2/3 proteins, Upf1 protein acts with many cellular molecules in NMD pathway, such as translation release factors eRF1/3 <ref type="bibr" target="#b6">[7]</ref>, a GTP-binding protein Ski7p <ref type="bibr" target="#b7">[8]</ref> and human decapping complex <ref type="bibr" target="#b8">[9]</ref>. It was found that NMD can also regulate the expression of broad classes of physiologic transcripts <ref type="bibr" target="#b9">[10]</ref>. Most recently, it has been shown that hUpf1 can interact with Staufen proteins without other Upf proteins for regulating natural targets such as Arf1 mRNA, in so called SMD (staufenmediated decay) pathway <ref type="bibr" target="#b10">[11]</ref>. hUpf1 is also indispensable for replication-dependent histone mRNAs degradation <ref type="bibr" target="#b11">[12]</ref>. To understand the molecular mechanism of NMD, and the structural basis of how Upf1 interacts with other cellular molecules in mRNA decay, we perform structural studies on hUpf1 protein.</p><p>The truncated hUpf1 (hUpf1c) protein has been crystallized in three states (Apo, AMPPNP-bound and ADP-bound). The structure of the AMPPNP-bound hUpf1c has been solved by SAD phasing at 2.6Å resolution. The structures of the Apo and ADP-bound hUpf1c were solved by molecular replacement based on the AMPPNP-bound structure. Further structural and functional analysis is in progress. The data collection and structure determination statistics is summarized in Table</p><p>1. Data collection hUpf1c:AMPPNP hUpf1c hUpf1c:ADP Derivative Se --Wavelength(Å) 0.9793 0.9793 0.9793 resolution(Å) 2.6 2.8 2.4 Observations(unique) 357045(27959) 393150(24896) 82629(43423) I/σ 6.0 4.5 8.8 Completeness(last shell, %) 97.2(98.9) 100(100) 90.8(90.8) Rsym 0.094(0.379) 0.102(0.395) 0.059(0.24) Refinement Data range(Å) 20-2.6 20-2.8 20-2.4 Reflections(crossvalidation) 24065(1288) 21121(1138) 41163(2207) Nonhydrogen atoms(water) 4872(110) 4715(63) 9545(243) Rwork(Rfree) 24.5(27.1) 25.8(29.8) 23.5(27.2) RMS bond length(Å)(bond angles) 0.006(1.048) 0.012(1.294) 0.008(1.011) hUpf1c:AMPPNP(P43212)( Å): a=b=188.979, c=44.872; α=β=γ=90° and one molecule per asymmetric unit. hUpf1c:Apo(P43212)( Å): a=b=195.189, c=45.458; α=β=γ=90° and one molecule per asymmetric unit. hUpf1c:ADP(P1)( Å): a=63.284, b=67.836, c=87.25, α=114.41°, β=90.13°, γ=110.22° and two molecules per asymmetric unit.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">mRNA surveillance: the perfect persist</title>
+		<author>
+			<persName><forename type="first">Eileen</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Lykke-Andersen</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.115.15.3033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cell Science</title>
+		<idno type="ISSN">0021-9533</idno>
+		<idno type="ISSNe">1477-9137</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3033" to="3038" />
+			<date type="published" when="2002-08-01">2002</date>
+			<publisher>The Company of Biologists</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wagner, E. &amp; Lykke-Andersen, J. (2002). mRNA surveillance: the perfect persist. J. Cell Sci. 115:3033-3038.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A Perfect Message</title>
+		<author>
+			<persName><forename type="first">Matthias</forename><forename type="middle">W</forename><surname>Hentze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><forename type="middle">E</forename><surname>Kulozik</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0092-8674(00)80542-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<title level="j" type="abbrev">Cell</title>
+		<idno type="ISSN">0092-8674</idno>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="307" to="310" />
+			<date type="published" when="1999-02" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hentze, M.W. &amp; Kulozik, A.E. A perfect message: RNA surveillance and nonsense-mediated decay. Cell 96:307-310</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Nonsense-mediated mRNA decay: splicing, translation and mRNP dynamics</title>
+		<author>
+			<persName><forename type="first">Lynne</forename><forename type="middle">E</forename><surname>Maquat</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm1310</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Molecular Cell Biology</title>
+		<title level="j" type="abbrev">Nat Rev Mol Cell Biol</title>
+		<idno type="ISSN">1471-0072</idno>
+		<idno type="ISSNe">1471-0080</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="89" to="99" />
+			<date type="published" when="2004-02-01">2004</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maquat, L.E. (2004). Nonsense-mediated mRNA decay: splicing, translation and mRNP dynamics. Nat. Rev. Mol. Cell Biol. 5:89-99.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Upf1p, Nmd2p, and Upf3p Are Interacting Components of the Yeast Nonsense-Mediated mRNA Decay Pathway</title>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Agneta</forename><forename type="middle">H</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allan</forename><surname>Jacobson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mcb.17.3.1580</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular and Cellular Biology</title>
+		<title level="j" type="abbrev">Molecular and Cellular Biology</title>
+		<idno type="ISSNe">1098-5549</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1580" to="1594" />
+			<date type="published" when="1997-03-01">1997</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">He, F., Brown, A.H., and Jacobson, A. (1997). Upf1p, Nmd2p, and Upf3p are interacting components of the yeast nonsense-mediated mRNA decay pathway. Mol. Cell. Biol. 17:1580-1594.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Purification and characterization of the Upf1 protein: A factor involved in translation and Mrna degradation</title>
+		<author>
+			<persName><forename type="first">Kevin</forename><forename type="middle">C</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Peltz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RNA</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="610" to="623" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kevin C. &amp; Stuart W. Peltz. (1995). Purification and characterization of the Upf1 protein: A factor involved in translation and Mrna degradation. RNA. 1:610-623.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Characterization of the biochemical properties of the human Upf1 gene product that is involved in nonsense-mediated mRNA decay</title>
+		<author>
+			<persName><forename type="first">Anirban</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Czaplinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Panayiota</forename><surname>Trifillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allan</forename><surname>Jacobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stuart</forename><forename type="middle">W</forename><surname>Peltz</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s1355838200000546</idno>
+	</analytic>
+	<monogr>
+		<title level="j">RNA</title>
+		<title level="j" type="abbrev">RNA</title>
+		<idno type="ISSN">1355-8382</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1226" to="1235" />
+			<date type="published" when="2000-09">2000</date>
+			<publisher>Cold Spring Harbor Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anirban Bhattacharya &amp; Stuart W. Peltz. (2000). Characterization of the Biochemical properties of the human Upf1 gene product that is involved in nonsense-mediated Mrna decay. RNA. 6:1226-1235.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The surveillance complex interacts with the translation release factors to enhance termination and degrade aberrant mRNAs</title>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Czaplinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria</forename><forename type="middle">J</forename><surname>Ruiz-Echevarria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergey</forename><forename type="middle">V</forename><surname>Paushkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xia</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Youmin</forename><surname>Weng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haley</forename><forename type="middle">A</forename><surname>Perlick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harry</forename><forename type="middle">C</forename><surname>Dietz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Ter-Avanesyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stuart</forename><forename type="middle">W</forename><surname>Peltz</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.12.11.1665</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes &amp; Development</title>
+		<title level="j" type="abbrev">Genes Dev.</title>
+		<idno type="ISSN">0890-9369</idno>
+		<idno type="ISSNe">1549-5477</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1665" to="1677" />
+			<date type="published" when="1998-06-01">1998</date>
+			<publisher>Cold Spring Harbor Laboratory</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kevin Czaplinski &amp; Stuart W. Peltz. (1998). The surveillance complex interacts with the translation release factors to enhance termination and degrade aberrant mRNAs. Genes &amp; Development. 12:1665- 1677.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Interaction between Ski7p and Upf1p is required for nonsense-mediated 3&apos;-5&apos; mRNA decay in yeast</title>
+		<author>
+			<persName><forename type="first">Toshiaki</forename><surname>Katada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO. J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3951" to="3959" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shinya takahashi &amp; Toshiaki Katada. (2003). Interaction between Ski7p and Upf1p is required for nonsense-mediated 3&apos;-5&apos; mRNA decay in yeast. EMBO. J. 22(15):3951-3959.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Identification of a Human Decapping Complex Associated with hUpf Proteins in Nonsense-Mediated Decay</title>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Lykke-Andersen</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mcb.22.23.8114-8121.2002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular and Cellular Biology</title>
+		<title level="j" type="abbrev">Molecular and Cellular Biology</title>
+		<idno type="ISSNe">1098-5549</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="8114" to="8121" />
+			<date type="published" when="2002-12-01">2002</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jens Lykke-Andersen. (2002). Identification of a Human Decapping Complex Associated with hUpf Proteins in Nonsense-Mediated Decay. Mol. Cell. Biol. 22.23:8114-8121.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Nonsense surveillance regulates expression of diverse classes of mammalian transcripts and mutes genomic noise</title>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">T</forename><surname>Mendell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neda</forename><forename type="middle">A</forename><surname>Sharifi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Meyers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Martinez-Murillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harry</forename><forename type="middle">C</forename><surname>Dietz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ng1429</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genetics</title>
+		<title level="j" type="abbrev">Nat Genet</title>
+		<idno type="ISSN">1061-4036</idno>
+		<idno type="ISSNe">1546-1718</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1073" to="1078" />
+			<date type="published" when="2004-09-26">2004</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joshua T. Mendell &amp; Harry C. Dietz. (2004), Nonsense surveillance regulates expression of diverse classes of mammalian transcripts and mutes genomic noise. Nature genetics. 30(10):1073-1078.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mammalian Staufen1 Recruits Upf1 to Specific mRNA 3′UTRs so as to Elicit mRNA Decay</title>
+		<author>
+			<persName><forename type="first">Yoon</forename><forename type="middle">Ki</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Furic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Desgroseillers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lynne</forename><forename type="middle">E</forename><surname>Maquat</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2004.11.050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<title level="j" type="abbrev">Cell</title>
+		<idno type="ISSN">0092-8674</idno>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="195" to="208" />
+			<date type="published" when="2005-01">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim YK &amp; Maquat LE. (2005). Mammalian Staufen1 recruits Upf1 to specific mRNA 3&apos;UTRs so as to elicit mRNA decay. Cell. 120(2):195-208.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Regulated degradation of replication-dependent histone mRNAs requires both ATR and Upf1</title>
+		<author>
+			<persName><forename type="first">Handan</forename><surname>Kaygun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">F</forename><surname>Marzluff</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nsmb972</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Structural &amp; Molecular Biology</title>
+		<title level="j" type="abbrev">Nat Struct Mol Biol</title>
+		<idno type="ISSN">1545-9993</idno>
+		<idno type="ISSNe">1545-9985</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="794" to="800" />
+			<date type="published" when="2005-08-07">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Handan Kaygun &amp;William F Marzluff. (2005). Regulated degradation of replication-dependent histone mRNAs requires both ATR and Upf1. Nat. Stru. &amp; Mol. Bio.10:1038-1044.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

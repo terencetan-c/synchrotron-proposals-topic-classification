@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Herwig</forename><surname>Requardt</surname></persName>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">96D7B389619CF329D5948EE82EFF4208</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T13:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Names and affiliations of applicants (* indicates experimentalists): -Emmanuel BRUN</term>
+					<term>INSERM UGA EA 7442 -Sébastien BERUJON</term>
+					<term>ESRF -Hélène LABRIET</term>
+					<term>NOVITOM UGA</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scientific background and objectives</head><p>Osteoarticular diseases are the most prevalent chronic pains and long term disabilities with hundreds of millions people affected worldwide. No x-ray imaging technique presenting a sensitivity good enough for all the different tissues of the joint and/or a sufficient 3D spatial resolution, exists today to allow for this early stage detection of the different illness. For instance, the performances of X-ray absorption based CT restrain its use to bone defects and indirect cartilage depiction whilst MRI struggle to render properly the bony changes and the micro-calcifications. In contrast, X-ray Phase Contrast Imaging (PCI) provides enhanced contrast of the various joint tissues. X-ray near-field speckle based imaging (SBI) has been recently introduced (6)(7) and form a new class of X-ray PCI technique sensitive to the first derivative of the phase. The main advantage of the SBI is its relatively simple experimental setup. XSVT is an innovative stepping method that allows the reconstruction of high-resolution absorption, phase and darkfield contrast CT while using a moderate number of exposures. The aim of this experiment was to test and evaluate a new phase contrast imaging approach based on near-field speckle, for the depiction of osteoarticular diseases at their early stages.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Description of the experiment</head><p>Our experiment beamtime was divided into three phases:</p><p>1) phase-I: we imaged the samples with Propagation Based Imaging technique (PBI) 2) phase-II: we tested few membranes for speckle and chosen it to obtain a noisy pattern 3) phase-III: we imaged the samples with XSVT technique Samples. A total of 3 human wrists originating from three different persons were examined. Conventional planar radiography was performed prior imaging. In order to perform a quantitative comparison between PBI and SBI we imaged contrast and resolution phantoms.</p><p>PCI set-up. We used the propagation-based PCI set-up available on the ID17 beamline. An X-ray energy of 60 keV to reduced the deposited dose and a sample-to-detector distance of 11 meters were set. The X-ray dose delivered to the imaged samples was recorded by using a standard PTW ionization chamber. The phase contrast images were acquired using the PCO camera with a resulting pixel size of 22 µm. For the phase-II of the experiment we tested sandpaper, steel wool and other pattern to obtain a random speckle. For the third part of the experiment we acquired the SBI images using the same acquisition parameters than for the PBI.</p><p>PCT image reconstruction and analysis. The data treatment consists in the reconstruction of the CT data by using different CT algorithms. The purpose is to investigate which method is providing the best results in terms of image quality when using a reduced number of angular projections and short exposure times (i.e. conditions required for low-dose). The data reconstruction and treatment is presently in progress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preliminary results</head><p>The first phase of the data treatment has consisted in recosntructing the CT images by using the standard filtered back-projection algorithm and phase extraction algorithn (Well known Paganin approach). Other CT approaches (multi -phase reconstruction and other CT reconstruction methods) are planned and the results will be compared with the preliminary data reported here.</p><p>The figure 1 presents an axial image using paganin. Both soft tissues and bone are clearly depicted. The cartilages, ligaments and muscles are vizualisable. We assume that it will permitt to detect the degeneration of the joints components. All the treatment to reduced the artifact are not already applied. These results are very promising and need to be improved but will yield to several publications. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concluding remarks</head><p>Our first goal was to demonstrate the potential of XSVT compared to PBI at high energy. The second idea was to compare our results to the clinical routine practices in term of image quality and in term of radiation dose.</p><p>The further step will thus be a comparaison with medical routine CT thanks to our medical partners. In a near future we will image the anatomical pieces using MRI, conventional CT, multi spectral CT and Ultra Sonography.</p><p>We will perform a comparison between PBI images and XSVT images (qualitative and quantitative). We will improve XSVT modality to reduced the dose delivered to be comparable with clinical practices. For that we first will work on Equally Sloped Tomography and tomosynthesis algorithms to reduce virtually the deposited dose by reducing the number of projections. Nevertheless, the first images reconstructed by PyHST for the moment show promising results in terms of image quality and demonstrate the possibility of performing High energy SBI.</p><p>We are confident that the results of this study will be submitted in journals/conferences.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: The figure 1 presents an axial reconstruction on the carpals stage of the wrist.</figDesc><graphic coords="3,34.31,37.19,265.68,313.92" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>We are grateful for the help provided to us by the local contact. Technically and experimentally the beamtime was very successful. The data are still under examinations for further improving both image quality and dose delivered aspects.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

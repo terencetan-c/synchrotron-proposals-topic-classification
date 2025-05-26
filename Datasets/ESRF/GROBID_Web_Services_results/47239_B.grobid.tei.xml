@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ESRF Long Term Project: High-resolution time-resolved XAS/XES on high-valent metal sites in H 2 O, O 2 , and H 2 activating enzymes Experiment number: SC3218 (2 nd beamtime)</title>
+				<funder ref="#_wyy37HU #_2k9QRaR">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_qsqA2b8">
+					<orgName type="full">German Research Council (DFG)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Jean-Daniel</forename><surname>Cafun</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Michael</forename><surname>Haumann</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Freie Universität Berlin</orgName>
+								<address>
+									<addrLine>Arnimallee 14</addrLine>
+									<postCode>14195</postCode>
+									<settlement>Physik Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Katharina Klingan</orgName>
+								<orgName type="institution" key="instit2">Freie Universität Berlin</orgName>
+								<address>
+									<addrLine>Arnimallee 14</addrLine>
+									<postCode>14195</postCode>
+									<settlement>Physik Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Dr. Camilla Lambertz</orgName>
+								<orgName type="institution">Ruhr-Universität Bochum</orgName>
+								<address>
+									<postCode>44780</postCode>
+									<settlement>Photobiotechnologie Bochum</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ESRF Long Term Project: High-resolution time-resolved XAS/XES on high-valent metal sites in H 2 O, O 2 , and H 2 activating enzymes Experiment number: SC3218 (2 nd beamtime)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">41C3E126A4FE9F618DB47FDD7D1BB5AB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Progress Report:</head><p>Combining high-resolution and time-resolved X-ray absorption (XAS) and emission (XES) spectroscopy techniques offers exciting perspectives to gain novel information on molecular structure, electronic configuration, and dynamics of metal centers in biological enzymes, to unravel the reaction mechanisms at the active site metal complexes. One focus in this project is the study of hydrogen-forming iron centers in hydrogenase proteins by XAS/XES. Nature´s most efficient hydrogen-(H 2 ) forming enzmyes are the so called <ref type="bibr">[FeFe]</ref> hydrogenases, binding a six-iron containing complex denoted H-cluster <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>. The H-cluster consits of a canonically [4Fe4S] center, which is cysteine-linked to a binuclear iron unit (2Fe H ], carrying CO and CN ligands (Fig. <ref type="figure" target="#fig_0">1</ref>). The [FeFe] hydrogenase (HydA1) from green algae (e.g. Chlamydomonas reinhardtii) represents the minimal system for H 2 production, because it contains only the H-cluster and no additional relay [FeS] clusters, as found in bacterial enzymes. This propoerty makes HydA1 ideally suited to study the H-cluster by high-resolution XAS/XES techniques, aiming at structural and electronic information individually for the 4Fe and 2Fe units of the H-cluster.</p><p>In this beamtime period, we investigated the H-cluster in HydA1 in various redox states and supplemented with small molecule reactants like CO, H 2 , and O 2 by XAS/XES using Fe Kß-emission detection. The goal was to discriminate between the [4Fe4S] H and 2Fe H units, making use of their different Kß-emission properties in a site-selective approach. Important questions were whether we would be able to detect a Febound hydride or reactive oxygen species at the 2Fe H sub-complex in HydA1. Sets of Kß line spectra (Kß 1,3 = main line and Kß 2,5 = satellite line spectra) were obtained for a variety of HydA1 samples. In addition iron reference compounds were studied, which contained, for example, ironhydride bonds. Modifications at the H-cluster after chemical reduction or oxidation, and after the addition of small reactants were in the center of interest. Thereby, the first site-selcetive XAS and XES spectra of the H- cluster were obtained, which allowed to access the individual structural features and electronic configurations of the 4Fe and 2Fe units.</p><p>Spectral changes in the XAS and XES spectra were observed and analyzed, in addition using density functional theory calculations of XAS and XES spectra on the basis of geometry-optimized cluster models. The preliminary results suggest small-molecule binding to the 2Fe H unit, which therefore likely was detected directly for the first time using XAS/XES techniques. Preparations on respective manuscripts are underway. We consider this beamtime period as extraordinarily succesful.</p><p>Experimental: About 20 different types of [FeFe] hydrogenase HydA1 protein samples (Fe concentration 1-5 mM) and further protein samples containing for example [4Fe4S] clusters (ferredoxin) were obtained from the group of Thomas Happe (University of Bochum, Germany). [FeFe] hydrogenase was in its reduced state, as induced by different reductants, in the anaerobically oxidized state, treated with the inhibitor carbon monoxide (CO), incubated for increasing time periods with the inhibitor O 2 , or incubated with the substrate H 2 . In addition, several iron model complexes were studied as obtained from the groups of Marcetta Darensbourg (Texas A&amp;M University, USA), Matthias Driess (Technical University Berlin), and Christian Limberg (Humboldt University Berlin). We note that respective crystal structures of model complexes can not be shown in this report, because they are mostly unpublished. XAS/XES experiments were carried out using the Rowland spectrometer at ID26 (Si311 excitation monochromator crystals, 5x Ge620 crystals in the emission path, avalanche photodiode fluorescence detector) and samples were held in a liquid helium cryostat at 20 K. For all samples, complete sets of Kß emission spectra and high-resolution XANES spectra were measured. For selected samples, EXAFS spectra were measured at several Kß energies using the rapid scan mode of ID26. For selected protein and model samples, Kß RIXS plane data for excitation at the iron preedge were measured.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>(1) Publication of data from the LTP.</p><p>Since the first report for this LTP, we have been able to publish a significant amount of data and results obtained during the 1 st beamtime period (and previous periods) at ID26. A study using site-selective Kßdetected XAS measurements on an asymmetric model complex for the [FeFe] hydrogenase active site has been published <ref type="bibr" target="#b5">[6]</ref>. Combined XAS/XES and DFT work on another [FeFe] model complex, revealing structural and electronic changes from Kß-detection in solution samples, as well as iron-hydride formation, was published in JACS <ref type="bibr" target="#b6">[7]</ref>. A study in which we elucidate the properties of a hydride-forming model complex has just been submitted <ref type="bibr" target="#b4">[5]</ref>. At the moment, we are assembling a further manuscript on systematic comparison of a large number of [FeFe] model complexes. In addition, a comprehensive study by us on oxygen-activation at dimetal-oxygen centers of the [FeFe] and [MnFe] types in ribonucleotide reductases (RNR) has appeared {8]; a further study on this system, characterizing X-ray photoreduction of high-valent intermediates of the binuclear cofactors was recently submitted <ref type="bibr" target="#b8">[9]</ref>. We are currently working with high pressure on publication of the exciting new [FeFe] hydrogenase data obtained during the 2 nd and 1 st beamtime periods of the LTP.</p><p>(2) XAS/XES on hydride-binding model complexes.</p><p>Eight mononuclear and binuclear crystallized synthetic iron complexes were studied, which contain terminal or bridging iron-hydride bonds, in comparison to respective complexes in which the hydride was absent or replaced by another ligand species (e.g. CO). Full sets of Kß emission line spectra, total-fluorescence and Kßdetected XANES, and Kß RIXS plane data were obtained for all complexes (Fig. <ref type="figure" target="#fig_1">2</ref>). Data analysis is underway and involves also DFT calculations on XAS and XES spectra. The goal is to unravel the spectral and electronic changes that are induced by the hydride binding. This information will be used as reference material in the analysis of the data for [FeFe] hydrogenase proteins. Preliminary data analysis already has revealed pronounced effects due to hydride binding or ligand exchange, which is similar to the spectral changes detected in certain [FeFe] hydrogenase samples.  <ref type="formula">3</ref>) hydride and similar complexes with ligand exchanges (2 and 4) (left) and respective Kß 2,5 emission spectra, together with difference spectra (right). The so-called Casey-complexes (1 and 2) were obtained from C. Limberg (HU-Berlin), the [FeFe] hydrogenase models <ref type="bibr">(3 and 4)</ref> were obtained from M. Darensbourg (Texas A&amp;M University). Spectral analysis involving DFT calculations allows to deduce the contributions from, e.g., the hydride (Hy) and CO ligands.</p><p>(3) XAS/XES on the [FeFe] hydrogenase protein HydA1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(A) O 2 and CO inhibition of the enzyme.</head><p>Understanding the changes that occur at the H-cluster upon its inhibition by O 2 is of prime interest, because rapid O 2 -and CO-induced inhibition is a limiting factor in the application of <ref type="bibr">[FeFe]</ref> hydrogenase in biotechnological H 2 production for use as a fuel <ref type="bibr" target="#b2">[3]</ref>. We have previously hypothesized a reaction mechanism for O 2 inhibition of the H-cluster that involves reactive oxygen species (ROS) formation first at the 2Fe H unit and later destruction of the [4Fe4S] H unit <ref type="bibr" target="#b0">[1]</ref>. Knowing the reaction mechanisms may enable improvement of the O 2 and CO tolerance of HydA1 by protein engineering.</p><p>In the present study, site-selective XAS/XES measurements of O 2 -and CO-treated HydA1 protein were performed (for data on O 2 -inhibition see also report 1 of this LTP). The goal was to monitor ROS and CO binding at the two sub-clusters, to further refine the reaction sequences. XANES and EXAFS spectra for narrow-band detection at several Kß 1,3 and Kß´ emission energies were obtained for HydA1 incubated for increasing periods with O 2 in a time-resolved approach and for CO-treated enzyme; in addition, Kß RIXS data were obtained for selected samples (Fig. <ref type="figure" target="#fig_2">3</ref>). Good quality data was obtained for these samples. Preliminary data analysis has revealed spectral changes, the interpretation of which, using DFT calculations and comparison to the model systems, is underway. (B) Hydride binding in HydA1. Whether and at which position hydride species bind to the H-cluster in the course of the H 2 -forming reaction cycle is one of the most important questions in hydrogenase research. XAS/XES may be a direct spectroscopic method for the detection of hydride species.</p><p>We have obtained Kß emission spectra (main and satellite lines), XANES and EXAFS spectra, and Kß RIXS data of the H-cluster in HydA1 protein samples in the reduced and super-reduced states as obtained by different ways of chemical reduction or H 2 -exposure (total-fluorescence detection or narrow-band Kßdetection), in comparison to various oxidized states (Fig. <ref type="figure" target="#fig_3">4</ref>). An extraordinarily large amount of data was thus collected. Data analysis is underway and involves also DFT calculations on cluster models. Preliminary results seem to suggest that iron-hydride bonds may indeed be present in certain intermediates. If this is confirmed, it would be the first direct detection of iron-hydride intermediates in hydrogenase enzymes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(C) Site-selective XAS/XES on HydA1.</head><p>In principle, high-resolution XAS using narrow-band Kß-emission detection offers a way to obtain site-selective information individually for the 4Fe and 2Fe units of the Hcluster. Site-selectivity is expected to result from the strongly different spectral properties of the Kß lines of the two sub-complexes, due to the presence of either high-spin Fe(II) and Fe(III) in the [4Fe4S] H cluster or low-spin Fe(I) in the 2Fe H unit.</p><p>We explored site-selectivity in the H-cluster by XAS/XES on several different HydA1 preparations (Fig. <ref type="figure" target="#fig_4">5</ref>), making use of the different spin and oxidation states of the iron atoms in the site. Combination and comparison of spectra from total-fluorescence and Kß-emission detection (XAS, XES, RIXS), comparison with iron reference compounds, as well as DFT calculations were employed in the data analysis. For the first time, iron pre-edge absorption spectra and XANES spectra and EXAFS spectra could be obtained, which represented the 4Fe and 2Fe units of the H-cluster in relatively pure forms. To our knowledge, such siteselective XAS/XES data have here been obtained for the first time for any protein system. We are presently assembling a manuscript on these very promising results.</p><p>In addition, site-selective XAS/XES data were obtained for several model systems (Prussian blue, a mixture of Fe 2 (CO) 9 and an Fe 2 carbamate, a mixture of Fe 2 (CO) 9 and Fe 2 O 3 , and Fe 3 O 4 samples). These data are interesting in their own right, because so far very few site-selective XAS/XES studies have been reported <ref type="bibr" target="#b9">[10]</ref>. However, they here were predominantly used to further develop the method for the extraction of siteselective spectra from inhomogeneous samples containing metal ions in different spin-and/or oxidationstates and ligation environments. Respective methodology was then employed in the analysis of data from the HydA1 protein.</p><p>In summary, the experimentally highly demanding site-selective XAS/XES data on HydA1 and the model systems are very promising with respect to the elucidation of metal-hydride species, the oxygen-inhibition of the enzyme, and the modes of small molecule coordination. We are convinced that these studies should be continued, and expanded to [NiFe] hydrogenases and Ni-hydride systems, in a forthcoming measuring period at ID26 within this LTP, which we are currently planning.  ions, the 2Fe unit comprises two low-spin formal Fe(I) ions. These differences enable site-selective detection of spectra individually for the two cluster units. Top right: Kß 1,3 emission spectra for as isolated HydA1, apo-HydA1 binding only the 4Fe unit, ferredoxin with two [4Fe4S] clusters (FDX), FeFe model 3 in Fig. <ref type="figure" target="#fig_1">2</ref>, and Fe 2 O 3 (high-spin Fe(II) and Fe(III)). Bottom left: XANES spectra of HydA1 at 3 Kß detection energies (top) and derived spectra of the 4Fe and 2Fe units of the H-cluster (bottom). The deconvolution procedures will be outlined in a forthcoming publication. Bottom right: Preliminary siteselective EXAFS spectra of the 2Fe (top) and 4Fe units (bottom) of HydA1, derived from Kß detection at various emission energies. These data represent the first site-selective XAS data on any protein samples.</p><p>(4) Problems solved.</p><p>Technical improvements. In the beginning of this beamtime, the ID26 beamline staff supported by the ESRF IT-group managed to implement simultaneous monochromator and rapid gap-scans of the three undulators. This means that now the maximal X-ray flux can be used for rapid-scan EXAFS on dilute protein samples. This has significantly improved the data quality of spectra for our protein samples during this beamtime. We thank the beamline and IT staff for this accomplishment. Otherwise, only minor problems occurred (crashes of the main measuring computer which were rapidly solved by the local contact, ring dumps) and the set-up components (Rowland-spectrometer, cryostat, detectors, etc.) worked without problems.</p><p>Funding of the project. In the meantime, the LTP leader M. Haumann has been granted funding for his own position and for a new project related to the LTP by the German Research Council (Deutsche Forschungsgemeinschaft, DFG). The new project involves, e.g., financing of a multichannel analyzer for use at ID26, which will now be purchased. A new Ph.D. student will be hired soon, who will perform dedicated work related to the LTP (mostly on hydrogenases and models). A further proposal on investigations of O 2activating enzymes of M.H. related to the LTP is still pending at the DFG and a decision is expected very soon. Our facilities and manpower for future work within the LTP have been further improved.</p><p>[FeFe] hydrogenase H-cluster [4Fe4S] H 2Fe H 2.59 Å 2x 2.78 Å 4x 2.66 Å 7,04 7,05 7,06 0 50 100 150 7,04 7,05 7,06 emission intensity / r.u. emission energy / KeV HydA1 a.i. HydA1 apo FDX pdtFe 2 Fe 3 O 4 Kß´K ß 1,3 HydA1 a.i. -HydA1 apo 7110 7120 7130 7140 7150 7160 0 1 4Fe4S H 2Fe H HydA1 a.i. : 7060 eV 7056 eV 7045 eV normalized XANES incident energy / eV 0 1 2 3 4 5 6 7 0 35 5 10 0 50 7060 eV -7056 eV (F tot ) 7045 eV -7056 eV (F tot ) 7056 eV -7045 eV -7060 eV (F tot ) HydA1 a.i. FT of EXAFS reduced distance / Å EXAFS xk 3 k / Å -1</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Left, potential structure of the H-cluster of [FeFe] hydrogenase in the super-reduced (sred) state (H denotes a hydride hydride bound to Fe in an unknown position) [4], and right, crystallized biomimetic model complex for the 2Fe H unit comprising a bridging hydride [5].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Examples of iron model complexes holding a terminal (1) or bridging (3) hydride and similar complexes with ligand exchanges (2 and 4) (left) and respective Kß 2,5 emission spectra, together with difference spectra (right). The so-called Casey-complexes (1 and 2) were obtained from C. Limberg (HU-Berlin), the [FeFe] hydrogenase models(3 and 4)  were obtained from M. Darensbourg (Texas A&amp;M University). Spectral analysis involving DFT calculations allows to deduce the contributions from, e.g., the hydride (Hy) and CO ligands.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Kß 1,3 RIXS data (contour plots) (left) of as isolated reduced and COtreated [FeFe] hydrogenase HydA1 and reaction scheme for O 2 inhibition proposed by us [1,2] (right).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Preliminary data on H 2 -incubated HydA1 protein. Left, comparison of Kß 2,5 emission spectra of asisolated reduced and superreduced = H 2 -incubated HydA1. Right, Kß 1,3 RIXS data of H 2 -treated HydA1.The spectral difference is similar to model 3 in Fig.2, perhaps suggesting hydride binding to the H-cluster.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Site-selective XAS/XES on [FeFe] hydrogenase HydA1. Top left: Structural model of the Hcluster, showing Fe-Fe distances from crystal structures. The 4Fe unit involves high-spin Fe(II) and Fe(III)ions, the 2Fe unit comprises two low-spin formal Fe(I) ions. These differences enable site-selective detection of spectra individually for the two cluster units. Top right: Kß 1,3 emission spectra for as isolated HydA1, apo-HydA1 binding only the 4Fe unit, ferredoxin with two [4Fe4S] clusters (FDX), FeFe model 3 in Fig.2, and Fe 2 O 3 (high-spin Fe(II) and Fe(III)). Bottom left: XANES spectra of HydA1 at 3 Kß detection energies (top) and derived spectra of the 4Fe and 2Fe units of the H-cluster (bottom). The deconvolution procedures will be outlined in a forthcoming publication. Bottom right: Preliminary siteselective EXAFS spectra of the 2Fe (top) and 4Fe units (bottom) of HydA1, derived from Kß detection at various emission energies. These data represent the first site-selective XAS data on any protein samples.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgement</head><p>We thank <rs type="person">Drs. Jean-Daniel Cafun</rs> and <rs type="person">Pieter Glatzel</rs> at <rs type="grantNumber">ID26</rs> for excellent support. M.H. thanks the <rs type="funder">German Research Council (DFG)</rs> for funding (grants <rs type="grantNumber">Ha3265/2-1</rs> and -2, <rs type="grantNumber">Ha3265/3-1, Ha3265/6-1</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_qsqA2b8">
+					<idno type="grant-number">ID26</idno>
+				</org>
+				<org type="funding" xml:id="_wyy37HU">
+					<idno type="grant-number">Ha3265/2-1</idno>
+				</org>
+				<org type="funding" xml:id="_2k9QRaR">
+					<idno type="grant-number">Ha3265/3-1, Ha3265/6-1</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions:</head><p>In the second beamtime period of the LTP, a large amount of important new data on the [FeFe] hydrogenase HydA1 and on a variety of iron model complexes has been collected. Further technical developments at the beamline have lead to improved data quality for the dilute protein samples. Further goals as formulated in the milestones section of the proposal were reached, in particular with respect to hydride binding and oxygeninhibition of HydA1, and we thus consider the beamtime as highly successful. For the first time, a detailed study on site-selective XAS/XES on a protein was successfully conduced. In addition site-selective data were obtained for a variety of model systems. These results presumably will lead to high-ranking publications in the near future.</p><p>The obtained results call for an extension of these experiments also towards investigations on Ni-hydride containing hydrogenase proteins and model complexes. This will be on the agenda in the next beamtime period. Dedicated work in the LTP will now be continued on the basis of secured funding in the group of M. Haumann involving two new Ph.D. students, which will soon be hired. We therefore hope that the next beamtime period of the LTP will be granted by the ESRF committee.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">O2 Reactions at the Six-iron Active Site (H-cluster) in [FeFe]-Hydrogenase</title>
+		<author>
+			<persName><forename type="first">Camilla</forename><surname>Lambertz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nils</forename><surname>Leidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kajsa</forename><forename type="middle">G V</forename><surname>Havelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Noth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petko</forename><surname>Chernev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Happe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Haumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m111.283648</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="issue">47</biblScope>
+			<biblScope unit="page" from="40614" to="40623" />
+			<date type="published" when="2011-11">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Lambertz, N. Leidel, K. Havelius, P. Chernev, J. Noth, M. Winkler, T. Happe, M. Haumann, O 2 reactions at the six-iron active site (H-cluster) of [FeFe]-hydrogenase. J. Biol. Chem. 286, 40614-40623 (2011)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">How oxygen attacks [FeFe] hydrogenases from photosynthetic organisms</title>
+		<author>
+			<persName><forename type="first">Sven</forename><forename type="middle">T</forename><surname>Stripp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabrielle</forename><surname>Goldet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Caterina</forename><surname>Brandmayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Sanganas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kylie</forename><forename type="middle">A</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Haumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fraser</forename><forename type="middle">A</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Happe</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0905343106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="17331" to="17336" />
+			<date type="published" when="2009-10-13">2009</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Stripp, G. Goldet, C. Brandmayr, O. Sanganas, K. Vincent, M. Haumann, F. Armstrong, T. Happe, How oxygen attacks [FeFe] hydrogenases from photosynthetic organisms. Proc. Natl. Acad. Sci. USA 106, 17331-17336 (2009)</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">How algae produce hydrogen—news from the photosynthetic hydrogenase</title>
+		<author>
+			<persName><forename type="first">Sven</forename><forename type="middle">T</forename><surname>Stripp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Happe</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b916246a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dalton Transactions</title>
+		<title level="j" type="abbrev">Dalton Trans.</title>
+		<idno type="ISSN">1477-9226</idno>
+		<idno type="ISSNe">1477-9234</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">45</biblScope>
+			<biblScope unit="page">9960</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Stripp, T. Happe, How algae produce hydrogen--news from the photosynthetic hydrogenase. Dalton Trans. 7, 9960-9969 (2009)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Identification and Characterization of the “Super‐Reduced” State of the H‐Cluster in [FeFe] Hydrogenase: A New Building Block for the Catalytic Cycle?</title>
+		<author>
+			<persName><forename type="first">Agnieszka</forename><surname>Adamska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexey</forename><surname>Silakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Camilla</forename><surname>Lambertz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olaf</forename><surname>Rüdiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Happe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Reijerse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Lubitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.201204800</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angewandte Chemie International Edition</title>
+		<title level="j" type="abbrev">Angew Chem Int Ed</title>
+		<idno type="ISSN">1433-7851</idno>
+		<idno type="ISSNe">1521-3773</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">46</biblScope>
+			<biblScope unit="page" from="11458" to="11462" />
+			<date type="published" when="2012-10-26">2012</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Adamska, A. Silakov, C. Lambertz, O. Rüdiger, T. Happe, E. Reijerse, W. Lubitz, Identification and characterization of the &quot;super-reduced&quot; state of the H-cluster in [FeFe] hydrogenase: a new building block for the catalytic cycle? Angew. Chem. Int. Ed. Engl. 51, 11458-11462 (2012)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Bridging-hydride influence on the electronic structure of an [FeFe] hydrogenase active-site model complex revealed by XAES-DFT</title>
+		<author>
+			<persName><forename type="first">Nils</forename><surname>Leidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chung-Hung</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petko</forename><surname>Chernev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kajsa</forename><forename type="middle">G V</forename><surname>Sigfridsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcetta</forename><forename type="middle">Y</forename><surname>Darensbourg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Haumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3dt33042g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dalton Transactions</title>
+		<title level="j" type="abbrev">Dalton Trans.</title>
+		<idno type="ISSN">1477-9226</idno>
+		<idno type="ISSNe">1477-9234</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page">7539</biblScope>
+			<date type="published" when="2012">2012</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note>submitted</note>
+	<note type="raw_reference">N. Leidel, C.-H. Hsieh, P. Chernev, K. Havelius, M. Darensbourg, M. Haumann, Bridging-hydride influence on the electronic structure of an [FeFe] hydrogenase active-site model complex revealed by XAES-DFT. Dalton Trans., submitted (2012)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Site-Selective X-ray Spectroscopy on an Asymmetric Model Complex of the [FeFe] Hydrogenase Active Site</title>
+		<author>
+			<persName><forename type="first">Nils</forename><surname>Leidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petko</forename><surname>Chernev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kajsa</forename><forename type="middle">G V</forename><surname>Havelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Salah</forename><surname>Ezzaher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sascha</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Haumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ic2024154</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inorganic Chemistry</title>
+		<title level="j" type="abbrev">Inorg. Chem.</title>
+		<idno type="ISSN">0020-1669</idno>
+		<idno type="ISSNe">1520-510X</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4546" to="4559" />
+			<date type="published" when="2012-03-23">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Leidel, P. Chernev, K. Havelius, S. Ezzaher, S. Ott, M. Haumann, Site-selective X-ray spectroscopy on an asymmetric model complex of the [FeFe] hydrogenase active site. Inorg. Chem. 51, 4546-4559 (2012)</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Electronic Structure of an [FeFe] Hydrogenase Model Complex in Solution Revealed by X-ray Absorption Spectroscopy Using Narrow-Band Emission Detection</title>
+		<author>
+			<persName><forename type="first">Nils</forename><surname>Leidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petko</forename><surname>Chernev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kajsa</forename><forename type="middle">G V</forename><surname>Havelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lennart</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sascha</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Haumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja304970p</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">34</biblScope>
+			<biblScope unit="page" from="14142" to="14157" />
+			<date type="published" when="2012-08-17">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Leidel, P. Chernev, K. Havelius, L. Schwartz, S. Ott, M. Haumann, The electronic structure of an [FeFe] hydrogenase model complex in solution revealed by X-ray absorption spectroscopy using narrow- band emission detection. J. Am. Chem. Soc. 134, 14142-14157 (2012)</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">High-valent [MnFe] and [FeFe] cofactors in ribonucleotide reductases</title>
+		<author>
+			<persName><forename type="first">Nils</forename><surname>Leidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Popović-Bijelić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kajsa</forename><forename type="middle">G V</forename><surname>Havelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petko</forename><surname>Chernev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nina</forename><surname>Voevodskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Astrid</forename><surname>Gräslund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Haumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbabio.2011.12.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimica et Biophysica Acta (BBA) - Bioenergetics</title>
+		<title level="j" type="abbrev">Biochimica et Biophysica Acta (BBA) - Bioenergetics</title>
+		<idno type="ISSN">0005-2728</idno>
+		<imprint>
+			<biblScope unit="volume">1817</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="430" to="444" />
+			<date type="published" when="2012-03">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Leidel, A. Popovic-Bijelic, K. Havelius, P. Chernev, N. Voevodskaya, A. Gräslund, M. Haumann, High-valence [MnFe] and [FeFe] sites in ribonucleotide reductases. Biochim. Biophys. Acta 1817, 430- 444 (2012)</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Rapid X-ray Photoreduction of Dimetal-Oxygen Cofactors in Ribonucleotide Reductase</title>
+		<author>
+			<persName><forename type="first">Kajsa</forename><forename type="middle">G V</forename><surname>Sigfridsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petko</forename><surname>Chernev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nils</forename><surname>Leidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Popović-Bijelić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Astrid</forename><surname>Gräslund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Haumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.m112.438796</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="9648" to="9661" />
+			<date type="published" when="2012">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>submitted</note>
+	<note type="raw_reference">K. Sigfridsson, P. Chernev, N. Leidel, A. Popovic-Bijelic, A. Gräslund, M. Haumann, X-ray photoreduction of prototypic dimetal-oxygen cofactors in ribonucleotide reductase. J. Biol. Chem., submitted (2012)</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Site-Selective EXAFS in Mixed-Valence Compounds Using High-Resolution Fluorescence Detection: A Study of Iron in Prussian Blue</title>
+		<author>
+			<persName><forename type="first">Pieter</forename><surname>Glatzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lilian</forename><surname>Jacquamet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uwe</forename><surname>Bergmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><forename type="middle">M F</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">P</forename><surname>Cramer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ic010709m</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inorganic Chemistry</title>
+		<title level="j" type="abbrev">Inorg. Chem.</title>
+		<idno type="ISSN">0020-1669</idno>
+		<idno type="ISSNe">1520-510X</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3121" to="3127" />
+			<date type="published" when="2002-05-21">2002</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Glatzel, L. Jacquamet, U. Bergmann, F. de Groot, S. P. Cramer, Site-selective EXAFS in mixed- valence compounds using high-resolution fluorescence detection: a study of iron in Prussian Blue. Inorg. Chem. 41, 3121-3127 (2002)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

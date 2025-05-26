@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">X-ray phase tomography with Unified Modulated Pattern Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Margie</forename><surname>Olbinado</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lukas</forename><surname>Helfen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marie-Christine</forename><surname>Zdora</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Southampton (formerly: University College London and Diamond Light Source) Irene Zanette</orgName>
+								<orgName type="institution" key="instit2">University of Southampton (formerly: Diamond Light Source)</orgName>
+								<address>
+									<addrLine>Pierre Thibault</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Diamond Light Source (formerly</orgName>
+								<orgName type="institution" key="instit1">University of Southampton and Diamond Light Source Hans Deyhle</orgName>
+								<orgName type="institution" key="instit2">University of Southampton</orgName>
+								<orgName type="institution" key="instit3">Joan Vila-Comamala</orgName>
+								<orgName type="institution" key="instit4">ETH Zurich</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">X-ray phase tomography with Unified Modulated Pattern Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7C2D6BD2773788BED4977A6DB6998524</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Scientific background: Revealing the internal structure of biomedical samples requires imaging methods with high spatial resolution and high contrast for soft tissue, ideally capable of providing undistorted three-dimensional (3D) information from hydrated specimens. To date, conventional histology is the biomedical standard. It consists in using a light microscope to image thin slices of a specimen, which were beforehand embedded in a hard matrix and stained. Combining two-dimensional (2D) serial sections into a 3D volume is possible but time-consuming and often hindered by artefacts occurring during tissue preparation and sectioning <ref type="bibr" target="#b11">[Ourselin et al., 2001;</ref><ref type="bibr" target="#b13">Pichat et al., 2018]</ref>. Moreover, conventional histology is unable to provide unbiased isotropic sampling, essential for accurate and precise volumetric analysis, and is associated with sample shrinkage due to the required dehydration step. A suitable alternative to histology for non-destructive volumetric imaging at isotropic spatial resolution is the use of X-ray micro computed tomography (microCT) <ref type="bibr" target="#b16">[Stock, 2008]</ref>. However, for X-ray absorption-based mi-croCT, contrast is often too low for biomedical applications and contrast agents are required for soft-tissue discrimination <ref type="bibr">[Metscher, 2009a,b;</ref><ref type="bibr" target="#b12">Pauwels et al., 2013;</ref><ref type="bibr" target="#b5">Martins de S. e Silva et al., 2015;</ref><ref type="bibr" target="#b14">Shearer et al., 2016;</ref><ref type="bibr" target="#b8">Missbach-Guentner et al., 2018;</ref><ref type="bibr" target="#b1">Busse et al., 2018;</ref><ref type="bibr" target="#b10">Müller et al., 2018]</ref>, which lead to alterations in tissue structure and are often incompatible with follow-up imaging techniques. It has been shown that X-ray phase-contrast imaging methods <ref type="bibr" target="#b19">[Wilkins et al., 2014]</ref> can provide much better contrast for biomedical samples without the need to contrast agents <ref type="bibr" target="#b17">[Töpperwien et al., 2018;</ref><ref type="bibr" target="#b3">Khimchenko et al., 2018;</ref><ref type="bibr" target="#b20">Wu et al., 2009;</ref><ref type="bibr" target="#b15">Shirai et al., 2014;</ref><ref type="bibr" target="#b21">Zanette et al., 2013;</ref><ref type="bibr" target="#b18">Velroyen et al., 2014]</ref>. However, existing methods are typically limited by elaborate experimental setups and other constraints on the nature and size of the sample. X-ray speckle-based imaging (SBI) <ref type="bibr" target="#b9">[Morgan et al., 2012;</ref><ref type="bibr" target="#b0">Berujon et al., 2012;</ref><ref type="bibr" target="#b25">Zdora, 2018]</ref> does not impose these restrictions and benefits from a simple experimental setup that can be applied to a wide range of samples. In this experiment, we explored the potential of X-ray phase tomography based on SBI for biomedical imaging of unstained and hydrated animal tissue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedure:</head><p>We used the U13 single-harmonic undulator (gap: 12.0 mm) with additional filtering by the 1.4 mm-thick diamond attenuator and 5.6 mm aluminium to obtain an X-ray beam with a narrow energy spectrum with a peak energy of approximately 26.3 keV. The experimental setup is shown in Fig. <ref type="figure">1(a)</ref>. The only addition to the standard X-ray tomography apparatus was a piece of abrasive paper used as a phase-modulating diffuser, which was fixed on translational stages for stepping in the plane transverse to the beam direction.</p><p>The near-field speckle pattern created by scattering and interference of X-rays from the diffuser particles can be seen in Fig. <ref type="figure">1</ref>(b) and in more detail in Fig. <ref type="figure">1(c</ref>). The sample was mounted on a tomographic stage located d1 = 72.5 cm downstream of the diffuser. Reference images (without the specimen) and sample images (with the specimen) were acquired at N = 20 different transverse positions of the diffuser. The resulting interference patterns were recorded by a detection system placed d2 = 65.0 cm downstream of the sample. It consisted of a pco.edge 5.5 sCMOS camera coupled to a 2.1× magnification optics system, comprising two Hasselblad lenses in tandem configuration with a numerical aperture of 0.17 and a scintillation screen (250 μm-thick cerium-doped LuAG:Ce). The effective pixel size of this system was peff = 3.1 μm. The exposure time for each recorded frame was 50 ms. Acquisition of the sample images was performed in tomographic mode with 2401 projections over 180 degrees of sample rotation, which was repeated for each of the 20 diffuser positions. A set of 20 reference images was recorded before each of the tomographies and 20 dark images were taken prior to the entire scan. The scanning of various whole mouse organs (kidney, brain, testicle) was performed in two height steps with a vertical overlap of 143 pixels. Image reconstruction was performed separately for both height steps and subsequently the two phase volumes were registered and concatenated. The total scan time for the two height steps was approximately 1.5 hours.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis:</head><p>The reconstruction of the 3D phase volume was performed in several steps. First, all acquired frames were corrected for the dark current by subtracting the average dark image. Then, the differential phase signals in the horizontal and the vertical directions were reconstructed from the dark-current corrected sample and reference images recorded at the different diffuser positions. This was done for each projection of the tomography scan by applying the unified modulated pattern analysis (UMPA) approach <ref type="bibr" target="#b24">[Zdora et al., 2017]</ref>. Although the UMPA formalism allows for multimodal signal retrieval, here the focus is on the phase-shifting properties of the specimen, which can be observed as a displacement of the speckle pattern that can be converted to the X-ray refraction angle and differential phase signal. From the differential phase signals, the phase shift images were retrieved using a Fourier phase-integration routine, combining the horizontal and vertical differential phase information <ref type="bibr" target="#b9">[Morgan et al., 2012;</ref><ref type="bibr" target="#b4">Kottler et al., 2007]</ref>. The tomographic reconstruction was performed by applying a conventional filtered back-projection algorithm <ref type="bibr" target="#b2">[Kak and Slaney, 2001]</ref> using the Python-based pyCT processing package developed by the Chair of Biomedical Physics (E17) at Technical University Munich, Germany. To reduce ring artefacts in the tomographic slices originating mainly from scintillator defects and noise, a low-pass Butterworth filter was applied to the sinogram of each slice prior to the filtered back-projection step. All of the above procedures were performed for each of the two height steps separately and finally the two volumes were concatenated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>Phase tomograms of different biomedical samples were acquired, including a mouse kidney, mouse brain and mouse testicle. In the following, some of the results obtained for the mouse kidney are presented. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differential phase projections:</head><p>The first step in the analysis is the reconstruction of the phase-contrast signal for all of the projections recorded at different viewing angles of the sample. An example is presented in Fig. <ref type="figure">2</ref>(a) and 2(b), showing the horizontal and vertical differential phase signal of the mouse kidney (in a plastic tube), respectively, for both of the separate tomography scans acquired for the two different height steps. The outlines of the kidney in the plastic tube can be observed, but only little detail of the inner structure of the sample is visible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase tomogram:</head><p>The 3D inner structure of the unstained and fully hydrated kidney is visualised in the phase tomogram enabling non-destructive virtual histology and virtual slicing along any arbitrary plane, see Fig. <ref type="figure">3</ref>. The micro-structural detail of the hydrated kidney tissue can be observed in the phase tomogram slice, matching that seen by conventional histology (H&amp;E stain), performed on the same specimen after X-ray imaging. The phase volume slices are presented in histologylike false-colours for better visual comparison. (Note that the colours for the virtual phase volume slices were assigned based on tissue density, while conventional histology stains selectively attach to certain types of tissue structures.) For X-ray energies far from the absorption edges of the sample materials, the refractive index decrement δ is directly proportional to the electron density ρel. Moreover, for specimens with moderate hydrogen content, a linear relationship between ρel and the mass density ρm holds in good approximation. These relations allow for performing a quantitative analysis of the electron and mass density distribution within the specimen from the phase volume obtained by SBI. The high density resolution leads to excellent contrast within the kidney tissue. The spatial resolution is essentially limited by the choice of reconstruction parameters in the UMPA analysis. The quantitative density information of the phase volume obtained by SBI can be combined with 3D information on the tissue morphology. The 3D character of the phase tomogram also provides a reliable way to perform Vertical refraction angle α y Horizontal refraction angle α x -2.5 2.5 α [μrad] 1 mm (a) (b) (c) (d) Figure 2: Differential phase projections of the mouse kidney for the two height steps. (a), (b) Horizontal and (c), (d) vertical refraction angle.</p><p>further structural analysis on the shape, size and distribution of some functional elements of the organ such as the blood vessel network. Retrieving this information from 2D slices, as obtained by conventional histology, can be extremely challenging. A full analysis of the 3D structures in phase volume has been performed for the kidney and the results from this experiment are currently being prepared for submission to a peer-reviewed journal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions and outlook:</head><p>In this experiment, we have shown that SBI phase tomography is a promising candidate for non-destructive imaging of biomedical soft tissues with high sensitivity and high spatial resolution. SBI-based virtual histology could in the future become an invaluable tool for diagnostics and staging of diseases that lead to changes in tissue density and morphology. As the spatial resolution and sensitivity of the measurement can be easily fine-tuned using the UMPA approach, the method can be applied to samples containing structures with a wide range of sizes and compositions, extending to fossilised matter and materials science samples. Furthermore, although the data presented here was acquired at a synchrotron source, SBI phase tomography is being implemented at laboratory X-ray sources without major efforts or costly equipment <ref type="bibr" target="#b22">[Zanette et al., 2014</ref><ref type="bibr" target="#b23">[Zanette et al., , 2015]]</ref>. The optimisation of UMPA for this purpose is currently underway. This will make the method widely accessible and suitable for advanced high-throughput clinical and research applications.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Figure 1: (a) Experimental setup for SBI phase tomography at ID19. (b),(d) Example of a sample speckle pattern and (c),(e) a reference speckle pattern.</figDesc><graphic coords="3,37.71,99.86,199.33,194.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :-Figure 2 :</head><label>32</label><figDesc>Figure 3: Virtual slices through the SBI phase tomogram of a mouse kidney validated with conventional histology. (a) Long-axis slices, (b) short-axis slice, and (c) correpsonding slices obtained by conventional histology (H&amp;E staining). (d), (e) Regions of interest in (b) and (c), respectively, showing the same tissue microstructure.</figDesc><graphic coords="4,34.69,377.27,128.96,234.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">X-ray multimodal imaging using a random-phase object</title>
+		<author>
+			<persName><forename type="first">Sebastien</forename><surname>Berujon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hongchang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kawal</forename><surname>Sawhney</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreva.86.063813</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review A</title>
+		<title level="j" type="abbrev">Phys. Rev. A</title>
+		<idno type="ISSN">1050-2947</idno>
+		<idno type="ISSNe">1094-1622</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">63813</biblScope>
+			<date type="published" when="2012-12-14">2012</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">References: S. Berujon, H. Wang, and K. Sawhney, &quot;X-ray multimodal imaging using a random-phase object,&quot; Phys. Rev. A 86(6), 063813 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Three-dimensional virtual histology enabled through cytoplasm-specific X-ray stain for microscopic and nanoscopic computed tomography</title>
+		<author>
+			<persName><forename type="first">Madleen</forename><surname>Busse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Melanie</forename><forename type="middle">A</forename><surname>Kimm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Ferstl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Allner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Achterhold</surname></persName>
+			<idno type="ORCID">0000-0002-8724-1637</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><surname>Herzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1720862115</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2293" to="2298" />
+			<date type="published" when="2018-02-20">2018</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Busse, M. Müller, M. A. Kimm, S. Ferstl, S. Allner, K. Achterhold, J. Herzen, and F. Pfeiffer, &quot;Three-di- mensional virtual histology enabled through cytoplasm-specific X-ray stain for microscopic and nanoscopic computed tomography,&quot; Proc. Natl. Acad. Sci. 115(10), 2293-2298 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Principles of Computerized Tomographic Imaging</title>
+		<author>
+			<persName><forename type="first">Avinash</forename><forename type="middle">C</forename><surname>Kak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Malcolm</forename><surname>Slaney</surname></persName>
+		</author>
+		<idno type="DOI">10.1137/1.9780898719277</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Society for Industrial and Applied Mathematics</title>
+		<imprint>
+			<date type="published" when="2001-01">2001</date>
+			<publisher>Society for Industrial and Applied Mathematics</publisher>
+			<pubPlace>Philadelphia, PA, United States</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. C. Kak and M. Slaney, Principles of Computerized Tomographic Imaging (Society for Industrial and Ap- plied Mathematics, Philadelphia, PA, United States, 2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Hard X‐Ray Nanoholotomography: Large‐Scale, Label‐Free, 3D Neuroimaging beyond Optical Limit</title>
+		<author>
+			<persName><forename type="first">Anna</forename><surname>Khimchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christos</forename><surname>Bikis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandra</forename><surname>Pacureanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><forename type="middle">E</forename><surname>Hieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Thalmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans</forename><surname>Deyhle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabriel</forename><surname>Schweighauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jürgen</forename><surname>Hench</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magdalena</forename><surname>Müller‐gerbl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Georg</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Müller</surname></persName>
+			<idno type="ORCID">0000-0003-4078-9109</idno>
+		</author>
+		<idno type="DOI">10.1002/advs.201700694</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Science</title>
+		<title level="j" type="abbrev">Advanced Science</title>
+		<idno type="ISSN">2198-3844</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">1700694</biblScope>
+			<date type="published" when="2018-03-30">2018</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Khimchenko, C. Bikis, A. Pacureanu, S. E. Hieber, P. Thalmann, H. Deyhle, G. Schweighauser, J. Hench, S. Frank, M. Müller-Gerbl, G. Schulz, P. Cloetens, and B. Müller, &quot;Hard X-Ray Nanoholotomography: Large- Scale, Label-Free, 3D Neuroimaging beyond Optical Limit,&quot; Adv. Sci. 5(6), 1700694 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A two-directional approach for grating based differential phase contrast imaging using hard x-rays</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kottler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bunk</surname></persName>
+		</author>
+		<idno type="DOI">10.1364/oe.15.001175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Optics Express</title>
+		<title level="j" type="abbrev">Opt. Express</title>
+		<idno type="ISSNe">1094-4087</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">1175</biblScope>
+			<date type="published" when="2007">2007</date>
+			<publisher>Optica Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Kottler, C. David, F. Pfeiffer, and O. Bunk, &quot;A two-directional approach for grating-based differential phase contrast-imaging using hard x-rays,&quot; Opt. Express 15(3), 1175-1181 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Three-dimensional non-destructive soft-tissue visualization with X-ray staining micro-tomography</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martins De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zanette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Noël</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Cardoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kimm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pfeiffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">14088</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Martins de S. e Silva, I. Zanette, P. B. Noël, M. B. Cardoso, M. A. Kimm, and F. Pfeiffer, &quot;Three-dimen- sional non-destructive soft-tissue visualization with X-ray staining micro-tomography,&quot; Sci. Rep. 5, 14088 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">MicroCT for comparative morphology: simple staining methods allow high-contrast 3D imaging of diverse non-mineralized animal tissues</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Metscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1472-6793-9-11</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Physiology</title>
+		<title level="j" type="abbrev">BMC Physiol</title>
+		<idno type="ISSN">1472-6793</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2009">2009a</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Metscher, &quot;MicroCT for comparative morphology: simple staining methods allow high-contrast 3D im- aging of diverse non-mineralized animal tissues,&quot; BMC Physiol. 9(1), 11 (2009a).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">MicroCT for developmental biology: A versatile tool for high‐contrast 3D imaging at histological resolutions</title>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">D</forename><surname>Metscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/dvdy.21857</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Dynamics</title>
+		<title level="j" type="abbrev">Developmental Dynamics</title>
+		<idno type="ISSN">1058-8388</idno>
+		<idno type="ISSNe">1097-0177</idno>
+		<imprint>
+			<biblScope unit="volume">238</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="632" to="640" />
+			<date type="published" when="2009-02-22">2009b</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. D. Metscher, &quot;MicroCT for developmental biology: A versatile tool for high-contrast 3D imaging at histo- logical resolutions,&quot; Dev. Dyn. 238(3), 632-640 (2009b).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">3D virtual histology of murine kidneys –high resolution visualization of pathological alterations by micro computed tomography</title>
+		<author>
+			<persName><forename type="first">Jeannine</forename><surname>Missbach-Guentner</surname></persName>
+			<idno type="ORCID">0000-0003-1033-8403</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Diana</forename><surname>Pinkert-Leetsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Dullin</surname></persName>
+			<idno type="ORCID">0000-0003-4297-8077</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Roser</forename><surname>Ufartes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Hornung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bjoern</forename><surname>Tampe</surname></persName>
+			<idno type="ORCID">0000-0002-4357-9863</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Zeisberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frauke</forename><surname>Alves</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-19773-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1407</biblScope>
+			<date type="published" when="2018-01-23">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Missbach-Guentner, D. Pinkert-Leetsch, C. Dullin, R. Ufartes, D. Hornung, B. Tampe, M. Zeisberg, and F. Alves, &quot;3D virtual histology of murine kidneys -high resolution visualization of pathological alterations by micro computed tomography,&quot; Sci. Rep. 8(1), 1407 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">X-ray phase imaging with a paper analyzer</title>
+		<author>
+			<persName><forename type="first">Kaye</forename><forename type="middle">S</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">M</forename><surname>Paganin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karen</forename><forename type="middle">K W</forename><surname>Siu</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3694918</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">124102</biblScope>
+			<date type="published" when="2012-03-19">2012</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. S. Morgan, D. M. Paganin, and K. K. W. Siu, &quot;X-ray phase imaging with a paper analyzer,&quot; Appl. Phys. Lett. 100(12), 124102 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Nucleus-specific X-ray stain for 3D virtual histology</title>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Melanie</forename><forename type="middle">A</forename><surname>Kimm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Ferstl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Allner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Achterhold</surname></persName>
+			<idno type="ORCID">0000-0002-8724-1637</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><surname>Herzen</surname></persName>
+			<idno type="ORCID">0000-0002-9456-1591</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Madleen</forename><surname>Busse</surname></persName>
+			<idno type="ORCID">0000-0002-0114-2380</idno>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-36067-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">17855</biblScope>
+			<date type="published" when="2018-12-14">2018</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Müller, M. A. Kimm, S. Ferstl, F. Pfeiffer, and M. Busse, &quot;Nucleus-specific X-ray stain for 3D virtual his- tology,&quot; Sci. Rep. 8(1), 17855 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Reconstructing a 3D structure from serial histological sections</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ourselin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Subsol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Pennec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ayache</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0262-8856(00)00052-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Image and Vision Computing</title>
+		<title level="j" type="abbrev">Image and Vision Computing</title>
+		<idno type="ISSN">0262-8856</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="25" to="31" />
+			<date type="published" when="2001-01">2001</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ourselin, A. Roche, G. Subsol, X. Pennec, and N. Ayache, &quot;Reconstructing a 3D structure from serial histo- logical sections,&quot; Image Vis. Comput. 19(1), 25-31 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">An exploratory study of contrast agents for soft tissue visualization by means of high resolution X‐ray computed tomography imaging</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pauwels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Loo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cornillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brabant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Hoorebeke</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jmi.12013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Microscopy</title>
+		<title level="j" type="abbrev">Journal of Microscopy</title>
+		<idno type="ISSN">0022-2720</idno>
+		<idno type="ISSNe">1365-2818</idno>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="21" to="31" />
+			<date type="published" when="2013-02-22">2013</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Pauwels, D. van Loo, P. Cornillie, L. Brabant, and L. van Hoorebeke, &quot;An exploratory study of contrast agents for soft tissue visualization by means of high resolution X-ray computed tomography imaging,&quot; J. Mi- crosc. 250(1), 21-31 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A Survey of Methods for 3D Histology Reconstruction</title>
+		<author>
+			<persName><forename type="first">Jonas</forename><surname>Pichat</surname></persName>
+			<idno type="ORCID">0000-0001-8472-2702</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><forename type="middle">Eugenio</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tarek</forename><surname>Yousry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sébastien</forename><surname>Ourselin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Modat</surname></persName>
+			<idno type="ORCID">0000-0002-5277-8530</idno>
+		</author>
+		<idno type="DOI">10.1016/j.media.2018.02.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Image Analysis</title>
+		<title level="j" type="abbrev">Medical Image Analysis</title>
+		<idno type="ISSN">1361-8415</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="73" to="105" />
+			<date type="published" when="2018-05">2018</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Pichat, J. E. Iglesias, T. Yousry, S. Ourselin, and M. Modat, &quot;A Survey of Methods for 3D Histology Re- construction,&quot; Med. Image Anal. 46, 73-105 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Three-dimensional visualisation of soft biological structures by X-ray computed micro-tomography</title>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Shearer</surname></persName>
+			<idno type="ORCID">0000-0001-7536-5547</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">S</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Araida</forename><surname>Hidalgo-Bastida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Sherratt</surname></persName>
+			<idno type="ORCID">0000-0003-4759-6617</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><forename type="middle">H</forename><surname>Cartmell</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.179077</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cell Science</title>
+		<idno type="ISSN">0021-9533</idno>
+		<idno type="ISSNe">1477-9137</idno>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="2483" to="2492" />
+			<date type="published" when="2016-07-01">2016</date>
+			<publisher>The Company of Biologists</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Shearer, R. S. Bradley, L. A. Hidalgo-Bastida, M. J. Sherratt, and S. H. Cartmell, &quot;Three-dimensional visu- alisation of soft biological structures by X-ray computed micro-tomography,&quot; J. Cell Sci. 129(13), 2483-2492 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Enhanced renal image contrast by ethanol fixation in phase-contrast X-ray computed tomography</title>
+		<author>
+			<persName><forename type="first">Ryota</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takuya</forename><surname>Kunii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Akio</forename><surname>Yoneyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takahito</forename><surname>Ooizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hiroko</forename><surname>Maruyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thet-Thet</forename><surname>Lwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuyuki</forename><surname>Hyodo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tohoru</forename><surname>Takeda</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600577514010558</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSNe">1600-5775</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="795" to="800" />
+			<date type="published" when="2014-06-12">2014</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shirai, T. Kunii, A. Yoneyama, T. Ooizumi, H. Maruyama, T.-T. Lwin, K. Hyodo, and T. Takeda, &quot;En- hanced renal image contrast by ethanol fixation in phase-contrast X-ray computed tomography,&quot; J. Synchro- tron Rad. 21(4), 795-800 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Stock</surname></persName>
+		</author>
+		<title level="m">Microcomputed Tomography: Methodology and Applications</title>
+		<meeting><address><addrLine>Boca Raton, FL, United States</addrLine></address></meeting>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. R. Stock, Microcomputed Tomography: Methodology and Applications (CRC Press, Boca Raton, FL, United States, 2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Three-dimensional virtual histology of human cerebellum by X-ray phase-contrast tomography</title>
+		<author>
+			<persName><forename type="first">Mareike</forename><surname>Töpperwien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franziska</forename><surname>Van Der Meer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christine</forename><surname>Stadelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1801678115</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">27</biblScope>
+			<biblScope unit="page" from="6940" to="6945" />
+			<date type="published" when="2018-06-18">2018</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Töpperwien, F. van der Meer, C. Stadelmann, and T. Salditt, &quot;Three-dimensional virtual histology of hu- man cerebellum by X-ray phase-contrast tomography,&quot; Proc. Natl. Acad. Sci. 115(27), 6940-6945 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">X-Ray Phase-Contrast Tomography of Renal Ischemia-Reperfusion Damage</title>
+		<author>
+			<persName><forename type="first">Astrid</forename><surname>Velroyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Bech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Irene</forename><surname>Zanette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jolanda</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Rack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christiane</forename><surname>Tympner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tanja</forename><surname>Herrler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudia</forename><surname>Staab-Weijnitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Margarita</forename><surname>Braunagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maximilian</forename><surname>Reiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fabian</forename><surname>Bamberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mike</forename><surname>Notohamiprodjo</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0109562</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<title level="j" type="abbrev">PLoS ONE</title>
+		<idno type="ISSNe">1932-6203</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">e109562</biblScope>
+			<date type="published" when="2014-10-09">2014</date>
+			<publisher>Public Library of Science (PLoS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Velroyen, M. Bech, I. Zanette, J. Schwarz, A. Rack, C. Tympner, T. Herrler, C. Staab-Weijnitz, M. Braunagel, M. Reiser, F. Bamberg, F. Pfeiffer, and M. Notohamiprodjo, &quot;X-Ray Phase-Contrast Tomography of Renal Ischemia-Reperfusion Damage,&quot; PLoS ONE 9(10), e109562 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">On the evolution and relative merits of hard X-ray phase-contrast imaging methods</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ya.</forename><forename type="middle">I</forename><surname>Nesterets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Gureyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Mayo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pogany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Stevenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsta.2013.0021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</title>
+		<title level="j" type="abbrev">Phil. Trans. R. Soc. A.</title>
+		<idno type="ISSN">1364-503X</idno>
+		<idno type="ISSNe">1471-2962</idno>
+		<imprint>
+			<biblScope unit="volume">372</biblScope>
+			<biblScope unit="issue">2010</biblScope>
+			<biblScope unit="page">20130021</biblScope>
+			<date type="published" when="2010">2010. 2014</date>
+			<publisher>The Royal Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. W. Wilkins, Y. I. Nesterets, T. E. Gureyev, S. C. Mayo, A. Pogany, and A. W. Stevenson, &quot;On the evolu- tion and relative merits of hard X-ray phase-contrast imaging methods,&quot; Philos. Trans. Royal Soc. A 372(2010), 20130021 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Imaging renal structures by X-ray phase-contrast microtomography</title>
+		<author>
+			<persName><forename type="first">Jin</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tohoru</forename><surname>Takeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thet</forename><surname>Thet Lwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Atsushi</forename><surname>Momose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Naoki</forename><surname>Sunaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tadanori</forename><surname>Fukami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tetsuya</forename><surname>Yuasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takao</forename><surname>Akatsuka</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ki.2009.42</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney International</title>
+		<title level="j" type="abbrev">Kidney International</title>
+		<idno type="ISSN">0085-2538</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="945" to="951" />
+			<date type="published" when="2009-05">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wu, T. Takeda, T. T. Lwin, A. Momose, N. Sunaguchi, T. Fukami, T. Yuasa, and T. Akatsuka, &quot;Imaging renal structures by X-ray phase-contrast microtomography,&quot; Kidney Int. 75(9), 945-951 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">X-ray grating-based phase tomography for 3D histology</title>
+		<author>
+			<persName><forename type="first">Irene</forename><surname>Zanette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timm</forename><surname>Weitkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geraldine</forename><surname>Le Duc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3ra41372a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Advances</title>
+		<title level="j" type="abbrev">RSC Adv.</title>
+		<idno type="ISSNe">2046-2069</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page">19816</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Zanette, T. Weitkamp, G. Le Duc, and F. Pfeiffer, &quot;X-ray grating-based phase tomography for 3D histol- ogy,&quot; RSC Adv. 3(43), 19816-19819 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Speckle-Based X-Ray Phase-Contrast and Dark-Field Imaging with a Laboratory Source</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zanette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Lundström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Zdora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thibault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Hertz</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.112.253903</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page">253903</biblScope>
+			<date type="published" when="2014-06-26">2014</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Zanette, T. Zhou, A. Burvall, U. Lundström, D. H. Larsson, M.-C. Zdora, P. Thibault, F. Pfeiffer, and H. M. Hertz, &quot;Speckle-Based X-Ray Phase-Contrast and Dark-Field Imaging with a Laboratory Source,&quot; Phys. Rev. Lett. 112(25), 253903 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">X-ray microtomography using correlation of near-field speckles for material characterization</title>
+		<author>
+			<persName><forename type="first">Irene</forename><surname>Zanette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Christine</forename><surname>Zdora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tunhe</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anna</forename><surname>Burvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">H</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Thibault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans</forename><forename type="middle">M</forename><surname>Hertz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1502828112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="12569" to="12573" />
+			<date type="published" when="2015-09-30">2015</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Zanette, M.-C. Zdora, T. Zhou, A. Burvall, D. H. Larsson, P. Thibault, H. M. Hertz, and F. Pfeiffer, &quot;X-ray microtomography using correlation of near-field speckles for material characterization,&quot; Proc. Natl. Acad. Sci. U.S.A. 112(41), 12569-12573 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">X-ray Phase-Contrast Imaging and Metrology through Unified Modulated Pattern Analysis</title>
+		<author>
+			<persName><forename type="first">Marie-Christine</forename><surname>Zdora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Thibault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tunhe</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frieder</forename><forename type="middle">J</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jenny</forename><surname>Romell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Sala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arndt</forename><surname>Last</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Rau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Irene</forename><surname>Zanette</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.118.203903</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page">203903</biblScope>
+			<date type="published" when="2017-05-18">2017</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.-C. Zdora, P. Thibault, T. Zhou, F. J. Koch, J. Romell, S. Sala, A. Last, C. Rau, and I. Zanette, &quot;X-ray Phase-Contrast Imaging and Metrology through Unified Modulated Pattern Analysis,&quot; Phys. Rev. Lett. 118(20), 203903 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">State of the Art of X-ray Speckle-Based Phase-Contrast and Dark-Field Imaging</title>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Zdora</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/jimaging4050060</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Imaging</title>
+		<title level="j" type="abbrev">J. Imaging</title>
+		<idno type="ISSNe">2313-433X</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">60</biblScope>
+			<date type="published" when="2018-04-25">2018</date>
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.-C. Zdora, &quot;State of the Art of X-ray Speckle-Based Phase-Contrast and Dark-Field Imaging,&quot; J. Imaging 4(5), 60 (2018).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

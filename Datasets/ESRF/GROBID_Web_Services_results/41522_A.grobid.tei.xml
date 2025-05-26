@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Nanotomography of Au-Sn solder joints for MEMS packaging</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pierre</forename><surname>Bleuet</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patrice</forename><surname>Gergaud</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Arnaud</forename><surname>Garnier</surname></persName>
+						</author>
+						<title level="a" type="main">Nanotomography of Au-Sn solder joints for MEMS packaging</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">33829DA764D3BEB2981473885D05FBB2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The experiment aimed at characterizing the chemical distribution of Au and Sn within solder joints that are used for microdevices packaging. Those microdevices are embedded between 2 silicon layers and must remain in particular atmosphere, i.e. joints must be designed that ensure the device not to be in the air. (Au,Sn) solder joints are developed within our lab under different annealing conditions and the question of the porosity and distribution of the different phases is an important issue. Preliminary absorption tomography experiments showed rather big pores, within the micron range. The experiment was based on joints whose size is typically 250x5 micrometer cross-section. In the first part of the experiment, a sample was brought within the focal plane of the ID22NI nanoprobe and raster scanned in 2D while measuring fluorescence emission. The beam, mechanics and detection were found to be highly stable and three meshes could be assembled to form a complete mapping of a cross-section of a joint that had been sawed before in our lab. For this experiment, the standard mapping setup was used. It took about 4 hours. The second part of the experiment consisted in switching from the 2D scanning setup to the 3D scanning setup in order to perform fluorescence tomography. FIB preparation within our lab allowed us to prepare a sample whose dimensions are compatible with nanofluorescence tomography, i.e. a pyramid of about 20 micrometers in cross-section and 15 micrometers in height. The sample alignment has been performed using the Frelon CCD placed on-axis and and was rather easy, starting from a low magnification up to the highest possible in order to progressively refine the alignement of the sample with respect to the axis of rotation. Then, the sample was brought back into the focal plane to proceed to nanofluorescence tomography, slice by slice. Given the size of the sample, it took about 30 minutes per slice with 0.1s exposure time per point in continuous scan. Not even a single crash appeared during the scan that was about 30 hours long in order to proceed to 3D mesh. The mechanics turn out to be more stable than previous experiments and enough to perform a good experiment. Detection of Au was has been complicated by the presence of W necessary for sample fixation as well as Ga coming from FIB. In-depth fitting using PyMCA software allowed to separated the different contributions of the elements. As fas as Sn was concerned, it was detectable only in the most concentrated regions given the fact that the L fluroescence Lines of Sn are around 3.5 keV, and the detector had to be far from the sample to prevent from saturation coming from gold. That's the complexity of measuring low fluorescence energy &amp; low concentrated elements in a high Z matrix highly concentrated. The only solution to overcome this problem is to go to higher energies, which will be reproposed in the next run.</p><p>Still, sinograms could be formed that will serve as a basis for reconstruction, not yet performed. The figure shows the distribution of Au, Ni and Ge in the sample for a single arbitrarily chosen slice. The last part of the experiment was to perform a single slice fluorescence tomography of a complete solder joint, i.e. 250 micrometer in cross-section. Given the size and the self absorption of Au, the post-processing is challenging and will require some more time.</p><p>To conclude, the experiment was rather successful and will lead to publication. The setup was well adapted to the users needs. Technical improvements include the possibility to do helical nanofluorescence tomography, which requires high precision vertical motor. For such sample, the helical path would allow a beamtime gain of the order of a factor 10. Current ID22NI technical improvements go in that direction. Detection is always an issue and efforts to improve the detection efficiency and overall speed must be continued. This experiment will be continued and new proposal submitted to go to high energies in order to observe Sn more easily. 6µ µ µ µm</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,346.08,54.24,215.16,314.16" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

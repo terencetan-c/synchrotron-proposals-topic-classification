@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">77DE17C59E012B191DD11B320101DEB5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment title:</head><p>High-resolution monitoring of crystal deformation with Xray diffuse multiple scattering</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment number: mi1157</head><p>Beamline:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ID01</head><p>Date of experiment: from: 13.12.2013 to: 17.12.2013</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Date of report:</head><p>20.12.2013</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shifts:</head><p>15 Local contact(s):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gilbert Chahine</head><p>Received at ESRF:</p><p>Names and affiliations of applicants (* indicates experimentalists):</p><p>• Guillaume Beutier (SIMaP) *</p><p>• Maxime Dupraz (SIMaP) *</p><p>• Simon Langlais (SIMaP) *</p><p>• Gareth Nisbet (Diamond Light Source) *</p><p>• Marc Verdier (SIMaP) *</p><p>• Fabien Volpi (SIMaP) *</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The goal of the experiment was to use a recently discovered diffraction signal to monitor the strain in sub-micron crystals as they are mechanically loaded in situ by a miniature indenter.</p><p>Recently, thanks to the availability of intense x-ray beams and low noise area detectors, we observed an unreported diffraction signal: "Kossel-like" lines were observed, but unlike Kossel lines their origin is not fluorescence but diffuse elastic scattering, hence the proposed name of 'Diffuse Multiple Scattering' lines <ref type="bibr">[Nisbet et al, in preparation]</ref>. Their advantage over Kossel lines is that they can be observed at energies far for absorption edges of the crystal. On the other hand they are weaker, but since they can be measured at any energy, fluorescence background can be avoided and thus low noise can be achieved with a little care. Like Kossel lines, they do not require to sit on a Bragg position, and they are very sensitive to the lattice parameters, providing an interesting way to monitor strain. These lines had been so far observed only from (many) bulk crystals with full beam (Diamond I16) and from a bulk copper single crystal with KB-focused beam (ESRF ID03).</p><p>One of the achievements of this beamtime is the observation of DMS lines using Fresnel-Zone-Plate (FZP) focusing: this focusing mode, while achieving very small beam size (1.3x0.6 µm² hxv in this experiment) is a photon hungry method due to the rejection of a large part of the beam by the 300-µm diameter FZP and to the low efficiency of the FZP with respect to KB mirrors. Moreover the experiment was carried in 16-bunch mode (lower intensity). We had to reduce the noise as much as possible to observe the lines, which required a few shifts of optimisation. Figure <ref type="figure" target="#fig_0">1</ref> shows a couple of examples of these lines, as observed in the Maxipix detector. The intensity without focusing was found comparable to that measured at Diamond I16, which is well optimised for these measurements, but the background noise was here higher. The current state of the Maxipix detector of ID01, which has many damaged pixels and high noise on 2 chips out of 4, did not help: this higher background turned to be a major difficulty when using the FZP, due to the lower intensity of the beam.</p><p>But for the proposed experiment we needed to measure DMS lines from sub-micron crystals (we chose gold crystals to maximise the scattering cross-section) and we did not manage to observe them. We identified 3 reasons for this: 1) reduced flux due to FZP focusing and 16bunch mode 2) background noise not low enough 3) scattering volume: while the focused beam was smaller than the crystals, the penetration depth was much bigger than the crystals height (~0.5 µm): 50% of the beam was transmitted across the crystal for the 111 reflection at 8.5 keV. We still think that it should be possible to see these lines from such gold crystals, possibly at lower energy, with KB mirrors focusing instead of FZP for higher efficiency, and with a lower background set-up.</p><p>Another aspect of the experiment was to use a nano-indenter to apply load in situ and measure force-displacement curves while monitoring DMS lines which are thought very sensitive to strain. Our instrument was installed on the diffractometer of ID01 (Figure <ref type="figure" target="#fig_1">2</ref>). The noise on the diffractometer was found very high: ~300 nm peak-to-peak. For comparison, it was ~80 nm in ID01 preparation lab, and ~20 nm in our lab. A frequency analysis reveals a particular low frequency at 0.86 Hz, which may be attributed to the closed loop of one of the diffractometer axes or its hexapod stage. Such high noise would be a critical issue when trying to measure the first stages of plasticity, for instance with a coherent beam. Moreover, it prevented us from measuring the elastic regime from metal samples. The tip was in tungsten carbide, with an end-radius of 5 µm: the contact area on our gold microcrystals, which have a top facet of a few 100 nm, can be approximated as a flat punch. As stated above, we could not measure DMS lines from individual microcrystals, due the weakness of the signal, so we measured the 111 reflection instead. With the help of ID01 staff, we implemented a fast mapping procedure to scan the indenter stepper motors in a similar way to the fast mapping of the diffractometer piezo stage. The tip was scanned above the surface in diffraction geometry: its 2 shadows (when blocking respectively the incident and the diffracted beam) give a precise determination of its position (Figure <ref type="figure" target="#fig_2">3</ref>). Using both fast mapping routines, we were able to bring the tip and the microcrystal of interest together in the beam in a few tens of minutes.  The microcrystal was then loaded with controlled force, and the intensity was recorded on the maxipix detector together with the force and the displacement of the tip (Figure <ref type="figure" target="#fig_3">4</ref>). This is to our knowledge the first time that a force-and height-controlled indenter has been used in situ in diffraction geometry. However the high vibration noise of the diffractometer recorded on the height signal did not allow to record meaningful force-height curves. At the end of the test presented here, the crystal is broken in pieces: a much broader rocking curve is observed after the test, and the top intensity has dropped enough to make the crystal disappear on a diffraction map (Figure <ref type="figure" target="#fig_4">5</ref>). To conclude, the experiment yielded several positive results: 1) observation of DMS lines for the first time on ID01, and with FZP focused beam for the first time anywhere; 2) implementation of a nano-indenter controlled in force and height and successful indentation of a microcrystal. On the other hand, there are also negative results: 1) we could not measure DMS lines from microcrystals because of the lack of intensity and the background noise; 2) we could not measure accurate force-displacement curves because of the high vibration noise of the diffractometer axes/stage. Hopefully these drawbacks will be improved on the new ID01 beamline, where we plan to continue developing such experiments.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: DMS lines observed with full unfocused beam from a large gold single crystal in 1000 seconds (left, 2 visible lines), and with FZP focusing from a large Si single crystal in 600 seconds (right, 3 visible lines). Note the difference of sharpness, due to the difference of mosaic spread (moreover the sample-detector distance was roughly doubled on the right image).</figDesc><graphic coords="3,292.50,153.90,262.10,223.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Front view of the set-up with the nano-indenter. From top to bottom: slits, FZP, nano-indenter head, ordersorting aperture of the FZP, nano-indenter tip, sample, tungsten block for height adjustment.</figDesc><graphic coords="4,34.10,34.40,527.30,296.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Fast scan of the nano-indenter tip in diffraction geometry. The position of the beam is at the middle point between the 2 shadows.</figDesc><graphic coords="4,163.20,517.50,268.70,229.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Indentation test of a gold microcrystal. The approach is controlled in height (1st part of the curve), and the indentation itself is controlled in force (2nd part of the curve). Both are recorded at all time together with the intensity on the detector.</figDesc><graphic coords="5,34.10,136.50,527.30,239.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Diffraction maps of the gold microcrystals before (left) and after (right) indenting one of them.</figDesc><graphic coords="5,34.00,496.70,263.50,235.60" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

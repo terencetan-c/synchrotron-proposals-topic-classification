@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure determination of the ExbBD membrane complex from Serratia marcescens by cryo-EM</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-10-31">31 october 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Eaazhisai</forename><surname>Kandiah</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>UMR7099, IBPC</roleName><forename type="first">Valerie</forename><surname>Biou</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Paris</forename><forename type="middle">Mohamed</forename><surname>Chami</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Basle</forename><surname>Biozentrum</surname></persName>
+						</author>
+						<title level="a" type="main">Structure determination of the ExbBD membrane complex from Serratia marcescens by cryo-EM</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-10-31">31 october 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">77AB7479B5743EE95AA9422174DAE9BB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The project aims at obtaining high-resolution cryo-EM data on a ca. 250kDa membrane protein complex solubilised and purified in detergent and made up of two subunits ExbB and ExbD from the Gram-negative bacterium S. marcescens. ExbB and ExbD together with HasB harness the power of the proton-motive force across the cytoplasmic membrane to drive the import of host-derived heme across the outer membrane receptor HasR. Heme is then used as an iron source by the bacterium. This system therefore contributes to virulence, as it allows iron acquisition from the host. A first cryo-EM dataset has already been collected and analyzed and shows a vast excess of a preferred orientation of the particles precluding the reconstruction of a high-resolution model. We have now found conditions that produce more diverse orientations and are ready to collect more data.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>We tested 4 different grids and selected one of them that had more diverse particle orientations. Data collection started on the Friday afternoon and was stopped on the Monday morning by E. Kandiah. It went very smoothly and was monitored online via the extended IspyB interface. In total, 4043 images were acquired and GCTF program estimated reslutions between 2.28 and 8.8Å. Manual picking and automatic particle picking were performed with Relion. And a series of 2D classification runs were performed. Figure <ref type="figure" target="#fig_0">1</ref> shows the 9 best classes that were selected for 3D classification. They show a majority of top views with definite pentameric symmetry.  The first runs of 3D classification showed promising features but are influenced by the majority of top views. We are in the process of trying to reduce the number of top views and re-run 3D classification before we proceed to refinement.</p><note type="other">Reference Image Class Distribution Accuracy Rotations Accuracy Translations Estimated Resolution Class Prior OffsetX Class Prior OffsetY Class Number 000001</note><p>Our preliminary conclusion is that we have a very nice data set that will probably answer our question as to the distribution of the two partners in the complex.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: best 2D classes selected for 3D classification.</figDesc><graphic coords="2,34.08,195.20,491.76,195.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>selected 2D classes and distribution.</figDesc><table><row><cell></cell><cell>0.036819</cell><cell>7.10</cell><cell>2.230</cell><cell>8.236639</cell><cell>-0.01481</cell><cell>-0.01370</cell><cell>1</cell></row><row><cell>000002</cell><cell>0.118348</cell><cell>4.60</cell><cell>1.420</cell><cell>6.248485</cell><cell>-0.06656</cell><cell>-0.07398</cell><cell>6</cell></row><row><cell>000003</cell><cell>0.032467</cell><cell>4.10</cell><cell>1.340</cell><cell>6.969464</cell><cell>-0.01585</cell><cell>-0.01296</cell><cell>16</cell></row><row><cell>000004</cell><cell>0.181145</cell><cell>3.60</cell><cell>1.050</cell><cell>4.646309</cell><cell>-0.07974</cell><cell>-0.09565</cell><cell>33</cell></row><row><cell>000005</cell><cell>0.020800</cell><cell>8.20</cell><cell>4.100</cell><cell>11.3253</cell><cell>-0.00478</cell><cell>-0.00662</cell><cell>44</cell></row><row><cell>000006</cell><cell>0.030432</cell><cell>7.10</cell><cell>3.850</cell><cell>11.325</cell><cell>-0.00716</cell><cell>-0.00927</cell><cell>58</cell></row><row><cell>000007</cell><cell>0.174271</cell><cell>4.10</cell><cell>1.420</cell><cell>5.491093</cell><cell>-0.08752</cell><cell>-0.10520</cell><cell>72</cell></row><row><cell>000008</cell><cell>0.139567</cell><cell>5.10</cell><cell>1.760</cell><cell>6.471645</cell><cell>-0.06362</cell><cell>-0.08247</cell><cell>78</cell></row><row><cell>000009</cell><cell>0.012766</cell><cell>7.10</cell><cell>2.950</cell><cell>11.325</cell><cell>-0.00330</cell><cell>-0.00426</cell><cell>95</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

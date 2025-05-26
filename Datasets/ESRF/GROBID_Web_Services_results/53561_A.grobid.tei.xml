@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">XRS study of the influence of TMAO and urea on the structure of water</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-07-22">22 Jul 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Christoph</forename><surname>Sahle</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">ESRF</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Schroer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">DESY</orgName>
+								<address>
+									<settlement>Hamburg</settlement>
+									<country>Germay</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Iina</forename><surname>Juurinen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Helsinki</orgName>
+								<address>
+									<settlement>Helsinki</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Johannes</forename><surname>Niskanen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Helsinki</orgName>
+								<address>
+									<settlement>Helsinki</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">XRS study of the influence of TMAO and urea on the structure of water</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-07-22">22 Jul 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5F0AFF11B95B1DE979FADAA121275B7E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:22+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The purpose of the experiment SC-3814 was to study the the microsolvation structure and bonding topology of water upon solvation of the naturally occurring osmolytes trimethylamine N-oxide (TMAO) and urea. Whereas the protein stabilizing effect of TMAO and protein destabilizing effect of urea are well studied and documented <ref type="bibr">[Wang1997,Bennion2004,Krywka2008]</ref>, the underlying mechanisms that lead to this stabilizing/destabilizing effect on proteins, nucleic acids, and polymers are vividly debated (e.g. see discussion in <ref type="bibr">[Hunger2012]</ref>). In essence, two different scenarios have been proposed over the past years, a direct interaction between the osmolytes and the macromolecule <ref type="bibr">[Street2006,Meersman2009,Meersman2013]</ref> and an indthe microsolvation structure and bonding topology of water upon solvation of the naturally occurring osmolytes trimethylamine N-oxide (TMAO) and urea.irect mechanism mediated by the osmolyte-water interaction [Bennion2004, <ref type="bibr">Hunger2012,Sarma2013,Canchi2013]</ref>.</p><p>In an effort to understand the influence of these osmolytes on the microscopic structure of water and therefore the role of water in the described stabilizing and destabilizing properties, we measured the oxygen K-edge for series of concentrations of aqueous TMAO, aqueous urea, and mixtures of the two.</p><p>To distill the effects due to changes in the hydration of the solutes and changes in the structure of the solvent, both of which yield an oxygen K-edge signal due to the presence of oxygen in the osmolytes and the water solvent, we analyzed these concentration series using constrained non-negative matrix factorization (CNNMF) <ref type="bibr">[Niskanen2015a,Inkinen2015,Niskanen2015b]</ref>. The results of the decompositions are shown in Fig. <ref type="figure" target="#fig_0">1</ref>.</p><p>Within this CNNMF procedure, we constrained the component spectra of the respective references TMAO (powder sample), urea (powder sample), and pure water, whereas we let one component vary freely to best describe the spectral changes observed along the concentration range. This free spectrum (denoted "int." in Fig. <ref type="figure" target="#fig_0">1</ref>) gives access to the information sought: TMAO influences the water H-bond network the strongest, evidenced by the suppression of the main-edge feature, whereas urea and mixtures of urea and TMAO have smaller influence. In the presence of both solutes their mutual effect seems to be counteracted upon as evidenced by the plateau in the CNNMF coefficients (right panel of Fig. <ref type="figure" target="#fig_0">1 c</ref>) ). These preliminary results are currently refined and can be found in [Sahle2016]. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F igure 1 :</head><label>1</label><figDesc>Results of the CNNMF analysis of a) the concentation series of urea:water, b) series of TMAO:water, and c) the ternary urea:TMAO:water mixtures.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">B.J. Bennion et al. Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="6433" to="6438" />
+			<date type="published" when="1997">1997. 2004</date>
+		</imprint>
+	</monogr>
+	<note>Bennion2004 Biochemistry</note>
+	<note type="raw_reference">A.J. Wang, et al. Biochemistry 36, 9101 (1997). [Bennion2004] B.J. Bennion et al. Proc. Natl. Acad. Sci. USA 101, 6433-6438 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Effect of Osmolytes on Pressure‐Induced Unfolding of Proteins: A High‐Pressure SAXS Study</title>
+		<author>
+			<persName><forename type="first">Christina</forename><surname>Krywka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Sternemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Paulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Metin</forename><surname>Tolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Catherine</forename><surname>Royer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><surname>Winter</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cphc.200800522</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ChemPhysChem</title>
+		<title level="j" type="abbrev">ChemPhysChem</title>
+		<idno type="ISSN">1439-4235</idno>
+		<idno type="ISSNe">1439-7641</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="2809" to="2815" />
+			<date type="published" when="2008-12-15">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Krywka et al. ChemPhysChem 9, 2809-2815 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Complex Formation in Aqueous Trimethylamine-&lt;i&gt;N&lt;/i&gt;-oxide (TMAO) Solutions</title>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Hunger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaas-Jan</forename><surname>Tielrooij</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Buchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mischa</forename><surname>Bonn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huib</forename><forename type="middle">J</forename><surname>Bakker</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp212542q</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<title level="j" type="abbrev">J. Phys. Chem. B</title>
+		<idno type="ISSN">1520-6106</idno>
+		<idno type="ISSNe">1520-5207</idno>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="4783" to="4795" />
+			<date type="published" when="2012-04-13">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Hunger et al., J. Phys. Chem. B 116, 4783-4795 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A molecular mechanism for osmolyte-induced protein stability</title>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">O</forename><surname>Street</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Wayne</forename><surname>Bolen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">D</forename><surname>Rose</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0606236103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">38</biblScope>
+			<biblScope unit="page" from="13997" to="14002" />
+			<date type="published" when="2006-09-19">2006</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T.O. Street et al., Proc. Natl. Acad. Sci. USA 103, 13997 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Counteraction of Urea by Trimethylamine N-Oxide Is Due to Direct Interaction</title>
+		<author>
+			<persName><forename type="first">Filip</forename><surname>Meersman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Bowron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><forename type="middle">K</forename><surname>Soper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><forename type="middle">H J</forename><surname>Koch</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2009.08.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2559" to="2566" />
+			<date type="published" when="2009-11">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Meersman et al. Biophys. J. 97, 2559 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An X-ray and neutron scattering study of the equilibrium between trimethylamine N-oxide and urea in aqueous solution</title>
+		<author>
+			<persName><forename type="first">Filip</forename><surname>Meersman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Bowron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><forename type="middle">K</forename><surname>Soper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><forename type="middle">H J</forename><surname>Koch</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c1cp20842j</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<title level="j" type="abbrev">Phys. Chem. Chem. Phys.</title>
+		<idno type="ISSN">1463-9076</idno>
+		<idno type="ISSNe">1463-9084</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page">13765</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Meersman et al. Phys. Chem. Chem. Phys. 13, 13765 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Cosolvent effects on protein stability</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sarma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual review of physical chemistry</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="273" to="293" />
+			<date type="published" when="2013">2013. Canchi2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note>J. Phys. Chem. B</note>
+	<note type="raw_reference">R. Sarma et al., J. Phys. Chem. B 117, 677-689 (2013). [Canchi2013] Canchi, Deepak R., and Angel E. Garca. &quot;Cosolvent effects on protein stability.&quot; Annual review of physical chemistry 64 (2013): 273-293.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Figure 3: Forest plots of visfatin levels in patients with periodontitis before and after treatment (Raghavendra et al., 2012; Çetiner et al., 2019; Bengi et al., 2024; Abolfazli et al., 2015; Tabari et al., 2015; Özcan et al., 2016a, 2017; Mopidevi et al., 2019; Saseendran et al., 2021).</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niskanen</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.17187/fig-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Niskanen et al. Scientific reports</title>
+		<imprint>
+			<biblScope unit="volume">11732</biblScope>
+			<biblScope unit="page">11739</biblScope>
+			<date type="published" when="2015">2015. 2015. 2015. 2015</date>
+			<publisher>PeerJ</publisher>
+		</imprint>
+	</monogr>
+	<note>Inkinen The Journal of Physical Chemistry B Niskanen2015b J. Inkinen et al. Scientific reports Sahle2016] in prepariation</note>
+	<note type="raw_reference">J. Niskanen et al. The Journal of Physical Chemistry B 11732- 11739 (2015). [Inkinen2015] J. Inkinen et al. Scientific reports 5 (2015). [Niskanen2015b] J. Niskanen et al. Scientific reports (accepted 2015). [Sahle2016] in prepariation.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

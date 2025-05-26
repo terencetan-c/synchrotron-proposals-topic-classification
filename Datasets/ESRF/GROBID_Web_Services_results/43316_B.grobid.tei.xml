@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tissue-specific metal toxicity studies on Daphnia magna by confocal µ-XANES Experiment number: 26-01-858</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sergey</forename><surname>Nikitenko</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Geert</forename><surname>Silversmit</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Björn</forename><surname>De Samber</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><surname>Laszlo</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Karel</forename><surname>De Schamphelaere</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><forename type="middle">Colin</forename><surname>Janssen</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Analytical Chemistry</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<addrLine>Krijgslaan 281 S12</addrLine>
+									<postCode>B-9000</postCode>
+									<settlement>Vincze Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Dept. Appl. Ecology and Environmental Biology</orgName>
+								<orgName type="institution">Ghent University</orgName>
+								<address>
+									<addrLine>Jozef Plateaustraat 22</addrLine>
+									<postCode>9000</postCode>
+									<settlement>Ghent</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Tissue-specific metal toxicity studies on Daphnia magna by confocal µ-XANES Experiment number: 26-01-858</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3F2ED36A050747C2259E2ED1E0CA36AB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scientific background and aim of the proposed experiments</head><p>The freshwater crustacean Daphnia magna (better known as the 'water flea', length ~3 mm) is an important model organism to investigate the ecotoxicological effects of exposure to transition elements such as Cu and Zn. Earlier research has provided insights into the possible physiological mechanisms by which metals invoke toxicity at the molecular and physiological level <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref>. Since metals can only invoke toxic effects in tissues where they actually accumulate, the link between accumulation and toxicity on a tissue-specific level should be established. Tissue-specific accumulation of Zn in Daphnia magna has been demonstrated by our group through a combination of synchrotron µ-XRF (conventional and confocal) and laboratory absorption µtomography <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>.</p><p>As a further expansion of this earlier tissue-specific study on Daphnia magna, we now proposed to identify the chemical state of the accumulated metals inside Daphnia magna using µ-XANES and confocal µ-XANES. This knowledge can considerably contribute to the understanding of how metals interact with biomolecules and give more insight into their mechanisms of toxicity. The XMI research group at the Ghent University is involved in the development of µ-XAS at DUBBLE, using a glass polycapillary half lens as focusing element <ref type="bibr" target="#b5">[6]</ref>. By mounting a second polycapillary lens in front of the energy dispersive detector, a confocal fluorescence detection is achieved, allowing 3D resolved µ-XANES <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. We have proposed to apply confocal XANES for the tissue-specific speciation of transition metals within Daphnia magna. This will allow to identify whether metals accumulated in a given tissue are in a toxicologically active or inactive form.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental method</head><p>Daphnia magna samples were prepared according to a HMDS (hexamethyldisilazane) drying method, as used in <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. The experiments focused on 3 different Zn exposure levels of Daphnia magna: (i) species exposed to a control Zn concentration in both growth media and algae feed stock, (ii) species exposed to an excess of Zn in their growth medium and (iii) species fed with algae exposed to an excess of Zn.</p><p>Zn-K XANES spectra of biological relevant amino acid solutions (ZnAc, ZnGlut, ZnHist and ZnCyst) and of a variety of inorganic Zn compounds were recorded as reference spectra. The algae cells and the growth media for Daphnia magna and algae feed stock were also studied at their control and exposure Zn concentration levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results obtained</head><p>The data analysis of the XANES spectra is not yet finished, but the preliminary linear combination analysis already indicates the following trends.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Zn-K XANES reference spectra</head><p>The measured Zn-K reference XANES spectra are given in Figure <ref type="figure" target="#fig_1">1</ref>, left.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Growth media</head><p>A shift of the absorption edge towards lower energy values is observed for an increased Zn concentration in the Daphnia magna growth medium, pointing towards a larger fraction of Zn-S bonds (possible candidates are ZnS, ZnCyst and/or ZnGlut) see Figure <ref type="figure" target="#fig_1">1</ref>, middle.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Algae</head><p>The Zn-K XANES spectrum for the algae grown in a medium with higher Zn concentration have a larger edge position, suggesting to have less ZnCyst and/or ZnGlut compared to the non-exposed algae, see Figure <ref type="figure" target="#fig_1">1</ref>, right.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Daphnia magna</head><p>Due to a cascade of technical problems (failing Vortex fluorescence detectors, issues with the integration of the XIA xmapscan with the EXAFS acquisition software), the confocal detection was not achieved during this beamtime. The tissue-specific analysis could therefore not be performed. We recorded however broad beam spectra on the proposed Daphnia magna samples at selected heights corresponding to the digestive gland, osmoregulatory system and eggs. Due to the use of the broad beam, it is not clear which tissues were measured exactly, the spectra however suggest that the head region contains more ZnHist compared to the eggs for example.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>and 120 µg/l Zn</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Normalised Zn-K XANES spectra for (left) the reference compounds measured; (middle) Daphnia magna and algae growth media; (right) algae at different Zn level exposure..</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>from: 12/02/2010 to: 18/02/2010</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Integration of molecular with higher-level effects of dietary zinc exposure in Daphnia magna</title>
+		<author>
+			<persName><forename type="first">Kac</forename><forename type="middle">A C</forename><surname>De Schamphelaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vandenbrouck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bta</forename><forename type="middle">T A</forename><surname>Muyssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Soetaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>De Coen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Janssen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cbd.2008.09.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Biochemistry and Physiology Part D: Genomics and Proteomics</title>
+		<title level="j" type="abbrev">Comparative Biochemistry and Physiology Part D: Genomics and Proteomics</title>
+		<idno type="ISSN">1744-117X</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="307" to="314" />
+			<date type="published" when="2008-12">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Schamphelaere KAC, Vandenbrouck T, Muyssen BTA, Soetaert A, De Coen W, Janssen CR. 2008. Integration of molecular with higher- level effects of dietary zinc exposure in Daphnia magna. Comparative Biochemistry and Physiology D Genomics and Proteomics 3:307-314.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mechanisms of chronic waterborne Zn toxicity in Daphnia magna</title>
+		<author>
+			<persName><forename type="first">Brita</forename><forename type="middle">T A</forename><surname>Muyssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karel</forename><forename type="middle">A C</forename><surname>De Schamphelaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><forename type="middle">R</forename><surname>Janssen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aquatox.2006.01.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aquatic Toxicology</title>
+		<title level="j" type="abbrev">Aquatic Toxicology</title>
+		<idno type="ISSN">0166-445X</idno>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="393" to="401" />
+			<date type="published" when="2006-05">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muyssen BTA, De Schamphelaere KAC, Janssen CR. 2006. Mechanisms of chronic waterborne Zn toxicity in Daphnia magna. Aquatic Toxicology 77: 393-401.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A combination of synchrotron and laboratory X-ray techniques for studying tissue-specific trace level metal distributions in Daphnia magna</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Samber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Schamphelaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Silversmit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Masschaele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schoonjans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vekemans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Hoorebeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Szalóki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vanhaecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Falkenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vincze</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b800343m</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Analytical Atomic Spectrometry</title>
+		<title level="j" type="abbrev">J. Anal. At. Spectrom.</title>
+		<idno type="ISSN">0267-9477</idno>
+		<idno type="ISSNe">1364-5544</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">829</biblScope>
+			<date type="published" when="2008">2008</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Samber B, Evens R, De Schamphelaere K, Silversmit G, Masschaele B, Schoonjans T, Vekemans B, Janssen CR, Van Hoorebeke L, Szalóki I, Vanhaecke F, Falkenberg G and Vincze L, A combination of synchrotron and laboratory X-ray techniques for studying tissue-specific trace level metal distributions in Daphnia magna, J. Anal. At. Spectrom 23 (6),829-839, 2008</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Three-dimensional elemental imaging by means of synchrotron radiation micro-XRF: developments and applications in environmental chemistry</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Samber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Silversmit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Schamphelaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Masschaele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Hoorebeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Balcaen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vanhaecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Falkenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vincze</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00216-007-1694-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical and Bioanalytical Chemistry</title>
+		<title level="j" type="abbrev">Anal Bioanal Chem</title>
+		<idno type="ISSN">1618-2642</idno>
+		<idno type="ISSNe">1618-2650</idno>
+		<imprint>
+			<biblScope unit="volume">390</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="267" to="271" />
+			<date type="published" when="2008">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Samber B, Silversmit G, Evens R, De Schamphelaere K, Janssen C, Masschaele B, Van Hoorebeke L, Balcaen L, Vanhaecke F, Falkenberg G and Vincze L, Three-dimensional elemental imaging by means of synchrotron radiation micro-XRF: developments and applications in environmental chemistry, Anal. Bioanal. Chem. 390 (1), 267-271, 2008</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Element-to-tissue correlation in biological samples determined by three-dimensional X-ray imaging methods</title>
+		<author>
+			<persName><forename type="first">Björn</forename><surname>De Samber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geert</forename><surname>Silversmit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karel</forename><surname>De Schamphelaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roel</forename><surname>Evens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Schoonjans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Vekemans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Masschaele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Van Hoorebeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Imre</forename><surname>Szalóki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Vanhaecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karen</forename><surname>Rickers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerald</forename><surname>Falkenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laszlo</forename><surname>Vincze</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b918624g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Analytical Atomic Spectrometry</title>
+		<title level="j" type="abbrev">J. Anal. At. Spectrom.</title>
+		<idno type="ISSN">0267-9477</idno>
+		<idno type="ISSNe">1364-5544</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">544</biblScope>
+			<date type="published" when="2009">2009</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note>Submitted to</note>
+	<note type="raw_reference">De Samber B, Silversmit G, De Schamphelaere K, Evens R, Schoonjans T, Vekemans B, Janssen, CR Masschaele B, Van Hoorebeke L, Szaloki I, Vanhaecke F, Rickers K, Falkenberg G and Vincze L, Element-to-tissue correlation in biological samples determined by three- dimensional X-ray imaging methods, , Submitted to J. Anal. At. Spectrom. (2009)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Polycapillary-optics-based micro-XANES and micro-EXAFS at a third-generation bending-magnet beamline</title>
+		<author>
+			<persName><forename type="first">Geert</forename><surname>Silversmit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Vekemans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergey</forename><surname>Nikitenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wim</forename><surname>Bras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Viktoria</forename><surname>Czhech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gyula</forename><surname>Zaray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Imre</forename><surname>Szaloki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laszlo</forename><surname>Vincze</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049508043306</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="237" to="246" />
+			<date type="published" when="2009-01-16">2009</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silversmit G, Vekemans B, Nikitenko S, Bras W, Czhech V, Zaray G, Szaloki I and Vincze L., &quot;Polycapillary optics based µ-XANES and µ- EXAFS at a third generation bending magnet beamline&quot;, J. Synchrotron Rad. 16, 237-246, 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Polycapillary based μ-XAS and confocal μ-XANES at a bending magnet source of the ESRF</title>
+		<author>
+			<persName><forename type="first">Geert</forename><surname>Silversmit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Vekemans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergey</forename><surname>Nikitenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kristof</forename><surname>Tirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wim</forename><surname>Bras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><forename type="middle">E</forename><surname>Brenker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laszlo</forename><surname>Vincze</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/190/1/012036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Conference Series</title>
+		<title level="j" type="abbrev">J. Phys.: Conf. Ser.</title>
+		<idno type="ISSNe">1742-6596</idno>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page">012036</biblScope>
+			<date type="published" when="2009-11-01">2009</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silversmit G., Vekemans B., Nikitenko S., Bras W., Brenker F.E. and Vincze L.&quot;Polycapillary based µ-XAS and confocal µ-XANES at a bending magnet source of the ESRF &quot;, Journal of Physics: conference series 190 (2009)</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Spatially resolved 3D micro-XANES by a confocal detection scheme</title>
+		<author>
+			<persName><forename type="first">Geert</forename><surname>Silversmit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Vekemans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergey</forename><surname>Nikitenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvia</forename><surname>Schmitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Schoonjans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><forename type="middle">E</forename><surname>Brenker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laszlo</forename><surname>Vincze</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c004103n</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Chemistry Chemical Physics</title>
+		<title level="j" type="abbrev">Phys. Chem. Chem. Phys.</title>
+		<idno type="ISSN">1463-9076</idno>
+		<idno type="ISSNe">1463-9084</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page">5653</biblScope>
+			<date type="published" when="2010">2010</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silversmit G., Vekemans B., Nikitenko S., Schmitz S., Schoonjans T., Brenker F.E. and Vincze L.,. &quot;Spatially resolved 3D micro-XANES by a confocal detection scheme&quot;, Physical Chemistry Chemical Physics 12 (2010) 5653-5659</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

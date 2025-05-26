@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The multiscale arrangement of bone -A SAXS tomography study to understand changes in osteons in healthy and diseased bone</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><surname>Burghammer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tilman</forename><forename type="middle">A</forename><surname>Gruenewald</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marianne</forename><surname>Liebi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Helga</forename><forename type="middle">C</forename><surname>Lichtenegger</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Physics</orgName>
+								<orgName type="institution">ESRF -ID13</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Physics and Materials Science</orgName>
+								<orgName type="institution">Chalmers University</orgName>
+								<address>
+									<settlement>Gothenborg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">BOKU</orgName>
+								<address>
+									<settlement>Vienna</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The multiscale arrangement of bone -A SAXS tomography study to understand changes in osteons in healthy and diseased bone</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8D2DFE7019F119B3BF0FF8D00E2A4586</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We carried out SAXS tensor experiments on a sample healthy lamellar bone and on a sample around a freshly mineralizing osteocyte. We succesfully managed to establish the method at ID13 and measure two complete datasets, showing interesting structural changes which were unobservervable before in bone due to 1 µmresolution, which is an improvement of a factor of 20x to currently published data. We furthermore managed to establish a q-resolved data reconstruction scheme, giving us access not only to the orientation tensor but also the scattering vector and hence the nanostructural information. In conclusions, this allows for a coverage of three orders of magnitude in real space as well as reciprocal space.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Samples and Setup</head><p>Setup: We were able to use the newly commissioned fixed curvature nanofocus KB of ID13, resulting with a prefocusing scheme in 8x10 11 ph/s at 13 keV with a beamsize of 600x700 nm 2 . This beamsize is large compared to the normal size (250x400nm) of the beam, we however needed more working distance for the setup and hence optimized for flux and working distance over beamsize. As the data acquisition necessitated a rotation as well as a tilt of the sample, we built a small two circle goniometer based on ID13s Smaract actuators. As the requirements on stability didn't allow for direct centering of the sample, an inverse centering scheme was developed that allowed for centering of the sample with the external XYZ motors by means of an interpolated lookup table. This proved to be highly succesful, resulting in a 10µm sphere of confusion of the assembly. In order to reduce the necessary scan size, we furthermore implemented a auto-centering procedure for each scan, based on a very fast low-dose preview scan of the sample.We used a continous scanning scheme to reduce the sample movement overhead. Scattering patterns were recorded with an Eiger4M detector with 10 ms exposure time. In order to reduce airscattering a custom-built He flight tube was used with an inclined entrance window to accommodate the sample tilt. In order to quantify the mineralization content of the sample, fluoresence spectra were acquired for the 0° tilt angle tomography with a Vortex EM detector.</p><p>Samples: From the sample set prepared, we were able to measure two samples. The sample was hypoparathyroidism affected bone, treated by PTH, which re-initiated the dormant mineralization cylce and we prepared bone containing an osteocyte that shows a mineralization frontier as well as a sample of lamellar bone adjacent to the osteocyte to have a comparison. The sample was about 30x30x30 µm in size. The site of the osteocyte can be clearly seen as void-space in the center of the slice. It is also very evident that the nanostructure is aligned around the osteocyte and shows a lower degree of orientation around it (blue vs green colorscale). By reconstructing the momentum transfer in each voxel, we are also to determine nanostructural parametes like an approximate size of the mineral particles (tparameter. We see as well a zone of smaller mineral particles around the osteocyte which is in line with proposed models of bone mineralization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Principal outcome</head><p>The data shown here is complemented by the second sample of lamellar bone which allows us to get an extremly deep insight into the formation mechanism of bone. We are very confident that an in-depth analysis of the data will reveal fascinating aspects that have never been observed before.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion and further proceedings</head><p>To conclude, we managed to establish the method at ID13, adopt the existing flexible sample environement to the challenging constraints imposed by the data acquisition scheme and collect two datasets of scientifically very releveant samples which show already very promising results. Due to the data quality, we managed to extend the existing data evaluation schemes and are now also able to reconstruct in a q-resolved fashion, basically adding an additional dimension to the 6D orientation tensor which gives insights into an additional length-scale hitherto unprobed with tomographic techniques. We are very optimistic that the results of this experiment will merrit publication in an appropriate journal. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig</head><figDesc>Fig 1a) shows the setup, with the two circle Smaract goniometer visible on the right-hand side of the image with a sample mounted on a brass pin at a tilt angle of -15°. Fig 2b) shows the sample (small cube) mounted on the tip of a needle after FIB preparation. Fig 1c)-e) shows three slices through the reconstructed volume of the newly forming osteocyte.The site of the osteocyte can be clearly seen as void-space in the center of the slice. It is also very evident that the nanostructure is aligned around the osteocyte and shows a lower degree of orientation around it (blue vs green colorscale). By reconstructing the momentum transfer in each voxel, we are also to determine nanostructural parametes like an approximate size of the mineral particles (tparameter. We see as well a zone of smaller mineral particles around the osteocyte which is in line with proposed models of bone mineralization.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1A )</head><label>1A</label><figDesc>Figure 1A) Picture of the experimental setup with the Eiger detector, the flight tube and the sample mounted on the Smaract goniometer. B) The bone sample mounted on the tip of a needle. C-E) shows three slices through the forming osteocyte and F) shows the fit of the mineral particle size of the reconstructed scattering curves in each voxel.</figDesc><graphic coords="2,33.96,237.48,510.24,234.36" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

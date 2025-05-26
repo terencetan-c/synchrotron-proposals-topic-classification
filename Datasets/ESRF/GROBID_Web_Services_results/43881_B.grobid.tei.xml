@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Charge Collection and Depth Sensing Investigation on CZT Drift Strip Detectors</title>
+				<funder>
+					<orgName type="full">ESRF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Synchrotron Radiation Facility</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">I</forename><surname>Kuvvetli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Budtz-Jrgensen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Auricchio</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Kalemci</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+						</author>
+						<title level="a" type="main">Charge Collection and Depth Sensing Investigation on CZT Drift Strip Detectors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BBB090C5808CF5B5D45E173CD5DEB4D5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Compound semiconductors</term>
+					<term>X-ray detection</term>
+					<term>Gamma-ray detection</term>
+					<term>Depth sensing</term>
+					<term>CZT drift strip detectors, High energy astrophysics instrumentation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>CZT drift strip detectors with Planar Transverse Field (PTF) configuration are suitable for high energy astrophysics instrumentation, where high efficiency, high energy and position resolution are required from the sensors. We report on experimental investigations on the DTU Space developed CZT drift detector operated in PTF configuration with the purpose of demonstrating that the good energy resolution of the CZT drift detector can be combined with the high efficiency of the PTF configuration. A CZT drift strip detector (10 mm x 10 mm x 2.5 mm) was characterized in PTF configuration at European Synchrotron Radiation Facility (ESRF) using ID 15A beam with its very fine collimations (beam spot size typically of 50µm and energies up to 500 keV). The depth resolution is measured to be 100µm FWHM @150keV and 200µm FWHM@500keV. These are well agree with the theoretical values. With these measurements, we demonstrated to achieve high efficiency due to large effective thickness, high energy resolution due to small electron drift lengths and sub mm position resolution using depth information using CZT drift strip detectors with N+1 readout channels in PTF configuration.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>C OMPOUND room temperature semiconductor detectors such as CdZnTe and CdTe are good candidates for the hard X-ray (&gt;10 keV) and Gamma-ray astronomy instrumentation. A major drawback for these type of detectors is the ineffective charge collection within the detector especially for the holes which affects and degrades the detectors spectral performance. At DTU Space, Technical University of Denmark, a development project on CZT detectors resulted in a significant spectral performance improvements by applying drift strip method on CZT detectors. A short description of the DSM is given below, but a more detailed explanation can be found in <ref type="bibr" target="#b0">[1]</ref> and <ref type="bibr" target="#b1">[2]</ref>. Semiconductor drift detector was first time introduced by Emilio Gatti and Pavel Rehak in 1983 <ref type="bibr" target="#b2">[3]</ref> and <ref type="bibr" target="#b3">[4]</ref>.</p><p>Figure <ref type="figure" target="#fig_0">1</ref> shows principle of the DSM. The structure consists of a CZT detector with a planar electrode on one side and strips on the other. A drift strip detector cell is shown between the dashed lines marked with A and B. A voltage divider supplies each drift strip with a bias of Vi=Vd*(i/4), (i=1,2,3,4), I. Kuvvetli is with the Department of Astrophysics, DTU Space, National Space Institute, Denmark, e-mail:irfan@space.dtu.dk.</p><p>C. Budtz Jrgensen is with the Department of Astrophysics, DTU Space, National Space Institute, Denmark, e-mail:carl@space.dtu.dk.</p><p>E. Caroli and B. Stephen are with the INAF-IASF, Univ. of Bologna Italy E. Kalemci is with the Sabanci University, Turkey N. Auricchio is with the INAF-IASF, and Univ. of Ferrara, Italy Manuscript received November 22, 2010; revised November 22, 2010. whereas the anode strips are held at ground potential. The drift strip electrodes and the planar electrode are biased such that the electrons with their transport properties mobility-life time product µτ e are drifted to the anode readout strip.</p><p>The DSM is an electron only devices and provides an electrostatic shield so that movement of the holes will induce only a small signal at the anode strip. Thus, the sensitivity to the trapping of holes is strongly reduced for the anode strip whereas the planar electrode sensitivity to holes is unchanged. Application of the DSM on CZT detectors leads to a considerable improvement in energy resolution and is described in details in <ref type="bibr" target="#b0">[1]</ref> and <ref type="bibr" target="#b4">[5]</ref>. Although the spectroscopic properties of these detectors are almost independent of material hole collection characteristics, they are of course very dependent on the electron collection efficiencies and, especially, material with fluctuating electron trapping lengths will result in degraded detector performance, which the drift strip technique cannot improve.</p><p>Not only does the strip readout technique provides an improved energy determination for CZT detectors but it yields also information about the interaction depth of the detected photon. The depth information (also called depth sensing) can be derived from the ratio R ≡ Qp/Qs, where Qp is the planar electrode signal and Qs the anode strip signal. Here the Qs is independent of material hole collection characteristics therefore represent the full energy signal of the detected photon. The quantity R is almost linearly dependent on the photon interaction depth, x, with a value close to unity for interactions close to the planar electrode and a value close to zero for interaction near the strip electrodes. The depth of interaction (DOI) information can be used to correct residual electron trapping effect on anode signal and improve further the detectors energy resolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. BACKGROUND</head><p>The drift strip detectors yield some of the best performance figures yet reported for full illumination of wide energy range <ref type="bibr" target="#b4">[5]</ref>. These measurements show that CZT drift strip detector energy resolution was limited by the total electronic noise below energies of 100 keV. The article <ref type="bibr" target="#b4">[5]</ref> reports that the DSM can achieve energy resolutions which are within a factor of 2 to 3 of the CdZnTe Fano-limited resolution in wide energy range.</p><p>Special detector illumination configuration can be used for the 1D CZT drift strip detectors to increase the effective thickness to achieve high detector efficiency without increasing the electron drift length, thus avoiding of spectroscopic performance degradation <ref type="bibr" target="#b5">[6]</ref>.</p><p>Figure <ref type="figure" target="#fig_1">2</ref> shows the illumination geometry used for CZT detectors: (a) Standard illumination geometry so-called Photon Parallel Field (PPF). The photons enter the detector perpendicular to the planar electrode. (b) Side illumination configuration so-called Photon Transverse Field (PTF). The photons enter the detector perpendicular to the side of the detector <ref type="bibr" target="#b5">[6]</ref>.</p><p>Recently, CZT drift strip detectors were evaluated for the first time in the PTF configuration at DTU Space detector laboratory <ref type="bibr" target="#b6">[7]</ref>. 2D scans were conducted using a collimated 57Co (230µm FWHM ) beam on the side of a 2.5 mm thick CZT drift strip detector with 0.1 mm steps in both directions (x and y). Detectors shown both high efficiency, due to the larger effective thickness, and good energy resolution, due to the small drift length for the electrons in PTF configuration. The depth sensing technique of the drift strip detector was also investigated performing 2D scans in the PTF configuration. Using this configuration, position sensitivity was achieved in the direction along the planar electrode to strips using the depth information. The measured depth distributions were dominated by the beam size and their width was 300µm FWHM @ 122 keV. The conclusion was that the achievable minimum depth resolution 90µm FWHM can be demonstrated using finer beam size.</p><p>Therefore we decided to perform measurements at the European Synchrotron Radiation Facility (ESRF) ID 15A. This beam with its very fine collimations (beam spot size of 50µm and energies up to 500 keV) and its high intensity cannot be matched using standard radioactive sources and collimator technique. Here we report and discuss the CZT drift strip detector position capability and energy response characteristics obtained from the test campaign at ESRF during the between 5-10 of May 2010 using the ID 15A beam.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. MEASUREMENT SETUP A. CZT Drift Strip Detector Setup</head><p>Figure <ref type="figure" target="#fig_2">3</ref> shows a real picture of the CZT drift strip detector used for the ESRF beam test. The detector is one of the several detectors fabricated almost 10 years ago.</p><p>The CZT drift strip detector was of spectroscopic grade material from eV-Products with a size of 10 mm x10 mm x 2.5 mm. The strip pitch was 200µm with a 100µm strip width and consisted of a double layer of Pt/Au. The planar electrode (cathode) was in Pt. The anode readout strips are held at ground potential and the drift strips are negatively biased by a voltage divider providing: Vi=i/4*Vd. The common planar electrode is biased negatively at Vp. The readout strips and the planar electrode were connected to eV-550 preamplifiers (see Figure <ref type="figure" target="#fig_3">4</ref>), main shaping amplifiers and then fed to a multiparameter data acquisition system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Beam Setup at ESRF</head><p>The detector and preamplifier box is placed onto the XYZ stage as shown in Figs 6. This system is capable of moving the detector box in 3 directions, controlled by a DTU Space developed programs (using Labview). The beam setup at ESRF that are used in detector scan is shown in Figure <ref type="figure" target="#fig_4">5</ref> and Figure <ref type="figure" target="#fig_5">6</ref>.</p><p>The beam was shaped by using two different collimators, one in the optical hutch, in front of the white beam and the   second in the experimental hutch, after the mono-chromators. For the scan, the beam was shaped to be 50µm x 50µm size for the selected energies of 150 keV, 250 keV, 350 keV, 400 keV and 500 keV. All the scan for different energies were repeated on the same scan area which cover 2 drift detector cells with x:30 steps and y: 36 steps totally covering 3.0 mm x 3.6 mm scan area.</p><p>This result shown in this paper are selected from a set of positions on a line across the detector from the planar side to the strip side. The same line and positions are used consistently for all different energies. In the bi-parametric distributions, the R between 0 to 1.0 represents the thickness 2.5 mm of the CZT drift strip detector. R value 0 is the strip side and R value 1.0 Fig. <ref type="figure">7</ref>. Spectrum (without any energy correction) recorded by the detector with 500 keV beam energy and beam and 50µm x 50µm beam size at ESRF. is the planar side.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. EXPERIMENTAL RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Mesurements</head><p>For the measurements 1us shaping time and Vp=-150V planar bias was used. For the drift biases: V1=-30V, V2=-60V, V3=-90V, V4=-120V were used. A number of 2D scans with the selected energies of 150 keV, 250 keV, 350 keV, 400 keV and 500 keV were conducted on the CZT drift strip detector in PTF configuration using the 50µm x 50µm size ID15A beam. The same area of the detector was Always scanned for all different energies with 0.1 mm steps in both directions (x and y). Calibration spectra were recorded from 133 Ba source before the scan was started. A pulser was included to the calibration spectra in order to to measure the electronic noise in the system. The electronic noise was measured to be 2.1 keV for the (Qs) anode strips and 3.6 keV for the (Qp) planar electrode. The threshold levels were 8 keV for the (Qs) anode strips and for the (Qp) planar electrode.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Results</head><p>Figure <ref type="figure">7</ref> shows a 500keV spectrum obtained from the CZT drift strip detector illuminating it in PTF configuration. The energy resolution is measured 1% FWHM at 500 keV.</p><p>The minimum R value that can be measured depends on the low energy threshold for Qp. For the current detector scan setup the minimum R value is 0.05 for 150 keV and 0.02 for 500 keV.</p><p>Figure <ref type="figure" target="#fig_6">8</ref> (left) shows the bi-parametric distributions of the ratio, R between the planar electrode signal, Qp and the strip signal, Qs versus Qs for the 3 beam position. Figure <ref type="figure" target="#fig_6">8</ref> (right) shows the 3 measured depth spectra. The derived R (Qp/Qs) distributions for the 150 keV line were fitted and the FWHM values are given at the peaks.</p><p>Figure <ref type="figure" target="#fig_7">9</ref> shows the bi-parametric distributions as of the Figure <ref type="figure" target="#fig_6">8</ref> with 500 keV beam energy. The R depth resolution is broader due to the photoelectron range increased with the energy.</p><p>Figure <ref type="figure" target="#fig_8">10</ref> shows measured and derived R values versus depth for energies of 150 keV to 500 keV. The quantity R is linearly dependent on the beam position x, with a value close to unity for interactions close to the planar electrode and a value close to zero for interaction near the strip electrodes. The depth resolution is determined by the un-correlated electronic noise of the Qp and Qs signals and by the photoelectron range within the detector material. The electronic noise is the dominant contribution for the R resolution at low energies whereas the photoelectron range contribution is the dominant contribution at high energies.</p><p>The measured depth resolution as function of beam position is given in Figure <ref type="figure" target="#fig_9">11</ref>. The data are obtained from the same positions on the detector. The position resolution increase with photoelectron range that increase at higher energies.</p><p>The achievable depth resolution as function of energy is given in Figure <ref type="figure" target="#fig_1">12</ref>. The best achievable depth resolution is at 200 keV. At higher energies, the photoelectron range became the dominant contributor to the depth resolution. The minimum width measured is 80 um FWHM @ 200 keV.  C. Subsection Heading Here V. CONCLUSION CZT drift strip detectors are tested at ESRF high energy beam line, ID15A, using energies from 150 keV to 500keV and beam spot size of 50 um x 50 um: 2D scan using ESRF high energy beam line is conducted on the side of a 2.5 mm CZT drift strip detector (in PTF configuration) with 0.1 mm step on both directions (x and y). Detector Energy resolution were measured for PTF configuration and it is 3Depth sensing technique is investigated on 2D scan data for PTF using anode Fig. 12. The measured depth resolution for energies 150 keV, 175 keV, 200 keV, 225 keV, 250 keV, 350 keV, 400 keV and 500keV</p><p>and cathode signal amplitudes (Qp/Qs). The minimum depth resolution is dependent on none-correlated noise on the signals (it is 70µm FWHM @150keV for the current detector setup). Measured depth resolution is 100µm FWHM @ 150 keV and 200µm FWHM @ 500 keV. This is well agree with the theoretical values.</p><p>CZT drift strip detectors in PTF configuration can achieve both high efficiency, due to the larger effective thickness, and good energy resolution, due to the small drift length for the electrons. They are therefore well suited for high energy astrophysics instrumentation</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Principle of the DSM. A drift strip detector cell is shown between dashed lines marked with "A" and "B". The drift strip electrodes and the planar electrode are biased in such a way that the electrons move to the anode strips.</figDesc><graphic coords="1,311.97,172.69,251.98,142.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Detector illumination geometries. (a)PPF configuration. (b)PTF configuration.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. DTU Space CZT drift strip detectors.</figDesc><graphic coords="2,48.96,53.14,252.01,204.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. CZT drift strip detector setup at ESRF.</figDesc><graphic coords="3,48.96,53.14,252.01,140.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Mechanical setup at ESRF.</figDesc><graphic coords="3,48.96,226.75,252.00,147.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. The beam setup definition at ESRF.</figDesc><graphic coords="3,48.96,408.17,252.00,140.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. (left) The bi-parametric distributions of the ratio, between the planar electrode signal, Qp and the strip signal, Qs versus Qs for 3 different 150 keV beam position. (right) The corresponded measured depth resolution for these 3 different beam position.</figDesc><graphic coords="4,48.96,53.14,252.00,257.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. (left) The bi-parametric distributions of the ratio, between the planar electrode signal, Qp and the strip signal, Qs versus Qs for 3 different 500 keV beam position. (right) The corresponded measured depth resolution for these 3 different beam position.</figDesc><graphic coords="4,311.97,371.03,252.01,201.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. The measured and derived R values versus depth for energies 150 keV, 175 keV, 200 keV, 225 keV, 250 keV, 350 keV, 400 keV and 500keV.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. Measured depth resolution values versus beam position for energies of 150 keV, 250 keV, 350 keV, 400 keV and 500 keV</figDesc><graphic coords="5,48.96,53.14,252.01,201.66" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENT</head><p>This work has been supported and financed by the <rs type="funder">European Synchrotron Radiation Facility</rs>. We also acknowledge and thank <rs type="person">Dr. Veijo Honkimki</rs>, <rs type="funder">ESRF</rs>, for his valuable help and discussions during the test campaign.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Novel electrode geometry to improve performance of CdZnTe detectors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A J</forename><surname>Van Pamelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Budtz-Jørgensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0168-9002(97)01120-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">403</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="390" to="398" />
+			<date type="published" when="1998-02">1998</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.A.J. van Pamelen, C. Budtz-Jørgensen, Nucl. Instr. and Meth. A 403 (1998) p. 390.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">CdZnTe drift detector with correction for hole trapping</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A J</forename><surname>Van Pamelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Budtz-Jørgensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0168-9002(98)00283-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">411</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="197" to="200" />
+			<date type="published" when="1998-07">1998</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M.A.J. van Pamelen, C. Budtz-Jørgensen, Nucl. Instr. and Meth. A 411 (1998) p. 197.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Thompson, Charles, (20 March 1930–28 Feb. 1991), HM Diplomatic Service, retired; High Commissioner to Kiribati, 1983–90</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rehak</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ww/9780199540884.013.u175846</idno>
+	</analytic>
+	<monogr>
+		<title level="m">LBL-15973, UC-37, CONF-830224</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1983-03-04">Feb. 28-March 4, 1983</date>
+			<biblScope unit="page">97</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Gatti and P. Rehak, Prec. 1983 DPF Workshop on Collider Detectors, Feb. 28-March 4, 1983, LBL-15973, UC-37, CONF-830224, p. 97.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Semiconductor drift chamber — An application of a novel charge transport scheme</title>
+		<author>
+			<persName><forename type="first">Emilio</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Rehak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0167-5087(84)90113-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research</title>
+		<idno type="ISSN">0167-5087</idno>
+		<imprint>
+			<biblScope unit="volume">225</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="608" to="614" />
+			<date type="published" when="1984-09">1984</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Gatti, P. Rehak, Nucl. Instr. and Meth. A 225 (1984) p. 608.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Pixelated CdZnTe drift detectors</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kuvvetli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Budtz-Jorgensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tns.2005.856882</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Nuclear Science</title>
+		<title level="j" type="abbrev">IEEE Trans. Nucl. Sci.</title>
+		<idno type="ISSN">0018-9499</idno>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1975" to="1981" />
+			<date type="published" when="1975">1975-1981, 2005</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Kuvvetli, C. Budtz-Jørgensen, &quot;Pixelated CdZnTe drift detectors&quot; IEEE Trans. Nucl. Sci., vol. 52, no.5, pp 1975-1981, 2005.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Characterization of small CdTe detectors to be used for linear and matrix arrays</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Casali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bollini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chirco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Baldazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dicocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Landini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Stephen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/23.159672</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Nuclear Science</title>
+		<title level="j" type="abbrev">IEEE Trans. Nucl. Sci.</title>
+		<idno type="ISSN">0018-9499</idno>
+		<idno type="ISSNe">1558-1578</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="598" to="604" />
+			<date type="published" when="1992-08">1992</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Casali, F., et al., &quot; Characterization of small CdTe detectors to be used for linear and matrix arrays &quot;, IEEE Trans. Nucl. Sci. vol. 39, no. 4, pp 598-604, 1992.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">CZT drift strip detectors for high energy astrophysics</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kuvvetli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Budtz-Jørgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caroli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Auricchio</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2010.03.172</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<title level="j" type="abbrev">Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment</title>
+		<idno type="ISSN">0168-9002</idno>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="486" to="491" />
+			<date type="published" when="2010-12">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Kuvvetli, C. Budtz-Jrgensen, E. Caroli and N. Auricchio, &quot;CZT Drift Strip Detectors for High Energy Astrophysics&quot;, Nucl. Instr. and Meth. in Phys Res. A 624 (2010), pp. 486-491.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

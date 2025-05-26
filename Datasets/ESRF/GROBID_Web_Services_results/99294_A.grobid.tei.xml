@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Active phase formation on Ir-Ru catalysts for the oxygen evolution followed by operando PDF/SAXS (CH6227)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Matthias</forename><surname>Arenz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jakub</forename><surname>Drnec</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kirsten</forename><forename type="middle">M Ø</forename><surname>Jensen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rebecca</forename><surname>Pittkowski</surname></persName>
+						</author>
+						<title level="a" type="main">Active phase formation on Ir-Ru catalysts for the oxygen evolution followed by operando PDF/SAXS (CH6227)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D255D8525E0E78EDC445D37147A60FBA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The experiment allowed us to follow the active phase formation from small Ir and IrRu metallic nanoparticles during the oxygen evolution reaction. We combined small angle X-ray scattering (SAXS) and total X-ray scattering with pair distribution function analysis (PDF). With the PDF it is possible to extract information on the atomic structure and its changes during the electrochemical protocol, while SAXS alloys to follow the changes in size.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental Details</head><p>In the experiment, the electrochemical set-up available at the beamline was used. The electrochemical flow-through cell that was used in the experiments was also designed at ID31. The catalyst layers were prepared by vacuum filtration of the catalyst particles onto a gas diffusion layer in our home lab. They were used as working electrodes in the electrochemical cell, with a platinum counter electrode and a Ag/AgCl reference electrode. The 0.1M HClO4 electrolyte was flown through the cell during the experiment. A series of potential steps were applied, gradually stepping from reducing potentials to oxidizing potentials where significant current due to oxygen evolution was observed. The potential was then gradually stepped back to reducing, to observe if the changes under applied potential were reversible or not. At each potential, total scattering data and SAXS data were collected, at different depths (z-scan) of the catalyst layer. A series of catalyst materials were tested in this way: metallic Ir and IrRu nanoparticles that were supported on both carbon and ATO.</p><p>The background subtraction necessary to treat the scattering data was performed based on the different scans through the cell. In that way, it was possible to subtract both the contributions from the cell and electrolyte as well as from the carbon-based gas-diffusion layer. As the carbon changes as a function of applied potential, background data were recorded and subtracted for each potential step.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>After careful background subtraction, it was possible to obtain PDFs from the total scattering data at an applied potential. When the potential is stepped to oxidizing potentials, the initial Ir particles become progressively more oxidized (see Fig. <ref type="figure" target="#fig_0">1a</ref>). This can be followed by the increasing intensity of the distances at 1.9 and 3.5 Å. The quality of the PDF obtained from the total scattering data is sufficient for fitting the data (see Fig <ref type="figure" target="#fig_0">1b</ref>). At a potential of 0.2 V vs RHE, the PDF can be fully described by an fcc phase. The lattice parameter obtained from the model of the PDF data is slightly smaller than that of the Ir reference, which indicates a lattice shrinking under potential control. When shifting to progressively more oxidizing potentials a slight shift in the Ir-Ir distances corresponding to the Ir fcc phase is found, indicating a slight expansion/relaxation of the fcc lattice. The Ir-O distances and Ir-Ir in an oxide phase (marked with red) do not agree with IrO2 in a rutile structure but rather a cubic iridium oxide reference. Further careful in-depth analysis of the data is necessary to fully describe the atomic structure and its changes during the applied potential.</p><p>In the background corrected SAXS data (Fig 2 ), changes in size during the electrochemistry can be followed. It can be seen that, depending on the applied potential, the particles change during the oxidation process and when they are reduced again. Initial analysis of the SAXS data shows that the particles seem to shrink during oxidation, which could indicate a breakdown of the structures and grow again when reduced. This initial analysis needs to be confirmed by further modeling of the SAXS data and a combined analysis of the sizes obtained from the dampening of the PDF as well as the SAXS models.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions and future work</head><p>The beamtime has been a success in demonstrating that it is possible to collect total scattering data during electrochemistry, which can be analyzed if a very careful background subtraction is performed. The quality of background data measured is of utmost importance. With this, it was possible to obtain analyzable PDF data that show structural changes of the small nanoparticles, which do not show any diffraction as they are too small. We are now in the process of analyzing the data and combining the PDF analysis with the results from the small angle X-ray scattering.</p><p>As the beamtime has been a proof-of-concept for us, to obtain analyzable PDF data during an electrochemical protocol, we expect to extend this analysis to other systems. This will allow answering the question of how the structure of small nanoparticles changes during catalysis, and which structural features can be obtained for samples that look X-ray amorphous in Bragg diffraction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Publications resulting from the work</head><p>We expect to publish the results once the data analysis is finished</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 a)</head><label>1</label><figDesc>Figure 1 a) Pair distribution functions (PDF) obtained from total scattering data collected during the oxidation process of Ir nanoparticles supported on Carbon, showing the gradual oxidation of the metallic particles, which can clearly be followed by the Ir-O and Ir-Ir distances of 1.9 Å and 3.5 Å respectively that appear (red bars). b) Fit of the PDF of Ir/C at 0.2 vs RHE, which can be model with a single fcc structure confirming the metallic structure of the initial particles.</figDesc><graphic coords="2,69.00,89.64,187.90,214.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Background subtract SAXS of Ir/C sample during the electrochemical protocol</figDesc><graphic coords="2,72.21,478.37,266.03,181.95" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

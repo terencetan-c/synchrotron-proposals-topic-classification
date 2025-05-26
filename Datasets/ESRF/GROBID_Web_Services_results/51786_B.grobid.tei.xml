@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2D dynamical arrest transition in a mixed nanoparticle-phospholipid layer studied in real and momentum spaces</title>
+				<funder ref="#_eX9674h">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_KEkPEtH">
+					<orgName type="full">Fondazione Cariparma (Parma, Italy)</orgName>
+				</funder>
+				<funder ref="#_7e9DqKb">
+					<orgName type="full">Italian Institute of Technology</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">ESRF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-12-10">10 December 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Davide</forename><surname>Orsi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dipartimento di Fisica e Scienze della Terra</orgName>
+								<orgName type="institution">Università degli Studi di Parma</orgName>
+								<address>
+									<settlement>Parma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eduardo</forename><surname>Guzmán</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Istituto per l&apos;Energetica e le Interfasi</orgName>
+								<orgName type="institution" key="instit1">Consiglio Nazionale delle Ricerche</orgName>
+								<orgName type="institution" key="instit2">U.O.S. Genova (CNR IENI)</orgName>
+								<address>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Libero</forename><surname>Liggieri</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Istituto per l&apos;Energetica e le Interfasi</orgName>
+								<orgName type="institution" key="instit1">Consiglio Nazionale delle Ricerche</orgName>
+								<orgName type="institution" key="instit2">U.O.S. Genova (CNR IENI)</orgName>
+								<address>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francesca</forename><surname>Ravera</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Istituto per l&apos;Energetica e le Interfasi</orgName>
+								<orgName type="institution" key="instit1">Consiglio Nazionale delle Ricerche</orgName>
+								<orgName type="institution" key="instit2">U.O.S. Genova (CNR IENI)</orgName>
+								<address>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Beatrice</forename><surname>Ruta</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">ESRF-The European Synchrotron</orgName>
+								<address>
+									<postCode>40220 38043 Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<region>CS</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuriy</forename><surname>Chushkin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">ESRF-The European Synchrotron</orgName>
+								<address>
+									<postCode>40220 38043 Cedex 9</postCode>
+									<settlement>Grenoble</settlement>
+									<region>CS</region>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tiziano</forename><surname>Rimoldi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dipartimento di Fisica e Scienze della Terra</orgName>
+								<orgName type="institution">Università degli Studi di Parma</orgName>
+								<address>
+									<settlement>Parma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Luigi</forename><surname>Cristofolini</surname></persName>
+							<email>luigi.cristofolini@unipr.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dipartimento di Fisica e Scienze della Terra</orgName>
+								<orgName type="institution">Università degli Studi di Parma</orgName>
+								<address>
+									<settlement>Parma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Istituto per l&apos;Energetica e le Interfasi</orgName>
+								<orgName type="institution" key="instit1">Consiglio Nazionale delle Ricerche</orgName>
+								<orgName type="institution" key="instit2">U.O.S. Genova (CNR IENI)</orgName>
+								<address>
+									<settlement>Genova</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2D dynamical arrest transition in a mixed nanoparticle-phospholipid layer studied in real and momentum spaces</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Scientific Reports</title>
+						<title level="j" type="abbrev">Sci Rep</title>
+						<idno type="eISSN">2045-2322</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">5</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2015-12-10">10 December 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">384BFC5510B079FA59D104F74FEFA785</idno>
+					<idno type="DOI">10.1038/srep17930</idno>
+					<note type="submission">Received: 26 June 2015 accepted: 06 November 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We investigate the interfacial dynamics of a 2D self-organized mixed layer made of silica nanoparticles interacting with phospholipid (DPPC) monolayers at the air/water interface. This system has biological relevance, allowing investigation of toxicological effects of nanoparticles on model membranes and lung surfactants. It might also provide bio-inspired technological solutions, exploiting the selforganization of DPPC to produce a non-trivial 2D structuration of nanoparticles. The characterization of interfacial dynamics yields information on the effects of NPs on the mechanical properties, important to improve performances of systems such as colloidosomes, foams, creams. For this, we combine micro-tracking in real-space with measurement in momentum-space via x-ray photon-correlation spectroscopy and Digital Fourier Microscopy. Using these complementary techniques, we extend the spatial range of investigation beyond the limits of each one. We find a dynamical transition from Brownian diffusion to an arrested state driven by compression, characterized by intermittent rearrangements, compatible with a repulsive glass phase. The rearrangement and relaxation of the monolayer structure results dramatically hindered by the presence of NPs, which is relevant to explain some the mechanical features observed for the dynamic surface pressure response of these systems and which can be relevant for the respiratory physiology and for future drug-delivery composite systems.</p><p>Self-assembly and self-organization of nanoparticles (NP)-surfactant mixed layers at the liquid-liquid or air-liquid interface are exploited in biomedicine, materials science, food science or renewable energy 1,2 . Examples of these applications are colloidosomes 3 , obtained from nanoparticles self-assembled at the droplet interface in emulsions <ref type="bibr" target="#b3">4</ref> , which present a large potential for applications in the controlled release of active agents (drugs, pesticides, self-healing agents, flavors, nutriceuticals, etc.). Particle-surfactant self-assembly is also exploited in microfabrication <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> and for the preparation of 2D functional materials for optoelectronics 7 and membranes with antibacterial activity 8 . Less ordered systems are instead often concerned with emulsions and foam stabilization 9 and are used in the development of porous materials <ref type="bibr" target="#b9">10</ref> . In all soft systems, the study of spontaneous fluctuations and of the related mechanical response takes on a practical relevance in relation to the processing, to the durability and the shelf-life. Just to mention a relevant example, local dynamics residually found into the deep frozen state of a glass affects drug stability and availability <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> . On the other hand, spontaneous fluctuations and rearrangements, if properly controlled, may be used to generate desirable properties -as in the case of the solidification of a colloid-stabilized cream under gravity, yielding a compact non-crystalline layer 13 . These fluctuations are also relevant in some biological interfacial processes, such as in the case of NP-phospholipid mixed layers, which, besides being inspirational for future hybrid bio-inorganic applications <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> , are also useful to investigate toxicological issues and to understand the adverse effects of particles on the respiratory physiology 17 . The most important physiological role during the respiratory cycle seems to be played by the rearrangement of the pulmonary surfactant layer structure, which, in fact, warrants the proper variation of the mechanical properties of alveoli 18 . These properties are affected by the incorporation of NPs. In particular, significant changes of the dilational elasticity pattern have been observed 19 , as</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>well as an important increase of the non-linearity of the response of the surface tension to sinusoidal area variations under conditions simulating the respiratory cycles <ref type="bibr" target="#b19">20</ref> . The latter indicates how NPs interfere with the process of respreading of the pulmonary surfactant during the alveoli expansion.</p><p>Our work focuses therefore on the study of the microscopic spontaneous fluctuations of a model system, employing a combination of scattering and microscopy techniques to cover a broad spatial and temporal region (Fig. <ref type="figure" target="#fig_0">1</ref>). The system is depicted in Fig. <ref type="figure" target="#fig_1">2</ref>, and is formed at the air-water interface by a mixed layer of silica nanoparticles and DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) -the most abundant phospholipid in human lung surfactant (∼ % 40 wt ) and also common in cell membranes in general. We present a characterization of its spontaneous 2D dynamics within the spatial scale range of about ∼ µm 100 nm 2  and within ∼ 100 msec 10 sec on the time scale, in different conditions of surface density/pressure. We find a transition between different dynamical regimes, all depicted in Fig. <ref type="figure" target="#fig_1">2</ref>, on increasing the surface pressure, which leads to intermittent collective rearrangements in the arrested state.</p><p>In multicomponent systems such as that studied in this work, the complexity of the interfacial dynamics results from the superposition and coupling of different dynamic processes. The very appearance, time-scales and peculiarities of these dynamic processes are strictly dependent on the morphology and structure. To tackle this complexity, different approaches have been proposed, including mechanical and optical techniques. A very recent study of the coarsening dynamic of a colloidal gel's spinodal decomposition <ref type="bibr" target="#b20">21</ref> combined direct-space particle tracking data with Q-space data generated by Fourier-transform of real space imaging data, thus elucidating anomalous, superdiffusive dynamics, presumably related to residual stresses in the material upon coarsening of a phase separated structure. On the contrary, in the present work we combine data measured directly in Q-space by a scattering technique, namely Grazing Incidence X-ray Photon Correlation Spectroscopy (GI-XPCS), with real-space imaging data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>State of the art</head><p>NP-DPPC mixed layers at the air/water interface. The phase behavior of DPPC at the air/water interface has been widely investigated also for its relevance to the understanding of the mechanical behavior of alveoli during the respiratory cycle <ref type="bibr" target="#b21">22</ref> . In addition to the important dynamic effects mentioned above, the incorporation of silica nanoparticles in the monolayer -either from the subphase or co-spread-induces significant modifications in the surface pressure-area isotherm of DPPC monolayers. In particular, the coexistence region between liquid compressed (LC) and liquid expanded (LE) phases disappears <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> , the isotherm shifts to higher areas per molecule and the collapse pressure is reduced. The quasi-static surface elasticity in the condensed states is also reduced <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b22">23</ref> . These observations call for a decrease of the interaction between the phospholipids' molecules in these mixed monolayers. Direct information on the above structural modifications has been obtained in a previous study <ref type="bibr" target="#b25">26</ref> based on fluorescence microscopy. We have shown that when NP are incorporated into the surface, upon compression, a mixed NP/DPPC phase if formed, which coexists with disks formed by pure LC domains of DPPC. Fluorescently labeled lipid molecules are confined in the mixed phase, therefore, pure DPPC regions appear black in epifluorescence imaging. Even at the highest attainable pressures, the film morphology is characterized by these black, round features, which consist of pure DPPC, and are due to the LC domains, which resist to the penetration/diffusion of NPs or fluorophore molecules. At high surface pressure, these disks form a densely packed 2D structure. The mechanical moduli of this mixed monolayer are somewhat smaller than those of the pure DPPC monolayer at the same pressure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Arrested states.</head><p>Despite their apparent distinct nature, colloidal suspensions, gels, metallic glasses, fluid lubricants, pharmaceutical compounds, window glasses, granular media and emulsions owe their properties to the fact that they can be driven into an out-of-equilibrium configuration, in which they cease to flow <ref type="bibr" target="#b26">27</ref> . Detailed information on the dynamics of many of these systems can be obtained by techniques such as XPCS, its visible-light counterpart Dynamic Light Scattering (DLS) and Digital Fourier Microscopy (DFM). All these techniques operate in the momentum space, or Q-space ( )</p><formula xml:id="formula_0">= π Q d 2 ,</formula><p>where d is distance in real space. However, experimental results have to be interpreted through a model to yield significant quantities, and the choice of the model is a crucial point. Some of the most relevant dynamic regimes are sketched in Fig. <ref type="figure" target="#fig_1">2</ref>: In the simple case of Brownian diffusion <ref type="bibr" target="#b27">28</ref> , an intermediate scattering function (correlation function) has a simple exponential decay with characteristic time τ ∼ - Q 2 . In this scenario macroscopic mechanical properties (e.g. viscosity) relates with the observed microscopic fluctuation dynamics (e.g. diffusion coefficient) via Stokes-Einstein relations. However, this simple picture breaks in arrested states. For instance, in the case of polymeric layers or 2D gel networks in which the correlation functions have compressed exponential form <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> with characteristic time τ ∼ - Q 1 , defining diffusion coefficients is not trivial. Scenarios that are even more exotic have been observed e.g. in aged colloidal creams <ref type="bibr" target="#b12">13</ref> , in aged Laponite <ref type="bibr" target="#b30">31</ref> and in methylcellulose <ref type="bibr" target="#b31">32</ref> gels, systems where stretched exponential correlation functions are found with τ ∼ - Q 1 . Many of these dynamical features are interpreted postulating either discrete intermittent rearrangements or random relaxations of stress fields, whose direct observation in real systems has been so far rather elusive <ref type="bibr" target="#b32">33</ref> . Of course, the uncertainty about the origin of the different τ ( ) Q dependences poses tremendous problems when trying to relate the microscopic fluctuation dynamics with macroscopic mechanical measurements, where the spatial scale probed is so large that, in Q-space, they correspond to the macroscopic limit → Q 0. On the other hand, other techniques such as Multiple Particle Tracking (MPT) directly investigate the dynamics, with the advantage of being able to indicate the most appropriate model. However, this technique can only be used on objects that can be seen under the optical/fluorescent microscope. Moreover, it often suffers from limited statistics, due to the small area that can be viewed and tracked simultaneously under the microscope objective. In comparison, scattering techniques such as XPCS access the dynamics on similar temporal windows, but on slightly different spatial scales. Consequently, there is a significant overlap region between the two, allowing for a validation of the results through detailed comparison. At the same time, the combination of these two techniques spans a much wider spatial range than any single technique.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Epifluorescence microscopy was used to follow the morphological changes in the film during compression. Figure <ref type="figure" target="#fig_2">3</ref> reports the morphology of the film -containing 60 nm silica particles-at different compression levels: the images shown here have been taken at a surface pressure Π of / mN m 11 (panel a), / mN m 20 (b) and / mN m 30 (c), above the pressure of the LE-LC coexistence plateau in pristine DPPC. The most relevant change observed is the increase of the fraction of surface occupied by regions of densely packed DPPC molecules -which appear black because all the fluorescent molecules have been expelled. The fraction Φ of air/water interface covered by them has been measured by a judicious choice of a threshold value the epifluorescence images; as Π is increased, it increases up to 54% (panel d); this saturation value is reached at Π &gt; / mN m 30</p><p>. On panel e of the same Figure, we report the average radius R of these disks as a function of Φ: in the explored range, the change of R is limited and it saturates at Φ &gt; % 45 . Such situation is thus drastically different from pristine DPPC monolayers, since the presence of NPs hinders the formation of a continuous layer of the DPPC LC phase.</p><p>The results reported in Fig. <ref type="figure" target="#fig_2">3</ref> are consistently reproducible and it is worth noticing that the observed behavior is practically independent from the particle size, for diameters within the 10-100 nm decade. Therefore, we are able to exploit the one-to-one correspondence between Π and Φ (through the 2D geometry provided by Langmuir layers) to assign a specific structural state to the system in correspondence of specific values of Π. This is in particular important during the XPCS measurements, when direct microscopy imaging is unfeasible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dynamics in real space.</head><p>A direct approach to the measurement of the dynamics is to track in time the position of the black, disks that characterize the film morphology. This approach is strictly analogous to the more common Multiple Particle Tracking (MPT) technique <ref type="bibr" target="#b33">34</ref> ; we opt for a different name to stress that we are not tracking the displacements of individual silica nanoparticles but that of the remnants of DPPC domains. Their nearly circular shape simplifies the measurement of their position in epifluorescence images; we follow their displacement in time by recording videos and performing accurate position tracking.</p><p>Microscopic Tracking: From a Brownian regime to an arrested state. From the trajectories measured at different values of Φ, we calculate the mean square displacement ( ) t x 2 as a function of time; results are reported in Fig. <ref type="figure">4a</ref> -on a double-logarithmic scale-for disks with a comparable radius ( = . ± . µm R 3 5 0 2 ) and at three different values of surface concentration (namely, Φ = % 31 , 45%, 52%). As Supplementary Information, in Figure <ref type="figure" target="#fig_0">S1</ref> we also report ( ) t x 2 for different values of R. A linear growth of ( ) t x 2 , as would be expected in the case of Brownian diffusion, is indicated by the continuous black line. At low surface concentration (Φ = % 31 ), ( ) t x 2 follows this trend in the full temporal range explored. On the contrary, as concentration is increased, the situation becomes more intriguing as different regimes are found. For instance, at Φ = % 52 , at early times (below 1 sec-indicated by the vertical red halo in the Figure) ( ) t x 2 still grows linearly. In this regime, a "short time diffusion coefficient" D S can be defined as  <ref type="formula">3</ref>), dotted line), while at higher values of Φ this relation breaks.</p><formula xml:id="formula_1">( ) = ( ) &lt; t Dt x 4 1 S t s 2 1</formula><p>At intermediate times (approximately &lt; &lt; s t s 1 <ref type="bibr" target="#b9">10</ref> ) the growth becomes sub-linear, indicating that the diffusion is hindered by the presence of adjacent objects. Finally, at longer times ( &gt; t s <ref type="bibr" target="#b14">15</ref> ) the tracked objects overcome this hindrance, a diffusive or even super-diffusive regime is found. All this can be quantified by a power law</p><formula xml:id="formula_2">( ) ∝ ( ) t x t 2 m 2</formula><p>In which the exponent m quantifies the linear (m = 1), sub-linear (m &lt; 1) and super-diffusive (m &gt; 1) trends respectively.</p><p>Diffusive regimes of large flat inclusions in an interfacial film have been studied theoretically long ago by Hughes and coworkers <ref type="bibr" target="#b34">35</ref> . Their results were verified experimentally for DPPC monolayers by <ref type="bibr">Klingler and Mc Connell 36</ref> . This regime holds when the diffusing object has size R much larger than the so called Saffman-Delbruck length, given by</p><formula xml:id="formula_3">η η = /( ) L 2 SD f</formula><p>, where η f is the 2D viscosity of the film, while η is that of the bulk phase. In this regime, diffusion is limited by the drag exerted by the subphase and not by the surrounding film. Then, the diffusion coefficient D is given by:</p><formula xml:id="formula_4">η = ( ) D k T R 8</formula><p>3</p><formula xml:id="formula_5">B</formula><p>Where T is the temperature (293 K in the present case) and η is the subphase viscosity, (η = . / mPa s 1 2</p><p>, for the NP subphase, a value slightly larger than that of pure water at this temperature).</p><p>In Fig. <ref type="figure">4b</ref> we report the mean values of D S as a function of the inverse of the radius 1/R, for different values of Φ. The linear growth of eq. 3, indicated by the dashed line, is expected whenever the Hughes regime is verified. This is the case for the data at Φ = % 31 . On the contrary, at higher Φ, the diffusion coefficient becomes less dependent, or even not-dependent, on the size R. In principle, this could be ascribed either to an arrest transition or to the transition from the Hughes regime to the Saffman-Delbruck 37 regime, as the latter predicts a weak logarithmic dependence of the diffusion coefficient on the radius R. However, we rule out this latter hypothesis, as this transition occurs when &gt; L R SD , which cannot be our case as</p><formula xml:id="formula_6">&lt; L n m 500 SD and µ - R m 3 5</formula><p>. Therefore, the transition is from the Hughes diffusive regime to an arrested state.</p><p>Residual dynamics in the arrested state. Additional insight into this arrested state is gained by computing the self-part of the van Hove correlation function of the displacements from the trajectories of the individual domains. Following the approach proposed by Doliwa and Heuer <ref type="bibr" target="#b37">38</ref> , we select a time interval ∆t and calculate the displacements</p><formula xml:id="formula_7">= ( ∆ ) -( ∆ )    r r b t</formula><p>r a t ab ; the self-part of the van Hove correlation function ( ) ∆ P r t 01 is defined as the probability distribution of =  r r 01 01 . Figure 5a reports ( ) ∆ P r t 01 for different values of the surface concentration; the curves have been calculated at ∆t = 4 s, a time interval at which, at high surface concentration, we observe the sublinear power law trends of ( ) t x 2 . At low surface concentration (Φ = % 31 ) the disks undergo Brownian diffusion -a process known to yield a normal distribution-( ) ∆ P r t 01 has a Gaussian shape (solid line).</p><p>As Φ increases, we observe broader tails indicating the presence of long-range rearrangements; this imply that a non-negligible fraction of disks moves on large distances while the majority of them diffuse on short range, being limited by the presence of their neighbors.</p><p>The population of long-range moving objects can be indirectly quantified by means of the non-Gaussian parameter α 2 , which compares the fourth moment μ 4 of the distribution P(x) of the individual components of the displacements, either x or y, to the second moment μ 2 39 :</p><formula xml:id="formula_8">α µ µ = ( ( )) ( ( )) -. P X P X 3 1 2 4 2 2</formula><p>This parameter is zero for a strictly Gaussian distribution and becomes larger when the tails of the distribution become more important than in the Gaussian case. It is reported in Fig. <ref type="figure">6b</ref>: at Φ = % 31 we found α = . ± . 0 02 0 01 2 , a value compatible with a purely Gaussian distribution; on the contrary, at increasing concentration, α 2 increases, reaching . ± .</p><p>1 16 0 09 at Φ = % 52 , thus indicating at this concentration a strong deviation from the Brownian diffusion.</p><p>To verify if this deviation arises from caging effects, following the literature <ref type="bibr" target="#b39">40</ref> we calculated the anticorrelation between successive steps, quantified by the parameter</p><formula xml:id="formula_9">= ⋅  x r r r 12 12 01 01</formula><p>Which corresponds to the projection of  r 12 along the direction of  r 01 , where  r 01 and  r 12 are two successive steps. In Fig. <ref type="figure">5b</ref> we report this quantity as a function of the step length r 01 for the case at Φ = % <ref type="bibr" target="#b51">52</ref> . We find that it decreases with increasing values of r 01 (dashed line), indicating the existence of an anticorrelation of  r 12 and  r 01 indicative of the presence of caging. However, when the first step is sufficiently large to exit the cage of the surrounding neighbors, the anticorrelation between subsequent steps is weakened; in the graph, this is indicated by a deviation from the linear trend indicated by the dashed line. In our system, this happens for µ &gt; r m 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>01</head><p>. This value is considered to be an estimate of the size of the cage <ref type="bibr" target="#b39">40</ref> . Inspection of a typical trajectory -reported in the inset of Fig. <ref type="figure">5b</ref>-confirms that in the arrested state the disks rattle in "cages" about µm 2 in size, with intermittent jumps over longer distances. Figure <ref type="figure">5c</ref> reports the square displacements (i.e. not averaged neither over the statistic ensemble, nor over the initial time t 0 ) for three different disks, measured at Φ = % 52 ; they shows the long periods of slow diffusion or vibrational motion around a static position, followed by sudden long jumps over distances of roughly µm 2 . The arrest transition, along with the hints of the presence of rearrangements found in the arrested state by means of the van Hove correlation functions, calls for a detailed investigation of localized dynamics, which somehow hits the limits of the tracking analysis performed so far. In order to gain a deeper insight, we apply a scattering technique, which holds the promise i) to extend the spatial range, and ii) to improve the statistics by measuring a larger portion of surface at the same time. In order to achieve this, in the following, we compare the results obtained in direct space with those found in the reciprocal space.</p><p>Dynamics in momentum space. This motivates the investigation by Grazing Incidence X-ray Photon Correlation Spectroscopy (GI-XPCS), a scattering technique that allows a quantitative characterization of the interfacial dynamics <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b40">41,</ref><ref type="bibr" target="#b41">42</ref> , providing insights into even shorter spatial scales and faster times (down to 10 ms) with -</p><formula xml:id="formula_10">Q m 3 5 1 . While at Φ = %</formula><p>31 the fluctuation histogram is compatible with a Gaussian curve (solid red line), at Φ = % 52 the distribution is characterized by a tail, which is broader than Gaussian, indicating that rearrangement events are taking place in the layer. respect to the ones accessed by direct-space imaging. The high statistics arising from data collection over the whole footprint of the x-ray beam, results in better signal-to-noise ratio in the analysis of tiny displacement if compared to the tracking experiments. The results can be directly compared with those from microscopy imaging by employing a novel technique named Digital Fourier Microscopy (DFM) <ref type="bibr" target="#b42">43</ref> , also known as Digital Fourier Imaging <ref type="bibr" target="#b43">44</ref> , which casts the information into reciprocal space by applying the Fourier transform to the epifluorescence images used for MT.</p><p>The basic quantity measured by XPCS (and DFM) is the autocorrelation function ( )</p><formula xml:id="formula_11">( ) g Q; t 2</formula><p>of the signal measured at a given scattering momentum Q. The decay of the intensity functions ( )</p><formula xml:id="formula_12">( )</formula><p>g Q; t 2 can often be described by the Kohlrausch-William-Watts expression,</p><formula xml:id="formula_13">( ) = + β        -       τ( )              ( ) ( ) γ g Q; t A exp 2 t Q 5 2</formula><p>We track the evolution of the dynamics as a function of Φ in terms of changes in the relevant parameters of the fit.</p><p>In particular, we focus on the relaxation time τ and on "fingerprints" of the dynamical character, namely the shape of the correlation function -represented by the exponent γ-and the dependence of the relaxation time from Q, given by the exponent n:</p><formula xml:id="formula_14">τ ∝ . ( ) - Q 6 n</formula><p>In combination, these parameters allow us to discriminate between different dynamical regimes within the limits cases of diffusive (γ = , = 1 n 2) and ballistic (γ = , = n 2 1 ) motions. To take into account the effects of possible changes of shape of the exponential decay, we express the relevant time scale of the dynamics using an effective relaxation time, which is calculated as the first moment of ( ) extracted from XPCS at µ = -Q m 14 1 ; different symbols/ colors indicate different NP sizes. As concentration increases, τ eff grows, marking the onset of dynamical arrest. (b) The shape parameter γ (right axis) increase from 1 up to γ &gt; . 1 5 as Φ grows from roughly 40% -48-50%. In the same plot we also report the "non-Gaussian" parameter α 2 which increases from 0 (Brownian case) to higher values. (c) In the same Φ range, the τ ( ) ∝ - Q Q n dependence switch from = n 2 (diffusion) to = n 1 (ballisticlike). Overall, the trends of γ, α 2 and n indicate the presence, in the arrested state, of sudden, intermittent rearrangements. Colors indicate different NP sizes. </p><formula xml:id="formula_15">τ γ γ ( ) = ( ) ( ) Γ( / ( )) ( ) Q Q Q 1 Q 7 eff</formula><p>where Γ is the gamma function.</p><p>A peculiarity of the grazing-incidence scattering technique GI-XPCS with respect to microscopy is that it is not bound to 2D plane of the interface; by looking at the component of Q perpendicular to it, it is possible to measure the dynamics in the transverse direction. In our case, however, we find that the dynamic is confined at the air/water interface: its relevant parameters depend only on the component of the scattering vector parallel to the interface Q , and displays no dependence on the perpendicular component ⊥ Q (more details are reported as Supplementary Information).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dynamical arrest and intermittent rearrangements. By means of GI-XPCS we could follow in detail</head><p>the dynamical arrest transition. The growth of the relaxation times τ eff as a function of the concentration is reported in Fig. <ref type="figure">6a</ref>. In correspondence to the slowing down of the dynamics, we also observe a change in the shape of the KWW decay <ref type="bibr" target="#b4">5</ref> , as indicated by the exponent γ shown in 5b, and the coefficient n indicating the Q-dependence <ref type="bibr" target="#b5">6</ref> , which is shown in 5c. Data points correspond to the average value obtained from four repetitions of the measurement in different spatial position of the interface; error bars are standard deviations.</p><p>Roughly speaking, three dynamical regimes are met with increasing concentration: up to Φ % ~40 we find τ eff independent of Φ. The dynamics is Brownian: correlation functions decay as simple exponentials (γ ≈ 1) and the relaxation time depends on Q as τ ∝ - Q 2 . This framework nicely corresponds to what already indicated by the MT technique, namely m = 1 (linear increase in time of ( ) t x 2 ) and α 2 being very close to 0 (Gaussian distribution of displacements). Then, between Φ = % 40 and 48-50% we observe a steady increase of τ eff with Φ. In this regime, the mechanical modulus of the film, as measured by the oscillating barrier techniques, increases as well, following the same trend of the XPCS relaxation time (more details in Fig. <ref type="figure">S6</ref> of Supplementary Information) This is an example of the ubiquitous Stokes-Einstein generalized relations and is similar to what found in many other systems, including Langmuir monolayers of gold nanoparticles <ref type="bibr" target="#b44">45</ref> and nanoparticles in polymers <ref type="bibr" target="#b45">46</ref> . Together with this steady increase of the relaxation time, we find evidence of a phase transition between two different dynamical states; we observe a continuous change of the shape of the correlation function and of the Q-dependence of the relaxation time, indicated respectively by γ and n. As the concentration is increased above 50%, the shape linearly increases towards faster-than-exponential decays (γ ≈ .</p><p>1 6) with τ ∝ - Q 1 , a dynamics commonly found in systems undergoing dynamical arrest <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b46">47</ref> .</p><p>Analogous results are found by means of DFM: we analyzed in momentum space the epifluorescence images measured at Φ = % 31 and Φ = % 52 . At lower value of Φ we find that ( )</p><formula xml:id="formula_16">( ) g Q; t 2</formula><p>decay as a simple exponential (γ = 1) and τ ∝ - Q eff 2</p><p>, indicating Brownian diffusion -as expected by MT results. At Φ = % 52 , however, we find a compressed exponential shape (γ = .</p><p>1 5) and a very weak dependence of τ eff over Q. The presence of intermittent rearrangements in the high-Φ regime, evidenced in 4c, is quantified by the analysis of the temporal fluctuations of the Fourier transform intensity of difference of consecutive epifluorescence images, as in the similar technique Differential Dynamic Microscopy <ref type="bibr" target="#b20">21</ref> . In Fig. <ref type="figure">5d</ref> we report the histogram of the temporal intensity fluctuations of the signal, with respect to the time-averaged value, for two values of Φ; While at Φ = % 31 the fluctuation histogram is compatible with a Gaussian curve (solid red line), at Φ = % 52 the distribution is characterized by broader tails, indicating large fluctuations due to the presence of sudden rearrangements in the layer. Within this respect, this results is complementary to the emergence of a non-Gaussian shape in the distribution of steps found by MT.</p><p>We have then a consistent picture in which the growth of relaxation times goes together with i) the increase of the non-Gaussian parameter α 2 of the van Hove correlation functions, ii) the change in the shape of the relaxation, which turns from simple exponential (compatible with the Brownian case) to compressed shape, reported in Fig. <ref type="figure">6b</ref>, iii) the Q dependence of τ, reported in 5c. The two colored areas correspond to the domains of the different techniques, whose overlap is marked in yellow. The combination of MT and GI-XPCS allow us to extend significantly the Q-range over which we are able to evaluate the τ( ) Q dependence: we find that the diffusive regime at low-Φ yields τ -~Q 2 (steeper dashed line) while as concentration is increased, the transition to dynamical arrest is highlighted by the less steep Q-dependence of τ, with τ -~Q 1 found at Φ = 52% (less steep dashed line). A compressed relaxation shape is predicted within a detailed model proposed by Bouchaud and Pitard <ref type="bibr" target="#b47">48</ref> for the dynamics in an elastic gel. Within this model, randomly appearing dipolar stresses generate a field of strains in the network of the elastic gel. It is then assumed that the dynamics of the diffusors is determined by the continuous relaxation of such local strains. As a function of the extension of the experimental time scale compared to the time of this relaxation process, different asymptotic time-and Q-dependences are predicted for the shape of the correlation function, which in our model correspond to the parameter γ varying from 3 2 to 1. A slightly different phenomenological model was more recently put forward by Duri and Cipelletti for gel systems <ref type="bibr" target="#b48">49</ref> postulating the dynamics to be governed by rare, intermittent rearrangements, rather than a continuous process. Past investigations on 2D gel-forming Langmuir monolayers <ref type="bibr" target="#b49">50</ref> , coarsening processes in colloids undergoing spinodal decomposition <ref type="bibr" target="#b20">21</ref> , aged laponite <ref type="bibr" target="#b30">31</ref> and metallic glasses <ref type="bibr" target="#b50">51</ref> found a partial agreement with this latter model. In the particular case of 2D gels, this phenomenology was present, even with a larger variation of γ than theoretically predicted. From that, a nice master curve could be deduced, from which the typical length of the jump could be extracted.</p><p>The present case seems to be quite different, as the strong dependence of γ on Φ is not accompanied by any detectable Q-dependence, as shown in Fig. <ref type="figure" target="#fig_2">S3</ref> of Supplementary Information. The reason for the difference is could be either related to the insufficiently large Q-range explored (which however seems unlikely, given that it is not any smaller than that explored in other XPCS experiments) or rather being related to different physical mechanism underlying dynamical arrest in the present case.</p><p>Since the mechanical moduli of this mixed monolayer are somewhat smaller than those of the pure DPPC monolayer at the same pressure, it seems reasonable to assume that the disks behave as rigid bodies (as they are formed by pure DPPC in LC phase) which repel each other and are surrounded by a softer phase. Then the system would be more similar to a repulsive glass than to a gel-forming system, as described by the aforementioned models.</p><p>In this respect, we note that the dilational elasticity  increase with Φ following a power law trend, ε ∝ Φ 4 , as shown in Fig. <ref type="figure">S6</ref> in Supplementary Information. The trend is compatible with the increase of the relaxation time τ eff with Φ shown in Fig. <ref type="figure">6a</ref>. This dependence is much weaker than the ( -Φ/Φ ) - 1 c 2 trend found for hard disks close to the critical concentration Φ c , and weaker than the ( -Φ/Φ ) - 1 c 1 dependence due to long range electrostatic potentials, found e.g. in tri-components phospholipid layers showing phase coexistence <ref type="bibr" target="#b51">52</ref> . The much weaker power-law trend found in our system is likely to be connected with the presence of the softer, mixed NP-DPPC phase surrounding LC DPPC domains, as e.g. in systems composed of core-shell PNIPAM spheres <ref type="bibr" target="#b52">53</ref> .</p><p>Finally, one could ask whether the nanoparticle size plays an important role in this complex phenomenology. We tested different sizes of NPs, namely 9 nm, 15 nm and 60 nm particles. As the results displayed in Fig. <ref type="figure">6</ref> demonstrate, the nanoparticle size plays no important role in this phenomenology, in the same way, as the nanoparticle size is not affecting the structure of the system (Fig. <ref type="figure" target="#fig_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Through the combined use of GI-XPCS and epifluorescence microscopy measurements (MT and DFM), we have been able to characterize the dynamical regimes of a hybrid, self-organized phospholipid/NP monolayer observed while increasing its surface pressure and concentration.</p><p>Silica NPs are incorporated into the film: a stable NP/DPPC mixed matrix is formed, that surrounds regions of tightly packed DPPC molecules in LC domains. Those form rigid disks, which retain their own individuality and cage each other as the surface is compressed. As the packing fraction of the disks increases, we observed a dynamical transition from Brownian diffusion to an arrested dynamical regime, featuring intermittent, cooperative rearrangements in a fashion closely resembling that found in simulations <ref type="bibr" target="#b53">54</ref> and experimental characterizations <ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b55">56</ref> of 3D colloidal supercooled fluids approaching the critical point. These results indicate that a residual dynamics remains present even in the densely packed structure formed. To summarize the parameters describing the dynamical transition observed, we report the XPCS results in Fig. <ref type="figure" target="#fig_9">8</ref> as a function of Φ on a γ -n plane; the color of each point corresponds to its corresponding surface concentration.</p><p>The observed peculiar structure of the mixed particle-DPPC monolayer-and its dynamic characteristics-can be used to explain some of the observations already reported on the chemico-physical features of these monolayers. In particular, in all range of investigated surface pressures, the rearrangement and relaxation of the monolayer structure is dramatically affected by the presence of NPs, which explains the increased non linearity of the surface pressure response to area oscillatory cycles and its large hysteresis on compression/expansion cycles.</p><p>The reported results can also be important in relation to possible effects of NPs on the dynamics of cell membrane (membrane fluidity, rafts), which have been so far poorly investigated.</p><p>More generally, we want to stress here the importance of using a comprehensive suite of experimental tools to characterize the slow dynamics of soft and bio-systems, often strongly deviating from a simple Brownian behavior. This is particularly true in view of possible applications that exploit slow, relaxation mechanisms to extend performances and enhance key features e.g. in the fields of drug release and of self-healing materials. The partial overlap of spatial scales explored by MT, DFM and GI-XPCS allowed us to successfully combine them to gain a deeper insight into the dynamics of the system, exploiting the strong points of each technique while extending the spatial range probed: by microscopy we tracked the dynamics on lengths from µ . m 0 5 up to µ . m 2 0</p><p>, while with this particular GI-XPCS experiment we probed the system on scales ranging from µ ≈ .</p><formula xml:id="formula_17">π m 0 15 Q 2 up to µ ≈ . π m 0 9 Q 2 .</formula><p>On other systems, MT and GI-XPCS could in principle access larger ranges, corresponding to the colored areas in Fig. <ref type="figure" target="#fig_8">7</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>The NP suspensions used here are obtained by dilution with pure water of different commercial colloidal dispersions products: Levasil 300/30, Levasil 200/30 and Levasil 50/50, all from H.C. Starck (Germany). The NPs in the three dispersions are spherical and narrowly distributed around diameters of 9, 15 and 60 nm, respectively. The dispersions are extremely stable because of the large negative surface charge of the particles, obtained in the specific production process. The NP ζ-potential is in fact -mV 42 and the dispersions pH is around 9. Thus, the dispersions do not contain any stabilizing agent that could interfere with the studied properties. This is also confirmed by the measurement of the surface tension, which provides for all dispersions values similar to those of pure water: about . / mN m 72 5</p><p>, stable for several hours. DPPC (MW . / g mol 734 1</p><p>, purity 99%) is supplied by Sigma (Germany) and used without further purification. Pure water is produced by a two stage system (Millipore, Elix plus Milli-Q) providing a resistivity greater than</p><formula xml:id="formula_18">Ω • M cm 18</formula><p>and a surface tension of . / mN m 72 5</p><p>without any appreciable kinetics over several hours. For the micro epi-fluorescence measurements, a small quantity of the fluorescence probe NBD-PC, (Avanti Lipids) was added to the spreading solution of DPPC (1% wt of the total lipid content).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Langmuir Monolayer Preparation.</head><p>A Langmuir trough, cleaned with organic solvents, is filled with a suspension of colloidal particles (1% wt concentration). The subphase temperature is controlled by means of water circulation between the trough basement and a LAUDA thermostat, set at 20 °C.</p><p>Small constant velocity drifts of the Langmuir film are inevitable: in order to minimize them, a steel ring (1 cm diameter) is placed in the subphase, centered under the measurement region. There, it reduces the subphase depth around the measurement region, effectively minimizing subphase motions. A chloroform solution of DPPC is spread at the interface between air and the aqueous suspension of NP. The trough is covered with a plastic cap to avoid dust deposition and an incubation time of 1 hour is considered: the process of formation of the composite monolayer needs the adsorption of NP at the interface, which is presumably a slow equilibration between NPs in subphase and at the interface.</p><p>Subsequently, the trough's area is reduced by means of the barrier motion, to reach the desired surface pressure value. Barriers have been halted before starting any measurement. All the techniques employed (MT, DFM, XPCS) act on a much shorter time scale than that of the equilibration process between surface and bulk. Moreover, once the structures of Fig. <ref type="figure" target="#fig_2">3</ref> are formed by compression of the monolayer, they are found to be stable even for several hours.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Epifluorescence and Microscopic Tracking.</head><p>A close insight into the properties of the mixed layer has been obtained by fluorescence microscopy analysis. Measurements were performed using a Nikon Ti-Eclipse inverted microscope equipped with a high-sensitivity Andor Clara camera.</p><p>To track the dynamics, in correspondence of several surface pressure points on the Langmuir isotherm, videos have been recorded with 50× magnification (Nikon LU Plan EWLD 50× /0.55B, 1 pixel = 0.36 microns), at 7 frames per seconds, with exposure time of msec 100</p><p>. Every video has been analysed using ad hoc developed Matlab code in order to extract the mean square displacement (MSD) x 2 of the objects at a given surface pressure. We take advantage of the large number of objects (N &gt; 100) in the field of view to subtract the film drift motion by calculating the MSD from the variation of the inter-object distances over time: ( ) x t x t t x t t x t x t 1 2 [ ] 8 i j i j t 2 0 0 0 0 2 0</p><p>The average is performed along the statistical ensemble of inter-object distances in the field of view. Moreover, each trajectory has been divided into smaller portion that were subsequently included in the average, in order to improve the accuracy of x 2 at short times. Mean square displacements have been corrected for static tracking errors following the procedure of Savin and Doyle <ref type="bibr" target="#b56">57</ref> . Strongly non-circular features (eccentricity ε &gt; . 0 8) have not been considered in the analysis, because of the less precise position determination connected to non-circular shapes. Less than 2% of the objects have been discarded. More details on the tracking algorithm and on the measurement of diffusion coefficients are available in the Supplementary Information.</p><p>Grazing Incidence X-ray Photon Correlation Spectroscopy. Photon correlation spectroscopy experiments have been performed in grazing-incidence, small angle scattering geometry (GI-XPCS) using partially coherent X-rays at the ID10 beamline of the European Synchrotron Radiation Facility. A Si (111) crystal monochromator is used to select radiation of wavelength λ = . nm 0 153</p><p>. The transversely coherent beam is defined by slit blades with highly polished cylindrical edges; the parasitic scattering due to diffraction from these slits is blocked by a set of guard slits. The beam is directed to impinge at grazing incidence ( . °0 121 , i.e. 80% of the critical angle for total reflection) on the Langmuir trough. The scattered radiation travels in vacuum to minimize parasitic scattering and in-air absorption, reaching a Medipix detector placed . m 3 38 downstream the sample where it is collected. A motorized metallic finger blocks the reflected beam.</p><p>Speckle patterns are recorded with exposure times in the range .</p><p>-. s 0 02 <ref type="bibr">01</ref> . The experiments covered a Q range from µ - m 5</p><p>1 to µ - m 50 <ref type="bibr" target="#b0">1</ref> with ⊥ Q ranging from µ - m 230 1 to µ - m 310 1 . As usual, in the case of Langmuir monolayers <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b49">50</ref> the dynamics are shown to depend only on the parallel component of the scattering vector; no dependence on the perpendicular component has been found (see Fig. <ref type="figure" target="#fig_1">S2</ref> in the Supplementary Information). In view of this, all the ensuing analysis has been performed averaging the scattered intensity along the ⊥ Q direction, in order to improve the signal-to-noise-ratio. From the scattered intensity measured by each group of pixels as a function of time, we calculate the intensity autocorrelation function Digital Fourier Microscopy. Information on the microscopic dynamics of the sample can be re-cast in the momentum space: from the very same epifluorescence images used for microscopic tracking we calculated the power spectrum of the 2D Fourier transform of each image of a given sequence. Then, each pixel of the transformed image corresponds to a well-defined momentum vector Q. Pixels are grouped in rings, in the range µ .</p><p>m 0 5</p><p>1 to µ - m 9 <ref type="bibr" target="#b0">1</ref> , each being labelled by the corresponding modulus |Q|. Then, autocorrelation functions of the power spectrum have been calculated using the same multi-tau algorithm used for XPCS. These functions are formally analogous to those obtained by XPCS.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The combination of grazing-incidence x-ray photon correlation spectroscopy and epifluorescence microscopy provides both excellent statistics and unambiguous determination of the dynamical model covering a much larger Q-range than any single technique.</figDesc><graphic coords="2,155.64,46.50,300.00,215.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. From top to bottom; schematization of the interfacial system whose dynamics is investigated in this work (elements not to scale). We characterized its microscopic dynamics as a function of surface concentration; we discriminate between different dynamical regimes: from the simple Brownian diffusion and Ballistic motion to Collective Rearrangements, similar to what is found e.g. in traffic jams. The outcome of this study might impact on technological applications such as colloidosomes, capsules, foams and emulsions. Moreover, it might lead to a better understanding of the effect of nanoparticles on lung surfactants and cell membranes in general.</figDesc><graphic coords="3,155.64,46.50,240.00,425.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Silica NPs suppress domain coalescence, stabilizing a gel-like structure for the DPPC film and giving domains a regular, roughly circular shape. (a-c) Epifluorescence images taken at Π = , , / mN m 11 20 30 for silica particles of size 60 nm. (d) The fraction of interface Φ covered by the disks is reported as a function of surface pressure Π for silica particles of different radii; after a steep rise up to Π = -/ mN m 17 18 and Φ = % 40 more week dependence is found at higher pressures. a saturation value is reached for Π &gt; / mN m 30 . The dashed line is a guide to the eye; error bars report standard deviation over several (≥5) images of different regions. (e) Mean radius R of the disks, measured as a function of Φ for different values of the NP sizes. Error bars report standard deviations over several observations.</figDesc><graphic coords="4,155.64,46.50,396.00,236.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 . 1 S</head><label>41</label><figDesc>Figure 4. At low Φ, Brownian diffusion of the domains in the Hughes regime is observed and the coefficient D S scales with /R 1 , as expected in Hughes model. At higher Φ, D S becomes R-independent, a subdiffusive trend emerges at intermediate time, followed by a super-diffusive regime. This indicates a transition to an arrested state. (a) ( ) x t 2 grows linearly in time at Φ = % 31 , indicating diffusive dynamics (black solid line). At higher concentration(Φ = %, % 45 52 ) the linear trend holds up to t s 1 . For &gt; t s 1 we find a sub-diffusive regime (m &lt; 1, black dash-dot line), followed by a super-diffusive trend (m &gt; 1, black dashed line). These values for ( ) x t 2 come from an average on starting time t 0 and on all the domains having the same radius ( = . ± . µm R 3 5 0 2 ) in the field of view; color regions indicate standard deviations calculated over the ensemble. (b) Average values for the diffusion coefficient D S (describing the diffusion regime found at &lt; t s 1 ) are reported as a function of 1/R. Error bars are standard deviation. At Φ = . % 30 6 we find ∝ / D R 1 S , in agreement with Hughes model, (eq. (3), dotted line), while at higher values of Φ this relation breaks.</figDesc><graphic coords="5,155.64,46.50,240.00,306.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 . 4 .r m 2 01;</head><label>542</label><figDesc>Figure 5. (a) Self part of the Van Hove Correlation functions of the trajectories reported in Fig. 2, calculated for ∆ = t s 4 , for increasing values of Φ. The values of ∆t is chosen to correspond to the sub-diffusive trend of the mean square displacement found at high Φ. At Φ = % 31 the data points lie on a Gaussian curve (dashed line), compatible with Brownian diffusion. At higher concentration, the distribution develops tails that are broader than in a Gaussian, indicating more frequent occurrence of long-range jumps. This is in agreement with the dynamical arrest picture. (b) The average value of the projection x 12 of a step  r 12 along the direction of the previous step  r 01 is reported as a function of the size r 01 of the first step. Steps have been measured at Φ = % 52 over time interval ∆ = t s 4 . The data follows a linear decrease (dashed line) which implies anticorrelation between the first and second step: this happens when one of the tracked object hits the "cage" of the surrounding neighbors and is pushed back towards the previous position. A deviation from the linear trend is observed for µ = r m 2 01; this length corresponds to the size of the "cage". The inset shows a typical trajectory measured at Φ = % 52 ; the trajectory presents clusters of positions that are roughly µm 2 in size. (c) Displacements of three different objects measured at Φ = . % 52 4 , reported as a function of time. They present long periods of short range movements around a stationary position, followed by sudden jumps. Black lines highlight the time intervals between successive jumps. (d) Histogram of temporal intensity fluctuations of the Fourier transform of successive images for two values of Φ with respect to the time-averaged value, measured at µ = .</figDesc><graphic coords="7,155.64,46.50,396.00,306.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 . 1 ;</head><label>61</label><figDesc>Figure 6. Diffusive dynamics is observed by XPCS at low concentration and up to  Φ % 40 . As Φ grows we find an intermediate regime of caged diffusion, with relaxation times growing with Φ. For  Φ -% 48 50 (vertical line) an arrested regime is reached, in which the only surviving motions are intermittent rearrangements.(a) On the left axis, we report τ (Φ) eff</figDesc><graphic coords="8,155.64,46.50,240.00,300.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>τ</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7 Q 2 )</head><label>72</label><figDesc>summarizes all the results obtained by the different techniques operating in real and momentum space, by putting them on a log-log scale in which position and momentum (related by = π d are on the horizontal axis, while times and frequencies ( ) ν = t 1 are in the vertical axis. Relaxation times obtained from MT are circles, XPCS are triangles of different color for different concentrations as indicated in the caption, and DFM are colored squares.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Comparison of the techniques: green and pink areas correspond to the domains of Microscopy and XPCS respectively; the framed region is covered by the present experiments, while generally accessible region is indicated by the larger shadowed area. The yellow area is the overlap. We report XPCS relaxation times τ eff (colored triangle) and DFM times (squares) as a function of Q, and MT times as function of displacements (circles). The diffusive regime, τ -~Q 2 is the steeper dashed line, while the arrested regime, τ -~Q 1 is the less steep dashed line. Correspondent frequencies ν = /τ 1 and distances = π/ d 2 Q are reported on right and top axes for clarity. Note at each given concentration the good overlap of the results obtained by the different techniques.</figDesc><graphic coords="10,155.64,46.50,216.00,173.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. The different dynamical regimes discussed in the paper, Ballistic regime, Brownian diffusion and Intermittent Cooperative Rearrangements occupy different region in the space of parameters. The data measured by XPCS ( µ = -Q m 14</figDesc><graphic coords="11,155.64,46.50,216.00,162.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>〈</head><figDesc>( )〉 = 〈 ( ( + ) -( + )) -( ( ) -( )) 〉</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><figDesc>and efficient multi-tau algorithm coded in Matlab.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Scientific RepoRts | 5:17930 | DOI: 10.1038/srep17930</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_1"><p>, the same as in Fig.5) are reported as filled symbols. The color of each point is chosen to represent the corresponding value of Φ at which it has been measured.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We acknowledge <rs type="programName">COST</rs> Actions <rs type="grantNumber">CM1101</rs> and <rs type="grantNumber">MP1106</rs>, <rs type="funder">Fondazione Cariparma (Parma, Italy)</rs> and the <rs type="funder">Italian Institute of Technology</rs> (project <rs type="projectName">Seed NIPS -Nanoparticle Impact</rs> on Pulmonary Surfactant interfacial properties) for financial support. The <rs type="funder">ESRF</rs> is gratefully acknowledged for provision of beam time; <rs type="person">Karim Lhoste</rs> (<rs type="affiliation">ESRF, ID10</rs>) for technical support during XPCS experiments.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_eX9674h">
+					<idno type="grant-number">CM1101</idno>
+					<orgName type="program" subtype="full">COST</orgName>
+				</org>
+				<org type="funding" xml:id="_KEkPEtH">
+					<idno type="grant-number">MP1106</idno>
+				</org>
+				<org type="funded-project" xml:id="_7e9DqKb">
+					<orgName type="project" subtype="full">Seed NIPS -Nanoparticle Impact</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional Information</head><p>Supplementary information accompanies this paper at <ref type="url" target="http://www.nature.com/srep">http://www.nature.com/srep</ref> Competing financial interests: The authors declare no competing financial interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Colloidal Particles at Liquid Interfaces: An Introduction</title>
+		<author>
+			<persName><forename type="first">Bernard</forename><forename type="middle">P</forename><surname>Binks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tommy</forename><forename type="middle">S</forename><surname>Horozov</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/cbo9780511536670.002</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Colloidal Particles at Liquid Interfaces</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2006-08-17">2006</date>
+			<biblScope unit="page" from="1" to="74" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Binks B. P. &amp; Horozov T. S. Colloidal Particles at Liquid Interfaces. (Cambridge University Press, 2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Materials Fabricated by Micro‐ and Nanoparticle Assembly – The Challenging Path from Science to Engineering</title>
+		<author>
+			<persName><forename type="first">Orlin</forename><forename type="middle">D</forename><surname>Velev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shalini</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.200801837</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="1897" to="1905" />
+			<date type="published" when="2009-05-12">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Velev, O. D. &amp; Gupta, S. Materials Fabricated by Micro-and Nanoparticle Assembly -The Challenging Path from Science to Engineering. Adv. Mater. 21, 1897-1905 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Colloidosomes: Selectively Permeable Capsules Composed of Colloidal Particles</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Dinsmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><forename type="middle">F</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Nikolaides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manuel</forename><surname>Marquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bausch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1074868</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="issue">5595</biblScope>
+			<biblScope unit="page" from="1006" to="1009" />
+			<date type="published" when="2002-11">2002</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dinsmore, A. D. Colloidosomes: Selectively Permeable Capsules Composed of Colloidal Particles. Science (80-.). 298, 1006-1009 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Colloidosomes: Versatile microcapsules in perspective</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Rossier-Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G P H</forename><surname>Schroën</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Boom</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfa.2009.01.027</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids and Surfaces A: Physicochemical and Engineering Aspects</title>
+		<title level="j" type="abbrev">Colloids and Surfaces A: Physicochemical and Engineering Aspects</title>
+		<idno type="ISSN">0927-7757</idno>
+		<imprint>
+			<biblScope unit="volume">343</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="43" to="49" />
+			<date type="published" when="2009-07">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rossier-Miranda, F. J., Schroën, C. G. P. H. &amp; Boom, R. M. Colloidosomes: Versatile microcapsules in perspective. Colloids Surfaces A Physicochem. Eng. Asp. 343, 43-49 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Assembly of Graphene Oxide at Water/Oil Interfaces: Tessellated Nanotiles</title>
+		<author>
+			<persName><forename type="first">Zhiwei</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">P</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la402436w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">44</biblScope>
+			<biblScope unit="page" from="13407" to="13413" />
+			<date type="published" when="2013-10-24">2013</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sun, Z., Feng, T. &amp; Russell, T. P. Assembly of Graphene Oxide at Water/Oil Interfaces: Tessellated Nanotiles. Langmuir 29, 13407-13413 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Controlled Fabrication of Hexagonally Close-Packed Langmuir–Blodgett Silica Particulate Monolayers from Binary Surfactant and Solvent Systems</title>
+		<author>
+			<persName><forename type="first">Yudi</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongyan</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yunchen</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Binbin</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la3049218</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2849" to="2858" />
+			<date type="published" when="2013-02-20">2013</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo, Y., Tang, D., Du, Y. &amp; Liu, B. Controlled Fabrication of Hexagonally Close-Packed Langmuir-Blodgett Silica Particulate Monolayers from Binary Surfactant and Solvent Systems. Langmuir 29, 2849-2858 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Prospects of Colloidal Nanocrystals for Electronic and Optoelectronic Applications</title>
+		<author>
+			<persName><forename type="first">Dmitri</forename><forename type="middle">V</forename><surname>Talapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jong-Soo</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maksym</forename><forename type="middle">V</forename><surname>Kovalenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elena</forename><forename type="middle">V</forename><surname>Shevchenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cr900137k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Reviews</title>
+		<title level="j" type="abbrev">Chem. Rev.</title>
+		<idno type="ISSN">0009-2665</idno>
+		<idno type="ISSNe">1520-6890</idno>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="389" to="458" />
+			<date type="published" when="2010">2010</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Talapin, D. V., Lee, J.-S., Kovalenko, M. V. &amp; Shevchenko, E. V. Prospects of colloidal nanocrystals for electronic and optoelectronic applications. Chem. Rev. 110, 389-458 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Antibacterial properties of nanoparticles</title>
+		<author>
+			<persName><forename type="first">Mohammad</forename><forename type="middle">J</forename><surname>Hajipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katharina</forename><forename type="middle">M</forename><surname>Fromm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Akbar Ashkarran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dorleta</forename><surname>Jimenez De Aberasturi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Idoia</forename><forename type="middle">Ruiz De</forename><surname>Larramendi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Teofilo</forename><surname>Rojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vahid</forename><surname>Serpooshan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><forename type="middle">J</forename><surname>Parak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Morteza</forename><surname>Mahmoudi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tibtech.2012.06.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Biotechnology</title>
+		<title level="j" type="abbrev">Trends in Biotechnology</title>
+		<idno type="ISSN">0167-7799</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="499" to="511" />
+			<date type="published" when="2012-10">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hajipour, M. J. et al. Antibacterial properties of nanoparticles. Trends Biotechnol. 30, 499-511 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Solid-stabilized emulsions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leal-Calderon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Schmitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cocis.2007.09.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Colloid &amp; Interface Science</title>
+		<title level="j" type="abbrev">Current Opinion in Colloid &amp; Interface Science</title>
+		<idno type="ISSN">1359-0294</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="217" to="227" />
+			<date type="published" when="2008-08">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leal-Calderon, F. &amp; Schmitt, V. Solid-stabilized emulsions. Curr. Opin. Colloid Interface Sci. 13, 217-227 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Materials from foams and emulsions stabilized by colloidal particles</title>
+		<author>
+			<persName><forename type="first">André</forename><forename type="middle">R</forename><surname>Studart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Urs</forename><forename type="middle">T</forename><surname>Gonzenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilke</forename><surname>Akartuna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elena</forename><surname>Tervoort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ludwig</forename><forename type="middle">J</forename><surname>Gauckler</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b703255b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Chemistry</title>
+		<title level="j" type="abbrev">J. Mater. Chem.</title>
+		<idno type="ISSN">0959-9428</idno>
+		<idno type="ISSNe">1364-5501</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">31</biblScope>
+			<biblScope unit="page">3283</biblScope>
+			<date type="published" when="2007">2007</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Studart, A. R., Gonzenbach, U. T., Akartuna, I., Tervoort, E. &amp; Gauckler, L. J. Materials from foams and emulsions stabilized by colloidal particles. J. Mater. Chem. 17, 3283 (2007).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Role of Thermodynamic, Molecular, and Kinetic Factors in Crystallization from the Amorphous State</title>
+		<author>
+			<persName><forename type="first">Chandan</forename><surname>Bhugra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Pikal</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jps.21138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Pharmaceutical Sciences</title>
+		<title level="j" type="abbrev">Journal of Pharmaceutical Sciences</title>
+		<idno type="ISSN">0022-3549</idno>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1329" to="1349" />
+			<date type="published" when="2008-04">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bhugra, C. &amp; Pikal, M. J. Role of thermodynamic, molecular, and kinetic factors in crystallization from the amorphous state. J. Pharm. Sci. 97, 1329-1349 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Coupling of Caged Molecule Dynamics to JG β-Relaxation: I</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Capaccioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Ngai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Shahin</forename><surname>Thayyil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Prevosto</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.jpcb.5b04408</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry B</title>
+		<title level="j" type="abbrev">J. Phys. Chem. B</title>
+		<idno type="ISSN">1520-6106</idno>
+		<idno type="ISSNe">1520-5207</idno>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="8800" to="8808" />
+			<date type="published" when="2015-07-07">2015</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Capaccioli, S., Ngai, K. L., Thayyil, M. S. &amp; Prevosto, D. Coupling of Caged Molecule Dynamics to JG β -Relaxation: I. J. Phys. Chem. B 119, 8800-8808 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Dynamics of a colloid-stabilized cream</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Herzig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Van ’t Zand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Pusey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Clegg</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.79.011405</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">11405</biblScope>
+			<date type="published" when="2009-01-22">2009</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herzig, E. M. et al. Dynamics of a colloid-stabilized cream. Phys. Rev. E 79, 011405 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Delivery of Small Interfering RNA by Peptide-Targeted Mesoporous Silica Nanoparticle-Supported Lipid Bilayers</title>
+		<author>
+			<persName><forename type="first">Carlee</forename><forename type="middle">E</forename><surname>Ashley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">C</forename><surname>Carnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katharine</forename><forename type="middle">E</forename><surname>Epler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">P</forename><surname>Padilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Genevieve</forename><forename type="middle">K</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">E</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dan</forename><forename type="middle">C</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">S</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cameron</forename><forename type="middle">A</forename><surname>Burgard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robin</forename><forename type="middle">M</forename><surname>Kalinich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><forename type="middle">L</forename><surname>Townson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bryce</forename><surname>Chackerian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cheryl</forename><forename type="middle">L</forename><surname>Willman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">S</forename><surname>Peabody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Walker</forename><surname>Wharton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Jeffrey</forename><surname>Brinker</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn204102q</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2174" to="2188" />
+			<date type="published" when="2012-02-14">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ashley, C. E. et al. Delivery of small interfering RNA by peptide-targeted mesoporous silica nanoparticle-supported lipid bilayers. ACS Nano 6, 2174-88 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Silica–lipid hybrid (SLH) formulations enhance the oral bioavailability and efficacy of celecoxib: An in vivo evaluation</title>
+		<author>
+			<persName><forename type="first">Tri-Hung</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angel</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leilani</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Devi</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glenn</forename><forename type="middle">A</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">J H</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clive</forename><forename type="middle">A</forename><surname>Prestidge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><forename type="middle">J</forename><surname>Boyd</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jconrel.2013.01.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Controlled Release</title>
+		<title level="j" type="abbrev">Journal of Controlled Release</title>
+		<idno type="ISSN">0168-3659</idno>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="85" to="91" />
+			<date type="published" when="2013-04">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nguyen, T. -H. et al. Silica-lipid hybrid (SLH) formulations enhance the oral bioavailability and efficacy of celecoxib: An in vivo evaluation. J. Control. Release 167, 85-91 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Encapsulation of Yeast Cells in Colloidosomes</title>
+		<author>
+			<persName><forename type="first">Polly</forename><forename type="middle">H R</forename><surname>Keen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nigel</forename><forename type="middle">K H</forename><surname>Slater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">F</forename><surname>Routh</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la204183u</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1169" to="1174" />
+			<date type="published" when="2012">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keen, P. H. R., Slater, N. K. H. &amp; Routh, A. F. Encapsulation of Yeast Cells in Colloidosomes. Langmuir 28, 1169-1174 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Understanding nanoparticle cellular entry: A physicochemical perspective</title>
+		<author>
+			<persName><forename type="first">Charlotte</forename><forename type="middle">M</forename><surname>Beddoes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Patrick</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wuge</forename><forename type="middle">H</forename><surname>Briscoe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cis.2015.01.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Colloid and Interface Science</title>
+		<title level="j" type="abbrev">Advances in Colloid and Interface Science</title>
+		<idno type="ISSN">0001-8686</idno>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="48" to="68" />
+			<date type="published" when="2015-04">2015</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beddoes, C. M., Case, C. P. &amp; Briscoe, W. H. Understanding nanoparticle cellular entry: A physicochemical perspective. Adv. Colloid Interface Sci. 218, 48-68 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Interfacial properties of pulmonary surfactant layers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wüstneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wüstneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Fainerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pison</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cis.2005.05.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Colloid and Interface Science</title>
+		<title level="j" type="abbrev">Advances in Colloid and Interface Science</title>
+		<idno type="ISSN">0001-8686</idno>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="33" to="58" />
+			<date type="published" when="2005-12">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wüstneck, R. et al. Interfacial properties of pulmonary surfactant layers. Adv. Colloid Interface Sci. 117, 33-58 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Influence of silica nanoparticles on dilational rheology of DPPC–palmitic acid Langmuir monolayers</title>
+		<author>
+			<persName><forename type="first">Eduardo</forename><surname>Guzmán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Libero</forename><surname>Liggieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eva</forename><surname>Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michele</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Ravera</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c2sm07097a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">3938</biblScope>
+			<date type="published" when="2012">2012</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guzmán, E., Liggieri, L., Santini, E., Ferrari, M. &amp; Ravera, F. Influence of silica nanoparticles on dilational rheology of DPPC-palmitic acid Langmuir monolayers. Soft Matter 8, 3938 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of Hydrophilic and Hydrophobic Nanoparticles on the Surface Pressure Response of DPPC Monolayers</title>
+		<author>
+			<persName><forename type="first">Eduardo</forename><surname>Guzmán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Libero</forename><surname>Liggieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eva</forename><surname>Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michele</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Ravera</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp207713x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<title level="j" type="abbrev">J. Phys. Chem. C</title>
+		<idno type="ISSN">1932-7447</idno>
+		<idno type="ISSNe">1932-7455</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">44</biblScope>
+			<biblScope unit="page" from="21715" to="21722" />
+			<date type="published" when="2011-10-17">2011</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guzmán, E., Liggieri, L., Santini, E., Ferrari, M. &amp; Ravera, F. Effect of Hydrophilic and Hydrophobic Nanoparticles on the Surface Pressure Response of DPPC Monolayers. J. Phys. Chem. C 115, 21715-21722 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Microdynamics and arrest of coarsening during spinodal decomposition in thermoreversible colloidal gels</title>
+		<author>
+			<persName><forename type="first">Yongxiang</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juntae</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><forename type="middle">E</forename><surname>Helgeson</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c5sm00851d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">32</biblScope>
+			<biblScope unit="page" from="6360" to="6370" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gao, Y., Kim, J. &amp; Helgeson, M. E. Microdynamics and arrest of coarsening during spinodal decomposition in thermoreversible colloidal gels. Soft Matter 11, 6360-6370 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Phospholipid and Phospholipid-Protein Monolayers at the Air/Water Interface</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Möhwald</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.pc.41.100190.002301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Physical Chemistry</title>
+		<title level="j" type="abbrev">Annu. Rev. Phys. Chem.</title>
+		<idno type="ISSN">0066-426X</idno>
+		<idno type="ISSNe">1545-1593</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="441" to="476" />
+			<date type="published" when="1990-10">1990</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Möhwald, H. Phospholipid and phospholipid-protein monolayers at the air/water interface. Annu. Rev. Phys. Chem. 41, 441-476 (1990).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">DPPC–DOPC Langmuir monolayers modified by hydrophilic silica nanoparticles: Phase behaviour, structure and rheology</title>
+		<author>
+			<persName><forename type="first">Eduardo</forename><surname>Guzmán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Libero</forename><surname>Liggieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eva</forename><surname>Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michele</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Ravera</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.colsurfa.2011.12.059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Colloids and Surfaces A: Physicochemical and Engineering Aspects</title>
+		<title level="j" type="abbrev">Colloids and Surfaces A: Physicochemical and Engineering Aspects</title>
+		<idno type="ISSN">0927-7757</idno>
+		<imprint>
+			<biblScope unit="volume">413</biblScope>
+			<biblScope unit="page" from="174" to="183" />
+			<date type="published" when="2012-11">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guzmán, E., Liggieri, L., Santini, E., Ferrari, M. &amp; Ravera, F. DPPC-DOPC Langmuir monolayers modified by hydrophilic silica nanoparticles: Phase behaviour, structure and rheology. Colloids Surfaces A Physicochem. Eng. Asp. 413, 174-183 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Interactions of Benzo[&lt;italic&gt;a&lt;/italic&gt;]pyrene and Diesel Exhaust Particulate Matter with the Lung Surfactant System</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Sosnowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koliński</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gradón</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/annhyg/mer007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Annals of Occupational Hygiene</title>
+		<idno type="ISSNe">1475-3162</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="329" to="338" />
+			<date type="published" when="2011-04">2011</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sosnowski, T. R., Koliński, M. &amp; Gradón, L. Interactions of benzo[a]pyrene and diesel exhaust particulate matter with the lung surfactant system. Ann. Occup. Hyg. 55, 329-38 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Nanoparticle interaction with model lung surfactant monolayers</title>
+		<author>
+			<persName><forename type="first">Rakesh</forename><forename type="middle">Kumar</forename><surname>Harishchandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammed</forename><surname>Saleem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans-Joachim</forename><surname>Galla</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsif.2009.0329.focus</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of The Royal Society Interface</title>
+		<title level="j" type="abbrev">J. R. Soc. Interface.</title>
+		<idno type="ISSN">1742-5689</idno>
+		<idno type="ISSNe">1742-5662</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">suppl_1</biblScope>
+			<biblScope unit="page" from="15" to="26" />
+			<date type="published" when="2010">2010</date>
+			<publisher>The Royal Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harishchandra, R. K., Saleem, M. &amp; Galla, H. -J. Nanoparticle interaction with model lung surfactant monolayers. J. R. Soc. Interface 7 Suppl 1, S15-26 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Two-Dimensional DPPC Based Emulsion-like Structures Stabilized by Silica Nanoparticles</title>
+		<author>
+			<persName><forename type="first">Eduardo</forename><surname>Guzmán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigi</forename><surname>Cristofolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Libero</forename><surname>Liggieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Ravera</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la502183t</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">39</biblScope>
+			<biblScope unit="page" from="11504" to="11512" />
+			<date type="published" when="2014-09-25">2014</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guzmán, E., Orsi, D., Cristofolini, L., Liggieri, L. &amp; Ravera, F. Two-Dimensional DPPC Based Emulsion-like Structures Stabilized by Silica Nanoparticles. Langmuir 30, 11504-12 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Jamming is not just cool any more</title>
+		<author>
+			<persName><forename type="first">Andrea</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sidney</forename><forename type="middle">R</forename><surname>Nagel</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/23819</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">396</biblScope>
+			<biblScope unit="issue">6706</biblScope>
+			<biblScope unit="page" from="21" to="22" />
+			<date type="published" when="1998-11">1998</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, A. J. &amp; Nagel, S. R. Nonlinear dynamics: Jamming is not just cool any more. Nature 396, 21-22 (1998).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Dynamic Light Scattering</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Berne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pecora</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Dover</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berne, B. &amp; Pecora, R. Dynamic Light Scattering. (Dover, New York, 2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Slow dynamics in an azopolymer molecular layer studied by x-ray photon correlation spectroscopy</title>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luigi</forename><surname>Cristofolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><forename type="middle">P</forename><surname>Fontana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emanuele</forename><surname>Pontecorvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Caronna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrei</forename><surname>Fluerasu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Federico</forename><surname>Zontone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.82.031804</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">31804</biblScope>
+			<date type="published" when="2010-09-23">2010</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orsi, D. et al. Slow dynamics in an azopolymer molecular layer studied by x-ray photon correlation spectroscopy. Phys. Rev. E 82, 031804 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">XPCS: Nanoscale motion and rheology</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">L X P C S</forename><surname>Leheny</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cocis.2011.11.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Colloid &amp; Interface Science</title>
+		<title level="j" type="abbrev">Current Opinion in Colloid &amp; Interface Science</title>
+		<idno type="ISSN">1359-0294</idno>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="12" />
+			<date type="published" when="2012-02">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leheny, R. L. X. P. C. S.: Nanoscale motion and rheology. Curr. Opin. Colloid Interface Sci. 17, 3-12 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Dichotomic aging behaviour in a colloidal glass</title>
+		<author>
+			<persName><forename type="first">Roberta</forename><surname>Angelini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Zulian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrei</forename><surname>Fluerasu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giancarlo</forename><surname>Ruocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Ruzicka</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3sm52173g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">46</biblScope>
+			<biblScope unit="page">10955</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Angelini, R. et al. Dichotomic aging behaviour in a colloidal glass. Soft Matter 9, 10955 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Silica nanoparticles as tracers of the gelation dynamics of a natural biopolymer physical gel</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ruta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Czakkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chushkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nervo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zontone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rinaudo</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c4sm00704b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page">4547</biblScope>
+			<date type="published" when="2014">2014</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ruta, B. et al. Silica nanoparticles as tracers of the gelation dynamics of a natural biopolymer physical gel. Soft Matter 10, 4547-4554 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Slow dynamics and internal stress relaxation in bundled cytoskeletal networks</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lieleg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kayser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brambilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bausch</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat2939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="236" to="242" />
+			<date type="published" when="2011-01-09">2011</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lieleg, O., Kayser, J., Brambilla, G. &amp; Cipelletti, L. &amp; Bausch, a R. Slow dynamics and internal stress relaxation in bundled cytoskeletal networks. Nat. Mater. 10, 236-242 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Interfacial microrheology: Particle tracking and related techniques</title>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hernán</forename><surname>Ritacco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ramón</forename><forename type="middle">G</forename><surname>Rubio</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cocis.2010.03.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Colloid &amp; Interface Science</title>
+		<title level="j" type="abbrev">Current Opinion in Colloid &amp; Interface Science</title>
+		<idno type="ISSN">1359-0294</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="237" to="245" />
+			<date type="published" when="2010-08">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ortega, F., Ritacco, H. &amp; Rubio, R. G. Interfacial microrheology: Particle tracking and related techniques. Curr. Opin. Colloid Interface Sci. 15, 237-245 (2010).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The translational and rotational drag on a cylinder moving in a membrane</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Pailthorpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>White</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0022112081000785</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Fluid Mechanics</title>
+		<title level="j" type="abbrev">J. Fluid Mech.</title>
+		<idno type="ISSN">0022-1120</idno>
+		<idno type="ISSNe">1469-7645</idno>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="349" to="372" />
+			<date type="published" when="2006">2006</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hughes, B. D., Pailthorpe, B. A. &amp; White, L. R. The translational and rotational drag on a cylinder moving in a membrane. J. Fluid Mech. 110, 349 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Brownian motion and fluid mechanics of lipid monolayer domains</title>
+		<author>
+			<persName><forename type="first">Jurgen</forename><forename type="middle">F</forename><surname>Klingler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harden</forename><forename type="middle">M</forename><surname>Mcconnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/j100124a052</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry</title>
+		<title level="j" type="abbrev">J. Phys. Chem.</title>
+		<idno type="ISSN">0022-3654</idno>
+		<idno type="ISSNe">1541-5740</idno>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="6096" to="6100" />
+			<date type="published" when="1993-06">1993</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klingler, J. &amp; McConnell, H. M. Brownian motion and fluid mechanics of lipid monolayer domains. J. Phys. Chem. 2, 6096-6100 (1993).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Brownian motion in biological membranes.</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Saffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delbrück</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.72.8.3111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3111" to="3113" />
+			<date type="published" when="1975-08">1975</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saffman, P. G. &amp; Delbrück, M. Brownian motion in biological membranes. Proc. Natl. Acad. Sci. USA 72, 3111-3 (1975).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The origin of anomalous diffusion and non-Gaussian effects for hard spheres: analysis of three-time correlations</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Doliwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heuer</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/11/10a/025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Condensed Matter</title>
+		<title level="j" type="abbrev">J. Phys.: Condens. Matter</title>
+		<idno type="ISSN">0953-8984</idno>
+		<idno type="ISSNe">1361-648X</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">10A</biblScope>
+			<biblScope unit="page" from="A277" to="A283" />
+			<date type="published" when="1999-01-01">1999</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doliwa, B. &amp; Heuer, A. Origin of Anomalous Diffusion and Non-Gaussian Effects for Hard Spheres: Analysis of Three-Time Correlations. 2, 1-5 (1999).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Boon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Molecular</forename><surname>Yip</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hydrodynamics</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+			<publisher>Dover Pubblications</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boon, J. P. &amp; Yip, S. Molecular Hydrodynamics. (Dover Pubblications, New York, 1980)</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Subdiffusion and the cage effect studied near the colloidal glass transition</title>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">R</forename><surname>Weeks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0301-0104(02)00667-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Physics</title>
+		<title level="j" type="abbrev">Chemical Physics</title>
+		<idno type="ISSN">0301-0104</idno>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="361" to="367" />
+			<date type="published" when="2002-11">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weeks, E. R. &amp; Weitz, D. A. Subdiffusion and the cage effect studied near the colloidal glass transition. Chem. Phys. 284, 361-367 (2002).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Synchrotron X-ray techniques for the investigation of structures and dynamics in interfacial systems</title>
+		<author>
+			<persName><forename type="first">Luigi</forename><surname>Cristofolini</surname></persName>
+			<idno type="ORCID">0000-0003-2440-4934</idno>
+		</author>
+		<idno type="DOI">10.1016/j.cocis.2014.03.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Colloid &amp; Interface Science</title>
+		<title level="j" type="abbrev">Current Opinion in Colloid &amp; Interface Science</title>
+		<idno type="ISSN">1359-0294</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="228" to="241" />
+			<date type="published" when="2014-06">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cristofolini, L. Synchrotron X-ray techniques for the investigation of structures and dynamics in interfacial systems. Curr. Opin. Colloid Interface Sci. 19, 228-241 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">X‐ray Photon Correlation Spectroscopy Studies of Surfaces and Thin Films</title>
+		<author>
+			<persName><forename type="first">Sunil</forename><forename type="middle">K</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhang</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurence</forename><forename type="middle">B</forename><surname>Lurio</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201401094</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">46</biblScope>
+			<biblScope unit="page" from="7764" to="7785" />
+			<date type="published" when="2014-09-18">2014</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sinha, S. K., Jiang, Z. &amp; Lurio, L. B. X-ray Photon Correlation Spectroscopy Studies of Surfaces and Thin Films. Adv. Mater. 7764-7785 (2014). doi: 10.1002/adma.201401094</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Digital Fourier microscopy for soft matter dynamics</title>
+		<author>
+			<persName><forename type="first">Fabio</forename><surname>Giavazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><surname>Cerbino</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2040-8978/16/8/083001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Optics</title>
+		<title level="j" type="abbrev">J. Opt.</title>
+		<idno type="ISSN">2040-8978</idno>
+		<idno type="ISSNe">2040-8986</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">083001</biblScope>
+			<date type="published" when="2014-08-01">2014</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giavazzi, F. &amp; Cerbino, R. Digital Fourier microscopy for soft matter dynamics. J. Opt. 16, 083001 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Spatially: resolved heterogeneous dynamics in a strong colloidal gel</title>
+		<author>
+			<persName><forename type="first">Stefano</forename><surname>Buzzaccaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><forename type="middle">David</forename><surname>Alaimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eleonora</forename><surname>Secchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><surname>Piazza</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/27/19/194120</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Condensed Matter</title>
+		<title level="j" type="abbrev">J. Phys.: Condens. Matter</title>
+		<idno type="ISSN">0953-8984</idno>
+		<idno type="ISSNe">1361-648X</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">194120</biblScope>
+			<date type="published" when="2015-04-29">2015</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buzzaccaro, S., Alaimo, M. D., Secchi, E. &amp; Piazza, R. Spatially: resolved heterogeneous dynamics in a strong colloidal gel. J. Phys. Condens. Matter 27, 194120 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Heterogeneous and Anisotropic Dynamics of a 2D Gel</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cristofolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Baldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.108.105701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">105701</biblScope>
+			<date type="published" when="2012-03-09">2012</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orsi, D., Cristofolini, L., Baldi, G. &amp; Madsen, A. Heterogeneous and anisotropic dynamics of a 2D Gel. Phys. Rev. Lett. 108, 105701 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Entanglement-Controlled Subdiffusion of Nanoparticles within Concentrated Polymer Solutions</title>
+		<author>
+			<persName><forename type="first">Hongyu</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gilles</forename><surname>Bourret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Bruce</forename><surname>Lennox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">L</forename><surname>Harden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Leheny</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.109.055901</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">55901</biblScope>
+			<date type="published" when="2012-08-02">2012</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo, H. et al. Entanglement-Controlled Subdiffusion of Nanoparticles within Concentrated Polymer Solutions. Phys. Rev. Lett. 109, 055901 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Dynamics of Nanoparticles in a Supercooled Liquid</title>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Caronna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuriy</forename><surname>Chushkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Cupane</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.100.055702</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="8" to="11" />
+			<date type="published" when="2008-02-08">2008</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caronna, C., Chushkin, Y., Madsen, A. &amp; Cupane, A. Dynamics of Nanoparticles in a Supercooled Liquid. Phys. Rev. Lett. 055702, 8-11 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Anomalous dynamical light scattering in soft glassy gels</title>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Bouchaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pitard</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s101890170005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The European Physical Journal E</title>
+		<idno type="ISSN">1292-8941</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="231" to="236" />
+			<date type="published" when="2001-11">2001</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bouchaud, J.-P. &amp; Pitard, E. Anomalous dynamical light scattering in soft glassy gels. Eur. Phys. J. E 6, 231-236 (2001).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Length scale dependence of dynamical heterogeneity in a colloidal fractal gel</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Duri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<idno type="DOI">10.1209/epl/i2006-10357-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Europhysics Letters (EPL)</title>
+		<title level="j" type="abbrev">Europhys. Lett.</title>
+		<idno type="ISSN">0295-5075</idno>
+		<idno type="ISSNe">1286-4854</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="972" to="978" />
+			<date type="published" when="2006-12">2006</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duri, A. &amp; Cipelletti, L. Length scale dependence of dynamical heterogeneity in a colloidal fractal gel. Europhys. Lett. 76, 972-978 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Controlling the dynamics of a bidimensional gel above and below its percolation transition</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Orsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ruta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chushkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ruggeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Baldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rimoldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cristofolini</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreve.89.042308</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<title level="j" type="abbrev">Phys. Rev. E</title>
+		<idno type="ISSN">1539-3755</idno>
+		<idno type="ISSNe">1550-2376</idno>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">42308</biblScope>
+			<date type="published" when="2014-04-25">2014</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orsi, D. et al. Controlling the dynamics of a bidimensional gel above and below its percolation transition. Phys. Rev. E 89, 042308 (2014).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Atomic-Scale Relaxation Dynamics and Aging in a Metallic Glass Probed by X-Ray Photon Correlation Spectroscopy</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ruta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chushkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Monaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cipelletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pineda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bruna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gonzalez-Silveira</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.109.165701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page">165701</biblScope>
+			<date type="published" when="2012-10-17">2012</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ruta, B. et al. Atomic-Scale Relaxation Dynamics and Aging in a Metallic Glass Probed by X-Ray Photon Correlation Spectroscopy. Phys. Rev. Lett. 109, 165701 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Viscosity of Two-Dimensional Suspensions</title>
+		<author>
+			<persName><forename type="first">Junqi</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heidi</forename><forename type="middle">E</forename><surname>Warriner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joseph</forename><forename type="middle">A</forename><surname>Zasadzinski</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.88.168102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="16" to="19" />
+			<date type="published" when="2002-04-08">2002</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ding, J., Warriner, H. &amp; Zasadzinski, J. Viscosity of two-dimensional suspensions. Phys. Rev. Lett. 16-19 (2002). doi: 10.1103/ PhysRevLett.88.168102</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Direct comparison of the rheology of model hard and soft particle glasses</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koumakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pamvouxoglou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Poulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Petekidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c2sm07113d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Matter</title>
+		<title level="j" type="abbrev">Soft Matter</title>
+		<idno type="ISSN">1744-683X</idno>
+		<idno type="ISSNe">1744-6848</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">4271</biblScope>
+			<date type="published" when="2012">2012</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koumakis, N., Pamvouxoglou, a., Poulos, a. S. &amp; Petekidis, G. Direct comparison of the rheology of model hard and soft particle glasses. Soft Matter 8, 4271 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Dynamic Heterogeneity in Amorphous Materials</title>
+		<author>
+			<persName><forename type="first">Ludovic</forename><surname>Berthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physics.4.42</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physics</title>
+		<title level="j" type="abbrev">Physics</title>
+		<idno type="ISSNe">1943-2879</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2011-05-31">2011</date>
+			<publisher>American Physical Society (APS)</publisher>
+			<pubPlace>College. Park. Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berthier, L. Dynamic heterogeneity in amorphous materials. Physics (College. Park. Md). 4, (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Dynamical Heterogeneity Close to the Jamming Transition in a Sheared Granular Material</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Dauchot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Biroli</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.95.265701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page">265701</biblScope>
+			<date type="published" when="2005-12-27">2005</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dauchot, O., Marty, G. &amp; Biroli, G. Dynamical Heterogeneity Close to the Jamming Transition in a Sheared Granular Material. Phys. Rev. Lett. 95, 265701 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Three-Dimensional Direct Imaging of Structural Relaxation Near the Colloidal Glass Transition</title>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">R</forename><surname>Weeks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Crocker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">C</forename><surname>Levitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Schofield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Weitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.287.5453.627</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="issue">5453</biblScope>
+			<biblScope unit="page" from="627" to="631" />
+			<date type="published" when="2000-01-28">2000</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weeks, E. R., Crocker, J. C., Levitt, A. C., Schofield, A. &amp; Weitz, D. A. Three-Dimensional Direct Imaging of Structural Relaxation Near the Colloidal Glass Transition. Science (80-.). 287, 627-631 (2000).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Static and Dynamic Errors in Particle Tracking Microrheology</title>
+		<author>
+			<persName><forename type="first">Thierry</forename><surname>Savin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patrick</forename><forename type="middle">S</forename><surname>Doyle</surname></persName>
+		</author>
+		<idno type="DOI">10.1529/biophysj.104.042457</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophysical Journal</title>
+		<title level="j" type="abbrev">Biophysical Journal</title>
+		<idno type="ISSN">0006-3495</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="623" to="638" />
+			<date type="published" when="2005-01">2005</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Savin, T. &amp; Doyle, P. S. Static and Dynamic Errors in Particle Tracking Microrheology. Biophys. J. 88, 623-638 (2005).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

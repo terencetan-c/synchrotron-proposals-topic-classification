@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">60F12A4207ABD502AD777AB7DDE8B469</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aims</head><p>Human Guanylate Binding Protein-1 (hGBP1) belongs to the family of large GTP binding proteins. Previous FRET results have shown that in solution the hGBP1 monomer exists in two different conformations with a temperature dependent population level. In this SAXS experiment we wanted to combine low-resolution structural information obtained by SAXS with local distance measurements obtained by single-molecule fluorescence spectroscopy (FRET). By using the combination of both methods combined with coarse-grained (CG) protein structures we want to increase the structural resolution and to determine the population levels and the solution structures of the ground and excited state of hGBP1 as a function of temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment</head><p>The hGBP1 monomer without nucleotide was measured using SAXS at different concentrations (1, 2, 5, 10 mg/ml) to disentangle form and structure factors, and as a function of temperature between 3 and 35°C. We used two buffer conditions without NaCl and with 150 mM as NaCl was found to have an influence on the stability of the protein. For each SAXS measurement we have used 100 µl sample to reduce the radiation dose per X-ray exposure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Results</head><p>The theoretical scattering patterns were calculated for the simulated coarse-grained structures, which have been screened and pre-selected using the FRET distance network determined by the group of Prof. Seidel. The scattering patterns of the pre-selected and the crystal structure were fitted as a two-population fit with variable population numbers against the measured SAXS curve. Figure <ref type="figure" target="#fig_0">1</ref> shows a representative open structure, which gave the best fit to the SAXS data. We find a population of 70% of the opened structure and 30% of the crystal structure, which is in good agreement with the temperature dependent FRET value. It now emerges that the first part of the long helix H12/H13 is bound to the central part of the protein, and that the H12/H13 is kinked in the middle. This structure could not be obtained using only rigid domain modelling from SAXS data or FRET data alone. The combination of SAXS and FRET allows us to obtain a refined model, which is significantly better than using only the FRET or only the SAXS constraints alone. To verify that we can resolve small changes of the hGBP1 structure and small shifts of the population level we have performed temperature dependent SAXS experiments of the hGBP1 monomer. The measured radii of gyration RG determined from the SAXS experiments are shown in figure <ref type="figure" target="#fig_1">2</ref>. With increasing temperature the protein structure gets more compact, which is in agreement with the temperature dependent FRET results and the assumption that the opened structure is the dominating conformation at low temperatures and the crystal-like structure is the major population at high temperatures. The theoretical calculated Guinier radii of the crystal and opened conformations are RG = 4.05 nm and RG = 4.12 nm, respectively, with a difference between both of ΔRG,theo = 0.07 nm. The measured plateaux by SAXS are RG = 4.51 nm and RG = 4.59 nm with a difference of ΔRG,exp = 0.08 nm. The measured RG difference of 0.08 nm corresponds exactly to the calculated difference of the theoretical structures, which is in agreement with the assumption of a transition from the open conformation at low temperature to the closed structure at high temperature. The offset of 0.45 Å between measured and calculated RG in the temperature dependent experiment probably is related to a small fraction of oligomerized proteins being present in the solution independent of temperature. However, we demonstrate clearly that we are able to resolve small temperature dependent changes of the hGBP1 structure by SAXS.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Output</head><p>1. An article about the complementary usage of FRET and SAXS to determine the solution structure of hGBP1 is in preparation.</p><p>2. A detailed interpretation and analysis of the full SAXS data as a function of temperature will be the starting point of a PhD project funded by the German Research Foundation. The results from the experiment on BM29 were crucial to secure funding.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: SAXS data of hGBP1 at 10°C. The red line is a fit to the measured data (circles) consisting of the crystal structure and the open conformation. Note that the fit overlaps quasi perfectly with the measured data points and shows only minor disagreement between 0.1 and 0.2 Å -1 .</figDesc><graphic coords="2,70.85,198.16,225.00,229.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Temperature dependent change of the radius of gyration of the hGBP1 monomer measured by SAXS. The black dashed lines show the low and high temperature plateaux and the red dashed line indicates a putative fitted sigmoidal behavior with a transition mid-point temperature at 16 °C.</figDesc><graphic coords="2,307.65,198.16,267.00,201.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

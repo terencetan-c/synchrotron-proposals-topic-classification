@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-08">08/2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mario</forename><surname>Scheel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Mechanics</orgName>
+								<orgName type="department" key="dep2">Materials and Civil Engineering</orgName>
+								<orgName type="institution">Université catholique de Louvain</orgName>
+								<address>
+									<postCode>B-1348</postCode>
+									<settlement>Louvain-la-Neuve</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ir</forename><forename type="middle">Liza</forename><surname>Lecarme</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Mechanics</orgName>
+								<orgName type="department" key="dep2">Materials and Civil Engineering</orgName>
+								<orgName type="institution">Université catholique de Louvain</orgName>
+								<address>
+									<postCode>B-1348</postCode>
+									<settlement>Louvain-la-Neuve</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pr</forename><forename type="middle">Thomas</forename><surname>Pardoen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Mechanics</orgName>
+								<orgName type="department" key="dep2">Materials and Civil Engineering</orgName>
+								<orgName type="institution">Université catholique de Louvain</orgName>
+								<address>
+									<postCode>B-1348</postCode>
+									<settlement>Louvain-la-Neuve</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2012-08">08/2012</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8D66E728CDB62F969AA9DF5236B32FB8</idno>
+					<note type="submission">from: 09/11/2011 to: 10/11/2011</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:50+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report: Scientific basis of the experiment</head><p>The damage process leading to fracture in most titanium alloys is governed by the nucleation, growth, and coalescence of small internal voids. These mechanisms have received a lot of attention in the literature, leading to the development of advanced models based on micromechanics, like the Gurson model. Many studies have shown the importance of the number, size, shape and distribution of the internal voids on the damage evolution. However, these elements are often still used as fitting parameters in the damage models. The present experiment allowed us to directly measure these parameters in order to improve the models (the Gurson model in particular) and our understanding of the damage and fracture processes. Results were obtained on the voids features as a function of the stress and strain levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental technique</head><p>Tomographic measurements were carried out while performing a tensile test on the specimens according to the method described in <ref type="bibr">Buffière et al., Acta Mater. 1999</ref>. The tests were made on a stress rig setup built by the MATEIS laboratory (INSA Lyon) specifically for micro-tomography measurements. At every step of deformation til fracture, a scan of the samples consisting of the recording of two-dimensional radiographs was made during a 180 • rotation along the vertical axis. The radiographs were then be used to re-construct the volumes of the samples using the appropriate algorithm.</p><p>In agreement with the ID15A team, it was decided that the planned high energy micro diffraction measurements would not be carried out during this experiment, due to the too short beam time available to install and adjust the equipment. Seven axisymmetric tensile specimens made out of Ti-6Al-4V titanium alloy were tested, as well as four specimens made out of aluminium alloys from the 6xxx serie. It was also possible to carry out a new sort of test on the stress rig setup, allowing to perform a shear test on a tensile machine during the tomographic scans. A new type of samples was designed specifically for this experiment, in order to ensure that the center of the specimen undergoes shear strain during the test while remaining small enough in all the directions to let the x-rays go through it.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>A dedicated procedure, described in <ref type="bibr">Maire et al., Acta Mater. 2008</ref>, was used in order to visualize and quantify damage in the materials. Reconstructed volumes were thresholded to differentiate the void phase from the material phase. Every void has then been detected for each time step, and analyzed in terms of size, shape, orientation... The local stresses and strains in the volume of interest were calculated with the help of Finite Element calculations of the whole test. A new algorithm, based on frame-by-frame data association of void detections, has been developed by Amit Kumar K.C. from ICTEAM institute of Université catholique de Louvain, in order to track the evolution of every void from the first time step to the last one. Until now, it was possible to analyze all the voids one by one, but not to track and discriminate them from the others from one time step to another. When analyzing the porosity evolution of the material during straining, it is now possible to distinguish the contribution due to the growth of the existing voids from the contribution due to the nucleation of new voids, see Fig. <ref type="figure" target="#fig_0">1</ref>. Moreover, it is now also possible to follow the complete evolution of a single cavity, by using the afore mentioned tracking algorithm. This results permits to confirm that the growth of a void is not dependent on the local strain and stress triaxiality only, but also on numerous parameter, such as the initial shape of the void, the strain hardening of the matrix at its vicinity, or the crystallographic orientation of the neighboring grains. These informations will permit to feed void nucleation and growth models with realistic values and validate coalescence and fracture models. The results obtained during this ESRF experiment are in the process of writing and are to be published soon.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: Total porosity and porosity due to void nucleation as a function of the applied deformation.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

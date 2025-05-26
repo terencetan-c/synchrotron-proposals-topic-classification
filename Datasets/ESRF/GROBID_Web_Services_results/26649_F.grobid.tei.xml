@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Brine micro‐droplets and solid inclusions in accreted ice from Lake Vostok (East Antarctica)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Geophysical Union (AGU)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2005-06-29">29 June 2005.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Martine</forename><surname>De Angelis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Glaciologie et Geophysique de l&apos;Environnement</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>St Martin d&apos;He `res</addrLine>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marie‐christine</forename><surname>Morel‐fourcade</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jean‐marc</forename><surname>Barnola</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jean</forename><surname>Susini</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">European Synchrotron Radiation Facility</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Duval</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire de Glaciologie et Geophysique de l&apos;Environnement</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>St Martin d&apos;He `res</addrLine>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Brine micro‐droplets and solid inclusions in accreted ice from Lake Vostok (East Antarctica)</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Geophysical Research Letters</title>
+						<title level="j" type="abbrev">Geophysical Research Letters</title>
+						<idno type="ISSN">0094-8276</idno>
+						<idno type="eISSN">1944-8007</idno>
+						<imprint>
+							<publisher>American Geophysical Union (AGU)</publisher>
+							<biblScope unit="volume">32</biblScope>
+							<biblScope unit="issue">12</biblScope>
+							<date type="published" when="2005-06-29">29 June 2005.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">67020268155A5E4D0C4DD46959933E8D</idno>
+					<idno type="DOI">10.1029/2005gl022460</idno>
+					<note type="submission">Received 14 January 2005; revised 9 April 2005; accepted 25 May 2005;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Lake Vostok, the largest Antarctic sub-glacial lake (14,000 km 2 ), lies beneath nearly 4 km of ice. Sub-glacial geophysical observations and studies of ice accreting at the lake-glacier interface are the only means available to obtain information on the environment and dynamics of this huge water body formed several million years ago. Accretion ice has been studied using high-resolution synchrotron X-Ray micro-fluorescence. For the first time, liquid brine micro-droplets (3 -10 mm) are observed, coexisting with large irregular sulfur-rich aggregates (10 -800 mm) containing gases and a mixture of very fine particles. Most of these objects are sequestered inside large crystals that grew slowly after ice formation. Their structure and composition support the existence of hydrothermal activity at the lake bottom and the occurrence of haline water pulses carrying fine solid debris and eventually biota from a deeper evaporitic reservoir into the lake.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Background</head><p>[2] Lake Vostok is about 240 km long and 40 km wide <ref type="bibr" target="#b7">[Kapista et al., 1996]</ref> and its southeastern end lies under 3750 m of ice, beneath the Russian Vostok Station where ice drilling has been completed down to 3623 m. The ice above 3538 m is of meteoritic origin while below this depth it is formed by accretion, i.e. the consolidation and freezing of slush made of host water from the lake and frazil ice produced by glacier melt in the northern part of the lake <ref type="bibr" target="#b6">[Jouzel et al., 1999]</ref>. Accreted ice generally contains many visible inclusions above 3608 m (ice-1) and is very clean below that depth (ice-2). Ice-1 was likely formed in a shallow bay on the northwestern side of the lake, while ice-2 was formed over the main lake <ref type="bibr" target="#b2">[Bell et al., 2002]</ref>. Two other layers of clean ice have been observed, centered around 3540 and 3590 m. The first comprehensive study of the ionic composition of accretion ice <ref type="bibr" target="#b5">[de Angelis et al., 2004]</ref> showed that this ice was significantly different in composition from meteoric ice and contained varying concentrations of salts, dominated by halite, calcium sulfate, and magnesium sulfate. Interestingly, halite, fluoride, and nitrate are uniformly distributed in the ice on the cm scale, while sulfate and ammonium are scattered. Combined with additional isotopic and iron measurements, these data suggest that sedimentary sequences close to evaporite in composition contribute to the lake chemistry. However, a better understanding of mechanisms leading to the production and incorporation of large quantities of salts and particles in refrozen ice requires determination of the compositions and locations of the impurities. The nature of the visible inclusions and their presence in accreted ice, which is generally made of large crystals of very high crystalline quality <ref type="bibr" target="#b9">[Montagnat et al., 2001]</ref>, remains particularly puzzling. X-ray microanalysis performed with a Low-Vacuum Scanning Electron Microscope (LVSEM) showed significant amounts of S, Mg, and O at a triple junction of accreted ice, suggesting the presence of sulfate crystallite <ref type="bibr" target="#b4">[Cullen and Baker, 2002]</ref>. However, ice sublimation occurring within the LVSEM chamber was used to preconcentrate impurities and may have led to salt coalescence or precipitate formation by localized surface diffusion (to reduce surface energy) <ref type="bibr" target="#b0">[Baker and Cullen, 2003;</ref><ref type="bibr" target="#b1">Barnes et al., 2003]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Method and Samples</head><p>[3] This paper presents data obtained by X-Ray Fluorescence (XRF), using a microprobe developed at the ID21 beam-line of the European Synchrotron Radiation Facility (ESRF). The method, described in detail elsewhere <ref type="bibr" target="#b14">[Susini et al., 2002;</ref><ref type="bibr" target="#b10">Morel Fourcade et al., 2005]</ref>, was used to determine the location of trace impurities (ppm concentration) in the uppermost layer of ice samples (1 cm in diameter and 5 mm thick). The direct relationship linking the fluorescence signal intensity of a given element and its relative abundance was used to make elemental maps with varying spatial resolution. The exciting energy of the microprobe was set to maximize the fluorescence yield of the elements of interest, i.e. 4.5 keV for elements lighter than Ca. A special experiment was carried out for sulfur species by slightly varying the energy of the probing X-ray photons around the energy of the absorption edge. In this way, the spectral features observed close to the absorption edge -referred to as X-ray Absorption Near Edge Structure (XANES) -reflect the molecular environment of a given absorbing atom and provide the basic mechanism for imaging based on chemical sensitivity <ref type="bibr" target="#b12">[Sto ¨hr, 1992]</ref>. When studying sulfur species, the exciting energy was tuned around 2.5 keV and the shift in energy produced a clear distinction between sulfur present as sulfide (S II-, 2.470 keV), sulfite (S IV , 2.478 keV), and sulfate (S VI , 2.482 keV) <ref type="bibr" target="#b11">[Prietzel et al., 2003]</ref>, while the fluorescence emission of the other elements was not affected. The cell containing the sample was maintained at À140°C and sealed within an XRF film made of ''ultralene'' 1 , making it possible to study the upper 50 mm thick layer of the sample for several hours under high vacuum conditions without any visual change of the ice surface. A preliminary examination of the sample was carried out using an optical microscope coupled with the XRF microprobe.</p><p>[4] Samples were prepared in the cold room facilities of the LGGE in Grenoble. To prevent air trapping under the Ultralene 1 film, samples were carefully shaved with a microtome until the ice surface was perfectly flat and matched the surface of the cell window. This procedure is also known to be very efficient for contamination removal <ref type="bibr" target="#b8">[Legrand et al., 1993]</ref>. One sample was made of de-ionized (total ionic content lower than 2 ng g À1 ) filtered (0.2-mm pore size) frozen water to check the cleaning procedure and provide a reference for background conditions. Three samples were taken in ice where many inclusions were visible and containing sulfate salts in the mg g À1 range, two at 3551 m and one at 3572 m. A fourth sample was taken at 3539 m in the uppermost layer of accretion ice, where ionic content was extremely low and very close to the values measured in ultrapure water <ref type="bibr" target="#b5">[de Angelis et al., 2004]</ref>. A thin grain boundary structure was clearly visible to the naked eye in the first sample taken at 3551 m, and a very large dark inclusion ($500 mm in diameter) was located very close to the surface of the second sample. MicroXRF investigations focused on selected objects spotted by optical microscopy (a grain boundary, dark inclusions, matrix irregularities) or were used to scan selected areas for background studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p>[5] Only the sample at 3572 m was studied for sulfur speciation. Several sulfur-rich objects, 10 to 30 mm in size, were detected by random scanning and one is presented in Figure <ref type="figure">1</ref>. It seems to be made of fine aggregated particles dominated by silicon (not only in the form of aluminosilicate), sulfate, and reduced sulfur species, while the sulfite signal remains negligible. It also contains significant amounts of Si, O, and P. Other elements are also present, in particular Al, Mg, and Na (Cl, K, and Ca could not be studied under these experimental conditions). The depleted area, visible on the oxygen map, is due to the detection geometry in which the fluorescence signal is screened by the particle. This suggests that the oxygen of the ice lattice may be detected. S and SO 4 distributions in the inclusion show small differences. Energy spectra are presented in the lower part of the figure. The relative intensity, i.e. the ratio of emitted (I) to incoming (I 0 ) intensity, was used to take into account the variations of incoming intensity (I 0 ) during experiments. The continuous curves correspond to the mean signal of the inclusion (sulfide and sulfate experimental configurations), and the dotted curve to the ice matrix.</p><p>[6] Many gas bubbles were visible at the surface of the inclusion at 3551 m (Figure <ref type="figure" target="#fig_0">2a</ref>). Elemental maps of the three contiguous areas delineated by white lines in Figure <ref type="figure" target="#fig_0">2a</ref> are presented in Figure <ref type="figure" target="#fig_0">2b</ref> (Ca, K), 2c (S, Mg), and 2d (Si, Al). This very large inclusion is a heterogeneous mixture containing carbonate-rich particles, either smooth and round or angular with sizes up to 5 or 10 mm, and a wide range of other particles with various shapes and compositions, among them fine alumino-silicate and larger aggregates where sulfate is associated with magnesium. As in the inclusion at 3572 m, silicon was not always associated with aluminum and could also be present as quartz or amorphous silica produced by in-situ reactions. Other scarce and smaller aggregates showing rather similar compositions were found in this sample.</p><p>[7] Elemental maps (K, Cl and Ca) of the grain boundary structure at 3551 m are presented in the lower part of Figure <ref type="figure" target="#fig_2">3</ref>, where the white line delineates the area containing Figure <ref type="figure">1</ref>. Solid inclusion at 3572 m. Probe size: 0.3 Â 0.3 mm; exciting energy: 2.470 and 2.278 keV for sulfide and sulfate mapping, respectively. On every elemental map, the relative abundance of a given element in a given pixel increases from white to black and the highest concentration is automatically scaled to black.  Considered together with the very large crystal size (and thus the small number of grain boundaries), this implies that impurities at grain boundaries should not significantly contribute to ice-1 chemical composition.</p><p>[8] Except very scarce small particles, none of the objects investigated here contained noticeable amounts of chlorine, while NaCl concentrations close to 1.5 mg g À1 were found by ion chromatography in neighboring samples. A small part of the Cl may be present as a solid solution in the ice lattice as suggested both by the shadow on Cl mapping in Figure <ref type="figure" target="#fig_2">3</ref> (denoted by a white arrow) and by a Cl relative intensity mean value slightly higher in the ice matrix at 3551 m than in ultra-pure frozen water (factor $1.5) <ref type="bibr">[Morel Fourcade et al., in press</ref>]. However, considering the very low Cl concentration measured in the blank reference (&lt;1 ng g À1 ), it is very unlikely that a solid solution could account for Cl concentrations as high as 1 mg g À1 .</p><p>[9] The same sample was then carefully examined by optical microscopy, revealing several colorless oblong objects, distributed rather regularly. Five images of such objects, denoted I, II, III, IV and V, are displayed in Figure <ref type="figure" target="#fig_3">4a</ref>. Object V exploded during microscope investigation. Enlarged elemental maps of object II are presented in Figure <ref type="figure" target="#fig_3">4b</ref> (linear intensity scale) and 4c (logarithmic scale). All these objects are rounded and have a tail-shaped feature (Figure <ref type="figure" target="#fig_3">4c</ref>) as well as very similar compositions largely dominated by Cl. Strong concentration gradients are observed, with maximum values at the center (Figures <ref type="figure" target="#fig_3">4a</ref> and <ref type="figure" target="#fig_3">4b</ref>). Most of the chlorine was found in these bubble-like objects, which also contain significant amounts of Na and smaller amounts of K, and are very likely brine micropockets entrapped in the ice lattice. A very rough estimate of the brine salinity may be made, assuming that the Cl contribution from a solid solution may be neglected and that droplet distribution does not change significantly throughout the ice sample. Five droplets, 3 to 15 mm in size, were observed in an area of 200 Â 200 mm with an investigation thickness of 50 mm. This corresponds to a distribution coefficient of $10 À3 and a salinity of $1.5% based on Cl concentrations in the ice sample. This is significantly higher than the maximum salinity of 0.05 to 0.3% calculated for the main lake <ref type="bibr" target="#b5">[de Angelis et al., 2004]</ref> and suggests the existence of an additional source of haline water in the shallow bay where accretion ice-1 forms. Very low Fe concentrations were found at 3551 and 3572 m, ruling out pyrite and thus bedrock weathering as significant sulfide sources <ref type="bibr" target="#b5">[de Angelis et al., 2004]</ref>. Taken together, the occurrence of salty water input and the presence of large amounts of both sulfate and sulfide in aggregates may be explained by chemical reactions between deeper sedimentary layers, containing large amounts of sulfate and halite as found in evaporitic sequences, and hydrothermal circulation activated by sporadic seismo-tectonic activity through crustal faults bordering the lake graben <ref type="bibr" target="#b13">[Studinger et al., 2003;</ref><ref type="bibr" target="#b3">Bulat et al., 2004;</ref><ref type="bibr" target="#b15">Wakita et al., 1980]</ref>.</p><p>[10] Given this water circulation pattern, it is likely that accretion ice contains solid particles initially carried by saline water into consolidating frazil slush. Note that thermophilic bacteria revealed by their DNA signature in the accreted ice <ref type="bibr" target="#b3">[Bulat et al., 2004]</ref> may have been transported together with sediments from hot basement faults. Once formed, accreted ice remains very close to the melting point <ref type="bibr" target="#b6">[Jouzel et al., 1999]</ref>. At high temperature (À3°C for accreted ice, under in situ conditions), the minimization of grain boundary free energy implies grain growth, allowing the formation of grain boundaries of high crystalline quality <ref type="bibr" target="#b9">[Montagnat et al., 2001]</ref>. At the beginning of the grain  growth process, particles initially homogeneously distributed in the ice lattice should be captured by moving grain boundaries, reducing free surface energy. As grain growth occurs, particles initially located at grain boundaries aggregate. The pinning pressure exerted by particles on moving grain boundaries decreases and the particles, once large enough, can be located within the ice lattice. Considering its high salinity, the brine is likely in a liquid state at À3°C. Interaction between grain boundaries and liquid inclusions should be close to ice-water interactions, allowing brine bubbles to remain in the ice lattice. When extracted, ice cores are cooled to about À50°C and the outer pressure decreases from 30 to 0.1 MPa. Water droplets should freeze and cracks may be initiated along crystallographic planes due to density differences between water and ice. The shape and orientation of bubble extensions clearly visible in Figure <ref type="figure" target="#fig_3">4c</ref> should be directly related to the crack planes. The freezing of brine droplets could also lead to concentration gradients as observed in brine bubbles (Figure <ref type="figure" target="#fig_3">4b</ref>), due to solute exclusion occurring at the ice water interface during the freezing process.</p><p>[11] Both brine and mineral material were present in a bubble-shaped inclusion found in sample at 3539 m. Interestingly this object depicted a tail-like structure rather similar to those observed in ice-1. The mechanism proposed to explain impurity distribution in ice-1 would also be expected to be valid for ice-2. However, given the very low total ionic content found at 3539 m (&lt;10 ng g À1 ), this layer should contain very few fine solid particles preventing segregation between liquid and solid phases at the beginning of the grain growth process. A comparison of Cl mean intensity measured in ice-2 droplets with that of ice-1 suggests that the salinity of brine water is much lower in ice-2 than in ice-1. This was expected from Cl À concentrations measured by ion chromatography (2 and 950 ng g À1 in ice-2 and À1, respectively) and suggests that ice-2 contains refrozen host water originating from the main lake.</p><p>[12] This work shows that ice accreted at the surface of lake Vostok contains two different kinds of objects located inside ice crystals: liquid brine microdroplets and large and complex aggregates. It provides new arguments for the occurrence of hydrothermal activity supplying the bay where inclusion-rich ice forms with large amounts of haline fluid and particles from deeper sedimentary strata. Thermophilic bacteria originating from deeper basement faults may have been carried out and entrapped in consolidating slush along with other material. The presence of both reduced and oxidized sulfur forms tightly associated is of particular interest regarding potential bacterial activity and needs to be confirmed by further investigations focusing on sulfur speciation. On other hand, accreted ice formed over the main lake shows very low brine and particle content, likely owing to strong decrease in the influence of hydrothermal activity.</p><p>[13] Acknowledgments. Vostok ice cores were recovered by a joint program involving Russia, France and the USA. We thank Russian Antarctic Expeditions, the Institut Polaire Paul Emile Victor and the Division of Polar Programs (NSF) for logistic support. We are grateful to the drilling team (St Petersburg Mining Institute) for field work and we wish to thank Gae ¨l Durand for his help during sample scanning at ESRF. We also thank the European Synchrotron Radiation Facility for providing the X-ray facilities for experiment CH1568. We would also like to thank C. David and T. Weitkamp (PSI, Villengen, Switzerland) for providing the X-ray lenses that made this experiment possible.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. A 500 mm inclusion at 3551 m. Probe size: 1 Â 1 mm; exciting energy: 4.5 keV. See Figure 1 for concentration scaling.</figDesc><graphic coords="2,301.88,491.11,238.94,220.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>L12501</head><figDesc>DE ANGELIS ET AL.: INCLUSIONS FROM LAKE VOSTOK L12501 the grain boundary. The energy spectrum of this area is represented by the red curve in the upper part of the figure, and the mean signal of the surrounding area by the black curve (background of ice matrix), showing significant differences mostly in the potassium signal due to micrometer-sized particles located along the grain boundary and containing also small amounts of Ca and Cl. However these particles are very thin compared to aggregates detected inside the crystals.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure3. Grain boundary at 3551 m. Probe size: 1 Â 1 mm; exciting energy: and 4.5 keV. On every elemental map, the relative abundance of a given element in a given pixel increases from dark blue to red, and the highest concentration is automatically scaled to red.</figDesc><graphic coords="3,60.26,47.09,219.41,243.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Brine inclusions at 3551 m. Probe size: from 0.3 Â 0.5 mm (II and III) to 1 Â 1 mm (I, IV and V); exciting energy: 4.5 keV. See Figure 3 for concentration scaling.</figDesc><graphic coords="3,301.89,536.01,243.45,175.97" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">SEM/EDS observations of impurities in polar ice: artifacts or not?</title>
+		<author>
+			<persName><forename type="first">Ian</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Cullen</surname></persName>
+		</author>
+		<idno type="DOI">10.3189/172756503781830773</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Glaciology</title>
+		<title level="j" type="abbrev">J. Glaciol.</title>
+		<idno type="ISSN">0022-1430</idno>
+		<idno type="ISSNe">1727-5652</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">165</biblScope>
+			<biblScope unit="page" from="184" to="190" />
+			<date type="published" when="2003">2003</date>
+			<publisher>International Glaciological Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker, I., and D. Cullen (2003), SEM/EDS observations of impurities in polar ice: Artifacts or not?, J. Glaciol., 40, 184 -190.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">SEM studies of the morphology and chemistry of polar ice</title>
+		<author>
+			<persName><forename type="first">Piers</forename><forename type="middle">R F</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">W</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">C</forename><surname>Mallard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heidy</forename><forename type="middle">M</forename><surname>Mader</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jemt.10385</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microscopy Research and Technique</title>
+		<title level="j" type="abbrev">Microscopy Res &amp; Technique</title>
+		<idno type="ISSN">1059-910X</idno>
+		<idno type="ISSNe">1097-0029</idno>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="62" to="69" />
+			<date type="published" when="2003-08-18">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barnes, P. R. F., E. W. Wolff, D. C. Mallard, and H. M. Mader (2003), SEM studies of the morphology and chemistry of polar ice, Microsc. Res. Technol., 62, 62 -69.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Origin and fate of Lake Vostok water frozen to the base of the East Antarctic ice sheet</title>
+		<author>
+			<persName><forename type="first">Robin</forename><forename type="middle">E</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Studinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anahita</forename><forename type="middle">A</forename><surname>Tikku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Garry</forename><forename type="middle">K C</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">M</forename><surname>Gutner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chuck</forename><surname>Meertens</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/416307a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">416</biblScope>
+			<biblScope unit="issue">6878</biblScope>
+			<biblScope unit="page" from="307" to="310" />
+			<date type="published" when="2002-03">2002</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bell, R. E., M. Studinger, A. A. Tikku, G. K. C. Clarke, M. M. Gutner, and C. Meertens (2002), Origin of Lake Vostok water frozen to the base of the East Antarctic ice sheet, Nature, 416, 307 -310.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">DNA signature of thermophilic bacteria from the aged accretion ice of Lake Vostok, Antarctica: implications for searching for life in extreme icy environments</title>
+		<author>
+			<persName><forename type="first">Sergey</forename><forename type="middle">A</forename><surname>Bulat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Irina</forename><forename type="middle">A</forename><surname>Alekhina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Blot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Robert</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martine</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dietmar</forename><surname>Wagenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">Ya. </forename><surname>Lipenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lada</forename><forename type="middle">P</forename><surname>Vasilyeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominika</forename><forename type="middle">M</forename><surname>Wloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominique</forename><surname>Raynaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valery</forename><forename type="middle">V</forename><surname>Lukin</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s1473550404001879</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Astrobiology</title>
+		<title level="j" type="abbrev">International Journal of Astrobiology</title>
+		<idno type="ISSN">1473-5504</idno>
+		<idno type="ISSNe">1475-3006</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2004-01">2004</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bulat, S. A., et al. (2004), DNA signature of thermophilic bacteria from the aged accretion ice of Lake Vostok, Antarctica: Implications for searching for life in extreme icy environments, Int. J. Astrobiol., 3, 1 -12.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Observation of sulfate crystallites in Vostok accretion ice</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1044-5803(02)00273-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Characterization</title>
+		<title level="j" type="abbrev">Materials Characterization</title>
+		<idno type="ISSN">1044-5803</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="263" to="269" />
+			<date type="published" when="2002-06">2002</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cullen, M., and I. Baker (2002), Observation of sulfate crystallites in Vostok accretion ice, Mater. Charact., 48, 263 -269.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Contributions of an ancient evaporitic-type reservoir to subglacial Lake Vostok chemistry</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-R</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Savarino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Souchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Thiemens</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.epsl.2004.03.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Earth and Planetary Science Letters</title>
+		<title level="j" type="abbrev">Earth and Planetary Science Letters</title>
+		<idno type="ISSN">0012-821X</idno>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="751" to="765" />
+			<date type="published" when="2004-06">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Angelis, M., J. R. Petit, J. Savarino, R. Souchez, and M. H. Thiemens (2004), Contributions of an ancient evaporitic-type reservoir to subglacial Lake Vostok chemistry, Earth Planet. Sci. Lett., 222, 751 -765.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">More Than 200 Meters of Lake Ice Above Subglacial Lake Vostok, Antarctica</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jouzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-R</forename><forename type="middle">R</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Souchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Barkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Ya. </forename><surname>Lipenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raynaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stievenard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Vassiliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Verbeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vimeux</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.286.5447.2138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="issue">5447</biblScope>
+			<biblScope unit="page" from="2138" to="2141" />
+			<date type="published" when="1999-12-10">1999</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+			<pubPlace>Antarctica</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jouzel, J., J.-R. Petit, R. Souchez, N. I. Barkov, V. Y. Lipenkov, D. Raynaud, M. Stievenard, N. I. Vassiliev, V. Verbeke, and F. Vimeux (1999), More than 200 meters of lake ice above subglacial Lake Vostok, Antarctica, Science, 286, 2138 -2141.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A large deep freshwater lake beneath the ice of central East Antarctica</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Kapitsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Ridley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>De Q. Robin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Siegert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Zotikov</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/381684a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">381</biblScope>
+			<biblScope unit="issue">6584</biblScope>
+			<biblScope unit="page" from="684" to="686" />
+			<date type="published" when="1996-06">1996</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kapista, A. P., G. de Q. Robin, M. J. Siegert, and I. A. Zotikov (1996), A large deep freshwater lake beneath the ice of central East Antarctica, Nature, 381, 684 -686.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Field investigation of major and minor ions along Summit (Central Greenland) ice cores by ion chromatography</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Legrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maupetit</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0021-9673(93)80188-e</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Chromatography A</title>
+		<title level="j" type="abbrev">Journal of Chromatography A</title>
+		<idno type="ISSN">0021-9673</idno>
+		<imprint>
+			<biblScope unit="volume">640</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="251" to="258" />
+			<date type="published" when="1993-06">1993</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Legrand, M., M. de Angelis, and F. Maupetit (1993), Field investigations of major and minor ions along the Summit (central Greenland) ice cores using ion chromatography, J. Chromatogr., 640, 251 -258.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">High crystalline quality of large single crystals of subglacial ice above Lake Vostok (Antarctica) revealed by hard X-ray diffraction</title>
+		<author>
+			<persName><forename type="first">Maurine</forename><surname>Montagnat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Duval</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Bastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernard</forename><surname>Hamelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Brissaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martine</forename><surname>De angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Robert</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">Ya</forename><surname>Lipenkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1251-8050(01)01667-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comptes Rendus de l&apos;Académie des Sciences - Series IIA - Earth and Planetary Science</title>
+		<title level="j" type="abbrev">Comptes Rendus de l&apos;Académie des Sciences - Series IIA - Earth and Planetary Science</title>
+		<idno type="ISSN">1251-8050</idno>
+		<imprint>
+			<biblScope unit="volume">333</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="419" to="425" />
+			<date type="published" when="2001-10">2001</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montagnat, M., P. Duval, P. Bastie, B. Hamelin, O. Brissaud, M. de Angelis, J.-R. Petit, and V. Y. Lipenkov (2001), High crystalline quality of large single crystals of subglacial ice above Lake Vostok (Antarctica) revealed by hard X-ray diffraction, C. R. Acad. Sci., Ser. IIa Scie. Terre Planetes, 333, 419 -425.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Application of micro X-ray fluorescence to impurity mapping of polar ice</title>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Morel Fourcade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Barnola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Susini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Duval</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Glaciol</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">Morel Fourcade, M.-C., J.-M. Barnola, J. Susini, G. Durand, M. de Angelis, and P. Duval (2005), Application of micro X-ray fluorescence to impurity mapping of polar ice, J. Glaciol., in press.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Speciation of sulphur in soils and soil particles by X‐ray spectromicroscopy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Prietzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thieme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Neuhäusler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Susini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kögel‐knabner</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2389.2003.00543.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Soil Science</title>
+		<title level="j" type="abbrev">European J Soil Science</title>
+		<idno type="ISSN">1351-0754</idno>
+		<idno type="ISSNe">1365-2389</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="423" to="433" />
+			<date type="published" when="2003-05-19">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Prietzel, J., J. Thieme, U. Neuhaeusler, J. Susini, and I. Kogel-Knabner (2003), Speciation of sulphur in soils and soil particles by X-ray spectro- microscopy, Eur. J. Soil Sci., 54, 423 -433.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sto ¨hr</surname></persName>
+		</author>
+		<title level="m">NEXAFS Spectroscopy</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sto ¨hr, M. (1992), NEXAFS Spectroscopy, Springer, New York.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Geophysical models for the tectonic framework of the Lake Vostok region, East Antarctica</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Studinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Garry</forename><forename type="middle">D</forename><surname>Karner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robin</forename><forename type="middle">E</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vadim</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carol</forename><forename type="middle">A</forename><surname>Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anahita</forename><surname>A. Tikku</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0012-821x(03)00548-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Earth and Planetary Science Letters</title>
+		<title level="j" type="abbrev">Earth and Planetary Science Letters</title>
+		<idno type="ISSN">0012-821X</idno>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="663" to="677" />
+			<date type="published" when="2003-12">2003</date>
+			<publisher>Elsevier BV</publisher>
+			<pubPlace>East Antarctica</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Studinger, M., G. D. Karner, R. E. Bell, V. Levin, C. A. Raymond, and A. A. Tikku (2003), Geophysical models for a tectonic framework of the Lake Vostok region, East Antarctica, Earth Planet. Sci. Lett., 216, 663 -677.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">THE SCANNING X-RAY MICROPROBE AT THE ESRF &quot;X-RAY MICROSCOPY&quot; BEAMLINE</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Susini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salomé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fayard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kaulich</surname></persName>
+		</author>
+		<idno type="DOI">10.1142/s0218625x02001793</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surface Review and Letters</title>
+		<title level="j" type="abbrev">Surf. Rev. Lett.</title>
+		<idno type="ISSN">0218-625X</idno>
+		<idno type="ISSNe">1793-6667</idno>
+		<imprint>
+			<biblScope unit="volume">09</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="203" to="211" />
+			<date type="published" when="2002-02">2002</date>
+			<publisher>World Scientific Pub Co Pte Lt</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Susini, J., M. Salome ´, B. Fayard, R. Ortega, and B. Kaulich (2002), The scanning X-ray microscope at the ESRF, Surf. Rev. Lett., 9, 203 - 211.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Hydrogen Release: New Indicator of Fault Activity</title>
+		<author>
+			<persName><forename type="first">Hiroshi</forename><surname>Wakita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuji</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Itsuro</forename><surname>Kita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Naoyuki</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenji</forename><surname>Notsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.210.4466.188</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="issue">4466</biblScope>
+			<biblScope unit="page" from="188" to="190" />
+			<date type="published" when="1980-10-10">1980</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wakita, H., I. Kita, N. Fujii, and K. Notsu (1980), Hydrogen release: New indicator of fault activity, Science, 210, 188 -190.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Simulation of Surfactant Contribution to Ink Removal Selectivity in Flotation Deinking Lines</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Beneventi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Allix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nortier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Carré</surname></persName>
+		</author>
+		<idno type="DOI">10.15376/frc.2009.1.85</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Trans. of the XIVth Fund. Res. Symp. Oxford, 2009</title>
+		<imprint>
+			<publisher>Fundamental Research Committee (FRC), Manchester</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="85" to="112" />
+		</imprint>
+	</monogr>
+	<note>F-38402 St Martin d&apos;He `res, France. (ange@lgge. obs.ujf-grenoble</note>
+	<note type="raw_reference">ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ À J.-M. Barnola, M. de Angelis, P. Duval, and M.-C. Morel-Fourcade, LGGE/CNRS, BP96, F-38402 St Martin d&apos;He `res, France. (ange@lgge. obs.ujf-grenoble.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Late pulmonary infarctus in patient with cardioMEMS pulmonary artery pressure sensor</title>
+		<author>
+			<persName><forename type="first">Peggy</forename><surname>Jacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antony</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aude</forename><surname>Boignard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Muriel</forename><surname>Salvat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frederic</forename><surname>Thony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pascal</forename><surname>Defaye</surname></persName>
+		</author>
+		<idno type="DOI">10.52768/2766-7820/1698</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Images and Medical Case Reports</title>
+		<title level="j" type="abbrev">J Clin Images Med Case Rep</title>
+		<idno type="ISSNe">2766-7820</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">38043</biblScope>
+			<date type="published" when="2022-03-01" />
+			<publisher>Open Source Publications</publisher>
+			<pubPlace>Grenoble, France</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Susini, ESRF, BP 220, F-38043 Grenoble, France.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

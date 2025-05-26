@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2011-05-06">May 6, 2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Timm</forename><surname>Weitkamp</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Irene</forename><surname>Zanette</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bert</forename><surname>Müller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biomaterials Science Center</orgName>
+								<orgName type="institution">University of Basel</orgName>
+								<address>
+									<settlement>Basel</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sabrina</forename><surname>Lang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biomaterials Science Center</orgName>
+								<orgName type="institution">University of Basel</orgName>
+								<address>
+									<settlement>Basel</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Georg</forename><surname>Schulz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biomaterials Science Center</orgName>
+								<orgName type="institution">University of Basel</orgName>
+								<address>
+									<settlement>Basel</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Dominietto</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Biomedical Engineering</orgName>
+								<orgName type="institution">ETH Zurich</orgName>
+								<address>
+									<settlement>Zrich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2011-05-06">May 6, 2011</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CB0C19285994E6CF0E2B61A38D4E4B15</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Four C51 tumors were measured using grating-based phase contrast within the frame of MI-983. Two of the data sets were not really useful because of significant bubble formation during the data acquisition. Seven C51 tumors were measured using holotomography. Two tumors form the intersection with the grating interferometry data, one, however does not show typical tumor features. The data sets of the remaining tumor were analyzed by means of the established grating-based phase contrast procedure and the Paganin analysis. The holotomography analysis is also available but to be improved.</p><p>The experiments were carried out at the beamline ID19, using 17.6 keV X-rays from the U17.6 undulator operated with a gap of 16.5 mm. For the holotomographic imaging, four different detector-sample distances where chosen. The quasi-contact distance for the 1.5 µm pixel size detector was 13 mm and 15 mm for the detector with 1.83 µm pixel size. The other three distances were selected so that optimized phase-contrast transmission for all spatial frequencies was given. For each distance, 800 radiographic projections were recorded. The scans were acquired in continuous mode, to optimize the beam time. All scans were reconstructed using conventional tomographic reconstruction (PyHST). Paganin single-distance phase reconstruction was performed for all propagation based data sets.</p><p>The preliminary data analysis using the Paganin algorithm showed that vessels can be distinguished in the tomographic slices (Fig. <ref type="figure" target="#fig_0">1</ref>). In comparison to absorption contrast, the density resolution is improved and allows not only the visualization of blood vessels, but also lipids inside the tumor. Cells with diameters bigger than the capillaries (presumed to be adipocytes) could be identified. A manuscript is under preparation in order to compare the grating-based results with the differently analyzed propagation-based 3D data. The goal of the paper is the identification of the pros and cons of the approaches. Here, the better contrast of the grating interferometry data and the significantly improved spatial resolution of holotomography is quantified. Another manuscript on the vessel segmentation from the C51 tumor is based on the Eigenvalues evaluation of Hessian matrix obtained from these 3D data. Here, the Paganin processed tomograms might be better suited because of the less pronounced ring-artifacts. The data treatment is refined to finally extract the vessel tree down to the capillary level for the comparison with simulations of partners from ETH Zurich. [1] Weitkamp, T., Haas, D., Wegrzynek, D., Rack, A., ANKAphase: software for single-distance phase-retrieval from inline X-ray phase contrast radiographs. Journal of Synchrotron Radiation 18 (2011).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: The image shows a slice through the tumor measured with in-line holotomography at the distance 120 mm. The image a) was obtained using Paganin phase reconstruction algorithm [1]. The same slice obtained with absorption reconstruction is shown in b). The histograms of the images are shown at the bottom. The gray graph in the background is the histogram on a logarithmic scale. The white arrow in a) points to a visible vessel with a diameter of 9 µm.</figDesc><graphic coords="2,135.69,324.49,340.12,253.02" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

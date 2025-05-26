@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mosfet dosimetry for Microbeam Radiation Therapy at the ESRF</title>
+				<funder ref="#_TUWbY3d #_6kcvqRg">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">E</forename><surname>Braeuer-Krisch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Rosenfeld</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Lerch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Bräuer-Krisch</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Bravin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Stepanek</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Laissue</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Center for Medical Radiation Physics</orgName>
+								<orgName type="laboratory">European Synchrotron Radiation Facility</orgName>
+								<orgName type="institution">University of Wollongong</orgName>
+								<address>
+									<addrLine>B.P.220</addrLine>
+									<postCode>2522 38043</postCode>
+									<settlement>Wollongong Grenoble</settlement>
+									<region>NSW</region>
+									<country>Australia France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Pathology</orgName>
+								<orgName type="institution">University of Bern</orgName>
+								<address>
+									<addrLine>Murtenstrasse 31</addrLine>
+									<postCode>3010</postCode>
+									<settlement>Bern</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mosfet dosimetry for Microbeam Radiation Therapy at the ESRF</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E42CB7E9048E2F1B579E858F7AA6D6E1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T16:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>LS-1976</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the Microbeam Radiation Therapy (MRT) preclinical program at the ESRF, 20-30 µm-wide, 207 µm center-to center, ~10 mm-high parallel microbeams of hard, broad-"white"-spectrum X rays (~50-600 keV) are utilized. The aim of the project is to explore the possibility of the therapeutical use of MRT for the treatment of brain tumors in infants for whom other kinds of radiotherapy are inadequate and/or unsafe.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The microbeams are produced by an Archer-type multislit collimator that produces an array of up to 80 microbeams. Dosimetry at a micron scale is necessary to correlate the biological effects of the irradiation with the dose distribution in the tissues at different depths. Experimental dosimetry in phantoms should validate the Monte-Carlo simulations performed with the PSI-Geant program.</p><p>In some feasibility tests performed in 2001, we demonstrated that MOSFET detectors, used in the "edge-on" mode, are suited for MRT because they are able to provide a dosimetric mapping with 1 micron spatial resolution. The full report of these preliminary trials is described in <ref type="bibr">[Rosenfeld, 2001]</ref> In this latest experiment we were able to improve the microdosimetric characterization of the irradiated area, by measuring selected points in the peak and valley regions of a microbeam-irradiated tissue-equivalent phantom. Such irradiation causes minimal damage to normal tissues, possibly because of rapid repair of their microscopic lesions. Radiation damage from an array of parallel microbeams tends to correlate with the range of peak-valley dose ratios (PVDR).</p><p>We measured doses in the water like 10x10x10 cm 3 phantom at different depths in the range 2-62 mm, by varying parameters like the distance from the central beam and the total number of microbeams in the array.</p></div>		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>We have also fully characterized the size of some selected microbeams (2 microbeams across the central axis and the outer beam in the array) and evaluated the dose distribution around them.</p><p>The complete description of the measurements and the comparison with the MonteCarlo simulations are reported in [Bräuer-Krisch, 2003]. <rs type="person">A.B. Rosenfeld</rs>, <rs type="person">M. Lerch</rs>, <rs type="person">T. Kron</rs>, <rs type="person">E. Bräuer-Krisch</rs>, <rs type="person">A. Bravin</rs> et al. "Feasibility study of online high-spatialresolution MOSFET dosimetry in static and pulsed x-ray radiation fields" <rs type="programName">IEEE Transactions on Nuclear Science</rs>, 48 (6), pp.2061 -2068, 2001 <rs type="person">E. Bräuer-Krisch</rs>, <rs type="person">A. Bravin</rs>, <rs type="person">M. Lerch</rs>, <rs type="person">A. Rosenfeld</rs>, <rs type="person">J. Stepanek</rs>, <rs type="person">M. Di Michiel</rs>, <rs type="person">J.A. Laissue</rs>, "<rs type="programName">MOSFET Dosimetry for Microbeam Radiation Therapy</rs> at the <rs type="institution" subtype="infrastructure">European Synchrotron Radiation Facility [ESRF]" Accepted</rs> for publication in Medical Physics, 2003.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_TUWbY3d">
+					<orgName type="program" subtype="full">IEEE Transactions on Nuclear Science</orgName>
+				</org>
+				<org type="funding" xml:id="_6kcvqRg">
+					<orgName type="program" subtype="full">MOSFET Dosimetry for Microbeam Radiation Therapy</orgName>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">European Synchrotron Radiation Facility [ESRF]&quot; Accepted</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

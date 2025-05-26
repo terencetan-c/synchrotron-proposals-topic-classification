@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Quantitative tomography using phase contrast with coherent hard X-rays</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Jo&amp; BARUCHEL ESRF Per SPANNE ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Emat</forename><forename type="middle">/</forename><surname>Ruca</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Jo&amp; BARUCHEL ESRF Per SPANNE ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Murielle</forename><surname>Salome</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Jo&amp; BARUCHEL ESRF Per SPANNE ESRF</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire Louis NCel</orgName>
+								<orgName type="institution" key="instit1">ESRF and CREATIS</orgName>
+								<orgName type="institution" key="instit2">INSA Lyon * Michel SCHLENKER</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<address>
+									<country>Grenoble</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Quantitative tomography using phase contrast with coherent hard X-rays</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">054E502AEF28CFEB63ABAB0F3497D49D</idno>
+					<note type="submission">Received at ESRF:</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>This report covers part of the recent developments in an on-going program aiming at a rather comprehensive investigation of the physics of phase object imaging in hard third-generation synchrotron radiation X-ray beams and their application. This project is deliberately split into smaller units in order to be able, through applications and experimental reports, to provide the information due to the ESRF community. The experimental work corresponding to application MI186 was made possible by previous work by the ID19 group, in particular on the elimination of spurious contrast due to beryllium windows, and on the development of efficient monochromator systems. It covers four areas: development of a high-resolution camera, quantitative simulation of contrast in defocused images of a phase object, preparation of an experimental setup for obtaining series of images at different defocusing distances, and an investigation of the Talbot effect using hard synchrotron radiation Xrays. The first three parts are essential steps toward the implementation of phase reconstruction algorithms, probably the most difficult step towards completely reliable phase tomography. Another simultaneous experimental report covers the results obtained, in cooperation with lNSA Lyon, in phase tomography applied to the behavior of materials (silicon single crystal, and aluminum-based composites) under stress. It is shown in particular that some essential aspects of the images, viz. those corresponding to singularities, can already be handled safely using the algorithm developed for standard (absorption) tomography.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Development of a high-resolution camera.</head><p>This work was carried out in cooperation with Jean-Claude Labiche and his collaborators in the ESRF Detector Group. A camera system involving a thin YAG:Ce scintillator, a mirror to separate the visible-light image (deflected through 90°) from the X-ray beam, a good optical objective and a fast CCD camera was prepared. Its response was tested in visible light (without the scintillator), and the X-ray image of an absorption edge was determined. With X-rays, a resolution of 1.6 pm was obtained as far as the full width at half maximum of the point spread distribution is concerned. The expected drawback is low efficiency, making the data acquisition slow, and putting high demand on the X-ray optical system upstream of the sample. The other problem encountered was the long, somewhat asymmetric, tail of the point spread function. This is under investigation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Quantitative simulation of contrast in defocused images.</head><p>A simple and well-known object, viz. a polymer fiber about 12 pm in diameter, was used for this comparison of simulation with images recorded on high-resolution film at various defocusing distances.The comparison of calculated vs experimental distributions of intensity, taking into account an instrumental broadening, lead to an excellent agreement. This gives confidence in the understanding both of the Fresnel diffraction involved and of the instrumental parameters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Preparation of an experimental setup for variable defocus series.</head><p>A one meter long bench with a precision motorized translation slide from the machine-tool technology was designed and assembled. It is intended to carry the high-resolution camera system, in order to acquire successively images at different defocusing distances, which can then be combined numerically, in particular under the approach derived from Van Dyck's electron microscopy technique. At the present stage, tests showed that the bench suffers a deflection by about 50 pm. This is being attended to.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">The Talbot effect with hard X-rays.</head><p>The Talbot effect is the self imaging, periodic as a function of defocusing distance, of a (laterally) periodic object in coherent illumination. It was discovered for visible light in 1836, and represents one of the most spectacular manifestations of Fresnel diffraction. We have performed a reasonably complete investigation of this effect with hard synchrotron radiation Xrays, using as periodic samples optical "student gratings", consisting of plastic replicas, with periods 12.7 (2,000 lpi) and 6.35 pm (4,000 lpi) respectively. With hard X-rays, this object, as indeed just about any object with this kind of period, is a phase object. Thus no contrast is visible when the detector is placed very near the object (the only "in-focus" position), nor at defocusing distance multiple of the Talbot period zT=2a2k where a is the lateral period of the (one-dimensional) object, and h the wavelength. The image appears, disappears, and appears again as the defocusing distance is varied. Quantitatively, a good representation is given by the amplitude of the first Fourier component of the intensity distribution, plotted vs defocusing distance, as shown on fig. <ref type="figure">1</ref>. In an ideally coherent situation, this would be a lsinl function. The decrease of the modulation with increasing defocusing distance is simply related to the lateral coherence of the beam, hence to the source size and to whatever can decrease the coherence upstream of the specimen, in particular small vibrations of the monochromator (about l/10 of the Darwin width). Talbot imaging thus appears to be a good tool for reliable measurements of lateral beam coherence. A paper on this part was submitted to Optics Letters. F&amp;J: Absolute value of the fundamental of the Fourier component of the intensity distribution versus the reduced distance zT/z for a 2000 LPI grating (dots) and a 4000 LPI grating (squares); h=0.69&amp; and the Zr values were respectively 4.68 and 1.17 m. The fitted lines allow to determine the effective angular source size (CT = 0.6 prad).</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

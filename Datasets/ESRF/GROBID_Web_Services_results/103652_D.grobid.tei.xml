@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SC5381 and IH-SC1785 -Rheo-echo-XPCS to study the dynamic of the yielding transition in colloidal glasses</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-09-22">September 22, 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">George</forename><surname>Petekidis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nikolaos</forename><surname>Burger</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stefano</forename><surname>Aime</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Fabio</forename><surname>Giavazzi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Phillippe</forename><surname>Bourrianne</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Roberto</forename><surname>Cerbino</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><surname>Chevremont</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Narayanan</forename><surname>Theyencheri</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><surname>Freyssingeas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Univ Lyon</orgName>
+								<address>
+									<settlement>Ens de Lyon</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Gibaud</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Univ Lyon</orgName>
+								<address>
+									<settlement>Ens de Lyon</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Espci</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Esrf</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratoire de Physique</orgName>
+								<orgName type="institution" key="instit1">Univ Claude Bernard</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<postCode>F69342</postCode>
+									<settlement>Lyon</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SC5381 and IH-SC1785 -Rheo-echo-XPCS to study the dynamic of the yielding transition in colloidal glasses</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-09-22">September 22, 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1556CF70D86C4A76F46EA500025F28BD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>PACS numbers: xxx</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>The glass state is a disordered solid state obtained at very high volume fractions. The glass transition is a dynamical arrested transition where colloids are trapped within the cage formed by their neighbours <ref type="bibr">[1,</ref><ref type="bibr">2]</ref>. The absence of rearrangement on long time scales leads to the solid behaviour of the suspension. The glassy suspension may yield and become fluid upon application of an oscillatory strain with an amplitude above the yield strain σ y <ref type="bibr">[3]</ref>.</p><p>Here we aim to study the yielding transition induced by shear in two distinct colloidal glass suspensions one composed of hard sphere particles (ludox dispersed in water <ref type="bibr">[4]</ref>) and of model hard spheres dispersion. We will follow the protocol proposed by <ref type="bibr">[6,</ref><ref type="bibr">7]</ref> where they performed oscillatory strain experiments at constant strain amplitude and construct the particle displacements or the intermediate scattering function following measurement at exactly the oscillatory period imposed by the rheometer. These echo measurements enables us to sample the microscopic configuration and dynamic at each deformation cycle, based on stroboscopic movies. We have adapt this protocol on beamline ID02 coupling a rheometer and echo-XPCS measurements.</p><p>Experiments using confocal measurements on colloidal hard sphere glasses show growing clusters of nonaffine deformation percolating at yielding <ref type="bibr">[8]</ref>. Echo-image correlation velocimetry performed with a light microscope on glassy emulsion corroborate those results and show that the shear-induced dynamics are very heterogenous: quiescent particles coexist with mobile particles and when the domain of mobile particle percolate the sample yield <ref type="bibr">[9]</ref>. Finally Echo-differential dynamic microscopy measurements performed on traced in carbopol glass show that the shear-induced dynamics of the tracers is diffusive and heterogeneous. This dynamic accelerate and becomes homogeneous approaching σ y <ref type="bibr">[10]</ref>.</p><p>Please find below a first draft of the analysis of the data. This is work in progress. There are still plenty of analysis to carry out.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. PMMA hard spheres</head><p>The colloidal particles in this study consist of poly(methylmethacrylate) (PMMA) spheres with an average radius of R = 340 nm. These spheres are sterically stabilized by a thin layer of poly(12-hydroxystearic) acid, which has a thickness of approximately 10 nm. These colloidal particles are similar in physical characteristics to those utilized in previous research on the glass transition (as seen in references <ref type="bibr">[4,</ref><ref type="bibr">11,</ref><ref type="bibr">19]</ref>). These particles are intentionally polydisperse, with a standard deviation of approximately 10% in their size distribution. This polydispersity is designed to prevent crystallization for an extended period, lasting several months, which is significantly longer than the typical duration of experiments.</p><p>These colloidal particles are suspended in a mixture of cis/trans-decalin. This solvent has a refractive index of 1.48 at a temperature of T = 25°C, which is slightly below the refractive index of the colloidal particles (1.5). This matching of refractive indices minimizes van der Waals attractions between the particles and allows for light scattering experiments to be conducted in the single scattering regime. In the present study we focus on the concentration ϕ = 60%.</p><p>As shown in the Fig <ref type="figure">1a</ref>, The dispersion at in the glassy regime at ϕ = 60% display the classical spectrum of a hard sphere system. Its dynamics measure with "classical" XPCS diplay two decorrelation times associated with the α and β relaxation ( (a) (b)</p><p>Static and dynamics measurements of a suspensions in quiescent conditions. (a) I(q) at phi=xxx% (dash line) is the form factor. The form factor is phitted by a sperical core shell model with a shell of 10nm and a core radius of 340 nm with a polydispersity of 9%. I(q) at phi=60% (dash line) is fitted by xxx. (b) autocorrelation function of the glassy suspension at phi=60%. Red lines are fits of the form g1=(1-f)exp(-D1q2t)+f(-D2q2t) with D1=5 10^5nm2/s and D2=4nm2/s. FIG. <ref type="figure">1</ref>. Static and dynamics measurements of s suspension in quiescent conditions. (a) I(q) at ϕ = 1% (dash line) is the form factor. The form factor is fitted by a spherical core shell model with a shell of 10 nm and a core radius of R = 340 nm with a polydispersity of 9%. I(q) at ϕ = 60% (dash line) is fitted by hard sphere model <ref type="bibr">[? ]</ref>. blue circles indicate the q-values at which XPCS was carried out. (b) Autocorrelation function g1(q, ∆t) of the glassy suspension at ϕ = 60%. Red lines are fits of the form g1 = (1 -f )e (-D 1 q 2 ∆t) + f e (-D 2 q 2 ∆t) with D1 = 510 5 nm 2 /s and D2 = 4 nm 2 /s .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Rheo-echo-XPCS protocol</head><p>The microstructural and dynamical properties of the fumed silica dispersion are investigated using XPCS and SAXS on the ID02 beamline at the European Synchrotron Radiation Facility (ESRF, Grenoble, France) [? ].</p><p>The rheometer is set to oscillate at f 0 = 0.1 Hz and at a constant stress amplitude σ. We observe that after a few oscillations the elastic G ′ and loss modulus G ′′ become stationary. In this regime, we carry out rheo-echo-XPCS in bunch mode in the radial geometry. The bunch mode acquisition consists of 2000 2D spectra I(q, t) acquired over time. This acquisition is divided into 20 groups, or "bunches," of rapid acquisitions. Each of these direction. We then track the amplitude and position of those peaks to re shown in Fig. <ref type="figure">3</ref>.</p><p>A preliminary scaling analysis of g2 shows that g2para seems to behave b fast acquisitions is comprised of 100 spectra acquired at f bunch . Furthermore, these fast acquisitions are repeated 20 times, with a frequency f echo that is a sub-multiple of the oscillation frequency f 0 of the rheometer. Optimization of those frequencies have lead us to settled for f echo = f 0 and f 0 /4 and f bunch = 100 Hz and 1 kHz.</p><p>Subsequently, the raw autocorrelation function g 2 (q, ∆t) is calculated with respect to the lag time ∆t and the wave vector q in two distinct directions: g ∥ 2 in the flow direction, along q ∥ , and g ⊥ 2 in the vorticity direction, along q ⊥ . In Fig. <ref type="figure">2</ref>, qs expected, we observe that g 2 exhibits peaks at time lags that align with multiples of 1/f echo . Notably, these peaks, referred to as "echo peaks," are much thinner in the vorticity direction compared to the flow direction. We also observe that the g ∥ 2 decorrelate faster than g ⊥ 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS</head><p>To elucidate the underlying the physics that govern the suspension dynamics under oscillatory shear, we proceed by monitoring both the amplitude and the time location of these peaks. This process enables us to reconstruct the autocorrelation function, as depicted in Figure <ref type="figure">3</ref>. Importantly, we perform this analysis for various values of the wave vector q. In our preliminary scaling analysis of g2, we have uncovered distinctive behaviors:</p><p>• g ∥ 2 appears to follow a ballistic pattern, as g ∥ 2 measurements at different q values align when plotted as a function of ∆tq.</p><p>• On the other hand, g ⊥ 2 exhibits a diffusive behavior, as g ⊥ 2 measurements at different q values superimpose when plotted as a function of ∆tq 2 . This allows us to extract a diffusion coefficient D ⊥ 2 by fitting the ensemble of scaled autocorrelation functions by We have conducted repeated experiments and analyses while varying the amplitude σ of the stress oscillations at f 0 = 0.1 Hz, and our results closely resemble those presented in Fig. <ref type="figure">3</ref>. Finally, we have plotted the relative diffusive coefficient, D ⊥ 2 , as a function of the stress amplitude σ in Fig 4 . We observe a significant increase in D ⊥ 2 as we approach σ y , the onset of the fluidization. At rest (σ = 0 Pa), there are two measurements: the one measured in the capillary display a lower diffusion coefficient, as the sample has aged significantly, while, the one measured in the rheometer was rejuvenated, and is therefore in agreement with the measurements at σ ̸ = 0 Pa. </p><formula xml:id="formula_0">g 2 = 1 + β[e (-∆tq 2 D ⊥ 2 ) ] 2 .</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Fig 1b).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>FIG. 2. Rheo-echo-XPCS. (a) g ∥ 2 (blue) and g ⊥ 2 (green) as a function of the lag time at σ = 0.03 Pa at f0 = 0.1 Hz. (b) zoom on the first echo peak.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>FIG. 3. Rheo-echo-XPCS. (a) g ∥ 2 (blue) and g ⊥ 2 (green) as a function of ∆tq n at σ = 0.03 Pa at f0 = 0.1 Hz. n = 0 indicates unscaled data. n = 1 allows to probe a balistic scaling. n = 2 allows to probe to a diffusive scaling.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>FIG. 4. Dynamics of the yielding transition. (a) stress sweep experiments carried out at f0 = 0.1 Hz. Evolution of the elastic modulus G ′ , the loss modulus ′′ and the stress σ as a function of the strain γ. Circles indicates where the rheo-echo-XPCS where carried out. (b) Diffusion coeffecient in the vorticity direction D ⊥ 2 extracted from rheo-echo-XPCS measurement as a function of the stress amplitude σ at f0 = 0.1 Hz. The square symbol indicate measurements in a capillary while circle symbols are measurements carried out in the rheometer. The vertical dash line represent the yield stress σy of the dispersion.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

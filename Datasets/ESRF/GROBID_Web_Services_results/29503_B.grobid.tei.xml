@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9F3BE7350EF55CEB079287C1409ECBB2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T15:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Use of RONTEC for Structural Genomics projects</head><p>Our structural genomic projects are mostly focusing on structure determination of conserved proteins of unknown function. The structure determination of such targets is a powerful way to get some insight on the target function by performing structure comparison with known structural and functional families. In cases were the newly determine structure correspond to a new fold, we can still get some general information by performing systematic characterization of potential ligands trapped in the protein and subsequently in the produced crystals. ESRF and specifically BM30, ID23 offered to use the opportunity to perform such systematic characterisation using the Roentec fluorescence detector available for monitoring fluorescence coming out from the crystal. This device revealed to be critical to solve the structure in some of our projects. We report here our experience with the YahK structure. A table is also included showing the results obtained with various targets, coming from various sources and projects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>YahK: 1UUF</head><p>the YahK gene product corresponding to a 349 residues long protein belonging to the alcohol Sequences of this family are usually dimeric or tetrameric. They can share as little as 10% sequence identity with other members of this family. There is 3 homologous structures available in the PDB sharing between 26 and 33 % identity with the YahK sequence.</p><p>However, standard molecular replacement failed to produce a correct solution. We thus started to prospect for heavy atom derivatives and used the roentec to assay for heavy atoms fixation. We were thus able to unambiguously identify the presence of zinc in the native crystals. We then collected a MAD dataset at 2.13 Å at the Zinc fluorescence edge and solved the structure on the beamline FIP BM30. The structure was solved using solve, autoSHARP, and CNS. The structure was subsequently refined to 1.76 Å using data collected on ID23 (MX143), R free 20 .8 R work 18.4. It is deposited in the PDB under the 1UUF accession number.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table of the projects tested using the Roentec fluorescence detector</head><p>Some of the targets were tested on produced crystals and/or protein solutions. This procedure is now implemented for all our structural genomics projects, were each soluble target goes through biophysical characterization including: DLS, CD, Mass spectrometry, and now fluorescence scan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Target Crystal</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peaks</head><p>protein Solution Peaks Ca3427 SeMet Se -Ca -Zn Se Sc57 Cl Sc35 Cl NDK 0 Sc15 AS 0 YggVsp Cl Sc47 AS Sc21 Ca -Fe Ca0996 AS YeaZ 0 YbeX 0 YecD Cl MV2Se Se</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>dehydrogenase family. ADHs are cytosolic, catalyzes the reversible oxidation of ethanol to acetaldehyde with the concomitant reduction of NAD: Ethanol + NAD = Acetaldehyde + NADH Currently three structurally and catalytically different types of alcohol dehydrogenases are known: Zinc-containing 'long-chain' alcohol dehydrogenases. Insect-type, or 'short-chain' alcohol dehydrogenases. Iron-containing alcohol dehydrogenases.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

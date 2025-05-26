@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2006-03-10">10 March 2006</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Gavin</forename><surname>Vaughan</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Carl</forename><forename type="middle">E</forename><surname>Krill</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anne-Cathérine</forename><forename type="middle">Ms</forename><surname>Probst</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials Division</orgName>
+								<orgName type="institution">University of Ulm</orgName>
+								<address>
+									<addrLine>Albert-Einstein-Allee 47</addrLine>
+									<postCode>D-89081</postCode>
+									<settlement>Ulm</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Technical Physics</orgName>
+								<orgName type="institution">University of the Saarland</orgName>
+								<address>
+									<addrLine>Postfach 151150, Geb. 43B</addrLine>
+									<postCode>D-66041</postCode>
+									<settlement>Saarbrücken</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Physical Metallurgy and Metal Physics</orgName>
+								<orgName type="institution">RWTH Aachen</orgName>
+								<address>
+									<addrLine>Kopernikusstrasse 14</addrLine>
+									<postCode>D-52056</postCode>
+									<settlement>Aachen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Dmitri</forename><surname>Molodov</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Erik</forename><surname>Knudsen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials Division</orgName>
+								<orgName type="institution">University of Ulm</orgName>
+								<address>
+									<addrLine>Albert-Einstein-Allee 47</addrLine>
+									<postCode>D-89081</postCode>
+									<settlement>Ulm</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Physical Metallurgy and Metal Physics</orgName>
+								<orgName type="institution">RWTH Aachen</orgName>
+								<address>
+									<addrLine>Kopernikusstrasse 14</addrLine>
+									<postCode>D-52056</postCode>
+									<settlement>Aachen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Center for Fundamental Research: &apos;Metal Structures in Four Dimensions</orgName>
+								<orgName type="laboratory">Risø National Laboratory</orgName>
+								<address>
+									<postBox>P.O. Box 49</postBox>
+									<postCode>DK-4000</postCode>
+									<settlement>Roskilde</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2006-03-10">10 March 2006</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F4904C579DFE7AE5837D4DAE6D94C775</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Motivation and goals</head><p>The grain-size distributions measured in well-annealed single-phase polycrystalline bulk samples are almost always lognormal in shape, provided that the material in question manifests so-called "normal" grain growth. This is quite puzzling to materials scientists, because neither the standard theory for grain growth nor the latest large-scale computer simulations of this process predict a distribution shape anywhere close to the one observed in experiment! One factor that may contribute to this discrepancy is the highly correlated nature of grain-size changes: grain growth occurs solely by the exchange of atoms across boundaries shared by adjacent grains. Hence, when a particular grain grows, at least one of its neighbors must shrink, and vice versa. But current models for grain growth make a naive mean-field assumption regarding the probability p(R|R ) that a grain of size R is bordered by a grain of size R. A more sophisticated non-mean-field model proposed by Wu <ref type="bibr" target="#b0">[1]</ref> correctly incorporates this probability into the calculation of the shape of the size distribution induced by grain growth. The goal of experiment ME-1011 was to determine whether p(R|R ) is responsible for the lognormality of grain-growth-induced size distributions observed in real polycrystalline specimens.</p><p>Using 3DXRD microscopy, we planned to characterize a sample volume containing on the order of ∼ 2000 contiguous grains, from which the corresponding grain sizes and contact areas could be determined, thus delivering the microstructural information needed to perform the first detailed measurement of p(R|R ) in a single-phase sample manifesting a lognormal grain-size distribution. By inserting p(R|R ) into Wu's grain-growth model and comparing the predicted size distribution to that actually measured by 3DXRD microscopy, we can determine the extent to which nearest-neighbor size correlations hold the key to understanding the origin of the lognormal size distributions universally associated with normal grain growth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment</head><p>A single-phase polycrystalline specimen with a lognormal grain-size distribution was prepared by careful thermal processing of recrystallized Al-1 wt.% Mg according to the procedure developed by Probst <ref type="bibr" target="#b1">[2]</ref>. Following a 75-minute anneal at 350 • C, the plate-shaped sample manifested equiaxed grains with an average diameter D ≈ 125 μm, as revealed by conventional metallographic analysis of polished and etched sections. A cylindrical specimen with a diameter of 1.4 mm and length of 2 mm was obtained from the plate by spark erosion cutting and attached to a Cu post for mounting in the 3DXRD microscopy stage installed at beamline ID11.</p><p>The specimen was irradiated with a 53.7923 keV x-ray beam of width 700 μm and height ∼ 2 μm. Scanning was performed in "layer-by-layer" mode in two stripes (needed to cover the entire 1.4 μm width of the cylinder) with a step size of 5 μm along the cylinder axis z. Within each slice, diffraction patterns were recorded in 0.75 s exposures on the old high-resolution detector at projection angles ranging over [-15 • , 15 • ] and [75 • , 105 • ] in ω with a step size of 0.6 • and a single detector distance. Every 50 μm in z, a "tracking layer" was recorded by repeating the same procedure for two additional detector distances. Total measurement time for each 50 μm z-interval was 4 h 23 min; the experiment covered an overall z-range of 850 μm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reconstruction methodology</head><p>The approach taken to reconstructing the sample microstructure from 3DXRD diffraction data is hierarchical:</p><p>1. The multi-grain indexing program GRAINDEX <ref type="bibr" target="#b2">[3]</ref> is used to identify the number and orientations of the grains present in the irradiated layer. For each grain a list of associated diffraction spots is tabulated. 2. Based on the distributions of intensity in the diffraction spots, the shape of each grain is reconstructed independently using the program 2D-ART <ref type="bibr" target="#b3">[4]</ref>. 3. The individual grain maps are patched together to create a global grain map-a step that is subject to errors resulting from uncertainty in determining the center-of-mass positions of the grains <ref type="bibr" target="#b4">[5]</ref>. The latter gives rise to ambiguities at the grain boundaries, where some pixels may be associated with two or more grains and others with none at all. 4. A restoration algorithm is employed to resolve these ambiguities and recover high-accuracy grain maps <ref type="bibr" target="#b4">[5]</ref>. This is a stochastic procedure operating only on the areas of ambiguity, applied simultaneously to all grains. Optionally, the procedure incorporates tools from the novel mathematical discipline of discrete tomography, which enables known geometric constraints of the grain ensemble to be enforced, such as the existence of exclusively smooth boundaries or the space-filling nature and simple connectivity of grain shapes <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. 5. Three-dimensional grain maps are constructed by stacking the 2-D layer maps, associating regions of nearly identical orientation into 3-D grain volumes.</p><p>Recent simulations demonstrate that this procedure can reduce the fraction of erroneously assigned pixels to 0.1%, which is clearly sufficient for the present study <ref type="bibr" target="#b5">[6]</ref>. At the same time, the simulations revealed that reconstructions carried out without the restoration step were a factor of 10 to 50 worse.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>To date, steps 1 and 2 have been performed successfully, as illustrated in Figs. <ref type="figure" target="#fig_0">1(a</ref>,<ref type="figure">b</ref>). The idea of adding the restoration step to the chain of analysis had not been conceived at the time of the experiment; however, testing clearly indicated that step 4 would increase the accuracy of the grain map substantially. Therefore, we decided to postpone completion of the data analysis until the stochastic approach was fully verified by simulations and a dedicated program suitably tested. These milestones have just been met <ref type="bibr" target="#b5">[6]</ref>, and a preliminary mapping was carried out on a 2-D section of Al-1 wt.% Mg (Fig. <ref type="figure" target="#fig_0">1(c)</ref>). Note that the anisotropic grain shapes and mapping fluctuations evident in Fig. <ref type="figure" target="#fig_0">1</ref>(c) are both artefacts of the limited ω range of projections incorporated into the reconstruction. These errors should be absent from reconstructions performed on the full set of ω projections. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: (a),(b) Maps of individual grains in Al-1 wt.% Mg. (c) Preliminary mapping of 2-D tracking layer; anisotropy of grains and misassigned pixels are artefacts of the limited ω range (30 • ) incorportated into this reconstruction (see text).</figDesc><graphic coords="2,388.11,667.97,142.04,104.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Mater. Res. Soc. Symp. Proc. Vol. 1446 © 2012 Materials Research Society DOI: 10.1557/opl.2012.955</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/opl.2012.1212</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Proceedings</title>
+		<title level="j" type="abbrev">MRS Proc.</title>
+		<idno type="ISSN">0272-9172</idno>
+		<idno type="ISSNe">1946-4274</idno>
+		<imprint>
+			<biblScope unit="volume">1446</biblScope>
+			<biblScope unit="page" from="1" to="1" />
+			<date type="published" when="1994">1994</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. T. Wu, Mater. Res. Soc. Symp. Proc. 343 (1994) 61.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mein Kollege ist ein Roboter – Akzeptanz der kollaborativen Robotik in Lagerhäusern</title>
+		<author>
+			<persName><forename type="first">Frederic</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Grosse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Morana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cornelius</forename><forename type="middle">J</forename><surname>König</surname></persName>
+		</author>
+		<idno type="DOI">10.30844/im_23-1_23-26</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Industrie 4.0 Management</title>
+		<title level="j" type="abbrev">I40M</title>
+		<idno type="ISSN">2364-9208</idno>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="26" />
+			<date type="published" when="2004">2004</date>
+			<publisher>GITO mbH Verlag</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>Universität des Saarlandes</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Diplom thesis</note>
+	<note type="raw_reference">A.-C. Probst, Universität des Saarlandes, Diplom thesis, 2004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Tracking: a method for structural characterization of grains in powders or polycrystals</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Lauridsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Suter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Poulsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889801014170</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="744" to="750" />
+			<date type="published" when="2001-11-17">2001</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. M. Lauridsen, S. Schmidt, R. M. Suter and H. F. Poulsen, J. Appl. Cryst. 34 (2001) 744.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Generation of grain maps by an algebraic reconstruction technique</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Poulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaowei</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889803011063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1062" to="1068" />
+			<date type="published" when="2003-07-19">2003</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. F. Poulsen and X. Fu, J. Appl. Cryst. 36 (2003) 1062.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A discrete tomography algorithm for improving the quality of three-dimensional X-ray diffraction grain maps</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Poulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Knudsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Herman</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s002188980601939x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="582" to="588" />
+			<date type="published" when="2006-07-15" />
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note>submitted</note>
+	<note type="raw_reference">A. Alpers, H. F. Poulsen, E. Knudsen and G. T. Herman, J. Appl. Cryst. (submitted).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Discrete Tomography for Generating Grain Maps of Polycrystals</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alpers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rodek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Poulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Knudsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Herman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-0-8176-4543-4_13</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Applied and Numerical Harmonic Analysis</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Herman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Kuba</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Birkhäuser</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Boston</addrLine></address></meeting>
+		<imprint>
+			<publisher>Birkhäuser Boston</publisher>
+			<date>null</date>
+			<biblScope unit="page" from="271" to="301" />
+		</imprint>
+	</monogr>
+	<note>in press</note>
+	<note type="raw_reference">A. Alpers, L. Rodek, H. F. Poulsen, E. Knudsen and G. T. Herman, in Advances in Discrete Tomography and Its Applications, edited by G. T. Herman and A. Kuba (Birkhäuser, Boston, in press).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

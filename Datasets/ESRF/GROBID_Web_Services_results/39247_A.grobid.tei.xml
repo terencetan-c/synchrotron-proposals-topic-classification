@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jean-Paul</forename><surname>Simon</surname></persName>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">59253568CFB6B7AE4EE5B5BE6F625244</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Names and affiliations of applicants (* indicates experimentalists): JP Simon *(CRG &amp; SIMaP-INPG), O. Lyon *(Soleil) &amp; D. Babonneau (PHYMAT-Poitiers)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Anomalous SAXS (ASAXS) can be used to disentangle difficult chemical patterns studied by SAXS, being element specific. It needs synchrotron radiation (SR) in order to tune the X-ray energy in the vicinity of a given absorption edge. On an other hand, for many applications in the field of nanotechnologies, conventional SAXS done in transmission geometry suffers from a lack of surface sensitivity. Therefore, grazing incidence SAXS (GISAXS) is in rapid expansion for characterizations in nanoscience. GISAXS also needs SR since a small beam size and a high flux are both required and, in principle, it can be used in combination with the anomalous technique (AGISAXS). However, it should be noted that anomalous measurements require relative intensities to be measured, which is a great challenge since in most AGISAXS experiments the monitoring of the incident intensity does not correspond to the beam footprint on the sample. Then structural information on the nanoclusters is only deduced from the GISAXS profile shapes. The refraction, reflection and absorbtion change both the intensity and the shape of images,: GiSAXs analysis may be tricky. We decided to prepare dedicated samples to firm the AGISAXS methodology: on D2AM, we can easily catch 90% of the beam by a 30 mm long sample at a grazing angle of 0.3 degree (for beam heigth of 0.1mm FWHM, the printfoot for 2*sigma is 30mm long).</p><p>We prepared sandwiched layers C-X-C where X is a C layer with Au or/and Cu clusters in such an amount that the recorded AGISAXS signals of both type of clusters may be equivalent and images. In order to measure precisely the thickness and optical indexes of the layers, we perform XRR in the Laboratory, i.e. at 8.05 keV. The values should be extrapolated to the energies used near K Cu and LIII Au edges; tables give δ and</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>β for pure elements, BUT this is not obvious for the intermediate layer since the clusters proportion in the "X" layer is unknown. We assume a mixing law for δ and β, and concentrations deduced frm the elaboration parameters, close from the XRR simulation at 8.05keV. It appears that the extrapolated optical index are not precise enough for a good refraction correction.</p><p>We tried to measure AnomalousXRR in order to simulate the reflectivity profiles at the same energies where we measured AGISAXS. It happens a lot of troubles: first we had to "reconfig" the @spec utility for anomalous case, but, in absence of the beam scientist, instead of closing the application and reopen it, we used the" reconfig" command, which just assigns new motors in the list (we learn it latter)... Then when we switch to the optics application, motors of the bender were triggered instead of other monochromator movements: the second crystal moved to a S curvature and fortunally was blocked before broken: we had to ask to the the technician to come from Neel's Laboratory to open the the monochromator and to place the optics in a tunable position. Then late in the nigth, we made a mistake when transferring the "user" monochromator angle from the "optics" application to the "fourc" application: our first recorded data were 20eV below the assumed ones, entailing a tiny anomalous effect. We had time to measure only two samples near the K Cu edge, the C/Cu and the Cu/C-C-Au-C samples. Finally the machine current failed during the last nigth. On the ternary sample, the AXRR profiles are almost identical:</p><p>0 5 10 15 q [nm -1 ] 0.01 1 100 10000 Log(I) [arb. units] XRR C/Cu_C_Au_C</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

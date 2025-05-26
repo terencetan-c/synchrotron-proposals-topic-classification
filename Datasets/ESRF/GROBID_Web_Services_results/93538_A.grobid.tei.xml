@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-10-22">22 Oct 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-10-22">22 Oct 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B4CA729E53434ECD8E70BF7399B25A8F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Local contact(s):</head><p>Ewen Bellec</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Received at ESRF:</head><p>Names and affiliations of applicants (* indicates experimentalists):</p><p>Dr. Lucas Marcal -Lund University Prof. Jesper Wallentin -Lund University</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Due to the COVID-19 pandemic, this experiment was carried out fully remote, which imposed some limitations. We were not able to do more that particle searching during night shifts, which left much less available time for actual data acquisition. The remote control system (guacamole) was working fine, but it froze sometimes, and beamline staff had to create new links. Even with all the limitations, beamline staff was very helpful, and the experiment was only possible due to the effort applied from their side.</p><p>In this experiment, we have measured the shape and the three dimensional strain field of CsPbBr3 nanoparticles using Bragg coherent diffraction imaging (BCDI). Nanoparticles with average size of 70 nm were deposited on a Si3N4 membrane, and mounted into the furnace provided by the ID01 beamline. We initially aligned the MAXIPIX X-ray detector to collect the 002 Bragg peak of the orthorhombic phase. Since particles present random orientation when deposited on the membrane, we mounted the sample in transmission geometry and scanned X-ray beam with the sample, using the piezoelectric stage below the furnace. When well aligned particles moved across the beam, bright spots could be seen in the scanning diffraction maps, as depicted in Figure <ref type="figure" target="#fig_0">1(a)</ref>. Individual frames were then analysed and the most promising particles were selected. For each particle, we performed a fine alignment of the x and y positions and acquired a rocking curve by scanning the incident angle theta.</p><p>Particles were initially studied at room temperature, and later at higher temperatures, controlled be the furnace. We used temperatures each 10 °C, aiming to compare the average lattice spacing at different temperatures, as well as looking at the overall internal strain field of the nanoparticles when heated. The most interesting results were expected when the temperature crossed the theoretical critical point of the orthorhombic to tetragonal crystal phase transition. It was possible to track single particles over some temperature variation, however beam damage was quite significant and they were degrading after a few scans. We then realized that we had to compare different particles at different temperatures, and decided to measure many of them after each heating step.</p><p>Data is now under analysis, but preliminary results point out for differences in lattice spacing at higher temperatures, as expected, however not all nanoparticles have shown such behaviour at the same temperature, but particles with significant different lattice spacing could be seen at intermediate temperatures. Figures <ref type="figure" target="#fig_0">1(b)-(d</ref>) show frames of selected nanoparticles at 20 °C, 40 °C and 80 °C, respectively. As the crystal phase transition temperature can change depending on the particles strain status, it will be interesting to compare out initial finding with BCDI results. The phase retrieval proccess is being carried out now, but strong strain variations make it difficult to recontruct some of the particles. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1: (a) Exemple of a scanning diffraction map used to point particles aligned in Bragg condition, which would be later investigated with BCDI. (b)-(d) Detector frames of selected particles at 20 °C, 40 °C and 80 °C, respectively, pointing out for differences in lattice spacing and internal structure.</figDesc><graphic coords="2,34.08,188.64,532.92,317.64" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A new microscopy of atomic motion in nanostructures</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Steven</forename><surname>Leake</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ewen</forename><surname>Bellec</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Guillaume</forename><surname>Beutier</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joel</forename><surname>Eymery</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Maxime</forename><surname>Dupraz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marie-Ingrid</forename><surname>Richard</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alexis</forename><surname>Wartelle</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><surname>De Boissieu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><surname>Verdier</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Vincent</forename><surname>Favre-Nicolin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Steven</forename><forename type="middle">P</forename><surname>Collins</surname></persName>
+						</author>
+						<title level="a" type="main">A new microscopy of atomic motion in nanostructures</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1A2D475289EE2B3BEC14FA8E75CA3428</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The prupose of this experiment was to develop a new microscopy, based on Coherent Diffraction Imaging (CDI) and on the measurement of forbidden crystallographic reflections at a resonance edge. Under such conditions and in the wurtzite crystal structure, the retrieved direct-space image encodes the amplitude of thermal motion instead of the electronic density in the case of conventional Bragg CDI. However the thermal motion induced is not alone and dominates another temperature-independent amplitude only at high temperature <ref type="bibr" target="#b0">[1]</ref>. As an interesting application case, we studied GaN nanopillars, which grow with inversion domains <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. Comparing the intensity of thermal motion close to and far from inversion-domain boundaries would be interesting. The effect of the free surfaces of the nanopillars is also interesting. The experiment was very successful: we managed to record a diffraction pattern at the 115 forbidden reflection of one of the nanopillars, and to retrieve a direct-space image from it. However, the measurement was done at room temperature only, and we did not have time to perform the measurement at high temperature, because we encountered several experimental difficulties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental details</head><p>The beamline was aligned at the Ga K edge (~10.637 keV) and focused with compound-refractive lenses. With coherence slits closed to 0.5 mm x 0.14 mm (V x H), the beam size at the sample was 0.4 µm x 1.1 µm (V x H). The detector was a Maxipix and was mounted at 1.666 m from the sample.</p><p>The sample was the same as the one which we previously inversion-domain boundaries <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. It contains a large number of GaN nanopillars grown on a sapphire substrate. Owing to the growth conditions, only few of them have a perfect crystal structure and most of them host inversion domains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1: SEM view of a typical area of the sample, close to an edge.</head><p>One of the difficulties of the experiment was to find several allowed reflections from the same nanopillar, in order to build an orientation matrix and then look for a forbidden reflection. We started with the (0,0,4) reflection, which is specular, and then looked for several off-specular reflections among the (1,0,4), (-1,0,4), <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b3">4)</ref> and <ref type="bibr">(1,-2,4)</ref>. Thanks to the diffraction maps, we could make sure that we always measured the same nanopillar. Once we had a satisfying orientation matrix (allowing to find allowed reflections with little effort), we looked for the (1,1,5) forbidden reflection. It could be found in 2 nanopillars. However, automated alignment procedures were unsuccessful, owing to the weakness of the peak, and it could be found only by a careful inspection by eye of the detector images. Once the (1,1,5) forbidden reflection was found, it was optimised in energy and azimuth, 2 important parameters when measuring forbidden resonant reflections. The energy dependence (Figure <ref type="figure" target="#fig_0">2</ref>) was found similar to that in the bulk <ref type="bibr" target="#b0">[1]</ref>, but with weaker absorption effects. As expected, it vanishes away from the resonance. The azimuthal dependence (Figure <ref type="figure">3</ref>) was performed at 10.38 keV, i.e. just below the absorption edge, in order to find multiple scattering events and chose an azimuth sufficiently away from them and therefore being in a situation when dynamical effects can be ignored (a necessary assumption for phase retrieval). Note that we had to develop a routine to perform such scans, by simultaneously scanning phi, eta, delta and nu, since the specifities of ID01 are not covered by the calculations of You. The azimuthal position of the multiple scattering peaks was roughly in agreement with our calculations, although their relative intensities were significantly different. This is due to the fact that the calculations are done for a bulk material. As predicted, the small azimuthal region around 25° was free from multiple scattering contamination and was selected for the subsequent measurements. Moreover, the resonant amplitude also has an azimuthal dependence, which is well known and varies slowly compared to multiple scattering <ref type="bibr" target="#b0">[1]</ref>, and is nearly at its maximum at 25° (the maximum is at 0° but multiple scattering is extremely dense around this value).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 3: Azimuthal scans on the (1,1,5) forbidden reflection at 10.38 keV. Comparison between experimental data (red) and calculations (blue). The sharp peaks are due to multiple scattering and should be avoided for quantitative measurement of the resonant amplitude.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Radiation damage</head><p>After aligning the (1,1,5) forbidden reflection on a first nanopillar, we attempted to record a speckle pattern with high statistics during a night scan. However we found out that the beam severely damaged the nanopillar (Figure <ref type="figure" target="#fig_1">4</ref>) and we did a careful investigation of radiation damage before continuing with another pillar. We concluded that exposures of 1 second were acceptable, with a recovery time of ~1s between exposures provided by the deadtime of the control software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>After destruction of the first nanopillar, we had only 24 hours left to complete the experiment. After characterisation of the radiation damage, we aligned another nanopillar. A reasonably good dataset was recorded in one hour (i.e. ½ effective acquisition time) on the (1,1,5) forbidden reflection of a pillar (Figure <ref type="figure">5</ref>). Unfortunately, we realised only afterward that the (1,1,5) reflection had not been recorded on the same pillar as the (0,0,4) and other allowed reflections. Nevertheles, obtaining a diffraction pattern of sufficient quality for phase retrieval on a forbidden reflection is already a notable experimental achievement.</p><p>Figure <ref type="figure">5</ref>: SEM images and direct-space images from phase retrieval of 2 nanopillars: from the (0,0,4) allowed reflection on the left and from the (1,1,5) forbidden reflection on the right. The colours encode the phase and highlight the inversion domains.</p><p>After the measurement at room temperature, we started heating the sample and followed manually the (1,1,5) reflection during heating but we lost it. At 500°C, we could find the nanopillar again and measured the (0,0,4) and (1,1,4) allowed reflections. The diffraction patterns at room temperature and 500°C of the (0,0,4) reflection show that the crystal structure was intact (Figure <ref type="figure" target="#fig_2">6</ref>). Unfortunately we didn't manage to find the (1,1,5) forbidden reflection again within the little time left. These results are very positive and we are confident that this experiment could be carried out successfully, now that we have optimised our alignment procedures and characterised the radiation damage.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Energy dependence of the (1,1,5) forbidden reflection around the Ga K edge. The fluorescence is also shown for comparison.</figDesc><graphic coords="4,90.55,42.80,419.90,314.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Radiation damage. Left: diffraction map before long exposures. The beam comes from the top left corner. Middle: same diffraction map after long exposures. The bottom right part (i.e. top) of the pillar has disappeared. Right: SEM image of the damaged nanopillar (the one with a "flower" head).</figDesc><graphic coords="5,34.00,546.20,198.50,156.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 6 :</head><label>6</label><figDesc>Figure 6: Direct-space image from phase retrieval at the (0,0,4) reflection at room temperature (left) and 500°C (right).</figDesc><graphic coords="6,34.00,525.55,266.45,148.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,34.00,84.20,532.95,399.70" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Thermal motion induced resonant forbidden reflections in wurtzite GaN</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Beutier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nisbet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Ovchinnikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Dmitrienko</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjst/e2012-01606-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The European Physical Journal Special Topics</title>
+		<title level="j" type="abbrev">Eur. Phys. J. Spec. Top.</title>
+		<idno type="ISSN">1951-6355</idno>
+		<idno type="ISSNe">1951-6401</idno>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="53" to="66" />
+			<date type="published" when="2012-06">2012</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beutier et al, Eur. Phys. J. Special Topics 208, 53-66 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Inversion Domain Boundaries in GaN Wires Revealed by Coherent Bragg Imaging</title>
+		<author>
+			<persName><forename type="first">Stéphane</forename><surname>Labat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Ingrid</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maxime</forename><surname>Dupraz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Gailhanou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Beutier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Verdier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Mastropietro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">W</forename><surname>Cornelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><forename type="middle">U</forename><surname>Schülli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joël</forename><surname>Eymery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsnano.5b03857</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="9210" to="9216" />
+			<date type="published" when="2015-09-02">2015</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Labat et al, ACS Nano 9, 9210-9216 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Ni</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">10305</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ni Li et al, ACS Nano 14, 10305 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Angle calculations for a `4S+2D&apos; six-circle diffractometer</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>You</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889899001223</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="614" to="623" />
+			<date type="published" when="1999-08-01">1999. 1999</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">You, J. Appl. Cryst. (1999). 32, 614-623 (1999).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

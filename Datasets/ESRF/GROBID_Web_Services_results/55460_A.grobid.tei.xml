@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F0B8159B78B7581D45534D2492FE7094</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This experiment was carried out at ID13 on Feb. 25 th 2015, ending 2 days before the proposal deadline. Here we summarize the preliminary results from this successful feasibility study. The aim of the experiment was to prove the feasibility of a new X-ray reflectivity (XR) method that allows the recording of XR curves from a liquid sample's curved edge. The angle of reflection can be chosen by vertical translation of the sample in a horizontal beam. A very small vertical beam size is favorable for this method, because it limits the angular range illuminated by the beam which results in higher resolution in momentum space. The beam size used at the nanofocus end station of ID13 was 200 nm in vertical direction at an energy of 15.2 keV. The sample chosen here was a mercury droplet (approximately 0.5 ml) with an estimated radius of curvature of 2.7 mm sealed in a KEL-F cell in a nitrogen atmosphere (see Figure <ref type="figure">1</ref>). Due to its high absorption, mercury minimizes the fraction of the direct beam transmitted through the sample.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A photodiode detector was used for initial sample alignment. Figure <ref type="figure">2</ref> shows a plot of the diode intensity against the vertical sample translation. The obtained curve is the beginning of the mercury reflectivity curve. This curve exhibits a sharp critical angle and oscillations probably arising from the presence of a thin oxide layer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1: KEL-F sample cell</head><p>Figure <ref type="figure">2</ref>: Reflectivity curve obtained from diode scan.</p><p>One of the challenges of this experiment is to achieve the dynamic range of 8 orders of magnitude required to collect a complete reflectivity curve without adding an absorber which may affect the beamsize and structure. Key to this aspect of the experiment was the availability of the Eiger 4 M large area detector which allowed us to have 12 bit resolution in .007 s exposures in combination with a pixel size of 75µm. In addition to this new detector on ID13, we employed two approaches to vary the intensity. The Dectris EigerX 4M was used in a distance of 30 cm from the focal point to be able to access qz values up to 2.5 Å -1 by varying the sample height. To increase resolution in the lower qz ranges from 0.002 Å -1 to 0.0003 Å -1 , the detector distance was increased in steps up to 220 cm. In the first approach, we varied the number of focusing lenses. In a second approach the same number of lenses was employed throughout the reflectivity scan and the vertical opening of the beamline power slits was varied to optimize the intensity for the various stages of the reflectivity. Both approaches deliver promising data but a detailed analysis of the reflected beam will be required to see which method is preferable.</p><p>We observed a clear specular reflection up to 2.2 Å -1 , with counting times of 400 seconds. Initially data were collected in 1µm steps (Δq=0.004 Å -1 ) around the critical angle and the step size was gradually increased to a maximum to 20µm above 1.5 Å -1 (Δq=0.08 Å -1 ). Figure <ref type="figure" target="#fig_0">3</ref> shows raw detector images collected at qz=1 Å -1 and qz=0.9 Å -1 . Due to the complexity of the data analysis the final reconstruction of the reflectivity curve from the 2D detector data could not be finished before the deadline of this report. Figure <ref type="figure" target="#fig_0">3</ref> shows sample raw detector images. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Two raw detector images at qz=1 Å -1 and qz=0.9 Å -1 . The shift of the reflected beam (highlighted by boxes) is clearly visible at a detector distance of 30 mm. The powder rings are due to the cell.</figDesc><graphic coords="2,56.70,215.00,498.60,296.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="1,272.70,339.10,288.00,208.80" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

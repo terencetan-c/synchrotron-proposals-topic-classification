@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Residual strain and whiskers growth in Sn layer Proposal number: 2021322 / A32-2 845(ESRF ref.) Beamline: IF (BM32) Shifts: 9 Date(s) of experiment: from: 01/07/2022 to: 06/07/2022 Date of report: updated/modified in this format 12/09/2023</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">Residual strain and whiskers growth in Sn layer Proposal number: 2021322 / A32-2 845(ESRF ref.) Beamline: IF (BM32) Shifts: 9 Date(s) of experiment: from: 01/07/2022 to: 06/07/2022 Date of report: updated/modified in this format 12/09/2023</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2CDCAFEDFEC59A410EE331FF3A24E47D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective &amp; expected results (less than 10 lines): -We proposed to measure by microLaue difrraction strain fields in various technologically relevant microstructures of Sn coatings around controlled mechanical loading by nanoindentation to generate plasticity and residual strain. Relaxation of these local residual strains leads to Sn whiskers growth. Litterature/modeling report a threshold stress around 15MPa for whiskers to grow. The main objective was to evaluate for various samples (composition/process and microstructures/plastic deformation):</p><p>• the indexation of diffraction spot in complex structure (a few µm Sn films on polycrystalline brass f.e), nanograins size (…), • the ability by postanalysis to measure these low magnitude strain (15MPa amounts for 4.10 -4 microstrain (0.04%)) and compare samples, • ultimately to follow microstrain patterns evolution around identified growing whiskers (kinetic).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>-Results and the conclusions of the study (main part): -Globally the experiment was succesfull, around 18 successful maps for 6 different samples were acquired with good index confidence. Microstrain resolution achieved our goals. On these samples set, kinetics of whiskers growth was however to slow within the duration of the experiment. Unknown microstructure (heavily deformed chips of Sn, impossible to observe nondestructively, see below) where revealed.</p><p>Three types of microstructures where succesfully investigated which are fundamentally and technologically relevant : (i) single crystal ( min. 200µm diameter grains) thin films of Sn (4 µm thickness) on brass substrate, technologically named 'Reflowed Sn' (ii) polycrystalline films (same thickness Si substrate), grain size diameter in µm range, named 'Mat Sn' (iii) residual free standing Sn chips which where produced during press-fit insertion consisting in highly plasticaly deformed Mat layers scratched away from the brass substrates. They where attached on C tapes. Unknown microstructure/impossible to determine via classic way (heating prep. But with cryoFIB on 100µmsize areas).</p><p>The Mat_Sn microstructrures where also electrodeposited on Si single crystal (with a thin Cu deposit around 50nm) to compare with brass substrate the effect of no Cu-Sn intermetallic growth in the layer. Cartography with 0.5 µm step on 2D maps using ScientificCMOS detector and various fluorescence signals (Sn, Cu) were used along with in-situ optical microscope available on BM32.</p><p>One main problem was the absence on some samples of systematic Ge single crystal calibration reference for the camera distance and impacted postanalysis absolute microstrain values. Therefore, most of the data presented here where from free standing Sn chips (high plastic deformation) on which whiskers were observed due to residual strain and on Sn layers deposited on Si. The Si single crystal was used as a distance / calibration reference in the data treatment</p><p>Postanalysis was carried out with the help of Neural Network algorithms developed -research work needs to be continued (phD) along with mechanical modeling (FEM).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>[1] and adapted to our data by PhD Hélène Vives (SIMaP) (july 2022-january 2023) [1] Purushottam Raj Purohit et al. "LaueNN: Neural network based hkl recognition of Laue spots and its application to polycrystalline materials" , Journal of Applied Crystallography 55, no. 4 (2022). Beam / acquisition setup: Horiz. Beam size 330nm, (X dir) / Vert. Beam size: 500nm (Ydir) Integration time 0.4s in standard maps. Typical results obtained : * Scan Sn_Si MAT around wedge nanoindentation (20µm long tool), SEM (left) ; BM32 microscope : circle is beam position for map center( right figure) .80µmx80µm µlaue MAPS: fluoX / Sn energy : detector on side gives nice surface contrast (left) posttreatment analysis : Inverse pole fig (right) Indexation quality (no refinment step): Strain components map : * Scan Sn_Si around spherical nanoindentation : BM32 microscope view / spot=beam position for map (left) ; fluoX BM32 80x80µm map (right) =&gt; nice pileup visible in microscope (plastic deformation) scratched tin layer (pressfit insertion) : free standing on Carbon tape. Whiskers developped on the chips without intermetallics formation : effect of residual stress only, unknown microstructure : SEM (mag on right is rotated), left view is same as for BM32 scan µLaue : =&gt; direct evidence of recrystallisation/dynamic recrystallisation after large plastic deformation (grain size x2-3 intial layer size). -Justification and comments about the use of b eam time (5 lines max.): -Experiments went on finely; some bliss related and software detector halts took place but with no hard consequence. High support and expertise of beam line contacts and technicians. Strong support for analysis of data shortly after the experiment. -Publication(s) : --Communication of this work (methodology essentially) was given by PhD H.Vives with a poster at the colloque 'Plasticité' hold in Lyon in march 2023.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="5,70.85,70.80,350.15,157.30" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B925F64D40D96DC6B0F69C8EF7B8C6CA</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>This report outlines a proposal for an experiment aimed at advancing our understanding of post-print heat treatment (PPHT) in Laser Powder Bed Fusion (LPBF) additive manufacturing. LPBF has gained significant importance in industries such as aerospace, automotive, and healthcare due to its ability to produce strong and lightweight components. However, the process is plagued by non-uniform residual stress distribution, which can be mitigated through PPHT. This proposal suggests using artificial intelligence (AI)-based methods, specifically a fuzzy finite element model, to determine creep properties for viscoelastic materials and analyse the effects of PPHT on LPBF-manufactured components. The experiment builds upon prior research conducted during the beam-time of Proposal MA5208 awarded by the European Synchrotron Radiation Facility (ESRF).</p><p>Laser Powder Bed Fusion (LPBF) is an additive manufacturing technique renowned for its ability to produce complex, strong, and lightweight parts, making it a cornerstone in various industries. However, LPBF suffers from irregular thermal gradients, causing anisotropic shrinkage and leading to non-uniform residual stress distribution in manufactured components. Post-print heat treatment (PPHT) is an effective method for reducing these residual stresses and improving mechanical properties. To optimize the PPHT process, precise determination of process parameters is essential. However, testing LPBF-manufactured components before and after PPHT can be challenging due to the expense of industrial components.</p><p>Residual stresses in viscoelastic materials can relax when subjected to constant strain, primarily through thermal strains. The significant role of creep in the relaxation of residual stresses during heat treatment is a well-known phenomenon. This suggests that creep models can be utilized to analyse the heat treatment of residual stress relaxation in LPBF-manufactured components.</p><p>To address the challenge of determining creep properties for specific materials, this proposal advocates for the use of artificial intelligence through a fuzzy finite element model. This model is based on eigenstrain theory, enabling the integration of high-quality experimental data with numerical simulations to precisely quantify residual stresses, strain relaxation, and creep strain during the PPHT process.</p><p>The proposed experiment is an extension of a previous successful study conducted during the beam-time of Proposal MA5208 at ESRF. It will involve the use of highly accurate experimental data obtained from LPBF additively manufactured bodies that have undergone post-print heat treatment. Strain tomography technique developed based on measurements at ESRF in 2006, will be employed to provide the essential data for the determination of creep properties, the quantification of residual strains, strain relaxation, and creep strain. This data will be used to analyse various PPHT parameters.</p><p>In addition to the primary research objectives outlined above, this experiment aims to collect data from various materials, including 3D printed CM 247 LC superalloy, quenched aluminium bars with rectangular and cylindrical geometries, and quenched steel bars accommodating cracks. This diverse dataset will enable the presentation of a new tomographic eigenstrain reconstruction method, which promises to drastically reduce the amount of diffraction data required for full-field mapping of residual stress components along with permanent plastic strains. The use of quenched specimens will allow for analytical validation, and additional strain tomography scans will provide experimental validation for this innovative method.</p><p>1. Analysis of post-print heat treatment residual stress relaxation in 3D printed CM 247 LC superalloy. 2. Introduction of the new tomographic eigenstrain reconstruction method.</p><p>3. The first application of strain tomography technique for mapping the planar distribution of residual stresses around a crack that formed during the quenching of carbon steel.</p><p>This report represents an important step forward in advancing our understanding of post-print heat treatment in LPBF additive manufacturing. By harnessing artificial intelligence and integrating it with high-quality experimental data, we aim to determine creep properties for specific materials and gain insights into the effects of PPHT on residual stress relaxation. This knowledge can have significant implications for the optimization of LPBF processes across industries such as aerospace, automotive, and healthcare.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants (* indicates experimentalists):Fatih Uzun -The University of Oxford, Department of Engineering Science Alexander M Korsunsky -The University of Oxford, Department of Engineering Science</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

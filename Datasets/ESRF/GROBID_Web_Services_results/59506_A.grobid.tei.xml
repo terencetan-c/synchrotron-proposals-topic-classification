@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Looking inside three-dimensional (3D) silicon photonic band gap crystals</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-09-05">05 September 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+							<email>cloetens@esrf.fr</email>
+						</author>
+						<author>
+							<persName><forename type="first">Willem</forename><forename type="middle">L</forename><surname>Vos</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Diana</forename><forename type="middle">A</forename><surname>Grishina</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cornelis</forename><forename type="middle">A M</forename><surname>Harteveld</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Complex Photonic Systems (COPS)</orgName>
+								<orgName type="institution" key="instit1">MESA+ Institute for Nan- otechnology</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<postCode>7500 AE</postCode>
+									<settlement>Enschede</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Complex Photonic Systems (COPS)</orgName>
+								<orgName type="institution" key="instit1">MESA+ Institute for Nan- otechnology</orgName>
+								<orgName type="institution" key="instit2">University of Twente</orgName>
+								<address>
+									<postCode>7500 AE</postCode>
+									<settlement>Enschede</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Complex Photonic Systems (COPS)</orgName>
+								<orgName type="department" key="dep2">MESA+ Institute for Nanotechnology</orgName>
+								<orgName type="institution">University of Twente</orgName>
+								<address>
+									<postCode>7500 AE</postCode>
+									<settlement>Enschede</settlement>
+									<country key="NL">The Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Looking inside three-dimensional (3D) silicon photonic band gap crystals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-09-05">05 September 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2115D4BCDB9460A6134A1E9E7CC26B12</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>In nanofabrication, it is a main challenge to characterize the structure of a real sample. This is especially true for nanophotonic metamaterials, whose properties and functionality are determined by their complex structure with features comparable, or even smaller than the wavelength of light. X-ray techniques are ideal to structural characterize opaque metamaterials, as they are non-destructive and provide nm-resolution. We first study 3D Si photonic band gap crystals with a diamond-like structure by 3D tomography. The density distribution ρ e (X, Y, Z) of the structure is defined by two perpendicular 2D arrays of pores (Fig. <ref type="figure" target="#fig_0">1(a)</ref>). Both 2D arrays have a centered rectangular structure with lattice parameters (a, c) with a/c = √ 2 (diamond (110)). The alignment of the pores is a crucial step in the nanofabrication that can only be assessed in situ by X-ray tomography. Moreover, it is crucial to verify the cylindrical pore geometry, and that pore depth that ultimately limits the crystal size. Figure <ref type="figure" target="#fig_0">1</ref>(b) shows the reconstructed volume of one crystal. Closer inspection indeed reveals two sets of pores running in the Z and the X-directions, matching the design.</p><p>It appears that the angle between the pore arrays systematically deviates by a few degrees from the 90 o design. This means that the crystal structure is not truly cubic but monoclinic. Our band structure calculations (JAP 105, 093108 ( <ref type="formula">2009</ref>)) reveal that the 3D photonic band gap remains robust: the gap hardly narrows from 24% relative bandwidth to more than 21%, plenty for strong spontaneous emission control.</p><p>100 150 -400 -200 0 200 400 vac. vac. Si Si vacuum Distance ∆X (nm) Electron density (gray values) Figure <ref type="figure" target="#fig_2">2</ref> shows a cross-section through pores in the reconstructed volume. To interpret the electron density, we propose a simple model of a binary normalized density function for silicon (ρ e = 1) and vacuum (ρ e = 0) convoluted with a Gaussian resolution function. The adjustable model parameters are the width w of a Si-wall, the Gaussian resolution σ, the amplitude, and a background. The data are well modeled with two Siwalls with widths w 1 = 140 nm and w 2 = 176 nm. Given the 20 nm voxel size and the resolution, this agrees with the design w = 156 nm, hence the structure was faithfully realized. The resolution widths (σ 1 = 32 nm and σ 2 = 37 nm) agree well with the measured X-ray beam size. Modeling of the structure offers a straightforward future path to input tomographic structural data into ab -initio numerical codes (FEM, FDTD) to compute nanophotonic properties. This opens the prospect to domodel-free calculations of metamaterial to predict experiments and device functionality. At the end of the run we briefly did successful tests of a direct-laser written polymer structure, and of X-ray fluorescence detection of semiconductor quantum dots inside a photonic crystal. We therefore conclude that 3D X-ray tomography has great potential to solve many questions on optical metamaterials for much nanophotonic research and applications, including cavity arrays, physically unclonable functions, and precise localization of light emitters for enhanced efficiency.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: (a) SEM image of the surface of a 3D Si inverse woodpile photonic crystal. The estimated extent is shown by the dashed lines. The 3D crystal is surrounded by a large 2D array of pores that are first etched in the Z-direction (see: Leistikow et al., PRL 107, 193903 (2011)). (b) Bird's-eye view of the reconstructed sample volume. The color scale is the electron density ρ e (X, Y, Z) interpolated between Si and air, the latter shown transparent (see: Grishina, Cloetens, Harteveld &amp; Vos (2016)).</figDesc><graphic coords="1,301.23,582.36,167.61,140.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Density profile in the X-direction through pores in Si (red circles). The black dashed curves is the convolution of a square density function (blue hatched bars) and a Gaussian resolution function.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Pressure-induced spin-state and phase transitions in the mono-LaCoO 3 and multi-valent metastable La 0.5 Ba 0.5 CoO 2.87 with one modified by pulsed huge-field Experiment number: HC-5265</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Hanfland</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Stanislav</forename><surname>Savvin</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">-ILL</orgName>
+								<address>
+									<settlement>Grenoble</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Applied Geoscience</orgName>
+								<orgName type="laboratory">Dr. Dmitry Khakyavin -Laboratory SFTC -Rutherford Appleton Laboratory ISIS Facili Dr. Anrew Sazonov -Laboratory European Spallation Source</orgName>
+								<orgName type="institution">Sikolenko -Karlsruhe Institute of Technology</orgName>
+								<address>
+									<addrLine>ESS) Dr. Vadim</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Pressure-induced spin-state and phase transitions in the mono-LaCoO 3 and multi-valent metastable La 0.5 Ba 0.5 CoO 2.87 with one modified by pulsed huge-field Experiment number: HC-5265</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">18CE13BBC0C5D02CA13845B962062A83</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The cobaltites with perovskite structure are systems with fascinating transport and magnetic properties <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>. The parent compound LaCoO 3 (LCO) is a paramagnetic (PM) insulator at low temperature (LT). As temperature increases a gradual spin transition (ST) from a low-spin (LS, t 2g 6 e g 0 ) to intermediate (IS, t 2g 5 e g 1 ) or high (HS, t 2g 4 e g 2 ) spin-state occurs, accompanied with insulator to metal transition at ~550 K [1-5]. Previous studies showed that chemical substitutions in LCO can induce a long-range antiferromagnetic (AFM) or ferromagnetic (FM) order <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>. For example, low doped La 1-x Ba x CoO 3-d (LBCO 3-d ) becomes an AFM insulator <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11]</ref>. One possible explanation for these phenomena is stabilization of the HS state <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b10">11]</ref>. Surprisingly, the T c of these compositions increases under applied pressure <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11]</ref> while the origin of the magnetostructural phase transition is still unclear. In a medium doped oxygen deficit compound La 0.5 Ba 0.5 CoO 2.75 all cobalt atoms are in AFM state whereas La 0.5 Ba 0.5 CoO 2.87 has a mixture FM+AFM phases at low temperatures. It leads to a large magnetic anisotropy inducing a giant magnetoresistance as well as transformation of crystal structure including the separation into two different pseudocubic phases with sp.gr. Pm-3m at 50 K and one cubic phase at 300 K (Fig. <ref type="figure">1b</ref>, <ref type="figure">c</ref>).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>When pressure is applied, the Co-O bond length of the LaCoO 3 &amp; La 0.5 Ba 0.5 CoO 2.87 is gradually decreasing at 50 K and 300 K (Fig. <ref type="figure">2a</ref>,<ref type="figure">b</ref>). However, above pressure 5 GPa at 50 K for LaCoO 3 &amp; La 0.5 Ba 0.5 CoO 2.87 the Rietveld refinement confirmed a sharply falling of the Co-O bond length and the transformation of one cubic phase into the two ones, respectively (Fig. <ref type="figure">2a</ref>). Moreover, the isotropic ADP of Co for La 0.5 Ba 0.5 CoO 2.87 shows a sharply and weakly growth above 7 GPa at 50 K and above 15 GPa at 300 K, respectively (Fig. <ref type="figure">2a</ref>,b, insets). It interesting to note that these pressure points in both cases corresponds to the bending between higher and lower slopes of Co-O bond length. Similar bending behavior is possibly an indication of the HS→IS spin-state transition of Co 3+ ions with IS→LS one of Co 4+ at 50 K and IS→LS one of both Co 3+ and Co 4+ ions at room temperature. The drop of the cobalt isotropic ADP at lower pressures is associated to the lattice compression with further beginning of the HS→IS spin-state transition of Co 3+ ions and IS→LS one of Co 4+ . We suppose that such spin-sate transitions are best described by a mixture of HS, LS and IS multivalent cobalt ions. It is well documented by R.D.Shanon that the Co 3+ ionic radius of the HS state (0.61 Å) is significantly larger than that of the LS (0.54 Å) and IS (0.56 Å) states and especially with Co 4+ ones of the IS (0.54 Å) and LS (0.53 Å).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .Fig. 2 .</head><label>12</label><figDesc>Fig. 2. The pressure dependence of the two (a) and one (b) Co-O bond length for LaCoO 3 with La 0.5 Ba 0.5 CoO 2.87 at 50 K and 300 K, respectively; both insets show an cobalt isotropic ADP.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Transport Properties</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">B</forename><surname>Goodenough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-S</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/3-540-45503-5_2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Structure and Bonding</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="17" to="113" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.B. Goodenough and J.S. Zhou, Structure and Bonding (Springer, New York, 2001), pp. 17-113.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leighton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">174408</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wu and C. Leighton, Phys. Rev. B 67, 174408 (2003).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">O</forename><surname>Troyanchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Szymczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Puzniak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">214404</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I.O. Troyanchuk, I. Fita, R. Szymczak, R. Puzniak,et.al, Phys. Rev. B 71, 214404 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Novoselov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Křápek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Novák</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dm</forename><forename type="middle">M</forename><surname>Korotin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Anisimov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">195104</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Novoselov, V. Křápek, P. Novák,, Dm. M. Korotin, and V. I. Anisimov, Phys. Rev. B 86, 195104 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Correlation-Driven Charge and Spin Fluctuations in&lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mml:mrow&gt;&lt;mml:msub&gt;&lt;mml:mrow&gt;&lt;mml:mi&gt;LaCoO&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;3&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msub&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt;</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karolak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Izquierdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Molodtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Lichtenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.115.046401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">46401</biblScope>
+			<date type="published" when="2015-07-21">2015</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Karolak, M. Izquierdo, S. Molodtsov and A. Lichtenstein, Phys. Rev. Lett. 115, 046401 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Manifold of spin states and dynamical temperature effects in &lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;LaCoO&lt;/mml:mi&gt;&lt;mml:mn&gt;3&lt;/mml:mn&gt;&lt;/mml:msub&gt;&lt;/mml:math&gt; : Experimental and theoretical insights</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feygenson</surname></persName>
+			<idno type="ORCID">0000-0002-0316-3265</idno>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Novoselov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pascarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chernikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zaharko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Porcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Karpinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nikitin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Prabhakaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sazonov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sikolenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.100.054306</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">2469-9950</idno>
+		<idno type="ISSNe">2469-9969</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">54306</biblScope>
+			<date type="published" when="2019-08-28">2019</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Feygenson, V. Sikolenko, A. Sazonov, D. Novoselov, et al., Phys. Rev. B 100, 054306 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pressure induced AF-FM</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sikolenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. B</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">435</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>transition on La 0.5 Ba 0.5 CoO 2.8</note>
+	<note type="raw_reference">V. Sikolenko et.al Pressure induced AF-FM transition on La 0.5 Ba 0.5 CoO 2.8 , Eur. Phys. J. B86 435 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Pressure effects on oxygen-deficient Ba-substituted cobaltites</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sikolenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Efimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Többens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ritter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Bushinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">O</forename><surname>Troyanchuk</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0885715613001097</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Diffraction</title>
+		<title level="j" type="abbrev">Powder Diffr.</title>
+		<idno type="ISSN">0885-7156</idno>
+		<idno type="ISSNe">1945-7413</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">S2</biblScope>
+			<biblScope unit="page" from="S126" to="S132" />
+			<date type="published" when="2013-09">2013</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V.Sikolenko,et.al Pressure effects on oxygen-deficient Ba-substituted cobaltites.Powder diffr.28 S126 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">High pressure induced spin state crossover in Sr&lt;sub&gt;2&lt;/sub&gt;CaYCo&lt;sub&gt;4&lt;/sub&gt;O&lt;sub&gt;10.5&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sikolenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Troyanchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bushinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Efimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schorr</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/27/4/046005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Condensed Matter</title>
+		<title level="j" type="abbrev">J. Phys.: Condens. Matter</title>
+		<idno type="ISSN">0953-8984</idno>
+		<idno type="ISSNe">1361-648X</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">046005</biblScope>
+			<date type="published" when="2015-01-08">2015</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Sikolenko, et.al High pressure induced spin state crossover in Sr 2 CaYCo 4 O 10.5 , J.Phys.Cond.Mat.27 046005 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">High pressure effects on the magnetic and crystal structure of La 0.75 Ba 0.25 CoO 3</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sikolenko</surname></persName>
+			<idno type="ORCID">0000-0001-5252-6870</idno>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">O</forename><surname>Troyanchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Bushinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Karpinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Efimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ritter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Silibin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Dronov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Nekludov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Gavrilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Schilling</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchemphys.2016.06.035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Chemistry and Physics</title>
+		<title level="j" type="abbrev">Materials Chemistry and Physics</title>
+		<idno type="ISSN">0254-0584</idno>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="78" to="81" />
+			<date type="published" when="2016-09">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Sikolenko, et.al.,High pressure effects on magnetic and crystal structure of La 0.75 Ba 0.25 CoO 3 .Mat. Chem. Phys. 181 78 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Pressure-induced structural and magnetic phase transitions in &lt;mml:math xmlns:mml=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mml:mrow&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;La&lt;/mml:mi&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;0.75&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;Ba&lt;/mml:mi&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;0.25&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msub&gt;&lt;mml:msub&gt;&lt;mml:mi&gt;CoO&lt;/mml:mi&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;2.9&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msub&gt;&lt;/mml:mrow&gt;&lt;/mml:math&gt; studied with scattering methods and first-principle calculations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feygenson</surname></persName>
+			<idno type="ORCID">0000-0002-0316-3265</idno>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Novoselov</surname></persName>
+			<idno type="ORCID">0000-0003-1668-3734</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mazannikova</surname></persName>
+			<idno type="ORCID">0000-0003-1418-4018</idno>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Korotin</surname></persName>
+			<idno type="ORCID">0000-0002-4070-2045</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bushinsky</surname></persName>
+			<idno type="ORCID">0000-0002-7234-6866</idno>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Karpinsky</surname></persName>
+			<idno type="ORCID">0000-0002-1046-543X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hanfland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sazonov</surname></persName>
+			<idno type="ORCID">0000-0002-8916-6319</idno>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Savvin</surname></persName>
+			<idno type="ORCID">0000-0002-2541-909X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Porcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Svetogorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Veligzhanin</surname></persName>
+			<idno type="ORCID">0000-0002-5794-9175</idno>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tiutiunnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arumugam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sikolenko</surname></persName>
+			<idno type="ORCID">0000-0001-5252-6870</idno>
+		</author>
+		<idno type="DOI">10.1103/physrevb.104.144107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">2469-9950</idno>
+		<idno type="ISSNe">2469-9969</idno>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">144107</biblScope>
+			<date type="published" when="2021-10-14">2021</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Feygenson, S. Savvin, M. Hanfland, F.Porcher, V. Sikolenko, et al, Pressure-induced structural and magnetic phase transitions in La0.75Ba0.25CoO2.9 studied with scattering methods and first-principle calculations Phys. Rev. B 104, 144107 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Enhancing photosynthetic CO2 fixation by assembling metal-organic frameworks on Chlorella pyrenoidosa</title>
+		<author>
+			<persName><forename type="first">Dingyi</forename><surname>Li</surname></persName>
+			<idno type="ORCID">0000-0002-6368-0360</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Hong</forename><surname>Dong</surname></persName>
+			<idno type="ORCID">0000-0001-5839-7846</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Xupeng</forename><surname>Cao</surname></persName>
+			<idno type="ORCID">0000-0002-7626-7874</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Wangyin</forename><surname>Wang</surname></persName>
+			<idno type="ORCID">0000-0002-4522-7677</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Can</forename><surname>Li</surname></persName>
+			<idno type="ORCID">0000-0002-9301-7850</idno>
+		</author>
+		<idno type="DOI">10.1038/s41467-023-40839-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<title level="j" type="abbrev">Nat Commun</title>
+		<idno type="ISSNe">2041-1723</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">3638</biblScope>
+			<date type="published" when="2023-09-02">2023</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dong Li, Hongguang Wang, at.al., Nature Communications 14, 3638 (2023).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

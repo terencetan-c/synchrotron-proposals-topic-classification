@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nick</forename><forename type="middle">B</forename><surname>Brookes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Alberto TAGLIAFERRI* ESRF Céline DE NADAI* ESRF</orgName>
+								<orgName type="institution">ESRF Philippe OHRESSER* LURE</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Alberto TAGLIAFERRI* ESRF Céline DE NADAI* ESRF</orgName>
+								<orgName type="institution">ESRF Philippe OHRESSER* LURE</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giacomo</forename><surname>Ghiringhelli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Alberto TAGLIAFERRI* ESRF Céline DE NADAI* ESRF</orgName>
+								<orgName type="institution">ESRF Philippe OHRESSER* LURE</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Italy</roleName><forename type="first">Politecnico</forename><surname>Di Milano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Alberto TAGLIAFERRI* ESRF Céline DE NADAI* ESRF</orgName>
+								<orgName type="institution">ESRF Philippe OHRESSER* LURE</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DF17B3686A7EC1FFB683E1AC64BF03B5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T15:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The complete experiment of spin-resolved photoemission from the valence band of simple ferromagnets.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Original motivations and objectives of the experiment</head><p>The goal of the experiment was to test the validity and applicability of sum rules for valence band photoemission from 3d transition metals, by performing for the first time the complete spin-resolved photoemission measurement on ferromagnetic thin films. The theoretical framework established by Thole and van der Laan <ref type="bibr">[1]</ref> ideally requires the combination of the three possible photon polarisations (right circular, linear and left circular) with the detection of the photoelectron spin polarisation in order to extract from the measured spectra the values of the spin and orbital magnetic moments and of other ground state properties. The quantitative derivation makes use of the intensities of the various spectra as integrated over the whole valence states. We proposed to apply those sum rules to two well known samples, such as Co and Ni films grown epitaxially on the (001) surface of a Cu single crystal. The growth mechanisms and the magnetic properties of a few atomic layers of Co/Cu(001) and Ni/Cu(001) were already described in the literature, so that a little effort was need for the characterisation of the samples. Extremely important was the fact that the samples have a nicely squared magnetic hysteresis loop: not only at room temperature one can reverse the magnetisation with relatively small magnetising fields (H &lt; 100 G), but the remanent magnetisation is very close to the saturation magnetisation. This a very convenient feature for using photoemission, which is incompatible with any kind of magnetic field external to the sample. Disregarding the angular distribution effects of the emission intensity [2] and assuming that the wide angular acceptance (±20 deg) of the used hemispherical analyser ensures a good integration over many Brillouin zones and over most of the photoelectron diffraction effects, we intended to apply in a direct way the sum rules given in reference <ref type="bibr">[1]</ref>. At ID12B we were able to choose the magnetisation orientation and the sign of the photon helicity (left or right circular polarisation), and measuring the degree of spin polarisation of the photoelectrons, all referred to the same direction, i.e. the photo propagation vector. The 8 different spectra which can be measured by combining the values of magnetisation (M=[+], [-]), photon helicity (P=(+), (-)) and photoelectron spin (S=↑, ↓) are independent only 4 by 4. The redundancy is extremely useful for eliminating the instrumental asymmetries, by taking the geometrical average of the equivalent spectra. We define for convenience the following combinations:</p><formula xml:id="formula_0">Name M=[+] M=[-] a (+)↑ (-)↓ b (+)↓ (-)↑ c (-)↑ (+)↓ d (-)↓ (+)↑</formula><p>We then combine the 4 spectra in three ways:</p><formula xml:id="formula_1">τ = a+b+c+d ; σ = a-b+c-d ; δ = a+b-c-d .</formula><p>By integrating the spectra over the whole of the valence band (thus including in our case the sp-like and the 3d states of cobalt and nickel, i.e. from zero to 12 or 17 eV binding energy) we can try to apply the following sum rules: 2 &lt; S z &gt; = ( Σ / T ) * &lt;N 3d electrons &gt; ; &lt; L z &gt; = -2 ( ∆ / T ) * &lt;N 3d electrons &gt; , where the capital letters indicate the integrated intensities. The spin and orbital moment derived in such a way can then be directly compared to those obtained by applying the usual sum rules for the absorption magnetic circular dichroism (MCD) at the L 2,3 edges of Co and Ni, as measured on the very same samples in the same environment and magnetisation conditions. From this comparison we expect to assess the degree of applicability of the photoemission sum-rules.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental results</head><p>In the 18 shifts, in hybrid mode, we could prepare and measure 6 samples:</p><p>• 2 times Co/Cu, 7 to 8 ML thick films, magnetised along the sample surface;</p><p>• 2 times Ni/Cu, 8 ML thick films, magnetised along the normal to the sample surface;</p><p>• 2 times Ni/Co/Cu, 20 ML thick Ni films, magnetised along the sample surface.</p><p>In most of the cases the epitaxial growth was checked by LEED. The contamination level was checked by photoemission spectroscopy and remained tolerable during the whole time of measurement for all of the samples, also in consideration of the moderate surface sensitivity of photoemission when detecting above 500 eV kinetic energy electrons. We chose the 700 eV photon energy, as the best compromise between cross section evolution and monochromator second order rejection capabilities. Despite the good performances of the beam line and of the mini-Mott polarimeter mounted on the hemispherical analyser, the experiment could not be made totally. Actually the instrumentation instabilities can be much better compensated in the data treatment for the σ spectra than for the δ spectra. This is because in the former case we make the differences (a-b) and (c-d), where the subtracted spectra are measured in parallel. In the latter case we make the difference (a+b)-(c+d), were the subtracted spectra are necessarily measured in different moments, and the x-ray beam instabilities can become more dangerous. Furthermore, the (∆/T) ratio is expected to be at least 10 times smaller than (Σ/T). This is why we can retain the data only for applying the sum rule on the spin magnetic moment &lt; S z &gt;.</p><p>Each sample was measured in spin-resolved photoemission for at least 12 hours. The absorption MCD spectra were taken just before and just after the photoemission series of spectra. In the figures we show the results for one Co/Cu sample and one Ni/Co/Cu sample. The data show a very good reproducibility among equivalent samples, and even the comparison of the two types of Ni films look reasonable, by considering the known trend of the magnetic properties as a function of the thickness. The quantitative results of &lt; S z &gt; show systematically that the photoemission sum rule leads to smaller values with respect to the absorption MCD. The discrepancy very much depends on the choice of the number of 3d holes (or of the number of 3d electrons &lt;N 3d electrons &gt;), and can go from 50% to almost zero, within the range of &lt;N 3d electrons &gt; given by different authors in the recent literature. We think that understanding this discrepancy is the main issue of the data analysis. Moreover we believe that further experiments allowing to measure the orbital moment would be of the greatest usefulness within this perspective. Consequently, we have succeeded in our goal of having data to test the photoemission spin sum rule but need higher quality data to test the orbital sum rule. The higher stability ands flux on ID8 should make this possible.</p><p>[1] G. van der Laan and B.T. <ref type="bibr">Thole, Phys. Rev. B 48, 210 (1993)</ref>. [2] B.T. Thole and G. van der Laan, Phys. Rev. B 49, 9613 (1994). 0 20000 40000 60000 80000 100000 686 688 690 692 694 696 698 700 Co/Cu(001) Photon energy = 700 eV Sample Co2 MAJ MIN MAJ-MIN background MAJ background MIN Counts 686 688 690 692 694 696 698 700 -0.05 0.00 0.05 0.10 0.15 Integrated Polarisation Kinetic Energy (eV) 0 20000 40000 60000 80000 100000 120000 140000 680 682 684 686 688 690 692 694 696 698 700 MAJ MIN MAJ-MIN background MAJ background MIN Ni/CO/Cu(001) Counts 680 682 684 686 688 690 692 694 696 698 700 -0.05 0.00 0.05 0.10 0.15 Photon energy 700 eV Sample Ni4 Integrated Polarisation Kinetic Energy (eV) 840 845 850 855 860 865 870 875 880 885 890 895 900 -0.5 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 Ni/Co/Cu(001) Intensity, TEY (arb. units) Photon Energy (eV) FIGURE 1 Co spin-resolved photoemission spectra, averaged over the two photon helicities FIGURE 2 Ni spin-resolved photoemission spectra, averaged over the two photon helicities FIGURE 3 Co and Ni absorption MCD spectra</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Photon Energy (eV)</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Texture analysis of experimentally sheared anhydrite</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Id13</forename><forename type="middle">/</forename><surname>Bl1</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><surname>Heidelbach</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><surname>Kunze</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Geologisches Institut</orgName>
+								<address>
+									<settlement>Stretton</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">ETH Zürich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Texture analysis of experimentally sheared anhydrite</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AAE22D265A11D2B3EF71C1744E2C1E73</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T14:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>HS-295</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The experiment HS 295 was designed to determine the texture gradient in an aggregate of anhydrite (CaSO 4 , orthorhombic symmetry) experimentally sheared in torsion. In this type of deformation experiment a cylinder of polycrystalline anhydrite is twisted between two pistons resulting in a continuous shear gradient from the center to the edge of the cylinder. With the procedure for microtexture measurements established at the Microfocus beamline <ref type="bibr">[1]</ref> this gradient can be analyzed in terms of crystallographic preferred orientation.</p><p>Experimental setup: The monochromatic (λ=.78Å, Pb L3 absorption edge) and focussed beam was collimated with a 30µm collimator and then aligned with the crossing point of the rotation axes of the Kappa goniometer available at BL1. The sample was prepared as a slice of 100 micron thickness, reaching from the center of the cylinder to the edge (7mm). The section was also optically aligned on a goniometer head and centered at the same crossing point. The experiment was carried out in transmission so that the 2D CCD detector was positioned stationary at 2Θ=0° and a distance of 80.3 mm, recording the complete Debye powder rings of 11 reflections, 4 of which were overlapped. The sample was rotated parallel to φ of the Kappa geometry around 115° in 5° steps in order to cover a large area in pole figure space. Analysis procedure: The intensity variation along Debye ring was extracted from the 2D image by integration and the transferred into pole figure angles. The partial experimental pole figures were then used as input for the calculation of the complete orientation distribution function (ODF) with the WIMV algorithm <ref type="bibr">[2]</ref>, which also allows to separate overlapped peaks. From the ODF complete pole figures were derived. Results: The texture analysis was carried out for 10 points in the sample reaching from the maximum shear strain (γ) of 8.14 at the edge of the cylinder to 0.44 close to the center. As a reference, a hotpressed, undeformed sample of anhydrite was also analyzed (γ=0). The resulting textures (Figure <ref type="figure">1</ref>) of this series are shown in the form of the (020) pole figures. A characteristic texture in form of a (020) maximum starts to become visible at a shear strain of about 2 and then strengthens continuously with increasing deformation. The maximum also appears to rotate towards the pole of the shear plane, i.e. the (020) planes become more parallel to the shear plane at high strains. The texture in the parts with the highest shear strain is consistent with preferred orientations found in naturally sheared anhydrite [3] and can be explained by dominant glide on the [100](010) slip system during dislocation creep. Figure <ref type="figure">1</ref>: (020) pole figures of sheared anhydrite; shear plane (SP) is horizontal.</p><p>[1] F. <ref type="bibr">Heidelbach &amp; C. Riekel (1996)</ref>, ESRF Newsletter, 27, 22-24.</p><p>[2] S. <ref type="bibr">Matthies (1979)</ref>, Physica Status Solidi, B92, 135-138.</p><p>[3] D. <ref type="bibr">Mainprice et al. (1993), J. Stuctural Geology, 15, 793-804.</ref> </p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

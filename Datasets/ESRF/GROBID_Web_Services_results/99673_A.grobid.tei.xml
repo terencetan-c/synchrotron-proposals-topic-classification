@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8BFEE19EF826323025D964EB08B0D36D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The context of our work is the differentiation of the planet into its two main reservoirs that are the mantle and the core. At that time, about 4.5 billion years ago, elements were partitioned between the two reservoirs depending on their chemical affinity for silicate (lithophile element) or iron (siderophile element). Most of the respective compositions of the mantle and the core were established once the differentiation ceased, about a hundred million years after the beginning of accretion. However, the abundance of Highly Siderophile Elements (HSEs) in the mantle is at odds with the generally accepted scenario, whereby siderophile elements segregated into the forming core. Indeed, they display a chondritic relative abundance in the mantle. One possible explanation for the overabundance of HSEs in the Earth's mantle could be that their core-mantle partitioning was affected by the extreme pressure and temperature of the Earth's differentiation, as it is the case for moderately siderophile elements (e.g. nickel, cobalt 1 ). This has never been tested experimentally at the accurate conditions of the differentiation, and could potentially change our view of the accretion and differentiation of the planet. We aim at measuring low concentrations of HSEs (namely rhenium, iridium, palladium and gold) dissolved in the silicate phase of high pressure and high temperature (HP-HT) runs in equilibrium with a metallic phase. Our experimental runs are synthetized at various P and T using laser heated diamond anvil cell technique (LH-DAC) in order to decipher these effects on the metal-silicate partitioning of HSEs during Earth's differentiation. Extrapolations of previous experiments performed at lower P-T suggest that the chondritic abundance of HSEs in the mantle could be controlled by metal-silicate equilibrium instead of calling for a late delivery of chondritic material 2,3 . We want to directly test this hypothesis at the conditions of core-mantle differentiation (P &gt; 40 GPa and T &gt; 3000 K). We expect very low amounts of HSEs in the silicate of our runs (ppm level), and due to the geometry of our samples (lamellae with silicate phases of about 2x2x3 microns, see Fig. <ref type="figure" target="#fig_1">1</ref>) the use of nanobeam analyses is mandatory. During a first session in April 2021, we have established a procedure to efficiently measure diluted HSEs in different standards, and we highlighted the importance of the geometry of the runs in order to obtain satisfactory results. These results were recently published 4 . The goal of this second round of measurements was to analyze actual high P-T samples synthetized using LH-DAC and extracted by Focused Ion Beam (FIB), see Fig. <ref type="figure" target="#fig_1">1a</ref>. We brought to the beamline fourteen HP-HT samples synthesized between 40-80 GPa and 3500-4900 K, covering the putative conditions of core-mantle differentiation. The starting material used to synthesize these samples consisted on synthetic silicate and iron alloys doped in Pd, Au, Re and Ir. They consisted on 3 microns-thick FIB lamellae on which two phases are visible: a quenched molten silicate and a quenched molten metal that represent a snapshot of the Earth's coremantle differentiation (Fig. <ref type="figure" target="#fig_1">1b</ref>). Along with the samples, we analyzed several standards that were already presented in the previous report for beamtime ES 998. Nano XRF measurements were performed on ID16B at the European Synchrotron Radiation Facility (ESRF).</p><p>The spatial resolution of the beam is about 60x60 nm and was combined with the high flux in the monochromatic (pink) beam mode. The X-ray beam was set at 29.5 keV, the brilliance was about 7.10 10 photons.s -1 , and we used Si and Ge detectors. Using this technic, it is possible to map large area (up to 30 x 20 microns in our case) of our samples and standards with high sensitivity for heavy elements studied here. We could reach the K-lines of Pd and the L-lines of Re, Au and Ir. In terms of geometry, the samples and standards were mounted on Cugrids during the FIB preparation, and grids were subsequently taped to a Si3N4 membranes using double sided tape. The membrane itself was attached to a PEEK holder using Kapton tape.</p><p>Using nano XRF, we acquired high precision chemical maps of the samples (500 to 1000 ms per pixel) from which we can extract Regions Of Interest (ROIs). With the nano XRF measurements, it is possible to retrieve the concentration of several siderophile elements diluted into the silicate melt. In order to do so, we have to use the software PyMCa developed by the ESRF 5 . To retrieve the concentration of HSEs, it is necessary to have the composition of the major elements present in our runs. Given the specific geometry and size of our samples, a FEG probe is needed, and the measurements will be done in September. Once we have the major elements composition of our runs, we can use one of them (such as Fe) as an internal standard in the PyMCa software, and determine the concentration of HSEs in the silicate phases. This will then allow us to calculate the partition coefficient of the HSEs between metal and silicate, and evaluate how it evolves with pressure and temperature. These results will be the first on of their kind on those elements, and will be a milestone in our comprehension of the history of Earth's formation and differentiation.</p><p>Bibliographie 1. Siebert, J., Badro, J., Antonangeli, D. &amp; Ryerson, F. J. Metal-silicate partitioning of Ni and Co in a deep magma ocean. Earth Planet. Sci. Lett. 321-322, 189-197 (2012). 2. Mann, U., Frost, D. J., Rubie, D. C., Becker, H. &amp; Audétat, A. Partitioning of Ru, Rh, Pd, Re, Ir and Pt between liquid metal and silicate at high pressures and high temperatures -Implications for the origin of highly siderophile element concentrations in the Earth's mantle. Geochim. Cosmochim. Acta 84, 593-613 (2012). 3. Bennett, N. R., Brenan, J. M. &amp; Fei, Y. Thermometry of the magma ocean : Controls on the metalsilicate partitioning of gold. Geochim. Cosmochim. Acta 184, 173-192 (2016). 4. Blanchard, I. et al. Chemical analysis of trace elements at the nanoscale in samples recovered from laser-heated diamond anvil cell experiments. Phys. Chem. Miner. 49, (2022). 5. Solé, V. A., Papillon, E., Cotte, M., Walter, P. &amp; Susini, J. A multiplatform code for the analysis of energy-dispersive X-ray fluorescence spectra. Spectrochim. Acta -Part B At. Spectrosc. 62, 63-68 (2007).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants(* indicates experimentalists): Ingrid Blanchard* (University of Potsdam) Julien Siebert* (Institut de Physique du Globe de Paris) Max Wilke (University of Potsdam) Sylvain Petitgirard (ETH)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: a) FIB lamella of a HP-HT sample synthesised using LH-DAC with both metallic and silicate phases visible. b) Schematic view of the sample to illustrate its geometry.</figDesc><graphic coords="3,67.51,78.43,211.28,196.72" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

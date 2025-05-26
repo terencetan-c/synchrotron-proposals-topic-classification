@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Quantitative Rietveld analysis of CAC clinker phases using synchrotron radiation</title>
+				<funder ref="#_nBSzc2A">
+					<orgName type="full">ESRF for the provision of synchrotron facilities (Invitation for Experiment number</orgName>
+				</funder>
+				<funder ref="#_9usGaTm">
+					<orgName type="full">Spanish Government</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2006-11">2006-11</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">F</forename><surname>Guirado</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Servei de Recursos Científics i Tècnics</orgName>
+								<orgName type="institution">Univ. Rovira i Virgili</orgName>
+								<address>
+									<addrLine>Campus Sescelades</addrLine>
+									<postCode>43005</postCode>
+									<settlement>Tarragona</settlement>
+									<region>Catalonia</region>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Galí</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dep. Cristal•lografia</orgName>
+								<orgName type="institution">Univ. Barcelona</orgName>
+								<address>
+									<addrLine>Martí i Franquès sn</addrLine>
+									<postCode>08028</postCode>
+									<settlement>Barcelona</settlement>
+									<region>Catalonia</region>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Quantitative Rietveld analysis of CAC clinker phases using synchrotron radiation</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Cement and Concrete Research</title>
+						<title level="j" type="abbrev">Cement and Concrete Research</title>
+						<idno type="ISSN">0008-8846</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">36</biblScope>
+							<biblScope unit="issue">11</biblScope>
+							<biblScope unit="page" from="2021" to="2032"/>
+							<date type="published" when="2006-11" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">1591A9CB53A37B93ECC2A119DC1917FB</idno>
+					<idno type="DOI">10.1016/j.cemconres.2006.05.019</idno>
+					<note type="submission">Received 3 May 2005; accepted 29 May 2006</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Synchrotron diffraction</term>
+					<term>X-ray diffraction</term>
+					<term>Quantitative Rietveld analysis</term>
+					<term>Calcium aluminate cement</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The quantitative Rietveld analyses of twenty samples of CAC from four different manufacturers over the world, one synthetic mixture and a NIST standard were performed using synchrotron radiation. As compared with conventional XRD, synchrotron powder diffraction permitted to find new minor phases, improve the characterization of solid solutions of iron rich CAC phases and reduce preferential orientation and microabsorption effects. Diffraction data were complemented with XRF and TG/DT analyses. Synchrotron results were used as a reference test to improve the performance of conventional powder diffraction, by an accurate selection of refinable profile and structural parameters, and permitted to extract several recommendations for conventional quantitative Rietveld procedures. It is shown that with these recommendations in mind, conventional XRD based Rietveld analyses are comparable to those obtained from synchrotron data. In summary, quantitative XRD Rietveld analysis is confirmed as an excellent tool for the CAC cement industry.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Standardless Rietveld quantitative analysis of clinker phases is becoming a straightforward reliable tool for quality control in cement industry. In recent years several important papers on Rietveld analysis of both, Portland <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref> and calcium aluminate (CAC) cements <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref> have been published, drawing the attention on the potential advantages of the method, as compared with other traditional quantitative methods of the cement industry.</p><p>The quantitative Rietveld method is based on two premises: one is the accurate knowledge of the crystal structures of the phases present, and the other regards all the instrumental factors involved in the obtention of the diffraction profile. The knowledge of the structural variations expected in clinker phases allows a wise selection of the crystallographic parameters that can be introduced in the fitting model. On the other hand, the accurate calibration of the diffractometer permits to minimize the instrument dependent parameters used, avoiding misleading correlations between structural and instrumental parameters, that may introduce bias in the quantification of phases.</p><p>Since the cement is produced from natural or recycled raw materials with variable composition, the clinker produced results in a complex variable multiphase-multicomponent system. The full characterization of this system from a single powder diffraction profile requires the previous solution of several important problems. For CAC, a non-exhaustive list of these problems include: a) identification of minor phases (less than 2 wt.%) <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> b) identification of hydrated phases, c) characterization of the extent of solid solutions in major phases <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>, d) knowledge of the influence of different absorption coefficients on quantitative results, e) deviations due to preferential orientation etc.</p><p>In the normal practice in industry or research, a conventional Bragg-Brentano X-ray powder diffractometer is likely to be used for routine identification and quantification work. These instruments, even if they are improving their performances, have inherent limitations due mainly to their source emission profile and limited intensity <ref type="bibr" target="#b10">[11]</ref>. As a consequence, for multiphase samples, severe overlapping of diffracting peaks may introduce strong correlations between crystal to crystal and crystal to instrument parameters, depending on the number of phases and their symmetry. In addition, the absorption contrast between phases may give rise to a systematic underestimate of the more absorbing ones.</p><p>Synchrotron X-ray powder diffraction may help to overcome most of these drawbacks, allowing the validation or eventually the modification of the current procedures in conventional Xray Rietveld quantitative analysis of CACs. The main advantages of a synchrotron source are high brilliance (higher flux of photons), very low spectral dispersion, small vertical divergence and higher energy (smaller radiation length) <ref type="bibr" target="#b11">[12]</ref>. As a result, absorption effects are minimized, minor phases are made visible and the improved resolution reduce correlations between parameters, and improve accuracy.</p><p>In this paper the authors analyze twenty samples of CAC clinker from four different factories, plus one NIST standard and a synthetic mixture using synchrotron radiation powder diffrac-tion. The characterization of the samples was complemented by XRF analysis, thermogravimetric and differential thermal analyses (TG/DTA). Finally, the samples were analyzed by conventional X-ray powder diffraction. The comparison of the quantitative results obtained with synchrotron and conventional X-ray, permits to find out the possibilities and intrinsic limitations of conventional powder diffraction, and to derive several recommendations for routine Rietveld quantitative phase analyses of CACs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Collecting of the samples</head><p>The authors contacted CAC producers all over the world to expose the project and solicit their collaboration. Four important  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Synchrotron X-ray powder diffraction (SXRD) measurements</head><p>All samples were received as powders, and all of them were manually passed through the agate mortar embedded in cyclohexane with the purpose of homogenize and disaggregate the powders, but avoiding to significantly reduce the crystallite size. The diffraction patterns were collected at the European Synchrotron Radiation Facility, beam line ID31, wavelength 0.495754 Å, equipped with a diffractometer in a Debye-Scherrer transmission configuration. Powder specimens were contained in a rotating borosilicate glass capillary, with diameter 1.5 mm and length 10 mm. Both wavelength and capillary diameter were chosen as a compromise between minimum absorption of the sample, and maximum representative volume. The sample analysis in capillary mode minimizes the preferred orientation of crystallites. The scan range was from 0°to 35°of 2θ at a speed of 0.75°/min, the intensity data was distributed in 0.002°steps, with resulting counting time of 0.16 s/step. The best FWMH (line breath) obtained with a LaB 6 diffraction standard was 0.01°of 2θ giving a resolution of ∼0.016 Å, and the maximum diffracting intensity yield was ∼5•10 6 counts/s (NIST1882).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Conventional X-ray powder diffraction (XRD) measurements</head><p>Data were collected in a Siemens-D5000 powder diffractometer in a Bragg-Brentano geometry using CuK α (1.540598 + 1.544426 Å) and a diffracted beam graphite monochromator. Samples were placed in a backmounted sample holder to minimize preferential orientation of the crystallites. The scan range was from 10°to 70°of 2θ, with step size of 0.02°, and measuring time 16 s/step. The best FWMH that can be obtained with the system of slit apertures used was ∼0.1°of 2θ giving a resolution of ∼ 0.07 Å, and the maximum diffracting intensity yield was ∼2•10 3 counts/s. </p><formula xml:id="formula_0">O 6 •6H 2 O C 3 A H6 - - - - - 0.79 0.15</formula><p>Mean results (five analysis) obtained for sample NIST 1882 analyzed with X-ray data in order to estimate the repeatibility of the method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">TG/DTA and chemical analyses</head><p>All the samples, except for the synthetic standard and NIST1882, were analyzed by X ray fluorescence (XRF). A 0.3 g portion of each sample was weighted and mixed with 5.7 g of Li 2 B 4 O 7 to obtain a 1/20 dilution. The homogenized mixture was transferred to a Pt crucible and melted to 1100 °C in a high frequency induction furnace. This method oxidizes all Fe to Fe 2 O 3 . Analyses were performed in a Philips 2400 X-ray spec-trometer, and quantification was done by calibration of a group of 56 reference standards. Each sample was analyzed twice. The accurate chemical analyses of individual phases should be performed by electron microprobe (EMP) or by EDX-SEM on polished sections of clinker, see for instance <ref type="bibr" target="#b6">[7]</ref>. However, in our case, these microanalytical techniques were not applicable, since we were only provided with powdered clinker samples.</p><p>These data were complemented by thermogravimetric/differential thermal analyses in order to obtain the loss of ignition and to Fig. <ref type="figure" target="#fig_0">1A</ref>. Observed, calculated and difference profiles, with quantitative results for each included phase. Diffractograms correspond to sample A9 (iron rich). Top profile corresponds to synchrotron data while bottom profile corresponds to conventional X-ray radiation. B. Observed, calculated and difference profiles, with quantitative results for each included phase. Diffractograms correspond to sample D3 (iron free). Top profile corresponds to synchrotron data while bottom profiles corresponds to conventional X-ray radiation. detect in the same analysis different types of water losses and oxidation/reduction effects. No tritration of water containing phases by KF-method was carried out. TG/DTA analyses were performed in a NETZSCH STA 409 C instrument between room and 1000 °C at 20 °C/min under air atmosphere. Reference material was alumina, and the weight of the samples were ∼75 mg. Iron rich samples from factories "A" and "B", modify their weight with temperature in four well definite steps: between 100-200 °C and 200-350 °C there are two weight losses attributed to adsorbed water and dehydration of hydrated phases respectively; between 350-600 °C there is a weight increase for A and B samples due to oxidation of Fe, and between 600-750 °C a weight loss not clearly identified. Iron poor samples C2, C3 and D1-D6 always show the same two first weight losses, and C2 D1, D3 and D6 a third loss starting around 550 °C.</p><p>The composition of the samples, expressed in oxides, is given in Table <ref type="table" target="#tab_0">1</ref>. FeO content has been calculated on the basis of TG data. Lately, it will be shown that estimated FeO correlates well with the amount of wustite found by quantitative powder diffraction. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Outline of the refinement procedure</head><p>Both synchrotron and conventional X-ray profiles were fitted using the computer program TOPAS 2.1 <ref type="bibr" target="#b12">[13]</ref>. This program implements a wide variety of instrumental, profile and structural parameters and a robust convergence procedure, allowing a quick fit of complex multiphase crystalline systems. In spite of these advantages, there is some risk of fitting well (i.e. good agreement indexes) the experimental profile with a selection of unreliable parameters. The risk is higher for minor phases (less than ∼ 3%), when high correlations between different parameters may occur. To save this drawback, the user is obliged to an accurate selection of the significant refined parameters, to avoid spurious correlations between parameters that can lead to biased quantitative results.</p><p>With X-ray data the so-called "fundamental parameters approach" <ref type="bibr" target="#b13">[14]</ref> was used, with the obvious advantage of eliminating correlations between instrumental and sample plus crystallographic parameters. This approach takes the geometrical description of the diffractometer to calculate the instrumental contribution to diffracted profile. Consequently, only the sample contribution to profile is taken into account and refined (crystallite size and strain for each phase). Nevertheless, to fit the synchrotron data a classical pseudo-Voigt profile function and the FWHM description of Cagliotti <ref type="bibr" target="#b14">[15]</ref> was used, because a parametric description of the instrument used at ESRF is not available at present.</p><p>After exhaustive tests carried on with different arrays of refinable parameters, we arrived to a choice, which is a compromise permitting a reliable estimation of the amounts of all identified phases in both kinds of calcium aluminate cements. The choice is different for synchrotron and conventional diffraction, the former permitting the identification of more phases and the refinement of a larger variety of parameters. In Table <ref type="table" target="#tab_1">2</ref> the parameters used are summarized for synchrotron and conventional diffraction and for iron rich and iron poor cement.</p><p>The agreement indexes for all synchrotron and conventional diffraction refinement are given in Table <ref type="table" target="#tab_2">3</ref>. R exp , R wp , and R p indexes are better for synchrotron refinements. The higher values obtained for the χ 2 statistics of synchrotron profiles, reflect the very high intensity yielded in synchrotron experiments: when the intensity data have been "over-collected", errors are not dominated by counting statistics anymore, R exp will be very small and the ratio χ 2 = R exp /R wp larger than 1 <ref type="bibr" target="#b15">[16]</ref>. This effect known as "serial correlation of data" is measured by the Durbin-Watson statistics that allows an interpretation of the deviation of χ 2 from the ideal value 1. Nevertheless, positive serial correlation has no effect on the accuracy of the refined parameters <ref type="bibr" target="#b16">[17]</ref>.</p><p>The accuracy of the method was estimated with standard STD2. Table <ref type="table" target="#tab_3">4</ref> summarizes the results obtained for this sample with synchrotron radiation and X-ray. The precision for conventional X-ray diffraction was checked preparing and Table <ref type="table">5</ref> Phases used (grey color) in quantitative analysis for synchrotron and X-ray radiation and the two types of CAC ICSD and ICDD database file numbers used for each phase are given.</p><p>analyzing five times the standard NIST 1882 (Table <ref type="table" target="#tab_3">4</ref>). In Fig. <ref type="figure" target="#fig_0">1A</ref> and <ref type="figure">B</ref> selected examples of Rietveld refinement plots of synchrotron and conventional diffraction profiles are depicted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Identification of "new" phases</head><p>The higher resolution and intensity of synchrotron data makes visible several phases that are not seen by conventional diffraction. Minor phases were identified by isolated peaks that appeared in synchroton data. Both diffraction peaks and mineralogical compatibility were the basis for accepting the occurrence of such minor phases. These discovered phases are only apparent by one or two small diffracting maxima, but introducing them in the refinement procedure improves the final agreement indexes. Suspected minor phases that were not represented by isolated non-overlapped peaks were not included in the refinement.</p><p>New phases may include minor oxides like magnetite, αalumina, quartz, sodium or potassium chlorides coming from the production process itself and cement hydrated phases formed by contact of the clinker with the atmospheric moisture.</p><p>For synchrotron data a total of sixteen phases were used for iron rich clinkers, while for iron free cement only ten phases are needed to simulate de experimental profile. Major and minor phases introduced in the refinements for synchrotron and conventional X-Ray data are given in Table <ref type="table">5</ref>. Quantitative results obtained from synchrotron data for all samples are depicted in Fig. <ref type="figure">2</ref>.</p><p>The occurrence of such minor phases should be confirmed by other techniques such us selective dissolution <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b17">18]</ref>, micro diffraction or electron diffraction. These techniques are far from the scope of this work, that tries to establish a model useful for on-line control in the production process of CAC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Refinement of occupation factors in solid solutions</head><p>In the structures of CA and C 4 AF, significant amounts of Fe + 3 may substitute Al + 3 . For CAC samples, the Fe/Al ratio cannot be established from XRD data because CA and C 4 AF peaks are partially overlapped by other phases, and the resulting estimated error of the refined occupation factors is high. This is the reason why, for XRD data, the occupations of Fe + 3 and Al + 3   Fig. <ref type="figure">2</ref>. Quantitative results from synchrotron data obtained for all samples. Top figure summarizes major phases whereas the bottom one summarizes the minor phases.</p><p>are fixed to a value previously investigated, or based in general crystallochemical considerations <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. For the CA phase the fixed Fe/Al ratio is more accurate than for C 4 AF, because in the latter, Fe + 3 can be substituted by other cations different from Al + 3 <ref type="bibr" target="#b18">[19]</ref>. With SXRD profiles, the cation occupation of these sites is refined, but constrained by a minimum and maximum possible values. The iron content in the above phases has important influence on the distribution of phases in the sample. Other cation substitutions in minor phases (i.e. substitution of silicon by phosphor in β-C 2 S, [20] Ti + 4 in C 4 AF or Ti + 4 by Si + 4 in perovskites <ref type="bibr" target="#b20">[21]</ref>) were not investigated. In Fig. <ref type="figure">3</ref> Fe + 3 occupation factors in CA and C 4 AF are plotted against the cell volumes calculated from the refined cell parameters of the same phases. Solid solutions for iron free CACs are not significant, and were not taken into account.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Comparison between quantitative SXRD and XRD results</head><p>One aim of this work was to validate XRD results by comparing them with those obtained with a more powerful and reliable tools as SXRD. Synchrotron results are taken as the best reference for evaluating the quality of quantitative results obtained from conventional data. In Fig. <ref type="figure" target="#fig_1">4</ref> quantitative results for major and minor phases obtained by synchrotron are plotted against the relative deviation between XRD and SXRD given by the Fig. <ref type="figure">3</ref>. Iron content for CaAl 2 -2x Fe 2x O4 ( ▪ ) and Ca 2 Al 2-y Fe y O 5 ( ) solid solutions (calculated from the refined Fe + 3 occupation factor in these structures) plotted against the cell volumes (calculated from the refined cell parameters).  expression ((W XRD -W SXRD )/W XRD )•100. Significant deviations from the reference ideal line are seen for high and low absorbing phases. Fig. <ref type="figure" target="#fig_1">4</ref> may be compared with Fig. <ref type="figure" target="#fig_2">5</ref>, representing quantitative results obtained when minor and hydrated phases are excluded from the refinements. It is apparent that the exclusion of minor phases do not change significantly the results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Obtention of the ratio Fe + 2 /Fe + 3</head><p>For iron bearing CACs, the Fe + 2 /Fe + 3 ratio may give useful information on the operating conditions of the furnace, and has some influence on the distribution of phases in the clinker and final hydraulic properties of the cement. Assuming that all iron Fe + 3 is located in the structures of CA, C 4 AF C 3 FT and magnetite, and Fe + 2 crystallizes as wustite and is included in magnetite, Fe + 2 /Fe + 3 ratio may be easily estimated. In Fig. <ref type="figure" target="#fig_3">6</ref> the weight percent of FeO obtained by quantitative diffraction from both, synchrotron and conventional data is compared with the amount of FeO estimated by thermogravimetry. Fe + 2 can be bound to pleochroite as well, but its inclusion in this phase would not change significantly the overall quantitative results for Fe + 2 , but, on the other hand, it would reduce even more the total amount of estimated MgO in the sample. Provided that pleochroite was the most important Mg bearing phase, it was preferred, for the sake of simplicity, to introduce a fixed composition Ca 20 Al 26 Mg 3 Si 3 O 68 for this mineral <ref type="bibr" target="#b21">[22]</ref>. In addition, pleochroite occurs as a mixed layer intergrowths with ghelenite <ref type="bibr" target="#b22">[23]</ref>, making the estimation of Fe + 2 /Mg more problematic.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.">Comparison between the estimated weight percent of hydrated phases and the loss of ignition (l.o.i.)</head><p>As stated above, the weight loses on heating are produced mainly in three steps between 100-200, 200-350 and 600-1000 °C. An indirect proof of the reliability of quantitative results regarding the hydrated phases can be obtained by    plotting the weight percent of these phases against each step of the l.o.i. It can be observed in Fig. <ref type="figure" target="#fig_4">7</ref> that a clear correlation exists between quantitative values for C 3 AH 6 plus AH 3 and the second step of l.o.i., between 200-350 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7.">Comparison between XRF analysis and calculated oxides based on quantitative diffraction</head><p>Accurate results of quantitative Rietveld analysis should return the correct composition of the sample, provided two conditions are fulfilled: the fraction of amorphous phase in the sample is negligible, and the solid solutions are correctly described by the refined occupation factors. CAC samples do not present polymorphic pairs of phases, so that all phases bear different compositions: increasing the weight percent of a given phase automatically increases the weight percent of its components and reduces the remainder ones. Hence, calculating back the composition from quantitative diffraction and comparing the results with those obtained by chemical analysis is a convenient test of the accuracy of the Rietveld quantitative method. In Fig. <ref type="figure" target="#fig_5">8</ref>, the calculated weight percent of CaO, Al 2 O 3 , Fe 2 O 3, FeO, SiO 2 , TiO 2 and MgO are compared with XRF analysis (except for Fe 2 O 3 /FeO, estimated through TG).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Refinement procedure</head><p>For quantitative Rietveld analysis of a multiphase sample, the refined scale factor of phase α, S α , is the main determining parameter of the weight fraction of each phase α, W α through the known relation <ref type="bibr" target="#b23">[24]</ref>:</p><formula xml:id="formula_1">W a ¼ S a d ðZMV Þ a P n a¼1 Sa d ðZ M V Þ a</formula><p>where Z, M, V are the numbers of formula unit per unit cell, mass of the formula unit and unit cell volume of phase α in a mixture of n phases. The scale factor is correlated with other parameters describing the profile or the structure of different phases. Several correlations are undesirable in the sense that may lead to biased quantitative results. A fundamental part of this work consisted in finding a selection of suitable profile and structural parameters for each kind of CAC samples. A wise selection should take into account two basic rules: a) include the minimum number of parameters needed for the fit, and b) the parameters should have a defined physical meaning. To accomplish the second rule it was necessary to constrain the cell parameters, the occupation factors and peak breadths of all phases to reliable values. The CAC rich in iron presents several solid solutions that can modify significantly the cell parameters. On the other hand, this type of cement includes phases of low crystallinity reflected by wide peaks in the diffractogram.</p><p>Examples of important correlations are, for minor phases, the link between S α and the breath of diffraction peaks or the background. For major solid solution phases, S α may correlate with the occupation factors of crystallographic positions filled with different chemical species. In addition, occupation factors modify the molecular weight, influencing directly W α .</p><p>In summary, the detailed crystallographic characterization of phases present in CACs carried out in recent years, together with the knowledge of the physical parameters describing the instrumental profile, reduce the number of parameters to be refined and hence the undesired correlations between them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Accuracy and precision of the results</head><p>The accuracy may be tested by comparing the weighted phases of synthetic mixtures with the calculated weights obtained by the refinement. For major phases (more than 15% by weight), the relative percent error obtained by synchrotron data ranges from 0.0% to 4% or from 0.3% to 6% when conventional diffraction is used. For intermediate phases, deviation may attain up to 30% for conventional X-rays. Finally, very minor phases may deviate by more than 100%. In these phases, the accuracy depends on the occurrence of isolated peaks, which is highly contingent, since it is influenced by the relative amounts of all remainder phases. Frequently, minor phases concentrate a given minor chemical component (i.e. wustite, FeO; larnite, SiO 2 ). In this case, comparison between chemical and diffraction results may help in the estimation of the deviation. Another factor producing systematic deviations is the absorption contrast between phases. Less absorbing phases (i.e. hydrates) are overestimated, while the more absorbing ones are underestimated. This effect is more pronounced for softer radiations (in our case, conventional X-rays) and minor phases. However, there is not a simple relation between deviations of estimated weight fractions and the corresponding linear absorption coefficient. For instance, larnite is always more underestimated than wustite, even if its linear absorption coefficient is much lower. Until a simple relation between these variables is found, it will be Fig. <ref type="figure" target="#fig_0">10</ref>. Relationships between the amounts obtained for CA and C 12 A 7 ( , ), C 4 AF ( , ) and FeO ( , ). Filled symbol corresponds to SXRD whereas opened symbol corresponds to XRD. necessary to apply empirical factors, such those that can be easily deduced from Fig. <ref type="figure" target="#fig_1">4</ref>.</p><p>The presence of an amorphous phase in the clinker is an intrinsic limitation of the standardless Rietveld quantitative analyses. Diffraction maxima are only given by crystalline phases. Amorphous or non-crystalline phases are characterized by a smooth maximum emerging from the background. For simple diffractograms, it is possible in principle to identify the presence of an amorphous phase, but for complex samples, the amorphous hill is usually immersed by the multiple overlapping of the tails of neighbouring peaks. When refining the background, the amorphous phase is systematically excluded. Another limitation of the method are the minor crystalline phases not included in the refinement (for synchrotron, less than ∼ 0.5-1%). Since the weights of the phases included are constrained to 100%, these weights are always overestimated by an imprecise amount. Altogether, amorphous plus nonincluded minor phases may represent up to a 5% by weight in conventional diffraction <ref type="bibr" target="#b3">[4]</ref>. A point to bear in mind is that the amorphous phase may concentrate a high percent of the silica of the sample.</p><p>Powder diffraction experiments with clinker are highly reproducible if all steps are fulfilled according to an exact routine (Table <ref type="table" target="#tab_3">4</ref>). The most variable step is the specimen preparation, in special when flat specimens are prepared by hand. Whenever comparative results are needed, for instance, performing routine quality control in a factory, it is advisable to find an automatic procedure for mounting the specimen powders in the holder. Measurements of 5 independent sample preparation led to determination of the values for accuracy and precision for X-ray data. Our measurements agree well with previous results <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b24">25]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Chemical composition calculated from quantitative diffraction</head><p>For iron free CACs, the agreement between calculated and analysed oxides can be considered excellent, for both sinchrotron and X-ray cases. This can be corroborated by comparing Fig. <ref type="figure" target="#fig_5">8</ref> (see contents of Al 2 O 3 and CaO greater than 50% and lesser than 35% respectively), with Table <ref type="table" target="#tab_0">1</ref>. For these simple compositions we may conclude that estimated weight fractions of clinker phases are highly accurate.</p><p>Iron bearing CACs have a more complex composition and they include more phases. In particular, these CACs usually contain an amorphous phase that can not be quantified without the addition of a standard. The exclusion of non-refinable phases will result in an overestimation of the major components of major phases, i.e. Al 2 O 3 and CaO (see Fig. <ref type="figure" target="#fig_5">8</ref>).</p><p>Minor oxides as SiO 2 , TiO 2 , etc. are concentrated in minor phases. SiO 2 is always underestimated : first of all, larnite, the most important silica bearing phase is underestimated by quantitative diffraction as stated above, and secondly, the amorphous phase is suggested to be richer in silica. For TiO 2 , one source of positive deviation is the systematic overestimation of C 3 TF, and a secondary source of error could be the substitution of Ti + 4 by Si + 4 in perovskite CT <ref type="bibr" target="#b20">[21]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Useful correlations</head><p>Several comparative tests were performed with the aim of ascertaining that conventional Rietveld method is fully reliable for the quantification of major and intermediate phases. For iron rich CACs there are several relationships between phases themselves, and between phases and composition, that have important meanings with regards the conditions of the manufacturing process, crystallization of minerals and finally the setting and strength properties of the material. These are relationships between the amounts of phases and Al 2 O 3 /CaO ratios <ref type="bibr" target="#b25">[26]</ref>, (Fig. <ref type="figure" target="#fig_6">9</ref>), and relationships between C 4 AF, C 12 A 7 and wustite and the CA phases (Fig. <ref type="figure" target="#fig_0">10</ref>). It can be observed that the trends obtained by sinchrotron and conventional XRD are similar and foreseeable, indicating that conventional XRD results are as reliable as those obtained from synchrotron radiation whenever major phases are examined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>Compared with conventional powder diffraction, SXRD greatly improves the intensity and resolution of powder diffraction profiles, permitting the identification of new minor phases not observed before by DRX.</p><p>The solid solutions present in iron rich CACs are better characterized by SXRD.</p><p>The SXRD minimizes the effects of preferred orientation of crystallites and reduces the microabsorbtion of X-rays by the sample.</p><p>As a result, SXRD improves the accuracy of the quantification of phases in CACs, and hence it can be used as a reference test for assessing the accuracy of quantitative results obtained by conventional XRD.</p><p>The comparison between SXRD and XRD Rietveld refinements, permits to find the best selection of profile and structural parameters to be refined in conventional XRD. In particular, the "fundamental parameters approach" has been demonstrated to minimize the undesirable correlations between profile and structure parameters, and is highly advisable whenever a great number of phases are to be quantified.</p><p>For major and intermediate phases, the quantitative results obtained from conventional powder diffraction are comparable to those obtained by SXRD, when a wise selection of refined parameters are implemented. Therefore, conventional XRD Rietveld quantitative analysis is confirmed as a reliable, straightforward tool in CACs cement industry.</p><p>A minor common drawback to both SXRD and XRD is the systematic underestimation of larnite. This is reflected in the calculated composition of iron rich CACs by a depletion of the SiO 2 component, which is influenced as well by the exclusion of the glass phase from quantitative diffraction analyses.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 (</head><label>1</label><figDesc>Fig. 1 (continued ).</figDesc><graphic coords="5,75.74,76.08,453.60,524.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Quantitative results obtained for each phase from synchrotron data plotted against the relative deviation of the same value calculated from X-ray data [(wt xrdwt sxrd ) /wt xrd ⁎ 100]. CA, C 12 A 7 , β-C 2 S, C 4 AF, A,CA 2 , ○ C 3 AH 6 , □ AH 3 .</figDesc><graphic coords="8,42.97,532.97,230.73,169.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Quantitative results obtained for each phase from synchrotron data plotted against the relative deviation of the same value calculated from X-ray data [(w XRDw SXRD ) / w XRD ⁎ 100]. In these calculations both minor and hydrated phases were excluded from the refinement. CA, C 12 A 7 , β-C 2 S, C 4 AF, A, CA 2 .</figDesc><graphic coords="8,311.24,521.69,232.15,171.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Weight percent of FeO obtained by quantitative diffraction plotted against the amount of FeO estimated by thermogravimetry ( SXRD, ○ XRD).</figDesc><graphic coords="9,51.82,70.13,232.53,177.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Quantitative results of hydrated phases (AH 3 plus C 3 AH 6 ) calculated from synchrotron data plotted against the three weight loses observed by TGA: first at 100-200 °C ( ), second at 200-350 °C ( ) and third at 600-1000 °C ( ).</figDesc><graphic coords="9,53.23,529.97,229.66,172.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Quantitative results of pure oxides obtained from XRF analysis and TGA (FeO) plotted against the relative deviation of the same value calculated back from quantitative phase analysis with synchrotron data [(w SXRDw XRF ) / w XRF ⁎ 100]. Fe 2 O 3 , TiO 2 , CaO, , SiO 2 , Al 2 O 3 , FeO, MgO.</figDesc><graphic coords="9,321.05,70.13,232.15,167.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Relationships between the amounts obtained for main phases and Al 2 O 3 / CaO ratios from XRF. Filled symbol corresponds to SXRD whereas opened symbol corresponds to XRD: , CA; , C 12 A 7 ; , C 4 AF; , FeO; ♦.</figDesc><graphic coords="9,321.90,536.77,230.37,175.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,32.60,469.19,521.24,273.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,140.09,348.72,325.07,383.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Weight percent of simple oxides obtained by XRF</figDesc><table><row><cell>Sample</cell><cell>CaO</cell><cell>Al 2 O 3</cell><cell>Fe 2 O 3</cell><cell>FeO</cell><cell>SiO 2</cell><cell>MgO</cell><cell>TiO 2</cell><cell>P 2 O 5</cell><cell>K 2 O</cell><cell>MnO</cell><cell>Na 2 O</cell><cell>l.o.i.</cell><cell>Total</cell></row><row><cell>A1</cell><cell>38.12</cell><cell>39.32</cell><cell>9.90</cell><cell>3.24</cell><cell>2.84</cell><cell>0.44</cell><cell>1.61</cell><cell>0.03</cell><cell>0.05</cell><cell>0.01</cell><cell>0.00</cell><cell>1.65</cell><cell>97.20</cell></row><row><cell>A2</cell><cell>39.16</cell><cell>38.24</cell><cell>9.71</cell><cell>2.79</cell><cell>3.05</cell><cell>0.47</cell><cell>1.54</cell><cell>0.07</cell><cell>0.04</cell><cell>0.01</cell><cell>0.00</cell><cell>2.20</cell><cell>97.29</cell></row><row><cell>A3</cell><cell>37.00</cell><cell>40.78</cell><cell>10.70</cell><cell>2.79</cell><cell>2.90</cell><cell>0.42</cell><cell>1.69</cell><cell>0.07</cell><cell>0.02</cell><cell>0.01</cell><cell>0.00</cell><cell>1.25</cell><cell>97.63</cell></row><row><cell>A4</cell><cell>36.61</cell><cell>40.83</cell><cell>12.08</cell><cell>1.26</cell><cell>2.88</cell><cell>0.43</cell><cell>1.69</cell><cell>0.06</cell><cell>0.03</cell><cell>0.01</cell><cell>0.00</cell><cell>1.15</cell><cell>97.03</cell></row><row><cell>A5</cell><cell>37.35</cell><cell>40.96</cell><cell>10.59</cell><cell>2.70</cell><cell>2.75</cell><cell>0.43</cell><cell>1.70</cell><cell>0.07</cell><cell>0.02</cell><cell>0.01</cell><cell>0.00</cell><cell>0.89</cell><cell>97.47</cell></row><row><cell>A6</cell><cell>36.42</cell><cell>42.10</cell><cell>11.11</cell><cell>2.25</cell><cell>2.34</cell><cell>0.44</cell><cell>1.75</cell><cell>0.07</cell><cell>0.02</cell><cell>0.01</cell><cell>0.00</cell><cell>0.79</cell><cell>97.29</cell></row><row><cell>A7</cell><cell>36.14</cell><cell>41.59</cell><cell>10.67</cell><cell>2.70</cell><cell>2.69</cell><cell>0.44</cell><cell>1.75</cell><cell>0.08</cell><cell>0.02</cell><cell>0.01</cell><cell>0.00</cell><cell>1.16</cell><cell>97.25</cell></row><row><cell>A8</cell><cell>37.28</cell><cell>40.86</cell><cell>9.46</cell><cell>3.61</cell><cell>2.61</cell><cell>0.46</cell><cell>1.71</cell><cell>0.08</cell><cell>0.02</cell><cell>0.01</cell><cell>0.00</cell><cell>1.11</cell><cell>97.19</cell></row><row><cell>A9</cell><cell>36.74</cell><cell>41.10</cell><cell>9.25</cell><cell>4.60</cell><cell>2.88</cell><cell>0.46</cell><cell>1.73</cell><cell>0.08</cell><cell>0.02</cell><cell>0.01</cell><cell>0.00</cell><cell>0.72</cell><cell>97.59</cell></row><row><cell>A10</cell><cell>35.75</cell><cell>41.44</cell><cell>10.86</cell><cell>2.97</cell><cell>3.21</cell><cell>0.43</cell><cell>1.74</cell><cell>0.09</cell><cell>0.03</cell><cell>0.01</cell><cell>0.00</cell><cell>0.89</cell><cell>97.41</cell></row><row><cell>B1</cell><cell>37.18</cell><cell>39.15</cell><cell>11.92</cell><cell>1.44</cell><cell>3.21</cell><cell>0.24</cell><cell>1.60</cell><cell>0.04</cell><cell>0.04</cell><cell>0.02</cell><cell>0.00</cell><cell>1.68</cell><cell>96.51</cell></row><row><cell>C1</cell><cell>36.88</cell><cell>38.84</cell><cell>11.80</cell><cell>0.18</cell><cell>4.77</cell><cell>0.81</cell><cell>1.74</cell><cell>0.19</cell><cell>0.04</cell><cell>0.26</cell><cell>0.00</cell><cell>0.95</cell><cell>96.46</cell></row><row><cell>C2</cell><cell>35.93</cell><cell>51.22</cell><cell>1.55</cell><cell>0.00</cell><cell>4.93</cell><cell>0.36</cell><cell>1.99</cell><cell>0.08</cell><cell>0.29</cell><cell>0.02</cell><cell>0.00</cell><cell>1.45</cell><cell>97.80</cell></row><row><cell>C3</cell><cell>27.78</cell><cell>70.47</cell><cell>0.00</cell><cell>0.00</cell><cell>0.38</cell><cell>0.00</cell><cell>0.05</cell><cell>0.01</cell><cell>0.00</cell><cell>0.01</cell><cell>0.00</cell><cell>0.93</cell><cell>99.62</cell></row><row><cell>D1</cell><cell>25.70</cell><cell>72.86</cell><cell>0.00</cell><cell>0.00</cell><cell>0.16</cell><cell>0.00</cell><cell>0.02</cell><cell>0.00</cell><cell>0.00</cell><cell>0.01</cell><cell>0.01</cell><cell>0.61</cell><cell>99.36</cell></row><row><cell>D2</cell><cell>25.09</cell><cell>73.43</cell><cell>0.00</cell><cell>0.00</cell><cell>0.12</cell><cell>0.02</cell><cell>0.03</cell><cell>0.00</cell><cell>0.00</cell><cell>0.01</cell><cell>0.00</cell><cell>0.62</cell><cell>99.31</cell></row><row><cell>D3</cell><cell>16.88</cell><cell>81.12</cell><cell>0.00</cell><cell>0.00</cell><cell>0.13</cell><cell>0.00</cell><cell>0.03</cell><cell>0.00</cell><cell>0.00</cell><cell>0.01</cell><cell>0.17</cell><cell>1.37</cell><cell>99.70</cell></row><row><cell>D4</cell><cell>24.40</cell><cell>74.46</cell><cell>0.00</cell><cell>0.00</cell><cell>0.10</cell><cell>0.02</cell><cell>0.04</cell><cell>0.00</cell><cell>0.00</cell><cell>0.01</cell><cell>0.00</cell><cell>0.56</cell><cell>99.58</cell></row><row><cell>D5</cell><cell>25.25</cell><cell>73.48</cell><cell>0.00</cell><cell>0.00</cell><cell>0.11</cell><cell>0.00</cell><cell>0.03</cell><cell>0.00</cell><cell>0.00</cell><cell>0.01</cell><cell>0.00</cell><cell>0.78</cell><cell>99.65</cell></row><row><cell>D6</cell><cell>17.31</cell><cell>80.21</cell><cell>0.00</cell><cell>0.00</cell><cell>0.15</cell><cell>0.00</cell><cell>0.03</cell><cell>0.00</cell><cell>0.00</cell><cell>0.00</cell><cell>0.38</cell><cell>1.31</cell><cell>99.40</cell></row><row><cell cols="4">FeO was calculated from thermogravimetric data.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">Zero values indicate amounts under detection limit.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Parameters used for quantitative analyses with synchrotron and conventional diffraction data and for iron rich and iron poor cement</figDesc><table><row><cell></cell><cell>Synchrotron radiation diffraction</cell><cell></cell><cell>X-ray diffraction</cell><cell></cell></row><row><cell></cell><cell>Fe-rich cement</cell><cell>Fe-poor cement</cell><cell>Fe-rich cement</cell><cell>Fe-poor cement</cell></row><row><cell>Background</cell><cell>9</cell><cell>8</cell><cell>6</cell><cell>6</cell></row><row><cell>(Chebychev coefficients)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Profile function</cell><cell>Pseudo-Voigt</cell><cell>Pseudo-Voigt</cell><cell>Fundamental parameters</cell><cell>Fundamental parameters</cell></row><row><cell>Cell parameters</cell><cell>Fitted for all phases</cell><cell>Fitted for all phases</cell><cell>Fitted for all phases</cell><cell>Fitted for all phases</cell></row><row><cell>FWHM (Cagliotti)/crystallite</cell><cell>Fitted u, v, w independently</cell><cell>Fitted u, v, w independently</cell><cell>Fitted the crystallite</cell><cell>Fitted the crystallite</cell></row><row><cell>size for each phase</cell><cell>for main phases and a common</cell><cell>for main phases and a common</cell><cell>size contribution</cell><cell>size contribution</cell></row><row><cell></cell><cell>w for minor phases</cell><cell>w for minor phases</cell><cell></cell><cell></cell></row><row><cell>Iron content for</cell><cell>x, y</cell><cell>Not significant</cell><cell>Fixed at x = 0.05 and y = 0.5</cell><cell>Not significant</cell></row><row><cell>CaAl 2 -2x Fe 2x O 4 and</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ca 2 Al 2 -y Fe y O 5</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Number of fitted parameters</cell><cell>∼ 92</cell><cell>∼ 92</cell><cell>∼65</cell><cell>∼ 65</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Agreement indexes obtained with each radiation for all samples</figDesc><table><row><cell cols="4">Sample Synchrotron radiation</cell><cell cols="2">X-ray diffraction</cell></row><row><cell></cell><cell cols="2">diffraction</cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">R exp R wp R p</cell><cell>χ 2</cell><cell cols="2">DW R exp R wp R p</cell><cell>χ 2</cell><cell>DW</cell></row><row><cell>A1</cell><cell cols="5">2.08 8.5 6.3 4.09 0.148 7.53 11.91 9.02 1.58 0.945</cell></row><row><cell>A2</cell><cell cols="5">2.07 8.18 5.99 3.94 0.149 7.29 11.65 8.99 1.6 0.885</cell></row><row><cell>A3</cell><cell cols="4">1.89 9.23 6.53 4.89 0.280 7.31 12.4</cell><cell>9.74 1.7 0.838</cell></row><row><cell>A4</cell><cell cols="5">2.08 9.71 7.07 4.68 0.113 7.34 13.86 10.76 1.89 0.620</cell></row><row><cell>A5</cell><cell cols="5">2.11 8.78 6.73 4.16 0.142 7.68 13.39 10.54 1.74 0.837</cell></row><row><cell>A6</cell><cell cols="5">1.61 9.21 6.75 5.71 0.099 7.47 12.72 9.91 1.7 0.733</cell></row><row><cell>A7</cell><cell cols="5">1.92 8.87 6.66 4.61 0.108 7.45 12.44 9.68 1.67 0.774</cell></row><row><cell>A8</cell><cell cols="5">2.07 8.49 6.46 4.1 0.144 7.66 12.08 9.41 1.58 0.888</cell></row><row><cell>A9</cell><cell cols="5">1.87 8.17 6.27 4.38 0.132 7.47 12.16 9.46 1.63 0.858</cell></row><row><cell>A10</cell><cell>2.2</cell><cell cols="4">9.52 6.97 4.32 0.144 7.37 13.53 10.48 1.84 0.635</cell></row><row><cell>B1</cell><cell cols="5">1.61 10.13 7.56 6.31 0.105 7.37 13.82 10.57 1.88 0.681</cell></row><row><cell cols="6">Nist1882 2.03 9.88 7.27 4.87 0.108 7.4 13.63 10.58 1.84 0.642</cell></row><row><cell>Std2</cell><cell cols="5">1.36 8.3 6.07 6.09 0.248 11.63 15.86 12.15 1.36 1.266</cell></row><row><cell>C1</cell><cell>2</cell><cell cols="4">11.06 7.69 5.52 0.078 7.33 14.64 11.2 2</cell><cell>0.584</cell></row><row><cell>C2</cell><cell cols="5">1.92 7.45 5.72 3.89 0.091 6.66 11.05 8.75 1.66 0.879</cell></row><row><cell>C3</cell><cell cols="5">2.19 10.55 7.44 4.81 0.188 6.53 10.54 7.99 1.61 1.001</cell></row><row><cell>D1</cell><cell cols="5">2.16 11.37 7.99 5.27 0.167 6.44 9.85 7.59 1.53 1.145</cell></row><row><cell>D2</cell><cell cols="5">2.12 10.29 7.16 4.85 0.195 6.43 10.04 7.79 1.56 1.094</cell></row><row><cell>D3</cell><cell cols="5">2.28 8.02 5.88 3.52 0.247 6.55 10.23 7.52 1.56 1.045</cell></row><row><cell>D4</cell><cell cols="5">2.33 8.05 5.67 3.45 0.288 6.49 10.03 7.99 1.55 1.114</cell></row><row><cell>D5</cell><cell>1.97</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>11.7 8.44 5.95 0.150 6.31 10.48 7.8 1.66 1.022 D6 2.13 8.13 5.9 3.82 0.219 6.43 10.18 7.53 1.58 0.980 (DW: Durbin-Watson statistics).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Results obtained for synthetic sample STD2 analyzed with synchrotron radiation and X-ray in order to estimate the precision of the method</figDesc><table><row><cell>Phase composition</cell><cell>Sample STD2</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>F.Guirado, S. Galí / Cement and Concrete Research 36 (2006) 2021-2032</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank the anonymous providers of the CACs samples that permitted us to carry out this work, <rs type="person">Bruker AXS</rs> for facilitating a free access to the TOPAS software, and <rs type="funder">ESRF for the provision of synchrotron facilities (Invitation for Experiment number</rs> <rs type="grantNumber">CH-1507</rs>). We also thank <rs type="person">Dr. M.A. García Aranda</rs> for his assistance in the SXRD experiments. This study received financial support from the <rs type="funder">Spanish Government</rs>, project <rs type="grantNumber">MAT2001-3345</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_nBSzc2A">
+					<idno type="grant-number">CH-1507</idno>
+				</org>
+				<org type="funding" xml:id="_9usGaTm">
+					<idno type="grant-number">MAT2001-3345</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Rietveld full-profile quantification of Portland cement clinker: The importance of including a full crystallography of the major phase polymorphs</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hinczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Matulis</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0885715600010769</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Diffraction</title>
+		<title level="j" type="abbrev">Powder Diffr.</title>
+		<idno type="ISSN">0885-7156</idno>
+		<idno type="ISSNe">1945-7413</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="18" />
+			<date type="published" when="2000-03">March 2000</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.C. Taylor, I. Hinczak, C.E. Matulis, Rietveld full-profile quantification of Portland cement clinker: the importance of including a full crystallography of the major phase polymorphs, Powder Diffr. 15 (1) (March 2000) 7-18.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Full Phase Analysis of Portland Clinker by Penetrating Synchrotron Powder Diffraction</title>
+		<author>
+			<persName><forename type="first">Ángeles</forename><forename type="middle">G</forename><surname>De La Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aurelio</forename><surname>Cabeza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Calvente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastián</forename><surname>Bruque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Miguel</forename><forename type="middle">A G</forename><surname>Aranda</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac0006674</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Chemistry</title>
+		<title level="j" type="abbrev">Anal. Chem.</title>
+		<idno type="ISSN">0003-2700</idno>
+		<idno type="ISSNe">1520-6882</idno>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="151" to="156" />
+			<date type="published" when="2001">2001</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.G. de la Torre, A. Cabeza, A. Calvente, S. Bruque, M.A.G. Aranda, Full phase analysis of Portland clinker by penetrating synchrotron powder diffraction, Anal. Chem. 73 (2001) 151-156.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Quantitative Rietveld phase analysis of calcium aluminate cements</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Füllmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Walenta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Espinosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Scrivener</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Cem. Res</title>
+		<imprint>
+			<biblScope unit="page" from="91" to="96" />
+			<date type="published" when="1999-06">June 1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Füllmann, G. Walenta, T. Bier, B. Espinosa, K.L. Scrivener, Quantitative Rietveld phase analysis of calcium aluminate cements, World Cem. Res. (June 1999) 91-96.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Quantitative Rietveld analysis of aluminous cement clinker phases</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guirado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Galı́</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chinchón</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0008-8846(00)00289-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cement and Concrete Research</title>
+		<title level="j" type="abbrev">Cement and Concrete Research</title>
+		<idno type="ISSN">0008-8846</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1023" to="1029" />
+			<date type="published" when="2000-07">2000</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Guirado, S. Galí, S. Chinchón, Quantitative Rietveld analysis of aluminous cement clinker phases, Cem. Concr. Res. 30 (2000) 1023-1029.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Quantitative phase analysis of high alumina cements</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Motzet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Poellman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ICMA</title>
+		<imprint>
+			<biblScope unit="page" from="187" to="206" />
+			<date type="published" when="1998">1998</date>
+			<pubPlace>Guadalajara, Mexico</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Motzet, H. Poellman, Quantitative phase analysis of high alumina cements, ICMA, Guadalajara, Mexico, 1998, pp. 187-206.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">10 Calcium aluminate, expansive and other cements</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pöllmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1680/cc.25929.0010</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Cement chemistry</title>
+		<imprint>
+			<publisher>Thomas Telford Publishing</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="295" to="322" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Pöllmann, Mineralogy and crystal chemistry of calcium aluminate cement, Proceedings of Int. Conf. On Calcium Aluminate Cements, Edimburg, 2001, pp. 79-119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Mineralogical composition of Fondu revisited</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Touzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gloter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Scrivener</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Int. Conf. On Calcium Aluminate Cements</title>
+		<meeting>Int. Conf. On Calcium Aluminate Cements</meeting>
+		<imprint>
+			<publisher>Edimburg</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="129" to="138" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Touzo, A. Gloter, K.L. Scrivener, Mineralogical composition of Fondu revisited, Proceedings of Int. Conf. On Calcium Aluminate Cements, Edimburg, 2001, pp. 129-138.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Crystallization of CaO-Fe 2 O 3 -Al 2 O 3 -SiO 2</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Sorrentino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Glasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Br. Ceram. Soc</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="253" to="265" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F.P. Sorrentino, F.P. Glasser, Crystallization of CaO-Fe 2 O 3 -Al 2 O 3 -SiO 2 , Trans. Br. Ceram. Soc. 74 (1975) 253-265.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The crystallography of CA1−xFx using X-ray powder diffraction techniques</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guirado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Galí</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Chinchón</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0008-8846(94)90012-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cement and Concrete Research</title>
+		<title level="j" type="abbrev">Cement and Concrete Research</title>
+		<idno type="ISSN">0008-8846</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="923" to="930" />
+			<date type="published" when="1994">1994</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Guirado, S. Galí, J.S. Chinchón, The crystallography of CA 1 -x F x using X-ray powder diffraction techniques, Cem. Concr. Res. 24 (5) (1994) 923-930.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Quantitative Phase Analysis of High Alumina Cement</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guirado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Galí</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chinchón</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/msf.378-381.690</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science Forum</title>
+		<title level="j" type="abbrev">MSF</title>
+		<idno type="ISSNe">1662-9752</idno>
+		<imprint>
+			<biblScope unit="volume">378-381</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="690" to="695" />
+			<date type="published" when="1996">1996</date>
+			<publisher>Trans Tech Publications, Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Guirado, S. Galí, J.S. Chinchón, X-ray profile analysis of Ca 2 Fe 2 -x Al x O 5 , World Cem. 27 (12) (1996) 73-76.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">X-ray diffraction procedures</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Alexander</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1962">1962</date>
+			<publisher>John Wiley and Sons</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.P. Klug, L.E. Alexander, X-ray diffraction procedures, John Wiley and Sons, New York, 1962.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">10. SYNCHROTRON POWDER DIFFRACTION</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Finger</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9781501509018-013</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Modern Powder Diffraction</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bish</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Post</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>De Gruyter</publisher>
+			<date type="published" when="1989-12-31">1989</date>
+			<biblScope unit="page" from="309" to="332" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.W. Finger, Synchrotron powder diffraction, in Modern Powder Diffraction, in: D.L. Bish, J.E. Post (Eds.), Mineralogical Society of America, 1989.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<author>
+			<persName><surname>Topas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">General Profile and Structure Analysis Software for Powder Diffraction Data</title>
+		<meeting><address><addrLine>Karlsruhe, Germany</addrLine></address></meeting>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">TOPAS, General Profile and Structure Analysis Software for Powder Diffraction Data, V2.1, Bruker AXS Gmbh, Karlsruhe, Germany.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A fundamental parameters approach to X-ray line-profile fitting</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Cheary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Coelho</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889891010804</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="109" to="121" />
+			<date type="published" when="1992-04-01">1992</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.W. Cheary, A.A. Coelho, A fundamental parameter approach of X-ray line-profile fitting, J. Appl. Crystallogr. 25 (1992) 109-121.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Choice of collimators for a crystal spectrometer for neutron diffraction</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Caglioti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paoletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Ricci</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0369-643x(58)90029-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments</title>
+		<title level="j" type="abbrev">Nuclear Instruments</title>
+		<idno type="ISSN">0369-643X</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="223" to="228" />
+			<date type="published" when="1958-10">1958</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Cagliotti, A. Paoletti, F.P. Ricci, Choice of collimators for a crystal spectrometer for neutron diffraction, Nucl. Instrum. Methods 3 (1958) 223-226.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Rietveld refinement guidelines</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Mccusker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Von Dreele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Louër</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Scardi</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889898009856</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="50" />
+			<date type="published" when="1999-02-01">1999</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.W. MacCusker, R.B. Von Dreele, D.E. Cox, D. Louër, P. Scardi, Rietveld refinements guidelines, J. Appl. Crystallogr. 32 (1999) 36-50.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The effect of profile step width on the determination of crystal structure parameters and estimated standard deviations by X-ray Rietveld analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Madsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889886090076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="18" />
+			<date type="published" when="1986-02-01">1986</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.J. Hill, I.C. Madsen, The effect of profile step width on the determination of crystal structure parameters and estimated standard deviations by X-ray Rietveld analysis, J. Appl. Crystallogr. 19 (1986) 10-18.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Quantitative phase analysis of various Fe-rich calcium aluminate cement clinkers by selective dissolution and XRPD, Proceedings of the 11th Int</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Goetz-Neunhoeffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cong. On the Chem. of Cement</title>
+		<imprint>
+			<biblScope unit="page" from="125" to="133" />
+			<date type="published" when="2003">2003</date>
+			<pubPlace>Durban, South Africa</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Goetz-Neunhoeffer, Quantitative phase analysis of various Fe-rich calcium aluminate cement clinkers by selective dissolution and XRPD, Proceedings of the 11th Int. Cong. On the Chem. of Cement, Durban, South Africa, 2003, pp. 125-133.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Phase composition of 40% Al 2 O 3 calcium aluminate cements, Proceedings of the 11th Int</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Touzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gloter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Scrivener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Füllmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Walenta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cong. On the Chem. of Cement</title>
+		<imprint>
+			<biblScope unit="page" from="1931" to="1940" />
+			<date type="published" when="2003">2003</date>
+			<pubPlace>Durban, South Africa</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Touzo, A. Gloter, K. Scrivener, T. Füllmann, G. Walenta, Phase composition of 40% Al 2 O 3 calcium aluminate cements, Proceedings of the 11th Int. Cong. On the Chem. of Cement, Durban, South Africa, 2003, pp. 1931-1940.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effects of phosphate rich raw materials on the crystallographic and hydraulic properties of dicalcium silicate, Proceedings of the 11th Int</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neubauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Götz-Neunhofer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cong. On the Chem. of Cement</title>
+		<imprint>
+			<biblScope unit="page" from="1045" to="1053" />
+			<date type="published" when="2003">2003</date>
+			<pubPlace>Durban, South Africa</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Müller, J. Neubauer, F. Götz-Neunhofer, Effects of phosphate rich raw materials on the crystallographic and hydraulic properties of dicalcium silicate, Proceedings of the 11th Int. Cong. On the Chem. of Cement, Durban, South Africa, 2003, pp. 1045-1053.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Mineralogical composition of Fondu revisited</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Touzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gloter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Scrivener</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Int. Conf. On Calcium Aluminate Cements</title>
+		<meeting>Int. Conf. On Calcium Aluminate Cements</meeting>
+		<imprint>
+			<publisher>Edimburg</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="129" to="138" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Touzo, A. Gloter, K.L. Scrivener, Mineralogical composition of Fondu revisited, Proceedings of Int. Conf. On Calcium Aluminate Cements, Edimburg, 2001, pp. 129-138.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The structure of a quaternary phase Ca&lt;sub&gt;20&lt;/sub&gt;Al&lt;sub&gt;32−2&lt;i&gt;v&lt;/i&gt; &lt;/sub&gt;Mg&lt;sub&gt; &lt;i&gt;v&lt;/i&gt; &lt;/sub&gt;Si&lt;sub&gt; &lt;i&gt;v&lt;/i&gt; &lt;/sub&gt;O&lt;sub&gt;68&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hanic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Handlovič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kaprálik</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0567740880010436</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallographica Section B Structural Crystallography and Crystal Chemistry</title>
+		<title level="j" type="abbrev">Acta Crystallogr B Struct Sci</title>
+		<idno type="ISSN">0567-7408</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2863" to="2869" />
+			<date type="published" when="1980-12-01">1980</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Hanic, M. Handlovic, I. Kapralik, The structures of a quaternary phase Ca 20 Al 32-2x Mg x Si x O 68 , Acta Crystallogr. 336 (1980) 2863-2869.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sourie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Glasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Lachowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Microstructural studies on pleochroite</title>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="41" to="48" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Sourie, F.P. Glasser, E.E. Lachowski, Microstructural studies on pleochroite, Br. Ceram. Trans. 93-2 (1994) 41-48.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Quantitative phase analysis using the Rietveld method</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889887009415</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="86" to="91" />
+			<date type="published" when="1988-04-01">1988</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D.L. Bish, S.A. Howard, Quantitative phase analysis using the Rietveld method, J. Appl. Crystallogr. 21 (1988) 86-91.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Accuracy in Rietveld quantitative phase analysis of Portland cements</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>De La Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A G</forename><surname>Aranda</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s002188980301375x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1169" to="1176" />
+			<date type="published" when="2003-09-08">2003</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.G. De la Torre, M.A.G. Aranda, Accuracy in Rietveld quantitative phase analysis of Portland cements, J. Appl. Crystallogr. 36 (2003) 1169-1176.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Calcium Aluminate Cements</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Harr</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/9781482288872</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Int. Conf. On Calcium Aluminate Cements</title>
+		<meeting>Int. Conf. On Calcium Aluminate Cements</meeting>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="121" to="127" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K.W. Harr, Relationship between mineral phases C4AF and CA in calcium aluminate cements with high iron content, Proceedings of Int. Conf. On Calcium Aluminate Cements, Edimburg, 2001, pp. 121-127.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

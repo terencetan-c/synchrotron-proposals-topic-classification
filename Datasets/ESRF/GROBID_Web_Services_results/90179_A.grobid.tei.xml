@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7BB4D065D5D4380217A00055CB4F75C9</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>were prepared from superelastic NiTi wires with diameter 200 m. The combine tensile-twisting loading was realized by an in-house assembled tension-twisting rig with a manual control of stretching and twisting (Fig. <ref type="figure">1</ref>). The tomography-specific design of the rig assured minimal shading of the incident and diffracted beams by the supporting arms while the whole rig could freely rotate in the diffractometer.</p><p>Figure <ref type="figure">1</ref>: Sheme of the DSCT experiment with the tension-twisting rig mounted on goniometer.</p><p>Data acquisition and their further processing followed the methodology of the diffraction/scattering computed tomography (DSCT) schematically depicted on Figure <ref type="figure" target="#fig_0">2</ref>. The X-ray beam of the wavelength 0.0189 nm was focused to a spot approx. 3 m by 3 m at the sample location, the diffracted radiation was detected with acquisition time 30 ms. During the tomographic measurements, the sample was translated along the y-direction (Fig. <ref type="figure">1</ref>) within the range of 295 m by 5 m-steps (60 scanning positions in total). The rotation, ω-scanning, was conducted in the azimuthal range of 189 o with 3 o per step (64 positions). The translation in z-direction was performed in 20 positions with 15 m spacing.</p><p>The data processing required to develop several routines in Matlab to adopt the DSCT method for martensitic transformation in NiTi. The main difficulty in data evaluation was related to a strong texture of strained martensite which, in general loading cases (as torsion or combine tension and torsion) loses rotational symmetry complicating tomographic reconstruction of phase fraction maps. We have found a way to eliminate this problem by both integrations of 2D diffraction patterns and by introducing knowledge of sample geometry into tomographic reconstruction. The most interesting obtained results were: 1) Reconstruction of phase distributions in loaded NiTi helical spring. The results were described in details in the paper <ref type="bibr">[Frost2020]</ref>. 2) 3D spatial reconstruction of macroscopic austenite-martensite transition zones in NiTi wires induced by tension and twisting. The results confirmed suitability of the chosen experimental approach and brought detailed picture of morphology of transformation fronts in NiTi and their dependence on loading mode (Fig. <ref type="figure" target="#fig_1">3</ref>). The results were described in details in the paper <ref type="bibr">[Sedlak2021]</ref>. 3) Description of localized deformation in NiTi in tension at elevated temperatures, mainly confirmation of appearance of plastically deformed austenite within martensitic bands. The results were described in details in the paper <ref type="bibr">[Chen2019]</ref>. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: A simplified workflow scheme of the DSCT technique.</figDesc><graphic coords="2,70.80,165.84,453.60,256.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Martensitic band front for different loading modes: A-pure tension (with rotational symmetry), B-pure twist, and C-combine tension-twist.</figDesc><graphic coords="3,70.80,70.80,453.60,154.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="1,70.80,352.79,452.31,240.13" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Reconstruction of phase distributions in NiTi helical spring: comparison of diffraction/scattering computed tomography and computational modeling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frost</surname></persName>
+			<idno type="ORCID">0000-0001-6044-3442</idno>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ševčík</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kadeřávek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Šittner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sedlák</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-665x/ab8c26</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Smart Materials and Structures</title>
+		<title level="j" type="abbrev">Smart Mater. Struct.</title>
+		<idno type="ISSN">0964-1726</idno>
+		<idno type="ISSNe">1361-665X</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">075036</biblScope>
+			<date type="published" when="2020-06-15">2020</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note>art. no. 075036</note>
+	<note type="raw_reference">Frost, M., Ševčík, M., Kadeřávek, L., Šittner, P., Sedlák, P., Reconstruction of phase distributions in NiTi helical spring: Comparison of diffraction/scattering computed tomography and computational modeling (2020) Smart Materials and Structures, 29 (7), art. no. 075036.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">3D spatial reconstruction of macroscopic austenite–martensite transition zones in NiTi wires induced by tension and twisting using diffraction/scattering computed tomography</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sedlák</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ševčík</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Seiner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijsolstr.2021.111122</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Solids and Structures</title>
+		<title level="j" type="abbrev">International Journal of Solids and Structures</title>
+		<idno type="ISSN">0020-7683</idno>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="page">111122</biblScope>
+			<date type="published" when="2021-10" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sedlák, P., Frost, M., Ševčík, M., Seiner, H., 3D spatial reconstruction of macroscopic austenite-martensite transition zones in NiTi wires induced by tension and twisting using diffraction/scattering computed tomography (2021) International Journal of Solids and Structures, 228, art. no. 111122.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Temperature and microstructure dependence of localized tensile deformation of superelastic NiTi wires</title>
+		<author>
+			<persName><forename type="first">Yuchen</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ondřej</forename><surname>Tyc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lukáš</forename><surname>Kadeřávek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Orsolya</forename><surname>Molnárová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luděk</forename><surname>Heller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Petr</forename><surname>Šittner</surname></persName>
+			<idno type="ORCID">0000-0001-5924-5393</idno>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2019.107797</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials &amp; Design</title>
+		<title level="j" type="abbrev">Materials &amp; Design</title>
+		<idno type="ISSN">0264-1275</idno>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page">107797</biblScope>
+			<date type="published" when="2019-07">2019</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Y., Tyc, O., Kadeřávek, L., Molnárová, O., Heller, L., Šittner, P., Temperature and microstructure dependence of localized tensile deformation of superelastic NiTi wires (2019) Materials and Design, 174, art. no. 107797.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

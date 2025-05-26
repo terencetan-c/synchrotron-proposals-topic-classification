@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Selective Catalytic Reduction of NO Over Fe-ZSM-5: Mechanistic Insights by Operando HERFD-XANES and Valence-to-Core X-ray Emission Spectroscopy</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Chemical Society (ACS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-09-04">2014-09-04</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alexey</forename><surname>Boubnov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Karlsruhe Institute of Technology</orgName>
+								<address>
+									<addrLine>Engesserstr. 20</addrLine>
+									<postCode>76131</postCode>
+									<settlement>Karlsruhe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hudson</forename><forename type="middle">W P</forename><surname>Carvalho</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Dmitry</forename><forename type="middle">E</forename><surname>Doronkin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Karlsruhe Institute of Technology</orgName>
+								<address>
+									<addrLine>Engesserstr. 20</addrLine>
+									<postCode>76131</postCode>
+									<settlement>Karlsruhe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tobias</forename><surname>Günter</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Erik</forename><surname>Gallo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Karlsruhe Institute of Technology</orgName>
+								<address>
+									<addrLine>Engesserstr. 20</addrLine>
+									<postCode>76131</postCode>
+									<settlement>Karlsruhe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Atkins</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christoph</forename><forename type="middle">R</forename><surname>Jacob</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jan-Dierk</forename><surname>Grunwaldt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Karlsruhe Institute of Technology</orgName>
+								<address>
+									<addrLine>Engesserstr. 20</addrLine>
+									<postCode>76131</postCode>
+									<settlement>Karlsruhe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Selective Catalytic Reduction of NO Over Fe-ZSM-5: Mechanistic Insights by Operando HERFD-XANES and Valence-to-Core X-ray Emission Spectroscopy</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of the American Chemical Society</title>
+						<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+						<idno type="ISSN">0002-7863</idno>
+						<idno type="eISSN">1520-5126</idno>
+						<imprint>
+							<publisher>American Chemical Society (ACS)</publisher>
+							<biblScope unit="volume">136</biblScope>
+							<biblScope unit="issue">37</biblScope>
+							<biblScope unit="page" from="13006" to="13015"/>
+							<date type="published" when="2014-09-04" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">17BFFEA5E9639E8666CBBEC936F894E4</idno>
+					<idno type="DOI">10.1021/ja5062505</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:00+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Selective reduction of NO x by NH 3 (NH 3 -SCR) is the most widely used technique for the removal of nitrogen oxides from the exhaust of diesel vehicules and power plants, and Fe-zeolite catalysts hold the biggest share of the heavy-duty automotive market <ref type="bibr" target="#b0">[1]</ref>. The development of a more active and stable catalyst requires a detailed knowledge of catalyst structure and operation, i.e. the mechanism of NO x removal by SCR. Fe is known to be the required active component of Fe-zeolite catalysts for NH 3 -SCR and demonstrates the possibility of coordinating not only NO x but may also adsorb ammonia and water, however confirming the existence of all those species under real operando conditions was always an issue. In this work we probed, to our knowledge for the first time, the structure of the iron sites in Fe-ZSM-5 under operando conditions using high-energy-resolution fluorescence-detected (HERFD) XANES and Fe Kβ valence-to-core (V2C) X-ray emission spectroscopy (XES). The techniques were used to gain information on the oxidation state, coordination number and the chemical nature of the ligands on the Fe sites in Fe-ZSM-5 catalyst during NH 3 -SCR in the presence and absence of water and under other related reaction conditions. The gained results are used to validate the reaction steps suggested in <ref type="bibr" target="#b1">[2]</ref> and to extend them with the new observations on a mechanism for NH 3 -SCR on Fe-ZSM-5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental</head><p>The Fe-ZSM-5 catalyst (1.3 wt% Fe) was prepared by liquid ion-exchange of NH 4 -ZSM-5 zeolite (Si/Al = 11, Clariant) with FeCl 2 under N 2 flow <ref type="bibr" target="#b2">[3]</ref>. The resulting solid was filtered, dried for 2 hours at 120 °C and calcined for 5 hours at 550 °C in static air. The final Fe concentration was 1.3 wt% (AAS).</p><p>The XAS/XES measurements were carried out at the European Synchrotron Radiation Facility at the highresolution X-ray spectroscopy beamline ID26 equipped with an undulator providing a flux of 10 13 photons per second at the sample. A Si (111) double-crystal monochromator was used for selecting the photon energy. The emission spectrometer was equipped with five spherically bent (r = 1 m) Ge (620) analyser crystals installed in a Rowland geometry. The counts of the avalanche photo-diode detector were normalized by a photodiode between the slits and the sample. The beam size was kept as 1x4 mm.</p><p>The X-ray absorption spectra (in terms of HERFD-XANES) were measured by scanning the incident energy and detecting the fluorescence at the maximum of the Fe Kβ 1,3 emission line (e.g. at 7058.81 eV). The pre-edge integrated intensity and centroid position were calculated from the fitted peaks, omitting contributions centered above 7115.6 eV. The X-ray emission spectra, in terms of the main (Kβ'/Kβ 1,3 ) emission lines and the satellite (Kβ"/Kβ 2,5 ) lines were recorded between 7010-7140 eV while applying an excitation energy of 7145 eV to avoid the elastic scattering line in the spectra. The error introduced by the background extraction is in the range of 3%.</p><p>A heated quartz capillary micro-reactor (diameter 1 mm, wall thickness 0.02 mm) served as both plug-flow reactor and an in situ cell. It was mounted on top of a Gas Blower (GSB-1300, FMB Oxford). Gases were dosed to obtain the desired volume concentrations: 1000 ppm NO, 1000 ppm NO 2 , 1000 ppm NH 3 , 5% O 2 and pure He. Water vapor (~ 1.5% H 2 O) was dosed via a saturator. The gas flow was kept at 45 mL/min and GHSV = 130 000 h -1 . The temperature of the micro-reactor was kept at 255 °C without the X-ray beam but changed to approximately 295 °C due to heating by the beam. A corresponding increase of NO x conversion from ca. 49% to ca. 62% was observed after opening the beam shutter and the resulting microreactor temperature was estimated from the comparison with the laboratory bench data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>In order to gain information on the geometry and the oxidation state of iron under different reaction conditions, the pre-edge spectral features occurring in the XANES spectra were analyzed based on a graphical correlation of the Fe coordination geometry and valence to the pre-edge peak integrated intensity (area) and centroid position (area-based average position) according to Wilke et al. <ref type="bibr" target="#b3">[4]</ref>. The data points extracted from the in situ XANES of the Fe-ZSM-5 catalyst under reaction conditions are given in the Table <ref type="table" target="#tab_0">1</ref> together with the analysis results. Generally, when exposed to oxidizing conditions (involving O 2 , H 2 O, NO and NO 2 ), the Fe is present as Fe 3+ ; addition of NH 3 to these mixtures results in a slightly decreased average Fe oxidation state. When NH 3 alone is fed (experiments 6 and 7), a large fraction of Fe reduces to Fe 2+ . The type of neighboring atoms was analyzed by V2C XES. The Kβ´´spectral region has high chemical sensitivity since the correspondent electronic transitions are originated from the ligands to fill the Fe 1s core hole. The transitions appearing at the Kb 2,5 region are mainly due to non bonded 3d or higher valence electrons of Fe with some mixing of p character of ligands, therefore the d configuration are at some extent affected by the neighboring atoms <ref type="bibr" target="#b4">[5]</ref>. First, adsorption of NO x on Fe sites of Fe-ZSM-5 was investigated. For that purpose, both pre-edge and V2C spectra were recorded and analyzed for the following gas media: NO, NO+O 2 , NO 2 , and NO+O 2 +H 2 O (experiments 2-5). All V2C spectra measured under these conditions were almost identical in the Kβ 2,5 region (only experiment 3 is shown). The Kβ 2,5 features of those spectra were in turn the same as those for Fe-ZSM-5 measured under He. Pre-edge analysis shows almost the same oxidation state 3 (very slightly reduced 2.8 -3 for NO/He feed) for all NO x -containing mixtures. The presence of water does not show any notable effect on NO x adsorption. The fact that NO adsorption without any other oxidant slightly reduces Fe and leads to the increase of the coordination number supports the NO activation process (Fe 3+ + O=N • ↔ Fe ) results in spectra similar to the spectra of adsorbed NO x but having a shoulder at 7103 eV which as with adsorbed NH 3 , though to a smaller degree, consistent with the pre-edge analysis which yields oxidation state of iron 2.6-2.8. In this case, as follows from the analysis of Kβ" region we also identify O δ+ (possibly as Fe (3-δ)+ -O δ+ H-NH 2 ) and O contributions (peaks A and B). During the SCR without water (experiment 7) also peak C is clearly seen pointing out direct NH 3 coordination on Fe.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>We have demonstrated that valence-to-core XES allows distinguishing between different types of oxygen and nitrogen in the first coordination shell of Fe under in-situ and operando conditions and suggested intermediates for the SCR based on the results of XES <ref type="bibr" target="#b5">[6]</ref>. Thus, as a complementary technique it is well suited for uncovering the state of the active site and the nearest neighbor environment under SCR conditions or more general of catalysts under working conditions. The key reactions in the mechanism involve (a) the adsorption of NO and ammonia adsorbed on a Fe site with (b) their interaction and releasing Fe 2+ and (c) reoxidation of this Fe 2+ as the rate-limiting step. The manuscript based on the obtained data is published in the J. Am. Chem. Soc. <ref type="bibr" target="#b5">[6]</ref>. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Comparison of the selected V2C spectra of Fe-ZSM-5 in different gas media.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>3-δ -O δ+ =N • ). The Kβ" region (7080-7097 eV) can comprise three peaks, which herein have been assigned as peaks A, B and C. According Experimental conditions and the oxidation state and local coordination number obtained from the pre-edge spectra, and the qualitative description of the Kβ´´ V2C spectral region. The gas compositions are named herein by the reactive gases contained in the mixtures balanced with He.to the DFT calculations<ref type="bibr" target="#b5">[6]</ref>, peaks A and B correspond to the transition of electron lone pairs from O to Fe, however in the peak A the transition comes from O atoms partially positively charged. A weak transition assigned as peak C arises from a transition of a lone pair in N to Fe. When either NH 3 , NO or NO 2 are present in the feed, peak A appears, which is most likely caused by the formation of Fe-O δ+ H-N-intermediate (where N can originate from NO or NH x ). Peak B is always present since it originates from the O either from the zeolite or from hydroxyls bonded to Fe. Peak C is only seen under the NH 3 -SCR reaction conditions and an NH 3 flow, due to the Fe-N fragment. As a second step, interaction of Fe sites with NH 3 was probed by analyzing Fe-ZSM-5 catalyst under an atmosphere of NH 3 , NH 3 +O 2 , and NH 3 +H 2 O+O 2 (experiments 6 -9). In these cases, the catalyst was flushed with He at 550 °C prior to the exposure to NH 3 . The interaction of dehydrated Fe with NH 3 without O 2 (experiment 6) leads to a significant change of the V2C spectrum. A splitting of the Kβ 2,5 peak into two peaks with maxima at 7103 and 7108 eV is observed, and is caused by the change of Fe coordination. Reproducing the same result with Fe-ZSM-5 after adsorption of H 2 O (experiment 7) still yields peak splitting, however, less pronounced. Interaction of the catalyst with NH 3 and O 2 (without or with H 2 O, experiments 8 and 9</figDesc><table><row><cell cols="2">Nr. Gas</cell><cell>Fe</cell><cell>oxi-</cell><cell>Fe</cell><cell cols="2">XES peaks (eV)</cell></row><row><cell></cell><cell>composition</cell><cell cols="2">dation state</cell><cell>coord. number</cell><cell></cell><cell cols="2">A 7088 7092 7097 B C</cell></row><row><cell>1</cell><cell>He</cell><cell cols="2">2.8-3.0</cell><cell>4-5</cell><cell>-</cell><cell>+</cell><cell>-</cell></row><row><cell>2</cell><cell>NO</cell><cell cols="2">2.8-3.0</cell><cell>4-5</cell><cell>+</cell><cell>+</cell><cell>-</cell></row><row><cell>3</cell><cell>NO+O2</cell><cell>3.0</cell><cell></cell><cell>4</cell><cell>±</cell><cell>+</cell><cell>-</cell></row><row><cell>4</cell><cell>NO2</cell><cell>3.0</cell><cell></cell><cell>4</cell><cell>±</cell><cell>+</cell><cell>-</cell></row><row><cell>5</cell><cell>NO + O2 +</cell><cell>3.0</cell><cell></cell><cell>4</cell><cell>±</cell><cell>+</cell><cell>-</cell></row><row><cell></cell><cell>H2O</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>6</cell><cell>NH3</cell><cell cols="2">2.2-2.4</cell><cell>5</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell>7</cell><cell>NH3 (over a</cell><cell>2-2.2</cell><cell></cell><cell>5</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>hydrated</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>zeolite)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>8</cell><cell>NH3 + O2</cell><cell cols="2">2.6-2.8</cell><cell>4-5</cell><cell>+</cell><cell>+</cell><cell>±</cell></row><row><cell>9</cell><cell>NH3 + H2O +</cell><cell cols="2">2.6-2.8</cell><cell>4-5</cell><cell>+</cell><cell>+</cell><cell>±</cell></row><row><cell></cell><cell>O2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>10</cell><cell>NO + O2 +</cell><cell cols="2">2.6-2.8</cell><cell>4-5</cell><cell>+</cell><cell>+</cell><cell>±</cell></row><row><cell></cell><cell>NH3 + H2O</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>11</cell><cell>NO2 + O2 +</cell><cell cols="2">2.8-3.0</cell><cell>4-5</cell><cell>+</cell><cell>+</cell><cell>-</cell></row><row><cell></cell><cell>NH3 + H2O</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>12</cell><cell>NO + O2 +</cell><cell cols="2">2.6-2.8</cell><cell>4-5</cell><cell>+</cell><cell>+</cell><cell>+</cell></row><row><cell></cell><cell>NH3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>13</cell><cell>O2 + H2O</cell><cell cols="2">2.8-3.0</cell><cell>~4</cell><cell>-</cell><cell>+</cell><cell>-</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We acknowledge the <rs type="institution" subtype="infrastructure">European Synchrotron Radiation Facility</rs> for provision of synchrotron radiation facilities and we would like to thank <rs type="person">Dr. Erik Gallo</rs> for assistance in using beamline ID26.</p></div>
+			</div>
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="en">European Synchrotron Radiation Facility</orgName>
+					<orgName type="full" lang="fr">Source Européenne de Rayonnement Synchrotron</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The State of the Art in Selective Catalytic Reduction of NO&lt;sub&gt;x&lt;/sub&gt;by Ammonia Using Metal‐Exchanged Zeolite Catalysts</title>
+		<author>
+			<persName><forename type="first">Sandro</forename><surname>Brandenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Kröcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arno</forename><surname>Tissler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roderik</forename><surname>Althoff</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01614940802480122</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Catalysis Reviews</title>
+		<title level="j" type="abbrev">Catalysis Reviews</title>
+		<idno type="ISSN">0161-4940</idno>
+		<idno type="ISSNe">1520-5703</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="492" to="531" />
+			<date type="published" when="2008-12">2008</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brandenberger, S.; Kröcher, O.; Tissler, A.; Althoff, R. Catal. Rev. 2008, 50, 492.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;Operando&lt;/i&gt; Spatially- and Time-Resolved XAS Study on Zeolite Catalysts for Selective Catalytic Reduction of NO&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt; by NH&lt;sub&gt;3&lt;/sub&gt;</title>
+		<author>
+			<persName><forename type="first">Dmitry</forename><forename type="middle">E</forename><surname>Doronkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria</forename><surname>Casapu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Günter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronald</forename><surname>Frahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan-Dierk</forename><surname>Grunwaldt</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/jp5028433</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physical Chemistry C</title>
+		<title level="j" type="abbrev">J. Phys. Chem. C</title>
+		<idno type="ISSN">1932-7447</idno>
+		<idno type="ISSNe">1932-7455</idno>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="10204" to="10212" />
+			<date type="published" when="2014-05-02">2014</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doronkin, D. E.; Casapu, M.; Günter, T.; Müller, O.; Frahm, R.; Grunwaldt, J.-D. J. Phys. Chem. C 2014, 118, 10204.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Q</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1016670217673</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Catalysis Letters</title>
+		<idno type="ISSN">1011-372X</idno>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">3/4</biblScope>
+			<biblScope unit="page" from="201" to="205" />
+			<date type="published" when="2001">2001</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Long, R. Q.; Yang, R. T. Catal. Lett. 2001, 74, 201.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Oxidation state and coordination of Fe in minerals: An Fe&lt;i&gt;K-&lt;/i&gt;XANES spectroscopic study</title>
+		<author>
+			<persName><forename type="first">Max</forename><surname>Wilke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Farges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre-Emmanuel</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gordon</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">François</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.2138/am-2001-5-612</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Mineralogist</title>
+		<title level="j" type="abbrev">American Mineralogist</title>
+		<idno type="ISSN">0003-004X</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="714" to="730" />
+			<date type="published" when="2001-05">2001</date>
+			<publisher>Mineralogical Society of America</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilke, M.; Farges, F.; Petit, P. E.; Brown, G. E.; Martin, F. Am. Mineral. 2001, 86, 714.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Probing Valence Orbital Composition with Iron Kβ X-ray Emission Spectroscopy</title>
+		<author>
+			<persName><forename type="first">Nicole</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Taras</forename><surname>Petrenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uwe</forename><surname>Bergmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>Neese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Serena</forename><surname>Debeer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja101281e</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="9715" to="9727" />
+			<date type="published" when="2010-06-28">2010</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, N.; Petrenko, T.; Bergmann, U.; Neese, F.; DeBeer, S. J. Am. Chem. Soc. 2010, 132, 9715.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Selective Catalytic Reduction of NO Over Fe-ZSM-5: Mechanistic Insights by Operando HERFD-XANES and Valence-to-Core X-ray Emission Spectroscopy</title>
+		<author>
+			<persName><forename type="first">Alexey</forename><surname>Boubnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hudson</forename><forename type="middle">W P</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitry</forename><forename type="middle">E</forename><surname>Doronkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Günter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><forename type="middle">R</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan-Dierk</forename><surname>Grunwaldt</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja5062505</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Chemical Society</title>
+		<title level="j" type="abbrev">J. Am. Chem. Soc.</title>
+		<idno type="ISSN">0002-7863</idno>
+		<idno type="ISSNe">1520-5126</idno>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">37</biblScope>
+			<biblScope unit="page" from="13006" to="13015" />
+			<date type="published" when="2014-09-04" />
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bobnov A., Carvalho, H.W.P., Doronkin, D.E., Günter, T., Gallo, E., Atkins, A.J., Jacob, C.R., Grunwaldt, J.-D. J. Am. Chem. Soc. DOI: 10.1021/ja5062505</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

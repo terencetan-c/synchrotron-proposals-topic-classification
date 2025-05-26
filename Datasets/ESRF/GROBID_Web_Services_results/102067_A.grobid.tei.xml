@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">BEAMTIME A28-1-1336 &quot;Pd speciation changes during in situ aging of emission control catalysts&quot; BM28 &quot;XMaS&quot;, beamline scientist</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Thompson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Emma</forename><surname>Gibson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lucy</forename><surname>Costley-Wood</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Emma</forename><surname>Donato Decarolis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nicolas</forename><surname>Gibson</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Flores-Gonzalez</surname></persName>
+						</author>
+						<title level="a" type="main">BEAMTIME A28-1-1336 &quot;Pd speciation changes during in situ aging of emission control catalysts&quot; BM28 &quot;XMaS&quot;, beamline scientist</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">41A49E9D6980902110EE0654A8E786D6</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this beamtime was to corroborate previous characterisation data on Pd systems, which undergo phase transitions at distinct temperatures. The samples are three-way catalysts from Johnson Matthey, provided as part of this PhD project. At ~850℃, PdO decomposes to Pd metal, and subsequently reoxidises when cooled below ~650℃. Previous in situ X-ray diffraction data indicated that the extent to which the crystalline PdO phase reforms during cooling is related to the composition of the ceria zirconia support. The thermal experiment was repeated at Diamond where the XANES confirmed the effect of the support on both the temperature of the reoxidation and the Pd 0 :PdO ratio. However, given the temperature sensitivity of these experiments, it was crucial to repeat both experiments but at the same time, in a high temperature in situ XANES + XRD combined experiment. Also, Ce L3 edge measurements have been performed previously at Diamond, but this absorption edge is not suitable for observing changes to the 2 nd coordination sphere of Ce, the Ce-Ce interaction. Therefore a further aim was to perform ex situ Ce K edge measurements of the same samples as used for the in situ Pd experiment, looking at the support itself to understand the Pd changes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The cell</head><p>To achieve the required temperatures (900 °C) a custom cell was made, based on a design by Pete Chupas, with drawings provided by Mark Newton. This was made at the University of Glasgow, with lots of communication and input from Paul Thompson. The testing setup can be seen in Figure <ref type="figure">1</ref>. The cell is capable of gas flow, and has since proved to be air-tight under reactive gases, though only compressed air was used during this particular experiment and hence no exhaust line attached. The cell design allows for both transmission and fluorescence measurements to be performed simultaneously. Some changes were made to the original design to improve its function at high temperature. Firstly, the Swagelok connections between the quartz capillary and the steel frame were replaced by high temperature silica sealant. The sealant is stable up to temperatures of 800 °C, fast setting, and its rubberised texture helps prevent cracks in the capillary on movement. Next, the ceramic insulator rods which previously sat inside the heating coils were removed, as these were leading to breakage of the heating wire when it contracted on cooling. Instead, ceramic shields were designed and manufactured by the sample environment team at Grenoble. These not only prevented the wire breaking, but also helped prevent heat loss, and provided electrical insulation between the steel frame and the heating wire. To prevent damage to the fluorescence detector by the heat radiating from the cell, a steel cap was placed over the surface, covered by a layer of aluminium Figure <ref type="figure">1</ref> The high temperature cell connected to a custom made Eurotherm power supply/temperature controller with gas connections.</p><p>foil, and a stream of nitrogen gas was directed at the detector when the cell was in use. All these components can be observed in Figure <ref type="figure" target="#fig_0">2</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The experiment</head><p>During the experiment, a sample was loaded into the capillary between quartz wool plugs, the capillary was sealed into the hollow steel rods and the silica was left to cure for 30 minutes. The cell was attached to the goniometer, connected to power, and the beam turned on. The diffraction pattern was checked for additional reflections from components such as the thermocouple or reactor steel.</p><p>Samples were ramped to 900 °C, held for 1.5 hour, then cooled. Isothermal periods were added at 650 °C during both ramping and cooling for full data collection, but time resolved data was also collected during the entire experiment. To achieve high temperature resolution, instead of collecting a full scan, 4 discreet energies were selected at positions where the Pd0 and PdO spectra were significantly different, and one pre-edge position along the baseline. These energy points were scanned in a loop, shown in Figure <ref type="figure" target="#fig_1">103</ref>. The intensity was measured three times at each energy, and the values averaged. After scanning these points for absorption, the energy was increased to 25 keV and a PXRD pattern collected. The full loop took 2 minutes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>An example of the temperature resolved absorption and diffraction data is given in Figure <ref type="figure" target="#fig_1">3</ref>, as the PdO decomposed to Pd 0 during a temperature ramp. The decomposition onset is indicated by the emergence of Pd 0 reflections in the diffraction pattern, and by an inflection in the intensity lines of the absorption plot, first observed by both techniques between 852-857 °C. The absorption intensities plateaued immediately on reaching 900 °C, and do not change during the 1.5 hr isothermal hold. The reoxidation during cooling was more gradual, beginning just above 600 °C and eventually plateauing at around 400 °C.</p><p>Full XANES scans were collected at the isothermal temperature points, and linear combination fitting of the data showed a higher PdO fraction in the sample which used a doped ceria zirconia support (CZ2), as opposed to an undoped (CZ1). The difference is most prominent during cooling; once fully cooled to room temperature the oxidation state ratios are similar. This highlights the importance of in situ measurements for these samples. The Ce K edge data was also revealing, particularly as there is limited literature on ceria zirconia solid solutions measured at this edge to date. As the Ce fraction increases, the contribution of the second shell Ce-Ce path increases, the peak labelled Ce.2 in the R space plot (Figure <ref type="figure" target="#fig_2">4a</ref>). As was expected, the amplitude of the single scattering first shell Ce-O path remains similar for all three samples. As the amount of Zr increases from 0 to 0.5, contributions from a new scattering path emerge at 3.3 Å. This is a new Ce-Zr path. From EXAFSs analysis, the change to the Ce-Ce coordination number and distance were obtained, and are plotted (Figure <ref type="figure">4b</ref>). The decrease in the Ce-Ce distance with increasing Zr concentration is consistent with changing lattice size. Previous X-ray diffraction data showed increasing Zr content decreases lattice size in a linear fashion, and all cationcation distances should decrease in a shrinking lattice.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges</head><p>Regarding the cell, the heating elements wear quickly with high temperature use, and must be replaced between each experiment, which takes time. Otherwise, there is a significant loss of temperature stability during ramping and cooling. Swings in temperature can trigger early phase transitions, at temperatures not reflecting the bulk average temperature. Thermocouple placement is essential, and optimisation can take time at the start of experiment.</p><p>The Ce K energy was miscalibrated by approximately 60eV, though this could be easily fixed in the data processing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The in situ cell proved capable of operation at high temperatures under gas atmospheres for simultaneous performance of transmission XRD, and both transmission and fluorescence absorption spectroscopy. In comparison to other samples environments used throughout the PhD project (the Anton Paar lab XRD chambers, the single capillary furnace on B18, the Linkam cells on I11), this is likely to give the most accurate phase transition temperatures, when used correctly.</p><p>The successful combination of temperature resolved X-ray diffraction and absorption spectroscopy provided validation of previous in situ experiments, which can now be all combined and published. The Pd phase transition process began and ended at the same temperature using both techniques, indicating the Pd 0 which forms when oxygen is lost from Pd 0 quickly gains long-range ordering. The Ce K edge results demonstrate the high quality data which can be obtained at this energy on XMaS, and how this can be applied using a calibration method of samples with varying composition to obtain trends.</p><p>a) a) a) b)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2</head><label>2</label><figDesc>Figure 2 Photograph of the in situ cell mounted on the goniometer, the high temperature glowing of the coils and thermal insulation from the shields can be seen. The detector is covered by aluminium foil.</figDesc><graphic coords="2,116.65,107.30,362.00,273.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3</head><label>3</label><figDesc>Figure 3 Intensity of fluoresced X-rays (left) and PXRD patterns (right) collected during a temperature ramp of Pd/CZ1. The onset of PdO decomposition is indicated in red on each figure. Absorption was at the Pd K edge at 24.3 keV, and diffraction measurements at 25 keV.</figDesc><graphic coords="3,68.55,104.40,177.25,314.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4a )</head><label>4a</label><figDesc>Figure 4a) the Fourier transformed Ce K edge data of CexZr1-xO2, where x = 0.5, 0.75, and 1, plotted in magnitude in R space. 4b) Ce-Ce distance and the C.N. as a function of Ce content in CexZr1-xO2 from ex situ Ce K edge data.</figDesc><graphic coords="4,72.00,74.30,203.46,161.20" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

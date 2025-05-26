@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">31E3BEF5F9777BFBF321F5A20A8CCA2D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The goal of the BioSAXS experiment with number MX-2041 was to study the protein KAP1 in solution, as well as two of its interacting partners: an RNA helicase and the Heterochromatin Protein 1 (HP1). KAP1 or Krüppel associated protein 1, is a multidomain protein that has been linked to the development and differentiation of many adult cell types as well as many other fundamental cellular processes including gene silencing, transcription regulation and DNA damage repair <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. It acts like a scaffold protein recruiting many different proteins and enzymes to influence the organization of chromatin structure. The RNA helicase DDX21 together with KAP1 have been implicated in the control of the RNA Polymerase II activity but no structural information is available for the proteins or their complex architecture. Because of that, we are interested in finding out the three dimensional structure of KAP1 and DDX21 and understanding the molecular interactions between KAP1 and the proteins it recruits.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data acquisition</head><p>The data were recorded at the ESRF BM29 over a q range of 0.025-5 nm -1 and beam wavelength of 0.992 Å. Only the HPLC mode was used as we knew from previous experiments that the proteins tend to aggregate. In HPLC mode, the samples were submitted to size exclusion chromatography, using a Superose 6 column (24 ml, GE Healthcare) equilibrated in buffer with different salt concentrations (20 mM Hepes pH 7.5, 100-500 mM NaCl, 10% Glycerol and 2mM TCEP), at a flow rate of 0.5 ml/min. 100 ul of sample were injected at sample concentrations around 9-15 mg/ml. During the chromatography run, data were collected for 50 min, with one frame per second, originating 3000 frames per run. 0 1 2 3 4 0.01 0.1 1 10 100 q (nm -1 ) Log10 [I(q)] FL DDX21 DDX21-59 DDX21-57 DDX21-56 0 10 20 30 40 0.0 0.2 0.4 0.6 0.8 1.0 r (nm) P (r) DDX21-59 DDX21-56 DDX21-57 FL DDX21 20 25 30 35 40 0 50000 100000 150000 200000 250000 0.0 0.5 1.0 Elution time (min) Molar Mass [Da] DDX21-56 DDX21-57 FL DDX21 DDX21-59 Normalized UV 116 97 66 55 36 31 D D X 2 1 -5 6 D D X 2 1 -5 7 D D X 2 1 -5 9 B A D C </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>Most of the proteins behaved well and gave good scattering elution profiles that were analysed using SCÅTTER <ref type="bibr" target="#b2">[3]</ref> and the ATSAS package <ref type="bibr" target="#b3">[4]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Conclusions</head><p>During this shift, we have obtained the following results: 1) We have collected SEC-SAXS data on 3 different DDX21 constructs. The SAXS data confirms MALLS data in that these constructs are dimeric, monodisperse and compact molecules. The ATSAS program Datclass identifies them as flat molecules, which agrees with our atomic models (not shown). 2) We have studied whether the addition of AMPPNP to the RNA helicase constructs leads to conformational changes that can be monitored by SEC-SAXS. Both the Rg and Dmax changes are within the erros, indicating that the changes upon AMPPNP addition are almost neglegible.</p><p>(Data not shown). We plan further experiments with RNA substrate bound.</p><p>Structural information obtained by SAXS, in combination with our ultracentrifugation and light scattering data, would be very useful to validate the 3-D models and assess the sample heterogeneity and suitability to perform further crystallographic and electron microscopy experiments. Performing SEC-SAXS has clearly removed problems due to the aggregates and will help us separate the complexes from the individual components. Our next objective will be to study the RNA helicase in the presence of RNA. Please see the application for the next shift.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: SEC-MALLS and SEC-SAXS of the purified DDX21 constructs. A: MALLS (Multi angle laser light scattering) data showing that the DDX21 constructs are dimers. B: SDS-PAGE of the purified proteins. C: SEC-SAXS scattering curves. D: P(r), pair-distance distribution function showing the maximum dimension (Dmax)of the samples.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>SEC-SAXS data analysis parameters.</figDesc><table><row><cell>Construct</cell><cell>Data range</cell><cell>Rg Guinier</cell><cell cols="2">Dmax (nm) Theoretical</cell><cell>MW (kDa)</cell></row><row><cell></cell><cell>(nm -1 )</cell><cell>(nm)</cell><cell></cell><cell>dimer MW (kDa)</cell><cell>Datmow</cell></row><row><cell>FL DDX21</cell><cell>0.06-3.43</cell><cell>6.99 ± 0.03</cell><cell>24</cell><cell>181</cell><cell>232.46</cell></row><row><cell>DDX21-56</cell><cell>0.07-3.78</cell><cell>4.76± 0.02</cell><cell>20</cell><cell>137.4</cell><cell>166</cell></row><row><cell>DDX21-57</cell><cell>0.09-3.78</cell><cell>4.58± 0.01</cell><cell>20</cell><cell>121.2</cell><cell>120</cell></row><row><cell>DDX21-59</cell><cell>0.07-3.78</cell><cell>4.37± 0.04</cell><cell>20</cell><cell>98</cell><cell>101</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">KAP1 Protein: An Enigmatic Master Regulator of the Genome</title>
+		<author>
+			<persName><forename type="first">Sushma</forename><surname>Iyengar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peggy</forename><forename type="middle">J</forename><surname>Farnham</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.r111.252569</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">Journal of Biological Chemistry</title>
+		<idno type="ISSN">0021-9258</idno>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page" from="26267" to="26276" />
+			<date type="published" when="2011-07">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iyengar, S. and P.J. Farnham, KAP1 protein: an enigmatic master regulator of the genome. J Biol Chem, 2011. 286(30): p. 26267-76.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">KAPtain in charge of multiple missions: Emerging roles of KAP1</title>
+		<author>
+			<persName><forename type="first">Chun-Ting</forename><forename type="middle">T</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Ann</surname></persName>
+		</author>
+		<idno type="DOI">10.4331/wjbc.v5.i3.308</idno>
+	</analytic>
+	<monogr>
+		<title level="j">World Journal of Biological Chemistry</title>
+		<title level="j" type="abbrev">WJBC</title>
+		<idno type="ISSN">1949-8454</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">308</biblScope>
+			<date type="published" when="2014">2014</date>
+			<publisher>Baishideng Publishing Group Inc.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng, C.T., C.Y. Kuo, and D.K. Ann, KAPtain in charge of multiple missions: Emerging roles of KAP1. World J Biol Chem, 2014. 5(3): p. 308-20.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Scåtter -Bioisis.Net -Rambo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Tainer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biopolymers</title>
+		<imprint>
+			<biblScope unit="page" from="559" to="571" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ScÅtter -bioisis.net -Rambo RP and Tainer JA. Biopolymers (2011):p. 559-571.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;ATSAS 2.8&lt;/i&gt;: a comprehensive data analysis suite for small-angle scattering from macromolecular solutions</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Franke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Petoukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Konarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Panjkovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tuukkanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D T</forename><surname>Mertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Kikhney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Hajizadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Jeffries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Svergun</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s1600576717007786</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSNe">1600-5767</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1212" to="1225" />
+			<date type="published" when="2017-06-26">2017</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Franke, D et al. ATSAS 2.8: a comprehensive data analysis suite for small-angle scattering from macromolecular solutions. J. Appl. Cryst. (2017) 50, 1212-1225.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

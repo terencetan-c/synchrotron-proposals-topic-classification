@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">X-rays in the quantum regime: imaging with true single photons</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>04/04/2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Tao</forename><surname>Zhou</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Prof</roleName><surname>Sharon Shwartz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Physics Department and Institute of Nanotechnology</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Edward</forename><surname>Strizhevsky</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Physics Department and Institute of Nanotechnology</orgName>
+								<orgName type="institution">Bar Ilan University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Cinizia</forename><surname>Giannini</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">CNR -Istituto di Cristallografia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Davide</forename><surname>Altamura</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">CNR -Istituto di Cristallografia</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">X-rays in the quantum regime: imaging with true single photons</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">04/04/2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E373C774DAA58A9855CD96450C2154D4</idno>
+					<note type="submission">from: 26/09/2018 to: 02/10/2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>In this beamtime we made an attempt to perform X-ray quantum 2D imaging with true single photons for the first time. The source for the single photons was the nonlinear process of parametric down conversion (PDC).</p><p>To generate the single photons we used the procedure and configuration of our previous successful experiments <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>.</p><p>In the X-ray PDC process an incident X-ray photon, that is called pump, interacts with the quantum vacuum field in a crystal and converts into a correlated photon pair. The efficiency of conversion of pump photons into a photon pair is very low, however by using energy and momentum conservation and the fact that the two photons were generated in the same time, we could separate the PDC photon pairs from the background noise.</p><p>In earlier experiments where we used silicon drift detectors (SDDs), we mounted the detectors according to momentum conservation condition (phase matching) and used their energy and time resolution (about 125 eV and a few hundreds of nanoseconds) to verify that a pair of photons which arrived within a short time window is a PDC pair. We called one of the photons a trigger and the other one a heralded photon. Once we determined that we measured a PDC pair, we knew that we had exactly one heralded photon, and by placing an object in its path we could perform a single photon imaging. In the present experiment, we used this scheme and tried to go one step further by using an area X-ray detector for two dimensional quantum imaging with single photons.</p><p>As in our previous work <ref type="bibr" target="#b0">[1]</ref>, we generated the PDC photon pairs with diamond single crystal in Laue geometry. For phase matching we used the reciprocal lattice vector normal to the C(660) atomic planes. This time, instead of the two SDDs we used the 2D Eiger detector. The distance between the camera and the diamond crystal was in the range of 350 mm to 1000 mm (during different stages of the experiment) to allow the PDC photons to covere the entire object but not too far (so that the flux would still be sufficient for a realistic measurement time). We placed the object very close to the camera to get an absorption image (Figure <ref type="figure" target="#fig_0">1</ref>). Between the diamond and the object we inserted a vacuum tube and shielded the beam path with lead and aluminum to reduce air absorption, scattering, and fluorescence.</p><p>The Eiger detector exhibits two main disadvantages with respect to the SDDsit does not have energy resolving capabilities and its shortest deadtime time window is 10 μs. Therefore we developed a new procedure to distinguish the PDC pairs from the background. The main idea was to exploit the 2D detector and the difference between the spatial distributions of the two processes. While the background (mainly Compton scattering) distributes nearly uniformly on the detector, the PDC pairs have a distribution that is determined by the phase matching. Also, dependence of the Compton scattering and the PDC on the input flux is different. Therefore the major effort was to find the input intensity for which the PDC pairs would be more pronounced than the background at the angles of the phase matching within the a 10 μs time window.</p><p>We encountered an unexpected difficulty with finding the point of reference for the phase matching angles. There was an effect of beam walk-off along the diamond crystal which smeared the Bragg peak and introduced an uncertainty in its center on the camera. As a result, the uncertainties of the areas on the 2D detector where we expected to find the PDC pairs were too large. The 10 μs time window was not short enough, for the given background flux, to determine if a pair of photons arrived simultaneously. This observation together with the large uncertainties, the background dominated the preliminary results.</p><p>We tried to suppress the background by positioning a silicon wafer in a grazing incident angle after the diamond crystal. The idea was to tune it in a way that the cut-off energy would be below the energy of the Compton scattering. However since the Compton scattering is not collimated the wafer reflected the noise as well. Moreover, the silicon wafer suffered from bending effectsit introduced artifacts very close to the region where we expected to see the PDC pairs. After few attempts of optimizing the wafer, the background flux did not change much, so we decided to remove it and to use the rest of the beamtime for data collection.</p><p>We decided to take the camera closer to the diamond and to attenuate the input flux. By shortening the distance to the camera we reduced the air absorption, which is more significant for the PDC photons since their energy is almost twice lower than the background. The reduction of the input flux by some factor reduces the number of PDC pairs linearly with this factor, while the flux of the coincidental noise pairs reduces by a square of that factor. Finally we added more lead and aluminum shielding and performed long data collection till the end of the beamtime.</p><p>In the preliminary analysis we compared pairs that satisfied momentum conservation with pairs that did not, however we could not observe pronounced differences in their distributions (Figure <ref type="figure">2</ref>). We are in the process of more thorough data analysis methods. We will process the entire data several times with different parameters and look for the expected distribution. We will also use pixel binning and compare results from different stages of the experiment. Moreover, we intend to set the center for momentum conservation as a free parameter and try to overcome the uncertainty that we had during the experiment. In addition, we will try to use the differences in the statistical behavior of PDC and the uniform random background. Finally, we submitted new proposals for similar experiment but with 2D detectors that have much higher energy and temporal resolutions. From these experiments we expect to collect more statistics about the spatial distribution of the PDC pairs and it will allow us to better define the regions of momentum conservation for the data from the current experiment. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -Experimental setup Figure 2 -Typical result for a particular pair selection rulephoton pairs distribution on the camera.</figDesc><graphic coords="2,39.40,548.22,166.80,155.18" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">X-ray photon pairs with highly suppressed background</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Borodin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zontone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shwartz</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreva.94.013843</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review A</title>
+		<title level="j" type="abbrev">Phys. Rev. A</title>
+		<idno type="ISSN">2469-9926</idno>
+		<idno type="ISSNe">2469-9934</idno>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13843</biblScope>
+			<date type="published" when="2016-07-25">2016</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Borodin, A. Schori, F. Zontone, and S. Shwartz, X-ray photon pairs with highly suppressed background, Phys. Rev. A, 94, 013843 (2016)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Ghost imaging with paired x-ray photons</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Borodin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamasaku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shwartz</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physreva.97.063804</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review A</title>
+		<title level="j" type="abbrev">Phys. Rev. A</title>
+		<idno type="ISSN">2469-9926</idno>
+		<idno type="ISSNe">2469-9934</idno>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">63804</biblScope>
+			<date type="published" when="2018-06-04">2018</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Schori, D. Borodin, K. Tamasaku and S. Shwartz, Ghost imaging with paired x-ray photons, Phys. Rev. A, 97, 063804 (2018)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

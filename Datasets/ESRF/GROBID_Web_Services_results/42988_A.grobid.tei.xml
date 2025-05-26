@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Functional 6D chemically-quantitative tomography using inelastic x-ray spectroscopy</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2011-03-01">1st March 2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><surname>Huotari</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Pylkkänen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><surname>Hämäläinen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Monaco</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Verbeni</surname></persName>
+						</author>
+						<title level="a" type="main">Functional 6D chemically-quantitative tomography using inelastic x-ray spectroscopy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2011-03-01">1st March 2011</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FFE0ACA3705BC2DE797C34465B82283B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>HE-3164</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>During this experiment at ID16 we tested an idea of a novel 3D x-ray dark-field imaging technique using high-resolution IXS of hard x-rays (10-20 keV) as a contrast mechanism. The experiment was very successful and the results have now been submitted to Nature Materials. The technique has most notably a unique sensitivity for low-Z (Z &lt; 10) elements and their chemical bonding characteristics including orbital orientations, in the centimeter-scale: something that has not been hitherto possible. Another important difference between our technique as opposed to other 3D x-ray imaging methods is that it is a single-shot direct tomography (DT; a new term tentatively coined by us) as opposed to angle-scan reconstruction-based computed tomography (CT). The principle of the experiment compared to traditional CT-3D imaging is shown in Fig. <ref type="figure">1</ref>. The new DT technique is based on an off-axis optical component: a spherically curved analyser crystal which selects a narrow energy bandwidth of radiation scattered by the sample and focuses it on the detector. The analyser observes scattering into a fixed scattering angle 2 , which in our measurements was 30 &lt; 2 &lt; 60 . The selection of the bandwidth is based on Bragg's law. Typical experiments take place with 13 keV, bandwidth of the order of 1 eV. Entirely new types of contrast methods, related to the different branches of IXS, become available within DT. Here we chose IXS from coreelectron excitations, i.e. the process called x-ray Raman scattering (XRS), which gives information similar to x-ray absorption spectroscopy (XAS). In XRS the energy transfer plays the role of the absorbed-photon energy of XAS, and the incident-photon energy can be chosen freely. This makes it possible to measure soft-x-ray absorption edges with hard x-rays.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The XRS spectra now yield the information on the local structure and chemical bond of the specific element. Our most interesting sample was a piece of carbon fibre-reinforced silicon carbide (C/SiC) -a material of a high industrial interest, and fundamentally intriguing since due to its varying nature of the carbon bond (sp 3 , sp 2 , amorphous, layered, etc.) In this particular sample, after our characterisation, we found mostly sp 2 -carbon with a layered structure of the sp 2 bond orientation (Fig. <ref type="figure">2</ref>). The technique is now documented and presented publicly, and as a result it has already been adopted, e.g., in the scientific case of the upgrade plan of the LERIX spectroscopy facility at the Advanced Photon Source. It was also presented at the Stanford Synchrotron Radiation Lightsource and Stanford Linear Accelerator in March 2011 as a possible technique interesting also at the free-electron laser. We have a definite interest in the future to extend the technique to x-ray emission spectroscopy as well with future experiments at ESRF upgrade beamline UPBL6.</p><p>Figure <ref type="figure">2</ref>. Typical carbon K-edge XRS spectra of a layered C/SiC material as a function of one dimension (along the beam path, x). The spectra reveal a ABCBA-type stacking order of the sp 2 orientation. Mapping these spectra in other Cartesian dimensions (y,z) as well we gathered a full 3D map of the carbon K-edge signal in a several mm 3 sample. <ref type="bibr">(From Huotari et al., submitted)</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1. a, A standard 3D imaging technique would measure 2D projections of the sample, which are collected for many orientations. A 3D image of the sample is then obtained via a reconstruction algorithm. b, In direct tomography, 2D sections in the xz plane are collected directly with a single shot. Any point in the x-ray-illuminated 2D section of the sample is projected on a unique point on the detector. The 3D structure can be mapped by scanning the sample over the remaining Cartesian dimension y. (From Huotari et al., submitted).</figDesc><graphic coords="2,34.08,36.96,498.96,204.24" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Bm</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Hubert</forename><surname>Renevier</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gianluca</forename><surname>Ciatto</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>ESRF, Grenoble, F</roleName><forename type="first">J</forename><forename type="middle">C</forename><surname>Harmand</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">F V. Sallet*</orgName>
+								<orgName type="institution">CNRS-LPN</orgName>
+								<address>
+									<settlement>Marcoussis</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">F M. G. Proietti*</orgName>
+								<orgName type="institution">CNRS-LPN</orgName>
+								<address>
+									<settlement>Marcoussis</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">F Experimentalists non-applicants L. Largeau*</orgName>
+								<orgName type="institution" key="instit1">University of Zaragoza</orgName>
+								<orgName type="institution" key="instit2">E H. Renevier*</orgName>
+								<orgName type="institution" key="instit3">CEA Grenoble</orgName>
+								<orgName type="institution" key="instit4">CNRS-LPN</orgName>
+								<address>
+									<settlement>Marcoussis</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">F O. Mauguin*</orgName>
+								<orgName type="institution">CNRS-LPN</orgName>
+								<address>
+									<settlement>Marcoussis</settlement>
+									<region>F</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Names and affiliations of applicants (* indicates experimentalists)</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9A00A9210FEE070D9A8D7C04DE7F06F6</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>HS-2640</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Dilute nitrides have attracted increasing interest in the recent years, due to the capability of obtaining emission in the 1.3-1.55 µm range <ref type="bibr" target="#b0">[1]</ref> on GaAs substrate. These limit wavelengths correspond to the two attenuation minima in silica-optical fibers, largely employed for Internet networks at the metro area (MAN) and local area (LAN). This makes these materials very competitive in the engineering of Vertical Cavity Surface Emitting Lasers (VCSEL) coupled to the fibers <ref type="bibr" target="#b1">[2]</ref>, and dilute nitrides-based VCSELs emitting at 1.3 µm are already commercialized. If InGaAsN/GaAs quantum wells (QWs) present very competitive characteristics for emission at 1.3 µm, it remains difficult to transpose this good performance at longer emission wavelengths, towards the second minimum at 1.55 µm. In fact the latter wavelength requires the incorporation of a large percent of indium, which results in a partial relaxation of the structure due to the high strain and in a degradation of the laser performances. In order to overcome these difficulties new nitrides have been proposed for emissions at 1.55 µm: GaAsNSb <ref type="bibr" target="#b2">[3]</ref> and InGaAsNSb alloys <ref type="bibr" target="#b3">[4]</ref>. In particular the addition of a few percent of Sb during the growth of InGaAsN results in improved optical and structural properties of the material <ref type="bibr" target="#b4">[5]</ref>. This has been attributed to a surfactant effect of Sb, which permits to incorporate a higher In content avoiding relaxation through misfit dislocations. Very recently some of us have managed to build an InGaAsNSb QWs-based laser emitting at 1.48 µm with a peak line width of 35 meV <ref type="bibr" target="#b5">[6]</ref>. This constitutes the state of art for RT emission near 1.5 µm and it is not so far from the record value for 1.3 µm emission (27 meV). In order to reduce the peak width to such values, samples have to be treated with rapid thermal annealing (RTA). RTA, like in case of InGaAsN, brings about an undesired blue shift of the band gap, which hinders access to the longest wavelengths. In the case of InGaAsN different groups attributed this blue shift to a preferential In-N over In-As bonding induced by annealing <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>; some of us have addressed this issue by EXAFS at the In K-edge (report 08-01-634) coming to the conclusion that a preferential In-N bonding occurs in annealed alloys <ref type="bibr" target="#b8">[9]</ref>, even if Short Range Ordering (SRO) is weaker than that predicted at the equilibrium via Monte Carlo calculations <ref type="bibr" target="#b9">[10]</ref>.</p><p>Annealing is supposed to bring the alloys closer to the equilibrium state, hence the drift toward the predicted ordering.</p><p>In the case of GaAsNSb and InGaAsNSb alloys, the observed blue shift upon annealing is greater than in InGaAsN (about 0.1 µm for an annealing of 30 s at 800 °C); since the phenomenon happens also in In-free alloys, we think it can be linked to an annealing-induced local atomic rearrangement in the mixed anionic sub-lattice. In fact clustering (i.e. presence of like-atoms over the random values in the second coordination shell of a particular element) and anti-clustering (excess of unlike atoms over the random values) have been predicted to have an influence on the band gap of III-V nitrides <ref type="bibr" target="#b10">[11]</ref>. In particular clustering is supposed to bring about a red shift of the band gap with respect to the random case. Annealing, bringing the system towards the equilibrium condition, could induce a removal of clustering (at the thermodynamic equilibrium anti-clustering is predicted) which would explain the blue shift of the emission observed in the annealed samples with respect to the as-deposited ones. Clustering in as-grown GaAsNSb would also explain why in these alloys the optical bowing is greater than in InGaAsN.</p><p>Aim of the experiment was to study the local environment of As by DAFS at the As K-edge in a series of asdeposited and annealed GaAsNSb samples, and to measure the relative number of Sb and As atoms in the second atomic shell of As in order to determine if clustering is present or not and if a different degree of SRO is at the origin of the blue shift observed upon annealing. Recently, EXAFS measurements performed at the Sb K-edge (report 08-01-668) indicated a percentage of Sb atoms well over the expected "random" value in the second shell of the Sb absorber, de-clustering takes place upon annealing; a verification of these results at the As K-edge by DAFS would be very useful before drawing conclusions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental aspects</head><p>The experiment took place in the dedicated DAFS station of the D2AM beam line (BM02) in April 2005, recording the X-ray intensity at the (006) weak reflection, where the anomalous effect is quite large. DAFS, thanks to its spatial selectivity, was a priori the ideal tool to study the As local environment in III-V semiconductors deposited on GaAs <ref type="bibr" target="#b12">[13]</ref>. Since As atoms are present in the substrate it was impossible to use standard EXAFS, which would have unavoidably probed the substrate both in fluorescence and total electron yield detection. Grazing incidence EXAFS (to be performed below the critical angle) was not an option because it would have not guaranteed bulk sensitivity on the total epilayer thickness and because of the small length of the samples (≈ 5 mm). Unlucky, due to a software interface problem, it was not possible to use the crystal analyzer (required in the proposal) that would have been useful in order to separate the diffraction peak from the Ga-and As-Kα and Kβ fluorescence background on the weak 006 reflection, and also to limit multiple diffraction effects as done in a similar previous experiment (report HS 2020). GaAsNSb/GaAsSb epilayers were grown at the CNRS/LPN laboratories in Marcoussis, Paris (F) by the group of Dr. J. C. Harmand and preliminary characterized by PL, XRD and SIMS; TEM observations assured the homogeneity of the samples and the absence of a phase separation on a non-local scale. We had eight 80 nm-thick GaAsSbN epilayers (series A) grown on GaAs (001) by molecular beam epitaxy and annealed for different times, N content was = 1.7%, Sb content = 6.7% and two 140-nm thick epilayers with N content = 2.0%, Sb content = 7.0% (series B); two GaAsSb epilayers and a GaSb reference sample were also available. The thickness of the epilayers has been chosen as a compromise to obtain the maximum total number of counts/s by avoiding relaxation of the epilayers through dislocations; growth temperature was different for the two samples series: 460 °C for sample B and 410 °C for sample A.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Unlucky, the experiment was unsuccessful because of severe distortions always present in the spectra related to the occurrence of multiple diffraction in the samples; these effects are present when the crystalline quality of the epilayers is very high, but in this case the distortions were more frequent and bigger than we expected based on previous experience on InGaAsN/GaAs nanostructures. We tried to reduce the distortion by changing the selected reflection: we used first the (006), then the (004), the (118), and finally the (224) one, but without success. Mounting the samples on a rotating holder had some benefic effect, but it was not sufficient to obtain data of sufficient quality; we also tested epilayers grown under different conditions and with different strain levels (but always pseudomorphic to the substrate) with similar results. Due to the rather difficult experimental set up and samples alignement, we have not means and time to try different approaches which might be useful in the future: 1) the use of the crystal analyzer which helped in reducing distortions in the case of InGaAsN (report HS 2020) and was not available at this round; 2) the use of grazing angle DAFS geometry to limit the substrate contribution to the signal and multiple diffraction effects; 3) looking for some particular reflection for which multiple diffraction events might be less probably, based on calculations to be performed; 4) measuring analogous samples but with bigger thickness and partially plastic relaxed i.e. of worse crystalline quality than the present ones. The very recent publication of the results of DAFS experiment HS 2020, performed by some of us on InGaAsN alloys <ref type="bibr" target="#b13">[14]</ref> encourages the continuation of the DAFS project on GaAsNSb and InGaAsNSb; moreover recent results of Sb K-and N K-edge XAFS experiments (see report 08-01-668) obtained on the same GaAsNSb alloys under study here are boosting interest in the subject.</p></div>		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publications</head><p>Due to the technical difficulties encountered, presently we have not publishable results yet.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">GaInNAs: A Novel Material for Long-Wavelength-Range Laser Diodes with Excellent High-Temperature Performance</title>
+		<author>
+			<persName><forename type="first">Masahiko</forename><surname>Kondow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuhisa</forename><surname>Uomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Atsuko</forename><surname>Niwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takeshi</forename><surname>Kitatani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seiji</forename><surname>Watahiki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshiaki</forename><surname>Yazawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1143/jjap.35.1273</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Japanese Journal of Applied Physics</title>
+		<title level="j" type="abbrev">Jpn. J. Appl. Phys.</title>
+		<idno type="ISSN">0021-4922</idno>
+		<idno type="ISSNe">1347-4065</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2S</biblScope>
+			<biblScope unit="page">1273</biblScope>
+			<date type="published" when="1996-02-01">1996</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Kondow et al., Jpn. J. Appl. Phys., Part 1 35, 1273 (1996)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">High-tech lasers for the information superhighway</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wipiejewski</surname></persName>
+		</author>
+		<ptr target="www.infineon.com" />
+	</analytic>
+	<monogr>
+		<title level="j">Components</title>
+		<imprint>
+			<biblScope unit="page" from="3" to="1999" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T.Wipiejewski, &quot;High-tech lasers for the information superhighway&quot;, Components (www.infineon.com), 03-1999</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">GaAsSbN: a new low-bandgap material for GaAs substrates</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ungaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Le Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Teissier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Harmand</surname></persName>
+		</author>
+		<idno type="DOI">10.1049/el:19990864</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electronics Letters</title>
+		<title level="j" type="abbrev">Electron. Lett.</title>
+		<idno type="ISSN">0013-5194</idno>
+		<idno type="ISSNe">1350-911X</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="1246" to="1248" />
+			<date type="published" when="1999-07-22">1999</date>
+			<publisher>Institution of Engineering and Technology (IET)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Ungaro, G. Le Roux, R. Teissier and J. C. Harmand, Electron. Lett. 35, 1246 (1999)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">InGaAsNSb/GaAs quantum wells for 1.55 μm lasers grown by molecular-beam epitaxy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Héroux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1379787</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="4068" to="4070" />
+			<date type="published" when="2001-06-25">2001</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Yang, J. B. Heroux, L. F. Mei and W. I. Wang, Appl. Phys. Lett. 78, 4068 (2001)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Molecular beam epitaxial growth of InGaAsN:Sb/GaAs quantum wells for long-wavelength semiconductor lasers</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Jurkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Heroux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.124311</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="178" to="180" />
+			<date type="published" when="1999-07-12">1999</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Yang, M. J. Jurlovic, J. B. Heroux, W. I. Wang, Appl. Phys. Lett. 75, 178 (1999)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">1.5 µm laser on GaAs with GaInNAsSb quinary quantum well</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sallet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Patriarche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Largeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bouchoule</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Merghem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Travers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Harmand</surname></persName>
+		</author>
+		<idno type="DOI">10.1049/el:20030367</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electronics Letters</title>
+		<title level="j" type="abbrev">Electron. Lett.</title>
+		<idno type="ISSN">0013-5194</idno>
+		<idno type="ISSNe">1350-911X</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="519" to="520" />
+			<date type="published" when="2003-03-20">2003</date>
+			<publisher>Institution of Engineering and Technology (IET)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.H. Li, V.Sallet, G.Patriarche, L.Largeau, S.Bouchoule, L.Travers, J.C. Harmand, Appl. Phys. Lett. 83, 7 (2003)</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kurtz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Kurtz et al., Appl. Phys. Lett. 78, 6 (2001)</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Nearest-Neighbor Configuration in (GaIn)(NAs) Probed by X-Ray Absorption Spectroscopy</title>
+		<author>
+			<persName><forename type="first">Vincenzo</forename><surname>Lordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Gambin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Friedrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Funk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Toshiyuki</forename><surname>Takizawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuyuki</forename><surname>Uno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">S</forename><surname>Harris</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.90.145505</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2003-04-11">2003</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Lordi et al., Phys. Rev. Lett. 90, 14 (2003)</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ciatto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page">161201</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Ciatto et al., Phys. Rev. B 68, 161201 (R) (2003)</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Spatial Correlations in GaInAsN Alloys and their Effects on Band-Gap Enhancement and Electron Localization</title>
+		<author>
+			<persName><forename type="first">Kwiseon</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Zunger</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.86.2609</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2609" to="2612" />
+			<date type="published" when="2001-03-19">2001</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Kim and A. Zunger, Phys. Rev. Lett. 86, 12 (2001)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effects of atomic short-range order on the electronic and optical properties of GaAsN, GaInN, and GaInAs alloys</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bellaiche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Zunger</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.57.4425</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<idno type="ISSNe">1095-3795</idno>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4425" to="4431" />
+			<date type="published" when="1998-02-15">1998</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. Bellaiche and A. Zunger, Phys. Rev. B 57, 8 (1998)</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Diffraction anomalous fine-structure spectroscopy at beamline BM2 at the European Synchrotron Radiation Facility</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Renevier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grenier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arnaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bérar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hodeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Letoublon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Proietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ravel</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049503021332</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="435" to="444" />
+			<date type="published" when="2003-10-10">2003</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Renevier et al., J. Synchrotron Rad. 10, 435 (2003)</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Diffraction-anomalous-fine-structure spectroscopy applied to the study of III-V strained semiconductors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Proietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Renevier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hodeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bérar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wolfers</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.59.5479</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<idno type="ISSNe">1095-3795</idno>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="5479" to="5492" />
+			<date type="published" when="1999-02-15">1999</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. G. Proietti, H. Renevier, J. L. Hodeau, J. Garcia, J. F. Berar, P. Wolfers, Phys. Rev. B 59, 5479 (1999)</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ciatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Renevier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Proietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Polimeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Capizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mobilio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boscherini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">85322</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Ciatto, H. Renevier, M. G. Proietti, A. Polimeni, M. Capizzi, S. Mobilio, and F. Boscherini, Phys. Rev. B 72, 085322 (2005)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

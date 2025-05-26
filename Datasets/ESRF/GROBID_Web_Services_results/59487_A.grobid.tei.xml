@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experiment title: Electron density mapping and x-ray fluorescence imaging of next-generation silicon electronic memories</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Julio</forename><surname>Cesar Da Silva</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Cloetens</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Buckwell</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electrical and Electronic Engineering</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<addrLine>Luca Montesi</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical and Electronic Engineering</orgName>
+								<orgName type="institution">University College London</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Experiment title: Electron density mapping and x-ray fluorescence imaging of next-generation silicon electronic memories</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3D18593FBA9CD4C377ED35AA38EDEFAD</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background and introduction</head><p>As flash memory reaches a scaling limit, it is important to study new device architectures and programming systems in order to develop post-Moore's Law electronics <ref type="bibr" target="#b0">[1]</ref>. Resistance switching (RS) in dielectrics is a growing field with applications in next generation data storage and programming, enabling highly compact, high efficiency memory arrays and novel computing protocols [2 -4]. RS involves the electrically driven, reversible switching of a dielectric film between insulating and conductive states. We have been studying intrinsic RS in 37 nm thick films of silicon-rich silica, SiO1.3. Although many materials, in particular transition metal oxides, are promising candidates for switching devices, silicon is advantageous in its inherent CMOS compatibility <ref type="bibr" target="#b1">[2]</ref>. We also do not dope our films with metallic ions, a process that has been shown to improve switching at the cost of introducing highly undesirable mobile metal ions into device architectures <ref type="bibr" target="#b2">[3]</ref>. However, while many groups are currently developing functional memory architectures, the physics of the operational mechanism are not well understood. Thus we must develop our knowledge so device behaviour and manufacture can be optimised.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The generally accepted intrinsic RS model for oxides relies on the formation of defects when an electrical bias is applied across a dielectric film and their subsequent recombination with mobile oxygen species (Fig. <ref type="figure">1</ref>). During electroforming, or form, and set processes, the field drives the dissociation of oxygen from the dielectric, leaving vacancies that allow electrons to traverse the film by trap-assisted-tunnelling <ref type="bibr" target="#b4">[5]</ref>. The resulting filament of traps is therefore believed to be a region of reduced stoichiometry that may progress along structural weaknesses in the film. During resetting, Joule heating assists local oxygen species in recombining with the vacancies, breaking the filament <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b4">5]</ref>. Thus the formed filament gives the device a low resistance, or 'on', state and the broken filament corresponds to a high resistance, or 'off', state. In alternative systems involving mechanisms such as metal ion diffusion or phase change this behaviour is relatively well understood and easy to measure due to significant contrast between pristine and switched material. However, the nanoscale measurement of compositional changes due to oxygen migration remains difficult, although structural studies have been successful, such as the tomographic probing of filaments with conductive atomic force microscopy <ref type="bibr" target="#b5">[6]</ref>.</p><p>Figure <ref type="figure">1</ref>. Overview of our devices and the RS model. (a) Schematic of our device wafers. (b) Typical RS current-voltage curves, showing the three main processes involved in device operation. The initial form step switches the pristine device into a low resistance, 'on' state. Subsequently, resetting the device switches it into a high resistance, 'off' state, although still of a lower resistance than the pristine state. The device may then be set to the 'on' state again, but in this case a lower voltage is required than with the initial form step. Note that current compliance is used during forming and setting in order to prevent hard breakdown of the dielectric. No compliance is used during resetting as Joule heating is required in order to increase the mobility of local oxygen species. (c) to (e) Schematic of the RS processes described in (b). Field-driven migration of oxygen forms the device into the 'on' state. After this, thermally driven recombination of oxygen ions and vacancies sets the device into the 'off' state. It is possible to cycle repeatedly between these two non-pristine states.</p><p>There is also speculation that migrating oxygen accumulates at one or other side of the dielectric, creating a reservoir. This is shown to some degree in Figs. <ref type="figure">1 d</ref> and <ref type="figure">e</ref>. Conversely, oxygen depletion during switching may limit device lifetimes so it may be important to investigate whether it is controllable. These issues of uncertainty are present not only in silicon-based devices but across a range of oxides used for switching, thus it is important that we attempt to resolve them experimentally.</p><p>We previously found with atomic force microscopy <ref type="bibr">[6 -7]</ref>, x-ray photoelectron spectroscopy (XPS) <ref type="bibr">[7 -8]</ref> and secondary ion mass spectroscopy (SIMS) <ref type="bibr" target="#b7">[8]</ref> that structural and stoichiometric changes occur in our silicon-based devices under electrical stress. Our data has shown that oxygen is removed from the film, reducing its stoichiometry. However, the widely accepted filament diameter of tens of nanometres and our XPS instrumentation only allowed us to study the structure of many filaments formed in lateral areas of 100s of µm 2 , rather than single filaments. Additionally, SIMS was used to detect the oxygen once it had left the devices, rather than the resulting changes in the film. Therefore, the investigation of highly localised changes, and the broadening of applicable techniques, is very appealing.</p><p>The Nano-Imaging Beamline, ID16A at the European Synchrotron Radiation Facility (ESRF), offers a combination of three techniques that may provide new insights into device operation. These are phase contrast imaging (PCI), ptychography (PTY) and x-ray fluorescence (XRF). Although XRF has previously been used to study RS behaviour <ref type="bibr" target="#b8">[9]</ref>, we are not aware of any previous studies using PCI or PTY.</p><p>Current (log scale) Voltage 1. Form 3. Set 2. Reset 0 V V max TiN TiN SiO 1.3 SiO 2 /p-Si (a) (b) (c) Form Reset Set Pristine state 'On' state 'Off' state Metal Metal Insulator Oxygen ion Oxygen vacancy Dielectric matrix Field-driven migration Thermally driven recombination (d) (e)</p><p>We are interested in the structural changes of the SiO1.3 following the application of various sets of voltages between the electrodes. These voltages set the individual devices into different states that we investigated, namely the pristine, on and off states. We expect a gradient in the stoichiometry of the SiOx to be induced as oxygen ions are liberated and drifted towards the top electrode by the electric field. This gradient is expected to be confined to sub-µm filamentary paths between the electrodes and may extend into the TiN (Figs. <ref type="figure">1d</ref> and <ref type="figure">e</ref>). We were anticipating that the structure of these features would be detectable with PCI and PTY as variations against the pristine material and we hoped to detect variations in the electron density across the filaments. Our aim was to carry our pioneering work that allows us to explore both device behaviour and the feasibility of our methodology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation and proposed experimental method</head><p>Our sample was a 500 µm thick p-Si wafer capped with 4 µm thermally grown SiO2. 100 nm TiN covers this, providing a bottom electrode. 37 nm of magnetron co-sputtered SiO1.3 then forms our active layer. Another 100 nm TiN forms our top electrode, patterned into labelled squares with edges ranging from 10 µm to 400 µm (Fig. <ref type="figure">1a</ref>). We performed electrical characterisation and switching in our lab on 24 devices with a 10 µm edge using a Keithley 4200 semiconductor parameter analyser (SPA). In order to minimise the signal from the substrate, we manually thinned the sample to around 250 µm and polished it to reduce the back side roughness as much as possible. We cleaved a region containing all 24 devices to a size appropriate for the apparatus, roughly 5 mm x 5 mm. The sample was cleaned by sonication in acetone, isopropanol and water. Thus samples were ready to load upon our arrival at the ESRF.</p><p>Following discussion of the logistics and benefits of performing two and three-dimensional mapping, we decided that three-dimensional imaging would be too time consuming given our time budget and would also require sample preparation that we were not able to carry out prior to the arranged sessions at ID16A. In particular, preparing a cylindrical sample for mounting in the instrument would not have been feasible and a single tomographic measurement may have taken all of our allocated time to perform. For each device we therefore planned to perform an XRF survey scan of around 1.5 hours followed by a high-resolution scan of about 0.5 hours. Following this, we planned to perform PTY and PCI, with the expectation of around 3 hours per device. XRF data were to be processed using PyMca <ref type="bibr" target="#b9">[10]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical matters, results and discussion</head><p>We initially attempted to perform PCI as this was likely to be more difficult than XRF and was a necessary precursor to PTY. However, we quickly found that our sample was not suitable for PCI or, therefore, PTY. This was due to the roughness of the back side of the wafer and the thickness of the active layer in comparison to the substrate. The predominant signal observed showed the relatively rough, grainy back side of the substrate and we were unable to discern any features on the top surface. Additionally, diffraction from the active layer was not detectable against the diffraction signal from the substrate. This was because the thickest layers in our sample were the ≈ 250 µm Si substrate and thermal 4 µm SiO2 layer, with relatively rough interfaces and surfaces. Detecting variations in the 37 nm thick SiO1.3 would not be possible without much cleaner and flatter interface and edge regions or a different substrate. The phase contrast obtained from compositional variations in Si, SiO2 and SiO1.3 would be relatively similar, thus the signal from the relatively thin, 37 nm SiO1.3 layer would be washed out.</p><p>We therefore focused on XRF for the rest of our available time. Fig. <ref type="figure">2</ref> shows XRF data from a device that has been formed, demonstrating predominant elemental contributions from Al, Si and Ti. Al should not be present in our devices, therefore we expect that it may appear due to the composition of the focusing optics. Fig. <ref type="figure" target="#fig_2">3</ref> demonstrates a set of two-dimensional XRF map images obtained from a pristine device. Maps for the main elemental constituents n our sample are shown. Each map shown in this report, aside from those in Fig. <ref type="figure" target="#fig_6">7</ref>, is composed of 300 x 301 pixels.</p><p>It can be seen that the Al and Si are present homogeneously throughout the sample whereas the Ti is confined to a roughly square region of 10 µm by 10 µm. This corresponds to the device area. The homogeneous Si signal seems reasonable given that the majority of the XRF signal corresponds to the top 2 µm of the sample, the majority of which is roughly 1.75 µm of the SiO2 layer below the device. The Al map has been shown in order to demonstrate that it occurs homogeneously rather than contributing to any particular features of the spectral mapping. To our knowledge, and based on previous spectroscopic techniques such as SIMS and XPS, Al is not present in our devices other than in trace amounts that may be introduced during fabrication or on the surface as contaminants. Thus is seems unlikely that the presence of Al is correlated with the RS operation of this experiment. Due to its relatively high counts as seen in Fig. <ref type="figure">2b</ref>, around half that of Si, and homogeneous presence, it may have been introduced by the beamline optics if Al-containing components are used.</p><p>1.2 1.4 1.6 1.8 2 2.2 Counts (a.u.) Energy (keV) Data Al K Fit Si K Fit 1 2 3 4 5 6 7 8 9 10 Counts (a.u.) Energy (keV) 4.2 4.4 4.6 4.8 5 5.2 Counts (a. (a) Full XRF spectrum highlighting the contributions from Al, Si and Ti. (b) Al and Si K peak data with fitted spectra. (c) Ti K peak with fitted spectrum. A number of unexpected elemental peaks are present with much smaller contributions to the spectrum. Fig. <ref type="figure" target="#fig_4">4</ref> shows XRF spectra highlighting the presence of these other peaks, smaller than those focused on in Fig. <ref type="figure">2</ref>. Fittings for the majority of these peaks are not shown as these elements appeared homogeneously over the two-dimensional XRF maps, similarly to the Si and Al peaks shown in Figs. <ref type="figure" target="#fig_2">3 b</ref> and <ref type="figure">d</ref>, respectively. However, Ca and Pb were present in a number of the maps and as such they have been fitted and are shown. Fig. <ref type="figure" target="#fig_3">5</ref> demonstrates maps for a device on which Pb was detected. There are two small regions in the map of normalised total counts, Fig. <ref type="figure" target="#fig_3">5a</ref>, that correspond to a higher than normal Ti content and some Pb on the edges of the device, as demonstrated in Figs. <ref type="figure" target="#fig_3">5c</ref> and <ref type="figure">d</ref>.</p><p>Fig. <ref type="figure" target="#fig_5">6</ref> demonstrates XRF maps for a device near which Ca was detected. Its presence does not seem to be correlated with the device itself but it in very close proximity so may have at some point been in contact with the device. The presence of Pb and Ca on the sample is likely to be a result of using contaminated SPA probes during RS operation. We have not previously observed these elements to be present in our samples other than in trace amounts that may be introduced during fabrication or on the surface as contaminants. Thus is seems unlikely that their presence is correlated with the RS operation of this experiment.  (a) Full XRF spectrum with a smaller y-axis scale range than in Fig. 2a in order to better show the contributions from smaller peaks than for Si and Ti. (b) Ca K peak data with fitted spectrum. (c) Pb L peak with fitted spectrum.</p><p>Both Fig. <ref type="figure" target="#fig_3">5</ref> and Fig. <ref type="figure" target="#fig_5">6</ref> demonstrate some form of distortion in the Ti XRF map from that of a pristine sample, as in Fig. <ref type="figure" target="#fig_2">3</ref>. These devices were switched into on and off states, respectively, and we have seen previously that at least the initial forming process can lead to deformations in the structure of the device layers <ref type="bibr">[6 -8]</ref>.</p><p>The data in Figs. <ref type="figure" target="#fig_3">5</ref> and <ref type="figure" target="#fig_5">6</ref> seem to indicate that the deformation in the Ti has produced regions of increased concentration. This may have occurred as a result of the TiN electrode being ruptured as oxygen leaves the device from the SiO1.3 layer. The debris may have clustered into denser lumps around the rupture site. Alternatively, if the oxygen did not fully break open the electrode then the TiN may have formed a bubble with a dense outer layer. A degree of heating occurs during switching, so this may be a means of producing sufficient energy to distort the TiN <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b7">8]</ref>. Additionally, it is possible that coulombic repulsion between charged oxygen species produces a large force at the interface between the SiO1.3 and TiN <ref type="bibr" target="#b7">[8]</ref>.</p><p>Fig. <ref type="figure" target="#fig_6">7</ref> shows XRF maps for a device that had failed to reset following the initial form process. Here we can observe the presence of a high silicon concentration near the centre of the device, as shown in Fig. <ref type="figure" target="#fig_6">7b</ref>. This location corresponds to the region of highest value in the map of total counts, Fig. <ref type="figure" target="#fig_6">7a</ref>. As with Figs. <ref type="figure" target="#fig_3">5</ref> and <ref type="figure" target="#fig_5">6</ref>, there is also some distortion in the Ti map, indicating that the electrode material may have been deformed, and we can see some contamination from Ca. The feature in Fig. <ref type="figure" target="#fig_6">7b</ref> is interesting as it suggests that there has been a significant change in the Si configuration at this location. It is possible that the Si in this region has clustered together as oxygen is removed from the active layer, producing a Si-rich spot on the device. The size of this feature is in the order of tens to hundreds of nm in diameter, given that each pixel on the 666 x 667 pixel map is around 23 nm x 22 nm. This is in agreement with the size of filaments in the literature <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b10">11]</ref>, and with our previous observations of filamentation <ref type="bibr">[3, 5 -6]</ref>. There does not appear to be a nearby region showing a corresponding decrease in silicon counts, however. It is possible that, locally to the feature, Si has been not been depleted significantly, but in clustering the combined increase in concentration has become significant. As this device failed to work after forming, it may be that the filament in this case was particularly robust, resulting in an observable feature in the Si map, compared to less observable, or nonobservable, changes in the maps for the other devices. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions and outlook</head><p>We gathered XRF information agreeing with our previous findings on the deformation of the device during switching. In addition, we have been able to ascertain that the damage to the electrode may lead to the clustering of Ti into dense, localised regions on the device. This may be the result of Ti removal and recombination during switching. It is feasible that the area below these regions is devoid of Ti as it had been thrust upwards into a dense, bubble like form. We have also seen that Si-rich locations appear in the device. These may correspond to filaments and may not always be present due to the generally very small changes in Si concentration. We were also able to detect the presence of contaminants on our devices. These were likely introduced in our own lab.</p><p>The sample configuration was prohibitive in obtaining PCI and PTY data, which were the main focus and the novelty of the experiment. However, it should be possible to fabricate devices on non-silicon based substrates, such as sapphire. We are currently optimising our fabrication method and have produced 12 new device generations this year. We should therefore be able to use alternative substrates soon and characterise their RS to ensure they behave suitably. It would also be very important to ensure that all interfaces are as flat as possible. We now have access to a polishing machine that should enable us to greatly reduce the roughness of at least the back side of any wafers considered for synchrotron study.</p><p>Although this experiment did not provide us with a better understanding of the behaviour of our devices, we have a much better awareness of the criteria that our samples would need to meet for any future measurements. As such, we will continue to develop our fabrication methodology and plan on submitting a new proposal to the ESRF once we are confident that we will be able to sufficiently resolve the issues encountered as a result the sample preparation. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Figure 2. XRF spectra showing the predominant elemental contributions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. XRF maps of a pristine device region. (a) Map showing the normalised total counts in the measured region. (b) Map showing the normalised Si counts in the measured region. (c) Map showing the normalised Ti counts in the measured region. (d) Map showing the normalised Al counts in the measured region. The Al and Si are homogeneously distributed, whereas the Ti conforms to a device region of around 10 µm by 10 µm. The presence of this feature in (a) illustrates the significantly higher counts from Ti than from Si.</figDesc><graphic coords="5,186.59,477.25,125.88,103.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. XRF maps for a device on which Pb was detected. (a) Map showing the normalised total counts in the measured region. There is a clear region of significantly high counts near the lower right hand edge of the device. Additionally, there is a less pronounced region of high counts on the right hand side of the upper edge of the device. (b) Map showing the normalised Si counts in the measured region. Neither region of high counts in (a) seems to correspond to any features in the Si map. (c) Map showing the normalised Ti counts in the measured region. The device is shown clearly, with a region of higher counts on the right hand side of the upper edge of the device. This corresponds to the second region mentioned in (a). (d) Map showing the normalised Pb counts in the measured region. A region of higher counts is visible near the lower right hand edge of the image. This corresponds to the first region mentioned in (a).</figDesc><graphic coords="6,186.59,449.65,125.88,103.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. XRF spectra showing the possible contaminant contributions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. XRF maps for a device on which Ca was detected. (a) Map showing the normalised total counts in the measured region. There is a faint region of significantly high counts near the centre of the device. (b) Map showing the normalised Si counts in the measured region. The region of high counts in (a) does not correspond to any features in the Si map. (c) Map showing the normalised Ti counts in the measured region. The device is shown clearly, with a region of higher counts near the centre of the device. This corresponds to the region mentioned in (a). (d) Map showing the normalised Ca counts in the measured region. A region of higher counts is visible near the left hand side of the image. This region was not visible in (a) and seems to be situated away from the Ti rich device area.</figDesc><graphic coords="7,186.59,236.70,125.88,103.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. XRF maps for a device that had failed to reset. (a) Map showing the normalised total counts in the measured region. There is a faint region of significantly high counts near the centre of the device. (b) Map showing the normalised Si counts in the measured region. The region of high counts in (a) seems to correlate with a region of high concentration near the centre of the Si map. (c) Map showing the normalised Ti counts in the measured region. The device is shown clearly, with a region of higher counts near the centre of the. This is close to the feature observed in (b). (d) Map showing the normalised Ca counts in the measured region. Regions of higher counts are visible near the top and right hand sides of the image.</figDesc><graphic coords="8,162.36,154.90,113.85,103.28" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Memristive switching mechanism for metal/oxide/metal nanodevices</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Joshua</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><forename type="middle">D</forename><surname>Pickett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xuema</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Douglas</forename><forename type="middle">A A</forename><surname>Ohlberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Duncan</forename><forename type="middle">R</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Stanley</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nnano.2008.160</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Nanotechnology</title>
+		<title level="j" type="abbrev">Nature Nanotech</title>
+		<idno type="ISSN">1748-3387</idno>
+		<idno type="ISSNe">1748-3395</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="429" to="433" />
+			<date type="published" when="2008-06-15">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. J. Yang, M. D. Pickett, X. Li, D. a a Ohlberg, D. R. Stewart and R. S. Williams, Nat. Nanotechnol., 2008, 3, 429-33.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Electrically tailored resistance switching in silicon oxide</title>
+		<author>
+			<persName><forename type="first">Adnan</forename><surname>Mehonic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sébastien</forename><surname>Cueff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maciej</forename><surname>Wojdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Hudziak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christophe</forename><surname>Labbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Rizk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Kenyon</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0957-4484/23/45/455201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanotechnology</title>
+		<title level="j" type="abbrev">Nanotechnology</title>
+		<idno type="ISSN">0957-4484</idno>
+		<idno type="ISSNe">1361-6528</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">45</biblScope>
+			<biblScope unit="page">455201</biblScope>
+			<date type="published" when="2012-10-12">2012</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Mehonic, S. Cueff, M. Wojdak, S. Hudziak, C. Labbé, R. Rizk and A. J. Kenyon, Nanotechnology, 2012, 23, 455201.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Nanoionics-based resistive switching memories</title>
+		<author>
+			<persName><forename type="first">Rainer</forename><surname>Waser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masakazu</forename><surname>Aono</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat2023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="833" to="840" />
+			<date type="published" when="2007-11">2007</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Waser and M. Aono, Nat. Mater., 2007, 6, 833-40.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Integration of nanoscale memristor synapses in neuromorphic computing architectures</title>
+		<author>
+			<persName><forename type="first">Giacomo</forename><surname>Indiveri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernabé</forename><surname>Linares-Barranco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Legenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Deligeorgis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Themistoklis</forename><surname>Prodromakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0957-4484/24/38/384010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanotechnology</title>
+		<title level="j" type="abbrev">Nanotechnology</title>
+		<idno type="ISSN">0957-4484</idno>
+		<idno type="ISSNe">1361-6528</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">38</biblScope>
+			<biblScope unit="page">384010</biblScope>
+			<date type="published" when="2013-09-02">2013</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Indiveri, B. Linares-Barranco, R. Legenstein, G. Deligeorgis and T. Prodromakis, Nanotechnology, 2013, 24, 384010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Resistive switching in silicon suboxide films</title>
+		<author>
+			<persName><forename type="first">Adnan</forename><surname>Mehonic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sébastien</forename><surname>Cueff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maciej</forename><surname>Wojdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Hudziak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><surname>Jambois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christophe</forename><surname>Labbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Blas</forename><surname>Garrido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Rizk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Kenyon</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3701581</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">74507</biblScope>
+			<date type="published" when="2012-04-01">2012</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Mehonic, S. Cueff, M. Wojdak, S. Hudziak, O. Jambois, C. Labbé, B. Garrido, R. Rizk and A. J. Kenyon, J. Appl. Phys., 2012, 111, 074507.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Conductance tomography of conductive filaments in intrinsic silicon-rich silica RRAM</title>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Buckwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Montesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Hudziak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adnan</forename><surname>Mehonic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Kenyon</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c5nr04982b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale</title>
+		<title level="j" type="abbrev">Nanoscale</title>
+		<idno type="ISSN">2040-3364</idno>
+		<idno type="ISSNe">2040-3372</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="18030" to="18035" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Buckwell, L. Montesi, S. Hudziak, A. Mehonic and A. J. Kenyon, Nanoscale, 2015, 7, 18030-5. 15 µm</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Structural changes and conductance thresholds in metal-free intrinsic SiOx resistive random access memory</title>
+		<author>
+			<persName><forename type="first">Adnan</forename><surname>Mehonic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Buckwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Montesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leon</forename><surname>Garnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Hudziak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Fearn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Chater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Mcphail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Kenyon</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4916259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">124505</biblScope>
+			<date type="published" when="2015-03-25">2015</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Mehonic, M. Buckwell, L. Montesi, L. Garnett, S. Hudziak, S. Fearn, R. Chater, D. McPhail and A. J. Kenyon, J. Appl. Phys., 2015, 117, 124505.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Silica: Nanoscale Transformations in Metastable, Amorphous, Silicon‐Rich Silica (Adv. Mater. 34/2016)</title>
+		<author>
+			<persName><forename type="first">Adnan</forename><surname>Mehonic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Buckwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Montesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manveer</forename><forename type="middle">Singh</forename><surname>Munde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Hudziak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Chater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Fearn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Mcphail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Bosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">L</forename><surname>Shluger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Kenyon</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201670241</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Materials</title>
+		<title level="j" type="abbrev">Advanced Materials</title>
+		<idno type="ISSN">0935-9648</idno>
+		<idno type="ISSNe">1521-4095</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">34</biblScope>
+			<biblScope unit="page" from="7549" to="7549" />
+			<date type="published" when="2016-09">2016</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Mehonic, M. Buckwell, L. Montesi, M. S. Munde, D. Gao, S. Hudziak, R. J. Chater, S. Fearn, D. Mcphail, M. Bosman, A. L. Shluger and A. J. Kenyon, Adv. Mater., 2016.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Origin of oxygen vacancies in resistive switching memory devices</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Andreasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Janousch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Staub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Meijer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krbanjevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schaeublin</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/190/1/012074</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Conference Series</title>
+		<title level="j" type="abbrev">J. Phys.: Conf. Ser.</title>
+		<idno type="ISSNe">1742-6596</idno>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page">012074</biblScope>
+			<date type="published" when="2009-11-01">2009</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. P. Andreasson, M. Janousch, U. Staub, G. I. Meijer, A. Ramar, J. Krbanjevic and R. Schaeublin, J. Phys. Conf. Ser., 2009, 190, 12074.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A multiplatform code for the analysis of energy-dispersive X-ray fluorescence spectra</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Solé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Susini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sab.2006.12.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Spectrochimica Acta Part B: Atomic Spectroscopy</title>
+		<title level="j" type="abbrev">Spectrochimica Acta Part B: Atomic Spectroscopy</title>
+		<idno type="ISSN">0584-8547</idno>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="68" />
+			<date type="published" when="2007-01">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V.A. Solé, E. Papillon, M. Cotte, Ph. Walter, J. Susini, A multiplatform code for the analysis of energy- dispersive X-ray fluorescence spectra, Spectrochim. Acta Part B 62, 2007, 63-68.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Grain boundaries as preferential sites for resistive switching in the HfO2 resistive random access memory structures</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lanza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Porti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nafría</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gilmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bersuker</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3697648</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">123508</biblScope>
+			<date type="published" when="2012-03-19">2012</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Lanza, K. Zhang, M. Porti, M. Nafría, Z. Y. Shen, L. F. Liu, J. F. Kang, D. Gilmer and G. Bersuker, Appl. Phys. Lett., 2012, 100, 123508.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

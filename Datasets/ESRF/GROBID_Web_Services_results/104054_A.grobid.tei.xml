@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structural characterization of pseudokinase-containing receptors Experiment number: MX-2507</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>25/08/23</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Eaazhisai</forename><surname>Kandiah</surname></persName>
+							<email>eaazhisai.kandiah@esrf.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Université de Bordeaux Institut Européen de Chimie et Biologie</orgName>
+								<orgName type="laboratory">UMR 5248 -Chemistry &amp; Biology of Membranes and Nano-Objects</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>2 rue Robert Escarpit</addrLine>
+									<postCode>33607</postCode>
+									<settlement>Pessac</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Maisonneuve</forename><surname>Pierre</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Université de Bordeaux Institut Européen de Chimie et Biologie</orgName>
+								<orgName type="laboratory">UMR 5248 -Chemistry &amp; Biology of Membranes and Nano-Objects</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>2 rue Robert Escarpit</addrLine>
+									<postCode>33607</postCode>
+									<settlement>Pessac</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structural characterization of pseudokinase-containing receptors Experiment number: MX-2507</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">25/08/23</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E513DFE5585A88E09E61FDF43CAEA486</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>I applied for time on the titan KRIOS (CM01) through a rolling access (MX-2507). I collected data on a tyrosine kinase receptor-like protein in the aim to decipher its structural mechanisms of activation and regulation. In our lab, we prepared grids of the intracellular part of the receptor and obtained promising 2D classes and 3D reconstruction at 6Å resolution with our in-house 200kV Artica microscope. Following our application for a rolling access to the beamline CM01, we obtained 6 eigth-hour time shifts (two days) to perform an extensive data collection on our best grids with the Titan Krios at the ESRF. This session was scheduled on November 11 th , and we collected the data remotely by sending the dewar to ESRF 4 days in advance. We prepared one grid (Au R1.2/1.3 300 mesh) with our best sample with homogenous particle distribution and varying ice thickness. Due to an issue on the ISPyB website, I was not able to create the shipment and the barcode online. Following the advice from the ESRF user office, I wrote a letter with all the required information, which was sent along with the dewar. The dewar was then correctly handled upon arrival at the ESRF. After a brief discussion on November 11 th with my local contact Eaazhisai Kandiah about the grid quality and the strategy to collect the best cryo-EM dataset, the data collection started on November 11 th and finished on November 13 th as scheduled.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We collected around 20,000 micrographs, and so far I was able to refine the structure to 3.7 Å resolution (Figure <ref type="figure" target="#fig_0">1</ref>). Unfortunately, the 3D reconstruction is so far limited by the preferential orientations of the particles selected, as observed in the particle orientation plot (Figure <ref type="figure" target="#fig_0">1c</ref>) and the 2D classes (Fig <ref type="figure" target="#fig_1">2</ref>). We believe that this issue is due to difficult particle picking. Indeed, the particles are very small (~110 Å) and they are very crowed in the micrograph, which makes particles picking very difficult. Additionally, it is hard to identify in the 2D classes different orientations other than the "butterfly shape" front view (Fig <ref type="figure" target="#fig_1">2</ref>). We are now trying several new particles picking strategy to obtain new particles corresponding to other orientations (i.e., top and bottom view). We are confident that we will be able to reach better resolution and to obtain a highquality 3D reconstruction. The report will be updated once we perform full data processing.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1: a. Cryo-EM map of the receptor protein b. Fourier shell correlation (FSC) plots between half-maps, mask used for determination of the average resolution at FSC 0.143. c. Distribution of the particle orientations within the dataset used for 3D reconstruction.</figDesc><graphic coords="2,-94.53,209.80,510.36,310.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Representative 2D class averages from the final subset of particles used in the reconstruction presented Fig 1a.</figDesc><graphic coords="2,34.64,567.55,533.00,54.25" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

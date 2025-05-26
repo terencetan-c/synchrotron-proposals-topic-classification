@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">High-resolution time-resolved in-vivo lung CT using the new pinkbeam imaging setup</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-02-28">28/02/2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alberto</forename><surname>Bravin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ESRF)</orgName>
+								<orgName type="department" key="dep2">Department of Clinical Physiology</orgName>
+								<orgName type="institution" key="instit1">Fardin Luca* (University Grenoble Alpes</orgName>
+								<orgName type="institution" key="instit2">Grenoble University Hospital Center</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sam</forename><surname>Bayat</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">ESRF)</orgName>
+								<orgName type="department" key="dep2">Department of Clinical Physiology</orgName>
+								<orgName type="institution" key="instit1">Fardin Luca* (University Grenoble Alpes</orgName>
+								<orgName type="institution" key="instit2">Grenoble University Hospital Center</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">High-resolution time-resolved in-vivo lung CT using the new pinkbeam imaging setup</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-02-28">28/02/2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D4B8B9FAED998F240D220758DECB1269</idno>
+					<note type="submission">from: 28/11/2018 to: 01/12/2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The aim of the proposal was to test the pink beam imaging setup installed at the biomedical beamline ID17, to verify whether this image modality was suitable in terms in-vivo dynamic lung 3D microscopy in a rat model. The ultimate goal of the experiment was to improve the spatial resolution of the in-vivo lung dynamic 3D microscopy techniques available at ID17, moving to a pixel size of 3 μm: the highest spatial resolution, obtained before the experiment, was 22 μm. Inhouse time preceding the experiment proved that the pink beam imaging setup was causing radiation damages to the lungs, in the form of edema accumulating in the alveolar space during the acquisition of a single tomographic scan. Together with the beamline staff, it was decided to perform the experiment with monochromatic radiation. Since the monochromatic flux was found to be insufficient for in-vivo imaging at a pixel size of 3 μm, it was decided to test optics providing a pixel size of 11 μm and 6 μm, pursuing the main goal of the experiment: increasing the spatial resolution of in-vivo lung dynamic 3D microscopy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Method:</head><p>The experiment was performed on 9 anesthetized, muscle-relaxed and mechanically ventilated adult rats. Following the dynamic 3D microscopy acquisition protocol, projection images were acquired at a constant frame rate at time resolution down to 2 ms using a PCO edge 5.5 camera, coupled with two different optics determining a final pixel size of ~6 µm and 11 µm, respectively. Six rats were imaged using a pixel size of 11 µm and 3 rats using a pixel size of 6 µm. During imaging, animals were under controlled ventilation using a custom-made mechanical ventilator. To synchronize the image reconstruction with the parenchymal motion, the ECG and respiratory pressure signals were also registered. Images were post-reconstructed by sorting image projections based on the respiratory and cardiac activity phases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preliminary Results:</head><p>Volumetric images were reconstructed at different phases of the cardiac and respiratory activity, while keeping motion artefacts low at both resolutions: 6 µm (Figure <ref type="figure" target="#fig_0">1</ref>) and 11 µm. A pixel size of 6 µm allowed to visualize for the first time the micromechanics of the lung parenchyma during mechanical ventilation at the alveolar scale. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 In-vivo lung dynamic 3D microscopy acquired under mechanical ventilation with the acquisition protocol developed at ID17. The time frame shown corresponds to the beginning of the inspiratory cycle at diastolic cardiacphase. The acinar structure can be resolved and its deformation under mechanical ventilation visualized.</figDesc><graphic coords="3,180.50,124.24,240.00,240.00" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

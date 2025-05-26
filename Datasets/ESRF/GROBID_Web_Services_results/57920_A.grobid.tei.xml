@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Development and Application of X-ray Absorption Spectroscopy</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Xas</forename><surname>Tomography</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sakura</forename><surname>Pascarelli</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dario</forename><surname>Ferreira Sanchez</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Alexandre Simionovici* (Univ. Grenoble-Alpes)</orgName>
+								<orgName type="laboratory">SLS, PSI</orgName>
+								<orgName type="institution">Vallerie Samson* (SLS, PSI)</orgName>
+								<address>
+									<addrLine>Pierre Bleuet (CEA</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Laurence Lemelle* (ENS-Lyon)</orgName>
+								<address>
+									<country>…</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Development and Application of X-ray Absorption Spectroscopy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8912E3DEE32353F0559045F5D178354E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T16:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of this experiment was to investigate the 2D depth-resolved, and, 3D spatial distribution of chemical states and local structure of iron species, on some selected scientific cases, by means of the development of XAS tomography technique in energy dispersive mode, Through this innovative technique, the full XAS (EXAFS/XANES) spectrum can be retrieved per voxel unit (a 3D spatial confined unit), of about 2×2×2 μm 3 . We have focused on the iron specie, and we have investigated four different systems, (i) a model system to validate and investigate the limits and capabilities of the technique itself, which consists in a powder mixture (grains size in the order of ≈10 μm) of different Fe species: metallic Fe 0 , hematite Fe 3+ , magnetite Fe 2+,3+ , hypersthene Fe 2+ and staurolite Fe 2+ ; (ii) microfossils preserved as carbonaceous and hematitic filaments and spheres that are believed to represent ancient chemolithoautotrophic Fe(II) oxidizing bacteria that grew above a chemocline where ferruginous seawater upwelled into shallow, oxygenated waters; (iii) a serpentinite mineral which chemically stores CO2 in solid carbonates by the carbonations of minerals, where is expected that the iron oxidation (magnetite) slows down the carbonation of serpentine due to the formation of a layer of hematite on the mineral surface, and (iv) fluid catalytic cracking (FCC) particles, which are the workhorse of the oil refinerychanges of the particles structure are observed after many reaction and regeneration cycles during long-term operation, leading to decreased accessibility, catalyst deactivation and metal surface deposition, manly iron, in a form which is still not well understood.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Method</head><p>The experiment was carried out at the ID24, in energy dispersive mode with an energy range of about 1 keV around the iron K absorption edge, and, using a linear CCD image sensor 11156 from Hamamatsu, consisting of an array of 2048 pixels of 14 μm × 1000 μm. The measured spot size at the sample position was of about 2.6×5.5 (V×H) μm 2 in the X-ray beam focal point.</p><p>Through this scanning tomography technique, the sample is analysed slice by slice. Series of horizontal scans at several ϕ rotational sample orientations (see Fig. <ref type="figure" target="#fig_0">1</ref>) were performed to reconstruct the local XANES and/or EXAFS spectra. Each scanned slice with 2 µm steps and over Δϕ of 180° with steps of 1° to 2°. The typical integration time per spectrum was 1ms, and with 100 accumulations. One typical slice, with 180 angular projections and 300 steps per projection took about 4 hours and a half. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis</head><p>The position sensitive detector has 2048 pixels/channels. Only 1300 channels were recorded, from pixel 300 to pixel 1600, which corresponds to the bragg reflections coming from the central part the polychromator. So that, per sample position a XAS spectrum with 1300 points was acquired. Per scanned slice, one sinogram is produced per channelmaking 1300 sinograms to be reconstructed (done through Algebraic Reconstruction Technique (ART) in this work). In this way, a full XAS spectrum is obtained per reconstructed voxel (Figure <ref type="figure" target="#fig_1">2</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Even with a relatively big spot size, 2.6×5.5 (V×H) μm 2 , a lateral resolution of about 2 μm was observed. This is because the cross-section intensity distribution per energy in the X-ray beam focal point is not homogenous. Therefore, by image correlation technique, the matching position of all the 1300 reconstructions is obtained, which corrects artefacts coming from inhomogeneous intensity distribution per energy in the beam. The tomographic reconstructions (Figure <ref type="figure" target="#fig_1">2</ref>) were done partially during the experiments, in order to inspect the quality of the acquired data, which enabled us to dynamically evaluate the strategy and timing of the experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>This experiment was a success. We've successfully developed and applied the 3D XAS tomography analysis on different systems: system (i) to (iv).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(i)</head><p>Twelve slices analysed tomographically, with lateral dimension of 300 µm to 500 µm. Different iron oxides were identified by comparing the local XAS spectra tomographically reconstructed per voxel, with the spectra of the standards materials. Proof of experimental concept proof Example in the figure bellow: (ii) Five slices analysed tomographically, with lateral dimension of about 200 µm. Also 2D scanning projection over the region analysed through tomoXAS. Oxidation state Fe(II) was identified in spots of about 5 μm in size, all across the fossil sample. Low Fe concentration is observed. A second fossil was also analysed, but no iron was detected. Possibly could be detected in fluorescence mode. (iii) Two samples were measured, but only one with enough Fe concentration to be detected in absorption mode. For the sample with with a detectable amount of iron, five slices were analysed tomographically, with lateral dimension of about 200 µm. Also 2D scanning projection over the region analysed through tomoXAS. Relatively good matching of the local XANES spectra all across the mineral samples with hematite, and also an inhomogeneous distribution of Fe is observed. Small deviations may be determined after a more carefully analysis. (iv) Two slices analysed tomographically, with lateral dimension of about 200 µm. Also 2D scanning projection over the region analysed through tomoXAS. This is another sample with low Fe concentration. Two FCC particle were investigated; only one with enough amount of Fe to be detected in absorption mode. Higher Fe concentration identified on the surface of the analysed particle, with a higher oxidation state when compared to the inner part of the particle. The main issue to point out is the observed mechanical instability of the sample scanning motors. The effects of these instabilities are clearly seen in the sonograms (figure below). Even if some correction can be made, such a procedure may introduce some artefacts such as decrease the spatial resolution and the quality of the local XAS spectra. In addition, it increases the data analysis time and complexity. The observed instability in the lateral translational motor (the one called "bighuby") is of about ± 4 µm.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: The experimental setup: (a) the ID 24 beamline scheme; (b) experimental scheme with an illustration of the used iron oxide sample and (c) an example of a measured XANES spectrum.</figDesc><graphic coords="2,34.32,50.64,526.80,298.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Data analysis workflow.</figDesc><graphic coords="3,33.96,36.84,527.40,385.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: One example of preliminary results from system (i).</figDesc><graphic coords="4,51.96,36.84,527.40,273.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Example of preliminary results from system (ii).</figDesc><graphic coords="4,51.96,391.80,527.40,173.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Example of preliminary results from system (iii).</figDesc><graphic coords="5,51.96,36.84,527.40,367.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 :</head><label>6</label><figDesc>Figure 6: Example of preliminary results from system (iii).</figDesc><graphic coords="6,33.96,170.40,527.40,206.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,33.96,36.84,527.40,359.40" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0"><p>-Implementation of a combined turbo-XAS setup (energy dispersive in fluorescence mode), which would be of special importance in the case of samples with low concentration of the investigated target element, such as fossil sample and the FCC catalytic particle.</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Some interesting suggestions which also would be an upgrade for a next experiment would be:</p><p>1 -Implementation of on-the-fly data acquisition, in order to decrease the scanning timein could increase by a factor of ×2 to ×4. This feature would enable to analyse in a more reasonable time the 3D morphology of the local chemical information;</p></div>			</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

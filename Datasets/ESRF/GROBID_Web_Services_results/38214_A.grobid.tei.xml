@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Investigation of the coherence properties of the X-ray Delay Line</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Federico</forename><surname>Zontone</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wojciech</forename><surname>Roseker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Hamburger Synchrotronstrahlungslabor HASYLAB at Deutsches Elektronen-Synchrotron DESY</orgName>
+								<address>
+									<addrLine>Notkestr. 85</addrLine>
+									<postCode>D-22607</postCode>
+									<settlement>HAMBURG</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Lorenz</forename><surname>Stadler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Hamburger Synchrotronstrahlungslabor HASYLAB at Deutsches Elektronen-Synchrotron DESY</orgName>
+								<address>
+									<addrLine>Notkestr. 85</addrLine>
+									<postCode>D-22607</postCode>
+									<settlement>HAMBURG</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anita</forename><surname>Ehnes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Hamburger Synchrotronstrahlungslabor HASYLAB at Deutsches Elektronen-Synchrotron DESY</orgName>
+								<address>
+									<addrLine>Notkestr. 85</addrLine>
+									<postCode>D-22607</postCode>
+									<settlement>HAMBURG</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Olaf</forename><surname>Leupold</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Hamburger Synchrotronstrahlungslabor HASYLAB at Deutsches Elektronen-Synchrotron DESY</orgName>
+								<address>
+									<addrLine>Notkestr. 85</addrLine>
+									<postCode>D-22607</postCode>
+									<settlement>HAMBURG</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Aymeric</forename><surname>Robert</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">SLAC National Accelerator Laboratory</orgName>
+								<address>
+									<addrLine>2575 Sand Hill Road</addrLine>
+									<postCode>102 94025</postCode>
+									<settlement>Menlo Park</settlement>
+									<region>MS CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Dr</roleName><forename type="first">Gerhard</forename><surname>Grübel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Hamburger Synchrotronstrahlungslabor HASYLAB at Deutsches Elektronen-Synchrotron DESY</orgName>
+								<address>
+									<addrLine>Notkestr. 85</addrLine>
+									<postCode>D-22607</postCode>
+									<settlement>HAMBURG</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Investigation of the coherence properties of the X-ray Delay Line</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">455B9B71CAF22BCADFD4FD0DE67A84A4</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of the experiment MI-923 was the investigation of the coherence properties of radiation passing the X-ray delay line unit <ref type="bibr" target="#b0">[1]</ref>, a device manufactured with the aim to conduct Split&amp;Delay X-ray Photon Correlation Spectrcopy(XPCS) <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref> at future X-ray Free Electron Laser (XFEL) sources.</p><p>The experiment was carried out at the beamline TROIKA ID10C using the 16 and 4 bunch mode operation of the storage ring. Figure <ref type="figure">1</ref> shows a sketch of the experimental setup. An X-ray radiation of 8.39 keV coming from the undulator source was monochromatized in the horizontal scattering geometry by a Si(111) channel cut monochromator. The energy resolution of 1.4x10 -4 was further improved to 8.8x10 -6 by mounting downstream a Si(333) channel cut monochromator. The monochromatized beam was split by the symmetric Si(511) crystal in Laue geometry and traveled around two unequal path lengths defined by Bragg crystals. The two beams were recombined and brought back on the common path by the Laue beam mixer. Detailed description of the delay line experimental setup can be found elsewhere <ref type="bibr" target="#b0">[1]</ref>.</p><p>The coherence properties of X-ray radiation were investigated initially by taking a Fraunhofer diffraction patterns from a rectangular aperture, located downstream the delay line unit. The scattered intensity from the aperture was collected by a point detector located at the end of the flight tube. The detector was mounted on a translation stage, which allows movements in the horizntal and vertical plane. Figure <ref type="figure">1b</ref> shows a Fraunhoffer diffraction pattern from 5x5 µm 2 rectangular aperture. The resulting horizontal and vertical patterns reveal oscillations with a gradually dimishing amplitude. The visibility of these oscilations is 62%.</p><p>In the second stage of the experiment a speckle pattern was recorded from a disordered sample. The coherent part of the radiation was selected by a 5x5µm 2 rectangular slit. Silica powder sample was placed in a capillary in a custom designed SAXS chamber, mounted downstream the slits. The static speckle pattern was recorded by a direct illumination CCD Princeton camera which comprised 1340 x 1300 pixels of dimension 20 x 20 µm 2 . Figure <ref type="figure">1c</ref> shows a resulting speckle pattern. The contrast of the speckle pattern was determined by performing the statistical analysis at q=3x10 -3 Å -1 . Contrast values larger than 23% were obtained.</p><p>High fringe visibility and contrast values of the speckle pattern indicate the feasibility of performing coherence based experiments with the delay line unit. The colleced data is under further analysis.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,57.96,280.38,496.08,297.66" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>We would like to thank <rs type="person">Dr. Federico Zontone</rs> for his help during the experiment. Figure 1. a) Arrangement of the experimental components used in the experiment. b) Fraunhofer diffraction pattern measured with 5x5 µm 2 rectangular aperture in horizontal plane. c) Speckle pattern of the silica powder sample recorded with 5x5 µm 2 beam defining slit.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">X-Ray</forename></persName>
+		</author>
+		<title level="m">Delay Unit Hasylab Annual Report</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X-ray Delay Unit Hasylab Annual Report 2006</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Requirements for the Cryogenic Supply of the European XFEL Project at DESY</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bozhko</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2202588</idno>
+		<idno>DESY 2006</idno>
+	</analytic>
+	<monogr>
+		<title level="m">AIP Conference Proceedings</title>
+		<imprint>
+			<publisher>AIP</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">823</biblScope>
+			<biblScope unit="page" from="1620" to="1627" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Design Report</note>
+	<note type="raw_reference">XFEL Technical Design Report DESY 2006</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">LCLS The First Experiments</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">N</forename><surname>Galayda</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">First Experiments</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.2172/812649</idno>
+		<idno>LCLS 2000</idno>
+		<imprint>
+			<date type="published" when="2003-02-10" />
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">First Experiments, Technical Report LCLS 2000</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

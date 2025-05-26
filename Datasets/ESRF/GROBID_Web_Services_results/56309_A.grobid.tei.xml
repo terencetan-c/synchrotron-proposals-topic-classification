@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5BD05D660C4A3813C02DE7E17E4D28F8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T17:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experimental report of <ref type="bibr">MI-1209</ref> The goal of our experiment was the measurement of Kossel line patterns at various conditions: 1. Measurement of Kossel line patterns produced by fluorescent atoms (electronic relaxation) within a short period (in the second range). 2. Measurement of Kossel line patterns produced by fluorescent nuclei (first time) 3. Measurement of pure nuclear Kossel lines in antiferromagnetic samples (first time) 4. Determine the phase of Kossel lines (it works only for good crystals, first time).</p><p>We built a setup for the above measurements. This consisted of a large two circle goniometer (coaxial circles). The sample was mounted on one of the circles (rotation axis in the beam), while the detector on the other one. The detector was on a long horizontal, radial arm (on which its distance could be varied relative to the sample between 10 cm to 100 cm). On the arm there was a vertical translation stage, which allowed changing the position of the 2D detector by 10 cm. We used a highly focused (5*10 micron 2 ) beam (introducing a KB mirror). As detecting element we expected to use a 5 segment Maxipix detector from the ESRF detector pool. Technically the detector worked and we got a lot of help to integrate it into our setup, but after one day of measurement it turned out that the sensitivity of the 5 segments are so different that we could not see the Kossel lines at the same time on all the segments. Unfortunately, the sensitivity (the energy threshold) of the segments could not be tuned independently, so we had to give up this detector and change to our own detector, which was a bit smaller in sensitive area but we could independently change the sensitivity of segments. With this modification the setup worked almost according to expectations. The only thing, which we could not improve (or fully correct for) was the pixel to pixel inhomogeneity in the sensitivity of the detector. To correct for this we measured normalizing patterns (constant or slowly varying intensity on the full active surface of the detector), and divided the pattern measured on the samples by these. With this correction we could see Kossel patterns within a short period of time (in principle we could see a pattern in a millisecond but in practice it took 10 seconds or more). The reason for this is the pixel to pixel inhomogeniety, which caused a large error in the number of counts measured by various pixels (originally this error was about 100 times the statistical error and it could be reduced to about 20 times the statistical error after normalizing). In our opinion this could be improved by doing a better equalization of the individual pixel electronics. We are submitting a paper about the setup to Nuclear Instrument and Methods. According to point (1) and ( <ref type="formula">4</ref>) we have measured several samples (NiO, Ge, alfa-Fe 2 O 3 , GaAs) using the above setup. In these measurements we tried to cover as large solid angle as was allowed by mechanical constrain of the setup. Since the size of our detector is about 25*25 mm2, the angular range covered by a single position was about 3 degrees. Therefore we measured at many positions (3*3 or 4*4 tiles were measured). As an illustration the Kossel pattern of NiO is shown in fig. <ref type="figure">1</ref>. We have developed a software tool capable of stitching together the tiles to a meaningful Kossel pattern. Using this tool we can obtain the fine structure of Kossel lines. Though compared to the theoretical width the lines are smeared by the crystal imperfection and geometry of the experiment, we think that meaningful phase information can be obtained from our measurements (point (4)). We are working on the evaluation of the fine structure of the Kossel lines. In the trivial case of NiO, all phases are zero and the measured line shape corresponds this. However, in the case of Ge and GaAs there are non trivial phases (different from 0 and 180 degrees), so we can check if using this type of measurement one could get phases in practice. The evaluation is complicated by the fact that we measured not only Bragg case lines, but also Laue case lines, from which the determination of the phases are not as straightforward as from the Bragg case lines. We hope to get the phases in a few months, and then we intend to publish the result. At last we report on the measurement of nuclear Kossel lines point (2) and (3). For this purpose we used the same setup as for the measurement of the electronic Kossel lines. We have added a high resolution monochromator (dE~2 meV) to suppress electronic scattering, and built a special sample holder (using a vacuum chamber with a Be cap) in order to suppress air scattering from the direct beam. Further, we put a 1mm thick Al absorber before the detector to suppress Fe kalfa electronic fluorescence. The enriched Fe 2 O 3 sample was oriented in a way, that we could see electronically allowed and only nuclearly allowed Kossel lines at the same time. We checked the orientation by measuring the electronically allowed lines. We collected data for two days. However, preliminary evaluation shows that at the present statistical level we could not detect nuclear Kossel lines. We think, that the reason is the high electronic background caused by the imperfection of the Fe 2 O 3 crystal and the Compton scattering. Both could be decreased by a higher degree of premonochromatization using a nuclear monochromator before the sample. However, in this case we have to tune the sample resonance line to the nuclear monochromator, which practically means using the same crystal for sample and for monochromator. We are discussing this possibility with the beamline staff. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig1.</head><figDesc>Fig1. NiO Kossel pattern. Fitted kalfa1 lines are shown by solid lines.</figDesc><graphic coords="2,70.86,346.80,424.27,264.96" type="vector_box" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

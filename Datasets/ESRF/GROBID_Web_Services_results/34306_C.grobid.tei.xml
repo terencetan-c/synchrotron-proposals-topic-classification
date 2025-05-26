@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Hard X-Ray Scanning Microscope at the ESRF Beamline ID 13 Final report</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jens</forename><surname>Patommmel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+						</author>
+						<title level="a" type="main">Hard X-Ray Scanning Microscope at the ESRF Beamline ID 13 Final report</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B3966D339DF7B19AC2CB253802FFBCD0</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-24T00:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background of the project</head><p>The ESRF long-term project MI-836 was the continuation of the successful long-term project MI-704. The intention was to continue the development of a prototypical hard x-ray scanning microscope using nanofocusing refractive lenses at beamline ID 13 <ref type="bibr" target="#b13">[Pat11]</ref>. In doing so, three major aims were persued. The first aim was to design, build and install the prototype and to demonstrate its performance by various experiments. The second aim was to provide a stable nanobeam that can be used for standard ESRF user experiments. The third aim was to use the experiences with the prototype in order to build an advanced nanoprobe instrument at the ESRF beamline ID 13 and elsewhere.</p><p>The scanning microscope was meant to operate with different x-ray analytical techniques like x-ray fluorescence analysis, absorption, and diffraction. In addition, the intention was to exploit the coherence of the focused beam to perform coherent x-ray diffraction imaging (CXDI) and x-ray ptychography. With a focus size of about 50 nm, a spatial resolution around 50 nm was expected for fluorescence element mapping and nano diffraction. The nanoprobe was designed to support two-dimensional mapping and tomographic techniques. Tomography would allow one to reconstruct the threedimensional inner structure of specimens.</p><p>In consequence, the prototype instrument (Figure <ref type="figure">1</ref>) was designed and built by the study group at TU Dresden, and it was installed and operated at the ESRF beamline ID 13. The prototype was not a long-time installation</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>at the beamline, but it had to be carried from Dresden to Grenoble and back for each experimental session. The exceptional effort was necessary to gain experience with nanofocus and microscopy techniques in view of a new nanoprobe at ID 13. In the later part of the long-term project, the beamline implemented its own nanoprobe permanently installed in experimental hutch 3 (EH 3). For this instrument, an optical module for nanofocusing lenses was designed and built at TU Dresden (Figure <ref type="figure" target="#fig_2">2</ref>).</p><p>The nanoprobe project was supported by the German Department of Education and Research (BMBF).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The instrument at beamline ID 13</head><p>frame small hexapod pinhole scanning stage sample mount rotational stage elevator stage pinhole stages coarse linear sample stage transverse to the optical axis coarse linear sample stage along optical axis Two setups were developed and used during the long-term project. On the one hand, there was the prototype nanoprobe completely built by TU Dresden and temporarily installed at the beamline (Fig. <ref type="figure" target="#fig_1">1</ref>), and, on the other hand, an improved nanoprobe was used, which was permanently installed at the beamline ID 13 and for which the optics module for NFLs was delivered by TU Dresden within the project (Fig. <ref type="figure" target="#fig_2">2</ref>). Both nanoprobes, the prototypical one and the permanent one, consist of a scanner unit including the sample module and the optics module firmly connected to guaranty stability.</p><p>For the new nanoprobe station at ID 13 the optics module contains the entry slits, the nanofocusing refractive lenses (NFLs), the pinhole, and all of the motorized stages to align these optical components.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Two-Stage Focusing</head><p>We developed a two-stage focusing scheme (Fig. <ref type="figure" target="#fig_3">3</ref>) in order to adapt the coherence length to the effective aperture of the nanofocusing lenses. By this we were able to decide whether to have a highly coherent focus with limited flux or whether to decrease the coherence in the focus in favor of an increased photon flux. For fluorescence tomography, for example, coherence is not necessary, and the photon flux can be dramatically increased by using a prefocusing optic. For CXDI and ptychography, however, a large coherence length is required and the prefocusing lenses would be adapted, accordingly.</p><p>At beamline ID 13, several compound parabolic refractive lenses made of beryllium (CRLs) are installed and ready to be used whenever needed. There are white-beam lenses between the undulator and the monochromator, and there are CRLs between the monochromator and the nanoprobe provided by TU Dresden. We performed series of tests with different prefocusing geometries and parameters and we found that the photon flux could be increased by a factor of ∼20, while the focus size increased by a factor of ∼1.5, only.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental sessions</head><p>In the course of the long-term project, four experimental sessions were scheduled as shown in table <ref type="table" target="#tab_0">1</ref>.</p><p>In the first session, the prototype was installed in experimental hutch 2 (EH 2), while in all the other sessions, the permanently-installed nanoprobe in EH 3 was used in combination with the TUD optics module.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fluorescence element mapping</head><p>X-ray fluorescence analysis is one of the major x-ray analytical techniques performed with the scanning microscope. In case of thin samples, the specimens can be investigated with two-dimensional element mapping, scanning the sample laterally in two dimensions with the focused beam. At each scanning position, the fluorescence spectrum is recorded with an energy-dispersive detector, from which the two-dimensional projected element distribution can  be retrieved. X-ray fluorescence element mapping is especially useful for extremely low concentration of elements, that is for example often the case of micronutrients inside biological samples. We applied this method not only to biological specimens, but also to cosmic particles, Stranski-Krastanow islands [HDS + 08, DHS + 10], geological samples, and many more.</p><p>Figure <ref type="figure" target="#fig_4">4</ref> shows the result of x-ray fluorescence element mapping of a pollen of Arabidopsis thaliana carried out during the experimental session MI-836.2. The element distribution maps are given with a spatial resolution of better than 100 nm. Fluorescence element mapping reveals the two-dimensional element distribution in a sample projected along the optical axis. This is sufficient for thin samples, but in case of samples extended in three dimensions, the information loss due to projecting is not admissible and tomographic techniques must be applied. The hard x-ray scanning microscope is furnished with a high precision rotational stage with air bearing that allows for tomography with high spatial resolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fluorescence tomography</head><p>Figure <ref type="figure" target="#fig_5">5</ref> depicts a reconstructed tomographic slice with distributions for various elements of the pollen of Arabidopsis thaliana as the result of a tomogram. The sample is the same as the one in Figure <ref type="figure" target="#fig_4">4</ref>. In contrast to the two-demensional element mapping method described in the previous section, this tomographic experiment delivers information about whether a structure is located in the inner or rather in the outer region of the specimen. This example demonstrates the necessary of applying tomographic methods for inhomogeneous three-dimensional objects. The experiment was carried out in experimental session MI-836.2. (a) 100nm (b) 0.5 nm -1 (c) 100 nm (d) The hard x-ray scanning microscope generates a highly coherent focal spot that can be used for coherent x-ray diffraction imaging (CXDI) [MCKS99, CBM + 06, STB + 05] and for ptychography [RF04, RHC + 07, TDM + 08]. In a CXDI experiment, an object is completely illuminated by an x-ray beam and the diffraction pattern behind the sample is recorded with sufficient sampling. The diffraction pattern, together with some knowledge about the illumination allows one to reconstruct the transmission function of the object. In this method, the resolution is not given by the numerical aperture of an x-ray optic, but by the largest scattering angle that contains observable scattering signal, and, therefore, by the coherent photon dose seen by the object [SBF + 08, SS10]. In order to reduce the exposure time, a high coherent flux is needed, and thus, focusing the coherent flux of a given source onto the specimen is crucial for CXDI.</p><p>Figure <ref type="figure" target="#fig_8">6</ref> shows the results of two CXDI experiments with gold particles [SBF + 08, SBF + 10a]. Figures <ref type="figure" target="#fig_8">6(a</ref> To achieve this, the sample was exposed for 10 minutes. Without focusing the coherent flux onto the sample, the total exposure time would have to be more than two months in order to gain the same spatial resolution. This CXDI experiment was pioneering in several ways. It was for the first time that CXDI was successfully performed with x-rays with wavelength below 1 Å without using a Bragg reflexion of a crystalline sample. Besides that, we demonstrated a spatial resolution of below 10 nm, which had never been achieved before.</p><p>Ptychography 50 0 nm 5 0 0 n m 1 m m 0 ! !/2 3!/2 Articles published week of 1 MARCH 2010 Volume 96 Number 9 ~75 nm (FWHM) 0.2 0.4 0.6 0.8 1.0 0.0 0 200 400 -200 -400 horizontal position [nm] normalized intensity ~90 nm (FWHM) 0 200 400 -200 -400 0.2 0.4 0.6 0.8 1.0 0.0 vertical position [nm] normalized intensity 0 1000 -1000 10-5 10-4 10-3 10-2 10-1 100 horizontal position [nm] Logarithmus der Intensität 10-5 10-4 10-3 10-2 10-1 100 0 1000 -1000 vertical position [nm] logarithm of intensity In the course of the long-term project, it became more and more apparent, that ptychography would be one of the most important techniques provided by the nanoprobe. Ptychography, in contrast to CXDI, needs no information about the illumination. It even quantitively reveals the complex illumination function in the object plane, and thus the complete caustic of the nanobeam. In addition, the object is reconstructed without ambiguity, which is not the case for CXDI. Another advantage of ptychography over CXDI is the possibility to investigate samples that are larger than the illumination [TDM + 08, TDB + 09, MR09, GSF09]. In a ptychography experiment, the specimen is scanned with the coherent x-ray beam with sufficient overlap between neighboring scan points. At each scan point the diffraction pattern is recorded with appropriate sampling. From the set of diffraction patterns, the complex illumination function in the object plane can be reconstructed as well as the complex transmission function of the object. By Fresnel propagation of the wavefield, the complete caustic of the nanobeam can be retrieved.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPLI E D PHYS ICS LETTERS</head><p>We performed the first successful ptychography scan during the experiment session MI-836.3 in the summer of 2009. While the spatial resolution of the reconstructed object was still suboptimal due to mechanical instabilities, the beam was characterized with a precision never achieved before. We published this new method for nanobeam characterization in applied physics letters (Figure <ref type="figure" target="#fig_11">7</ref>) [SBF + 10b]. Figure <ref type="figure" target="#fig_12">8</ref> shows the line profile through the focal plane of the nanoprobe. The beam size of 75 nm by 90 nm conforms with the resolution of the fluorescence map that was recorded in parallel with the ptychography scan. The intensity outside the central speckle of the focus is smaller by a factor of 100 compared to the maximum. This demonstrates the high quality of the focus generated by the nanofocusing lenses made of silicon.</p><p>We used a generic sample (NTT test pattern made of tungsten) for beamcharecterization by ptychography. In addition to that, we also investigated further samples like, for example, a memory chip. Figure <ref type="figure" target="#fig_13">9</ref> shows the reconstructed phase of a microchip which was probed in a ptychography scan [SBG + 11]. This is a first example of high resolution hard x-ray microscopy of a buried structure that could not be achieved by other microscopy methods without sample destruction.  The hard x-ray scanning microscope uses nanofocusing lenses made from silicon to generate the nanobeam. Applying ptychography, the nanoprobe allows to reconstruct the caustic of the nanobeam (see section "Ptychography"). This feedback information is used to learn about aberrations of the NFLs and to improve the lenses. One important insight was that a more isotropic lens shape reduces aberrations due to isotropic etching conditions during lens fabrication (Figure <ref type="figure" target="#fig_14">10</ref>). During the long-term project, the nanofocusing lenses could be improved with regards to steepness of the sidewalls, surface roughness, and shape contour accuracy thus reducing spherical aberrations [BFP + 09, Boy10].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nanofocusing Lenses</head><p>Silicon is not the optimal lens material with regards to x-ray transmission, refractive power, and thus efficiency and diffraction limit. The reason for choosing silicon as lens material is the availability of established technological processes, which allow the fabrication of nearly aberration free lens structures. Lens materials with better x-ray optical properties are, for example, boron and diamond. The fabrication of lenses made from boron or diamond is quite difficult, and, until now, there are no refractive lenses made of boron or diamond with shape accuracy, low surface roughness, and depth of lens structures, which are even nearly as good as for silicon.</p><p>Despite the technological challenges, our study group in Dresden cooperates with Diamond Materials in Freiburg, Germany, with the intention to establish a process for producing refractive diamond lenses. First lenses were fabricated in 2009 (Fig. <ref type="figure" target="#fig_15">11</ref>), and we tested these diamond lenses with the nanoprobe setup in experiment session MI-836.2. A focus of size 360 nm FWHM could be generated by the diamond lenses, which was demonstrated by knife-edge scans. There are still strong aberrations of the lens shape, and the depth of the lens structures has to be further increased. For future experiments, improved diamond lenses will be available and tested with the scanning microscope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>User Support</head><p>The experimental sessions of the long-term project were combined with user experiments, which had been proposed by user groups not involved in the long-term project MI-836. The procedure was that we started our sessions with the installation of the prototype or of the optics module, respectively, followed by the alignment of the nanofocusing lenses. Once the nanoprobe was aligned, it could be used for experiments. On the one hand, we performed our own experiments as exemplified in the preceding paragraphs. On the other hand, third-party users came along and, with our support, executed their experiments with the hard x-ray scanning microscope.</p><p>The third-party user experiments are shown in table 2 International Conference on X-ray Microscopy, volume 186 of Journal of Physics: Conference Series, page 012016, 2009. [7] M. Hanke, M. Dubslaff, M. Schmidbauer, T. Boeck, S. Schöder, M. Burghammer, C. Riekel, J. Patommel, and C. G. Schroer. Scanning x-ray diffraction with 200 nm spatial resolution. Appl. Phys. Lett., 92(19):193109, Jan 2008. [8] Christian G. Schroer, Pit Boye, Jan Feldkamp, Jens Patommel, Andreas Schropp, Andreas Schwab, Sandra Stephan, Manfred Burghammer, Sebastian Schöder, and Christian Riekel. Coherent x-ray diffraction imaging with nanofocused illumination. Phys. Rev. Lett., 101(9):090801, 2008. [9] Christian G. Schroer, Pit Boye, Jan M. Feldkamp, Jens Patommel, Andreas Schropp, Andreas Schwab, Sandra Stephan, Manfred Burghammer, Sebastian Schöder, and Christian Riekel. Coherent x-ray diffraction imaging with nanofocused illumination. Virtual Journal of Nanoscale Science &amp; Technology, 18(10), 2008.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Schematic drawing of the prototypical nanoprobe version [Pat11].</figDesc><graphic coords="2,184.44,323.97,270.52,328.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Permanently-installed nanoprobe with optics module designed and built by TU Dresen [Boy10].</figDesc><graphic coords="3,101.39,128.79,349.69,176.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Two-stage focusing scheme. (a) Real secondary source between prefocusing optic and NFL. (b) Virtual secondary source behind nanofocusing lens. (From [Pat11].)</figDesc><graphic coords="4,162.66,128.79,310.84,220.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Fluorescence element mapping of the pollen of Arabidopsis thaliana. (a) Photograph of an Arabidopsis thaliana plant. (b) SEM image of the pollen of Arabidopsis thaliana. (right) Measured element distribution retrieved from the fluorescence signal. Resolved features range down to the size of only 1 or 2 pixels, which corresponds to a spatial resolution of about 100 nm.</figDesc><graphic coords="5,81.96,324.59,388.55,179.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 :</head><label>5</label><figDesc>Figure 5: Reconstructed element distribution of the pollen of Arabidopsis thaliana retrieved from the tomogram of the fluorescence signal. The specimen is the same as seen in Figure 4.</figDesc><graphic coords="6,226.96,329.81,82.81,82.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>Coherent x-ray diffraction imaging (CXDI)0.5 nm -1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 6 :</head><label>6</label><figDesc>Figure 6: Coherent x-ray diffraction imaging with gold particles. (a) This diffraction pattern of a 100 nm gold particle was used to reconstruct the electron density shown in (b) [SBF + 08]. (c) The diffraction pattern of a cluster of 4 gold particles with 50 nm diameter was used to reconstruct the electron density shown in (d) [SBF + 10a].</figDesc><graphic coords="7,84.94,184.14,91.85,91.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><figDesc>) and (b) refer to a single gold particle with 100 nm diameter and 6(c) and (d) refer to a cluster of four gold particles with 40 nm diameter. The achieved spatial resolution was 5 nm [SBF + 08].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 7 :</head><label>7</label><figDesc>Figure 7: Ptychography for beam characterization. The complex wavefield (phase and amplitude) around the focal plane was reconstructed by means of ptychography [SBF + 10b].</figDesc><graphic coords="8,365.80,172.23,97.74,124.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 8 :</head><label>8</label><figDesc>Figure 8: Line profile through the complex wavefield in the focal plane [SBF + 10b].</figDesc><graphic coords="8,172.71,463.34,80.18,80.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 9 :</head><label>9</label><figDesc>Figure 9: Reconstructed phase of a microchip retrieved from a ptychography experiment [SBG + 11].</figDesc><graphic coords="9,130.53,128.79,291.42,310.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 10 :</head><label>10</label><figDesc>Figure 10: New lens design for the nanofocusing lenses [Boy10].</figDesc><graphic coords="10,123.81,361.13,388.54,137.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 11 :</head><label>11</label><figDesc>Figure 11: SEM images of nanofocusing lenses made from diamond [Boy10].</figDesc><graphic coords="10,123.81,558.18,137.42,90.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Experimental sessions.</figDesc><table><row><cell>Session</cell><cell>Begin</cell><cell>End</cell><cell>Topic</cell></row><row><cell>MI-836.1</cell><cell>2008 Feb 7th</cell><cell>2008 Mar 4th</cell><cell>Fluorescence tomography of a pollen CXDI with 100 nm gold particles</cell></row><row><cell>MI-836.2</cell><cell>2009 Feb 25th</cell><cell>2009 Mar 4th</cell><cell>CXDI with 50 nm gold particles Fluorescence mapping of interfaces Test of NFLs made from diamond</cell></row><row><cell>MI-836.3/4</cell><cell>2009 Jun 29th</cell><cell>2009 Jul 21st</cell><cell>CXDI with 20 nm gold particles CXDI tomography with gold particles Ptychography for beam characterization</cell></row><row><cell>MI-836.5</cell><cell>2010 Feb 13th</cell><cell>20010 Mar 17th</cell><cell>Defocused ptychography Ptychography of a micro chip</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Publications Resulting From This Long-Term Project</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Non-destructive and quantitative imaging of a nano-structured microchip by ptychographic hard X-ray scanning microscopy</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pit</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andy</forename><surname>Goldschmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susi</forename><surname>Hönig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Hoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Rakete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>Samberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2818.2010.03453.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Microscopy</title>
+		<idno type="ISSN">0022-2720</idno>
+		<imprint>
+			<biblScope unit="volume">241</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="12" />
+			<date type="published" when="2011">2011</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andreas Schropp, Pit Boye, Andy Goldschmidt, Susi Hönig, Robert Hoppe, Jens Patommel, Christoph Rakete, Dirk Samberg, Sandra Stephan, Sebastian Schöder, Manfred Burghammer, and Christian G. Schroer. Non-destructive and quantitative imaging of a nano-structured microchip by ptychographic hard x-ray scanning microscopy. Journal of Microscopy, 241(1):9-12, 2011.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Hard x-ray nanobeam characterization by coherent diffraction microscopy</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pit</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">M</forename><surname>Feldkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Hoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>Samberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Giewekemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robin</forename><forename type="middle">N</forename><surname>Wilke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Gulden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adrian</forename><forename type="middle">P</forename><surname>Mancuso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ivan</forename><forename type="middle">A</forename><surname>Vartanyants</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edgar</forename><surname>Weckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3332591</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">91102</biblScope>
+			<date type="published" when="2010-03-01">2010</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andreas Schropp, Pit Boye, Jan M. Feldkamp, Robert Hoppe, Jens Patommel, Dirk Samberg, Sandra Stephan, Klaus Giewekemeyer, Robin N. Wilke, Tim Salditt, Johannes Gulden, Adrian P. Man- cuso, Ivan A. Vartanyants, Edgar Weckert, Sebastian Schöder, Man- fred Burghammer, and Christian G. Schroer. Hard x-ray nanobeam characterization by coherent diffraction microscopy. Appl. Phys. Lett., 96(9):091102, 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">X-ray nanodiffraction at individual SiGe/Si(001) dot molecules and its numerical description based on kinematical scattering theory</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dubslaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Patommel</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3373916</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<date type="published" when="2010-03-29">March 2010</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Dubslaff, M. Hanke, S. Schoeder, M. Burghammer, T. Boeck, and J. Patommel. X-ray nanodiffraction at individual SiGe/Si(001) dot molecules and its numerical description based on kinematical scattering theory. Appl. Phys. Lett., 96(13), March 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Hard X-ray Microscopy with Elemental, Chemical and Structural Contrast</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Feldkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Samberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Riekel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lengeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Falkenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wellenreuther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuhlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Frahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lützenkirchen-Hecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Schroeder</surname></persName>
+		</author>
+		<idno type="DOI">10.12693/aphyspola.117.357</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physica Polonica A</title>
+		<title level="j" type="abbrev">Acta Phys. Pol. A</title>
+		<idno type="ISSN">0587-4246</idno>
+		<idno type="ISSNe">1898-794X</idno>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="357" to="368" />
+			<date type="published" when="2010-02">2010</date>
+			<publisher>Institute of Physics, Polish Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. G. Schroer, P. Boye, J. M. Feldkamp, J. Patommel, A. Schropp, D. Samberg, S. Stephan, M. Burghammer, S. Schöder, C. Riekel, B. Lengeler, G. Falkenberg, G. Wellenreuther, M. Kuhlmann, R. Frahm, D. Lützenkirchen-Hecht, and W. H. Schroeder. Hard X-ray microscopy with elemental, chemical, and structural contrast. Acta Physica Polonica A, 117(2):357-368, 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Nanofocusing refractive X-ray lenses: Fabrication and modeling</title>
+		<author>
+			<persName><forename type="first">Pit</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">M</forename><surname>Feldkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schwab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Hoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Riekel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andre</forename><forename type="middle">Van Der</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Küchler</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/186/1/012063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Conference Series</title>
+		<title level="j" type="abbrev">J. Phys.: Conf. Ser.</title>
+		<idno type="ISSNe">1742-6596</idno>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page">012063</biblScope>
+			<date type="published" when="2009-09-01">2009</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pit Boye, Jan M. Feldkamp, Jens Patommel, Andreas Schwab, Sandra Stephan, Robert Hoppe, Christian G. Schroer, Manfred Burghammer, Christian Riekel, Andre van der Hart, and Matthias Küchler. Nanofocus- ing refractive x-ray lenses: Fabrication and modeling. In 9th International Conference on X-ray Microscopy, volume 186 of Journal of Physics: Con- ference Series, page 012063, 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Hard X-ray scanning microscopy with fluorescence and diffraction contrast</title>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pit</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">M</forename><surname>Feldkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schwab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Riekel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Walter</forename><forename type="middle">H</forename><surname>Schröder</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/186/1/012016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics: Conference Series</title>
+		<title level="j" type="abbrev">J. Phys.: Conf. Ser.</title>
+		<idno type="ISSNe">1742-6596</idno>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page">012016</biblScope>
+			<date type="published" when="2009-09-01">2009</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note>th References [BFP + 09 Nanofocusing refractive x-ray lenses: Fabrication and modeling Conference Series, page 012063</note>
+	<note type="raw_reference">Christian G. Schroer, Pit Boye, Jan M. Feldkamp, Jens Patommel, An- dreas Schropp, Andreas Schwab, Sandra Stephan, Manfred Burghammer, Sebastian Schöder, Christian Riekel, and Walter H. Schröder. Hard x-ray scanning microscopy with fluorescence and diffraction contrast. In 9th References [BFP + 09] Pit Boye, Jan M. Feldkamp, Jens Patommel, Andreas Schwab, Sandra Stephan, Robert Hoppe, Christian G. Schroer, Man- fred Burghammer, Christian Riekel, Andre van der Hart, and Matthias Küchler. Nanofocusing refractive x-ray lenses: Fabri- cation and modeling. In 9th International Conference on X-ray Microscopy, volume 186 of Journal of Physics: Conference Se- ries, page 012063, 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Nanofocusing Refractive X-Ray Lenses</title>
+		<author>
+			<persName><forename type="first">Pit</forename><surname>Boye</surname></persName>
+		</author>
+		<idno>urn:nbn:de:bsz:14-qucosa-27137</idno>
+		<ptr target="http://nbn-resolving.de/urn:nbn:de:bsz" />
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="14" to="27137" />
+		</imprint>
+		<respStmt>
+			<orgName>Technical University of Dresden (TU Dresden</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+	<note type="raw_reference">Pit Boye. Nanofocusing Refractive X-Ray Lenses. PhD thesis, Technical University of Dresden (TU Dresden), 2010. urn:nbn:de:bsz:14-qucosa-27137, http://nbn-resolving. de/urn:nbn:de:bsz:14-qucosa-27137.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">High-resolution ab initio three-dimensional x-ray diffraction microscopy</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cbm + 06] Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anton</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefano</forename><surname>Barty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aleksandr</forename><surname>Marchesini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><forename type="middle">P</forename><surname>Noy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Congwu</forename><surname>Hau-Riege</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Malcolm</forename><forename type="middle">R</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rachel</forename><surname>Howells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haifeng</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uwe</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Weierstall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Beetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Shapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Opt. Soc. Am. A</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1179" to="1200" />
+			<date type="published" when="2006-01">Jan 2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CBM + 06] Henry N. Chapman, Anton Barty, Stefano Marchesini, Alek- sandr Noy, Stefan P. Hau-Riege, Congwu Cui, Malcolm R. Howells, Rachel Rosen, Haifeng He, John C. H. Spence, Uwe Weierstall, Tobias Beetz, Chris Jacobsen, and David Shapiro. High-resolution ab initio three-dimensional x-ray diffraction mi- croscopy. J. Opt. Soc. Am. A, 23(5):1179-1200, Jan 2006.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">X-ray nanodiffraction at individual SiGe/Si(001) dot molecules and its numerical description based on kinematical scattering theory</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dubslaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Patommel</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3373916</idno>
+		<idno>DHS + 10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<date type="published" when="2010-03-29">March 2010</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DHS + 10] M. Dubslaff, M. Hanke, S. Schoeder, M. Burghammer, T. Boeck, and J. Patommel. X-ray nanodiffraction at individ- ual SiGe/Si(001) dot molecules and its numerical description based on kinematical scattering theory. Appl. Phys. Lett., 96(13), March 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Measurement of coherent x-ray focused beams by phase retrieval with transverse translation diversity</title>
+		<author>
+			<persName><forename type="first">Manuel</forename><surname>Guizar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-Sicairos</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">R</forename><surname>Fienup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2670" to="2685" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Manuel Guizar-Sicairos and James R. Fienup. Measurement of coherent x-ray focused beams by phase retrieval with transverse translation diversity. Opt. Express, 17(4):2670-2685, 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Scanning x-ray diffraction with 200nm spatial resolution</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dubslaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schmidbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Riekel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2929374</idno>
+		<idno>HDS + 08</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">193109</biblScope>
+			<date type="published" when="2008-01">Jan 2008</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HDS + 08] M. Hanke, M. Dubslaff, M. Schmidbauer, T. Boeck, S. Schöder, M. Burghammer, C. Riekel, J. Patommel, and C. G. Schroer. Scanning x-ray diffraction with 200 nm spatial resolution. Appl. Phys. Lett., 92(19):193109, Jan 2008.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Extending the methodology of X-ray crystallography to allow imaging of micrometre-sized non-crystalline specimens</title>
+		<author>
+			<persName><forename type="first">Jianwei</forename><surname>Miao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pambos</forename><surname>Charalambous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Janos</forename><surname>Kirz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Sayre</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/22498</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">400</biblScope>
+			<biblScope unit="issue">6742</biblScope>
+			<biblScope unit="page" from="342" to="344" />
+			<date type="published" when="1999-07">1999</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jianwei Miao, Pambos Charalambous, Janos Kirz, and David Sayre. Extending the methodology of X-ray crystallography to allow imaging of micrometre-sized non-crystalline specimens. Na- ture, 400:342-344, 1999.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">An improved ptychographical phase retrieval algorithm for diffractive imaging</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">M</forename><surname>Maiden</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rodenburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ultramicroscopy</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1256" to="1262" />
+			<date type="published" when="2009-01">Jan 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andrew M Maiden and John M Rodenburg. An improved pty- chographical phase retrieval algorithm for diffractive imaging. Ul- tramicroscopy, 109(10):1256-1262, Jan 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Hard X-Ray Scanning Microscope Using Nanofocusing Parabolic Refractive Lenses</title>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011-01">January 2011</date>
+			<publisher>Cuvillier Verlag Göttingen</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">PhD theses</note>
+	<note>1st edition</note>
+	<note type="raw_reference">Jens Patommel. Hard X-Ray Scanning Microscope Using Nanofo- cusing Parabolic Refractive Lenses. Cuvillier Verlag Göttingen, 1st edition, January 2011. PhD theses, ISBN 978-3-86955-614-7.</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A phase retrieval algorithm for shifting illumination</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rodenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M L</forename><surname>Faulkner</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1823034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics Letters</title>
+		<idno type="ISSN">0003-6951</idno>
+		<idno type="ISSNe">1077-3118</idno>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="4795" to="4797" />
+			<date type="published" when="2004-11-15">2004</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. M. Rodenburg and H. M. L. Faulkner. A phase retrieval algo- rithm for shifting illumination. Appl. Phys. Lett., 85(20):4795- 4797, 2004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Hard-X-Ray Lensless Imaging of Extended Objects</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rodenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Cullis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Dobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jefimovs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Johnson</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.98.034801</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34801</biblScope>
+			<date type="published" when="2007-01-18">2007</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">RHC + 07] J. M. Rodenburg, A. C. Hurst, A. G. Cullis, B. R. Dobsen, F. Pfeiffer, O. Bunk, C. David, K. Jefimovs, and I. Johnson. Hard-x-ray lensless imaging of extended objects. Phys. Rev. Lett., 98:034801, 2007.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Coherent X-Ray Diffraction Imaging with Nanofocused Illumination</title>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pit</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">M</forename><surname>Feldkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schwab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Riekel</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.101.090801</idno>
+		<idno>SBF + 08</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">90801</biblScope>
+			<date type="published" when="2008-08-29">2008</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SBF + 08] Christian G. Schroer, Pit Boye, Jan Feldkamp, Jens Patommel, Andreas Schropp, Andreas Schwab, Sandra Stephan, Manfred Burghammer, Sebastian Schöder, and Christian Riekel. Coherent x-ray diffraction imaging with nanofocused illumination. Phys. Rev. Lett., 101(9):090801, 2008.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Hard X-ray microscopy with elemental, chemical, and structural contrast</title>
+		<author>
+			<persName><forename type="middle">G</forename><surname>Sbf + 10a] C</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feldkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Samberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Riekel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lengeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Falkenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wellenreuther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kuhlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Frahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Lützenkirchen-Hecht</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Schroeder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physica Polonica A</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="357" to="368" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SBF + 10a] C. G. Schroer, P. Boye, J. M. Feldkamp, J. Patommel, A. Schropp, D. Samberg, S. Stephan, M. Burghammer, S. Schöder, C. Riekel, B. Lengeler, G. Falkenberg, G. Wellen- reuther, M. Kuhlmann, R. Frahm, D. Lützenkirchen-Hecht, and W. H. Schroeder. Hard X-ray microscopy with elemental, chemical, and structural contrast. Acta Physica Polonica A, 117(2):357-368, 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Hard x-ray nanobeam characterization by coherent diffraction microscopy</title>
+		<author>
+			<persName><surname>Sbf + 10b] Andreas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pit</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">M</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Feldkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Hoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sandra</forename><surname>Samberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robin</forename><forename type="middle">N</forename><surname>Giewekemeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Wilke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Salditt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adrian</forename><forename type="middle">P</forename><surname>Gulden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ivan</forename><forename type="middle">A</forename><surname>Mancuso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edgar</forename><surname>Vartanyants</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Weckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Schroer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">91102</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SBF + 10b] Andreas Schropp, Pit Boye, Jan M. Feldkamp, Robert Hoppe, Jens Patommel, Dirk Samberg, Sandra Stephan, Klaus Gieweke- meyer, Robin N. Wilke, Tim Salditt, Johannes Gulden, Adrian P. Mancuso, Ivan A. Vartanyants, Edgar Weckert, Sebastian Schöder, Manfred Burghammer, and Christian G. Schroer. Hard x-ray nanobeam characterization by coherent diffraction mi- croscopy. Appl. Phys. Lett., 96(9):091102, 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Non-destructive and quantitative imaging of a nano-structured microchip by ptychographic hard x-ray scanning microscopy</title>
+		<author>
+			<persName><forename type="first">]</forename><forename type="middle">A</forename><surname>Sbg + 11</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goldschmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hönig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rakete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Samberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schöder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Schroer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Microscopy</title>
+		<imprint>
+			<biblScope unit="volume">241</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="12" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SBG + 11] A. Schropp, P. Boye, A. Goldschmidt, S. Hönig, R. Hoppe, J. Patommel, C. Rakete, D. Samberg, S. Stephan, S. Schöder, M. Burghammer, and C. G. Schroer. Non-destructive and quantitative imaging of a nano-structured microchip by ptycho- graphic hard x-ray scanning microscopy. Journal of Microscopy, 241(1):9-12, 2011.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Dose requirements for resolving a given feature in an object by coherent x-ray diffraction imaging</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1367-2630/12/3/035016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">New Journal of Physics</title>
+		<title level="j" type="abbrev">New J. Phys.</title>
+		<idno type="ISSNe">1367-2630</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">035016</biblScope>
+			<date type="published" when="2010-03-31">2010</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andreas Schropp and Christian G. Schroer. Dose requirements for resolving a given feature in an object by coherent x-ray diffrac- tion imaging. New Journal of Physics, 12:035016, 2010.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Biological imaging by soft x-ray diffraction microscopy</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Thibault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Beetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Veit</forename><surname>Elser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Malcolm</forename><surname>Howells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Janos</forename><surname>Kirz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Enju</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huijie</forename><surname>Miao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aaron</forename><forename type="middle">M</forename><surname>Neiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Sayre</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0503305102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">43</biblScope>
+			<biblScope unit="page" from="15343" to="15346" />
+			<date type="published" when="2005-01">Jan 2005</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">STB + 05] D. Shapiro, P. Thibault, T. Beetz, V. Elser, M. Howells, C. Ja- cobsen, J. Kirz, E. Lima, H. Miao, A. M. Neiman, and D. Sayre. Biological imaging by soft x-ray diffraction microscopy. P. Natl. Acad. Sci. USA, 102:15343-15346, Jan 2005.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Probe retrieval in ptychographic coherent diffractive imaging</title>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Thibault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Dierolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Bunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Menzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ultramic.2008.12.011</idno>
+		<idno>TDB + 09</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ultramicroscopy</title>
+		<title level="j" type="abbrev">Ultramicroscopy</title>
+		<idno type="ISSN">0304-3991</idno>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="338" to="343" />
+			<date type="published" when="2009-03">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">TDB + 09] Pierre Thibault, Martin Dierolf, Oliver Bunk, Andreas Menzel, and Franz Pfeiffer. Probe retrieval in ptychographic coherent diffractive imaging. Ultramicroscopy, 109(4):338-343, 2009.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">High-Resolution Scanning X-ray Diffraction Microscopy</title>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Thibault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Dierolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Menzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Bunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1158573</idno>
+		<idno>TDM + 08</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="issue">5887</biblScope>
+			<biblScope unit="page" from="379" to="382" />
+			<date type="published" when="2008-07-18">2008</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">TDM + 08] Pierre Thibault, Martin Dierolf, Andreas Menzel, Oliver Bunk, Christian David, and Franz Pfeiffer. High-resolution scanning x-ray diffraction microscopy. Science, 321(5887):379-382, 2008.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

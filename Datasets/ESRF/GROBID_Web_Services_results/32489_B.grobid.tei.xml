@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>01/02/06</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Boesecke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Institute for Mechanical Process Engineering and Mechanics</orgName>
+								<orgName type="institution" key="instit2">Universitaet Karlsruhe (TH)</orgName>
+								<address>
+									<postCode>76128</postCode>
+									<settlement>Karlsruhe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Wengeler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Institute for Mechanical Process Engineering and Mechanics</orgName>
+								<orgName type="institution" key="instit2">Universitaet Karlsruhe (TH)</orgName>
+								<address>
+									<postCode>76128</postCode>
+									<settlement>Karlsruhe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Franky</forename><surname>Ruslim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Institute for Mechanical Process Engineering and Mechanics</orgName>
+								<orgName type="institution" key="instit2">Universitaet Karlsruhe (TH)</orgName>
+								<address>
+									<postCode>76128</postCode>
+									<settlement>Karlsruhe</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hermann</forename><surname>Nirschl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Institute for Mechanical Process Engineering and Mechanics</orgName>
+								<orgName type="institution" key="instit2">Universitaet Karlsruhe (TH)</orgName>
+								<address>
+									<postCode>76128</postCode>
+									<settlement>Karlsruhe</settlement>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">01/02/06</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3C9D6A34BCEFF8AA83CFE7BC9EECD35D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T21:22+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Many nanomaterials rely on a homogenous dispersion of nanoscale particles in a polymeric matrix, aqueous solution or solvent <ref type="bibr" target="#b0">[1]</ref>. Most of the anorganic nanoscale particles in industrial applications are synthesized by pyrogenic or other gas phase processes. Such particles tend to agglomerate during synthesis or during the dispersion process <ref type="bibr" target="#b1">[2]</ref>. The agglomeration can lead to soft and hard agglomerates. Hard agglomerates can be characterized by sinter necks between the primary particles. In soft agglomerates no sintering occurs <ref type="bibr" target="#b2">[3]</ref>. For functionalized or smart materials even the agglomerate structure plays a major role. Yet the microprocess of dispersing nanoscale particles has not been thoroughly studied and understood. Previous studies include the development of a high pressure homogenizer which is capable of processing highly abrasive suspensions <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>. Using this apparatus which ensures good reproducibility, we studied the dispersion of industrial grade fumed silica particles <ref type="bibr" target="#b4">[5]</ref>. These agglomerates consist of partially sintered primary particles. Therefore the analysis concentrated on the dispersibility leading to smaller agglomerate sizes as well as stabilization of the nanoscale suspension. It has been shown that dispersion is possible by high specific energy input down to agglomerate sizes of 150nm in the case of Aerosil 200 from Degussa AG. The hard agglomerates can be stabilized by electrostatic repulsion leading to low tendency of reagglomeration within a time period of a week. Stabilization can be further improved using complex building ions <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. A numerical model for high pressure dispersion using computational fluid dynamics has been set up for further assessments <ref type="bibr" target="#b6">[7]</ref>.</p><p>In coorporation with the group of Prof. Pratsinis we synthesized nanoscale particles at different parameters of production <ref type="bibr" target="#b4">[5]</ref>, which result in different degrees of agglomeration. The study of the degree of agglomeration during gas phase synthesis has been conducted in former studies at the ESRF facilities using USAXS <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10]</ref>. This experiment at the ESRF aimed to characterize the state of dispersion and dispersion process depending on the state of agglomeration induced by the production parameters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental</head><p>The silica suspensions for the experiments were prepared by high pressure dispersion and stabilized in Karlsruhe. We used the high brilliance beamline ID 02 using the pinhole SAXS and Bonse-Hart camera. Assembled scattering curves include primary particle scattering at high q's as well as agglomerate scattering within the Guinier regime at low q's with agglomerate radii up to 150 nm. Background scattering of capillary sample holder and water was subtracted from the scattering curves and those were normalized with NIST data for the electron density of water. Data from both experimental setups were merged by normalizing the Bonse-Hart data to pinhole data for overlapping q-values. The assembled scattering curves were analyzed calculating the Porod constant, scattering invariant and fitting the Guinier plot for the agglomerates obtaining their radii of gyration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussion</head><p>The specific surface area obtained coincides with BET-and SAXS-data (from experiment ME-628) obtained for powders before liquid dispersion <ref type="bibr" target="#b3">[4]</ref>. An increase in the specific surface area due to high pressure dispersion is not visible. Results from different degrees of agglomeration and calcined agglomerates prove the break-up of sintering bonds at high stresses <ref type="bibr" target="#b3">[4]</ref>. Since the surface area does not increase within experimental accuracy these sinter necks must be very small sized. A fractal structure of the agglomerates is described by their fractal dimension. The fractal dimension of the commercially availible silica ranges from 2.0 to 2.2 indicating a diffusion limited aggregation whereas the silica particles synthesized for this study are partly non-fractal. Further analysis of the data will include the unified fit model proposed by Beaucage <ref type="bibr" target="#b1">[2]</ref>. The results are partly included in <ref type="bibr" target="#b3">[4]</ref> and will be published in an additional reviewed paper.</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nanoscale Particles in Medical Products</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nirschl</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200310100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<title level="j" type="abbrev">Adv Eng Mater</title>
+		<idno type="ISSN">1438-1656</idno>
+		<idno type="ISSNe">1527-2648</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="556" to="559" />
+			<date type="published" when="2003-08-21">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Nirschl: Adv. Engineering Materials 5 (2003) 8, 556.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Approximations Leading to a Unified Exponential/Power-Law Approach to Small-Angle Scattering</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Beaucage</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889895005292</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="717" to="728" />
+			<date type="published" when="1995-12-01">1995</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Beaucage: J. Applied Crystallography, (1995) 28, 717.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Non-agglomerated dry silica nanoparticles</title>
+		<author>
+			<persName><forename type="first">Roger</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hendrik</forename><forename type="middle">K</forename><surname>Kammler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sotiris</forename><forename type="middle">E</forename><surname>Pratsinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andri</forename><surname>Vital</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><surname>Beaucage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Burtscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.powtec.2004.01.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technology</title>
+		<title level="j" type="abbrev">Powder Technology</title>
+		<idno type="ISSN">0032-5910</idno>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="40" to="48" />
+			<date type="published" when="2004-02">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Mueller et.al.: Powder Technology 140 (2004) 40.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Review of submitted manuscript by Coles et al.</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wengeler</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/hess-2016-564-rc1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>Copernicus GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note>submitted</note>
+	<note type="raw_reference">R. Wengeler et. al.: Langmuir (2005) submitted.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Dispergierung nanoskaliger Agglomerate mittels Hochdruckverfahren</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wengeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nirschl</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cite.200490362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemie Ingenieur Technik</title>
+		<title level="j" type="abbrev">Chemie Ingenieur Technik</title>
+		<idno type="ISSN">0009-286X</idno>
+		<idno type="ISSNe">1522-2640</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1387" to="1388" />
+			<date type="published" when="2004-09">2004</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Wengeler, H. Nirschl: Symp. Produktgestaltung in der Partikeltechn., 2004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Dispergierung nanoskaliger Agglomerate mittels Hochdruckverfahren</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wengeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nirschl</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cite.200490362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemie Ingenieur Technik</title>
+		<title level="j" type="abbrev">Chemie Ingenieur Technik</title>
+		<idno type="ISSN">0009-286X</idno>
+		<idno type="ISSNe">1522-2640</idno>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1387" to="1388" />
+			<date type="published" when="2004-09">2004</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>Karlsruhe</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Wengeler, H. Nirschl: VDI-GVC Jahrestagung, Karlsruhe 2004.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wengeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nirschl</surname></persName>
+		</author>
+		<title level="m">Workshop Two Phase Flow Predictions</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Wengeler, H. Nirschl: Workshop Two Phase Flow Predictions, 2005.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Probing the dynamics of nanoparticle growth in a flame using synchrotron radiation</title>
+		<author>
+			<persName><forename type="first">Gregory</forename><surname>Beaucage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hendrik</forename><forename type="middle">K</forename><surname>Kammler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roger</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reto</forename><surname>Strobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nikhil</forename><surname>Agashe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sotiris</forename><forename type="middle">E</forename><surname>Pratsinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Theyencheri</forename><surname>Narayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat1135</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<title level="j" type="abbrev">Nature Mater</title>
+		<idno type="ISSN">1476-1122</idno>
+		<idno type="ISSNe">1476-4660</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="370" to="373" />
+			<date type="published" when="2004-05-16">2004</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Beaucage, H.K. Kammler et. al.: Nature Materials 3 (2004) 6, 370.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Particle size distributions from small-angle scattering using global scattering functions</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Beaucage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Kammler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Pratsinis</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0021889804008969</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<title level="j" type="abbrev">J Appl Crystallogr</title>
+		<idno type="ISSN">0021-8898</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="523" to="535" />
+			<date type="published" when="2004-07-17">2004</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Beaucage, H.K. Kammler, S.E. Pratisinis: J. Appl. Cryst., (2004) 37, 523.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Structure of Flame-Made Silica Nanoparticles by Ultra-Small-Angle X-ray Scattering</title>
+		<author>
+			<persName><forename type="first">Hendrik</forename><forename type="middle">K</forename><surname>Kammler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><surname>Beaucage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roger</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sotiris</forename><forename type="middle">E</forename><surname>Pratsinis</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/la030155v</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir</title>
+		<title level="j" type="abbrev">Langmuir</title>
+		<idno type="ISSN">0743-7463</idno>
+		<idno type="ISSNe">1520-5827</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1915" to="1921" />
+			<date type="published" when="1915">2004. 1915</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.K. Kammler, G. Beaucage et. al.: Langmuir 20 (2004) 5, 1915.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

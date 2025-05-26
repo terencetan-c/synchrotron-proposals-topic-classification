@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SAXS and GISAXS study of bioactive glasses before and after soaking in a Simulated Body Fluid</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Cristian</forename><surname>Mokuta</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Milanesio</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Croce</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Viterbo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><surname>Bretcanu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dipartimento di Scienza dei Materiali e Ingegneria Chimica</orgName>
+								<orgName type="institution">Politecnico di Torino</orgName>
+								<address>
+									<addrLine>Corso Duca degli Abruzzi 24</addrLine>
+									<postCode>I-10129</postCode>
+									<settlement>Torino</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Marengo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Vernè</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dipartimento di Scienza dei Materiali e Ingegneria Chimica</orgName>
+								<orgName type="institution">Politecnico di Torino</orgName>
+								<address>
+									<addrLine>Corso Duca degli Abruzzi 24</addrLine>
+									<postCode>I-10129</postCode>
+									<settlement>Torino</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Vitale Brovarone</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Dipartimento di Scienza dei Materiali e Ingegneria Chimica</orgName>
+								<orgName type="institution">Politecnico di Torino</orgName>
+								<address>
+									<addrLine>Corso Duca degli Abruzzi 24</addrLine>
+									<postCode>I-10129</postCode>
+									<settlement>Torino</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Dipartimento di Scienze e Tecnologie Avanzate</orgName>
+								<orgName type="institution">Università del Piemonte Orientale</orgName>
+								<address>
+									<addrLine>Via Bellini 25/G</addrLine>
+									<postCode>I-15100 0131 287414</postCode>
+									<settlement>Alessandria</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SAXS and GISAXS study of bioactive glasses before and after soaking in a Simulated Body Fluid</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DE90C6CA19BA527B1E9DCBE718489D70</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Several bioactive materials have been studied in the last decades for many applications in medicine. The term "bioactive" refers to their ability to bond to the living tissue and so most of them have been studied as materials for small bone substitutes, coatings for orthopaedic prostheses, maxillofacial surgery <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> . Up today, the bioactive behaviour can be induced on a variety of materials, belonging to different classes: glasses, glass-ceramics, ceramics and in some cases also metals (after proper surface modifications) <ref type="bibr" target="#b2">3</ref> . Our attention will be focused on bioactive glasses, which represent the first class of inorganic materials that showed the peculiar surface property of bonding to living bone. When a bioactive glass is soaked in a simulated body fluid, called SBF, mimicking the inorganic composition of human plasma, several surface reactions can occur, leading, by a complex mechanism including ion leaching, silica gel formation, Ca ++ and PO 4 3diffusion, to the precipitation of hydroxy-carbonate apatite (HCA) with composition and structure close to the mineral phase of bone. The precipitation of these calcium phosphates on the surface of bioactive glasses has been extensively investigated <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> , but information on structural features of the HCA film, expecially in the early stages of the deposition, is of great interest. Bioglasses can be massive or porous to host drugs to be delivered after prosthesis insertion. We present here the characterization of different kinds of bioactive glasses and glass-ceramics (both massive and porous) for applications in orthopaedic and dental devices to shed some light on the mechanism of growth of i) SBA in porous SCK bioglass scaffold and ii) HCA on massive SCK bioglass slices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental</head><p>Two kinds of samples, that will be named from now on SCK and SCK(scaffold), were studied. SCK(scaffold) -The porous glass-ceramic SCK(scaffold)'s were obtained by mixing SCK powders with polyethylene particles and by uniaxially pressing the powders to obtain a compact of powders (named green). The green was then thermally treated to remove the organic phase and to sinter the inorganic one. The macroporous SCK(scaffold) -pores in the 100-500µm range-was then used as a substrate for the growth of a crystalline mesoporous -pores of about 5 nm-SBA phase. <ref type="bibr" target="#b6">7</ref> Two samples, with different SBA ageing times, were prepared: 1) 24 h at room temperature and 48 h at 60°C (sample a); 2) 72 h at 60 °C (sample b). The SBA phase grown inside the macropores was studied by SAXS on the whole scaffold sample. SCK massive samples -The SCK samples are bioactive glasses obtained by melting the reagent grade precursors in a platinum crucible at 1500°C for 1 hour, with a molar composition of 50% SiO 2 : 44% CaO 6%: K 2 O. Slices of SCK (10 x 10 x 2 mm) were soaked in SBF for different periods of time (1 hour, 3 hours , 15 hours, 1 day, 3 days, 7 days and 14 days) in order to study ex situ the different steps of formation of HCA on their surfaces, by GIWAXS measurements, at different X-ray incidence angles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of the SBA mesoporous material grown inside the SCK porous scaffolds</head><p>The X-ray diffraction patterns of the SCK(scaffold)-SBA composite materials a and b are shown in Figure <ref type="figure" target="#fig_1">1</ref>. They clearly indicate the presence of three peaks for sample a and four peaks for sample b, corresponding to d-spacings consistent with the presence of an hexagonal SBA material. Besides, these data suggest that the ageing at 60 °C for 72 h (sample b) is more efficient in obtaining the ordered SBA phase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of the Hydroxyhapatite grown on SCK massive bioglass slices</head><p>Part of the GIWAXS data (with incident angle equal to 3 degree) collected on the samples treated in SBA with different soaking times are shown in Figure <ref type="figure" target="#fig_0">2</ref> and indicate that the sharpness and the intensity of the HCA peaks increase proportionally to the soaking time of the glasses in SBF. In particular, after 15-days of immersion in SBF, a full HCA XRPD pattern is observed. It is worth noting that, for times smaller than 15 hours, only two broad bands, due to the studied bioglasses and to the formed silica gel, are observed, whereas the presence of a crystalline phase is present already after 15 hours. The analysis of the evolution of the HCA XRPD patterns to obtain the morphology and dimensions of HCA cristallites is under development. Besides, the XRPD data obtained measuring with different incidence angles (data not shown here for lack of space) can shed some light also on the variation of the the crystallite features passing from the surface to the bulk of the HCA film.</p><p>Publication: A short communication regarding the SCK(scaffold)-SBA composite characterization has been submitted on January 2005 to Studies in Surface Science and Catalysis. A full paper reporting the structural analysis of HCA grown on the SCK massive samples is in preparation. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: XRD patterns of SCK bioglasses soaked in SBF for different periods of time</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: XRD patterns of as-synthesized materials named sample a and b.</figDesc><graphic coords="2,339.78,235.08,228.00,205.50" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Preface</title>
+		<author>
+			<persName><forename type="first">Larry</forename><forename type="middle">L</forename><surname>Hench</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-081551419-0.50001-2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Sol-Gel Silica</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="vii" to="viii" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.L. Hench, Am. Ceram. Soc. Bull., 77, VII (1998) 67</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Bioceramics</title>
+		<author>
+			<persName><forename type="first">Larry</forename><forename type="middle">L</forename><surname>Hench</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">June</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/s0883769400056086</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MRS Bulletin</title>
+		<title level="j" type="abbrev">MRS Bull.</title>
+		<idno type="ISSN">0883-7694</idno>
+		<idno type="ISSNe">1938-1425</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="62" to="74" />
+			<date type="published" when="1991-09">1991</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L. L. Hench, J.Am.Ceram.Soc., 74(7), (1991), 1487n</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The order of calcium and phosphate ion deposition on chemically treated titanium surfaces soaked in aqueous solution</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(sici)1097-4636(199911)47:2&lt;213::aid-jbm11&gt;3.0.co;2-c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomedical Materials Research</title>
+		<title level="j" type="abbrev">J. Biomed. Mater. Res.</title>
+		<idno type="ISSN">0021-9304</idno>
+		<idno type="ISSNe">1097-4636</idno>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="213" to="219" />
+			<date type="published" when="1999-11">1999</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B.C.Yang, J.Weng, X.D.Li, X.D.Zhang, J.Biomed.Mat.Res. 47, (1999), 213</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Bioceramics</title>
+		<author>
+			<persName><forename type="first">Larry</forename><forename type="middle">L</forename><surname>Hench</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1151-2916.1998.tb02540.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Ceramic Society</title>
+		<title level="j" type="abbrev">Journal of the American Ceramic Society</title>
+		<idno type="ISSN">0002-7820</idno>
+		<idno type="ISSNe">1551-2916</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1705" to="1728" />
+			<date type="published" when="1993">1993</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.L. Hench., J. Am. Ceram. Soc. 81(7), (1993), 1705</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Bioactive materials</title>
+		<author>
+			<persName><forename type="first">Wanpeng</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Larry</forename><forename type="middle">L</forename><surname>Hench</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0272-8842(95)00126-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ceramics International</title>
+		<title level="j" type="abbrev">Ceramics International</title>
+		<idno type="ISSN">0272-8842</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="493" to="507" />
+			<date type="published" when="1996-01">1996</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W.Cao, L.L Hench, Ceram. Int. 22, (1996), 493</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Chemical reaction of bioactive glass and glass-ceramics with a simulated body fluid</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kokubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kushitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ohtsuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sakka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamamuro</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00705272</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Science: Materials in Medicine</title>
+		<title level="j" type="abbrev">J Mater Sci: Mater Med</title>
+		<idno type="ISSN">0957-4530</idno>
+		<idno type="ISSNe">1573-4838</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="79" to="83" />
+			<date type="published" when="1992-03">1992</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Kokubo, H. Kushitai, C. Ohtsuki, S. Sakka, T. Yamamuro, J.Mater.Sci. Mat.Med., 3, (1992), 79</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A Fast Way for Preparing Crack-Free Mesostructured Silica Monolith</title>
+		<author>
+			<persName><forename type="first">Haifeng</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qihui</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bozhi</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Songhai</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fuqiang</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bo</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongyuan</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/cm020135z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chemistry of Materials</title>
+		<title level="j" type="abbrev">Chem. Mater.</title>
+		<idno type="ISSN">0897-4756</idno>
+		<idno type="ISSNe">1520-5002</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="536" to="541" />
+			<date type="published" when="2003-01-01">2003</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H.Yang, Q.Shi, B. Tian, S. Xie, F. Zhang, Y. Yan, B. Tu, D.Zhao , Chem. Mater. 15(2), (2003) , 536</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

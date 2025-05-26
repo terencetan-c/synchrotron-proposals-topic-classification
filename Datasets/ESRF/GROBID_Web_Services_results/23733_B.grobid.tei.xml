@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E3DA63D997A0A5DB627EE6E10897BCB9</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T16:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Report MI 600</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wolfgang Haeussler</head><p>We have performed a test experiment in order to farther develop a new method making possible dynamic investigations using coherent X-ray radiation. We have developed special software, and adapted it to the CCD-detector available at beamline ID 10A. The test experiment has been performed in the following steps: At first, the standard X-ray Photon Correlation Spectroscopy (XPCS) setup has been used, including a single detector (bicron) with adjustable slits in front of it. Correlation data have been acquired from a well-known sample system (solution of Silica spheres, diameter 200 nm, in a water-glycerol mixture). The diffusive dynamics in this system are found on the time scale around one second. Thereafter, the new method using a CCD camera has been applied. The speckle pattern which originates from scattering of the coherent X-ray beam, changes in time, according to the sample dynamics. Thus, the speckle contrast of each CCD-image depends on its respective exposure time. The contrast of images taken with different exposure times decreases, and can be compared with the temporal correlation function. The CCD camera shutter allows minimum exposure times of about 200 ms. Therefore, measurable contrast will be left, if the sample dynamics is described by a correlation time on this time scale. For samples showing faster dynamics, an external fast shutter has to be used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fig.1</head><p>We have developed new software (software spatial correlator), that allows to calculate the contrast of each CCD-image immediately after acquisition, in principle. Therefore, we have been able to compare the contrast of the speckle pattern determined by the two methods during the beam time. The software calculates the spatial correlation function at each CCD pixel. This is repeated for a series of images taken with the same exposure time, in order to improve the statistics. In practice, on-line calculation is only possible at repetition times above 2-3 seconds, because the software correlator needs this time for computing the contrast of one image. Thus, the image contrast has been calculated during the experiment only for a part of the CCD data. However, all CCD-images are saved to harddisk for later analysis.</p><p>0.3 0.2 0.1 0.0 g 2 -1 10 0 10 1 10 2 10 3 10 4 Correlation time [ms]</p><p>As a first result obtained during the beamtime, the alignment has strong impact on the data, as seen from comparison of measurements at different alignment of the beamline. Especially after the refilling process, the contrast of the CCD images can not any more be compared to the data acquired before. Thus, after each refill, the alignment has been optimized by taking a conventional correlation function. Figure <ref type="figure">1</ref> shows an example of XPCS data taken from the Silica sample. After this, reasonable data could be achieved by taking a series of CCD images within typically 1/2 to 1 hour. Within this time, the exposure time has to be varied over a sufficient range. Fig. <ref type="figure">2</ref> Some results of such a CCD run, taken with the same Silica sample, are shown in Figure <ref type="figure">2</ref>. A number of 100 images has been taken at different exposure times, and the spatial correlation function has been calculated. The result for two exposure times, 0.36 seconds (left) and 1 second (right), are shown in Figure <ref type="figure">2</ref>. As expected, the spatial correlations (given in %) are more pronounced in the shorter illuminated image. Furthermore, the spatial correlation function decays with increasing distance, as expected.</p><p>The contrast of the conventional XPCS data depends on the detector opening. For the data shown in Figure <ref type="figure">1</ref>, the slits have been adjusted to 0.025 mm in both directions. This is comparable to the pixel size of the CCD camera (quadratic, side length 0.0225 mm). The scattering vector q value of the conventional XPCS data (q = 2.2 10 -2 ) is at the lower limit of the scattering vectors obtained by the CCD camera. A comparison between the conventional XPCS and the CCD data shows, that the amplitude of the correlation function, and the CCD image contrast are in good agreement, as expected.</p><p>Up to date, the data have been analyzed only partially for time reasons. For comparing the correlation times obtained by the two methods, more CCD data will be analyzed. The software used for this will be optimized, in order to allow for future on-line analysis between the correlation times and the contrast.</p><p>1 2 3 4 2 0 4 0 6 0 8 0 5 1 0 1 5 5 1 0 1 5 1 2 3 4 2 0 4 0 6 0 8 0 5 1 0 1 5 5 1 0 1 5</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

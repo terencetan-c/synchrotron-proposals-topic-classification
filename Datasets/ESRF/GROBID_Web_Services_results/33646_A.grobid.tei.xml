@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Inelastic X-ray scattering from polycrystalline samples as a mean of extraction of single crystal elastic moduli</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Bossak</forename><surname>Alexei</surname></persName>
+						</author>
+						<title level="a" type="main">Inelastic X-ray scattering from polycrystalline samples as a mean of extraction of single crystal elastic moduli</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">321DAB6FC752B6F59096E5F7BDA909F8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>HS 3051</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Names and affiliations of applicants (* indicates experimentalists):</head><p>Fischer Irmengard ESRF ID 28 Krisch Michael ESRF ID 28</p><p>Bossak Alexei ESRF ID 28</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>The aim of the experiment was to establish an alternative method for the extraction of the phonon dispersion scheme and the single crystal elastic moduli, utilizing inelastic X-ray scattering (IXS) from polycrystalline samples. Polycrystalline hcp beryllium was chosen as test case because of its high inelastic scattering intensity.</p><p>The experiment was performed in transmission geometry, utilizing the Si(999) backscattering reflection of the monochromator and the analyzer (energy resolution of ~3 meV). Spectra for 18 angular settings of the spectrometer arm were recorded. The exact angular positions were chosen to uniformly cover the achievable momentum transfer range and to avoid Bragg peaks. A total of 90 IXS spectra were recorded, spanning a momentum transfer region from 19 nm -1 to 79.5 nm -1 . The IXS spectra were normalized to the incident photon flux and corrected for the different analyzer efficiencies, scattering volume, the scattering factor and the polarization of the incoming X-ray beam.</p><p>A map of the collected and normalized scattering intensities is shown in figure <ref type="figure">1</ref>. The x-axis covers the momentum transfer range from the first Brillouin zone up to the density-of-state limit. The energy transfer from 0 meV to 92.5 meV is presented in the y direction. The right panel of figure <ref type="figure">1</ref> shows model calculations.</p><p>A set of force constants <ref type="bibr" target="#b0">[1]</ref> was used to calculate the phonon energy eigenvalues (E) and eigenvectors over the relevant momentum transfer range, Q, using the OpenPhonon programme <ref type="bibr" target="#b1">[2]</ref>. IXS cross sections were determined for a set of crystallographic directions, corresponding to a uniform orientational sampling. The IXS intensity of the polycrystalline sample was then obtained by averaging these values. Finally, the resulting spectra (at fixed Q) were convoluted with the experimental resolution of 3 meV. The data is in good agreement with the model calculations. In the near future a least square fitting routine, refining the lattice dynamics model, will be available.</p><p>In order to have an appropriate sampling for the phonon density of state (VDOS) reconstruction, two angular settings were chosen. After appropriate summing of the spectra, the multiphonon term was eliminated simultaneously with the deconvolution of the data and the instrumental function, following the procedure described in <ref type="bibr" target="#b1">[2]</ref>. The resulting VDOS of Beryllium is shown in figure <ref type="figure">2</ref>. The determined experimental VDOS is in excellent agreement with calculations <ref type="bibr" target="#b2">[3]</ref>, thus allowing the precise determination of macroscopic parameters such as the Debye temperature and Debye velocity, the vibrational contribution to the specific heat and the internal energy (see Table <ref type="table">1</ref>).</p><p>The derived Debye temperature is about 1600 K. Its value is about 10% higher than calculated from the elastic moduli <ref type="bibr" target="#b4">[5]</ref> and much higher than that obtained from low temperature heat capacity measurements <ref type="bibr" target="#b5">[6]</ref>. No adequate explanation for this discrepancy with heat capacity data is available at the present time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Literature</head><p>Debye Temperature ~ 1600 K 1462 K <ref type="bibr" target="#b4">[5]</ref> 1160 K <ref type="bibr" target="#b5">[6]</ref> Debye velocity 10.8 km/s 9.878 m/s <ref type="bibr" target="#b4">[5]</ref> 7.840 m/s <ref type="bibr" target="#b5">[6]</ref> Table <ref type="table">1</ref>. Selected macroscopic parameters for beryllium E [meV] Q [Å -1 ] E [mev] Q [Å -1 ] Figure 1: Inelastic X-ray scattering intensity for polycrystalline Beryllium. Left panel: experimental results; right panel: model</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .Figure 1 :</head><label>21</label><figDesc>Figure 2. Reconstructed and calculated VDOS of beryllium</figDesc><graphic coords="2,61.92,365.28,213.00,170.28" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Phonon dispersion at the Be(0001) surface</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Hannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Mele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Plummer</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevb.53.2090</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<title level="j" type="abbrev">Phys. Rev. B</title>
+		<idno type="ISSN">0163-1829</idno>
+		<idno type="ISSNe">1095-3795</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2090" to="2100" />
+			<date type="published" when="1996-01-15">1996</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. B. Hannon et al., Phys. Rev. B 53 2090 (1996)</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main"></title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Mirone</forename><surname>Openphonon</surname></persName>
+		</author>
+		<idno type="DOI">10.5988/jime.36.516</idno>
+		<ptr target="http://www.esrf.fr/computing/scientific" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of The Japan Institute of Marine Engineering</title>
+		<title level="j" type="abbrev">Journal of the JIME</title>
+		<idno type="ISSN">1346-1427</idno>
+		<idno type="ISSNe">1884-3778</idno>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="516" to="516" />
+			<date type="published" when="2001">2001</date>
+			<publisher>The Japan Institute of Marine Engineering</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A.Mirone OpenPhonon, Code Source, 2001, http://www.esrf.fr/computing/scientific</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bossak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krisch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">224305</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Bossak, M. Krisch, Phys. Rev. B 72, 224305 (2005)</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ab-initio dynamical properties of the Be(0001) surface</title>
+		<author>
+			<persName><forename type="first">Michele</forename><surname>Lazzeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefano</forename><surname>De Gironcoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0039-6028(97)00993-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surface Science</title>
+		<title level="j" type="abbrev">Surface Science</title>
+		<idno type="ISSN">0039-6028</idno>
+		<imprint>
+			<biblScope unit="volume">402-404</biblScope>
+			<biblScope unit="page" from="715" to="718" />
+			<date type="published" when="1998-05">1998</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Lazzeri, S.de Gironcoli, Surface Science 402 -404 (1998)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Elastic Constants of Single Crystal Beryllium</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Arbogast</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1735427</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<idno type="ISSN">0021-8979</idno>
+		<idno type="ISSNe">1089-7550</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="99" to="102" />
+			<date type="published" when="1960-01-01">1960</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. F. Smith, C. L. Arbogast, J. of. Appl. Phys. 31 99-102 (1960)</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil. Mag</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">636</biblScope>
+			<date type="published" when="1953">1953</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. W. Hill, P. L. Smith, Phil. Mag. 44, 636 (1953)</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

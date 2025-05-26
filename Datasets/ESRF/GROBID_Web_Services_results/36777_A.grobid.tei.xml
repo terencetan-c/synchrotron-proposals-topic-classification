@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EC188: Time-resolved XRD and XAS for the conservation/protection of heritage and other metals using XMaS (BM28) Final Report</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2011-01-23">23 rd January 2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+						</author>
+						<title level="a" type="main">EC188: Time-resolved XRD and XAS for the conservation/protection of heritage and other metals using XMaS (BM28) Final Report</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2011-01-23">23 rd January 2011</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9488844B542C7290317DC97E6D73AD0C</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T23:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>EC188 had a range of goals of two distinct types: instrument and technique development, and the use of synchrotron spectroelectrochemistry and environmental spectroscopy to evaluate heritage metal conservation measures, partly as a demonstrator for the instrumentation. The achievements in the first category were: (i) The successful further development of eCell, an electrochemical/environmental cell with remote control of internal sample position, cell filling and emptying, liquid or gas environment, and a data system capable of the full range of normal electrochemical and electroanalytical activity but synchronised with the operation of the beam line. (ii) The successful testing of a proof of concept x-ray excited optical luminescence (XEOL) spectroscope (ODXAS 1) followed by (iii) the development of a novel XEOL microscopy system capable of acquiring 2048 x 2048 broadband images in &lt; 10 s and to be extended to full spectromicroscopy capability by end 2011 (XEOM 1), (iv) the writing of analytical software esaProject which handles both XRD powder diffractograms from devices such as the Mar CCD 165, and a huge range of spectra, all in native format, and provides an acquisition to publishing capability for XRD, XAS, XEOL, and other spectroscopic data with a rapidly developing image stack and spectrum data mining capability, (v) A proof of concept engineering study of portable environmental cell design. The achievements in the second category were: (i) The invention of a new and simple method for coating heritage lead with protective long chain carboxylates, now undergoing long term testing. (ii) The study of a large range of accepted protocols for inducing corrosion of specific types on copper alloys, and (in general) their dismissal for not producing what has been claimed. (iii) A significant contribution to the understanding of methods for extracting chlorides from artefacts recovered from marine environments. (iv) Parallel acquisition of XEOL-XAS and XAS data from a range of lead, tin and copper compounds to form the beginnings of a reference data base. (v) Acquisition of the first XEOM image stacks with Cuedge XANES normal to the spatial image plane (160 energy increments, 2048 x 506 images, total acquisition time 3200 sec, lateral resolution &lt;5 m, energy resolution 1 eV). (vi) A direct demonstration of the importance of high flux, low flux density imaging modes (microscope) as opposed to high flux, high flux density imaging (microprobe) in terms of both acquisition speed and negligible sample damage. Although the bulk of the work was undertaken on XMaS, there was significant support from measurements made on DUBBLE (BM 26A), beam line I18 at Diamond Light Source, MPW 6.2 at SRS Daresbury, high resolution laboratory XRD (Warwick) and electroanalysis/electrochemistry (Ghent). The project has so far been reported in 10 invited presentations at international venues, 16 contributed talks and posters, an invited article for Accounts of Chemical Research, a book chapter entitled "The Coin Beneath the Crust" in "Holistic Qumran: Trans-Disciplinary Research of Qumran and the Dead Sea Scrolls" and 9 other papers in the peer reviewed literature.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>In the last 10 years or so, heritage science has become an accepted part of mainstream synchrotron activity, in part because of the attractive possibilities for public dissemination. However, one should not forget that the annual contribution of heritage-related tourism to the EU GDP is now probably in the range € 0.7 x 10 12 (larger than the semiconductor and automotive sectors). The fraction of this due directly to the existence of well conserved museum artefacts must be significant, even if it is hard to quantify, so there are compelling economic reasons for supporting the high level science which continuously underpins their conservation. However, especially in the area of non-destructive and non-invasive analysis, heritage science also presents unique challenges centred on the ethos of sample handling. These can act as drivers for instrument and technique development with far wider applications. That has certainly been the case in EC188.</p><p>A flexible multi-tasking beam line such as XMaS offers many analytical opportunities for the study of heritage metals in particular.</p><p>The Huber goniometer provides a means of supporting large samples, or smaller samples enclosed in a controlled environment such as our eCell (Fig <ref type="figure" target="#fig_0">1</ref>). The many detectors allow a variety of diffraction modes, especially (for us) the collection of fast 2-D surface powder diffractograms using the Mar CCD 165 camera. Moreover, the monochromator is exceptionally easy to tune and scan so that x-ray absorption spectroscopy across edges from (now) around 2 keV up to 15 keV is straightforward. SPEC provides a control interface which allows beam line operation to be synchronized with an external PC (our eCell and XEOM controller for example) and has many data acquisition channels so that parallel spectroscopy (in our case XAS and XEOL-XAS) is simple. All of this diffraction and spectroscopy can be devoted to real-time studies of evolving surfaces in a controlled environment, and a large part of the work of EC188 took advantage of this. In the future, we envisage the acquisition of XAS and XRD in parallel, and our XEOM 1 microscope is configured to make this possible. XMaS is a bending magnet beam line, and provides high flux at low flux density. It is often forgotten that spectro-microscopy (sampling all points in an image simultaneously) is inherently much faster than microprobe imaging spectroscopy (sampling points in an image sequentially) at least because of the overhead in scanning the sample and the monochromator together. Even leaving this aside, image acquisition to the same statistical precision in the same time as a microscopy system requires a truly ferocious power density in a microprobe beam. We have demonstrated that microprobes at the required power density modify metal surfaces, destroy metal compounds, completely disrupt an electrolyte in a cell, and destroy any conceivable polymer membrane used as a cell window in a few milliseconds. It is true that microprobe analysis has the ultimate performance in lateral resolution, but this is no use if the sample has vanished. XMaS, therefore provides a superb match to our requirements, and is greatly complemented by the "can do" attitude of the beam line scientists. EC 188 Final report: January 2011 Although the bulk of the work was undertaken on XMaS, there was significant support from measurements made on DUBBLE (BM 26A), beam line I18 at Diamond Light Source, MPW 6.2 at SRS Daresbury, high resolution laboratory XRD (Warwick) and electroanalysis/electrochemistry (Ghent).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Summary of Achievements</head><p>The goals of EC188 encompassed both instrument and technique development, and the use of synchrotron spectroelectrochemistry and environmental spectroscopy to evaluate heritage metal conservation measures. The former resulted in a range of novel general purpose spectroscopy tools, whilst the latter answered specific questions in the area of metals conservation and acted as demonstrators for the instrumentation. The major achievements are as follows:</p><p>The successful further development of our electrochemical/environmental cell eCell, to provide remote control of internal sample position, cell filling and emptying, liquid or gas environment, and a data system capable of the full range of normal electrochemical and electroanalytical activity but synchronised with the operation of the beam line (eCell IV). The enhancements to the capability of our original cell were key to the applications undertaken. The ability to remotely fill (and empty) the cell allows x-ray data to be taken from the moment a sample is submerged (or exposed), rather than having a delay of several minutes while the hutch is closed up. Reactions can be monitored from their start when rates of change are usually at their highest, therefore.</p><p>The development required the cell window to be reengineered and a lightweight and compact pumping system to be devised (Fig. <ref type="figure" target="#fig_1">2</ref>). At the same time, the precision in the sample movement was improved to the point where the mechanism can achieve a reproducibility (in the distance of the sample surface behind the window) better than 10 m. In another context, the mechanism proved to be sufficiently versatile to position the sample a few nm behind a 100 nm thick silicon nitride window for in-situ proton scattering and PIXE measurements through an electrolyte film. At the time of writing we are designing a positional readout system for the cell, based on Hall sensors.</p><p>The successful testing of a proof of concept x-ray excited optical luminescence (XEOL) spectroscope (ODXAS 1) leading to a full XEOL microscopy system as described below. At the start of the project, it was by no means certain that a microscopy system based on XEOL would be useful in our context -for example, count rates achieved in preliminary measurements at SRS Daresbury were adequate (b) (a)</p><p>EC 188 Final report: January 2011 for spectroscopy, but too low for fast imaging. ODXAS 1 (Fig. <ref type="figure" target="#fig_2">3</ref>)allowed us to acquire XANES and EXAFS data by measuring the intensity of filtered and broadband optical emission from the sample as the incident x-ray energy was scanned. The count rates achieved for approximately 10 12 photons s -1 input available on XMaS often exceeded the 5 x 10 6 cps limit of the photomultiplier on ODXAS 1 and it became clear that sufficient visible fluorescence and phosphorescence was excited from metals and compounds of interest to acquire images in under 1000 s (our threshold target. Moreover, the XEOL-XAS spectra usually contained near-identical structure to XAS measured using a Vortex detector (x-ray fluorescence) mounted on ODXAS 1 in parallel, with the addition of structure contributed by specific radiative transitions in the sample. Even where the XAS information was swamped by background fluorescence, as was the case for tin compounds, the optical spectrum (as opposed to the x-ray energy spectrum) is likely still to contain imageable chemical identifiers. In the event, first tests on the full XEOL microscope showed that useful, chemically sensitive maps could be acquired in around 10 seconds at a fraction of the maximum flux available on XMaS (see below).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The development of a novel XEOL microscopy system capable of acquiring 2048 x 2048 broadband images in &lt; 10 s and to be extended to full spectromicroscopy capability by end 2011 (XEOM 1)</head><p>. This is probably the single most important achievement in the project, enabling as it does a whole range of chemical microscopy possibilities with image acquisition on a time scale which makes XAS spectromicroscopy feasible whilst following chemical changes on a surface. Following tests on ODXAS 1, XEOM 1 (Fig. <ref type="figure">4</ref>) was constructed with a custom designed fused silica optical column with an aspherical compound objective. Most of the structure was made from acetal copolymer which has a very low visible fluorescence, can be machined to high accuracy, and is very light, reducing shipping costs and making mounting on the beam line easier. For reasons purely due to allocation timing, XEOM 1 was first tested on DUBBLE in December 2010, and immediately acquired high contrast images and image stacks from chemically PM tube/CCD camera Fast shutter Optics tube Filter housing Objective and techniques manifold Environmental cell Parallel XAS (FLI inc. ML1009). Combined with the magnification in the custom aspherical fused silica optical column of XEOM 1, this provides an ultimate spatial resolution of 1 µm. Images were collected in 10 or 20 seconds in 16-bunch mode, and the lateral resolution was limited (as are almost all counted images) by statistics to around 5 µm.</p><p>Engineering differences between DUBBLE and XMaS (due to the high resolution XAS objectives of the former) mean that we can expect to acquire similar images on XMaS in 1 second or so in multibunch mode (to be tested in February 2011). The camera will be replaced by a 2048 x 2048 model in mid-2011 whilst the existing CCD is moved to the optical spectroscopy branch of XEOM 1 currently under development. This will increase the field of view to 2 x 2 mm 2 at the same resolution, a very powerful combination. The acquisition time will be unaffected, although the  optical spectroscopy, for example at each point in an x-ray energy scan. Switching between imaging and spectroscopy will be under remote control and take a second or so. An additional component currently being manufactured for the imaging branch of XEOM is a remote controlled filter wheel to facilitate imaging in well defined spectral bands. This will allow us to spatially isolate the sources of narrow band radiative transitions, phosphorescence, or broad band optical emission with a cut off wavelength.</p><p>The extension of our of analytical software esaProject which handles both XRD powder diffractograms from devices such as the Mar CCD 165, and a huge range of spectra, all in native format, and provides an acquisition to publishing capability for XRD, XAS, XEOL, and other spectroscopic data with a rapidly developing image stack and spectrum data mining capability. All the plotted data in this report are pasted from esaProject. esaProject was initially developed in 2006-2007 to meet the need to extract XRD spectra from surface powder diffractograms acquired with the Mar camera at high angles to the beam (well outside the capabilities of FIT 2D). It rapidly evolved into a single image or batch processing tool with the ability to extract movie sequences from the diffraction data, and to display and process XRD spectra. esaProject is written for Windows for maximum portability with a number of GUIs</p><p>Total Image Intensity / 10 8 EC 188 Final report: January 2011 intended for use by experts and novices alike. Within the scope of EC188 it has been considerably enhanced, especially to provide a single system for extracting and comparing XAS, XRD and XEOL data, but not limited to any particular spectroscopy. A fundamental guideline has been that it should read data in native formats with no need for conversion. So, for example, it reads Mar images and simultaneously extracts scan parameters from SPEC files, it will extract spectra of any type from SPEC, read native XAS formats (e.g. SRS multi channel detector format allowing individual channel selection), the native formats from Panalytical and Brucker instruments, and one and two column ASCII formats, and a variety of formats in use at Diamond. It will extract XRD reference spectra from MinCryst data cards and ICCD *.rtf files. In summary, esaProject currently offers the following features: pipes any data it can read to a wysiwyg publication interface (used for all the spectral data in this report).</p><p>Future development of the software will initially focus on better handling of the XEOM data, and implementation of features such as spectral comparison. Given adequate funding the package will be evolved in the direction of data fusion.</p><p>A proof of concept engineering study of portable environmental cell design.</p><p>As explained in the Annual Report for Year 2 of EC188, the development of the portable environmental cell PeCell) cell concept has been delayed by circumstances outside our control. It is now the PhD topic of a student a Warwick (Mr James Crawford), and an initial comparison of possible designs has been carried out. Some testing of static prototypes designed to continuously expose heritage metals to oak volatile organic compounds (VOCs) is complete and this has provided samples for measurement on XMaS.  In EC188 we have shown that the lead surface will react with alcoholic solutions of the acid to produce the lead carboxylate, and shown through real time XRD sequences on XMaS that the layer forms principally as the surface is drying (Fig. <ref type="figure" target="#fig_7">7</ref>). XRD data are consistent with the formation of a gel or nanocrystalline layer in solution, and this</p><formula xml:id="formula_0">(a) (b) (c)</formula><p>EC 188 Final report: January 2011 crystallizes as the surface dries in air to form a thin layer of dense interlocking polycrystals of micron dimensions. This is quite different from the conventional growth of the carboxylate in aqueous solution (which we have also studied on XMaS: Fig. <ref type="figure" target="#fig_8">8</ref>)) where the layer crystallizes on the surface in solution, and thickens approximately linearly with time. Not only is the alcohol method quick and inexpensive (the precursors are all cheap substances mass produced for food and cosmetic applications), but the layers of longer chain molecules deposited are insoluble in water and therefore potentially more protective. The method may also be extended to brushing or spraying of the coating, greatly increasing the range of possible applications. At present, we are carrying out a detailed laboratory XRD study on the structure of Pb(C n ) 2 10 n 18, the precursor acids HC n , and the NaC n used in the aqueous solutions. The data published so far on the Pb compounds is inconsistent, and few useful reference spectra exist, so this work is needed to support the interpretation of the large amount of Mar data we have. At the same time, the coatings are undergoing long term tests in atmospheres of oak VOCs (a typical disaster scenario for heritage lead). In parallel with this study, we examined the same group of compounds on copper surfaces in a collaboration with Vlaams Instituut voor het Onroerend Erfgoed (VIOE).</p><p>In this case, the previously published structural data for carboxylates were again inconsistent, but, in any case, the copper carboxylates were far less beneficial that those formed on lead. Firstly, the lead compounds scarcely changed the appearance of the surface, whereas the copper compounds produced a soft (easily damaged) patchy blue patina. Worse still, deposition from alcohol appeared to confer no corrosion resistance, although electrochemical deposition was partially successful. Nevertheless, the modification of the surface appearance of a heritage artefact in a conservation treatment is generally unacceptable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The study of a large range of accepted protocols for inducing corrosion of specific types on copper alloys, and (in general) their dismissal for not producing what has been claimed</head><p>. There are many protocols for producing test compounds on heritage EC 188 Final report: January 2011 metal surfaces (or simulants thereof). Most of these are conveyed as "received wisdom", but even where there have been publications, the characterization was usually done so long ago that the quality of spectral data is well below what one would expect today. Following a number of unexpected effects when we were attempting to test chloride extraction treatments, it became obvious that the simulated corrosion layers we were using were far more complex chemically than the published or private communication had suggested. Apart from being highly impure, the layers were also stratified, spatially inhomogeneous, or both. We therefore used the real time capability of the Mar Camera and the eCell to measure the short and long term development of layers produced by a selection of protocols. This was done by suspending a droplet of the corrosive medium from the inside of the eCell window, commencing Mar XRD imaging, and using the sample positioning in eCell to drive a copper coupon into the droplet, to produce a thin fluid layer between the coupon and the window (a "droplet experiment"). ODXAS 1 was also used and the work was supported by laboratory XRD at Warwick and similar experiments on MPW6,2 at SRS. For example, a simple protocol for producing nantokite (Figs. 9 and 10) was found to make varying proportions of nantokite and cuprite depending on a rinsing stage. The layers formed also contained varying proportions of paratacamite. A protocol for making atacamite produced nanocrystalline or largely amorphous material with very high impurity levels due to copper and precursor by-products. One of these compounds still has not been identified but is believed to be a copper amine chloride which is unstable in water. In this case, the protocol contained no rinsing stage, but the addition of one leaves a surface which is, indeed, quite thick atacamite, but with very broad peaks in XRD due to its (presumably) nanocrystalline structure.</p><p>EC 188 Final report: January 2011 A significant contribution to the understanding of methods for extracting chlorides from artefacts recovered from marine environments. This is simply summarized: work on simulated corrosion layers to date has little or no relevance to the real problem because the simulants did not consist of the expected compounds, and they were bonded to the copper surface in ways related to their production, which was quite different from the case for naturally formed compounds. Our future work will focus on environmentally formed chlorides and marine exposed chloride containing metal samples for this reason. Parallel acquisition of XEOL-XAS and XAS data from a range of lead, tin and copper compounds to form the beginnings of a reference data base. Using ODXAS 1 we made the first parallel optical and x-ray fluorescence measurements of Pb LIII, Sn LIII and Cu K edge XANES and EXAFS (Fig. <ref type="figure" target="#fig_12">11</ref>). We also did a limited amount of work on Zn. Parallel acquisition immediately reveals differences in near edge structure due to chromophoric emission from the sample, and is a valuable source of information on the sources of background in the XEOL. Spectra from the metals were in excellent agreement as were those from most of the compounds. The exception was Sn where the oxides fluoresced very strongly in the visible using channels unconnected with L-edge excitation. Nevertheless, the measurements showed that tin compounds should be easy to distinguish from those of the other elements in an image, especially as we will have parallel optical spectroscopy available shortly.</p><p>(a) (b) EC 188 Final report: January 2011 Acquisition of the first XEOM image stacks with Cu-edge XANES normal to the spatial image plane (160 energy increments, 2048 x 506 images, total acquisition time 3200 sec, lateral resolution &lt;5 µm, energy resolution 1 eV). These are the first spectro-microscopy data available from XEOM 1 (See <ref type="bibr">Fig 5)</ref>. esaProject is currently being modified to extract localized spectra, but the image stack itself shows clear chemical differentiation between a cuprite coated grid on a nantokite coated coupon. The total spectrum from the image shows features associated with both the compounds as expected. As mentioned above, these first data were taken on DUBBLE. On XMaS, acquisition speeds will be even higher.</p><p>A direct demonstration of the importance of high flux, low flux density imaging modes (microscope) as opposed to high flux, high flux density imaging (microprobe) in terms of both acquisition speed and negligible sample damage.</p><p>We have compared our XEOM acquisition mode on a bending magnet beam line with probe-based XEOL imaging on a microfocus beam line (I18 at Diamond). In both modes we had about the same flux onto the sample, but at I18 the beam was 5 x 3 µm 2 compared to 2 x 1 mm 2 at ESRF.</p><p>With the high flux density on I18, the polymer windows on eCell were punctured in a few ms, rendering immersion experiments impossible, and there was a perceptible evolution in the shape of the XEOL-XANES data from copper corrosion products EC 188 Final report: January 2011 (and even from copper metal) with time indicating significant surface damage by the beam. The lifetime of the sample was far less than the time for image acquisition. Interestingly, parallel x-ray fluorescence XANES data showed little change. This is because XEOL is significantly more surface specific than conventional XAS, and highlights surface modification in the top 200 nm or so. Reducing the flux on the beam line is not an option as it extends the imaging time beyond all practical limits. In practice, it took around 8 hours to collect a 16 x 17 pixel image stack 80 x 51 µm 2 with 80 energies, and evolution in the sample chemistry was obvious in the xray/optical fluorescence XANES comparison. With XEOM 1 at ESRF, a 2048 x 506 image (2 x 0.5 mm 2 ) at the same or higher lateral resolution, with twice the number of points in the energy scale takes just 3200 sec to acquire (and we will increase this speed on XMaS in February 2011). The samples showed no damage on this timescale, but when using eCell the widows need replacement to avoid splitting.</p><p>Fig. <ref type="figure" target="#fig_1">12</ref> Demonstrates the surface specificity of XEOL and the effects of damage due to high beam flux density on I 18 at Diamond. The sample is nantokite on copper. In the left pane we see x-ray fluorescence XAS which does not see the nantokite layer as it is under 1 µm thick. The spectrum is characteristic of the underlying copper, and is stable over 50 minutes of exposure at ~10 12 photons/sec into 5 x 3 µm 2 . On the right, the surface specific XEOL-XAS data are initially somewhat characteristic of nantokite (esp. the sharp white line on the Cu edge), but there is already a considerable paratacamite (or atacamite) component in the first (red) spectrum. Over time, the surface converts to paratacamite/atacamite. Identical data with regards to the surface specificity are obtained on XMaS, but there is far less paratacamite initially, and the spectra are stable over time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Dissemination</head><p>(Also see Publication List) Material from the project has so far been reported in 10 invited presentations at international venues, 16 contributed talks and posters, an invited article for Accounts of Chemical Research, a book chapter entitled "The Coin Beneath the Crust" in "Holistic Qumran: Trans-Disciplinary Research of Qumran and the Dead Sea Scrolls" and 9 other papers in the peer reviewed literature. In addition, the work has been the subject of a public IoP lecture, and will be presented in an invited lunchtime talk at RAL (UK) in February. It was featured (rather inaccurately) in Photonics Spectra 42 and formed the basis of some of our invited EC 188 Final report: January 2011 submission to the EU White Paper Gennesys: "A new European partnership between nanomaterials science &amp; nanotechnology and synchrotron radiation and neutron facilities." Publication of the vast amount of data acquired in EC188 is an on-going task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Other Work and Outcomes</head><p>A copy of the new version of eCell produced during EC 188 was supplied to C. Lucas (Liverpool). esaProject is freely available on XMaS and executable files can also be down loaded free of charge by contacting mgdowsett@aol.com.</p><p>Work on naturally produced patinas in collaboration with P. Letardi (ISMAR, Genova) was commenced. Artefacts from the Mary Rose Trust (UK) were also made available, but time constraints meant that these will be reserved for future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Personnel and Acknowledgements</head><p>Seven students gained experience at ESRF working directly on EC 188: J.B. Crawford (Warwick), A. Elia (Ghent), M. Hand (Warwick), G. K. C. Jones (Warwick), Michel de Keersmaecker (Ghent), A. Pappot (Rijksmuseum), B. Schotte (Ghent)</p><p>Our local contacts during the project were Laurence Bouchenoire, Peter Normile and Simon Brown. Significant contributions were also made by Paul Thomson and David Paul. We would like to thank all of them for their expert help and enthusiasm. Harald Mueller supplied all the chemicals we forgot and runs a superbly equipped and efficient chemistry laboratory.</p><p>Electrochemical expertise was supplied by Annemie Adriaens. Philip Brondeel (Ghent) wrote the classes for direct control of the CCD camera, Matt Hand (Warwick) wrote the user interface and combined it with the eCell control system originally written by Gareth Jones and Mark Dowsett. esaProject was written by Mark Dowsett and the source code IP is the property of EVA Surface Analysis <ref type="bibr">(Dowsett, Adriaens)</ref>. All engineering design, and the entire construction of XEOM 1 was contributed FOC by EVA Surface Analysis <ref type="bibr">(Dowsett)</ref>. Simulation and design of the lenses was by Matt Hand. Electronic support was given by Adrian Lovejoy (Warwick). eCell and subsystems were engineered by EVA Surface Analysis (Dowsett, Adriaens) and built by Derrick Richards (Warwick). The remote filling module was made in the Ghent University Workshops.</p><p>The ongoing development of XEOM 1, ODXAS 1 is funded by the Paul Instrument Fund (UK), Fonds voor Wetenschappelijk Onderzoek (FWO) (BE), Bijzonder Onderzoeksfonds, Ghent University (BOF Ugent) (BE) and EVA Surface Analysis (UK). PhD students on the project are funded by EPSRC (UK), FWO (BE), BOF UGent (BE) and Rijksmuseum (NL).</p><p>Work on XEOL has been greatly assisted through discussions with Nigel Poolton (formerly SRS, Daresbury) who got us going with the technique, and Robert Pettifer (Warwick). Robert's enthusiasm for, and tutoring in, XEOL shortly before his death had a significant influence on our decision to attempt the microscope. Interpretation of XRD spectra and laboratory XRD work has been strongly supported by Pam Thomas and David Walker (Warwick).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 :</head><label>1</label><figDesc>Fig 1: Mk III version of the electrochemical cell (eCell III) mounted on the Huber goniometer of the XMaS beam line just prior to the start of EC188.</figDesc><graphic coords="2,73.50,265.26,246.00,184.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: (a) eCell mk IV mounted on ODXAS 1 optical rail on the chi circle of the Huber goniometer. An atacamite coated copper coupon in the demountable working electrode is visible behind the ultralene window. The window is stretched and sealed into a PCTFE frame by a Viton O ring. The filling tube is left foreground. (b) Lightweight, compact remote filling pump.</figDesc><graphic coords="3,73.50,457.86,173.22,129.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 :</head><label>3</label><figDesc>Fig. 3: eCell and ODXAS 1 mounted on the chi circle of the Huber goniometer. A vortex detector for parallel XAS measurements is mounted on the tube to the right of the picture.</figDesc><graphic coords="4,136.01,268.20,339.86,220.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>report: January 2011 cycle time will be marginally increased at full resolution. The spectroscopy branch will disperse the incoming broadband photons onto the CCD detector providing</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig 5 :</head><label>5</label><figDesc>Fig 5: First data from XEOM 1. (a) Detail of a 2048 x 506 XEOL image of a cuprite coated mesh on a nantokite coupon. This image is one of a stack of 160 such images taken as the monochromator scanned across the Cu K edge. (b) The spectrum integrated from the complete image stack. Software development is in progress to extract spectra and display from local areas.</figDesc><graphic coords="6,109.50,113.40,403.14,134.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig 6 :</head><label>6</label><figDesc>Fig 6:  Just one of the many processing sequences possible with esaProject: A sequence of several hundred Mar images can be batch processed through the reprojection algorithm and integrated to extract the spectra. The spectrum set can then be converted to an image so that the evolution of the peaks with a process parameter can be displayed. Graphs of any selected peak or peak set height, area or position vs. a process parameter can also be displayed and published.</figDesc><graphic coords="7,108.96,168.96,382.08,193.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>The invention of a new and simple method for coating heritage lead with protective long chain carboxylates, now undergoing long-term testing. The reaction between the lead surface and a long chain carboxylate group to form a compound of the type [CH 3 (CH 2 ) m COO] 2 Pb where m+2 = n 7 (or Pb(C n ) 2 for short) has been shown to produce a corrosion resistant surface. The corrosion resistance increases with n but the solubility of precursor compounds decreases to virtually zero for n&gt;10. However the relevant carboxylic acids are all soluble in ethanol and propanol up to at least n=18.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig, 7 :</head><label>7</label><figDesc>Fig, 7: Growth from a solution of 0.05 M HC 14 (myristic acid). (a) Data extracted from a stack of several hundred Mar images taken over ~9 hours soaking time in eCell. Unlike the case for aqueous solution in Fig 8, there is no strong crystallization, but some evidence for structural evolution. (b) Rapid crystallization on drying in air. (c) An unexposed region of the layer to check that there has been no x-ray damage.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig 8 :</head><label>8</label><figDesc>Fig 8: Real time measurement of the growth of Pb(C 10 ) 2 in an aqueous solution of 0.05 M NaC 10 . Crystallization occurs in solution. The original Mar diffractograms show polycrystals with weak caxis orientation normal to the Pb surface.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 :</head><label>9</label><figDesc>Fig. 9: Waterfall plot of droplet experiment carried out using saturated copper II chloride, spectra extracted from Mar images using esaProject. Everything looks good, a thin layer of nantokite grows. The copper signal increases merely because the attenuation due to the fluid decreases as it is consumed.</figDesc><graphic coords="10,109.50,334.20,417.54,274.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 :</head><label>10</label><figDesc>Fig. 10: (a) Reprojected Mar image from the end of the drying sequence which commenced after the data in Fig 9. There is a lot of copper II chloride so rinsing is essential. (b) Green spectrum is from the image. Red spectrum is after rinsing. Note the appearance of paratacamite and cuprite due to the hydrolization of nantokite; the protocol is useless.</figDesc><graphic coords="11,109.50,389.58,411.42,176.94" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig 11 :</head><label>11</label><figDesc>Fig 11: Left and right panes show XAS data collected by x-ray fluorescence and XEOL respectively. The backgrounds are quite different -XEOL-XAS typically exhibits a high background due to emission channels which are not coupled to the edge. However, the spectrum features are identical.</figDesc><graphic coords="12,73.50,72.00,451.32,338.52" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Electrochemical deposition of a copper carboxylate layer on copper as potential corrosion inhibitor</title>
+		<author>
+			<persName><forename type="first">Elia</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">De</forename><surname>Wael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10008-010-1283-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Solid State Electrochemistry</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elia A., K. De Wael, M. Dowsett, A. Adriaens, Electrochemical deposition of a copper carboxylate layer on copper as potential corrosion inhibitor, J. Solid State Electrochemistry, (2011) DOI: 10.1007/s10008-010-1283-6.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">On the use of alcoholic carboxylic acid solutions for the deposition of protective coatings on copper</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Metal 2010 -Interim Meeting of the International Council of Museums Committee for Conservation Metal Working Group</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Markdikian</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Chemello</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Watters</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Hull</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="144" to="150" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elia, A., Mark Dowsett and Annemie Adriaens, On the use of alcoholic carboxylic acid solutions for the deposition of protective coatings on copper, Metal 2010 - Interim Meeting of the International Council of Museums Committee for Conservation Metal Working Group (2010), eds. P. Markdikian, C. Chemello, C. Watters and P. Hull, ISBN 978-0-9830399-0-7, pp144-150</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The coordinated use of synchrotron spectroelectrochemistry for corrosion studies on heritage metals</title>
+		<author>
+			<persName><forename type="first">Adriaens</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dowsett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Accounts of Chemical Research</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="927" to="935" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adriaens A., and M. Dowsett, The coordinated use of synchrotron spectroelectrochemistry for corrosion studies on heritage metals, Accounts of Chemical Research 43 (2010) 927-935</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">1. The Coin Beneath The Crust: A Pilot Study Of Coins From The Mediterranean Coast Of Israel</title>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eberhard</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoav</forename><surname>Farhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Gunneweg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bouchenoire</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/ej.9789004181526.i-210.11</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Holistic Qumran</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Gunneweg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Dik</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>BRILL</publisher>
+			<date type="published" when="2010-01-01">2010</date>
+			<biblScope unit="page" from="11" to="20" />
+		</imprint>
+	</monogr>
+	<note>In press</note>
+	<note type="raw_reference">Adriaens, A., M. Dowsett, E. Lehmann, Y. Farhi, J. Gunneweg and L. Bouchenoire, The Coin Beneath The Crust, in Holistic Qumran: Trans-Disciplinary Research of Qumran and the Dead Sea Scrolls (In press), J. Gunneweg, A. Adriaens, and J. Dik, Editors. 2010, Brill: Leiden. pp 11-19</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Electrochemical deposition of dodecanoate on lead in view of an environmentally safe corrosion inhibition</title>
+		<author>
+			<persName><forename type="first">Karolien</forename><surname>De Wael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>De Keersmaecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pamela</forename><forename type="middle">A</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10008-009-0898-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Solid State Electrochemistry</title>
+		<title level="j" type="abbrev">J Solid State Electrochem</title>
+		<idno type="ISSN">1432-8488</idno>
+		<idno type="ISSNe">1433-0768</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="407" to="413" />
+			<date type="published" when="2010">2010</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Wael, K., M. DeKeersmaecker, M. Dowsett, D. Walker, P.A. Thomas, and A. Adriaens, Electrochemical deposition of dodecanoate on lead in view of an environmentally safe corrosion inhibition. Journal of Solid State Electrochemistry, 2010. 14: p. 407-413.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;In‐situ&lt;/i&gt; spectroelectrochemical study of the growth process of a lead decanoate coating as corrosion inhibitor for lead surfaces</title>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Schotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gareth</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurence</forename><surname>Bouchenoire</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/sia.3062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surface and Interface Analysis</title>
+		<title level="j" type="abbrev">Surface &amp; Interface Analysis</title>
+		<idno type="ISSN">0142-2421</idno>
+		<idno type="ISSNe">1096-9918</idno>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="565" to="572" />
+			<date type="published" when="2009-04-17">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dowsett, M., A. Adriaens, B. Schotte, G. Jones, and L. Bouchenoire, In-situ spectroelectrochemical study of the growth process of a lead decanoate coating as corrosion inhibitor for lead surfaces. Surface and Interface Analysis, 2009. 41(7): p. 565-572.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">A new European partnership between nanomaterials science &amp; nanotechnology and synchrotron radiation and neutron facilities</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bertrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dillmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<editor>M.H. Van de Voorde</editor>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<pubPlace>Stuttgart</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Max-Planck-Institut fur Metallforschung</orgName>
+		</respStmt>
+	</monogr>
+	<note>Ancient and Historical Systems, in GENNESYS white paper</note>
+	<note type="raw_reference">Bertrand, L., P. Dillmann, M.G. Dowsett, and A. Adriaens, Ancient and Historical Systems, in GENNESYS white paper. &quot;A new European partnership between nanomaterials science &amp; nanotechnology and synchrotron radiation and neutron facilities&quot;, M. Dosch and M.H. Van de Voorde, Editors. 2009, Max-Planck-Institut fur Metallforschung: Stuttgart.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An in-situ X-ray absorption spectroelectrochemistry study of the response of artificial chloride corrosion layers on copper to remedial treatment</title>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gareth</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karen</forename><surname>Leyssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergey</forename><surname>Nikitenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b814181a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anal. At. Spectrom.</title>
+		<title level="j" type="abbrev">J. Anal. At. Spectrom.</title>
+		<idno type="ISSN">0267-9477</idno>
+		<idno type="ISSNe">1364-5544</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="62" to="68" />
+			<date type="published" when="2009">2009</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adriaens, A., M. Dowsett, G. Jones, K. Leyssens, and S. Nikitenko, An in-situ X-ray absorption spectroelectrochemistry study of the response of artificial chloride corrosion layers on copper to remedial treatment. Journal of Analytical Atomic Spectrometry, 2009. 24(1): p. 62-68.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Time resolved spectroelectrochemistry studies for protection of heritage metals</title>
+		<author>
+			<persName><forename type="first">Adriaens</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dowsett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surface Engineering</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="84" to="89" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adriaens, A. and M. Dowsett, Time resolved spectroelectrochemistry studies for protection of heritage metals. Surface Engineering, 2008. 24(2): p. 84-89.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Growth and real time corrosion resistance monitoring of lead decanoate coatings</title>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>De Bisschop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Schotte</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2008.05.333</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Surface Science</title>
+		<title level="j" type="abbrev">Applied Surface Science</title>
+		<idno type="ISSN">0169-4332</idno>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="7351" to="7355" />
+			<date type="published" when="2008-09">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adriaens, A., F. De Bisschop, M. Dowsett, and B. Schotte, Growth and real time corrosion resistance monitoring of lead decanoate coatings. Applied Surface Science, 2008. 254(22): p. 7351-7355.</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Optically Detected X-ray Absorption Spectroscopy Measurements as a Means of Monitoring Corrosion Layers on Copper</title>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gareth</forename><forename type="middle">K C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nigel</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><surname>Fiddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergé</forename><surname>Nikitenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac800895n</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Chemistry</title>
+		<title level="j" type="abbrev">Anal. Chem.</title>
+		<idno type="ISSN">0003-2700</idno>
+		<idno type="ISSNe">1520-6882</idno>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="8717" to="8724" />
+			<date type="published" when="2008-10-15">2008</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dowsett M., A. Adriaens, G.K.C. Jones, N. Poolton, S. Fiddy, S. Nikitenko, Optically detected X-ray absorption spectroscopy (ODXAS) measurements as a means to monitor corrosion layers on copper, Analytical Chemistry 80 (2008) 8717-8724.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">X-ray excited optical microscopy -a new tool for cultural heritage, spectroelectrochemistry, and wider applications</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nikitenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K C</forename><surname>Jones</surname></persName>
+		</author>
+		<idno>SR2A 2010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EC</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<date type="published" when="2011-01">January 2011</date>
+			<pubPlace>Amsterdam, Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SR2A 2010 (Amsterdam, Netherlands) M. G. Dowsett, A. Adriaens, M. Hand, A. Elia, S. Brown, S. Nikitenko and G. K. C. Jones, X-ray excited optical microscopy -a new tool for cultural heritage, spectroelectrochemistry, and wider applications. EC 188 Final report: January 2011</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><surname>Xtop</surname></persName>
+		</author>
+		<title level="m">Synchrotron techniques for the conservation of heritage metals</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Dowsett</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Coventry, UK</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">XTOP 2010 (Coventry, UK): M. Dowsett and A. Adriaens, Synchrotron techniques for the conservation of heritage metals</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Spectroelectrochemical study of the growth of lead carboxylate coatings for corrosion protection and inhibition and</title>
+		<author>
+			<persName><forename type="first">Lorentz</forename><surname>Workshop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Electrochemistry in Historical and Archaeological Conservation</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Dowsett</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Leiden, Netherlands</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lorentz Workshop &quot;Electrochemistry in Historical and Archaeological Conservation&quot; (Leiden, Netherlands 2010), M. Dowsett and A. Adriaens, Spectroelectrochemical study of the growth of lead carboxylate coatings for corrosion protection and inhibition and</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">An in-situ X-ray absorption spectroelectrochemistry study of the response of artificial chloride corrosion layers on copper to remedial treatment</title>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gareth</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karen</forename><surname>Leyssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sergey</forename><surname>Nikitenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b814181a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anal. At. Spectrom.</title>
+		<title level="j" type="abbrev">J. Anal. At. Spectrom.</title>
+		<idno type="ISSN">0267-9477</idno>
+		<idno type="ISSNe">1364-5544</idno>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="62" to="68" />
+			<date type="published" when="2009" />
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Adriaens and M. Dowsett An in-situ X-ray absorption spectroelectrochemistry study of the response of artificial chloride corrosion layers on copper to remedial treatment.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">In-situ Electrochemical and SR-XRD Time-resolved Study of Lead Carboxylate Coating for the Protection of Cultural Heritage Artefacts</title>
+		<author>
+			<persName><surname>Melbourne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">)</forename><forename type="middle">A</forename><surname>Australia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dowsett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISRP</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ISRP 11 (Melbourne, Australia) A. Adriaens and M. Dowsett, In-situ Electrochemical and SR-XRD Time-resolved Study of Lead Carboxylate Coating for the Protection of Cultural Heritage Artefacts</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Simultaneous in situ time resolved SR-XRD and corrosion potential analyses to monitor the corrosion on copper</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leyssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Oloff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pantos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M T</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.elecom.2005.09.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochemistry Communications</title>
+		<title level="j" type="abbrev">Electrochemistry Communications</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Adriaens</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Dowsett</surname></persName>
+		</editor>
+		<idno type="ISSN">1388-2481</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1265" to="1270" />
+			<date type="published" when="2005-12" />
+			<publisher>Elsevier BV</publisher>
+			<pubPlace>Nice, France</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">EUROCORR 2009 (Nice, France) Keynote Lecture: In-situ time resolved monitoring of copper corrosion, A. Adriaens, M. Dowsett</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName><surname>Matcons</surname></persName>
+		</author>
+		<title level="m">The Use of Carboxylate Coatings on Lead as Environmentally Safe Corrosion Inhibition, A. Adriaens</title>
+		<meeting><address><addrLine>Craiova, Romania</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MATCONS 2009 (Craiova, Romania): The Use of Carboxylate Coatings on Lead as Environmentally Safe Corrosion Inhibition, A. Adriaens.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The use of Infrastructural Facilities for Cultural Heritage Research</title>
+		<imprint>
+			<date type="published" when="2008">Rome, 2008</date>
+			<biblScope unit="volume">22</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">EPS 22 (Rome, 2008) M. Dowsett and A. Adriaens, The use of Infrastructural Facilities for Cultural Heritage Research</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><surname>Esof ; Madrid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">)</forename><forename type="middle">M</forename><surname>Spain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adriaens</surname></persName>
+		</author>
+		<title level="m">Beauty and the Synchrotron</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ESOF 2008 (Madrid, Spain) M. Dowsett and A. Adriaens, Beauty and the Synchrotron</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Art of Hard Science</title>
+		<author>
+			<persName><forename type="first">;</forename><forename type="middle">G K C</forename><surname>Srs Daresbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R J</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fiddy</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nikitenko</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>eCell and XAS for the study of Copper Corrosion</note>
+	<note type="raw_reference">Workshop &quot;Art of Hard Science&quot; (SRS Daresbury, 2008) G. K. C. Jones, M. G. Dowsett, A. Adriaens, N. R. J. Poolton, S. Fiddy and S. Nikitenko, eCell and XAS for the study of Copper Corrosion.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Amsterdam, the Netherlands</title>
+		<idno type="DOI">10.4135/9781412971973.n10</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Contributed presentations SR2A 2010</title>
+		<meeting><address><addrLine>Amsterdam, Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>SAGE Publications, Inc.</publisher>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Contributed presentations SR2A 2010 (Amsterdam, Netherlands)</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Growth and real time corrosion resistance monitoring of lead decanoate coatings</title>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>De Bisschop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Schotte</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2008.05.333</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Surface Science</title>
+		<title level="j" type="abbrev">Applied Surface Science</title>
+		<idno type="ISSN">0169-4332</idno>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="7351" to="7355" />
+			<date type="published" when="2008-09" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Adriaens, M. G. Dowsett, P. A. Thomas, G. K. C. Jones, A. Elia, and L. Bouchenoire, Real time XRD Monitoring of Lead Carboxylate Growth in an Environmental Cell (Oral)</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<title level="m">esaProject: User Friendly Software developed for synchrotron-based heritage science</title>
+		<imprint/>
+	</monogr>
+	<note>Poster</note>
+	<note type="raw_reference">M. G. Dowsett and A. Adriaens, esaProject: User Friendly Software developed for synchrotron-based heritage science (Poster)</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">A Synchrotron Radiation Study of Copper Carboxylate Layers on the XMaS beamline (Poster)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Normile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">A.Elia, A. Adriaens, P. Normile and M. G. Dowsett, A Synchrotron Radiation Study of Copper Carboxylate Layers on the XMaS beamline (Poster)</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Optical Design of an X-Ray excited optical luminescence microscope (XEOM) (Oral) XTOP</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<pubPlace>Coventry, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Hand, M. G. Dowsett and A. Adriaens, Optical Design of an X-Ray excited optical luminescence microscope (XEOM) (Oral) XTOP 2010 (Coventry, UK):</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Cell for Simultaneous Synchrotron Radiation X-ray and Electrochemical Corrosion Measurements on Cultural Heritage Metals and Other Materials</title>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac052125y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Chemistry</title>
+		<title level="j" type="abbrev">Anal. Chem.</title>
+		<idno type="ISSN">0003-2700</idno>
+		<idno type="ISSNe">1520-6882</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3360" to="3365" />
+			<date type="published" when="2006-04-14" />
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note>Poster</note>
+	<note type="raw_reference">M. Dowsett and A. Adriaens, esaProject: A prelude to data fusion for X-ray and other spectroscopies (Poster)</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Optical Design of an X-Ray excited optical luminescence microscope (XEOM</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Poster</note>
+	<note type="raw_reference">M. Hand, M. G. Dowsett and A. Adriaens, Optical Design of an X-Ray excited optical luminescence microscope (XEOM) (Poster)</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Growth and real time corrosion resistance monitoring of lead decanoate coatings</title>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>De Bisschop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Schotte</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2008.05.333</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Surface Science</title>
+		<title level="j" type="abbrev">Applied Surface Science</title>
+		<idno type="ISSN">0169-4332</idno>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="7351" to="7355" />
+			<date type="published" when="2010">2010</date>
+			<publisher>Elsevier BV</publisher>
+			<pubPlace>Charleston, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Adriaens, M. G. Dowsett, G. K. C. Jones, A. Elia, and L. Bouchenoire. Real time XRD monitoring of lead carboxylate growth in an environmental cell (Poster) Metal 2010 (Charleston, USA)</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Electrochemical deposition of a copper carboxylate layer on copper as potential corrosion inhibitor</title>
+		<author>
+			<persName><forename type="first">Alice</forename><surname>Elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karolien</forename><surname>De Wael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10008-010-1283-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Solid State Electrochemistry</title>
+		<title level="j" type="abbrev">J Solid State Electrochem</title>
+		<idno type="ISSN">1432-8488</idno>
+		<idno type="ISSNe">1433-0768</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="143" to="148" />
+			<date type="published" when="2011-01-26">January 2011</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elia, M. G. Dowsett and A. Adriaens, On the use of alcoholic carboxylate acid solutions for the deposition of protective coatings on copper (Oral) EC 188 Final report: January 2011</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A Fault Tree Based Investigation of the Reliability of Ocean Racing Yachts Incorporating Human Performance and Canting Keel Impacts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Streeter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Auboin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Rigg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Taunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Turnock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I R</forename><surname>Blake</surname></persName>
+		</author>
+		<idno type="DOI">10.3940/rina.innovsail.2010.21</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Innovation in High Performance Sailing Yachts 2010</title>
+		<meeting><address><addrLine>Southampton, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>RINA</publisher>
+			<date type="published" when="2010-06-30">2010</date>
+			<biblScope unit="page" from="113" to="124" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">51 st Corrosion Science Symposium (Southampton, UK, 2010)</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Growth and real time corrosion resistance monitoring of lead decanoate coatings</title>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><surname>De Bisschop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bart</forename><surname>Schotte</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2008.05.333</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Surface Science</title>
+		<title level="j" type="abbrev">Applied Surface Science</title>
+		<idno type="ISSN">0169-4332</idno>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="7351" to="7355" />
+			<date type="published" when="2008-09" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adriaens, M. G. Dowsett, P. A. Thomas, G. K. C. Jones, A. Elia, and L. Bouchenoire, Real time XRD monitoring of lead carboxylate growth in an environmental cell (Oral)</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Real time synchrotron XRD measurements of copper corrosion and conservation protocols (Oral)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K C</forename><surname>Elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bouchenoire</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Adriaens, M. G. Dowsett, A. Elia, G. K. C. Jones, C. Martin and L. Bouchenoire, Real time synchrotron XRD measurements of copper corrosion and conservation protocols (Oral)</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">X-ray excited optical luminescence for the study of problems in heritage metal corrosion (Oral)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">M. G. Dowsett, A. Adriaens, M. Hand, J. B. Crawford A. Elia and S. Brown, X-ray excited optical luminescence for the study of problems in heritage metal corrosion (Oral)</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Monitoring heritage metal corrosion and conservation techniques using synchrotron radiation (Oral)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annemie</forename><surname>Adriaens</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">M. G. Dowsett and Annemie Adriaens, Monitoring heritage metal corrosion and conservation techniques using synchrotron radiation (Oral).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Electrochemistry in Historical and Archaeological Conservation</title>
+		<author>
+			<persName><forename type="first">Lorentz</forename><surname>Workshop</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<pubPlace>Leiden, Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lorentz Workshop &quot;Electrochemistry in Historical and Archaeological Conservation&quot; (Leiden, Netherlands 2010)</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Developing a broadband X-ray excited optical luminescence microscope (XEOM</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Poster</note>
+	<note type="raw_reference">M. Hand, M. G. Dowsett and A. Adriaens, Developing a broadband X-ray excited optical luminescence microscope (XEOM) (Poster)</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Portable environmental and electrochemical cells for long-term investigations of corrosion and conservation of heritage metals</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Poster</note>
+	<note type="raw_reference">J. B. Crawford, M. G. Dowsett, and A. Adriaens, Portable environmental and electrochemical cells for long-term investigations of corrosion and conservation of heritage metals (Poster)</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Collection générale | 2009</title>
+		<author>
+			<persName><surname>Synew</surname></persName>
+		</author>
+		<idno type="DOI">10.4000/brussels.286</idno>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>OpenEdition</publisher>
+			<pubPlace>Brussels, BE</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SyNeW 2009 (Brussels, BE)</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dowsett</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Elia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Situ Time-Resolved Monitoring of Copper Corrosion using an Automated Electrochemical Cell (Poster)</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Adriaens, M.G. Dowsett, A. Elia, In-Situ Time-Resolved Monitoring of Copper Corrosion using an Automated Electrochemical Cell (Poster)</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Electrochemical analysis of metallic heritage artefacts: time-lapse spectroelectrochemical techniques</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adriaens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dowsett</surname></persName>
+		</author>
+		<idno type="DOI">10.1533/9781782421573.2.149</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Corrosion and Conservation of Cultural Heritage Metallic Artefacts</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="149" to="164" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adriaens, M.G. Dowsett, G.K.C. Jones, In-Situ Electrochemical and SR-XRD Time Resolved Study of Lead Carboxylate Coating for The Protection Of Cultural Heritage Artefacts (Poster) Other presentations given at UK and ESRF Synchrotron Users meetings and XMaS Users meetings.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

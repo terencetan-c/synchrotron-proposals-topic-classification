@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Characterization of high-Z pixel sensors using a focused monochromatic synchrotron beam</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-12-14">14/12/2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Dimitrios</forename><surname>Bessas</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stergios</forename><surname>Tsigaridas</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cyril</forename><surname>Ponchut</surname></persName>
+						</author>
+						<title level="a" type="main">Characterization of high-Z pixel sensors using a focused monochromatic synchrotron beam</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-12-14">14/12/2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A111930CF239A826B61BFD461540C156</idno>
+					<note type="submission">from: 08/12/2012 to: 13/12/2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>In our proposal with number MI-1376 we requested beamtime at the ID18 beamline of ESRF in order to characterise the performance of hybrid pixel detectors featuring high-Z compound semiconductor sensors such as CdTe, CdZnTe and GaAs:Cr. Our plan was to perform sensitivity mappings of the sensors at the sub-pixel level with focused beam and to characterise the performance of our detector system for time-resolved experiments. Typically we would need two separate proposals to complete this experiment. However, the ID18 beamline due to its versatility can accommodate all our planning within a single proposal.</p><p>During the first part of the experiment we utilised a monochromatic X-ray beam with a fixed energy of 67.4 keV. By making use of collimators, the size of the beam was tuned in such a way in order to achieve a beam spot of about 20 μm x 20 μm FWHM. This beam size, being smaller than the actual pixel size of 55 μm allows the precision mapping of the sensor. In addition, the high energy impinging photons trigger effects such as fluorescence which degrade the position resolution of the detector.</p><p>Figure <ref type="figure" target="#fig_1">1</ref>, shows the sensitivity map of a 3x3 pixel area obtained with a 2 mm thick CdZnTe sensor. The focused beam was aligned at the centre of a chosen pixel and a raster scan perfomed in the surrounding area. The same scan performed with several energy threshold values, which allows us to extract useful information about effects such as the charge sharing or the emission of fluorescence photons. Analysing further the data obtained we could bring more insight for the performance of our detectors at high energies which is one of the objectives within the Detector Development Programme (DDP).</p><p>For the second part of the experiment we exploited the capabilites of our detectors in order to perform timeresolved experiments. Even though, such an experiment would be more interesting with the 16-bunch or the 4bunch filling mode, it was still possible with the 7/8 +1 mode. The Timepix readout chip that we use in our detectors is able to record the time-of-arrival (ToA) of each photon, i.e. a relative time with respect to a trigger signal, synchronised with the machine clock. By recording the ToA over several periods of the machine we were able to reproduce the structure of the bunches in the 7/8 +1 filling mode. Figure <ref type="figure" target="#fig_0">2</ref> shows the result.</p><p>Thanks to the time resolution of our detector we are able to distinguish clearly the single bunch spaced equally by 176 ns from the bunches which correspond to the 7/8 of the filling mode. In addition instead of a uniform distribution of the bunches within the 7/8, we observe consistently a pattern in the bunch structure which survives even after the folding of the data. This could provide useful input to the machine scientists/operators and should be studied further. To do so we would propose the use of the Timepix3 chip with improved time resolution with respect to its predecessor (Timepix) that we used to obtain these data.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 :</head><label>2</label><figDesc>Fig. 2: Histograms of ToA (in 20 ns units) obtained with the Timepix chip. On the left, the histogram obtained by accumulating several images with an exposure time of 27 μs which correspond to 10 cycles. On the right, the histogram is obtained by folding the 10 cycles into one. The horizontal axis represents the time elapsed between the detection of a X-ray photon and the end of exposure.</figDesc><graphic coords="2,33.75,406.67,263.20,198.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 :</head><label>1</label><figDesc>Fig. 1:Sensitivity maps of a 3x3 pixel area within a 2 mm thick CdZnTe sensor with 55 μm pitch. The raster scan performed with a step of 5 μm and an energy threshold of 20 keV (left) or 35 keV (right).</figDesc><graphic coords="2,33.75,37.50,254.10,212.55" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

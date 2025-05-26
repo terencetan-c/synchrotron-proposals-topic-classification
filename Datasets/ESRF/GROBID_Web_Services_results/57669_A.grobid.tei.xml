@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>04/03/2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marine</forename><surname>Cotte</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Frederik Vanmeert</orgName>
+								<orgName type="department" key="dep2">Department of Chemistry</orgName>
+								<orgName type="institution">Antwerp University</orgName>
+								<address>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Letizia</forename><surname>Monico</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Frederik Vanmeert</orgName>
+								<orgName type="department" key="dep2">Department of Chemistry</orgName>
+								<orgName type="institution">Antwerp University</orgName>
+								<address>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Annalisa</forename><surname>Chieli</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">CNR-ISTM</orgName>
+								<address>
+									<settlement>Perugia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Perugia</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">04/03/2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9C74A1AA1B7F2346DB6FCA0C657B52D8</idno>
+					<note type="submission">Once completed, the report should be submitted electronically to the User Office via the User from: 25/11/2015 to: 01/12/2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T22:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><ref type="url" target="https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do">https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports supporting requests for additional beam time</head><p>Reports can be submitted independently of new proposalsit is necessary simply to indicate the number of the report(s) supporting a new proposal on the proposal form.</p><p>The Review Committees reserve the right to reject new proposals from groups who have not reported on the use of beam time allocated previously.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports on experiments relating to long term projects</head><p>Proposers awarded beam time for a long term project are required to submit an interim report at the end of each year, irrespective of the number of shifts of beam time they have used.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Cadmium sulfide-based yellow-orange-red pigments is a class of compounds of different composition (CdS/Cd 1-x Zn x S/CdS x Se 1-x ) and crystalline structure (hexagonal, cubic or amorphous), widely used by many painters of late 19 th C-early 20 th C. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> The fading of CdS-based yellow paints, has been already documented for masterpieces by Ensor, <ref type="bibr" target="#b3">[4]</ref> Van Gogh, <ref type="bibr" target="#b4">[5]</ref> and Matisse. <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> In these case studies, Cd-sulfates, oxalates, carbonates, chlorides have been identified and suggested as possible degradation products, originated by a process that starts with a photoactivated step. Additives and other environmental factors have been also suggested as other possible triggering factors for the degradation of CdSbased pigments. Nevertheless, these hypotheses have been never experimentally proved by accelerated aging tests. With the final aim to assess the physico-chemical parameters influencing the chromatic alteration and/or destabilization of CdS-based pigments, this experiment has focused on the investigations of a series of oil paint models composed of commercial/historical CdS-based pigments of different composition (with additives and/or synthesis residues) before and after exposure to light or different relative humidity (RH) conditions. The study of the model paints was also combined with the analysis of several micro-samples (Figure <ref type="figure" target="#fig_0">1</ref>) obtained from the painting Alchemy (1947) by J. Pollock. 250 μm 250 μm</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">EXPERIMENTAL</head><p>The following materials were analyzed by means of μ-XRF/μ-XANES at the S K-, Cl K-and Cd L 3 -edge: a) S-/Cd-/Cl-reference compounds (10-15 in total); b) CdS-based oil paint models (20 in total) before and after exposure to different aging conditions (Table <ref type="table">I</ref>); c) Original paint micro-samples (5 in total) obtained from different CdS-paint areas of the painting Alchemy. By using the microtome avalialble at the ID21-beamline, all the paint samples were prepared and analyzed as thin sections (thickness of 5-20 μm). A highly monochromatic primary beam (with ΔE/E=10 -4 ) was produced using a Si(111) fixed-exit double-crystal monochromator. The incident beam was focused with Kirkpatrick-Baez mirrors down to a diameter of 0.6×0.6 µm² (h×v). XRF signals were collected in the horizontal plane and at 69° with respect to the incident beam direction by means of a single energy-dispersive silicon drift detector (Xflash 5100, Bruker). μ-XANES spectra were acquired in XRF mode by scanning the primary energy at the absorption edge of the following elements: S K-edge: 2.46-2.53 keV (energy step: 0.18 eV), Cl K-edge: 2.79-2.89 keV (energy step: 0.25 eV), and Cd L 3 -edge: 3.5-3.7 keV (energy step: 0.4 eV). The energy calibration was performed using CaSO 4 •2H 2 O, NaCl and a Cd foil as standards. The software ATHENA, <ref type="bibr" target="#b8">[9]</ref> was used to perform the normalization of the XANES spectra. During the μ-XRF mapping experiments, the fluorescence signals were produced by employing a monochromatic primary beam of fixed energy (around the S K-and Cd L 3 -edges). Maps of the same region of interest were recorded using 100 ms/pixel at three different excitation energies: (i) at 2.473 keV and 2.482 keV to favor the excitation of the S -II -and S -VI -species, respectively; (ii) at 3.7 keV to obtain the fluorescence intensity of all S-, Cl-and Cd-species. The software PyMca was used to fit the fluorescence spectra and separate the contribution of different elements. <ref type="bibr" target="#b9">[10]</ref> Table <ref type="table">I</ref>. List of the unaged/aged oil paint model samples analyzed by S K-, Cl K-, and Cd-L3-edges µ-XRF/µ-XANES spectroscopy (20 in total). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Artificially aged CdS-based paint models.</head><p>An overview of the SR μ-XANES and μ-XRF results obtained from the analyzed paint models samples is summarized in Table <ref type="table">I</ref>. S-and Cd-speciation results obtained from samples 2791, 844, CdS hexagonal and CdS cubic (not shown) did not reveal significant changes after neither light exposure nor treatment with moisture. A mixture of CdS and BaSO 4 was identified in samples 2791 and 844, while only CdS was detected in CdS hexagonal and CdS cubic . On the contrary, clear indications about the local S -II → SO 4 2-conversion and the formation of new organo-Cdcompounds (i.e., oxalates-result also supported by μ-FTIR and μ-XRD) were observed for the samples containing Cl-compounds (i.e., 7914 and 7913) and aged with different relative humidity conditions. In both samples, chlorides are likely present as additives/residues of early synthesis procedures. <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b2">3]</ref> Figure <ref type="figure" target="#fig_2">2</ref> shows the μ-XRF distribution of S -II , S VI , Cl and Cd along with a selection of the corresponding S K-, Cl K and Cd-L 3 -edges μ-XANES spectra obtained from the sample 7914 before (unaged) and after exposure either to light (UVA-Vis) or different relative humidities (95% RH/50% RH).</p><p>In the unaged sample, S -II , Cl and Cd, appear to be homogenously distributed within the paint (Figure <ref type="figure" target="#fig_2">2A</ref>). On the basis of the comparison between the μ-XANES spectra (Figure <ref type="figure" target="#fig_2">2B</ref>) obtained from the sample (black lines) and those of the reference compounds (blue lines), these species are ascribable to CdS, CdCO 3 and Cd-chlorides [CdCl(OH)].</p><p>In the S K-edge XANES spectrum, the energy-shift and increase of the intensity of the white-line at ca. 2.482 keV suggest also lower amount of S VIspecies (cf. CdS reference profile).</p><p>After UVA-Vis light exposure, the elemental distribution does not reveal significant changes (Figure <ref type="figure" target="#fig_2">2A</ref>). Neither the formation of oxidezed-S species nor that of new Cd-based compounds is revealed by S K-and Cd L 3 -edges μ-XANES analysis. Only in the Cl K-edge μ-XANES spectra collected from the upper 50 μm of the thin section, the appreciable broadening of the post-edge feature at 2.824-2.83 keV is observable. The μ-XRF/μ-XANES results obtained from the sample 7914 aged with two different relative humidity conditions (95% RH or 50% RH) are consistent with the presence of newly formed S VI -rich aggregates/spots, often colocalized with Cd and Cl-species too. The S K-edge XANES spectra recorded from these areas strongly resemble to that of the CdSO 4 reference compound, while the corresponding Cd L 3 -edges profiles are more similar to those of CdCl 2 and/or CdC 2 O 4 . In the Cl K-edge μ-XANES spectra, changes very similar to those present in the profiles obtained from the equivalent UVA-Vis light-exposed material are observable. 15 μm Cl S VI Cd 15 μm S VI S -II 95% RH surface 10 μm 10 μm S VI S -II Cl S VI Cd 50% RH surface S -II Cl Cd 10 μm surface UNAGED 20 μm surface UVA-Vis S -II Cl Cd ( (B B) )</p><p>3.536 3.588 3.640 95% RH Cd L 3 -edge Normalized Fluorescence unaged CdCO 3 CdC 2 O 4 Energy (keV) UVA-Vis 50% RH CdCl 2 .nH 2 O 2.82 2.84 2.86 2.88 Cl K-edge Normalized Fluorescence CdCl 2 nH 2 O Energy (keV) 95% RH unaged UVA-Vis 50% RH</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>( (A A) )</head><p>In Figure <ref type="figure" target="#fig_5">3</ref>, the S and Cd-speciation results obtained from the sample 7913 before (unaged) and after exposure to high relative humidity conditions (95% RH) are reported.</p><p>In the unaged sample, CdS is the main consitutent of the yellow-orange paints. K and Cl-particles are also widespread within the paint (Figure <ref type="figure" target="#fig_5">3A</ref>, top). Similarly to the sample 7914, neither the formation of oxided-S species nor that of new Cd-based compounds was detected after UVA-Vis light exposure (results not reported), while the in situ formation of CdSO 4 is detectable after exposure to moisture (Figure <ref type="figure" target="#fig_5">3A</ref>, bottom; Figure <ref type="figure" target="#fig_5">3B</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">SUMMARY AND CONCLUSIONS</head><p>The results obtained from this experiment (to be published soon) have revealed that: a) the CdS-pigments are stable under UVA-Vis light exposure; b) the composition and crystalline structure of the pigment itself do not influence its stability; c) the formation of Cd-alteration products (CdSO 4, CdC 2 O 4, and Cd-carboxylates) appears to occur only for historical pigments containing Cl-compounds (residues of early synthesis procedures) and that it is favored under exposure to high relative humidity condition (≥50% RH). These experimental findings open up the way to additional investigations that will focus on the role of Clcompounds in the mechanism of oxidation of Cd-yellows. S -II S VI Cd 20 μm 20 μm Cd S -II 20 μm K Cl UNAGED 95% RH surface surface ( (A A) ) ( (B B) )</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Optical microscope pictures of two of the paint microsamples taken from the painting Alchemy by J. Pollock (1947, Peggy Guggenheim collection, Venice).</figDesc><graphic coords="2,420.77,473.37,123.84,117.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Thermal aging. Localized formation of CdSO4 often combined with that of CdC2O4 and Cl-compounds. Appreciable changes in the post-edge spectral features of the Cl K-edge XANES profiles. (c) Photochemical aging. Neither significant incresing of S VI -species nor formation of new Cd-based phases were detected. Appreciable changes were observed only the in the post-edge absorption region of the Cl K-edge XANES profiles collected from the upper 50 μm of the thin section. -species Thermal aging. Localized formation of CdSO4. (d) Photochemical aging. The formation of S VI -species and new Cd-based phases was not identified/negligible. change after neither thermal nor photochemical aging *Historical powder (early 20 th C). § Commercially available powder. ǂ In-house synthesized powder. (a) Characterization performed using the following laboratory techniques: XRPD, macro reflection/ATR mode FTIR, UV-Vis, Raman spectroscopies (for further details, see [1,2]). (b) Analysis performed only on the unaged/aged samples 7914. (c) Additional identification of Cd-carboxylates by FTIR. (d) Detection of CdC2O4 by FTIR/XRD.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Paint model sample 7914. (A) RGB composite μ-XRF S -II /S VI chemical state maps and Cl/Cd distributions acquired from 7914 (from left to right) before and after exposure to light (UVA-Vis) or different relative humidity conditions (95% RH or 50% RH) [step sizes (h×v): 1×1 µm 2 ; dwell time: 100 ms/pixel]. (B) Selected (from left to right) S K-, Cd L3-and Cl K-edges μ-XANES spectra obtained from the areas indicated by the symbol "X" in (A). In blue, spectral profiles of the reference compounds.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>3 . 2</head><label>32</label><figDesc>Original paint micro-samples from "Alchemy" (results not shown). S and Cd-speciation investigations of four out five analyzed samples (Figure1, top) revealed that CdS and BaSO 4 are the main constituents of the yellow layer. In the remaining sample (Figure1, bottom), the yellow pigment, strongly diluted in a Cl/Pb-rich matrix, was found to be composed of CdS and CdCO 3 . No evidence of other S/Cd/Cl-based compounds ascribable to the degradation of the original CdS-yellow pigments were identified.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Paint model sample 7913. (A) RGB composite μ-XRF S -II /S VI chemical state maps and Cl/K/Cd distributions acquired from 7913 (top) before and (B) after exposure to high relative humidity conditions (95% RH) [step sizes (h×v): 1×1 µm 2 ; dwell time: 100 ms/pixel]. (B) Selected (top) S K-and (bottom) Cd L3-edges μ-XANES spectra obtained from the areas shown by "X" in (A). In blue, spectral profiles of the reference compounds.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">UV–Vis-NIR and micro Raman spectroscopies for the non destructive identification of Cd 1−x Zn x S solid solutions in cadmium yellow pigments</title>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Rosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Grazia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Gabrieli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aldo</forename><surname>Romani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Paolantoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Riccardo</forename><surname>Vivani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brunetto</forename><forename type="middle">G</forename><surname>Brunetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Colomban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Costanza</forename><surname>Miliani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.microc.2015.07.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microchemical Journal</title>
+		<title level="j" type="abbrev">Microchemical Journal</title>
+		<idno type="ISSN">0026-265X</idno>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="856" to="867" />
+			<date type="published" when="2016-01">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Rosi et al., Microchemical Journal 124 (2016), 856-867.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">UV–Vis-NIR and microRaman spectroscopies for investigating the composition of ternary CdS 1−x Se x solid solutions employed as artists&apos; pigments</title>
+		<author>
+			<persName><forename type="first">Chiara</forename><surname>Grazia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Rosi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Gabrieli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aldo</forename><surname>Romani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Paolantoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Riccardo</forename><surname>Vivani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brunetto</forename><forename type="middle">G</forename><surname>Brunetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Colomban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Costanza</forename><surname>Miliani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.microc.2015.11.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microchemical Journal</title>
+		<title level="j" type="abbrev">Microchemical Journal</title>
+		<idno type="ISSN">0026-265X</idno>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="279" to="289" />
+			<date type="published" when="2016-03">2016</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Grazia et al., Microchemical Journal 125 (2016), 279-289.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Germany: BASF – lead chromate reds, oranges &amp; yellows</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fiedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bayard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0969-6210(12)70071-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Focus on Pigments</title>
+		<title level="j" type="abbrev">Focus on Pigments</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Feller</surname></persName>
+		</editor>
+		<idno type="ISSN">0969-6210</idno>
+		<imprint>
+			<biblScope unit="volume">2012</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="1986">1986</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Fiedler, M. A. Bayard, &quot;Cadmium Yellows, Oranges and Reds&quot;, in Artists&apos; Pigments. A Handbook of Their History and Characteristics, Vol. 1: Feller, R. L. (Ed.) Oxford University Press 1986, pp. 65-108.</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Characterization of a Degraded Cadmium Yellow (CdS) Pigment in an Oil Painting by Means of Synchrotron Radiation Based X-ray Techniques</title>
+		<author>
+			<persName><forename type="first">Geert</forename><surname>Van Der Snickt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joris</forename><surname>Dik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marine</forename><surname>Cotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Koen</forename><surname>Janssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jakub</forename><surname>Jaroszewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wout</forename><surname>De Nolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jasper</forename><surname>Groenewegen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luuk</forename><surname>Van Der Loeff</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac802518z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Chemistry</title>
+		<title level="j" type="abbrev">Anal. Chem.</title>
+		<idno type="ISSN">0003-2700</idno>
+		<idno type="ISSNe">1520-6882</idno>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2600" to="2610" />
+			<date type="published" when="2009-03-11">2009</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Van der Snickt et al., Analytical Chemistry 81 (2009), 2600-2610.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Combined use of Synchrotron Radiation Based Micro-X-ray Fluorescence, Micro-X-ray Diffraction, Micro-X-ray Absorption Near-Edge, and Micro-Fourier Transform Infrared Spectroscopies for Revealing an Alternative Degradation Pathway of the Pigment Cadmium Yellow in a Painting by Van Gogh</title>
+		<author>
+			<persName><forename type="first">Geert</forename><surname>Van Der Snickt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Koen</forename><surname>Janssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joris</forename><surname>Dik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wout</forename><surname>De Nolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frederik</forename><surname>Vanmeert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacub</forename><surname>Jaroszewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marine</forename><surname>Cotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerald</forename><surname>Falkenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luuk</forename><surname>Van Der Loeff</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac3015627</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Chemistry</title>
+		<title level="j" type="abbrev">Anal. Chem.</title>
+		<idno type="ISSN">0003-2700</idno>
+		<idno type="ISSNe">1520-6882</idno>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="10221" to="10228" />
+			<date type="published" when="2012-10-25">2012</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Van der Snickt et. al., Analytical Chemistry 84 (2012), 10221-10228.</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The photodegradation of cadmium yellow paints in Henri Matisse’s Le Bonheur de vivre (1905–1906)</title>
+		<author>
+			<persName><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Mass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Opila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marine</forename><surname>Cotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Church</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Apurva</forename><surname>Mehta</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00339-012-7418-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics A</title>
+		<title level="j" type="abbrev">Appl. Phys. A</title>
+		<idno type="ISSN">0947-8396</idno>
+		<idno type="ISSNe">1432-0630</idno>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="59" to="68" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Mass et al., Applied Physics A 111 (2013), 59-68.</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">SR-FTIR imaging of the altered cadmium sulfide yellow paints in Henri Matisse&apos;s Le Bonheur de vivre (1905–6) – examination of visually distinct degradation regions</title>
+		<author>
+			<persName><forename type="first">Jennifer</forename><surname>Mass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julia</forename><surname>Sedlmair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Catherine</forename><forename type="middle">Schmidt</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Carson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbara</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carol</forename><surname>Hirschmugl</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3an00892d</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Analyst</title>
+		<title level="j" type="abbrev">Analyst</title>
+		<idno type="ISSN">0003-2654</idno>
+		<idno type="ISSNe">1364-5528</idno>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page">6032</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Mass et al., Analyst 138 (2013), 6032-6043.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">2D X-ray and FTIR micro-analysis of the degradation of cadmium yellow pigment in paintings of Henri Matisse</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pouyet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fayard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salomé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meirer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Uffelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vanmeert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kieffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Janssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mass</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00339-015-9239-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physics A</title>
+		<title level="j" type="abbrev">Appl. Phys. A</title>
+		<idno type="ISSN">0947-8396</idno>
+		<idno type="ISSNe">1432-0630</idno>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="967" to="980" />
+			<date type="published" when="2015-06-03">2015</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Pouyet et al., Applied Physics A 121 (2015), 967-980.</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">&lt;i&gt;ATHENA&lt;/i&gt;,&lt;i&gt;ARTEMIS&lt;/i&gt;,&lt;i&gt;HEPHAESTUS&lt;/i&gt;: data analysis for X-ray absorption spectroscopy using&lt;i&gt;IFEFFIT&lt;/i&gt;</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ravel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Newville</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/s0909049505012719</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Synchrotron Radiation</title>
+		<title level="j" type="abbrev">J Synchrotron Rad</title>
+		<idno type="ISSN">0909-0495</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="537" to="541" />
+			<date type="published" when="2005-06-15">2005</date>
+			<publisher>International Union of Crystallography (IUCr)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Ravel, M. Newville Journal of Synchrotron Radiation 12 (2005), 537-541.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A multiplatform code for the analysis of energy-dispersive X-ray fluorescence spectra</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Solé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Papillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Susini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sab.2006.12.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Spectrochimica Acta Part B: Atomic Spectroscopy</title>
+		<title level="j" type="abbrev">Spectrochimica Acta Part B: Atomic Spectroscopy</title>
+		<idno type="ISSN">0584-8547</idno>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="68" />
+			<date type="published" when="2007-01">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. A. Solé et al., Spectrochimica Acta B 62 (2007), 63-68.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

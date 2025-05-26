@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">EUROPEAN SYNCHROTRON RADIATION FACILITY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">58A8E0AE5700AACEDF59BBC7EAEB495D</idno>
+					<note type="submission">Once completed, the report should be submitted electronically to the User Office via the User</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><ref type="url" target="https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do">https://wwws.esrf.fr/misapps/SMISWebClient/protected/welcome.do</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports supporting requests for additional beam time</head><p>Reports can be submitted independently of new proposals -it is necessary simply to indicate the number of the report(s) supporting a new proposal on the proposal form.</p><p>The Review Committees reserve the right to reject new proposals from groups who have not reported on the use of beam time allocated previously.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reports on experiments relating to long term projects</head><p>Proposers awarded beam time for a long term project are required to submit an interim report at the end of each year, irrespective of the number of shifts of beam time they have used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Published papers</head><p>All users must give proper credit to ESRF staff members and proper mention to ESRF facilities which were essential for the results described in any ensuing publication. Further, they are obliged to send to the Joint ESRF/ ILL library the complete reference and the abstract of all papers appearing in print, and resulting from the use of the ESRF.</p><p>Should you wish to make more general comments on the experiment, please note them on the User Evaluation Form, and send both the Report and the Evaluation Form to the User Office.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Deadlines for submission of Experimental Reports</head><p>-1st March for experiments carried out up until June of the previous year; -1st September for experiments carried out up until January of the same year.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instructions for preparing your Report</head><p>• fill in a separate form for each project or series of measurements.</p><p>• type your report, in English.</p><p>• include the reference number of the proposal to which the report refers.</p><p>• make sure that the text, tables and figures fit into the space available.</p><p>• if your work is published or is in press, you may prefer to paste in the abstract, and add full reference details. If the abstract is in a language other than English, please include an English translation. The goal of our experiment was 3D microstructure mapping of a series of austenitic-ferritic duplex steel samples by means of phase contrast tomography (PCT) and diffraction contrast tomography (DCT). The duplex steels are widely used for high-loaded components in off-shore technologies. The 3D microstructure mapping is required for understanding of damage mechanisms in the Very High Cycle Fatigue (VHCF) regime. The experiment was the first collaboration between two interdisciplinary working research teams (German DFG project 3D-VHCF: 1 post doc and 2 PhD students, and the French ANR project 'Crystal' which has been granted a 3 year post-doctoral fellowship at the ESRF).We have investigated a series of samples consisting of 6 mini-specimen, which where prior to the experiment pre-fatigued to different but very high numbers of loading cycles (R=-1). (See Figure <ref type="figure" target="#fig_1">1</ref>, Table <ref type="table">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Specimen Stress-amplitude [MPa] Number of Cycles</head><p>[N] 2 350 2.1×10 7 3 350 2.2×10 7 5 375 5.5×10 7 6 375 1.5×10 7 8 350 8.0×10 7 12 375 8.5×10 7 Table <ref type="table">1</ref>. Stress-amplitude and number of cycles of the examined fatigued specimen.</p><p>For this study at the ID11 we used the standard PCT/DCT tomography set-ups (see Figure <ref type="figure" target="#fig_2">2</ref>,3). As detector we used a FReLoN charge coupled device camera (2048 x 2048 pixels) equipped with an optic set and a GdGa-garnet scintillator giving an effective pixel size of 1.5 µm.  The samples axis were put in the center of rotation using a goniometer head. The X-ray energy was 40 keV and 7200 images were recorded during a 360° rotation of the sample. Using a Si (111) double crystal monochromator the acquision time was two hours for PCT and seven hours for DCT. The grain map was later reconstructed using an existing code written in MATLAB. Currently, the code is optimized for single-phase materials such as Ti alloys and therefore, not directly suitable for the two phase duplex steels. In present DCT experiment problems arose due to a strong texture effect so that sometime different diffraction spots were overlapping on the detector screen. Both effects seriously complicates the reconstruction scheme. Currently, an optimization work of the code is under way which will enable a much more precise phase reconstruction. However, a first PCT and DCT renditions of the 3D grain structure are shown in Fig. <ref type="figure">4</ref>   After the optimization of the code, complete 3D-reconstructions of all six samples will be performed. The 3D orientation data will serve as input for (i) the verification of the finite element approach to predict the sites of first local plasticity under very high cycle fatigue loading conditions (macroscopically elastic), (ii) the development of a new model concept for the formation of pronounced slip bands as a consequence of partially irreversible dislocation motion on distinct slip systems.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Names and affiliations of applicants (* indicates experimentalists): Konstantin Istomin (University of Siegen, Physics Department)* Alexander Giertler (Osnabrück University of Applied Sciences)* Ulrich Krupp (Osnabrück University of Applied Sciences) Ullrich Pietsch (University of Siegen, Physics Department) Report:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Miniature fatigue specimen, with a gauge length diameter of 300µm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. PCT set-up. Sample to detector distance was approx. 300 mm, beamsize -200x700µm.</figDesc><graphic coords="3,65.64,79.32,194.76,138.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig.3. DCT set-up. Sample to detector distance was approx. 5 mm, beamsize -200x150 µm.</figDesc><graphic coords="3,356.64,79.32,151.08,140.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>of PCT reconstruction. Austenite grains have a darker color due to a slighty stronger absorption because of their higher Ni-content.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5</head><label>5</label><figDesc>Fig.5 Example of DCT reconstruction. a) showing a section plan with ferrite grains, b) showing a section plane with austenite grains.</figDesc><graphic coords="3,339.36,575.40,198.48,179.52" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

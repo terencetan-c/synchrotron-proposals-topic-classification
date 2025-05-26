@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Imaging large ensembles of cells at high resolution using scanning SAXS Experiment number: SC4506</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+							<affiliation key="aff0">
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gerrit</forename><surname>Brehm</surname></persName>
+							<affiliation key="aff0">
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chiara</forename><surname>Cassini</surname></persName>
+							<affiliation key="aff0">
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Manuela</forename><surname>Denz</surname></persName>
+							<affiliation key="aff0">
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+							<affiliation key="aff0">
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><surname>Wittmeier</surname></persName>
+							<affiliation key="aff0">
+							</affiliation>
+						</author>
+						<title level="a" type="main">Imaging large ensembles of cells at high resolution using scanning SAXS Experiment number: SC4506</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6861DD4691EE2D495E149A43BB552CC8</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The aim of this experiment was to extend our recently developed methods for x-ray nanodiffraction on cells (see <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>) to larger ensembles of cells and thus allow for better statistics in data analysis. We took advantage of the recently developed fast scanning mode at the ID13 beamline to image several hundred 3T3 fibroblast cells, in a single measurement. This approach allows information of sub-cellular structures to be collected for a statistically significant number of cells, such that meaningful ensemble averages can be computed.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experimental setup and data collection: Mouse embryonic fibroblasts were grown on silicon rich nitride windows with a total membrane area of 1.5 x 1.5 mm 2 , chemically fixed and freeze-dried at our home laboratory. These cells were chosen as they are well characterized, comparatively easy to handle and thus served as a suitable model cell line for our proof of principle experiment. The experiments were performed at the EHII of ID 13 using a microfocused beam (2 x 3 µm 2 ). The diffraction patterns were collected by an Eiger 4M detector placed 0.9 m away from the sample. In preparatory experiments at the beginning of the beam time, we determined an ideal step size of 0.5 µm in both the horizontal and vertical directions and an exposure time for each position of 1.34 ms. Note that we deliberately chose a step size smaller than the beam size here. Complete windows were scanned in single runs, amounting to a total of about 9 million diffraction patterns and a total scan time of 7 hours. About 700 cells could be scanned on each window and we were able to complete two entire scans, whereas one was interrupted by a detector crash.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>Obviously, this wealth of information cannot be analysed by hand, as we used to do it in the past, when only a small number of cells were scanned in an experiment. The dark field representation calculated from an entire-window scan is shown in Figure <ref type="figure" target="#fig_0">1a</ref>. Despite the short exposure time and comparatively large beam size, the spatial resolution of the dark field allows for a semi-automated segmentation of the image, as shown in Figure <ref type="figure" target="#fig_0">1b</ref>, where we marked the outer cell contours in red. Based on such segmentations, using a self-written MATLAB script, it is possible to define different regions of interest, in particular the (empty) background, the cell nucleus versus the cell cytoplasm and features within the cell nucleus for each cell. Structural data is then obtained from the analysis of individual diffraction patterns belonging to a given region of interest. Data analysis is still ongoing, and will put us in the positions to analyse single cells, as executed in the past <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>, but also average over larger ensembles of cells and thus obtain spatially high resolution structural data with a high statistical weight. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: a) Dark field image of an entire sample. Total area is 1.5 x 1.5 mm 2 . The bright objects are individual cells. b) Example for a region of interest (yellow box in a). The red lines represent the result of the segmentation algorithm applied to the data for separating cells from background.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">X-ray nano-diffraction on cytoskeletal networks</title>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens-Friedrich</forename><surname>Nolting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Olendrowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jannick</forename><surname>Langfahl-Klabes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Salditt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1367-2630/14/8/085013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">New Journal of Physics</title>
+		<title level="j" type="abbrev">New J. Phys.</title>
+		<idno type="ISSNe">1367-2630</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">085013</biblScope>
+			<date type="published" when="2012-08-17">2012</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Weinhausen, J.-F. Nolting, C. Olendrowitz, J. Langfahl-Klabes, M. Reynolds, T. Salditt, S. Köster, New Journal of Physics (2012), 14, 085013</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microfluidic devices for X-ray studies on hydrated cells</title>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c2lc41014a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<title level="j" type="abbrev">Lab Chip</title>
+		<idno type="ISSN">1473-0197</idno>
+		<idno type="ISSNe">1473-0189</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="212" to="215" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Royal Society of Chemistry (RSC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Weinhausen, S. Köster, Lab on a Chip (2013) 13, 212-215</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Scanning X-Ray Nanodiffraction on Living Eukaryotic Cells in Microfluidic Environments</title>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliva</forename><surname>Saldanha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robin</forename><forename type="middle">N</forename><surname>Wilke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Dammann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marius</forename><surname>Priebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Sprung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.112.088102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<title level="j" type="abbrev">Phys. Rev. Lett.</title>
+		<idno type="ISSN">0031-9007</idno>
+		<idno type="ISSNe">1079-7114</idno>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">88102</biblScope>
+			<date type="published" when="2014-02-25">2014</date>
+			<publisher>American Physical Society (APS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Weinhausen, O. Saldanha, R.N. Wilke, C. Dammann, M. Priebe, M. Burghammer, M. Sprung, S. Köster, Physical Review Letters (2014), 112, 088102</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Revealing the Structure of Stereociliary Actin by X-ray Nanoimaging</title>
+		<author>
+			<persName><forename type="first">Valeria</forename><surname>Piazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Dammann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Maurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/nn5041526</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="12228" to="12237" />
+			<date type="published" when="2014-12-01">2014</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Piazza, B. Weinhausen, A. Diaz, C. Dammann, C. Maurer, M. Reynolds, M. Burghammer, S. Köster, ACS Nano (2014), 8, 12228-12237</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">X-rays Reveal the Internal Structure of Keratin Bundles in Whole Cells</title>
+		<author>
+			<persName><forename type="first">Clément</forename><forename type="middle">Y J</forename><surname>Hémonnot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juliane</forename><surname>Reinhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliva</forename><surname>Saldanha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Patommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rita</forename><surname>Graceffa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Britta</forename><surname>Weinhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Burghammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><forename type="middle">G</forename><surname>Schroer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acsnano.5b07871</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="3553" to="3561" />
+			<date type="published" when="2016-02-26">2016</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.Y.J. Hémonnot, J. Reinhardt, O. Saldanha, J. Patommel, R. Graceffa, B. Weinhausen, M. Burghammer, C.G. Schroer, S. Köster, ACS Nano (2016), 10, 3553-3561</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Following DNA Compaction During the Cell Cycle by X-ray Nanodiffraction</title>
+		<author>
+			<persName><forename type="first">Clément</forename><forename type="middle">Y J</forename><surname>Hémonnot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christiane</forename><surname>Ranke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliva</forename><surname>Saldanha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rita</forename><surname>Graceffa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Köster</surname></persName>
+			<idno type="ORCID">0000-0002-0009-1024</idno>
+		</author>
+		<idno type="DOI">10.1021/acsnano.6b05034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Nano</title>
+		<title level="j" type="abbrev">ACS Nano</title>
+		<idno type="ISSN">1936-0851</idno>
+		<idno type="ISSNe">1936-086X</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="10661" to="10670" />
+			<date type="published" when="2016-11-24">2016</date>
+			<publisher>American Chemical Society (ACS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.Y.J. Hémonnot, C. Ranke, O. Saldanha, R. Graceffa, J. Hagemann, S. Köster, ACS Nano (2016), 10, 10661-10670</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

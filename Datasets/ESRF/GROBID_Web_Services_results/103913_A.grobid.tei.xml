@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Phonon lifetime in vanadium dioxide Experiment number: HC-5354</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Artem</forename><surname>Korshunov</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Javier</forename><surname>Del Valle Granda</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Willem</forename><surname>Rischau</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Oviedo</orgName>
+								<orgName type="institution" key="instit2">University of Geneva (Switzerland)</orgName>
+								<address>
+									<addrLine>Lucia Varbaro</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Geneva</orgName>
+								<address>
+									<country>Switzerland)*</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Phonon lifetime in vanadium dioxide Experiment number: HC-5354</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5984D4DCEAE0D6B2014EE3551AF414CE</idno>
+					<note type="submission">from: March 28 th 2023 to: April 3 rd 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T15:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Background VO2 features a metal-insulator transition (MIT) when the temperature is lowered below 340 K. This transition is concomitant with a structural transition, which makes it hard to disentangle the mechanism driving it.</p><p>Our goal was to check the phonon dynamics in the metallic state and look for hints that could offer an awnser to this question. Specifically, we wanted to see wether phonon lifetimes had an anomalous temperature dependence within the metallic state of VO2. Our proposal was motivated by <ref type="bibr">Budai et al. Nature 515, 535 (2014)</ref>, where for two temperatures (400 K and 800 K), they observe that phonon linewidhts are similar. We decided to take an in depth study of phonon lifetimes as a function of temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment</head><p>We synthethized VO2 single crystals (Fig. <ref type="figure" target="#fig_0">1a</ref>) with lenghts up to 1-2 mm for this experiment. In the metallic state, the samples don't have any twins, so it was easy to determine the crystallographic directions for alignment.</p><p>Once the sample was mounted we aligned it and proceeded to measure energy scans for constant momentum transfer values. We used the (9,9,9) monochromator reflection (17.8 keV), which gives us a good intensity/resolution compromise. We focused on three momentum transfers, the R, M and A points. The R and M points are associated with the static structural transitions ocurring at lower temperature, from the rutile phase into the monoclinic 1 and monoclinic 2 phases. These points lay in very broad acoustic phonon branches with short lifetime. For heating, we used a N2 blow heater. Nitrogen was used to avoid oxidation of the samples. Figure <ref type="figure" target="#fig_0">1b</ref> shows an example of energy scans at different temperatures. From these scans, and using the software available in the beamline, we extracted the FWHM using a pseudovoigt function. An elastic line was used in all fittings. From the FWHM we extracted the lifetimes, as shown in Figure <ref type="figure" target="#fig_0">1c</ref>. The R and M points are shown, for the A point, the presence of multiple wide phonon made the lifetime determination not reliable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation</head><p>An anomalous behaviour is clearly observed for both the R and M points. For the R point, lifetime starts plateauing as the MIT approaches. For the M point, below 800 K lifetime actually decreases as temperature is lowered. This anomalous behavior is also observed in Raman measurements (Figure <ref type="figure" target="#fig_0">1d</ref>), where a slight thinning of the peaks is observed as temperature is increased. Figure <ref type="figure" target="#fig_0">1f</ref> shows the inverse of magnetic susceptibility as a function of temperature, showing d electrons have antiferromagnetic correlations starting from high temperatures.</p><p>All this data suggests the overall following picture: as temperature is decreased, pairing between d electrons of neighboring increases. This is seen from magnetization measurements. This redistributes charge, increasing electron-phonon scattering. Phonon-phonon scattering monotonously decreases as temperature is lowered, and is expected to dominate at high temperatures. If electron-phonon scattering increased with decreasing temperature, it would explained the IXS and Raman results. Interestingly, all this begins hundreds of degrees above the transition. These results are complete and sufficient for a publication, which we will start writing in the coming weeks. However, our results do not resolve the controversy of wether electron-phonon coupling or purely electronic correlations drive the transition. We are currently designing an experiment to use resonant diffuse scattering to figure this out. Very conveniently, during our beamtime we were able to use the second experimental station, dedicated to diffuse scattering (Figure <ref type="figure" target="#fig_0">1f</ref>). It showed that diffuse scattering is very strong and happens on planes perpendicular to the 111 direction. It has allowed us to identify the (2.5, 0, 1.5) has a very strong diffuse scatting point. This will be very valueable when planning future beamtimes. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1. a) VO2 crystals like the ones used in the experiment. b) Constant-q energy scans around the R point at different temperatures. c) Phonon lifetimes as a function of temperature at the M and R points. d) Raman at different temperatures in similar samples. e) Inverse susceptibility vs temperature. f) Diffuse scattering at the HK1 surface, T=350 K.</figDesc><graphic coords="2,38.98,228.23,523.05,363.58" type="bitmap" /></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

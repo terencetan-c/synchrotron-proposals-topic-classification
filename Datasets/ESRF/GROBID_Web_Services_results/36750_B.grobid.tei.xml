@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ROBL-CRG</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Bm</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut für Röntgenphysik</orgName>
+								<orgName type="institution" key="instit1">Universität Göttingen Tim Salditt Institut für Röntgenphysik</orgName>
+								<orgName type="institution" key="instit2">Universität Göttingen</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carsten</forename><surname>Bähtz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut für Röntgenphysik</orgName>
+								<orgName type="institution" key="instit1">Universität Göttingen Tim Salditt Institut für Röntgenphysik</orgName>
+								<orgName type="institution" key="instit2">Universität Göttingen</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sven</forename><forename type="middle">Philip</forename><surname>Krüger</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut für Röntgenphysik</orgName>
+								<orgName type="institution" key="instit1">Universität Göttingen Tim Salditt Institut für Röntgenphysik</orgName>
+								<orgName type="institution" key="instit2">Universität Göttingen</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ROBL-CRG</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BFDF1D872313F5C0339DA9BA005431EC</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-22T20:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Report:</head><p>Nanometer sized x-ray beams with controlled coherence properties are needed for high resolution x-ray imaging and holography. X-ray waveguides are in principle be capable to deliver beams with cross sections down to below 10nm, values currently not achieved by other focussing optics. In practice, however, waveguide optics and applications are limited by the small transmission T of mono-modal waveguides. To optimize the transmission and to minimize absorption losses, we have implemented a novel waveguide design based on a two-component cladding. The transmission T is strongly enhanced by using an appropriate Mo interlayer between the Ge cladding and a mono-modal guiding core made from amorphous carbon C. Thereby the absorption of the evanescent tails of the fundamental mode is significantly reduced, while a second (outer) cladding with a high absorption coefficient is used to efficiently block the radiative modes. The index profile of the two-component waveguide is shown in fig. <ref type="figure" target="#fig_0">1</ref>, simulated for the experimental photon energy E=19.5 keV. For the experiment, a layer sequence Ge/Mo[</p><formula xml:id="formula_0">d i =30 nm]/C [d]/Mo [d i =30 nm]/Ge</formula><p>was deposited on 3mm thick Ge single crystal substrates (Incoatec GmbH, Germany). Out of a series of different guiding layer thicknesses d, we present data measured of the waveguide with the smallest value d=18 nm. From the wafer a piece of l=2.4 mm was cut by a stainless steel filament wetted with an emulsion of 9 μm SiC crystallites. The experiment was performed at the BM20 bending magnet beamline using a 19.5 keV beam defined by a double Si(111) monochromator, placed in the middle between two conjugate Pt mirrors for higher harmonic rejection. The beam size at the horizontally placed sample was 0.02 mm (vertical) x 2 mm (horizontal), as controlled by motorized entrance slits. Thus, the wavefront entrance front side was placed in the essentially unfocussed monochromatic beam of 1-2 x 10 8 photons/sec, depending on the ring current. After careful alignment of the waveguide translation z and the waveguide rotation α i , the transmission was determined to T=0.081, which is 83% of the ideal (theoretical) transmission (T=0.098), calculated from the FD simulations. To characterize the divergence of the exiting beam and to unambigiously evidence waveguiding, the farfield intensity distribution was measured (fig. <ref type="figure" target="#fig_0">1</ref>) at different angles of incidence α i . In these scans, the center (maximum) of the farfield distribution is always found to be α f =0, i.e. the farfield pattern maximum is constant with respect to the waveguide coordinate system. The experimental results show that high transmission values can be obtained even for small beam diameters below 20 nm and for long waveguide length needed for efficient blocking of the over-exposed beams in the multi keV photon energy range. Simulations show that this can be extended to waveguides below 10 nm.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1(left) schematic and index profiles n=1-δ(z)+iβ(z) for the two-component waveguide, calculated for a photon energy E=19.5 keV. (right) The farfield intensity distribution as a function of exit angle 2θ together with a Gaussian fit (solid lines) for different incidence angles α i .</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

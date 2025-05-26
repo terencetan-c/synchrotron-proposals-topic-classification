@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental Report template</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Olivier</forename><surname>Proux</surname></persName>
+						</author>
+						<title level="a" type="main">Experimental Report template</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C26EF394E7AD5A168A3F3AAAAC7549AF</idno>
+					<note type="submission">from: 13.07.2016 to: 19.07.2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-05-23T14:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">unknown</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=1, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective &amp; expected results (less than 10 lines):</p><p>In this project we are interested in the reaction mechanism of the oxygen evolution reaction (OER) on Ir-based catalysts, supported on different transition metal oxides (TiOx, SnO2 with dopants), and the influence of the support material on the activity and stability of the catalyst. We are using an operando setup, comprised of a real operating proton-exchange-membrane water electrolyzer (PEMWE) cell with an active area of 5 cm 2 and a corresponding test station to manage the cell temperature (between 40 and 80 °C), according to the typical operating conditions of PEMWE systems. During polarization of the cell at various potentials between 1.0 and 1.6 VRHE we recorded HERFD-XANES spectra in which we expected to observe an increase of the whiteline peak area with increasing potential, corresponding to higher oxidation states (as suggested in the literature). After that, we turn off the PEMWE cell, let it rest at the open-circuit potential (OCP) and again record spectra. Here, we expect to observe a surface reduction of the thermally prepared IrO2 and after again turning it on, we expect to see re-oxidation of the catalyst.</p><p>Results and the conclusions of the study (main part):</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the course of the beamtime, we were first able to demonstrate that our custom-built spectroscopic PEMWE cell and sample configuration are suitable to obtain high-quality HERFD-XANES spectra during operation of the cell. Due to the special geometry of the cell hardware, we were only able to use 3 of the 5 available Si(800) crystals on the Johann-type crystal analyzer, because the other 2 crystals were shielded. Another important observation during the operando experiments was the appearance of severe radiation damage, that would destroy our first sample already during the second spectrum we recorded. Following that, we optimized the spectroscopic setup by adding filters before our cell in order to decrease the incident beam intensity. Together with a constant checking of the sample by line scans, we were successful in preventing excessive damage that would create holes in our polymer membrane, leading to a failure of the cell. With this knowledge, we tested another 6 cells in operando mode, 3 each using a commercial IrO2 supported on rutile TiO2 and unsupported Ir black catalysts. Two out of these experiments for each catalyst were done at 80 °C and the third one at 40 °C. Unfortunately, the HERFD-XANES spectra recorded as a function of the OER potential did not show significant differences to yield information about Ir oxidation states involved in the reaction. We attribute this to the rather large size of the Ir-based structures: in the case of the supported IrO2, we were looking at a 4-5 nm thick film of IrO2 covering the entire surface of the support material and out of which only the surface layer is expected to change during OER conditions (Ir black had roughly the same size). Since XAS by itself is a bulk technique and the contribution of the Ir atoms at the surface (the so-called dispersion) is very small, we were unable to draw conclusions from this data. In the experiments with Ir black, the situation was slightly different and we were indeed able to observe an increase of the fraction of higher oxidized Ir atoms as the potential was increased, but again, due to the rather large particles, this change corresponded not only to the top-most layer of Ir atoms but rather penetrated into the particle by a certain depth which we could not quantify. Moreover, we were looking at changes of the whiteline peak with time during relaxation at the OCP.The resting period at OCV should result in partial reduction of the surface layer and thus shows higher OER activity, since Ir metal is inherently more active than IrO2. Unfortunately, the XANES spectra did not reflect this trend, for the same reasons as stated in the above discussion. Lastly, we also characterized different reference compounds and found out that only Ir(IV) in the form of IrO2 and Ir(0) as Ir foil and the Ir black powder (which contained a small contribution from oxide as expected from the surface oxide) were representative.</p><p>Justification and comments about the use of beam time (5 lines max.):</p><p>Overall, we are grateful for being awarded so many measurement shifts which allowed us to perform many experiments and to test our novel operando setup. Without the help of synchrotron radiation, in-situ measurements on an PEMWE cell are not possible because a high intensity and high energy beam is needed to penetrate the cell. Finally, the outstanding support we received from the entire beamline scientific staff, most and foremost by our local contact, Olivier Proux, was of crucial importance for these rather complciated experiments. Publication(s):</p></div>		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>
